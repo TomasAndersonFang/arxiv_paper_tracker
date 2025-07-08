@@ -18,30 +18,90 @@ jobs:
         python-version: '3.10'
         # 完全禁用缓存
     
-    - name: 🔍 Diagnose requirements files
+    - name: 🔍 Deep diagnosis of requirements files
       run: |
-        echo "=== 🔍 Searching for ALL requirements.txt files ==="
-        find . -name "requirements*.txt" -type f
+        echo "=== 🔍 COMPREHENSIVE FILE SEARCH ==="
+        echo "Current working directory: $(pwd)"
+        echo "All requirements-related files:"
+        find . -name "*requirements*" -o -name "*require*" -o -name "*.txt" | head -20
         echo ""
         
-        echo "=== 📄 Content of ./requirements.txt ==="
+        echo "=== 📁 Directory structure ==="
+        ls -la
+        echo ""
+        
+        echo "=== 🔍 ALL requirements*.txt files ==="
+        find . -name "requirements*.txt" -type f -exec echo "📄 Found: {}" \; -exec echo "  Full path: $(realpath {})" \; -exec echo "  Content:" \; -exec cat {} \; -exec echo "  Hash: $(md5sum {})" \; -exec echo "" \;
+        
+        echo "=== 📄 Current directory requirements.txt ==="
         if [ -f "./requirements.txt" ]; then
-          cat ./requirements.txt
-          echo "File size: $(wc -l < ./requirements.txt) lines"
-          echo "File hash: $(md5sum ./requirements.txt)"
+          echo "✅ ./requirements.txt exists"
+          echo "Full path: $(realpath ./requirements.txt)"
+          echo "Size: $(wc -l < ./requirements.txt) lines, $(wc -c < ./requirements.txt) bytes"
+          echo "Permissions: $(ls -la ./requirements.txt)"
+          echo "Content (with line numbers):"
+          cat -n ./requirements.txt
+          echo "MD5: $(md5sum ./requirements.txt)"
+          echo "SHA256: $(sha256sum ./requirements.txt)"
         else
-          echo "❌ ./requirements.txt not found!"
+          echo "❌ ./requirements.txt NOT FOUND!"
         fi
         echo ""
         
-        echo "=== 📄 Content of ALL found requirements files ==="
-        find . -name "requirements*.txt" -type f -exec echo "--- 📄 {} ---" \; -exec cat {} \; -exec echo "" \;
+        echo "=== 🔍 Search for ANY file containing package versions ==="
+        echo "Files containing 'arxiv':"
+        grep -r "arxiv" . --include="*.txt" --include="*.cfg" --include="*.ini" --include="*.toml" --include="*.yml" --include="*.yaml" 2>/dev/null || echo "No files found"
+        echo ""
         
-        echo "=== 🌿 Git status ==="
+        echo "=== 🌿 Git status and recent changes ==="
         git status
+        echo ""
+        git log --oneline -5
+        echo ""
         
-        echo "=== 📝 Git log (last 3 commits) ==="
-        git log --oneline -3
+        echo "=== 🔍 Check if requirements.txt is tracked by git ==="
+        git ls-files | grep requirements || echo "No requirements files tracked by git"
+    
+    - name: 🛠️ Force create correct requirements.txt
+      run: |
+        echo "=== 🛠️ Creating the CORRECT requirements.txt file ==="
+        
+        # 备份现有的requirements.txt（如果存在）
+        if [ -f "./requirements.txt" ]; then
+          echo "📄 Backing up existing requirements.txt"
+          cp ./requirements.txt ./requirements.txt.backup.$(date +%s)
+          echo "Current content of existing file:"
+          cat ./requirements.txt
+        fi
+        
+        # 强制创建正确的requirements.txt文件
+        cat > ./requirements.txt << 'EOF'
+arxiv==2.2.0
+openai==0.28.0
+requests==2.32.4
+python-dotenv==1.0.0
+jinja2==3.1.2
+EOF
+        
+        echo "✅ Created new requirements.txt with correct versions:"
+        cat ./requirements.txt
+        echo ""
+        echo "File info:"
+        ls -la ./requirements.txt
+        echo "MD5: $(md5sum ./requirements.txt)"
+        
+        # 验证文件可读性
+        echo "=== 🔍 Verify file readability ==="
+        python -c "
+with open('requirements.txt', 'r') as f:
+    content = f.read()
+    print('Python can read the file:')
+    print(repr(content))
+    lines = content.strip().split('\n')
+    print(f'Found {len(lines)} lines')
+    for i, line in enumerate(lines, 1):
+        print(f'Line {i}: {repr(line)}')
+"
     
     - name: 🧹 Complete cache elimination and fresh installation
       run: |
@@ -75,21 +135,54 @@ jobs:
         echo "=== ✅ Verification: packages after cleanup ==="
         pip list --format=freeze
         
-        echo "=== 🚀 Installing with maximum freshness ==="
-        # 使用多重保险的安装方式
+        echo "=== 🧪 Test pip's requirements parsing ==="
+        pip install --dry-run --no-cache-dir -r "$REQUIREMENTS_FILE" || echo "Dry run completed"
+        
+        echo "=== 🚀 Installing with EXPLICIT file verification ==="
+        
+        # 显示将要使用的文件
+        echo "📄 About to install from:"
+        echo "File: $(realpath requirements.txt)"
+        echo "Content:"
+        cat requirements.txt
+        echo ""
+        
+        # 使用绝对路径确保使用正确的文件
+        REQUIREMENTS_FILE="$(realpath requirements.txt)"
+        echo "🎯 Using absolute path: $REQUIREMENTS_FILE"
+        
+        # 验证pip会读取什么内容
+        echo "=== 🔍 Pre-install verification ==="
+        python -c "
+import subprocess
+import sys
+
+# 模拟pip读取requirements文件的过程
+print('Testing what pip will read:')
+with open('$REQUIREMENTS_FILE', 'r') as f:
+    lines = f.readlines()
+    for i, line in enumerate(lines, 1):
+        line = line.strip()
+        if line and not line.startswith('#'):
+            print(f'  Line {i}: {line}')
+"
+        
+        # 使用绝对路径安装，并实时显示输出
         pip install --no-cache-dir \
                    --force-reinstall \
                    --no-deps \
                    --index-url https://pypi.org/simple/ \
                    --disable-pip-version-check \
-                   -r requirements.txt
+                   --verbose \
+                   -r "$REQUIREMENTS_FILE"
         
         echo "=== 🔄 Installing dependencies ==="
         pip install --no-cache-dir \
                    --force-reinstall \
                    --index-url https://pypi.org/simple/ \
                    --disable-pip-version-check \
-                   -r requirements.txt
+                   --verbose \
+                   -r "$REQUIREMENTS_FILE"
         
         echo "=== 📦 Final package verification ==="
         pip list --format=freeze
@@ -99,7 +192,7 @@ jobs:
       run: |
         echo "=== 🎯 Using hardcoded versions as fallback ==="
         
-        # 如果上面失败，直接使用您期望的版本
+        # 使用您期望的确切版本
         pip install --no-cache-dir --force-reinstall \
           "arxiv==2.2.0" \
           "openai==0.28.0" \
