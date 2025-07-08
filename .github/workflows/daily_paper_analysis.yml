@@ -26,6 +26,10 @@ jobs:
         key: ${{ runner.os }}-papers-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-papers-
+
+    - name: Clear pip cache
+      run: |
+        pip cache purge
     
     - name: Install dependencies
       run: |
