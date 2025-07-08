@@ -34,7 +34,7 @@ jobs:
     
     - name: Run paper analysis
       env:
-        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
         SMTP_PORT: ${{ secrets.SMTP_PORT }}
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
@@ -47,8 +47,8 @@ jobs:
     
     - name: Commit and push changes
       run: |
-        git config --global user.name 'curryfromuestc'
-        git config --global user.email 'curryfromuestc@gmail.com'
+        git config --global user.name 'TomasAndersonFang'
+        git config --global user.email 'fangsen1996@gmail.com'
         git add .
         git commit -m "Update paper analysis for $(date +'%Y-%m-%d')" || echo "No changes to commit"
         git push 

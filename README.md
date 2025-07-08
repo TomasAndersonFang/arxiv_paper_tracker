@@ -1,12 +1,12 @@
 # ArXiv论文追踪与分析器
 
-一个基于 GitHub Actions 的自动化工具，每天早上自动追踪和分析 arXiv 最新论文，并通过邮件发送分析报告。该工具使用 DeepSeek AI 进行论文分析和总结。
+一个基于 GitHub Actions 的自动化工具，每天早上自动追踪和分析 arXiv 最新论文，并通过邮件发送分析报告。该工具使用 ChatGPT 进行论文分析和总结。
 
 ## 功能特点
 
 - 每天早上 8 点自动运行（UTC+8）
 - 自动追踪最近发布的 AI、机器学习和 NLP 类别的论文
-- 使用 DeepSeek AI 进行论文分析和总结
+- 使用 ChatGPT 进行论文分析和总结
 - 通过邮件发送分析报告
 - 自动保存分析结果到 conclusion.md
 - 自动清理下载的 PDF 文件以节省空间
@@ -22,7 +22,7 @@ cd arxiv_paper_tracker
 2. 在 GitHub 仓库设置中配置 Secrets（Settings > Secrets and variables > Actions）：
 
 需要添加以下 Secrets：
-- `DEEPSEEK_API_KEY`: DeepSeek API 密钥
+- `OPENAI_API_KEY`: OpenAI API 密钥
 - `SMTP_SERVER`: 邮件服务器地址（如：smtp.qq.com）
 - `SMTP_PORT`: 邮件服务器端口（如：587）
 - `SMTP_USERNAME`: 邮箱账号
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ## 注意事项
 
-- 确保 DeepSeek API 密钥有效
+- 确保 OpenAI API 密钥有效
 - 邮箱配置正确（特别是授权码/应用专用密码）
 - GitHub Actions 每月有 2000 分钟的免费额度，足够日常使用
 - 如需修改运行时间，可以在 `.github/workflows/daily_paper_analysis.yml` 中调整 cron 表达式

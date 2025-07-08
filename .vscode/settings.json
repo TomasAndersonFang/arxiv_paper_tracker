@@ -3,5 +3,6 @@
     "activityBar.background": "#432710",
     "titleBar.activeBackground": "#5E3716",
     "titleBar.activeForeground": "#FEFBF9"
-  }
+  },
+  "python.languageServer": "None"
 }
