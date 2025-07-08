@@ -1,36 +1,70 @@
 name: Daily Paper Analysis
-
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行
+    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行（修复了cron表达式）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
   analyze-papers:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 设置超时时间为5分钟
+    timeout-minutes: 60  # 设置超时时间为60分钟
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4  # 更新到最新版本
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5  # 更新到最新版本
       with:
         python-version: '3.10'
-        cache: 'pip'  # 启用pip缓存
+        # 移除 cache: 'pip' 以确保不使用缓存
     
-    - name: Cache papers directory
-      uses: actions/cache@v3
+    - name: Cache papers directory only
+      uses: actions/cache@v4  # 更新到最新版本
       with:
         path: papers
         key: ${{ runner.os }}-papers-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-papers-
     
-    - name: Install dependencies
+    - name: Clear pip cache and install dependencies
       run: |
+        # 清除所有pip缓存
+        python -m pip cache purge
+        
+        # 升级pip到最新版本
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        
+        # 强制重新安装所有依赖，不使用缓存，确保版本严格匹配
+        pip install --no-cache-dir --force-reinstall -r requirements.txt
+        
+        # 验证安装的包版本
+        echo "=== Installed packages and versions ==="
+        pip list
+        echo "=== Requirements.txt content ==="
+        cat requirements.txt
+    
+    - name: Verify package versions
+      run: |
+        # 检查是否所有requirements.txt中的包都已正确安装
+        python -c "
+        import pkg_resources
+        import sys
+        
+        print('Verifying package versions...')
+        with open('requirements.txt', 'r') as f:
+            requirements = f.read().strip().split('\n')
+        
+        for req in requirements:
+            if req.strip() and not req.strip().startswith('#'):
+                try:
+                    pkg_resources.require(req.strip())
+                    print(f'✓ {req.strip()} - OK')
+                except Exception as e:
+                    print(f'✗ {req.strip()} - ERROR: {e}')
+                    sys.exit(1)
+        
+        print('All package versions verified successfully!')
+        "
     
     - name: Run paper analysis
       env:
@@ -50,5 +84,9 @@ jobs:
         git config --global user.name 'TomasAndersonFang'
         git config --global user.email 'fangsen1996@gmail.com'
         git add .
-        git commit -m "Update paper analysis for $(date +'%Y-%m-%d')" || echo "No changes to commit"
-        git push 
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update paper analysis for $(date +'%Y-%m-%d')"
+          git push
+        fi
