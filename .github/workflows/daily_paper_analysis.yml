@@ -1,101 +1,141 @@
 name: Daily Paper Analysis
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行（修复了cron表达式）
+    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行
   workflow_dispatch:  # 允许手动触发
 
 jobs:
   analyze-papers:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 设置超时时间为60分钟
+    timeout-minutes: 60
     
     steps:
-    - uses: actions/checkout@v4  # 更新到最新版本
+    - uses: actions/checkout@v4
     
     - name: Set up Python
-      uses: actions/setup-python@v5  # 更新到最新版本
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-        # 移除 cache: 'pip' 以确保不使用缓存
+        # 完全禁用缓存
     
-    - name: Cache papers directory only
-      uses: actions/cache@v4  # 更新到最新版本
-      with:
-        path: papers
-        key: ${{ runner.os }}-papers-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-papers-
-    
-    - name: Diagnose requirements.txt files
+    - name: 🔍 Diagnose requirements files
       run: |
-        echo "=== Searching for all requirements.txt files ==="
-        find . -name "requirements.txt" -type f
+        echo "=== 🔍 Searching for ALL requirements.txt files ==="
+        find . -name "requirements*.txt" -type f
         echo ""
         
-        echo "=== Content of ./requirements.txt ==="
+        echo "=== 📄 Content of ./requirements.txt ==="
         if [ -f "./requirements.txt" ]; then
           cat ./requirements.txt
+          echo "File size: $(wc -l < ./requirements.txt) lines"
+          echo "File hash: $(md5sum ./requirements.txt)"
         else
           echo "❌ ./requirements.txt not found!"
         fi
         echo ""
         
-        echo "=== Content of all found requirements.txt files ==="
-        find . -name "requirements.txt" -type f -exec echo "--- {} ---" \; -exec cat {} \; -exec echo "" \;
-    
-    - name: Clear all caches and install dependencies
-      run: |
-        # 显示当前requirements.txt内容
-        echo "=== Current requirements.txt content ==="
-        cat requirements.txt
-        echo "=================================="
+        echo "=== 📄 Content of ALL found requirements files ==="
+        find . -name "requirements*.txt" -type f -exec echo "--- 📄 {} ---" \; -exec cat {} \; -exec echo "" \;
         
-        # 彻底清除所有可能的缓存
+        echo "=== 🌿 Git status ==="
+        git status
+        
+        echo "=== 📝 Git log (last 3 commits) ==="
+        git log --oneline -3
+    
+    - name: 🧹 Complete cache elimination and fresh installation
+      run: |
+        echo "=== 🧹 Completely eliminating all caches ==="
+        
+        # 删除所有可能的pip缓存位置
         python -m pip cache purge
-        rm -rf ~/.cache/pip
-        rm -rf /opt/hostedtoolcache/Python/*/x64/lib/python*/site-packages/pip/_internal/cache
+        rm -rf ~/.cache/pip* ~/.pip /tmp/pip* 2>/dev/null || true
+        sudo rm -rf /root/.cache/pip* 2>/dev/null || true
         
-        # 升级pip到最新版本
-        python -m pip install --upgrade pip
+        # 删除GitHub Actions特有的缓存
+        rm -rf /opt/hostedtoolcache/Python/*/x64/lib/python*/site-packages/pip/_internal/cache 2>/dev/null || true
+        rm -rf /opt/hostedtoolcache/pip_cache 2>/dev/null || true
         
-        # 卸载所有当前已安装的包（除了pip、setuptools、wheel）
-        pip freeze > current_packages.txt
-        pip uninstall -y -r current_packages.txt || true
+        # 清除可能影响缓存的环境变量
+        unset PIP_CACHE_DIR PIP_FIND_LINKS PIP_EXTRA_INDEX_URL
+        export PIP_NO_CACHE_DIR=1
+        export PIP_DISABLE_PIP_VERSION_CHECK=1
         
-        # 强制重新下载并安装所有依赖，完全禁用所有缓存机制
-        pip install --no-cache-dir --force-reinstall --no-deps --index-url https://pypi.org/simple/ -r requirements.txt
+        echo "=== ⬆️ Upgrading pip without cache ==="
+        python -m pip install --upgrade pip --no-cache-dir --force-reinstall
         
-        # 安装依赖的依赖（因为使用了--no-deps）
-        pip install --no-cache-dir --force-reinstall --index-url https://pypi.org/simple/ -r requirements.txt
+        echo "=== 🗑️ Uninstalling existing packages ==="
+        pip freeze | grep -v "^pip==" | grep -v "^setuptools==" | grep -v "^wheel==" > current_packages.txt || true
+        if [ -s current_packages.txt ]; then
+          echo "Uninstalling:"
+          cat current_packages.txt
+          pip uninstall -y -r current_packages.txt || true
+        fi
         
-        # 验证安装的包版本
-        echo "=== Installed packages and versions ==="
-        pip list
-        echo "=== Requirements.txt content ==="
-        cat requirements.txt
+        echo "=== ✅ Verification: packages after cleanup ==="
+        pip list --format=freeze
+        
+        echo "=== 🚀 Installing with maximum freshness ==="
+        # 使用多重保险的安装方式
+        pip install --no-cache-dir \
+                   --force-reinstall \
+                   --no-deps \
+                   --index-url https://pypi.org/simple/ \
+                   --disable-pip-version-check \
+                   -r requirements.txt
+        
+        echo "=== 🔄 Installing dependencies ==="
+        pip install --no-cache-dir \
+                   --force-reinstall \
+                   --index-url https://pypi.org/simple/ \
+                   --disable-pip-version-check \
+                   -r requirements.txt
+        
+        echo "=== 📦 Final package verification ==="
+        pip list --format=freeze
     
-    - name: Verify package versions match requirements.txt exactly
+    - name: 🎯 Hardcoded version installation (fallback)
+      if: failure()
       run: |
-        # 更严格的版本验证
+        echo "=== 🎯 Using hardcoded versions as fallback ==="
+        
+        # 如果上面失败，直接使用您期望的版本
+        pip install --no-cache-dir --force-reinstall \
+          "arxiv==2.2.0" \
+          "openai==0.28.0" \
+          "requests==2.32.4" \
+          "python-dotenv==1.0.0" \
+          "jinja2==3.1.2"
+        
+        echo "=== 📦 Packages after hardcoded installation ==="
+        pip list --format=freeze
+    
+    - name: ✅ Strict version verification
+      run: |
+        echo "=== ✅ Verifying exact version matches ==="
+        
         python -c "
         import pkg_resources
         import sys
-        import re
-        
-        print('Verifying package versions match requirements.txt exactly...')
         
         # 读取requirements.txt
-        with open('requirements.txt', 'r') as f:
-            requirements = [line.strip() for line in f.readlines() 
-                          if line.strip() and not line.strip().startswith('#')]
+        try:
+            with open('requirements.txt', 'r') as f:
+                requirements = [line.strip() for line in f.readlines() 
+                              if line.strip() and not line.strip().startswith('#')]
+        except FileNotFoundError:
+            print('❌ requirements.txt not found!')
+            sys.exit(1)
         
-        # 获取当前安装的包版本
+        print(f'📋 Found {len(requirements)} requirements to verify')
+        
+        # 获取当前安装的包
         installed = {pkg.project_name.lower(): pkg.version for pkg in pkg_resources.working_set}
         
         errors = []
+        success = []
         
         for req in requirements:
-            # 解析包名和版本
             if '==' in req:
                 pkg_name, expected_version = req.split('==', 1)
                 pkg_name = pkg_name.strip().lower()
@@ -104,29 +144,38 @@ jobs:
                 if pkg_name in installed:
                     actual_version = installed[pkg_name]
                     if actual_version == expected_version:
-                        print(f'✓ {pkg_name}: {actual_version} (matches {expected_version})')
+                        success.append(f'✅ {pkg_name}: {actual_version}')
                     else:
-                        error_msg = f'✗ {pkg_name}: installed {actual_version}, expected {expected_version}'
-                        print(error_msg)
-                        errors.append(error_msg)
+                        errors.append(f'❌ {pkg_name}: got {actual_version}, expected {expected_version}')
                 else:
-                    error_msg = f'✗ {pkg_name}: not installed'
-                    print(error_msg)
-                    errors.append(error_msg)
-            else:
-                print(f'⚠ Skipping {req} (no exact version specified)')
+                    errors.append(f'❌ {pkg_name}: not installed')
+        
+        print('\n=== ✅ SUCCESSFUL MATCHES ===')
+        for s in success:
+            print(s)
         
         if errors:
-            print(f'\n❌ Found {len(errors)} version mismatches:')
+            print(f'\n=== ❌ MISMATCHES ({len(errors)}) ===')
             for error in errors:
-                print(f'  {error}')
-            print('\n=== All installed packages ===')
+                print(error)
+            
+            print('\n=== 📦 ALL INSTALLED PACKAGES ===')
             for name, version in sorted(installed.items()):
                 print(f'{name}=={version}')
+            
+            print(f'\n🚨 FAILURE: {len(errors)} version mismatches found!')
             sys.exit(1)
         else:
-            print('\n✅ All package versions match requirements.txt exactly!')
+            print(f'\n🎉 SUCCESS: All {len(success)} packages match exactly!')
         "
+    
+    - name: Cache papers directory only
+      uses: actions/cache@v4
+      with:
+        path: papers
+        key: ${{ runner.os }}-papers-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-papers-
     
     - name: Run paper analysis
       env:
