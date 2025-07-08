@@ -26,16 +26,47 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-papers-
     
-    - name: Clear pip cache and install dependencies
+    - name: Diagnose requirements.txt files
       run: |
-        # 清除所有pip缓存
+        echo "=== Searching for all requirements.txt files ==="
+        find . -name "requirements.txt" -type f
+        echo ""
+        
+        echo "=== Content of ./requirements.txt ==="
+        if [ -f "./requirements.txt" ]; then
+          cat ./requirements.txt
+        else
+          echo "❌ ./requirements.txt not found!"
+        fi
+        echo ""
+        
+        echo "=== Content of all found requirements.txt files ==="
+        find . -name "requirements.txt" -type f -exec echo "--- {} ---" \; -exec cat {} \; -exec echo "" \;
+    
+    - name: Clear all caches and install dependencies
+      run: |
+        # 显示当前requirements.txt内容
+        echo "=== Current requirements.txt content ==="
+        cat requirements.txt
+        echo "=================================="
+        
+        # 彻底清除所有可能的缓存
         python -m pip cache purge
+        rm -rf ~/.cache/pip
+        rm -rf /opt/hostedtoolcache/Python/*/x64/lib/python*/site-packages/pip/_internal/cache
         
         # 升级pip到最新版本
         python -m pip install --upgrade pip
         
-        # 强制重新安装所有依赖，不使用缓存，确保版本严格匹配
-        pip install --no-cache-dir --force-reinstall -r requirements.txt
+        # 卸载所有当前已安装的包（除了pip、setuptools、wheel）
+        pip freeze > current_packages.txt
+        pip uninstall -y -r current_packages.txt || true
+        
+        # 强制重新下载并安装所有依赖，完全禁用所有缓存机制
+        pip install --no-cache-dir --force-reinstall --no-deps --index-url https://pypi.org/simple/ -r requirements.txt
+        
+        # 安装依赖的依赖（因为使用了--no-deps）
+        pip install --no-cache-dir --force-reinstall --index-url https://pypi.org/simple/ -r requirements.txt
         
         # 验证安装的包版本
         echo "=== Installed packages and versions ==="
@@ -43,27 +74,58 @@ jobs:
         echo "=== Requirements.txt content ==="
         cat requirements.txt
     
-    - name: Verify package versions
+    - name: Verify package versions match requirements.txt exactly
       run: |
-        # 检查是否所有requirements.txt中的包都已正确安装
+        # 更严格的版本验证
         python -c "
         import pkg_resources
         import sys
+        import re
         
-        print('Verifying package versions...')
+        print('Verifying package versions match requirements.txt exactly...')
+        
+        # 读取requirements.txt
         with open('requirements.txt', 'r') as f:
-            requirements = f.read().strip().split('\n')
+            requirements = [line.strip() for line in f.readlines() 
+                          if line.strip() and not line.strip().startswith('#')]
+        
+        # 获取当前安装的包版本
+        installed = {pkg.project_name.lower(): pkg.version for pkg in pkg_resources.working_set}
+        
+        errors = []
         
         for req in requirements:
-            if req.strip() and not req.strip().startswith('#'):
-                try:
-                    pkg_resources.require(req.strip())
-                    print(f'✓ {req.strip()} - OK')
-                except Exception as e:
-                    print(f'✗ {req.strip()} - ERROR: {e}')
-                    sys.exit(1)
+            # 解析包名和版本
+            if '==' in req:
+                pkg_name, expected_version = req.split('==', 1)
+                pkg_name = pkg_name.strip().lower()
+                expected_version = expected_version.strip()
+                
+                if pkg_name in installed:
+                    actual_version = installed[pkg_name]
+                    if actual_version == expected_version:
+                        print(f'✓ {pkg_name}: {actual_version} (matches {expected_version})')
+                    else:
+                        error_msg = f'✗ {pkg_name}: installed {actual_version}, expected {expected_version}'
+                        print(error_msg)
+                        errors.append(error_msg)
+                else:
+                    error_msg = f'✗ {pkg_name}: not installed'
+                    print(error_msg)
+                    errors.append(error_msg)
+            else:
+                print(f'⚠ Skipping {req} (no exact version specified)')
         
-        print('All package versions verified successfully!')
+        if errors:
+            print(f'\n❌ Found {len(errors)} version mismatches:')
+            for error in errors:
+                print(f'  {error}')
+            print('\n=== All installed packages ===')
+            for name, version in sorted(installed.items()):
+                print(f'{name}=={version}')
+            sys.exit(1)
+        else:
+            print('\n✅ All package versions match requirements.txt exactly!')
         "
     
     - name: Run paper analysis
