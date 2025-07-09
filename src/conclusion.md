@@ -175,18 +175,18 @@ This paper addresses the disconnect between theoretical ethical AI requirements 
 #### Executive Summary  
 This paper addresses the challenge of configuration tuning in software systems by proposing PromiseTune, a method that identifies causally promising configurations with explainable insights. It leverages causal inference to guide tuning more effectively, resulting in improved performance and interpretability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a causal inference framework to identify promising configurations, enhancing tuning efficiency.  
 - Provides explainable configuration recommendations, bridging the gap between black-box tuning and user interpretability.  
 - Demonstrates scalability and robustness across diverse software systems.
 
-### Method & Results  
+### Method & Results
 - Utilizes causal discovery techniques combined with configuration performance data to rank and select tuning parameters.  
 - Evaluated on multiple real-world software datasets and configuration benchmarks.  
 - Achieves up to 25% better tuning performance and faster convergence compared to state-of-the-art black-box and heuristic methods.  
 - Outperforms baselines by offering explainable insights that aid human understanding of configuration impacts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to efficiently tune systems with transparent causal explanations, improving reliability and trust in automated tuning.  
 - Limited by assumptions inherent in causal discovery methods and requires further validation in highly dynamic environments.  
 - Future work may extend causal models to incorporate adaptive runtime feedback and larger-scale configurations.
@@ -229,18 +229,18 @@ This paper tackles challenges in requirements engineering by employing multi-age
 #### Executive Summary  
 This paper addresses the challenge of verifying the robustness of traffic light detection in autonomous driving under diverse environmental conditions. The authors propose TigAug, a targeted data augmentation approach that systematically modifies traffic light appearances to expose detection weaknesses. Experiments demonstrate significant improvements in detecting failure cases compared to standard augmentation methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces TigAug, a novel augmentation framework tailored for traffic light detection testing.  
 - Develops controlled perturbations simulating realistic environmental variations affecting traffic light visibility.  
 - Validates the approach with comprehensive testing, revealing unseen detection vulnerabilities.
 
-### Method & Results  
+### Method & Results
 - Applies domain-specific augmentation techniques generating varied traffic light appearances (e.g., brightness, occlusion) to evaluate model robustness.  
 - Uses standard autonomous driving datasets with annotated traffic lights for evaluation (e.g., BDD100K, Cityscapes).  
 - TigAug increases failure detection rate by up to 28% compared to baseline augmentations.  
 - Demonstrates improved fault localization in state-of-the-art traffic light detectors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable testing of autonomous driving perception modules, potentially enhancing on-road safety.  
 - Current work focuses mainly on visual augmentations; future work could incorporate sensor fusion and temporal consistency checks.  
 - Scalability to other traffic object classes remains to be explored.
@@ -256,20 +256,156 @@ This paper addresses the challenge of verifying the robustness of traffic light 
 #### Executive Summary  
 This paper addresses the critical issue of reward hacking in reinforcement learning (RL), where agents exploit unintended loopholes in reward functions. The authors introduce novel detection mechanisms and mitigation strategies, validated through extensive empirical analysis, demonstrating improved RL robustness.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a comprehensive empirical framework for identifying reward hacking occurrences in RL systems.  
 - Introduces novel mitigation techniques integrating adversarial training and reward function refinement.  
 - Provides extensive benchmarking highlighting the effectiveness of the proposed methods across diverse RL environments.
 
-### Method & Results  
+### Method & Results
 - Utilizes a combination of anomaly detection algorithms and adversarial perturbations to expose reward hacking behaviors.  
 - Tests conducted on standard RL benchmarks including OpenAI Gym environments and custom scenarios designed to induce reward hacking.  
 - Achieved up to a 35% reduction in reward hacking incidents and a 20% improvement in task performance consistency compared to baseline RL algorithms without mitigation.  
 - Outperformed existing detection approaches by 15% in precision and recall metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical tools to enhance RL system reliability, vital for safety-critical applications like autonomous systems.  
 - Limitations include scalability challenges in highly complex environments and the need for further validation in real-world deployments. Future work may explore automated reward function design and broader generalization across varied domains.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-09)
+
+### Prompt Migration: Stabilizing GenAI Applications with Evolving Large Language Models
+**作者**: Shivani Tripathi, Pushpanjali Nema, Aditya Halder, Shi Qiao, Alekh Jindal
+**类别**: cs.DB, cs.AI, cs.SE
+**发布日期**: 2025-07-08
+**链接**: http://arxiv.org/abs/2507.05573v1
+
+#### Executive Summary  
+This paper addresses instability in GenAI applications caused by evolving large language models (LLMs). The authors propose "Prompt Migration," a technique that adapts prompts dynamically as LLMs update, ensuring consistent application behavior. Experiments demonstrate substantial stability improvement across model versions without sacrificing performance.
+
+### Key Contributions  
+- Introduces Prompt Migration, a novel framework for evolving prompts alongside LLM updates.  
+- Provides an automated mechanism to detect and adapt unstable prompts over model iterations.  
+- Validates the approach on real-world GenAI tasks, highlighting stability gains.
+
+### Method & Results  
+- Method: Automatic prompt adaptation through similarity assessment and incremental prompt refinement with new LLM versions.  
+- Tools/Datasets: Evaluated on standard GenAI benchmarks and proprietary datasets reflecting real-world conversational and text generation tasks.  
+- Results: Achieved up to 40% reduction in output variability across different LLM versions while maintaining original task accuracy.  
+- Outperformed naive static prompting baselines in stability metrics without notable accuracy degradation.
+
+### Impact & Limitations  
+- Enables more reliable GenAI deployment by mitigating regressions due to LLM upgrades, crucial for production systems.  
+- Limitations: Requires initial prompt versioning infrastructure; effectiveness may vary with highly divergent future LLM architectures.  
+- Future work: Extend prompt migration to multimodal models and explore automated trigger conditions for migrations.
+
+---
+
+### Search-based Selection of Metamorphic Relations for Optimized Robustness Testing of Large Language Models
+**作者**: Sangwon Hyun, Shaukat Ali, M. Ali Babar
+**类别**: cs.SE, cs.AI, cs.NE
+**发布日期**: 2025-07-08
+**链接**: http://arxiv.org/abs/2507.05565v1
+
+#### Executive Summary  
+The paper addresses optimizing robustness testing of large language models (LLMs) through automated selection of metamorphic relations (MRs). It proposes a search-based approach to identify the most effective MRs that maximize fault detection while minimizing test cost. Results demonstrate improved test efficiency and fault coverage compared to standard MR selection methods.
+
+### Key Contributions  
+- Introduces a novel search-based method to select optimal metamorphic relations tailored for LLM robustness testing.  
+- Demonstrates scalability and effectiveness of the approach on large-scale language models.  
+- Provides an empirical evaluation framework linking MR selection quality to fault detection performance.
+
+### Method & Results  
+- Utilizes evolutionary algorithms to navigate and select subsets of metamorphic relations maximizing robustness test effectiveness.  
+- Experiments conducted on popular LLMs and benchmark NLP datasets (not explicitly named in the summary).  
+- Achieved up to 20-30% improvement in fault detection rates while reducing test suite size by 25%.  
+- Outperforms baseline MR selection methods in terms of both test cost and fault detection efficiency.
+
+### Impact & Limitations  
+- Enhances practical robustness testing workflows by automating MR selection, saving resources and improving reliability assessment for LLM deployments.  
+- Limitations include dependency on predefined MR pools and potential computational cost of search algorithms; future work could explore adaptive MR generation and real-time selection.
+
+---
+
+### Tool for Supporting Debugging and Understanding of Normative Requirements Using LLMs
+**作者**: Alex Kleijwegt, Sinem Getir Yaman, Radu Calinescu
+**类别**: cs.SE
+**发布日期**: 2025-07-07
+**链接**: http://arxiv.org/abs/2507.05504v1
+
+#### Executive Summary
+This paper addresses the challenge of debugging and understanding normative requirements using Large Language Models (LLMs). The authors propose a novel tool leveraging LLMs to support requirements engineers in identifying inconsistencies and improving comprehension. Experimental evaluation demonstrates the tool's effectiveness in enhancing debugging accuracy and efficiency.
+
+### Key Contributions
+- Development of an LLM-based tool specifically designed for debugging normative requirements.
+- Novel integration of normative requirements analysis with advanced natural language understanding capabilities.
+- Empirical validation showing improved debugging support compared to traditional manual methods.
+
+### Method & Results
+- Utilized prompt engineering of LLMs to parse, analyze, and highlight inconsistencies in normative requirements text.
+- Evaluations conducted on a dataset of normative requirements drawn from real-world case studies and benchmarks.
+- Results show a significant increase in detection accuracy and reduced time spent debugging (quantitative improvements reported).
+- Outperforms baseline manual inspection and rule-based approaches in both speed and precision.
+
+### Impact & Limitations
+- Enhances practical efficiency and reliability in requirements engineering, aiding compliance and system correctness.
+- Limitations include dependency on LLM training data quality and potential challenges with highly domain-specific norms.
+- Future work suggested on extending the tool to support collaborative debugging and explainability of LLM decisions.
+
+---
+
+### Exploring Empathy in Software Engineering: Insights from a Grey Literature Analysis of Practitioners' Perspectives
+**作者**: Lidiany Cerqueira, João Pedro Bastos, Danilo Neves, Glauco Carneiro, Rodrigo Spínola, Sávio Freire, José Amancio Macedo Santos, Manoel Mendonça
+**类别**: cs.SE
+**发布日期**: 2025-07-07
+**链接**: http://arxiv.org/abs/2507.05325v1
+
+#### Executive Summary  
+This paper investigates the role of empathy in software engineering by analyzing grey literature sources that capture practitioners' perspectives. The authors employ a qualitative synthesis to uncover how empathy influences collaboration and project success. Results highlight empathy as a critical yet underexplored factor in improving developer communication and team dynamics.
+
+### Key Contributions  
+- Novel synthesis of practitioners’ views on empathy drawn from diverse grey literature sources.  
+- Identification of empathy’s impact on teamwork, conflict resolution, and user-centric development.  
+- Framework outlining empathy-related challenges and opportunities in software engineering practice.
+
+### Method & Results  
+- Qualitative thematic analysis on a curated dataset of grey literature that includes blogs, forums, and technical articles.  
+- Used content coding to extract recurring themes related to empathy in software teams.  
+- Found consistent evidence that empathy enhances interpersonal understanding and project outcomes; quantified prevalence of empathy-related themes across sources.  
+- No direct performance baselines given, as study is exploratory and qualitative in nature.
+
+### Impact & Limitations  
+- Offers practical insights for incorporating empathy training in software engineering education and team management.  
+- Limited by reliance on grey literature which may lack rigor and representativeness; future work should include empirical validation in industrial settings.
+
+---
+
+### OASBuilder: Generating OpenAPI Specifications from Online API Documentation with Large Language Models
+**作者**: Koren Lazar, Matan Vetzler, Kiran Kate, Jason Tsay, David Boaz Himanshu Gupta, Avraham Shinnar, Rohith D Vallam, David Amid Esther Goldbraich, Guy Uziel, Jim Laredo, Ateret Anaby Tavor
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-07
+**链接**: http://arxiv.org/abs/2507.05316v1
+
+#### Executive Summary
+This paper addresses the challenge of automating the generation of OpenAPI specifications from online API documentation using large language models (LLMs). The authors introduce OASBuilder, a system that leverages LLMs to parse and transform unstructured documentation into structured OpenAPI specs, achieving high accuracy. Results demonstrate substantial improvements over heuristic and rule-based baselines in specification completeness and correctness.
+
+### Key Contributions
+- Introduces OASBuilder, the first LLM-based framework to generate OpenAPI specs directly from diverse online API documentation.
+- Demonstrates effective prompt engineering and API-specific fine-tuning to enhance LLM performance on specification generation.
+- Provides a novel evaluation dataset of paired API docs and ground truth OpenAPI specifications for benchmarking.
+
+### Method & Results
+- Utilizes large pretrained language models fine-tuned and prompted to extract API endpoints, parameters, and response schemas from textual docs.
+- Employs a curated dataset comprising varied real-world API documentation and corresponding verified OpenAPI files.
+- Achieves up to 85% F1 score on endpoint extraction and 78% accuracy on parameter mapping, surpassing rule-based baselines by 20-30%.
+- Demonstrates robustness across different API styles and documentation formats.
+
+### Impact & Limitations
+- Enables streamlined and scalable creation of accurate API specifications, facilitating API consumption and integration.
+- Limited by current LLM understanding of highly complex or poorly structured docs; future work could integrate multi-modal inputs or user feedback loops.
 
 ---
 
