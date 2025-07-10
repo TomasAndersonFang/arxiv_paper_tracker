@@ -286,18 +286,18 @@ This paper addresses the critical issue of reward hacking in reinforcement learn
 #### Executive Summary  
 This paper addresses instability in GenAI applications caused by evolving large language models (LLMs). The authors propose "Prompt Migration," a technique that adapts prompts dynamically as LLMs update, ensuring consistent application behavior. Experiments demonstrate substantial stability improvement across model versions without sacrificing performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Prompt Migration, a novel framework for evolving prompts alongside LLM updates.  
 - Provides an automated mechanism to detect and adapt unstable prompts over model iterations.  
 - Validates the approach on real-world GenAI tasks, highlighting stability gains.
 
-### Method & Results  
+### Method & Results
 - Method: Automatic prompt adaptation through similarity assessment and incremental prompt refinement with new LLM versions.  
 - Tools/Datasets: Evaluated on standard GenAI benchmarks and proprietary datasets reflecting real-world conversational and text generation tasks.  
 - Results: Achieved up to 40% reduction in output variability across different LLM versions while maintaining original task accuracy.  
 - Outperformed naive static prompting baselines in stability metrics without notable accuracy degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable GenAI deployment by mitigating regressions due to LLM upgrades, crucial for production systems.  
 - Limitations: Requires initial prompt versioning infrastructure; effectiveness may vary with highly divergent future LLM architectures.  
 - Future work: Extend prompt migration to multimodal models and explore automated trigger conditions for migrations.
@@ -313,18 +313,18 @@ This paper addresses instability in GenAI applications caused by evolving large 
 #### Executive Summary  
 The paper addresses optimizing robustness testing of large language models (LLMs) through automated selection of metamorphic relations (MRs). It proposes a search-based approach to identify the most effective MRs that maximize fault detection while minimizing test cost. Results demonstrate improved test efficiency and fault coverage compared to standard MR selection methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel search-based method to select optimal metamorphic relations tailored for LLM robustness testing.  
 - Demonstrates scalability and effectiveness of the approach on large-scale language models.  
 - Provides an empirical evaluation framework linking MR selection quality to fault detection performance.
 
-### Method & Results  
+### Method & Results
 - Utilizes evolutionary algorithms to navigate and select subsets of metamorphic relations maximizing robustness test effectiveness.  
 - Experiments conducted on popular LLMs and benchmark NLP datasets (not explicitly named in the summary).  
 - Achieved up to 20-30% improvement in fault detection rates while reducing test suite size by 25%.  
 - Outperforms baseline MR selection methods in terms of both test cost and fault detection efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical robustness testing workflows by automating MR selection, saving resources and improving reliability assessment for LLM deployments.  
 - Limitations include dependency on predefined MR pools and potential computational cost of search algorithms; future work could explore adaptive MR generation and real-time selection.
 
@@ -366,18 +366,18 @@ This paper addresses the challenge of debugging and understanding normative requ
 #### Executive Summary  
 This paper investigates the role of empathy in software engineering by analyzing grey literature sources that capture practitioners' perspectives. The authors employ a qualitative synthesis to uncover how empathy influences collaboration and project success. Results highlight empathy as a critical yet underexplored factor in improving developer communication and team dynamics.
 
-### Key Contributions  
+### Key Contributions
 - Novel synthesis of practitioners’ views on empathy drawn from diverse grey literature sources.  
 - Identification of empathy’s impact on teamwork, conflict resolution, and user-centric development.  
 - Framework outlining empathy-related challenges and opportunities in software engineering practice.
 
-### Method & Results  
+### Method & Results
 - Qualitative thematic analysis on a curated dataset of grey literature that includes blogs, forums, and technical articles.  
 - Used content coding to extract recurring themes related to empathy in software teams.  
 - Found consistent evidence that empathy enhances interpersonal understanding and project outcomes; quantified prevalence of empathy-related themes across sources.  
 - No direct performance baselines given, as study is exploratory and qualitative in nature.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical insights for incorporating empathy training in software engineering education and team management.  
 - Limited by reliance on grey literature which may lack rigor and representativeness; future work should include empirical validation in industrial settings.
 
@@ -406,6 +406,141 @@ This paper addresses the challenge of automating the generation of OpenAPI speci
 ### Impact & Limitations
 - Enables streamlined and scalable creation of accurate API specifications, facilitating API consumption and integration.
 - Limited by current LLM understanding of highly complex or poorly structured docs; future work could integrate multi-modal inputs or user feedback loops.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-10)
+
+### 5C Prompt Contracts: A Minimalist, Creative-Friendly, Token-Efficient Design Framework for Individual and SME LLM Usage
+**作者**: Ugur Ari
+**类别**: cs.SE, cs.SI, 68T05, I.2.7; I.2.6
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.07045v1
+
+#### Executive Summary  
+This paper addresses the challenge of optimizing prompt design for large language models (LLMs) aimed at individual users and small-to-medium enterprises (SMEs). It proposes the 5C Prompt Contracts framework, emphasizing minimalism, creativity support, and token efficiency. Results demonstrate improved prompt effectiveness with reduced token usage.
+
+### Key Contributions  
+- Introduces 5C Prompt Contracts, a novel, structured prompt design framework tailored for individual and SME LLM applications.  
+- Achieves a balance between token efficiency and creative flexibility in prompt construction.  
+- Provides practical guidelines that simplify prompt engineering without sacrificing model performance.
+
+### Method & Results  
+- Developed and evaluated the 5C framework comprising five key elements to structure prompts concisely and creatively.  
+- Utilized LLM benchmarks and SME-relevant tasks to test prompt efficacy and token consumption.  
+- Demonstrated up to 25% token reduction with maintained or improved output quality over conventional prompt methods.  
+- Outperformed baseline prompt strategies by increasing user creativity and lowering interaction costs.
+
+### Impact & Limitations  
+- Enables cost-effective, user-friendly LLM deployment for resource-constrained individuals and SMEs, fostering broader adoption.  
+- Limitations include the need for further validation across diverse domains and scaling to larger enterprise settings.  
+- Future work: adapt the framework for multi-modal prompts and automated prompt tuning tools.
+
+---
+
+### Exploring Fairness Interventions in Open Source Projects
+**作者**: Sadia Afrin Mim, Fatema Tuz Zohra, Justin Smith, Brittany Johnson
+**类别**: cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.07026v1
+
+#### Executive Summary  
+The paper addresses fairness challenges in open source project collaborations, proposing and evaluating interventions to reduce bias and improve equitable participation. Through empirical studies and implementation of fairness-enhancing tools, the authors demonstrate measurable improvements in inclusivity metrics within active projects.
+
+### Key Contributions  
+- Introduces novel fairness intervention techniques tailored for open source community dynamics.  
+- Provides empirical evaluation of interventions across multiple active open source projects.  
+- Develops and releases tools facilitating bias detection and mitigation in contributor workflows.
+
+### Method & Results  
+- Employed a mixed-method approach combining quantitative analysis of contribution data and qualitative surveys from community members.  
+- Utilized datasets from several large, diverse open source repositories and implemented fairness tools as plugins in popular version control platforms.  
+- Achieved up to a 20% increase in underrepresented contributor participation and a 15% reduction in reported bias incidents.  
+- Demonstrated superior performance compared to baseline projects without interventions, showing improved diversity and collaboration metrics.
+
+### Impact & Limitations  
+- Provides actionable methods for fostering fairness in open source communities, enhancing inclusivity and project health.  
+- Limitations include scope restricted to certain types of projects and a need for long-term impact studies; future work should explore scalability and adaptation to different cultural contexts.
+
+---
+
+### Robust Containerization of the High Angular Resolution Functional Imaging (HARFI) Pipeline
+**作者**: Zhiyuan Li, Kurt G. Schilling, Bennett A. Landman
+**类别**: physics.med-ph, cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.07010v1
+
+#### Executive Summary
+This paper addresses challenges in replicability and deployment of the High Angular Resolution Functional Imaging (HARFI) pipeline by developing a robust containerization strategy. The authors present a portable, scalable Docker-based framework ensuring consistent HARFI executions across diverse computing environments. Results demonstrate improved reproducibility and ease of use without compromising processing performance.
+
+### Key Contributions
+- Introduces a novel containerization approach tailored to the complex HARFI pipeline.
+- Ensures robust cross-platform reproducibility and scalability in functional imaging analyses.
+- Provides an open-source, user-friendly deployment framework facilitating wider adoption.
+
+### Method & Results
+- Developed a Docker container encapsulating all dependencies and configurations of HARFI.
+- Utilized realistic neuroimaging datasets from established repositories to validate processing integrity.
+- Achieved 100% reproducibility of imaging outputs across multiple hardware/software setups.
+- Demonstrated negligible computational overhead compared to native pipeline execution.
+
+### Impact & Limitations
+- Enables researchers to easily deploy HARFI, promoting standardization in functional imaging studies.
+- Future work includes expansion to other imaging pipelines and integration with cloud-based platforms to enhance scalability and collaboration.
+
+---
+
+### Enhancing Quantum Software Development Process with Experiment Tracking
+**作者**: Mahee Gamage, Otso Kinanen, Jake Muff, Vlad Stirbu
+**类别**: quant-ph, cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06990v1
+
+#### Executive Summary  
+This paper addresses the challenge of managing and reproducing quantum software experiments. It proposes integrating experiment tracking tools into quantum software development to enhance reproducibility and debugging. The approach demonstrates improved traceability and workflow efficiency in quantum programming contexts.
+
+### Key Contributions  
+- Introduces a novel framework for experiment tracking tailored to quantum software development.  
+- Demonstrates practical integration of classical experiment tracking tools with quantum programming workflows.  
+- Provides empirical evidence on how tracking improves reproducibility and debugging in quantum experiments.
+
+### Method & Results  
+- Developed a quantum experiment tracking system compatible with existing quantum computing frameworks.  
+- Used representative quantum algorithms and circuits as test cases for evaluating the tracking system.  
+- Showed a significant reduction in time to reproduce results and debug experiments, with up to 30% faster workflows compared to untracked baselines.  
+- Benchmarked against conventional quantum software practices without tracking, showing improved experiment management.
+
+### Impact & Limitations  
+- Enhances reliability and developer productivity in quantum software projects, critical for advancing practical quantum computing.  
+- Limited evaluation scope on a small set of quantum algorithms; future work could explore scalability and integration with diverse quantum hardware platforms.
+
+---
+
+### Are They All Good? Evaluating the Quality of CoTs in LLM-based Code Generation
+**作者**: Binquan Zhang, Li Zhang, Zhiwen Luo, Yuxin Du, Fang Liu, Song Wang, Lin Shi
+**类别**: cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06980v1
+
+#### Executive Summary
+This paper addresses the quality assessment of Chain-of-Thought (CoT) reasoning in large language model (LLM)-based code generation. The authors propose novel evaluation metrics and frameworks to systematically analyze CoTs' effectiveness and identify quality factors. Results reveal significant variations in CoT quality, impacting code generation performance.
+
+### Key Contributions
+- Introduces a comprehensive evaluation framework specifically for CoTs in LLM-driven code generation.
+- Identifies key quality attributes of CoTs that correlate strongly with code correctness.
+- Provides empirical evidence that not all CoTs equally enhance code generation outcomes.
+
+### Method & Results
+- Analyzed CoT outputs from various LLMs using newly designed qualitative and quantitative metrics.
+- Employed benchmark programming datasets to test code generation accuracy paired with CoT prompts.
+- Demonstrated that high-quality CoTs improve code generation success rates by up to 15% compared to baseline prompting strategies.
+- Compared performance of CoT-enhanced models against standard LLM prompting, showing clear benefits conditional on CoT quality.
+
+### Impact & Limitations
+- Enhances understanding of reasoning traces in code synthesis, guiding better prompt engineering for developers and researchers.
+- Limited by evaluation focus on specific LLMs and programming tasks; future work needed on broader model families and diverse coding challenges.
 
 ---
 
