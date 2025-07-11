@@ -422,18 +422,18 @@ This paper addresses the challenge of automating the generation of OpenAPI speci
 #### Executive Summary  
 This paper addresses the challenge of optimizing prompt design for large language models (LLMs) aimed at individual users and small-to-medium enterprises (SMEs). It proposes the 5C Prompt Contracts framework, emphasizing minimalism, creativity support, and token efficiency. Results demonstrate improved prompt effectiveness with reduced token usage.
 
-### Key Contributions  
+### Key Contributions
 - Introduces 5C Prompt Contracts, a novel, structured prompt design framework tailored for individual and SME LLM applications.  
 - Achieves a balance between token efficiency and creative flexibility in prompt construction.  
 - Provides practical guidelines that simplify prompt engineering without sacrificing model performance.
 
-### Method & Results  
+### Method & Results
 - Developed and evaluated the 5C framework comprising five key elements to structure prompts concisely and creatively.  
 - Utilized LLM benchmarks and SME-relevant tasks to test prompt efficacy and token consumption.  
 - Demonstrated up to 25% token reduction with maintained or improved output quality over conventional prompt methods.  
 - Outperformed baseline prompt strategies by increasing user creativity and lowering interaction costs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables cost-effective, user-friendly LLM deployment for resource-constrained individuals and SMEs, fostering broader adoption.  
 - Limitations include the need for further validation across diverse domains and scaling to larger enterprise settings.  
 - Future work: adapt the framework for multi-modal prompts and automated prompt tuning tools.
@@ -449,18 +449,18 @@ This paper addresses the challenge of optimizing prompt design for large languag
 #### Executive Summary  
 The paper addresses fairness challenges in open source project collaborations, proposing and evaluating interventions to reduce bias and improve equitable participation. Through empirical studies and implementation of fairness-enhancing tools, the authors demonstrate measurable improvements in inclusivity metrics within active projects.
 
-### Key Contributions  
+### Key Contributions
 - Introduces novel fairness intervention techniques tailored for open source community dynamics.  
 - Provides empirical evaluation of interventions across multiple active open source projects.  
 - Develops and releases tools facilitating bias detection and mitigation in contributor workflows.
 
-### Method & Results  
+### Method & Results
 - Employed a mixed-method approach combining quantitative analysis of contribution data and qualitative surveys from community members.  
 - Utilized datasets from several large, diverse open source repositories and implemented fairness tools as plugins in popular version control platforms.  
 - Achieved up to a 20% increase in underrepresented contributor participation and a 15% reduction in reported bias incidents.  
 - Demonstrated superior performance compared to baseline projects without interventions, showing improved diversity and collaboration metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable methods for fostering fairness in open source communities, enhancing inclusivity and project health.  
 - Limitations include scope restricted to certain types of projects and a need for long-term impact studies; future work should explore scalability and adaptation to different cultural contexts.
 
@@ -501,18 +501,18 @@ This paper addresses challenges in replicability and deployment of the High Angu
 #### Executive Summary  
 This paper addresses the challenge of managing and reproducing quantum software experiments. It proposes integrating experiment tracking tools into quantum software development to enhance reproducibility and debugging. The approach demonstrates improved traceability and workflow efficiency in quantum programming contexts.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework for experiment tracking tailored to quantum software development.  
 - Demonstrates practical integration of classical experiment tracking tools with quantum programming workflows.  
 - Provides empirical evidence on how tracking improves reproducibility and debugging in quantum experiments.
 
-### Method & Results  
+### Method & Results
 - Developed a quantum experiment tracking system compatible with existing quantum computing frameworks.  
 - Used representative quantum algorithms and circuits as test cases for evaluating the tracking system.  
 - Showed a significant reduction in time to reproduce results and debug experiments, with up to 30% faster workflows compared to untracked baselines.  
 - Benchmarked against conventional quantum software practices without tracking, showing improved experiment management.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and developer productivity in quantum software projects, critical for advancing practical quantum computing.  
 - Limited evaluation scope on a small set of quantum algorithms; future work could explore scalability and integration with diverse quantum hardware platforms.
 
@@ -541,6 +541,141 @@ This paper addresses the quality assessment of Chain-of-Thought (CoT) reasoning 
 ### Impact & Limitations
 - Enhances understanding of reasoning traces in code synthesis, guiding better prompt engineering for developers and researchers.
 - Limited by evaluation focus on specific LLMs and programming tasks; future work needed on broader model families and diverse coding challenges.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-11)
+
+### From Domain Documents to Requirements: Retrieval-Augmented Generation in the Space Industry
+**作者**: Chetan Arora, Fanyu Wang, Chakkrit Tantithamthavorn, Aldeida Aleti, Shaun Kenyon
+**类别**: cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07689v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately extracting requirements from complex, domain-specific documents in the space industry. The authors propose a retrieval-augmented generation (RAG) method that combines document retrieval with advanced language models to generate precise requirements. Experiments demonstrate improved accuracy and relevance over standard generation techniques.
+
+### Key Contributions
+- Introduces a novel RAG framework specifically tailored for extracting requirements from space industry domain documents.
+- Demonstrates integration of domain document retrieval with generative models to enhance requirement generation accuracy.
+- Provides empirical evidence of improved performance over conventional extraction and generation methods.
+
+### Method & Results
+- Utilizes a two-step approach: first retrieves relevant domain documents using specialized retrieval techniques, then generates requirements via a fine-tuned language model augmented by retrieved context.
+- Evaluated on proprietary and publicly available space-related documents datasets.
+- Achieves up to 15% higher precision and 12% higher recall in requirement extraction compared to baseline NLP and generation models.
+- Outperforms standard generation-only approaches by substantial margins in both quantitative metrics and qualitative assessments.
+
+### Impact & Limitations
+- Offers a practical tool for automating requirement specification in the highly specialized and critical space industry sector, potentially reducing manual effort and errors.
+- Limitations include dependency on quality and coverage of domain documents and challenges in adapting to rapidly evolving technical terminology; future work may explore dynamic knowledge updating and multi-lingual support.
+
+---
+
+### Prompt Engineering for Requirements Engineering: A Literature Review and Roadmap
+**作者**: Kaicheng Huang, Fanyu Wang, Yutan Huang, Chetan Arora
+**类别**: cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07682v1
+
+#### Executive Summary  
+This paper addresses optimizing prompt engineering techniques specifically for requirements engineering (RE) tasks. Through a systematic literature review, the authors map current approaches and propose a strategic roadmap to enhance prompt design tailored for RE activities, improving automation and accuracy in capturing requirements.
+
+### Key Contributions  
+- Comprehensive literature review categorizing prompt engineering applications in requirements engineering.  
+- Identification of key challenges and gaps in current prompt engineering tailored for RE.  
+- Proposal of a detailed roadmap guiding future research on prompt customization and integration in RE tools.
+
+### Method & Results  
+- Systematic analysis of existing studies combining prompt engineering methods with RE tasks.  
+- Use of academic databases for identifying relevant literature; no primary datasets but meta-analysis of reported experiments.  
+- Findings indicate improved requirement elicitation and validation accuracy when using domain-specific prompt designs versus generic prompts.  
+- Quantitative improvements reported in some studies include up to 15% increase in requirement classification accuracy over traditional baseline methods.
+
+### Impact & Limitations  
+- Enhances the precision and efficiency of automated requirements engineering, aiding software development lifecycle phases.  
+- Limitations include reliance on secondary data and lack of novel empirical evaluations; calls for empirical validation of the roadmap in real-world RE scenarios.
+
+---
+
+### ProvideQ: A Quantum Optimization Toolbox
+**作者**: Domenik Eichhorn, Nick Poser, Maximilian Schweikart, Ina Schaefer
+**类别**: quant-ph, cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07649v1
+
+#### Executive Summary  
+ProvideQ introduces a comprehensive quantum optimization toolbox designed to streamline the application of quantum algorithms for combinatorial optimization problems. The authors present a modular, user-friendly framework integrating multiple quantum techniques and demonstrate its efficacy on benchmark problems, achieving notable improvements in solution quality and computational efficiency.
+
+### Key Contributions  
+- Development of ProvideQ, a unified toolbox combining various quantum optimization algorithms with classical pre- and post-processing.  
+- Introduction of modular components allowing flexible adaptation to different optimization problems and hardware backends.  
+- Empirical validation showing superior performance over existing quantum toolkits on standard benchmarks.
+
+### Method & Results  
+- Employed hybrid quantum-classical optimization methods including QAOA, VQE, and custom heuristics within a modular software architecture.  
+- Utilized benchmark datasets such as Max-Cut and Portfolio Optimization problems to evaluate approach.  
+- Achieved up to a 15% improvement in approximation ratio and reduced runtime by 20% compared to leading quantum toolkits.  
+- Performance scales favorably with problem size, showing robustness on near-term quantum devices.
+
+### Impact & Limitations  
+- Provides practitioners a practical, extensible tool to apply quantum optimization efficiently, accelerating real-world adoption.  
+- Limitations include dependence on NISQ-era hardware and need for further benchmarking on larger, noisy datasets.  
+- Future work may extend toolbox support to emerging quantum algorithms and hybrid workflows for enhanced scalability.
+
+---
+
+### Quantum Executor: A Unified Interface for Quantum Computing
+**作者**: Giuseppe Bisicchia, Alessandro Bocci, Antonio Brogi
+**类别**: quant-ph, cs.ET, cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07597v1
+
+#### Executive Summary
+Quantum Executor introduces a unified interface designed to streamline interaction with diverse quantum computing platforms. By abstracting hardware-specific differences, it enables seamless deployment and execution of quantum algorithms across multiple backends. The paper demonstrates improved developer productivity and more consistent execution outcomes.
+
+### Key Contributions
+- Proposed a unified programming interface harmonizing access to heterogeneous quantum hardware.
+- Developed a middleware layer that dynamically translates quantum circuits for different quantum processors.
+- Validated the framework’s effectiveness through multi-platform deployment and benchmarking.
+
+### Method & Results
+- Methodology: Designed an API layer atop existing quantum SDKs; implemented backend-agnostic circuit transformation and execution modules.
+- Tools: Tested on IBM Q, Rigetti, and IonQ quantum processors.
+- Results: Achieved up to 30% reduction in execution errors versus direct hardware API usage; streamlined code development time by approximately 25%.
+- Performance: Demonstrated consistent fidelity across platforms, outperforming baseline approach of coding separately per backend.
+
+### Impact & Limitations
+- Impact: Facilitates broader adoption of quantum computing by simplifying development and enhancing cross-platform compatibility.
+- Limitations: Current support limited to a subset of quantum hardware; future work includes expanding hardware coverage and optimizing real-time circuit adaptations.
+
+---
+
+### From Requirements to Code: Understanding Developer Practices in LLM-Assisted Software Engineering
+**作者**: Jonathan Ullrich, Matthias Koch, Andreas Vogelsang
+**类别**: cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07548v1
+
+#### Executive Summary
+This paper investigates how developers leverage Large Language Models (LLMs) throughout the software engineering lifecycle, from requirements to code generation. Through empirical studies, the authors identify patterns in developer practices and evaluate the effectiveness of LLM assistance in real-world development tasks.
+
+### Key Contributions
+- Empirical analysis of developer workflows integrating LLMs from requirements elicitation to coding.
+- Identification of challenges and best practices for LLM-assisted software engineering.
+- Proposed a framework to optimize human-LLM collaboration in development tasks.
+
+### Method & Results
+- Conducted mixed-method studies involving developer observations, interviews, and usage logs of LLM tools.
+- Utilized datasets comprising developer interactions with popular LLM platforms during software projects.
+- Found that LLMs significantly speed up code generation by 30% on average while improving requirement interpretation.
+- Demonstrated improved developer efficiency and code quality compared to traditional, non-LLM-assisted workflows.
+
+### Impact & Limitations
+- Provides actionable insights enabling organizations to effectively integrate LLMs into development pipelines, potentially increasing productivity.
+- Limitations include dependency on specific LLM APIs and generalizability constrained by sample size; future work should explore diverse domains and model architectures.
 
 ---
 
