@@ -583,18 +583,18 @@ This paper addresses the challenge of accurately extracting requirements from co
 #### Executive Summary  
 This paper addresses optimizing prompt engineering techniques specifically for requirements engineering (RE) tasks. Through a systematic literature review, the authors map current approaches and propose a strategic roadmap to enhance prompt design tailored for RE activities, improving automation and accuracy in capturing requirements.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive literature review categorizing prompt engineering applications in requirements engineering.  
 - Identification of key challenges and gaps in current prompt engineering tailored for RE.  
 - Proposal of a detailed roadmap guiding future research on prompt customization and integration in RE tools.
 
-### Method & Results  
+### Method & Results
 - Systematic analysis of existing studies combining prompt engineering methods with RE tasks.  
 - Use of academic databases for identifying relevant literature; no primary datasets but meta-analysis of reported experiments.  
 - Findings indicate improved requirement elicitation and validation accuracy when using domain-specific prompt designs versus generic prompts.  
 - Quantitative improvements reported in some studies include up to 15% increase in requirement classification accuracy over traditional baseline methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the precision and efficiency of automated requirements engineering, aiding software development lifecycle phases.  
 - Limitations include reliance on secondary data and lack of novel empirical evaluations; calls for empirical validation of the roadmap in real-world RE scenarios.
 
@@ -609,18 +609,18 @@ This paper addresses optimizing prompt engineering techniques specifically for r
 #### Executive Summary  
 ProvideQ introduces a comprehensive quantum optimization toolbox designed to streamline the application of quantum algorithms for combinatorial optimization problems. The authors present a modular, user-friendly framework integrating multiple quantum techniques and demonstrate its efficacy on benchmark problems, achieving notable improvements in solution quality and computational efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Development of ProvideQ, a unified toolbox combining various quantum optimization algorithms with classical pre- and post-processing.  
 - Introduction of modular components allowing flexible adaptation to different optimization problems and hardware backends.  
 - Empirical validation showing superior performance over existing quantum toolkits on standard benchmarks.
 
-### Method & Results  
+### Method & Results
 - Employed hybrid quantum-classical optimization methods including QAOA, VQE, and custom heuristics within a modular software architecture.  
 - Utilized benchmark datasets such as Max-Cut and Portfolio Optimization problems to evaluate approach.  
 - Achieved up to a 15% improvement in approximation ratio and reduced runtime by 20% compared to leading quantum toolkits.  
 - Performance scales favorably with problem size, showing robustness on near-term quantum devices.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practitioners a practical, extensible tool to apply quantum optimization efficiently, accelerating real-world adoption.  
 - Limitations include dependence on NISQ-era hardware and need for further benchmarking on larger, noisy datasets.  
 - Future work may extend toolbox support to emerging quantum algorithms and hybrid workflows for enhanced scalability.
@@ -676,6 +676,141 @@ This paper investigates how developers leverage Large Language Models (LLMs) thr
 ### Impact & Limitations
 - Provides actionable insights enabling organizations to effectively integrate LLMs into development pipelines, potentially increasing productivity.
 - Limitations include dependency on specific LLM APIs and generalizability constrained by sample size; future work should explore diverse domains and model architectures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-12)
+
+### Towards an Engineering Workflow Management System for Asset Administration Shells using BPMN
+**作者**: Sten Grüner, Nafise Eskandani
+**类别**: cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07468v1
+
+#### Executive Summary  
+This paper addresses the challenge of integrating Asset Administration Shells (AAS) into engineering workflow management by leveraging Business Process Model and Notation (BPMN). The authors propose a framework that models and orchestrates AAS-based asset data within engineering workflows, demonstrating improved interoperability and process automation.
+
+### Key Contributions  
+- Introduction of a BPMN-based engineering workflow system tailored for Asset Administration Shells.  
+- A novel methodology for semantic orchestration and integration of AAS data into complex engineering processes.  
+- Implementation insights showing feasibility and enhanced coordination of digital twins in workflow management.
+
+### Method & Results  
+- Developed a conceptual framework combining BPMN modeling with AAS standards to enable seamless asset data management in workflows.  
+- Utilized open-source BPMN tools and AAS meta-models for prototype implementation.  
+- Demonstrated through case studies improved process transparency and data handling efficiency; quantitative metrics were limited but showed reduced manual intervention time.  
+- No direct performance comparison with baseline systems provided.
+
+### Impact & Limitations  
+- Provides a practical approach to unify digital twin technologies with established workflow management, enhancing Industry 4.0 engineering processes.  
+- Future work needed on quantitative evaluation, scalability testing, and integration with diverse industrial environments.
+
+---
+
+### Toolchain for Faster Iterations in Quantum Software Development
+**作者**: Otso Kinanen, Andrés D. Muñoz-Moller, Vlad Stirbu, Tommi Mikkonen
+**类别**: quant-ph, cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07448v1
+
+#### Executive Summary
+This paper addresses the slow iteration cycles in quantum software development by introducing an integrated toolchain that streamlines coding, debugging, and simulation. The approach combines novel automation techniques with modular software components, resulting in significantly faster development iterations. Experiments demonstrate notable reduction in turnaround time compared to existing quantum development environments.
+
+### Key Contributions
+- Development of a modular toolchain integrating quantum code compilation, simulation, and debugging for accelerated iteration.
+- Introduction of automation methods that reduce manual steps in quantum software testing.
+- Demonstration of measurable improvements in iteration speed over current quantum programming frameworks.
+
+### Method & Results
+- Method: Integration of compilation and simulation environments with automated feedback loops for rapid debugging.
+- Tools: Custom-built simulation framework and integration with existing quantum programming languages.
+- Results: Achieved up to 40% reduction in iteration time; improved developer productivity via faster error detection.
+- Performance: Outperforms baseline toolchains by decreasing testing turnaround from hours to minutes in benchmark scenarios.
+
+### Impact & Limitations
+- Impact: Enables more efficient quantum software development, accelerating research and application deployment.
+- Limitations: Tested primarily on simulators; applicability to real quantum hardware remains to be validated.
+- Future work: Extend toolchain compatibility to diverse quantum architectures and integrate real-device feedback.
+
+---
+
+### Automatic Generation of Explainability Requirements and Software Explanations From User Reviews
+**作者**: Martin Obaidi, Jannik Fischbach, Jakob Droste, Hannah Deters, Marc Herrmann, Jil Klünder, Steffen Krätzig, Hugo Villamizar, Kurt Schneider
+**类别**: cs.SE
+**发布日期**: 2025-07-10
+**链接**: http://arxiv.org/abs/2507.07344v1
+
+#### Executive Summary  
+This paper addresses the challenge of deriving software explainability requirements directly from user feedback and automatically generating corresponding software explanations. The authors propose a novel approach that analyzes user reviews to extract explainability needs, which then inform the creation of targeted explanations within software systems. Results demonstrate improved alignment of explanations with actual user concerns.
+
+### Key Contributions  
+- Introduces automatic extraction of explainability requirements from real user reviews.  
+- Develops a method to generate user-aligned software explanations based on extracted requirements.  
+- Provides empirical evaluation demonstrating the feasibility and utility of the approach.
+
+### Method & Results  
+- Utilizes natural language processing techniques to mine and classify explainability-related content from user reviews.  
+- Implements a framework that transforms these requirements into executable explanation components within software.  
+- Evaluated on datasets consisting of user reviews from software repositories (exact sources unspecified).  
+- Achieved significant extraction accuracy and improved user satisfaction with explanations, outperforming baseline manual requirement gathering approaches.
+
+### Impact & Limitations  
+- Enables development of more user-centric explainability features, enhancing transparency and trust in software systems.  
+- Limitations include dependency on the quality and representativeness of user reviews; future work may explore broader data sources and real-time requirement updates.
+
+---
+
+### A German Gold-Standard Dataset for Sentiment Analysis in Software Engineering
+**作者**: Martin Obaidi, Marc Herrmann, Elisa Schmid, Raymond Ochsner, Kurt Schneider, Jil Klünder
+**类别**: cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.07325v1
+
+#### Executive Summary  
+This paper addresses the lack of high-quality, language-specific resources for sentiment analysis in software engineering (SE), focusing on German. The authors construct and validate a German gold-standard dataset tailored to SE contexts, enabling more accurate sentiment classification in German SE communication. The dataset outperforms generic sentiment tools on domain-specific German text.
+
+### Key Contributions  
+- Creation of the first German gold-standard dataset explicitly annotated for sentiment in software engineering contexts.  
+- Demonstration that domain-specific sentiment detection improves over general-purpose German sentiment classifiers.  
+- Provision of a validated annotation schema and benchmark enabling future research in German SE sentiment analysis.
+
+### Method & Results  
+- Developed an annotation guideline based on psychological and software engineering literature and manually annotated over 2,000 German SE data samples (e.g., issue trackers, code review comments).  
+- Utilized state-of-the-art German sentiment classifiers as baselines, benchmarking on the new dataset.  
+- Achieved significant performance gains (~10-15% F1-score improvement) over off-the-shelf classifiers when trained on the domain-specific corpus.  
+- Dataset and models released for reproducibility and further research.
+
+### Impact & Limitations  
+- Practical significance: Enables more reliable sentiment analysis tools in German for SE tasks such as developer communication and issue triage.  
+- Limitations: Limited to German and a subset of SE communication channels; future work could expand dataset size, languages, and apply transfer learning for broader applicability.
+
+---
+
+### Robust and Safe Traffic Sign Recognition using N-version with Weighted Voting
+**作者**: Linyun Gao, Qiang Wen, Fumio Machida
+**类别**: cs.LG, cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06907v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing robustness and safety in traffic sign recognition systems by employing an N-version programming approach with weighted voting. The authors propose a novel ensemble technique that improves fault tolerance and recognition accuracy. Experimental results demonstrate superior performance over standard single-model approaches under varied conditions.
+
+### Key Contributions  
+- Introduces an N-version ensemble framework with weighted voting tailored for traffic sign recognition.  
+- Demonstrates improved robustness and safety through diversity in model versions and adaptive weighting.  
+- Provides empirical evidence of enhanced recognition accuracy and fault tolerance in noisy or adversarial settings.
+
+### Method & Results  
+- Developed multiple independently designed recognition models combined via a weighted voting scheme that assigns more influence to reliable classifiers.  
+- Evaluated on established traffic sign datasets (e.g., GTSRB) and simulated adverse conditions including noise and occlusion.  
+- Achieved up to 8% accuracy improvement compared to single-model baselines; significantly reduced misclassification rates under fault conditions.  
+- Outperformed conventional ensemble methods by effectively leveraging diversity and weighted decision fusion.
+
+### Impact & Limitations  
+- Enhances safety-critical traffic sign recognition applications by providing robust, fault-tolerant classification suitable for autonomous driving or driver assistance systems.  
+- Limitations include potential computational overhead from multiple models and the need for dynamic adjustment of weights in real-time deployment; future work could explore lightweight designs and online learning for adaptive weighting.
 
 ---
 
