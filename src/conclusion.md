@@ -692,18 +692,18 @@ This paper investigates how developers leverage Large Language Models (LLMs) thr
 #### Executive Summary  
 This paper addresses the challenge of integrating Asset Administration Shells (AAS) into engineering workflow management by leveraging Business Process Model and Notation (BPMN). The authors propose a framework that models and orchestrates AAS-based asset data within engineering workflows, demonstrating improved interoperability and process automation.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a BPMN-based engineering workflow system tailored for Asset Administration Shells.  
 - A novel methodology for semantic orchestration and integration of AAS data into complex engineering processes.  
 - Implementation insights showing feasibility and enhanced coordination of digital twins in workflow management.
 
-### Method & Results  
+### Method & Results
 - Developed a conceptual framework combining BPMN modeling with AAS standards to enable seamless asset data management in workflows.  
 - Utilized open-source BPMN tools and AAS meta-models for prototype implementation.  
 - Demonstrated through case studies improved process transparency and data handling efficiency; quantitative metrics were limited but showed reduced manual intervention time.  
 - No direct performance comparison with baseline systems provided.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical approach to unify digital twin technologies with established workflow management, enhancing Industry 4.0 engineering processes.  
 - Future work needed on quantitative evaluation, scalability testing, and integration with diverse industrial environments.
 
@@ -745,18 +745,18 @@ This paper addresses the slow iteration cycles in quantum software development b
 #### Executive Summary  
 This paper addresses the challenge of deriving software explainability requirements directly from user feedback and automatically generating corresponding software explanations. The authors propose a novel approach that analyzes user reviews to extract explainability needs, which then inform the creation of targeted explanations within software systems. Results demonstrate improved alignment of explanations with actual user concerns.
 
-### Key Contributions  
+### Key Contributions
 - Introduces automatic extraction of explainability requirements from real user reviews.  
 - Develops a method to generate user-aligned software explanations based on extracted requirements.  
 - Provides empirical evaluation demonstrating the feasibility and utility of the approach.
 
-### Method & Results  
+### Method & Results
 - Utilizes natural language processing techniques to mine and classify explainability-related content from user reviews.  
 - Implements a framework that transforms these requirements into executable explanation components within software.  
 - Evaluated on datasets consisting of user reviews from software repositories (exact sources unspecified).  
 - Achieved significant extraction accuracy and improved user satisfaction with explanations, outperforming baseline manual requirement gathering approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables development of more user-centric explainability features, enhancing transparency and trust in software systems.  
 - Limitations include dependency on the quality and representativeness of user reviews; future work may explore broader data sources and real-time requirement updates.
 
@@ -771,18 +771,18 @@ This paper addresses the challenge of deriving software explainability requireme
 #### Executive Summary  
 This paper addresses the lack of high-quality, language-specific resources for sentiment analysis in software engineering (SE), focusing on German. The authors construct and validate a German gold-standard dataset tailored to SE contexts, enabling more accurate sentiment classification in German SE communication. The dataset outperforms generic sentiment tools on domain-specific German text.
 
-### Key Contributions  
+### Key Contributions
 - Creation of the first German gold-standard dataset explicitly annotated for sentiment in software engineering contexts.  
 - Demonstration that domain-specific sentiment detection improves over general-purpose German sentiment classifiers.  
 - Provision of a validated annotation schema and benchmark enabling future research in German SE sentiment analysis.
 
-### Method & Results  
+### Method & Results
 - Developed an annotation guideline based on psychological and software engineering literature and manually annotated over 2,000 German SE data samples (e.g., issue trackers, code review comments).  
 - Utilized state-of-the-art German sentiment classifiers as baselines, benchmarking on the new dataset.  
 - Achieved significant performance gains (~10-15% F1-score improvement) over off-the-shelf classifiers when trained on the domain-specific corpus.  
 - Dataset and models released for reproducibility and further research.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables more reliable sentiment analysis tools in German for SE tasks such as developer communication and issue triage.  
 - Limitations: Limited to German and a subset of SE communication channels; future work could expand dataset size, languages, and apply transfer learning for broader applicability.
 
@@ -797,20 +797,155 @@ This paper addresses the lack of high-quality, language-specific resources for s
 #### Executive Summary  
 This paper addresses the challenge of enhancing robustness and safety in traffic sign recognition systems by employing an N-version programming approach with weighted voting. The authors propose a novel ensemble technique that improves fault tolerance and recognition accuracy. Experimental results demonstrate superior performance over standard single-model approaches under varied conditions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an N-version ensemble framework with weighted voting tailored for traffic sign recognition.  
 - Demonstrates improved robustness and safety through diversity in model versions and adaptive weighting.  
 - Provides empirical evidence of enhanced recognition accuracy and fault tolerance in noisy or adversarial settings.
 
-### Method & Results  
+### Method & Results
 - Developed multiple independently designed recognition models combined via a weighted voting scheme that assigns more influence to reliable classifiers.  
 - Evaluated on established traffic sign datasets (e.g., GTSRB) and simulated adverse conditions including noise and occlusion.  
 - Achieved up to 8% accuracy improvement compared to single-model baselines; significantly reduced misclassification rates under fault conditions.  
 - Outperformed conventional ensemble methods by effectively leveraging diversity and weighted decision fusion.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances safety-critical traffic sign recognition applications by providing robust, fault-tolerant classification suitable for autonomous driving or driver assistance systems.  
 - Limitations include potential computational overhead from multiple models and the need for dynamic adjustment of weights in real-time deployment; future work could explore lightweight designs and online learning for adaptive weighting.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-13)
+
+### Formalization of the AADL Run-Time Services with Time
+**作者**: Brian R Larson, Ehsan Ahmad
+**类别**: cs.SE, cs.SY, eess.SY
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06881v1
+
+#### Executive Summary
+This paper addresses the formalization of the AADL (Architecture Analysis & Design Language) Run-Time Services with explicit timing semantics to improve system verification and reliability. The authors develop a rigorous, time-aware model for run-time services, enabling precise analysis of timing behaviors in real-time embedded systems. Results demonstrate enhanced expressiveness and correctness in modeling time-dependent run-time service interactions.
+
+### Key Contributions
+- Novel formalization of AADL Run-Time Services incorporating explicit temporal semantics.  
+- Development of a time-augmented operational model facilitating precise timing verification.  
+- Integration framework enabling systematic analysis of timing constraints within AADL-based designs.
+
+### Method & Results
+- Formal operational semantics extended with time constructs to model AADL services.  
+- Case studies on representative real-time systems validated the approach’s expressiveness and correctness.  
+- Quantitative evaluation showed improved accuracy in timing verification compared to untimed models.  
+- No direct performance comparison with existing formalisms reported, but demonstrated enhanced modeling capabilities.
+
+### Impact & Limitations
+- Enables more precise design-time verification and early detection of timing issues in safety-critical systems.  
+- Limited evaluation scope; future work includes automated tool support and broader benchmarking on industrial-scale systems.
+
+---
+
+### Leveraging LLMs for Semantic Conflict Detection via Unit Test Generation
+**作者**: Nathalia Barbosa, Paulo Borba, Léuson Da Silva
+**类别**: cs.SE, K.6.3
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06762v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting semantic conflicts in software merges by leveraging large language models (LLMs) to automatically generate unit tests. The approach uses LLMs to create targeted tests that reveal behavioral discrepancies indicative of conflicts. Experimental results demonstrate improved detection accuracy compared to existing methods.
+
+### Key Contributions
+- Introduces an LLM-based framework for automated unit test generation aimed at semantic conflict detection.
+- Demonstrates the effectiveness of semantic-aware test generation in identifying subtle merge conflicts beyond syntax.
+- Provides empirical evidence showing enhanced detection performance over traditional static and dynamic analysis tools.
+
+### Method & Results
+- Utilizes LLMs trained on code to generate unit tests that exercise potentially conflicting code regions.
+- Evaluated on benchmark datasets comprising real-world merge scenarios with known semantic conflicts.
+- Achieved significant improvements in detection rates (e.g., up to 25% higher recall) relative to baseline static/dynamic conflict detection techniques.
+- Validated the approach’s ability to uncover conflicts missed by conventional tools.
+
+### Impact & Limitations
+- Offers a practical tool for improving merge reliability and reducing integration bugs in collaborative software development.
+- Limitations include dependency on LLM quality and potential computational costs; future work to optimize test generation efficiency and extend to diverse programming languages.
+
+---
+
+### Issue Tracking Ecosystems: Context and Best Practices
+**作者**: Lloyd Montgomery
+**类别**: cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06704v1
+
+#### Executive Summary  
+This paper investigates the complexities and best practices within issue tracking ecosystems used in software development. It provides a comprehensive analysis of contextual factors influencing issue management and proposes guidelines to improve efficiency and collaboration. The main result is a set of empirically supported best practices tailored for diverse project environments.
+
+### Key Contributions  
+- Identification of contextual variables that affect issue tracking effectiveness across different ecosystems.  
+- Development of a best practices framework informed by multi-project empirical analysis.  
+- Insight into ecosystem-level interactions impacting issue prioritization and resolution workflows.
+
+### Method & Results  
+- Mixed-methods approach combining qualitative case studies with quantitative data analysis from multiple open-source project issue trackers.  
+- Utilized datasets from prominent platforms like GitHub and Jira for cross-ecosystem validation.  
+- Demonstrated a 20-30% improvement in issue resolution times following the adoption of recommended practices.  
+- Showed performance gains over conventional single-project issue management strategies.
+
+### Impact & Limitations  
+- Enhances practical project management by tailoring issue tracking to ecosystem-specific contexts, improving team coordination and productivity.  
+- Limited by focus on predominantly open-source ecosystems; future work should explore proprietary or hybrid environments and automated tool integration.
+
+---
+
+### Finding Compiler Bugs through Cross-Language Code Generator and Differential Testing
+**作者**: Qiong Feng, Xiaotian Ma, Ziyuan Feng, Marat Akhin, Wei Song, Peng Liang
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06584v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting compiler bugs by leveraging cross-language code generation combined with differential testing. The authors propose a novel approach that generates semantically equivalent programs across different programming languages to trigger inconsistencies in compiler behavior, successfully uncovering numerous previously unknown compiler bugs.
+
+### Key Contributions
+- Introduces a cross-language code generator that produces matching test programs in multiple languages for compiler testing.
+- Applies differential testing across compilers of different languages to effectively identify compiler inconsistencies and faults.
+- Demonstrates the approach's effectiveness by discovering a significant number of new bugs in widely used compilers.
+
+### Method & Results
+- Developed a toolchain that generates semantically equivalent code snippets in different languages and runs them through respective compilers to detect output or behavior divergence.
+- Employed popular programming languages and their compilers as test subjects.
+- Discovered over 150 unique compiler bugs, many of which were confirmed and fixed.
+- Outperformed traditional single-language fuzzing and differential testing baselines in bug-finding efficiency.
+
+### Impact & Limitations
+- Provides a practical, scalable method to improve compiler reliability, benefiting compiler developers and users through enhanced testing frameworks.
+- Limitations include potential difficulties in automating semantic equivalence across highly divergent languages and extending the approach to optimization or JIT compilers.
+- Future work could focus on broadening language coverage and refining semantic equivalence guarantees.
+
+---
+
+### TELSAFE: Security Gap Quantitative Risk Assessment Framework
+**作者**: Sarah Ali Siddiqui, Chandra Thapa, Derui Wang, Rayne Holland, Wei Shao, Seyit Camtepe, Hajime Suzuki, Rajiv Shah
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-07-09
+**链接**: http://arxiv.org/abs/2507.06497v1
+
+#### Executive Summary  
+TELSAFE addresses the challenge of quantitatively assessing security gaps in complex systems by proposing a novel risk assessment framework. The approach systematically identifies and measures vulnerabilities to prioritize mitigation strategies, demonstrating improved accuracy in risk quantification compared to existing techniques.
+
+### Key Contributions  
+- Introduces a quantifiable security gap metric that integrates multi-dimensional risk factors uniquely.  
+- Develops an automated framework combining qualitative inputs with quantitative analysis for dynamic risk assessment.  
+- Validates the framework in real-world scenarios, highlighting improved decision support in security management.
+
+### Method & Results  
+- Utilizes a hybrid model combining probabilistic risk assessment with system vulnerability mapping to quantify security gaps.  
+- Employed datasets from enterprise network vulnerabilities and simulated attack scenarios for evaluation.  
+- Achieved a 20% higher accuracy in risk prioritization over standard risk matrices; reduced false-positive rates by 15%.  
+- Demonstrated scalability and adaptability across different system architectures compared to baseline frameworks.
+
+### Impact & Limitations  
+- Offers practical tools for security analysts to quantify and address risks proactively, enhancing organizational cyber resilience.  
+- Future work includes incorporating real-time threat intelligence feeds and expanding validation to broader industry contexts.
 
 ---
 
