@@ -879,18 +879,18 @@ This paper addresses the challenge of detecting semantic conflicts in software m
 #### Executive Summary  
 This paper investigates the complexities and best practices within issue tracking ecosystems used in software development. It provides a comprehensive analysis of contextual factors influencing issue management and proposes guidelines to improve efficiency and collaboration. The main result is a set of empirically supported best practices tailored for diverse project environments.
 
-### Key Contributions  
+### Key Contributions
 - Identification of contextual variables that affect issue tracking effectiveness across different ecosystems.  
 - Development of a best practices framework informed by multi-project empirical analysis.  
 - Insight into ecosystem-level interactions impacting issue prioritization and resolution workflows.
 
-### Method & Results  
+### Method & Results
 - Mixed-methods approach combining qualitative case studies with quantitative data analysis from multiple open-source project issue trackers.  
 - Utilized datasets from prominent platforms like GitHub and Jira for cross-ecosystem validation.  
 - Demonstrated a 20-30% improvement in issue resolution times following the adoption of recommended practices.  
 - Showed performance gains over conventional single-project issue management strategies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical project management by tailoring issue tracking to ecosystem-specific contexts, improving team coordination and productivity.  
 - Limited by focus on predominantly open-source ecosystems; future work should explore proprietary or hybrid environments and automated tool integration.
 
@@ -932,20 +932,154 @@ This paper addresses the challenge of detecting compiler bugs by leveraging cros
 #### Executive Summary  
 TELSAFE addresses the challenge of quantitatively assessing security gaps in complex systems by proposing a novel risk assessment framework. The approach systematically identifies and measures vulnerabilities to prioritize mitigation strategies, demonstrating improved accuracy in risk quantification compared to existing techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a quantifiable security gap metric that integrates multi-dimensional risk factors uniquely.  
 - Develops an automated framework combining qualitative inputs with quantitative analysis for dynamic risk assessment.  
 - Validates the framework in real-world scenarios, highlighting improved decision support in security management.
 
-### Method & Results  
+### Method & Results
 - Utilizes a hybrid model combining probabilistic risk assessment with system vulnerability mapping to quantify security gaps.  
 - Employed datasets from enterprise network vulnerabilities and simulated attack scenarios for evaluation.  
 - Achieved a 20% higher accuracy in risk prioritization over standard risk matrices; reduced false-positive rates by 15%.  
 - Demonstrated scalability and adaptability across different system architectures compared to baseline frameworks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical tools for security analysts to quantify and address risks proactively, enhancing organizational cyber resilience.  
 - Future work includes incorporating real-time threat intelligence feeds and expanding validation to broader industry contexts.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-14)
+
+### Dually Hierarchical Drift Adaptation for Online Configuration Performance Learning
+**作者**: Zezhen Xiang, Jingzhi Gong, Tao Chen
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-11
+**链接**: http://arxiv.org/abs/2507.08730v1
+
+#### Executive Summary
+The paper addresses the challenge of adapting configuration performance models in dynamic, drifting environments. It introduces a dually hierarchical drift adaptation framework that simultaneously captures both gradual and abrupt performance changes, enabling more accurate online learning. Experiments demonstrate improved adaptation speed and prediction accuracy over existing methods.
+
+### Key Contributions
+- Proposes a novel dually hierarchical model that hierarchically manages both slow and sudden performance drifts.
+- Develops an online adaptation algorithm that efficiently updates performance predictions in real-time.
+- Demonstrates effectiveness through comprehensive experiments showing superior drift handling compared to state-of-the-art baselines.
+
+### Method & Results
+- Methodology uses a two-level hierarchical drift detection and adaptation mechanism integrating statistical tests for change detection and incremental model updates.
+- Evaluated on benchmark configuration performance datasets reflecting real-world drift scenarios.
+- Achieved up to 15% improvement in prediction accuracy and significantly faster adaptation times compared to baseline drift adaptation methods.
+- Results confirm robustness in varying drift speeds and types, maintaining stable performance over long-term online learning.
+
+### Impact & Limitations
+- Enables more reliable and scalable online configuration tuning in dynamic software environments, potentially reducing manual reconfiguration efforts.
+- Future work could explore extension to multi-dimensional drift types and integration with reinforcement learning for automated configuration optimization.
+
+---
+
+### Multilingual Multimodal Software Developer for Code Generation
+**作者**: Linzheng Chai, Jian Yang, Shukai Liu, Wei Zhang, Liran Wang, Ke Jin, Tao Sun, Congnan Liu, Chenchen Zhang, Hualei Zhu, Jiaheng Liu, Xianjie Wu, Ge Zhang, Tianyu Liu, Zhoujun Li
+**类别**: cs.CL, cs.AI, cs.SE
+**发布日期**: 2025-07-11
+**链接**: http://arxiv.org/abs/2507.08719v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating programming code from multimodal inputs (text and images) across multiple natural and programming languages. The authors propose a unified multilingual multimodal software developer model that integrates visual and linguistic context to enhance code generation accuracy. Experimental results demonstrate superior performance over existing unimodal and monolingual code generation models.
+
+### Key Contributions  
+- Introduces a novel multilingual multimodal framework combining text and image inputs for code generation.  
+- Demonstrates effective cross-lingual transfer enabling code generation in multiple programming languages with a single model.  
+- Curates and utilizes a large-scale multimodal multilingual dataset tailored for software development tasks.
+
+### Method & Results  
+- Utilizes a transformer-based architecture that jointly encodes natural language instructions and screenshots/diagrams to generate corresponding code snippets.  
+- Trains on a new dataset containing paired multimodal inputs and code in various programming languages.  
+- Achieves significant improvements in BLEU and CodeBLEU scores, outperforming state-of-the-art baselines by 8-12% on multilingual code generation benchmarks.  
+- Shows robust generalization to unseen language pairs and multimodal scenarios.
+
+### Impact & Limitations  
+- Enables developers to write code using multimodal inputs in diverse languages, facilitating broader accessibility and efficiency in software engineering.  
+- Limitations include dependency on high-quality multimodal datasets and potential challenges handling very large or complex software projects; future work could extend model scalability and multimodal understanding depth.
+
+---
+
+### LLMCup: Ranking-Enhanced Comment Updating with LLMs
+**作者**: Hua Ge, Juan Zhai, Minxue Pan, Fusen He, Ziyue Tan
+**类别**: cs.SE, D.2.3; D.2.7; I.2.6
+**发布日期**: 2025-07-11
+**链接**: http://arxiv.org/abs/2507.08671v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically updating code comments to maintain their accuracy as code evolves. It introduces LLMCup, a novel ranking-enhanced approach leveraging large language models (LLMs) to generate and select improved comment updates. Experiments demonstrate LLMCup outperforms existing baselines in accuracy and relevance of updated comments.
+
+### Key Contributions
+- Proposes LLMCup, integrating ranking mechanisms with LLM-based comment generation for effective comment updating.
+- Introduces a novel ranking-enhancement strategy to improve selection of high-quality comment updates.
+- Provides comprehensive evaluation on real-world datasets demonstrating superior performance over prior methods.
+
+### Method & Results
+- Utilizes large language models to generate multiple candidate comment updates, followed by a ranking model that scores and selects the best update.
+- Evaluated on established code-comment datasets from software engineering repositories.
+- Achieves significant improvements in comment update accuracy metrics, surpassing state-of-the-art baselines by notable margins (quantitative values not provided).
+- Ranking-enhancement shows clear gains in precision and relevance of output comments.
+
+### Impact & Limitations
+- Enhances software maintenance by automating the preservation of accurate code documentation, reducing manual effort and errors.
+- Limited by dependency on LLM capabilities and the quality of training data; future work may explore more efficient ranking models and domain adaptation.
+
+---
+
+### NL in the Middle: Code Translation with LLMs and Intermediate Representations
+**作者**: Chi-en Amy Tai, Pengyu Nie, Lukasz Golab, Alexander Wong
+**类别**: cs.SE
+**发布日期**: 2025-07-11
+**链接**: http://arxiv.org/abs/2507.08627v1
+
+#### Executive Summary
+This paper addresses the challenge of code translation across programming languages by leveraging large language models (LLMs) alongside intermediate representations (IRs) derived from natural language. The approach introduces an IR as a bridging abstraction to improve translation accuracy and interpretability. Experiments demonstrate enhanced translation quality compared to direct LLM-based approaches.
+
+### Key Contributions
+- Proposes an IR-based framework that uses natural language to mediate code translation with LLMs.
+- Demonstrates that incorporating IRs significantly improves translation accuracy over standard end-to-end LLM methods.
+- Provides analysis on interpretability benefits and error reduction through intermediate semantic abstraction.
+
+### Method & Results
+- Methodology: Extract a natural language intermediate representation from source code, translate it via LLM, then generate target code from the IR.
+- Utilizes standard code translation benchmarks and publicly available LLMs for evaluation.
+- Results show up to a measurable increase in BLEU and CodeBLEU scores (exact figures not specified) compared to direct translation baselines.
+- Outperforms prior LLM-only translation methods on multiple language pairs.
+
+### Impact & Limitations
+- Improves reliability and transparency in automatic code translation, supporting software maintenance and migration tasks.
+- Limitations include dependency on IR quality and potential overhead; future work could optimize IR design and extend to more complex languages.
+
+---
+
+### Generating Proto-Personas through Prompt Engineering: A Case Study on Efficiency, Effectiveness and Empathy
+**作者**: Fernando Ayach, Vitor Lameirão, Raul Leão, Jerfferson Felizardo, Rafael Sobrinho, Vanessa Borges, Patrícia Matsubara, Awdren Fontão
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2025-07-11
+**链接**: http://arxiv.org/abs/2507.08594v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently generating proto-personas to enhance user-centered design processes. The authors propose a prompt engineering approach leveraging AI language models to create proto-personas that balance efficiency, effectiveness, and empathy. Results demonstrate improved generation speed and user engagement compared to traditional methods.
+
+### Key Contributions
+- Introduction of a novel prompt engineering framework for automatic proto-persona generation.
+- Empirical evaluation combining efficiency, effectiveness, and empathy metrics in proto-persona creation.
+- Case study illustrating practical integration within user experience design workflows.
+
+### Method & Results
+- Developed a tailored prompt strategy feeding AI language models to synthesize proto-personas from minimal input data.
+- Used internal datasets of user interviews and design artifacts; leveraged GPT-style models for generation.
+- Achieved a 40% reduction in proto-persona creation time while maintaining or improving perceived empathy scores by 15% relative to manual baseline methods.
+- Demonstrated higher user satisfaction and usability ratings compared to traditional manual persona development.
+
+### Impact & Limitations
+- Facilitates rapid, empathetic persona generation, potentially accelerating iterative design cycles in human-computer interaction.
+- Limitations include dependence on model quality and prompt design expertise; future work to generalize across domains and refine emotion modeling.
 
 ---
 
