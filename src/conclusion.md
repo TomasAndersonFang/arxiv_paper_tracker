@@ -988,18 +988,18 @@ The paper addresses the challenge of adapting configuration performance models i
 #### Executive Summary  
 This paper addresses the challenge of generating programming code from multimodal inputs (text and images) across multiple natural and programming languages. The authors propose a unified multilingual multimodal software developer model that integrates visual and linguistic context to enhance code generation accuracy. Experimental results demonstrate superior performance over existing unimodal and monolingual code generation models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multilingual multimodal framework combining text and image inputs for code generation.  
 - Demonstrates effective cross-lingual transfer enabling code generation in multiple programming languages with a single model.  
 - Curates and utilizes a large-scale multimodal multilingual dataset tailored for software development tasks.
 
-### Method & Results  
+### Method & Results
 - Utilizes a transformer-based architecture that jointly encodes natural language instructions and screenshots/diagrams to generate corresponding code snippets.  
 - Trains on a new dataset containing paired multimodal inputs and code in various programming languages.  
 - Achieves significant improvements in BLEU and CodeBLEU scores, outperforming state-of-the-art baselines by 8-12% on multilingual code generation benchmarks.  
 - Shows robust generalization to unseen language pairs and multimodal scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to write code using multimodal inputs in diverse languages, facilitating broader accessibility and efficiency in software engineering.  
 - Limitations include dependency on high-quality multimodal datasets and potential challenges handling very large or complex software projects; future work could extend model scalability and multimodal understanding depth.
 
@@ -1080,6 +1080,143 @@ This paper addresses the challenge of efficiently generating proto-personas to e
 ### Impact & Limitations
 - Facilitates rapid, empathetic persona generation, potentially accelerating iterative design cycles in human-computer interaction.
 - Limitations include dependence on model quality and prompt design expertise; future work to generalize across domains and refine emotion modeling.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-15)
+
+### CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks
+**作者**: Hongchao Jiang, Yiming Chen, Yushi Cao, Hung-yi Lee, Robby T. Tan
+**类别**: cs.CL, cs.AI, cs.SE
+**发布日期**: 2025-07-14
+**链接**: http://arxiv.org/abs/2507.10535v1
+
+#### Executive Summary  
+This paper introduces CodeJudgeBench, a benchmark designed to evaluate large language models (LLMs) acting as automated judges for coding tasks. The authors propose a systematic framework to assess the accuracy and reliability of LLMs in code evaluation, demonstrating that their benchmark can highlight strengths and weaknesses of different models. Experimental results validate the effectiveness of CodeJudgeBench in providing a standardized evaluation of LLMs’ judgment capabilities on code.
+
+### Key Contributions  
+- Introduces CodeJudgeBench, the first comprehensive benchmark for evaluating LLMs as code judges.  
+- Proposes a standardized evaluation framework measuring LLM assessment accuracy against expert human judgments.  
+- Provides empirical analysis comparing multiple LLMs, exposing their relative performance and error patterns.
+
+### Method & Results  
+- Developed a benchmark combining diverse coding tasks with expert-labeled ground truth for code correctness and quality.  
+- Evaluated popular LLMs by prompting them to judge code solutions and compared their judgments to human experts.  
+- Found that certain LLMs achieve up to 85% agreement with human judges, outperforming baseline heuristics significantly.  
+- Demonstrated variations in model reliability across task types, highlighting areas for model improvement.
+
+### Impact & Limitations  
+- Enables practitioners to systematically assess and select LLMs for automated code review and evaluation tasks.  
+- Limitations include dependence on benchmark diversity and the challenge of capturing subjective aspects of code quality in automated judgment.  
+- Future work may extend the benchmark to more languages, task complexities, and integrate multimodal code analysis.
+
+---
+
+### Self-Admitted GenAI Usage in Open-Source Software
+**作者**: Tao Xiao, Youmei Fan, Fabio Calefato, Christoph Treude, Raula Gaikovina Kula, Hideaki Hata, Sebastian Baltes
+**类别**: cs.SE
+**发布日期**: 2025-07-14
+**链接**: http://arxiv.org/abs/2507.10422v1
+
+#### Executive Summary  
+This paper investigates the self-admitted usage of Generative AI (GenAI) tools within open-source software development. Through mining developers’ own admissions in code repositories and related artifacts, the study quantifies and analyzes patterns of GenAI adoption, revealing insights into how developers integrate these tools in real-world projects.
+
+### Key Contributions  
+- Empirical identification and quantification of self-admitted GenAI usage in open-source repositories.  
+- Novel approach combining textual analysis of commit messages and issue discussions to detect GenAI mentions.  
+- Insights into the types of tasks and contexts where developers most frequently disclose GenAI assistance.
+
+### Method & Results  
+- Developed a taxonomy and automated detection approach for self-admitted GenAI usage embedded in textual artifacts (commits, issues).  
+- Analyzed a large dataset of popular open-source projects on platforms like GitHub.  
+- Found that a significant minority of developers explicitly state GenAI tool usage, commonly for code generation and debugging tasks.  
+- Demonstrated trends of increasing GenAI adoption over time.  
+- No explicit baseline comparisons, as this is an exploratory, descriptive study.
+
+### Impact & Limitations  
+- Provides foundational understanding of GenAI tool integration practices in OSS, informing tool makers and researchers about real adoption scenarios.  
+- Limitations include reliance on explicit self-admission, potentially missing implicit usage; future work could leverage code similarity or behavioral signals to detect undisclosed GenAI use.
+
+---
+
+### AssertCoder: LLM-Based Assertion Generation via Multimodal Specification Extraction
+**作者**: Enyuan Tian, Yiwei Ci, Qiusong Yang, Yufeng Li, Zhichao Lyu
+**类别**: cs.SE, cs.AR, cs.LO
+**发布日期**: 2025-07-14
+**链接**: http://arxiv.org/abs/2507.10338v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatic assertion generation by leveraging multimodal specifications extracted via large language models (LLMs). AssertCoder integrates textual and visual specification inputs to generate precise assertions, significantly improving test quality and coverage. Experimental results demonstrate superior performance over state-of-the-art baselines in assertion generation tasks.
+
+### Key Contributions  
+- Proposes a novel framework, AssertCoder, that fuses multimodal specification extraction for assertion generation.  
+- Leverages LLMs to understand and transform heterogeneous specification sources into accurate test assertions.  
+- Empirically validates the approach on real-world datasets showing enhanced assertion relevance and diversity.
+
+### Method & Results  
+- Utilizes LLMs to extract and combine both textual and graphical specification information for holistic assertion generation.  
+- Tested on benchmark datasets comprising annotated code and its associated multimodal specifications.  
+- Achieved up to 15-20% improvement in assertion accuracy and coverage compared to existing assertion generation approaches.  
+- Outperforms baselines such as SPEC and AST-based methods on multiple quantitative metrics.
+
+### Impact & Limitations  
+- Enhances automated testing by generating higher-quality assertions, reducing manual effort and improving software reliability.  
+- Limited by reliance on the quality and completeness of multimodal specifications; future work could explore adaptation to noisy or partial inputs.  
+- Further optimization needed for scalability and efficiency in large-scale industrial settings.
+
+---
+
+### Toolsuite for Implementing Multiagent Systems Based on Communication Protocols
+**作者**: Amit K. Chopra, Samuel H. Christie V, Munindar P. Singh
+**类别**: cs.MA, cs.AI, cs.PL, cs.SE, I.2.11; I.2.4; I.2.5
+**发布日期**: 2025-07-14
+**链接**: http://arxiv.org/abs/2507.10324v1
+
+#### Executive Summary  
+This paper addresses the challenge of implementing multiagent systems (MAS) with well-defined communication protocols. The authors present a comprehensive toolsuite that facilitates specifying, verifying, and deploying MAS based on formal communication protocol models. The main result is a practical framework that improves the reliability and correctness of MAS interactions.
+
+### Key Contributions  
+- Developed a novel toolsuite integrating protocol specification, verification, and code generation for MAS communication.  
+- Introduced a formal approach to model and enforce communication protocols ensuring interaction compliance.  
+- Demonstrated seamless integration of communication protocols with MAS development workflows.
+
+### Method & Results  
+- Core methodology: Formal specification of protocols using a domain-specific language; automatic verification for protocol adherence; and automated generation of communication middleware for agents.  
+- Tools used: Custom protocol specification language and verification tools; prototype MAS runtime environment.  
+- Experimental results: Validation through case studies showed improved protocol compliance and reduced communication errors (quantitative metrics not explicitly detailed).  
+- Performance: Reported improved reliability compared to ad hoc communication implementations; no detailed baseline benchmarking provided.
+
+### Impact & Limitations  
+- Practical significance: Enables development of robust MAS with guaranteed communication correctness, benefiting domains reliant on complex agent interactions.  
+- Limitations/Future work: Scalability to large MAS remains untested; extending the toolsuite to support dynamic protocol evolution is a key future direction.
+
+---
+
+### Streamlined Airborne Software Development for Large UAVs: From Unified Data Collection to Automated Code Generation
+**作者**: Viktor Sinitsyn, Nils Schlautmann, Florian Schwaiger, Florian Holzapfel
+**类别**: cs.SE, cs.SY, eess.SY
+**发布日期**: 2025-07-14
+**链接**: http://arxiv.org/abs/2507.10321v1
+
+#### Executive Summary  
+This paper addresses inefficiencies in airborne software development for large UAVs by introducing a unified data collection framework combined with automated code generation techniques. The approach significantly accelerates development cycles and enhances software reliability. Results demonstrate a streamlined workflow reducing manual coding effort by up to 50%.
+
+### Key Contributions  
+- A novel unified data collection system integrating diverse sensor and simulation inputs for UAV software development.  
+- Automated code generation pipeline tailored for large UAV flight control systems, reducing manual intervention.  
+- Demonstration of improved development efficiency and software quality through end-to-end integration.
+
+### Method & Results  
+- Developed an integrated framework that collects heterogeneous data sources and feeds them into model-based code generation tools.  
+- Utilized industry-standard UAV simulators and actual flight data for validation.  
+- Achieved a 50% reduction in coding time and 30% decrease in software faults during testing phases.  
+- Outperformed traditional manual coding approaches in terms of speed and error rates.
+
+### Impact & Limitations  
+- Enables faster, more reliable UAV software updates critical for complex aircraft operations.  
+- Limited real-world flight trials; future work to extend validation across diverse UAV platforms and real-time adaptive control code generation.
 
 ---
 
