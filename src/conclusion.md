@@ -1096,18 +1096,18 @@ This paper addresses the challenge of efficiently generating proto-personas to e
 #### Executive Summary  
 This paper introduces CodeJudgeBench, a benchmark designed to evaluate large language models (LLMs) acting as automated judges for coding tasks. The authors propose a systematic framework to assess the accuracy and reliability of LLMs in code evaluation, demonstrating that their benchmark can highlight strengths and weaknesses of different models. Experimental results validate the effectiveness of CodeJudgeBench in providing a standardized evaluation of LLMs’ judgment capabilities on code.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CodeJudgeBench, the first comprehensive benchmark for evaluating LLMs as code judges.  
 - Proposes a standardized evaluation framework measuring LLM assessment accuracy against expert human judgments.  
 - Provides empirical analysis comparing multiple LLMs, exposing their relative performance and error patterns.
 
-### Method & Results  
+### Method & Results
 - Developed a benchmark combining diverse coding tasks with expert-labeled ground truth for code correctness and quality.  
 - Evaluated popular LLMs by prompting them to judge code solutions and compared their judgments to human experts.  
 - Found that certain LLMs achieve up to 85% agreement with human judges, outperforming baseline heuristics significantly.  
 - Demonstrated variations in model reliability across task types, highlighting areas for model improvement.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to systematically assess and select LLMs for automated code review and evaluation tasks.  
 - Limitations include dependence on benchmark diversity and the challenge of capturing subjective aspects of code quality in automated judgment.  
 - Future work may extend the benchmark to more languages, task complexities, and integrate multimodal code analysis.
@@ -1123,19 +1123,19 @@ This paper introduces CodeJudgeBench, a benchmark designed to evaluate large lan
 #### Executive Summary  
 This paper investigates the self-admitted usage of Generative AI (GenAI) tools within open-source software development. Through mining developers’ own admissions in code repositories and related artifacts, the study quantifies and analyzes patterns of GenAI adoption, revealing insights into how developers integrate these tools in real-world projects.
 
-### Key Contributions  
+### Key Contributions
 - Empirical identification and quantification of self-admitted GenAI usage in open-source repositories.  
 - Novel approach combining textual analysis of commit messages and issue discussions to detect GenAI mentions.  
 - Insights into the types of tasks and contexts where developers most frequently disclose GenAI assistance.
 
-### Method & Results  
+### Method & Results
 - Developed a taxonomy and automated detection approach for self-admitted GenAI usage embedded in textual artifacts (commits, issues).  
 - Analyzed a large dataset of popular open-source projects on platforms like GitHub.  
 - Found that a significant minority of developers explicitly state GenAI tool usage, commonly for code generation and debugging tasks.  
 - Demonstrated trends of increasing GenAI adoption over time.  
 - No explicit baseline comparisons, as this is an exploratory, descriptive study.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides foundational understanding of GenAI tool integration practices in OSS, informing tool makers and researchers about real adoption scenarios.  
 - Limitations include reliance on explicit self-admission, potentially missing implicit usage; future work could leverage code similarity or behavioral signals to detect undisclosed GenAI use.
 
@@ -1150,18 +1150,18 @@ This paper investigates the self-admitted usage of Generative AI (GenAI) tools w
 #### Executive Summary  
 This paper addresses the challenge of automatic assertion generation by leveraging multimodal specifications extracted via large language models (LLMs). AssertCoder integrates textual and visual specification inputs to generate precise assertions, significantly improving test quality and coverage. Experimental results demonstrate superior performance over state-of-the-art baselines in assertion generation tasks.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel framework, AssertCoder, that fuses multimodal specification extraction for assertion generation.  
 - Leverages LLMs to understand and transform heterogeneous specification sources into accurate test assertions.  
 - Empirically validates the approach on real-world datasets showing enhanced assertion relevance and diversity.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to extract and combine both textual and graphical specification information for holistic assertion generation.  
 - Tested on benchmark datasets comprising annotated code and its associated multimodal specifications.  
 - Achieved up to 15-20% improvement in assertion accuracy and coverage compared to existing assertion generation approaches.  
 - Outperforms baselines such as SPEC and AST-based methods on multiple quantitative metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated testing by generating higher-quality assertions, reducing manual effort and improving software reliability.  
 - Limited by reliance on the quality and completeness of multimodal specifications; future work could explore adaptation to noisy or partial inputs.  
 - Further optimization needed for scalability and efficiency in large-scale industrial settings.
@@ -1177,18 +1177,18 @@ This paper addresses the challenge of automatic assertion generation by leveragi
 #### Executive Summary  
 This paper addresses the challenge of implementing multiagent systems (MAS) with well-defined communication protocols. The authors present a comprehensive toolsuite that facilitates specifying, verifying, and deploying MAS based on formal communication protocol models. The main result is a practical framework that improves the reliability and correctness of MAS interactions.
 
-### Key Contributions  
+### Key Contributions
 - Developed a novel toolsuite integrating protocol specification, verification, and code generation for MAS communication.  
 - Introduced a formal approach to model and enforce communication protocols ensuring interaction compliance.  
 - Demonstrated seamless integration of communication protocols with MAS development workflows.
 
-### Method & Results  
+### Method & Results
 - Core methodology: Formal specification of protocols using a domain-specific language; automatic verification for protocol adherence; and automated generation of communication middleware for agents.  
 - Tools used: Custom protocol specification language and verification tools; prototype MAS runtime environment.  
 - Experimental results: Validation through case studies showed improved protocol compliance and reduced communication errors (quantitative metrics not explicitly detailed).  
 - Performance: Reported improved reliability compared to ad hoc communication implementations; no detailed baseline benchmarking provided.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables development of robust MAS with guaranteed communication correctness, benefiting domains reliant on complex agent interactions.  
 - Limitations/Future work: Scalability to large MAS remains untested; extending the toolsuite to support dynamic protocol evolution is a key future direction.
 
@@ -1203,20 +1203,155 @@ This paper addresses the challenge of implementing multiagent systems (MAS) with
 #### Executive Summary  
 This paper addresses inefficiencies in airborne software development for large UAVs by introducing a unified data collection framework combined with automated code generation techniques. The approach significantly accelerates development cycles and enhances software reliability. Results demonstrate a streamlined workflow reducing manual coding effort by up to 50%.
 
-### Key Contributions  
+### Key Contributions
 - A novel unified data collection system integrating diverse sensor and simulation inputs for UAV software development.  
 - Automated code generation pipeline tailored for large UAV flight control systems, reducing manual intervention.  
 - Demonstration of improved development efficiency and software quality through end-to-end integration.
 
-### Method & Results  
+### Method & Results
 - Developed an integrated framework that collects heterogeneous data sources and feeds them into model-based code generation tools.  
 - Utilized industry-standard UAV simulators and actual flight data for validation.  
 - Achieved a 50% reduction in coding time and 30% decrease in software faults during testing phases.  
 - Outperformed traditional manual coding approaches in terms of speed and error rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster, more reliable UAV software updates critical for complex aircraft operations.  
 - Limited real-world flight trials; future work to extend validation across diverse UAV platforms and real-time adaptive control code generation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-16)
+
+### Modeling Code: Is Text All You Need?
+**作者**: Daniel Nichols, Konstantinos Parasyris, Harshitha Menon, Brian R. Bartoldson, Giorgis Georgakoudis, Tal Ben-Nun, Abhinav Bhatele
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-07-15
+**链接**: http://arxiv.org/abs/2507.11467v1
+
+#### Executive Summary
+This paper challenges the prevailing paradigm of modeling source code purely as text by introducing alternative representations that capture code’s structural and semantic properties. The authors develop and evaluate hybrid models integrating textual and graph-based code features, demonstrating enhanced performance on code understanding tasks. Results suggest that combining textual information with structured code representations significantly improves model accuracy and robustness.
+
+### Key Contributions
+- Propose hybrid modeling techniques that fuse code text with structural graph representations.
+- Provide comprehensive evaluation showing superiority of multi-modal models over text-only baselines.
+- Introduce novel benchmarks assessing both semantic and syntactic understanding of code.
+
+### Method & Results
+- Combine transformer-based language models with graph neural networks to encode code syntax and data flow.
+- Evaluate on standard datasets including CodeSearchNet and newly introduced semantic similarity benchmarks.
+- Achieve up to 12% improvement in code classification and retrieval tasks compared to text-only models.
+- Demonstrate increased generalization across multiple programming languages and tasks.
+
+### Impact & Limitations
+- Highlights the necessity of leveraging code structure beyond text for improved AI-driven software engineering tools.
+- Future work needed on scaling graph encodings to large codebases and integrating dynamic code analysis for runtime behavior modeling.
+
+---
+
+### From Chaos to Automation: Enabling the Use of Unstructured Data for Robotic Process Automation
+**作者**: Kelly Kurowski, Xixi Lu, Hajo A. Reijers
+**类别**: cs.IR, cs.SE
+**发布日期**: 2025-07-15
+**链接**: http://arxiv.org/abs/2507.11364v1
+
+#### Executive Summary  
+The paper addresses the challenge of leveraging unstructured data for Robotic Process Automation (RPA), which traditionally relies on structured inputs. It proposes a novel framework that converts chaotic unstructured information into structured formats amenable for automation, demonstrating improved automation scope and efficiency. Experimental validation shows significant gains in processing accuracy and speed.
+
+### Key Contributions  
+- Introduces a scalable pipeline to transform unstructured data into structured formats usable by RPA systems.  
+- Develops hybrid techniques combining natural language processing and rule-based methods for data extraction.  
+- Provides empirical evidence of enhanced automation coverage on real-world enterprise datasets.
+
+### Method & Results  
+- Method: A two-stage process involving (1) semantic extraction using NLP models followed by (2) normalization via domain-specific rules.  
+- Tools/Datasets: Utilizes enterprise document corpora and open-source NLP libraries (e.g., SpaCy, transformers).  
+- Results: Achieved up to 85% accuracy in data structuring, improving RPA task automation by 30% over baseline approaches that only use structured inputs.  
+- Performance: Outperforms traditional rule-only and pure machine learning solutions in handling diverse unstructured data.
+
+### Impact & Limitations  
+- Impact: Enables broader application of RPA in domains with prevalent unstructured data, reducing manual preprocessing effort.  
+- Limitations/Future Work: Requires customization for domain idiosyncrasies; future work should explore adaptive learning to reduce manual rule configurations.
+
+---
+
+### Security Debt in Practice: Nuanced Insights from Practitioners
+**作者**: Chaima Boufaied, Taher Ghaleb, Zainab Masood
+**类别**: cs.SE
+**发布日期**: 2025-07-15
+**链接**: http://arxiv.org/abs/2507.11362v1
+
+#### Executive Summary  
+This paper investigates the concept of security debt through in-depth qualitative insights from software practitioners. Using empirical interviews and analysis, it uncovers nuanced understandings and real-world practices surrounding security debt management. The findings reveal diverse perceptions and highlight gaps between theoretical models and industry realities.
+
+### Key Contributions  
+- Provides the first qualitative study capturing practitioners’ nuanced perspectives on security debt.  
+- Identifies practical factors influencing security debt decisions overlooked in prior work.  
+- Proposes refined conceptualizations that bridge theory with industry practices.
+
+### Method & Results  
+- Conducted semi-structured interviews with a diverse group of practitioners across software companies.  
+- Employed thematic analysis to extract patterns and insights from participant narratives.  
+- Dataset: 25 in-depth interviews producing rich qualitative data.  
+- Key results indicate varied definitions of security debt, differing prioritization criteria, and underestimated organizational influences compared to existing frameworks.  
+- No direct quantitative performance comparison; focus is on conceptual clarity and empirical insights.
+
+### Impact & Limitations  
+- Enhances understanding of security debt in real settings, aiding better tailored strategies for security management in practice.  
+- Limited by sample size and qualitative scope; future work could quantify findings or explore broader industry sectors.
+
+---
+
+### RefModel: Detecting Refactorings using Foundation Models
+**作者**: Pedro Simões, Rohit Gheyi, Rian Melo, Jonhnanthan Oliveira, Márcio Ribeiro, Wesley K. G. Assunção
+**类别**: cs.SE
+**发布日期**: 2025-07-15
+**链接**: http://arxiv.org/abs/2507.11346v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately detecting software refactorings by leveraging foundation models, a novel approach in this context. The authors propose RefModel, which utilizes large pre-trained models to identify refactoring operations with improved accuracy, demonstrating superior performance over traditional heuristics.
+
+### Key Contributions  
+- Introduction of RefModel, the first method applying foundation models for refactoring detection.  
+- Demonstration of significant improvements in detection accuracy over existing heuristic-based techniques.  
+- Release of an evaluation framework integrating dataset and metrics tailored for refactoring detection with AI models.
+
+### Method & Results  
+- Employed large-scale pre-trained language models fine-tuned to detect code refactorings from commit diffs.  
+- Evaluated on benchmark datasets comprising real-world software repositories annotated for refactorings.  
+- Achieved up to 15% higher F1-score compared to state-of-the-art heuristic tools.  
+- Outperformed baselines in both precision and recall, indicating balanced detection improvements.
+
+### Impact & Limitations  
+- Enables more reliable refactoring identification, aiding software maintenance and comprehension tasks at scale.  
+- Limitations include dependency on large model sizes affecting inference cost; future work may explore lightweight models or continuous learning for adaptability.
+
+---
+
+### An Empirical Study of Multi-Agent RAG for Real-World University Admissions Counseling
+**作者**: Anh Nguyen-Duc, Chien Vu Manh, Bao Anh Tran, Viet Phuong Ngo, Luan Le Chi, Anh Quang Nguyen
+**类别**: cs.SE, cs.IR
+**发布日期**: 2025-07-15
+**链接**: http://arxiv.org/abs/2507.11272v1
+
+#### Executive Summary  
+This paper addresses challenges in university admissions counseling by developing a multi-agent Retrieval-Augmented Generation (RAG) framework to provide personalized, real-time guidance. The authors empirically evaluate their system in real-world settings, demonstrating improved counseling effectiveness over traditional single-agent methods.
+
+### Key Contributions  
+- Introduces a novel multi-agent RAG architecture specifically tailored for university admissions counseling.  
+- Empirical validation on authentic counseling scenarios, highlighting real-world applicability.  
+- Demonstrates improved response relevance and user satisfaction compared to baseline single-agent RAG systems.
+
+### Method & Results  
+- Designed a multi-agent system where agents specialize in different subdomains of admissions knowledge, leveraging RAG to generate responses from retrieved documents.  
+- Utilized a dataset comprising real university admissions queries and counseling transcripts.  
+- Achieved a statistically significant increase in counseling accuracy and relevance metrics (e.g., +15% in response precision) versus single-agent baselines.  
+- User satisfaction surveys indicated higher approval rates for multi-agent outputs.
+
+### Impact & Limitations  
+- Provides a scalable, practical tool enhancing counseling quality in complex decision-making domains like university admissions.  
+- Limitations include dependency on the quality and coverage of retrieval corpora, and challenges in agent coordination which suggest avenues for future research in dynamic agent collaboration and corpus expansion.
 
 ---
 
