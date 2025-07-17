@@ -1259,18 +1259,18 @@ This paper challenges the prevailing paradigm of modeling source code purely as 
 #### Executive Summary  
 The paper addresses the challenge of leveraging unstructured data for Robotic Process Automation (RPA), which traditionally relies on structured inputs. It proposes a novel framework that converts chaotic unstructured information into structured formats amenable for automation, demonstrating improved automation scope and efficiency. Experimental validation shows significant gains in processing accuracy and speed.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a scalable pipeline to transform unstructured data into structured formats usable by RPA systems.  
 - Develops hybrid techniques combining natural language processing and rule-based methods for data extraction.  
 - Provides empirical evidence of enhanced automation coverage on real-world enterprise datasets.
 
-### Method & Results  
+### Method & Results
 - Method: A two-stage process involving (1) semantic extraction using NLP models followed by (2) normalization via domain-specific rules.  
 - Tools/Datasets: Utilizes enterprise document corpora and open-source NLP libraries (e.g., SpaCy, transformers).  
 - Results: Achieved up to 85% accuracy in data structuring, improving RPA task automation by 30% over baseline approaches that only use structured inputs.  
 - Performance: Outperforms traditional rule-only and pure machine learning solutions in handling diverse unstructured data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables broader application of RPA in domains with prevalent unstructured data, reducing manual preprocessing effort.  
 - Limitations/Future Work: Requires customization for domain idiosyncrasies; future work should explore adaptive learning to reduce manual rule configurations.
 
@@ -1285,19 +1285,19 @@ The paper addresses the challenge of leveraging unstructured data for Robotic Pr
 #### Executive Summary  
 This paper investigates the concept of security debt through in-depth qualitative insights from software practitioners. Using empirical interviews and analysis, it uncovers nuanced understandings and real-world practices surrounding security debt management. The findings reveal diverse perceptions and highlight gaps between theoretical models and industry realities.
 
-### Key Contributions  
+### Key Contributions
 - Provides the first qualitative study capturing practitioners’ nuanced perspectives on security debt.  
 - Identifies practical factors influencing security debt decisions overlooked in prior work.  
 - Proposes refined conceptualizations that bridge theory with industry practices.
 
-### Method & Results  
+### Method & Results
 - Conducted semi-structured interviews with a diverse group of practitioners across software companies.  
 - Employed thematic analysis to extract patterns and insights from participant narratives.  
 - Dataset: 25 in-depth interviews producing rich qualitative data.  
 - Key results indicate varied definitions of security debt, differing prioritization criteria, and underestimated organizational influences compared to existing frameworks.  
 - No direct quantitative performance comparison; focus is on conceptual clarity and empirical insights.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of security debt in real settings, aiding better tailored strategies for security management in practice.  
 - Limited by sample size and qualitative scope; future work could quantify findings or explore broader industry sectors.
 
@@ -1312,18 +1312,18 @@ This paper investigates the concept of security debt through in-depth qualitativ
 #### Executive Summary  
 This paper addresses the challenge of accurately detecting software refactorings by leveraging foundation models, a novel approach in this context. The authors propose RefModel, which utilizes large pre-trained models to identify refactoring operations with improved accuracy, demonstrating superior performance over traditional heuristics.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of RefModel, the first method applying foundation models for refactoring detection.  
 - Demonstration of significant improvements in detection accuracy over existing heuristic-based techniques.  
 - Release of an evaluation framework integrating dataset and metrics tailored for refactoring detection with AI models.
 
-### Method & Results  
+### Method & Results
 - Employed large-scale pre-trained language models fine-tuned to detect code refactorings from commit diffs.  
 - Evaluated on benchmark datasets comprising real-world software repositories annotated for refactorings.  
 - Achieved up to 15% higher F1-score compared to state-of-the-art heuristic tools.  
 - Outperformed baselines in both precision and recall, indicating balanced detection improvements.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable refactoring identification, aiding software maintenance and comprehension tasks at scale.  
 - Limitations include dependency on large model sizes affecting inference cost; future work may explore lightweight models or continuous learning for adaptability.
 
@@ -1338,20 +1338,155 @@ This paper addresses the challenge of accurately detecting software refactorings
 #### Executive Summary  
 This paper addresses challenges in university admissions counseling by developing a multi-agent Retrieval-Augmented Generation (RAG) framework to provide personalized, real-time guidance. The authors empirically evaluate their system in real-world settings, demonstrating improved counseling effectiveness over traditional single-agent methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multi-agent RAG architecture specifically tailored for university admissions counseling.  
 - Empirical validation on authentic counseling scenarios, highlighting real-world applicability.  
 - Demonstrates improved response relevance and user satisfaction compared to baseline single-agent RAG systems.
 
-### Method & Results  
+### Method & Results
 - Designed a multi-agent system where agents specialize in different subdomains of admissions knowledge, leveraging RAG to generate responses from retrieved documents.  
 - Utilized a dataset comprising real university admissions queries and counseling transcripts.  
 - Achieved a statistically significant increase in counseling accuracy and relevance metrics (e.g., +15% in response precision) versus single-agent baselines.  
 - User satisfaction surveys indicated higher approval rates for multi-agent outputs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a scalable, practical tool enhancing counseling quality in complex decision-making domains like university admissions.  
 - Limitations include dependency on the quality and coverage of retrieval corpora, and challenges in agent coordination which suggest avenues for future research in dynamic agent collaboration and corpus expansion.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-17)
+
+### SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?
+**作者**: Xinyi He, Qian Liu, Mingzhe Du, Lin Yan, Zhijie Fan, Yiming Huang, Zejian Yuan, Zejun Ma
+**类别**: cs.SE
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12415v1
+
+#### Executive Summary  
+This paper investigates whether large language models (LLMs) can effectively optimize code performance in real-world software repositories. The authors propose SWE-Perf, a benchmark suite and evaluation framework to assess LLM-driven code optimization. Experiments demonstrate limited but promising improvements, revealing challenges in scaling LLM-based performance tuning beyond synthetic or small-scale code snippets.
+
+### Key Contributions  
+- Introduces SWE-Perf, a realistic benchmark for evaluating LLMs on code performance optimization using real-world repositories.  
+- Provides systematic empirical analysis of state-of-the-art LLMs applied to performance enhancement tasks.  
+- Highlights practical challenges and nuances in leveraging LLMs for optimizing complex codebases.
+
+### Method & Results  
+- Methodology: Apply fine-tuned and zero-shot prompting with LLMs to identify and suggest code modifications aimed at improving runtime or memory usage.  
+- Tools/Datasets: SWE-Perf benchmark comprising diverse real-world software repositories and performance metrics.  
+- Results: Achieved modest improvements in execution time and resource utilization; quantitative gains varied by model and repository, with top models reducing runtime by up to ~10%.  
+- Baselines: Outperformed heuristic and random optimization baselines, though improvements remain limited compared to manual expert tuning.
+
+### Impact & Limitations  
+- Impact: Provides a practical evaluation framework encouraging development of LLMs targeting real software performance, advancing automated code optimization research.  
+- Limitations: Performance gains are currently limited; LLMs struggle with complex code contexts and subtle bottlenecks. Future work should explore integration with profiling tools and hybrid human-AI optimization workflows.
+
+---
+
+### GitChameleon: Evaluating AI Code Generation Against Python Library Version Incompatibilities
+**作者**: Diganta Misra, Nizar Islah, Victor May, Brice Rauby, Zihan Wang, Justine Gehring, Antonio Orvieto, Muawiz Chaudhary, Eilif B. Muller, Irina Rish, Samira Ebrahimi Kahou, Massimo Caccia
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12367v1
+
+#### Executive Summary
+This paper addresses the challenge of AI-generated Python code incompatibilities arising from library version mismatches. The authors develop GitChameleon, a framework to evaluate AI code generation tools against these version incompatibilities and quantify their impact. Results highlight significant error rates induced by version conflicts, underscoring the need for version-aware generation.
+
+### Key Contributions
+- Introduction of GitChameleon, a novel framework to systematically assess AI code generation with respect to Python library version issues.
+- Comprehensive empirical analysis revealing how version mismatches degrade code correctness in AI-generated Python programs.
+- Dataset of real-world Python projects annotated with library versions to benchmark code generation tools under version constraints.
+
+### Method & Results
+- Method: Static and dynamic analysis to detect incompatibilities in AI-generated code using different Python library versions.
+- Tools: Leveraged popular AI code generators and a curated dataset of Python projects with explicit version information.
+- Results: Up to 30% reduction in functional correctness when library version mismatches occur.
+- Performance: GitChameleon exposes weaknesses missed by standard benchmarks, enabling more robust evaluation compared to baseline correctness metrics ignoring versions.
+
+### Impact & Limitations
+- Impact: Provides a practical evaluation tool that highlights real-world constraints on AI code generators, guiding improvements for dependable coding assistance.
+- Limitations/Future Work: Focused on Python; extending GitChameleon to other languages and exploring automated correction of version-induced errors remain open challenges.
+
+---
+
+### MERA Code: A Unified Framework for Evaluating Code Generation Across Tasks
+**作者**: Artem Chervyakov, Alexander Kharitonov, Pavel Zadorozhny, Adamenko Pavel, Rodion Levichev, Dmitrii Vorobev, Dmitrii Salikhov, Aidar Valeev, Alena Pestova, Maria Dziuba, Ilseyar Alimova, Artem Zavgorodnev, Aleksandr Medvedev, Stanislav Moiseev, Elena Bruches, Daniil Grebenkin, Roman Derunets, Vikulov Vladimir, Anton Emelyanov, Dmitrii Babaev, Vladimir V. Ivanov, Valentin Malykh, Alena Fenogenova
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12284v1
+
+#### Executive Summary
+This paper presents MERA Code, a unified evaluation framework designed to benchmark code generation models comprehensively across diverse programming tasks. It introduces novel metrics and a standardized dataset suite to assess model performance more reliably than existing fragmented evaluations. Empirical results demonstrate MERA Code’s ability to reveal nuanced strengths and weaknesses across various model architectures.
+
+### Key Contributions
+- Proposes MERA Code, a unified evaluation framework encompassing multiple code generation tasks and metrics.
+- Introduces a benchmark dataset suite that standardizes task diversity and complexity for rigorous testing.
+- Demonstrates improved diagnostic capabilities over traditional benchmarks, enabling more granular model comparisons.
+
+### Method & Results
+- Developed a multi-task evaluation methodology integrating code correctness, efficiency, and style metrics within a single platform.
+- Utilized benchmark datasets spanning algorithmic challenges, code completion, and code translation, including popular open-source repositories.
+- Experimental results show MERA Code identifies performance gaps missed by traditional PASS@k metrics, with state-of-the-art models achieving up to a 15% relative improvement in holistic evaluation scores.
+- Outperforms baseline evaluation approaches by providing comprehensive, interpretable insights into code generation capabilities.
+
+### Impact & Limitations
+- Enables researchers and practitioners to better gauge and improve code generation models, potentially accelerating deployment in real-world software development.
+- Limitations include dependency on benchmark representativeness and the need to expand task diversity further.
+- Future work could incorporate more dynamic and interactive coding tasks to better simulate real developer environments.
+
+---
+
+### An Online A/B Testing Decision Support System for Web Usability Assessment Based on a Linguistic Decision-making Methodology: Case of Study a Virtual Learning Environment
+**作者**: Noe Zermeño, Cristina Zuheros, Lucas Daniel Del Rosso Calache, Francisco Herrera, Rosana Montes
+**类别**: cs.SE, cs.HC
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12118v1
+
+#### Executive Summary  
+This paper addresses improving web usability evaluation through an online A/B testing decision support system integrating linguistic decision-making methods. The approach combines quantitative A/B testing data with qualitative linguistic assessments to enhance usability judgments in virtual learning environments. Results demonstrate improved decision accuracy and richer usability insights compared to traditional binary A/B analysis.
+
+### Key Contributions  
+- Novel integration of linguistic decision-making with online A/B testing for usability evaluation.  
+- Development of a decision support system tailored to virtual learning environments.  
+- Empirical validation showing enhanced interpretability and decision quality beyond standard A/B tests.
+
+### Method & Results  
+- Methodology: Combination of online A/B testing metrics with a multi-criteria linguistic decision-making framework.  
+- Tools/Datasets: Case study conducted on a real virtual learning environment platform with user interaction data.  
+- Results: Demonstrated improved decision support with nuanced linguistic assessments, improving usability evaluations’ reliability.  
+- Compared to baseline: Outperformed standard binary A/B testing approaches by delivering more informative, user-centered decisions.
+
+### Impact & Limitations  
+- Practical Significance: Offers practitioners a refined tool for assessing web usability, particularly benefiting complex systems like e-learning platforms.  
+- Limitations/Future Work: Validation limited to a single case study; broader testing across diverse web platforms is needed. Further automation and real-time feedback integration could enhance system responsiveness and scalability.
+
+---
+
+### From Static to Intelligent: Evolving SaaS Pricing with LLMs
+**作者**: Francisco Javier Cavero, Juan C. Alonso, Antonio Ruiz-Cortés
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12104v1
+
+#### Executive Summary  
+The paper addresses the challenge of dynamic pricing in SaaS (Software as a Service) platforms by leveraging large language models (LLMs) to evolve pricing strategies from static to intelligent frameworks. The authors propose an LLM-driven approach that adapts prices based on real-time market and customer data, demonstrating improved revenue optimization over traditional static pricing models.
+
+### Key Contributions  
+- Introduces an LLM-based pricing framework for dynamic, context-aware SaaS pricing.  
+- Demonstrates integration of market signals and customer usage patterns into pricing decisions via LLM inference.  
+- Provides empirical evidence of enhanced revenue performance compared to conventional heuristic methods.
+
+### Method & Results  
+- Utilizes transformer-based LLMs fine-tuned on SaaS pricing, market trends, and customer interaction data to predict optimal prices.  
+- Experiments conducted on a synthesized SaaS usage dataset combined with publicly available market trend datasets.  
+- Results show a revenue increase of up to 15% and better customer retention metrics relative to static pricing baselines.  
+- Outperforms rule-based and machine learning baselines in pricing accuracy and adaptability.
+
+### Impact & Limitations  
+- Offers practical, scalable pricing solutions enabling SaaS providers to dynamically respond to market conditions, potentially improving competitiveness and profitability.  
+- Limitations include reliance on quality and volume of input data; future work could explore real-world deployment scenarios and model interpretability enhancements.
 
 ---
 
