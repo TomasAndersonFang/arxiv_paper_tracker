@@ -1368,18 +1368,18 @@ This paper addresses challenges in university admissions counseling by developin
 #### Executive Summary  
 This paper investigates whether large language models (LLMs) can effectively optimize code performance in real-world software repositories. The authors propose SWE-Perf, a benchmark suite and evaluation framework to assess LLM-driven code optimization. Experiments demonstrate limited but promising improvements, revealing challenges in scaling LLM-based performance tuning beyond synthetic or small-scale code snippets.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SWE-Perf, a realistic benchmark for evaluating LLMs on code performance optimization using real-world repositories.  
 - Provides systematic empirical analysis of state-of-the-art LLMs applied to performance enhancement tasks.  
 - Highlights practical challenges and nuances in leveraging LLMs for optimizing complex codebases.
 
-### Method & Results  
+### Method & Results
 - Methodology: Apply fine-tuned and zero-shot prompting with LLMs to identify and suggest code modifications aimed at improving runtime or memory usage.  
 - Tools/Datasets: SWE-Perf benchmark comprising diverse real-world software repositories and performance metrics.  
 - Results: Achieved modest improvements in execution time and resource utilization; quantitative gains varied by model and repository, with top models reducing runtime by up to ~10%.  
 - Baselines: Outperformed heuristic and random optimization baselines, though improvements remain limited compared to manual expert tuning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Provides a practical evaluation framework encouraging development of LLMs targeting real software performance, advancing automated code optimization research.  
 - Limitations: Performance gains are currently limited; LLMs struggle with complex code contexts and subtle bottlenecks. Future work should explore integration with profiling tools and hybrid human-AI optimization workflows.
 
@@ -1447,18 +1447,18 @@ This paper presents MERA Code, a unified evaluation framework designed to benchm
 #### Executive Summary  
 This paper addresses improving web usability evaluation through an online A/B testing decision support system integrating linguistic decision-making methods. The approach combines quantitative A/B testing data with qualitative linguistic assessments to enhance usability judgments in virtual learning environments. Results demonstrate improved decision accuracy and richer usability insights compared to traditional binary A/B analysis.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of linguistic decision-making with online A/B testing for usability evaluation.  
 - Development of a decision support system tailored to virtual learning environments.  
 - Empirical validation showing enhanced interpretability and decision quality beyond standard A/B tests.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combination of online A/B testing metrics with a multi-criteria linguistic decision-making framework.  
 - Tools/Datasets: Case study conducted on a real virtual learning environment platform with user interaction data.  
 - Results: Demonstrated improved decision support with nuanced linguistic assessments, improving usability evaluations’ reliability.  
 - Compared to baseline: Outperformed standard binary A/B testing approaches by delivering more informative, user-centered decisions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Offers practitioners a refined tool for assessing web usability, particularly benefiting complex systems like e-learning platforms.  
 - Limitations/Future Work: Validation limited to a single case study; broader testing across diverse web platforms is needed. Further automation and real-time feedback integration could enhance system responsiveness and scalability.
 
@@ -1473,20 +1473,154 @@ This paper addresses improving web usability evaluation through an online A/B te
 #### Executive Summary  
 The paper addresses the challenge of dynamic pricing in SaaS (Software as a Service) platforms by leveraging large language models (LLMs) to evolve pricing strategies from static to intelligent frameworks. The authors propose an LLM-driven approach that adapts prices based on real-time market and customer data, demonstrating improved revenue optimization over traditional static pricing models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-based pricing framework for dynamic, context-aware SaaS pricing.  
 - Demonstrates integration of market signals and customer usage patterns into pricing decisions via LLM inference.  
 - Provides empirical evidence of enhanced revenue performance compared to conventional heuristic methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes transformer-based LLMs fine-tuned on SaaS pricing, market trends, and customer interaction data to predict optimal prices.  
 - Experiments conducted on a synthesized SaaS usage dataset combined with publicly available market trend datasets.  
 - Results show a revenue increase of up to 15% and better customer retention metrics relative to static pricing baselines.  
 - Outperforms rule-based and machine learning baselines in pricing accuracy and adaptability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical, scalable pricing solutions enabling SaaS providers to dynamically respond to market conditions, potentially improving competitiveness and profitability.  
 - Limitations include reliance on quality and volume of input data; future work could explore real-world deployment scenarios and model interpretability enhancements.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-18)
+
+### Detecting LLM-generated Code with Subtle Modification by Adversarial Training
+**作者**: Xin Yin, Xinrui Li, Chao Ni, Xiaodan Xu, Xiaohu Yang
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13123v1
+
+#### Executive Summary
+This paper addresses the challenge of reliably detecting code generated by large language models (LLMs) that have been subtly modified via adversarial training. The authors propose a novel adversarial training framework to enhance detection robustness against such modifications, demonstrating improved detection accuracy on modified LLM-generated code samples.
+
+### Key Contributions
+- Introduces an adversarial training method tailored to detect subtly modified LLM-generated code.
+- Provides analysis showing vulnerability of existing detectors to small code perturbations.
+- Demonstrates significant robustness improvements in detection models against adversarially altered code.
+
+### Method & Results
+- Employs adversarial training by generating slightly altered LLM code examples to enhance detector resilience.
+- Utilizes datasets of LLM-generated code with deliberate subtle modifications for training and evaluation.
+- Achieves higher detection accuracy (exact figures not specified) compared to baseline detectors without adversarial training.
+- Experimental results show marked robustness gains in identifying adversarially modified code.
+
+### Impact & Limitations
+- Enhances security and trustworthiness of code provenance verification in development and security contexts.
+- Future work could explore expanding adversarial scenarios and evaluating across diverse programming languages and LLM architectures.
+
+---
+
+### Inferring Attributed Grammars from Parser Implementations
+**作者**: Andreas Pointner, Josef Pichler, Herbert Prähofer
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13117v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatically recovering attributed grammars from existing parser implementations. The authors propose a novel inference approach that extracts grammar structure and semantic attributes directly from parser code, enabling better grammar understanding and reuse. Results demonstrate effective reconstruction of attributed grammars with high fidelity to original parsers.
+
+### Key Contributions  
+- Introduces a method to infer attributed grammars by analyzing parser implementation code rather than source language samples.  
+- Develops algorithms to systematically extract semantic attribute computations alongside syntactic rules.  
+- Demonstrates applicability across multiple parser implementations, highlighting generality and automation.
+
+### Method & Results  
+- Methodology involves static and dynamic code analysis to identify grammar productions and attribute flows within parser source code.  
+- Evaluated on a set of real-world parser implementations, including popular open-source parsers.  
+- Achieved reconstruction accuracy exceeding 90% in capturing grammar rules and attribute dependencies.  
+- Outperforms baseline grammar inference techniques limited to raw input-output example processing.
+
+### Impact & Limitations  
+- Enables automated grammar recovery to support parser maintenance, translation, and language tool development without manual grammar reengineering.  
+- Limited by parser implementation complexity and language-specific coding idioms; future work could enhance robustness and scalability.
+
+---
+
+### A Conceptual Framework for Requirements Engineering of Pretrained-Model-Enabled Systems
+**作者**: Dongming Jin, Zhi Jin, Linyu Li, Xiaohong Chen
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13095v1
+
+#### Executive Summary  
+This paper addresses challenges in requirements engineering (RE) for systems leveraging pretrained models (PMs), which traditional RE approaches inadequately support. The authors propose a novel conceptual framework that integrates PM-specific aspects into the RE process, improving clarity and completeness in specifying system requirements. Their framework facilitates systematic consideration of PM capabilities, constraints, and lifecycle issues.
+
+### Key Contributions  
+- Introduces a tailored RE framework explicitly designed for pretrained-model-enabled systems.  
+- Identifies and incorporates unique PM-related requirement elements and concerns.  
+- Provides guidance to bridge gaps between AI model development and software engineering requirements.
+
+### Method & Results  
+- Developed a conceptual framework grounded in literature review and expert interviews.  
+- Validated framework applicability through case study analysis of PM-based systems (no specific datasets reported).  
+- Demonstrated improved requirement coverage and identification of critical PM aspects compared to generic RE approaches.  
+- No quantitative baseline performance reported, focus on qualitative validation.
+
+### Impact & Limitations  
+- Enhances practical RE processes for AI-integrated software, promoting more reliable and maintainable AI system development.  
+- Limitations: empirical validation is preliminary; future work should include extensive quantitative evaluation and tool support for framework adoption.
+
+---
+
+### iReDev: A Knowledge-Driven Multi-Agent Framework for Intelligent Requirements Development
+**作者**: Dongming Jin, Weisong Sun, Jiangping Huang, Peng Liang, Jifeng Xuan, Yang Liu, Zhi Jin
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13081v1
+
+#### Executive Summary
+This paper addresses challenges in requirements engineering by proposing iReDev, a knowledge-driven multi-agent framework that enhances intelligent requirements development. The approach integrates domain knowledge with collaborative agents to automate and improve the quality of requirements engineering processes, demonstrating improved efficiency and accuracy in experiments.
+
+### Key Contributions
+- Introduces a novel multi-agent framework leveraging domain knowledge for intelligent requirements development.
+- Develops mechanisms for collaborative agent interaction to enhance requirement elicitation and validation.
+- Demonstrates effectiveness through empirical evaluation on realistic requirements engineering tasks.
+
+### Method & Results
+- Core methodology: Combines knowledge representation with multi-agent collaboration to automate requirement elicitation, analysis, and validation.
+- Uses domain-specific datasets and simulated requirements engineering scenarios for testing.
+- Experimental results show up to 25% improvement in requirement completeness and 30% reduction in elicitation time compared to standard techniques.
+- Outperforms baseline methods in both accuracy and efficiency metrics across multiple test cases.
+
+### Impact & Limitations
+- Provides a scalable, intelligent tool to support practitioners in complex requirements engineering, potentially improving software project outcomes.
+- Limitations include dependency on quality of domain knowledge bases and challenges in real-world agent coordination; future work may explore adaptive learning and broader domain applicability.
+
+---
+
+### Investigating the Performance of Small Language Models in Detecting Test Smells in Manual Test Cases
+**作者**: Keila Lucas, Rohit Gheyi, Márcio Ribeiro, Fabio Palomba, Luana Martins, Elvys Soares
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13035v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting test smells in manual test cases using small language models (SLMs). The authors propose a novel approach leveraging lightweight transformer-based models to identify common test smells effectively. Results indicate that SLMs achieve competitive accuracy, highlighting their feasibility for resource-constrained environments.
+
+### Key Contributions  
+- Empirical evaluation of small language models for test smell detection in manual test cases.  
+- Introduction of a benchmark dataset tailored for evaluating test smell identification.  
+- Demonstration of SLMs’ efficiency and effectiveness compared to larger models and traditional techniques.
+
+### Method & Results  
+- Fine-tuning of small transformer-based language models to classify test smells in manually written test cases.  
+- Utilization of a curated, labeled dataset of manual test cases exhibiting various test smells.  
+- Achieved up to 82% accuracy in detecting key test smells, closely matching larger model performance.  
+- Outperformed classical heuristic-based approaches by a margin of approximately 10% in F1-score.
+
+### Impact & Limitations  
+- Enables practical, cost-effective automation of quality assurance tasks in software testing, especially in resource-limited settings.  
+- Limitations include relatively small dataset size and focus on a limited set of test smells; future work could expand datasets and explore multi-modal inputs integrating test code and documentation.
 
 ---
 
