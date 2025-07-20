@@ -1637,18 +1637,18 @@ This paper addresses the challenge of detecting test smells in manual test cases
 #### Executive Summary  
 This paper addresses the challenge of licensing open source training data for generative AI models and proposes a novel framework called Contextual Copyleft to balance openness with ethical and legal safeguards. The authors develop tailored licensing terms that adapt to context-specific risks and benefits, advocating for a dynamic approach to data sharing in AI. Results demonstrate improved clarity and enforceability in licensing, promoting responsible data use.
 
-### Key Contributions  
+### Key Contributions
 - Proposes "Contextual Copyleft," a flexible licensing model for open source AI training data incorporating ethical and legal context.  
 - Provides a theoretical framework linking copyleft principles with AI data governance.  
 - Advocates a policy-driven approach integrating stakeholder rights and societal impact into licensing.  
 
-### Method & Results  
+### Method & Results
 - Developed a conceptual licensing framework combining copyleft ideology with contextual factors affecting generative AI datasets.  
 - Case studies analyzing existing dataset licenses and generative AI training practices to identify gaps the framework addresses.  
 - Showed enhanced alignment with ethical principles and enforceability through qualitative evaluation; no quantitative benchmark due to legal-normative focus.  
 - Compared to standard open source licenses, Contextual Copyleft offers improved adaptability and risk management in AI data use.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides foundational groundwork for responsible sharing of AI training data, influencing future open source licensing policies and AI governance.  
 - Limitation: Primarily theoretical without extensive empirical validation; future work needed on real-world legal implementation and community adoption.
 
@@ -1663,17 +1663,17 @@ This paper addresses the challenge of licensing open source training data for ge
 #### Executive Summary  
 This paper addresses the challenge of generating realistic student programming code by training large language models (LLMs) to emulate the struggle process students undergo when solving coding problems. The authors propose ParaStudent, a novel method that teaches LLMs to produce authentic, imperfect student code along with the reasoning steps behind errors. The approach yields synthetic datasets that closely mirror real student submissions, improving evaluation benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel teaching paradigm for LLMs that actively models student struggle and errors in code generation.  
 - Develops ParaStudent, a system generating realistic and diverse student-like code, along with error annotations.  
 - Demonstrates that ParaStudent-generated data improves downstream tasks such as error diagnosis and automated grading.
 
-### Method & Results  
+### Method & Results
 - Method: Incrementally trains LLMs to generate code with realistic mistakes by simulating student problem-solving struggles, including common misconceptions and error patterns.  
 - Utilizes real student code datasets for grounding and evaluation, coupled with synthetic augmentation.  
 - Results: ParaStudent’s synthetic data closely matches real student code distributions, enhancing automated feedback tools with up to 15% improvement in error detection accuracy over baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Enables scalable creation of high-fidelity student code datasets, advancing education technology, automated grading, and personalized feedback systems.  
 - Limitations: Current models may not capture all nuances of human struggle; future work could extend to diverse programming languages and integrate multimodal learning signals.
 
@@ -1688,18 +1688,18 @@ This paper addresses the challenge of generating realistic student programming c
 #### Executive Summary  
 The paper introduces the Single Conversation Methodology (SCM), a human-centered protocol designed to enhance AI-assisted software development by structuring interactions between developers and AI tools into focused, single-threaded conversations. This approach aims to improve communication clarity and development efficiency, demonstrating measurable gains in code quality and developer satisfaction.
 
-### Key Contributions  
+### Key Contributions
 - Proposes SCM, a novel protocol for structuring AI-developer interactions through single, focused dialogue threads.  
 - Demonstrates improved developer-AI collaboration effectiveness compared to multi-threaded or unstructured interactions.  
 - Provides an evaluative framework combining technical and human-centric metrics in AI-assisted coding.
 
-### Method & Results  
+### Method & Results
 - Methodology: Introduces a protocol enforcing single, continuous conversations to guide AI assistance in software tasks; integrates human feedback loops for iterative refinement.  
 - Tools/Datasets: Utilizes proprietary AI coding assistants and simulated development tasks across varied programming challenges.  
 - Results: SCM yielded a 15% increase in code correctness and a 20% improvement in developer-reported clarity and satisfaction over baseline multi-threaded interaction models.  
 - Performance: Outperformed conventional AI interaction protocols with statistically significant gains in both objective and subjective metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: SCM offers a practical framework for enhancing human-AI synergy in software development, potentially boosting productivity and software quality.  
 - Limitations/Future Work: Current evaluation is limited to controlled settings with select AI tools; future work should explore broader environments and integration with diverse AI systems.
 
@@ -1714,18 +1714,18 @@ The paper introduces the Single Conversation Methodology (SCM), a human-centered
 #### Executive Summary  
 The paper addresses the challenge of measuring project success beyond traditional criteria by proposing a fuzzy logic-based approach to capture subjective and qualitative factors. Their model integrates multiple success dimensions, yielding a more nuanced evaluation framework. Results demonstrate improved alignment with stakeholder perceptions compared to conventional metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a fuzzy logic framework for evaluating project success, incorporating qualitative and stakeholder-centric criteria.  
 - Proposes a multi-dimensional success measurement model that captures both tangible and intangible project outcomes.  
 - Validates the approach with empirical data, showing enhanced correlation with perceived success.
 
-### Method & Results  
+### Method & Results
 - Developed a fuzzy inference system to aggregate diverse project success factors into a unified score.  
 - Utilized survey data from project managers and stakeholders across various industries for validation.  
 - Achieved a higher correlation coefficient (approx. 0.85) with subjective success ratings than baseline methods (~0.65).  
 - Demonstrated improved sensitivity to non-quantitative success drivers over standard quantitative KPIs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practitioners a more comprehensive assessment tool for project success, supporting better decision-making and stakeholder communication.  
 - Limitations include reliance on subjective survey data and potential complexity in model tuning. Future work could explore automated calibration and broader cross-industry validation.
 
@@ -1740,21 +1740,154 @@ The paper addresses the challenge of measuring project success beyond traditiona
 #### Executive Summary  
 This paper addresses the challenge of evaluating new information and data models tailored for the smart grid domain. It proposes a structured three-phase evaluation framework that systematically assesses model suitability, interoperability, and performance. The approach is validated through case studies demonstrating improved evaluation rigor and decision-making support.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel three-phase evaluation framework specific to smart grid data models.  
 - Provides an integrated assessment encompassing model fitness, interoperability, and performance.  
 - Demonstrates practical applicability through real-world smart grid scenarios.
 
-### Method & Results  
+### Method & Results
 - Developed a phased methodology: (1) model suitability assessment, (2) interoperability testing, and (3) performance evaluation.  
 - Employed smart grid datasets and domain-specific simulation tools for validation.  
 - Experiments showed enhanced evaluation precision, identifying key model strengths and weaknesses quantitatively (e.g., improved interoperability scores by 15%).  
 - Outperformed baseline informal evaluation approaches by delivering comprehensive, structured insights.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables smart grid stakeholders to systematically select and refine data models, improving integration and operational efficiency.  
 - Limitations include dependency on domain-specific datasets and potential complexity in scaling the framework to broader IoT domains.  
 - Future work: automation of evaluation phases and adaptation for emerging smart grid technologies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-20)
+
+### QSpark: Towards Reliable Qiskit Code Generation
+**作者**: Kiana Kheiri, Aamna Aamir, Andriy Miranskyy, Chen Ding
+**类别**: cs.SE, cs.AI, quant-ph
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12642v1
+
+#### Executive Summary
+This paper addresses reliability challenges in automatic Qiskit code generation for quantum computing tasks. The authors propose QSpark, a novel framework combining syntactic and semantic analysis to enhance the correctness and robustness of generated quantum programs. Experiments demonstrate improved reliability and fewer execution errors compared to existing code generation approaches.
+
+### Key Contributions
+- Introduces QSpark, a hybrid static analysis and semantic validation framework tailored for Qiskit code generation.
+- Develops novel reliability metrics specific to quantum program correctness.
+- Demonstrates significant error reduction in generated quantum circuits through extensive empirical evaluation.
+
+### Method & Results
+- Combines static code analysis with semantic checks to detect and repair common errors in generated Qiskit code.
+- Utilizes benchmark quantum algorithms and synthetic datasets to evaluate performance.
+- Achieves up to 40% reduction in runtime errors and 30% improvement in code correctness compared to baseline automated generators.
+- Outperforms standard Qiskit code generation tools in reliability without significant performance overhead.
+
+### Impact & Limitations
+- Enhances practical usability of quantum program synthesis, potentially accelerating quantum software development.
+- Current focus on Qiskit limits generalizability; future work includes extending to other quantum programming frameworks and improving scalability for larger circuits.
+
+---
+
+### ROSE: Transformer-Based Refactoring Recommendation for Architectural Smells
+**作者**: Samal Nursapa, Anastassiya Samuilova, Alessio Bucaioni. Phuong T. Nguyen
+**类别**: cs.SE
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12561v1
+
+#### Executive Summary  
+This paper addresses the challenge of recommending refactoring solutions to resolve architectural smells in software systems. The authors propose ROSE, a Transformer-based model that leverages source code and architectural context to suggest targeted refactorings. Experimental evaluation demonstrates that ROSE outperforms existing techniques in accuracy and relevance of recommendations.
+
+### Key Contributions  
+- Introduction of ROSE, the first Transformer-based model tailored for architectural smell refactoring recommendations.  
+- Integration of both code and architectural features to enhance refactoring suggestion quality.  
+- Empirical validation showing significant improvement over state-of-the-art baselines.
+
+### Method & Results  
+- Methodology: Utilizes a Transformer architecture trained on combined representations of source code and architectural metrics to predict optimal refactoring actions.  
+- Datasets/Tools: Evaluated on multiple open-source projects annotated with architectural smells and corresponding refactoring labels.  
+- Results: Achieved up to 15% accuracy improvement compared to baseline models, with enhanced contextual understanding leading to more precise recommendations.
+
+### Impact & Limitations  
+- Impact: ROSE aids developers in maintaining system quality by automating architectural smell refactoring, reducing technical debt.  
+- Limitations: Model requires extensive labeled data and may not generalize across diverse architectural styles; future work includes expanding datasets and exploring transfer learning.
+
+---
+
+### When Retriever Meets Generator: A Joint Model for Code Comment Generation
+**作者**: Tien P. T. Le, Anh M. T. Bui, Huy N. D. Pham, Alessio Bucaioni, Phuong T. Nguyen
+**类别**: cs.SE
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12558v1
+
+#### Executive Summary
+This paper addresses the task of automatic code comment generation by jointly integrating a retriever to fetch relevant code snippets and a generator to produce descriptive comments. Their joint model demonstrates improved comment quality by leveraging retrieved context, outperforming standalone generative approaches.
+
+### Key Contributions
+- Proposes a novel joint retriever-generator architecture tailored for code comment generation.
+- Introduces a mechanism to effectively combine retrieved code snippets with generation for enhanced context understanding.
+- Demonstrates significant gains over baseline comment generation models on benchmark datasets.
+
+### Method & Results
+- Utilizes a dual-component system: a retriever module fetching semantically related code examples, and a generator module producing comments conditioned on retrieved snippets and input code.
+- Evaluated on public code comment datasets (e.g., CodeSearchNet) using standard metrics like BLEU and METEOR.
+- Shows quantitative improvements: achieves up to 10% higher BLEU scores compared to state-of-the-art generators without retrieval.
+- Outperforms baselines by effectively capturing code semantics and contextual relevance through retrieval augmentation.
+
+### Impact & Limitations
+- Enhances automated documentation tools by generating more accurate, context-aware comments, aiding software maintenance.
+- Limitations include dependency on retrieval quality and computational overhead; future work may explore more efficient retrieval and generation integration or adaptation to diverse programming languages.
+
+---
+
+### LLAMA: Multi-Feedback Smart Contract Fuzzing Framework with LLM-Guided Seed Generation
+**作者**: Keke Gai, Haochen Liang, Jing Yu, Liehuang Zhu, Dusit Niyato
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12084v1
+
+#### Executive Summary  
+This paper addresses the challenge of effectively fuzzing smart contracts to detect vulnerabilities by introducing LLAMA, a framework that utilizes large language models (LLMs) for intelligent seed input generation combined with multi-feedback mechanisms. The approach enhances fuzzing efficiency and coverage, demonstrating significant improvements over traditional methods in vulnerability discovery.
+
+### Key Contributions  
+- Introduces a novel LLM-guided seed generation technique tailored for smart contract fuzzing.  
+- Proposes a multi-feedback system integrating execution feedback and vulnerability signals for dynamic input refinement.  
+- Demonstrates superior vulnerability detection rates on real-world smart contracts compared to existing fuzzers.
+
+### Method & Results  
+- Utilizes LLMs to produce semantically rich input seeds, combined with iterative multi-feedback loops (e.g., code coverage, crash info).  
+- Evaluated on benchmark smart contract datasets and deployed frameworks for vulnerability detection.  
+- Achieved up to 30% higher code coverage and discovered 25% more unique vulnerabilities than state-of-the-art fuzzers.  
+- Outperforms baseline fuzzing frameworks regarding efficiency and bug-finding capabilities.
+
+### Impact & Limitations  
+- Enhances automated security testing in blockchain development by improving fuzzing effectiveness, potentially reducing smart contract exploits.  
+- Limitations include dependency on LLM quality and computational overhead; future work could explore optimization and broader contract types.
+
+---
+
+### Expanding ML-Documentation Standards For Better Security
+**作者**: Cara Ellen Appel
+**类别**: cs.CR, cs.LG, cs.SE
+**发布日期**: 2025-07-16
+**链接**: http://arxiv.org/abs/2507.12003v1
+
+#### Executive Summary  
+This paper addresses the insufficiency of current machine learning documentation standards in capturing security-relevant information. It proposes an expanded documentation framework tailored to improve transparency and robustness against security vulnerabilities. The approach demonstrates enhanced detection and mitigation of security risks through more comprehensive ML model documentation.
+
+### Key Contributions  
+- Introduces an expanded ML-documentation standard integrating security-focused metadata.  
+- Develops a practical guideline for documenting security risks throughout the ML lifecycle.  
+- Empirically shows how enhanced documentation reduces security vulnerabilities in model deployment.
+
+### Method & Results  
+- Proposes an augmented documentation schema incorporating threat modeling, adversarial considerations, and provenance tracking.  
+- Utilizes existing ML lifecycle case studies and standard datasets (e.g., CIFAR-10) to validate framework.  
+- Experimental evaluation reveals a 30% improvement in identifying security gaps over traditional documentation.  
+- Baseline comparison shows standard docs miss critical security info leading to higher vulnerability exposure.
+
+### Impact & Limitations  
+- Significantly improves ML security practices by standardizing detailed, security-aware documentation, aiding developers and auditors.  
+- Limitations include potential increased documentation overhead and need for community adoption; future work should automate integration and expand to diverse ML domains.
 
 ---
 
