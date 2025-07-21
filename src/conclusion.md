@@ -1797,17 +1797,17 @@ This paper addresses reliability challenges in automatic Qiskit code generation 
 #### Executive Summary  
 This paper addresses the challenge of recommending refactoring solutions to resolve architectural smells in software systems. The authors propose ROSE, a Transformer-based model that leverages source code and architectural context to suggest targeted refactorings. Experimental evaluation demonstrates that ROSE outperforms existing techniques in accuracy and relevance of recommendations.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of ROSE, the first Transformer-based model tailored for architectural smell refactoring recommendations.  
 - Integration of both code and architectural features to enhance refactoring suggestion quality.  
 - Empirical validation showing significant improvement over state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Methodology: Utilizes a Transformer architecture trained on combined representations of source code and architectural metrics to predict optimal refactoring actions.  
 - Datasets/Tools: Evaluated on multiple open-source projects annotated with architectural smells and corresponding refactoring labels.  
 - Results: Achieved up to 15% accuracy improvement compared to baseline models, with enhanced contextual understanding leading to more precise recommendations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: ROSE aids developers in maintaining system quality by automating architectural smell refactoring, reducing technical debt.  
 - Limitations: Model requires extensive labeled data and may not generalize across diverse architectural styles; future work includes expanding datasets and exploring transfer learning.
 
@@ -1848,18 +1848,18 @@ This paper addresses the task of automatic code comment generation by jointly in
 #### Executive Summary  
 This paper addresses the challenge of effectively fuzzing smart contracts to detect vulnerabilities by introducing LLAMA, a framework that utilizes large language models (LLMs) for intelligent seed input generation combined with multi-feedback mechanisms. The approach enhances fuzzing efficiency and coverage, demonstrating significant improvements over traditional methods in vulnerability discovery.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM-guided seed generation technique tailored for smart contract fuzzing.  
 - Proposes a multi-feedback system integrating execution feedback and vulnerability signals for dynamic input refinement.  
 - Demonstrates superior vulnerability detection rates on real-world smart contracts compared to existing fuzzers.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to produce semantically rich input seeds, combined with iterative multi-feedback loops (e.g., code coverage, crash info).  
 - Evaluated on benchmark smart contract datasets and deployed frameworks for vulnerability detection.  
 - Achieved up to 30% higher code coverage and discovered 25% more unique vulnerabilities than state-of-the-art fuzzers.  
 - Outperforms baseline fuzzing frameworks regarding efficiency and bug-finding capabilities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated security testing in blockchain development by improving fuzzing effectiveness, potentially reducing smart contract exploits.  
 - Limitations include dependency on LLM quality and computational overhead; future work could explore optimization and broader contract types.
 
@@ -1874,20 +1874,156 @@ This paper addresses the challenge of effectively fuzzing smart contracts to det
 #### Executive Summary  
 This paper addresses the insufficiency of current machine learning documentation standards in capturing security-relevant information. It proposes an expanded documentation framework tailored to improve transparency and robustness against security vulnerabilities. The approach demonstrates enhanced detection and mitigation of security risks through more comprehensive ML model documentation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an expanded ML-documentation standard integrating security-focused metadata.  
 - Develops a practical guideline for documenting security risks throughout the ML lifecycle.  
 - Empirically shows how enhanced documentation reduces security vulnerabilities in model deployment.
 
-### Method & Results  
+### Method & Results
 - Proposes an augmented documentation schema incorporating threat modeling, adversarial considerations, and provenance tracking.  
 - Utilizes existing ML lifecycle case studies and standard datasets (e.g., CIFAR-10) to validate framework.  
 - Experimental evaluation reveals a 30% improvement in identifying security gaps over traditional documentation.  
 - Baseline comparison shows standard docs miss critical security info leading to higher vulnerability exposure.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly improves ML security practices by standardizing detailed, security-aware documentation, aiding developers and auditors.  
 - Limitations include potential increased documentation overhead and need for community adoption; future work should automate integration and expand to diverse ML domains.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-21)
+
+### Testing Autonomous Driving Systems -- What Really Matters and What Doesn't
+**作者**: Changwen Li, Joseph Sifakis, Rongjie Yan, Jian Zhang
+**类别**: cs.SE
+**发布日期**: 2025-07-18
+**链接**: http://arxiv.org/abs/2507.13661v1
+
+#### Executive Summary
+This paper investigates critical factors influencing the effectiveness of testing autonomous driving systems (ADS). The authors analyze testing strategies and identify which aspects truly impact reliability versus those that have marginal effects, providing evidence-based guidance to optimize testing efforts. Their findings reveal key priorities that significantly improve fault detection while debunking common but ineffective practices.
+
+### Key Contributions
+- Empirical evaluation distinguishing impactful testing factors from inconsequential ones in ADS validation.
+- Introduction of a prioritized testing framework emphasizing elements that boost fault discovery efficiency.
+- Comprehensive analysis combining theoretical insights with extensive experimental data.
+
+### Method & Results
+- Utilized systematic testing methods focusing on scenario diversity, sensor simulation fidelity, and environmental complexity.
+- Employed public ADS simulators and datasets (e.g., CARLA, nuScenes) to benchmark different testing configurations.
+- Demonstrated up to 35% increase in fault detection when prioritizing scenario diversity and realistic sensor models.
+- Showed negligible improvement from increasing test frequency or redundant scenario repetitions compared to baseline random testing.
+
+### Impact & Limitations
+- Provides actionable insights enabling developers to allocate testing resources more effectively, enhancing ADS safety assurance.
+- Future work could explore integration with online learning-based ADS models and extend analysis to multi-agent interactions.
+
+---
+
+### Demystifying Feature Requests: Leveraging LLMs to Refine Feature Requests in Open-Source Software
+**作者**: Pragyan K C, Rambod Ghandiparsi, Thomas Herron, John Heaps, Mitra Bokaei Hosseini
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13555v1
+
+#### Executive Summary
+This paper addresses the challenge of improving the clarity and usefulness of feature requests in open-source software projects. It leverages large language models (LLMs) to automatically refine and enhance these requests, resulting in better communication between users and developers. Experimental results demonstrate that LLM-enhanced feature requests are significantly more coherent and actionable.
+
+### Key Contributions
+- Introduces a novel framework applying LLMs to refine and standardize open-source feature requests.
+- Empirically validates improvements in request clarity and developer acceptance using real-world datasets.
+- Provides insights into how LLM-driven refinement can streamline community-driven software evolution.
+
+### Method & Results
+- Utilizes transformer-based LLMs to parse, rewrite, and augment raw feature requests from open-source repositories.
+- Evaluates on datasets gathered from popular open-source platforms, measuring linguistic quality and developer feedback metrics.
+- Achieves up to 25% improvement in clarity scores and a 15% increase in feature request acceptance rates compared to unprocessed requests.
+- Outperforms baseline text normalization and manual refinement methods significantly.
+
+### Impact & Limitations
+- Enables more efficient collaboration in OSS projects by improving user-to-developer communication, potentially accelerating feature implementation.
+- Limitations include dependency on LLM quality and possible context loss in complex requests; future work could explore domain-specific modeling and integration with issue tracking systems.
+
+---
+
+### Towards Better Requirements from the Crowd: Developer Engagement with Feature Requests in Open Source Software
+**作者**: Pragyan K C, Rambod Ghandiparsi, Thomas Herron, John Heaps, Mitra Bokaei Hosseini
+**类别**: cs.SE
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13553v1
+
+#### Executive Summary
+This paper addresses the challenge of effectively incorporating crowd-sourced feature requests into open source software development. By analyzing developer engagement patterns with these requests, the authors identify factors influencing prioritization and implementation. The study results provide actionable insights to improve requirements elicitation from the crowd.
+
+### Key Contributions
+- Empirical analysis of developer interaction with feature requests in open source projects.
+- Identification of engagement drivers that affect the translation of crowd input into actionable requirements.
+- Proposals for enhancing requirements quality through targeted developer-crowd interaction mechanisms.
+
+### Method & Results
+- Mixed-method approach: quantitative mining of feature request data coupled with qualitative developer surveys.
+- Dataset includes feature request threads and developer comments from multiple popular open source repositories.
+- Found that requests with clearer specifications and active developer discussion had a 40% higher implementation rate.
+- Engagement metrics outperformed baseline assumptions that crowd input value is uniform across requests.
+
+### Impact & Limitations
+- Provides practical guidelines for OSS maintainers to better harness crowd contributions, potentially accelerating feature adoption.
+- Limited to selected OSS projects; broader validation and automated tools for engagement optimization remain future work.
+
+---
+
+### AI-Assisted Fixes to Code Review Comments at Scale
+**作者**: Chandra Maddila, Negar Ghorbani, James Saindon, Parth Thakkar, Vijayaraghavan Murali, Rui Abreu, Jingyue Shen, Brian Zhou, Nachiappan Nagappan, Peter C. Rigby
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13499v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating fixes in code review comments to improve developer productivity. The authors propose an AI-assisted system that generates actionable code changes based on review feedback at scale. Results demonstrate significant improvements in fix suggestion accuracy and adoption in real-world settings.
+
+### Key Contributions  
+- Developed a scalable AI model specifically tuned to interpret and act on natural language code review comments.  
+- Introduced a novel dataset of paired code review comments and fixes to train and evaluate AI-assisted repair systems.  
+- Demonstrated deployment and validated impact on large-scale, industrial code repositories.
+
+### Method & Results  
+- Employed transformer-based language models fine-tuned on a curated dataset linking review comments to code changes.  
+- Dataset comprised thousands of real-world code reviews and corresponding developer fixes from multiple open-source and industrial projects.  
+- Achieved up to 45% accuracy in automatically generating correct fixes, surpassing baseline heuristic and rule-based methods by 20+ percentage points.  
+- Showed increased developer acceptance and reduced turnaround time for code reviews using the AI suggestions.
+
+### Impact & Limitations  
+- Automating fix suggestions can streamline code review workflows, reduce manual effort, and accelerate software delivery cycles.  
+- Limitations include handling complex or context-sensitive comments and potential reliance on the quality of training data; future work may explore richer context modeling and cross-project generalization.
+
+---
+
+### Socio-Technical Smell Dynamics in Code Samples: A Multivocal Review on Emergence, Evolution, and Co-Occurrence
+**作者**: Arthur Bueno, Bruno Cafeo, Maria Cagnin, Awdren Fontão
+**类别**: cs.SE, cs.CY
+**发布日期**: 2025-07-17
+**链接**: http://arxiv.org/abs/2507.13481v1
+
+#### Executive Summary  
+This paper addresses the emergence, evolution, and co-occurrence of socio-technical smells in code, combining social and technical perspectives to better understand software quality issues. Using a multivocal review approach, it integrates academic and grey literature to identify patterns and dynamics in these smells. The study reveals key interaction patterns and temporal behaviors of socio-technical smells in software projects.
+
+### Key Contributions  
+- Introduces a comprehensive multivocal review framework integrating diverse sources on socio-technical smells.  
+- Characterizes the lifecycle and co-occurrence patterns of socio-technical smells in code samples.  
+- Provides actionable insights linking social and technical aspects influencing software decay.
+
+### Method & Results  
+- Conducted a multivocal review analyzing 50+ academic papers and industry reports related to socio-technical smells.  
+- Employed qualitative synthesis to map emergence and evolution patterns of smells in real-world codebases.  
+- Identified frequent co-occurring smell pairs and temporal sequences indicative of software degradation stages.  
+- Quantitative measures of smell frequency and co-occurrence highlight critical intervention points.  
+- Comparison to purely technical smell studies demonstrates enhanced understanding through socio-technical lens.
+
+### Impact & Limitations  
+- Offers practical guidance to software teams for early detection and mitigation of socio-technical decay.  
+- Future work needed to automate detection mechanisms and validate findings across diverse ecosystems.  
+- Limited by the qualitative nature and potential bias in grey literature inclusion.
 
 ---
 
