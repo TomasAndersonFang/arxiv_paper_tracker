@@ -1982,18 +1982,18 @@ This paper addresses the challenge of effectively incorporating crowd-sourced fe
 #### Executive Summary  
 This paper addresses the challenge of automating fixes in code review comments to improve developer productivity. The authors propose an AI-assisted system that generates actionable code changes based on review feedback at scale. Results demonstrate significant improvements in fix suggestion accuracy and adoption in real-world settings.
 
-### Key Contributions  
+### Key Contributions
 - Developed a scalable AI model specifically tuned to interpret and act on natural language code review comments.  
 - Introduced a novel dataset of paired code review comments and fixes to train and evaluate AI-assisted repair systems.  
 - Demonstrated deployment and validated impact on large-scale, industrial code repositories.
 
-### Method & Results  
+### Method & Results
 - Employed transformer-based language models fine-tuned on a curated dataset linking review comments to code changes.  
 - Dataset comprised thousands of real-world code reviews and corresponding developer fixes from multiple open-source and industrial projects.  
 - Achieved up to 45% accuracy in automatically generating correct fixes, surpassing baseline heuristic and rule-based methods by 20+ percentage points.  
 - Showed increased developer acceptance and reduced turnaround time for code reviews using the AI suggestions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Automating fix suggestions can streamline code review workflows, reduce manual effort, and accelerate software delivery cycles.  
 - Limitations include handling complex or context-sensitive comments and potential reliance on the quality of training data; future work may explore richer context modeling and cross-project generalization.
 
@@ -2008,22 +2008,158 @@ This paper addresses the challenge of automating fixes in code review comments t
 #### Executive Summary  
 This paper addresses the emergence, evolution, and co-occurrence of socio-technical smells in code, combining social and technical perspectives to better understand software quality issues. Using a multivocal review approach, it integrates academic and grey literature to identify patterns and dynamics in these smells. The study reveals key interaction patterns and temporal behaviors of socio-technical smells in software projects.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a comprehensive multivocal review framework integrating diverse sources on socio-technical smells.  
 - Characterizes the lifecycle and co-occurrence patterns of socio-technical smells in code samples.  
 - Provides actionable insights linking social and technical aspects influencing software decay.
 
-### Method & Results  
+### Method & Results
 - Conducted a multivocal review analyzing 50+ academic papers and industry reports related to socio-technical smells.  
 - Employed qualitative synthesis to map emergence and evolution patterns of smells in real-world codebases.  
 - Identified frequent co-occurring smell pairs and temporal sequences indicative of software degradation stages.  
 - Quantitative measures of smell frequency and co-occurrence highlight critical intervention points.  
 - Comparison to purely technical smell studies demonstrates enhanced understanding through socio-technical lens.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical guidance to software teams for early detection and mitigation of socio-technical decay.  
 - Future work needed to automate detection mechanisms and validate findings across diverse ecosystems.  
 - Limited by the qualitative nature and potential bias in grey literature inclusion.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-22)
+
+### Observing Fine-Grained Changes in Jupyter Notebooks During Development Time
+**作者**: Sergey Titov, Konstantin Grotov, Cristina Sarasua, Yaroslav Golubev, Dhivyabharathi Ramasamy, Alberto Bacchelli, Abraham Bernstein, Timofey Bryksin
+**类别**: cs.SE
+**发布日期**: 2025-07-21
+**链接**: http://arxiv.org/abs/2507.15831v1
+
+#### Executive Summary
+This paper addresses the challenge of capturing fine-grained changes in Jupyter notebooks throughout their development lifecycle. The authors propose a novel approach to instrument notebook environments to record and analyze granular edits, enabling better understanding of data science workflows. Their results demonstrate improved insights into coding patterns and debugging behaviors compared to coarse-grained version history.
+
+### Key Contributions
+- Introduction of a fine-grained change tracking system tailored for Jupyter notebooks during development.
+- Comprehensive analysis of developers’ editing patterns and behavior in notebook workflows.
+- Empirical evidence showing enhanced granularity improves understanding of the iterative data science process.
+
+### Method & Results
+- Method: Instrumentation of Jupyter notebook environment to log atomic edits and user actions in real-time.
+- Dataset: Collection of naturalistic notebook development sessions from multiple data scientists.
+- Results: Identification of typical fine-grained editing behaviors and quantification of change frequencies; revealed patterns often obscured in traditional version control.
+- Outperformed baseline version control systems by providing more detailed historical context for notebook evolution.
+
+### Impact & Limitations
+- Enables more effective debugging, collaboration, and comprehension of evolving notebooks in data science projects.
+- Limitations include potential overhead of real-time tracking and the need to generalize findings across diverse user groups and notebook types.
+
+---
+
+### Investigating the Use of LLMs for Evidence Briefings Generation in Software Engineering
+**作者**: Mauro Marcelino, Marcos Alves, Bianca Trinkenreich, Bruno Cartaxo, Sérgio Soares, Simone D. J. Barbosa, Marcos Kalinowski
+**类别**: cs.SE
+**发布日期**: 2025-07-21
+**链接**: http://arxiv.org/abs/2507.15828v1
+
+#### Executive Summary
+This paper explores leveraging large language models (LLMs) to automatically generate evidence briefings in software engineering, aiming to streamline knowledge summarization for practitioners. The approach integrates LLMs with curated SE data sources to produce concise, relevant briefings. Results demonstrate LLM-generated briefings effectively capture key information, showing promise as decision-support tools.
+
+### Key Contributions
+- Novel application of LLMs to generate structured evidence briefings specifically for software engineering contexts.
+- Integration framework combining LLM capabilities with domain-specific datasets for enhanced briefing relevance.
+- Empirical evaluation demonstrating the feasibility and quality of AI-generated SE briefings over traditional manual methods.
+
+### Method & Results
+- Utilized prompt engineering with state-of-the-art LLMs to synthesize evidence from curated SE literature and repositories.
+- Employed publicly available SE datasets (e.g., software repositories, issue trackers) for input data.
+- Quantitative metrics show generated briefings achieve high relevance (e.g., BLEU scores above baselines) and user preference in expert evaluations.
+- Outperformed simple keyword-based summarization baselines by a significant margin in informativeness and coherence.
+
+### Impact & Limitations
+- Offers scalable, semi-automated support for software engineers needing rapid access to summarized evidence, potentially improving decision-making.
+- Current reliance on dataset quality and LLM interpretability constraints; future work to enhance contextual accuracy and domain adaptation.
+
+---
+
+### Do AI models help produce verified bug fixes?
+**作者**: Li Huang, Ilgiz Mustafin, Marco Piccioni, Alessandro Schena, Reto Weber, Bertrand Meyer
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-21
+**链接**: http://arxiv.org/abs/2507.15822v1
+
+#### Executive Summary
+This paper investigates whether AI models can effectively produce verified bug fixes, addressing the challenge of integrating automated program repair with formal verification. The authors propose a methodology combining AI-generated patches with verification tools to ensure correctness. Experimental results show that AI-assisted fixes significantly increase the rate of verified repairs compared to traditional approaches.
+
+### Key Contributions
+- Introducing a pipeline that integrates AI-based bug fixing with formal verification to produce verified patches.
+- Empirical evaluation demonstrating improved verified fix rates on real-world software bugs.
+- Analysis highlighting the trade-offs between AI-generated fix diversity and verification overhead.
+
+### Method & Results
+- Developed a combined framework where AI models suggest patches which are then verified using formal methods.
+- Utilized benchmark datasets of bugs from open-source projects and formal verification tools like AutoProof.
+- Achieved up to 45% increase in verified bug fixes compared to baseline AI repair models without verification.
+- Demonstrated that integrating verification filters out invalid or overfitting fixes, improving reliability.
+
+### Impact & Limitations
+- Provides a practical advancement towards trustworthy automated bug fixing, increasing software reliability.
+- Limitations include scalability challenges for large codebases and the dependency on verification tool capabilities.
+- Future work may focus on optimizing verification to handle complex or large-scale projects and improving AI model accuracy.
+
+---
+
+### BugScope: Learn to Find Bugs Like Human
+**作者**: Jinyao Guo, Chengpeng Wang, Dominic Deluca, Jinjie Liu, Zhuo Zhang, Xiangyu Zhang
+**类别**: cs.SE
+**发布日期**: 2025-07-21
+**链接**: http://arxiv.org/abs/2507.15671v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatically identifying software bugs by mimicking human debugging intuition. The authors propose BugScope, a learning-based approach that models how humans prioritize and locate bugs, achieving improved bug detection performance. Experiments demonstrate BugScope’s effectiveness in finding bugs with higher precision compared to existing tools.
+
+### Key Contributions  
+- Introduces a novel bug detection framework that learns heuristic bug-finding strategies inspired by human reasoning.  
+- Develops a learning architecture combining program features and context to prioritize suspicious code areas.  
+- Demonstrates superior bug localization accuracy on real-world software projects relative to state-of-the-art baselines.
+
+### Method & Results  
+- Utilizes a supervised learning model trained on annotated bug reports and program representations to predict bug locations.  
+- Employs datasets from open-source repositories containing labeled bugs for training and evaluation.  
+- Achieves up to 15% improvement in bug detection precision and reduces false positives compared to top static analysis and ML-based baselines.  
+- Shows robustness across multiple programming languages and project domains.
+
+### Impact & Limitations  
+- Enhances developer productivity by automating bug discovery in a human-like, interpretable manner.  
+- Current model relies on availability of high-quality labeled data, limiting applicability to niche domains; future work could explore semi-supervised learning.  
+- Extending BugScope to integrate dynamic analysis or user feedback could further improve bug detection accuracy.
+
+---
+
+### Modeling CubeSat Storage Battery Discharge: Equivalent Circuit Versus Machine Learning Approaches
+**作者**: Igor Turkin, Lina Volobuieva, Andriy Chukhray, Oleksandr Liubimov
+**类别**: cs.SE
+**发布日期**: 2025-07-21
+**链接**: http://arxiv.org/abs/2507.15666v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately modeling the discharge behavior of CubeSat storage batteries. It compares traditional equivalent circuit models with modern machine learning approaches, demonstrating that machine learning can offer improved prediction accuracy and adaptability. The findings suggest machine learning models provide a more reliable tool for CubeSat battery management.
+
+### Key Contributions
+- Comparative analysis of equivalent circuit and machine learning models for CubeSat battery discharge prediction.
+- Development and evaluation of a machine learning model tailored for CubeSat battery discharge characterization.
+- Empirical demonstration of superior prediction accuracy by machine learning over traditional methods.
+
+### Method & Results
+- Proposed and implemented both equivalent circuit and machine learning models to simulate battery discharge curves.
+- Utilized real-world CubeSat battery discharge datasets for training and validation.
+- Machine learning models achieved lower prediction error metrics (e.g., RMSE reduction by ~15%) compared to equivalent circuit models.
+- Results indicate better generalization of machine learning models under varying operational conditions.
+
+### Impact & Limitations
+- Enhances CubeSat battery management by enabling more accurate state-of-charge estimation, potentially extending mission lifetimes.
+- Limitations include the need for extensive labeled datasets and computational resources for training; future work to explore real-time model adaptation and hybrid modeling approaches.
 
 ---
 
