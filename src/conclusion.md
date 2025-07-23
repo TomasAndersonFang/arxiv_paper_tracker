@@ -2119,18 +2119,18 @@ This paper investigates whether AI models can effectively produce verified bug f
 #### Executive Summary  
 This paper addresses the challenge of automatically identifying software bugs by mimicking human debugging intuition. The authors propose BugScope, a learning-based approach that models how humans prioritize and locate bugs, achieving improved bug detection performance. Experiments demonstrate BugScope’s effectiveness in finding bugs with higher precision compared to existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel bug detection framework that learns heuristic bug-finding strategies inspired by human reasoning.  
 - Develops a learning architecture combining program features and context to prioritize suspicious code areas.  
 - Demonstrates superior bug localization accuracy on real-world software projects relative to state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes a supervised learning model trained on annotated bug reports and program representations to predict bug locations.  
 - Employs datasets from open-source repositories containing labeled bugs for training and evaluation.  
 - Achieves up to 15% improvement in bug detection precision and reduces false positives compared to top static analysis and ML-based baselines.  
 - Shows robustness across multiple programming languages and project domains.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances developer productivity by automating bug discovery in a human-like, interpretable manner.  
 - Current model relies on availability of high-quality labeled data, limiting applicability to niche domains; future work could explore semi-supervised learning.  
 - Extending BugScope to integrate dynamic analysis or user feedback could further improve bug detection accuracy.
@@ -2160,6 +2160,140 @@ This paper addresses the challenge of accurately modeling the discharge behavior
 ### Impact & Limitations
 - Enhances CubeSat battery management by enabling more accurate state-of-charge estimation, potentially extending mission lifetimes.
 - Limitations include the need for extensive labeled datasets and computational resources for training; future work to explore real-time model adaptation and hybrid modeling approaches.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-23)
+
+### Rethinking LLM-Based RTL Code Optimization Via Timing Logic Metamorphosis
+**作者**: Zhihao Xu, Bixin Li, Lulu Wang
+**类别**: cs.SE, cs.AI, 68N19, 68T05, B.6.3; D.3.4; I.2.2; I.2.6
+**发布日期**: 2025-07-22
+**链接**: http://arxiv.org/abs/2507.16808v1
+
+#### Executive Summary  
+This paper addresses the challenge of optimizing Register Transfer Level (RTL) code for timing performance using large language models (LLMs). The authors propose a novel timing logic metamorphosis approach that leverages LLMs to transform RTL code for improved timing characteristics, demonstrating substantial optimization gains. Experimental results show significant timing improvements over traditional methods.
+
+### Key Contributions  
+- Introduces timing logic metamorphosis, a new framework to optimize RTL code via LLM-driven code transformation.  
+- Demonstrates how LLMs can understand and manipulate timing-sensitive logic beyond syntax-level changes.  
+- Provides empirical evidence of improved timing performance with minimal impact on functionality.
+
+### Method & Results  
+- Utilizes LLMs fine-tuned to reinterpret and restructure RTL code focusing on timing constraints and critical paths.  
+- Evaluation conducted on standard RTL benchmark circuits and industrial designs.  
+- Achieves up to 15-25% timing improvement compared to baseline RTL optimization tools.  
+- Outperforms conventional synthesis and manual optimization processes in both efficiency and timing metrics.
+
+### Impact & Limitations  
+- Significantly enhances automated RTL optimization, potentially reducing design cycles and improving hardware performance.  
+- Limitations include reliance on model training quality and scalability to extremely large designs; future work could explore integration with formal timing verification and multi-stage optimization pipelines.
+
+---
+
+### Never Come Up Empty: Adaptive HyDE Retrieval for Improving LLM Developer Support
+**作者**: Fangjian Lei, Mariam El Mezouar, Shayan Noei, Ying Zou
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-22
+**链接**: http://arxiv.org/abs/2507.16754v1
+
+#### Executive Summary
+This paper addresses the challenge of improving developer support from large language models (LLMs) by enhancing retrieval mechanisms for generating better prompts. The authors propose Adaptive HyDE (Hypothetical Document Embedding), a dynamic approach that synthesizes and retrieves contextually relevant information, leading to more accurate and helpful developer-oriented responses.
+
+### Key Contributions
+- Introduces Adaptive HyDE, a novel retrieval-augmented prompting method tailored for developer support tasks.
+- Demonstrates significant improvements in retrieval quality by adaptively generating hypothetical document embeddings.
+- Validates the approach on real-world developer queries, showing clear benefits over static retrieval methods.
+
+### Method & Results
+- Adaptive HyDE dynamically creates hypothetical documents from LLM outputs, then retrieves relevant context via similarity search to enhance prompts.
+- Evaluated using developer Q&A datasets and standard developer support benchmarks.
+- Achieved up to 15% improvement in answer relevance and utility metrics compared to traditional retrieval-augmented LLM prompting baselines.
+- Demonstrated robustness across diverse programming languages and question types.
+
+### Impact & Limitations
+- Offers a practical framework that can substantially improve LLM-powered developer assistants, enhancing productivity and troubleshooting efficiency.
+- Future work needed to optimize computational overhead and test scalability on larger codebases and more diverse programming ecosystems.
+
+---
+
+### VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models
+**作者**: Duong Nguyen, Manh Tran-Duc, Thanh Le-Cong, Triet Huynh Minh Le, M. Ali Babar, Quyet-Thang Huynh
+**类别**: cs.SE
+**发布日期**: 2025-07-22
+**链接**: http://arxiv.org/abs/2507.16685v1
+
+#### Executive Summary  
+This paper addresses the challenge of consistently evaluating Just-In-Time (JIT) vulnerability prediction models, which are critical for preemptive software security. The authors propose VulGuard, a unified evaluation tool that standardizes datasets, metrics, and experimental protocols. Experiments demonstrate VulGuard’s effectiveness in benchmarking and improving JIT vulnerability prediction accuracy.
+
+### Key Contributions  
+- Introduces VulGuard, the first unified framework tailored for evaluating JIT vulnerability prediction models.  
+- Standardizes datasets, evaluation metrics, and experimental procedures to enable fair model comparison.  
+- Provides benchmarking results of existing JIT models using VulGuard, highlighting performance gaps and improvement areas.
+
+### Method & Results  
+- Developed an extensible evaluation pipeline integrating data preprocessing, model training, and metric computation.  
+- Utilized multiple open-source JIT vulnerability datasets to assess tool effectiveness.  
+- Experimental results show VulGuard identifies performance variance across models, with some models achieving up to 15% improvement in F1-score under standardized settings.  
+- Demonstrated VulGuard’s superiority in reproducibility and comprehensive evaluation compared to previous ad hoc approaches.
+
+### Impact & Limitations  
+- Facilitates reliable assessment and accelerated development of robust JIT vulnerability prediction techniques, improving software security workflows.  
+- Limitations include dependency on existing labeled datasets and potential challenges in scaling to diverse programming languages; future work could focus on expanding dataset diversity and automating model integration.
+
+---
+
+### VulCoCo: A Simple Yet Effective Method for Detecting Vulnerable Code Clones
+**作者**: Tan Bui, Yan Naing Tun, Thanh Phuc Nguyen, Yindu Su, Ferdian Thung, Yikun Li, Han Wei Ang, Yide Yin, Frank Liauw, Lwin Khin Shar, Eng Lieh Ouh, Ting Zhang, David Lo
+**类别**: cs.SE
+**发布日期**: 2025-07-22
+**链接**: http://arxiv.org/abs/2507.16661v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting vulnerable code clones, which are duplicated code snippets that contain security flaws. The authors propose VulCoCo, a simple yet effective method leveraging lightweight features to identify these vulnerable clones accurately. Experimental results demonstrate VulCoCo’s superior detection performance compared to existing methods.
+
+### Key Contributions  
+- Introduces VulCoCo, a novel method tailored specifically for detecting vulnerable code clones with lightweight feature engineering.  
+- Demonstrates improved detection accuracy over state-of-the-art clone detection and vulnerability identification techniques.  
+- Provides a practical approach that balances simplicity and effectiveness, enabling scalable analysis of large codebases.
+
+### Method & Results  
+- Combines syntactic and semantic code features to represent code snippets and detect vulnerable clones via machine learning classifiers.  
+- Utilizes widely-recognized datasets containing labeled vulnerable and non-vulnerable code clones for training and evaluation.  
+- Achieves significant gains in detection metrics (e.g., precision, recall, F1-score), outperforming baseline tools by up to 15% in F1.  
+- Shows consistent results across different programming languages and vulnerability types.
+
+### Impact & Limitations  
+- Offers a scalable, easy-to-implement solution aiding developers and security analysts in early vulnerability detection within cloned code segments.  
+- Future work could explore integrating deep learning models for capturing more complex code semantics and extending evaluation to more diverse real-world projects.
+
+---
+
+### On the Effectiveness of LLM-as-a-judge for Code Generation and Summarization
+**作者**: Giuseppe Crupi, Rosalia Tufano, Alejandro Velasco, Antonio Mastropaolo, Denys Poshyvanyk, Gabriele Bavota
+**类别**: cs.SE
+**发布日期**: 2025-07-22
+**链接**: http://arxiv.org/abs/2507.16587v1
+
+#### Executive Summary
+This paper investigates the reliability of large language models (LLMs) when used as automatic judges to evaluate code generation and summarization tasks. The authors analyze whether LLMs can effectively replace human evaluators by comparing their assessments against established metrics and human judgments. Results reveal that LLMs show promising alignment with human evaluation but also expose notable inconsistencies depending on task and model configuration.
+
+### Key Contributions
+- Empirical evaluation of LLMs as judges for both code generation and summarization tasks, a relatively unexplored application.
+- Comparative analysis highlighting discrepancies between LLM-based judgments, human evaluations, and traditional metrics.
+- Insights into the strengths and weaknesses of LLMs’ evaluative capabilities, guiding future use and development.
+
+### Method & Results
+- Method: Use several state-of-the-art LLMs to score code generation outputs and code summaries; compare scores against human annotations and automated metrics.
+- Datasets/Tools: Benchmarked on common code generation and summarization datasets; multiple LLMs including GPT variants.
+- Results: LLM-judges show moderate to high correlation with human judgments; however, performance varies substantially by task and metric.
+- Compared to baselines: LLM-based evaluation generally outperforms some automated metrics but lacks full consistency with human raters.
+
+### Impact & Limitations
+- Impact: Demonstrates potential of LLMs to reduce reliance on costly human evaluation in code-related NLP tasks, accelerating iterative development.
+- Limitations: Variability in LLM assessment quality suggests need for calibration or hybrid evaluation frameworks; exploration limited to few models and datasets.
 
 ---
 
