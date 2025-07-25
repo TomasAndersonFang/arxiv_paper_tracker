@@ -2310,18 +2310,18 @@ This paper investigates the reliability of large language models (LLMs) when use
 #### Executive Summary  
 This paper addresses the challenge of identifying specific learning difficulties in Object-Oriented Programming (OOP) education by mining and analyzing students' actual code submissions. The authors develop a code-based analytical framework to systematically map common conceptual errors, revealing nuanced patterns of misunderstanding. Their approach highlights actionable insights to improve instructional design and targeted interventions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel code-analysis methodology to detect fine-grained learning challenges in OOP.  
 - Provides an empirically validated mapping of frequent student misconceptions directly derived from code artifacts.  
 - Offers educational insights that inform tailored pedagogical strategies beyond conventional survey or quiz-based assessments.
 
-### Method & Results  
+### Method & Results
 - Methodology: Automated static code analysis combined with pattern mining to extract error categories from student submissions.  
 - Dataset: Large-scale code repositories from OOP programming courses covering multiple semesters.  
 - Results: Identified over a dozen distinct, recurrent conceptual errors with quantified prevalence rates (e.g., inheritance misuse found in 34% of cases).  
 - Performance: Significantly outperformed traditional self-reported error detection methods in both granularity and accuracy (no direct baseline quantification provided).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables educators to pinpoint and address specific OOP learning obstacles, potentially improving curriculum design and student outcomes.  
 - Limitations/Future work: Extending analyses to dynamic behaviors and cross-course validation; integrating real-time feedback mechanisms for learners.
 
@@ -2336,18 +2336,18 @@ This paper addresses the challenge of identifying specific learning difficulties
 #### Executive Summary  
 CASCADE addresses the challenge of deobfuscating JavaScript code using large language models (LLMs) to enhance code readability and security analysis. The approach integrates LLM-generated insights with static analysis to effectively reverse complex obfuscation. Results demonstrate significant improvements in deobfuscation accuracy and efficiency compared to traditional tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM-powered framework tailored for JavaScript deobfuscation at scale.  
 - Combines static analysis with LLM-generated semantic understanding for robust code recovery.  
 - Demonstrates integration within Google’s infrastructure, showcasing practical deployment.
 
-### Method & Results  
+### Method & Results
 - Core methodology: Leverages LLMs to generate deobfuscated code suggestions, refined via static analysis for correctness.  
 - Datasets/tools: Uses large corpora of obfuscated JavaScript, existing static analysis frameworks, and Google’s internal code repositories.  
 - Experimental results: Achieves up to 30% increase in deobfuscation accuracy and 25% faster processing than baseline static-only methods.  
 - Outperforms traditional deobfuscation tools notably in handling complex and nested obfuscation patterns.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables improved malware detection, security auditing, and code maintenance by clarifying obfuscated JavaScript at scale.  
 - Limitations/Future work: Current reliance on LLMs may struggle with unseen obfuscation techniques; future work aims to incorporate adaptive learning and broaden language support.
 
@@ -2387,19 +2387,19 @@ This paper addresses the challenge of improving commit message generation by lev
 #### Executive Summary  
 This paper addresses the vulnerabilities of Hardware Security Modules (HSMs) and Trusted Platform Modules (TPMs) when deployed in cloud environments, highlighting how traditional assumptions fail under cloud threat models. The authors demonstrate real-world attacks exploiting these weaknesses and propose novel defense mechanisms tailored for next-generation cloud infrastructures, significantly enhancing hardware-based security guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Exposes novel attack vectors on HSMs and TPMs specific to cloud deployment scenarios.  
 - Designs and implements next-generation defenses that strengthen hardware security in the cloud.  
 - Provides a comprehensive security evaluation framework combining theoretical and empirical analysis.
 
-### Method & Results  
+### Method & Results
 - Conducted systematic threat modeling and implemented practical attacks exploiting cloud-specific vulnerabilities in HSMs/TPMs.  
 - Developed defense techniques leveraging hardware-software co-design and novel attestation protocols.  
 - Tested on commercial HSM/TPM hardware integrated with popular cloud platforms.  
 - Demonstrated attack success rates exceeding 85%, while proposed defenses reduced exploitability by over 90%.  
 - Performance overhead of defenses remained under 15%, outperforming existing baseline protections.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances cloud security for critical applications relying on hardware security primitives, influencing future cloud HSM and TPM designs.  
 - Limitations include evaluation largely on selected commercial devices; future work should explore broader hardware diversity and real-time adaptive defenses.
 
@@ -2414,20 +2414,156 @@ This paper addresses the vulnerabilities of Hardware Security Modules (HSMs) and
 #### Executive Summary  
 This paper addresses the challenge of improving code reasoning skills in AI systems by integrating reinforcement learning (RL) techniques. The proposed CodeReasoner framework leverages RL to enhance model decision-making in code understanding and generation tasks. Experimental results demonstrate significant improvements in reasoning accuracy over existing baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel reinforcement learning-based approach to boost code reasoning capabilities.  
 - Develops an adaptive reward mechanism tailored for complex code comprehension tasks.  
 - Provides comprehensive evaluation showing superior code reasoning performance on benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes RL to iteratively refine code reasoning strategies within a neural model framework.  
 - Employs programming challenge datasets (e.g., CodeContests, LeetCode subsets) for training and evaluation.  
 - Achieves up to 12% relative improvement in reasoning accuracy compared to standard supervised learning models.  
 - Outperforms leading baseline models such as CodeBERT and GraphCodeBERT on multiple metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical code understanding applications, potentially benefiting automated code review and debugging tools.  
 - Future work: scaling to more diverse programming languages and addressing higher-level reasoning challenges.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-25)
+
+### 3D Software Synthesis Guided by Constraint-Expressive Intermediate Representation
+**作者**: Shuqing Li, Anson Y. Lam, Yun Peng, Wenxuan Wang, Michael R. Lyu
+**类别**: cs.CV, cs.AI, cs.MM, cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18625v1
+
+#### Executive Summary  
+This paper addresses the challenge of synthesizing 3D software by introducing a constraint-expressive intermediate representation (IR) that guides the generation process. Their approach effectively encodes complex design constraints enabling more accurate and flexible 3D software construction. Experiments demonstrate improved synthesis quality and adaptability compared to existing methods.
+
+### Key Contributions  
+- Proposes a novel constraint-expressive IR tailored for 3D software synthesis.  
+- Demonstrates enhanced synthesis fidelity and constraint satisfaction over traditional representations.  
+- Integrates interdisciplinary techniques from computer vision, AI, multimedia, and software engineering for robust synthesis.
+
+### Method & Results  
+- Utilizes the constraint-expressive IR to systematically guide 3D model and software synthesis workflows.  
+- Employs benchmark 3D datasets and software synthesis frameworks for evaluation.  
+- Quantitative results indicate significant improvements in synthesis accuracy and constraint adherence (specific metrics reported but not detailed here).  
+- Outperforms baseline synthesis techniques in both quality and constraint handling.
+
+### Impact & Limitations  
+- Enables more precise and adaptable 3D software generation, benefiting fields like game design, AR/VR, and CAD.  
+- Limitations include potential scalability issues with highly complex constraints; future work may explore optimization and real-time synthesis capabilities.
+
+---
+
+### A Deep Dive into Retrieval-Augmented Generation for Code Completion: Experience on WeChat
+**作者**: Zezhou Yang, Ting Peng, Cuiyun Gao, Chaozheng Wang, Hailiang Huang, Yuetang Deng
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18515v1
+
+#### Executive Summary  
+This paper addresses improving code completion by integrating retrieval-augmented generation (RAG) techniques in a large-scale industrial setting at WeChat. The authors propose a system combining neural generation with a retrieval module to enhance code suggestion accuracy. Experimental results demonstrate significant improvements in code completion quality and developer productivity.
+
+### Key Contributions  
+- Introduces a novel retrieval-augmented generation framework tailored for code completion in industrial-scale codebases.  
+- Demonstrates effective integration of external code retrieval with deep generative models to improve suggestion precision.  
+- Provides real-world deployment insights and evaluation within the WeChat engineering environment.
+
+### Method & Results  
+- Combines neural code generators with a retrieval module that fetches relevant code snippets from a large corpus to condition generation.  
+- Utilizes WeChat’s extensive proprietary code repositories for retrieval and model training.  
+- Achieves notable gains in key metrics (e.g., top-k accuracy increased by ~15%) over pure generation baselines.  
+- Demonstrates improved contextual relevance and reduced incorrect completions compared to state-of-the-art models.
+
+### Impact & Limitations  
+- Enhances developer efficiency in a high-impact production environment, evidencing practical utility of RAG for code completion.  
+- Limitations include dependency on large, high-quality code corpora and potential challenges in generalizing methods beyond WeChat’s ecosystem.  
+- Future work aims to improve retrieval efficiency and adapt the framework to multilingual and cross-domain codebases.
+
+---
+
+### Automated Code Review Using Large Language Models with Symbolic Reasoning
+**作者**: Busra Icoz, Goksel Biricik
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18476v1
+
+#### Executive Summary
+This paper addresses the challenge of automating code review by integrating Large Language Models (LLMs) with symbolic reasoning techniques. The approach enhances the semantic understanding and correctness verification of code beyond typical LLM capabilities. Results demonstrate improved accuracy and reliability in detecting code issues compared to standard LLM-only methods.
+
+### Key Contributions
+- Proposes a novel hybrid framework combining LLMs with symbolic reasoning for automated code review.
+- Introduces a method to leverage symbolic reasoning to verify and refine LLM-generated code feedback.
+- Demonstrates significant improvements in code review accuracy over purely neural approaches.
+
+### Method & Results
+- Combines semantic code analysis via symbolic execution with LLM-generated suggestions to validate and enhance code reviews.
+- Evaluated on benchmark code review datasets and common open-source repositories.
+- Achieved up to 15% higher precision in identifying logical errors and style violations compared to baseline LLM models.
+- Outperformed state-of-the-art automated code review tools in both error detection and helpfulness of feedback.
+
+### Impact & Limitations
+- Enables more reliable and scalable automated code reviews, potentially reducing developer workload and increasing code quality.
+- Limitations include dependency on the symbolic reasoning system’s coverage and the computational cost associated with hybrid analysis.
+- Future work should focus on optimizing integration efficiency and extending symbolic checks to broader code constructs.
+
+---
+
+### FMI Meets SystemC: A Framework for Cross-Tool Virtual Prototyping
+**作者**: Nils Bosbach, Meik Schmidt, Lukas Jünger, Matthias Berthold, Rainer Leupers
+**类别**: cs.SE, cs.DC
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18339v1
+
+#### Executive Summary
+This paper addresses seamless integration challenges between Functional Mock-up Interface (FMI) and SystemC to enhance cross-tool virtual prototyping. The authors propose a framework enabling interoperability between FMI-compliant models and SystemC simulations, facilitating system-level design and verification. Results demonstrate improved simulation fidelity and flexibility across heterogeneous tools.
+
+### Key Contributions
+- Developed a novel FMI-SystemC co-simulation framework for cross-tool virtual prototyping.
+- Enabled seamless interoperability between FMI models and SystemC-based designs without extensive manual adaptation.
+- Demonstrated practical integration facilitating system-level timing and functional verification.
+
+### Method & Results
+- Implemented a middleware layer to handle synchronization and data exchange between FMI-compliant FMUs and SystemC simulators.
+- Evaluated on standard FMI models integrated with SystemC-based virtual prototypes.
+- Achieved accurate co-simulation with close-to-native execution speeds; specifics showed less than 10% overhead compared to isolated runs.
+- Outperformed naïve integration approaches by reducing setup complexity and improving execution stability.
+
+### Impact & Limitations
+- Enhances design productivity by bridging FMI’s model exchange standard with SystemC’s simulation strengths, benefiting embedded systems development.
+- Future work includes expanding support for complex multi-rate and distributed simulations and thorough benchmarking on larger industrial case studies.
+
+---
+
+### Gotta catch 'em all! Towards File Localisation from Issues at Large
+**作者**: Jesse Maarleveld, Jiapan Guo, Daniel Feitosa
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18319v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately localizing source code files related to software issues reported in issue trackers. The authors propose an approach leveraging issue texts to predict relevant files, enhancing developer efficiency in bug fixing. Experiments demonstrate improved precision and recall over baseline methods.
+
+### Key Contributions
+- Introduction of a novel file localization technique utilizing natural language processing on issue descriptions.
+- Development of a hybrid model combining textual and structural features from repositories for improved accuracy.
+- Extensive evaluation across multiple large-scale open-source projects showing significant gains in file localization.
+
+### Method & Results
+- Methodology: Uses embedding-based text analysis of issues combined with repository structural cues to rank candidate files.
+- Datasets: Large-scale issue and code datasets from popular open-source repositories (names not specified).
+- Results: Achieved up to 15% improvement in precision@5 and 12% increase in recall compared to state-of-the-art baselines.
+- Performance: Outperforms traditional keyword search and machine learning classifiers by a substantial margin.
+
+### Impact & Limitations
+- Impact: Enables faster bug triaging and patch development by pinpointing relevant code files from issue reports.
+- Limitations: Approach depends heavily on quality and detail of issue descriptions; future work could integrate dynamic analysis data or user feedback to enhance robustness.
 
 ---
 
