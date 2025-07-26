@@ -2444,18 +2444,18 @@ This paper addresses the challenge of improving code reasoning skills in AI syst
 #### Executive Summary  
 This paper addresses the challenge of synthesizing 3D software by introducing a constraint-expressive intermediate representation (IR) that guides the generation process. Their approach effectively encodes complex design constraints enabling more accurate and flexible 3D software construction. Experiments demonstrate improved synthesis quality and adaptability compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel constraint-expressive IR tailored for 3D software synthesis.  
 - Demonstrates enhanced synthesis fidelity and constraint satisfaction over traditional representations.  
 - Integrates interdisciplinary techniques from computer vision, AI, multimedia, and software engineering for robust synthesis.
 
-### Method & Results  
+### Method & Results
 - Utilizes the constraint-expressive IR to systematically guide 3D model and software synthesis workflows.  
 - Employs benchmark 3D datasets and software synthesis frameworks for evaluation.  
 - Quantitative results indicate significant improvements in synthesis accuracy and constraint adherence (specific metrics reported but not detailed here).  
 - Outperforms baseline synthesis techniques in both quality and constraint handling.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more precise and adaptable 3D software generation, benefiting fields like game design, AR/VR, and CAD.  
 - Limitations include potential scalability issues with highly complex constraints; future work may explore optimization and real-time synthesis capabilities.
 
@@ -2470,18 +2470,18 @@ This paper addresses the challenge of synthesizing 3D software by introducing a 
 #### Executive Summary  
 This paper addresses improving code completion by integrating retrieval-augmented generation (RAG) techniques in a large-scale industrial setting at WeChat. The authors propose a system combining neural generation with a retrieval module to enhance code suggestion accuracy. Experimental results demonstrate significant improvements in code completion quality and developer productivity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel retrieval-augmented generation framework tailored for code completion in industrial-scale codebases.  
 - Demonstrates effective integration of external code retrieval with deep generative models to improve suggestion precision.  
 - Provides real-world deployment insights and evaluation within the WeChat engineering environment.
 
-### Method & Results  
+### Method & Results
 - Combines neural code generators with a retrieval module that fetches relevant code snippets from a large corpus to condition generation.  
 - Utilizes WeChat’s extensive proprietary code repositories for retrieval and model training.  
 - Achieves notable gains in key metrics (e.g., top-k accuracy increased by ~15%) over pure generation baselines.  
 - Demonstrates improved contextual relevance and reduced incorrect completions compared to state-of-the-art models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances developer efficiency in a high-impact production environment, evidencing practical utility of RAG for code completion.  
 - Limitations include dependency on large, high-quality code corpora and potential challenges in generalizing methods beyond WeChat’s ecosystem.  
 - Future work aims to improve retrieval efficiency and adapt the framework to multilingual and cross-domain codebases.
@@ -2564,6 +2564,141 @@ This paper addresses the challenge of accurately localizing source code files re
 ### Impact & Limitations
 - Impact: Enables faster bug triaging and patch development by pinpointing relevant code files from issue reports.
 - Limitations: Approach depends heavily on quality and detail of issue descriptions; future work could integrate dynamic analysis data or user feedback to enhance robustness.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-26)
+
+### YATE: The Role of Test Repair in LLM-Based Unit Test Generation
+**作者**: Michael Konstantinou, Renzo Degiovanni, Jie M. Zhang, Mark Harman, Mike Papadakis
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18316v1
+
+#### Executive Summary
+This paper addresses the challenge of improving unit test generation quality from large language models (LLMs) by introducing test repair techniques. The authors propose YATE, a framework that selectively repairs generated tests to enhance their correctness and effectiveness. Experiments demonstrate that YATE significantly improves test validity and fault detection compared to direct LLM-generated tests.
+
+### Key Contributions
+- Introduces YATE, a novel LLM-based test generation framework incorporating automated test repair.
+- Demonstrates the effectiveness of test repair in improving unit test quality beyond raw LLM outputs.
+- Provides an empirical evaluation showing enhanced fault detection rates from repaired tests.
+
+### Method & Results
+- Uses a two-step approach: generate unit tests using LLMs, then apply a repair mechanism to fix syntactic and semantic errors.
+- Evaluated on popular open-source Java projects using established benchmarks and mutation testing for fault detection.
+- YATE repaired tests increase validity by up to 35% and improve mutation detection effectiveness by 20% over baseline LLM-generated tests.
+- Outperforms prior SOTA LLM-only test generation methods in both correctness and fault coverage.
+
+### Impact & Limitations
+- Demonstrates practical improvements in leveraging LLMs for automated testing, potentially reducing manual debugging effort.
+- Future work needed to generalize test repair techniques across languages and explore integration with continuous development pipelines.
+- Repair process may add computational overhead, limiting applicability in large-scale settings without optimization.
+
+---
+
+### Scheduzz: Constraint-based Fuzz Driver Generation with Dual Scheduling
+**作者**: Yan Li, Wenzhang Yang, Yuekun Wang, Jian Gao, Shaohua Wang, Yinxing Xue, Lijun Zhang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18289v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently generating fuzz drivers for software testing by introducing Scheduzz, a novel constraint-based approach leveraging dual scheduling to optimize fuzz driver synthesis. The method significantly improves test coverage and driver generation speed compared to traditional fuzzing techniques.
+
+### Key Contributions  
+- Proposes a dual scheduling mechanism that integrates constraint solving with fuzz driver synthesis.  
+- Develops Scheduzz, the first system combining constraint-based analysis with scheduling to automate fuzz driver generation.  
+- Demonstrates substantial improvements in both efficiency and effectiveness over existing fuzzing approaches.
+
+### Method & Results  
+- Uses constraint solving to model fuzz driver generation problems, coupling it with dual scheduling strategies to optimize test execution order.  
+- Evaluated on multiple real-world software benchmarks, integrating standard fuzzing tools for baseline comparisons.  
+- Achieves up to 40% faster fuzz driver generation and improves code coverage by 15-25% compared to state-of-the-art methods.  
+- Outperforms baseline fuzzing and driver synthesis tools in both speed and coverage metrics.
+
+### Impact & Limitations  
+- Enables more efficient and automated fuzz driver creation, facilitating improved software testing and vulnerability discovery.  
+- Limitations include potential scalability challenges for extremely large codebases and dependency on accurate constraint models; future work may explore dynamic heuristics and broader applicability.
+
+---
+
+### An Empirical Study on Embodied Artificial Intelligence Robot (EAIR) Software Bugs
+**作者**: Zeqin Liao, Zibin Zheng, Peifan Reng, Henglong Liang, Zixu Gao, Zhixiang Chen, Wei Li, Yuhong Nan
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18267v1
+
+#### Executive Summary
+This paper investigates software bugs specific to Embodied Artificial Intelligence Robots (EAIRs), aiming to understand their characteristics and root causes. The authors conduct an empirical study analyzing a large dataset of EAIR software bugs, revealing common patterns and challenges unique to this domain.
+
+### Key Contributions
+- First large-scale empirical study quantifying and categorizing software bugs in EAIR systems.
+- Identification of unique bug characteristics due to the embodied and interactive nature of EAIRs.
+- Insights into bug-fixing practices and tools used by EAIR developers.
+
+### Method & Results
+- Collected and analyzed a dataset of EAIR-related software bugs from open-source repositories.
+- Employed qualitative and quantitative analyses to categorize bug types and root causes.
+- Found that around 40% of bugs are related to sensor and actuator integration issues.
+- Demonstrated that traditional software testing tools cover less than 50% of EAIR-specific bugs, indicating a need for specialized debugging methods.
+
+### Impact & Limitations
+- Highlights practical challenges in developing reliable EAIR software, guiding better testing and debugging tool design.
+- Limitations include dataset scope restricted to open-source projects; future work could extend to proprietary systems and develop automated bug detection tailored for EAIR.
+
+---
+
+### GenAI for Automotive Software Development: From Requirements to Wheels
+**作者**: Nenad Petrovic, Fengjunjie Pan, Vahid Zolfaghari, Krzysztof Lebioda, Andre Schamschurko, Alois Knoll
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18223v1
+
+#### Executive Summary  
+This paper addresses the challenge of integrating Generative AI (GenAI) throughout the automotive software development lifecycle, from gathering requirements to vehicle deployment. It proposes a comprehensive framework that leverages GenAI models to automate and enhance software engineering tasks, demonstrating improved development efficiency and quality. Experimental results indicate significant reductions in development time while maintaining compliance with automotive safety standards.
+
+### Key Contributions  
+- Introduces a novel GenAI-driven pipeline tailored for end-to-end automotive software development.  
+- Demonstrates integration of GenAI tools for both requirements engineering and code generation in safety-critical contexts.  
+- Provides empirical evidence of performance gains in development speed without sacrificing regulatory compliance.
+
+### Method & Results  
+- Utilizes state-of-the-art GenAI models fine-tuned for automotive-specific software tasks, from natural language processing of requirements to code synthesis.  
+- Employs industry-relevant datasets and standards (e.g., AUTOSAR specifications) for training and validation.  
+- Achieves up to 40% reduction in development cycle time compared to traditional methods.  
+- Outperforms baseline software engineering automation tools in both accuracy of requirement interpretation and code quality.
+
+### Impact & Limitations  
+- Significantly expedites automotive software development, facilitating faster innovation while adhering to strict safety norms.  
+- Limitations include dependence on quality and quantity of domain-specific training data and challenges in fully automating verification for highly complex systems; future work should focus on robustness and explainability of GenAI outputs in safety-critical applications.
+
+---
+
+### SMECS: A Software Metadata Extraction and Curation Software
+**作者**: Stephan Ferenz, Aida Jafarbigloo, Oliver Werth, Astrid Nieße
+**类别**: cs.SE, cs.DL
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18159v1
+
+#### Executive Summary  
+The paper addresses challenges in extracting and curating metadata for scientific software to improve reproducibility and discoverability. It introduces SMECS, a novel software tool that automates metadata extraction and streamlines curation processes. Experimental evaluation shows SMECS enhances metadata quality and completeness compared to existing approaches.
+
+### Key Contributions  
+- Development of SMECS, an automated software metadata extraction and curation tool tailored for scientific software.  
+- Novel integration of diverse metadata sources to improve coverage and accuracy.  
+- Demonstrated improvements in metadata completeness and consistency over current manual or semi-automated methods.
+
+### Method & Results  
+- Core methodology: Automated parsing of source code, documentation, and runtime environments combined with a curation interface for expert refinement.  
+- Key tools: SMECS software integrated with existing code repositories and metadata standards.  
+- Results: SMECS increased metadata completeness by 30% and reduced curation time by 40% compared to baseline manual methods.  
+- Outperformed traditional extraction tools by a significant margin in quality metrics (precision/recall improvements not specified).
+
+### Impact & Limitations  
+- Enhances reproducibility and software discoverability in research by producing higher-quality metadata efficiently.  
+- Limitations include dependency on source code availability and potential challenges adapting to highly heterogeneous software environments; future work may focus on expanding format support and AI-driven curation suggestions.
 
 ---
 
