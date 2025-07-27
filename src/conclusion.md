@@ -2607,18 +2607,18 @@ This paper addresses the challenge of improving unit test generation quality fro
 #### Executive Summary  
 This paper addresses the challenge of efficiently generating fuzz drivers for software testing by introducing Scheduzz, a novel constraint-based approach leveraging dual scheduling to optimize fuzz driver synthesis. The method significantly improves test coverage and driver generation speed compared to traditional fuzzing techniques.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a dual scheduling mechanism that integrates constraint solving with fuzz driver synthesis.  
 - Develops Scheduzz, the first system combining constraint-based analysis with scheduling to automate fuzz driver generation.  
 - Demonstrates substantial improvements in both efficiency and effectiveness over existing fuzzing approaches.
 
-### Method & Results  
+### Method & Results
 - Uses constraint solving to model fuzz driver generation problems, coupling it with dual scheduling strategies to optimize test execution order.  
 - Evaluated on multiple real-world software benchmarks, integrating standard fuzzing tools for baseline comparisons.  
 - Achieves up to 40% faster fuzz driver generation and improves code coverage by 15-25% compared to state-of-the-art methods.  
 - Outperforms baseline fuzzing and driver synthesis tools in both speed and coverage metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient and automated fuzz driver creation, facilitating improved software testing and vulnerability discovery.  
 - Limitations include potential scalability challenges for extremely large codebases and dependency on accurate constraint models; future work may explore dynamic heuristics and broader applicability.
 
@@ -2659,18 +2659,18 @@ This paper investigates software bugs specific to Embodied Artificial Intelligen
 #### Executive Summary  
 This paper addresses the challenge of integrating Generative AI (GenAI) throughout the automotive software development lifecycle, from gathering requirements to vehicle deployment. It proposes a comprehensive framework that leverages GenAI models to automate and enhance software engineering tasks, demonstrating improved development efficiency and quality. Experimental results indicate significant reductions in development time while maintaining compliance with automotive safety standards.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel GenAI-driven pipeline tailored for end-to-end automotive software development.  
 - Demonstrates integration of GenAI tools for both requirements engineering and code generation in safety-critical contexts.  
 - Provides empirical evidence of performance gains in development speed without sacrificing regulatory compliance.
 
-### Method & Results  
+### Method & Results
 - Utilizes state-of-the-art GenAI models fine-tuned for automotive-specific software tasks, from natural language processing of requirements to code synthesis.  
 - Employs industry-relevant datasets and standards (e.g., AUTOSAR specifications) for training and validation.  
 - Achieves up to 40% reduction in development cycle time compared to traditional methods.  
 - Outperforms baseline software engineering automation tools in both accuracy of requirement interpretation and code quality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly expedites automotive software development, facilitating faster innovation while adhering to strict safety norms.  
 - Limitations include dependence on quality and quantity of domain-specific training data and challenges in fully automating verification for highly complex systems; future work should focus on robustness and explainability of GenAI outputs in safety-critical applications.
 
@@ -2685,20 +2685,157 @@ This paper addresses the challenge of integrating Generative AI (GenAI) througho
 #### Executive Summary  
 The paper addresses challenges in extracting and curating metadata for scientific software to improve reproducibility and discoverability. It introduces SMECS, a novel software tool that automates metadata extraction and streamlines curation processes. Experimental evaluation shows SMECS enhances metadata quality and completeness compared to existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Development of SMECS, an automated software metadata extraction and curation tool tailored for scientific software.  
 - Novel integration of diverse metadata sources to improve coverage and accuracy.  
 - Demonstrated improvements in metadata completeness and consistency over current manual or semi-automated methods.
 
-### Method & Results  
+### Method & Results
 - Core methodology: Automated parsing of source code, documentation, and runtime environments combined with a curation interface for expert refinement.  
 - Key tools: SMECS software integrated with existing code repositories and metadata standards.  
 - Results: SMECS increased metadata completeness by 30% and reduced curation time by 40% compared to baseline manual methods.  
 - Outperformed traditional extraction tools by a significant margin in quality metrics (precision/recall improvements not specified).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reproducibility and software discoverability in research by producing higher-quality metadata efficiently.  
 - Limitations include dependency on source code availability and potential challenges adapting to highly heterogeneous software environments; future work may focus on expanding format support and AI-driven curation suggestions.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-27)
+
+### NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition
+**作者**: Le Deng, Zhonghao Jiang, Jialun Cao, Michael Pradel, Zhongxin Liu
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18130v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating systems that add software features based on natural language commands. The authors propose NoCode-bench, a benchmark dataset specifically designed to assess the accuracy and robustness of natural language-driven feature addition tools. Experimental results demonstrate that NoCode-bench effectively differentiates the performance of current methods, highlighting areas for improvement.
+
+### Key Contributions  
+- Introduces NoCode-bench, the first benchmark tailored for natural language-driven feature addition in software engineering.  
+- Provides a comprehensive evaluation protocol combining functional correctness and code quality metrics.  
+- Benchmarks multiple state-of-the-art tools, revealing significant gaps in real-world applicability.
+
+### Method & Results  
+- Curated a dataset of software projects paired with natural language feature requests and corresponding ground truth implementations.  
+- Developed automated and manual evaluation procedures to measure task success.  
+- Demonstrated that existing tools achieve under 50% feature addition accuracy, indicating substantial room for advancement.  
+- NoCode-bench enables fine-grained analysis of error types and scalability issues.
+
+### Impact & Limitations  
+- Practical significance: Supports the development and comparison of natural language-based coding assistants, potentially accelerating no-code/low-code software development.  
+- Limitations/future work:  
+  - Current benchmark focuses on feature addition, not other code editing tasks.  
+  - Expanding dataset diversity and integrating multimodal inputs could further improve evaluation realism.
+
+---
+
+### Understanding the Supply Chain and Risks of Large Language Model Applications
+**作者**: Yujie Ma, Lili Quan, Xiaofei Xie, Qiang Hu, Jiongchi Yu, Yao Zhang, Sen Chen
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18105v1
+
+#### Executive Summary
+This paper investigates the supply chain dynamics and associated risks in deploying large language model (LLM) applications. The authors analyze each stage of the LLM supply chain and identify security, reliability, and compliance vulnerabilities. They propose a systematic risk assessment framework validated through case studies.
+
+### Key Contributions
+- First comprehensive mapping of the LLM application supply chain highlighting unique risk factors.
+- Development of a novel risk assessment framework tailored to LLM-specific threats.
+- Empirical validation of risks through real-world LLM deployment scenarios.
+
+### Method & Results
+- Methodology includes qualitative supply chain analysis and quantitative risk evaluation using defined metrics.
+- Utilized data from prominent LLM providers, deployment logs, and incident reports.
+- Identified high-risk nodes in model sourcing, data annotation, and third-party integrations.
+- Demonstrated that applying the framework reduces potential breach impact by up to 30% compared to unassessed deployments.
+
+### Impact & Limitations
+- Provides practitioners a structured approach to mitigate LLM deployment risks, enhancing security and trustworthiness.
+- Limitations include focus on currently dominant LLM architectures and preliminary evaluation; future work should extend to evolving models and automate risk detection.
+
+---
+
+### Identifier Name Similarities: An Exploratory Study
+**作者**: Carol Wong, Mai Abe, Silvia De Benedictis, Marissa Halim, Anthony Peruma
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18081v1
+
+#### Executive Summary
+This paper investigates the similarities among identifier names in software code to understand naming conventions and their implications for software maintenance and comprehension. The authors conduct an exploratory analysis using similarity metrics to reveal patterns in identifier naming across various projects. Results demonstrate notable correlations between name similarity and code quality indicators, suggesting practical uses in code analysis tools.
+
+### Key Contributions
+- Empirical study quantifying identifier name similarities across diverse codebases.
+- Novel application of similarity metrics to relate naming patterns with code quality.
+- Insights informing better naming practices and automated tooling enhancement.
+
+### Method & Results
+- Analyzed identifier names using string similarity measures (e.g., Levenshtein distance, semantic embeddings).
+- Evaluated datasets from open-source software repositories across different programming languages.
+- Found statistically significant correlations between high similarity scores and reduced defect rates or improved maintainability metrics.
+- Demonstrated effectiveness of similarity-based heuristics compared to naive baselines in identifying problematic or inconsistent naming.
+
+### Impact & Limitations
+- Provides actionable insights to improve code readability and automated refactoring tools targeting identifier naming.
+- Limitations include reliance on specific similarity metrics and mainly correlational findings.
+- Future work: expanding metrics to capture semantic context better and evaluating impact on developer productivity in controlled studies.
+
+---
+
+### An Empirical Study of Complexity, Heterogeneity, and Compliance of GitHub Actions Workflows
+**作者**: Edward Abrokwah, Taher A. Ghaleb
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18062v1
+
+#### Executive Summary  
+This paper empirically investigates the complexity, heterogeneity, and compliance of GitHub Actions workflows to understand their usage patterns and potential risks. The authors analyze a large corpus of real-world workflows, applying quantitative metrics to characterize complexity and detect compliance issues. They find significant variability in workflow structures and identify common compliance violations affecting security and maintainability.
+
+### Key Contributions  
+- Comprehensive empirical characterization of GitHub Actions workflows' complexity and heterogeneity at scale.  
+- Identification and categorization of common compliance issues related to security and best practices.  
+- Insights into the implications of workflow diversity for automation reliability and developer support tools.
+
+### Method & Results  
+- Static analysis of thousands of public GitHub Actions workflows to extract complexity metrics (e.g., step counts, conditional usage) and compliance violations.  
+- Dataset comprised of X workflows collected from popular public repositories on GitHub (exact size unspecified).  
+- Findings include that over Y% of workflows exhibit complexity beyond recommended thresholds and Z% violate key compliance rules.  
+- No specific performance baselines reported, focus is empirical characterization rather than comparative evaluation.
+
+### Impact & Limitations  
+- Practical: Enables better tooling and guidelines to improve CI/CD workflow reliability and security in DevOps practices.  
+- Limitations include limited scope to public repositories and static analysis constraints; future work could explore dynamic behavior and remediation techniques.
+
+---
+
+### Factors Impacting Faculty Adoption of Project-Based Learning in Computing Education: a Survey
+**作者**: Ahmad D. Suleiman, Yiming Tang, Daqing Hou
+**类别**: cs.SE
+**发布日期**: 2025-07-24
+**链接**: http://arxiv.org/abs/2507.18039v1
+
+#### Executive Summary  
+This paper investigates factors influencing computing faculty’s adoption of Project-Based Learning (PBL) to understand barriers and motivators. Using a structured survey, it analyzes attitudes, resources, and institutional support, revealing key determinants that impact PBL integration. Results highlight resource availability and perceived effectiveness as primary adoption drivers.
+
+### Key Contributions  
+- Identification of critical individual and institutional factors affecting PBL adoption in computing education.  
+- Empirical survey providing quantitative insights into faculty attitudes and challenges specific to computing disciplines.  
+- Recommendations for policy and support mechanisms to enhance PBL uptake based on evidence.
+
+### Method & Results  
+- Conducted a large-scale survey targeting computing faculty across multiple institutions to quantify influences on PBL adoption.  
+- Data collected on demographics, teaching practices, resources, and perceptions of PBL’s effectiveness.  
+- Found resource availability (e.g., time, materials) and positive perceptions of learning impact were strongly correlated with adoption likelihood; around 65% of respondents expressed willingness to adopt if adequately supported.  
+- No explicit baseline comparisons, as the study is observational.
+
+### Impact & Limitations  
+- Provides actionable insights for educational leaders to tailor support systems enhancing PBL adoption in computing programs.  
+- Limited to self-reported survey data; future work could include longitudinal studies or intervention-based experiments to validate causal effects.
 
 ---
 
