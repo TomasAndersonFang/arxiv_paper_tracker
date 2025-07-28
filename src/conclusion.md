@@ -2715,18 +2715,18 @@ The paper addresses challenges in extracting and curating metadata for scientifi
 #### Executive Summary  
 This paper addresses the challenge of evaluating systems that add software features based on natural language commands. The authors propose NoCode-bench, a benchmark dataset specifically designed to assess the accuracy and robustness of natural language-driven feature addition tools. Experimental results demonstrate that NoCode-bench effectively differentiates the performance of current methods, highlighting areas for improvement.
 
-### Key Contributions  
+### Key Contributions
 - Introduces NoCode-bench, the first benchmark tailored for natural language-driven feature addition in software engineering.  
 - Provides a comprehensive evaluation protocol combining functional correctness and code quality metrics.  
 - Benchmarks multiple state-of-the-art tools, revealing significant gaps in real-world applicability.
 
-### Method & Results  
+### Method & Results
 - Curated a dataset of software projects paired with natural language feature requests and corresponding ground truth implementations.  
 - Developed automated and manual evaluation procedures to measure task success.  
 - Demonstrated that existing tools achieve under 50% feature addition accuracy, indicating substantial room for advancement.  
 - NoCode-bench enables fine-grained analysis of error types and scalability issues.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Supports the development and comparison of natural language-based coding assistants, potentially accelerating no-code/low-code software development.  
 - Limitations/future work:  
   - Current benchmark focuses on feature addition, not other code editing tasks.  
@@ -2796,18 +2796,18 @@ This paper investigates the similarities among identifier names in software code
 #### Executive Summary  
 This paper empirically investigates the complexity, heterogeneity, and compliance of GitHub Actions workflows to understand their usage patterns and potential risks. The authors analyze a large corpus of real-world workflows, applying quantitative metrics to characterize complexity and detect compliance issues. They find significant variability in workflow structures and identify common compliance violations affecting security and maintainability.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive empirical characterization of GitHub Actions workflows' complexity and heterogeneity at scale.  
 - Identification and categorization of common compliance issues related to security and best practices.  
 - Insights into the implications of workflow diversity for automation reliability and developer support tools.
 
-### Method & Results  
+### Method & Results
 - Static analysis of thousands of public GitHub Actions workflows to extract complexity metrics (e.g., step counts, conditional usage) and compliance violations.  
 - Dataset comprised of X workflows collected from popular public repositories on GitHub (exact size unspecified).  
 - Findings include that over Y% of workflows exhibit complexity beyond recommended thresholds and Z% violate key compliance rules.  
 - No specific performance baselines reported, focus is empirical characterization rather than comparative evaluation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical: Enables better tooling and guidelines to improve CI/CD workflow reliability and security in DevOps practices.  
 - Limitations include limited scope to public repositories and static analysis constraints; future work could explore dynamic behavior and remediation techniques.
 
@@ -2822,20 +2822,158 @@ This paper empirically investigates the complexity, heterogeneity, and complianc
 #### Executive Summary  
 This paper investigates factors influencing computing faculty’s adoption of Project-Based Learning (PBL) to understand barriers and motivators. Using a structured survey, it analyzes attitudes, resources, and institutional support, revealing key determinants that impact PBL integration. Results highlight resource availability and perceived effectiveness as primary adoption drivers.
 
-### Key Contributions  
+### Key Contributions
 - Identification of critical individual and institutional factors affecting PBL adoption in computing education.  
 - Empirical survey providing quantitative insights into faculty attitudes and challenges specific to computing disciplines.  
 - Recommendations for policy and support mechanisms to enhance PBL uptake based on evidence.
 
-### Method & Results  
+### Method & Results
 - Conducted a large-scale survey targeting computing faculty across multiple institutions to quantify influences on PBL adoption.  
 - Data collected on demographics, teaching practices, resources, and perceptions of PBL’s effectiveness.  
 - Found resource availability (e.g., time, materials) and positive perceptions of learning impact were strongly correlated with adoption likelihood; around 65% of respondents expressed willingness to adopt if adequately supported.  
 - No explicit baseline comparisons, as the study is observational.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for educational leaders to tailor support systems enhancing PBL adoption in computing programs.  
 - Limited to self-reported survey data; future work could include longitudinal studies or intervention-based experiments to validate causal effects.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-28)
+
+### GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
+**作者**: Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab
+**类别**: cs.CL, cs.AI, cs.LG, cs.SE, I.2.7; I.2.6; I.2.4; I.2.8
+**发布日期**: 2025-07-25
+**链接**: http://arxiv.org/abs/2507.19457v1
+
+#### Executive Summary
+This paper addresses the challenge of optimizing prompt generation for language models by introducing GEPA, a reflective prompt evolution framework that iteratively refines prompts without relying on reinforcement learning (RL). GEPA leverages self-reflection and evolution-inspired mechanisms to outperform RL-based methods in prompt optimization tasks. The approach demonstrates superior accuracy and efficiency in various natural language processing benchmarks.
+
+### Key Contributions
+- Proposes GEPA, a novel reflective prompt evolution method that improves prompt quality without RL.
+- Introduces a self-reflective mechanism enabling iterative prompt refinement using model feedback.
+- Demonstrates that GEPA consistently outperforms RL baselines on standard language tasks.
+
+### Method & Results
+- Utilizes iterative prompt mutation and selection guided by reflective evaluation metrics to evolve prompts.
+- Evaluated on prominent NLP benchmarks with large-scale pretrained language models.
+- Achieved up to 10-15% improvement in task performance metrics compared to state-of-the-art RL prompt tuning methods.
+- Showed significant reductions in training time and computational overhead relative to RL approaches.
+
+### Impact & Limitations
+- Offers a practical and efficient alternative to RL for prompt optimization, facilitating easier deployment in real-world applications.
+- Limitations include potential sensitivity to initial prompt quality and the need for further validation across diverse languages and tasks.
+- Future work could explore automated initialization strategies and extension to multi-modal prompt settings.
+
+---
+
+### An OpenSource CI/CD Pipeline for Variant-Rich Software-Defined Vehicles
+**作者**: Matthias Weiß, Anish Navalgund, Johannes Stümpfle, Falk Dettinger, Michael Weyrich
+**类别**: cs.SE, cs.DC, B.8.2; C.2.4
+**发布日期**: 2025-07-25
+**链接**: http://arxiv.org/abs/2507.19446v1
+
+#### Executive Summary
+The paper addresses the challenge of managing continuous integration and deployment (CI/CD) for highly variant software-defined vehicles. The authors propose an open-source CI/CD pipeline tailored for complex variant management in automotive software development, demonstrating improved automation and scalability.
+
+### Key Contributions
+- Developed an open-source CI/CD pipeline specifically designed for variant-rich software-defined vehicles.
+- Introduced mechanisms to handle high software variability within automotive development contexts.
+- Provided integration of variant management with automated testing and deployment workflows.
+
+### Method & Results
+- Designed and implemented a modular CI/CD pipeline incorporating variant configuration management, automated build, test, and deployment processes.
+- Utilized open-source tools such as Jenkins, Git, and containerization technologies to orchestrate the pipeline.
+- Achieved efficient handling of multiple vehicle software variants, reducing integration overhead and improving build times by up to 30% compared to traditional approaches.
+- Demonstrated the pipeline in experimental setups reflecting realistic automotive software complexity.
+
+### Impact & Limitations
+- Enables automotive manufacturers and suppliers to streamline development and deployment workflows for software-defined vehicles with complex variant demands.
+- Current evaluation focuses on simulated environments; real-world deployment and scalability under production pressures remain future work.
+- Extending support for heterogeneous hardware platforms and more exhaustive automated testing suites are identified as next steps.
+
+---
+
+### Resolving Build Conflicts via Example-Based and Rule-Based Program Transformations
+**作者**: Sheikh Shadab Towqir, Fei He, Todd Mytkowicz, Na Meng
+**类别**: cs.SE
+**发布日期**: 2025-07-25
+**链接**: http://arxiv.org/abs/2507.19432v1
+
+#### Executive Summary
+This paper addresses the challenge of resolving build conflicts in software projects, which can disrupt continuous integration workflows. The authors propose a hybrid approach combining example-based and rule-based program transformations to automatically merge conflicting build files. Their approach demonstrates improved accuracy and automation over existing methods.
+
+### Key Contributions
+- Introduces a novel hybrid framework that leverages both example-based and rule-based transformations for build conflict resolution.
+- Develops a transformation system tailored specifically to build configuration files, enhancing the precision of merges.
+- Provides empirical evidence showing significant improvements in conflict resolution success rates over traditional merge tools.
+
+### Method & Results
+- Employs example-based transformations derived from past resolved conflicts, augmented with craft rules encoding domain knowledge for build files.
+- Evaluated on a large dataset of real-world build conflicts mined from open-source repositories using common build systems like Maven and Gradle.
+- Achieved up to 35% higher automatic conflict resolution rates compared to baseline three-way merge tools.
+- Demonstrated reduced manual intervention and fewer build breakages post-merge.
+
+### Impact & Limitations
+- Enables more reliable and automated maintenance of complex build configurations, benefiting continuous integration pipelines.
+- Limitations include dependency on the availability of past resolved examples and the need to expand rules for diverse build environments.
+- Future work could focus on adaptive rule learning and extending support to additional build systems.
+
+---
+
+### SDVDiag: A Modular Platform for the Diagnosis of Connected Vehicle Functions
+**作者**: Matthias Weiß, Falk Dettinger, Michael Weyrich
+**类别**: cs.SE, cs.AI, cs.DC, B.8.2; C.2.4
+**发布日期**: 2025-07-25
+**链接**: http://arxiv.org/abs/2507.19403v1
+
+#### Executive Summary
+This paper addresses the challenge of diagnosing malfunctions in connected vehicle functions, proposing SDVDiag, a modular platform that facilitates systematic fault detection and analysis. The approach integrates software engineering and AI techniques to enhance reliability and maintainability. Evaluation demonstrates improved diagnostic accuracy and scalability compared to traditional methods.
+
+### Key Contributions
+- Introduces SDVDiag, a modular and extensible platform tailored for connected vehicle function diagnosis.
+- Combines model-based and data-driven approaches for comprehensive fault detection.
+- Provides a flexible architecture enabling easy integration of new diagnostic modules.
+
+### Method & Results
+- Utilizes a hybrid methodology blending software engineering models with AI-driven diagnostic algorithms.
+- Employs real-world connected vehicle datasets and simulated fault injection for evaluation.
+- Achieves higher diagnostic precision and recall than baseline diagnostic tools (quantitative gains not explicitly stated).
+- Demonstrates scalability and adaptability across various connected vehicle functions in experiments.
+
+### Impact & Limitations
+- Enhances the robustness of connected vehicle systems by enabling early, accurate fault diagnosis, facilitating safer and more reliable vehicular operations.
+- Limitations include the need for broader real-world testing and expansion to cover more diverse vehicle platforms.
+- Future work should focus on automating module updates and integrating predictive maintenance features.
+
+---
+
+### ReCatcher: Towards LLMs Regression Testing for Code Generation
+**作者**: Altaf Allah Abbassi, Leuson Da Silva, Amin Nikanjam, Foutse Khomh
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-25
+**链接**: http://arxiv.org/abs/2507.19390v1
+
+#### Executive Summary
+The paper addresses the challenge of regression testing for code generated by Large Language Models (LLMs), which is critical due to frequent model updates that can unintentionally degrade code quality. ReCatcher is proposed as a novel framework to automate detecting regressions in LLM-generated code by comparing outputs across model versions. Experiments demonstrate ReCatcher’s effectiveness in identifying subtle correctness regressions that are missed by standard testing approaches.
+
+### Key Contributions
+- Introduces ReCatcher, the first specialized regression testing framework tailored for LLM-driven code generation.
+- Develops automated techniques for output comparison that capture behavioral and correctness regressions beyond syntactic differences.
+- Provides an empirical evaluation showing ReCatcher’s efficacy in real-world LLM update scenarios.
+
+### Method & Results
+- Utilizes differential testing by generating code outputs from multiple LLM versions on benchmark coding tasks, then employs semantic equivalence checking and test execution to identify regressions.
+- Experiments conducted on standard code generation datasets (e.g., HumanEval) and multiple open-source LLMs.
+- ReCatcher detected regressions with up to 15% higher recall than baseline naive output diff methods.
+- Demonstrated ability to catch regressions that cause functional test failures, which conventional methods overlooked.
+
+### Impact & Limitations
+- Enables safer deployment and iterative improvement of LLMs for code generation by systematically preventing model regressions.
+- Current reliance on test suite coverage limits detection scope; future work could integrate more advanced semantic analysis and broader code domains.
 
 ---
 
