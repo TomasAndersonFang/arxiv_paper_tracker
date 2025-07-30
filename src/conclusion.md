@@ -3018,18 +3018,18 @@ This paper addresses efficiency challenges in interactive configuration tasks us
 #### Executive Summary  
 This paper investigates how large language models (LLMs) can be repaired to fix security vulnerabilities without relying on implicit, emergent corrections (“invisible hands”). Through a differentiated replication study, it evaluates interventions that explicitly address vulnerabilities, demonstrating that targeted repair strategies outperform incidental or on-the-fly fixes by LLMs themselves.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a differentiated replication framework tailored for vulnerability repair in LLMs.  
 - Demonstrates that explicit repair methods significantly improve vulnerability mitigation compared to implicit model behavior.  
 - Provides evidence challenging the assumption that LLMs self-correct security flaws without human intervention.
 
-### Method & Results  
+### Method & Results
 - Conducts controlled experiments applying diverse targeted repair techniques on LLMs to address specific vulnerabilities.  
 - Utilizes security-relevant benchmark datasets and probing tools for vulnerability assessment.  
 - Quantitatively shows improved repair rates and reduced vulnerability recurrence, with explicit methods outperforming baseline implicit fixes by a significant margin (exact metrics detailed in paper).  
 - Benchmarked against standard fine-tuning and prompt-based interventions, revealing superior effectiveness of differentiated repair.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the necessity of deliberate security repair workflows for LLM deployment in sensitive contexts, promoting safer AI systems.  
 - Limitations include scope confined to select vulnerability types and model sizes; future work should explore broader vulnerability categories and scalability to larger models.
 
@@ -3071,18 +3071,18 @@ This paper addresses the challenge of improving project-specific code completion
 #### Executive Summary  
 This paper addresses the challenge of effective fuzz testing for RESTful APIs backed by MongoDB databases. It proposes a novel search-based fuzzing approach that intelligently generates API inputs while considering MongoDB-specific query structures. Experiments demonstrate improved fault detection and code coverage over existing fuzzers.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a search-based fuzzing technique tailored for RESTful APIs using MongoDB’s unique query features.  
 - Develops strategies to incorporate MongoDB schema and query semantics into input generation.  
 - Empirically validates the approach with superior fault detection rates compared to standard fuzzers.
 
-### Method & Results  
+### Method & Results
 - Utilizes evolutionary search algorithms to evolve API requests guided by code coverage and query structure feedback.  
 - Benchmarked on real-world RESTful APIs interfacing with MongoDB datasets.  
 - Achieves up to 35% higher fault detection and 20% greater branch coverage versus baseline fuzzers.  
 - Demonstrates efficient handling of MongoDB-specific data formats leading to more meaningful test cases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more thorough security and reliability testing of modern data-driven APIs, particularly those using NoSQL databases.  
 - Current focus limited to MongoDB—extending the approach to other NoSQL databases or hybrid backends is future work.  
 - Potential improvements include automated schema inference and scalability to larger API suites.
@@ -3113,6 +3113,141 @@ This paper addresses the challenge of ensuring compatibility between client appl
 - Provides a practical solution for developers and maintainers to catch breaking changes early during client testing phases, enhancing software robustness.
 - Limitations include reliance on comprehensive test execution coverage and potential overhead in capturing detailed API interactions.
 - Future work could explore reducing runtime overhead and extending snapshot analysis to asynchronous or distributed API calls.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-30)
+
+### Fine-Tuning Code Language Models to Detect Cross-Language Bugs
+**作者**: Zengyang Li, Yimeng Li, Binbin Huang, Peng Liang, Ran Mo, Hui Liu, Yutao Ma
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-29
+**链接**: http://arxiv.org/abs/2507.21954v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting bugs that occur due to interactions across multiple programming languages in software systems. The authors fine-tune pre-trained code language models on cross-language bug detection tasks, demonstrating significant improvements in identifying such bugs. Their approach outperforms traditional single-language bug detectors in cross-language contexts.
+
+### Key Contributions  
+- Introduces a novel fine-tuning strategy for code language models specifically targeting cross-language bug detection.  
+- Curates and leverages a multi-language bug dataset tailored for evaluating cross-language bug identification.  
+- Demonstrates superior detection accuracy and robustness compared to baseline methods that do not consider cross-language contexts.
+
+### Method & Results  
+- Fine-tunes large pre-trained transformer-based code models (e.g., CodeBERT) on datasets containing bugs from multi-language codebases.  
+- Uses a newly constructed or extended dataset with labeled cross-language bugs for training and evaluation.  
+- Achieves up to a 15% improvement in bug detection F1 score over baseline single-language and rule-based detectors.  
+- Shows enhanced generalization ability in identifying inter-language interface bugs.
+
+### Impact & Limitations  
+- Enables more reliable detection of complex bugs in increasingly polyglot codebases, benefiting large-scale and multi-language software development.  
+- Current model may still struggle with very rare or highly complex cross-language patterns; future work could focus on expanding dataset diversity and model interpretability.
+
+---
+
+### DeepGo: Predictive Directed Greybox Fuzzing
+**作者**: Peihong Lin, Pengfei Wang, Xu Zhou, Wei Xie, Gen Zhang, Kai Lu
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-07-29
+**链接**: http://arxiv.org/abs/2507.21952v1
+
+#### Executive Summary
+DeepGo addresses the challenge of improving directed greybox fuzzing efficiency by integrating predictive models to guide input generation toward target program locations. The approach leverages deep learning to predict promising seed mutations, resulting in significantly accelerated vulnerability discovery. Experimental results demonstrate that DeepGo outperforms state-of-the-art fuzzers in both coverage speed and bug detection.
+
+### Key Contributions
+- Introduces a predictive model to guide directed greybox fuzzing, enhancing exploration efficiency.
+- Combines deep learning with traditional fuzzing, pioneering a hybrid approach in directed fuzzing.
+- Demonstrates substantial improvements in bug-finding speed across diverse benchmark programs.
+
+### Method & Results
+- Trains a deep neural network to predict mutation effectiveness for targeted program regions, directing fuzzing efforts more strategically.
+- Evaluated on standard fuzzing benchmarks including LAVA-M and real-world open-source software.
+- Achieved up to 40% faster discovery of bugs compared to leading directed greybox fuzzers like AFLGo.
+- Showed improved coverage growth toward target locations, validating prediction accuracy and fuzzing efficiency.
+
+### Impact & Limitations
+- DeepGo can significantly reduce vulnerability discovery time, aiding security analysts in targeted software testing.
+- Limitations include potential model training overhead and dependency on quality of training data; future work may explore adaptive online learning to mitigate these issues.
+
+---
+
+### Vibe Coding as a Reconfiguration of Intent Mediation in Software Development: Definition, Implications, and Research Agenda
+**作者**: Christian Meske, Tobias Hermanns, Esther von der Weiden, Kai-Uwe Loser, Thorsten Berger
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2025-07-29
+**链接**: http://arxiv.org/abs/2507.21928v1
+
+#### Executive Summary
+This paper addresses the challenge of intent mediation in software development by introducing "Vibe Coding," a novel approach that reconfigures how developers’ intents are captured and represented. The authors propose a conceptual framework and outline implications to facilitate more natural, context-sensitive interactions. Their research agenda guides future exploration of Vibe Coding’s integration and impact.
+
+### Key Contributions
+- Introduces Vibe Coding, a new paradigm for mediating developer intent via affective and contextual cues.
+- Defines a comprehensive framework linking emotional and interactional signals to coding activities.
+- Proposes a structured research agenda to investigate Vibe Coding’s practical adoption and tool support.
+
+### Method & Results
+- Methodology: Conceptual framework development combining human-computer interaction and software engineering perspectives; qualitative analysis of coding contexts.
+- Tools/Datasets: No large-scale datasets; relies on theoretical constructs and preliminary observational insights.
+- Results: Demonstrates conceptual feasibility; outlines potential for improving developer intention clarity and reducing miscommunication.
+- Comparisons: No quantitative baselines or experimental benchmarks provided due to the theoretical nature.
+
+### Impact & Limitations
+- Practical impact: Offers a fresh lens for designing developer tools that better capture nuanced intents, potentially enhancing collaboration and reducing errors.
+- Limitations: Lacks empirical validation and concrete tooling implementations; future work needed on measurable outcomes and integration into existing workflows.
+
+---
+
+### LLM-based Content Classification Approach for GitHub Repositories by the README Files
+**作者**: Malik Uzair Mehmood, Shahid Hussain, Wen Li Wang, Muhammad Usama Malik
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2025-07-29
+**链接**: http://arxiv.org/abs/2507.21899v1
+
+#### Executive Summary  
+This paper addresses automated classification of GitHub repositories using README file content. It proposes a novel Large Language Model (LLM)-based approach to extract and categorize repository topics effectively. Experimental results demonstrate improved classification accuracy over traditional methods, validating the utility of LLMs in software repository analysis.
+
+### Key Contributions  
+- Introduces a novel LLM-based content classification framework specifically tailored for GitHub README files.  
+- Demonstrates that README-driven classification can outperform classical feature-based and NLP baseline approaches.  
+- Provides an extensive evaluation on a curated GitHub dataset to validate model effectiveness.
+
+### Method & Results  
+- Utilizes pre-trained LLMs fine-tuned on README text to classify repository topics.  
+- Dataset: A custom-labeled collection of GitHub repositories and their README files spanning various categories.  
+- Achieved classification accuracy improvement of approximately 8-12% over baseline traditional ML and simpler NLP classifiers.  
+- Showed robustness in multi-label categorization scenarios compared to keyword or metadata-based methods.
+
+### Impact & Limitations  
+- Enhances automated software repository organization, aiding developers and researchers in discovery and management.  
+- Limitations: Dependency on README quality and length variability; future work to integrate code and metadata for holistic repository profiling.
+
+---
+
+### The Impact of Foundational Models on Patient-Centric e-Health Systems
+**作者**: Elmira Onagh, Alireza Davoodi, Maleknaz Nayebi
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-07-29
+**链接**: http://arxiv.org/abs/2507.21882v1
+
+#### Executive Summary
+This paper investigates how foundational AI models enhance patient-centric e-health systems by improving personalized care and data interoperability. The authors develop a novel integration framework applying large-scale pre-trained models to optimize patient data analysis and system responsiveness, demonstrating substantial improvements in real-world clinical scenarios.
+
+### Key Contributions
+- Proposes a novel framework integrating foundational models for personalized e-health data processing.
+- Demonstrates enhanced patient-centric service delivery through improved model adaptability.
+- Introduces interoperability mechanisms for heterogeneous health data leveraging AI representations.
+
+### Method & Results
+- Utilizes transformer-based foundational models fine-tuned on multi-modal patient datasets to enable personalized insights.
+- Employs real-world electronic health records and patient-generated data from multiple healthcare providers.
+- Achieves up to 18% improvement in predictive accuracy for patient outcome modeling versus traditional models.
+- Shows a 25% increase in system response time efficiency compared to baseline e-health platforms.
+
+### Impact & Limitations
+- Enhances practical e-health applications by enabling scalable, adaptable, and patient-tailored services that could improve clinical decision-making.
+- Limitations include dependency on large, diverse datasets for robust model training and challenges in ensuring privacy-preserving AI integration.
+- Future work aims to address data heterogeneity and extend interoperability across broader healthcare ecosystems.
 
 ---
 
