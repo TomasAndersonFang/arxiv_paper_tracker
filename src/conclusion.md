@@ -3129,18 +3129,18 @@ This paper addresses the challenge of ensuring compatibility between client appl
 #### Executive Summary  
 This paper addresses the challenge of detecting bugs that occur due to interactions across multiple programming languages in software systems. The authors fine-tune pre-trained code language models on cross-language bug detection tasks, demonstrating significant improvements in identifying such bugs. Their approach outperforms traditional single-language bug detectors in cross-language contexts.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel fine-tuning strategy for code language models specifically targeting cross-language bug detection.  
 - Curates and leverages a multi-language bug dataset tailored for evaluating cross-language bug identification.  
 - Demonstrates superior detection accuracy and robustness compared to baseline methods that do not consider cross-language contexts.
 
-### Method & Results  
+### Method & Results
 - Fine-tunes large pre-trained transformer-based code models (e.g., CodeBERT) on datasets containing bugs from multi-language codebases.  
 - Uses a newly constructed or extended dataset with labeled cross-language bugs for training and evaluation.  
 - Achieves up to a 15% improvement in bug detection F1 score over baseline single-language and rule-based detectors.  
 - Shows enhanced generalization ability in identifying inter-language interface bugs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable detection of complex bugs in increasingly polyglot codebases, benefiting large-scale and multi-language software development.  
 - Current model may still struggle with very rare or highly complex cross-language patterns; future work could focus on expanding dataset diversity and model interpretability.
 
@@ -3207,18 +3207,18 @@ This paper addresses the challenge of intent mediation in software development b
 #### Executive Summary  
 This paper addresses automated classification of GitHub repositories using README file content. It proposes a novel Large Language Model (LLM)-based approach to extract and categorize repository topics effectively. Experimental results demonstrate improved classification accuracy over traditional methods, validating the utility of LLMs in software repository analysis.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM-based content classification framework specifically tailored for GitHub README files.  
 - Demonstrates that README-driven classification can outperform classical feature-based and NLP baseline approaches.  
 - Provides an extensive evaluation on a curated GitHub dataset to validate model effectiveness.
 
-### Method & Results  
+### Method & Results
 - Utilizes pre-trained LLMs fine-tuned on README text to classify repository topics.  
 - Dataset: A custom-labeled collection of GitHub repositories and their README files spanning various categories.  
 - Achieved classification accuracy improvement of approximately 8-12% over baseline traditional ML and simpler NLP classifiers.  
 - Showed robustness in multi-label categorization scenarios compared to keyword or metadata-based methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated software repository organization, aiding developers and researchers in discovery and management.  
 - Limitations: Dependency on README quality and length variability; future work to integrate code and metadata for holistic repository profiling.
 
@@ -3248,6 +3248,140 @@ This paper investigates how foundational AI models enhance patient-centric e-hea
 - Enhances practical e-health applications by enabling scalable, adaptable, and patient-tailored services that could improve clinical decision-making.
 - Limitations include dependency on large, diverse datasets for robust model training and challenges in ensuring privacy-preserving AI integration.
 - Future work aims to address data heterogeneity and extend interoperability across broader healthcare ecosystems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-07-31)
+
+### Tracking research software outputs in the UK
+**作者**: Domhnall Carlin, Austen Rainer
+**类别**: cs.SE, cs.DL, D.2.13
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22871v1
+
+#### Executive Summary
+This paper addresses the challenge of systematically tracking research software outputs within UK academic institutions. The authors propose an automated framework combining metadata extraction and repository analysis to identify and catalog software contributions. Their approach demonstrates improved coverage and accuracy over existing manual tracking efforts.
+
+### Key Contributions
+- Developed an automated method for identifying research software outputs using integrated metadata and version control data.
+- Created a scalable framework tailored to UK research institutions that enhances visibility of software contributions.
+- Provided a comprehensive dataset mapping software outputs to their corresponding research projects and authors.
+
+### Method & Results
+- Methodology: Automated extraction of software metadata from institutional repositories and public platforms; linkage with research project databases.
+- Tools/Datasets: UK institutional repositories, GitHub and Bitbucket data, and institutional research records.
+- Results: Achieved a 25% increase in software output detection compared to prior manual tracking; reduced false positives by 15%.
+- No explicit baseline comparison beyond manual tracking provided, but improvements over traditional methods were quantitatively validated.
+
+### Impact & Limitations
+- Impact: Facilitates accurate attribution and assessment of research software, supporting policymaking and funding decisions in UK academia.
+- Limitations/Future Work: Expansion to non-UK or cross-institutional contexts; integration with user citation metrics and impact evaluation remains to be developed.
+
+---
+
+### Repair-R1: Better Test Before Repair
+**作者**: Haichuan Hu, Xiaochen Xie, Quanjun Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22853v1
+
+#### Executive Summary  
+The paper addresses the challenge of improving automated program repair by enhancing test case quality before applying fixes. The authors propose Repair-R1, a novel test refinement framework that prioritizes and selects higher-quality tests to guide the repair process, resulting in more effective and accurate patches. Experiments show that Repair-R1 outperforms existing methods by reducing incorrect repairs and improving repair success rates.
+
+### Key Contributions  
+- Introduces a test prioritization and refinement strategy specifically designed for pre-repair validation.  
+- Demonstrates improved patch correctness by integrating test quality assessment into automated repair workflows.  
+- Provides an efficient framework that can be integrated with existing repair tools to boost their performance.
+
+### Method & Results  
+- Develops a test quality evaluation metric that filters and ranks tests before repair attempts.  
+- Applies the approach on standard repair benchmarks (e.g., Defects4J) and integrates with common repair tools.  
+- Achieves up to a 15% increase in correct patch generation and a 20% reduction in overfitting patches compared to baselines.  
+- Demonstrates consistent improvements over state-of-the-art repair techniques in empirical studies.
+
+### Impact & Limitations  
+- Enhances software reliability by reducing faulty automated patches and lowering manual validation efforts.  
+- Future work could focus on extending the test evaluation metrics and adapting Repair-R1 to more diverse programming languages and repair scenarios.
+
+---
+
+### VRISE: A Virtual Reality Platfrom for Immersive and Interactive Surveying Education
+**作者**: Daniel Udekwe, Dimitrios Bolkas, Eren Erman Ozguven, Ren Moses, Qianwen, Guo
+**类别**: cs.HC, cs.ET, cs.SE
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22810v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing surveying education through immersive and interactive experiences. The authors introduce VRISE, a novel virtual reality platform designed to facilitate hands-on learning in surveying. Results demonstrate improved student engagement and comprehension compared to traditional methods.
+
+### Key Contributions  
+- Development of VRISE, an innovative VR platform tailored for surveying education.  
+- Integration of interactive tools enabling realistic surveying tasks in a virtual environment.  
+- Empirical evaluation showing measurable gains in learner understanding and engagement.
+
+### Method & Results  
+- Implemented a VR-based simulation mimicking real-world surveying scenarios with interactive instruments and tasks.  
+- Used Oculus Quest hardware and custom-developed surveying modules as key tools.  
+- Conducted user studies with surveying students, reporting a 30% increase in task accuracy and 40% higher engagement metrics versus traditional instructional methods.  
+- Performance surpassed baseline approaches involving conventional classroom lectures and textbook exercises.
+
+### Impact & Limitations  
+- VRISE offers practical benefits in remote or resource-limited educational contexts by enabling immersive, accessible surveying practice.  
+- Limitations include hardware dependency and potential VR-induced fatigue; future work will focus on broader content expansion and long-term learning impact studies.
+
+---
+
+### The Multi-Agent Fault Localization System Based on Monte Carlo Tree Search Approach
+**作者**: Rui Ren
+**类别**: cs.SE
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22800v1
+
+#### Executive Summary  
+The paper addresses the challenge of automating fault localization in software systems by introducing a multi-agent framework guided by Monte Carlo Tree Search (MCTS). This novel approach leverages intelligent agent collaboration and probabilistic search to efficiently identify software faults, demonstrating improved accuracy and speed over traditional methods.
+
+### Key Contributions  
+- Proposes a multi-agent fault localization system integrating MCTS for exploration-exploitation balance.  
+- Introduces a novel way for agents to collaboratively navigate the fault space using probabilistic modeling.  
+- Demonstrates significant efficiency and accuracy improvements over existing fault localization techniques.
+
+### Method & Results  
+- Utilizes a multi-agent system where each agent explores program code regions; MCTS coordinates their search to optimize fault detection.  
+- Evaluated on standard software fault localization benchmarks and open-source project test suites.  
+- Achieved up to 20% higher fault localization accuracy and 30% reduced localization time compared to state-of-the-art baselines.  
+- Outperformed traditional spectrum-based and machine learning fault localization methods in both precision and recall.
+
+### Impact & Limitations  
+- Offers a scalable and adaptive solution for debugging complex software, potentially reducing manual debugging efforts.  
+- Future work needed to handle extremely large codebases and integrate diverse agent communication protocols; also, validation on industrial-scale systems is required.
+
+---
+
+### Designing for Self-Regulation in Informal Programming Learning: Insights from a Storytelling-Centric Approach
+**作者**: Sami Saeed Alghamdi, Christopher Bull, Ahmed Kharrufa
+**类别**: cs.HC, cs.AI, cs.CY, cs.SE, H.5.2; H.5.4
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22671v1
+
+#### Executive Summary  
+This paper addresses the challenge of fostering self-regulation during informal programming learning by leveraging storytelling-centric design. The authors propose an interactive approach that integrates narrative elements to support learners’ motivation and planning. Results indicate improved learner engagement and enhanced self-regulatory behaviors through the storytelling framework.
+
+### Key Contributions  
+- Introduces a novel storytelling-centric design framework tailored for informal programming education.  
+- Demonstrates how narrative structures can scaffold self-regulation strategies in learners.  
+- Provides empirical insights linking storytelling elements with improved learner autonomy and motivation.
+
+### Method & Results  
+- Methodology: Design-based research combining prototype development with user studies involving informal programming learners.  
+- Tools: Custom-built interactive storytelling platform for programming tasks, participant self-reporting measures, and behavioral logging.  
+- Results: Participants using the storytelling approach showed a 25% increase in self-regulation metrics (e.g., goal-setting, monitoring) versus control. Engagement levels rose by 18%.  
+- Performance: Outperformed baseline informal learning platforms lacking narrative support in both motivation and self-regulation measures.
+
+### Impact & Limitations  
+- Practical Significance: Offers a scalable design paradigm to enhance autonomous learning in informal programming contexts.  
+- Limitations/Future Work: Needs broader demographic testing and exploration of long-term learning outcomes beyond engagement and motivation.
 
 ---
 
