@@ -43,7 +43,7 @@ CATEGORY_CONFIGS = {
         "max_analyze": 5
     },
     "安全领域": {
-        "categories": ["cs.CR", "cs.CY"],  # cs.CR: Cryptography and Security, cs.CY: Computers and Society
+        "categories": ["cs.CR"],  # cs.CR: Cryptography and Security, cs.CY: Computers and Society
         "max_search": 30,
         "max_analyze": 5
     }
