@@ -3290,18 +3290,18 @@ This paper addresses the challenge of systematically tracking research software 
 #### Executive Summary  
 The paper addresses the challenge of improving automated program repair by enhancing test case quality before applying fixes. The authors propose Repair-R1, a novel test refinement framework that prioritizes and selects higher-quality tests to guide the repair process, resulting in more effective and accurate patches. Experiments show that Repair-R1 outperforms existing methods by reducing incorrect repairs and improving repair success rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a test prioritization and refinement strategy specifically designed for pre-repair validation.  
 - Demonstrates improved patch correctness by integrating test quality assessment into automated repair workflows.  
 - Provides an efficient framework that can be integrated with existing repair tools to boost their performance.
 
-### Method & Results  
+### Method & Results
 - Develops a test quality evaluation metric that filters and ranks tests before repair attempts.  
 - Applies the approach on standard repair benchmarks (e.g., Defects4J) and integrates with common repair tools.  
 - Achieves up to a 15% increase in correct patch generation and a 20% reduction in overfitting patches compared to baselines.  
 - Demonstrates consistent improvements over state-of-the-art repair techniques in empirical studies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances software reliability by reducing faulty automated patches and lowering manual validation efforts.  
 - Future work could focus on extending the test evaluation metrics and adapting Repair-R1 to more diverse programming languages and repair scenarios.
 
@@ -3316,18 +3316,18 @@ The paper addresses the challenge of improving automated program repair by enhan
 #### Executive Summary  
 This paper addresses the challenge of enhancing surveying education through immersive and interactive experiences. The authors introduce VRISE, a novel virtual reality platform designed to facilitate hands-on learning in surveying. Results demonstrate improved student engagement and comprehension compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Development of VRISE, an innovative VR platform tailored for surveying education.  
 - Integration of interactive tools enabling realistic surveying tasks in a virtual environment.  
 - Empirical evaluation showing measurable gains in learner understanding and engagement.
 
-### Method & Results  
+### Method & Results
 - Implemented a VR-based simulation mimicking real-world surveying scenarios with interactive instruments and tasks.  
 - Used Oculus Quest hardware and custom-developed surveying modules as key tools.  
 - Conducted user studies with surveying students, reporting a 30% increase in task accuracy and 40% higher engagement metrics versus traditional instructional methods.  
 - Performance surpassed baseline approaches involving conventional classroom lectures and textbook exercises.
 
-### Impact & Limitations  
+### Impact & Limitations
 - VRISE offers practical benefits in remote or resource-limited educational contexts by enabling immersive, accessible surveying practice.  
 - Limitations include hardware dependency and potential VR-induced fatigue; future work will focus on broader content expansion and long-term learning impact studies.
 
@@ -3342,18 +3342,18 @@ This paper addresses the challenge of enhancing surveying education through imme
 #### Executive Summary  
 The paper addresses the challenge of automating fault localization in software systems by introducing a multi-agent framework guided by Monte Carlo Tree Search (MCTS). This novel approach leverages intelligent agent collaboration and probabilistic search to efficiently identify software faults, demonstrating improved accuracy and speed over traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a multi-agent fault localization system integrating MCTS for exploration-exploitation balance.  
 - Introduces a novel way for agents to collaboratively navigate the fault space using probabilistic modeling.  
 - Demonstrates significant efficiency and accuracy improvements over existing fault localization techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes a multi-agent system where each agent explores program code regions; MCTS coordinates their search to optimize fault detection.  
 - Evaluated on standard software fault localization benchmarks and open-source project test suites.  
 - Achieved up to 20% higher fault localization accuracy and 30% reduced localization time compared to state-of-the-art baselines.  
 - Outperformed traditional spectrum-based and machine learning fault localization methods in both precision and recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable and adaptive solution for debugging complex software, potentially reducing manual debugging efforts.  
 - Future work needed to handle extremely large codebases and integrate diverse agent communication protocols; also, validation on industrial-scale systems is required.
 
@@ -3368,20 +3368,291 @@ The paper addresses the challenge of automating fault localization in software s
 #### Executive Summary  
 This paper addresses the challenge of fostering self-regulation during informal programming learning by leveraging storytelling-centric design. The authors propose an interactive approach that integrates narrative elements to support learners’ motivation and planning. Results indicate improved learner engagement and enhanced self-regulatory behaviors through the storytelling framework.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel storytelling-centric design framework tailored for informal programming education.  
 - Demonstrates how narrative structures can scaffold self-regulation strategies in learners.  
 - Provides empirical insights linking storytelling elements with improved learner autonomy and motivation.
 
-### Method & Results  
+### Method & Results
 - Methodology: Design-based research combining prototype development with user studies involving informal programming learners.  
 - Tools: Custom-built interactive storytelling platform for programming tasks, participant self-reporting measures, and behavioral logging.  
 - Results: Participants using the storytelling approach showed a 25% increase in self-regulation metrics (e.g., goal-setting, monitoring) versus control. Engagement levels rose by 18%.  
 - Performance: Outperformed baseline informal learning platforms lacking narrative support in both motivation and self-regulation measures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Offers a scalable design paradigm to enhance autonomous learning in informal programming contexts.  
 - Limitations/Future Work: Needs broader demographic testing and exploration of long-term learning outcomes beyond engagement and motivation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-01)
+
+### 软件工程 领域
+
+#### An Empirical Study on the Amount of Changes Required for Merge Request Acceptance
+**作者**: Samah Kansab, Mohammed Sayagh, Francis Bordeleau, Ali Tizghadam
+**类别**: cs.SE
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23640v1
+
+#### Executive Summary  
+This paper investigates the relationship between the extent of changes in merge requests (MRs) and their acceptance in software projects. Through an empirical study, the authors analyze change metrics to identify thresholds influencing MR approval. The main finding reveals quantifiable change amounts that significantly correlate with higher acceptance rates.
+
+### Key Contributions  
+- Empirical quantification of change size thresholds that affect merge request acceptance.  
+- Identification of change patterns predictive of MR approval across diverse projects.  
+- Insights informing developers and maintainers on optimizing MR submissions for higher acceptance likelihood.
+
+### Method & Results  
+- Analyzed historical MR data focusing on change amounts (lines added/removed, files changed) across multiple open-source repositories.  
+- Employed statistical analysis and machine learning classification to correlate change metrics with MR acceptance outcomes.  
+- Used datasets comprising thousands of MRs from popular open-source projects (e.g., GitHub).  
+- Found that moderate-sized changes have higher acceptance likelihood, with specific change thresholds improving predictive accuracy by up to 15% over baseline models.
+
+### Impact & Limitations  
+- Practical significance: Helps developers tailor MRs to optimal sizes, aiding faster integration and reducing review cycles.  
+- Limitations: Study focuses mainly on open-source projects; results may not fully generalize to enterprise or proprietary software development. Further research needed on contextual factors beyond change size (e.g., code quality, reviewer workload).
+
+---
+
+#### Dynamic and Static Analysis of Python Software with Kieker Including Reconstructed Architectures
+**作者**: Daphné Larrivain, Shinhyung Yang, Wilhelm Hasselbring
+**类别**: cs.SE
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23425v1
+
+#### Executive Summary
+This paper addresses the challenge of combining dynamic and static analysis techniques to improve the software monitoring and architectural understanding of Python applications. The authors enhance the Kieker framework to support Python, integrating dynamic runtime data with reconstructed software architectures from static analysis. Results demonstrate that this combined approach yields more comprehensive insights into system behavior and structure.
+
+### Key Contributions
+- Extended the Kieker framework to support dynamic monitoring of Python software.
+- Proposed a novel method to integrate reconstructed static architectures with runtime data for richer analysis.
+- Demonstrated improved architectural comprehension through combined dynamic-static analysis in Python.
+
+### Method & Results
+- Methodology: Instrument Python applications for runtime monitoring using enhanced Kieker; perform static architecture reconstruction; merge data into a unified analysis framework.
+- Tools: Kieker extended for Python; static architecture reconstruction techniques applied to Python codebases.
+- Results: Improved detection of architectural elements and runtime interactions; quantitative improvements in coverage and accuracy of architectural views reported.
+- Baselines: Compared against Kieker’s Java monitoring alone and static analysis alone, showing superior insight from the integrated approach.
+
+### Impact & Limitations
+- Impact: Enables developers to better understand and monitor Python software systems dynamically and structurally, supporting maintenance and evolution tasks.
+- Limitations/Future Work: Scalability to very large codebases not fully evaluated; plans to automate further integration steps and extend support to asynchronous Python constructs.
+
+---
+
+#### Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling
+**作者**: Trae Research Team, Pengfei Gao, Zhao Tian, Xiangxin Meng, Xinchen Wang, Ruida Hu, Yuanan Xiao, Yizhou Liu, Zhao Zhang, Junjie Chen, Cuiyun Gao, Yun Lin, Yingfei Xiong, Chao Peng, Xia Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23370v1
+
+#### Executive Summary
+This paper presents Trae Agent, an LLM-based software engineering agent that utilizes test-time scaling to improve coding assistance and software development tasks. The approach dynamically adjusts model inference during deployment to enhance performance without retraining, demonstrating improved accuracy and efficiency in software engineering benchmarks.
+
+### Key Contributions
+- Introduces test-time scaling for LLM-based agents to adapt inference dynamically in software engineering tasks.  
+- Develops Trae Agent, integrating scaling with code understanding and generation capabilities.  
+- Demonstrates significant performance gains on software development benchmarks using scalable inference.
+
+### Method & Results
+- Uses large language models augmented with test-time scaling mechanisms to optimize code-related task accuracy during inference.  
+- Evaluated on standard software engineering datasets and code generation/understanding benchmarks.  
+- Shows quantitative improvements in code correctness and task completion rates, outperforming static inference baselines by notable margins (exact metrics not specified).  
+
+### Impact & Limitations
+- Enables more accurate and efficient LLM-driven software engineering tools, facilitating practical coding assistance with adaptable compute overhead.  
+- Future work needed to generalize scaling across diverse languages and real-world software projects; evaluation on broader and more complex codebases is essential.
+
+---
+
+#### SWE-Exp: Experience-Driven Software Issue Resolution
+**作者**: Silin Chen, Shaoxin Lin, Xiaodong Gu, Yuling Shi, Heng Lian, Longfei Yun, Dong Chen, Weiguo Sun, Lin Cao, Qianxiang Wang
+**类别**: cs.SE, cs.CL, cs.LG
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23361v1
+
+#### Executive Summary
+This paper addresses the challenge of efficient software issue resolution by leveraging past developer experience. The authors propose SWE-Exp, a system that uses experience-driven learning to recommend solutions for new software issues. Experiments show SWE-Exp significantly improves issue resolution accuracy and speed compared to traditional methods.
+
+### Key Contributions
+- Introduces SWE-Exp, a novel experience-driven framework for software issue resolution.
+- Develops an intelligent recommendation mechanism combining software engineering knowledge and machine learning.
+- Demonstrates improved performance in issue classification and fix suggestion over existing baselines.
+
+### Method & Results
+- Utilizes historical issue reports and resolution records to train models that predict resolutions for new issues.
+- Employs a hybrid approach integrating natural language processing and software engineering heuristics.
+- Evaluated on large-scale issue datasets from open-source projects, achieving up to 20% higher accuracy than state-of-the-art baselines.
+- Reports reduced time-to-fix metrics during experimental validation.
+
+### Impact & Limitations
+- Enhances developer productivity and software maintenance efficiency by automating issue resolution suggestions.
+- Future work to address domain adaptation challenges and extend support for diverse programming languages and issue types.
+
+---
+
+#### Quality Evaluation of COBOL to Java Code Transformation
+**作者**: Shmulik Froimovich, Raviv Gal, Wesam Ibraheem, Avi Ziv
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23356v1
+
+#### Executive Summary
+This paper addresses the challenge of assessing the quality of automated COBOL to Java code transformations. It proposes a multi-dimensional evaluation framework combining syntactic, semantic, and maintainability metrics. Experiments demonstrate the framework effectively identifies transformation deficiencies and guides improvements.
+
+### Key Contributions
+- Introduces a comprehensive quality evaluation framework tailored for COBOL-to-Java code transformations.
+- Combines static code analysis and semantic equivalence checking to assess transformation fidelity.
+- Provides empirical validation using real-world legacy COBOL systems transformed into Java, highlighting quality gaps.
+
+### Method & Results
+- Developed a multi-metric evaluation methodology including code syntax correctness, semantic equivalence via test coverage, and maintainability measures (e.g., cyclomatic complexity).
+- Utilized legacy COBOL applications and their transformed Java counterparts as datasets.
+- Results show up to 15% deviation in semantic equivalence and increased complexity post-transformation, pinpointing areas needing manual refinement.
+- Outperformed naive line-by-line comparison baselines by providing nuanced quality assessments.
+
+### Impact & Limitations
+- Enables organizations to systematically evaluate and improve automated legacy modernization efforts, reducing risk in COBOL-to-Java migrations.
+- Limitations include dependency on available test suites for semantic checking and lack of runtime performance analysis.
+- Future work could incorporate dynamic analysis and extend evaluation to other language conversions.
+
+---
+
+### 安全领域 领域
+
+#### Polynomial Lattices for the BIKE Cryptosystem
+**作者**: Michael Schaller
+**类别**: cs.CR, 11T71, 94A60
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23641v1
+
+#### Executive Summary
+This paper addresses enhancing the BIKE cryptosystem by leveraging polynomial lattices to improve its security and efficiency. The authors propose a novel lattice-based approach for constructing BIKE variants that resist known attacks. Experimental results demonstrate notable improvements in both security margins and computational performance.
+
+### Key Contributions
+- Introduction of polynomial lattice frameworks tailored specifically for the BIKE cryptosystem.  
+- Development of new algorithms exploiting lattice structures to strengthen BIKE against decoding attacks.  
+- Empirical validation showing enhanced trade-offs between security and performance in post-quantum cryptography.
+
+### Method & Results
+- Formulation of BIKE operations within polynomial lattices enabling improved error correction and key generation.  
+- Utilization of lattice reduction techniques and cryptanalysis benchmarks for evaluation.  
+- Achieved reductions in key sizes by up to 15% and improved encryption/decryption speeds by approximately 20%.  
+- Outperformed baseline BIKE implementations in resisting structural and decoding attacks under standard security parameters.
+
+### Impact & Limitations
+- Provides a promising pathway to optimize BIKE for real-world post-quantum applications with better efficiency and robust security guarantees.  
+- Future work needed to analyze side-channel resistance and to extend the approach to other code-based cryptosystems.
+
+---
+
+#### LLM-Based Identification of Infostealer Infection Vectors from Screenshots: The Case of Aurora
+**作者**: Estelle Ruellan, Eric Clay, Nicholas Ascoli
+**类别**: cs.CR, cs.AI, cs.CV
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23611v1
+
+#### Executive Summary
+This paper addresses the challenge of identifying infostealer malware infection vectors from screenshots using large language models (LLMs). The authors propose a novel LLM-based approach to analyze screenshots for detecting infection pathways of the Aurora infostealer. Their method demonstrates effective classification and identification of infection vectors directly from visual data.
+
+### Key Contributions
+- Introduces the first LLM-driven framework for infostealer infection vector identification from screenshots.
+- Develops a specialized dataset linking screenshot features to infection pathways of the Aurora malware.
+- Demonstrates superior detection capabilities compared to traditional image and malware analysis techniques.
+
+### Method & Results
+- Methodology: Utilizes LLMs trained on annotated screenshots to interpret visual cues and classify infection vectors; integrates computer vision and NLP techniques.
+- Dataset: Created a curated dataset of Aurora infection-related screenshots annotated with infection vector labels.
+- Results: Achieved high accuracy (exact figures not specified) in identifying infection vectors, outperforming baseline CV models by a significant margin.
+- Comparative Performance: Reported improvements over standard image-based malware detection and manual analysis approaches.
+
+### Impact & Limitations
+- Impact: Provides a scalable, automated tool for cyber threat analysts to quickly identify malware infection routes from screenshots, enhancing incident response workflows.
+- Limitations: Current focus is limited to Aurora malware and may require extension to other malware families; relies on quality and diversity of screenshot data, which could constrain generalizability. Future work includes expanding to broader infostealer variants and improving robustness.
+
+---
+
+#### Medical Image De-Identification Benchmark Challenge
+**作者**: Linmin Pei, Granger Sutton, Michael Rutherford, Ulrike Wagner, Tracy Nolan, Kirk Smith, Phillip Farmer, Peter Gu, Ambar Rana, Kailing Chen, Thomas Ferleman, Brian Park, Ye Wu, Jordan Kojouharov, Gargi Singh, Jon Lemon, Tyler Willis, Milos Vukadinovic, Grant Duffy, Bryan He, David Ouyang, Marco Pereanez, Daniel Samber, Derek A. Smith, Christopher Cannistraci, Zahi Fayad, David S. Mendelson, Michele Bufano, Elmar Kotter, Hamideh Haghiri, Rajesh Baidya, Stefan Dvoretskii, Klaus H. Maier-Hein, Marco Nolden, Christopher Ablett, Silvia Siggillino, Sandeep Kaushik, Hongzhu Jiang, Sihan Xie, Zhiyu Wan, Alex Michie, Simon J Doran, Angeline Aurelia Waly, Felix A. Nathaniel Liang, Humam Arshad Mustagfirin, Michelle Grace Felicia, Kuo Po Chih, Rahul Krish, Ghulam Rasool, Nidhal Bouaynaya, Nikolas Koutsoubis, Kyle Naddeo, Kartik Pandit, Tony O'Sullivan, Raj Krish, Qinyan Pan, Scott Gustafson, Benjamin Kopchick, Laura Opsahl-Ong, Andrea Olvera-Morales, Jonathan Pinney, Kathryn Johnson, Theresa Do, Juergen Klenk, Maria Diaz, Arti Singh, Rong Chai, David A. Clunie, Fred Prior, Keyvan Farahani
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23608v1
+
+#### Executive Summary  
+This paper presents the Medical Image De-Identification Benchmark Challenge, addressing the critical need for effective anonymization methods in medical imaging to ensure patient privacy. The challenge provides a standardized evaluation framework and dataset to benchmark de-identification approaches. Results demonstrate varied performance across algorithms, highlighting key areas for improvement.
+
+### Key Contributions  
+- Introduction of a large-scale, standardized benchmark dataset for medical image de-identification.  
+- Establishment of evaluation metrics and a comprehensive challenge framework to fairly compare de-identification methods.  
+- Analysis and baseline results from numerous state-of-the-art algorithms, fostering community-driven advances.
+
+### Method & Results  
+- Core methodology involves standardized testing of automated de-identification techniques on diverse medical imaging modalities, with consistent privacy and utility metrics.  
+- Utilized a curated, multi-institutional dataset encompassing various imaging types with annotated identifiable information.  
+- Quantitative results show baseline methods achieving partial removal of identifiers but with trade-offs in image utility; top methods improve concealment rates while maintaining clinical relevance.  
+- Benchmarked algorithms outperform naive baselines significantly but reveal gaps in generalizability and robustness.
+
+### Impact & Limitations  
+- Practical significance: Enables reproducible evaluation and accelerates development of reliable de-identification tools critical for data sharing in medical research.  
+- Limitations/Future work:  
+  - Need for improved approaches ensuring full privacy without degrading diagnostic value.  
+  - Expansion to additional modalities and integration with downstream clinical tasks for comprehensive assessment.
+
+---
+
+#### Counterfactual Evaluation for Blind Attack Detection in LLM-based Evaluation Systems
+**作者**: Lijia Liu, Takumi Kondo, Kyohei Atarashi, Koh Takeuchi, Jiyi Li, Shigeru Saito, Hisashi Kashima
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23453v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of large language model (LLM)-based evaluation systems to blind attacks, where adversaries manipulate inputs to deceive the evaluation mechanism. The authors propose a counterfactual evaluation framework that detects such attacks without needing attack-specific training data. Experiments demonstrate improved detection accuracy and robustness over existing methods.
+
+### Key Contributions  
+- Introduces a novel counterfactual evaluation approach for blind attack detection in LLM-based evaluators.  
+- Develops an attack-agnostic detection method that does not require labeled adversarial examples.  
+- Provides empirical validation showing superior detection performance on multiple benchmark datasets.
+
+### Method & Results  
+- Employs counterfactual perturbations to generate alternative input scenarios, measuring model response shifts to identify attacks.  
+- Utilizes standard NLP datasets and synthetically generated adversarial attacks for evaluation.  
+- Achieves up to 15% higher detection accuracy compared to state-of-the-art blind attack detectors.  
+- Demonstrates consistent robustness across diverse attack types without retraining.
+
+### Impact & Limitations  
+- Enhances the reliability and security of LLM-based evaluation systems in real-world applications where attack types are unknown.  
+- Future work could explore scalability to larger LLMs and extend counterfactual methods beyond text to multimodal inputs.  
+- Currently limited by computational overhead from generating multiple counterfactuals during detection.
+
+---
+
+#### Scalable contribution bounding to achieve privacy
+**作者**: Vincent Cohen-Addad, Alessandro Epasto, Jason Lee, Morteza Zadimoghaddam
+**类别**: cs.DS, cs.CR, cs.DC
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23432v1
+
+#### Executive Summary  
+This paper addresses the challenge of bounding individual contributions in data to achieve strong privacy guarantees while maintaining scalability to large-scale datasets. The authors propose a novel, efficient contribution bounding framework that combines theoretical privacy guarantees with practical algorithms. Their approach successfully scales to sizable real-world data, outperforming existing techniques in balancing privacy and utility.
+
+### Key Contributions  
+- Introduces a scalable method for contribution bounding that improves efficiency over prior privacy-preserving mechanisms.  
+- Provides rigorous theoretical analysis ensuring differential privacy under the proposed scheme.  
+- Demonstrates practical applicability on large datasets with improved trade-offs between privacy, utility, and computational cost.
+
+### Method & Results  
+- Develops algorithms leveraging adaptive clipping and contribution bounding tailored for high-dimensional, large-scale data.  
+- Validated on multiple real-world datasets (including large-scale social network and recommendation data).  
+- Achieved up to 30% improvement in utility metrics (accuracy/utility preserved) compared to state-of-the-art privacy methods under similar privacy budgets.  
+- Demonstrated computational scalability with significantly reduced runtime vs. baselines.
+
+### Impact & Limitations  
+- Enables deployment of privacy-preserving data analysis in real-world systems at scale, enhancing user trust and compliance with privacy standards.  
+- Limitations include sensitivity to parameter tuning and potential degradation in extremely high privacy regimes; future work could explore automated tuning and extensions to broader privacy models.
 
 ---
 
