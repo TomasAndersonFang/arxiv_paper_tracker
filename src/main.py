@@ -35,9 +35,24 @@ EMAIL_TO = [email.strip() for email in os.getenv("EMAIL_TO", "").split(",") if e
 
 PAPERS_DIR = Path("./papers")
 CONCLUSION_FILE = Path("./conclusion.md")
-CATEGORIES = ["cs.SE"]
-MAX_PAPERS_SEARCH = 30  # 每次搜索的论文数量
-MAX_PAPERS_ANALYZE = 5  # 每次分析的论文数量
+# 配置不同领域的类别
+CATEGORY_CONFIGS = {
+    "软件工程": {
+        "categories": ["cs.SE"],
+        "max_search": 30,
+        "max_analyze": 5
+    },
+    "安全领域": {
+        "categories": ["cs.CR", "cs.CY"],  # cs.CR: Cryptography and Security, cs.CY: Computers and Society
+        "max_search": 30,
+        "max_analyze": 5
+    }
+}
+
+# 保持向后兼容的全局配置（从第一个配置中取值）
+CATEGORIES = CATEGORY_CONFIGS["软件工程"]["categories"]  
+MAX_PAPERS_SEARCH = 30  # 每个领域搜索的论文数量
+MAX_PAPERS_ANALYZE = 5  # 每个领域分析的论文数量
 
 # 配置OpenAI API
 openai.api_key = OPENAI_API_KEY
@@ -302,6 +317,68 @@ def format_email_content(papers_analyses):
     
     return content
 
+def write_to_conclusion_with_domains(papers_analyses):
+    """将分析结果按领域写入conclusion.md"""
+    today = datetime.datetime.now().strftime('%Y-%m-%d')
+    
+    # 按领域组织论文
+    domain_papers = {}
+    for paper, analysis, domain in papers_analyses:
+        if domain not in domain_papers:
+            domain_papers[domain] = []
+        domain_papers[domain].append((paper, analysis))
+    
+    # 创建或追加到结果文件
+    with open(CONCLUSION_FILE, 'a', encoding='utf-8') as f:
+        f.write(f"\n\n## ArXiv论文 - 最近7天 (截至 {today})\n\n")
+        
+        for domain, papers in domain_papers.items():
+            f.write(f"### {domain} 领域\n\n")
+            
+            for paper, analysis in papers:
+                # 从Author对象中提取作者名
+                author_names = [author.name for author in paper.authors]
+                
+                f.write(f"#### {paper.title}\n")
+                f.write(f"**作者**: {', '.join(author_names)}\n")
+                f.write(f"**类别**: {', '.join(paper.categories)}\n")
+                f.write(f"**发布日期**: {paper.published.strftime('%Y-%m-%d')}\n")
+                f.write(f"**链接**: {paper.entry_id}\n\n")
+                f.write(f"{analysis}\n\n")
+                f.write("---\n\n")
+    
+    logger.info(f"分析结果已写入 {CONCLUSION_FILE}")
+
+def format_email_content_with_domains(papers_analyses):
+    """按领域格式化邮件内容"""
+    today = datetime.datetime.now().strftime('%Y-%m-%d')
+    
+    content = f"# ArXiv Paper Analysis Report ({today})\n\n"
+    
+    # 按领域组织论文
+    domain_papers = {}
+    for paper, analysis, domain in papers_analyses:
+        if domain not in domain_papers:
+            domain_papers[domain] = []
+        domain_papers[domain].append((paper, analysis))
+    
+    for domain, papers in domain_papers.items():
+        content += f"## {domain} 领域\n\n"
+        
+        for paper, analysis in papers:
+            # 从Author对象中提取作者名
+            author_names = [author.name for author in paper.authors]
+            
+            content += f"### {paper.title}\n\n"
+            content += f"**Authors**: {', '.join(author_names)}\n"
+            content += f"**Categories**: {', '.join(paper.categories)}\n"
+            content += f"**Published**: {paper.published.strftime('%Y-%m-%d')}\n"
+            content += f"**ArXiv Link**: {paper.entry_id}\n\n"
+            content += f"{analysis}\n\n"
+            content += "---\n\n"
+    
+    return content
+
 def delete_pdf(pdf_path):
     """删除PDF文件"""
     try:
@@ -486,97 +563,239 @@ def main():
     # 获取已分析过的论文ID列表
     analyzed_papers = get_analyzed_papers()
     
-    # 获取最近7天的论文
-    papers = get_recent_papers(CATEGORIES, MAX_PAPERS_SEARCH)
-    logger.info(f"从最近7天找到{len(papers)}篇论文")
-    logger.info(f"搜索配置: 搜索{MAX_PAPERS_SEARCH}篇，每次分析{MAX_PAPERS_ANALYZE}篇")
+    all_papers_analyses = []  # 存储所有领域的分析结果
     
-    if not papers:
-        logger.info("所选时间段没有找到论文。退出。")
-        return
-    
-    # 过滤出未分析过的论文，按发布时间排序（最新的在前）
-    new_papers = []
-    for paper in papers:
-        paper_id = paper.get_short_id()
+    # 分别处理每个领域
+    for domain_name, config in CATEGORY_CONFIGS.items():
+        logger.info(f"\n=== 开始处理 {domain_name} 领域 ===")
+        categories = config["categories"]
+        max_search = config["max_search"] 
+        max_analyze = config["max_analyze"]
         
-        # 检查多种格式的匹配
-        import re
-        paper_id_no_version = re.sub(r'v\d+$', '', paper_id)  # 移除版本号
+        logger.info(f"类别: {', '.join(categories)}")
+        logger.info(f"搜索配置: 搜索{max_search}篇，分析{max_analyze}篇")
         
-        # 检查是否已分析过（检查原始ID、无版本号ID）
-        is_analyzed = (paper_id in analyzed_papers or 
-                      paper_id_no_version in analyzed_papers)
+        # 获取该领域最近7天的论文
+        papers = get_recent_papers(categories, max_search)
+        logger.info(f"{domain_name}领域从最近7天找到{len(papers)}篇论文")
         
-        if not is_analyzed:
-            new_papers.append(paper)
-            logger.info(f"新论文待分析: {paper.title} ({paper_id})")
-        else:
-            logger.info(f"论文已分析过，跳过: {paper.title} ({paper_id})")
-    
-    # 按发布时间排序新论文（最新的在前）
-    new_papers.sort(key=lambda p: p.published, reverse=True)
-    
-    logger.info(f"发现{len(new_papers)}篇新论文")
-    
-    # 只分析指定数量的论文
-    papers_to_analyze = new_papers[:MAX_PAPERS_ANALYZE]
-    logger.info(f"本次将分析{len(papers_to_analyze)}篇论文")
-    
-    if len(new_papers) > MAX_PAPERS_ANALYZE:
-        logger.info(f"还有{len(new_papers) - MAX_PAPERS_ANALYZE}篇论文待下次分析")
-    
-    if not papers_to_analyze:
-        logger.info("没有新论文需要分析。退出。")
-        return
-    
-    # 处理每篇新论文
-    papers_analyses = []
-    for i, paper in enumerate(papers_to_analyze, 1):
-        logger.info(f"正在处理论文 {i}/{len(papers_to_analyze)}: {paper.title}")
-        # 下载论文
-        pdf_path = download_paper(paper, PAPERS_DIR)
-        if pdf_path:
-            # 休眠以避免达到API速率限制
-            time.sleep(2)
+        if not papers:
+            logger.info(f"{domain_name}领域在所选时间段没有找到论文，跳过该领域")
+            continue
+        
+        # 过滤出未分析过的论文，按发布时间排序（最新的在前）
+        new_papers = []
+        for paper in papers:
+            paper_id = paper.get_short_id()
             
-            # 分析论文
-            analysis = analyze_paper_with_chatgpt(pdf_path, paper)
-            papers_analyses.append((paper, analysis))
+            # 检查多种格式的匹配
+            import re
+            paper_id_no_version = re.sub(r'v\d+$', '', paper_id)  # 移除版本号
             
-            # 分析完成后删除PDF文件
-            delete_pdf(pdf_path)
-    
-    # 将分析结果写入conclusion.md（包含所有历史记录）
-    if papers_analyses:
-        write_to_conclusion(papers_analyses)
+            # 检查是否已分析过（检查原始ID、无版本号ID）
+            is_analyzed = (paper_id in analyzed_papers or 
+                          paper_id_no_version in analyzed_papers)
+            
+            if not is_analyzed:
+                new_papers.append(paper)
+                logger.info(f"{domain_name}新论文待分析: {paper.title} ({paper_id})")
+            else:
+                logger.info(f"{domain_name}论文已分析过，跳过: {paper.title} ({paper_id})")
         
-        # 发送邮件（只包含当天分析的论文）
-        email_content = format_email_content(papers_analyses)
+        # 按发布时间排序新论文（最新的在前）
+        new_papers.sort(key=lambda p: p.published, reverse=True)
+        
+        logger.info(f"{domain_name}领域发现{len(new_papers)}篇新论文")
+        
+        # 只分析指定数量的论文
+        papers_to_analyze = new_papers[:max_analyze]
+        logger.info(f"{domain_name}领域本次将分析{len(papers_to_analyze)}篇论文")
+        
+        if len(new_papers) > max_analyze:
+            logger.info(f"{domain_name}领域还有{len(new_papers) - max_analyze}篇论文待下次分析")
+        
+        if not papers_to_analyze:
+            logger.info(f"{domain_name}领域没有新论文需要分析")
+            continue
+        
+        # 处理该领域的每篇新论文
+        domain_analyses = []
+        for i, paper in enumerate(papers_to_analyze, 1):
+            logger.info(f"正在处理{domain_name}论文 {i}/{len(papers_to_analyze)}: {paper.title}")
+            # 下载论文
+            pdf_path = download_paper(paper, PAPERS_DIR)
+            if pdf_path:
+                # 休眠以避免达到API速率限制
+                time.sleep(2)
+                
+                # 分析论文
+                analysis = analyze_paper_with_chatgpt(pdf_path, paper)
+                domain_analyses.append((paper, analysis, domain_name))  # 添加领域标识
+                
+                # 分析完成后删除PDF文件
+                delete_pdf(pdf_path)
+        
+        all_papers_analyses.extend(domain_analyses)
+        
+        # 显示该领域待分析论文队列状态
+        remaining_papers = new_papers[max_analyze:]
+        if remaining_papers:
+            logger.info(f"{domain_name}领域待分析论文队列 ({len(remaining_papers)}篇):")
+            for i, paper in enumerate(remaining_papers[:3], 1):  # 只显示前3篇
+                logger.info(f"  {i}. {paper.title} ({paper.get_short_id()})")
+            if len(remaining_papers) > 3:
+                logger.info(f"  ...还有{len(remaining_papers) - 3}篇")
+        
+        logger.info(f"=== {domain_name} 领域处理完成 ===\n")
+    
+    # 将所有领域的分析结果写入conclusion.md
+    if all_papers_analyses:
+        write_to_conclusion_with_domains(all_papers_analyses)
+        
+        # 发送邮件（包含所有领域当天分析的论文）
+        email_content = format_email_content_with_domains(all_papers_analyses)
         send_email(email_content)
         
         logger.info("ArXiv论文追踪和分析完成")
         logger.info(f"结果已保存至 {CONCLUSION_FILE.absolute()}")
-        
-        # 显示待分析论文队列状态
-        remaining_papers = new_papers[MAX_PAPERS_ANALYZE:]
-        if remaining_papers:
-            logger.info(f"待分析论文队列 ({len(remaining_papers)}篇):")
-            for i, paper in enumerate(remaining_papers[:5], 1):  # 只显示前5篇
-                logger.info(f"  {i}. {paper.title} ({paper.get_short_id()})")
-            if len(remaining_papers) > 5:
-                logger.info(f"  ...还有{len(remaining_papers) - 5}篇")
                 
         # 运行总结
-        logger.info("=== 运行总结 ===")
-        logger.info(f"本次搜索: {len(papers)}篇论文")
-        logger.info(f"已分析总数: {len(analyzed_papers)}篇")
-        logger.info(f"发现新论文: {len(new_papers)}篇")
-        logger.info(f"本次分析: {len(papers_analyses)}篇")
-        logger.info(f"队列待分析: {len(new_papers) - len(papers_analyses)}篇")
-        logger.info("===============")
+        logger.info("=== 总体运行总结 ===")
+        total_analyzed = len(all_papers_analyses)
+        logger.info(f"本次总共分析: {total_analyzed}篇论文")
+        
+        # 按领域统计
+        domain_stats = {}
+        for _, _, domain in all_papers_analyses:
+            domain_stats[domain] = domain_stats.get(domain, 0) + 1
+        
+        for domain, count in domain_stats.items():
+            logger.info(f"  {domain}: {count}篇")
+            
+        logger.info(f"已分析历史总数: {len(analyzed_papers)}篇")
+        logger.info("====================")
     else:
         logger.info("没有成功分析的论文。")
 
+def test_configuration_and_functions():
+    """测试函数 - 验证配置和核心功能"""
+    print("=== 开始测试 ArXiv 论文追踪系统 ===\n")
+    
+    # 1. 测试配置
+    print("1. 测试配置:")
+    print(f"   领域数量: {len(CATEGORY_CONFIGS)}")
+    for domain_name, config in CATEGORY_CONFIGS.items():
+        print(f"   {domain_name}:")
+        print(f"     类别: {config['categories']}")
+        print(f"     搜索数量: {config['max_search']}")
+        print(f"     分析数量: {config['max_analyze']}")
+    
+    # 2. 测试向后兼容性
+    print(f"\n2. 向后兼容性:")
+    print(f"   CATEGORIES: {CATEGORIES}")
+    print(f"   MAX_PAPERS_SEARCH: {MAX_PAPERS_SEARCH}")
+    print(f"   MAX_PAPERS_ANALYZE: {MAX_PAPERS_ANALYZE}")
+    
+    # 3. 测试模拟论文数据结构
+    print(f"\n3. 测试数据结构:")
+    
+    # 创建模拟的论文对象
+    class MockAuthor:
+        def __init__(self, name):
+            self.name = name
+    
+    class MockPaper:
+        def __init__(self, title, authors, categories, published, entry_id, short_id):
+            self.title = title
+            self.authors = [MockAuthor(author) for author in authors]
+            self.categories = categories
+            self.published = published
+            self.entry_id = entry_id
+            self._short_id = short_id
+        
+        def get_short_id(self):
+            return self._short_id
+    
+    # 创建测试数据
+    test_papers_data = [
+        ("Software Engineering Paper 1", ["Alice Smith", "Bob Johnson"], ["cs.SE"], 
+         datetime.datetime.now() - datetime.timedelta(days=1), 
+         "https://arxiv.org/abs/2024.01001", "2024.01001"),
+        ("Security Paper 1", ["Charlie Brown", "Diana Prince"], ["cs.CR"], 
+         datetime.datetime.now() - datetime.timedelta(days=2), 
+         "https://arxiv.org/abs/2024.01002", "2024.01002"),
+        ("Cybersecurity Paper 1", ["Eve Wilson"], ["cs.CY"], 
+         datetime.datetime.now() - datetime.timedelta(days=3), 
+         "https://arxiv.org/abs/2024.01003", "2024.01003"),
+    ]
+    
+    mock_papers = []
+    for title, authors, categories, published, entry_id, short_id in test_papers_data:
+        mock_papers.append(MockPaper(title, authors, categories, published, entry_id, short_id))
+    
+    # 创建模拟分析结果
+    test_analyses = [
+        (mock_papers[0], "### Executive Summary\nThis is a test analysis for software engineering paper.\n\n### Key Contributions\n- Test contribution 1\n- Test contribution 2", "软件工程"),
+        (mock_papers[1], "### Executive Summary\nThis is a test analysis for security paper.\n\n### Key Contributions\n- Security contribution 1\n- Security contribution 2", "安全领域"),
+        (mock_papers[2], "### Executive Summary\nThis is a test analysis for cybersecurity paper.\n\n### Key Contributions\n- Cyber contribution 1\n- Cyber contribution 2", "安全领域"),
+    ]
+    
+    print(f"   创建了 {len(mock_papers)} 个模拟论文对象")
+    print(f"   创建了 {len(test_analyses)} 个模拟分析结果")
+    
+    # 4. 测试邮件内容格式化
+    print(f"\n4. 测试邮件内容格式化:")
+    try:
+        email_content = format_email_content_with_domains(test_analyses)
+        print("   ✓ 邮件格式化成功")
+        print(f"   邮件内容长度: {len(email_content)} 字符")
+        
+        # 检查是否包含预期的领域标题
+        if "软件工程 领域" in email_content and "安全领域 领域" in email_content:
+            print("   ✓ 领域分类正确")
+        else:
+            print("   ✗ 领域分类有问题")
+            
+    except Exception as e:
+        print(f"   ✗ 邮件格式化失败: {e}")
+    
+    # 5. 测试按领域统计
+    print(f"\n5. 测试按领域统计:")
+    domain_stats = {}
+    for _, _, domain in test_analyses:
+        domain_stats[domain] = domain_stats.get(domain, 0) + 1
+    
+    print("   领域统计结果:")
+    for domain, count in domain_stats.items():
+        print(f"     {domain}: {count}篇")
+    
+    # 6. 测试已分析论文检查逻辑
+    print(f"\n6. 测试论文ID处理:")
+    test_paper_ids = ["2024.01001", "2024.01002v1", "2024.01003"]
+    analyzed_papers = {"2024.01001", "2024.01002"}  # 模拟已分析的论文
+    
+    import re
+    for paper_id in test_paper_ids:
+        paper_id_no_version = re.sub(r'v\d+$', '', paper_id)
+        is_analyzed = (paper_id in analyzed_papers or paper_id_no_version in analyzed_papers)
+        status = "已分析" if is_analyzed else "待分析"
+        print(f"   论文 {paper_id} -> {paper_id_no_version}: {status}")
+    
+    # 7. 测试环境变量检查
+    print(f"\n7. 测试环境变量:")
+    required_vars = ["OPENAI_API_KEY", "SMTP_SERVER", "SMTP_USERNAME", "SMTP_PASSWORD", "EMAIL_FROM", "EMAIL_TO"]
+    for var in required_vars:
+        value = os.getenv(var)
+        status = "✓ 已设置" if value else "✗ 未设置"
+        print(f"   {var}: {status}")
+    
+    print(f"\n=== 测试完成 ===")
+    print("如果所有测试都通过，说明配置正确，可以运行主程序。")
+    print("注意：实际运行时需要确保环境变量已正确配置。")
+
 if __name__ == "__main__":
-    main()
+    # 检查命令行参数
+    if len(sys.argv) > 1 and sys.argv[1] == "--test":
+        test_configuration_and_functions()
+    else:
+        main()
