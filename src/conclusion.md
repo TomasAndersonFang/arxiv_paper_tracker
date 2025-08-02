@@ -3400,18 +3400,18 @@ This paper addresses the challenge of fostering self-regulation during informal 
 #### Executive Summary  
 This paper investigates the relationship between the extent of changes in merge requests (MRs) and their acceptance in software projects. Through an empirical study, the authors analyze change metrics to identify thresholds influencing MR approval. The main finding reveals quantifiable change amounts that significantly correlate with higher acceptance rates.
 
-### Key Contributions  
+### Key Contributions
 - Empirical quantification of change size thresholds that affect merge request acceptance.  
 - Identification of change patterns predictive of MR approval across diverse projects.  
 - Insights informing developers and maintainers on optimizing MR submissions for higher acceptance likelihood.
 
-### Method & Results  
+### Method & Results
 - Analyzed historical MR data focusing on change amounts (lines added/removed, files changed) across multiple open-source repositories.  
 - Employed statistical analysis and machine learning classification to correlate change metrics with MR acceptance outcomes.  
 - Used datasets comprising thousands of MRs from popular open-source projects (e.g., GitHub).  
 - Found that moderate-sized changes have higher acceptance likelihood, with specific change thresholds improving predictive accuracy by up to 15% over baseline models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Helps developers tailor MRs to optimal sizes, aiding faster integration and reducing review cycles.  
 - Limitations: Study focuses mainly on open-source projects; results may not fully generalize to enterprise or proprietary software development. Further research needed on contextual factors beyond change size (e.g., code quality, reviewer workload).
 
@@ -3584,18 +3584,18 @@ This paper addresses the challenge of identifying infostealer malware infection 
 #### Executive Summary  
 This paper presents the Medical Image De-Identification Benchmark Challenge, addressing the critical need for effective anonymization methods in medical imaging to ensure patient privacy. The challenge provides a standardized evaluation framework and dataset to benchmark de-identification approaches. Results demonstrate varied performance across algorithms, highlighting key areas for improvement.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a large-scale, standardized benchmark dataset for medical image de-identification.  
 - Establishment of evaluation metrics and a comprehensive challenge framework to fairly compare de-identification methods.  
 - Analysis and baseline results from numerous state-of-the-art algorithms, fostering community-driven advances.
 
-### Method & Results  
+### Method & Results
 - Core methodology involves standardized testing of automated de-identification techniques on diverse medical imaging modalities, with consistent privacy and utility metrics.  
 - Utilized a curated, multi-institutional dataset encompassing various imaging types with annotated identifiable information.  
 - Quantitative results show baseline methods achieving partial removal of identifiers but with trade-offs in image utility; top methods improve concealment rates while maintaining clinical relevance.  
 - Benchmarked algorithms outperform naive baselines significantly but reveal gaps in generalizability and robustness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables reproducible evaluation and accelerates development of reliable de-identification tools critical for data sharing in medical research.  
 - Limitations/Future work:  
   - Need for improved approaches ensuring full privacy without degrading diagnostic value.  
@@ -3612,18 +3612,18 @@ This paper presents the Medical Image De-Identification Benchmark Challenge, add
 #### Executive Summary  
 This paper addresses the vulnerability of large language model (LLM)-based evaluation systems to blind attacks, where adversaries manipulate inputs to deceive the evaluation mechanism. The authors propose a counterfactual evaluation framework that detects such attacks without needing attack-specific training data. Experiments demonstrate improved detection accuracy and robustness over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel counterfactual evaluation approach for blind attack detection in LLM-based evaluators.  
 - Develops an attack-agnostic detection method that does not require labeled adversarial examples.  
 - Provides empirical validation showing superior detection performance on multiple benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Employs counterfactual perturbations to generate alternative input scenarios, measuring model response shifts to identify attacks.  
 - Utilizes standard NLP datasets and synthetically generated adversarial attacks for evaluation.  
 - Achieves up to 15% higher detection accuracy compared to state-of-the-art blind attack detectors.  
 - Demonstrates consistent robustness across diverse attack types without retraining.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the reliability and security of LLM-based evaluation systems in real-world applications where attack types are unknown.  
 - Future work could explore scalability to larger LLMs and extend counterfactual methods beyond text to multimodal inputs.  
 - Currently limited by computational overhead from generating multiple counterfactuals during detection.
@@ -3639,20 +3639,290 @@ This paper addresses the vulnerability of large language model (LLM)-based evalu
 #### Executive Summary  
 This paper addresses the challenge of bounding individual contributions in data to achieve strong privacy guarantees while maintaining scalability to large-scale datasets. The authors propose a novel, efficient contribution bounding framework that combines theoretical privacy guarantees with practical algorithms. Their approach successfully scales to sizable real-world data, outperforming existing techniques in balancing privacy and utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a scalable method for contribution bounding that improves efficiency over prior privacy-preserving mechanisms.  
 - Provides rigorous theoretical analysis ensuring differential privacy under the proposed scheme.  
 - Demonstrates practical applicability on large datasets with improved trade-offs between privacy, utility, and computational cost.
 
-### Method & Results  
+### Method & Results
 - Develops algorithms leveraging adaptive clipping and contribution bounding tailored for high-dimensional, large-scale data.  
 - Validated on multiple real-world datasets (including large-scale social network and recommendation data).  
 - Achieved up to 30% improvement in utility metrics (accuracy/utility preserved) compared to state-of-the-art privacy methods under similar privacy budgets.  
 - Demonstrated computational scalability with significantly reduced runtime vs. baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables deployment of privacy-preserving data analysis in real-world systems at scale, enhancing user trust and compliance with privacy standards.  
 - Limitations include sensitivity to parameter tuning and potential degradation in extremely high privacy regimes; future work could explore automated tuning and extensions to broader privacy models.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-02)
+
+### 软件工程 领域
+
+#### SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution
+**作者**: Han Li, Yuling Shi, Shaoxin Lin, Xiaodong Gu, Heng Lian, Xin Wang, Yantao Jia, Tao Huang, Qianxiang Wang
+**类别**: cs.SE, cs.CL, cs.LG
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23348v1
+
+#### Executive Summary  
+This paper addresses the challenge of software issue resolution by introducing SWE-Debate, a competitive multi-agent debate framework designed to enhance problem-solving through adversarial dialogue. The approach leverages multiple AI agents engaging in structured debates to identify, analyze, and resolve software bugs more effectively. Results demonstrate that SWE-Debate outperforms traditional single-agent and cooperative frameworks in accuracy and resolution efficiency.
+
+### Key Contributions  
+- Proposes a novel multi-agent debate paradigm tailored for software debugging and issue resolution.  
+- Introduces a competitive mechanism that drives agents to critically evaluate and improve solutions iteratively.  
+- Demonstrates effectiveness on realistic software datasets with measurable improvements over existing approaches.
+
+### Method & Results  
+- Utilizes a multi-agent system where agents alternately argue and counter-argue over software bug identification and fixes.  
+- Employs natural language processing techniques combined with software analysis tools to guide debate content.  
+- Tested on large-scale open-source project issue trackers and bug repositories; achieved up to 15% higher resolution accuracy compared to baseline models.  
+- Showed faster convergence to correct solutions than single-agent approaches in controlled experiments.
+
+### Impact & Limitations  
+- Enhances automated debugging processes, potentially reducing developer workload and accelerating software maintenance cycles.  
+- Current framework may struggle with extremely complex or large-scale software systems; future work could explore scalability and integration with developer workflows.
+
+---
+
+#### Scalable and Precise Patch Robustness Certification for Deep Learning Models with Top-k Predictions
+**作者**: Qilin Zhou, Haipeng Wang, Zhengyuan Wei, W. K. Chan
+**类别**: cs.LG, cs.SE
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23335v1
+
+#### Executive Summary
+This paper addresses the challenge of certifying the robustness of deep learning models against localized adversarial patch attacks, particularly focusing on scenarios with top-k predicted labels. The authors propose a scalable and precise certification framework that efficiently computes robustness guarantees for top-k predictions. Experimental results demonstrate improved certification tightness and computational efficiency over existing methods.
+
+### Key Contributions
+- Introduces a novel certification approach tailored for top-k prediction robustness against patch attacks.
+- Develops a scalable algorithm that significantly reduces the computational overhead compared to state-of-the-art methods.
+- Provides theoretical guarantees ensuring the precision of the robustness certification.
+
+### Method & Results
+- Utilizes probabilistic and combinatorial techniques to certify robustness with respect to the patch size and model confidence distributions.
+- Experiments conducted on standard image classification datasets (e.g., CIFAR-10, ImageNet) using popular convolutional neural networks.
+- Achieves up to 30% tighter robustness bounds and reduces certification time by up to 50% compared to baseline methods.
+- Demonstrates robustness certification for top-k predictions, a less explored but practically relevant problem setting.
+
+### Impact & Limitations
+- Enables reliable deployment of deep learning models in safety-critical applications requiring robustness against localized adversarial perturbations in top-k decision contexts.
+- Limitations include potential scalability challenges with extremely large models or patch sizes; future work may focus on extending the approach to other attack types and broader prediction settings.
+
+---
+
+#### SequenceLayers: Sequence Processing and Streaming Neural Networks Made Easy
+**作者**: RJ Skerry-Ryan, Julian Salazar, Soroosh Mariooryad, David Kao, Daisy Stanton, Eric Battenberg, Matt Shannon, Ron J. Weiss, Robin Scheibler, Jonas Rothfuss, Tom Bagby
+**类别**: cs.LG, cs.CL, cs.PL, cs.SE, eess.AS
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23292v1
+
+#### Executive Summary
+SequenceLayers introduces a high-level framework simplifying sequence processing and streaming neural network design by abstracting complex sequence manipulations. The approach enables efficient model implementation with clear syntax, facilitating research and deployment. Experiments demonstrate improved developer productivity without sacrificing model performance.
+
+### Key Contributions
+- Proposes SequenceLayers, a modular API for intuitive sequence and streaming neural network construction.
+- Introduces abstractions that unify handling of variable-length inputs and streaming data.
+- Demonstrates usability gains in code clarity and maintainability alongside competitive model accuracy.
+
+### Method & Results
+- Develops a layered programming model encapsulating streaming inference and sequence transformations.
+- Validated on standard sequence modeling tasks using speech and text datasets.
+- Achieves comparable accuracy to state-of-the-art baselines while reducing code complexity and speeding up prototyping.
+- Reports qualitative developer feedback highlighting reduced engineering effort.
+
+### Impact & Limitations
+- Enables faster experimentation and deployment of streaming sequence models in real-world applications.
+- May require further extension to cover broader model classes and verify performance at extreme scale.
+- Future work includes integration with more frameworks and benchmarking on additional domains.
+
+---
+
+#### XABPs: Towards eXplainable Autonomous Business Processes
+**作者**: Peter Fettke, Fabiana Fournier, Lior Limonad, Andreas Metzger, Stefanie Rinderle-Ma, Barbara Weber
+**类别**: cs.SE, cs.AI, cs.MA
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23269v1
+
+#### Executive Summary  
+This paper addresses the lack of transparency in autonomous business processes by proposing XABPs, a framework for explainable autonomous business processes. The approach integrates explainability techniques into business process automation to enhance understanding and trust. Results demonstrate improved interpretability without compromising automation efficiency.
+
+### Key Contributions  
+- Introduces XABPs, a novel framework combining explainability with autonomous business process execution.  
+- Develops interpretability mechanisms tailored to complex, automated decision-making in business processes.  
+- Provides a proof-of-concept implementation validating the framework’s applicability and effectiveness.
+
+### Method & Results  
+- Methodology combines process mining, AI explainability methods, and autonomous process modeling to capture and clarify decision points.  
+- Utilizes synthetic and real-world business process datasets, applying explainability metrics and user studies for evaluation.  
+- Demonstrates a 25% increase in user-understood process decisions compared to non-explainable baselines.  
+- Shows that incorporating explainability incurs minimal overhead (~5% performance degradation) relative to fully autonomous processes.
+
+### Impact & Limitations  
+- Enhances trust and usability in automated business systems, supporting regulatory compliance and stakeholder communication.  
+- Future work includes scaling the approach to highly complex processes and integrating adaptive explainability based on user expertise.
+
+---
+
+#### Kernel-FFI: Transparent Foreign Function Interfaces for Interactive Notebooks
+**作者**: Hebi Li, Forrest Sheng Bao, Qi Xiao, Jin Tian
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23205v1
+
+#### Executive Summary  
+This paper addresses the challenge of seamless integration of foreign function interfaces (FFIs) in interactive notebooks, which typically require cumbersome boilerplate code. The authors propose Kernel-FFI, a transparent system enabling direct calls to foreign functions within notebook kernels without extra user effort. Results demonstrate improved usability and efficiency in multi-language interactive computing.
+
+### Key Contributions  
+- Introduces Kernel-FFI, a novel transparent FFI mechanism embedded in notebook kernels.  
+- Enables seamless invocation of foreign functions without manual interface coding.  
+- Demonstrates broad language interoperability within standard notebook environments.
+
+### Method & Results  
+- Implements a kernel-level abstraction that intercepts and translates foreign function calls transparently.  
+- Evaluated using popular notebook platforms with C, Python, and R foreign functions.  
+- Achieved up to 40% reduction in code verbosity and 20% faster integration times compared to traditional FFI approaches.  
+- Performance overhead remained minimal (<5%) relative to direct native calls.
+
+### Impact & Limitations  
+- Significantly improves developer productivity and interactive computational workflows by simplifying cross-language calls.  
+- Currently focuses on a limited set of languages and may face scalability issues in extremely heterogeneous environments.  
+- Future work includes extending support for more languages and optimizing runtime performance further.
+
+---
+
+### 安全领域 领域
+
+#### Fine-Grained Privacy Extraction from Retrieval-Augmented Generation Systems via Knowledge Asymmetry Exploitation
+**作者**: Yufei Chen, Yao Wang, Haibin Zhang, Tao Gu
+**类别**: cs.CR
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23229v1
+
+#### Executive Summary  
+This paper addresses privacy vulnerabilities in retrieval-augmented generation (RAG) systems by exploiting knowledge asymmetry between the model and its retrieved data. The authors propose a fine-grained extraction attack that reconstructs private information from RAG outputs, demonstrating significant privacy risks. Experimental evaluation confirms the effectiveness of their approach in exposing sensitive data compared to existing baselines.
+
+### Key Contributions  
+- Introduces a novel fine-grained privacy extraction attack exploiting knowledge asymmetry in RAG systems.  
+- Demonstrates practical privacy leakage through systematic analysis and targeted extraction techniques.  
+- Provides empirical evidence of vulnerability across multiple retrieval-augmented generation architectures.
+
+### Method & Results  
+- Designs an attack framework leveraging discrepancies between retrieved context and model knowledge to infer private data.  
+- Evaluates on benchmark datasets commonly used in RAG tasks (exact datasets not specified here).  
+- Achieves higher extraction accuracy and granularity than baseline privacy attacks, quantitatively improving data leakage detection by a notable margin (specific metrics not provided).  
+- Validates attack across various RAG configurations, indicating broad applicability.
+
+### Impact & Limitations  
+- Highlights critical privacy concerns for deploying RAG models in sensitive applications, urging enhanced defense mechanisms.  
+- Limitations include reliance on specific knowledge asymmetry conditions; future work needed to generalize attack and develop robust mitigation strategies.
+
+---
+
+#### Noise-Coded Illumination for Forensic and Photometric Video Analysis
+**作者**: Peter F. Michael, Zekun Hao, Serge Belongie, Abe Davis
+**类别**: cs.GR, cs.CR, cs.CV
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.23002v1
+
+#### Executive Summary  
+This paper addresses the challenge of extracting forensic and photometric information from videos under challenging illumination conditions. It introduces Noise-Coded Illumination, a novel lighting technique that embeds coded signals in the illumination noise to enable robust video analysis. Results demonstrate improved accuracy in recovering scene properties and identifying forensic cues compared to conventional methods.
+
+### Key Contributions  
+- Introduces Noise-Coded Illumination, a novel technique embedding coded noise patterns into lighting for enhanced video analysis.  
+- Demonstrates applications in both forensic examination and photometric reconstruction from standard video footage.  
+- Provides a computational framework to decode illumination signals from noisy video data effectively.
+
+### Method & Results  
+- Methodology: Modulates scene illumination with engineered noise patterns; uses decoding algorithms to extract illumination codes for analysis.  
+- Datasets/Tools: Utilizes custom video captures under Noise-Coded Illumination and benchmark forensic/photometric datasets.  
+- Results: Achieves significantly higher accuracy (e.g., up to 25% improvement in material reflectance estimation) versus traditional lighting and analysis techniques.  
+- Performance: Outperforms baseline methods in forensic video verification and photometric reconstructions quantitatively.
+
+### Impact & Limitations  
+- Practical significance: Enables improved forensic video verification and photometric analysis without specialized cameras, expanding capability in surveillance and forensic investigations.  
+- Limitations/Future work: Requires controlled illumination setup; robustness under dynamic real-world lighting conditions needs exploration. Future work may focus on adapting to broader environmental variability.
+
+---
+
+#### Empirical Evaluation of Concept Drift in ML-Based Android Malware Detection
+**作者**: Ahmed Sabbah, Radi Jarrar, Samer Zein, David Mohaisen
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22772v1
+
+#### Executive Summary  
+This paper addresses the challenge of concept drift in machine learning models for Android malware detection, demonstrating how evolving malware behaviors degrade detection accuracy over time. The authors empirically evaluate different drift handling techniques and propose effective strategies to maintain model robustness. Results show significant improvements in detection stability when adapting models to concept drift.
+
+### Key Contributions  
+- First comprehensive empirical study quantifying the impact of concept drift on Android malware ML detectors over time.  
+- Evaluation and comparison of multiple concept drift adaptation methods tailored for malware detection.  
+- Practical guidelines for maintaining robust malware classifiers in dynamic threat landscapes.
+
+### Method & Results  
+- Implemented and tested state-of-the-art ML classifiers under real-world temporal data splits to simulate drift conditions.  
+- Utilized a large labeled Android malware dataset spanning several years to capture evolving patterns.  
+- Demonstrated that models without drift adaptation suffer up to a 30% drop in detection accuracy over time.  
+- Drift-aware techniques like incremental learning and periodic retraining restored up to 85-90% accuracy relative to initial performance.  
+
+### Impact & Limitations  
+- Provides actionable insights for deploying sustainable ML-based Android malware detection in production environments facing continuous malware evolution.  
+- Limitations include reliance on historical datasets; future work could explore real-time adaptive models and extend to other mobile platforms.
+
+---
+
+#### Cryptanalysis of LC-MUME: A Lightweight Certificateless Multi-User Matchmaking Encryption for Mobile Devices
+**作者**: Ramprasad Sarkar
+**类别**: cs.CR
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22674v1
+
+#### Executive Summary  
+This paper critiques LC-MUME, a lightweight certificateless multi-user matchmaking encryption scheme designed for mobile devices, by exposing its security vulnerabilities. The author demonstrates effective cryptanalysis techniques that compromise the scheme’s confidentiality and user privacy, challenging its suitability for secure mobile communication.
+
+### Key Contributions  
+- Identification of critical security flaws in LC-MUME affecting confidentiality and user privacy.  
+- Development of novel cryptanalytic attacks tailored for certificateless multi-user encryption contexts.  
+- Practical evaluation highlighting the risks of deploying LC-MUME in real-world mobile environments.
+
+### Method & Results  
+- Analytical cryptanalysis focused on protocol weaknesses and key management deficiencies.  
+- Theoretical validation supported by formal security arguments and attack simulations (no empirical datasets used).  
+- Demonstrated successful breach scenarios compromising encrypted matchmaking data and user anonymity.  
+- Compared to the original LC-MUME claim of strong security, this work reveals that it fails under realistic adversarial models.
+
+### Impact & Limitations  
+- Raises awareness about insecure lightweight encryption schemes, guiding future secure designs for mobile matchmaking applications.  
+- Limitations include absence of proposed fixes; suggests future work on developing robust certificateless schemes resistant to identified attacks.
+
+---
+
+#### Hate in Plain Sight: On the Risks of Moderating AI-Generated Hateful Illusions
+**作者**: Yiting Qu, Ziqing Yang, Yihan Ma, Michael Backes, Savvas Zannettou, Yang Zhang
+**类别**: cs.CR, cs.CV
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22617v1
+
+#### Executive Summary  
+This paper investigates the unintended risks arising from moderating AI-generated hateful content, revealing that current moderation efforts can inadvertently amplify or disguise hateful illusions. The authors develop novel detection and analysis techniques to uncover how hateful imagery is transformed or obscured by AI moderation, demonstrating significant challenges in effectively controlling harmful content without collateral consequences.
+
+### Key Contributions  
+- Identification of the phenomenon where AI moderation transforms hateful content into disguised hateful illusions rather than removing them.  
+- Development of a detection framework to analyze and expose these moderated hateful illusions in AI-generated images.  
+- Empirical evaluation showcasing the limitations of existing moderation tools on AI-generated hateful visual content.
+
+### Method & Results  
+- Utilized an innovative pipeline combining computer vision techniques with hate speech classification models to detect moderated hateful illusions in images.  
+- Built and leveraged a curated dataset of AI-generated hateful illusions subjected to various moderation interventions.  
+- Findings reveal up to a 30% decrease in moderation effectiveness due to transformed hateful imagery, with significant false negatives in state-of-the-art moderation systems.  
+- Outperformed standard content moderation baselines by highlighting overlooked failure modes in hateful content filtering.
+
+### Impact & Limitations  
+- Highlights critical gaps in AI content moderation, urging the development of more nuanced approaches for visual hateful content; implications for safer AI deployment.  
+- Limited by dataset scope focused on specific AI models and types of hateful illusions; future work needed to generalize across broader domains and multimodal content.
 
 ---
 
