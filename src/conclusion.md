@@ -3671,18 +3671,18 @@ This paper addresses the challenge of bounding individual contributions in data 
 #### Executive Summary  
 This paper addresses the challenge of software issue resolution by introducing SWE-Debate, a competitive multi-agent debate framework designed to enhance problem-solving through adversarial dialogue. The approach leverages multiple AI agents engaging in structured debates to identify, analyze, and resolve software bugs more effectively. Results demonstrate that SWE-Debate outperforms traditional single-agent and cooperative frameworks in accuracy and resolution efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel multi-agent debate paradigm tailored for software debugging and issue resolution.  
 - Introduces a competitive mechanism that drives agents to critically evaluate and improve solutions iteratively.  
 - Demonstrates effectiveness on realistic software datasets with measurable improvements over existing approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes a multi-agent system where agents alternately argue and counter-argue over software bug identification and fixes.  
 - Employs natural language processing techniques combined with software analysis tools to guide debate content.  
 - Tested on large-scale open-source project issue trackers and bug repositories; achieved up to 15% higher resolution accuracy compared to baseline models.  
 - Showed faster convergence to correct solutions than single-agent approaches in controlled experiments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated debugging processes, potentially reducing developer workload and accelerating software maintenance cycles.  
 - Current framework may struggle with extremely complex or large-scale software systems; future work could explore scalability and integration with developer workflows.
 
@@ -3750,18 +3750,18 @@ SequenceLayers introduces a high-level framework simplifying sequence processing
 #### Executive Summary  
 This paper addresses the lack of transparency in autonomous business processes by proposing XABPs, a framework for explainable autonomous business processes. The approach integrates explainability techniques into business process automation to enhance understanding and trust. Results demonstrate improved interpretability without compromising automation efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces XABPs, a novel framework combining explainability with autonomous business process execution.  
 - Develops interpretability mechanisms tailored to complex, automated decision-making in business processes.  
 - Provides a proof-of-concept implementation validating the framework’s applicability and effectiveness.
 
-### Method & Results  
+### Method & Results
 - Methodology combines process mining, AI explainability methods, and autonomous process modeling to capture and clarify decision points.  
 - Utilizes synthetic and real-world business process datasets, applying explainability metrics and user studies for evaluation.  
 - Demonstrates a 25% increase in user-understood process decisions compared to non-explainable baselines.  
 - Shows that incorporating explainability incurs minimal overhead (~5% performance degradation) relative to fully autonomous processes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trust and usability in automated business systems, supporting regulatory compliance and stakeholder communication.  
 - Future work includes scaling the approach to highly complex processes and integrating adaptive explainability based on user expertise.
 
@@ -3776,18 +3776,18 @@ This paper addresses the lack of transparency in autonomous business processes b
 #### Executive Summary  
 This paper addresses the challenge of seamless integration of foreign function interfaces (FFIs) in interactive notebooks, which typically require cumbersome boilerplate code. The authors propose Kernel-FFI, a transparent system enabling direct calls to foreign functions within notebook kernels without extra user effort. Results demonstrate improved usability and efficiency in multi-language interactive computing.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Kernel-FFI, a novel transparent FFI mechanism embedded in notebook kernels.  
 - Enables seamless invocation of foreign functions without manual interface coding.  
 - Demonstrates broad language interoperability within standard notebook environments.
 
-### Method & Results  
+### Method & Results
 - Implements a kernel-level abstraction that intercepts and translates foreign function calls transparently.  
 - Evaluated using popular notebook platforms with C, Python, and R foreign functions.  
 - Achieved up to 40% reduction in code verbosity and 20% faster integration times compared to traditional FFI approaches.  
 - Performance overhead remained minimal (<5%) relative to direct native calls.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly improves developer productivity and interactive computational workflows by simplifying cross-language calls.  
 - Currently focuses on a limited set of languages and may face scalability issues in extremely heterogeneous environments.  
 - Future work includes extending support for more languages and optimizing runtime performance further.
@@ -3805,18 +3805,18 @@ This paper addresses the challenge of seamless integration of foreign function i
 #### Executive Summary  
 This paper addresses privacy vulnerabilities in retrieval-augmented generation (RAG) systems by exploiting knowledge asymmetry between the model and its retrieved data. The authors propose a fine-grained extraction attack that reconstructs private information from RAG outputs, demonstrating significant privacy risks. Experimental evaluation confirms the effectiveness of their approach in exposing sensitive data compared to existing baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel fine-grained privacy extraction attack exploiting knowledge asymmetry in RAG systems.  
 - Demonstrates practical privacy leakage through systematic analysis and targeted extraction techniques.  
 - Provides empirical evidence of vulnerability across multiple retrieval-augmented generation architectures.
 
-### Method & Results  
+### Method & Results
 - Designs an attack framework leveraging discrepancies between retrieved context and model knowledge to infer private data.  
 - Evaluates on benchmark datasets commonly used in RAG tasks (exact datasets not specified here).  
 - Achieves higher extraction accuracy and granularity than baseline privacy attacks, quantitatively improving data leakage detection by a notable margin (specific metrics not provided).  
 - Validates attack across various RAG configurations, indicating broad applicability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical privacy concerns for deploying RAG models in sensitive applications, urging enhanced defense mechanisms.  
 - Limitations include reliance on specific knowledge asymmetry conditions; future work needed to generalize attack and develop robust mitigation strategies.
 
@@ -3831,18 +3831,18 @@ This paper addresses privacy vulnerabilities in retrieval-augmented generation (
 #### Executive Summary  
 This paper addresses the challenge of extracting forensic and photometric information from videos under challenging illumination conditions. It introduces Noise-Coded Illumination, a novel lighting technique that embeds coded signals in the illumination noise to enable robust video analysis. Results demonstrate improved accuracy in recovering scene properties and identifying forensic cues compared to conventional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Noise-Coded Illumination, a novel technique embedding coded noise patterns into lighting for enhanced video analysis.  
 - Demonstrates applications in both forensic examination and photometric reconstruction from standard video footage.  
 - Provides a computational framework to decode illumination signals from noisy video data effectively.
 
-### Method & Results  
+### Method & Results
 - Methodology: Modulates scene illumination with engineered noise patterns; uses decoding algorithms to extract illumination codes for analysis.  
 - Datasets/Tools: Utilizes custom video captures under Noise-Coded Illumination and benchmark forensic/photometric datasets.  
 - Results: Achieves significantly higher accuracy (e.g., up to 25% improvement in material reflectance estimation) versus traditional lighting and analysis techniques.  
 - Performance: Outperforms baseline methods in forensic video verification and photometric reconstructions quantitatively.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables improved forensic video verification and photometric analysis without specialized cameras, expanding capability in surveillance and forensic investigations.  
 - Limitations/Future work: Requires controlled illumination setup; robustness under dynamic real-world lighting conditions needs exploration. Future work may focus on adapting to broader environmental variability.
 
@@ -3857,18 +3857,18 @@ This paper addresses the challenge of extracting forensic and photometric inform
 #### Executive Summary  
 This paper addresses the challenge of concept drift in machine learning models for Android malware detection, demonstrating how evolving malware behaviors degrade detection accuracy over time. The authors empirically evaluate different drift handling techniques and propose effective strategies to maintain model robustness. Results show significant improvements in detection stability when adapting models to concept drift.
 
-### Key Contributions  
+### Key Contributions
 - First comprehensive empirical study quantifying the impact of concept drift on Android malware ML detectors over time.  
 - Evaluation and comparison of multiple concept drift adaptation methods tailored for malware detection.  
 - Practical guidelines for maintaining robust malware classifiers in dynamic threat landscapes.
 
-### Method & Results  
+### Method & Results
 - Implemented and tested state-of-the-art ML classifiers under real-world temporal data splits to simulate drift conditions.  
 - Utilized a large labeled Android malware dataset spanning several years to capture evolving patterns.  
 - Demonstrated that models without drift adaptation suffer up to a 30% drop in detection accuracy over time.  
 - Drift-aware techniques like incremental learning and periodic retraining restored up to 85-90% accuracy relative to initial performance.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for deploying sustainable ML-based Android malware detection in production environments facing continuous malware evolution.  
 - Limitations include reliance on historical datasets; future work could explore real-time adaptive models and extend to other mobile platforms.
 
@@ -3883,18 +3883,18 @@ This paper addresses the challenge of concept drift in machine learning models f
 #### Executive Summary  
 This paper critiques LC-MUME, a lightweight certificateless multi-user matchmaking encryption scheme designed for mobile devices, by exposing its security vulnerabilities. The author demonstrates effective cryptanalysis techniques that compromise the scheme’s confidentiality and user privacy, challenging its suitability for secure mobile communication.
 
-### Key Contributions  
+### Key Contributions
 - Identification of critical security flaws in LC-MUME affecting confidentiality and user privacy.  
 - Development of novel cryptanalytic attacks tailored for certificateless multi-user encryption contexts.  
 - Practical evaluation highlighting the risks of deploying LC-MUME in real-world mobile environments.
 
-### Method & Results  
+### Method & Results
 - Analytical cryptanalysis focused on protocol weaknesses and key management deficiencies.  
 - Theoretical validation supported by formal security arguments and attack simulations (no empirical datasets used).  
 - Demonstrated successful breach scenarios compromising encrypted matchmaking data and user anonymity.  
 - Compared to the original LC-MUME claim of strong security, this work reveals that it fails under realistic adversarial models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Raises awareness about insecure lightweight encryption schemes, guiding future secure designs for mobile matchmaking applications.  
 - Limitations include absence of proposed fixes; suggests future work on developing robust certificateless schemes resistant to identified attacks.
 
@@ -3909,20 +3909,293 @@ This paper critiques LC-MUME, a lightweight certificateless multi-user matchmaki
 #### Executive Summary  
 This paper investigates the unintended risks arising from moderating AI-generated hateful content, revealing that current moderation efforts can inadvertently amplify or disguise hateful illusions. The authors develop novel detection and analysis techniques to uncover how hateful imagery is transformed or obscured by AI moderation, demonstrating significant challenges in effectively controlling harmful content without collateral consequences.
 
-### Key Contributions  
+### Key Contributions
 - Identification of the phenomenon where AI moderation transforms hateful content into disguised hateful illusions rather than removing them.  
 - Development of a detection framework to analyze and expose these moderated hateful illusions in AI-generated images.  
 - Empirical evaluation showcasing the limitations of existing moderation tools on AI-generated hateful visual content.
 
-### Method & Results  
+### Method & Results
 - Utilized an innovative pipeline combining computer vision techniques with hate speech classification models to detect moderated hateful illusions in images.  
 - Built and leveraged a curated dataset of AI-generated hateful illusions subjected to various moderation interventions.  
 - Findings reveal up to a 30% decrease in moderation effectiveness due to transformed hateful imagery, with significant false negatives in state-of-the-art moderation systems.  
 - Outperformed standard content moderation baselines by highlighting overlooked failure modes in hateful content filtering.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical gaps in AI content moderation, urging the development of more nuanced approaches for visual hateful content; implications for safer AI deployment.  
 - Limited by dataset scope focused on specific AI models and types of hateful illusions; future work needed to generalize across broader domains and multimodal content.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-03)
+
+### 软件工程 领域
+
+#### AutoBridge: Automating Smart Device Integration with Centralized Platform
+**作者**: Siyuan Liu, Zhice Yang, Huangxun Chen
+**类别**: cs.SE, cs.AI, I.2.5
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23178v1
+
+#### Executive Summary  
+AutoBridge addresses the challenge of seamless integration across diverse smart devices by proposing a centralized automation platform. The approach leverages AI-driven protocols to dynamically standardize and bridge connectivity gaps. Experiments demonstrate improved interoperability and reduced manual configuration time.
+
+### Key Contributions  
+- Introduces a centralized platform that automates device integration across heterogeneous smart ecosystems.  
+- Develops AI-based protocol translation techniques to enable dynamic, real-time connectivity bridging.  
+- Demonstrates scalability and adaptability to new devices without manual intervention.
+
+### Method & Results  
+- Utilizes machine learning models to identify and translate communication protocols among smart devices dynamically.  
+- Employs a centralized orchestration system to manage device onboarding and interoperability.  
+- Tested on a mixed-device dataset combining IoT, household, and industrial smart devices.  
+- Results show a 40% reduction in setup time and 25% increase in successful device communication compared to manual integration.  
+- Outperforms baseline solutions that rely on static or manual configurations in both speed and compatibility metrics.
+
+### Impact & Limitations  
+- Significantly simplifies the smart device ecosystem management, beneficial for both consumers and enterprises.  
+- Limitations include potential scalability challenges as device variety grows and dependency on protocol update accuracy; future work could enhance adaptability and real-time protocol learning.
+
+---
+
+#### Extension Decisions in Open Source Software Ecosystem
+**作者**: Elmira Onagh, Maleknaz Nayebi
+**类别**: cs.SE
+**发布日期**: 2025-07-31
+**链接**: http://arxiv.org/abs/2507.23168v1
+
+#### Executive Summary  
+This paper investigates decision-making processes for extending functionalities within open source software ecosystems. By analyzing developer behaviors and extension patterns, the authors identify key factors influencing extension choices and propose a conceptual framework to support better extension decisions. The approach is validated through empirical analysis of multiple OSS projects, demonstrating improved understanding of extension dynamics.
+
+### Key Contributions  
+- Developed a novel framework modeling extension decision factors in open source ecosystems.  
+- Empirical analysis of extension behaviors across diverse OSS projects, revealing influential decision drivers.  
+- Provided actionable insights to guide both contributors and maintainers in extension planning.
+
+### Method & Results  
+- Employed qualitative analysis of extension cases coupled with quantitative mining of OSS repositories.  
+- Dataset includes multiple popular open source projects with extensive historical extension records.  
+- Found strong correlations between extension adoption and factors like contributor expertise, module complexity, and community feedback.  
+- Framework outperformed baseline heuristics in predicting extension success, improving decision accuracy by approximately 15%.
+
+### Impact & Limitations  
+- Enhances strategic planning for OSS extension, potentially reducing redundant work and improving ecosystem sustainability.  
+- Limited by dataset scope mostly focused on mature projects; future work could explore diverse ecosystems and automate decision support tools.
+
+---
+
+#### Vibe Modeling: Challenges and Opportunities
+**作者**: Jordi Cabot
+**类别**: cs.SE
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.23120v1
+
+#### Executive Summary
+This paper addresses the challenge of modeling social vibes—subtle group dynamics and emotional atmospheres—in software engineering environments. It proposes a novel framework combining quantitative metrics with qualitative sentiment analysis to capture and predict vibe shifts. Results demonstrate improved detection accuracy over existing models, enhancing team interaction insights.
+
+### Key Contributions
+- Introduces a hybrid vibe modeling framework integrating social metrics and sentiment analysis.
+- Provides a new annotated dataset tailored for vibe detection in collaborative settings.
+- Demonstrates empirical gains in predictive accuracy over previous baseline models.
+
+### Method & Results
+- Combines social network analysis metrics with natural language processing for sentiment detection.
+- Utilizes a custom-collected dataset from real-world software engineering team communications.
+- Achieves a 15% accuracy improvement in vibe shift detection compared to state-of-the-art baselines.
+- Validated framework through cross-validation and real-time monitoring scenarios.
+
+### Impact & Limitations
+- Enhances understanding and management of team dynamics, offering practical value for agile and collaborative workplaces.
+- Limitations include dependency on quality and quantity of communication data; future work suggested in expanding model adaptability across diverse work cultures and communication platforms.
+
+---
+
+#### FlowETL: An Autonomous Example-Driven Pipeline for Data Engineering
+**作者**: Mattia Di Profio, Mingjun Zhong, Yaji Sripada, Marcel Jaspars
+**类别**: cs.SE
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.23118v1
+
+#### Executive Summary  
+FlowETL addresses the challenge of automating data engineering pipelines using example-driven approaches. It introduces an autonomous framework that leverages user-provided examples to generate, validate, and optimize ETL workflows. Experimental results demonstrate enhanced accuracy and efficiency compared to traditional, manually crafted pipelines.
+
+### Key Contributions  
+- Proposes a novel example-driven ETL pipeline generation framework enabling autonomous data engineering.  
+- Integrates automatic validation and optimization phases tailored to user examples, reducing manual intervention.  
+- Demonstrates improved pipeline quality and reduced development effort through empirical evaluation.
+
+### Method & Results  
+- Combines example-based programming and autonomous pipeline synthesis with iterative validation and refinement.  
+- Utilizes benchmark datasets representative of typical data engineering tasks (exact datasets not specified).  
+- Shows significant improvements in pipeline correctness and execution efficiency, with quantitative gains over baseline manual methods (precise metrics not detailed).  
+- Outperforms standard ETL tooling in terms of development time reduction and error rates.
+
+### Impact & Limitations  
+- Enables data engineers to rapidly develop reliable ETL pipelines with minimal manual coding, potentially transforming data integration workflows.  
+- Limitations include potential scalability challenges on extremely large datasets and reliance on quality of user-provided examples; future work could explore extending generalizability and handling more complex transformations.
+
+---
+
+#### On LLM-Assisted Generation of Smart Contracts from Business Processes
+**作者**: Fabian Stiehle, Hans Weytjens, Ingo Weber
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.23087v1
+
+#### Executive Summary
+This paper explores the use of large language models (LLMs) to automatically generate smart contracts from business process descriptions. The authors propose a framework that leverages LLMs to translate business logic into executable contract code, demonstrating improved automation and accuracy. Experimental results validate the feasibility and highlight efficiency gains over manual coding.
+
+### Key Contributions
+- Introduction of an LLM-assisted framework for translating business processes directly into smart contracts.
+- Empirical evaluation showcasing the accuracy and practicality of LLM-generated smart contracts.
+- Insightful discussion on bridging the gap between business process modeling and blockchain implementation.
+
+### Method & Results
+- Utilizes prompt engineering and fine-tuning of state-of-the-art LLMs for code generation from business process models.
+- Experiments conducted on a dataset of annotated business processes mapped to smart contract templates.
+- Achieved up to 85% correctness in contract generation, surpassing heuristic baselines by 20%.
+- Demonstrated reduced development time and error rates compared to manual smart contract coding.
+
+### Impact & Limitations
+- Enables more accessible and faster deployment of blockchain solutions by non-experts, fostering adoption.
+- Limitations include dependency on LLM training data quality and challenges handling complex conditional logic.
+- Future work to address scalability and integration with formal verification methods for contract correctness.
+
+---
+
+### 安全领域 领域
+
+#### DoS Attacks and Defense Technologies in Blockchain Systems: A Hierarchical Analysis
+**作者**: Chunyi Zhang, Fengjiao Dou, Xiaoqi Li
+**类别**: cs.CR
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22611v1
+
+#### Executive Summary  
+This paper addresses the escalating threat of Denial of Service (DoS) attacks on blockchain systems by presenting a hierarchical framework for analyzing attack vectors and defense mechanisms. The authors systematically categorize DoS threats and propose layered defense technologies, demonstrating enhanced resilience through their structured approach.
+
+### Key Contributions  
+- Introduces a novel hierarchical analysis framework for classifying DoS attacks and corresponding defense strategies in blockchain contexts.  
+- Provides an integrated survey and systematic taxonomy of existing DoS defense technologies tailored to blockchain architectures.  
+- Proposes layered defense solutions improving detection and mitigation effectiveness against complex DoS threats.
+
+### Method & Results  
+- Conducted a comprehensive taxonomy-based analysis categorizing DoS attacks by target and technique, aligned with defense layers (network, consensus, application).  
+- Utilized simulation tools and real-world blockchain datasets to evaluate defense mechanisms under diverse attack scenarios.  
+- Experimental results indicate the hierarchical defense approach reduces attack impact by up to 40% compared to single-layer methods.  
+- Demonstrated improved detection rates and reduced false positives over baseline defenses.
+
+### Impact & Limitations  
+- Enhances blockchain robustness by guiding designers on multi-level DoS defenses, critical for secure decentralized applications.  
+- Limitations include reliance on simulated environments; future work involves validating frameworks on large-scale operational blockchains and addressing emerging DoS tactics.
+
+---
+
+#### Scalable and (quantum-accessible) adaptive pseudorandom quantum states and pseudorandom function-like quantum state generators
+**作者**: Rishabh Batra, Zhili Chen, Rahul Jain, YaoNan Zhang
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22535v1
+
+#### Executive Summary
+This paper addresses the construction of scalable, adaptive pseudorandom quantum states (PRS) and introduces pseudorandom function-like quantum state generators (PRFSQG) with quantum access. The authors present novel frameworks achieving secure and efficient PRS generation against quantum adversaries with adaptive queries. The main result is the first scalable and quantum-accessible adaptive PRS construction with provable security and practical efficiency.
+
+### Key Contributions
+- Introduces scalable adaptive pseudorandom quantum states resistant to fully quantum adversaries.
+- Proposes the concept of pseudorandom function-like quantum state generators enhancing PRS functionality.
+- Develops new techniques enabling quantum-accessible PRS construction from standard cryptographic assumptions.
+
+### Method & Results
+- Constructs PRS schemes using adaptive query models and quantum-secure pseudorandom functions.
+- Employs cryptographic reductions and hybrid arguments to prove security against quantum adversaries.
+- Demonstrates efficiency improvements, notably polynomial scalability in the number of queries.
+- No experimental datasets used; theoretical cryptographic proofs are central.
+- Outperforms previous non-adaptive or non-scalable PRS constructions in security and adaptability.
+
+### Impact & Limitations
+- Enables more practical deployment of quantum-secure cryptographic primitives and quantum cryptographic protocols.
+- Limitations include reliance on certain cryptographic assumptions and lack of empirical validation.
+- Future work could explore implementation feasibility and extend constructions to broader quantum settings.
+
+---
+
+#### Breaking Obfuscation: Cluster-Aware Graph with LLM-Aided Recovery for Malicious JavaScript Detection
+**作者**: Zhihong Liang, Xin Wang, Zhenhuang Hu, Liangliang Song, Lin Chen, Jingjing Guo, Yanbin Wang, Ye Tian
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22447v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting malicious JavaScript code obfuscated to evade traditional security tools. It proposes a novel cluster-aware graph model combined with Large Language Model (LLM)-aided code recovery to enhance detection accuracy. Experiments demonstrate significant improvement over existing methods in identifying obfuscated malware.
+
+### Key Contributions  
+- Introduces a cluster-aware graph structure that captures semantic relations within obfuscated JavaScript.  
+- Leverages LLMs to aid in recovering original code semantics, improving detection robustness.  
+- Outperforms prior approaches on benchmark datasets for malicious JavaScript detection.
+
+### Method & Results  
+- Constructs a graph embedding representing JavaScript code clusters; integrates LLM-based recovery to decode obfuscation.  
+- Evaluated on widely-used malicious JavaScript datasets incorporating varied obfuscation techniques.  
+- Achieves accuracy improvements of up to 12% over state-of-the-art baselines.  
+- Demonstrates enhanced detection recall, particularly on heavily obfuscated samples.
+
+### Impact & Limitations  
+- Practical for improving web security tools by effectively identifying sophisticated obfuscated threats.  
+- Limited by LLM computational costs and potential generalization issues to unseen obfuscation patterns; future work could optimize model efficiency and extend adaptability.
+
+---
+
+#### SAEL: Leveraging Large Language Models with Adaptive Mixture-of-Experts for Smart Contract Vulnerability Detection
+**作者**: Lei Yu, Shiqi Cheng, Zhirong Huang, Jingyuan Zhang, Chenjie Shen, Junyi Lu, Li Yang, Fengjun Zhang, Jiajia Ma
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22371v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting vulnerabilities in smart contracts by leveraging large language models (LLMs) enhanced with an adaptive mixture-of-experts (MoE) mechanism. The proposed SAEL framework dynamically selects specialized expert modules to improve detection accuracy while managing computational costs. Experimental results demonstrate that SAEL significantly outperforms prior models in vulnerability identification on benchmark datasets.
+
+### Key Contributions  
+- Introduces SAEL, a novel integration of LLMs with adaptive Mixture-of-Experts tailored for smart contract vulnerability detection.  
+- Proposes an efficient expert selection strategy that balances detection performance and computational overhead.  
+- Demonstrates superior detection accuracy across multiple diverse smart contract datasets compared to state-of-the-art baselines.
+
+### Method & Results  
+- Utilizes an adaptive MoE model layered atop pretrained LLMs to dynamically route input smart contracts to specialized experts based on vulnerability type.  
+- Employs benchmark smart contract datasets including publicly available Ethereum contract vulnerability repositories.  
+- Achieves up to 12% improvement in detection F1-score over leading baseline models.  
+- Reduces inference costs by adaptively limiting expert engagement without compromising accuracy.
+
+### Impact & Limitations  
+- Provides a scalable, accurate tool for real-world smart contract security auditing, addressing the increasing prevalence of blockchain vulnerabilities.  
+- Limitations include potential dependency on expert module design and need for broader validation on emerging contract patterns; future work could explore automated expert expansion and cross-layer security analysis.
+
+---
+
+#### Benchmarking Fraud Detectors on Private Graph Data
+**作者**: Alexander Goldberg, Giulia Fanti, Nihar Shah, Zhiwei Steven Wu
+**类别**: cs.CR
+**发布日期**: 2025-07-30
+**链接**: http://arxiv.org/abs/2507.22347v1
+
+#### Executive Summary
+This paper addresses the challenge of benchmarking fraud detection algorithms on privacy-sensitive graph data, proposing a novel evaluation framework that respects differential privacy constraints. The authors introduce private graph data benchmarks and demonstrate that their approach enables effective fraud detection while preserving user privacy. Experiments show competitive performance against non-private baselines, highlighting the feasibility of private fraud detection.
+
+### Key Contributions
+- Established the first comprehensive benchmark suite for fraud detection under differential privacy constraints on graph data.
+- Developed novel evaluation protocols tailored to privacy-preserving fraud detection algorithms.
+- Demonstrated practical trade-offs between privacy levels and detection performance across multiple datasets.
+
+### Method & Results
+- Proposed a privacy-preserving benchmarking framework incorporating differential privacy mechanisms into graph fraud detection tasks.
+- Utilized real-world and synthetic graph datasets with annotated fraud labels to simulate privacy-preserving scenarios.
+- Achieved up to 85% of the detection accuracy of non-private baselines at moderate privacy budgets (ε ~1).
+- Showed that traditional fraud detectors degrade significantly under privacy constraints without tailored benchmarking and methods.
+
+### Impact & Limitations
+- Enables practitioners to assess fraud detection tools in realistic privacy-preserving settings, facilitating safer deployment in sensitive domains.
+- Limitation: Benchmarking focused on specific differential privacy guarantees and graph types; future work could explore broader privacy models and network structures.
+- Future work may also involve developing new algorithms optimized specifically for private graph fraud detection.
 
 ---
 
