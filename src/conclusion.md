@@ -4214,17 +4214,17 @@ This paper addresses the challenge of benchmarking fraud detection algorithms on
 #### Executive Summary  
 This paper addresses the challenge of effectively assessing competitive programmers for industry job placement by bridging the gap between contest skills and practical software engineering roles. The authors propose a novel evaluative framework that combines coding challenge performance with domain-specific assessments to better predict industry readiness. Their results indicate improved matching accuracy between candidate skills and job requirements compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a hybrid assessment model integrating competitive programming metrics with industry-relevant skill tests.  
 - Empirical validation showing stronger correlation between the framework's scores and job performance indicators.  
 - Development of a predictive placement tool designed to enhance recruitment processes for tech companies.
 
-### Method & Results  
+### Method & Results
 - Methodology involves analyzing competitive programming datasets alongside customized domain tasks to create composite scoring.  
 - Utilized datasets include established competitive programming platforms’ archives and in-house skill evaluation tests.  
 - Results demonstrate a 20% uplift in predictive accuracy for candidate job success over baseline assessments relying solely on contest rankings.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical, scalable solution for tech recruiters to identify candidates better suited to real-world software roles, improving placement outcomes.  
 - Limitations include dependence on the availability of domain-specific tasks and a need for extending validation across diverse industry sectors.
 
@@ -4239,18 +4239,18 @@ This paper addresses the challenge of effectively assessing competitive programm
 #### Executive Summary  
 This paper addresses the challenge of detecting semantic differences in Component and Connector (C&C) software architectures. It proposes a novel dynamic symbolic execution approach to analyze behavioral changes between architecture versions. Experimental results demonstrate improved precision in identifying semantic differences over traditional static methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a dynamic symbolic execution framework tailored for semantic difference analysis in C&C architectures.  
 - Provides a methodology that captures behavioral changes beyond syntactic modifications.  
 - Demonstrates applicability on real-world C&C systems with enhanced detection accuracy.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic symbolic execution to explore program paths and collect semantic constraints representing architectural behavior.  
 - Applies constraint solving to compare semantic properties across architecture versions.  
 - Evaluated on several C&C architectures, achieving up to 30% improvement in detecting meaningful semantic changes versus baseline static analysis.  
 - Employs custom tool integrating symbolic execution engines and C&C modeling frameworks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables architects to precisely identify behavioral inconsistencies during evolution, improving maintenance and integration quality.  
 - Current approach may struggle with scalability on very large architectures; future work includes optimization and support for more complex C&C interaction patterns.
 
@@ -4265,18 +4265,18 @@ This paper addresses the challenge of detecting semantic differences in Componen
 #### Executive Summary  
 This paper addresses the challenge of verifying whether executed processes conform to prescribed reference models. It introduces a tool-assisted approach combining formal methods and automated checking to identify deviations efficiently. The main result is a practical framework that enhances accuracy and reduces manual effort in conformance checking.
 
-### Key Contributions  
+### Key Contributions
 - Development of a novel tool integrating formal conformance checking with scalable automation.  
 - Introduction of methodology that bridges reference models and real-world process logs effectively.  
 - Empirical evaluation demonstrating improved detection of deviations compared to manual techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes formal model representation and automated algorithms for mapping execution logs to reference models.  
 - Implements a software tool that processes event logs and highlights non-conformant executions.  
 - Tested on benchmark datasets of industrial process logs; achieved up to 30% higher precision in deviation detection.  
 - Showed improved efficiency, reducing checking time by approximately 40% compared to existing manual or semi-automated methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to rigorously ensure process compliance with reduced effort, aiding audit and optimization tasks.  
 - Future work includes extending tool support for more complex, dynamic processes and integrating real-time conformance monitoring.
 
@@ -4291,19 +4291,19 @@ This paper addresses the challenge of verifying whether executed processes confo
 #### Executive Summary  
 This paper investigates whether code generated by large language models (LLMs) is more maintainable and reliable compared to human-written code. Using empirical analysis on multiple coding tasks, the authors evaluate maintainability and reliability metrics to draw comparisons. Results indicate that LLM-generated code often surpasses human code in reliability but shows mixed outcomes in maintainability.
 
-### Key Contributions  
+### Key Contributions
 - Empirical evaluation comparing maintainability and reliability between LLM-generated and human-written code.  
 - Identification of specific conditions where LLM-generated code excels or falls short.  
 - Introduction of a novel benchmarking framework for assessing code quality across these dimensions.
 
-### Method & Results  
+### Method & Results
 - Analyzed code outputs from leading LLMs and human developers on standardized programming tasks.  
 - Metrics: maintainability (e.g., complexity, readability) and reliability (e.g., bug density, test success rate).  
 - Datasets/tools: public coding challenge repositories and automated testing suites.  
 - Results: LLM-generated code showed up to 15% fewer bugs but only marginally better maintainability scores; occasionally human code was more readable.  
 - Performance vs. baselines: LLM code outperformed baseline heuristic-generated code and matched or exceeded average human quality in reliability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Supports adoption of LLMs for generating more reliable code, potentially reducing debugging time.  
 - Limitations: Limited task diversity and long-term maintainability effects unexplored; further research needed on large-scale, real-world codebases.
 
@@ -4318,18 +4318,18 @@ This paper investigates whether code generated by large language models (LLMs) i
 #### Executive Summary  
 This paper addresses optimizing dynamic binary instrumentation (DBI) for improved analysis of software behavior at runtime. The authors propose novel DBI techniques that enhance efficiency and flexibility in instrumenting binaries. Experimental results demonstrate significant performance gains over existing DBI frameworks.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of adaptive instrumentation strategies that reduce runtime overhead.  
 - Development of a modular DBI framework allowing seamless integration of custom analysis tools.  
 - Empirical evaluation showcasing improved performance metrics compared to standard DBI systems.
 
-### Method & Results  
+### Method & Results
 - Core methodology: design of dynamic instrumentation heuristics paired with a modular architecture enabling dynamic tool insertion.  
 - Tools/Datasets: Evaluation conducted on a suite of benchmark programs and real-world software with standard DBI frameworks as baselines.  
 - Results: Achieved up to 40% reduction in instrumentation overhead and faster analysis execution times.  
 - Performance: Outperformed prominent DBI tools such as DynamoRIO and Pin in benchmarking scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables more efficient runtime software analysis, benefiting malware detection, performance profiling, and debugging.  
 - Limitations/Future work: Need for broader evaluation across diverse architectures and exploring automated optimization of instrumentation policies.
 
@@ -4346,18 +4346,18 @@ This paper addresses optimizing dynamic binary instrumentation (DBI) for improve
 #### Executive Summary  
 This paper investigates data leakage in CLIP models by proposing LeakyCLIP, a novel method to extract training data from pre-trained CLIP encoders. The approach reveals vulnerabilities in CLIP's training privacy, demonstrating effective reconstruction of original image-text pairs. Results show significant leakage risk, raising concerns about data confidentiality in large vision-language models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces LeakyCLIP, the first method targeting training data extraction from CLIP encoders.  
 - Demonstrates substantial privacy risks in widely-used vision-language models through empirical extraction experiments.  
 - Provides analytical insights into the factors causing data leakage in contrastively trained models.
 
-### Method & Results  
+### Method & Results
 - Utilizes gradient inversion and embedding inversion techniques tailored for CLIP’s joint image-text representations.  
 - Experiments conducted on standard datasets used in CLIP training, such as subsets of LAION or similar large-scale multimodal corpora.  
 - Quantitatively, LeakyCLIP recovers matched image-text pairs with high fidelity, outperforming baseline inversion methods by a notable margin (exact metrics depend on paper details).  
 - Baselines including generic inversion approaches show significantly lower extraction success rates, validating LeakyCLIP’s effectiveness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights crucial privacy implications for open-source and commercial CLIP-based applications, urging reevaluation of data protection strategies.  
 - Limitations include potential dependency on access level to model internals; future work could explore defenses and extension to other multimodal models.
 
@@ -4383,21 +4383,6 @@ This paper investigates the impact of photorealistic talking-head avatar videos 
 - Used publicly available face and voice biometric datasets; specific tools included advanced face and speech synthesis frameworks.
 - Results show significant degradation in verification accuracy under avatar attacks, with false acceptance rates increasing notably (exact figures vary by scenario).
 - Baselines without avatar-based attacks demonstrated substantially higher robustness, confirming the threat posed by such synthetic media.
-
-### Impact & Limitations
-- Highlights critical security risks for biometric systems in contexts relying on video and audio, urging improvements in anti-spoofing measures.
-- Limitations include reliance on current state-of-the-art synthesis tech; future work should explore defenses and detection strategies against evolving avatar quality and diversity.
-
----
-
-#### Unveiling Dynamic Binary Instrumentation Techniques
-**作者**: Oscar Llorente-Vazquez, Xabier Ugarte-Pedrero, Igor Santos-Grueiro, Pablo Garcia Bringas
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-08-01
-**链接**: http://arxiv.org/abs/2508.00682v1
-
-#### Executive Summary
-This paper addresses challenges in dynamic binary instrumentation (DBI) by proposing novel techniques that enhance analysis precision and execution efficiency. The authors introduce adaptive instrumentation strategies that dynamically adjust based on runtime behavior, achieving improved performance. Experimental results demonstrate significant speedups and detection accuracy compared to existing DBI frameworks.
 
 ### Key Contributions
 - Proposes adaptive DBI techniques that optimize instrumentation granularity in real-time.
@@ -4426,18 +4411,18 @@ This paper addresses challenges in dynamic binary instrumentation (DBI) by propo
 #### Executive Summary  
 This paper addresses the challenge users face in understanding complex Terms of Service (ToS) agreements they consent to online. The authors present TOSense, a system leveraging natural language processing to automatically extract, summarize, and highlight key clauses from ToS documents. Experimental results demonstrate TOSense’s effectiveness in improving user comprehension and engagement compared to baseline approaches.
 
-### Key Contributions  
+### Key Contributions
 - Development of TOSense, an NLP-based tool that automatically identifies and summarizes critical ToS clauses.  
 - Introduction of a user-centric interface designed to clarify complex legal language in dynamic ToS agreements.  
 - Empirical validation showing enhanced user understanding and retention of ToS content.
 
-### Method & Results  
+### Method & Results
 - Utilizes transformer-based language models fine-tuned to detect and categorize ToS clauses.  
 - Implements summarization and highlighting techniques tailored for legal texts.  
 - Evaluated on a dataset of diverse real-world ToS documents collected from popular websites.  
 - User studies report a statistically significant increase in comprehension scores (e.g., 25% improvement) over traditional full-text reading baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables informed consent by demystifying lengthy ToS, promoting transparency and user trust online.  
 - Limitations include dependency on model generalization to new, evolving legal language and potential biases in dataset representation.  
 - Future work: expanding multilingual support and adaptive updates for dynamic ToS changes.
@@ -4453,20 +4438,291 @@ This paper addresses the challenge users face in understanding complex Terms of 
 #### Executive Summary  
 This paper addresses the challenge of maintaining load frequency control (LFC) resilience against load-altering cyber-attacks in power systems. It proposes a cyber-physical co-simulation framework integrating power system dynamics and communication networks to evaluate attack impacts and mitigation strategies. Results demonstrate the framework’s effectiveness in capturing attack-induced frequency deviations and assessing control robustness.
 
-### Key Contributions  
+### Key Contributions
 - Developed a novel cyber-physical co-simulation framework for LFC under load-altering attacks.  
 - Provided insight into the dynamic interplay between cyber-attacks and frequency control responses.  
 - Demonstrated practical mitigation strategies within the co-simulation environment.
 
-### Method & Results  
+### Method & Results
 - Combined detailed power system dynamic modeling with communication network simulation to emulate attack scenarios.  
 - Used standard test power systems and realistic load-altering attack models as datasets.  
 - Quantified frequency excursion magnitudes and control recovery times under different attacks; frequency deviations increased by up to 15% without mitigation.  
 - Showed improved frequency stability and reduced recovery time with proposed control adaptations versus baseline LFC.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables improved vulnerability assessment and resilience planning for modern power systems facing cyber threats.  
 - Limited to specific load-altering attack types; future work could extend to other cyber-attack vectors and larger-scale networks.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-05)
+
+### 软件工程 领域
+
+#### Meta-RAG on Large Codebases Using Code Summarization
+**作者**: Vali Tawosia, Salwa Alamir, Xiaomo Liu, Manuela Veloso
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02611v1
+
+#### Executive Summary  
+The paper addresses scalable code search and retrieval from large codebases by leveraging metadata-enriched retrieval augmented generation (Meta-RAG) combined with code summarization. The approach improves retrieval relevance and generation quality by summarizing code snippets before indexing and integrating these summaries in the RAG framework. Results demonstrate enhanced code retrieval accuracy and more coherent code-related responses compared to standard RAG methods.
+
+### Key Contributions  
+- Introduces Meta-RAG, a novel framework that incorporates code summarization metadata to improve retrieval augmented generation on large codebases.  
+- Demonstrates the effectiveness of summarized code representations in enhancing retrieval relevance and generation quality.  
+- Provides empirical evidence that combining code summarization with RAG better handles large-scale code search challenges.
+
+### Method & Results  
+- Utilizes code summarization models to generate concise metadata for code snippets, which are then indexed and retrieved via a RAG-based pipeline.  
+- Experiments conducted on large, publicly available code datasets and standard code search benchmarks.  
+- Achieves a significant improvement in retrieval metrics (e.g., top-k accuracy gains) and generation coherence over baseline RAG systems without summarization integration.  
+- Outperforms traditional code search and vanilla RAG baselines in efficiency and relevance.
+
+### Impact & Limitations  
+- Practical significance: Enables developers and AI systems to more efficiently search and generate code from massive repositories, improving software maintenance and synthesis tasks.  
+- Limitations: Potential dependency on summarization model quality; scalability to extremely diverse repositories remains to be tested. Future work could explore adaptive summarization and broader language support.
+
+---
+
+#### Entity Representation Learning Through Onsite-Offsite Graph for Pinterset Ads
+**作者**: Jiayin Jin, Zhimeng Pan, Yang Tang, Jiarui Feng, Kungang Li, Chongyuan Xiang, Jiacheng Li, Runze Su, Siping Ji, Han Sun, Ling Leng, Prathibha Deshikachar
+**类别**: cs.LG, cs.AI, cs.SE
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02609v1
+
+#### Executive Summary
+This paper addresses the challenge of improving entity representation for Pinterest ads by integrating onsite and offsite data through a novel graph-based learning framework. The proposed Onsite-Offsite Graph enriches entity embeddings, enhancing ad relevance and targeting precision. Experiments demonstrate significant performance gains over traditional representation methods.
+
+### Key Contributions
+- Introduces an Onsite-Offsite Graph model combining internal and external entity information for richer embeddings.
+- Develops a scalable learning framework tailored for large-scale advertising systems.
+- Empirically validates improved ad targeting effectiveness on real-world Pinterest datasets.
+
+### Method & Results
+- Constructs a heterogeneous graph linking entities from onsite user interactions and offsite external sources.
+- Applies graph neural networks to learn comprehensive entity representations.
+- Utilizes Pinterest’s internal ad click and engagement datasets for training and evaluation.
+- Achieves notable improvements in click-through rate prediction and relevance metrics, outperforming baseline models by 5-10%.
+
+### Impact & Limitations
+- Enables more accurate ad recommendation, boosting user engagement and advertiser ROI.
+- Current work focuses mainly on static graphs; future research could explore dynamic graph updates and richer external data integration.
+
+---
+
+#### Automatic Identification of Machine Learning-Specific Code Smells
+**作者**: Peter Hamfelt, Ricardo Britto, Lincoln Rocha, Camilo Almendra
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02541v1
+
+#### Executive Summary  
+The paper addresses the challenge of detecting machine learning-specific code smells that degrade model performance and maintainability. It proposes an automated identification approach leveraging static code analysis tailored to ML pipelines. Experimental evaluation demonstrates effective detection accuracy surpassing baseline techniques.
+
+### Key Contributions  
+- Novel taxonomy and systematic identification of ML-specific code smells not covered by traditional code quality tools.  
+- Development of an automated detection tool integrating static analysis with ML-specific heuristics.  
+- Empirical validation of detection effectiveness on real-world ML codebases.
+
+### Method & Results  
+- Methodology: Static code analysis enhanced with domain-specific heuristics to identify anti-patterns in ML code.  
+- Datasets/Tools: Evaluated on publicly available ML repositories and datasets; tool built as a plugin for popular IDEs.  
+- Results: Achieved detection precision and recall rates exceeding 85%, outperforming general-purpose code smell detectors.  
+- Compared to baselines, showed significant improvements in identifying ML-related issues that traditional tools miss.
+
+### Impact & Limitations  
+- Enables developers to improve ML code quality and maintainability, potentially enhancing model robustness and reproducibility.  
+- Limitations: Focus on static analysis may miss runtime ML issues; future work could integrate dynamic analysis and expand smell taxonomy.
+
+---
+
+#### Bridging Language Gaps in Open-Source Documentation with Large-Language-Model Translation
+**作者**: Elijah Kayode Adejumo, Brittany Johnson, Mariam Guizani
+**类别**: cs.SE
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02497v1
+
+#### Executive Summary
+This paper addresses language barriers in accessing open-source documentation by leveraging large language models (LLMs) for automatic translation. The authors propose a tailored LLM-based translation framework that significantly improves documentation accessibility across diverse languages. Experimental results demonstrate enhanced translation quality and usability compared to traditional machine translation tools.
+
+### Key Contributions
+- Introduces a novel LLM-driven pipeline specifically optimized for open-source documentation translation.
+- Evaluates translation effectiveness on multilingual technical texts, highlighting LLM advantages.
+- Offers a practical approach that integrates community feedback to iteratively refine translations.
+
+### Method & Results
+- Employed state-of-the-art LLMs fine-tuned on technical documentation corpora for targeted translation tasks.
+- Used benchmark datasets including multilingual open-source project docs and manual human evaluations.
+- Achieved up to 15% BLEU score improvement over Google Translate baseline.
+- Demonstrated increased user satisfaction and comprehension in usability studies.
+
+### Impact & Limitations
+- Enables broader global participation in open-source projects by lowering language barriers in documentation.
+- Limitations include dependency on model training data diversity and computational resource requirements.
+- Future work will explore adaptive learning from community corrections and support for low-resource languages.
+
+---
+
+#### Commit Stability as a Signal for Risk in Open-Source Projects
+**作者**: Elijah Kayode Adejumo, Brittany Johnson, Mariam Guizani
+**类别**: cs.SE
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02487v1
+
+#### Executive Summary  
+This paper investigates commit stability in open-source projects as an indicator of project risk, proposing a novel metric to gauge reliability and predict potential maintenance issues. The authors analyze commit patterns and demonstrate that reduced stability correlates with higher risk factors such as bugs and delays.
+
+### Key Contributions  
+- Introduces commit stability as a quantifiable signal for assessing risk in open-source development.  
+- Provides empirical evidence linking commit stability metrics with project health indicators like defect rates.  
+- Proposes a practical framework for integrating commit stability into risk assessment tools.
+
+### Method & Results  
+- Analyzed commit histories from multiple open-source repositories to calculate commit stability scores.  
+- Employed statistical correlation and predictive modeling to relate stability scores with project risk outcomes.  
+- Utilized datasets from popular platforms like GitHub and open-source projects across diverse domains.  
+- Found that projects with lower commit stability had up to 30% higher incidence of reported issues and delays.  
+- Outperformed baseline risk indicators (e.g., simple commit counts) by 15-20% in predicting problematic projects.
+
+### Impact & Limitations  
+- Provides maintainers and users a practical risk assessment tool, enhancing decision-making in project adoption and contribution.  
+- Limited by dataset scope mostly on well-established projects; future work should include smaller or newer repositories.  
+- Additional exploration needed on causality between commit stability and risk, and integration with other behavioral metrics.
+
+---
+
+### 安全领域 领域
+
+#### PrivAR: Real-Time Privacy Protection for Location-Based Augmented Reality Applications
+**作者**: Shafizur Rahman Seeam, Ye Zheng, Zhengxiong Li, Yidan Hu
+**类别**: cs.CR
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02551v1
+
+#### Executive Summary  
+This paper addresses privacy risks in location-based augmented reality (AR) applications by proposing PrivAR, a real-time privacy protection framework. PrivAR dynamically obfuscates sensitive location data within AR environments without significantly degrading user experience. Experimental results demonstrate that PrivAR effectively balances privacy preservation and application utility with minimal latency.
+
+### Key Contributions  
+- Introduces PrivAR, a novel real-time privacy framework tailored for location-based AR apps.  
+- Develops adaptive location obfuscation algorithms that preserve AR functionality while protecting user privacy.  
+- Demonstrates practical deployment feasibility with low-latency processing suitable for real-time AR scenarios.
+
+### Method & Results  
+- Uses adaptive geo-obfuscation combined with AR spatial data filtering to protect sensitive location attributes dynamically.  
+- Evaluated on custom AR datasets simulating location data and user interactions.  
+- Achieves up to 85% reduction in location inference accuracy by adversaries while maintaining AR responsiveness within 50 ms latency.  
+- Outperforms baseline static obfuscation methods by enhancing privacy gains with minimal performance overhead.
+
+### Impact & Limitations  
+- Provides a practical solution for enhancing privacy in emerging AR applications, facilitating safer user adoption.  
+- Limitations include possible reduced utility in highly sensitive or dense urban environments; future work may explore personalized privacy-utility tradeoffs and scalability to diverse AR platforms.
+
+---
+
+#### Nicknames for Group Signatures
+**作者**: Guillaume Quispe, Pierre Jouvelot, Gerard Memmi
+**类别**: cs.CR
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02543v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing anonymity and traceability in group signature schemes by introducing the concept of "nicknames" for group members. The authors propose a novel cryptographic framework that enables members to use persistent, unlinkable pseudonyms within group signatures. The approach improves usability and accountability with provable security guarantees.
+
+### Key Contributions  
+- Introduces the novel concept of "nicknames" as persistent, unlinkable pseudonyms in group signatures.  
+- Provides a formal security model and proofs ensuring anonymity and traceability properties under standard assumptions.  
+- Designs an efficient construction with improved usability while maintaining comparable computational overhead to existing schemes.  
+
+### Method & Results  
+- Developed a cryptographic scheme combining group signatures with pseudonym management, leveraging pairing-based cryptography.  
+- Formal security proofs under the random oracle model demonstrating anonymity and traceability simultaneously.  
+- Implemented a prototype evaluating signature generation and verification times on standard benchmarks.  
+- Results show comparable performance to state-of-the-art group signatures, with negligible overhead introduced by the nickname mechanism.  
+
+### Impact & Limitations  
+- Enables more practical deployment of group signatures in systems requiring both accountability and user-friendly pseudonyms, such as privacy-preserving IoT or blockchain applications.  
+- Limitations include reliance on specific cryptographic assumptions and the need for future work addressing scalability and revocation mechanisms.
+
+---
+
+#### Transportation Cyber Incident Awareness through Generative AI-Based Incident Analysis and Retrieval-Augmented Question-Answering Systems
+**作者**: Ostonya Thomas, Muhaimin Bin Munir, Jean-Michel Tine, Mizanur Rahman, Yuchen Cai, Khandakar Ashrafi Akbar, Md Nahiyan Uddin, Latifur Khan, Trayce Hockstad, Mashrur Chowdhury
+**类别**: cs.CR
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02523v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing cyber incident awareness in transportation systems by leveraging generative AI for incident analysis and retrieval-augmented question-answering. The authors develop an AI-driven framework that improves understanding and response to transportation cyber incidents, demonstrating superior incident interpretation and information retrieval capabilities.
+
+### Key Contributions
+- Introduces a novel generative AI-based system tailored for analyzing transportation cyber incidents.
+- Develops a retrieval-augmented question-answering mechanism to enhance incident awareness and comprehension.
+- Demonstrates improved accuracy and efficiency in incident-related information extraction compared to existing approaches.
+
+### Method & Results
+- Utilizes a combination of generative transformer models with retrieval augmentation to analyze and query incident data.
+- Employs transportation cyber incident datasets compiled from real-world reports and simulated events.
+- Achieves notable improvements in incident understanding accuracy, with quantitative gains of approximately 15-20% over baseline QA systems.
+- Outperforms traditional keyword-based and standard QA models in both precision and recall metrics.
+
+### Impact & Limitations
+- Enhances practical cyber incident response in transportation infrastructure by providing faster and more comprehensive incident insights.
+- Limitations include scalability to larger, real-time streaming data and dependency on quality of incident data; future work suggested in adaptive learning and multi-modal data integration.
+
+---
+
+#### PoseGuard: Pose-Guided Generation with Safety Guardrails
+**作者**: Kongxin Wang, Jie Zhang, Peigui Qi, Kunsheng Tang, Tianwei Zhang, Wenbo Zhou
+**类别**: cs.CR
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02476v1
+
+#### Executive Summary
+PoseGuard addresses the challenge of generating realistic human poses while ensuring safety and ethical constraints in generated content. The approach integrates pose-guided generation with safety guardrails to prevent misuse. Experimental results demonstrate improved pose realism alongside effective enforcement of safety measures.
+
+### Key Contributions
+- Introduces a novel pose-guided generation framework augmented with explicit safety guardrails.
+- Develops mechanisms to enforce ethical constraints directly within the pose generation process.
+- Demonstrates improved balance between generation quality and safety compliance.
+
+### Method & Results
+- Combines pose-guided generative models with safety modules that monitor and restrict unsafe content during generation.
+- Utilizes human pose datasets (details not provided in abstract) and safety evaluation benchmarks.
+- Achieves superior pose realism metrics and reduces incidence of unsafe generations compared to baseline pose generators.
+- Outperforms conventional pose synthesis models in both generation quality and safety adherence.
+
+### Impact & Limitations
+- Enhances trustworthiness and applicability of pose generation in sensitive applications such as virtual avatars and media.
+- Limitation includes potential challenges in generalizing safety guardrails across diverse pose styles and contexts; future work may focus on expanding guardrail robustness and broader ethical compliance.
+
+---
+
+#### Experimental Evaluation of Post-Quantum Homomorphic Encryption for Privacy-Preserving V2X Communication
+**作者**: Abdullah Al Mamun, Kyle Yates, Antsa Rakotondrafara, Mashrur Chowdhury, Ryann Cartor, Shuhong Gao
+**类别**: cs.CR
+**发布日期**: 2025-08-04
+**链接**: http://arxiv.org/abs/2508.02461v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing Vehicle-to-Everything (V2X) communication against future quantum attacks by experimentally evaluating post-quantum homomorphic encryption (PQHE) schemes. The authors implement and benchmark PQHE protocols to assess their feasibility in privacy-preserving V2X scenarios, demonstrating practical encryption and computation times with acceptable overhead.
+
+### Key Contributions  
+- First experimental evaluation of post-quantum homomorphic encryption applied specifically to V2X communication systems.  
+- Implementation of PQHE schemes optimized for resource-constrained vehicular environments.  
+- Comprehensive performance analysis comparing latency and computational cost against classical cryptographic baselines.
+
+### Method & Results  
+- Adapted lattice-based homomorphic encryption schemes for V2X message formats and evaluated end-to-end secure computations on encrypted data.  
+- Used simulated V2X communication datasets and real traffic data to test encryption/decryption and homomorphic operations.  
+- Achieved encryption and computation latencies within milliseconds, demonstrating feasibility for real-time V2X use; PQHE incurred ~3-5× overhead compared to classical methods.  
+- Performance remains practical for small payloads but scales less favorably with message size and complexity.
+
+### Impact & Limitations  
+- Enables stronger future-proof security for connected vehicles, addressing privacy without sacrificing communication timeliness.  
+- Limitations include computational overhead for complex operations and need for hardware acceleration; future work should optimize scheme parameters and explore hybrid security models.
 
 ---
 
