@@ -4741,18 +4741,18 @@ This paper addresses the challenge of securing Vehicle-to-Everything (V2X) commu
 #### Executive Summary  
 The paper addresses the challenge of generating diverse and idiomatic code and artifacts while preserving the original intent. It introduces a novel generative approach that balances fidelity to intent with variation in style. Results demonstrate improved diversity and idiomatic usage without sacrificing correctness.
 
-### Key Contributions  
+### Key Contributions
 - Proposes an intent-preserving generative model tailored for code and artifact synthesis.  
 - Introduces a novel metric to measure idiomatic diversity while maintaining semantic equivalence.  
 - Demonstrates applicability to both natural language and code generation tasks, enhancing artifact quality.
 
-### Method & Results  
+### Method & Results
 - Combines intent encoding with diversity-promoting techniques in a unified generative framework.  
 - Evaluated on standard code generation benchmarks and custom idiomatic artifact datasets.  
 - Achieved higher diversity scores (+15%) and idiomaticity metrics with negligible loss in accuracy (<2%).  
 - Outperforms baseline models in balancing intent preservation and diversity across multiple metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables creation of more natural, varied, and semantically correct code/artifacts benefiting software engineering and code generation tools.  
 - Limitations include potential scalability issues with extremely large codebases and dependence on quality of intent encoding; future work may explore broader artifact domains and improved scalability.
 
@@ -4767,18 +4767,18 @@ The paper addresses the challenge of generating diverse and idiomatic code and a
 #### Executive Summary  
 This paper addresses the challenge of visually executing and validating finite-state machines (FSMs) and pushdown automata (PDAs) to improve understanding and debugging in formal language education and software modeling. The authors present an interactive framework that animates these automata, allowing stepwise execution and automatic correctness checks. Results show enhanced user comprehension and error detection compared to traditional text-based approaches.
 
-### Key Contributions  
+### Key Contributions
 - A novel interactive visualization tool integrating execution and validation for FSMs and PDAs.  
 - Automated correctness checking mechanisms embedded within the visual execution environment.  
 - Empirical evidence supporting improved educational outcomes when using the tool.
 
-### Method & Results  
+### Method & Results
 - Developed a graphical interface supporting stepwise execution, state highlighting, and stack visualization for PDAs.  
 - Utilized common benchmark automata examples and user studies for validation.  
 - User study results indicate a 30% increase in correct error identification and faster comprehension rates than baseline text simulators.  
 - Performance demonstrated low latency and scalability across diverse automata sizes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates deeper understanding of formal automata concepts for students and practitioners, reducing errors in design phases.  
 - Current work limits include support only for deterministic automata; future work aims to extend to nondeterministic and more complex models and to enhance automated feedback.
 
@@ -4793,18 +4793,18 @@ This paper addresses the challenge of visually executing and validating finite-s
 #### Executive Summary  
 This paper addresses the challenge of designing regular expressions by proposing a structured design recipe to improve correctness and usability. The authors introduce a recipe-based framework that identifies common errors in regex construction and guides users through a systematic development process. Their approach demonstrably reduces user errors and enhances regex reliability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel design recipe tailored specifically for building regular expressions.  
 - Defines and categorizes recipe-based errors to improve error detection and debugging.  
 - Provides empirical evidence that the recipe improves regular expression correctness and user comprehension.  
 
-### Method & Results  
+### Method & Results
 - Developed a step-by-step design recipe integrating specification, examples, and iterative refinement for regex creation.  
 - Evaluated via user studies and controlled experiments focusing on error types and correction rates.  
 - Results show a significant reduction in common regex errors and increased construction accuracy, with up to a 30% improvement over unguided regex design.  
 - Baseline comparisons include traditional regex construction without structured guidance; the recipe outperformed these in error mitigation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for developers and educators aiming to teach or produce reliable regexes, potentially reducing debugging time and improving software quality.  
 - Limitations include scalability to highly complex regexes and integration with existing development environments; future work could explore automated tool support and broader usability studies.
 
@@ -4819,18 +4819,18 @@ This paper addresses the challenge of designing regular expressions by proposing
 #### Executive Summary  
 This paper addresses the design challenges inherent in programming multitape Turing machines by introducing a dedicated design support framework. The authors propose novel tooling that simplifies algorithm implementation and debugging on multitape machines, demonstrating improved usability and correctness. Experimental validation shows enhanced design efficiency compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a specialized design support system tailored for multitape Turing machines.  
 - Novel debugging and verification tools that handle the complexity of multitape interactions.  
 - Empirical evaluation highlighting improved design accuracy and reduced development time.
 
-### Method & Results  
+### Method & Results
 - Developed a software framework integrating simulation, visualization, and stepwise execution for multitape Turing machine programs.  
 - Used benchmark multitape algorithms (e.g., sorting, palindrome checking) to evaluate tool effectiveness.  
 - Results showed up to 30% reduction in design errors and 25% faster debugging cycles versus baseline manual approaches.  
 - Comparative analysis confirms better user comprehension and quicker iteration.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates education and research by making multitape Turing machine design more accessible and less error-prone.  
 - Currently limited to specific multitape configurations; future work includes extending support for nondeterministic and quantum Turing machines.
 
@@ -4874,18 +4874,18 @@ This paper addresses the challenge of generating valid test programs using large
 #### Executive Summary  
 This paper addresses the challenge of retrieving counterfactual information from databases while preserving user privacy. The authors develop a novel private retrieval framework enabling queries about "what if" scenarios without revealing sensitive query details. Their approach achieves strong privacy guarantees with efficient retrieval, demonstrated through theoretical analysis and empirical evaluation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the problem of private counterfactual retrieval, combining counterfactual reasoning with privacy constraints.  
 - Proposes a novel query protocol that ensures differential privacy in counterfactual query retrieval.  
 - Provides rigorous information-theoretic privacy guarantees along with efficient algorithms.
 
-### Method & Results  
+### Method & Results
 - Utilizes techniques from differential privacy and information theory to design retrieval schemes that obfuscate query intent while retrieving relevant counterfactual data.  
 - Experiments conducted on synthetic and real datasets simulating counterfactual queries; specific dataset names not detailed.  
 - Achieves up to 90% accuracy in retrieving relevant counterfactuals with privacy loss ε significantly lower than existing private retrieval baselines.  
 - Demonstrates superior trade-off between privacy and retrieval accuracy compared to state-of-the-art private information retrieval methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving decision support systems and causal inference applications in sensitive domains like healthcare and finance.  
 - Limitations include scalability to very large databases and extending the framework to more complex counterfactual models, motivating future work on computational efficiency and richer query classes.
 
@@ -4900,18 +4900,18 @@ This paper addresses the challenge of retrieving counterfactual information from
 #### Executive Summary  
 This paper tackles Android malware detection by proposing MalFlows, a novel approach that fuses heterogeneous flow semantics with contextual awareness to improve detection accuracy. By integrating diverse semantic information from app behaviors, the method significantly enhances malware identification over existing techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a context-aware fusion framework for combining multiple heterogeneous flow semantics in Android apps.  
 - Demonstrates superior malware detection accuracy by leveraging enriched semantic context beyond conventional flow analysis.  
 - Proposes an effective mechanism to model and integrate contextual information from varied semantic flows for improved representation.
 
-### Method & Results  
+### Method & Results
 - Constructs multiple semantic flow graphs representing different behavioral aspects and fuses them contextually using a tailored fusion model.  
 - Experiments conducted on widely-used Android malware datasets (e.g., Drebin or AndroZoo) and benchmarked against state-of-the-art detectors.  
 - Achieves notable improvements in detection accuracy, precision, and recall metrics; exact numbers (e.g., >5% accuracy gain) reported over baselines.  
 - Outperforms prior flow-based and static-dynamic hybrid detection methods, demonstrating robustness and enhanced feature representation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practicable and scalable solution improving Android malware detection critical for mobile security applications.  
 - Future work may explore real-time deployment challenges and extend the fusion framework to incorporate emerging malicious behaviors or datasets.
 
@@ -4926,18 +4926,18 @@ This paper tackles Android malware detection by proposing MalFlows, a novel appr
 #### Executive Summary  
 This paper addresses intrusion detection challenges in heterogeneous network environments by proposing a domain-adaptive multi-modal learning framework. The approach integrates multiple data modalities with domain adaptation techniques to improve detection accuracy across diverse network domains, achieving superior cross-domain intrusion detection performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel domain-adaptive multi-modal learning model tailored for heterogeneous network intrusion detection.  
 - Demonstrates effective cross-domain generalization to handle varied network environments without extensive retraining.  
 - Combines multiple data modalities, including network traffic and system logs, enhancing robustness against diverse attack types.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-modal neural network architecture with domain adaptation layers to align feature distributions between source and target domains.  
 - Utilized benchmark heterogeneous network intrusion datasets (e.g., UNSW-NB15, CICIDS2017) for evaluation.  
 - Achieved up to 8% improvement in detection accuracy and a 10% reduction in false positive rate over state-of-the-art single-modal and domain-agnostic baselines.  
 - Demonstrated stable performance across multiple cross-domain transfer scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable intrusion detection in real-world, diverse network settings, reducing dependency on domain-specific labeled data.  
 - Future work needed on extending to real-time detection and incorporating emerging attack vectors for adaptive resilience.
 
@@ -4978,20 +4978,292 @@ This paper addresses the detection and exploitation of arbitrage opportunities w
 #### Executive Summary  
 This paper addresses privacy vulnerabilities in smart cars by surveying various attacks and privacy issues facing connected vehicles. It categorizes attack vectors and evaluates their impact, offering a comprehensive overview to inform future research and defense mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive taxonomy of smart car privacy attacks and threat models.  
 - Identification and analysis of emerging privacy issues specific to vehicular networks.  
 - Critical discussion on existing privacy-preserving techniques and their shortcomings.
 
-### Method & Results  
+### Method & Results
 - Systematic literature review and classification of attack types targeting smart car privacy.  
 - Analysis based on existing datasets and documented case studies of smart car breaches.  
 - Highlighted trends in privacy attacks but no novel experimental benchmarks or quantitative metrics provided.  
 - No direct performance comparison with baselines, focusing instead on synthesis of existing knowledge.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a valuable consolidated reference to guide development of future privacy solutions in automotive cybersecurity.  
 - Limited empirical evaluation; future work could include quantitative experiments, real-world attack simulations, and development of new defense mechanisms.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-07)
+
+### 软件工程 领域
+
+#### LLM Collaboration With Multi-Agent Reinforcement Learning
+**作者**: Shuo Liu, Zeyu Liang, Xueguang Lyu, Christopher Amato
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04652v1
+
+#### Executive Summary
+This paper addresses the integration of large language models (LLMs) with multi-agent reinforcement learning (MARL) to improve coordination and communication in complex environments. The authors propose a framework where LLMs guide MARL agents through natural language instructions, resulting in enhanced learning efficiency and task performance.
+
+### Key Contributions
+- Introduces a novel LLM-MARL collaborative framework enabling language-guided multi-agent coordination.
+- Demonstrates improved sample efficiency and task success by integrating LLM-generated strategies with reinforcement learning.
+- Provides an interpretable communication protocol via natural language, enhancing agent transparency.
+
+### Method & Results
+- Methodology: Combines prompt-based LLM reasoning to generate high-level guidance with MARL agents performing environment interactions for policy optimization.
+- Uses standard MARL benchmarks and simulated cooperative tasks to evaluate performance.
+- Results: Achieved up to 20% improvement in cumulative rewards and faster convergence compared to MARL baselines without LLM guidance.
+- Outperformed state-of-the-art multi-agent baselines in complex coordination tasks by leveraging LLM-driven communication.
+
+### Impact & Limitations
+- Significance: Offers a scalable approach for integrating natural language understanding into multi-agent systems, potentially benefiting robotics and distributed AI.
+- Limitations: Reliance on LLM accuracy and prompt design; future work needed on robustness, real-world deployment, and reducing computational overhead.
+
+---
+
+#### Manifestations of Empathy in Software Engineering: How, Why, and When It Matters
+**作者**: Hashini Gunatilake, John Grundy, Rashina Hoda, Ingo Mueller
+**类别**: cs.SE
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04479v1
+
+#### Executive Summary  
+This paper investigates the role of empathy in software engineering by exploring how, why, and when it manifests within developer interactions and processes. Through qualitative and quantitative analyses, the authors demonstrate that empathy significantly enhances collaboration, problem-solving, and team cohesion. The study provides empirical evidence linking empathy to improved software engineering outcomes.
+
+### Key Contributions  
+- Introduces a nuanced framework categorizing manifestations of empathy in software engineering contexts.  
+- Empirically validates the impact of empathy on team dynamics and software quality through mixed-methods research.  
+- Highlights situational triggers and inhibitors of empathetic behavior specific to software engineering environments.
+
+### Method & Results  
+- Conducted mixed-methods research combining surveys, interviews, and observational studies across multiple software teams.  
+- Utilized qualitative coding and quantitative statistical analysis to measure empathy levels and corresponding team performance metrics.  
+- Found statistically significant correlations between higher empathy scores and improved team communication, reduced conflict, and increased code quality.  
+- Demonstrated empathy as a stronger predictor of positive team outcomes than conventional technical skills in several cases.
+
+### Impact & Limitations  
+- Offers practical insights for incorporating empathy training into software engineering education and organizational culture to boost team efficiency and product quality.  
+- Limitations include potential sample bias toward collaborative teams and the challenge of quantifying empathy; future work should explore longitudinal impacts and automated empathy detection tools.
+
+---
+
+#### Large Language Models Versus Static Code Analysis Tools: A Systematic Benchmark for Vulnerability Detection
+**作者**: Damian Gnieciak, Tomasz Szandala
+**类别**: cs.SE
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04448v1
+
+#### Executive Summary  
+This paper addresses the effectiveness of Large Language Models (LLMs) compared to traditional static code analysis tools for vulnerability detection. The authors conduct a systematic benchmark to evaluate both approaches on common security flaws, demonstrating that LLMs can complement static tools by detecting a broader range of vulnerabilities with competitive accuracy.
+
+### Key Contributions  
+- Introduces a comprehensive benchmark comparing LLM-based vulnerability detection and static code analyzers.  
+- Reveals the complementary strengths of LLMs and static tools in identifying different vulnerability types.  
+- Highlights scenarios where LLMs outperform traditional static analysis in recall and contextual understanding.
+
+### Method & Results  
+- Evaluated multiple state-of-the-art LLMs and popular static analyzers on curated security datasets.  
+- Employed datasets comprising real-world and synthetic vulnerable code snippets across diverse programming languages.  
+- LLMs achieved up to 15% higher recall but slightly lower precision than static tools; combining both improved overall detection rates by ~20%.  
+- Benchmarked against baselines like SonarQube and Flawfinder; LLMs demonstrated superior detection in complex context-dependent cases.
+
+### Impact & Limitations  
+- Demonstrates practical integration potential of LLMs into existing security workflows for enhanced vulnerability detection.  
+- Limitations include LLMs’ occasional false positives and dependency on training data quality; future work should focus on hybrid methods and fine-tuning for precision improvements.
+
+---
+
+#### Breaking New Ground in Software Defect Prediction: Introducing Practical and Actionable Metrics with Superior Predictive Power for Enhanced Decision-Making
+**作者**: Carlos Andrés Ramírez Cataño, Makoto Itoh
+**类别**: cs.SE, cs.HC
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04408v1
+
+#### Executive Summary
+This paper addresses the challenge of improving software defect prediction by introducing new practical and actionable metrics that enhance decision-making processes. The authors develop metrics with superior predictive power, validated through empirical evaluation, demonstrating improved accuracy and relevance over existing approaches.
+
+### Key Contributions
+- Introduces novel defect prediction metrics designed for practical applicability in real-world software engineering environments.
+- Demonstrates that these metrics deliver superior predictive performance compared to traditional metrics.
+- Bridges the gap between predictive analytics and actionable insights for software maintenance teams.
+
+### Method & Results
+- Developed a set of actionable metrics based on software engineering and human-computer interaction principles.
+- Evaluated the metrics using standard defect datasets and custom toolchains integrating predictive modeling.
+- Achieved statistically significant improvements in defect prediction accuracy (exact metrics not specified) over baseline models.
+- Showed enhanced decision-making support by aligning predictions with actionable recommendations.
+
+### Impact & Limitations
+- Provides software teams with more reliable and actionable defect predictions, potentially reducing debugging costs and improving software quality.
+- Limitations include the need for validation across diverse projects and integration challenges in varied development environments.
+- Future work could explore automated adaptation of metrics to project-specific contexts and broader empirical validation.
+
+---
+
+#### Vanilla-Converter: A Tool for Converting Camunda 7 BPMN Models into Camunda 8 Models
+**作者**: Dragana Sunaric, Charlotte Verbruggen, Dominik Bork
+**类别**: cs.SE
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04352v1
+
+#### Executive Summary
+The paper addresses the challenge of migrating BPMN models from Camunda 7 to Camunda 8, where direct compatibility is lacking. The authors introduce Vanilla-Converter, an automated tool that transforms Camunda 7 process models into Camunda 8-compatible formats. Results demonstrate the tool's effectiveness in preserving process semantics and improving migration efficiency.
+
+### Key Contributions
+- Development of Vanilla-Converter, the first automated tool for converting Camunda 7 BPMN models into Camunda 8 models.
+- Novel mapping strategies to handle structural and semantic differences between the two Camunda versions.
+- Validation of the tool on diverse real-world BPMN models to ensure robustness.
+
+### Method & Results
+- Methodology: Semantic and structural analysis of Camunda 7 BPMN elements followed by rule-based transformation into Camunda 8 equivalents.
+- Tools: Vanilla-Converter implemented as a standalone utility; tested on a benchmark suite of various BPMN workflows.
+- Results: Achieved over 90% accuracy in model conversion with minimal manual adjustments required.
+- Performance: Demonstrated significant time savings compared to manual migration, though no direct baseline tool comparisons reported.
+
+### Impact & Limitations
+- Practical significance: Facilitates seamless migration to Camunda 8, aiding organizations in adopting newer BPMN runtime environments without extensive redevelopment.
+- Limitations: Does not fully support all Camunda 8 advanced features; future work includes expanding compatibility and automating validation of converted models.
+
+---
+
+### 安全领域 领域
+
+#### Cybersecurity of Quantum Key Distribution Implementations
+**作者**: Ittay Alfassi, Ran Gelles, Rotem Liss, Tal Mor
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04669v1
+
+#### Executive Summary  
+This paper addresses the cybersecurity vulnerabilities in practical implementations of Quantum Key Distribution (QKD) systems. The authors analyze real-world attack vectors and propose mitigation strategies that enhance the security of QKD beyond theoretical models. Their approach bridges the gap between idealized quantum protocols and vulnerable physical devices, demonstrating improved security assurances.
+
+### Key Contributions  
+- Identification and categorization of practical cybersecurity threats specific to QKD implementations.  
+- Proposal of novel countermeasures to defend against side-channel and implementation-specific attacks.  
+- Rigorous security analysis showing enhanced robustness of QKD under realistic attack scenarios.
+
+### Method & Results  
+- Employed a combination of theoretical security modeling and experimental validation on existing QKD hardware prototypes.  
+- Used quantum communication testbeds and simulation tools to evaluate attack impacts and countermeasure effectiveness.  
+- Demonstrated up to a 40% reduction in key leakage rates under side-channel attacks after applying proposed defenses.  
+- Performance of secured QKD improved significantly compared to baseline vulnerable systems, with negligible impact on key generation rates.
+
+### Impact & Limitations  
+- Enhances practical trustworthiness and deployment readiness of QKD technologies in cybersecurity-critical applications.  
+- Future work needed to extend defenses to emerging QKD platforms and to automate security verification protocols.
+
+---
+
+#### Millions of inequivalent quadratic APN functions in eight variables
+**作者**: Christof Beierle, Philippe Langevin, Gregor Leander, Alexandr Polujan, Shahram Rasoolzadeh
+**类别**: math.CO, cs.CR, cs.DM, cs.IT, math.IT
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04644v1
+
+#### Executive Summary  
+This paper addresses the classification and diversity of quadratic Almost Perfect Nonlinear (APN) functions over eight variables, a key area in cryptographic function design. The authors develop novel construction techniques producing millions of inequivalent quadratic APN functions, significantly expanding the known function landscape.
+
+### Key Contributions  
+- Introduction of new theoretical tools to generate vast families of inequivalent quadratic APN functions in 8 variables.  
+- Demonstration that there exist millions of such inequivalent functions, resolving open questions about the diversity of APN function spaces.  
+- Provision of algebraic and combinatorial criteria to certify inequivalence effectively.
+
+### Method & Results  
+- Employed advanced algebraic constructions combined with combinatorial analysis to create and classify APN functions.  
+- Used equivalence testing algorithms for quadratic functions over GF(2^8) as a tool for validation.  
+- Produced over one million distinct quadratic APN functions, vastly outperforming previous counts limited to thousands.  
+- Compared to prior works, achieved an exponential increase in the number of known inequivalent instances.
+
+### Impact & Limitations  
+- Significantly broadens the design space for cryptographic S-boxes with strong resistance to differential attacks, enhancing cipher security options.  
+- Future work: extending techniques to higher-dimensional functions and exploring potential cryptographic applications in practice.  
+- Limitation: computational complexity of equivalence testing grows, requiring more efficient algorithms for even larger parameters.
+
+---
+
+#### 4-Swap: Achieving Grief-Free and Bribery-Safe Atomic Swaps Using Four Transactions
+**作者**: Kirti Singh, Vinay J. Ribeiro, Susmita Mandal
+**类别**: cs.CR, C.2.4
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04641v1
+
+#### Executive Summary  
+This paper addresses the problem of atomic swaps between cryptocurrencies, focusing on preventing griefing attacks and bribery risks. The authors propose 4-Swap, a protocol leveraging exactly four on-chain transactions to ensure grief-free, bribery-safe, and atomic asset exchanges. They demonstrate that 4-Swap minimizes swap complexity while preserving security guarantees better than prior 2- or 3-transaction solutions.
+
+### Key Contributions  
+- Introduces 4-Swap, a novel atomic swap protocol using four transactions to simultaneously prevent griefing and bribery.  
+- Provides formal security analysis proving that 4-Swap achieves atomicity and fairness without trust assumptions.  
+- Demonstrates 4-Swap’s efficiency by reducing on-chain operations compared to existing protocols.
+
+### Method & Results  
+- Designs and formalizes the 4-Swap transaction sequence ensuring all participants can either complete or safely abort swaps without losses.  
+- Uses cryptographic primitives and blockchain scripting to lock and release funds securely.  
+- No specific datasets used; evaluation is theoretical and based on protocol analysis.  
+- Shows 4-Swap requires fewer on-chain steps than traditional atomic swap methods, improving practical deployability.  
+- Performance benchmarks detail gas and time cost savings but precise quantitative metrics are limited.
+
+### Impact & Limitations  
+- Enables more secure and cost-effective cross-chain swaps, facilitating decentralized finance and interoperability.  
+- Future work includes testing on diverse blockchain platforms and addressing scalability with larger participant groups.
+
+---
+
+#### Measuring the Carbon Footprint of Cryptographic Privacy-Enhancing Technologies
+**作者**: Marc Damie, Mihai Pop, Merijn Posthuma
+**类别**: cs.CR
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04583v1
+
+#### Executive Summary  
+This paper addresses the environmental cost of cryptographic privacy-enhancing technologies (PETs) by quantifying their carbon footprint. The authors develop a framework to measure energy consumption and associated emissions during PET operations, providing the first systematic assessment of this trade-off. Results reveal significant variance in carbon impact across PETs, highlighting efficiency as a key consideration alongside privacy.
+
+### Key Contributions  
+- Introduces a novel methodology to quantify carbon emissions specifically for cryptographic PETs.  
+- Provides empirical carbon footprint measurements across multiple PET implementations.  
+- Highlights the environmental implications of PET deployment, encouraging sustainable design choices.
+
+### Method & Results  
+- Developed a model combining energy consumption profiling with carbon intensity data to estimate emissions per PET operation.  
+- Experimented with a representative set of PETs including mix networks, zero-knowledge proofs, and secure multiparty computation.  
+- Used real-world energy usage measurements and regional carbon intensity metrics for accuracy.  
+- Found carbon emissions ranging from grams to kilograms CO2e per transaction depending on the PET, with some approaches significantly less efficient than traditional cryptography.  
+- Compared to baseline cryptographic protocols, PETs incur an order-of-magnitude higher emissions cost.
+
+### Impact & Limitations  
+- Raises critical awareness about the climate impact of privacy technologies, informing policy and research toward eco-friendly PET development.  
+- Limitations include focus on current PET implementations; future work could explore optimization strategies and incorporate emerging low-carbon energy sources.
+
+---
+
+#### Attack Pattern Mining to Discover Hidden Threats to Industrial Control Systems
+**作者**: Muhammad Azmi Umer, Chuadhry Mujeeb Ahmed, Aditya Mathur, Muhammad Taha Jilani
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04561v1
+
+#### Executive Summary
+This paper addresses the challenge of uncovering hidden cyberattack patterns targeting Industrial Control Systems (ICS). The authors propose a novel mining approach leveraging machine learning to identify subtle and previously unknown attack behaviors. Experimentation demonstrates improved detection of complex threats compared to existing methods.
+
+### Key Contributions
+- Introduces a new attack pattern mining framework tailored for ICS environments.
+- Develops algorithms capable of detecting stealthy and previously unrecognized threats.
+- Validates the approach on real-world ICS datasets, highlighting practical applicability.
+
+### Method & Results
+- Utilizes unsupervised and semi-supervised learning techniques to extract latent attack patterns from ICS network logs.
+- Evaluated on benchmark ICS datasets and simulated attack scenarios capturing diverse threat vectors.
+- Achieved up to 20% higher detection accuracy and 15% reduction in false positives relative to traditional signature-based and anomaly detection baselines.
+
+### Impact & Limitations
+- Enhances ICS cybersecurity by revealing covert threats, aiding proactive defense strategies.
+- Limitations include dependency on dataset quality and need for adaptation to evolving ICS protocols.
+- Future work suggested on real-time deployment and integration with ICS incident response systems.
 
 ---
 
