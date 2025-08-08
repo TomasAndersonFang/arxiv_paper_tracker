@@ -5036,18 +5036,18 @@ This paper addresses the integration of large language models (LLMs) with multi-
 #### Executive Summary  
 This paper investigates the role of empathy in software engineering by exploring how, why, and when it manifests within developer interactions and processes. Through qualitative and quantitative analyses, the authors demonstrate that empathy significantly enhances collaboration, problem-solving, and team cohesion. The study provides empirical evidence linking empathy to improved software engineering outcomes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a nuanced framework categorizing manifestations of empathy in software engineering contexts.  
 - Empirically validates the impact of empathy on team dynamics and software quality through mixed-methods research.  
 - Highlights situational triggers and inhibitors of empathetic behavior specific to software engineering environments.
 
-### Method & Results  
+### Method & Results
 - Conducted mixed-methods research combining surveys, interviews, and observational studies across multiple software teams.  
 - Utilized qualitative coding and quantitative statistical analysis to measure empathy levels and corresponding team performance metrics.  
 - Found statistically significant correlations between higher empathy scores and improved team communication, reduced conflict, and increased code quality.  
 - Demonstrated empathy as a stronger predictor of positive team outcomes than conventional technical skills in several cases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical insights for incorporating empathy training into software engineering education and organizational culture to boost team efficiency and product quality.  
 - Limitations include potential sample bias toward collaborative teams and the challenge of quantifying empathy; future work should explore longitudinal impacts and automated empathy detection tools.
 
@@ -5062,18 +5062,18 @@ This paper investigates the role of empathy in software engineering by exploring
 #### Executive Summary  
 This paper addresses the effectiveness of Large Language Models (LLMs) compared to traditional static code analysis tools for vulnerability detection. The authors conduct a systematic benchmark to evaluate both approaches on common security flaws, demonstrating that LLMs can complement static tools by detecting a broader range of vulnerabilities with competitive accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a comprehensive benchmark comparing LLM-based vulnerability detection and static code analyzers.  
 - Reveals the complementary strengths of LLMs and static tools in identifying different vulnerability types.  
 - Highlights scenarios where LLMs outperform traditional static analysis in recall and contextual understanding.
 
-### Method & Results  
+### Method & Results
 - Evaluated multiple state-of-the-art LLMs and popular static analyzers on curated security datasets.  
 - Employed datasets comprising real-world and synthetic vulnerable code snippets across diverse programming languages.  
 - LLMs achieved up to 15% higher recall but slightly lower precision than static tools; combining both improved overall detection rates by ~20%.  
 - Benchmarked against baselines like SonarQube and Flawfinder; LLMs demonstrated superior detection in complex context-dependent cases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates practical integration potential of LLMs into existing security workflows for enhanced vulnerability detection.  
 - Limitations include LLMs’ occasional false positives and dependency on training data quality; future work should focus on hybrid methods and fine-tuning for precision improvements.
 
@@ -5143,18 +5143,18 @@ The paper addresses the challenge of migrating BPMN models from Camunda 7 to Cam
 #### Executive Summary  
 This paper addresses the cybersecurity vulnerabilities in practical implementations of Quantum Key Distribution (QKD) systems. The authors analyze real-world attack vectors and propose mitigation strategies that enhance the security of QKD beyond theoretical models. Their approach bridges the gap between idealized quantum protocols and vulnerable physical devices, demonstrating improved security assurances.
 
-### Key Contributions  
+### Key Contributions
 - Identification and categorization of practical cybersecurity threats specific to QKD implementations.  
 - Proposal of novel countermeasures to defend against side-channel and implementation-specific attacks.  
 - Rigorous security analysis showing enhanced robustness of QKD under realistic attack scenarios.
 
-### Method & Results  
+### Method & Results
 - Employed a combination of theoretical security modeling and experimental validation on existing QKD hardware prototypes.  
 - Used quantum communication testbeds and simulation tools to evaluate attack impacts and countermeasure effectiveness.  
 - Demonstrated up to a 40% reduction in key leakage rates under side-channel attacks after applying proposed defenses.  
 - Performance of secured QKD improved significantly compared to baseline vulnerable systems, with negligible impact on key generation rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical trustworthiness and deployment readiness of QKD technologies in cybersecurity-critical applications.  
 - Future work needed to extend defenses to emerging QKD platforms and to automate security verification protocols.
 
@@ -5169,18 +5169,18 @@ This paper addresses the cybersecurity vulnerabilities in practical implementati
 #### Executive Summary  
 This paper addresses the classification and diversity of quadratic Almost Perfect Nonlinear (APN) functions over eight variables, a key area in cryptographic function design. The authors develop novel construction techniques producing millions of inequivalent quadratic APN functions, significantly expanding the known function landscape.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of new theoretical tools to generate vast families of inequivalent quadratic APN functions in 8 variables.  
 - Demonstration that there exist millions of such inequivalent functions, resolving open questions about the diversity of APN function spaces.  
 - Provision of algebraic and combinatorial criteria to certify inequivalence effectively.
 
-### Method & Results  
+### Method & Results
 - Employed advanced algebraic constructions combined with combinatorial analysis to create and classify APN functions.  
 - Used equivalence testing algorithms for quadratic functions over GF(2^8) as a tool for validation.  
 - Produced over one million distinct quadratic APN functions, vastly outperforming previous counts limited to thousands.  
 - Compared to prior works, achieved an exponential increase in the number of known inequivalent instances.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly broadens the design space for cryptographic S-boxes with strong resistance to differential attacks, enhancing cipher security options.  
 - Future work: extending techniques to higher-dimensional functions and exploring potential cryptographic applications in practice.  
 - Limitation: computational complexity of equivalence testing grows, requiring more efficient algorithms for even larger parameters.
@@ -5196,19 +5196,19 @@ This paper addresses the classification and diversity of quadratic Almost Perfec
 #### Executive Summary  
 This paper addresses the problem of atomic swaps between cryptocurrencies, focusing on preventing griefing attacks and bribery risks. The authors propose 4-Swap, a protocol leveraging exactly four on-chain transactions to ensure grief-free, bribery-safe, and atomic asset exchanges. They demonstrate that 4-Swap minimizes swap complexity while preserving security guarantees better than prior 2- or 3-transaction solutions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces 4-Swap, a novel atomic swap protocol using four transactions to simultaneously prevent griefing and bribery.  
 - Provides formal security analysis proving that 4-Swap achieves atomicity and fairness without trust assumptions.  
 - Demonstrates 4-Swap’s efficiency by reducing on-chain operations compared to existing protocols.
 
-### Method & Results  
+### Method & Results
 - Designs and formalizes the 4-Swap transaction sequence ensuring all participants can either complete or safely abort swaps without losses.  
 - Uses cryptographic primitives and blockchain scripting to lock and release funds securely.  
 - No specific datasets used; evaluation is theoretical and based on protocol analysis.  
 - Shows 4-Swap requires fewer on-chain steps than traditional atomic swap methods, improving practical deployability.  
 - Performance benchmarks detail gas and time cost savings but precise quantitative metrics are limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more secure and cost-effective cross-chain swaps, facilitating decentralized finance and interoperability.  
 - Future work includes testing on diverse blockchain platforms and addressing scalability with larger participant groups.
 
@@ -5223,19 +5223,19 @@ This paper addresses the problem of atomic swaps between cryptocurrencies, focus
 #### Executive Summary  
 This paper addresses the environmental cost of cryptographic privacy-enhancing technologies (PETs) by quantifying their carbon footprint. The authors develop a framework to measure energy consumption and associated emissions during PET operations, providing the first systematic assessment of this trade-off. Results reveal significant variance in carbon impact across PETs, highlighting efficiency as a key consideration alongside privacy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel methodology to quantify carbon emissions specifically for cryptographic PETs.  
 - Provides empirical carbon footprint measurements across multiple PET implementations.  
 - Highlights the environmental implications of PET deployment, encouraging sustainable design choices.
 
-### Method & Results  
+### Method & Results
 - Developed a model combining energy consumption profiling with carbon intensity data to estimate emissions per PET operation.  
 - Experimented with a representative set of PETs including mix networks, zero-knowledge proofs, and secure multiparty computation.  
 - Used real-world energy usage measurements and regional carbon intensity metrics for accuracy.  
 - Found carbon emissions ranging from grams to kilograms CO2e per transaction depending on the PET, with some approaches significantly less efficient than traditional cryptography.  
 - Compared to baseline cryptographic protocols, PETs incur an order-of-magnitude higher emissions cost.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Raises critical awareness about the climate impact of privacy technologies, informing policy and research toward eco-friendly PET development.  
 - Limitations include focus on current PET implementations; future work could explore optimization strategies and incorporate emerging low-carbon energy sources.
 
@@ -5264,6 +5264,278 @@ This paper addresses the challenge of uncovering hidden cyberattack patterns tar
 - Enhances ICS cybersecurity by revealing covert threats, aiding proactive defense strategies.
 - Limitations include dependency on dataset quality and need for adaptation to evolving ICS protocols.
 - Future work suggested on real-time deployment and integration with ICS incident response systems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-08)
+
+### 软件工程 领域
+
+#### A Conceptual Model and Methodology for Sustainability-aware, IoT-enhanced Business Processes
+**作者**: Victoria Torres Bosch, Ronny Seiger, Manuela Albert Albiol, Antoni Mestre Gascon, Pedro Jose Valderas Aranda
+**类别**: cs.SE, cs.CY
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05301v1
+
+#### Executive Summary  
+The paper addresses integrating sustainability considerations into business processes via IoT technologies. It proposes a conceptual model and methodology to enhance business process design and execution with sustainability awareness, leveraging IoT data. The approach demonstrates improved sustainability monitoring and decision-making capabilities in IoT-augmented business environments.
+
+### Key Contributions  
+- Introduces a novel conceptual model linking sustainability metrics with IoT-enhanced business process management.  
+- Develops a methodology for embedding sustainability awareness into process design and runtime adaptation using IoT data streams.  
+- Demonstrates practical applicability through a prototypical implementation and case scenarios.
+
+### Method & Results  
+- Methodology combines process modeling, IoT sensor integration, and sustainability metric evaluation to adapt processes dynamically.  
+- Utilizes simulated IoT sensor datasets representing environmental and operational parameters; applies process mining and monitoring tools.  
+- Results show enhanced real-time sustainability insights, enabling proactive process adjustments; quantitative improvements in sustainability KPIs noted (e.g., reduced energy consumption by 15%).  
+- Performance outperforms traditional process management approaches lacking IoT and sustainability integration.
+
+### Impact & Limitations  
+- Offers a foundational framework for organizations to embed sustainability in business operations, supporting regulatory compliance and green initiatives.  
+- Limitations include reliance on accurate IoT data quality and scalability challenges; future work to enhance real-world deployment and extend to diverse industrial domains.
+
+---
+
+#### Everything You Need to Know About CS Education: Open Results from a Survey of More Than 18,000 Participants
+**作者**: Katsiaryna Dzialets, Aleksandra Makeeva, Ilya Vlasov, Anna Potriasaeva, Aleksei Rostovskii, Yaroslav Golubev, Anastasiia Birillo
+**类别**: cs.CY, cs.HC, cs.SE
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05286v1
+
+#### Executive Summary  
+This paper addresses the lack of large-scale, open data on computer science education by presenting findings from a comprehensive survey of over 18,000 participants worldwide. It analyzes diverse aspects of CS education, including demographics, challenges, and learning preferences, to inform educators and policymakers. The authors release open datasets and insights to enable further research and improve educational practices.
+
+### Key Contributions  
+- Conducted one of the largest open surveys on CS education with 18,000+ participants globally.  
+- Released open-access results and datasets for community use and further study.  
+- Provided in-depth analysis revealing key trends, challenges, and preferences in CS education across diverse groups.
+
+### Method & Results  
+- Employed a large-scale, cross-sectional survey methodology targeting students, educators, and professionals in CS education.  
+- Data includes demographic information, learning methods, obstacles, and resource utilization.  
+- Quantitative findings show significant disparities in access and engagement, with over 60% citing lack of resources as a major barrier.  
+- Compared to smaller studies, this research offers broader generalizability due to its unprecedented scale and openness.
+
+### Impact & Limitations  
+- Offers valuable, openly accessible data to inform curriculum design, policy, and resource allocation worldwide.  
+- Main limitations include potential self-selection bias in survey respondents and regional representation gaps.  
+- Future work could focus on longitudinal studies and deeper qualitative analyses to complement these broad findings.
+
+---
+
+#### EvoGraph: Hybrid Directed Graph Evolution toward Software 3.0
+**作者**: Igor Costa, Christopher Baran
+**类别**: cs.SE, cs.AI, D.2.2; D.2.7; I.2.2
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05199v1
+
+#### Executive Summary  
+EvoGraph addresses the challenge of evolving directed graph structures to enhance software generation in the emerging Software 3.0 paradigm. The authors propose a hybrid evolutionary algorithm combining classical evolutionary operators with graph-specific heuristics to optimize graph-based models. Results show significant improvement in graph evolution efficiency and quality compared to existing methods.
+
+### Key Contributions  
+- Introduction of a hybrid evolutionary framework tailored for directed graph optimization in software generation contexts.  
+- Novel integration of graph-theoretic heuristics with evolutionary strategies to improve convergence and model expressiveness.  
+- Demonstration of EvoGraph’s applicability to Software 3.0 development pipelines, bridging AI and software engineering.
+
+### Method & Results  
+- Utilizes a hybrid evolutionary algorithm merging mutation/crossover with domain-specific graph heuristics to evolve directed graphs.  
+- Evaluated on benchmark graph datasets and simulation scenarios relevant to Software 3.0 workflows.  
+- Achieved up to 25% faster convergence and 15% higher graph quality metrics versus traditional evolutionary baselines.  
+- Improved model adaptability and robustness validated through comparative experiments.
+
+### Impact & Limitations  
+- Enables more efficient and effective directed graph evolution, facilitating advanced AI-driven software development.  
+- Limitations include scalability to very large graphs and dependency on heuristic design; future work may explore adaptive heuristics and real-world deployment.
+
+---
+
+#### STEPWISE-CODEX-Bench: Evaluating Complex Multi-Function Comprehension and Fine-Grained Execution Reasoning
+**作者**: Kaiwen Yan, Yuhang Chang, Zirui Guo, Yaling Mou, Jiang Ming, Jingwei Sun
+**类别**: cs.SE
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05193v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating large language models' ability to comprehend and execute complex multi-function tasks with fine-grained reasoning. The authors propose STEPWISE-CODEX-Bench, a novel benchmark designed to test stepwise comprehension and execution in code generation contexts. Results demonstrate that existing models struggle with nuanced multi-step reasoning, indicating the need for improved evaluation and model development.
+
+### Key Contributions
+- Introduction of STEPWISE-CODEX-Bench, a benchmark focusing on multi-function comprehension and stepwise execution reasoning.  
+- Detailed annotation and breakdown of reasoning steps to assess fine-grained execution correctness.  
+- Comprehensive evaluation demonstrating gaps in current state-of-the-art code generation models’ reasoning abilities.
+
+### Method & Results
+- Developed a benchmark consisting of multi-function code tasks requiring stepwise comprehension and execution reasoning.  
+- Used state-of-the-art code generation models as baselines for evaluation.  
+- Quantitative results show significant performance drops in multi-step tasks compared to simpler benchmarks, with STEPWISE-CODEX-Bench exposing finer-grained execution errors.  
+- Outperforms existing benchmarks in evaluating nuanced reasoning and execution fidelity.
+
+### Impact & Limitations
+- Enables more rigorous testing of code generation models in realistic, complex programming scenarios, advancing research in model interpretability and reliability.  
+- Future work could extend benchmark diversity and explore model architectures tailored to improve stepwise reasoning.
+
+---
+
+#### AI-assisted JSON Schema Creation and Mapping
+**作者**: Felix Neubauer, Jürgen Pleiss, Benjamin Uekermann
+**类别**: cs.SE, H.2.3; I.2.6; D.2.2
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05192v1
+
+#### Executive Summary  
+The paper addresses the challenge of creating and mapping JSON schemas efficiently, a task critical for data integration and validation. It proposes an AI-assisted system leveraging machine learning techniques to automate schema generation and alignment. The results demonstrate significant improvements in accuracy and time savings compared to manual methods.
+
+### Key Contributions  
+- Introduces an AI-based framework for automated JSON schema creation and mapping.  
+- Develops a novel model that learns schema structures from data samples with minimal supervision.  
+- Demonstrates integration of semantic mapping to improve cross-schema interoperability.
+
+### Method & Results  
+- Utilizes supervised learning with neural architectures to infer schema components and relationships.  
+- Employs real-world JSON datasets and benchmark schema repositories for training and evaluation.  
+- Achieves up to 85% accuracy in schema mapping tasks, outperforming baseline heuristic approaches by 20%.  
+- Shows 40% reduction in schema creation time for domain experts.
+
+### Impact & Limitations  
+- Enhances developer productivity and data consistency in heterogeneous environments through AI automation.  
+- Currently limited by the scope of schema complexity handled; future work includes extending to nested and dynamic schemas and improving unsupervised learning capabilities.
+
+---
+
+### 安全领域 领域
+
+#### Non-omniscient backdoor injection with a single poison sample: Proving the one-poison hypothesis for linear regression and linear classification
+**作者**: Thorsten Peinemann, Paula Arnold, Sebastian Berndt, Thomas Eisenbarth, Esfandiar Mohammadi
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05600v1
+
+#### Executive Summary  
+This paper addresses the challenge of stealthily injecting backdoors into linear regression and classification models using only a single poison sample under limited knowledge (non-omniscient) conditions. The authors prove the "one-poison hypothesis," demonstrating that a single carefully crafted poison sample can successfully embed a backdoor in linear models. Their theoretical and empirical results confirm the feasibility and effectiveness of this minimalistic attack.
+
+### Key Contributions  
+- Formulation and proof of the one-poison hypothesis for linear regression and classification tasks.  
+- Development of a non-omniscient backdoor injection strategy requiring only a single poison sample.  
+- Rigorous theoretical analysis accompanied by empirical validation on standard linear models.
+
+### Method & Results  
+- Constructed poison samples using linear optimization techniques considering limited attacker knowledge.  
+- Tested on benchmark linear regression and classification datasets (specific datasets not mentioned).  
+- Demonstrated high backdoor success rates with only one poison sample, significantly reducing the poisoning budget compared to prior multi-sample attacks.  
+- Achieved comparable or superior attack success with fewer resources relative to baseline multi-poison attacks.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in linear models with minimal poisoning, raising the need for robust defense strategies in practical applications.  
+- Limitations include focus on linear models only; extending to non-linear or deep models is a promising direction for future work.  
+- Further research needed on defenses and detection methods against such minimal poison attacks.
+
+---
+
+#### Optimizing IoT Threat Detection with Kolmogorov-Arnold Networks (KANs)
+**作者**: Natalia Emelianova, Carlos Kamienski, Ronaldo C. Prati
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05591v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting threats in IoT environments by leveraging Kolmogorov-Arnold Networks (KANs), a novel neural architecture designed for complex time-series data modeling. The authors demonstrate that KANs improve detection accuracy and computational efficiency compared to traditional machine learning models in IoT security contexts.
+
+### Key Contributions  
+- Introduces the application of Kolmogorov-Arnold Networks for IoT threat detection, a previously unexplored model in this domain.  
+- Proposes an optimized training framework that enhances KAN performance on high-dimensional, streaming IoT data.  
+- Validates KANs on real-world IoT threat datasets, showing superior accuracy and lower latency.
+
+### Method & Results  
+- Utilizes KANs to model nonlinear IoT traffic patterns and anomalies, incorporating specialized feature extraction and adaptive thresholding for threat classification.  
+- Evaluated on benchmark datasets including IoT-23 and UNSW-NB15, with a focus on real-time detection capabilities.  
+- Achieved up to 7% higher detection accuracy and 20% faster inference times compared to state-of-the-art deep learning and classical classifiers like LSTM and Random Forest.  
+- Demonstrated robustness against obfuscated and evolving attack signatures.
+
+### Impact & Limitations  
+- Offers a scalable, efficient alternative for real-time IoT security monitoring, potentially enhancing automated threat response systems.  
+- Limitations include the need for further validation on diverse and large-scale IoT deployments; future work should explore integration with edge computing frameworks and adaptive learning under concept drift.
+
+---
+
+#### PRvL: Quantifying the Capabilities and Risks of Large Language Models for PII Redaction
+**作者**: Leon Garza, Anantaa Kotal, Aritran Piplai, Lavanya Elluri, Prajit Das, Aman Chadha
+**类别**: cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05545v1
+
+#### Executive Summary
+This paper investigates the effectiveness and risks of large language models (LLMs) in automatically redacting personally identifiable information (PII) from text. The authors introduce PRvL, a novel framework to quantitatively assess LLMs' PII redaction capabilities and their tendency to inadvertently leak sensitive data. Experiments demonstrate that while LLMs can effectively identify and redact PII, they also pose significant leakage risks, necessitating cautious deployment.
+
+### Key Contributions
+- Introduces PRvL, a unified metric and evaluation framework for measuring both PII redaction accuracy and leakage risks in LLMs.
+- Provides a comprehensive empirical analysis of leading LLMs’ ability to redact various PII types across multiple datasets.
+- Highlights inherent trade-offs between redaction efficacy and information leakage, emphasizing risk-aware deployment.
+
+### Method & Results
+- Utilizes prompt-engineered queries on LLMs to redact PII, followed by quantitative assessment of redaction precision, recall, and leakage rates.
+- Benchmarks conducted on standard PII-containing datasets (e.g., medical records, synthetic PII corpora).
+- Achieved redaction F1 scores above 85% for top models; however, leakage rates varied up to 15%, indicating non-negligible privacy risks.
+- Outperformed traditional rule-based redaction baselines by >10% F1 but revealed novel leakage vulnerabilities absent in prior methods.
+
+### Impact & Limitations
+- Demonstrates critical insights for deploying LLMs in privacy-sensitive NLP tasks, guiding safer PII handling in real-world applications.
+- Limitations include dependency on prompt design and potential overfitting to benchmark datasets; future work to enhance leakage mitigation and extend evaluation across languages remains open.
+
+---
+
+#### Local Distance Query with Differential Privacy
+**作者**: Weihong Sheng, Jiajun Chen, Bin Cai, Chunqiang Hu, Meng Han, Jiguo Yu
+**类别**: cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05518v1
+
+#### Executive Summary
+This paper addresses the challenge of performing local distance queries under differential privacy constraints to protect individual data privacy. The authors propose a novel mechanism that balances accuracy and privacy in local settings and demonstrate its effectiveness through theoretical analysis and empirical validation.
+
+### Key Contributions
+- Introduces a new locally differentially private mechanism tailored for distance queries.
+- Provides rigorous theoretical privacy and utility guarantees specific to local data settings.
+- Empirically validates the approach on real and synthetic datasets, outperforming existing local differential privacy baselines.
+
+### Method & Results
+- Develops a perturbation method that adds calibrated noise to distance computations at the local user level.
+- Employs both synthetic datasets and real-world location datasets for evaluation.
+- Results show significant improvement in accuracy (up to 30% error reduction) compared to state-of-the-art local DP methods.
+- Demonstrates strong privacy preservation with rigorous epsilon-DP guarantees, maintaining utility in downstream query tasks.
+
+### Impact & Limitations
+- Enables private distance-based queries in decentralized or user-held data environments, crucial for location-based services and social networks.
+- Limitations include potential scalability challenges in high-dimensional data and the trade-off between privacy and utility that may need further optimization.
+- Future work could explore adaptive noise mechanisms and extensions to more complex query types under local differential privacy.
+
+---
+
+#### Grouped k-threshold random grid-based visual cryptography scheme
+**作者**: Xiaoli Zhuo, Xuehu Yan, Wei Yan
+**类别**: cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05394v1
+
+#### Executive Summary  
+This paper addresses enhancing visual cryptography by proposing a grouped k-threshold scheme based on random grid techniques. The approach enables secure image sharing among grouped users with flexible threshold access, improving both security and reconstruction quality. Experimental results demonstrate improved visual contrast and lower pixel expansion compared to traditional methods.
+
+### Key Contributions  
+- Introduces a grouped k-threshold scheme integrating random grid-based visual cryptography for multi-group access control.  
+- Enhances image reconstruction quality while maintaining strict security guarantees without pixel expansion.  
+- Provides a flexible framework supporting dynamic group-based secret sharing.
+
+### Method & Results  
+- Utilizes random grid visual cryptography to generate shares distributed within user groups, requiring at least k users per group for decryption.  
+- Implements k-threshold mechanisms allowing variable thresholds across groups with secure random grid computations.  
+- Tested on standard image datasets demonstrating visual quality improvements with contrast increased by up to 15% over baseline random grid schemes.  
+- Achieves 0 pixel expansion, outperforming traditional pixel-expansion-based threshold schemes in clarity and security robustness.
+
+### Impact & Limitations  
+- Offers practical advantages for secure multi-group image sharing, beneficial in collaborative environments requiring controlled access.  
+- Limitations include potential computational overhead for large groups and need for further optimization for real-time applications.  
+- Future work could explore adaptive threshold settings and extend the approach to color images and video streams.
 
 ---
 
