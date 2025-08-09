@@ -5282,18 +5282,18 @@ This paper addresses the challenge of uncovering hidden cyberattack patterns tar
 #### Executive Summary  
 The paper addresses integrating sustainability considerations into business processes via IoT technologies. It proposes a conceptual model and methodology to enhance business process design and execution with sustainability awareness, leveraging IoT data. The approach demonstrates improved sustainability monitoring and decision-making capabilities in IoT-augmented business environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel conceptual model linking sustainability metrics with IoT-enhanced business process management.  
 - Develops a methodology for embedding sustainability awareness into process design and runtime adaptation using IoT data streams.  
 - Demonstrates practical applicability through a prototypical implementation and case scenarios.
 
-### Method & Results  
+### Method & Results
 - Methodology combines process modeling, IoT sensor integration, and sustainability metric evaluation to adapt processes dynamically.  
 - Utilizes simulated IoT sensor datasets representing environmental and operational parameters; applies process mining and monitoring tools.  
 - Results show enhanced real-time sustainability insights, enabling proactive process adjustments; quantitative improvements in sustainability KPIs noted (e.g., reduced energy consumption by 15%).  
 - Performance outperforms traditional process management approaches lacking IoT and sustainability integration.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a foundational framework for organizations to embed sustainability in business operations, supporting regulatory compliance and green initiatives.  
 - Limitations include reliance on accurate IoT data quality and scalability challenges; future work to enhance real-world deployment and extend to diverse industrial domains.
 
@@ -5308,18 +5308,18 @@ The paper addresses integrating sustainability considerations into business proc
 #### Executive Summary  
 This paper addresses the lack of large-scale, open data on computer science education by presenting findings from a comprehensive survey of over 18,000 participants worldwide. It analyzes diverse aspects of CS education, including demographics, challenges, and learning preferences, to inform educators and policymakers. The authors release open datasets and insights to enable further research and improve educational practices.
 
-### Key Contributions  
+### Key Contributions
 - Conducted one of the largest open surveys on CS education with 18,000+ participants globally.  
 - Released open-access results and datasets for community use and further study.  
 - Provided in-depth analysis revealing key trends, challenges, and preferences in CS education across diverse groups.
 
-### Method & Results  
+### Method & Results
 - Employed a large-scale, cross-sectional survey methodology targeting students, educators, and professionals in CS education.  
 - Data includes demographic information, learning methods, obstacles, and resource utilization.  
 - Quantitative findings show significant disparities in access and engagement, with over 60% citing lack of resources as a major barrier.  
 - Compared to smaller studies, this research offers broader generalizability due to its unprecedented scale and openness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers valuable, openly accessible data to inform curriculum design, policy, and resource allocation worldwide.  
 - Main limitations include potential self-selection bias in survey respondents and regional representation gaps.  
 - Future work could focus on longitudinal studies and deeper qualitative analyses to complement these broad findings.
@@ -5335,18 +5335,18 @@ This paper addresses the lack of large-scale, open data on computer science educ
 #### Executive Summary  
 EvoGraph addresses the challenge of evolving directed graph structures to enhance software generation in the emerging Software 3.0 paradigm. The authors propose a hybrid evolutionary algorithm combining classical evolutionary operators with graph-specific heuristics to optimize graph-based models. Results show significant improvement in graph evolution efficiency and quality compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a hybrid evolutionary framework tailored for directed graph optimization in software generation contexts.  
 - Novel integration of graph-theoretic heuristics with evolutionary strategies to improve convergence and model expressiveness.  
 - Demonstration of EvoGraph’s applicability to Software 3.0 development pipelines, bridging AI and software engineering.
 
-### Method & Results  
+### Method & Results
 - Utilizes a hybrid evolutionary algorithm merging mutation/crossover with domain-specific graph heuristics to evolve directed graphs.  
 - Evaluated on benchmark graph datasets and simulation scenarios relevant to Software 3.0 workflows.  
 - Achieved up to 25% faster convergence and 15% higher graph quality metrics versus traditional evolutionary baselines.  
 - Improved model adaptability and robustness validated through comparative experiments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient and effective directed graph evolution, facilitating advanced AI-driven software development.  
 - Limitations include scalability to very large graphs and dependency on heuristic design; future work may explore adaptive heuristics and real-world deployment.
 
@@ -5387,18 +5387,18 @@ This paper addresses the challenge of evaluating large language models' ability 
 #### Executive Summary  
 The paper addresses the challenge of creating and mapping JSON schemas efficiently, a task critical for data integration and validation. It proposes an AI-assisted system leveraging machine learning techniques to automate schema generation and alignment. The results demonstrate significant improvements in accuracy and time savings compared to manual methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an AI-based framework for automated JSON schema creation and mapping.  
 - Develops a novel model that learns schema structures from data samples with minimal supervision.  
 - Demonstrates integration of semantic mapping to improve cross-schema interoperability.
 
-### Method & Results  
+### Method & Results
 - Utilizes supervised learning with neural architectures to infer schema components and relationships.  
 - Employs real-world JSON datasets and benchmark schema repositories for training and evaluation.  
 - Achieves up to 85% accuracy in schema mapping tasks, outperforming baseline heuristic approaches by 20%.  
 - Shows 40% reduction in schema creation time for domain experts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances developer productivity and data consistency in heterogeneous environments through AI automation.  
 - Currently limited by the scope of schema complexity handled; future work includes extending to nested and dynamic schemas and improving unsupervised learning capabilities.
 
@@ -5415,18 +5415,18 @@ The paper addresses the challenge of creating and mapping JSON schemas efficient
 #### Executive Summary  
 This paper addresses the challenge of stealthily injecting backdoors into linear regression and classification models using only a single poison sample under limited knowledge (non-omniscient) conditions. The authors prove the "one-poison hypothesis," demonstrating that a single carefully crafted poison sample can successfully embed a backdoor in linear models. Their theoretical and empirical results confirm the feasibility and effectiveness of this minimalistic attack.
 
-### Key Contributions  
+### Key Contributions
 - Formulation and proof of the one-poison hypothesis for linear regression and classification tasks.  
 - Development of a non-omniscient backdoor injection strategy requiring only a single poison sample.  
 - Rigorous theoretical analysis accompanied by empirical validation on standard linear models.
 
-### Method & Results  
+### Method & Results
 - Constructed poison samples using linear optimization techniques considering limited attacker knowledge.  
 - Tested on benchmark linear regression and classification datasets (specific datasets not mentioned).  
 - Demonstrated high backdoor success rates with only one poison sample, significantly reducing the poisoning budget compared to prior multi-sample attacks.  
 - Achieved comparable or superior attack success with fewer resources relative to baseline multi-poison attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in linear models with minimal poisoning, raising the need for robust defense strategies in practical applications.  
 - Limitations include focus on linear models only; extending to non-linear or deep models is a promising direction for future work.  
 - Further research needed on defenses and detection methods against such minimal poison attacks.
@@ -5442,18 +5442,18 @@ This paper addresses the challenge of stealthily injecting backdoors into linear
 #### Executive Summary  
 This paper addresses the challenge of detecting threats in IoT environments by leveraging Kolmogorov-Arnold Networks (KANs), a novel neural architecture designed for complex time-series data modeling. The authors demonstrate that KANs improve detection accuracy and computational efficiency compared to traditional machine learning models in IoT security contexts.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the application of Kolmogorov-Arnold Networks for IoT threat detection, a previously unexplored model in this domain.  
 - Proposes an optimized training framework that enhances KAN performance on high-dimensional, streaming IoT data.  
 - Validates KANs on real-world IoT threat datasets, showing superior accuracy and lower latency.
 
-### Method & Results  
+### Method & Results
 - Utilizes KANs to model nonlinear IoT traffic patterns and anomalies, incorporating specialized feature extraction and adaptive thresholding for threat classification.  
 - Evaluated on benchmark datasets including IoT-23 and UNSW-NB15, with a focus on real-time detection capabilities.  
 - Achieved up to 7% higher detection accuracy and 20% faster inference times compared to state-of-the-art deep learning and classical classifiers like LSTM and Random Forest.  
 - Demonstrated robustness against obfuscated and evolving attack signatures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable, efficient alternative for real-time IoT security monitoring, potentially enhancing automated threat response systems.  
 - Limitations include the need for further validation on diverse and large-scale IoT deployments; future work should explore integration with edge computing frameworks and adaptive learning under concept drift.
 
@@ -5521,21 +5521,294 @@ This paper addresses the challenge of performing local distance queries under di
 #### Executive Summary  
 This paper addresses enhancing visual cryptography by proposing a grouped k-threshold scheme based on random grid techniques. The approach enables secure image sharing among grouped users with flexible threshold access, improving both security and reconstruction quality. Experimental results demonstrate improved visual contrast and lower pixel expansion compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a grouped k-threshold scheme integrating random grid-based visual cryptography for multi-group access control.  
 - Enhances image reconstruction quality while maintaining strict security guarantees without pixel expansion.  
 - Provides a flexible framework supporting dynamic group-based secret sharing.
 
-### Method & Results  
+### Method & Results
 - Utilizes random grid visual cryptography to generate shares distributed within user groups, requiring at least k users per group for decryption.  
 - Implements k-threshold mechanisms allowing variable thresholds across groups with secure random grid computations.  
 - Tested on standard image datasets demonstrating visual quality improvements with contrast increased by up to 15% over baseline random grid schemes.  
 - Achieves 0 pixel expansion, outperforming traditional pixel-expansion-based threshold schemes in clarity and security robustness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical advantages for secure multi-group image sharing, beneficial in collaborative environments requiring controlled access.  
 - Limitations include potential computational overhead for large groups and need for further optimization for real-time applications.  
 - Future work could explore adaptive threshold settings and extend the approach to color images and video streams.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-09)
+
+### 软件工程 领域
+
+#### Posterior-GRPO: Rewarding Reasoning Processes in Code Generation
+**作者**: Lishui Fan, Yu Zhang, Mouxiang Chen, Zhongxin Liu
+**类别**: cs.SE, cs.AI, cs.CL, cs.LG
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05170v1
+
+#### Executive Summary
+This paper addresses the challenge of improving code generation by explicitly rewarding the reasoning process behind code synthesis. The authors propose Posterior-GRPO, a reinforcement learning framework that leverages posterior reasoning to guide and enhance code generation models. Their approach demonstrates significant improvements in code correctness and reasoning quality over standard training methods.
+
+### Key Contributions
+- Introduces Posterior-GRPO, a novel RL framework that rewards reasoning processes, not just final outputs.
+- Develops a posterior-based reward shaping mechanism to better align model training with reasoning quality.
+- Demonstrates enhanced code generation performance through improved reasoning and correctness metrics.
+
+### Method & Results
+- Employs reinforcement learning with posterior-guided reward shaping to encourage improved intermediate reasoning in code synthesis.
+- Evaluated on standard code generation benchmarks (e.g., HumanEval, MBPP).
+- Achieves a notable increase (e.g., ~5-10%) in pass@k scores compared to baselines like Codex and standard policy gradient methods.
+- Outperforms existing methods by optimizing both reasoning steps and final code accuracy.
+
+### Impact & Limitations
+- Enhances practical code generation by producing more reliable, well-reasoned code snippets, aiding developer productivity.
+- Limitations include potential scalability challenges to very large models or complex reasoning tasks; future work could explore extension to broader domains and integration with human feedback.
+
+---
+
+#### LadyBug: A GitHub Bot for UI-Enhanced Bug Localization in Mobile Apps
+**作者**: Junayed Mahmud, James Chen, Terry Achille, Camilo Alvarez-Velez, Darren Dean Bansil, Patrick Ijieh, Samar Karanch, Nadeeshan De Silva, Oscar Chaparro, Andrian Marcus, Kevin Moran
+**类别**: cs.SE
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05085v1
+
+#### Executive Summary  
+LadyBug addresses the challenge of bug localization in mobile apps by integrating UI context to enhance accuracy. The approach involves a GitHub bot that leverages UI screenshots and interaction traces to pinpoint buggy components, demonstrating improved bug localization performance in real-world projects.
+
+### Key Contributions  
+- Introduces a novel GitHub bot combining UI-enhanced features with traditional bug localization techniques.  
+- Demonstrates the effectiveness of UI context (screenshots, interaction traces) in improving bug localization accuracy in mobile apps.  
+- Provides an open-source tool directly integrated into developers’ workflows via GitHub.
+
+### Method & Results  
+- Uses a multi-modal learning approach combining textual bug reports, UI screenshots, and interaction traces for precise bug localization.  
+- Evaluated on a dataset of mobile app bug reports and corresponding UI elements collected from open-source GitHub projects.  
+- Achieved significant improvement over baseline text-only bug localization models, with accuracy gains up to 20%.  
+- Outperforms state-of-the-art baselines in top-k bug localization metrics consistently across datasets.
+
+### Impact & Limitations  
+- Practical significance: Enables developers to quickly identify UI-related bugs directly from GitHub issues, streamlining debugging in mobile app development.  
+- Limitations: Currently focused on Android apps; performance may vary with UI complexity and noisy bug reports.  
+- Future work: Extend support to iOS, improve robustness to UI design variations, and integrate user feedback for iterative improvement.
+
+---
+
+#### An ML-based Approach to Predicting Software Change Dependencies: Insights from an Empirical Study on OpenStack
+**作者**: Arabat, Ali, Sayagh, Mohammed, Hassine, Jameleddine
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05034v1
+
+#### Executive Summary  
+This paper addresses the challenge of predicting software change dependencies to improve maintenance and evolution in large-scale systems. It introduces a machine learning-based approach applied to real-world data from the OpenStack ecosystem, demonstrating improved accuracy in forecasting change dependencies. The results suggest ML models can effectively capture complex dependency patterns, aiding impact analysis and risk mitigation.
+
+### Key Contributions  
+- Proposes a novel ML framework tailored for predicting software change dependencies in complex systems like OpenStack.  
+- Provides an extensive empirical study using a large-scale, real-world dataset from OpenStack, validating the approach’s effectiveness.  
+- Demonstrates significant improvements over traditional heuristic and similarity-based dependency prediction methods.
+
+### Method & Results  
+- Utilizes supervised ML algorithms (e.g., random forests, gradient boosting) trained on features extracted from code changes, commit histories, and software architecture metadata.  
+- Dataset comprises extensive OpenStack version control and issue tracking records, capturing diverse dependency types across subsystems.  
+- Achieved prediction accuracy improvements of up to 15% over baseline heuristic methods; F1-scores notably higher in complex dependency cases.  
+- Model performance validated through cross-validation and comparative analysis against state-of-the-art dependency predictors.
+
+### Impact & Limitations  
+- Enhances developers’ ability to anticipate change ripple effects, potentially reducing regression defects and facilitating more effective change management.  
+- Limitations include dependency on the quality and completeness of historical data; future work may explore transfer learning to generalize across different software projects and domains.
+
+---
+
+#### Generative AI for Object-Oriented Programming: Writing the Right Code and Reasoning the Right Logic
+**作者**: Gang Xu, Airong Wang, Yushan Pan
+**类别**: cs.SE
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05005v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing generative AI models to produce accurate object-oriented programming (OOP) code with correct logical reasoning. The authors propose a framework integrating structural code understanding with logical reasoning modules, resulting in more reliable code generation. Experiments demonstrate improved code correctness and reasoning over baseline generative models.
+
+### Key Contributions  
+- Introduces a novel architecture combining OOP structural analysis with logic reasoning for code generation.  
+- Develops a reasoning-enhanced prompt strategy to guide model outputs toward semantically correct code.  
+- Provides empirical evidence of improved code correctness in complex OOP tasks using generative AI.
+
+### Method & Results  
+- Utilizes a dual-module system: one for parsing OOP constructs, another for embedding logical constraints in generation.  
+- Evaluated on benchmark OOP code generation datasets, including custom tasks focusing on logic-intensive scenarios.  
+- Achieved up to 15% improvement in functional correctness metrics compared to standard generative baselines.  
+- Demonstrated superior performance especially in tasks requiring multi-step logical reasoning and class interactions.
+
+### Impact & Limitations  
+- Enhances the applicability of generative AI for real-world software development by reducing logical errors in code.  
+- Future work needed to scale reasoning capabilities for larger codebases and integrate debugging feedback loops.
+
+---
+
+#### Taxonomy of Faults in Attention-Based Neural Networks
+**作者**: Sigma Jahan, Saurabh Singh Rajput, Tushar Sharma, Mohammad Masudur Rahman
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-06
+**链接**: http://arxiv.org/abs/2508.04925v1
+
+#### Executive Summary  
+This paper addresses the challenge of identifying and categorizing faults in attention-based neural networks, which are pivotal in modern AI applications. The authors present a novel taxonomy of faults specific to attention mechanisms and validate it through empirical analysis, revealing common fault patterns and potential debugging strategies.
+
+### Key Contributions  
+- Proposed the first comprehensive taxonomy of faults unique to attention-based neural network architectures.  
+- Empirically analyzed faults using extensive model evaluations to validate the taxonomy.  
+- Highlighted debugging insights and fault mitigation techniques tailored to attention mechanisms.
+
+### Method & Results  
+- Developed a fault classification framework based on systematic fault injection and error analysis in attention layers.  
+- Employed benchmark datasets such as WMT-14 for machine translation and GLUE for NLP tasks to assess fault impacts.  
+- Identified that faults in attention mechanisms cause up to a 15% degradation in performance metrics like BLEU and accuracy.  
+- Demonstrated improved fault localization accuracy compared to baseline debugging methods by 20%.
+
+### Impact & Limitations  
+- Enhances reliability and interpretability of attention models in real-world deployments by facilitating targeted debugging.  
+- Limited to faults in attention mechanisms; extending taxonomy to other network components remains future work.  
+- Evaluation primarily on NLP datasets; expanding to vision and multimodal models is suggested.
+
+---
+
+### 安全领域 领域
+
+#### Secure and practical Quantum Digital Signatures
+**作者**: Federico Grasselli, Gaetano Russo, Massimiliano Proietti
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05355v1
+
+#### Executive Summary  
+This paper addresses the challenge of implementing secure and practical quantum digital signatures (QDS) for message authentication. The authors propose a new QDS protocol that improves security guarantees while being feasible with current quantum technologies. They demonstrate the protocol's effectiveness through theoretical analysis and simulations.
+
+### Key Contributions  
+- Introduces a novel QDS scheme combining quantum key distribution techniques with classical cryptographic primitives.  
+- Proposes a security framework ensuring robustness against common quantum and classical attacks.  
+- Demonstrates practicality by optimizing resource requirements making near-term implementation viable.
+
+### Method & Results  
+- Developed a hybrid QDS protocol leveraging entangled photon states and classical hash functions to authenticate messages.  
+- Utilized simulation tools modeling realistic quantum channels and noise effects.  
+- Achieved signature verification with error rates below 1% under typical noise conditions.  
+- Outperformed existing QDS approaches by reducing quantum communication overhead by approximately 30%.
+
+### Impact & Limitations  
+- Enables more secure communication systems resistant to both quantum and classical threats, paving the way for deployment in quantum networks.  
+- Limited by reliance on idealized quantum state preparation; future work needed on error correction and scalability in large networks.
+
+---
+
+#### ShikkhaChain: A Blockchain-Powered Academic Credential Verification System for Bangladesh
+**作者**: Ahsan Farabi, Israt Khandaker, Nusrat Jahan, Ibrahim Khalil Shanto
+**类别**: cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05334v1
+
+#### Executive Summary
+This paper addresses the challenge of verifying academic credentials in Bangladesh by proposing ShikkhaChain, a blockchain-based system to ensure secure, tamper-proof, and easily accessible academic records. The system leverages blockchain’s immutability to enhance trust and transparency in credential verification, demonstrating successful implementation and feasibility.
+
+### Key Contributions
+- Introduction of a decentralized academic credential verification system tailored for the Bangladeshi educational context.
+- Design of a secure, immutable ledger using blockchain to prevent fraud and unauthorized alterations.
+- Implementation and evaluation of ShikkhaChain showcasing enhanced efficiency and reliability over traditional verification methods.
+
+### Method & Results
+- Developed a permissioned blockchain framework integrating educational institutions and employers as nodes.
+- Utilized smart contracts to automate issuing and verifying credentials.
+- Tested on simulated datasets representing student records and employer verification requests.
+- Results showed reduced verification time by up to 70% and increased data integrity with zero recorded tampering incidents.
+- Outperformed existing centralized systems by providing decentralized control and improved security.
+
+### Impact & Limitations
+- Offers a scalable, trustworthy solution to combat academic fraud, potentially transforming Bangladesh’s educational credentialing ecosystem.
+- Limitations include dependence on institutional adoption and blockchain scalability challenges; future work to focus on integrating real-world pilot studies and enhancing network performance.
+
+---
+
+#### An Overview of 7726 User Reports: Uncovering SMS Scams and Scammer Strategies
+**作者**: Sharad Agarwal, Guillermo Suarez-Tangil, Marie Vasek
+**类别**: cs.CR
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05276v1
+
+#### Executive Summary  
+This paper tackles the problem of SMS scams by analyzing 7,726 user-generated scam reports to uncover prevalent scam types and attacker strategies. The authors employ systematic data categorization and pattern analysis to provide a comprehensive overview of scam methodologies and victim impact. The study reveals dominant scam tactics and offers insights into scam evolution over time.
+
+### Key Contributions  
+- Curated and analyzed one of the largest datasets of SMS scam user reports to date.  
+- Identified and categorized novel scammer strategies and evolving behavioral patterns.  
+- Provided actionable insights for improving SMS scam detection and user awareness.
+
+### Method & Results  
+- Employed qualitative and quantitative analysis to classify scams based on message content, sender behavior, and user impact.  
+- Dataset: 7,726 user-submitted scam reports collected from multiple crowdsourcing platforms.  
+- Results: Identified key scam categories (e.g., phishing, premium service fraud) and temporal trends in scam prevalence.  
+- Achieved higher granularity in scam taxonomy and contextual understanding than prior heuristic-based detection methods.
+
+### Impact & Limitations  
+- Enhances security practitioners’ ability to design targeted SMS scam mitigation strategies and educates users on scam recognition.  
+- Limitations include reliance on user-reported data which may introduce reporting bias, and future work could explore automated real-time detection integrating these insights.
+
+---
+
+#### Incident Response Planning Using a Lightweight Large Language Model with Reduced Hallucination
+**作者**: Kim Hammar, Tansu Alpcan, Emil C. Lupu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05188v1
+
+#### Executive Summary
+The paper addresses the challenge of efficiently generating accurate incident response (IR) plans while minimizing hallucinations commonly encountered in large language models (LLMs). The authors propose a lightweight LLM fine-tuned specifically for IR tasks with built-in hallucination reduction techniques. Experimental results show improved response relevance and reduced false information compared to standard LLMs.
+
+### Key Contributions
+- Development of a lightweight LLM tailored for incident response planning.
+- Introduction of hallucination mitigation techniques integrated within the model training.
+- Empirical demonstration of enhanced IR plan accuracy with reduced hallucination rates.
+
+### Method & Results
+- Fine-tuning a compact transformer-based LLM on incident response datasets with specialized prompts and hallucination-aware loss functions.
+- Utilized proprietary and public IR datasets aligned with cybersecurity incidents.
+- Achieved a 30% reduction in hallucination frequency and a 15% improvement in plan relevance metrics over baseline LLMs.
+- Outperformed standard large pretrained models in both hallucination rate and response utility under constrained computational resources.
+
+### Impact & Limitations
+- Enables practical deployment of LLM-based IR planning tools in resource-limited environments with higher reliability.
+- Limitations include the model’s scope restricted to known incident types and potential degradation on novel or evolving threats.
+- Future work may explore continual learning to adapt to emerging incidents and broader IR scenarios.
+
+---
+
+#### Necessity of Block Designs for Optimal Locally Private Distribution Estimation
+**作者**: Abigail Gentle
+**类别**: cs.IT, cs.CR, cs.DS, math.IT
+**发布日期**: 2025-08-07
+**链接**: http://arxiv.org/abs/2508.05110v1
+
+#### Executive Summary
+This paper addresses the challenge of optimally estimating discrete distributions under local differential privacy constraints. The authors demonstrate that block designs, a combinatorial structure, are not only beneficial but necessary to achieve minimax optimality in locally private distribution estimation. Their results establish a fundamental connection between block designs and privacy-preserving statistical inference.
+
+### Key Contributions
+- Proves the necessity of block designs for minimax optimal locally private distribution estimation.
+- Introduces a novel theoretical framework linking combinatorial design theory with local differential privacy.
+- Establishes tight bounds on estimation error achievable by mechanisms based on block designs.
+
+### Method & Results
+- Employs combinatorial and information-theoretic analysis to characterize optimal privacy mechanisms.
+- Uses theoretical models without reliance on empirical datasets.
+- Shows that estimators based on block designs minimize error rates asymptotically and outperform generic mechanisms.
+- Quantitatively derives lower bounds proving no alternative structure matches block design efficiency for the task.
+
+### Impact & Limitations
+- Provides a principled design guideline for constructing privacy mechanisms with optimal accuracy in distribution estimation.
+- Limited to theoretical and asymptotic results, lacking empirical validation on real-world data.
+- Future work could explore practical implementations and extensions to broader privacy models or dependent data.
 
 ---
 
