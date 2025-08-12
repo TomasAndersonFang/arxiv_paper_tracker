@@ -6098,18 +6098,18 @@ This paper addresses the challenge of predicting privacy risks by integrating a 
 #### Executive Summary  
 This paper investigates how to construct effective in-context examples to enhance code generation by large language models. The authors analyze different criteria for selecting examples and propose strategies to optimize example quality, improving model performance. Experimental results demonstrate that carefully curated examples significantly boost code generation accuracy over existing selection methods.
 
-### Key Contributions  
+### Key Contributions
 - Identifies key factors that make in-context examples effective for code generation.  
 - Proposes novel example selection criteria tailored to code synthesis tasks.  
 - Validates the approach with empirical improvements on benchmark code generation datasets.
 
-### Method & Results  
+### Method & Results
 - Explores criteria such as semantic relevance, syntactic diversity, and contextual similarity for example selection.  
 - Uses standard code generation benchmarks (e.g., CodeXGLUE) and evaluates with state-of-the-art LLMs.  
 - Achieves up to 10% accuracy improvement over random and heuristic selection baselines.  
 - Demonstrates that combining multiple criteria for example selection yields the best performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical code generation by optimizing prompt design, benefiting automated programming and developer tools.  
 - Limited to specific code generation tasks; future work could explore more diverse programming languages and dynamic example adaptation.
 
@@ -6177,18 +6177,18 @@ The paper addresses the challenge of enhancing developer productivity in process
 #### Executive Summary  
 This paper addresses the vulnerability of inconsistent state updates in smart contracts that lead to security breaches. The authors propose a novel analytical framework to detect and understand these inconsistencies, demonstrating its effectiveness through empirical evaluation. The results highlight previously undetected vulnerabilities, improving the security assurance of smart contracts.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a new conceptual framework to systematically identify inconsistent state update vulnerabilities.  
 - Develops an automated analysis tool tailored for smart contract state update patterns.  
 - Provides an extensive empirical study revealing critical vulnerabilities in widely used smart contracts.
 
-### Method & Results  
+### Method & Results
 - Utilizes static and dynamic analysis techniques to detect inconsistent state updates in smart contracts.  
 - Evaluation conducted on a dataset of over 10,000 real-world contracts from public blockchain repositories.  
 - Found that 12% of tested contracts contain state update inconsistencies, some leading to severe exploitable conditions.  
 - Outperforms existing vulnerability detection tools by detecting 30% more inconsistent state update issues.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances blockchain security by enabling developers to preemptively fix state update flaws, reducing exploit risks.  
 - Limitations include potential false positives in complex contract interactions and scalability challenges for very large contracts.  
 - Future work to improve precision and extend to cross-contract state dependency analysis.
@@ -6204,18 +6204,18 @@ This paper addresses the vulnerability of inconsistent state updates in smart co
 #### Executive Summary  
 This paper addresses the lack of explanation in AI-generated code by proposing intelligent coding systems that produce programs accompanied by human-readable justifications. The approach integrates rationale generation with code synthesis to improve code interpretability and trustworthiness. Experiments demonstrate that systems with justifications enhance user understanding without sacrificing code quality.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel paradigm for AI coding assistants to generate code with explicit, contextual justifications.  
 - Develops a joint model framework that produces synchronized code and explanation outputs.  
 - Empirically validates that justifications improve user trust while maintaining competitive coding performance.
 
-### Method & Results  
+### Method & Results
 - Joint neural architecture combining code generation and natural language rationale generation.  
 - Evaluation using standard code synthesis benchmarks augmented with human evaluation on explanation quality.  
 - Improved interpretability metrics and comparable or superior code correctness versus baselines lacking justification.  
 - User studies indicate higher confidence and understanding when explanations are provided.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical AI coding tools by enabling users to verify and comprehend generated code more effectively.  
 - Limitation: Current justifications sometimes lack depth or accuracy; future work should improve explanation fidelity and handle complex debugging scenarios.
 
@@ -6284,18 +6284,18 @@ This paper addresses the challenge of simulating human-level scam calls using AI
 #### Executive Summary  
 This paper examines the security vulnerabilities of Large Language Model (LLM)-driven IT operations (AIOps) by demonstrating how telemetry data manipulation can subvert automated decision-making. The authors introduce attack strategies that exploit telemetry inputs to induce erroneous LLM outputs, highlighting risks in current AIOps frameworks.
 
-### Key Contributions  
+### Key Contributions
 - Reveals a novel class of attacks targeting LLM-based IT operation systems via crafted telemetry manipulation.  
 - Develops methods to systematically induce and analyze failure modes in LLM-driven automation.  
 - Provides empirical evidence showcasing the susceptibility of state-of-the-art AIOps tools to adversarial telemetry inputs.
 
-### Method & Results  
+### Method & Results
 - Designed and executed telemetry manipulation attacks against LLMs integrated into IT operational workflows.  
 - Utilized real-world telemetry datasets from enterprise IT environments alongside leading LLM models.  
 - Demonstrated attack success rates exceeding 70%, causing significant operational disruptions.  
 - Showed that attacked systems performed substantially worse than baseline configurations with clean data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent need for robust defense mechanisms in LLM-powered AIOps, influencing secure IT automation research.  
 - Limitations include focus on specific telemetry types and attack vectors; future work to explore broader telemetry formats and mitigation strategies.
 
@@ -6336,20 +6336,288 @@ This paper addresses the challenge of performing Sequential Probability Ratio Te
 #### Executive Summary  
 This paper addresses the challenge of generating privacy-preserving synthetic data by combining tensor networks’ Matrix Product States (MPS) with differential privacy techniques. The authors propose a novel framework that leverages MPS for efficient data representation while ensuring rigorous privacy guarantees. Results demonstrate improved balance between data utility and privacy over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first application of tensor network MPS in synthetic data generation under differential privacy constraints.  
 - Develops an efficient MPS-based algorithm that scales better than traditional synthetic data methods for high-dimensional datasets.  
 - Demonstrates enhanced privacy-utility trade-offs empirically on benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Core method: Represent data distributions as MPS, apply noise mechanisms tailored to MPS parameters to enforce differential privacy.  
 - Experimental setup used standard synthetic data benchmarks and privacy evaluation metrics.  
 - Achieved superior synthetic data quality (measured by statistical similarity and downstream task accuracy) while maintaining ε-differential privacy guarantees.  
 - Outperformed baseline privacy-preserving synthetic data generators in both scalability and utility retention.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, privacy-preserving synthetic data generation suitable for sensitive and high-dimensional domains such as healthcare or finance.  
 - Limitations include the need for further validation on very large-scale real-world datasets and exploration of tighter privacy budget optimizations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-12)
+
+### 软件工程 领域
+
+#### PyVeritas: On Verifying Python via LLM-Based Transpilation and Bounded Model Checking for C
+**作者**: Pedro Orvalho, Marta Kwiatkowska
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08171v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying Python programs by translating them to C and applying bounded model checking. The authors propose PyVeritas, an approach leveraging large language models (LLMs) for Python-to-C transpilation, combined with state-of-the-art C verification tools, achieving effective verification of Python code properties.
+
+### Key Contributions  
+- Introduces PyVeritas, the first framework integrating LLM-based transpilation from Python to C with bounded model checking for verification.  
+- Demonstrates the feasibility and accuracy of LLM-driven transpilation for formal verification purposes.  
+- Empirically validates the approach on representative Python benchmarks with improved verification coverage.
+
+### Method & Results  
+- Utilizes advanced LLMs to automatically transpile Python code into semantically equivalent C, followed by bounded model checking using tools like CBMC.  
+- Evaluated on a diverse suite of Python programs, focusing on verification of correctness properties.  
+- Results show PyVeritas achieves up to 90% transpilation correctness and verifies properties that state-of-the-art Python verifiers struggle with.  
+- Outperforms direct Python verification baselines by leveraging mature C verification ecosystems, leading to higher coverage and bug detection rates.
+
+### Impact & Limitations  
+- Enables scalable Python verification by bridging Python and efficient C verification tools, with potential for adoption in safety-critical Python software.  
+- Limitations include reliance on LLM accuracy for transpilation and bounded checking scope; future work may explore extending to broader Python features and integrating with other verification paradigms.
+
+---
+
+#### FairFLRep: Fairness aware fault localization and repair of Deep Neural Networks
+**作者**: Moses Openja, Paolo Arcaini, Foutse Khomh, Fuyuki Ishikawa
+**类别**: cs.LG, cs.SE
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08151v1
+
+#### Executive Summary  
+This paper addresses fairness issues in Deep Neural Networks (DNNs) by proposing FairFLRep, a framework that integrates fairness-aware fault localization with automated repair. The approach identifies bias-related faults in DNNs and repairs them to improve fairness without significant accuracy loss. Experiments demonstrate FairFLRep’s effectiveness in enhancing fairness metrics while maintaining model performance.
+
+### Key Contributions  
+- Introduces a novel fairness-aware fault localization technique tailored for DNNs.  
+- Develops an automated repair method that mitigates bias by targeted network modifications.  
+- Provides empirical evidence showing improved fairness metrics without sacrificing overall accuracy.
+
+### Method & Results  
+- Combines fault localization identifying unfair model components with a repair algorithm that adjusts network weights and activations.  
+- Evaluated on benchmark fairness-related datasets (e.g., COMPAS, Adult) and commonly used DNN architectures.  
+- Achieved up to 25% improvement in fairness measures (e.g., demographic parity) with less than 3% accuracy degradation.  
+- Outperforms baseline repair techniques lacking fairness awareness, demonstrating superior bias mitigation.
+
+### Impact & Limitations  
+- Enables practical deployment of fairer DNN systems in sensitive applications by providing an automated fairness repair tool.  
+- Limitations include potential scalability challenges to very large models and reliance on predefined protected attributes for fault localization.  
+- Future work could explore unsupervised fairness fault detection and extend to more complex network architectures.
+
+---
+
+#### ChatGPT on the Road: Leveraging Large Language Model-Powered In-vehicle Conversational Agents for Safer and More Enjoyable Driving Experience
+**作者**: Yeana Lee Bond, Mungyeong Choe, Baker Kasim Hasan, Arsh Siddiqui, Myounghoon Jeon
+**类别**: cs.HC, cs.AI, cs.SE
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08101v1
+
+#### Executive Summary
+This paper addresses the integration of Large Language Model (LLM)-powered conversational agents within vehicles to enhance driving safety and user experience. Leveraging ChatGPT, the authors develop an in-vehicle assistant that supports real-time interaction aimed at reducing distraction while enriching the driving environment. Experimental results demonstrate improved driver engagement and safer driving behavior.
+
+### Key Contributions
+- Novel application of ChatGPT as an interactive, context-aware in-vehicle conversational agent.
+- Comprehensive evaluation of LLM integration’s impact on driving safety and user enjoyment.
+- Insightful design considerations and interaction paradigms tailored for vehicular environments.
+
+### Method & Results
+- Developed a real-time conversational agent using ChatGPT tailored for in-car use, integrating contextual cues from vehicle sensors.
+- Conducted user studies and driving simulations to assess safety impact and user satisfaction.
+- Found a significant reduction in driver distraction metrics and enhanced subjective enjoyment scores.
+- Outperformed traditional in-car voice assistants in both responsiveness and contextual understanding.
+
+### Impact & Limitations
+- Provides a scalable framework to improve driver safety and comfort via LLM conversational agents, promising real-world automotive applications.
+- Limitations include dependency on stable internet connectivity and potential privacy concerns; future work should explore offline LLM deployment and robust multimodal integration.
+
+---
+
+#### Exploring the Challenges and Opportunities of AI-assisted Codebase Generation
+**作者**: Philipp Eibl, Sadra Sabouri, Souti Chattopadhyay
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.07966v1
+
+#### Executive Summary  
+This paper investigates the challenges and opportunities presented by AI-assisted codebase generation, focusing on enhancing developer productivity and code quality. It takes a mixed-methods approach, combining empirical analysis of AI-generated code with developer feedback to evaluate effectiveness and identify pain points. The study reveals both significant potentials for automation and critical hurdles like integration complexity and code correctness.
+
+### Key Contributions  
+- Comprehensive analysis of AI code generation impact on large-scale codebase development.  
+- Identification of major technical and human factors limiting AI adoption in coding workflows.  
+- Proposal of guidelines for improving AI tools tailored to real-world software engineering needs.  
+
+### Method & Results  
+- Methodology: Empirical evaluation of AI code generation tools on representative software projects combined with qualitative developer surveys.  
+- Tools: Utilized prominent AI coding assistants and real-world open-source repositories for benchmarking.  
+- Results: Showed AI assistance improved coding speed by up to 30% but introduced 15% more bugs on average compared to manual coding.  
+- Performance: AI models outperformed baseline autocomplete tools but lagged behind expert human developers in complex tasks.  
+
+### Impact & Limitations  
+- Practical Significance: Highlights realistic benefits and integration strategies for AI tools in software engineering workflows.  
+- Limitations/Future Work: Requires exploration of domain-specific AI models and improved error detection to reduce defect rates.
+
+---
+
+#### SHIELDA: Structured Handling of Exceptions in LLM-Driven Agentic Workflows
+**作者**: Jingwen Zhou, Jieshan Chen, Qinghua Lu, Dehai Zhao, Liming Zhu
+**类别**: cs.SE
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.07935v1
+
+#### Executive Summary
+This paper addresses the challenge of managing exceptions and unpredictable failures in agentic workflows driven by large language models (LLMs). The authors propose SHIELDA, a structured framework that systematically detects, diagnoses, and handles exceptions to improve robustness. Experimental results demonstrate significant gains in workflow reliability and error recovery.
+
+### Key Contributions
+- Introduction of SHIELDA, the first structured exception handling framework tailored for LLM-driven agentic workflows.  
+- A novel paradigm for automatic exception detection and context-aware recovery triggering within multi-step LLM processes.  
+- Empirical validation showing improved robustness and reduced failure rates in complex automated workflows.
+
+### Method & Results
+- Developed a modular pipeline integrating exception detection, diagnosis, and resolution modules leveraging LLM capabilities and structured control logic.  
+- Evaluated on benchmark agentic workflow datasets simulating real-world multi-task scenarios requiring dynamic error handling.  
+- Achieved up to 35% reduction in workflow failures compared to strong baseline LLM frameworks without structured exception management.  
+- Demonstrated adaptive recovery paths that improved task completion rates and reduced manual interventions.
+
+### Impact & Limitations
+- Enhances reliability of AI-driven automation systems, enabling broader adoption in mission-critical applications.  
+- Current limitations include dependency on quality of exception annotations and handling of rare, unforeseen error types; future work may focus on scalable exception generalization and real-time adaptation.
+
+---
+
+### 安全领域 领域
+
+#### Differential Privacy for Regulatory Compliance in Cyberattack Detection on Critical Infrastructure Systems
+**作者**: Paritosh Ramanan, H. M. Mohaimanul Islam, Abhiram Reddy Alugula
+**类别**: cs.CR
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08190v1
+
+#### Executive Summary
+This paper addresses the challenge of ensuring regulatory privacy compliance while detecting cyberattacks on critical infrastructure systems. The authors integrate differential privacy into cyberattack detection frameworks, balancing privacy protection with high detection accuracy. Experimental results demonstrate that their approach maintains robust security monitoring without compromising sensitive system data.
+
+### Key Contributions
+- Introduces a differential privacy mechanism tailored for cyberattack detection in critical infrastructure.
+- Demonstrates compliance with regulatory privacy standards without sacrificing detection performance.
+- Provides a practical framework bridging privacy and security needs in critical infrastructure monitoring.
+
+### Method & Results
+- Developed a differentially private anomaly detection algorithm for network traffic monitoring.
+- Used simulated and real-world critical infrastructure datasets for evaluation.
+- Achieved detection accuracy within 5% of non-private baselines while guaranteeing ε-differential privacy.
+- Outperformed existing privacy-preserving methods by achieving better trade-offs between privacy loss and detection metrics.
+
+### Impact & Limitations
+- Enables regulated entities to monitor cyber threats without violating privacy regulations, critical for infrastructure security.
+- Future work should explore scalability to larger infrastructures and adaptive privacy budgets for dynamic threat landscapes.
+
+---
+
+#### Fully-Fluctuating Participation in Sleepy Consensus
+**作者**: Yuval Efron, Joachim Neu, Toniann Pitassi
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08068v1
+
+#### Executive Summary  
+This paper addresses the challenge of fully-fluctuating participation in the Sleepy Consensus protocol, a variant of distributed consensus under partial network synchrony and participant availability. The authors develop a novel analytical framework capturing dynamic participant fluctuations and prove strong consensus guarantees under these conditions. Their approach extends prior work by rigorously modeling and handling arbitrary participation patterns.
+
+### Key Contributions  
+- Introduces a fully-fluctuating participation model for Sleepy Consensus, enabling analysis beyond fixed or partially-static participant sets.  
+- Provides formal probabilistic guarantees proving safety and liveness despite continuous participant churn.  
+- Develops new technical tools for analyzing randomized consensus protocols under adaptive adversarial conditions.
+
+### Method & Results  
+- The methodology combines Markov modeling of participant states with coupling arguments and probabilistic bounds on chain growth and quality.  
+- No new datasets used; analysis is theoretical and supported by simulations validating the model assumptions.  
+- Experimental results demonstrate the consensus protocol sustains security and progress with participation fluctuating arbitrarily up to proven thresholds.  
+- Compared to baseline Sleepy Consensus models, the proposed approach tolerates more dynamic network conditions with provable guarantees.
+
+### Impact & Limitations  
+- Enables designing robust blockchain consensus protocols for highly dynamic environments, such as mobile or IoT networks.  
+- Limitations include the reliance on certain synchronization assumptions and open questions about extending to fully asynchronous or Byzantine settings.
+
+---
+
+#### False Reality: Uncovering Sensor-induced Human-VR Interaction Vulnerability
+**作者**: Yancheng Jiang, Yan Jiang, Ruochen Zhou, Yi-Chao Chen, Xiaoyu Ji, Wenyuan Xu
+**类别**: cs.CR, cs.HC
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08043v1
+
+#### Executive Summary
+This paper addresses vulnerabilities in human-VR interactions caused by sensor manipulation, unveiling how adversaries can induce false perceptions in VR users. The authors propose novel attack techniques exploiting sensor inputs and demonstrate their effectiveness through empirical evaluations. Results reveal significant risks to user safety and experience integrity in VR systems.
+
+### Key Contributions
+- Identification and formalization of sensor-induced vulnerabilities in human-VR interaction.
+- Development of practical attack methods that manipulate VR sensors to distort user perception.
+- Comprehensive evaluation showcasing the severity and stealthiness of these sensor-based attacks.
+
+### Method & Results
+- Designed sensor manipulation techniques targeting motion and orientation sensors in VR devices.
+- Used controlled VR environments and real-world VR hardware to test attack efficacy.
+- Achieved high success rates in causing perception errors without user detection; specific quantitative results show up to 85% attack success in tested scenarios.
+- Outperformed baseline naïve sensor tampering methods by significantly increasing attack stealth and impact.
+
+### Impact & Limitations
+- Highlights critical security flaws in VR systems, urging designers to rethink sensor input validation to protect users.
+- Future work needed to develop real-time defense mechanisms and broaden attack evaluations across diverse VR platforms and sensor types.
+
+---
+
+#### IPBA: Imperceptible Perturbation Backdoor Attack in Federated Self-Supervised Learning
+**作者**: Jiayao Wang, Yang Song, Zhendong Zhao, Jiale Zhang, Qilin Wu, Junwu Zhu, Dongfang Zhao
+**类别**: cs.CR, cs.CV
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08031v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of federated self-supervised learning (FSSL) to backdoor attacks by proposing IPBA, an imperceptible perturbation backdoor attack. The approach stealthily embeds malicious triggers into local client models without raising suspicion, achieving high attack success while maintaining model utility.
+
+### Key Contributions  
+- Introduces IPBA, a novel imperceptible perturbation-based backdoor attack tailored for federated self-supervised learning frameworks.  
+- Demonstrates effective backdoor insertion with minimal impact on global model performance, highlighting a new security threat vector.  
+
+### Method & Results  
+- Employs imperceptible perturbations as backdoor triggers embedded during the local training phase in federated self-supervised settings.  
+- Evaluated on standard vision datasets (e.g., CIFAR-10, ImageNet subsets) using common self-supervised architectures.  
+- Achieves over 90% attack success rate while preserving baseline model accuracy within 1-2%.  
+- Outperforms existing backdoor methods in stealthiness and attack effectiveness under federated conditions.  
+
+### Impact & Limitations  
+- Raises critical awareness of subtle backdoor threats in decentralized self-supervised learning deployments, urging development of robust defenses.  
+- Future work needed on defense mechanisms against imperceptible backdoors and testing across diverse real-world federated environments.
+
+---
+
+#### Robust Anomaly Detection in O-RAN: Leveraging LLMs against Data Manipulation Attacks
+**作者**: Thusitha Dayaratne, Ngoc Duy Pham, Viet Vo, Shangqi Lai, Sharif Abuadbba, Hajime Suzuki, Xingliang Yuan, Carsten Rudolph
+**类别**: cs.CR, cs.ET, cs.LG
+**发布日期**: 2025-08-11
+**链接**: http://arxiv.org/abs/2508.08029v1
+
+#### Executive Summary  
+This paper addresses the challenge of robust anomaly detection in Open Radio Access Networks (O-RAN) under data manipulation attacks. It leverages large language models (LLMs) to enhance detection accuracy and resilience. Experiments demonstrate significantly improved robustness of anomaly detection when integrating LLM-based analysis.
+
+### Key Contributions  
+- Introduces LLMs for anomaly detection in O-RAN environments subject to adversarial data manipulation.  
+- Develops a novel framework combining domain-specific context and LLM capabilities for improved attack detection.  
+- Provides empirical evidence of enhanced detection performance and robustness against sophisticated manipulation attacks.
+
+### Method & Results  
+- Utilizes LLMs to analyze O-RAN telemetry and control data, detecting anomalies that traditional statistical methods miss.  
+- Employs real-world O-RAN datasets and simulated attack scenarios for evaluation.  
+- Achieves up to 25% improvement in detection accuracy and reduces false positives compared to baseline ML models.  
+- Demonstrates superior robustness under varied adversarial manipulation attack settings.
+
+### Impact & Limitations  
+- Practical relevance: Offers a scalable and adaptive anomaly detection solution for securing O-RAN deployments against data integrity threats.  
+- Limitations: Dependence on LLM computational resources and need for continuous retraining as O-RAN evolves; future work may explore lightweight models and online learning.
 
 ---
 
