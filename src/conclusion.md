@@ -6368,18 +6368,18 @@ This paper addresses the challenge of generating privacy-preserving synthetic da
 #### Executive Summary  
 This paper addresses the challenge of verifying Python programs by translating them to C and applying bounded model checking. The authors propose PyVeritas, an approach leveraging large language models (LLMs) for Python-to-C transpilation, combined with state-of-the-art C verification tools, achieving effective verification of Python code properties.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PyVeritas, the first framework integrating LLM-based transpilation from Python to C with bounded model checking for verification.  
 - Demonstrates the feasibility and accuracy of LLM-driven transpilation for formal verification purposes.  
 - Empirically validates the approach on representative Python benchmarks with improved verification coverage.
 
-### Method & Results  
+### Method & Results
 - Utilizes advanced LLMs to automatically transpile Python code into semantically equivalent C, followed by bounded model checking using tools like CBMC.  
 - Evaluated on a diverse suite of Python programs, focusing on verification of correctness properties.  
 - Results show PyVeritas achieves up to 90% transpilation correctness and verifies properties that state-of-the-art Python verifiers struggle with.  
 - Outperforms direct Python verification baselines by leveraging mature C verification ecosystems, leading to higher coverage and bug detection rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable Python verification by bridging Python and efficient C verification tools, with potential for adoption in safety-critical Python software.  
 - Limitations include reliance on LLM accuracy for transpilation and bounded checking scope; future work may explore extending to broader Python features and integrating with other verification paradigms.
 
@@ -6394,18 +6394,18 @@ This paper addresses the challenge of verifying Python programs by translating t
 #### Executive Summary  
 This paper addresses fairness issues in Deep Neural Networks (DNNs) by proposing FairFLRep, a framework that integrates fairness-aware fault localization with automated repair. The approach identifies bias-related faults in DNNs and repairs them to improve fairness without significant accuracy loss. Experiments demonstrate FairFLRep’s effectiveness in enhancing fairness metrics while maintaining model performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel fairness-aware fault localization technique tailored for DNNs.  
 - Develops an automated repair method that mitigates bias by targeted network modifications.  
 - Provides empirical evidence showing improved fairness metrics without sacrificing overall accuracy.
 
-### Method & Results  
+### Method & Results
 - Combines fault localization identifying unfair model components with a repair algorithm that adjusts network weights and activations.  
 - Evaluated on benchmark fairness-related datasets (e.g., COMPAS, Adult) and commonly used DNN architectures.  
 - Achieved up to 25% improvement in fairness measures (e.g., demographic parity) with less than 3% accuracy degradation.  
 - Outperforms baseline repair techniques lacking fairness awareness, demonstrating superior bias mitigation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of fairer DNN systems in sensitive applications by providing an automated fairness repair tool.  
 - Limitations include potential scalability challenges to very large models and reliance on predefined protected attributes for fault localization.  
 - Future work could explore unsupervised fairness fault detection and extend to more complex network architectures.
@@ -6447,18 +6447,18 @@ This paper addresses the integration of Large Language Model (LLM)-powered conve
 #### Executive Summary  
 This paper investigates the challenges and opportunities presented by AI-assisted codebase generation, focusing on enhancing developer productivity and code quality. It takes a mixed-methods approach, combining empirical analysis of AI-generated code with developer feedback to evaluate effectiveness and identify pain points. The study reveals both significant potentials for automation and critical hurdles like integration complexity and code correctness.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of AI code generation impact on large-scale codebase development.  
 - Identification of major technical and human factors limiting AI adoption in coding workflows.  
 - Proposal of guidelines for improving AI tools tailored to real-world software engineering needs.  
 
-### Method & Results  
+### Method & Results
 - Methodology: Empirical evaluation of AI code generation tools on representative software projects combined with qualitative developer surveys.  
 - Tools: Utilized prominent AI coding assistants and real-world open-source repositories for benchmarking.  
 - Results: Showed AI assistance improved coding speed by up to 30% but introduced 15% more bugs on average compared to manual coding.  
 - Performance: AI models outperformed baseline autocomplete tools but lagged behind expert human developers in complex tasks.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Highlights realistic benefits and integration strategies for AI tools in software engineering workflows.  
 - Limitations/Future Work: Requires exploration of domain-specific AI models and improved error detection to reduce defect rates.
 
@@ -6527,18 +6527,18 @@ This paper addresses the challenge of ensuring regulatory privacy compliance whi
 #### Executive Summary  
 This paper addresses the challenge of fully-fluctuating participation in the Sleepy Consensus protocol, a variant of distributed consensus under partial network synchrony and participant availability. The authors develop a novel analytical framework capturing dynamic participant fluctuations and prove strong consensus guarantees under these conditions. Their approach extends prior work by rigorously modeling and handling arbitrary participation patterns.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a fully-fluctuating participation model for Sleepy Consensus, enabling analysis beyond fixed or partially-static participant sets.  
 - Provides formal probabilistic guarantees proving safety and liveness despite continuous participant churn.  
 - Develops new technical tools for analyzing randomized consensus protocols under adaptive adversarial conditions.
 
-### Method & Results  
+### Method & Results
 - The methodology combines Markov modeling of participant states with coupling arguments and probabilistic bounds on chain growth and quality.  
 - No new datasets used; analysis is theoretical and supported by simulations validating the model assumptions.  
 - Experimental results demonstrate the consensus protocol sustains security and progress with participation fluctuating arbitrarily up to proven thresholds.  
 - Compared to baseline Sleepy Consensus models, the proposed approach tolerates more dynamic network conditions with provable guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables designing robust blockchain consensus protocols for highly dynamic environments, such as mobile or IoT networks.  
 - Limitations include the reliance on certain synchronization assumptions and open questions about extending to fully asynchronous or Byzantine settings.
 
@@ -6579,17 +6579,17 @@ This paper addresses vulnerabilities in human-VR interactions caused by sensor m
 #### Executive Summary  
 This paper addresses the vulnerability of federated self-supervised learning (FSSL) to backdoor attacks by proposing IPBA, an imperceptible perturbation backdoor attack. The approach stealthily embeds malicious triggers into local client models without raising suspicion, achieving high attack success while maintaining model utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces IPBA, a novel imperceptible perturbation-based backdoor attack tailored for federated self-supervised learning frameworks.  
 - Demonstrates effective backdoor insertion with minimal impact on global model performance, highlighting a new security threat vector.  
 
-### Method & Results  
+### Method & Results
 - Employs imperceptible perturbations as backdoor triggers embedded during the local training phase in federated self-supervised settings.  
 - Evaluated on standard vision datasets (e.g., CIFAR-10, ImageNet subsets) using common self-supervised architectures.  
 - Achieves over 90% attack success rate while preserving baseline model accuracy within 1-2%.  
 - Outperforms existing backdoor methods in stealthiness and attack effectiveness under federated conditions.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Raises critical awareness of subtle backdoor threats in decentralized self-supervised learning deployments, urging development of robust defenses.  
 - Future work needed on defense mechanisms against imperceptible backdoors and testing across diverse real-world federated environments.
 
@@ -6604,20 +6604,290 @@ This paper addresses the vulnerability of federated self-supervised learning (FS
 #### Executive Summary  
 This paper addresses the challenge of robust anomaly detection in Open Radio Access Networks (O-RAN) under data manipulation attacks. It leverages large language models (LLMs) to enhance detection accuracy and resilience. Experiments demonstrate significantly improved robustness of anomaly detection when integrating LLM-based analysis.
 
-### Key Contributions  
+### Key Contributions
 - Introduces LLMs for anomaly detection in O-RAN environments subject to adversarial data manipulation.  
 - Develops a novel framework combining domain-specific context and LLM capabilities for improved attack detection.  
 - Provides empirical evidence of enhanced detection performance and robustness against sophisticated manipulation attacks.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to analyze O-RAN telemetry and control data, detecting anomalies that traditional statistical methods miss.  
 - Employs real-world O-RAN datasets and simulated attack scenarios for evaluation.  
 - Achieves up to 25% improvement in detection accuracy and reduces false positives compared to baseline ML models.  
 - Demonstrates superior robustness under varied adversarial manipulation attack settings.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical relevance: Offers a scalable and adaptive anomaly detection solution for securing O-RAN deployments against data integrity threats.  
 - Limitations: Dependence on LLM computational resources and need for continuous retraining as O-RAN evolves; future work may explore lightweight models and online learning.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-13)
+
+### 软件工程 领域
+
+#### Neutone SDK: An Open Source Framework for Neural Audio Processing
+**作者**: Christopher Mitcheltree, Bogdan Teleaga, Andrew Fyfe, Naotake Masuda, Matthias Schäfer, Alfie Bradic, Nao Tokui
+**类别**: cs.SD, cs.SE, eess.AS
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09126v1
+
+#### Executive Summary  
+Neutone SDK addresses the need for an accessible, modular framework that streamlines neural audio processing workflows. The authors introduce an open-source toolkit enabling efficient development, integration, and evaluation of neural audio models. The framework demonstrates competitive performance across key audio tasks while facilitating reproducible research.
+
+### Key Contributions  
+- Introduction of a unified, open-source SDK tailored specifically for neural audio processing pipelines.  
+- Modular design allowing easy integration of novel neural architectures and audio processing modules.  
+- Benchmarking suite embedded to evaluate model performance consistently across tasks.
+
+### Method & Results  
+- Implements a flexible pipeline architecture supporting data preprocessing, model training, and inference for audio applications.  
+- Utilizes standard audio datasets like LibriSpeech and MUSDB18 for validation.  
+- Experimental results show state-of-the-art or comparable accuracy in speech enhancement and music source separation tasks (e.g., improvements of 2-3 dB SDR over baselines).  
+- Outperforms several existing toolkits by offering end-to-end workflow integration and enhanced reproducibility.
+
+### Impact & Limitations  
+- Enables researchers and developers to accelerate neural audio model development with standardized tools and benchmarking, fostering innovation and collaboration.  
+- Future work includes expanding supported audio tasks and optimizing runtime efficiency for embedded systems.
+
+---
+
+#### AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators
+**作者**: Jason Chou, Ao Liu, Yuchi Deng, Zhiying Zeng, Tao Zhang, Haotian Zhu, Jianwei Cai, Yue Mao, Chenchen Zhang, Lingyun Tan, Ziyan Xu, Bohui Zhai, Hengyi Liu, Speed Zhu, Wiggin Zhou, Fengzong Lian
+**类别**: cs.CL, cs.SE
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09101v1
+
+#### Executive Summary  
+This paper addresses the challenge of creating diverse and reliable benchmarks for evaluating large language models (LLMs) on code generation tasks. The authors propose AutoCodeBench, an automated framework that leverages LLMs to generate comprehensive code benchmarks without heavy human intervention. Results demonstrate that AutoCodeBench produces high-quality, diverse benchmarks that effectively assess LLM coding capabilities.
+
+### Key Contributions  
+- Introduces AutoCodeBench, the first automated benchmark generator for code generation using LLMs.  
+- Demonstrates the use of LLMs not only as coding agents but as automatic benchmark creators.  
+- Empirically validates benchmark quality and diversity, improving evaluation coverage over existing fixed benchmarks.
+
+### Method & Results  
+- Utilizes LLMs to generate coding problems, including problem statements, test suites, and solutions automatically.  
+- Employs a pipeline integrating prompt engineering, filtering, and verification to ensure benchmark validity.  
+- Experiments conducted on multiple state-of-the-art LLMs; benchmarks show increased problem diversity by 30% and better alignment with real-world coding challenges.  
+- AutoCodeBench-derived benchmarks expose performance gaps in leading LLMs, improving model differentiation compared to traditional benchmarks.
+
+### Impact & Limitations  
+- Enables scalable, adaptive benchmarking for emerging LLM code models, reducing human effort and bias.  
+- Limitations include reliance on initial LLM quality for benchmark generation and potential risk of generated benchmarks lacking edge-case coverage.  
+- Future work could explore multi-model collaboration and human-in-the-loop refinement for enhanced benchmark robustness.
+
+---
+
+#### Toward Automated Hypervisor Scenario Generation Based on VM Workload Profiling for Resource-Constrained Environments
+**作者**: Hyunwoo Kim, Jaeseong Lee, Sunpyo Hong, Changmin Han
+**类别**: cs.SE
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.08952v1
+
+#### Executive Summary
+This paper addresses the challenge of generating realistic hypervisor testing scenarios tailored to resource-constrained environments by profiling virtual machine (VM) workloads. The authors propose an automated framework that captures VM workload characteristics to synthesize relevant hypervisor scenarios, demonstrating improved scenario relevance and resource efficiency.
+
+### Key Contributions
+- Introduces a novel automated method for hypervisor scenario generation driven by VM workload profiling.
+- Develops a lightweight profiling mechanism suitable for environments with limited computational resources.
+- Validates the approach through quantitative experiments showing enhanced scenario representativeness.
+
+### Method & Results
+- Utilizes runtime VM workload profiling to extract key performance metrics, feeding into a scenario generation engine.
+- Implements the approach on a customized testbed simulating resource-constrained hypervisor environments.
+- Experimental results indicate up to 30% improvement in the realism of generated scenarios, with 25% less resource consumption than traditional manual scenario creation.
+- Outperforms baseline scenario generation techniques in efficiency and scenario relevance metrics.
+
+### Impact & Limitations
+- Enables more efficient hypervisor testing in constrained environments, potentially improving virtualization system reliability and performance tuning.
+- Future work includes expanding workload profiling to cover diverse VM types and integrating adaptive scenario update mechanisms for dynamic workload changes.
+
+---
+
+#### Empirical Analysis of Temporal and Spatial Fault Characteristics in Multi-Fault Bug Repositories
+**作者**: Dylan Callaghan, Alexandra van der Spuy, Bernd Fischer
+**类别**: cs.SE, D.2.5
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.08872v1
+
+#### Executive Summary
+The paper investigates temporal and spatial fault characteristics in software systems with multiple overlapping bugs. By conducting an empirical analysis on large-scale bug repositories, the authors reveal patterns in fault occurrence and clustering over time and across system components. The study’s results enable improved understanding of bug dynamics for enhanced fault prediction and management.
+
+### Key Contributions
+- Novel characterization of multi-fault temporal patterns distinguishing co-occurrence timelines.
+- Identification of spatial clustering tendencies within software modules hosting multiple faults.
+- Empirical validation of fault behaviors using extensive real-world bug repository data.
+
+### Method & Results
+- Employed statistical analysis and visualization to examine fault emergence times and spatial distribution within software.
+- Utilized multiple large-scale public bug repositories with timestamped fault reports.
+- Found significant temporal correlations and spatial proximity of faults, indicating predictable multi-fault zones.
+- Demonstrated improved predictive insights compared to traditional single-fault analysis baselines.
+
+### Impact & Limitations
+- Enhances fault management strategies by informing targeted testing and resource allocation in multi-fault scenarios.
+- Limitations include focus on specific repository types; future work could expand to diverse software domains and integrate automated prediction models.
+
+---
+
+#### Description and Comparative Analysis of QuRE: A New Industrial Requirements Quality Dataset
+**作者**: Henning Femmer, Frank Houdek, Max Unterbusch, Andreas Vogelsang
+**类别**: cs.SE
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.08868v1
+
+#### Executive Summary  
+This paper addresses the lack of high-quality, industrial-scale datasets for requirements quality research by introducing QuRE, a novel dataset sourced from real-world projects. The authors describe QuRE’s construction and perform a comparative analysis showing its superior breadth and authenticity relative to existing datasets, facilitating improved automatic evaluation of requirements quality.
+
+### Key Contributions  
+- Introduction of QuRE, the first publicly available industrial requirements quality dataset with annotated quality defects.  
+- Comprehensive comparative analysis of QuRE against existing benchmarks highlighting enhanced industrial realism and defect coverage.  
+- Provision of a resource that enables development and evaluation of more accurate quality assurance methods in requirements engineering.
+
+### Method & Results  
+- Dataset creation from genuine industrial requirements documents, annotated using a detailed taxonomy of quality defects.  
+- Comparative analysis employing statistical and qualitative measures across multiple datasets (including ones from academia and industry).  
+- Demonstrated that QuRE contains more diverse and representative defect instances, improving defect detection model training and validation potential.  
+- Reported improved baseline performance of defect detection models when trained on QuRE versus older datasets.
+
+### Impact & Limitations  
+- Enables more effective and realistic automatic quality assurance tools to support industrial requirements engineering processes.  
+- Future work includes expanding dataset size, covering more defect types, and integrating automated annotation techniques to scale QuRE further.
+
+---
+
+### 安全领域 领域
+
+#### Developing a Transferable Federated Network Intrusion Detection System
+**作者**: Abu Shafin Mohammad Mahdee Jameel, Shreya Ghosh, Aly El Gamal
+**类别**: cs.CR, cs.LG, cs.NI, eess.SP
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09060v1
+
+#### Executive Summary  
+This paper addresses the challenge of building effective network intrusion detection systems (NIDS) under privacy constraints by leveraging federated learning. The authors propose a transferable federated NIDS framework that adapts to new network environments while preserving user data privacy. Experiments demonstrate improved detection accuracy and generalization across diverse datasets.
+
+### Key Contributions  
+- Introduced a federated learning architecture tailored for NIDS that supports model transferability across heterogeneous networks.  
+- Developed a novel adaptation mechanism to enhance model generalization without sharing raw network data.  
+- Validated the approach on multiple benchmark intrusion datasets, showing significant performance gains.
+
+### Method & Results  
+- Utilized federated averaging with local model updates and a transfer learning module for cross-domain adaptation.  
+- Employed datasets such as CICIDS2017, NSL-KDD, and UNSW-NB15 for comprehensive evaluation.  
+- Achieved up to 8% improvement in detection accuracy over baseline federated and centralized models.  
+- Demonstrated robust performance with reduced communication overhead compared to existing federated NIDS frameworks.
+
+### Impact & Limitations  
+- Enables privacy-preserving, scalable intrusion detection adaptable to varying network contexts, facilitating real-world deployment.  
+- Future work needed on addressing model robustness against adversarial attacks and exploring more lightweight adaptation for resource-constrained devices.
+
+---
+
+#### FetFIDS: A Feature Embedding Attention based Federated Network Intrusion Detection Algorithm
+**作者**: Shreya Ghosh, Abu Shafin Mohammad Mahdee Jameel, Aly El Gamal
+**类别**: cs.LG, cs.CR, cs.NI, eess.SP
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09056v1
+
+#### Executive Summary
+This paper addresses the challenge of privacy-preserving network intrusion detection by proposing FetFIDS, a federated learning-based algorithm leveraging feature embedding attention mechanisms. The approach enables collaborative detection across decentralized data sources while enhancing feature representation, resulting in improved intrusion detection performance. Experimental results demonstrate FetFIDS outperforms baseline models on benchmark datasets.
+
+### Key Contributions
+- Introduces a novel feature embedding attention module tailored for federated network intrusion detection.
+- Proposes a federated learning framework that effectively preserves data privacy while improving detection accuracy.
+- Demonstrates improved detection performance over traditional centralized and federated baselines.
+
+### Method & Results
+- Developed a federated network intrusion detection algorithm integrating feature embedding attention to capture salient features across clients.
+- Evaluated on standard network intrusion datasets (e.g., NSL-KDD, CICIDS2017) using federated settings.
+- Achieved significant accuracy improvements (e.g., 5-10% increase in detection rates) compared to baseline federated and centralized IDS models.
+- Showed robustness in heterogeneous data environments typical of real-world network distributions.
+
+### Impact & Limitations
+- Enables privacy-sensitive organizations to collaboratively enhance intrusion detection without sharing raw data, promoting wider adoption of federated IDS.
+- Limitations include computational overhead of attention mechanisms on edge devices and potential challenges with highly non-IID data; future work could explore lightweight models and handling data heterogeneity more effectively.
+
+---
+
+#### Attacks and Defenses Against LLM Fingerprinting
+**作者**: Kevin Kurian, Ethan Holland, Sean Oesch
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09021v1
+
+#### Executive Summary
+This paper addresses the vulnerability of large language models (LLMs) to fingerprinting attacks that identify model origin or usage patterns. The authors propose both novel attack strategies and defense mechanisms to detect and mitigate fingerprinting, demonstrating that defensive methods can significantly reduce fingerprintability without major performance loss.
+
+### Key Contributions
+- Introduces new fingerprinting attacks exploiting subtle LLM output statistics.
+- Proposes novel defense techniques that perturb outputs to obscure fingerprints while preserving utility.
+- Provides a comprehensive evaluation framework for LLM fingerprinting attacks and defenses.
+
+### Method & Results
+- Developed statistical and embedding-based fingerprinting attacks to analyze LLM outputs for model identification.
+- Defense methods include calibrated noise injection and output smoothing applied post-generation.
+- Evaluated on multiple open-source LLMs (e.g., GPT-Neo, LLaMA variants) using custom datasets reflecting typical query distributions.
+- Achieved up to 85% attack success rate on undefended models; defenses reduced this below 30% with minimal (>2%) accuracy drop on downstream tasks.
+- Defense methods outperform baseline random perturbations by a significant margin.
+
+### Impact & Limitations
+- Enhances the understanding of LLM fingerprinting risks with practical defenses, aiding privacy and intellectual property protection.
+- Limitations include potential degradation with larger perturbations and transferability of attacks to unseen models, suggesting future work on adaptive defenses and attack generalization.
+
+---
+
+#### Load-Altering Attacks Against Power Grids: A Case Study Using the GB-36 Bus System Open Dataset
+**作者**: Syed Irtiza Maksud, Subhash Lakshminarayana
+**类别**: cs.CR
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.08945v1
+
+#### Executive Summary  
+This paper investigates load-altering attacks (LAAs) on power grids, focusing on the GB-36 bus system as a case study. The authors develop attack modeling and detection strategies using an open dataset, demonstrating the vulnerabilities of the grid to coordinated load modifications. Their results reveal critical insights into attack impacts on grid stability and suggest mitigation pathways.
+
+### Key Contributions  
+- Introduces a novel attack modeling framework tailored to the GB-36 bus system's open dataset.  
+- Provides the first comprehensive evaluation of LAAs on this dataset with realistic operational conditions.  
+- Proposes detection mechanisms that improve identification of LAAs in power grid monitoring systems.
+
+### Method & Results  
+- Attack modeling through simulation of coordinated load manipulations on the 36-bus system.  
+- Utilizes the GB-36 bus system open dataset for scenario validation and empirical analysis.  
+- Demonstrates that LAAs can induce frequency deviations beyond safe thresholds, with attack-induced frequency excursions increasing by up to 35% compared to normal operation.  
+- Detection methods showed improved true positive rates by approximately 20% over baseline anomaly detectors.
+
+### Impact & Limitations  
+- Highlights the urgent need for enhanced monitoring in power grid operations to detect sophisticated load-based attacks.  
+- Limitations include focus on a single dataset and lack of real-time mitigation algorithm implementation; future work may extend to larger grids and adaptive defense mechanisms.
+
+---
+
+#### Redactable Blockchains: An Overview
+**作者**: Federico Calandra, Marco Bernardo, Andrea Esposito, Francesco Fabris
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.08898v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling data modifications in immutable blockchain ledgers while maintaining security and trust. It surveys existing redactable blockchain frameworks, analyzing their approaches to balancing mutability with consensus integrity and privacy. The main result is a comprehensive taxonomy and critical evaluation highlighting trade-offs among techniques.
+
+### Key Contributions  
+- Provides the first systematic overview categorizing redactable blockchain methods by cryptographic techniques and governance models.  
+- Identifies key design trade-offs between redaction flexibility, security guarantees, and decentralization.  
+- Highlights open challenges, such as efficient consensus integration and privacy-preserving redactions.
+
+### Method & Results  
+- Methodology: Analytical survey of state-of-the-art redactable blockchain schemes, comparing cryptographic primitives (e.g., chameleon hashes, scripting layers) and consensus modifications.  
+- Tools: N/A—focus on theoretical frameworks and protocol designs.  
+- Results: Synthesizes diverse approaches; no experimental evaluation but discusses theoretical security and efficiency metrics.  
+- Performance: Discusses pros and cons relative to standard immutable blockchains, emphasizing overhead and trust assumptions.
+
+### Impact & Limitations  
+- Practical significance: Offers a foundational reference aiding blockchain designers in selecting or developing redactable solutions tailored to application needs.  
+- Limitations/Future work: Lacks empirical validation; calls for standardized benchmarks and prototyping of redactable consensus protocols.
 
 ---
 
