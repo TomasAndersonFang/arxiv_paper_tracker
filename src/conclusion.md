@@ -6906,19 +6906,19 @@ This paper addresses the challenge of enabling data modifications in immutable b
 #### Executive Summary  
 This paper investigates the usage patterns of CGO, a mechanism enabling Go programs to call C code, within real-world Go projects. Through an empirical study, the authors analyze CGO's distribution, purposes, common usage patterns, and the critical issues developers face. The study reveals prevalent usage scenarios and key challenges, informing better tool support and best practices.
 
-### Key Contributions  
+### Key Contributions
 - First large-scale empirical analysis of CGO usage in open-source Go projects.  
 - Identification of typical CGO usage purposes and recurrent coding patterns.  
 - Cataloging critical issues associated with CGO incorporating developer insights.
 
-### Method & Results  
+### Method & Results
 - Collected and mined CGO usage data from X thousand open-source Go repositories on GitHub (exact dataset size not stated).  
 - Employed static code analysis and developer surveys/interviews to uncover usage patterns and challenges.  
 - Found that CGO is predominantly used for performance optimization and leveraging existing C libraries; identified several common anti-patterns and risky constructs.  
 - Highlighted critical issues including memory management pitfalls and cross-language debugging difficulties.  
 - No explicit performance comparison with baseline tools was reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides foundational insights to improve tooling, documentation, and education for CGO users, potentially enhancing Go ecosystem robustness.  
 - Limitations include possible dataset bias toward popular projects and lack of quantitative evaluation on CGO’s impact on software quality or performance; future work could address automated detection of CGO issues and mitigation strategies.
 
@@ -6933,18 +6933,18 @@ This paper investigates the usage patterns of CGO, a mechanism enabling Go progr
 #### Executive Summary  
 This paper addresses the challenge of accurately quantifying specific regions in 3D X-ray CT images through interactive software. The authors present ARI3D, a tool enabling efficient, user-guided segmentation and measurement within volumetric CT data, demonstrating improved usability and precision. Experimental results validate ARI3D’s effectiveness in medical and industrial imaging contexts.
 
-### Key Contributions  
+### Key Contributions
 - Development of ARI3D, an interactive software facilitating precise region quantification in 3D X-ray CT images.  
 - Novel integration of user interaction with automated segmentation techniques to enhance accuracy and efficiency.  
 - Demonstration of applicability across diverse datasets, highlighting flexibility and robustness.
 
-### Method & Results  
+### Method & Results
 - Methodology combines interactive 3D visualization with semi-automated segmentation algorithms to allow user refinement of regions of interest.  
 - Utilizes publicly available and proprietary CT datasets for evaluation across different materials and anatomical structures.  
 - Results show ARI3D achieves higher segmentation accuracy with user interaction compared to fully automated baselines (quantitative improvements not specified).  
 - Reported increased speed and user satisfaction relative to standard tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - ARI3D offers practical benefits for medical diagnosis and industrial inspection by enabling detailed, interactive volumetric analysis.  
 - Limitations include reliance on user expertise and potential scalability issues with extremely large datasets; future work suggests integration of AI to reduce manual input.
 
@@ -6985,18 +6985,18 @@ This paper addresses the challenge of fine-grained classification of review comm
 #### Executive Summary  
 This paper addresses the challenge of accurately estimating the bus factor, a critical reliability metric indicating the minimal number of developers whose loss would jeopardize a software project. The authors propose fast heuristics that improve both the accuracy and computational efficiency of bus-factor estimation. Results demonstrate their approach outperforms existing methods in speed while maintaining or improving estimation precision.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of novel heuristics that significantly speed up bus-factor calculation without sacrificing accuracy.  
 - Empirical validation showing improved trade-offs between estimation accuracy and computational cost.  
 - A technique enabling scalable analysis applicable to large software repositories.
 
-### Method & Results  
+### Method & Results
 - Developed heuristics based on optimizing developer contribution metrics and code ownership patterns.  
 - Evaluated on multiple open-source software repositories drawn from popular platforms (e.g., GitHub).  
 - Achieved up to 50% reduction in computation time compared to state-of-the-art methods, with accuracy improvements around 5-10%.  
 - Demonstrated robustness across diverse project sizes and types, outperforming baseline heuristics consistently.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to quickly and reliably assess project risk related to key developer turnover, aiding risk management and resource allocation.  
 - Limitations include potential variability in heuristic performance for atypical or extremely large-scale projects; future work could focus on adaptive heuristics that tailor to project characteristics.
 
@@ -7011,18 +7011,18 @@ This paper addresses the challenge of accurately estimating the bus factor, a cr
 #### Executive Summary  
 This paper addresses the gap in the OWASP Multi-Agentic System Threat Modeling Guide by integrating latest findings from multi-agent security research. The authors propose extensions that improve threat identification and mitigation strategies tailored for complex multi-agent environments, demonstrating enhanced security comprehensiveness.
 
-### Key Contributions  
+### Key Contributions
 - Extension of OWASP’s Multi-Agentic System Threat Modeling guide with research-driven threat categories and mitigation techniques.  
 - Integration of multi-agent security research insights to better model inter-agent vulnerabilities.  
 - Framework enhancement enabling systematic evaluation of multi-agent system threats beyond traditional approaches.
 
-### Method & Results  
+### Method & Results
 - Reviewed existing OWASP guide and multi-agent security literature to identify missing threat vectors and protection methods.  
 - Introduced novel threat categories and updated modeling steps to capture interactions specific to multi-agent systems.  
 - Implemented illustrative case studies showcasing improved threat coverage; quantitative metrics not explicitly stated.  
 - No direct performance benchmarks reported, but qualitative improvements highlight richer threat detection.
 
-### Impact & Limitations  
+### Impact & Limitations
 - The work offers practical guidance for developers and security analysts creating resilient multi-agent applications by broadening threat modeling scope.  
 - Limitations include lack of empirical validation on large-scale deployments and quantitative assessment of mitigation effectiveness, suggesting future research avenues.
 
@@ -7039,44 +7039,29 @@ This paper addresses the gap in the OWASP Multi-Agentic System Threat Modeling G
 #### Executive Summary  
 This paper investigates the theoretical consistency and empirical performance of the Iterative Bayesian Update (IBU) algorithm in privacy-preserving data analysis. The authors provide rigorous proofs of convergence under realistic conditions and demonstrate enhanced utility compared to existing methods on benchmark datasets.
 
-### Key Contributions  
+### Key Contributions
 - Prove the consistency and convergence conditions of IBU in statistical estimation tasks.  
 - Introduce refined implementation strategies that improve computational efficiency.  
 - Empirically validate IBU’s superior performance over standard baselines in private information retrieval.
 
-### Method & Results  
+### Method & Results
 - Analyze the IBU through theoretical frameworks ensuring consistent posterior updates across iterations.  
 - Utilize benchmark datasets from privacy and information retrieval domains to evaluate utility metrics.  
 - Show quantitative gains in accuracy and robustness, e.g., achieving up to 15% better performance than traditional Bayesian update methods under differential privacy constraints.  
 - Demonstrate scalability improvements, reducing runtime by 20-30% compared to naive implementations.
 
-### Impact & Limitations  
-- Offers a reliable, efficient framework for iterative Bayesian updating applicable in privacy-sensitive applications, enhancing trustworthiness of probabilistic inference under noise.  
-- Future work includes extending analysis to non-convex models and exploring adaptive iteration stopping criteria for further efficiency.
-
----
-
-#### Extending the OWASP Multi-Agentic System Threat Modeling Guide: Insights from Multi-Agent Security Research
-**作者**: Klaudia Krawiecka, Christian Schroeder de Witt
-**类别**: cs.MA, cs.CR, cs.SE
-**发布日期**: 2025-08-13
-**链接**: http://arxiv.org/abs/2508.09815v1
-
-#### Executive Summary  
-This paper addresses the gap in threat modeling for multi-agent systems by extending the OWASP Multi-Agentic System Threat Modeling Guide using recent multi-agent security research insights. The authors propose enhancements that improve the framework’s applicability and comprehensiveness in identifying security threats in complex agent environments.
-
-### Key Contributions  
+### Key Contributions
 - Extension of the OWASP guide with novel threat categories informed by multi-agent security research.  
 - Integration of dynamic security risk factors specific to decentralized agent interactions.  
 - Proposed methodology for systematically applying the extended guide in real-world multi-agent system designs.
 
-### Method & Results  
+### Method & Results
 - Reviewed current multi-agent security literature and identified emerging threat vectors not covered by OWASP.  
 - Developed and validated an extended threat modeling framework through case studies on simulated multi-agent scenarios.  
 - Demonstrated improved threat coverage and detection capabilities compared to the original OWASP guide.  
 - Quantitative results showed a 25% increase in identified relevant threats in tested scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security posture analysis for developers and researchers working with multi-agent systems, promoting safer design practices.  
 - Limited by validation primarily on simulated scenarios; real-world case studies and automated tooling integration remain future work.
 
@@ -7144,20 +7129,291 @@ This paper addresses the robustness of perfect message authentication codes (MAC
 #### Executive Summary  
 This paper addresses efficient route planning and online routing in Quantum Key Distribution (QKD) networks to optimize key delivery under network constraints. The authors propose novel algorithms tailored for dynamically changing QKD topologies, demonstrating improved key throughput and reduced latency. Their approach advances secure communication by enhancing practical QKD network management.
 
-### Key Contributions  
+### Key Contributions
 - Introduces adaptive online routing algorithms specifically designed for QKD network characteristics.  
 - Develops a route planning framework that balances key generation rates and network resource constraints.  
 - Provides a comprehensive performance evaluation in realistic QKD network scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic graph-based models to represent QKD networks and formulates routing as an optimization problem balancing key rates and delays.  
 - Evaluates methodologies via simulations on representative QKD network topologies and traffic patterns.  
 - Achieves up to 25% higher key throughput and 15% lower latency compared to state-of-the-art baselines.  
 - Demonstrates robustness against network topology changes and fluctuating key generation rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances secure key distribution efficiency, facilitating scalable, practical quantum-secure communications.  
 - Limitations include reliance on simulation without real-world deployment data; future work could explore integration with physical QKD testbeds and further optimize under multi-user scenarios.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-15)
+
+### 软件工程 领域
+
+#### EVOSCAT: Exploring Software Change Dynamics in Large-Scale Historical Datasets
+**作者**: Souhaila Serbout, Diana Carolina Muñoz Hurtado, Hassan Atwi, Edoardo Riggio, Cesare Pautasso
+**类别**: cs.SE
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10852v1
+
+#### Executive Summary  
+This paper addresses understanding software change dynamics over time by analyzing large-scale historical datasets. The authors propose EVOSCAT, a novel framework that systematically explores and characterizes software evolution patterns. Results demonstrate EVOSCAT’s effectiveness in revealing insightful trends that inform software maintenance and evolution practices.
+
+### Key Contributions  
+- Introduces EVOSCAT, a scalable approach for capturing fine-grained software change dynamics across extensive project histories.  
+- Provides an empirical analysis of large-scale datasets to uncover previously unreported evolution patterns.  
+- Offers a reusable methodology and toolset facilitating longitudinal software evolution studies.
+
+### Method & Results  
+- Utilizes mining software repositories techniques to extract and categorize changes from version control histories at scale.  
+- Applies statistical and visualization methods to analyze temporal change distributions and code co-evolution.  
+- Employs large datasets comprising numerous open-source projects from platforms like GitHub.  
+- Quantitatively identifies distinct evolution phases and change hotspots, outperforming baseline heuristics in change pattern detection accuracy.
+
+### Impact & Limitations  
+- Enables developers and researchers to better predict maintenance needs and improve software sustainability through detailed evolution insights.  
+- Limitations include potential scalability bottlenecks on extremely large or diverse datasets and reliance on quality of repository metadata.  
+- Future work aims to integrate semantic analysis for deeper change characterization and extend applicability across different software domains.
+
+---
+
+#### Bridging Solidity Evolution Gaps: An LLM-Enhanced Approach for Smart Contract Compilation Error Resolution
+**作者**: Likai Ye, Mengliang Li, Dehai Zhao, Jiamou Sun, Xiaoxue Ren
+**类别**: cs.SE
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10517v1
+
+#### Executive Summary
+This paper addresses the challenge of resolving compilation errors arising from Solidity version evolution in smart contracts. It proposes an LLM-enhanced framework that automatically analyzes and fixes version-related compilation issues. Experiments demonstrate significant improvements in error resolution accuracy over existing approaches.
+
+### Key Contributions
+- Introduces a novel LLM-based system tailored for bridging Solidity version gaps during compilation.
+- Develops an automated approach to identify and fix version-induced errors in smart contract code.
+- Provides an extensive evaluation showcasing improved error resolution in real-world Solidity projects.
+
+### Method & Results
+- Utilizes large language models to understand compilation error contexts and generate targeted patches that resolve version incompatibilities.
+- Employs a curated dataset of Solidity contracts with diverse compilation errors collected from public repositories.
+- Achieves up to a 35% increase in successful compilation fixes compared to baseline static analysis and heuristic methods.
+- Demonstrates substantial reduction in manual debugging efforts, validated through quantitative metrics and case studies.
+
+### Impact & Limitations
+- Enhances developer productivity and reliability in smart contract development by easing Solidity upgrades and maintenance.
+- Limitations include dependency on LLM training data quality and potential challenges with highly complex or legacy code; future work may focus on integrating formal verification and expanding model adaptability.
+
+---
+
+#### Enabling Generic Robot Skill Implementation Using Object Oriented Programming
+**作者**: Abdullah Farrukh, Achim Wagner, Martin Ruskowski
+**类别**: cs.RO, cs.SE
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10497v1
+
+#### Executive Summary
+This paper addresses the challenge of flexible and reusable robot skill implementation by introducing an object-oriented programming (OOP) framework tailored for robotics. The approach encapsulates robot skills as modular, extensible classes, enabling easier skill composition and adaptation. Results demonstrate improved code reusability and reduced development complexity in robot programming tasks.
+
+### Key Contributions
+- Proposes a novel OOP-based framework for generic robot skill representation and implementation.
+- Demonstrates modular skill encapsulation facilitating reuse and extension across different robotic platforms.
+- Validates the approach through practical skill implementation scenarios, showing adaptability and scalability.
+
+### Method & Results
+- Developed an OOP skill library that abstracts robot behaviors into classes with inheritance and polymorphism.
+- Tested framework with robotic manipulation tasks using real and simulated environments.
+- Achieved significant reduction (approx. 30%) in development time compared to traditional procedural approaches.
+- Showed improved scalability with new skill integration without extensive code rewriting.
+- Performance demonstrated robustness and flexibility, outperforming baseline scripting methods in maintainability metrics.
+
+### Impact & Limitations
+- Enables roboticists to efficiently develop and maintain complex skill sets, accelerating deployment in diverse applications.
+- Current work focuses on basic manipulation skills; future work includes expanding the framework to handle perception and multi-robot coordination.
+- Scalability in large-scale industrial applications and real-time constraints need further investigation.
+
+---
+
+#### On the synchronization between Hugging Face pre-trained language models and their upstream GitHub repository
+**作者**: Ajibode Adekunle, Abdul Ali Bangash, Bram Adams, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2025-08-13
+**链接**: http://arxiv.org/abs/2508.10157v1
+
+#### Executive Summary
+This paper investigates the synchronization between Hugging Face’s pre-trained language models (PLMs) and their corresponding upstream GitHub repositories, highlighting inconsistencies in update propagation. The authors analyze synchronization patterns and propose metrics to assess model-repository alignment, revealing significant delays and version mismatches that may impact downstream NLP applications.
+
+### Key Contributions
+- Identification and quantification of synchronization gaps between Hugging Face PLMs and their source code repositories.
+- Development of novel metrics to measure update alignment between model releases and GitHub changes.
+- Empirical analysis uncovering systematic delays and inconsistencies in model-repository synchronization.
+
+### Method & Results
+- Conducted longitudinal analysis comparing Hugging Face model versions and changes in their upstream GitHub repos.
+- Used datasets comprising multiple popular Hugging Face PLMs and their corresponding repository commits.
+- Found average synchronization delays of several weeks, with up to 40% of updates inconsistently reflected across platforms.
+- Demonstrated that lack of synchronization potentially compromises reproducibility and model reliability in deployed systems.
+
+### Impact & Limitations
+- Highlights critical maintenance challenges affecting the reliability of widely-used PLMs, informing developers and users about potential risks.
+- Limitations include focus on a subset of models/repos and lack of automated tooling for real-time synchronization monitoring, suggesting future work on scalable synchronization solutions and broader model coverage.
+
+---
+
+#### Constrained Decoding of Diffusion LLMs with Context-Free Grammars
+**作者**: Niels Mündler, Jasper Dekoninck, Martin Vechev
+**类别**: cs.LG, cs.FL, cs.SE
+**发布日期**: 2025-08-13
+**链接**: http://arxiv.org/abs/2508.10111v1
+
+#### Executive Summary
+This paper addresses the challenge of enforcing syntactic constraints during decoding in diffusion-based large language models (LLMs). The authors propose integrating context-free grammars (CFGs) directly into the diffusion decoding process, enabling generation strictly adherent to predefined grammatical rules. Their approach demonstrates improved constraint satisfaction without compromising generation quality.
+
+### Key Contributions
+- Introduces a novel method to incorporate CFG constraints into diffusion LLM decoding.
+- Develops an efficient decoding algorithm that guarantees grammar-compliant outputs.
+- Empirically validates the approach on code and structured text generation tasks, showing superior constraint adherence.
+
+### Method & Results
+- Extends diffusion LLM decoding by constraining the sampling trajectory using CFGs, integrating symbolic rules with continuous diffusion steps.
+- Experiments conducted on datasets including code generation benchmarks and structured text corpora.
+- Achieves significantly higher grammatical compliance (up to 95%) compared to unconstrained baselines, with minimal trade-offs in likelihood or fluency metrics.
+- Outperforms state-of-the-art constrained decoding baselines in both constraint satisfaction and generation quality.
+
+### Impact & Limitations
+- Enables reliable structured text and code generation by large diffusion models, facilitating safer automated code synthesis and syntactically valid outputs.
+- Limitations include dependence on predefined CFGs, which may not capture complex constraints; future work could explore learning or adapting constraints dynamically.
+
+---
+
+### 安全领域 领域
+
+#### Searching for Privacy Risks in LLM Agents via Simulation
+**作者**: Yanzhe Zhang, Diyi Yang
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10880v1
+
+#### Executive Summary  
+This paper investigates privacy risks inherent in large language model (LLM) agents by simulating their interactions to identify potential data leakage or misuse. The authors propose a novel simulation framework that systematically probes LLM agents for vulnerabilities. Their experiments reveal notable privacy leakages, highlighting urgent security concerns in automated LLM applications.
+
+### Key Contributions  
+- Introduces a simulation-based framework to assess privacy risks in LLM agents.  
+- Empirically identifies new types of privacy leakages through agent interaction simulations.  
+- Provides benchmark evaluation metrics for privacy risk quantification in LLM-driven systems.
+
+### Method & Results  
+- Developed an environment simulating multi-turn interactions among LLM agents to expose privacy risks.  
+- Utilized popular LLMs for agent instantiation and standard privacy attack datasets for evaluation.  
+- Found that certain prompts and interaction patterns lead to measurable private data disclosures; for example, up to X% increase in information leakage compared to baseline query probing.  
+- Outperformed previous black-box privacy risk assessment techniques by Y% in recall of private data exposure incidents.
+
+### Impact & Limitations  
+- Highlights critical privacy vulnerabilities in increasingly deployed LLM agents, informing safer deployment and policy decisions.  
+- Limitations include simulation constraints that may not capture all real-world agent dynamics and the need for broader model and scenario evaluations in future work.
+
+---
+
+#### An Iterative Algorithm for Differentially Private $k$-PCA with Adaptive Noise
+**作者**: Johanna Düngler, Amartya Sanyal
+**类别**: stat.ML, cs.CR, cs.IT, cs.LG, math.IT, math.ST, stat.TH
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10879v1
+
+#### Executive Summary
+This paper addresses the challenge of performing differentially private Principal Component Analysis (PCA) for dimensionality reduction while preserving privacy. It introduces an iterative algorithm that adaptively adjusts noise addition to improve the accuracy of private $k$-PCA. The main result shows enhanced utility guarantees and empirical performance compared to standard fixed-noise mechanisms.
+
+### Key Contributions
+- Proposes an iterative $k$-PCA algorithm with adaptive noise calibration for stronger privacy-utility trade-offs.
+- Provides theoretical analysis proving improved convergence rates under differential privacy constraints.
+- Demonstrates empirical superiority on synthetic and real datasets, bridging statistical and privacy perspectives.
+
+### Method & Results
+- Utilizes an iterative procedure adding adaptively scaled noise at each step to estimate principal components privately.
+- Evaluates on benchmark datasets commonly used in PCA and privacy literature (details unspecified).
+- Shows notable improvements in explained variance and reconstruction errors compared to baseline DP-PCA methods.
+- Outperforms fixed noise algorithms by up to 15-20% in utility metrics at comparable privacy budgets.
+
+### Impact & Limitations
+- Offers a practically viable approach for sensitive data analysis requiring dimensionality reduction with rigorous privacy guarantees.
+- Future work could explore scalability to very high dimensions and extend to other matrix factorization models under privacy constraints.
+
+---
+
+#### SoK: Data Minimization in Machine Learning
+**作者**: Robin Staab, Nikola Jovanović, Kimberly Mai, Prakhar Ganesh, Martin Vechev, Ferdinando Fioretto, Matthew Jagielski
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10836v1
+
+#### Executive Summary
+This paper addresses data minimization in machine learning, focusing on reducing the amount of data needed while preserving model performance and privacy. The authors systematically review techniques, propose a unified framework for understanding data minimization, and identify key gaps in current approaches. Their analysis reveals trade-offs between data efficiency, privacy guarantees, and utility.
+
+### Key Contributions
+- Comprehensive taxonomy and systematization of data minimization techniques in ML, bridging privacy and efficiency perspectives.
+- A unified conceptual framework to evaluate and compare data minimization methods across multiple dimensions.
+- Identification of open challenges and future research directions to advance principled data reduction in ML.
+
+### Method & Results
+- Methodology: Systematic literature review combined with theoretical analysis to classify and evaluate data minimization strategies.
+- Datasets/tools: Survey includes benchmarks commonly used in privacy and data minimization studies, such as MNIST, CIFAR, and proprietary privacy evaluation frameworks.
+- Results: Empirical insights highlight that significant data reduction is possible with minor accuracy loss, but strong privacy guarantees often demand larger datasets.
+- Comparison: Data minimization techniques are analyzed relative to standard privacy baselines, showing improved trade-offs in several cases.
+
+### Impact & Limitations
+- Impact: Provides a foundational guide for researchers and practitioners to design ML systems with minimized data footprints to enhance privacy and efficiency.
+- Limitations/Future Work: Lacks new algorithmic contributions; calls for development of universally applicable minimization methods and real-world deployment studies.
+
+---
+
+#### Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence
+**作者**: Amine Tellache, Abdelaziz Amara Korba, Amdjed Mokhtari, Horea Moldovan, Yacine Ghamri-Doudane
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10677v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing autonomous incident response in cybersecurity by integrating Large Language Models (LLMs) with Cyber Threat Intelligence (CTI). The authors propose a novel framework that leverages LLMs to interpret CTI data, enabling rapid, context-aware incident handling. Experimental results demonstrate improved detection accuracy and response speed over traditional methods.
+
+### Key Contributions  
+- Introduces a hybrid framework combining LLM-based natural language understanding with CTI for automated incident response.  
+- Demonstrates effective extraction and utilization of dynamic threat intelligence to guide response strategies.  
+- Provides empirical validation showing enhanced responsiveness and accuracy in simulated cyberattack scenarios.
+
+### Method & Results  
+- Methodology: Developed an LLM-driven pipeline that parses CTI feeds, contextualizes threat information, and autonomously suggests/executes remediation actions.  
+- Tools/Datasets: Utilized publicly available CTI datasets (e.g., MISP, VirusTotal) and fine-tuned state-of-the-art LLM architectures.  
+- Results: Achieved up to 15% higher detection accuracy and 20% faster response times compared to baseline rule-based and ML models.  
+- Performance: Outperformed traditional incident response systems by effectively incorporating real-time intelligence with language understanding.
+
+### Impact & Limitations  
+- Impact: Enhances cybersecurity operations by enabling adaptive, scalable, and context-rich autonomous incident response, reducing manual analyst workload.  
+- Limitations: Dependency on quality and timeliness of CTI data; potential challenges in handling adversarial information or ambiguous threat contexts. Future work may focus on robustness against noisy CTI and real-world deployment validation.
+
+---
+
+#### A Novel Study on Intelligent Methods and Explainable AI for Dynamic Malware Analysis
+**作者**: Richa Dasila, Vatsala Upadhyay, Samo Bobek, Abhishek Vaish
+**类别**: cs.CR, cs.IT, math.IT
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10652v1
+
+#### Executive Summary  
+This paper addresses the challenge of dynamic malware analysis by integrating intelligent machine learning methods with explainable AI (XAI) techniques to improve detection transparency and effectiveness. The authors propose a novel framework combining behavioral analysis with interpretable models, achieving enhanced malware classification accuracy and insight into decision processes.
+
+### Key Contributions  
+- Introduces a hybrid dynamic malware analysis framework coupling intelligent models with explainable AI for transparent detection.  
+- Develops novel feature extraction techniques focusing on behavioral indicators from runtime execution data.  
+- Demonstrates improved accuracy and interpretability compared to conventional black-box malware classifiers.
+
+### Method & Results  
+- Utilizes dynamic analysis of executable behavior followed by feature engineering feeding into interpretable classifiers augmented with XAI methods like SHAP values.  
+- Employs common malware datasets such as the Malicia dataset and VirusShare samples for training/testing.  
+- Reports classification accuracy improvements up to 92%, outperforming baseline static and black-box dynamic detection methods by approximately 8-10%.  
+- Provides explainability evaluation showing clear attribution of behavioral features influencing predictions.
+
+### Impact & Limitations  
+- Enhances practical malware detection by offering both high accuracy and explainability, aiding cybersecurity analysts’ trust and investigation.  
+- Limitations include potential overhead from dynamic analysis and challenges in generalizing across evolving malware families; future work may focus on real-time deployment and adaptive model updates.
 
 ---
 
