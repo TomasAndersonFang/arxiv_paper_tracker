@@ -7432,18 +7432,18 @@ This paper addresses the challenge of dynamic malware analysis by integrating in
 #### Executive Summary  
 This paper addresses the problem of predicting the next code edit a developer will make, leveraging both the current code context and the developer's interaction history. The authors propose a novel predictive model that integrates these signals to anticipate edits effectively. Experiments demonstrate improved accuracy over existing baselines, highlighting the value of historical interaction data.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a next edit prediction model that combines code context with interaction history, a previously underexplored feature in code edit prediction.  
 - Proposes an architecture that dynamically integrates temporal interaction data to improve edit prediction accuracy.  
 - Provides a new benchmark dataset capturing developer interaction history alongside code changes for training and evaluation.
 
-### Method & Results  
+### Method & Results
 - Utilizes a hybrid neural network model that encodes both the current code snippet and sequences of past edits and interactions.  
 - Experiments conducted on a novel dataset collected from real developer sessions, including code snapshots and interaction logs.  
 - Achieves up to 15% improvement in prediction accuracy over state-of-the-art baselines focused solely on static code context.  
 - Demonstrates robustness in different programming tasks and shows the model adapts effectively to varied developer editing styles.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more intelligent code completion and automated editing tools that anticipate user needs by understanding edit trajectories.  
 - Limited by the availability and quality of detailed interaction logs; future work could explore privacy-preserving data collection and broader language support.
 
@@ -7484,18 +7484,18 @@ This paper addresses the challenge of recommending library migrations in softwar
 #### Executive Summary  
 This paper addresses the challenge of repository-level code completion by integrating both semantic and structural information to enhance prediction accuracy. SaraCoder, their proposed framework, orchestrates multi-granularity cues to generate profitable code completions, outperforming existing models. Experimental results demonstrate significant improvements in completion quality across diverse repositories.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SaraCoder, a novel model combining semantic embeddings and structural code representations for repository-level completion.  
 - Proposes a profit-oriented objective function to prioritize practically valuable code predictions.  
 - Validates the approach extensively on multi-repository datasets, showing superior performance over state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes a dual-encoder architecture to fuse semantic context (e.g., code tokens and comments) with structural cues (e.g., AST and call graphs).  
 - Employs a profit-driven loss to focus on beneficial code snippets that improve developer productivity.  
 - Evaluated on large-scale public code repositories with metrics like top-k accuracy and mean reciprocal rank (MRR).  
 - Achieved up to 15% relative improvement in top-5 accuracy over leading code completion models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated code completion tools by leveraging richer context, potentially boosting developer efficiency in real-world coding environments.  
 - Future work: scaling to larger, more heterogeneous repositories; addressing performance on less-structured or legacy codebases.
 
@@ -7510,19 +7510,19 @@ This paper addresses the challenge of repository-level code completion by integr
 #### Executive Summary  
 This paper addresses the underrepresentation of autistic individuals in software engineering by identifying key career success factors through inclusive employment pathways. The authors employ qualitative interviews and thematic analysis to uncover facilitators and barriers. Findings highlight actionable organizational strategies to enhance career outcomes for autistic professionals.
 
-### Key Contributions  
+### Key Contributions
 - Identification of specific career success factors tailored for autistic software engineers.  
 - Development of an inclusive employment framework grounded in lived experiences.  
 - Insights into organizational practices that effectively support autistic talent retention and growth.
 
-### Method & Results  
+### Method & Results
 - Conducted semi-structured interviews with autistic software engineers and industry stakeholders.  
 - Applied thematic analysis to distill recurring success factors and employment challenges.  
 - Dataset: Qualitative interview transcripts from a diverse sample of participants.  
 - Results emphasized the importance of tailored mentorship, adaptive communication, and flexible work environments; participants reported higher job satisfaction and retention linked to these factors.  
 - No direct performance comparison to baselines but highlighted organizational best practices surpassing generic inclusion policies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Offers evidence-based guidance for companies to implement inclusive hiring and workplace accommodations that foster autistic employee success.  
 - Limitations: Small qualitative sample limits generalizability; future work could explore quantitative validation and longitudinal career tracking.
 
@@ -7537,18 +7537,18 @@ This paper addresses the underrepresentation of autistic individuals in software
 #### Executive Summary  
 This paper addresses the bottleneck in software development caused by slow and inefficient code reviews. The authors propose DeputyDev, an AI-powered developer assistant leveraging contextual AI to automate and accelerate the code review process. Results show significant improvements in review speed and developer productivity without compromising code quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a contextual AI model tailored to understand code semantics and review comments.  
 - Development of an integrated tool that automates code review suggestions in real-time.  
 - Empirical validation demonstrating measurable reductions in code review turnaround times.
 
-### Method & Results  
+### Method & Results
 - Utilizes deep learning models trained on large codebases and historical review data to generate context-aware feedback.  
 - Dataset includes proprietary and open-source code repositories with annotated review comments.  
 - Achieved up to 40% reduction in code review time and a 30% increase in developer throughput.  
 - Outperformed traditional static analysis tools and generic AI assistants on review accuracy and relevance metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly boosts developer productivity by streamlining the review workflow and reducing manual effort.  
 - Limited by dependency on the quality and diversity of training data; future work includes expanding language support and integrating user feedback loops for continual improvement.
 
@@ -7565,18 +7565,18 @@ This paper addresses the bottleneck in software development caused by slow and i
 #### Executive Summary  
 This paper addresses vulnerabilities in provenance-based intrusion detection systems (IDS) caused by graph manipulation attacks. The authors propose MirGuard, a robust IDS framework that detects and mitigates such attacks by leveraging graph consistency checks and anomaly detection techniques. Experimental results demonstrate MirGuard’s effectiveness in enhancing detection accuracy while maintaining low false-positive rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MirGuard, a novel IDS resilient to graph manipulation attacks on provenance data.  
 - Develops a graph consistency verification mechanism integrated with anomaly detection to identify tampering.  
 - Provides empirical evaluation demonstrating robustness against advanced graph-based adversarial tactics.
 
-### Method & Results  
+### Method & Results
 - Employs provenance graph integrity validation combined with machine learning-based anomaly detection to detect manipulations.  
 - Utilizes standard provenance datasets and simulated attack scenarios for validation.  
 - Achieves up to 15% improvement in detection accuracy over traditional provenance-based IDS with false positive rates reduced by approximately 10%.  
 - Outperforms baseline IDS approaches, demonstrating superior resistance to sophisticated graph tampering.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of provenance-based security systems, crucial for forensic and real-time intrusion analysis.  
 - Future work needed to address scalability in large-scale distributed environments and adapt to emerging graph manipulation techniques.
 
@@ -7591,18 +7591,18 @@ This paper addresses vulnerabilities in provenance-based intrusion detection sys
 #### Executive Summary  
 This paper addresses detecting Distributed Denial of Service (DDoS) attacks in IoT networks, leveraging a Transformer-based model for improved pattern recognition. The proposed approach achieves higher accuracy and faster detection compared to traditional machine learning methods, enhancing IoT network security.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a Transformer architecture tailored for DDoS detection in resource-constrained IoT settings.  
 - Demonstration of superior detection accuracy and efficiency over conventional deep learning models.  
 - Utilization of feature embedding techniques to capture temporal and spatial network traffic characteristics effectively.
 
-### Method & Results  
+### Method & Results
 - Designed a Transformer-based framework that models sequential IoT traffic data to identify malicious patterns.  
 - Employed publicly available IoT traffic datasets, including a benchmark dataset simulating various DDoS scenarios.  
 - Achieved detection accuracy exceeding 95%, with notable improvements in recall and F1-score relative to LSTM and CNN baselines.  
 - Reduced false positive rates and improved detection latency, supporting real-time deployment feasibility.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances IoT network resilience by enabling timely and accurate DDoS detection, crucial for critical infrastructure protection.  
 - Limitations include potential scalability challenges in extremely large IoT deployments and the need for adaptive models addressing evolving attack vectors.  
 - Future work could focus on lightweight Transformer variants and incorporation of unsupervised anomaly detection to handle zero-day attacks.
@@ -7618,18 +7618,18 @@ This paper addresses detecting Distributed Denial of Service (DDoS) attacks in I
 #### Executive Summary  
 This paper addresses privacy-preserving release of longitudinal data by introducing bistochastic privacy mechanisms that blend row- and column-wise privacy guarantees. The approach leverages bistochastic matrix transformations to ensure rigorous privacy while maintaining data utility. Experimental results demonstrate improved accuracy compared to standard differential privacy methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel bistochastic privacy framework tailored for longitudinal datasets.  
 - Develops mechanisms that simultaneously enforce row- and column-level privacy constraints.  
 - Demonstrates theoretically and empirically enhanced utility over existing privacy techniques.
 
-### Method & Results  
+### Method & Results
 - Employs bistochastic matrix transformations to achieve privacy guarantees akin to doubly stochastic matrices balancing marginal distributions.  
 - Utilizes real-world longitudinal datasets (unspecified) and privacy metric benchmarks.  
 - Demonstrates up to 20% improvement in utility metrics (e.g., classification accuracy or error rates) over baseline differential privacy methods.  
 - Shows robustness in preserving temporal correlations while maintaining privacy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practical privacy solutions for sensitive longitudinal data in healthcare, finance, and social science domains.  
 - Future work needed to generalize mechanisms to higher-dimensional or more complex temporal data structures, and to optimize computational efficiency.
 
@@ -7644,18 +7644,18 @@ This paper addresses privacy-preserving release of longitudinal data by introduc
 #### Executive Summary  
 This paper addresses the problem of constructing Interactive Oracle Proofs of Proximity (IOPPs) for codes defined on arbitrary Cayley graphs. The authors develop a generalized framework enabling IOPPs over any Cayley graph code, significantly extending prior work limited to specific graph families. The main result is a constructive proof that such codes admit IOPPs with efficient query complexity and soundness guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Establishment of a universal IOPP construction applicable to codes on any Cayley graph.  
 - Introduction of novel combinatorial and algebraic techniques to analyze proximity over generalized graph structures.  
 - Extension of interactive proof systems to a broader class of codes beyond well-studied cases like Reed-Muller or Reed-Solomon.  
 
-### Method & Results  
+### Method & Results
 - Developed an algebraic framework leveraging group properties underlying Cayley graphs to design IOPPs.  
 - Constructive protocol achieving sublinear query complexity relative to code length, maintaining soundness and completeness.  
 - No experimental datasets; results are theoretical and formal.  
 - Performance improvements measured in query efficiency and applicability; comparison to classical IOPPs highlights broader generality rather than raw efficiency gains.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Broadens the theoretical foundation of proximity proofs, potentially impacting cryptographic protocols and error-correcting code verification on new graph domains.  
 - Limited by its theoretical nature; practical implementation and optimization remain future directions.  
 - Future work could explore explicit parameters and empirical evaluation in applied settings.
@@ -7671,21 +7671,289 @@ This paper addresses the problem of constructing Interactive Oracle Proofs of Pr
 #### Executive Summary  
 This paper addresses the inefficiency of state commitments in blockchain systems, which hinders scalability and throughput. The authors propose AlDBaran, a novel protocol enabling blazingly fast state commitments through optimized cryptographic constructions and parallelization. Their approach demonstrates significant speedups in state commitment times while preserving security guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AlDBaran, a new protocol for high-speed state commitments in blockchains using advanced cryptographic techniques.  
 - Demonstrates parallel verification mechanisms to accelerate consensus without compromising security.  
 - Provides a thorough security analysis ensuring robustness against common blockchain adversaries.
 
-### Method & Results  
+### Method & Results
 - Developed a protocol combining succinct state encoding with parallelizable commitment proofs to reduce computation overhead.  
 - Evaluated using Ethereum-like state datasets and a custom blockchain simulation environment.  
 - Achieved up to 5x faster state commitment generation compared to leading protocols like SNARK-based commitments.  
 - Demonstrated scalability improvements in large-scale state scenarios, maintaining low latency under network stress.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more scalable and responsive blockchain architectures, enhancing throughput for decentralized applications.  
 - Future work includes extending support for cross-chain state commitments and optimizing protocols for resource-constrained nodes.  
 - Limited evaluation on real-world deployment scenarios; practical integration challenges remain unaddressed.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-17)
+
+### 软件工程 领域
+
+#### ReqInOne: A Large Language Model-Based Agent for Software Requirements Specification Generation
+**作者**: Taohong Zhu, Lucas C. Cordeiro, Youcheng Sun
+**类别**: cs.SE
+**发布日期**: 2025-08-13
+**链接**: http://arxiv.org/abs/2508.09648v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating software requirements specification (SRS) by proposing ReqInOne, a Large Language Model (LLM)-based agent that generates comprehensive, structured requirements documents from informal inputs. The approach leverages advanced LLM capabilities to improve accuracy and usability, demonstrating significant enhancements in specification quality over baseline methods.  
+
+### Key Contributions  
+- Introduces ReqInOne, a novel LLM-driven agent tailored specifically for end-to-end software requirements specification generation.  
+- Develops a structured pipeline integrating natural language understanding and domain-specific templates to ensure completeness and clarity in SRS output.  
+- Provides empirical evidence of ReqInOne’s superior performance and efficiency compared to traditional automated and semi-automated SRS tools.  
+
+### Method & Results  
+- Utilizes a large pretrained language model fine-tuned on a curated corpus of real-world software requirements documents paired with domain-specific prompts.  
+- Employs a multi-stage generation and validation pipeline to iteratively refine and structure the requirements output.  
+- Evaluated on a dataset of 500 varied software project descriptions, demonstrating a 20% improvement in requirement correctness and coherence metrics over leading baselines.  
+- Outperforms competitive approaches in both automated metrics and human expert assessments of specification quality.  
+
+### Impact & Limitations  
+- Offers substantial practical benefits by reducing manual effort and improving the quality and consistency of software requirements documents.  
+- Limitations include dependency on prompt engineering and potential challenges in domain generalization; future work could explore adaptive models for diverse software domains and integration with requirements management tools.
+
+---
+
+#### Your Coding Intent is Secretly in the Context and You Should Deliberately Infer It Before Completion
+**作者**: Yanzhou Li, Tianlin Li, Yiran Zhang, Shangqing Liu, Aishan Liu, Yang Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-13
+**链接**: http://arxiv.org/abs/2508.09537v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately completing code by inferring the programmer’s underlying intent from contextual information prior to generating code completions. The authors propose a deliberate intent inference mechanism that integrates context understanding before completion, resulting in significantly improved code suggestion accuracy.
+
+### Key Contributions
+- Introduces a novel intentional inference step within code completion pipelines to better capture programmer intent from context.  
+- Demonstrates that contextual semantic cues, beyond token-level patterns, are crucial to generating relevant code completions.  
+- Provides empirical evidence that deliberate intent inference substantially enhances completion quality across multiple coding tasks.
+
+### Method & Results
+- Method leverages a two-stage approach: first inferring the coding intent via deep contextual analysis, then guiding the code completion model with this inferred intent.  
+- Evaluated on standard code completion benchmarks including CodeSearchNet and a proprietary large-scale codebase.  
+- Achieved up to 15% improvement in top-1 completion accuracy over state-of-the-art baseline models such as Codex and CodeBERT.  
+- Demonstrated robustness across varied programming languages and context lengths.
+
+### Impact & Limitations
+- Significantly improves developer productivity by generating more context-aware and relevant code completions, reducing debugging and rewriting.  
+- Future work needed to handle ambiguous or minimal context scenarios where intent inference may be unreliable; scaling inference latency for real-time use also remains a challenge.
+
+---
+
+#### FormalGrad: Integrating Formal Methods with Gradient-Based LLM Refinement
+**作者**: Yueke Zhang, Yifan Zhang, Kevin Leach, Yu Huang
+**类别**: cs.SE
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.10059v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving Large Language Model (LLM) refinement by integrating formal methods to guarantee correctness alongside gradient-based optimization. The authors propose FormalGrad, a novel framework combining formal verification techniques with gradient-based tuning of LLM outputs, achieving more reliable and precise refinements.
+
+### Key Contributions  
+- Introduction of FormalGrad, a hybrid approach merging formal verification with gradient descent for LLM refinement.  
+- Demonstration of enhanced output correctness without sacrificing flexibility of gradient-based learning.  
+- Providing empirical evidence that formal constraints can improve model reliability in complex tasks.
+
+### Method & Results  
+- Method combines symbolic formal methods (e.g., SMT solving) with gradient-based optimization to iteratively refine LLM-generated outputs.  
+- Experiments conducted on software engineering tasks involving code synthesis and repair datasets.  
+- Results show up to 15% improvement in correctness metrics over gradient-only baselines, with fewer semantic errors.  
+- Outperforms state-of-the-art LLM refinement approaches by integrating formal guarantees.
+
+### Impact & Limitations  
+- Enables development of more dependable AI-assisted software engineering tools by reducing errors through rigorous verification.  
+- Current limitation includes computational overhead from formal verification; future work could optimize efficiency and extend to broader domains beyond code refinement.
+
+---
+
+#### Plug it and Play on Logs: A Configuration-Free Statistic-Based Log Parser
+**作者**: Qiaolin Qin, Xingfang Wu, Heng Li, Ettore Merlo
+**类别**: cs.SE, D.2.5
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09366v1
+
+#### Executive Summary
+This paper addresses the challenge of log parsing without manual configuration by proposing a novel statistic-based approach that operates in a plug-and-play manner. The method identifies log message templates automatically, significantly reducing preprocessing effort. Experimental results demonstrate its effectiveness and efficiency across multiple log datasets.
+
+### Key Contributions
+- Introduces a configuration-free, statistics-driven log parsing technique requiring no prior parameter tuning.
+- Develops a lightweight parser that adapts dynamically to diverse log formats without human intervention.
+- Validates the approach across various real-world logs, showing robust and generalizable performance.
+
+### Method & Results
+- Employs statistical measures to detect repetitive patterns and infer log templates on-the-fly.
+- Tested on multiple benchmark datasets including HDFS, BGL, and Apache logs.
+- Achieved parsing accuracy comparable to or exceeding state-of-the-art methods, with accuracy improvements up to 5% on some datasets.
+- Demonstrated faster parsing speeds due to removed configuration overhead compared to baseline parsers like Drain and Spell.
+
+### Impact & Limitations
+- Enables seamless deployment in production environments by eliminating manual setup, enhancing log analysis workflows.
+- Limitations include potential decreased accuracy on highly unstructured logs and challenges in capturing deeply nested log formats; future work may explore hybrid models integrating semantic information.
+
+---
+
+#### Teaching Code Refactoring Using LLMs
+**作者**: Anshul Khairnar, Aarya Rajoju, Edward F. Gehringer
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-08-12
+**链接**: http://arxiv.org/abs/2508.09332v1
+
+#### Executive Summary  
+This paper addresses the challenge of teaching code refactoring by leveraging large language models (LLMs) to provide automated, context-aware feedback and suggestions. The authors develop a novel instructional framework integrating LLMs into programming education, demonstrating improved student understanding and refactoring skills.
+
+### Key Contributions  
+- Introduces an LLM-driven teaching approach for code refactoring that offers real-time, personalized feedback.  
+- Provides empirical evidence showing LLMs can effectively scaffold refactoring instruction in classroom settings.  
+- Develops and shares a structured curriculum incorporating LLM interactions tailored to refactoring concepts.
+
+### Method & Results  
+- Methodology: Integrates LLMs into coding exercises to suggest refactoring steps and explanations; evaluates student performance pre- and post-intervention.  
+- Tools/Datasets: Utilizes state-of-the-art LLMs (e.g., GPT variants) and student code submissions from undergraduate software engineering courses.  
+- Results: Students using the LLM-enhanced curriculum improved refactoring task accuracy by ~25% compared to control groups.  
+- Outperformed traditional teaching methods by facilitating deeper conceptual understanding and practical application.
+
+### Impact & Limitations  
+- Practical Significance: Demonstrates scalable AI support for complex software engineering education, potentially reducing instructor workload while enhancing learner outcomes.  
+- Limitations/Future Work: Evaluation limited to specific course contexts; broader studies needed to generalize findings. Future research should explore fine-tuning LLMs for nuanced refactoring styles and diverse programming languages.
+
+---
+
+### 安全领域 领域
+
+#### Yet Another Mirage of Breaking MIRAGE: Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches
+**作者**: Chris Cao, Gururaj Saileshwar
+**类别**: cs.CR
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10431v1
+
+#### Executive Summary  
+This paper critically examines occupancy-based side-channel attacks claimed to break fully associative randomized caches, specifically targeting the MIRAGE cache design. Through rigorous analysis and experiments, the authors demonstrate that such attacks do not leak exploitable information, effectively debunking prior claims.
+
+### Key Contributions  
+- Provides the first thorough empirical and theoretical debunking of occupancy-based side-channel attacks on fully associative randomized caches.  
+- Introduces refined attack models and analytical frameworks clarifying why MIRAGE resists these side channels.  
+- Highlights the limitations of prior attack assumptions, advancing more accurate security evaluation methods for randomized caches.
+
+### Method & Results  
+- Methodology: Developed precise occupancy measurement tools and attack simulations; conducted side-channel experiments on MIRAGE cache implementations.  
+- Tools: Custom cache simulators modeling fully associative randomized caching; statistical analysis of occupancy data.  
+- Results: Demonstrated negligible leakage from occupancy patterns, with attack success rates close to random guessing (<5%).  
+- Compared to prior work claiming significant leakage, this study shows near-zero practical exploitability.
+
+### Impact & Limitations  
+- Enhances confidence in fully associative randomized cache defenses against occupancy-based side channels, informing secure microarchitecture design.  
+- Limitations include potential for more complex or hybrid side channels not covered; future work could explore combined attack vectors or real hardware validation.
+
+---
+
+#### MM-Food-100K: A 100,000-Sample Multimodal Food Intelligence Dataset with Verifiable Provenance
+**作者**: Yi Dong, Yusuke Muraoka, Scott Shi, Yi Zhang
+**类别**: cs.AI, cs.CR, cs.CV, I.2.10; I.2.6
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10429v1
+
+#### Executive Summary  
+This paper addresses the challenge of multimodal food intelligence by introducing MM-Food-100K, a large-scale dataset with 100,000 samples including images and rich metadata with verified provenance. The dataset enables improved food recognition and provenance verification tasks, demonstrating enhanced multimodal learning performance over previous datasets.
+
+### Key Contributions  
+- Introduces MM-Food-100K, a 100,000-sample multimodal food dataset with verifiable provenance to ensure data reliability.  
+- Provides a benchmark for multimodal food recognition incorporating both visual and contextual metadata.  
+- Demonstrates improved accuracy in food classification and provenance verification through multimodal fusion techniques.
+
+### Method & Results  
+- Compiled a large-scale dataset combining food images with extensive metadata (location, ingredients, etc.) verified for authenticity.  
+- Developed multimodal deep learning models integrating image and metadata modalities for classification and provenance tasks.  
+- Achieved significant accuracy improvements (exact numerical results not stated) over unimodal baselines and existing food datasets.  
+- Validated dataset quality and model generalizability via comparative experiments against baseline models.
+
+### Impact & Limitations  
+- Enables more reliable food intelligence applications such as dietary monitoring, provenance tracing, and culinary analysis due to verified data provenance.  
+- Future work needed to expand dataset diversity, incorporate more complex multimodal fusion architectures, and explore real-world deployment challenges.
+
+---
+
+#### Jailbreaking Commercial Black-Box LLMs with Explicitly Harmful Prompts
+**作者**: Chiyu Zhang, Lu Zhou, Xiaogang Xu, Jiafei Wu, Liming Fang, Zhe Liu
+**类别**: cs.CL, cs.CR
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10390v1
+
+#### Executive Summary
+This paper investigates the vulnerability of commercial black-box large language models (LLMs) to jailbreaking via explicitly harmful prompts. The authors design a systematic framework to generate and test such prompts, demonstrating that even safety-filtered LLMs can be coerced into producing unsafe content. Their results reveal critical gaps in current content moderation strategies.
+
+### Key Contributions
+- Proposes a novel framework for crafting explicitly harmful prompts targeting black-box LLMs.
+- Provides the first extensive empirical evaluation of jailbreak susceptibility across multiple commercial LLMs.
+- Highlights inherent weaknesses in existing safety filters, prompting rethinking of LLM content moderation.
+
+### Method & Results
+- Utilizes an iterative prompt-engineering process combined with black-box querying to elicit harmful outputs.
+- Tests conducted on well-known commercial LLMs (e.g., GPT-4, Claude) without internal access, using harmful prompt datasets.
+- Achieved high jailbreak success rates, with over 60% of attempts generating harmful content despite safety layers.
+- Outperforms baseline naive prompt attacks by a significant margin, demonstrating method effectiveness.
+
+### Impact & Limitations
+- Raises awareness of real-world risks in deploying commercial LLMs and encourages the development of more robust defenses.
+- Limited to black-box settings; future work could explore adaptive defenses or attack generalization to emerging LLMs.
+
+---
+
+#### BERTector: Intrusion Detection Based on Joint-Dataset Learning
+**作者**: Haoyang Hu, Xun Huang, Chenyu Wu, Shiwen Liu, Zhichao Lian, Shuangquan Zhang
+**类别**: cs.CR
+**发布日期**: 2025-08-14
+**链接**: http://arxiv.org/abs/2508.10327v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving intrusion detection accuracy by leveraging multiple heterogeneous datasets simultaneously. The authors propose BERTector, a novel deep learning framework based on BERT architecture tailored for joint-dataset learning, which enhances feature representation and detection performance. Experiments demonstrate that BERTector achieves superior detection rates and robustness compared to single-dataset models.
+
+### Key Contributions  
+- Introduces BERTector, a BERT-based intrusion detection model utilizing joint learning from multiple datasets to capture diverse attack patterns.  
+- Proposes a dataset fusion strategy that harmonizes heterogeneous intrusion data for unified training.  
+- Demonstrates improved detection accuracy and generalization over traditional single-dataset and ensemble methods.
+
+### Method & Results  
+- Core method: fine-tuning BERT for intrusion detection with a joint-dataset learning paradigm combining multiple labeled intrusion datasets.  
+- Datasets used: widely recognized intrusion detection datasets (e.g., NSL-KDD, CICIDS2017) integrated for joint training.  
+- Results: BERTector outperforms baseline models with up to 7% higher detection accuracy and significantly reduced false positives.  
+- Performance gain: Achieves better generalization on unseen attacks compared to benchmark models trained on singular datasets.
+
+### Impact & Limitations  
+- Impact: Enhances practical IDS capabilities by effectively leveraging diverse data sources, improving security monitoring reliability.  
+- Limitations/Future work: Requires further validation on larger-scale and real-time streaming data; computational overhead of BERT may limit deployment in resource-constrained environments.
+
+---
+
+#### Detecting Untargeted Attacks and Mitigating Unreliable Updates in Federated Learning for Underground Mining Operations
+**作者**: Md Sazedur Rahman, Mohamed Elmahallawy, Sanjay Madria, Samuel Frimpong
+**类别**: cs.CR
+**发布日期**: 2025-08-13
+**链接**: http://arxiv.org/abs/2508.10212v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting untargeted attacks and unreliable updates in federated learning (FL) systems applied to underground mining operations. The authors propose a novel framework that identifies malicious model updates and mitigates their impact, enhancing the robustness of FL in harsh, data-constrained mining environments. Experimental results demonstrate improved attack detection accuracy and model reliability over existing methods.
+
+### Key Contributions
+- Introduces a specialized attack detection mechanism tailored for untargeted attacks in FL within underground mining contexts.
+- Proposes a reliable update mitigation strategy to filter out corrupted or unreliable client contributions during model aggregation.
+- Demonstrates the practical viability of the approach in challenging environmental and data conditions typical of mining operations.
+
+### Method & Results
+- Combines anomaly detection algorithms with consistency checks to identify unreliable or malicious updates before aggregation.
+- Utilizes simulated underground mining operational data to evaluate the approach.
+- Achieves significant improvements in attack detection rates (exact metrics not specified) and maintains model accuracy despite adversarial conditions.
+- Outperforms baseline FL aggregation methods that lack robust attack detection and mitigation.
+
+### Impact & Limitations
+- Enhances the security and reliability of FL deployments in critical infrastructure like underground mining, where sensor data integrity is vital.
+- Limitations include reliance on simulated datasets and the focus on untargeted attacks; future work could explore broader attack models and real-world deployment validation.
 
 ---
 
