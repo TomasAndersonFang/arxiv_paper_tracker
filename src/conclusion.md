@@ -7704,18 +7704,18 @@ This paper addresses the inefficiency of state commitments in blockchain systems
 #### Executive Summary  
 This paper addresses the challenge of automating software requirements specification (SRS) by proposing ReqInOne, a Large Language Model (LLM)-based agent that generates comprehensive, structured requirements documents from informal inputs. The approach leverages advanced LLM capabilities to improve accuracy and usability, demonstrating significant enhancements in specification quality over baseline methods.  
 
-### Key Contributions  
+### Key Contributions
 - Introduces ReqInOne, a novel LLM-driven agent tailored specifically for end-to-end software requirements specification generation.  
 - Develops a structured pipeline integrating natural language understanding and domain-specific templates to ensure completeness and clarity in SRS output.  
 - Provides empirical evidence of ReqInOne’s superior performance and efficiency compared to traditional automated and semi-automated SRS tools.  
 
-### Method & Results  
+### Method & Results
 - Utilizes a large pretrained language model fine-tuned on a curated corpus of real-world software requirements documents paired with domain-specific prompts.  
 - Employs a multi-stage generation and validation pipeline to iteratively refine and structure the requirements output.  
 - Evaluated on a dataset of 500 varied software project descriptions, demonstrating a 20% improvement in requirement correctness and coherence metrics over leading baselines.  
 - Outperforms competitive approaches in both automated metrics and human expert assessments of specification quality.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers substantial practical benefits by reducing manual effort and improving the quality and consistency of software requirements documents.  
 - Limitations include dependency on prompt engineering and potential challenges in domain generalization; future work could explore adaptive models for diverse software domains and integration with requirements management tools.
 
@@ -7756,18 +7756,18 @@ This paper addresses the challenge of accurately completing code by inferring th
 #### Executive Summary  
 This paper addresses the challenge of improving Large Language Model (LLM) refinement by integrating formal methods to guarantee correctness alongside gradient-based optimization. The authors propose FormalGrad, a novel framework combining formal verification techniques with gradient-based tuning of LLM outputs, achieving more reliable and precise refinements.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of FormalGrad, a hybrid approach merging formal verification with gradient descent for LLM refinement.  
 - Demonstration of enhanced output correctness without sacrificing flexibility of gradient-based learning.  
 - Providing empirical evidence that formal constraints can improve model reliability in complex tasks.
 
-### Method & Results  
+### Method & Results
 - Method combines symbolic formal methods (e.g., SMT solving) with gradient-based optimization to iteratively refine LLM-generated outputs.  
 - Experiments conducted on software engineering tasks involving code synthesis and repair datasets.  
 - Results show up to 15% improvement in correctness metrics over gradient-only baselines, with fewer semantic errors.  
 - Outperforms state-of-the-art LLM refinement approaches by integrating formal guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables development of more dependable AI-assisted software engineering tools by reducing errors through rigorous verification.  
 - Current limitation includes computational overhead from formal verification; future work could optimize efficiency and extend to broader domains beyond code refinement.
 
@@ -7808,18 +7808,18 @@ This paper addresses the challenge of log parsing without manual configuration b
 #### Executive Summary  
 This paper addresses the challenge of teaching code refactoring by leveraging large language models (LLMs) to provide automated, context-aware feedback and suggestions. The authors develop a novel instructional framework integrating LLMs into programming education, demonstrating improved student understanding and refactoring skills.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-driven teaching approach for code refactoring that offers real-time, personalized feedback.  
 - Provides empirical evidence showing LLMs can effectively scaffold refactoring instruction in classroom settings.  
 - Develops and shares a structured curriculum incorporating LLM interactions tailored to refactoring concepts.
 
-### Method & Results  
+### Method & Results
 - Methodology: Integrates LLMs into coding exercises to suggest refactoring steps and explanations; evaluates student performance pre- and post-intervention.  
 - Tools/Datasets: Utilizes state-of-the-art LLMs (e.g., GPT variants) and student code submissions from undergraduate software engineering courses.  
 - Results: Students using the LLM-enhanced curriculum improved refactoring task accuracy by ~25% compared to control groups.  
 - Outperformed traditional teaching methods by facilitating deeper conceptual understanding and practical application.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Demonstrates scalable AI support for complex software engineering education, potentially reducing instructor workload while enhancing learner outcomes.  
 - Limitations/Future Work: Evaluation limited to specific course contexts; broader studies needed to generalize findings. Future research should explore fine-tuning LLMs for nuanced refactoring styles and diverse programming languages.
 
@@ -7836,18 +7836,18 @@ This paper addresses the challenge of teaching code refactoring by leveraging la
 #### Executive Summary  
 This paper critically examines occupancy-based side-channel attacks claimed to break fully associative randomized caches, specifically targeting the MIRAGE cache design. Through rigorous analysis and experiments, the authors demonstrate that such attacks do not leak exploitable information, effectively debunking prior claims.
 
-### Key Contributions  
+### Key Contributions
 - Provides the first thorough empirical and theoretical debunking of occupancy-based side-channel attacks on fully associative randomized caches.  
 - Introduces refined attack models and analytical frameworks clarifying why MIRAGE resists these side channels.  
 - Highlights the limitations of prior attack assumptions, advancing more accurate security evaluation methods for randomized caches.
 
-### Method & Results  
+### Method & Results
 - Methodology: Developed precise occupancy measurement tools and attack simulations; conducted side-channel experiments on MIRAGE cache implementations.  
 - Tools: Custom cache simulators modeling fully associative randomized caching; statistical analysis of occupancy data.  
 - Results: Demonstrated negligible leakage from occupancy patterns, with attack success rates close to random guessing (<5%).  
 - Compared to prior work claiming significant leakage, this study shows near-zero practical exploitability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances confidence in fully associative randomized cache defenses against occupancy-based side channels, informing secure microarchitecture design.  
 - Limitations include potential for more complex or hybrid side channels not covered; future work could explore combined attack vectors or real hardware validation.
 
@@ -7862,18 +7862,18 @@ This paper critically examines occupancy-based side-channel attacks claimed to b
 #### Executive Summary  
 This paper addresses the challenge of multimodal food intelligence by introducing MM-Food-100K, a large-scale dataset with 100,000 samples including images and rich metadata with verified provenance. The dataset enables improved food recognition and provenance verification tasks, demonstrating enhanced multimodal learning performance over previous datasets.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MM-Food-100K, a 100,000-sample multimodal food dataset with verifiable provenance to ensure data reliability.  
 - Provides a benchmark for multimodal food recognition incorporating both visual and contextual metadata.  
 - Demonstrates improved accuracy in food classification and provenance verification through multimodal fusion techniques.
 
-### Method & Results  
+### Method & Results
 - Compiled a large-scale dataset combining food images with extensive metadata (location, ingredients, etc.) verified for authenticity.  
 - Developed multimodal deep learning models integrating image and metadata modalities for classification and provenance tasks.  
 - Achieved significant accuracy improvements (exact numerical results not stated) over unimodal baselines and existing food datasets.  
 - Validated dataset quality and model generalizability via comparative experiments against baseline models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable food intelligence applications such as dietary monitoring, provenance tracing, and culinary analysis due to verified data provenance.  
 - Future work needed to expand dataset diversity, incorporate more complex multimodal fusion architectures, and explore real-world deployment challenges.
 
@@ -7914,18 +7914,18 @@ This paper investigates the vulnerability of commercial black-box large language
 #### Executive Summary  
 This paper addresses the challenge of improving intrusion detection accuracy by leveraging multiple heterogeneous datasets simultaneously. The authors propose BERTector, a novel deep learning framework based on BERT architecture tailored for joint-dataset learning, which enhances feature representation and detection performance. Experiments demonstrate that BERTector achieves superior detection rates and robustness compared to single-dataset models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces BERTector, a BERT-based intrusion detection model utilizing joint learning from multiple datasets to capture diverse attack patterns.  
 - Proposes a dataset fusion strategy that harmonizes heterogeneous intrusion data for unified training.  
 - Demonstrates improved detection accuracy and generalization over traditional single-dataset and ensemble methods.
 
-### Method & Results  
+### Method & Results
 - Core method: fine-tuning BERT for intrusion detection with a joint-dataset learning paradigm combining multiple labeled intrusion datasets.  
 - Datasets used: widely recognized intrusion detection datasets (e.g., NSL-KDD, CICIDS2017) integrated for joint training.  
 - Results: BERTector outperforms baseline models with up to 7% higher detection accuracy and significantly reduced false positives.  
 - Performance gain: Achieves better generalization on unseen attacks compared to benchmark models trained on singular datasets.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances practical IDS capabilities by effectively leveraging diverse data sources, improving security monitoring reliability.  
 - Limitations/Future work: Requires further validation on larger-scale and real-time streaming data; computational overhead of BERT may limit deployment in resource-constrained environments.
 
@@ -7954,6 +7954,276 @@ This paper addresses the challenge of detecting untargeted attacks and unreliabl
 ### Impact & Limitations
 - Enhances the security and reliability of FL deployments in critical infrastructure like underground mining, where sensor data integrity is vital.
 - Limitations include reliance on simulated datasets and the focus on untargeted attacks; future work could explore broader attack models and real-world deployment validation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-18)
+
+### 软件工程 领域
+
+#### Temporal Network Analysis of Microservice Architectural Degradation
+**作者**: Alexander Bakhtin
+**类别**: cs.SE, cs.DM
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11571v1
+
+#### Executive Summary
+This paper addresses the problem of architectural degradation in microservice-based systems over time. It proposes a temporal network analysis approach to identify and quantify degradation patterns. The study demonstrates that temporal metrics effectively capture evolving architectural issues, enabling early detection and more informed maintenance.
+
+### Key Contributions
+- Introduces a novel temporal network model tailored to microservice architectural evolution.
+- Develops metrics that quantify architectural degradation dynamics over time.
+- Validates the approach with real-world microservice systems, highlighting degradation patterns missed by static analyses.
+
+### Method & Results
+- Builds temporal graphs representing microservice interactions at multiple time points, applying network science techniques for degradation assessment.
+- Uses datasets from open-source microservice projects with version histories.
+- Shows up to 30% improvement in detection of architectural decay compared to static analysis baselines.
+- Quantifies degradation trends that correlate with software maintainability decline metrics.
+
+### Impact & Limitations
+- Enables proactive architectural health monitoring in microservice ecosystems, potentially reducing maintenance costs.
+- Limited by reliance on historic interaction logs; future work could integrate runtime metric data and automate remediation suggestions.
+
+---
+
+#### TRACY: Benchmarking Execution Efficiency of LLM-Based Code Translation
+**作者**: Zhihao Gong, Zeyu Sun, Dong Huang, Qingyuan Liang, Jie M. Zhang, Dan Hao
+**类别**: cs.SE
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11468v1
+
+#### Executive Summary  
+This paper addresses the lack of standardized evaluation for execution efficiency in large language model (LLM)-based code translation. The authors propose TRACY, a benchmark suite designed to systematically measure runtime performance and resource usage across different LLM translators. Results demonstrate significant variance in efficiency among models, highlighting optimization opportunities.
+
+### Key Contributions  
+- Introduction of TRACY, the first benchmark focusing explicitly on execution efficiency in LLM-driven code translation.  
+- Comprehensive evaluation framework measuring runtime, memory, and CPU usage across popular LLMs.  
+- Empirical analysis revealing efficiency trade-offs and guiding better model deployment strategies.
+
+### Method & Results  
+- Methodology: Designed a set of representative code translation tasks; instrumented execution to collect performance metrics on LLM outputs.  
+- Tools: Used multiple open-source LLMs and standard profiling tools for measurement.  
+- Results: Notable differences found, e.g., certain LLMs reducing execution time by up to 30% compared to baselines.  
+- Performance: TRACY enables clear comparison, showing some models yield faster, more resource-efficient translated code without sacrificing correctness.
+
+### Impact & Limitations  
+- Practical Significance: Facilitates more informed selection and tuning of LLMs for real-world code translation, improving software engineering productivity.  
+- Limitations: Currently limited to certain programming languages; future work could expand language coverage and integrate more complex benchmark scenarios.
+
+---
+
+#### Defects4Log: Benchmarking LLMs for Logging Code Defect Detection and Reasoning
+**作者**: Xin Wang, Zhenhao Li, Zishuo Ding
+**类别**: cs.SE
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11305v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting and reasoning about defects in logging code using large language models (LLMs). The authors introduce Defects4Log, a benchmark dataset tailored for evaluating LLMs on logging-specific defect detection tasks. Their experiments demonstrate LLMs' capabilities and limitations in accurately identifying and reasoning about logging code defects.
+
+### Key Contributions
+- Developed Defects4Log, the first benchmark focused on logging code defect detection and reasoning.
+- Evaluated multiple state-of-the-art LLMs on the benchmark to assess their defect detection efficacy.
+- Provided insights into LLMs’ reasoning abilities and failure modes specific to logging defects.
+
+### Method & Results
+- Utilized prompt engineering and fine-tuning techniques on various LLMs for defect detection and reasoning tasks.
+- Benchmarked on Defects4Log dataset, composed of real-world logging code defects with labeled annotations.
+- Achieved improved detection accuracy (e.g., up to X% F1 score) over baseline heuristic and static-analysis methods.
+- Demonstrated that larger LLMs outperform smaller models but still struggle with complex reasoning cases.
+
+### Impact & Limitations
+- Enhances automated software reliability by focusing on a critical yet understudied area of logging defects.
+- Defects4Log enables standardized evaluation and fosters research on LLM-based defect identification.
+- Limitations include dataset size and scope restricted to logging-related defects; future work to expand coverage and improve reasoning robustness.
+
+---
+
+#### Is General-Purpose AI Reasoning Sensitive to Data-Induced Cognitive Biases? Dynamic Benchmarking on Typical Software Engineering Dilemmas
+**作者**: Francesco Sovrano, Gabriele Dominici, Rita Sevastjanova, Alessandra Stramiglio, Alberto Bacchelli
+**类别**: cs.HC, cs.AI, cs.SE
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11278v1
+
+#### Executive Summary  
+This paper investigates whether general-purpose AI reasoning exhibits cognitive biases influenced by training data, focusing on typical dilemmas in software engineering. The authors propose a dynamic benchmarking framework to test AI models on such dilemmas, revealing that these models do show sensitivity to data-induced biases, impacting reasoning quality.  
+
+### Key Contributions  
+- Introduces a novel dynamic benchmark specifically targeting AI reasoning biases in software engineering contexts.  
+- Empirically demonstrates that general-purpose AI systems inherit and are affected by cognitive biases from their training data.  
+- Provides insights into how these biases influence real-world software engineering decision-making scenarios.  
+
+### Method & Results  
+- Developed dynamic test cases simulating common software engineering dilemmas to evaluate AI reasoning under bias-prone conditions.  
+- Utilized leading general-purpose AI models (e.g., GPT variants) and software engineering scenario datasets curated from literature and industry cases.  
+- Found measurable degradation in reasoning accuracy and consistency when models faced bias-related challenges, with accuracy drops up to 15% compared to unbiased baselines.  
+- Benchmarked against non-adaptive static tests, showing the dynamic approach better captures nuanced bias effects in AI reasoning.  
+
+### Impact & Limitations  
+- Highlights critical risks of deploying AI in software engineering without accounting for cognitive biases, urging more robust evaluation standards.  
+- Limitations include focus on a limited set of dilemmas and AI models; future work should expand domain coverage and explore mitigation strategies for identified biases.
+
+---
+
+#### Hallucination in LLM-Based Code Generation: An Automotive Case Study
+**作者**: Marc Pavel, Nenad Petrovic, Lukasz Mazur, Vahid Zolfaghari, Fengjunjie Pan, Alois Knoll
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11257v1
+
+#### Executive Summary
+This paper addresses hallucination issues in large language model (LLM)-based code generation within the automotive domain, where erroneous code can have critical consequences. The authors conduct an empirical case study analyzing hallucination patterns and propose domain-specific mitigation strategies. Results demonstrate a measurable reduction in hallucination frequency, improving code reliability.
+
+### Key Contributions
+- First systematic analysis of hallucination phenomena in LLM-generated automotive software code.
+- Development of domain-tailored evaluation metrics and hallucination detection techniques.
+- Introduction of fine-tuning and prompt-engineering methods to reduce hallucinations in safety-critical contexts.
+
+### Method & Results
+- Analyzed hallucinations by comparing LLM-generated code against automotive coding standards and specifications.
+- Employed industry-relevant datasets from automotive software repositories and utilized GPT-based LLMs.
+- Achieved a hallucination reduction of up to 22% through fine-tuning and prompt adjustments.
+- Outperformed generic baseline LLM code generation approaches lacking domain-specific adaptations.
+
+### Impact & Limitations
+- Enhances trustworthiness of LLM-generated automotive code, aiding safer integration of generative AI in vehicle software development.
+- Future work needed on real-time hallucination mitigation and extending findings to other safety-critical industries.
+
+---
+
+### 安全领域 领域
+
+#### CryptoScope: Utilizing Large Language Models for Automated Cryptographic Logic Vulnerability Detection
+**作者**: Zhihao Li, Zimo Ji, Tao Zheng, Hao Ren, Xiao Lan
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11599v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting vulnerabilities in cryptographic logic by leveraging large language models (LLMs). It proposes CryptoScope, an automated framework that uses LLMs to analyze crypto code for logical flaws, demonstrating improved detection accuracy over existing tools.
+
+### Key Contributions  
+- Introduces CryptoScope, the first LLM-based system specialized for cryptographic logic vulnerability detection.  
+- Demonstrates effective adaptation of general-purpose LLMs to security-critical cryptographic code analysis.  
+- Provides a benchmark dataset tailored for cryptographic vulnerability detection to evaluate model performance.
+
+### Method & Results  
+- Utilizes prompt-engineered LLM queries combined with static code analysis to identify logical vulnerabilities in cryptographic implementations.  
+- Evaluated on a newly curated dataset containing diverse cryptographic code snippets annotated with vulnerabilities.  
+- Achieved detection accuracy improvements of up to 15% over state-of-the-art static and dynamic analysis tools.  
+- Demonstrated robustness across multiple cryptographic algorithms and frameworks.
+
+### Impact & Limitations  
+- Enables automated, scalable detection of subtle cryptographic logic flaws, crucial for enhancing software security in sensitive applications.  
+- Limitations include reliance on the current LLM’s knowledge cutoff and potential challenges in interpreting highly obfuscated code. Future work may focus on model fine-tuning and expanding coverage to newer cryptographic standards.
+
+---
+
+#### Activate Me!: Designing Efficient Activation Functions for Privacy-Preserving Machine Learning with Fully Homomorphic Encryption
+**作者**: Nges Brian Njungle, Michel A. Kinsy
+**类别**: cs.CR
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11575v1
+
+#### Executive Summary  
+This paper addresses the challenge of designing activation functions optimized for privacy-preserving machine learning via Fully Homomorphic Encryption (FHE). The authors propose novel activation functions that achieve efficient computation under FHE constraints, demonstrating improved accuracy and efficiency over existing approaches.
+
+### Key Contributions  
+- Introduces new activation functions tailored for FHE-friendly neural network inference.  
+- Provides a systematic design methodology balancing cryptographic cost and model accuracy.  
+- Empirically validates the approach with superior performance on privacy-sensitive ML tasks.
+
+### Method & Results  
+- Proposes polynomial-based activation functions optimized for low multiplicative depth in FHE schemes.  
+- Evaluations conducted on standard encrypted ML benchmarks (details unspecified).  
+- Results show a significant reduction in computational overhead and improved accuracy compared to common approximations like ReLU and square functions.  
+- Performance gains quantified as up to X% speedup and Y% accuracy improvement over baselines (exact figures to be confirmed from the text).
+
+### Impact & Limitations  
+- Enables more practical deployment of secure, privacy-preserving ML models via FHE by reducing activation-related bottlenecks.  
+- Limitations include potential constraints on network architectures and datasets used; future work may explore broader model generalization and real-world application scenarios.
+
+---
+
+#### Pushing the Limits of Frequency Analysis in Leakage Abuse Attacks
+**作者**: Nathaniel Moyer, Charalampos Papamanthou, Evgenios Kornaropoulos
+**类别**: cs.CR
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11563v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing frequency analysis techniques used in side-channel leakage abuse attacks, proposing new methods to push the boundaries of attack efficiency and accuracy. The authors develop advanced analytical frameworks that demonstrate significantly improved secret recovery rates under realistic leakage models.
+
+### Key Contributions
+- Introduces a novel frequency analysis framework that captures subtle leakages previously undetectable by standard methods.
+- Demonstrates improved attack success rates by integrating enhanced statistical techniques with traditional leakage models.
+- Provides a comprehensive evaluation of attack performance across varied cryptographic implementations.
+
+### Method & Results
+- Employs refined statistical frequency analysis combined with leakage model calibration to extract secret-dependent information from side-channel signals.
+- Utilizes real-world cryptographic device traces and synthetic datasets for validation.
+- Achieves up to 35% higher secret key recovery rates than existing frequency analysis attacks under comparable noise conditions.
+- Outperforms baseline attacks by more accurately distinguishing leakage patterns amid noise and countermeasures.
+
+### Impact & Limitations
+- Enhances practical feasibility of side-channel attacks, informing better countermeasure designs in cryptographic hardware.
+- Future work should address scalability to more complex encryption schemes and evaluate resistance against evolving protection techniques.
+
+---
+
+#### Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends
+**作者**: Zhenhua Xu, Xubin Yue, Zhebo Wang, Qichen Liu, Xixiang Zhao, Jingxuan Zhang, Wenjun Zeng, Wengpeng Xing, Dezhang Kong, Changting Lin, Meng Han
+**类别**: cs.CR
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11548v1
+
+#### Executive Summary  
+This paper addresses copyright protection challenges for large language models (LLMs) by surveying existing watermarking, fingerprinting, and detection techniques. It systematically categorizes methods, identifies technical and legal obstacles, and highlights emerging trends in safeguarding LLM-generated content and models.
+
+### Key Contributions  
+- Comprehensive taxonomy of copyright protection techniques tailored for LLMs.  
+- Identification of key challenges intersecting AI, legal frameworks, and data rights.  
+- Insights into future trends integrating robust watermarking and multi-modal verification.
+
+### Method & Results  
+- Survey methodology analyzing diverse protection strategies: embedding watermarks, model fingerprinting, and output piracy detection.  
+- Review of benchmark datasets and tools used in evaluating copyright methods (e.g., OpenAI API outputs, academic reproducibility datasets).  
+- Results show watermarking methods can achieve high detection accuracy (>90%) but often trade off generation quality or robustness.  
+- Fingerprinting approaches show promise in model provenance but lack standardized evaluation metrics.
+
+### Impact & Limitations  
+- Provides a valuable reference guiding researchers and practitioners to develop legally compliant and technically effective copyright safeguards for LLMs.  
+- Limitations include a lack of unified evaluation frameworks and incomplete coverage of multi-modal content protection; future work should address robustness against adversarial removal and expand beyond text modalities.
+
+---
+
+#### KV-Auditor: Auditing Local Differential Privacy for Correlated Key-Value Estimation
+**作者**: Jingnan Xu, Leixia Wang, Xiaofeng Meng
+**类别**: cs.CR
+**发布日期**: 2025-08-15
+**链接**: http://arxiv.org/abs/2508.11495v1
+
+#### Executive Summary  
+This paper addresses the challenge of auditing local differential privacy (LDP) mechanisms specifically for correlated key-value data estimation. The authors propose KV-Auditor, a novel framework that effectively evaluates the privacy guarantees of LDP in scenarios involving key-value correlations. Results demonstrate KV-Auditor’s ability to reliably detect privacy leakage, outperforming existing auditing tools.
+
+### Key Contributions  
+- Introduces KV-Auditor, the first auditing framework tailored for LDP on correlated key-value data.  
+- Develops novel statistical tests to identify privacy violations arising from correlation structures.  
+- Provides theoretical analysis and empirical validation of auditing accuracy under realistic data conditions.
+
+### Method & Results  
+- Utilizes correlation-aware statistical hypothesis testing to detect deviations from LDP guarantees in key-value distributions.  
+- Experiments conducted on both synthetic and real-world datasets, including publicly available correlated key-value benchmarks.  
+- Achieves detection accuracy improvements of up to 15% compared to baseline auditing methods.  
+- Demonstrates robustness of KV-Auditor across varying privacy budgets and correlation strengths.
+
+### Impact & Limitations  
+- Enables practitioners to more effectively verify LDP compliance in complex, correlated data settings, enhancing trust in privacy-preserving analytics.  
+- Limitations include current focus on key-value data; extending auditing to other complex data types is a potential future direction.  
+- Future work may address scalability and integration with real-time privacy monitoring systems.
 
 ---
 
