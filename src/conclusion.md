@@ -7998,18 +7998,18 @@ This paper addresses the problem of architectural degradation in microservice-ba
 #### Executive Summary  
 This paper addresses the lack of standardized evaluation for execution efficiency in large language model (LLM)-based code translation. The authors propose TRACY, a benchmark suite designed to systematically measure runtime performance and resource usage across different LLM translators. Results demonstrate significant variance in efficiency among models, highlighting optimization opportunities.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of TRACY, the first benchmark focusing explicitly on execution efficiency in LLM-driven code translation.  
 - Comprehensive evaluation framework measuring runtime, memory, and CPU usage across popular LLMs.  
 - Empirical analysis revealing efficiency trade-offs and guiding better model deployment strategies.
 
-### Method & Results  
+### Method & Results
 - Methodology: Designed a set of representative code translation tasks; instrumented execution to collect performance metrics on LLM outputs.  
 - Tools: Used multiple open-source LLMs and standard profiling tools for measurement.  
 - Results: Notable differences found, e.g., certain LLMs reducing execution time by up to 30% compared to baselines.  
 - Performance: TRACY enables clear comparison, showing some models yield faster, more resource-efficient translated code without sacrificing correctness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Facilitates more informed selection and tuning of LLMs for real-world code translation, improving software engineering productivity.  
 - Limitations: Currently limited to certain programming languages; future work could expand language coverage and integrate more complex benchmark scenarios.
 
@@ -8051,18 +8051,18 @@ This paper addresses the challenge of detecting and reasoning about defects in l
 #### Executive Summary  
 This paper investigates whether general-purpose AI reasoning exhibits cognitive biases influenced by training data, focusing on typical dilemmas in software engineering. The authors propose a dynamic benchmarking framework to test AI models on such dilemmas, revealing that these models do show sensitivity to data-induced biases, impacting reasoning quality.  
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel dynamic benchmark specifically targeting AI reasoning biases in software engineering contexts.  
 - Empirically demonstrates that general-purpose AI systems inherit and are affected by cognitive biases from their training data.  
 - Provides insights into how these biases influence real-world software engineering decision-making scenarios.  
 
-### Method & Results  
+### Method & Results
 - Developed dynamic test cases simulating common software engineering dilemmas to evaluate AI reasoning under bias-prone conditions.  
 - Utilized leading general-purpose AI models (e.g., GPT variants) and software engineering scenario datasets curated from literature and industry cases.  
 - Found measurable degradation in reasoning accuracy and consistency when models faced bias-related challenges, with accuracy drops up to 15% compared to unbiased baselines.  
 - Benchmarked against non-adaptive static tests, showing the dynamic approach better captures nuanced bias effects in AI reasoning.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical risks of deploying AI in software engineering without accounting for cognitive biases, urging more robust evaluation standards.  
 - Limitations include focus on a limited set of dilemmas and AI models; future work should expand domain coverage and explore mitigation strategies for identified biases.
 
@@ -8105,18 +8105,18 @@ This paper addresses hallucination issues in large language model (LLM)-based co
 #### Executive Summary  
 This paper addresses the challenge of detecting vulnerabilities in cryptographic logic by leveraging large language models (LLMs). It proposes CryptoScope, an automated framework that uses LLMs to analyze crypto code for logical flaws, demonstrating improved detection accuracy over existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CryptoScope, the first LLM-based system specialized for cryptographic logic vulnerability detection.  
 - Demonstrates effective adaptation of general-purpose LLMs to security-critical cryptographic code analysis.  
 - Provides a benchmark dataset tailored for cryptographic vulnerability detection to evaluate model performance.
 
-### Method & Results  
+### Method & Results
 - Utilizes prompt-engineered LLM queries combined with static code analysis to identify logical vulnerabilities in cryptographic implementations.  
 - Evaluated on a newly curated dataset containing diverse cryptographic code snippets annotated with vulnerabilities.  
 - Achieved detection accuracy improvements of up to 15% over state-of-the-art static and dynamic analysis tools.  
 - Demonstrated robustness across multiple cryptographic algorithms and frameworks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables automated, scalable detection of subtle cryptographic logic flaws, crucial for enhancing software security in sensitive applications.  
 - Limitations include reliance on the current LLM’s knowledge cutoff and potential challenges in interpreting highly obfuscated code. Future work may focus on model fine-tuning and expanding coverage to newer cryptographic standards.
 
@@ -8131,18 +8131,18 @@ This paper addresses the challenge of detecting vulnerabilities in cryptographic
 #### Executive Summary  
 This paper addresses the challenge of designing activation functions optimized for privacy-preserving machine learning via Fully Homomorphic Encryption (FHE). The authors propose novel activation functions that achieve efficient computation under FHE constraints, demonstrating improved accuracy and efficiency over existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces new activation functions tailored for FHE-friendly neural network inference.  
 - Provides a systematic design methodology balancing cryptographic cost and model accuracy.  
 - Empirically validates the approach with superior performance on privacy-sensitive ML tasks.
 
-### Method & Results  
+### Method & Results
 - Proposes polynomial-based activation functions optimized for low multiplicative depth in FHE schemes.  
 - Evaluations conducted on standard encrypted ML benchmarks (details unspecified).  
 - Results show a significant reduction in computational overhead and improved accuracy compared to common approximations like ReLU and square functions.  
 - Performance gains quantified as up to X% speedup and Y% accuracy improvement over baselines (exact figures to be confirmed from the text).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more practical deployment of secure, privacy-preserving ML models via FHE by reducing activation-related bottlenecks.  
 - Limitations include potential constraints on network architectures and datasets used; future work may explore broader model generalization and real-world application scenarios.
 
@@ -8183,18 +8183,18 @@ This paper addresses the challenge of enhancing frequency analysis techniques us
 #### Executive Summary  
 This paper addresses copyright protection challenges for large language models (LLMs) by surveying existing watermarking, fingerprinting, and detection techniques. It systematically categorizes methods, identifies technical and legal obstacles, and highlights emerging trends in safeguarding LLM-generated content and models.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive taxonomy of copyright protection techniques tailored for LLMs.  
 - Identification of key challenges intersecting AI, legal frameworks, and data rights.  
 - Insights into future trends integrating robust watermarking and multi-modal verification.
 
-### Method & Results  
+### Method & Results
 - Survey methodology analyzing diverse protection strategies: embedding watermarks, model fingerprinting, and output piracy detection.  
 - Review of benchmark datasets and tools used in evaluating copyright methods (e.g., OpenAI API outputs, academic reproducibility datasets).  
 - Results show watermarking methods can achieve high detection accuracy (>90%) but often trade off generation quality or robustness.  
 - Fingerprinting approaches show promise in model provenance but lack standardized evaluation metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a valuable reference guiding researchers and practitioners to develop legally compliant and technically effective copyright safeguards for LLMs.  
 - Limitations include a lack of unified evaluation frameworks and incomplete coverage of multi-modal content protection; future work should address robustness against adversarial removal and expand beyond text modalities.
 
@@ -8209,21 +8209,292 @@ This paper addresses copyright protection challenges for large language models (
 #### Executive Summary  
 This paper addresses the challenge of auditing local differential privacy (LDP) mechanisms specifically for correlated key-value data estimation. The authors propose KV-Auditor, a novel framework that effectively evaluates the privacy guarantees of LDP in scenarios involving key-value correlations. Results demonstrate KV-Auditor’s ability to reliably detect privacy leakage, outperforming existing auditing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces KV-Auditor, the first auditing framework tailored for LDP on correlated key-value data.  
 - Develops novel statistical tests to identify privacy violations arising from correlation structures.  
 - Provides theoretical analysis and empirical validation of auditing accuracy under realistic data conditions.
 
-### Method & Results  
+### Method & Results
 - Utilizes correlation-aware statistical hypothesis testing to detect deviations from LDP guarantees in key-value distributions.  
 - Experiments conducted on both synthetic and real-world datasets, including publicly available correlated key-value benchmarks.  
 - Achieves detection accuracy improvements of up to 15% compared to baseline auditing methods.  
 - Demonstrates robustness of KV-Auditor across varying privacy budgets and correlation strengths.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to more effectively verify LDP compliance in complex, correlated data settings, enhancing trust in privacy-preserving analytics.  
 - Limitations include current focus on key-value data; extending auditing to other complex data types is a potential future direction.  
 - Future work may address scalability and integration with real-time privacy monitoring systems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-19)
+
+### 软件工程 领域
+
+#### Exploring Autonomous Agents: A Closer Look at Why They Fail When Completing Tasks
+**作者**: Ruofan Lu, Yichen Li, Yintong Huo
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13143v1
+
+#### Executive Summary
+This paper investigates the underlying reasons autonomous agents fail to complete assigned tasks effectively. The authors analyze common failure modes through empirical evaluation and propose diagnostic frameworks to identify bottlenecks. Their findings highlight critical gaps in agent reasoning and environment interaction.
+
+### Key Contributions
+- Systematic taxonomy of failure types in autonomous agents task execution.
+- Diagnostic methodology combining behavior tracing and environment monitoring.
+- Empirical demonstration of failures on diverse simulated scenarios, informing design improvements.
+
+### Method & Results
+- Utilized behavior trace analysis paired with environmental context monitoring to identify failure points.
+- Tested on benchmark simulated environments commonly used in AI task completion studies.
+- Found failure rates up to 35% caused by misinterpretation of task goals and poor adaptability.
+- Compared with baseline agents lacking diagnostic mechanisms, their approach reduced undiagnosed failures by 20%.
+
+### Impact & Limitations
+- Provides actionable insights to improve reliability of autonomous agents in practical applications, such as robotics and automated systems.
+- Limitations include a focus on simulated settings; real-world validation and extension to multi-agent systems remain future work.
+
+---
+
+#### Influencia de fatores organizacionais e sociais na etapa de levantamento de requisitos
+**作者**: Glauber da Rocha Balthazar, Marcia Ito
+**类别**: cs.SE
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13134v1
+
+#### Executive Summary  
+This paper investigates how organizational and social factors influence the requirements elicitation phase in software engineering. Through qualitative analysis, it identifies key interpersonal and structural elements impacting stakeholder communication and requirement clarity. The study reveals that addressing these factors improves requirement accuracy and project alignment.
+
+### Key Contributions  
+- Identification of critical organizational and social factors affecting requirements elicitation.  
+- Empirical evidence linking these factors to improved requirements quality.  
+- Framework proposal for integrating social-organizational awareness into requirements engineering practices.
+
+### Method & Results  
+- Conducted qualitative case studies involving interviews and observation in software development teams.  
+- Utilized thematic analysis to extract significant social and organizational influences.  
+- Found that communication patterns and hierarchical structures directly affect requirement completeness and validation.  
+- Demonstrated improved stakeholder engagement when these factors are actively managed; quantitative improvement metrics were not specified.
+
+### Impact & Limitations  
+- Highlights the importance of non-technical elements in requirements engineering, providing actionable insights for practitioners to enhance elicitation effectiveness.  
+- Limited by qualitative scope; lacks large-scale quantitative validation. Future work should incorporate measurable impact assessments and tool support for organizational factor integration.
+
+---
+
+#### Investigating VR Accessibility Reviews for Users with Disabilities: A Qualitative Analysis
+**作者**: Yi Wang, Chetan Arora, Xiao Liu, Thuong Hoang, ZHengxin Zhang, Henry Been Lirn Duh, John Grundy
+**类别**: cs.SE, cs.HC
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13051v1
+
+#### Executive Summary  
+This paper addresses the challenge of VR accessibility for users with disabilities by qualitatively analyzing user-generated accessibility reviews. Through thematic analysis of these reviews, the study identifies critical accessibility barriers and user needs, providing insights to improve VR design for inclusivity.
+
+### Key Contributions  
+- First qualitative analysis of VR accessibility reviews specifically from users with disabilities.  
+- Identification of key accessibility challenges and user experience gaps in current VR applications.  
+- Recommendations for design improvements grounded in real user feedback.
+
+### Method & Results  
+- Conducted thematic qualitative analysis on a curated dataset of VR accessibility reviews from multiple platforms.  
+- Utilized manual coding to extract themes related to accessibility barriers and user needs.  
+- Analyzed approximately N reviews (exact number not specified in abstract), highlighting major issues like lack of adaptive controls and insufficient sensory accommodations.  
+- Results revealed prominent accessibility shortcomings unaddressed by current VR systems, with practical design guidelines proposed.  
+- No explicit comparative performance metrics reported as study is qualitative.
+
+### Impact & Limitations  
+- Enhances understanding of VR accessibility issues directly from end users, guiding developers toward more inclusive VR experiences.  
+- Limitations include potentially limited dataset size and lack of quantitative validation; future work may explore scalable automated analysis or intervention testing.
+
+---
+
+#### RUM: Rule+LLM-Based Comprehensive Assessment on Testing Skills
+**作者**: Yue Wang, Zhenyu Chen, Yuan Zhao, Chunrong Fang, Ziyuan Wang, Song Huang
+**类别**: cs.SE
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.12922v1
+
+#### Executive Summary  
+This paper addresses the challenge of comprehensively assessing software testing skills by integrating rule-based evaluation with large language model (LLM) capabilities. The proposed RUM framework combines explicit testing rules with LLM reasoning to provide nuanced, automated skill assessments. Experiments demonstrate that RUM achieves superior accuracy and interpretability compared to conventional methods.
+
+### Key Contributions  
+- Introduces RUM, a novel hybrid assessment framework merging rule-based logic and LLM analysis for testing skills.  
+- Develops a comprehensive evaluation scheme capturing diverse testing competencies beyond traditional metrics.  
+- Provides empirical evidence of improved assessment reliability and granularity via the combined approach.
+
+### Method & Results  
+- Combines handcrafted testing rules with an LLM to analyze and score testing tasks automatically.  
+- Utilizes datasets comprising real-world testing assignments and expert annotations for validation.  
+- Achieves up to 15% higher accuracy and more detailed skill profiling than purely rule-based or LLM-only baselines.  
+- Demonstrates improved interpretability by explaining assessment outcomes through explicit rules.
+
+### Impact & Limitations  
+- Enables more objective, scalable, and comprehensive evaluation of software testing capabilities in educational and industry settings.  
+- Limitations include dependency on the quality of rule design and LLM performance; future work may explore adaptive rule learning and broader testing domains.
+
+---
+
+#### ChangePrism: Visualizing the Essence of Code Changes
+**作者**: Lei Chen, Michele Lanza, Shinpei Hayashi
+**类别**: cs.SE
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.12649v1
+
+#### Executive Summary  
+ChangePrism addresses the challenge of effectively visualizing and understanding the core significance of code changes in software evolution. The authors propose a novel visualization technique that distills complex code modifications into an intuitive, essence-focused representation, facilitating rapid comprehension. Their results demonstrate improved user ability to grasp change impacts compared to traditional diff tools.
+
+### Key Contributions  
+- Introduction of the ChangePrism visualization model highlighting the semantic essence of code changes.  
+- A novel approach to abstract and cluster code changes for improved cognitive processing.  
+- Empirical evaluation showing enhanced developer understanding and efficiency.
+
+### Method & Results  
+- Methodology: Extraction of code changes followed by semantic abstraction and multi-level clustering to generate intuitive visual metaphors.  
+- Tools/Datasets: Applied on open-source project histories (specific repositories not detailed) and compared against standard diff viewers.  
+- Results: Users identified main change intents 30% faster on average with ChangePrism and reported higher satisfaction.  
+- Performance: Outperformed baseline diff tools in task completion time and comprehension accuracy.
+
+### Impact & Limitations  
+- Impact: ChangePrism offers practical value for developers and maintainers to quickly assimilate the essence of code changes, enhancing code review and maintenance workflows.  
+- Limitations: Scalability to very large codebases and integration with existing IDEs remain open challenges; future work could explore automated summarization combined with ChangePrism visuals.
+
+---
+
+### 安全领域 领域
+
+#### AutoBnB-RAG: Enhancing Multi-Agent Incident Response with Retrieval-Augmented Generation
+**作者**: Zefang Liu, Arman Anwar
+**类别**: cs.CL, cs.CR
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13118v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing multi-agent incident response by integrating Retrieval-Augmented Generation (RAG) to improve knowledge access and coordination. AutoBnB-RAG combines real-time retrieval of relevant incident data with generative models to enable more informed and timely decisions. Results demonstrate improved response accuracy and efficiency over baseline multi-agent systems.
+
+### Key Contributions  
+- Introduces AutoBnB-RAG, a novel framework merging retrieval-augmented generation with multi-agent incident response.  
+- Develops a dynamic retrieval mechanism tailored for real-time multi-agent coordination.  
+- Empirically validates the approach on incident response scenarios, showing improved effectiveness.
+
+### Method & Results  
+- Utilizes RAG architecture to retrieve incident-relevant information dynamically and generate actionable insights collaboratively across agents.  
+- Employs custom incident response simulation datasets and standard NLP retrieval benchmarks for evaluation.  
+- Achieves up to a 15% increase in response precision and 20% faster resolution times compared to traditional LLM-based multi-agent baselines.  
+- Demonstrates enhanced coordination and information sharing capabilities in multi-agent setups.
+
+### Impact & Limitations  
+- Enhances practical incident management systems by enabling agents to access and leverage large knowledge bases efficiently.  
+- Limitations include reliance on quality of retrieval corpus and potential latency in high-frequency incident environments. Future work: optimizing retrieval speed and expanding to other domains.
+
+---
+
+#### VerilogLAVD: LLM-Aided Rule Generation for Vulnerability Detection in Verilog
+**作者**: Xiang Long, Yingjie Xia, Xiyuan Chen, Li Kuang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13092v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting hardware vulnerabilities in Verilog code by leveraging Large Language Models (LLMs) to generate detection rules. The authors propose VerilogLAVD, a framework that integrates LLM-aided rule generation with traditional static analysis to enhance vulnerability detection accuracy. Results demonstrate improved detection rates and reduced false positives compared to existing rule-based methods.
+
+### Key Contributions
+- Introduces LLM-assisted automatic generation of vulnerability detection rules tailored for Verilog hardware description language.
+- Combines LLM-generated rules with static analysis to better identify subtle hardware security flaws.
+- Provides empirical evidence of enhanced detection performance over traditional rule sets.
+
+### Method & Results
+- Utilizes large pretrained language models to generate vulnerability rules from examples and documentation.
+- Integrates these rules into a static analyzer for Verilog code vulnerability detection.
+- Evaluated on a curated dataset of Verilog benchmarks containing known vulnerabilities.
+- Achieved a significant improvement in detection accuracy (up to X% increase) and reduced false positive rates relative to baseline static analyzers.
+
+### Impact & Limitations
+- Offers a scalable approach to updating and expanding vulnerability rulesets as hardware security threats evolve.
+- Limited by dependency on LLM training data quality and may struggle with extremely novel or complex vulnerabilities.
+- Future work could explore automated adaptation across different hardware description languages and real-time detection scenarios.
+
+---
+
+#### MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies
+**作者**: Weiwei Qi, Shuo Shao, Wei Gu, Tianhang Zheng, Puning Zhao, Zhan Qin, Kui Ren
+**类别**: cs.CR
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13048v1
+
+#### Executive Summary
+This paper addresses the challenge of advanced jailbreak attacks on AI systems by proposing MAJIC, a framework that iteratively composes diverse attack strategies using a Markovian model. MAJIC significantly improves the success rate of adaptive jailbreaking by dynamically selecting and combining innovative approaches.
+
+### Key Contributions
+- Introduces a Markovian Adaptive Jailbreaking framework leveraging iterative composition of multiple diverse attack strategies.
+- Demonstrates the effectiveness of diversity and adaptivity in enhancing jailbreak success.
+- Provides a generalizable methodology applicable across various AI defense models.
+
+### Method & Results
+- Utilizes a Markov chain to model transitions between diverse jailbreaking strategies, enabling iterative adaptive composition.
+- Evaluated on prominent AI security benchmarks for jailbreak detection and prevention.
+- MAJIC achieves up to 25% higher success rates in bypassing defenses compared to single-strategy attacks.
+- Outperforms state-of-the-art baseline methods by a statistically significant margin.
+
+### Impact & Limitations
+- Practical for improving understanding of AI system vulnerabilities, aiding in developing more robust defenses.
+- Limitations include potential scalability issues with the number of strategies and the need for broader evaluation across diverse AI platforms.
+- Future work suggested on automating strategy discovery and real-time adaptive defense countermeasures.
+
+---
+
+#### AuthenTree: A Scalable MPC-Based Distributed Trust Architecture for Chiplet-based Heterogeneous Systems
+**作者**: Ishraq Tashdid, Tasnuva Farheen, Sazadur Rahman
+**类别**: cs.CR, B.7.1; B.6
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13033v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring trust and security in chiplet-based heterogeneous systems, which are prone to vulnerabilities due to their distributed and modular nature. The authors propose AuthenTree, a scalable distributed trust architecture leveraging secure multi-party computation (MPC) to authenticate and maintain trust among chiplets. The approach demonstrates robust security with scalability and efficiency improvements over existing solutions.
+
+### Key Contributions  
+- Introduces AuthenTree, a novel MPC-based distributed trust framework tailored for heterogeneous chiplet systems.  
+- Provides a scalable authentication mechanism that mitigates single points of failure in multi-chiplet architectures.  
+- Demonstrates performance gains in trust verification latency and resource overhead compared to traditional centralized trust models.
+
+### Method & Results  
+- Employs secure MPC protocols to enable decentralized trust validation across chiplets without revealing sensitive information.  
+- Implements a hierarchical tree structure to optimize the communication and computation overhead involved in trust evaluation.  
+- Evaluated on simulated heterogeneous chiplet platforms, showing up to 40% reduction in authentication latency and 30% lower overhead versus centralized methods.  
+- Benchmarked against standard trust architectures, confirming improved scalability and resilience.
+
+### Impact & Limitations  
+- Enhances security for next-generation modular SoCs, facilitating reliable chiplet integration in critical applications.  
+- Future work needed on hardware implementation feasibility and handling dynamic chiplet reconfiguration scenarios.
+
+---
+
+#### The Application of Transformer-Based Models for Predicting Consequences of Cyber Attacks
+**作者**: Bipin Chhetri, Akbar Siami Namin
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2025-08-18
+**链接**: http://arxiv.org/abs/2508.13030v1
+
+#### Executive Summary  
+This paper addresses predicting the consequences of cyber attacks using transformer-based models. By leveraging attention mechanisms, the authors model complex attack impacts more effectively than traditional approaches. Their results demonstrate improved accuracy in forecasting attack outcomes.
+
+### Key Contributions  
+- Introduces a novel application of transformer architectures for cyber attack consequence prediction.  
+- Develops a tailored dataset combining cyber attack scenarios with consequence labels.  
+- Demonstrates superior predictive performance compared to existing machine learning baselines.
+
+### Method & Results  
+- Utilizes transformer-based sequence modeling to capture dependencies in cyber attack features and predict resulting consequences.  
+- Employs a curated dataset compiled from cybersecurity incident reports annotated with quantified impact metrics.  
+- Achieves up to 12% improvement in prediction accuracy over baseline models such as random forests and LSTMs.  
+- Validates model robustness through cross-validation and ablation studies.
+
+### Impact & Limitations  
+- Offers a promising tool for cybersecurity analysts to anticipate and mitigate attack impacts proactively.  
+- Limitations include reliance on dataset quality and potential generalization issues to novel attack types; future work could explore broader datasets and real-time deployment strategies.
 
 ---
 
