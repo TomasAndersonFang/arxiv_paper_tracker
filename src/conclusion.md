@@ -8268,18 +8268,18 @@ This paper investigates the underlying reasons autonomous agents fail to complet
 #### Executive Summary  
 This paper investigates how organizational and social factors influence the requirements elicitation phase in software engineering. Through qualitative analysis, it identifies key interpersonal and structural elements impacting stakeholder communication and requirement clarity. The study reveals that addressing these factors improves requirement accuracy and project alignment.
 
-### Key Contributions  
+### Key Contributions
 - Identification of critical organizational and social factors affecting requirements elicitation.  
 - Empirical evidence linking these factors to improved requirements quality.  
 - Framework proposal for integrating social-organizational awareness into requirements engineering practices.
 
-### Method & Results  
+### Method & Results
 - Conducted qualitative case studies involving interviews and observation in software development teams.  
 - Utilized thematic analysis to extract significant social and organizational influences.  
 - Found that communication patterns and hierarchical structures directly affect requirement completeness and validation.  
 - Demonstrated improved stakeholder engagement when these factors are actively managed; quantitative improvement metrics were not specified.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the importance of non-technical elements in requirements engineering, providing actionable insights for practitioners to enhance elicitation effectiveness.  
 - Limited by qualitative scope; lacks large-scale quantitative validation. Future work should incorporate measurable impact assessments and tool support for organizational factor integration.
 
@@ -8294,19 +8294,19 @@ This paper investigates how organizational and social factors influence the requ
 #### Executive Summary  
 This paper addresses the challenge of VR accessibility for users with disabilities by qualitatively analyzing user-generated accessibility reviews. Through thematic analysis of these reviews, the study identifies critical accessibility barriers and user needs, providing insights to improve VR design for inclusivity.
 
-### Key Contributions  
+### Key Contributions
 - First qualitative analysis of VR accessibility reviews specifically from users with disabilities.  
 - Identification of key accessibility challenges and user experience gaps in current VR applications.  
 - Recommendations for design improvements grounded in real user feedback.
 
-### Method & Results  
+### Method & Results
 - Conducted thematic qualitative analysis on a curated dataset of VR accessibility reviews from multiple platforms.  
 - Utilized manual coding to extract themes related to accessibility barriers and user needs.  
 - Analyzed approximately N reviews (exact number not specified in abstract), highlighting major issues like lack of adaptive controls and insufficient sensory accommodations.  
 - Results revealed prominent accessibility shortcomings unaddressed by current VR systems, with practical design guidelines proposed.  
 - No explicit comparative performance metrics reported as study is qualitative.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of VR accessibility issues directly from end users, guiding developers toward more inclusive VR experiences.  
 - Limitations include potentially limited dataset size and lack of quantitative validation; future work may explore scalable automated analysis or intervention testing.
 
@@ -8321,18 +8321,18 @@ This paper addresses the challenge of VR accessibility for users with disabiliti
 #### Executive Summary  
 This paper addresses the challenge of comprehensively assessing software testing skills by integrating rule-based evaluation with large language model (LLM) capabilities. The proposed RUM framework combines explicit testing rules with LLM reasoning to provide nuanced, automated skill assessments. Experiments demonstrate that RUM achieves superior accuracy and interpretability compared to conventional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces RUM, a novel hybrid assessment framework merging rule-based logic and LLM analysis for testing skills.  
 - Develops a comprehensive evaluation scheme capturing diverse testing competencies beyond traditional metrics.  
 - Provides empirical evidence of improved assessment reliability and granularity via the combined approach.
 
-### Method & Results  
+### Method & Results
 - Combines handcrafted testing rules with an LLM to analyze and score testing tasks automatically.  
 - Utilizes datasets comprising real-world testing assignments and expert annotations for validation.  
 - Achieves up to 15% higher accuracy and more detailed skill profiling than purely rule-based or LLM-only baselines.  
 - Demonstrates improved interpretability by explaining assessment outcomes through explicit rules.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more objective, scalable, and comprehensive evaluation of software testing capabilities in educational and industry settings.  
 - Limitations include dependency on the quality of rule design and LLM performance; future work may explore adaptive rule learning and broader testing domains.
 
@@ -8347,18 +8347,18 @@ This paper addresses the challenge of comprehensively assessing software testing
 #### Executive Summary  
 ChangePrism addresses the challenge of effectively visualizing and understanding the core significance of code changes in software evolution. The authors propose a novel visualization technique that distills complex code modifications into an intuitive, essence-focused representation, facilitating rapid comprehension. Their results demonstrate improved user ability to grasp change impacts compared to traditional diff tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of the ChangePrism visualization model highlighting the semantic essence of code changes.  
 - A novel approach to abstract and cluster code changes for improved cognitive processing.  
 - Empirical evaluation showing enhanced developer understanding and efficiency.
 
-### Method & Results  
+### Method & Results
 - Methodology: Extraction of code changes followed by semantic abstraction and multi-level clustering to generate intuitive visual metaphors.  
 - Tools/Datasets: Applied on open-source project histories (specific repositories not detailed) and compared against standard diff viewers.  
 - Results: Users identified main change intents 30% faster on average with ChangePrism and reported higher satisfaction.  
 - Performance: Outperformed baseline diff tools in task completion time and comprehension accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: ChangePrism offers practical value for developers and maintainers to quickly assimilate the essence of code changes, enhancing code review and maintenance workflows.  
 - Limitations: Scalability to very large codebases and integration with existing IDEs remain open challenges; future work could explore automated summarization combined with ChangePrism visuals.
 
@@ -8375,18 +8375,18 @@ ChangePrism addresses the challenge of effectively visualizing and understanding
 #### Executive Summary  
 This paper addresses the challenge of enhancing multi-agent incident response by integrating Retrieval-Augmented Generation (RAG) to improve knowledge access and coordination. AutoBnB-RAG combines real-time retrieval of relevant incident data with generative models to enable more informed and timely decisions. Results demonstrate improved response accuracy and efficiency over baseline multi-agent systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AutoBnB-RAG, a novel framework merging retrieval-augmented generation with multi-agent incident response.  
 - Develops a dynamic retrieval mechanism tailored for real-time multi-agent coordination.  
 - Empirically validates the approach on incident response scenarios, showing improved effectiveness.
 
-### Method & Results  
+### Method & Results
 - Utilizes RAG architecture to retrieve incident-relevant information dynamically and generate actionable insights collaboratively across agents.  
 - Employs custom incident response simulation datasets and standard NLP retrieval benchmarks for evaluation.  
 - Achieves up to a 15% increase in response precision and 20% faster resolution times compared to traditional LLM-based multi-agent baselines.  
 - Demonstrates enhanced coordination and information sharing capabilities in multi-agent setups.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical incident management systems by enabling agents to access and leverage large knowledge bases efficiently.  
 - Limitations include reliance on quality of retrieval corpus and potential latency in high-frequency incident environments. Future work: optimizing retrieval speed and expanding to other domains.
 
@@ -8455,18 +8455,18 @@ This paper addresses the challenge of advanced jailbreak attacks on AI systems b
 #### Executive Summary  
 This paper addresses the challenge of ensuring trust and security in chiplet-based heterogeneous systems, which are prone to vulnerabilities due to their distributed and modular nature. The authors propose AuthenTree, a scalable distributed trust architecture leveraging secure multi-party computation (MPC) to authenticate and maintain trust among chiplets. The approach demonstrates robust security with scalability and efficiency improvements over existing solutions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AuthenTree, a novel MPC-based distributed trust framework tailored for heterogeneous chiplet systems.  
 - Provides a scalable authentication mechanism that mitigates single points of failure in multi-chiplet architectures.  
 - Demonstrates performance gains in trust verification latency and resource overhead compared to traditional centralized trust models.
 
-### Method & Results  
+### Method & Results
 - Employs secure MPC protocols to enable decentralized trust validation across chiplets without revealing sensitive information.  
 - Implements a hierarchical tree structure to optimize the communication and computation overhead involved in trust evaluation.  
 - Evaluated on simulated heterogeneous chiplet platforms, showing up to 40% reduction in authentication latency and 30% lower overhead versus centralized methods.  
 - Benchmarked against standard trust architectures, confirming improved scalability and resilience.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security for next-generation modular SoCs, facilitating reliable chiplet integration in critical applications.  
 - Future work needed on hardware implementation feasibility and handling dynamic chiplet reconfiguration scenarios.
 
@@ -8481,20 +8481,293 @@ This paper addresses the challenge of ensuring trust and security in chiplet-bas
 #### Executive Summary  
 This paper addresses predicting the consequences of cyber attacks using transformer-based models. By leveraging attention mechanisms, the authors model complex attack impacts more effectively than traditional approaches. Their results demonstrate improved accuracy in forecasting attack outcomes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel application of transformer architectures for cyber attack consequence prediction.  
 - Develops a tailored dataset combining cyber attack scenarios with consequence labels.  
 - Demonstrates superior predictive performance compared to existing machine learning baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes transformer-based sequence modeling to capture dependencies in cyber attack features and predict resulting consequences.  
 - Employs a curated dataset compiled from cybersecurity incident reports annotated with quantified impact metrics.  
 - Achieves up to 12% improvement in prediction accuracy over baseline models such as random forests and LSTMs.  
 - Validates model robustness through cross-validation and ablation studies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a promising tool for cybersecurity analysts to anticipate and mitigate attack impacts proactively.  
 - Limitations include reliance on dataset quality and potential generalization issues to novel attack types; future work could explore broader datasets and real-time deployment strategies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-20)
+
+### 软件工程 领域
+
+#### Tight Inter-Core Cache Contention Analysis for WCET Estimation on Multicore Systems
+**作者**: Shuai Zhao, Jieyu Jiang, Shenlin Cai, Yaowei Liang, Chen Jie, Yinjie Fang, Wei Zhang, Guoquan Zhang, Yaoyao Gu, Xiang Xiao, Wei Qin, Xiangzhen Ouyang, Wanli Chang
+**类别**: cs.SE
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13863v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately estimating Worst-Case Execution Time (WCET) on multicore systems by analyzing tight inter-core cache contention effects. The authors propose a novel analytical model that precisely quantifies cache interference among cores, improving WCET estimation accuracy. Experimental evaluation demonstrates significant reduction in WCET estimation pessimism compared to existing approaches.
+
+### Key Contributions  
+- Introduces a detailed inter-core cache contention analytical model tailored for WCET analysis.  
+- Provides a unified framework integrating cache interference modeling into WCET estimation on multicore platforms.  
+- Validates the model with extensive experiments showing improved tightness and predictability.
+
+### Method & Results  
+- Developed a formal cache contention model capturing cache line-level interference across cores.  
+- Utilized real multicore benchmarks and cache simulation tools for evaluation.  
+- Achieved up to 30% tighter WCET bounds compared to state-of-the-art contention models.  
+- Demonstrated scalability and applicability to various multicore architectures with different cache configurations.
+
+### Impact & Limitations  
+- Enables more reliable timing guarantees critical for real-time and safety-critical multicore applications.  
+- Current model assumes fixed cache replacement policies; extending to dynamic policies is future work.  
+- Further exploration needed for integration with broader system-level resource contention and scheduling effects.
+
+---
+
+#### Structural and Connectivity Patterns in the Maven Central Software Dependency Network
+**作者**: Daniel Ogenrwot, John Businge, Shaikh Arifuzzaman
+**类别**: cs.SE, K.6.3; E.0
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13819v1
+
+#### Executive Summary
+This paper investigates the structural and connectivity properties of the Maven Central software dependency network, aiming to understand how software packages interrelate at scale. The authors analyze the topology and dependency patterns using network science techniques, revealing insights into modularity, degree distributions, and critical nodes. The main result highlights unique connectivity patterns distinctive to large-scale software ecosystems.
+
+### Key Contributions
+- Comprehensive structural analysis of the entire Maven Central dependency graph, capturing unprecedented scale.  
+- Identification of key connectivity motifs and dependency bottlenecks affecting software maintainability.  
+- Novel application of complex network metrics tailored to software package dependency data.
+
+### Method & Results
+- Utilized graph-theoretic and statistical tools to analyze network properties such as degree distribution, clustering, and centrality.  
+- Employed Maven Central repository data encompassing millions of packages and dependencies as the primary dataset.  
+- Found heavy-tailed degree distributions, distinct modular structures, and central nodes that disproportionately influence dependency stability.  
+- Quantified network resilience and vulnerability through failure simulations (specific metrics or baseline comparisons not explicitly detailed).
+
+### Impact & Limitations
+- Provides crucial insights for software engineers and repository maintainers to improve dependency management and risk assessment.  
+- Limitations include lack of dynamic temporal analysis and limited exploration of dependency versioning impacts; future work could address these aspects.
+
+---
+
+#### Agentic DraCor and the Art of Docstring Engineering: Evaluating MCP-empowered LLM Usage of the DraCor API
+**作者**: Peer Trilcke, Ingo Börner, Henny Sluyter-Gäthje, Daniil Skorinkin, Frank Fischer, Carsten Milling
+**类别**: cs.SE, cs.AI, J.5; I.2
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13774v1
+
+#### Executive Summary  
+This paper addresses how large language models (LLMs), empowered by multi-criteria prompting (MCP), can effectively utilize the DraCor API for accessing comparative drama corpora. The authors present Agentic DraCor, a system combining MCP and docstring engineering to enhance LLM interactions with the API, demonstrating improved task performance and usability.
+
+### Key Contributions  
+- Introduces Agentic DraCor, leveraging MCP to optimize LLM queries to the DraCor API.  
+- Develops a novel docstring engineering approach tailored for API interaction by LLMs.  
+- Provides an empirical evaluation showing enhanced accuracy and efficiency in retrieving and processing drama data.
+
+### Method & Results  
+- Methodology: Employed multi-criteria prompting combined with engineered docstring prompts to guide LLMs in API usage.  
+- Tools/Datasets: Used DraCor, a comprehensive digital corpus of drama texts across languages and periods.  
+- Results: Achieved significant improvements in query precision and comprehension compared to standard prompting, with up to 25% increase in relevant information retrieval.  
+- Outperformed baseline LLM prompting methods by improving response relevance and reducing erroneous API calls.
+
+### Impact & Limitations  
+- Practical Significance: Enhances LLM capabilities for scholarly digital humanities research, enabling more accurate and autonomous data extraction from drama corpora.  
+- Limitations/Future Work: Current approach depends heavily on docstring quality and MCP design; future work should explore automated prompt optimization and scalability to other APIs.
+
+---
+
+#### COMPASS: A Multi-Dimensional Benchmark for Evaluating Code Generation in Large Language Models
+**作者**: James Meaden, Michał Jarosz, Piotr Jodłowski, Grigori Melnik
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13757v1
+
+#### Executive Summary
+This paper addresses the need for comprehensive evaluation of code generation capabilities in large language models (LLMs). It proposes COMPASS, a multi-dimensional benchmark designed to assess code generation across diverse languages, tasks, and evaluation metrics. Experimental results demonstrate COMPASS’s effectiveness in revealing nuanced strengths and weaknesses of current LLMs.
+
+### Key Contributions
+- Introduces COMPASS, a first-of-its-kind benchmark covering multiple programming languages and task types for code generation.
+- Provides a multi-dimensional evaluation framework combining functional correctness, efficiency, and style metrics.
+- Offers extensive analysis on several prominent LLMs, highlighting varying performance profiles across dimensions.
+
+### Method & Results
+- Methodology: Constructs challenge sets spanning different problem domains and languages; applies multi-metric evaluation including execution correctness and code quality.
+- Dataset/Tools: Uses a curated set of coding problems augmented from existing benchmarks, with automated testing pipelines.
+- Results: Reveals up to 20% variation in model accuracy across languages and tasks; some models excel in correctness but lag in code efficiency/style.
+- Compared to baselines, COMPASS enables finer-grained performance insights beyond aggregate accuracy metrics.
+
+### Impact & Limitations
+- Impact: Provides practitioners and researchers a robust tool to benchmark and improve LLMs for code generation with practical multidimensional insights.
+- Limitations: Current scope limited in problem complexity and language diversity; future work to expand benchmark scale and include real-world coding scenarios.
+
+---
+
+#### The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget
+**作者**: Dangfeng Pan, Zhensu Sun, Cenyuan Zhang, David Lo, Xiaoning Du
+**类别**: cs.SE
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13666v1
+
+#### Executive Summary  
+This paper investigates the overlooked cost of code readability in the context of Large Language Models (LLMs), demonstrating that enhanced formatting increases token count, thereby consuming more of the LLM budget. The authors quantify this hidden cost and propose strategies to balance readability and cost efficiency. Results reveal that even minor formatting changes can significantly raise inference expenses without proportional gains in model performance.
+
+### Key Contributions  
+- Identifies and quantifies the financial overhead of code readability on LLM token usage.  
+- Provides empirical evidence linking formatting practices with increased LLM inference costs.  
+- Proposes cost-aware formatting guidelines to optimize budget without sacrificing clarity.
+
+### Method & Results  
+- Analyzed token counts and cost implications of various code formatting styles on popular LLMs.  
+- Utilized benchmark code datasets and LLM APIs (e.g., OpenAI GPT variants) for quantitative evaluation.  
+- Found that well-formatted code can increase token usage by up to 20%, inflating cost noticeably.  
+- Demonstrated that applying selective formatting adjustments reduces cost by 10-15% while maintaining readability baseline.
+
+### Impact & Limitations  
+- Highlights a previously ignored factor in deploying LLMs for code tasks, aiding developers in cost management.  
+- Limitations include reliance on specific LLM pricing models and scope limited to code formatting without semantic analysis.  
+- Future work could explore automated formatting tools optimized for cost-efficiency and cross-model validation.
+
+---
+
+### 安全领域 领域
+
+#### Red Teaming Methodology for Design Obfuscation
+**作者**: Yuntao Liu, Abir Akib, Zelin Lu, Qian Xu, Ankur Srivastava, Gang Qu, David Kehlet, Nij Dorairaj
+**类别**: cs.CR
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13965v1
+
+#### Executive Summary  
+This paper addresses the security risks in integrated circuit design by proposing a red teaming methodology to evaluate and improve design obfuscation techniques. The approach involves simulating adversarial attacks to identify vulnerabilities and iteratively enhance obfuscation schemes. Results demonstrate improved resistance against reverse engineering attacks compared to conventional methods.
+
+### Key Contributions  
+- Introduces a systematic red teaming framework tailored for evaluating hardware design obfuscation.  
+- Demonstrates iterative design improvement through adversarial attack simulations.  
+- Provides empirical evidence of increased security robustness in obfuscated designs.
+
+### Method & Results  
+- Developed an adversarial red teaming process combining attack modeling and design modification loops.  
+- Utilized benchmark circuit designs and state-of-the-art reverse engineering attack tools for evaluation.  
+- Achieved up to a 35% reduction in successful attack rates versus baseline obfuscation methods.  
+- Showed enhanced entropy and complexity metrics indicating improved obfuscation quality.
+
+### Impact & Limitations  
+- Enhances practical hardware security by enabling designers to proactively identify and mitigate attack vectors.  
+- Limited to specific obfuscation techniques; future work should extend methodology to broader hardware security domains.  
+- Real-world validation on commercial scale designs remains to be explored.
+
+---
+
+#### NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js
+**作者**: Eric Cornelissen, Musard Balliu
+**类别**: cs.CR
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13750v1
+
+#### Executive Summary  
+This paper addresses the challenge of enforcing runtime security policies derived from Software Bill of Materials (SBOMs) in Node.js applications. The authors propose NodeShield, a system that integrates enhanced SBOMs with runtime enforcement to mitigate supply chain and dependency-based threats. Experimental evaluation demonstrates effective runtime enforcement with minimal overhead, improving Node.js application security.
+
+### Key Contributions  
+- Introduces NodeShield, the first system for runtime enforcement of security-enhanced SBOMs in Node.js environments.  
+- Proposes a novel approach combining static SBOM generation with dynamic monitoring to detect and prevent unauthorized code execution.  
+- Demonstrates practical deployment feasibility with low performance overhead on real-world Node.js projects.
+
+### Method & Results  
+- Combines static SBOM extraction of dependency metadata with a runtime monitor that enforces allowed behavior based on SBOM policies.  
+- Evaluated on multiple open-source Node.js applications using enhanced SBOMs generated from existing tools.  
+- Results show up to 95% threat mitigation with less than 10% runtime performance overhead.  
+- Outperforms baseline approaches lacking runtime enforcement by detecting complex, dynamic code injection attacks.
+
+### Impact & Limitations  
+- Enables developers and organizations to better secure Node.js supply chains by linking SBOM data to actionable runtime protections.  
+- Currently limited to Node.js; extending to other languages and broader attack types remains future work.  
+- Future enhancements may focus on automating SBOM policy generation and reducing manual configuration efforts.
+
+---
+
+#### On the Security and Privacy of Federated Learning: A Survey with Attacks, Defenses, Frameworks, Applications, and Future Directions
+**作者**: Daniel M. Jimenez-Gutierrez, Yelizaveta Falkouskaya, Jose L. Hernandez-Ramos, Aris Anagnostopoulos, Ioannis Chatzigiannakis, Andrea Vitaletti
+**类别**: cs.CR, cs.AI, cs.DC
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13730v1
+
+#### Executive Summary
+This paper surveys the security and privacy challenges in federated learning (FL), providing a comprehensive analysis of existing attack vectors and defense mechanisms. It further reviews FL frameworks, applications, and outlines future research directions to enhance FL’s trustworthiness.
+
+### Key Contributions
+- Comprehensive taxonomy of FL attacks and defenses, integrating recent advances.
+- Critical evaluation of state-of-the-art FL frameworks from a security/privacy perspective.
+- Identification of open issues and future directions to drive secure and private FL research.
+
+### Method & Results
+- Methodology: Systematic literature review, categorizing attacks (e.g., poisoning, inference) and defenses (e.g., differential privacy, secure aggregation).
+- Tools/Datasets: Analysis based on publicly available FL benchmarks and frameworks.
+- Results: Synthesized effectiveness of defenses against specific attacks; highlighted trade-offs in privacy-utility.
+- Performance: Comparative analysis reveals gaps in current defenses, no new experimental models proposed.
+
+### Impact & Limitations
+- Impact: Provides a vital resource for researchers and practitioners to understand and mitigate FL security/privacy risks, guiding safer deployment.
+- Limitations/Future Work: Lacks empirical validation of combined defense strategies; calls for more real-world FL deployments and adaptive security mechanisms.
+
+---
+
+#### Optimizing Region of Interest Selection for Effective Embedding in Video Steganography Based on Genetic Algorithms
+**作者**: Nizheen A. Ali, Ramadhan J. Mstafa
+**类别**: eess.IV, cs.CR, cs.LG, cs.MM
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13710v1
+
+#### Executive Summary  
+This paper addresses the challenge of selecting optimal Regions of Interest (ROI) for embedding secret data within videos in steganography. It proposes a genetic algorithm-based approach to efficiently identify ROIs that maximize embedding capacity while preserving video quality. Experimental results demonstrate improved embedding effectiveness and video fidelity compared to standard ROI selection methods.
+
+### Key Contributions  
+- Introduces a genetic algorithm framework to optimize ROI selection specifically tailored for video steganography embedding.  
+- Balances embedding capacity and visual imperceptibility by evolving ROIs that minimize distortion.  
+- Validates the approach with quantitative metrics showing enhanced performance over conventional heuristic ROI choices.
+
+### Method & Results  
+- Uses genetic algorithms to iteratively select and refine ROIs based on fitness functions combining capacity and distortion measures.  
+- Evaluations conducted on common benchmark video datasets with standard objective metrics (e.g., PSNR, embedding rate).  
+- Achieved up to 15% higher embedding capacity and 1.5 dB improvement in PSNR compared to baseline ROI selection methods.  
+- Outperformed heuristic and random ROI selection strategies in maintaining video quality while increasing payload.
+
+### Impact & Limitations  
+- Enables more secure and efficient video steganography applications by intelligently optimizing data embedding regions.  
+- Limited by computational overhead of genetic algorithm optimization, suggesting future work on faster convergence and real-time applicability.  
+- Extension to adaptive or content-aware fitness functions and evaluation on diverse video genres recommended.
+
+---
+
+#### Know Me by My Pulse: Toward Practical Continuous Authentication on Wearable Devices via Wrist-Worn PPG
+**作者**: Wei Shao, Zequan Liang, Ruoyu Zhang, Ruijie Fang, Ning Miao, Ehsan Kourkchi, Setareh Rafatirad, Houman Homayoun, Chongzhou Fang
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-08-19
+**链接**: http://arxiv.org/abs/2508.13690v1
+
+#### Executive Summary  
+This paper addresses the challenge of continuous user authentication on wearable devices using wrist-worn photoplethysmography (PPG) signals. It proposes a practical authentication framework leveraging PPG-based biometric patterns to enable seamless and secure user verification. Experimental results demonstrate the approach’s effectiveness with promising accuracy and robustness in real-world scenarios.
+
+### Key Contributions  
+- Introduces a novel continuous authentication method utilizing wrist-worn PPG signals for wearable devices.  
+- Develops a lightweight model optimized for real-time processing and low power consumption on wearables.  
+- Validates the approach with comprehensive real-world datasets demonstrating stability over time and varying conditions.
+
+### Method & Results  
+- Utilizes signal processing and machine learning techniques to extract biometric features from wrist PPG signals continuously collected by wearables.  
+- Experiments conducted on a dataset involving multiple subjects across diverse activities and time periods.  
+- Achieves authentication accuracy exceeding 90%, outperforming baseline methods based on traditional biometric signals like accelerometer data.  
+- Demonstrates robustness against common noise factors inherent in wearable PPG measurements.
+
+### Impact & Limitations  
+- Enhances wearable security by enabling unobtrusive, continuous, and personalized authentication, potentially reducing reliance on passwords or tokens.  
+- Limitations include sensitivity to extreme motion artifacts and the need to expand participant diversity; future work may focus on improving noise resilience and generalizability.
 
 ---
 
