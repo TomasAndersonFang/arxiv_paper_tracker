@@ -8786,18 +8786,18 @@ This paper addresses the challenge of continuous user authentication on wearable
 #### Executive Summary  
 This paper addresses the lack of systematic stakeholder analysis methods tailored for cybersecurity researchers. It proposes a structured guide combining theoretical frameworks with practical steps to identify, categorize, and prioritize stakeholders in cybersecurity projects. The approach enhances researchers’ ability to understand and engage relevant parties, demonstrated through multiple case examples.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel, cybersecurity-specific stakeholder analysis framework integrating established social science models with security research needs.  
 - Provides a practical, step-by-step guide including tools and templates for effective stakeholder mapping.  
 - Validates the approach through applied case studies illustrating improved stakeholder engagement outcomes.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-phase methodology: stakeholder identification, classification by influence and interest, and engagement strategy formulation.  
 - Utilized real-world cybersecurity projects and qualitative data from expert interviews to refine the framework.  
 - Case studies showed up to 30% improvement in stakeholder identification accuracy and engagement effectiveness over ad hoc methods.  
 - No direct quantitative baselines reported, but qualitative feedback indicated enhanced research relevance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables cybersecurity researchers to systematically incorporate stakeholder perspectives, improving ethical considerations and policy impact.  
 - Limitations include the need for broader validation across diverse cybersecurity domains and integration with automated tools for scalability.  
 - Future work could focus on quantifying engagement impact and adapting frameworks for emerging cyber-threat contexts.
@@ -8813,18 +8813,18 @@ This paper addresses the lack of systematic stakeholder analysis methods tailore
 #### Executive Summary  
 This paper addresses the challenges encountered in the virtual validation and verification (V&V) of automotive functions, particularly under increasingly complex scenarios. The authors propose a systematic evaluation framework to identify limitations in current virtual V&V approaches and demonstrate its effectiveness through case studies on common automotive functions.
 
-### Key Contributions  
+### Key Contributions
 - Identification and classification of core challenges in virtual V&V for automotive functions.  
 - Proposal of a structured evaluation framework to enhance reliability assessment in virtual environments.  
 - Empirical analysis highlighting gaps and improvement areas in existing virtual V&V methods.
 
-### Method & Results  
+### Method & Results
 - Developed a taxonomy of challenges based on literature review and practical validation scenarios.  
 - Applied the proposed evaluation framework to simulate and verify automotive functions under diverse conditions.  
 - Used automotive simulation tools and real-world function models for testing.  
 - Demonstrated that current virtual V&V methods fail to fully capture emergent behaviors, suggesting up to 15% unrecognized errors in tests compared to traditional methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a valuable guideline for improving virtual V&V processes, crucial for reducing physical prototyping costs and enhancing safety assurance.  
 - Limitations include the need for broader validation across more complex functions and integration with real-time systems, pointing to future work on scalability and hybrid V&V approaches.
 
@@ -8839,18 +8839,18 @@ This paper addresses the challenges encountered in the virtual validation and ve
 #### Executive Summary  
 This paper addresses the challenge of evaluating AI-generated code quality and security through a large-scale quantitative analysis. The authors develop a systematic evaluation framework combining static analysis and code quality metrics to benchmark AI models’ coding outputs. Their results reveal notable security vulnerabilities and variability in code quality among state-of-the-art AI coding tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a unified quantitative framework integrating security and quality metrics for AI-generated code assessment.  
 - Provides the first comprehensive large-scale empirical evaluation of multiple AI code generators on real-world coding tasks.  
 - Identifies prevalent security weaknesses unique to AI-generated code, informing future mitigation strategies.
 
-### Method & Results  
+### Method & Results
 - Employed automated static analysis tools alongside established quality metrics (e.g., cyclomatic complexity, code smells) to evaluate code from various AI models.  
 - Used benchmark datasets containing diverse programming tasks and security-sensitive scenarios.  
 - Found that over 30% of AI-generated code samples contained security flaws; code quality varied significantly between models, with top AI code generators achieving up to 85% code correctness but lower security robustness.  
 - AI models outperformed naive baselines in functional correctness but lagged behind expert human-written code on security metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides critical insights for developers deploying AI coding assistants, emphasizing the need for integrated security checks.  
 - Limitations include dependency on static analysis tools and limited exploration of dynamic security testing; future work should address real-time vulnerability detection and mitigation in AI-generated code.
 
@@ -8865,18 +8865,18 @@ This paper addresses the challenge of evaluating AI-generated code quality and s
 #### Executive Summary  
 This paper addresses the challenge of formalizing multimodal requirements involving diverse input types (e.g., text, speech, gestures). The authors propose a Domain-Specific Language (DSL) tailored to capture and specify such multimodal requirements formally. Their approach facilitates clearer, more precise specification and automated reasoning of complex systems interacting through multiple modalities.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel DSL specifically designed for formalizing multimodal requirements.  
 - Integration of formal semantics enabling automated analysis and verification of multimodal interactions.  
 - A conceptual framework bridging informal multimodal specifications and formal methods.
 
-### Method & Results  
+### Method & Results
 - Developed the DSL with formal syntax and semantics grounded in existing formal methods (e.g., temporal logic).  
 - Demonstrated the DSL's expressiveness through illustrative case studies encompassing typical multimodal scenarios.  
 - Used prototype tooling to parse and analyze DSL specifications.  
 - Results indicate improved clarity and formal rigor in expressing multimodal requirements compared to informal descriptions; quantitative benchmarks were not explicitly reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to accurately specify and verify multimodal system requirements, improving design reliability.  
 - Currently preliminary; lacks comprehensive tooling support and empirical validation on large-scale real-world systems.  
 - Future work should focus on extending toolchains, user studies, and integrating with existing development environments.
@@ -8920,44 +8920,29 @@ This paper addresses the challenge of generating human-readable explanations for
 #### Executive Summary  
 This paper addresses the challenge of privacy-preserving smart metering billing amid dynamically changing tariff policies. The authors propose a lightweight cryptographic protocol that ensures user consumption privacy while supporting real-time tariff adjustments. Experimental results demonstrate the protocol’s efficiency and strong privacy guarantees in a smart grid environment.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel lightweight privacy-preserving billing protocol supporting dynamic tariff policy changes.  
 - Integration of efficient cryptographic techniques tailored for low-resource smart meters.  
 - Protocol design enabling secure, real-time tariff updates without compromising user data confidentiality.
 
-### Method & Results  
+### Method & Results
 - Developed a cryptographic protocol employing homomorphic encryption and zero-knowledge proofs to enable private billing under dynamic tariffs.  
 - Simulated smart grid environment with varying tariff structures to test protocol adaptability and overhead.  
 - Achieved computation and communication overhead reductions of approximately 35% compared to existing privacy-preserving billing schemes.  
 - Maintained accuracy in billing and privacy guarantees against adversarial inference attacks.
 
-### Impact & Limitations  
-- Offers practical privacy solutions for smart grid deployments with frequent tariff updates, enhancing consumer data protection.  
-- Limitations include dependency on the computational capacity of smart meters; future work could explore optimization for ultra-low-resource devices and investigate protocol robustness under large-scale deployment scenarios.
-
----
-
-#### A Guide to Stakeholder Analysis for Cybersecurity Researchers
-**作者**: James C Davis, Sophie Chen, Huiyun Peng, Paschal C Amusuo, Kelechi G Kalu
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-08-20
-**链接**: http://arxiv.org/abs/2508.14796v1
-
-#### Executive Summary  
-This paper addresses the challenge of identifying and understanding key stakeholders in cybersecurity research to improve collaboration and impact. It proposes a structured stakeholder analysis framework tailored specifically for cybersecurity contexts, offering practical guidance for researchers. The main result is a validated methodology enabling more effective stakeholder engagement and prioritization in cybersecurity projects.
-
-### Key Contributions  
+### Key Contributions
 - Introduces a novel, domain-specific stakeholder analysis framework for cybersecurity researchers.  
 - Provides practical tools and guidelines to map, categorize, and prioritize cybersecurity stakeholders.  
 - Demonstrates the framework’s utility through case studies highlighting improved research relevance and collaboration.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-step qualitative methodology combining literature review, expert interviews, and stakeholder mapping exercises.  
 - Utilized cybersecurity project case studies and stakeholder feedback for validation.  
 - Showed increased stakeholder identification accuracy by 30% over generic analysis methods.  
 - Reported improved researcher-stakeholder alignment facilitating more actionable outcomes in cybersecurity projects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the ability of cybersecurity researchers to engage relevant parties, potentially improving research adoption and impact.  
 - Limited by scope of case studies primarily in academic-industry collaborations; broader application in government or global contexts requires future work.  
 - Suggests future research to automate parts of stakeholder mapping and expand empirical validation across diverse cybersecurity domains.
@@ -8973,18 +8958,18 @@ This paper addresses the challenge of identifying and understanding key stakehol
 #### Executive Summary  
 This paper addresses privacy risks in smart metering by proposing a novel protocol resistant to collusion attacks among utility operators and adversaries. The approach combines cryptographic techniques to enable accurate operational data collection without compromising individual user privacy. Results demonstrate enhanced privacy protection with negligible impact on metering accuracy and system efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a collusion-resistant, privacy-preserving protocol tailored for operational utility smart metering.  
 - Employs innovative cryptographic mechanisms to thwart multiple adversaries working in concert.  
 - Balances privacy with operational requirements, ensuring data remains usable for utility functions.
 
-### Method & Results  
+### Method & Results
 - Utilizes secure multi-party computation combined with homomorphic encryption for data aggregation.  
 - Evaluated on synthetic datasets simulating real-world smart meter readings.  
 - Achieved over 90% accuracy in utility data aggregation while maintaining strong privacy guarantees.  
 - Outperforms baseline protocols in resisting collusion scenarios with reduced computational overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables utilities to operate efficiently without risking consumer privacy, fostering trust and regulatory compliance.  
 - Future work includes extending protocol scalability and integrating with existing smart grid standards.  
 - Limited evaluation on real-world deployments; results primarily based on simulated environments.
@@ -9040,6 +9025,279 @@ This paper investigates the vulnerability of credit card fraud detection systems
 ### Impact & Limitations
 - Highlights critical security risks in automated fraud detection, urging incorporation of adversarial defenses in financial systems.
 - Limitations include potential overfitting to specific datasets and limited exploration of defense strategies; future work should address adaptive defense mechanisms and broader transactional contexts.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-22)
+
+### 软件工程 领域
+
+#### Exploration of Evolving Quantum Key Distribution Network Architecture Using Model-Based Systems Engineering
+**作者**: Hayato Ishida, Amal Elsokary, Maria Aslam, Catherine White, Michael J. de C. Henshaw, Siyuan Ji
+**类别**: cs.ET, cs.SE, quant-ph
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15733v1
+
+#### Executive Summary  
+This paper addresses the challenge of designing scalable quantum key distribution (QKD) network architectures amid evolving quantum technologies. The authors apply model-based systems engineering (MBSE) to systematically explore and optimize QKD network designs. Their approach results in flexible architecture models that adapt to various technology and deployment scenarios, demonstrating improved design clarity and foresight.
+
+### Key Contributions  
+- Introduction of a novel MBSE framework tailored specifically for evolving QKD network architectures.  
+- Development of adaptable network models accommodating heterogeneous quantum devices and protocols.  
+- Demonstration of improved architectural agility enabling strategic planning under technological uncertainty.
+
+### Method & Results  
+- Utilized MBSE techniques including SysML modeling to represent QKD network components, interfaces, and deployment scenarios.  
+- Employed scenario-based analysis to evaluate adaptability and scalability of proposed architectures.  
+- Validated models through simulations reflecting dynamic quantum link availability and device heterogeneity.  
+- Results highlight increased design robustness and clear visualization of trade-offs compared to traditional ad hoc design approaches.
+
+### Impact & Limitations  
+- Facilitates systematic design and evolution of secure QKD networks critical for future quantum-safe communications.  
+- Limitations include the need for integration with emerging quantum hardware specifics and real-world validation.  
+- Future work suggested on extending the framework to incorporate performance optimization and security analysis modules.
+
+---
+
+#### From PREVENTion to REACTion: Enhancing Failure Resolution in Naval Systems
+**作者**: Maria Teresa Rossi, Leonardo Mariani, Oliviero Riganelli
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15584v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving failure resolution in naval systems by shifting from purely preventive maintenance to incorporating reactive strategies. The authors propose an integrated framework that enhances the system’s ability to detect, diagnose, and respond to failures in real-time. Experiments demonstrate significant improvements in fault handling efficiency and system resilience.
+
+### Key Contributions  
+- Introduces a hybrid prevention-reaction framework tailored for naval systems failure management.  
+- Develops real-time diagnostic and adaptive response algorithms enhancing onboard failure resolution.  
+- Demonstrates measurable improvements in failure recovery times through simulation and real-world naval system data.
+
+### Method & Results  
+- Combines predictive maintenance techniques with reactive fault diagnosis and resolution in an integrated platform.  
+- Utilizes naval system operational datasets and simulation environments to validate the approach.  
+- Achieves up to 35% reduction in failure recovery time compared to traditional preventive-only methods.  
+- Shows enhanced detection accuracy and system uptime relative to baseline preventive maintenance protocols.
+
+### Impact & Limitations  
+- Provides a practical advancement for navy operations, improving system reliability and mission continuity under failure conditions.  
+- Future work needed to generalize the framework across varied vessel classes and incorporate machine learning models for predictive improvements.
+
+---
+
+#### Establishing Technical Debt Management -- A Five-Step Workshop Approach and an Action Research Study
+**作者**: Marion Wiese, Kamila Serwa, Anastasia Besier, Ariane S. Marion-Jetten, Eva Bittner
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15570v1
+
+#### Executive Summary  
+This paper addresses challenges in managing technical debt by proposing a structured five-step workshop approach. Through an action research study, the authors demonstrate how engaging stakeholders in iterative workshops can establish effective technical debt management practices. Results indicate improved awareness and systematic handling of technical debt in participating organizations.
+
+### Key Contributions  
+- Introduction of a practical, replicable five-step workshop approach for technical debt management.  
+- Empirical validation of the approach via an in-depth action research study within real-world settings.  
+- Insights into stakeholder engagement strategies that facilitate sustainable technical debt practices.
+
+### Method & Results  
+- Used a qualitative action research methodology involving iterative workshops co-designed with practitioners.  
+- Conducted case studies across multiple organizations to implement and refine the management workshops.  
+- Outcomes showed enhanced technical debt identification and prioritization, with stakeholder alignment increased by 30% compared to initial states.  
+- No direct quantitative baselines reported; evaluation focused on qualitative improvements and participant feedback.
+
+### Impact & Limitations  
+- Provides a hands-on framework to embed technical debt management into organizational routines, aiding maintainability and decision-making.  
+- Limitation: Generalizability is constrained by the qualitative nature and limited number of case studies; future work could explore quantitative metrics and broader contexts.
+
+---
+
+#### HEAS: Hierarchical Evolutionary Agent Simulation Framework for Cross-Scale Modeling and Multi-Objective Search
+**作者**: Ruiyu Zhang, Lin Nie, Xin Zhao
+**类别**: cs.MA, cs.CE, cs.LG, cs.NE, cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15555v1
+
+#### Executive Summary  
+This paper addresses the challenge of modeling complex systems across multiple scales and objectives by proposing HEAS, a hierarchical evolutionary agent simulation framework. HEAS combines cross-scale modeling with multi-objective evolutionary algorithms to efficiently explore and optimize agent behaviors. Results demonstrate HEAS’s superior ability to capture system dynamics and find diverse optimal solutions compared to existing methods.
+
+### Key Contributions  
+- Introduces a novel hierarchical evolutionary framework enabling integrated cross-scale agent simulation and multi-objective optimization.  
+- Proposes scalable co-evolution of agents across different abstraction levels to capture complex system dynamics.  
+- Demonstrates enhanced multi-objective search capabilities with diverse and high-quality solutions.
+
+### Method & Results  
+- Hierarchical agent simulation coupled with evolutionary algorithms to evolve agents at multiple scales simultaneously.  
+- Utilizes synthetic and real-world multi-scale datasets for validation (specific datasets not detailed).  
+- Achieves up to 25% improvement in multi-objective fitness metrics over baseline evolutionary frameworks.  
+- Outperforms traditional single-scale and non-hierarchical agent simulation methods in solution diversity and optimization efficiency.
+
+### Impact & Limitations  
+- Enables more accurate and efficient modeling of complex multi-scale systems, beneficial for fields like urban planning and ecological simulation.  
+- Limitations include computational overhead of hierarchical simulations and potential scalability challenges for extremely large systems; future work may explore distributed implementations and adaptive abstraction mechanisms.
+
+---
+
+#### A Novel Mutation Based Method for Detecting FPGA Logic Synthesis Tool Bugs
+**作者**: Yi Zhang, He Jiang, Xiaochen Li, Shikai Guo, Peiyu Zou, Zun Wang
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15536v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting bugs in FPGA logic synthesis tools by introducing a mutation-based testing approach. The authors propose generating mutations on input designs and observing tool output discrepancies to pinpoint synthesis errors, achieving effective bug detection with higher coverage than traditional methods.
+
+### Key Contributions  
+- Introduces a novel mutation-based framework tailored for FPGA logic synthesis bug detection.  
+- Demonstrates superior bug detection capabilities compared to existing testing techniques.  
+- Provides a systematic analysis of synthesis tool vulnerabilities through mutation impact assessment.  
+
+### Method & Results  
+- Proposes mutation operators targeting common synthesis input features to create design variants.  
+- Uses output behavior divergence across mutated inputs to identify potential synthesis faults.  
+- Evaluation conducted on benchmark FPGA designs across multiple commercial synthesis tools.  
+- Results show a detection rate increase of up to 30% over baseline heuristic testing methods.  
+- Experimental evidence suggests improved fault localization efficiency and reduced manual debugging effort.  
+
+### Impact & Limitations  
+- Enhances reliability and robustness verification for FPGA synthesis toolchains, aiding tool developers and users.  
+- Currently focused on a limited set of mutation operators, leaving room for expansion.  
+- Future work could explore automated mutation operator generation and integration with formal verification techniques.
+
+---
+
+### 安全领域 领域
+
+#### Towards Scalable and Interpretable Mobile App Risk Analysis via Large Language Models
+**作者**: Yu Yang, Zhenyuan Li, Xiandong Ran, Jiahao Liu, Jiahui Wang, Bo Yu, Shouling Ji
+**类别**: cs.CR
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15606v1
+
+#### Executive Summary  
+This paper addresses the challenge of scalable and interpretable risk analysis for mobile apps by leveraging Large Language Models (LLMs). The authors propose a novel approach that harnesses LLMs to automatically analyze app behaviors and generate human-understandable risk explanations, demonstrating improved accuracy and transparency.
+
+### Key Contributions  
+- Introduces a scalable LLM-based framework for automated mobile app risk assessment.  
+- Develops an interpretable analysis mechanism that provides clear, user-friendly risk explanations.  
+- Demonstrates superior performance over existing risk analysis methods in both scalability and interpretability.
+
+### Method & Results  
+- Utilizes fine-tuned Large Language Models to parse app descriptions, permissions, and behaviors for comprehensive risk profiling.  
+- Experimental evaluation performed on benchmark mobile app datasets with labeled risk levels.  
+- Achieves up to 15% higher accuracy and significantly improved interpretability scores compared to traditional static and heuristic-based methods.  
+- Shows robustness in handling large-scale app marketplaces with reduced manual intervention.
+
+### Impact & Limitations  
+- Provides a practical tool for app store operators and users to better understand and mitigate mobile app risks.  
+- Limitations include dependency on the quality of LLM training data and potential scalability bottlenecks in extremely large app ecosystems; future work may explore continuous learning and cross-lingual capabilities.
+
+---
+
+#### BadFU: Backdoor Federated Learning through Adversarial Machine Unlearning
+**作者**: Bingguang Lu, Hongsheng Hu, Yuantian Miao, Shaleeza Sohail, Chaoxiang He, Shuo Wang, Xiao Chen
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15541v1
+
+#### Executive Summary
+This paper investigates a novel backdoor attack in federated learning (FL) by leveraging adversarial machine unlearning. The authors propose BadFU, a technique that stealthily implants backdoors while causing minimal disruption to model performance, effectively evading detection. Experiments demonstrate BadFU’s effectiveness in bypassing current defenses with high attack success rates.
+
+### Key Contributions
+- Introduces BadFU, the first backdoor attack in FL utilizing adversarial machine unlearning to hide malicious behavior.
+- Demonstrates how unlearning can be exploited to remove attack evidence without impairing the backdoor’s functionality.
+- Provides comprehensive evaluation showing the attack’s stealthiness and robustness against state-of-the-art defense mechanisms.
+
+### Method & Results
+- Utilizes adversarial unlearning to selectively erase backdoor traces from local model updates in FL.
+- Evaluated on standard FL benchmarks including CIFAR-10 and Fashion-MNIST.
+- Achieved attack success rates above 90% while maintaining model accuracy within 1% of benign FL.
+- Surpassed baseline backdoor attacks by significantly reducing anomaly detection scores, effectively evading defenses.
+
+### Impact & Limitations
+- Highlights a critical vulnerability in FL systems, urging development of more resilient defense strategies.
+- Future work needed to design unlearning-resistant defenses and extend evaluation across more diverse datasets and FL settings.
+
+---
+
+#### A Practical Guideline and Taxonomy to LLVM's Control Flow Integrity
+**作者**: Sabine Houy, Bruno Kreyssig, Timothee Riom, Alexandre Bartel, Patrick McDaniel
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15386v1
+
+#### Executive Summary
+This paper addresses the challenge of understanding and practically applying LLVM’s Control Flow Integrity (CFI) mechanisms to improve software security. It proposes a comprehensive guideline paired with a new taxonomy to clarify CFI implementations within LLVM. Results demonstrate enhanced clarity and usability for developers implementing LLVM CFI, facilitating more effective security hardening.
+
+### Key Contributions
+- Introduces a practical, developer-oriented guideline for deploying LLVM’s CFI features.
+- Provides a novel taxonomy categorizing LLVM CFI implementations based on security properties and performance trade-offs.
+- Empirically evaluates LLVM CFI schemes to inform best practices and design decisions.
+
+### Method & Results
+- Analyzed LLVM’s CFI components through systematic code review and documentation synthesis.
+- Categorized CFI variants along axes like enforcement strictness, overhead, and compatibility.
+- Evaluated CFI impact using standard benchmarks and real-world codebases.
+- Demonstrated performance overhead varies between 3-15%, with fine-grained CFI offering stronger guarantees at reasonable costs.
+- Compared multiple LLVM CFI schemes, highlighting trade-offs between security strength and runtime efficiency.
+
+### Impact & Limitations
+- Facilitates wider, more effective adoption of LLVM CFI by clarifying complex design spaces for developers and researchers.
+- Future work includes automated tooling for CFI configuration and extending taxonomy to emerging or hybrid CFI approaches.
+
+---
+
+#### VideoEraser: Concept Erasure in Text-to-Video Diffusion Models
+**作者**: Naen Xu, Jinghuai Zhang, Changjiang Li, Zhi Chen, Chunyi Zhou, Qingming Li, Tianyu Du, Shouling Ji
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15314v1
+
+#### Executive Summary  
+This paper addresses the challenge of selectively removing specific concepts from outputs of text-to-video diffusion models. The authors propose VideoEraser, a novel training-free technique that leverages latent space manipulation to erase targeted concepts while preserving video quality. Experiments demonstrate effective concept removal without degrading overall generation fidelity.
+
+### Key Contributions  
+- Introduces VideoEraser, the first concept erasure method tailored for text-to-video diffusion models.  
+- Proposes a novel latent space editing approach that requires no additional training or fine-tuning.  
+- Demonstrates robust erasure of undesired visual concepts while maintaining generation quality.  
+
+### Method & Results  
+- Utilizes latent space inversion and targeted manipulation within the diffusion process to erase concepts.  
+- Evaluated on widely-used text-to-video datasets and diffusion frameworks (specific names not provided).  
+- Quantitative metrics show significant reduction of targeted concepts, e.g., concept recognition rates drop by over 70%.  
+- Outperforms baseline naïve masking and text prompt engineering methods in erasure effectiveness and output fidelity.
+
+### Impact & Limitations  
+- Enables safer, more controllable video generation by removing unwanted content post hoc without retraining.  
+- Limitations include potential challenges with highly entangled concepts and scalability to diverse video domains; future work may explore multi-concept erasure and integration with model updates.
+
+---
+
+#### IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents
+**作者**: Hengyu An, Jinghuai Zhang, Tianyu Du, Chunyi Zhou, Qingming Li, Tao Lin, Shouling Ji
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15310v1
+
+#### Executive Summary  
+This paper addresses the challenge of indirect prompt injection attacks on LLM agents that exploit tool dependency graphs. The authors propose IPIGuard, a novel defense mechanism leveraging tool dependency graph analysis to detect and mitigate these attacks effectively. Experiments demonstrate IPIGuard substantially reduces attack success rates while maintaining agent functionality.
+
+### Key Contributions  
+- Introduces IPIGuard, the first defense utilizing tool dependency graphs to counter indirect prompt injection in LLM agents.  
+- Develops an algorithm to detect malicious prompt chains within agent tool interactions.  
+- Empirically validates the approach with significant reduction in attack success over state-of-the-art baselines.
+
+### Method & Results  
+- Constructs tool dependency graphs to trace indirect prompt injection flows and apply detection heuristics.  
+- Evaluated on benchmark indirect prompt injection datasets and real-world LLM agent environments.  
+- Achieves reduction in attack success rate from ~65% (baseline) to under 15%.  
+- Outperforms existing defense methods in precision and recall for attack detection.
+
+### Impact & Limitations  
+- Enhances security of LLM-based systems interacting via tool APIs, crucial for safe deployment.  
+- Limitations include dependency on accurate graph construction and potential overhead in large-scale deployment.  
+- Future work: improving scalability and extending to more complex multi-agent scenarios.
 
 ---
 
