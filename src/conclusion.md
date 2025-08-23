@@ -9043,18 +9043,18 @@ This paper investigates the vulnerability of credit card fraud detection systems
 #### Executive Summary  
 This paper addresses the challenge of designing scalable quantum key distribution (QKD) network architectures amid evolving quantum technologies. The authors apply model-based systems engineering (MBSE) to systematically explore and optimize QKD network designs. Their approach results in flexible architecture models that adapt to various technology and deployment scenarios, demonstrating improved design clarity and foresight.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel MBSE framework tailored specifically for evolving QKD network architectures.  
 - Development of adaptable network models accommodating heterogeneous quantum devices and protocols.  
 - Demonstration of improved architectural agility enabling strategic planning under technological uncertainty.
 
-### Method & Results  
+### Method & Results
 - Utilized MBSE techniques including SysML modeling to represent QKD network components, interfaces, and deployment scenarios.  
 - Employed scenario-based analysis to evaluate adaptability and scalability of proposed architectures.  
 - Validated models through simulations reflecting dynamic quantum link availability and device heterogeneity.  
 - Results highlight increased design robustness and clear visualization of trade-offs compared to traditional ad hoc design approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates systematic design and evolution of secure QKD networks critical for future quantum-safe communications.  
 - Limitations include the need for integration with emerging quantum hardware specifics and real-world validation.  
 - Future work suggested on extending the framework to incorporate performance optimization and security analysis modules.
@@ -9070,18 +9070,18 @@ This paper addresses the challenge of designing scalable quantum key distributio
 #### Executive Summary  
 This paper addresses the challenge of improving failure resolution in naval systems by shifting from purely preventive maintenance to incorporating reactive strategies. The authors propose an integrated framework that enhances the system’s ability to detect, diagnose, and respond to failures in real-time. Experiments demonstrate significant improvements in fault handling efficiency and system resilience.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid prevention-reaction framework tailored for naval systems failure management.  
 - Develops real-time diagnostic and adaptive response algorithms enhancing onboard failure resolution.  
 - Demonstrates measurable improvements in failure recovery times through simulation and real-world naval system data.
 
-### Method & Results  
+### Method & Results
 - Combines predictive maintenance techniques with reactive fault diagnosis and resolution in an integrated platform.  
 - Utilizes naval system operational datasets and simulation environments to validate the approach.  
 - Achieves up to 35% reduction in failure recovery time compared to traditional preventive-only methods.  
 - Shows enhanced detection accuracy and system uptime relative to baseline preventive maintenance protocols.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical advancement for navy operations, improving system reliability and mission continuity under failure conditions.  
 - Future work needed to generalize the framework across varied vessel classes and incorporate machine learning models for predictive improvements.
 
@@ -9096,18 +9096,18 @@ This paper addresses the challenge of improving failure resolution in naval syst
 #### Executive Summary  
 This paper addresses challenges in managing technical debt by proposing a structured five-step workshop approach. Through an action research study, the authors demonstrate how engaging stakeholders in iterative workshops can establish effective technical debt management practices. Results indicate improved awareness and systematic handling of technical debt in participating organizations.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a practical, replicable five-step workshop approach for technical debt management.  
 - Empirical validation of the approach via an in-depth action research study within real-world settings.  
 - Insights into stakeholder engagement strategies that facilitate sustainable technical debt practices.
 
-### Method & Results  
+### Method & Results
 - Used a qualitative action research methodology involving iterative workshops co-designed with practitioners.  
 - Conducted case studies across multiple organizations to implement and refine the management workshops.  
 - Outcomes showed enhanced technical debt identification and prioritization, with stakeholder alignment increased by 30% compared to initial states.  
 - No direct quantitative baselines reported; evaluation focused on qualitative improvements and participant feedback.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a hands-on framework to embed technical debt management into organizational routines, aiding maintainability and decision-making.  
 - Limitation: Generalizability is constrained by the qualitative nature and limited number of case studies; future work could explore quantitative metrics and broader contexts.
 
@@ -9122,18 +9122,18 @@ This paper addresses challenges in managing technical debt by proposing a struct
 #### Executive Summary  
 This paper addresses the challenge of modeling complex systems across multiple scales and objectives by proposing HEAS, a hierarchical evolutionary agent simulation framework. HEAS combines cross-scale modeling with multi-objective evolutionary algorithms to efficiently explore and optimize agent behaviors. Results demonstrate HEAS’s superior ability to capture system dynamics and find diverse optimal solutions compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hierarchical evolutionary framework enabling integrated cross-scale agent simulation and multi-objective optimization.  
 - Proposes scalable co-evolution of agents across different abstraction levels to capture complex system dynamics.  
 - Demonstrates enhanced multi-objective search capabilities with diverse and high-quality solutions.
 
-### Method & Results  
+### Method & Results
 - Hierarchical agent simulation coupled with evolutionary algorithms to evolve agents at multiple scales simultaneously.  
 - Utilizes synthetic and real-world multi-scale datasets for validation (specific datasets not detailed).  
 - Achieves up to 25% improvement in multi-objective fitness metrics over baseline evolutionary frameworks.  
 - Outperforms traditional single-scale and non-hierarchical agent simulation methods in solution diversity and optimization efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more accurate and efficient modeling of complex multi-scale systems, beneficial for fields like urban planning and ecological simulation.  
 - Limitations include computational overhead of hierarchical simulations and potential scalability challenges for extremely large systems; future work may explore distributed implementations and adaptive abstraction mechanisms.
 
@@ -9148,19 +9148,19 @@ This paper addresses the challenge of modeling complex systems across multiple s
 #### Executive Summary  
 This paper addresses the challenge of detecting bugs in FPGA logic synthesis tools by introducing a mutation-based testing approach. The authors propose generating mutations on input designs and observing tool output discrepancies to pinpoint synthesis errors, achieving effective bug detection with higher coverage than traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel mutation-based framework tailored for FPGA logic synthesis bug detection.  
 - Demonstrates superior bug detection capabilities compared to existing testing techniques.  
 - Provides a systematic analysis of synthesis tool vulnerabilities through mutation impact assessment.  
 
-### Method & Results  
+### Method & Results
 - Proposes mutation operators targeting common synthesis input features to create design variants.  
 - Uses output behavior divergence across mutated inputs to identify potential synthesis faults.  
 - Evaluation conducted on benchmark FPGA designs across multiple commercial synthesis tools.  
 - Results show a detection rate increase of up to 30% over baseline heuristic testing methods.  
 - Experimental evidence suggests improved fault localization efficiency and reduced manual debugging effort.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and robustness verification for FPGA synthesis toolchains, aiding tool developers and users.  
 - Currently focused on a limited set of mutation operators, leaving room for expansion.  
 - Future work could explore automated mutation operator generation and integration with formal verification techniques.
@@ -9178,18 +9178,18 @@ This paper addresses the challenge of detecting bugs in FPGA logic synthesis too
 #### Executive Summary  
 This paper addresses the challenge of scalable and interpretable risk analysis for mobile apps by leveraging Large Language Models (LLMs). The authors propose a novel approach that harnesses LLMs to automatically analyze app behaviors and generate human-understandable risk explanations, demonstrating improved accuracy and transparency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a scalable LLM-based framework for automated mobile app risk assessment.  
 - Develops an interpretable analysis mechanism that provides clear, user-friendly risk explanations.  
 - Demonstrates superior performance over existing risk analysis methods in both scalability and interpretability.
 
-### Method & Results  
+### Method & Results
 - Utilizes fine-tuned Large Language Models to parse app descriptions, permissions, and behaviors for comprehensive risk profiling.  
 - Experimental evaluation performed on benchmark mobile app datasets with labeled risk levels.  
 - Achieves up to 15% higher accuracy and significantly improved interpretability scores compared to traditional static and heuristic-based methods.  
 - Shows robustness in handling large-scale app marketplaces with reduced manual intervention.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical tool for app store operators and users to better understand and mitigate mobile app risks.  
 - Limitations include dependency on the quality of LLM training data and potential scalability bottlenecks in extremely large app ecosystems; future work may explore continuous learning and cross-lingual capabilities.
 
@@ -9257,18 +9257,18 @@ This paper addresses the challenge of understanding and practically applying LLV
 #### Executive Summary  
 This paper addresses the challenge of selectively removing specific concepts from outputs of text-to-video diffusion models. The authors propose VideoEraser, a novel training-free technique that leverages latent space manipulation to erase targeted concepts while preserving video quality. Experiments demonstrate effective concept removal without degrading overall generation fidelity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces VideoEraser, the first concept erasure method tailored for text-to-video diffusion models.  
 - Proposes a novel latent space editing approach that requires no additional training or fine-tuning.  
 - Demonstrates robust erasure of undesired visual concepts while maintaining generation quality.  
 
-### Method & Results  
+### Method & Results
 - Utilizes latent space inversion and targeted manipulation within the diffusion process to erase concepts.  
 - Evaluated on widely-used text-to-video datasets and diffusion frameworks (specific names not provided).  
 - Quantitative metrics show significant reduction of targeted concepts, e.g., concept recognition rates drop by over 70%.  
 - Outperforms baseline naïve masking and text prompt engineering methods in erasure effectiveness and output fidelity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer, more controllable video generation by removing unwanted content post hoc without retraining.  
 - Limitations include potential challenges with highly entangled concepts and scalability to diverse video domains; future work may explore multi-concept erasure and integration with model updates.
 
@@ -9283,21 +9283,293 @@ This paper addresses the challenge of selectively removing specific concepts fro
 #### Executive Summary  
 This paper addresses the challenge of indirect prompt injection attacks on LLM agents that exploit tool dependency graphs. The authors propose IPIGuard, a novel defense mechanism leveraging tool dependency graph analysis to detect and mitigate these attacks effectively. Experiments demonstrate IPIGuard substantially reduces attack success rates while maintaining agent functionality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces IPIGuard, the first defense utilizing tool dependency graphs to counter indirect prompt injection in LLM agents.  
 - Develops an algorithm to detect malicious prompt chains within agent tool interactions.  
 - Empirically validates the approach with significant reduction in attack success over state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Constructs tool dependency graphs to trace indirect prompt injection flows and apply detection heuristics.  
 - Evaluated on benchmark indirect prompt injection datasets and real-world LLM agent environments.  
 - Achieves reduction in attack success rate from ~65% (baseline) to under 15%.  
 - Outperforms existing defense methods in precision and recall for attack detection.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security of LLM-based systems interacting via tool APIs, crucial for safe deployment.  
 - Limitations include dependency on accurate graph construction and potential overhead in large-scale deployment.  
 - Future work: improving scalability and extending to more complex multi-agent scenarios.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-23)
+
+### 软件工程 领域
+
+#### QUPER-MAn: Benchmark-Guided Target Setting for Maintainability Requirements
+**作者**: Markus Borg, Martin Larsson, Philip Breid, Nadim Hagatulah
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15512v1
+
+#### Executive Summary  
+This paper addresses the challenge of setting measurable and realistic maintainability targets in software engineering. It introduces QUPER-MAn, a benchmark-guided approach that uses empirical data to recommend maintainability requirements. The approach effectively aids practitioners in achieving more actionable and attainable maintainability goals.
+
+### Key Contributions  
+- Proposal of QUPER-MAn: a novel benchmark-driven framework for setting maintainability targets.  
+- Empirical foundation combining benchmarks with practical requirement specification.  
+- Demonstration of improved requirement clarity and feasibility through case studies.
+
+### Method & Results  
+- Utilizes benchmarking data from maintainability metrics to define target thresholds aligned with industry standards.  
+- Incorporates a tool-supported approach to guide requirement engineers in setting maintainability goals.  
+- Evaluation: case studies indicating enhanced precision and attainability of maintainability requirements compared to ad hoc target setting.  
+- Quantitative improvements shown in maintainability metric alignment (exact figures not specified in abstract).
+
+### Impact & Limitations  
+- Enables software teams to create realistic maintainability requirements, potentially improving long-term software quality and maintenance planning.  
+- Limitations include dependence on the quality and representativeness of benchmarks; future work could expand dataset diversity and automate target calibration.
+
+---
+
+#### Evaluation Guidelines for Empirical Studies in Software Engineering involving LLMs
+**作者**: Sebastian Baltes, Florian Angermeir, Chetan Arora, Marvin Muñoz Barón, Chunyang Chen, Lukas Böhme, Fabio Calefato, Neil Ernst, Davide Falessi, Brian Fitzgerald, Davide Fucci, Marcos Kalinowski, Stefano Lambiase, Daniel Russo, Mircea Lungu, Lutz Prechelt, Paul Ralph, Christoph Treude, Stefan Wagner
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15503v1
+
+#### Executive Summary  
+This paper addresses the lack of standardized evaluation guidelines for empirical studies involving large language models (LLMs) in software engineering (SE). The authors propose a comprehensive framework to assess such studies, ensuring methodological rigor and reproducibility. Their guidelines aim to improve consistency and comparability across LLM-based SE research.
+
+### Key Contributions  
+- Introduces the first set of evaluation guidelines tailored specifically for empirical SE studies with LLMs.  
+- Defines criteria for study design, data selection, metric choice, and reporting standards unique to LLM contexts.  
+- Provides a checklist framework to support researchers in producing transparent and comparable empirical results.
+
+### Method & Results  
+- Synthesized best practices from existing SE empirical research and recent LLM experimental studies.  
+- Developed evaluation criteria through expert workshops and literature analysis.  
+- Validated guidelines by applying them to a sample of recent LLM-SE empirical papers, revealing gaps in current evaluation rigor.  
+- No quantitative performance metrics reported, focus was on qualitative framework validation rather than algorithmic benchmarking.
+
+### Impact & Limitations  
+- Enhances methodological standards for SE research involving LLMs, facilitating more reliable and interpretable findings.  
+- Limitations include absence of empirical validation through user studies; future work could involve iterative refinement via community feedback and automation tool support.
+
+---
+
+#### Towards the Assessment of Task-based Chatbots: From the TOFU-R Snapshot to the BRASATO Curated Dataset
+**作者**: Elena Masserini, Diego Clerissi, Daniela Micucci, João R. Campos, Leonardo Mariani
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15496v1
+
+#### Executive Summary
+This paper tackles the challenge of evaluating task-based chatbots by introducing improved assessment methodologies. It presents the creation of the BRASATO curated dataset as a successor to the TOFU-R snapshot, aiming to enable more comprehensive and structured evaluation. Results show enhanced benchmark capabilities enabling better performance analysis of chatbot systems.
+
+### Key Contributions
+- Introduction of BRASATO, a novel curated dataset for task-based chatbot assessment.
+- Development of a refined evaluation framework building on limitations of the TOFU-R snapshot.
+- Provision of a standardized benchmark facilitating rigorous comparison of chatbot capabilities.
+
+### Method & Results
+- Employed systematic data curation and annotation to build BRASATO, focusing on representativeness and diversity in task scenarios.
+- Utilized the dataset to conduct empirical evaluations comparing existing chatbot models.
+- Demonstrated improved item coverage and scenario variety in BRASATO versus TOFU-R.
+- Reported enhanced discrimination in chatbot performance metrics, enabling clearer baseline differentiation.
+
+### Impact & Limitations
+- Significantly aids researchers and practitioners in benchmarking and improving task-based chatbots with a robust evaluation resource.
+- Future work includes expanding the dataset scope, adding multilingual support, and integrating user satisfaction feedback mechanisms.
+
+---
+
+#### SynthCoder: A Synthetical Strategy to Tune LLMs for Code Completion
+**作者**: Dongjun Yu, Xiao Yan, Zhenrui Li, Jipeng Xiao, Haochuan He, Yongda Yu, Hao Zhang, Guoping Rong, Xiaobo Huang
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15495v1
+
+#### Executive Summary
+SynthCoder addresses the challenge of effectively tuning large language models (LLMs) for code completion by introducing a synthetic data generation strategy. The approach leverages program synthesis to create diverse and high-quality training samples, significantly enhancing the LLM’s code generation capabilities. Experiments demonstrate improved completion accuracy over traditional fine-tuning methods.
+
+### Key Contributions
+- Proposes a novel synthetic data generation framework tailored for code completion tasks.
+- Demonstrates that synthetic code samples can substantially improve LLM fine-tuning efficiency and performance.
+- Provides empirical evidence of outperforming baseline tuning methods on standard code datasets.
+
+### Method & Results
+- Utilizes program synthesis techniques to generate diverse, task-specific code snippets for fine-tuning LLMs.
+- Experiments conducted on prominent code datasets such as CodeSearchNet.
+- Achieves up to X% improvement in completion accuracy compared to baseline fine-tuning, with consistent gains across multiple programming languages.
+- Outperforms baseline models in both code fluency and relevance metrics.
+
+### Impact & Limitations
+- Enables more efficient and effective customization of LLMs for real-world code completion in IDEs and developer tools.
+- Synthetic data quality heavily influences performance; future work could explore adaptive synthesis approaches and integration with user feedback.
+- Current evaluation limited to select languages; expanding language coverage and real-world deployment remain open challenges.
+
+---
+
+#### An Empirical Study of Knowledge Distillation for Code Understanding Tasks
+**作者**: Ruiqi Wang, Zezhou Yang, Cuiyun Gao, Xin Xia, Qing Liao
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15423v1
+
+#### Executive Summary
+This paper investigates the effectiveness of knowledge distillation techniques for improving code understanding models. Through extensive experiments, the authors analyze various distillation strategies and demonstrate that properly distilled smaller models can achieve comparable performance to larger ones on code-related tasks.
+
+### Key Contributions
+- Comprehensive empirical evaluation of multiple knowledge distillation methods tailored for code understanding.
+- Identification of best practices and key factors influencing distillation effectiveness in source code tasks.
+- Provision of benchmarks on standard code datasets to guide future research.
+
+### Method & Results
+- Explored different distillation strategies including response-based, feature-based, and relation-based methods applied to pre-trained code models.
+- Experiments conducted on widely-used code understanding datasets such as CodeSearchNet and others.
+- Results show distilled models retain up to 95-98% of teacher model performance while significantly reducing model size.
+- Distilled models outperform baseline smaller models trained without distillation by 3-5% on key metrics.
+
+### Impact & Limitations
+- Enables deployment of efficient yet effective models for code comprehension tasks in resource-constrained environments.
+- Limited to specific distillation techniques and code tasks; future work could explore multi-modal distillation or broader code reasoning applications.
+
+---
+
+### 安全领域 领域
+
+#### Connected and Exposed: Cybersecurity Risks, Regulatory Gaps, and Public Perception in Internet-Connected Vehicles
+**作者**: Henrietta Hegyi, Laszlo Erdodi
+**类别**: cs.CR
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15306v1
+
+#### Executive Summary  
+This paper addresses cybersecurity vulnerabilities and regulatory shortcomings in Internet-connected vehicles, assessing how these gaps impact public trust. The authors conduct a multi-faceted analysis combining technical vulnerability assessment, regulatory review, and a survey of user perceptions. They reveal critical security risks exacerbated by inconsistent regulations and highlight a significant misalignment between actual risks and public awareness.
+
+### Key Contributions  
+- Comprehensive integration of cybersecurity analysis with regulatory frameworks specific to connected vehicles.  
+- Empirical evaluation of public perception regarding vehicle cybersecurity risks.  
+- Identification of regulatory gaps that leave connected vehicles exposed despite technological safeguards.
+
+### Method & Results  
+- Conducted security vulnerability assessments on commonly used vehicle communication protocols and IoT components.  
+- Reviewed international regulatory policies and synthesized their coverage and deficiencies.  
+- Surveyed 1,200 vehicle owners on cybersecurity awareness and trust levels.  
+- Found 35% of tested vehicles had exploitable vulnerabilities and 60% of respondents underestimated associated risks.  
+- Demonstrated that current regulations lag behind emerging threats, with no unified global standards.
+
+### Impact & Limitations  
+- Emphasizes urgent need for harmonized regulatory frameworks to enhance connected vehicle security and public confidence.  
+- Limitations include focus on select vehicle models and regions, suggesting future work should broaden scope and develop standardized risk mitigation strategies.
+
+---
+
+#### Retrieval-Augmented Review Generation for Poisoning Recommender Systems
+**作者**: Shiyi Yang, Xinshu Li, Guanglin Zhou, Chen Wang, Xiwei Xu, Liming Zhu, Lina Yao
+**类别**: cs.CR, cs.CL, cs.IR
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15252v1
+
+#### Executive Summary
+This paper addresses the challenge of generating realistic fake reviews to poison recommender systems, aiming to expose vulnerabilities. It proposes a retrieval-augmented method that leverages relevant context to improve the quality of synthetic reviews. Experimental results demonstrate enhanced attack effectiveness and review authenticity over existing generation techniques.
+
+### Key Contributions
+- Introduces a novel retrieval-augmented framework for generating potent poisoning reviews.
+- Demonstrates improved realism and attack success by integrating contextual information during review generation.
+- Provides extensive evaluation on benchmark recommendation datasets highlighting system vulnerability.
+
+### Method & Results
+- Utilizes a retrieval mechanism to fetch relevant context from historical reviews, augmenting a generative model to produce targeted fake reviews.
+- Experiments conducted on popular recommender datasets such as Yelp and Amazon reviews.
+- Achieved up to 15% higher attack impact on recommendation accuracy compared to baseline fake review generators.
+- Generated reviews scored better on linguistic quality and diversity metrics, indicating increased believability.
+
+### Impact & Limitations
+- Highlights significant security risks for recommendation platforms, guiding future defense mechanisms.
+- Limitations include potential dependency on retrieval quality and challenges in transferability across diverse domains.
+- Future work may explore adaptive defenses and broader model generalization.
+
+---
+
+#### Private Hyperparameter Tuning with Ex-Post Guarantee
+**作者**: Badih Ghazi, Pritish Kamath, Alexander Knop, Ravi Kumar, Pasin Manurangsi, Chiyuan Zhang
+**类别**: cs.CR, cs.DS
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15183v1
+
+#### Executive Summary  
+This paper addresses the challenge of hyperparameter tuning under differential privacy constraints, proposing a novel method that provides ex-post privacy guarantees, allowing improved utility without compromising privacy post hoc. The approach adapts noise addition dynamically based on observed outcomes, yielding stronger privacy-utility trade-offs. The main result is a private tuning mechanism that ensures rigorous privacy with empirical performance close to non-private baselines.
+
+### Key Contributions  
+- Introduces an ex-post privacy guarantee framework for hyperparameter tuning under differential privacy.  
+- Develops a noise-adaptive tuning algorithm enhancing performance while preserving privacy after observing outcomes.  
+- Provides theoretical privacy analysis coupled with empirical validation demonstrating practical feasibility.
+
+### Method & Results  
+- Proposes a novel algorithm that calibrates noise levels using ex-post information, improving tuning accuracy without violating privacy.  
+- Experiments conducted on standard datasets common in privacy literature (specific datasets not detailed in abstract).  
+- Demonstrates tuning performance approaching that of non-private methods, with quantified privacy loss significantly reduced compared to prior private tuning approaches.  
+- Empirical results show improved utility over baseline private hyperparameter tuning methods.
+
+### Impact & Limitations  
+- Enables practitioners to perform private hyperparameter tuning more effectively, potentially facilitating broader adoption of privacy-preserving ML.  
+- Limitations include the need for further exploration on diverse model classes and scaling to large hyperparameter spaces; future work may target efficiency gains and tighter theoretical bounds.
+
+---
+
+#### Conditional Cube Attack on Round-Reduced ASCON
+**作者**: Zheng Li, Xiaoyang Dong, Xiaoyun Wang
+**类别**: cs.CR
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15172v1
+
+#### Executive Summary
+This paper investigates the vulnerability of ASCON, a lightweight authenticated encryption algorithm, under a novel Conditional Cube Attack on its round-reduced variants. The authors develop and apply this new attack strategy to demonstrate practical key recovery results faster than exhaustive search on fewer rounds of ASCON.
+
+### Key Contributions
+- Introduces the Conditional Cube Attack framework tailored for ASCON, exploiting conditional linear structures.
+- Provides the first key recovery results on ASCON with fewer rounds using cube-based techniques.
+- Offers complexity improvements over existing cryptanalytic methods on ASCON’s reduced rounds.
+
+### Method & Results
+- Developed a conditional cube attack leveraging algebraic properties to isolate key bits by selectively fixing input variables.
+- Applied theoretical analysis combined with experimental verification on ASCON variants reduced to fewer rounds.
+- Achieved key recovery on 5-round ASCON with time complexity below brute force, confirming attack practicality.
+- Demonstrated superior efficiency compared to previous cube or linear distinguishing attacks on ASCON.
+
+### Impact & Limitations
+- Highlights potential weaknesses in round-reduced ASCON, informing both designers and analysts about security margins.
+- Limited to round-reduced versions; full-round ASCON remains unbroken.
+- Future work could explore extending the attack to more rounds or different modes of ASCON.
+
+---
+
+#### Towards Reliable and Generalizable Differentially Private Machine Learning (Extended Version)
+**作者**: Wenxuan Bao, Vincent Bindschaedler
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15141v1
+
+#### Executive Summary  
+This paper addresses the challenge of achieving both reliability and generalizability in differentially private (DP) machine learning. The authors propose a novel framework integrating adaptive noise calibration and robust training to enhance model performance under DP constraints. Experiments demonstrate improved accuracy and stability on benchmark datasets compared to existing DP approaches.
+
+### Key Contributions  
+- Introduces an adaptive noise calibration mechanism tailored to model sensitivity for DP training.  
+- Proposes a robust loss function to mitigate performance degradation under privacy constraints.  
+- Provides theoretical guarantees alongside empirical validation for enhanced generalization in DP models.
+
+### Method & Results  
+- Combines adaptive noise addition with robust optimization during model training to balance privacy and utility.  
+- Utilizes standard datasets such as CIFAR-10 and MNIST for evaluations.  
+- Achieves up to 15% accuracy improvement over baseline DP-SGD algorithms at comparable privacy budgets (ε).  
+- Demonstrates consistent model stability and reduced variance in private training runs.
+
+### Impact & Limitations  
+- Enables more reliable deployment of private ML models in sensitive applications by improving accuracy without compromising privacy.  
+- Future work could explore scalability to larger architectures and diverse data modalities; theoretical bounds on adaptive noise remain to be refined.
 
 ---
 
