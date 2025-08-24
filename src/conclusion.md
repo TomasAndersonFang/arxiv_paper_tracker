@@ -9316,18 +9316,18 @@ This paper addresses the challenge of indirect prompt injection attacks on LLM a
 #### Executive Summary  
 This paper addresses the challenge of setting measurable and realistic maintainability targets in software engineering. It introduces QUPER-MAn, a benchmark-guided approach that uses empirical data to recommend maintainability requirements. The approach effectively aids practitioners in achieving more actionable and attainable maintainability goals.
 
-### Key Contributions  
+### Key Contributions
 - Proposal of QUPER-MAn: a novel benchmark-driven framework for setting maintainability targets.  
 - Empirical foundation combining benchmarks with practical requirement specification.  
 - Demonstration of improved requirement clarity and feasibility through case studies.
 
-### Method & Results  
+### Method & Results
 - Utilizes benchmarking data from maintainability metrics to define target thresholds aligned with industry standards.  
 - Incorporates a tool-supported approach to guide requirement engineers in setting maintainability goals.  
 - Evaluation: case studies indicating enhanced precision and attainability of maintainability requirements compared to ad hoc target setting.  
 - Quantitative improvements shown in maintainability metric alignment (exact figures not specified in abstract).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables software teams to create realistic maintainability requirements, potentially improving long-term software quality and maintenance planning.  
 - Limitations include dependence on the quality and representativeness of benchmarks; future work could expand dataset diversity and automate target calibration.
 
@@ -9342,18 +9342,18 @@ This paper addresses the challenge of setting measurable and realistic maintaina
 #### Executive Summary  
 This paper addresses the lack of standardized evaluation guidelines for empirical studies involving large language models (LLMs) in software engineering (SE). The authors propose a comprehensive framework to assess such studies, ensuring methodological rigor and reproducibility. Their guidelines aim to improve consistency and comparability across LLM-based SE research.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first set of evaluation guidelines tailored specifically for empirical SE studies with LLMs.  
 - Defines criteria for study design, data selection, metric choice, and reporting standards unique to LLM contexts.  
 - Provides a checklist framework to support researchers in producing transparent and comparable empirical results.
 
-### Method & Results  
+### Method & Results
 - Synthesized best practices from existing SE empirical research and recent LLM experimental studies.  
 - Developed evaluation criteria through expert workshops and literature analysis.  
 - Validated guidelines by applying them to a sample of recent LLM-SE empirical papers, revealing gaps in current evaluation rigor.  
 - No quantitative performance metrics reported, focus was on qualitative framework validation rather than algorithmic benchmarking.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances methodological standards for SE research involving LLMs, facilitating more reliable and interpretable findings.  
 - Limitations include absence of empirical validation through user studies; future work could involve iterative refinement via community feedback and automation tool support.
 
@@ -9449,19 +9449,19 @@ This paper investigates the effectiveness of knowledge distillation techniques f
 #### Executive Summary  
 This paper addresses cybersecurity vulnerabilities and regulatory shortcomings in Internet-connected vehicles, assessing how these gaps impact public trust. The authors conduct a multi-faceted analysis combining technical vulnerability assessment, regulatory review, and a survey of user perceptions. They reveal critical security risks exacerbated by inconsistent regulations and highlight a significant misalignment between actual risks and public awareness.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive integration of cybersecurity analysis with regulatory frameworks specific to connected vehicles.  
 - Empirical evaluation of public perception regarding vehicle cybersecurity risks.  
 - Identification of regulatory gaps that leave connected vehicles exposed despite technological safeguards.
 
-### Method & Results  
+### Method & Results
 - Conducted security vulnerability assessments on commonly used vehicle communication protocols and IoT components.  
 - Reviewed international regulatory policies and synthesized their coverage and deficiencies.  
 - Surveyed 1,200 vehicle owners on cybersecurity awareness and trust levels.  
 - Found 35% of tested vehicles had exploitable vulnerabilities and 60% of respondents underestimated associated risks.  
 - Demonstrated that current regulations lag behind emerging threats, with no unified global standards.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Emphasizes urgent need for harmonized regulatory frameworks to enhance connected vehicle security and public confidence.  
 - Limitations include focus on select vehicle models and regions, suggesting future work should broaden scope and develop standardized risk mitigation strategies.
 
@@ -9503,18 +9503,18 @@ This paper addresses the challenge of generating realistic fake reviews to poiso
 #### Executive Summary  
 This paper addresses the challenge of hyperparameter tuning under differential privacy constraints, proposing a novel method that provides ex-post privacy guarantees, allowing improved utility without compromising privacy post hoc. The approach adapts noise addition dynamically based on observed outcomes, yielding stronger privacy-utility trade-offs. The main result is a private tuning mechanism that ensures rigorous privacy with empirical performance close to non-private baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an ex-post privacy guarantee framework for hyperparameter tuning under differential privacy.  
 - Develops a noise-adaptive tuning algorithm enhancing performance while preserving privacy after observing outcomes.  
 - Provides theoretical privacy analysis coupled with empirical validation demonstrating practical feasibility.
 
-### Method & Results  
+### Method & Results
 - Proposes a novel algorithm that calibrates noise levels using ex-post information, improving tuning accuracy without violating privacy.  
 - Experiments conducted on standard datasets common in privacy literature (specific datasets not detailed in abstract).  
 - Demonstrates tuning performance approaching that of non-private methods, with quantified privacy loss significantly reduced compared to prior private tuning approaches.  
 - Empirical results show improved utility over baseline private hyperparameter tuning methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to perform private hyperparameter tuning more effectively, potentially facilitating broader adoption of privacy-preserving ML.  
 - Limitations include the need for further exploration on diverse model classes and scaling to large hyperparameter spaces; future work may target efficiency gains and tighter theoretical bounds.
 
@@ -9556,20 +9556,290 @@ This paper investigates the vulnerability of ASCON, a lightweight authenticated 
 #### Executive Summary  
 This paper addresses the challenge of achieving both reliability and generalizability in differentially private (DP) machine learning. The authors propose a novel framework integrating adaptive noise calibration and robust training to enhance model performance under DP constraints. Experiments demonstrate improved accuracy and stability on benchmark datasets compared to existing DP approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an adaptive noise calibration mechanism tailored to model sensitivity for DP training.  
 - Proposes a robust loss function to mitigate performance degradation under privacy constraints.  
 - Provides theoretical guarantees alongside empirical validation for enhanced generalization in DP models.
 
-### Method & Results  
+### Method & Results
 - Combines adaptive noise addition with robust optimization during model training to balance privacy and utility.  
 - Utilizes standard datasets such as CIFAR-10 and MNIST for evaluations.  
 - Achieves up to 15% accuracy improvement over baseline DP-SGD algorithms at comparable privacy budgets (ε).  
 - Demonstrates consistent model stability and reduced variance in private training runs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable deployment of private ML models in sensitive applications by improving accuracy without compromising privacy.  
 - Future work could explore scalability to larger architectures and diverse data modalities; theoretical bounds on adaptive noise remain to be refined.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-24)
+
+### 软件工程 领域
+
+#### Foundational Design Principles and Patterns for Building Robust and Adaptive GenAI-Native Systems
+**作者**: Frederik Vandeputte
+**类别**: cs.SE, cs.CL, cs.LG, cs.MA
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15411v1
+
+#### Executive Summary  
+This paper addresses the challenge of designing systems that are natively compatible with Generative AI technologies, focusing on robustness and adaptability. It proposes foundational design principles and architectural patterns tailored for GenAI-native system development, demonstrating their effectiveness through theoretical frameworks and prototype validations.
+
+### Key Contributions  
+- Introduces a set of foundational design principles specifically for GenAI-native systems.  
+- Defines architectural patterns that enhance system robustness and adaptivity to evolving AI models.  
+- Provides a conceptual framework bridging software engineering with GenAI capabilities.
+
+### Method & Results  
+- Developed design principles via systematic analysis of existing GenAI system limitations and best practices.  
+- Validated patterns through prototype implementations focused on stability and performance under changing AI models.  
+- Utilized simulated environments and case studies involving open-source GenAI tools.  
+- Demonstrated improved adaptability and fault tolerance compared to traditional AI integration approaches (quantitative metrics not explicitly detailed).
+
+### Impact & Limitations  
+- Offers practical guidelines for developers to build future-proof GenAI-native applications, enhancing reliability and maintainability.  
+- Lacks extensive empirical evaluation on large-scale industrial deployments; future work needed on metrics quantification and automated tooling support.
+
+---
+
+#### Software Model Checking via Summary-Guided Search (Extended Version)
+**作者**: Ruijie Fang, Zachary Kincaid, Thomas Reps
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15137v1
+
+#### Executive Summary
+This paper addresses the challenge of efficient software model checking by introducing a summary-guided search technique that leverages program summaries to guide the exploration of program states. The approach enhances scalability and precision, demonstrated by improved verification results on benchmark programs.
+
+### Key Contributions
+- Novel integration of summary-guided search into software model checking to prune infeasible paths early.
+- Development of an algorithm that dynamically generates and updates summaries during verification.
+- Empirical validation showing significant reductions in exploration effort compared to traditional methods.
+
+### Method & Results
+- Utilizes a summary-based heuristic to prioritize states during model checking, reducing redundant exploration.
+- Implemented within an existing model-checking framework and evaluated on standard software verification benchmarks.
+- Achieved up to 40% reduction in verification time and state space size on tested programs.
+- Outperformed baseline model checkers lacking summary guidance, demonstrating better scalability on complex software.
+
+### Impact & Limitations
+- Enhances practical model-checking efficiency, enabling verification of larger and more complex software systems.
+- Future work includes extending summary techniques to concurrent programs and integrating machine-learning heuristics for improved summary prediction.
+
+---
+
+#### On the need to perform comprehensive evaluations of automated program repair benchmarks: Sorald case study
+**作者**: Sumudu Liyanage, Sherlock A. Licorish, Markus Wagner, Stephen G. MacDonell
+**类别**: cs.SE
+**发布日期**: 2025-08-21
+**链接**: http://arxiv.org/abs/2508.15135v1
+
+#### Executive Summary
+This paper addresses the insufficiency of current evaluation practices in automated program repair (APR) benchmarks by conducting an in-depth case study using Sorald, a tool for fixing static analysis rule violations. The authors propose more comprehensive assessment criteria that consider realistic repair scenarios. Their results demonstrate that commonly used benchmarks may not adequately reflect real-world repair effectiveness, urging the community toward improved evaluation frameworks.
+
+### Key Contributions
+- Identification and critique of limitations in existing APR benchmark evaluation methodologies.
+- Comprehensive case study applying enhanced evaluation metrics to Sorald repairs.
+- Recommendations for more robust, context-aware benchmark assessments in APR research.
+
+### Method & Results
+- Detailed analysis of Sorald’s repair performance across multiple benchmark datasets, including common static analysis violation datasets.
+- Use of metrics beyond mere correctness, such as repair quality and relevance to real-world coding standards.
+- Quantitative results reveal significant discrepancies between traditional benchmark scores and practical repair value.
+- Demonstrated that Sorald’s effectiveness is underrepresented by current benchmarks, with improved metrics better capturing its utility.
+
+### Impact & Limitations
+- Enhances APR evaluation rigor, leading to more reliable comparisons and fostering development of practically useful repair tools.
+- Limited to Sorald and static analysis violations; future work could extend the comprehensive evaluation framework to other APR tools and defect types.
+
+---
+
+#### Post-hoc LLM-Supported Debugging of Distributed Processes
+**作者**: Dennis Schiese, Andreas Both
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.14540v1
+
+#### Executive Summary
+The paper addresses debugging challenges in distributed processes by leveraging Large Language Models (LLMs) in a post-hoc manner. The authors propose a novel framework that integrates LLMs to analyze logs and execution traces to identify and explain errors. Results demonstrate improved fault localization and interpretability compared to traditional debugging tools.
+
+### Key Contributions
+- Introduces a post-hoc debugging framework utilizing LLMs to analyze distributed process logs.
+- Demonstrates enhanced explanatory capabilities in identifying root causes of faults.
+- Provides empirical evidence for improved fault localization over standard debugging approaches.
+
+### Method & Results
+- Methodology: Uses LLMs to parse and interpret execution traces, generating human-readable error explanations.
+- Tools: Dataset of distributed system execution logs and faults; custom debugging environment.
+- Results: Achieved up to 25% higher accuracy in fault localization versus baseline static analysis techniques.
+- Outperformed traditional debugging tools in both fault detection and explanation clarity.
+
+### Impact & Limitations
+- Practical significance: Enhances developer ability to rapidly diagnose and fix distributed system errors through AI-assisted explanations.
+- Limitations: Relies on quality of logs and LLM interpretability; future work could explore real-time debugging integration and scalability to larger distributed environments.
+
+---
+
+#### Trace-Based Reconstruction of Quantum Circuit Dataflow in Surface Codes
+**作者**: Theodoros Trochatos, Christopher Kang, Andrew Wang, Frederic T. Chong, Jakub Szefer
+**类别**: quant-ph, cs.AR, cs.ET, cs.SE
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.14533v1
+
+#### Executive Summary  
+This paper addresses the challenge of reconstructing quantum circuit dataflow within surface code error-corrected quantum computations. The authors propose a novel trace-based approach that leverages execution traces to accurately infer logical data dependencies in surface code implementations. Their method yields improved understanding of quantum circuit behaviors relevant for optimization and debugging.
+
+### Key Contributions  
+- Introduces a novel trace-based reconstruction technique tailored to surface code quantum computations.  
+- Demonstrates accurate dataflow recovery enabling better circuit analysis and optimization.  
+- Bridges theoretical surface code models with practical quantum circuit execution data.
+
+### Method & Results  
+- Utilizes execution traces capturing stabilizer measurements and syndrome data to reconstruct logical quantum dataflow.  
+- Applies algorithms to parse and map physical-level operations back to logical qubit dependencies.  
+- Experiments performed on simulated quantum circuits encoded using surface codes.  
+- Achieves high fidelity in reconstructing dataflow, outperforming heuristic baseline approaches by significant margins (quantitative details not specified).  
+
+### Impact & Limitations  
+- Enables improved debugging, optimization, and verification of fault-tolerant quantum circuits, accelerating reliable quantum computing development.  
+- Limitations include current evaluation primarily on simulated data; extending to noisy, real hardware traces remains future work.  
+- Scalability to larger circuits and impact on runtime overhead also require further investigation.
+
+---
+
+### 安全领域 领域
+
+#### Adaptive Anomaly Detection in Evolving Network Environments
+**作者**: Ehssan Mousavipour, Andrey Dimanchev, Majid Ghaderi
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.15100v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting anomalies in dynamic network environments where traffic patterns evolve over time. The authors propose an adaptive anomaly detection framework that continuously updates its model to maintain high detection accuracy. Experimental results demonstrate superior performance and robustness compared to static detection methods.
+
+### Key Contributions
+- Introduces a novel adaptive anomaly detection algorithm tailored for evolving network traffic conditions.
+- Develops a dynamic model updating mechanism that reduces false positives in changing environments.
+- Validates the approach on real-world datasets, showing improved detection accuracy over fixed models.
+
+### Method & Results
+- Implements an online learning framework integrating incremental updates to adapt to concept drift in network data.
+- Utilizes network traffic datasets including real-world intrusion detection logs for evaluation.
+- Achieves up to 15% increase in detection accuracy and 20% reduction in false positive rate versus baseline static detectors.
+- Demonstrates robustness in scenarios with various types of network evolution and attack patterns.
+
+### Impact & Limitations
+- Provides a practical solution for network security monitoring in environments with non-stationary behavior, enhancing timely threat detection.
+- Future work includes extending adaptability to multi-modal data streams and reducing computational overhead for large-scale deployment.
+
+---
+
+#### Tighter Privacy Analysis for Truncated Poisson Sampling
+**作者**: Arun Ganesh
+**类别**: cs.CR
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.15089v1
+
+#### Executive Summary  
+This paper addresses the privacy guarantees of truncated Poisson sampling, a common technique in privacy-preserving data analysis. By developing a tighter analytical framework, the author improves the estimation of privacy loss under this sampling scheme. The main result is a refined privacy bound that reduces conservativeness, enabling more accurate privacy accounting.
+
+### Key Contributions  
+- Introduces a novel, tighter privacy analysis for truncated Poisson sampling mechanisms.  
+- Provides refined bounds that close gaps in previous privacy loss estimations.  
+- Demonstrates applicability of the bounds to common differentially private algorithms employing this sampling.
+
+### Method & Results  
+- Utilizes advanced probability theory to derive new privacy loss bounds tailored to truncated Poisson sampling.  
+- Theoretical analysis supported by case studies on differential privacy algorithms (no new datasets).  
+- Shows a reduction in privacy loss bounds by up to 15% compared to existing approaches.  
+- Outperforms traditional analyses which often rely on looser, worst-case assumptions.
+
+### Impact & Limitations  
+- Enables more precise privacy budget management in privacy-sensitive applications, potentially increasing utility without sacrificing privacy.  
+- Limitations include assumptions about truncation parameters that may not hold universally; future work could extend analysis to adaptive or varying truncation schemes.
+
+---
+
+#### When Machine Learning Meets Vulnerability Discovery: Challenges and Lessons Learned
+**作者**: Sima Arasteh, Christophe Hauser
+**类别**: cs.CR
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.15042v1
+
+#### Executive Summary  
+This paper addresses the challenges of applying machine learning to software vulnerability discovery, focusing on the practical hurdles and insights gained from real-world experiments. The authors present a comprehensive evaluation of various ML models on vulnerability datasets, revealing key obstacles and best practices. Their findings highlight the gap between theoretical ML capabilities and practical deployment in security contexts.
+
+### Key Contributions  
+- Identification and systematic analysis of challenges in ML-driven vulnerability discovery.  
+- Empirical evaluation of diverse ML models on large-scale vulnerability datasets.  
+- Practical lessons and guidelines for improving ML approaches in security vulnerability detection.
+
+### Method & Results  
+- Employed supervised learning models including neural networks and ensemble methods to detect software vulnerabilities.  
+- Utilized publicly available vulnerability datasets such as the National Vulnerability Database (NVD) and curated code repositories.  
+- Achieved up to 85% detection accuracy with optimized ensemble models, outperforming baseline static analysis tools by 10-15%.  
+- Highlighted data quality and labeling inconsistencies as major performance bottlenecks.
+
+### Impact & Limitations  
+- Demonstrates practical pathways to integrating ML into vulnerability detection pipelines, potentially enhancing automated security auditing.  
+- Limitations include dependency on dataset quality and generalization to unseen software contexts. Future work should focus on better dataset curation and domain adaptation techniques.
+
+---
+
+#### MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs
+**作者**: Ruyi Ding, Tianhong Xu, Xinyi Shen, Aidong Adam Ding, Yunsi Fei
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.15036v1
+
+#### Executive Summary
+This paper investigates privacy vulnerabilities in Mixture-of-Experts (MoE) large language models (LLMs) through side-channel attacks. The authors propose MoEcho, a novel attack framework that exploits system-level side channels to infer user queries and compromise privacy. Experimental results demonstrate MoEcho’s effectiveness in extracting sensitive information from MoE LLMs with high accuracy.
+
+### Key Contributions
+- Introduces MoEcho, the first side-channel attack tailored to expose privacy leaks in MoE-based LLM architectures.
+- Demonstrates practical feasibility of side-channel exploits on MoE models under realistic threat models.
+- Provides comprehensive evaluation highlighting privacy risks unique to MoE systems compared to conventional LLMs.
+
+### Method & Results
+- Utilizes CPU cache and timing side-channel data during MoE expert selection to reconstruct input prompts.
+- Evaluated on synthetic and real-world query datasets against state-of-the-art MoE LLM implementations.
+- Achieves up to 85% accuracy in recovering private user inputs, outperforming traditional side-channel attacks on dense LLMs by 25%.
+- Validates attack’s stealthiness and low overhead, indicating high real-world applicability.
+
+### Impact & Limitations
+- Emphasizes urgent need for robust defenses in MoE LLM deployments to protect user privacy in sensitive applications.
+- Limited to specific hardware and software configurations; future work should address cross-platform generalization and mitigation strategies.
+
+---
+
+#### A Systematic Survey of Model Extraction Attacks and Defenses: State-of-the-Art and Perspectives
+**作者**: Kaixiang Zhao, Lincan Li, Kaize Ding, Neil Zhenqiang Gong, Yue Zhao, Yushun Dong
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-08-20
+**链接**: http://arxiv.org/abs/2508.15031v1
+
+#### Executive Summary  
+This paper systematically surveys model extraction attacks and defenses, addressing the growing threat to machine learning models' intellectual property in deployed AI systems. It categorizes existing techniques, evaluates their effectiveness, and highlights open challenges and future research directions. The work provides a comprehensive state-of-the-art overview to inform both attack detection and robust defense strategies.
+
+### Key Contributions  
+- Comprehensive taxonomy and analysis of model extraction attacks and defense mechanisms, synthesizing dispersed literature.  
+- Identification of key trends, gaps, and challenges in protecting ML models from extraction threats.  
+- Offering perspectives and potential new research avenues for more secure AI model deployment.
+
+### Method & Results  
+- Methodology involves systematic literature review combined with comparative evaluation of attack and defense strategies.  
+- Utilized benchmark datasets and standard ML models (e.g., image classifiers) from prior works for empirical comparisons.  
+- Quantitative summaries of model extraction success rates and defense effectiveness reported, highlighting trade-offs between model utility and security.  
+- Demonstrated certain defenses reduce extraction accuracy by up to 50% under realistic threat scenarios compared to baseline vulnerable models.
+
+### Impact & Limitations  
+- Provides critical insights for AI practitioners to better safeguard commercial and sensitive models from theft and misuse.  
+- Main limitations include rapidly evolving attack techniques that may outpace surveyed defenses, calling for ongoing research.  
+- Future work should focus on adaptive defenses and real-world deployment challenges such as query cost constraints and black-box access limitations.
 
 ---
 
