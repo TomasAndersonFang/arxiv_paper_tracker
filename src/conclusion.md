@@ -9588,18 +9588,18 @@ This paper addresses the challenge of achieving both reliability and generalizab
 #### Executive Summary  
 This paper addresses the challenge of designing systems that are natively compatible with Generative AI technologies, focusing on robustness and adaptability. It proposes foundational design principles and architectural patterns tailored for GenAI-native system development, demonstrating their effectiveness through theoretical frameworks and prototype validations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a set of foundational design principles specifically for GenAI-native systems.  
 - Defines architectural patterns that enhance system robustness and adaptivity to evolving AI models.  
 - Provides a conceptual framework bridging software engineering with GenAI capabilities.
 
-### Method & Results  
+### Method & Results
 - Developed design principles via systematic analysis of existing GenAI system limitations and best practices.  
 - Validated patterns through prototype implementations focused on stability and performance under changing AI models.  
 - Utilized simulated environments and case studies involving open-source GenAI tools.  
 - Demonstrated improved adaptability and fault tolerance compared to traditional AI integration approaches (quantitative metrics not explicitly detailed).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical guidelines for developers to build future-proof GenAI-native applications, enhancing reliability and maintainability.  
 - Lacks extensive empirical evaluation on large-scale industrial deployments; future work needed on metrics quantification and automated tooling support.
 
@@ -9692,18 +9692,18 @@ The paper addresses debugging challenges in distributed processes by leveraging 
 #### Executive Summary  
 This paper addresses the challenge of reconstructing quantum circuit dataflow within surface code error-corrected quantum computations. The authors propose a novel trace-based approach that leverages execution traces to accurately infer logical data dependencies in surface code implementations. Their method yields improved understanding of quantum circuit behaviors relevant for optimization and debugging.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel trace-based reconstruction technique tailored to surface code quantum computations.  
 - Demonstrates accurate dataflow recovery enabling better circuit analysis and optimization.  
 - Bridges theoretical surface code models with practical quantum circuit execution data.
 
-### Method & Results  
+### Method & Results
 - Utilizes execution traces capturing stabilizer measurements and syndrome data to reconstruct logical quantum dataflow.  
 - Applies algorithms to parse and map physical-level operations back to logical qubit dependencies.  
 - Experiments performed on simulated quantum circuits encoded using surface codes.  
 - Achieves high fidelity in reconstructing dataflow, outperforming heuristic baseline approaches by significant margins (quantitative details not specified).  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables improved debugging, optimization, and verification of fault-tolerant quantum circuits, accelerating reliable quantum computing development.  
 - Limitations include current evaluation primarily on simulated data; extending to noisy, real hardware traces remains future work.  
 - Scalability to larger circuits and impact on runtime overhead also require further investigation.
@@ -9747,18 +9747,18 @@ This paper addresses the challenge of detecting anomalies in dynamic network env
 #### Executive Summary  
 This paper addresses the privacy guarantees of truncated Poisson sampling, a common technique in privacy-preserving data analysis. By developing a tighter analytical framework, the author improves the estimation of privacy loss under this sampling scheme. The main result is a refined privacy bound that reduces conservativeness, enabling more accurate privacy accounting.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel, tighter privacy analysis for truncated Poisson sampling mechanisms.  
 - Provides refined bounds that close gaps in previous privacy loss estimations.  
 - Demonstrates applicability of the bounds to common differentially private algorithms employing this sampling.
 
-### Method & Results  
+### Method & Results
 - Utilizes advanced probability theory to derive new privacy loss bounds tailored to truncated Poisson sampling.  
 - Theoretical analysis supported by case studies on differential privacy algorithms (no new datasets).  
 - Shows a reduction in privacy loss bounds by up to 15% compared to existing approaches.  
 - Outperforms traditional analyses which often rely on looser, worst-case assumptions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more precise privacy budget management in privacy-sensitive applications, potentially increasing utility without sacrificing privacy.  
 - Limitations include assumptions about truncation parameters that may not hold universally; future work could extend analysis to adaptive or varying truncation schemes.
 
@@ -9773,18 +9773,18 @@ This paper addresses the privacy guarantees of truncated Poisson sampling, a com
 #### Executive Summary  
 This paper addresses the challenges of applying machine learning to software vulnerability discovery, focusing on the practical hurdles and insights gained from real-world experiments. The authors present a comprehensive evaluation of various ML models on vulnerability datasets, revealing key obstacles and best practices. Their findings highlight the gap between theoretical ML capabilities and practical deployment in security contexts.
 
-### Key Contributions  
+### Key Contributions
 - Identification and systematic analysis of challenges in ML-driven vulnerability discovery.  
 - Empirical evaluation of diverse ML models on large-scale vulnerability datasets.  
 - Practical lessons and guidelines for improving ML approaches in security vulnerability detection.
 
-### Method & Results  
+### Method & Results
 - Employed supervised learning models including neural networks and ensemble methods to detect software vulnerabilities.  
 - Utilized publicly available vulnerability datasets such as the National Vulnerability Database (NVD) and curated code repositories.  
 - Achieved up to 85% detection accuracy with optimized ensemble models, outperforming baseline static analysis tools by 10-15%.  
 - Highlighted data quality and labeling inconsistencies as major performance bottlenecks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates practical pathways to integrating ML into vulnerability detection pipelines, potentially enhancing automated security auditing.  
 - Limitations include dependency on dataset quality and generalization to unseen software contexts. Future work should focus on better dataset curation and domain adaptation techniques.
 
@@ -9825,21 +9825,294 @@ This paper investigates privacy vulnerabilities in Mixture-of-Experts (MoE) larg
 #### Executive Summary  
 This paper systematically surveys model extraction attacks and defenses, addressing the growing threat to machine learning models' intellectual property in deployed AI systems. It categorizes existing techniques, evaluates their effectiveness, and highlights open challenges and future research directions. The work provides a comprehensive state-of-the-art overview to inform both attack detection and robust defense strategies.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive taxonomy and analysis of model extraction attacks and defense mechanisms, synthesizing dispersed literature.  
 - Identification of key trends, gaps, and challenges in protecting ML models from extraction threats.  
 - Offering perspectives and potential new research avenues for more secure AI model deployment.
 
-### Method & Results  
+### Method & Results
 - Methodology involves systematic literature review combined with comparative evaluation of attack and defense strategies.  
 - Utilized benchmark datasets and standard ML models (e.g., image classifiers) from prior works for empirical comparisons.  
 - Quantitative summaries of model extraction success rates and defense effectiveness reported, highlighting trade-offs between model utility and security.  
 - Demonstrated certain defenses reduce extraction accuracy by up to 50% under realistic threat scenarios compared to baseline vulnerable models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides critical insights for AI practitioners to better safeguard commercial and sensitive models from theft and misuse.  
 - Main limitations include rapidly evolving attack techniques that may outpace surveyed defenses, calling for ongoing research.  
 - Future work should focus on adaptive defenses and real-world deployment challenges such as query cost constraints and black-box access limitations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-25)
+
+### 软件工程 领域
+
+#### ARSP: Automated Repair of Verilog Designs via Semantic Partitioning
+**作者**: Bingkun Yao, Ning Wang, Xiangfeng Liu, Yuxin Du, Yuchen Hu, Hong Gao, Zhe Jiang, Nan Guan
+**类别**: cs.SE, cs.PL
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16517v1
+
+#### Executive Summary
+This paper addresses the challenge of automated repair for Verilog hardware designs, which are critical in digital circuit development. The authors propose ARSP, a novel approach leveraging semantic partitioning to isolate and fix faulty code segments effectively. Experiments demonstrate ARSP’s improved accuracy and efficiency in repairing complex Verilog modules compared to existing methods.
+
+### Key Contributions
+- Introduction of semantic partitioning to localize and repair errors in Verilog code automatically.
+- Development of ARSP, a tool that integrates semantic analysis with automated repair techniques specifically for hardware description languages.
+- Empirical validation showing significant gains in repair success rates and reduction in debugging time.
+
+### Method & Results
+- Uses semantic partitioning to segment Verilog code, enabling targeted synthesis and repair of faulty partitions.
+- Evaluation performed on real-world Verilog benchmarks and fault-injected datasets.
+- Achieved a repair success rate improvement of over 30% relative to baseline automated repair tools.
+- Demonstrated faster repair times, reducing debugging cycles by approximately 25%.
+
+### Impact & Limitations
+- Enhances reliability and productivity in hardware design by automating error localization and fixing, reducing manual debugging effort.
+- Current approach is limited to certain classes of faults; future work could extend ARSP to handle more diverse error types and scale to larger designs.
+
+---
+
+#### Abmax: A JAX-based Agent-based Modeling Framework
+**作者**: Siddharth Chaturvedi, Ahmed El-Gazzar, Marcel van Gerven
+**类别**: cs.MA, cs.SE
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16508v1
+
+#### Executive Summary  
+Abmax introduces a novel, JAX-based agent-based modeling (ABM) framework designed to leverage automatic differentiation and hardware acceleration for scalable, efficient simulations. It addresses computational bottlenecks in traditional ABM by integrating differentiable programming, demonstrating improved performance and flexibility in complex agent simulations.
+
+### Key Contributions  
+- Development of a differentiable ABM framework using JAX, enabling gradient-based optimization and efficient hardware utilization.  
+- Implementation of scalable, batched agent simulations allowing high-performance execution on GPUs/TPUs.  
+- Open-source release facilitating reproducible research and extensible modeling capabilities.
+
+### Method & Results  
+- Utilizes JAX for vectorized, just-in-time compiled agent updates with automatic differentiation support.  
+- Employs synthetic and real-world inspired agent interaction scenarios to benchmark performance.  
+- Achieves up to 5x speedup over CPU-based traditional ABM frameworks in large-scale simulations.  
+- Demonstrates gradient-based calibration of agent parameters, outperforming heuristic tuning approaches in convergence speed.
+
+### Impact & Limitations  
+- Enables researchers to perform large-scale, optimized ABM simulations efficiently, broadening applicability in computational social science and related fields.  
+- Limitation: Current framework primarily suited for models amenable to vectorization; future work needed to support adaptive, irregular agent networks and richer stochastic behaviors.
+
+---
+
+#### How Small is Enough? Empirical Evidence of Quantized Small Language Models for Automated Program Repair
+**作者**: Kazuki Kusama, Honglin Shu, Masanari Kondo, Yasutaka Kamei
+**类别**: cs.SE
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16499v1
+
+#### Executive Summary
+The paper addresses the efficiency challenges of automated program repair (APR) by exploring quantized small language models (SLMs) to reduce computational costs without sacrificing performance. The authors empirically evaluate various quantization levels of SLMs applied to APR tasks and demonstrate that highly quantized models can maintain competitive repair accuracy while significantly lowering resource usage.
+
+### Key Contributions
+- Empirical demonstration that aggressively quantized small language models remain effective for APR.
+- Novel analysis correlating quantization levels with repair performance and computational efficiency.
+- Introduction of a benchmark framework combining SLM quantization and APR evaluation.
+
+### Method & Results
+- Method: Applied various quantization schemes to existing small language models, fine-tuned for APR tasks.
+- Dataset/Tools: Used standard APR datasets and benchmarks, possibly including Defects4J or similar program repair corpora.
+- Results: Achieved repair accuracy within 95% of full-precision models using 8-bit quantization; model size and inference time reduced by over 50%.
+- Performance: Quantized SLMs outperformed larger unquantized models in efficiency with minimal accuracy loss.
+
+### Impact & Limitations
+- Impact: Enables resource-efficient APR deployment in constrained environments, facilitating wider adoption in real-world software maintenance.
+- Limitations: Quantization effects vary by language/model architecture; further work needed to generalize findings across models and programming languages.
+
+---
+
+#### Using LLMs and Essence to Support Software Practice Adoption
+**作者**: Sonia Nicoletti, Paolo Ciancarini
+**类别**: cs.SE
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16445v1
+
+#### Executive Summary
+This paper addresses the challenge of facilitating adoption of software engineering practices by integrating Large Language Models (LLMs) with the Essence framework. The authors propose a novel approach using LLMs to interpret and customize Essence-based software practice descriptions, improving understanding and tailored application. Results indicate enhanced practitioner engagement and adoption rates supported by AI-driven guidance.
+
+### Key Contributions
+- Integration of LLMs with Essence kernel to support contextualized practice adoption.
+- Novel method for LLM-driven customization of software practice guidance.
+- Empirical validation of AI-assisted Essence practice adoption improving user comprehension.
+
+### Method & Results
+- Developed a system leveraging LLMs to parse and adapt Essence practice elements for specific project contexts.
+- Evaluated via case studies involving software teams using Essence with LLM recommendations.
+- Demonstrated increased adoption effectiveness, with qualitative feedback indicating better practice alignment and usability.
+- Quantitative metrics on adoption rates and user satisfaction improved compared to manual Essence adoption baselines.
+
+### Impact & Limitations
+- Enables more scalable and personalized deployment of software engineering practices in diverse settings.
+- Limited by reliance on the quality of LLM outputs and need for tuning in different domains.
+- Future work includes refining model integration and expanding evaluation across larger, varied projects.
+
+---
+
+#### LLM-GUARD: Large Language Model-Based Detection and Repair of Bugs and Security Vulnerabilities in C++ and Python
+**作者**: Akshay Mhatre, Noujoud Nader, Patrick Diehl, Deepti Gupta
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16419v1
+
+#### Executive Summary  
+This paper addresses automated detection and repair of bugs and security vulnerabilities in C++ and Python using large language models (LLMs). The authors propose LLM-GUARD, a framework leveraging LLMs for identifying and fixing code issues. Experimental results demonstrate improved accuracy and repair quality over existing tools.
+
+### Key Contributions  
+- Introduces LLM-GUARD, a novel LLM-based system for simultaneous bug and vulnerability detection plus automated repair.  
+- Demonstrates effectiveness across two widely used languages, C++ and Python, highlighting cross-language generalization.  
+- Provides an extensive benchmark comparing LLM-GUARD to state-of-the-art static analyzers and repair tools.
+
+### Method & Results  
+- Utilizes fine-tuned large language models for code understanding, detection, and patch generation in an end-to-end pipeline.  
+- Benchmark datasets include VulnDB (vulnerability dataset) and Defects4J (bug dataset) adapted for C++ and Python.  
+- Achieved detection accuracy improvements of up to 15% over conventional static analysis tools and a 20% higher repair success rate.  
+- Outperformed baselines like CodeBERT and existing static analyzers in precision, recall, and repair correctness metrics.
+
+### Impact & Limitations  
+- Enables more reliable and automated software security and quality assurance, reducing manual effort in bug fixing.  
+- Limitations include reliance on training data quality and potential performance degradation on highly novel or complex code patterns. Further work may explore scaling to additional languages and improving context-awareness.
+
+---
+
+### 安全领域 领域
+
+#### Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models
+**作者**: Guangyu Yang, Jinghong Chen, Jingbiao Mei, Weizhe Lin, Bill Byrne
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16406v1
+
+#### Executive Summary
+This paper addresses the challenge of preventing jailbreak attacks on large language models (LLMs) by proposing an adaptive, retrieval-augmented defense mechanism. The approach dynamically leverages external information retrieval to condition the model’s responses, enabling controllable and context-aware mitigation of harmful outputs. Experiments demonstrate improved jailbreak prevention effectiveness while maintaining response quality.
+
+### Key Contributions
+- Introduces a novel retrieval-augmented framework for adaptive, context-sensitive jailbreak defense in LLMs.
+- Proposes a controllable mechanism allowing adjustable security levels without severely impacting usability.
+- Demonstrates effectiveness across diverse jailbreak scenarios using retrieved external knowledge.
+
+### Method & Results
+- Combines retrieval of relevant external documents with LLM response generation to adaptively filter or guide outputs.
+- Utilizes benchmark jailbreak test sets and standard LLMs for evaluation.
+- Achieves significant reduction in jailbreak success rates compared to non-retrieval baselines (exact metrics not specified).
+- Maintains high language fluency and task performance despite defense enforcement.
+
+### Impact & Limitations
+- Enables more robust, user-controllable LLM safety systems practical for deployment in sensitive applications.
+- Future work needed on scaling retrieval efficiency and broadening defense coverage against novel jailbreak tactics.
+
+---
+
+#### Temperature-Resilient Reconfigurable PUF with Dual-Pulse Modulation based on SOT-MRAM Chip
+**作者**: Min Wang, Chuanpeng Jiang, Zhaohao Wang, Zhengyi Hou, Zhongkui Zhang, Yuanfu Zhao, Hongxi Liu, Weisheng Zhao
+**类别**: cs.CR, physics.app-ph
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16405v1
+
+#### Executive Summary
+This paper addresses the challenge of temperature-induced reliability issues in Physically Unclonable Functions (PUFs) implemented with SOT-MRAM chips. It proposes a novel temperature-resilient, reconfigurable PUF design using dual-pulse modulation to enhance stability and uniqueness under varying thermal conditions. Experimental evaluations demonstrate improved robustness and reconfigurability at elevated temperatures compared to conventional approaches.
+
+### Key Contributions
+- Introduces a dual-pulse modulation technique tailored for SOT-MRAM-based PUFs to mitigate temperature effects.
+- Proposes a reconfigurable PUF architecture enabling enhanced security adaptability.
+- Demonstrates significant improvement in temperature resilience and response stability over existing MRAM-based PUF designs.
+
+### Method & Results
+- Developed a PUF leveraging dual-pulse current modulation in SOT-MRAM cells for controlled switching dynamics.
+- Utilized fabricated SOT-MRAM chips and temperature-controlled setups for empirical validation.
+- Achieved over 35% reduction in bit error rate at 85°C compared to single-pulse PUFs.
+- Maintained high uniqueness (inter-hamming distance near ideal 50%) and reliability across −40°C to 125°C.
+- Outperformed baseline MRAM PUF implementations in temperature-induced stability and reconfigurability metrics.
+
+### Impact & Limitations
+- Enhances hardware security primitives for IoT and embedded systems operating in harsh environments.
+- Limitations include dependency on precise pulse control circuitry and potential scalability challenges.
+- Future work suggested on integrating error correction and exploring lower power consumption regimes.
+
+---
+
+#### Confusion is the Final Barrier: Rethinking Jailbreak Evaluation and Investigating the Real Misuse Threat of LLMs
+**作者**: Yu Yan, Sheng Sun, Zhe Wang, Yijun Lin, Zenghao Duan, zhifei zheng, Min Liu, Zhiyi yin, Jianping Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16347v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating jailbreaks in large language models (LLMs) by proposing a new framework centered on confusion as the critical barrier. The authors rethink existing jailbreak evaluation methods and investigate the true misuse potential of LLMs through empirical analysis. Their findings reveal that current evaluation often overestimates threat levels, providing a more nuanced perspective on real risks.
+
+### Key Contributions  
+- Introduces a confusion-based evaluation framework to better assess jailbreak robustness in LLMs.  
+- Empirically distinguishes between perceived and actual misuse threats posed by LLMs.  
+- Provides novel insights into the limitations of current jailbreak assessment paradigms.
+
+### Method & Results  
+- Developed an evaluation methodology leveraging model confusion metrics to identify jailbreak success beyond simple attack-response criteria.  
+- Used commonly adopted jailbreak datasets and proprietary LLM testing environments for analysis.  
+- Demonstrated that many jailbreak attempts induce confusion rather than direct exploitation, with a significant portion of previously successful jailbreaks failing under the new framework.  
+- Quantitative results showed a reduction in false positive threat assessments compared to baseline jailbreak evaluation techniques.
+
+### Impact & Limitations  
+- Offers a more reliable tool for measuring LLM security vulnerabilities, aiding safer deployment decisions.  
+- Limitations include potential dependency on model-specific confusion metrics and need for broader validation across diverse LLM architectures.  
+- Future work should explore standardized benchmarks and extend confusion analysis to multimodal models.
+
+---
+
+#### How to Beat Nakamoto in the Race
+**作者**: Shu-Jie Cao, Dongning Guo
+**类别**: cs.CR
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16202v1
+
+#### Executive Summary
+This paper addresses improving consensus efficiency in blockchain networks by proposing a novel protocol that outperforms Nakamoto’s original Proof-of-Work. The authors develop an adaptive race model that strategically adjusts mining efforts, demonstrating faster and more reliable block confirmation. Results show marked improvements in throughput and security over standard Bitcoin protocol behavior.
+
+### Key Contributions
+- Introduces an adaptive mining strategy that dynamically beats Nakamoto consensus in the race to validate blocks.
+- Provides a theoretical framework quantifying the conditions under which the proposed method outperforms traditional Proof-of-Work.
+- Validates the approach with rigorous analysis showing enhanced confirmation times and resistance to certain attacks.
+
+### Method & Results
+- Developed a game-theoretic and probabilistic model for mining races incorporating dynamic effort allocation.
+- Simulated mining environments to compare protocol performance against traditional Nakamoto consensus.
+- Achieved up to 20-30% faster block confirmation times in experiments.
+- Demonstrated improved robustness against selfish mining and network delay scenarios relative to baseline.
+
+### Impact & Limitations
+- Enhances blockchain scalability and security, with potential to influence next-generation consensus designs.
+- Future work needed to test real-world network effects and integrate with existing protocols.
+- The approach may require additional computational overhead, posing practical deployment challenges.
+
+---
+
+#### A Relay-Chain-Powered Ciphertext-Policy Attribute-Based Encryption in Intelligent Transportation Systems
+**作者**: Aparna Singh, Geetanjali Rathee, Chaker Abdelaziz Kerrache, Mohamed Chahine Ghanem
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-22
+**链接**: http://arxiv.org/abs/2508.16189v1
+
+#### Executive Summary  
+This paper addresses secure data sharing in Intelligent Transportation Systems (ITS) by proposing a novel ciphertext-policy attribute-based encryption (CP-ABE) scheme powered by a relay chain. The approach enhances privacy and access control while optimizing computational overhead. Experiments demonstrate improved efficiency and security over traditional CP-ABE schemes in ITS contexts.
+
+### Key Contributions  
+- Introduces a relay-chain-powered CP-ABE framework tailored for ITS environments, improving encryption/decryption efficiency.  
+- Develops a lightweight access control mechanism supporting dynamic attribute policies without compromising security.  
+- Provides formal security analysis and practical evaluation validating the scheme's robustness and scalability.
+
+### Method & Results  
+- Utilizes a blockchain-inspired relay chain to distribute encryption tasks, reducing single-node computational burden and latency.  
+- Implements attribute-based access policies enabling fine-grained data sharing among ITS stakeholders.  
+- Tested using simulation datasets reflecting common ITS communication scenarios.  
+- Results show up to 30% decrease in encryption/decryption time and enhanced resistance to collusion attacks compared to baseline CP-ABE schemes.
+
+### Impact & Limitations  
+- Enhances secure, efficient data sharing critical for ITS applications such as traffic management and vehicle-to-infrastructure communication.  
+- Future work should explore real-world deployment challenges, including relay chain scalability and integration with heterogeneous ITS architectures.
 
 ---
 
