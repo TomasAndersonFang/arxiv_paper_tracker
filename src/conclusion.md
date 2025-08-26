@@ -9884,18 +9884,18 @@ This paper addresses the challenge of automated repair for Verilog hardware desi
 #### Executive Summary  
 Abmax introduces a novel, JAX-based agent-based modeling (ABM) framework designed to leverage automatic differentiation and hardware acceleration for scalable, efficient simulations. It addresses computational bottlenecks in traditional ABM by integrating differentiable programming, demonstrating improved performance and flexibility in complex agent simulations.
 
-### Key Contributions  
+### Key Contributions
 - Development of a differentiable ABM framework using JAX, enabling gradient-based optimization and efficient hardware utilization.  
 - Implementation of scalable, batched agent simulations allowing high-performance execution on GPUs/TPUs.  
 - Open-source release facilitating reproducible research and extensible modeling capabilities.
 
-### Method & Results  
+### Method & Results
 - Utilizes JAX for vectorized, just-in-time compiled agent updates with automatic differentiation support.  
 - Employs synthetic and real-world inspired agent interaction scenarios to benchmark performance.  
 - Achieves up to 5x speedup over CPU-based traditional ABM frameworks in large-scale simulations.  
 - Demonstrates gradient-based calibration of agent parameters, outperforming heuristic tuning approaches in convergence speed.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables researchers to perform large-scale, optimized ABM simulations efficiently, broadening applicability in computational social science and related fields.  
 - Limitation: Current framework primarily suited for models amenable to vectorization; future work needed to support adaptive, irregular agent networks and richer stochastic behaviors.
 
@@ -9963,18 +9963,18 @@ This paper addresses the challenge of facilitating adoption of software engineer
 #### Executive Summary  
 This paper addresses automated detection and repair of bugs and security vulnerabilities in C++ and Python using large language models (LLMs). The authors propose LLM-GUARD, a framework leveraging LLMs for identifying and fixing code issues. Experimental results demonstrate improved accuracy and repair quality over existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces LLM-GUARD, a novel LLM-based system for simultaneous bug and vulnerability detection plus automated repair.  
 - Demonstrates effectiveness across two widely used languages, C++ and Python, highlighting cross-language generalization.  
 - Provides an extensive benchmark comparing LLM-GUARD to state-of-the-art static analyzers and repair tools.
 
-### Method & Results  
+### Method & Results
 - Utilizes fine-tuned large language models for code understanding, detection, and patch generation in an end-to-end pipeline.  
 - Benchmark datasets include VulnDB (vulnerability dataset) and Defects4J (bug dataset) adapted for C++ and Python.  
 - Achieved detection accuracy improvements of up to 15% over conventional static analysis tools and a 20% higher repair success rate.  
 - Outperformed baselines like CodeBERT and existing static analyzers in precision, recall, and repair correctness metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable and automated software security and quality assurance, reducing manual effort in bug fixing.  
 - Limitations include reliance on training data quality and potential performance degradation on highly novel or complex code patterns. Further work may explore scaling to additional languages and improving context-awareness.
 
@@ -10045,18 +10045,18 @@ This paper addresses the challenge of temperature-induced reliability issues in 
 #### Executive Summary  
 This paper addresses the challenge of evaluating jailbreaks in large language models (LLMs) by proposing a new framework centered on confusion as the critical barrier. The authors rethink existing jailbreak evaluation methods and investigate the true misuse potential of LLMs through empirical analysis. Their findings reveal that current evaluation often overestimates threat levels, providing a more nuanced perspective on real risks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a confusion-based evaluation framework to better assess jailbreak robustness in LLMs.  
 - Empirically distinguishes between perceived and actual misuse threats posed by LLMs.  
 - Provides novel insights into the limitations of current jailbreak assessment paradigms.
 
-### Method & Results  
+### Method & Results
 - Developed an evaluation methodology leveraging model confusion metrics to identify jailbreak success beyond simple attack-response criteria.  
 - Used commonly adopted jailbreak datasets and proprietary LLM testing environments for analysis.  
 - Demonstrated that many jailbreak attempts induce confusion rather than direct exploitation, with a significant portion of previously successful jailbreaks failing under the new framework.  
 - Quantitative results showed a reduction in false positive threat assessments compared to baseline jailbreak evaluation techniques.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a more reliable tool for measuring LLM security vulnerabilities, aiding safer deployment decisions.  
 - Limitations include potential dependency on model-specific confusion metrics and need for broader validation across diverse LLM architectures.  
 - Future work should explore standardized benchmarks and extend confusion analysis to multimodal models.
@@ -10099,20 +10099,289 @@ This paper addresses improving consensus efficiency in blockchain networks by pr
 #### Executive Summary  
 This paper addresses secure data sharing in Intelligent Transportation Systems (ITS) by proposing a novel ciphertext-policy attribute-based encryption (CP-ABE) scheme powered by a relay chain. The approach enhances privacy and access control while optimizing computational overhead. Experiments demonstrate improved efficiency and security over traditional CP-ABE schemes in ITS contexts.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a relay-chain-powered CP-ABE framework tailored for ITS environments, improving encryption/decryption efficiency.  
 - Develops a lightweight access control mechanism supporting dynamic attribute policies without compromising security.  
 - Provides formal security analysis and practical evaluation validating the scheme's robustness and scalability.
 
-### Method & Results  
+### Method & Results
 - Utilizes a blockchain-inspired relay chain to distribute encryption tasks, reducing single-node computational burden and latency.  
 - Implements attribute-based access policies enabling fine-grained data sharing among ITS stakeholders.  
 - Tested using simulation datasets reflecting common ITS communication scenarios.  
 - Results show up to 30% decrease in encryption/decryption time and enhanced resistance to collusion attacks compared to baseline CP-ABE schemes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances secure, efficient data sharing critical for ITS applications such as traffic management and vehicle-to-infrastructure communication.  
 - Future work should explore real-world deployment challenges, including relay chain scalability and integration with heterogeneous ITS architectures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-26)
+
+### 软件工程 领域
+
+#### Explain and Monitor Deep Learning Models for Computer Vision using Obz AI
+**作者**: Neo Christopher Chung, Jakub Binda
+**类别**: cs.CV, cs.AI, cs.HC, cs.SE
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18188v1
+
+#### Executive Summary  
+This paper addresses the challenge of interpreting and monitoring deep learning models for computer vision tasks by introducing Obz AI, a tool designed to provide explainability and real-time model oversight. The authors demonstrate that Obz AI improves transparency and reliability in deployed vision models through intuitive visualizations and automated alerts, enhancing trust and robustness.
+
+### Key Contributions  
+- Development of Obz AI, a novel integrated platform for explaining and monitoring deep learning models in computer vision.  
+- Introduction of real-time monitoring mechanisms coupled with explainability to detect and diagnose model drift and failures.  
+- Demonstration of Obz AI’s usability across different vision tasks with seamless integration into existing workflows.
+
+### Method & Results  
+- Combines gradient-based attribution techniques with custom monitoring dashboards to enable interpretable model outputs and live performance tracking.  
+- Uses standard datasets such as ImageNet and COCO for evaluation and deployment in varied vision model scenarios.  
+- Achieves improved detection of model performance degradation, reducing issue response time by over 30% compared to standard monitoring approaches.  
+- Outperforms baseline standalone explainability tools by providing an end-to-end monitoring-explanation solution.
+
+### Impact & Limitations  
+- Enables practitioners to maintain high model reliability in operational computer vision systems, supporting safer and more ethical AI deployment.  
+- Currently limited to vision tasks; future work could expand to multimodal data and incorporate user feedback loops for model improvement.
+
+---
+
+#### A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code
+**作者**: Keke Lian, Bin Wang, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li, Dong Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18106v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating security vulnerabilities in AI-generated code by introducing A.S.E, a comprehensive repository-level benchmark. The authors develop this benchmark to systematically assess security flaws in code generated by AI models, demonstrating its effectiveness through extensive experiments.
+
+### Key Contributions
+- Introduces A.S.E, the first large-scale repository-level benchmark explicitly designed for security evaluation of AI-generated code.
+- Provides a systematic framework that enables comparative security analysis across different code generation models.
+- Demonstrates the benchmark’s applicability by revealing security weaknesses in state-of-the-art AI code generation systems.
+
+### Method & Results
+- Constructs A.S.E benchmark by curating repositories rich in diverse security vulnerabilities, facilitating realistic and large-scale evaluation.
+- Employs various AI code generation models to generate code samples, which are then analyzed using A.S.E for vulnerability identification.
+- Experimental results show significant variance in security performance across models; some models demonstrate up to a 30% higher rate of vulnerability introduction.
+- Outperforms existing security evaluation approaches by providing more granular and repository-level insights.
+
+### Impact & Limitations
+- Provides a valuable tool for researchers and practitioners to measure and improve the security robustness of AI-generated code, advancing safer AI coding tools.
+- Limitations include potential biases in repository selection and the evolving nature of security threats; future work could expand benchmark coverage and incorporate automated vulnerability mitigation.
+
+---
+
+#### LLM-Guided Genetic Improvement: Envisioning Semantic Aware Automated Software Evolution
+**作者**: Karine Even-Mendoza, Alexander Brownlee, Alina Geiger, Carol Hanna, Justyna Petke, Federica Sarro, Dominik Sobania
+**类别**: cs.SE
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18089v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating software evolution by integrating Large Language Models (LLMs) with genetic improvement techniques to enable semantic-aware program transformations. The proposed approach leverages LLM guidance to enhance genetic operators, achieving more meaningful and contextually relevant code improvements. Experimental results demonstrate improved software performance and maintainability compared to traditional genetic improvement methods.
+
+### Key Contributions  
+- Novel integration of LLMs into genetic improvement workflows for semantic-aware automated software evolution.  
+- Introduction of LLM-guided genetic operators that interpret code semantics to drive evolution.  
+- Empirical validation showing enhanced effectiveness of software optimization tasks through the hybrid AI approach.
+
+### Method & Results  
+- Methodology: Combines state-of-the-art LLMs with evolutionary algorithms to semantically guide code mutations and crossovers.  
+- Tools/Datasets: Utilizes benchmark software repositories alongside established genetic improvement frameworks; employs leading LLM architectures (notably GPT-derived models).  
+- Results: Achieved measurable improvements in runtime efficiency and code quality metrics; outperformed baseline genetic improvement methods by approximately 15-25% in optimization effectiveness.  
+- Demonstrated enhanced convergence speed and semantic preservation compared to baseline genetic operators.
+
+### Impact & Limitations  
+- Impact: Enables more intelligent, context-aware automated software maintenance and optimization, potentially reducing manual developer effort.  
+- Limitations/Future Work: Scalability and real-world applicability remain to be extensively validated; further research needed to refine LLM interpretability and reduce computational overhead.
+
+---
+
+#### Debian in the Research Software Ecosystem: A Bibliometric Analysis
+**作者**: Joenio Marques da Costa, Christina von Flach
+**类别**: cs.SE, cs.DL
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18073v1
+
+#### Executive Summary  
+This paper investigates the role of Debian within the research software ecosystem using bibliometric analysis. The authors analyze publication and citation patterns to assess Debian’s influence on scientific software dissemination and reproducibility. Results highlight Debian’s significance as a foundational platform fostering research software sustainability.
+
+### Key Contributions  
+- Provides the first comprehensive bibliometric study focused on Debian’s impact in scientific research software.  
+- Demonstrates Debian’s integration with research through citation networks and software package analysis.  
+- Offers insights into Debian’s role in enhancing reproducibility and software reuse in academia.
+
+### Method & Results  
+- Utilized bibliometric techniques to analyze scientific publications referencing Debian and related software packages.  
+- Data sourced from academic databases and Debian package repositories to map citation and dependency networks.  
+- Found a steady growth in research outputs linked to Debian packages, with increased cross-disciplinary adoption.  
+- Quantified Debian’s centrality within research software ecosystems compared to alternative platforms (specific metrics not detailed).
+
+### Impact & Limitations  
+- Highlights Debian’s practical role in supporting sustainable and reproducible research software infrastructure.  
+- Limited by reliance on citation data, which may underrepresent informal software usage; future work could integrate usage metrics and qualitative analysis to deepen understanding.
+
+---
+
+#### A Large-Scale Study on Developer Engagement and Expertise in Configurable Software System Projects
+**作者**: Karolina M. Milano, Wesley K. G. Assunção, Bruno B. P. Cafeo
+**类别**: cs.SE
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18070v1
+
+#### Executive Summary  
+This paper investigates developer engagement and expertise within configurable software system projects, aiming to understand how contributors interact with complex configuration challenges. The authors analyze large-scale project data to identify patterns that distinguish expert behaviors from general engagement. Results reveal clear expertise markers correlating with sustained contributions and effective configuration management.
+
+### Key Contributions  
+- Introduces a large-scale empirical analysis specifically targeting configurable software system projects.  
+- Identifies distinct engagement and expertise indicators tied to configuration-related tasks.  
+- Provides evidence linking developer expertise with long-term project success and maintainability in configurable systems.
+
+### Method & Results  
+- Methodology: Mining and analyzing commit histories, issue trackers, and code reviews from multiple large configurable software projects.  
+- Datasets: Collected extensive data from open-source configurable system repositories, leveraging version control and project management tools.  
+- Results: Quantified engagement metrics (e.g., commit frequency, configuration-related code changes) and demonstrated statistically significant correlations between expertise indicators and project outcomes.  
+- Reported performances: Expertise predictors outperform baseline engagement measures by 15-20% in identifying core contributors.
+
+### Impact & Limitations  
+- Practical Significance: Offers actionable insights for project maintainers to recognize and nurture expertise, enhancing project sustainability.  
+- Limitations: Focused predominantly on open-source projects; future work could explore closed-source and industry environments. Also, more nuanced qualitative analyses may deepen understanding of expertise development.
+
+---
+
+### 安全领域 领域
+
+#### $AutoGuardX$: A Comprehensive Cybersecurity Framework for Connected Vehicles
+**作者**: Muhammad Ali Nadeem, Bishwo Prakash Pokharel, Naresh Kshetri, Achyut Shankar, Gokarna Sharma
+**类别**: cs.CR, cs.ET
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18155v1
+
+#### Executive Summary  
+This paper addresses cybersecurity vulnerabilities in connected vehicles by proposing AutoGuardX, a holistic defense framework integrating real-time intrusion detection and secure communication protocols. The approach combines novel anomaly detection algorithms with layered encryption techniques, achieving robust threat mitigation demonstrated through extensive simulations.
+
+### Key Contributions  
+- Introduction of a multi-layered cybersecurity framework tailored for connected vehicle networks.  
+- Development of a novel anomaly detection algorithm leveraging vehicle telemetry and network data.  
+- Integration of adaptive encryption protocols enhancing secure vehicle-to-everything (V2X) communication.
+
+### Method & Results  
+- Methodology: Designed a hybrid intrusion detection system combining machine learning-based anomaly detection with cryptography-based secure communication modules.  
+- Tools/Datasets: Employed a comprehensive vehicular network simulator with real-world telemetry datasets for validation.  
+- Results: Achieved detection accuracy exceeding 95% with a false positive rate below 3%. Encryption latency remained under 10ms, supporting real-time operations.  
+- Compared to baselines, AutoGuardX improved detection rates by 12% and reduced communication overhead by 18%.
+
+### Impact & Limitations  
+- Significance: Provides a practical, scalable cybersecurity solution critical for enhancing safety in connected autonomous vehicles.  
+- Limitations/Future work: Requires validation in real-world testbeds; future work can extend to counteracting evolving cyber threats and optimization for low-power vehicular devices.
+
+---
+
+#### Learning from Few Samples: A Novel Approach for High-Quality Malcode Generation
+**作者**: Haijian Ma, Daizong Liu, Xiaowen Cai, Pan Zhou, Yulai Xie
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18148v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating high-quality malicious code (malcode) from very limited samples, which is critical for advancing malware detection and defense. The authors propose a novel few-shot learning framework that effectively captures complex malcode patterns, achieving superior synthesis quality. Experiments demonstrate significant improvements over existing generative techniques in producing realistic and diverse malcode variants.
+
+### Key Contributions  
+- Introduces a novel few-shot learning approach tailored for malcode generation with minimal training data.  
+- Develops a specialized neural architecture that balances code semantics and syntax for high-fidelity malcode synthesis.  
+- Demonstrates enhanced generation quality and diversity, surpassing state-of-the-art baselines.
+
+### Method & Results  
+- Employs a meta-learning-based neural framework combining code embedding and generative modeling to learn from limited malcode samples.  
+- Utilizes publicly available malware databases (e.g., Malpedia) alongside proprietary datasets for evaluation.  
+- Achieves up to a 25% increase in code similarity metrics and 30% improvement in functional validity over baseline models.  
+- Generates malcode variants that better evade traditional detection tools in controlled experiments.
+
+### Impact & Limitations  
+- Practical significance lies in improving malware simulation for security research and automated defense system training.  
+- Limitations include potential overfitting with extremely scarce data and ethical concerns around malcode generation; future work may explore robust generalization and safer deployment protocols.
+
+---
+
+#### Aligning Core Aspects: Improving Vulnerability Proof-of-Concepts via Cross-Source Insights
+**作者**: Lingxiao Wang, Wenjing Dang, Mengyao Zhang, Yue Wang, Xianzong Wu, Sen Chen
+**类别**: cs.CR
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.18109v1
+
+#### Executive Summary
+This paper addresses improving vulnerability proof-of-concept (PoC) generation by leveraging insights across multiple data sources. The authors propose aligning core aspects of vulnerabilities from diverse origins to enhance PoC quality and reliability. Experiments demonstrate significant improvements in PoC correctness and applicability compared to traditional single-source approaches.
+
+### Key Contributions
+- Introduces a novel cross-source alignment framework to enhance vulnerability PoC generation.
+- Demonstrates systematic integration of multi-source vulnerability data for improved exploit validation.
+- Provides empirical evidence that cross-source insights lead to more accurate and effective PoCs.
+
+### Method & Results
+- Develops a multi-step alignment methodology to correlate vulnerability attributes from heterogeneous sources.
+- Utilizes datasets comprising publicly available vulnerability databases, exploit repositories, and security advisories.
+- Results show up to 25% increase in PoC accuracy and a 15% higher success rate in exploit validation compared to baseline methods.
+- Outperforms existing single-source PoC generation techniques by integrating complementary information.
+
+### Impact & Limitations
+- Enhances practical vulnerability remediation by producing more reliable PoCs, aiding faster security patch validation.
+- Future work includes expanding to additional data sources and automating alignment to scale with evolving vulnerability landscapes.
+
+---
+
+#### MoveScanner: Analysis of Security Risks of Move Smart Contracts
+**作者**: Yuhe Lu, Zhongwen Li, Xiaoqi Li
+**类别**: cs.CR
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.17964v1
+
+#### Executive Summary  
+This paper addresses the lack of specialized security analysis tools for Move smart contracts, the language underlying emerging blockchain platforms like Diem. The authors propose MoveScanner, a novel static analysis framework tailored to detect vulnerabilities unique to Move contracts. Experimental evaluation demonstrates MoveScanner’s effectiveness in identifying security risks with higher accuracy than existing generic tools.
+
+### Key Contributions  
+- Develops MoveScanner, the first static analyzer specifically designed for Move smart contracts.  
+- Introduces novel detection patterns targeting Move-specific vulnerability classes.  
+- Provides an extensive empirical evaluation showcasing improved vulnerability detection and reduced false positives.
+
+### Method & Results  
+- Constructs a static analysis framework leveraging data-flow and symbolic execution tailored for Move bytecode.  
+- Utilizes a proprietary dataset of 500+ real-world Move smart contracts from Diem and related testnets.  
+- Detects 87% of known vulnerabilities in benchmark contracts, outperforming baseline tools by 22% in accuracy.  
+- Achieves a false positive rate below 5%, significantly lower than the 15% rate of generic analyzers.
+
+### Impact & Limitations  
+- Enhances security assurance for Move-based blockchain applications, fostering safer smart contract deployment.  
+- Limited by focus on static analysis; dynamic behaviors and runtime attacks remain less explored.  
+- Future work could integrate MoveScanner with runtime monitoring and extend support to evolving Move language features.
+
+---
+
+#### PRZK-Bind: A Physically Rooted Zero-Knowledge Authentication Protocol for Secure Digital Twin Binding in Smart Cities
+**作者**: Yagmur Yigit, Mehmet Ali Erturk, Kerem Gursu, Berk Canberk
+**类别**: cs.CR, cs.ET, cs.NI
+**发布日期**: 2025-08-25
+**链接**: http://arxiv.org/abs/2508.17913v1
+
+#### Executive Summary  
+This paper addresses the challenge of securely binding digital twins to their physical counterparts in smart city environments. It proposes PRZK-Bind, a novel physically rooted zero-knowledge authentication protocol that enhances security and privacy. Experimental validation demonstrates superior resilience against common cyber-attacks while ensuring efficient verification.
+
+### Key Contributions  
+- Introduces PRZK-Bind, the first physically rooted zero-knowledge protocol tailored for digital twin binding.  
+- Combines physical unclonable functions (PUFs) with cryptographic zero-knowledge proofs for enhanced security.  
+- Provides practical evaluation in smart city scenarios, showing robustness and efficiency.
+
+### Method & Results  
+- Employs PUF-based device fingerprinting integrated with zero-knowledge proofs to authenticate physical-digital twin links without revealing sensitive data.  
+- Uses a smart city testbed simulating IoT devices and digital twins for protocol testing.  
+- Demonstrates up to 30% reduction in authentication latency and 40% lower communication overhead than existing schemes.  
+- Shows strong resistance to impersonation and replay attacks compared to baseline authentication methods.
+
+### Impact & Limitations  
+- Strengthens secure and private digital twin deployments vital for smart city infrastructure trustworthiness.  
+- Future work may explore scalability in ultra-large urban networks and integration with decentralized identity frameworks.
 
 ---
 
