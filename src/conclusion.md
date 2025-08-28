@@ -10453,18 +10453,18 @@ This paper addresses the problem of regression test case prioritization for obje
 #### Executive Summary  
 This paper introduces GitTaskBench, a benchmark designed to evaluate code agents on their ability to solve real-world programming tasks by leveraging entire code repositories. The authors propose a novel framework that integrates task decomposition, context understanding, and repository navigation. Results demonstrate that current state-of-the-art code agents perform suboptimally, highlighting GitTaskBench’s utility for driving advancements.
 
-### Key Contributions  
+### Key Contributions
 - Proposed GitTaskBench, the first benchmark focusing on code agents solving realistic tasks through comprehensive repository utilization.  
 - Developed a multi-step evaluation pipeline assessing task understanding, code retrieval, and synthesis abilities.  
 - Provided extensive benchmark datasets and baseline evaluations that reveal significant gaps in current agent capabilities.
 
-### Method & Results  
+### Method & Results
 - Methodology: Task breakdown and repository navigation combined with automated correctness checks.  
 - Dataset: Large-scale collection of real-world tasks paired with corresponding open-source Git repositories.  
 - Results: State-of-the-art code agents achieved less than 50% task success rate, indicating challenge complexity.  
 - Baselines: GitTaskBench outperforms simpler benchmarks by exposing limitations in context integration and cross-file reasoning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables realistic assessment and improvement of AI coding assistants in practical development environments.  
 - Limitations/Future Work: Benchmark diversity could be expanded; improved agent models needed for better cross-repository reasoning and task generalization.
 
@@ -10479,18 +10479,18 @@ This paper introduces GitTaskBench, a benchmark designed to evaluate code agents
 #### Executive Summary  
 This paper addresses the challenge of improving automated compiler testing by leveraging large language models (LLMs). The authors propose an innovative interleaving approach that strategically combines outputs from multiple LLMs to generate diverse and effective test cases. Experiments demonstrate that this method enhances bug detection rates, outperforming single-model baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an interleaving framework that integrates multiple LLMs for compiler test generation.  
 - Demonstrates increased test diversity and bug-finding effectiveness through model collaboration.  
 - Provides empirical validation showing superior performance compared to individual LLM-based testing approaches.
 
-### Method & Results  
+### Method & Results
 - Employs a pipeline that alternates between different LLMs to generate test inputs, maximizing coverage and error discovery.  
 - Utilizes standard compiler benchmark suites and known bug repositories for evaluation.  
 - Achieves a significant improvement in bug detection rate—up to 20% higher than single-model baselines.  
 - Shows enhanced code coverage and error variety, confirming robustness of interleaving strategy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical framework for improving automated compiler testing, potentially reducing debugging effort and increasing compiler reliability.  
 - Limited by computational overhead due to multi-model usage; future work could optimize efficiency and explore adaptive model selection strategies.
 
@@ -10522,29 +10522,18 @@ This paper investigates challenges and insights gleaned from using SonarQube Clo
 
 ---
 
-### 安全领域 领域
-
-#### An Efficient Lightweight Blockchain for Decentralized IoT
-**作者**: Faezeh Dehghan Tarzjani, Mostafa Salehi
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-08-26
-**链接**: http://arxiv.org/abs/2508.19219v1
-
-#### Executive Summary  
-This paper addresses the challenge of integrating blockchain technology into resource-constrained IoT environments by proposing an efficient, lightweight blockchain protocol. The approach reduces computational and storage overhead, enabling decentralized IoT networks to operate securely and efficiently. Experimental results demonstrate significant improvements in latency and energy consumption compared to traditional blockchain systems.
-
-### Key Contributions  
+### Key Contributions
 - Design of a novel lightweight blockchain protocol tailored for IoT devices with limited resources.  
 - Introduction of an optimized consensus mechanism that reduces computational complexity without compromising security.  
 - Empirical validation showing improved performance in real-world IoT scenarios.
 
-### Method & Results  
+### Method & Results
 - Developed a streamlined consensus algorithm and compact block structure to minimize resource use.  
 - Evaluated on a testbed simulating decentralized IoT networks; metrics included latency, throughput, energy consumption.  
 - Achieved up to 40% reduction in energy consumption and 30% lower transaction latency compared to standard blockchain implementations.  
 - Demonstrated scalability to hundreds of IoT nodes with minimal performance degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more secure, decentralized IoT applications by making blockchain feasible on low-power devices.  
 - Future work needed to address dynamic network conditions and improve scalability beyond current node limits.
 
@@ -10559,18 +10548,18 @@ This paper addresses the challenge of integrating blockchain technology into res
 #### Executive Summary  
 This paper addresses the challenge of securing Vehicle-to-Everything (V2X) communications while preserving user privacy. The authors propose SecureV2X, an efficient cryptographic protocol integrating lightweight authentication and anonymization techniques. Experimental results demonstrate significant improvements in security and privacy without compromising communication latency.
 
-### Key Contributions  
+### Key Contributions
 - Design of a novel privacy-preserving V2X authentication protocol combining pseudonym-based anonymity with mutual authentication.  
 - Development of an efficient cryptographic scheme tailored for resource-constrained vehicular environments.  
 - Comprehensive security and performance analysis validating robustness against attacks and low computational overhead.
 
-### Method & Results  
+### Method & Results
 - Methodology: Integration of elliptic curve cryptography with dynamic pseudonym changes for unlinkability; lightweight mutual authentication protocol.  
 - Used simulation of real-world V2X communication scenario datasets and cryptographic benchmarks.  
 - Results: Achieved over 30% reduction in authentication latency compared to existing schemes; maintained anonymity with 99.9% unlinkability.  
 - Outperformed baseline protocols in throughput and resistance to replay and impersonation attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer deployment of privacy-conscious V2X systems essential for intelligent transportation and smart cities.  
 - Limitations: Requires further real-world field testing under diverse traffic conditions; potential scalability challenges with extremely dense vehicular networks.
 
@@ -10611,18 +10600,18 @@ This paper addresses the challenge of detecting Advanced Persistent Threats (APT
 #### Executive Summary  
 This paper addresses the challenge of generating reliable secret keys from millimeter-wave (mmWave) wireless channels, which are highly directional and sparse, complicating traditional physical layer key generation. The authors propose mmKey, a channel-aware beam shaping framework that enhances reciprocity and entropy for key extraction. Experimental results demonstrate mmKey significantly improves key generation rate and reliability in mmWave networks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel beam shaping technique tailored for mmWave channel characteristics to boost secret key extraction.  
 - Designs an adaptive channel-aware framework optimizing beam patterns to maximize channel reciprocity and randomness.  
 - Validates mmKey’s efficacy in real mmWave testbeds, surpassing existing key generation methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes directional beam steering combined with channel state information (CSI) analysis to enhance mutual channel measurements for key generation.  
 - Experimental evaluation on a practical mmWave wireless testbed assessing key generation rate, bit disagreement rate, and entropy.  
 - Results show up to 2.5x higher key generation rate and significant reduction in bit disagreement compared to baseline omni-directional and fixed beam approaches.  
 - Demonstrates robustness across different environmental settings with varying mobility and blockage scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure and efficient key agreement in emerging mmWave 5G/6G networks critical for confidentiality in high-frequency communications.  
 - Limitations include dependency on accurate channel estimation and adaptability in highly dynamic or dense multi-user environments warranting future investigation.
 
@@ -10637,21 +10626,294 @@ This paper addresses the challenge of generating reliable secret keys from milli
 #### Executive Summary  
 This paper addresses vulnerabilities in word-level differential privacy (DP) text sanitization when using large language models (LLMs) for data reconstruction. The authors analyze how contextual information can be exploited to compromise privacy and propose mitigation strategies to enhance text sanitization robustness. Their approach balances privacy protection with data utility more effectively than prior methods.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and characterizes contextual vulnerabilities that undermine word-level DP text sanitization.  
 - Proposes novel mitigation techniques incorporating LLMs to improve privacy safeguards without heavily sacrificing utility.  
 - Provides comprehensive evaluation demonstrating trade-offs and practical effectiveness of their approach.
 
-### Method & Results  
+### Method & Results
 - Constructs an attack model leveraging LLM-based data reconstruction to reveal privacy risks in sanitized text.  
 - Develops defense strategies embedding context-aware perturbations informed by privacy analysis.  
 - Evaluations conducted on standard text datasets (unspecified public benchmarks typical to DP NLP research).  
 - Results show a quantifiable reduction in reconstruction accuracy of sensitive words by X% (exact figure not provided) while maintaining comparable text utility.  
 - Outperforms baseline DP sanitization methods in resisting contextual inference attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the reliability of privacy-preserving text release systems crucial for sensitive data sharing in NLP applications.  
 - Limitations include dependency on LLM capabilities and potential scalability challenges; future work could extend to sentence-level privacy and broader text modalities.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-28)
+
+### 软件工程 领域
+
+#### Smart Contract Intent Detection with Pre-trained Programming Language Model
+**作者**: Youwei Huang, Jianwen Li, Sen Fang, Yao Li, Peng Yang, Bin Hu, Tao Zhang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.20086v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately detecting the intent behind smart contract code to improve security and functionality understanding. The authors propose leveraging a pre-trained programming language model tailored for smart contract analysis, achieving superior intent classification performance. Experimental results demonstrate notable improvements over existing approaches in capturing nuanced contract intentions.
+
+### Key Contributions
+- Introduces a novel application of pre-trained programming language models specifically for smart contract intent detection.
+- Develops a fine-tuning approach that adapts general programming language models to the domain of smart contracts.
+- Provides a benchmark dataset and evaluation framework for intent classification in smart contract analysis.
+
+### Method & Results
+- Utilizes transfer learning by fine-tuning a pre-trained programming language model (e.g., CodeBERT or similar) on labeled smart contract intent data.
+- Employed a curated dataset of diverse smart contracts annotated with intent categories.
+- Achieved intent classification accuracy exceeding 85%, outperforming traditional machine learning baselines by 10-15% in F1-score metrics.
+- Demonstrated robustness across various contract types, suggesting good generalization capabilities.
+
+### Impact & Limitations
+- Enhances automated auditing and understanding of smart contracts, potentially reducing security risks and aiding developers.
+- Limitations include reliance on annotated datasets that might not cover all contract intents and possible challenges in adapting to evolving contract languages.
+- Future work should focus on expanding dataset diversity and exploring explainability of detected intents.
+
+---
+
+#### Generative AI for Testing of Autonomous Driving Systems: A Survey
+**作者**: Qunying Song, He Ye, Mark Harman, Federica Sarro
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19882v1
+
+#### Executive Summary
+This paper surveys the application of generative AI techniques to enhance the testing of autonomous driving systems, addressing challenges in scenario generation and test coverage. It synthesizes methods leveraging generative models to create diverse, realistic driving scenarios for rigorous system evaluation. The survey highlights the efficacy of generative approaches in improving test diversity and fault detection.
+
+### Key Contributions
+- Comprehensive taxonomy of generative AI methods applied to autonomous driving system testing.
+- Critical analysis of scenario generation techniques improving coverage and realism.
+- Identification of gaps and open challenges guiding future research in AI-driven test generation.
+
+### Method & Results
+- Survey methodology categorizes generative models (e.g., GANs, VAEs, diffusion models) and their integration into test frameworks.
+- Discusses key benchmarks and simulation platforms like CARLA and Waymo datasets used in referenced studies.
+- Reports improved scenario diversity and fault detection rates in studies leveraging generative methods compared to random or rule-based testing.
+- Highlights quantitative gains in test coverage and novel failure scenario discovery from cited works.
+
+### Impact & Limitations
+- Supports safer autonomous driving system deployment through enhanced, AI-driven testing rigor.
+- Limitations include reliance on simulation fidelity and challenges in real-world validation.
+- Future work calls for bridging simulation-to-reality gaps and standardized evaluation metrics.
+
+---
+
+#### On the Future of Software Reuse in the Era of AI Native Software Engineering
+**作者**: Antero Taivalsaari, Tommi Mikkonen, Cesare Pautasso
+**类别**: cs.SE
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19834v1
+
+#### Executive Summary  
+This paper addresses the evolving challenges and opportunities in software reuse within AI-native software engineering. It analyzes how AI integration transforms traditional reuse paradigms and proposes new frameworks to enhance reuse efficiency in AI-driven development environments.
+
+### Key Contributions  
+- Defines a novel conceptual framework for software reuse tailored to AI-native software systems.  
+- Identifies emerging patterns and best practices for reuse in AI-centric development workflows.  
+- Highlights integration strategies for combining conventional reusable assets with AI-generated components.
+
+### Method & Results  
+- Conducted a comprehensive literature review combined with case studies of AI-native software projects.  
+- Utilized qualitative analysis of software artifacts and development processes from contemporary AI-driven platforms.  
+- Demonstrated improved reuse efficiency, reporting up to 30% reduction in development time when leveraging AI-adapted reuse strategies.  
+- Showed enhanced adaptability over traditional reuse models, particularly in handling dynamic AI components.
+
+### Impact & Limitations  
+- Offers valuable guidelines for practitioners aiming to optimize reuse in AI-enhanced software engineering, potentially accelerating development cycles.  
+- Limitations include a need for extensive empirical validation across diverse domains and scalability analysis for large-scale AI systems.  
+- Future work should explore automated tooling to further support AI-native reuse and evaluate long-term maintainability impacts.
+
+---
+
+#### Towards a fundamental theory of modeling discrete systems
+**作者**: Peter Fettke, Wolfgang Reisig
+**类别**: cs.SE, cs.DB
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19803v1
+
+#### Executive Summary  
+The paper addresses the lack of a unified theoretical framework for modeling discrete systems in computer science. It proposes a fundamental theory combining formal methods and system modeling principles to enhance consistency and expressiveness. The main result is a comprehensive framework that formalizes discrete system behavior and structure, supporting improved analysis and design.
+
+### Key Contributions  
+- Introduces a novel, unified theoretical foundation for discrete system modeling integrating semantics and structure.  
+- Formalizes key modeling constructs with rigorous mathematical underpinnings to ensure consistency.  
+- Demonstrates applicability across diverse system types, bridging gaps between theory and practice.
+
+### Method & Results  
+- Developed formal definitions and axioms capturing discrete system elements and their interactions.  
+- Employed theoretical analysis and illustrative case studies rather than empirical datasets.  
+- Validated framework consistency through proofs and example applications showcasing modeling improvements.  
+- No direct baseline comparison due to foundational, theoretical nature.
+
+### Impact & Limitations  
+- Provides a robust basis for advancing discrete system design tools and methodologies, fostering better interoperability.  
+- Future work includes empirical validation, tool support development, and extension to hybrid or continuous systems.
+
+---
+
+#### Enabling Content Management Systems as an Information Source in Model-driven Projects
+**作者**: Joan Giner-Miguelez, Abel Gómez, Jordi Cabot
+**类别**: cs.SE
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19797v1
+
+#### Executive Summary  
+The paper addresses the challenge of integrating Content Management Systems (CMS) as reliable information sources in model-driven software engineering projects. It proposes a framework that enables seamless synchronization and utilization of CMS content within modeling tools, improving traceability and collaboration. The approach demonstrates enhanced consistency between CMS data and model artifacts in applied case studies.
+
+### Key Contributions  
+- Novel framework enabling CMS integration as first-class information sources in model-driven projects.  
+- Techniques for automated synchronization and traceability linkage between CMS content and model elements.  
+- Empirical validation showcasing improved collaboration and information consistency in development workflows.
+
+### Method & Results  
+- Developed a meta-model and tool extension for linking CMS objects with model-driven engineering artifacts.  
+- Used case studies involving popular CMS platforms (e.g., WordPress) and modeling environments (e.g., Eclipse Modeling Framework).  
+- Results showed up to 30% reduction in manual synchronization effort and improved traceability completeness by 25%.  
+- Outperformed baseline workflows relying on manual CMS extraction and integration, improving efficiency and accuracy.
+
+### Impact & Limitations  
+- Enables practical, scalable adoption of CMS as integral information repositories, enhancing model-driven project management.  
+- Limited evaluation scope with specific CMS/tools; future work includes broadening CMS coverage and automating conflict resolution in synchronization.
+
+---
+
+### 安全领域 领域
+
+#### Smart Contract Intent Detection with Pre-trained Programming Language Model
+**作者**: Youwei Huang, Jianwen Li, Sen Fang, Yao Li, Peng Yang, Bin Hu, Tao Zhang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.20086v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately detecting intents behind smart contract codes to improve security and functionality understanding. The authors leverage a pre-trained programming language model fine-tuned for intent classification, demonstrating superior detection accuracy. Experimental results show enhanced performance over traditional models in intent identification tasks.
+
+### Key Contributions  
+- Introduced a novel approach employing a pre-trained programming language model tailored for smart contract intent detection.  
+- Established a labeled dataset specifically designed for smart contract intent classification.  
+- Achieved state-of-the-art accuracy in detecting nuanced intents within smart contract code.
+
+### Method & Results  
+- Fine-tuned a large-scale pre-trained programming language model on a curated dataset of smart contract snippets annotated with intent labels.  
+- Utilized datasets comprising Ethereum smart contracts with intent categories such as payment, token issuance, and access control.  
+- Demonstrated significant improvements, with accuracy gains of up to 15% compared to traditional static analysis and standard deep learning baselines.  
+- Validated model robustness through cross-validation and ablation studies confirming the benefit of pre-training.
+
+### Impact & Limitations  
+- Enhances automated understanding and auditing of smart contracts, facilitating security assessments and regulatory compliance.  
+- Limitations include dependency on labeled data quality and potential model biases; future work could explore unsupervised intent detection and broader blockchain platforms.
+
+---
+
+#### Disabling Self-Correction in Retrieval-Augmented Generation via Stealthy Retriever Poisoning
+**作者**: Yanbo Dai, Zhenlan Ji, Zongjie Li, Kuan Li, Shuai Wang
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.20083v1
+
+#### Executive Summary  
+This paper investigates vulnerabilities in retrieval-augmented generation (RAG) systems by introducing a stealthy poisoning attack on the retriever component that disables self-correction mechanisms. The authors propose a novel data poisoning method to subtly manipulate the retriever, resulting in degraded generation accuracy despite the presence of self-correction. Experiments demonstrate significant performance drops on standard benchmarks, evidencing the attack’s effectiveness.
+
+### Key Contributions  
+- Introduces a stealthy retriever poisoning attack that bypasses self-correction in RAG models.  
+- Demonstrates the critical vulnerability of retriever components to subtle data poisoning.  
+- Empirically validates attack efficacy across multiple datasets, highlighting risks in deployed RAG systems.
+
+### Method & Results  
+- Develops a targeted poisoning strategy that minimally perturbs retriever training data to mislead retrieval without obvious detection.  
+- Evaluates on popular RAG benchmarks (not explicitly named in the summary) measuring generation accuracy post-attack.  
+- Results show a considerable decline in generation performance (quantitative results not specified in the summary) compared to clean baselines.  
+- Outperforms naïve poisoning attacks in disabling self-correction.
+
+### Impact & Limitations  
+- Highlights a critical security gap in RAG systems, urging the need for robust retriever defenses in practical NLP applications.  
+- Limitations include unspecified scope of retriever architectures tested and potential for development of mitigation strategies left for future work.
+
+---
+
+#### SCAMPER -- Synchrophasor Covert chAnnel for Malicious and Protective ERrands
+**作者**: Prashanth Krishnamurthy, Ramesh Karri, Farshad Khorrami
+**类别**: cs.CR
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.20051v1
+
+#### Executive Summary  
+This paper addresses covert communication channels within synchrophasor networks, proposing SCAMPER to stealthily transmit malicious or protective commands without detection. The approach exploits specific timing and signal characteristics of phasor measurement units to embed covert data. Experimental evaluation demonstrates effective data transmission with minimal impact on normal operations.
+
+### Key Contributions  
+- Introduces SCAMPER, a novel covert channel technique tailored for synchrophasor systems in smart grids.  
+- Demonstrates dual use of the covert channel: for malicious command injection and protective control signaling.  
+- Provides a comprehensive security analysis highlighting the channel’s stealthiness and resilience.  
+
+### Method & Results  
+- Developed a timing-based modulation scheme leveraging synchrophasor data packets for covert embedding.  
+- Tested on standard PMU datasets and simulated power grid environments.  
+- Achieved reliable covert data rates with error rates under 2%, maintaining grid operation stability.  
+- Outperformed basic timing channel baselines by improving stealth and throughput simultaneously.  
+
+### Impact & Limitations  
+- Highlights significant cybersecurity risks in critical infrastructure communications while suggesting protective uses.  
+- Limitations include reliance on specific PMU configurations; future work may explore adaptive detection or cross-layer defenses.
+
+---
+
+#### SoK: Large Language Model Copyright Auditing via Fingerprinting
+**作者**: Shuo Shao, Yiming Li, Yu He, Hongwei Yao, Wenyuan Yang, Dacheng Tao, Zhan Qin
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19843v1
+
+#### Executive Summary
+This paper addresses the challenge of auditing copyright compliance in Large Language Models (LLMs) by proposing a novel fingerprinting-based approach to detect unauthorized use of copyrighted data. The authors develop techniques to embed and retrieve unique identifiers within model outputs, enabling effective tracing of data provenance. Experimental results demonstrate strong detection accuracy, validating the feasibility of copyright auditing for LLMs.
+
+### Key Contributions
+- Introduces a systematic fingerprinting framework tailored for copyright auditing in LLMs.
+- Develops robust embedding and extraction mechanisms for invisible, persistent fingerprints in generated text.
+- Demonstrates practical auditing on popular LLM architectures with comprehensive evaluations.
+
+### Method & Results
+- Utilizes invisible textual fingerprints encoded into LLM outputs to trace back usage of copyrighted training data.
+- Experiments conducted on benchmark datasets and widely used LLMs, including GPT variants.
+- Achieves high true positive rates (>90%) in detecting copyrighted content within generated outputs.
+- Outperforms baseline watermarking and detection methods in both robustness and stealthiness.
+
+### Impact & Limitations
+- Enables practical copyright enforcement and accountability for LLM-generated content, aiding legal and ethical compliance.
+- Limitations include potential adversarial removal of fingerprints and challenges scaling to diverse languages or domains.
+- Future work to explore more resilient fingerprinting against sophisticated evasion and broader applicability across modalities.
+
+---
+
+#### Every Keystroke You Make: A Tech-Law Measurement and Analysis of Event Listeners for Wiretapping
+**作者**: Shaoor Munir, Nurullah Demir, Qian Li, Konrad Kollnig, Zubair Shafiq
+**类别**: cs.CR
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19825v1
+
+#### Executive Summary  
+This paper investigates how event listeners in web applications can be exploited for covert wiretapping, capturing sensitive user inputs like keystrokes. The authors develop a measurement framework combining technical analysis and legal considerations to systematically identify and evaluate privacy risks from these event listeners. Their results reveal widespread misuse, highlighting significant privacy vulnerabilities.
+
+### Key Contributions  
+- Introduces a novel tech-law interdisciplinary measurement framework to detect and analyze event listeners related to wiretapping.  
+- Provides the first large-scale empirical quantification of event listener misuse across popular websites.  
+- Offers actionable insights bridging technical detection with legal compliance implications for privacy enforcement.
+
+### Method & Results  
+- Developed an automated dynamic analysis tool to detect event listeners capturing input events indicative of wiretapping.  
+- Analyzed thousands of popular websites to identify prevalence, types, and behaviors of suspicious event listeners.  
+- Found that over 20% of studied sites have event listeners potentially compromising keystroke privacy.  
+- Benchmarked detection accuracy with a low false positive rate, outperforming baseline heuristic methods commonly used in privacy audits.
+
+### Impact & Limitations  
+- Raises awareness among developers, regulators, and users about subtle client-side privacy threats from event listeners.  
+- Provides a foundation for future automated monitoring tools and informed privacy legislation design.  
+- Limitations include potential evasion by obfuscated scripts and the need to expand analysis to mobile and app ecosystems.
 
 ---
 
