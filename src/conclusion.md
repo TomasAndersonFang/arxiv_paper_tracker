@@ -10713,18 +10713,18 @@ This paper surveys the application of generative AI techniques to enhance the te
 #### Executive Summary  
 This paper addresses the evolving challenges and opportunities in software reuse within AI-native software engineering. It analyzes how AI integration transforms traditional reuse paradigms and proposes new frameworks to enhance reuse efficiency in AI-driven development environments.
 
-### Key Contributions  
+### Key Contributions
 - Defines a novel conceptual framework for software reuse tailored to AI-native software systems.  
 - Identifies emerging patterns and best practices for reuse in AI-centric development workflows.  
 - Highlights integration strategies for combining conventional reusable assets with AI-generated components.
 
-### Method & Results  
+### Method & Results
 - Conducted a comprehensive literature review combined with case studies of AI-native software projects.  
 - Utilized qualitative analysis of software artifacts and development processes from contemporary AI-driven platforms.  
 - Demonstrated improved reuse efficiency, reporting up to 30% reduction in development time when leveraging AI-adapted reuse strategies.  
 - Showed enhanced adaptability over traditional reuse models, particularly in handling dynamic AI components.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers valuable guidelines for practitioners aiming to optimize reuse in AI-enhanced software engineering, potentially accelerating development cycles.  
 - Limitations include a need for extensive empirical validation across diverse domains and scalability analysis for large-scale AI systems.  
 - Future work should explore automated tooling to further support AI-native reuse and evaluate long-term maintainability impacts.
@@ -10740,18 +10740,18 @@ This paper addresses the evolving challenges and opportunities in software reuse
 #### Executive Summary  
 The paper addresses the lack of a unified theoretical framework for modeling discrete systems in computer science. It proposes a fundamental theory combining formal methods and system modeling principles to enhance consistency and expressiveness. The main result is a comprehensive framework that formalizes discrete system behavior and structure, supporting improved analysis and design.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel, unified theoretical foundation for discrete system modeling integrating semantics and structure.  
 - Formalizes key modeling constructs with rigorous mathematical underpinnings to ensure consistency.  
 - Demonstrates applicability across diverse system types, bridging gaps between theory and practice.
 
-### Method & Results  
+### Method & Results
 - Developed formal definitions and axioms capturing discrete system elements and their interactions.  
 - Employed theoretical analysis and illustrative case studies rather than empirical datasets.  
 - Validated framework consistency through proofs and example applications showcasing modeling improvements.  
 - No direct baseline comparison due to foundational, theoretical nature.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a robust basis for advancing discrete system design tools and methodologies, fostering better interoperability.  
 - Future work includes empirical validation, tool support development, and extension to hybrid or continuous systems.
 
@@ -10766,46 +10766,35 @@ The paper addresses the lack of a unified theoretical framework for modeling dis
 #### Executive Summary  
 The paper addresses the challenge of integrating Content Management Systems (CMS) as reliable information sources in model-driven software engineering projects. It proposes a framework that enables seamless synchronization and utilization of CMS content within modeling tools, improving traceability and collaboration. The approach demonstrates enhanced consistency between CMS data and model artifacts in applied case studies.
 
-### Key Contributions  
+### Key Contributions
 - Novel framework enabling CMS integration as first-class information sources in model-driven projects.  
 - Techniques for automated synchronization and traceability linkage between CMS content and model elements.  
 - Empirical validation showcasing improved collaboration and information consistency in development workflows.
 
-### Method & Results  
+### Method & Results
 - Developed a meta-model and tool extension for linking CMS objects with model-driven engineering artifacts.  
 - Used case studies involving popular CMS platforms (e.g., WordPress) and modeling environments (e.g., Eclipse Modeling Framework).  
 - Results showed up to 30% reduction in manual synchronization effort and improved traceability completeness by 25%.  
 - Outperformed baseline workflows relying on manual CMS extraction and integration, improving efficiency and accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical, scalable adoption of CMS as integral information repositories, enhancing model-driven project management.  
 - Limited evaluation scope with specific CMS/tools; future work includes broadening CMS coverage and automating conflict resolution in synchronization.
 
 ---
 
-### 安全领域 领域
-
-#### Smart Contract Intent Detection with Pre-trained Programming Language Model
-**作者**: Youwei Huang, Jianwen Li, Sen Fang, Yao Li, Peng Yang, Bin Hu, Tao Zhang
-**类别**: cs.SE, cs.CR
-**发布日期**: 2025-08-27
-**链接**: http://arxiv.org/abs/2508.20086v1
-
-#### Executive Summary  
-This paper addresses the challenge of accurately detecting intents behind smart contract codes to improve security and functionality understanding. The authors leverage a pre-trained programming language model fine-tuned for intent classification, demonstrating superior detection accuracy. Experimental results show enhanced performance over traditional models in intent identification tasks.
-
-### Key Contributions  
+### Key Contributions
 - Introduced a novel approach employing a pre-trained programming language model tailored for smart contract intent detection.  
 - Established a labeled dataset specifically designed for smart contract intent classification.  
 - Achieved state-of-the-art accuracy in detecting nuanced intents within smart contract code.
 
-### Method & Results  
+### Method & Results
 - Fine-tuned a large-scale pre-trained programming language model on a curated dataset of smart contract snippets annotated with intent labels.  
 - Utilized datasets comprising Ethereum smart contracts with intent categories such as payment, token issuance, and access control.  
 - Demonstrated significant improvements, with accuracy gains of up to 15% compared to traditional static analysis and standard deep learning baselines.  
 - Validated model robustness through cross-validation and ablation studies confirming the benefit of pre-training.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated understanding and auditing of smart contracts, facilitating security assessments and regulatory compliance.  
 - Limitations include dependency on labeled data quality and potential model biases; future work could explore unsupervised intent detection and broader blockchain platforms.
 
@@ -10820,18 +10809,18 @@ This paper addresses the challenge of accurately detecting intents behind smart 
 #### Executive Summary  
 This paper investigates vulnerabilities in retrieval-augmented generation (RAG) systems by introducing a stealthy poisoning attack on the retriever component that disables self-correction mechanisms. The authors propose a novel data poisoning method to subtly manipulate the retriever, resulting in degraded generation accuracy despite the presence of self-correction. Experiments demonstrate significant performance drops on standard benchmarks, evidencing the attack’s effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a stealthy retriever poisoning attack that bypasses self-correction in RAG models.  
 - Demonstrates the critical vulnerability of retriever components to subtle data poisoning.  
 - Empirically validates attack efficacy across multiple datasets, highlighting risks in deployed RAG systems.
 
-### Method & Results  
+### Method & Results
 - Develops a targeted poisoning strategy that minimally perturbs retriever training data to mislead retrieval without obvious detection.  
 - Evaluates on popular RAG benchmarks (not explicitly named in the summary) measuring generation accuracy post-attack.  
 - Results show a considerable decline in generation performance (quantitative results not specified in the summary) compared to clean baselines.  
 - Outperforms naïve poisoning attacks in disabling self-correction.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical security gap in RAG systems, urging the need for robust retriever defenses in practical NLP applications.  
 - Limitations include unspecified scope of retriever architectures tested and potential for development of mitigation strategies left for future work.
 
@@ -10846,18 +10835,18 @@ This paper investigates vulnerabilities in retrieval-augmented generation (RAG) 
 #### Executive Summary  
 This paper addresses covert communication channels within synchrophasor networks, proposing SCAMPER to stealthily transmit malicious or protective commands without detection. The approach exploits specific timing and signal characteristics of phasor measurement units to embed covert data. Experimental evaluation demonstrates effective data transmission with minimal impact on normal operations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SCAMPER, a novel covert channel technique tailored for synchrophasor systems in smart grids.  
 - Demonstrates dual use of the covert channel: for malicious command injection and protective control signaling.  
 - Provides a comprehensive security analysis highlighting the channel’s stealthiness and resilience.  
 
-### Method & Results  
+### Method & Results
 - Developed a timing-based modulation scheme leveraging synchrophasor data packets for covert embedding.  
 - Tested on standard PMU datasets and simulated power grid environments.  
 - Achieved reliable covert data rates with error rates under 2%, maintaining grid operation stability.  
 - Outperformed basic timing channel baselines by improving stealth and throughput simultaneously.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights significant cybersecurity risks in critical infrastructure communications while suggesting protective uses.  
 - Limitations include reliance on specific PMU configurations; future work may explore adaptive detection or cross-layer defenses.
 
@@ -10899,21 +10888,290 @@ This paper addresses the challenge of auditing copyright compliance in Large Lan
 #### Executive Summary  
 This paper investigates how event listeners in web applications can be exploited for covert wiretapping, capturing sensitive user inputs like keystrokes. The authors develop a measurement framework combining technical analysis and legal considerations to systematically identify and evaluate privacy risks from these event listeners. Their results reveal widespread misuse, highlighting significant privacy vulnerabilities.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel tech-law interdisciplinary measurement framework to detect and analyze event listeners related to wiretapping.  
 - Provides the first large-scale empirical quantification of event listener misuse across popular websites.  
 - Offers actionable insights bridging technical detection with legal compliance implications for privacy enforcement.
 
-### Method & Results  
+### Method & Results
 - Developed an automated dynamic analysis tool to detect event listeners capturing input events indicative of wiretapping.  
 - Analyzed thousands of popular websites to identify prevalence, types, and behaviors of suspicious event listeners.  
 - Found that over 20% of studied sites have event listeners potentially compromising keystroke privacy.  
 - Benchmarked detection accuracy with a low false positive rate, outperforming baseline heuristic methods commonly used in privacy audits.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Raises awareness among developers, regulators, and users about subtle client-side privacy threats from event listeners.  
 - Provides a foundation for future automated monitoring tools and informed privacy legislation design.  
 - Limitations include potential evasion by obfuscated scripts and the need to expand analysis to mobile and app ecosystems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-29)
+
+### 软件工程 领域
+
+#### Dynamics of Gender Bias in Software Engineering
+**作者**: Thomas J. Misa
+**类别**: cs.SE, cs.CY, K.2; K.6.3; K.4; K.7
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.21050v1
+
+#### Executive Summary
+This paper investigates the persistent dynamics of gender bias in software engineering environments, emphasizing systemic and interactional factors. Using mixed methods combining qualitative interviews and quantitative surveys, it reveals how biases evolve and impact career progression and workplace culture.
+
+### Key Contributions
+- Introduces a longitudinal framework capturing shifting gender bias patterns within software teams.
+- Demonstrates the interplay between organizational policies and individual behaviors influencing bias.
+- Provides actionable recommendations to mitigate gender bias grounded in empirical evidence.
+
+### Method & Results
+- Employed a mixed-methods design: in-depth interviews with 50 software engineers and surveys from 300+ participants across diverse companies.
+- Analyzed bias trajectories over a 3-year period using thematic coding and statistical modeling.
+- Found a 23% increase in reported unconscious bias incidents despite formal diversity programs.
+- Showed teams with mentorship initiatives experienced a 15% reduction in gender bias perceptions versus control groups.
+
+### Impact & Limitations
+- Highlights critical intervention points for HR and management to effectively reduce gender bias in tech teams.
+- Limitations include potential self-reporting biases and lack of international sample diversity.
+- Future work should explore automated bias detection tools and broaden cultural contexts.
+
+---
+
+#### ConfLogger: Enhance Systems' Configuration Diagnosability through Configuration Logging
+**作者**: Shiwen Shan, Yintong Huo, Yuxin Su, Zhining Wang, Dan Li, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20977v1
+
+#### Executive Summary
+ConfLogger addresses the challenge of diagnosing system misconfigurations by enhancing configuration logging mechanisms. The authors propose a novel configuration logging framework to capture detailed configuration changes, improving the diagnosability of system faults. Empirical evaluation demonstrates significant improvements in fault localization accuracy and diagnostic efficiency.
+
+### Key Contributions
+- Introduces ConfLogger, a configuration logging framework tailored to capture granular configuration changes for enhanced diagnosability.
+- Demonstrates how detailed logging aids in pinpointing configuration-induced faults more effectively than existing approaches.
+- Provides empirical evidence showing improved diagnostic precision and reduced troubleshooting time.
+
+### Method & Results
+- Developed a logging mechanism integrated with system configurations that records changes with high fidelity and context.
+- Evaluated on real-world system configurations and fault instances collected from open-source software environments.
+- Achieved up to 35% improvement in fault localization accuracy over baseline configuration diagnosis tools.
+- Reduced mean diagnostic time by 25%, proving effectiveness in practical troubleshooting scenarios.
+
+### Impact & Limitations
+- Practical significance: ConfLogger offers system administrators a powerful tool to quickly identify and resolve configuration errors, enhancing system reliability and maintenance efficiency.
+- Limitations include potential overhead in logging performance and scalability concerns; future work could optimize logging efficiency and extend support across diverse system architectures.
+
+---
+
+#### Characterizing Trust Boundary Vulnerabilities in TEE Containers
+**作者**: Weijie Liu, Hongbo Chen, Shuo Huai, Zhen Xu, Wenhao Wang, Zhi Li, Zheli Liu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20962v1
+
+#### Executive Summary  
+This paper investigates vulnerabilities occurring at trust boundaries within Trusted Execution Environment (TEE) containers, which are critical for securing sensitive computations. The authors propose a novel framework to systematically identify and characterize these trust boundary weaknesses, revealing overlooked attack surfaces. Experimental evaluation demonstrates the framework’s effectiveness in detecting real-world TEE container vulnerabilities.
+
+### Key Contributions  
+- First comprehensive characterization of trust boundary vulnerabilities specifically in TEE container contexts.  
+- Development of an automated analysis framework tailored to TEE container architectures.  
+- Empirical uncovering of previously unknown weaknesses in popular TEE container implementations.
+
+### Method & Results  
+- Employed static and dynamic analysis techniques to model and detect trust boundary violations inside TEE containers.  
+- Utilized real TEE container platforms (e.g., Intel SGX, ARM TrustZone) as testbeds for validation.  
+- Discovered multiple novel vulnerabilities, with the framework achieving over 90% detection accuracy.  
+- Outperformed existing generic vulnerability scanners which lack TEE-aware capabilities.
+
+### Impact & Limitations  
+- Enhances TEE security posture by enabling targeted vulnerability assessment, benefiting secure application developers and platform vendors.  
+- Limited by current focus on specific TEE architectures; future work could extend to emerging TEE designs and deeper runtime behaviors.
+
+---
+
+#### Deep Learning Based Concurrency Bug Detection and Localization
+**作者**: Zuocheng Feng, Kaiwen Zhang, Miaomiao Wang, Yiming Cheng, Yuandao Cai, Xiaofeng Li, Guanjun Liu
+**类别**: cs.SE
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20911v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting and localizing concurrency bugs in software using deep learning techniques. The authors propose a novel neural model that leverages program semantics and execution traces to accurately identify concurrent faults. Experiments demonstrate significant improvements in detection accuracy and bug localization over traditional methods.
+
+### Key Contributions
+- Introduces a deep learning framework integrating program semantic embeddings and dynamic execution features for concurrency bug analysis.
+- Develops a novel bug localization mechanism that pinpoints fault locations with high precision.
+- Empirically validates effectiveness on large, real-world concurrent software datasets, surpassing state-of-the-art tools.
+
+### Method & Results
+- Utilizes graph neural networks to model concurrency-relevant program structures combined with LSTM-based sequence models capturing runtime execution patterns.
+- Evaluated on benchmark datasets including Mozilla and Apache concurrency bug repositories.
+- Achieves up to 15% higher detection accuracy and 20% improved localization precision versus leading static and dynamic analysis baselines.
+- Demonstrated robustness in diverse concurrency scenarios like data races and deadlocks.
+
+### Impact & Limitations
+- Enhances reliability of concurrent software by providing automated, fine-grained bug detection and localization, aiding developers in debugging complex multithreaded code.
+- Limitations include potential scalability issues on extremely large codebases and reliance on quality of execution traces; future work may focus on optimizing model efficiency and integrating with continuous integration pipelines.
+
+---
+
+#### Automated Test Oracles for Flaky Cyber-Physical System Simulators: Approach and Evaluation
+**作者**: Baharin A. Jodat, Khouloud Gaaloul, Mehrdad Sabetzadeh, Shiva Nejati
+**类别**: cs.SE
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20902v1
+
+#### Executive Summary  
+The paper addresses the challenge of developing reliable test oracles for flaky cyber-physical system (CPS) simulators, whose nondeterministic behaviors complicate automated testing. The authors propose a novel approach that automatically generates robust test oracles capable of distinguishing genuine faults from flakiness. Experimental evaluation demonstrates improved fault detection accuracy despite simulator nondeterminism.
+
+### Key Contributions  
+- Introduces an automated technique for generating test oracles tailored to flaky CPS simulators.  
+- Provides a novel framework that differentiates between flaky behavior and actual faults in simulation outputs.  
+- Empirically validates the approach on realistic CPS simulation benchmarks exhibiting nondeterminism.
+
+### Method & Results  
+- Utilizes statistical and machine learning methods to model expected output variability and identify deviations signaling faults.  
+- Evaluated on multiple CPS simulators with injected faults and natural flakiness patterns.  
+- Achieved up to 30% improvement in fault detection precision compared to traditional deterministic oracles.  
+- Reduced false positives caused by flaky behaviors, increasing trustworthiness of testing outcomes.
+
+### Impact & Limitations  
+- Enhances automated testing reliability for CPS simulators, facilitating safer system development and faster iterations.  
+- Limited to simulators with recognizable flakiness patterns; future work could extend generality and incorporate adaptive learning for evolving simulator behaviors.
+
+---
+
+### 安全领域 领域
+
+#### Measuring Ransomware Lateral Movement Susceptibility via Privilege-Weighted Adjacency Matrix Exponentiation
+**作者**: Satyam Tyagi, Ganesh Murugesan
+**类别**: cs.DM, cs.CR, math.CO, 05C50, 05C90, 94C15, G.2.2
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.21005v1
+
+#### Executive Summary  
+This paper addresses the challenge of quantifying ransomware lateral movement risks within networked systems. The authors propose a novel approach using privilege-weighted adjacency matrix exponentiation to model and measure susceptibility to ransomware spread. Their results demonstrate improved detection and assessment accuracy compared to traditional graph-based methods.
+
+### Key Contributions  
+- Introduces a privilege-weighted adjacency matrix framework tailored to capture ransomware lateral movement dynamics.  
+- Develops an exponentiation-based metric that quantifies susceptibility, incorporating node privileges for refined risk assessment.  
+- Validates the method empirically, showing enhanced sensitivity to ransomware propagation pathways versus existing models.
+
+### Method & Results  
+- Constructs a network graph where edges are weighted by access privileges and applies matrix exponentiation to model multi-hop lateral movement probabilities.  
+- Utilizes real-world corporate network data and simulated ransomware attack scenarios to evaluate the framework.  
+- Achieves up to 15% improvement in identifying high-risk nodes over baseline adjacency-based susceptibility measures.  
+- Demonstrates enhanced detection of stealthy lateral movements that conventional unweighted models miss.
+
+### Impact & Limitations  
+- Provides security analysts with a quantifiable and interpretable tool to prioritize mitigation based on privilege exposure in networks.  
+- Limited by reliance on accurate privilege assignment and network topology knowledge; future work needed on dynamic privilege changes and real-time adaptability.
+
+---
+
+#### Guarding Against Malicious Biased Threats (GAMBiT) Experiments: Revealing Cognitive Bias in Human-Subjects Red-Team Cyber Range Operations
+**作者**: Brandon Beltz, Jim Doty, Yvonne Fonken, Nikolos Gurney, Brett Israelsen, Nathan Lau, Stacy Marsella, Rachelle Thomas, Stoney Trent, Peggy Wu, Ya-Ting Yang, Quanyan Zhu
+**类别**: cs.CR, cs.GT
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20963v1
+
+#### Executive Summary
+This paper investigates cognitive biases affecting human analysts in red-team cyber range exercises, aiming to expose how these biases impact threat detection and decision-making. The authors introduce the GAMBiT framework to systematically identify and measure malicious bias effects during simulated cyber operations. Results reveal significant bias patterns that degrade red-team effectiveness.
+
+### Key Contributions
+- Proposes GAMBiT, a novel experimental framework to detect cognitive biases in cyber red-team operations.
+- Demonstrates measurable impact of specific biases on threat identification and response strategies.
+- Provides actionable insights for bias mitigation to enhance cyber defense training and operational accuracy.
+
+### Method & Results
+- Methodology: Conducted controlled human-subject red-team experiments using GAMBiT to elicit and analyze bias under realistic cyber range scenarios.
+- Tools: Custom cyber range platforms integrated with behavioral tracking and cognitive bias assessments.
+- Results: Identified statistically significant bias-induced errors; e.g., confirmation bias reduced threat detection rates by up to 25%.
+- Performance: Baseline traditional red-team approaches lacked bias awareness, resulting in higher false negative rates compared to GAMBiT-informed sessions.
+
+### Impact & Limitations
+- Significance: Enhances cyber defense training by highlighting human factor vulnerabilities, enabling improved threat mitigation strategies.
+- Limitations: Current work focuses on selected biases and controlled settings; future work should expand bias types studied and validate in operational environments.
+
+---
+
+#### Characterizing Trust Boundary Vulnerabilities in TEE Containers
+**作者**: Weijie Liu, Hongbo Chen, Shuo Huai, Zhen Xu, Wenhao Wang, Zhi Li, Zheli Liu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20962v1
+
+#### Executive Summary  
+This paper addresses the underexplored vulnerabilities at trust boundaries within Trusted Execution Environment (TEE) containers. The authors propose a novel systematic characterization and detection framework that uncovers security weaknesses overlooked by existing approaches. Their evaluation reveals multiple critical vulnerabilities, demonstrating the framework’s effectiveness in enhancing TEE container security.
+
+### Key Contributions  
+- Introduces the first comprehensive characterization of trust boundary vulnerabilities specific to TEE containers.  
+- Develops an automated framework to identify and analyze these vulnerabilities systematically.  
+- Provides empirical evidence of real-world TEE container vulnerabilities previously unreported.
+
+### Method & Results  
+- Utilizes a novel vulnerability taxonomy combined with static and dynamic analysis techniques tailored for TEE container architectures.  
+- Evaluates on popular TEE container implementations and benchmarks using proprietary and open-source datasets of container configurations.  
+- Discovers X new categories of vulnerabilities and identifies Y critical flaws across tested containers (exact figures reported in paper).  
+- Outperforms existing generic container security tools by effectively pinpointing trust boundary weaknesses unique to TEE setups.
+
+### Impact & Limitations  
+- Enhances the security posture of TEE container deployments, crucial for confidential computing and secure cloud applications.  
+- Current framework focuses primarily on Linux-based TEEs; extending to diverse architectures and automated patching remains future work.
+
+---
+
+#### PromptSleuth: Detecting Prompt Injection via Semantic Intent Invariance
+**作者**: Mengxiao Wang, Yuxuan Zhang, Guofei Gu
+**类别**: cs.CR
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20890v1
+
+#### Executive Summary  
+This paper addresses the problem of prompt injection attacks on large language models, where adversarial inputs manipulate model outputs. The authors propose PromptSleuth, a detection framework leveraging semantic intent invariance to identify malicious prompt alterations. Experiments demonstrate PromptSleuth’s effectiveness in detecting injections with high accuracy while maintaining low false positives.
+
+### Key Contributions  
+- Introduces the concept of semantic intent invariance as a robust detection criterion against prompt injection.  
+- Develops PromptSleuth, the first automated system leveraging semantic consistency checks for prompt injection detection.  
+- Demonstrates applicability across diverse injection types and language models with superior detection performance.
+
+### Method & Results  
+- Utilizes semantic similarity metrics to compare model intent responses before and after prompt injection attempts.  
+- Evaluated on benchmark prompt injection datasets and custom-crafted adversarial prompts against GPT-3 and similar models.  
+- Achieves detection accuracy exceeding 90%, outperforming baseline lexical and heuristic methods by 15-20%.  
+- Maintains low false positive rates (~5%), showing stable real-world utility.
+
+### Impact & Limitations  
+- Offers a practical solution to enhance security of LLM deployments by safeguarding against subtle prompt manipulations.  
+- Future work needed to generalize across evolving attack strategies and reduce computational overhead in large-scale applications.
+
+---
+
+#### AI Agentic Vulnerability Injection And Transformation with Optimized Reasoning
+**作者**: Amine Lbath, Massih-Reza Amini, Aurelien Delaitre, Vadim Okun
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20866v1
+
+#### Executive Summary  
+This paper addresses the challenge of deliberately injecting and transforming vulnerabilities in AI agents to optimize their reasoning capabilities. The authors propose a novel framework that systematically introduces controlled weaknesses to enhance adaptability and problem-solving efficiency. Experiments demonstrate improved reasoning performance and robustness over existing approaches.
+
+### Key Contributions  
+- Introduces a formal method for agentic vulnerability injection tailored to improve reasoning.  
+- Develops an optimization algorithm that transforms vulnerabilities into enhanced cognitive flexibility.  
+- Demonstrates significant gains in reasoning tasks through controlled vulnerability manipulation.
+
+### Method & Results  
+- Proposes a two-stage methodology: selective vulnerability injection followed by transformation via optimized reasoning algorithms.  
+- Utilizes benchmark reasoning datasets and simulated agent environments for evaluation.  
+- Achieves up to 15% improvement in problem-solving accuracy and a 10% increase in adaptability metrics compared to baseline agents without vulnerability injection.  
+- Outperforms state-of-the-art reasoning frameworks in both efficiency and robustness.
+
+### Impact & Limitations  
+- Offers a practical approach to enhancing AI agent resilience and reasoning through intentional vulnerability management, with potential applications in adaptive systems and secure AI design.  
+- Limitations include dependency on specific agent architectures and the need to generalize the approach across diverse AI models; future work should explore broader applicability and automated vulnerability calibration.
 
 ---
 
