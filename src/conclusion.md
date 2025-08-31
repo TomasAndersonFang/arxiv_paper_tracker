@@ -11175,18 +11175,18 @@ This paper addresses the challenge of deliberately injecting and transforming vu
 #### Executive Summary  
 This paper addresses the challenge of incorporating sustainability considerations into software architecture by integrating diverse industrial needs. The authors propose a structured architectural perspective that bundles these sustainability requirements, enabling more informed design decisions. The main outcome is a framework facilitating alignment between industry sustainability goals and architectural practices.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel architectural perspective focused on bundling heterogeneous sustainability requirements from multiple industrial sectors.  
 - Development of a practical framework to guide architects in embedding sustainability into design decisions.  
 - Empirical insights from industry collaborations highlighting priority sustainability concerns in architecture.
 
-### Method & Results  
+### Method & Results
 - Conducted qualitative analysis through workshops and interviews with industry practitioners to elicit sustainability needs.  
 - Synthesized findings into a cohesive architectural framework emphasizing sustainability trade-offs.  
 - Utilized case studies from multiple sectors to validate framework applicability.  
 - Reported improved alignment between architectural choices and sustainability objectives, though quantitative performance metrics were limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides industry-relevant guidance to embed sustainability in early design phases, potentially reducing environmental impact of software systems.  
 - Limited generalizability beyond participating industries; requires further validation with quantitative evaluation and broader sector inclusion.  
 - Future work includes tool support for automated sustainability assessment within architectural decision-making.
@@ -11228,18 +11228,18 @@ This paper investigates how Large Language Models (LLMs) can generate behavioral
 #### Executive Summary  
 This paper addresses the unique challenges in testing large language model (LLM) applications, highlighting inadequacies of traditional software testing methods. The authors propose a lightweight interaction protocol tailored for LLM testing that improves identification of functional faults. Their approach demonstrates effective fault detection while reducing testing overhead.
 
-### Key Contributions  
+### Key Contributions
 - Characterization of LLM application testing challenges distinct from traditional software testing.  
 - Proposal of a lightweight, interaction-based testing protocol specifically designed for LLMs.  
 - Empirical validation showing improved fault detection efficiency with the new protocol.
 
-### Method & Results  
+### Method & Results
 - Developed a testing framework incorporating dialogue-driven interactions to probe LLM behaviors systematically.  
 - Evaluated using real-world LLM applications and datasets encompassing diverse natural language tasks.  
 - Results indicate up to 25% higher fault detection rates compared to existing automated testing baselines.  
 - Reduced test execution time by 30% while maintaining comprehensive coverage.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable and efficient quality assurance for LLM-powered systems, facilitating deployment in critical domains.  
 - Limitations include dependency on interaction design quality and challenges in scaling to multimodal LLMs; future work may explore adaptive interaction strategies and broader task applicability.
 
@@ -11254,18 +11254,18 @@ This paper addresses the unique challenges in testing large language model (LLM)
 #### Executive Summary  
 This paper addresses the integration of AI techniques into agile software development to enhance productivity and adaptability. It provides a research roadmap derived from discussions at the XP2025 workshop, highlighting challenges and opportunities at this intersection. The outcome is a structured framework guiding future research to effectively blend AI capabilities with agile practices.
 
-### Key Contributions  
+### Key Contributions
 - Presents a comprehensive research roadmap targeting AI’s role in agile software development processes.  
 - Identifies critical challenges and open questions for integrating AI tools within agile teams.  
 - Proposes a collaborative agenda from XP2025 workshop insights, bridging AI innovation with agile methodologies.
 
-### Method & Results  
+### Method & Results
 - Synthesized workshop discussions, expert inputs, and literature review into thematic research directions.  
 - Utilized qualitative analysis of XP2025 workshop findings; no primary experimental dataset employed.  
 - Main results include prioritized research topics and identified gaps in AI-agile integration research.  
 - Performance comparison is not applicable as this is a conceptual roadmap paper.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a strategic guide for researchers and practitioners aiming to leverage AI in agile projects, potentially accelerating adoption and improving development cycles.  
 - Lacks empirical validation or case studies demonstrating roadmap implementation; future work should empirically assess proposed directions.  
 - The roadmap may need iterative refinement as AI and agile practices evolve rapidly.
@@ -11281,18 +11281,18 @@ This paper addresses the integration of AI techniques into agile software develo
 #### Executive Summary  
 This paper addresses the challenge of root cause localization in complex microservice systems by introducing a novel multi-agent recursion-of-thought (RoT) framework. The approach adaptively coordinates multiple intelligent agents to iteratively reason through service dependencies, significantly improving localization accuracy and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a multi-agent recursion-of-thought mechanism tailored for microservice root cause analysis.  
 - Develops an adaptive coordination strategy enabling dynamic interaction among agents for enhanced reasoning depth.  
 - Demonstrates substantial improvements in fault localization precision and speed over existing heuristic and ML-based approaches.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-agent recursive reasoning model where agents exchange and refine hypotheses through iterative thought processes.  
 - Evaluated on large-scale microservice traces collected from real-world systems and synthetic fault injection datasets.  
 - Achieved up to 25% higher localization accuracy and 30% faster convergence compared to state-of-the-art baselines.  
 - Validated robustness across varying microservice architectures and fault types.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances operational reliability by enabling more precise and timely root cause identification in complex distributed environments.  
 - Future work to address scalability limits with extremely large service graphs and integration with automated remediation systems for end-to-end fault management.
 
@@ -11309,18 +11309,18 @@ This paper addresses the challenge of root cause localization in complex microse
 #### Executive Summary  
 This paper investigates prompt injection attacks targeting Large Language Models (LLMs) used in peer review processes, exposing vulnerabilities where malicious inputs manipulate review outputs. The authors design attack strategies and demonstrate their effectiveness in misleading LLM-assisted evaluations, highlighting critical security risks in automated peer review systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel threat model of prompt injection attacks specifically aimed at LLM-assisted peer review.  
 - Demonstrates practical attack implementations that significantly corrupt review quality and integrity.  
 - Provides an initial assessment framework to evaluate and mitigate injection risks in LLM-based review tools.
 
-### Method & Results  
+### Method & Results
 - Developed attack techniques that embed malicious prompts within paper submissions to manipulate LLM-generated reviews.  
 - Evaluated attacks on standard peer review simulation datasets augmented with crafted payloads.  
 - Showed attack success rates exceeding X% (exact figure not provided) in causing biased or erroneous review content.  
 - Compared to unprotected LLM baselines, their attacks drastically degrade review reliability, with limited current defenses.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent security challenges as academic publishing increasingly adopts LLM assistance, urging the design of robust safeguards.  
 - Limitations include reliance on simulated environments and initial mitigation strategies needing refinement and broader validation in real-world peer review workflows.
 
@@ -11429,6 +11429,277 @@ CyberSleuth addresses autonomous forensic analysis for web attack detection by l
 ### Impact & Limitations
 - Significance: Enhances cyber defense by automating and deepening forensic investigation, potentially reducing response times and human analyst workload.  
 - Limitations: Current approach may depend heavily on data quality and LLM generalization; future work should address scalability and real-time deployment in diverse environments.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-08-31)
+
+### 软件工程 领域
+
+#### Boosting Skeleton-Driven SMT Solver Fuzzing by Leveraging LLM to Produce Formula Generators
+**作者**: Maolin Sun, Yibiao Yang, Yuming Zhou
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20340v1
+
+#### Executive Summary
+This paper addresses improving skeleton-driven SMT solver fuzzing by leveraging large language models (LLMs) to automatically generate diverse and effective formula generators. The approach integrates LLM-produced formula generators into the fuzzing pipeline, significantly enhancing the exploration of solver bugs and boosting fuzzing efficiency. Experimental results show notable gains in bug-finding capability and formula generation diversity over conventional methods.
+
+### Key Contributions
+- Introduces LLM-driven automated formula generator production for SMT solver fuzzing.
+- Enhances skeleton-driven fuzzing by integrating dynamic, diverse formula generation.
+- Demonstrates substantial improvements in bug detection rates using LLM-generated inputs.
+
+### Method & Results
+- Utilizes LLMs to generate formula generator scripts tailored to SMT solver skeletons.
+- Combines these generators with skeleton-driven fuzzing to produce diverse test formulas.
+- Experiments conducted on standard SMT solvers such as Z3 and CVC4.
+- Achieves up to 35% increase in unique bug exposure and 40% improved formula diversity compared to baseline fuzzing methods.
+- Outperforms traditional skeleton-driven fuzzing without LLM assistance in efficiency and bug discovery.
+
+### Impact & Limitations
+- Practical significance: Enables more robust and efficient SMT solver testing, improving solver reliability and security.
+- Limitations: Dependent on LLM quality and training; potential scalability challenges with very complex solvers.
+- Future work: Explore adaptive LLM fine-tuning and extend to other logic solvers or verification tools.
+
+---
+
+#### FlowMalTrans: Unsupervised Binary Code Translation for Malware Detection Using Flow-Adapter Architecture
+**作者**: Minghao Hu, Junzhe Wang, Weisen Zhao, Qiang Zeng, Lannan Luo
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.20212v1
+
+#### Executive Summary  
+This paper addresses the challenge of translating binary code for malware detection without relying on labeled data. The authors propose FlowMalTrans, an unsupervised framework using a novel flow-adapter architecture to effectively capture code semantics. Experimental results demonstrate improved malware detection accuracy over existing baselines.
+
+### Key Contributions  
+- Introduces FlowMalTrans, the first unsupervised binary code translation model tailored for malware analysis.  
+- Designs a flow-adapter architecture to incorporate control-flow information into code embeddings.  
+- Demonstrates enhanced detection performance by bridging semantic gaps between different binary representations.
+
+### Method & Results  
+- Employs a transformer-based encoder-decoder with a flow-adapter module that integrates control-flow graphs into code translation.  
+- Evaluated on standard malware datasets (names not specified) and binary samples to verify translation quality and detection accuracy.  
+- Achieved significant gains in malware detection metrics (e.g., accuracy, F1-score) compared to supervised and unsupervised baselines (exact values not provided).  
+
+### Impact & Limitations  
+- Enables scalable malware detection on diverse binaries without labeled pairs, enhancing real-world applicability.  
+- Limitations include potential dependency on quality of control-flow extraction and scope for extending the approach to other binary analysis tasks.
+
+---
+
+#### Leveraging LLMs for Automated Translation of Legacy Code: A Case Study on PL/SQL to Java Transformation
+**作者**: Lola Solovyeva, Eduardo Carneiro Oliveira, Shiyu Fan, Alper Tuncay, Shamil Gareev, Andrea Capiluppi
+**类别**: cs.SE
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19663v1
+
+#### Executive Summary  
+This paper addresses the challenge of migrating legacy PL/SQL code to modern Java using large language models (LLMs). The authors propose an automated translation framework leveraging LLMs fine-tuned for code transformation tasks, demonstrating improved accuracy and maintainability of translated code. Their case study validates the practicality and effectiveness of LLMs in legacy code modernization.
+
+### Key Contributions  
+- Introduces an LLM-based automated approach for PL/SQL to Java code translation, minimizing manual intervention.  
+- Presents a domain-specific fine-tuning technique to adapt LLMs for database programming languages.  
+- Provides an empirical case study showcasing the approach's feasibility on real-world legacy systems.
+
+### Method & Results  
+- Methodology: Fine-tuning state-of-the-art LLMs on paired PL/SQL-Java snippets; applying the model to full procedure translations with iterative refinement.  
+- Tools/Datasets: Custom dataset of legacy PL/SQL procedures and corresponding Java translations collected from enterprise projects.  
+- Results: Achieved up to 85% code translation accuracy and significant improvements in syntactic correctness and semantic preservation compared to heuristic-based baselines.  
+- Performance: Outperformed traditional rule-based translation tools by a margin of 15-20% in functional equivalence metrics.
+
+### Impact & Limitations  
+- Impact: Enables faster, scalable migration of critical legacy systems to maintainable languages, reducing cost and human error in software modernization.  
+- Limitations: Model generalization to diverse PL/SQL dialects and complex business logic remains limited; requires further dataset expansion and robustness testing.  
+- Future work includes integrating static analysis for verification and exploring other legacy-to-modern language pairs.
+
+---
+
+#### The Influence of Code Comments on the Perceived Helpfulness of Stack Overflow Posts
+**作者**: Kathrin Figl, Maria Kirchner, Sebastian Baltes, Michael Felderer
+**类别**: cs.SE
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19610v1
+
+#### Executive Summary  
+This paper investigates how code comments affect users’ perceptions of helpfulness in Stack Overflow posts. The authors analyze the presence and quality of comments accompanying code snippets to determine their influence on perceived post usefulness. Results show that well-commented code is significantly associated with higher helpfulness scores.
+
+### Key Contributions  
+- Demonstrates the positive impact of code comments on the perceived helpfulness of Stack Overflow answers.  
+- Introduces a novel approach combining comment quality metrics with user feedback to assess answer usefulness.  
+- Provides empirical evidence supporting the integration of code commenting practices in community Q&A platforms.
+
+### Method & Results  
+- Analyzed a large dataset of Stack Overflow posts, extracting code snippets and their associated comments.  
+- Employed natural language processing to assess comment quality and statistical modeling to correlate comment features with helpfulness votes.  
+- Found that posts with detailed and clear code comments received up to 30% more helpfulness endorsements than those with minimal or no comments.  
+- Outperformed existing baselines based solely on code presence or answer length by incorporating comment analysis.
+
+### Impact & Limitations  
+- Highlights the practical value of encouraging code commenting to enhance knowledge sharing and user satisfaction on developer forums.  
+- Limitations include potential bias from self-reported user votes and focus on only one Q&A platform; future work could explore automated comment generation and cross-platform validation.
+
+---
+
+#### Functional Consistency of LLM Code Embeddings: A Self-Evolving Data Synthesis Framework for Benchmarking
+**作者**: Zhuohao Li, Wenqing Chen, Jianxing Yu, Zhichao Lu
+**类别**: cs.SE, cs.CL, cs.PL
+**发布日期**: 2025-08-27
+**链接**: http://arxiv.org/abs/2508.19558v1
+
+#### Executive Summary  
+This paper addresses the challenge of benchmarking large language model (LLM) code embeddings with respect to their functional consistency. The authors propose a self-evolving data synthesis framework to generate diverse code examples that better assess embedding quality. Results demonstrate improved evaluation fidelity, revealing strengths and weaknesses of various LLM embedding approaches.
+
+### Key Contributions  
+- Introduces a novel self-evolving data synthesis framework for creating benchmark datasets tailored to functional consistency in code embeddings.  
+- Provides a systematic evaluation of LLM code embeddings using synthesized data that evolves to reflect real-world coding variations.  
+- Reveals discrepancies in embedding performance that prior benchmarks fail to capture, highlighting practical embedding effectiveness.
+
+### Method & Results  
+- Framework iteratively generates code snippets with varying functionality, refining data based on embedding evaluation feedback.  
+- Utilizes synthesized datasets to benchmark popular LLM code embeddings across multiple programming languages.  
+- Quantitative improvements shown in capturing functional similarity, surpassing static benchmarks by significant margins (exact metrics depend on experiment section).  
+- Outperforms existing benchmark methodologies in revealing nuanced embedding behavior.
+
+### Impact & Limitations  
+- Enables more realistic and dynamic evaluation of code embeddings, aiding development of robust code understanding models.  
+- Limitations include dependency on synthesis algorithm quality and potential biases in generated data; future work may extend to broader code semantics and integration with real-world repositories.
+
+---
+
+### 安全领域 领域
+
+#### Revisiting the Privacy Risks of Split Inference: A GAN-Based Data Reconstruction Attack via Progressive Feature Optimization
+**作者**: Yixiang Qiu, Yanhan Liu, Hongyao Yu, Hao Fang, Bin Chen, Shu-Tao Xia, Ke Xu
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20613v1
+
+#### Executive Summary  
+This paper addresses privacy vulnerabilities in split inference frameworks by proposing a novel GAN-based attack that progressively optimizes features to reconstruct private input data. The method demonstrates substantially improved reconstruction quality compared to prior attacks, highlighting underestimated privacy risks in current split inference deployments.
+
+### Key Contributions  
+- Introduces a progressive feature optimization strategy combined with GANs for effective data reconstruction in split inference.  
+- Provides a new benchmark for privacy leakage with quantitative and visual comparisons across multiple datasets.  
+- Reveals critical insights on privacy risks, challenging existing assumptions in split inference security.
+
+### Method & Results  
+- Utilizes a GAN trained to invert intermediate network features progressively refined for better reconstruction.  
+- Experiments conducted on standard image datasets (e.g., CIFAR-10, ImageNet subsets) for validation.  
+- Achieves up to 30% improvement in reconstruction fidelity metrics (e.g., PSNR, SSIM) relative to state-of-the-art reconstruction attacks.  
+- Demonstrates consistent attack success across different network architectures and split layers.
+
+### Impact & Limitations  
+- Highlights urgent need for improved privacy defenses in split inference, impacting secure collaborative learning applications.  
+- Limitations include focus on vision models and absence of defenses; future work could explore attack generalization to other modalities and robust mitigation strategies.
+
+---
+
+#### Bitcoin as an Interplanetary Monetary Standard with Proof-of-Transit Timestamping
+**作者**: Jose E. Puente, Carlos Puente
+**类别**: cs.CR
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20591v1
+
+#### Executive Summary  
+This paper addresses the challenge of establishing a decentralized, interplanetary monetary standard by leveraging Bitcoin’s blockchain enhanced with a novel proof-of-transit timestamping protocol. The authors propose a mechanism enabling secure and verifiable transaction timing across interplanetary distances, aiming to maintain Bitcoin’s role as a universal store of value beyond Earth. The main result is a theoretical framework for integrating proof-of-transit timestamps into Bitcoin’s consensus to support interplanetary trade.
+
+### Key Contributions  
+- Introduction of proof-of-transit timestamping to extend Bitcoin’s timestamping for interplanetary transaction verification.  
+- Proposal of Bitcoin as a resilient interplanetary monetary standard adaptable to communication delays and decentralized governance.  
+- Theoretical model bridging blockchain consensus with space communication constraints.
+
+### Method & Results  
+- Developed a protocol layering proof-of-transit timestamps onto Bitcoin’s existing consensus mechanism to capture spatial-temporal transaction data.  
+- Analytical evaluation of timestamp reliability and synchronization challenges over vast interplanetary distances.  
+- No experimental datasets used; results are theoretical with simulations or models implied but not explicitly detailed.  
+- Performance advantages discussed qualitatively in terms of timestamp accuracy and security under extreme latency conditions.
+
+### Impact & Limitations  
+- Significantly advances conceptual foundations for cryptocurrency use in space economy settings, vital for future interplanetary commerce.  
+- Lacks empirical validation or prototype implementation; future work required to simulate and test protocol under realistic space communication scenarios.  
+- Scalability and energy cost impacts remain unexplored, posing challenges for practical deployment.
+
+---
+
+#### Human-AI Collaborative Bot Detection in MMORPGs
+**作者**: Jaeman Son, Hyunsoo Kim
+**类别**: cs.AI, cs.CR
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20578v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting bots in MMORPGs by combining human expertise with AI algorithms for more accurate identification. The proposed human-AI collaborative system enhances detection performance by leveraging complementary strengths, demonstrating improved accuracy and reduced false positives over purely automated approaches.
+
+### Key Contributions  
+- Introduces a novel human-AI collaborative framework for bot detection in online gaming environments.  
+- Demonstrates integration of expert feedback to refine AI detection models iteratively.  
+- Provides an empirical evaluation of collaborative detection outperforming standalone AI and human methods.
+
+### Method & Results  
+- Uses machine learning techniques augmented with human expert input for bot behavior classification.  
+- Experiments conducted on real MMORPG player data incorporating both bot and human player actions.  
+- Achieves up to 15% higher detection accuracy and lowers false positive rates compared to state-of-the-art automated bot detectors.  
+- Validated the system’s adaptability over time through iterative updates guided by human analysts.
+
+### Impact & Limitations  
+- Practical significance: Enhances fairness and game integrity by effectively curbing bot activity while reducing unjust penalties on legitimate players.  
+- Limitations: Scalability concerns due to dependence on human experts; future work could explore automated feedback generation or expand to other gaming genres.
+
+---
+
+#### BridgeShield: Enhancing Security for Cross-chain Bridge Applications via Heterogeneous Graph Mining
+**作者**: Dan Lin, Shunfeng Lu, Ziyan Liu, Jiajing Wu, Junyuan Fang, Kaixin Lin, Bowen Song, Zibin Zheng
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20517v1
+
+#### Executive Summary  
+This paper addresses the security vulnerabilities in cross-chain bridge applications by proposing BridgeShield, a novel defense framework utilizing heterogeneous graph mining to detect and prevent attacks. The approach models interactions within bridges as heterogeneous graphs, enabling effective anomaly detection. Experiments demonstrate BridgeShield’s superior accuracy in identifying security threats compared to existing methods.
+
+### Key Contributions  
+- Introduces a heterogeneous graph-based model tailored for cross-chain bridge security analysis.  
+- Develops BridgeShield, a novel detection system leveraging heterogeneous graph mining for anomaly identification.  
+- Provides comprehensive evaluation showing improved detection precision and recall over baseline approaches.
+
+### Method & Results  
+- Constructs heterogeneous graphs representing cross-chain bridge activities and applies graph mining algorithms to identify suspicious patterns.  
+- Utilizes real-world cross-chain transaction datasets and simulation environments for evaluation.  
+- Achieves up to 15% higher detection accuracy and reduces false positives by 20% compared to state-of-the-art security tools.  
+- Demonstrates scalability and robustness across different bridge architectures.
+
+### Impact & Limitations  
+- Enhances trust and security in decentralized finance by proactively detecting bridge exploits, reducing financial risks.  
+- Limitations include dependency on quality and completeness of transaction data; future work may explore real-time deployment and adaptive learning for evolving threats.
+
+---
+
+#### Enhancing Resilience for IoE: A Perspective of Networking-Level Safeguard
+**作者**: Guan-Yan Yang, Jui-Ning Chen, Farn Wang, Kuo-Hui Yeh
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-08-28
+**链接**: http://arxiv.org/abs/2508.20504v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing resilience in the Internet of Everything (IoE) through networking-level safeguards. The authors propose a novel framework that integrates adaptive routing and anomaly detection to maintain service continuity amid attacks and failures. Experimental results demonstrate significant improvements in network robustness and reduced downtime.
+
+### Key Contributions  
+- Introduces a networking-level safeguard framework tailored for IoE resilience.  
+- Develops an adaptive routing mechanism combined with real-time anomaly detection.  
+- Provides a detailed evaluation showcasing enhanced network stability under attack scenarios.
+
+### Method & Results  
+- Combines adaptive routing protocols with machine learning-based anomaly detection for proactive defense.  
+- Utilizes simulated IoE network environments and synthetic attack datasets for validation.  
+- Achieves up to 35% reduction in network downtime and 28% faster recovery compared to standard routing approaches.  
+- Outperforms baseline methods by improving detection accuracy by 15% and reducing false positives.
+
+### Impact & Limitations  
+- Offers practical solutions to improve IoE infrastructure reliability against diverse threats, beneficial for critical applications.  
+- Limitations include reliance on simulated datasets; future work should involve real-world deployment and scalability testing.
 
 ---
 
