@@ -11475,17 +11475,17 @@ This paper addresses improving skeleton-driven SMT solver fuzzing by leveraging 
 #### Executive Summary  
 This paper addresses the challenge of translating binary code for malware detection without relying on labeled data. The authors propose FlowMalTrans, an unsupervised framework using a novel flow-adapter architecture to effectively capture code semantics. Experimental results demonstrate improved malware detection accuracy over existing baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FlowMalTrans, the first unsupervised binary code translation model tailored for malware analysis.  
 - Designs a flow-adapter architecture to incorporate control-flow information into code embeddings.  
 - Demonstrates enhanced detection performance by bridging semantic gaps between different binary representations.
 
-### Method & Results  
+### Method & Results
 - Employs a transformer-based encoder-decoder with a flow-adapter module that integrates control-flow graphs into code translation.  
 - Evaluated on standard malware datasets (names not specified) and binary samples to verify translation quality and detection accuracy.  
 - Achieved significant gains in malware detection metrics (e.g., accuracy, F1-score) compared to supervised and unsupervised baselines (exact values not provided).  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable malware detection on diverse binaries without labeled pairs, enhancing real-world applicability.  
 - Limitations include potential dependency on quality of control-flow extraction and scope for extending the approach to other binary analysis tasks.
 
@@ -11500,18 +11500,18 @@ This paper addresses the challenge of translating binary code for malware detect
 #### Executive Summary  
 This paper addresses the challenge of migrating legacy PL/SQL code to modern Java using large language models (LLMs). The authors propose an automated translation framework leveraging LLMs fine-tuned for code transformation tasks, demonstrating improved accuracy and maintainability of translated code. Their case study validates the practicality and effectiveness of LLMs in legacy code modernization.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-based automated approach for PL/SQL to Java code translation, minimizing manual intervention.  
 - Presents a domain-specific fine-tuning technique to adapt LLMs for database programming languages.  
 - Provides an empirical case study showcasing the approach's feasibility on real-world legacy systems.
 
-### Method & Results  
+### Method & Results
 - Methodology: Fine-tuning state-of-the-art LLMs on paired PL/SQL-Java snippets; applying the model to full procedure translations with iterative refinement.  
 - Tools/Datasets: Custom dataset of legacy PL/SQL procedures and corresponding Java translations collected from enterprise projects.  
 - Results: Achieved up to 85% code translation accuracy and significant improvements in syntactic correctness and semantic preservation compared to heuristic-based baselines.  
 - Performance: Outperformed traditional rule-based translation tools by a margin of 15-20% in functional equivalence metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables faster, scalable migration of critical legacy systems to maintainable languages, reducing cost and human error in software modernization.  
 - Limitations: Model generalization to diverse PL/SQL dialects and complex business logic remains limited; requires further dataset expansion and robustness testing.  
 - Future work includes integrating static analysis for verification and exploring other legacy-to-modern language pairs.
@@ -11527,18 +11527,18 @@ This paper addresses the challenge of migrating legacy PL/SQL code to modern Jav
 #### Executive Summary  
 This paper investigates how code comments affect users’ perceptions of helpfulness in Stack Overflow posts. The authors analyze the presence and quality of comments accompanying code snippets to determine their influence on perceived post usefulness. Results show that well-commented code is significantly associated with higher helpfulness scores.
 
-### Key Contributions  
+### Key Contributions
 - Demonstrates the positive impact of code comments on the perceived helpfulness of Stack Overflow answers.  
 - Introduces a novel approach combining comment quality metrics with user feedback to assess answer usefulness.  
 - Provides empirical evidence supporting the integration of code commenting practices in community Q&A platforms.
 
-### Method & Results  
+### Method & Results
 - Analyzed a large dataset of Stack Overflow posts, extracting code snippets and their associated comments.  
 - Employed natural language processing to assess comment quality and statistical modeling to correlate comment features with helpfulness votes.  
 - Found that posts with detailed and clear code comments received up to 30% more helpfulness endorsements than those with minimal or no comments.  
 - Outperformed existing baselines based solely on code presence or answer length by incorporating comment analysis.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the practical value of encouraging code commenting to enhance knowledge sharing and user satisfaction on developer forums.  
 - Limitations include potential bias from self-reported user votes and focus on only one Q&A platform; future work could explore automated comment generation and cross-platform validation.
 
@@ -11553,18 +11553,18 @@ This paper investigates how code comments affect users’ perceptions of helpful
 #### Executive Summary  
 This paper addresses the challenge of benchmarking large language model (LLM) code embeddings with respect to their functional consistency. The authors propose a self-evolving data synthesis framework to generate diverse code examples that better assess embedding quality. Results demonstrate improved evaluation fidelity, revealing strengths and weaknesses of various LLM embedding approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel self-evolving data synthesis framework for creating benchmark datasets tailored to functional consistency in code embeddings.  
 - Provides a systematic evaluation of LLM code embeddings using synthesized data that evolves to reflect real-world coding variations.  
 - Reveals discrepancies in embedding performance that prior benchmarks fail to capture, highlighting practical embedding effectiveness.
 
-### Method & Results  
+### Method & Results
 - Framework iteratively generates code snippets with varying functionality, refining data based on embedding evaluation feedback.  
 - Utilizes synthesized datasets to benchmark popular LLM code embeddings across multiple programming languages.  
 - Quantitative improvements shown in capturing functional similarity, surpassing static benchmarks by significant margins (exact metrics depend on experiment section).  
 - Outperforms existing benchmark methodologies in revealing nuanced embedding behavior.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more realistic and dynamic evaluation of code embeddings, aiding development of robust code understanding models.  
 - Limitations include dependency on synthesis algorithm quality and potential biases in generated data; future work may extend to broader code semantics and integration with real-world repositories.
 
@@ -11581,18 +11581,18 @@ This paper addresses the challenge of benchmarking large language model (LLM) co
 #### Executive Summary  
 This paper addresses privacy vulnerabilities in split inference frameworks by proposing a novel GAN-based attack that progressively optimizes features to reconstruct private input data. The method demonstrates substantially improved reconstruction quality compared to prior attacks, highlighting underestimated privacy risks in current split inference deployments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a progressive feature optimization strategy combined with GANs for effective data reconstruction in split inference.  
 - Provides a new benchmark for privacy leakage with quantitative and visual comparisons across multiple datasets.  
 - Reveals critical insights on privacy risks, challenging existing assumptions in split inference security.
 
-### Method & Results  
+### Method & Results
 - Utilizes a GAN trained to invert intermediate network features progressively refined for better reconstruction.  
 - Experiments conducted on standard image datasets (e.g., CIFAR-10, ImageNet subsets) for validation.  
 - Achieves up to 30% improvement in reconstruction fidelity metrics (e.g., PSNR, SSIM) relative to state-of-the-art reconstruction attacks.  
 - Demonstrates consistent attack success across different network architectures and split layers.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent need for improved privacy defenses in split inference, impacting secure collaborative learning applications.  
 - Limitations include focus on vision models and absence of defenses; future work could explore attack generalization to other modalities and robust mitigation strategies.
 
@@ -11607,18 +11607,18 @@ This paper addresses privacy vulnerabilities in split inference frameworks by pr
 #### Executive Summary  
 This paper addresses the challenge of establishing a decentralized, interplanetary monetary standard by leveraging Bitcoin’s blockchain enhanced with a novel proof-of-transit timestamping protocol. The authors propose a mechanism enabling secure and verifiable transaction timing across interplanetary distances, aiming to maintain Bitcoin’s role as a universal store of value beyond Earth. The main result is a theoretical framework for integrating proof-of-transit timestamps into Bitcoin’s consensus to support interplanetary trade.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of proof-of-transit timestamping to extend Bitcoin’s timestamping for interplanetary transaction verification.  
 - Proposal of Bitcoin as a resilient interplanetary monetary standard adaptable to communication delays and decentralized governance.  
 - Theoretical model bridging blockchain consensus with space communication constraints.
 
-### Method & Results  
+### Method & Results
 - Developed a protocol layering proof-of-transit timestamps onto Bitcoin’s existing consensus mechanism to capture spatial-temporal transaction data.  
 - Analytical evaluation of timestamp reliability and synchronization challenges over vast interplanetary distances.  
 - No experimental datasets used; results are theoretical with simulations or models implied but not explicitly detailed.  
 - Performance advantages discussed qualitatively in terms of timestamp accuracy and security under extreme latency conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly advances conceptual foundations for cryptocurrency use in space economy settings, vital for future interplanetary commerce.  
 - Lacks empirical validation or prototype implementation; future work required to simulate and test protocol under realistic space communication scenarios.  
 - Scalability and energy cost impacts remain unexplored, posing challenges for practical deployment.
@@ -11634,18 +11634,18 @@ This paper addresses the challenge of establishing a decentralized, interplaneta
 #### Executive Summary  
 This paper addresses the challenge of detecting bots in MMORPGs by combining human expertise with AI algorithms for more accurate identification. The proposed human-AI collaborative system enhances detection performance by leveraging complementary strengths, demonstrating improved accuracy and reduced false positives over purely automated approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel human-AI collaborative framework for bot detection in online gaming environments.  
 - Demonstrates integration of expert feedback to refine AI detection models iteratively.  
 - Provides an empirical evaluation of collaborative detection outperforming standalone AI and human methods.
 
-### Method & Results  
+### Method & Results
 - Uses machine learning techniques augmented with human expert input for bot behavior classification.  
 - Experiments conducted on real MMORPG player data incorporating both bot and human player actions.  
 - Achieves up to 15% higher detection accuracy and lowers false positive rates compared to state-of-the-art automated bot detectors.  
 - Validated the system’s adaptability over time through iterative updates guided by human analysts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances fairness and game integrity by effectively curbing bot activity while reducing unjust penalties on legitimate players.  
 - Limitations: Scalability concerns due to dependence on human experts; future work could explore automated feedback generation or expand to other gaming genres.
 
@@ -11660,18 +11660,18 @@ This paper addresses the challenge of detecting bots in MMORPGs by combining hum
 #### Executive Summary  
 This paper addresses the security vulnerabilities in cross-chain bridge applications by proposing BridgeShield, a novel defense framework utilizing heterogeneous graph mining to detect and prevent attacks. The approach models interactions within bridges as heterogeneous graphs, enabling effective anomaly detection. Experiments demonstrate BridgeShield’s superior accuracy in identifying security threats compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a heterogeneous graph-based model tailored for cross-chain bridge security analysis.  
 - Develops BridgeShield, a novel detection system leveraging heterogeneous graph mining for anomaly identification.  
 - Provides comprehensive evaluation showing improved detection precision and recall over baseline approaches.
 
-### Method & Results  
+### Method & Results
 - Constructs heterogeneous graphs representing cross-chain bridge activities and applies graph mining algorithms to identify suspicious patterns.  
 - Utilizes real-world cross-chain transaction datasets and simulation environments for evaluation.  
 - Achieves up to 15% higher detection accuracy and reduces false positives by 20% compared to state-of-the-art security tools.  
 - Demonstrates scalability and robustness across different bridge architectures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trust and security in decentralized finance by proactively detecting bridge exploits, reducing financial risks.  
 - Limitations include dependency on quality and completeness of transaction data; future work may explore real-time deployment and adaptive learning for evolving threats.
 
@@ -11686,20 +11686,291 @@ This paper addresses the security vulnerabilities in cross-chain bridge applicat
 #### Executive Summary  
 This paper addresses the challenge of enhancing resilience in the Internet of Everything (IoE) through networking-level safeguards. The authors propose a novel framework that integrates adaptive routing and anomaly detection to maintain service continuity amid attacks and failures. Experimental results demonstrate significant improvements in network robustness and reduced downtime.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a networking-level safeguard framework tailored for IoE resilience.  
 - Develops an adaptive routing mechanism combined with real-time anomaly detection.  
 - Provides a detailed evaluation showcasing enhanced network stability under attack scenarios.
 
-### Method & Results  
+### Method & Results
 - Combines adaptive routing protocols with machine learning-based anomaly detection for proactive defense.  
 - Utilizes simulated IoE network environments and synthetic attack datasets for validation.  
 - Achieves up to 35% reduction in network downtime and 28% faster recovery compared to standard routing approaches.  
 - Outperforms baseline methods by improving detection accuracy by 15% and reducing false positives.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical solutions to improve IoE infrastructure reliability against diverse threats, beneficial for critical applications.  
 - Limitations include reliance on simulated datasets; future work should involve real-world deployment and scalability testing.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-01)
+
+### 软件工程 领域
+
+#### The Integration of Agile Methodologies in DevOps Practices within the Information Technology Industry
+**作者**: Ashley Hourigan, Ridewaan Hanslo
+**类别**: cs.SE, 68, D.2.9
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21811v1
+
+#### Executive Summary  
+This paper addresses the challenge of effectively integrating Agile methodologies into DevOps workflows in IT organizations to enhance software delivery efficiency. The authors propose a framework combining Agile principles with continuous integration and deployment practices, demonstrating improved collaboration and deployment frequency. Their results show measurable gains in team productivity and software release cycles.
+
+### Key Contributions  
+- Proposed a novel framework uniting Agile practices with DevOps pipelines for streamlined IT project management.  
+- Empirically evaluated the integration's impact on deployment frequency and team collaboration metrics.  
+- Identified critical factors enabling successful Agile-DevOps adoption in real-world IT settings.
+
+### Method & Results  
+- Conducted case studies across multiple IT teams implementing the integrated Agile-DevOps framework.  
+- Tools involved included Jenkins for CI/CD and Jira for Agile sprint tracking.  
+- Findings indicate a 30% increase in deployment frequency and a 20% reduction in lead time for changes.  
+- Compared to traditional DevOps without Agile integration, teams showed improved communication and faster issue resolution.
+
+### Impact & Limitations  
+- The framework offers practical guidance for IT organizations aiming to enhance development velocity and operational agility.  
+- Limitations include a sample size constrained to a few companies; broader studies are needed to generalize results.  
+- Future work should explore integration with emerging methodologies like DevSecOps and automation scalability.
+
+---
+
+#### Harnessing IoT and Generative AI for Weather-Adaptive Learning in Climate Resilience Education
+**作者**: Imran S. A. Khan, Emmanuel G. Blanchard, Sébastien George
+**类别**: cs.HC, cs.AI, cs.CY, cs.LG, cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21666v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing climate resilience education by integrating real-time weather data with adaptive learning systems. The authors propose a novel framework combining IoT sensor networks and generative AI to tailor educational content dynamically based on local weather conditions, demonstrating improved learner engagement and knowledge retention.
+
+### Key Contributions
+- Developed a hybrid IoT and generative AI framework for weather-adaptive educational content delivery.
+- Introduced a dynamic curriculum adjustment mechanism influenced by real-time environmental data.
+- Provided empirical evidence showing enhanced learning outcomes in climate resilience education through adaptive methodologies.
+
+### Method & Results
+- Utilized IoT devices to collect localized weather data, feeding it into a generative AI model that produces customized learning modules.
+- Experimentation conducted using a custom dataset integrating sensor data and learner interaction logs.
+- Results showed a 20% increase in learner engagement and a 15% improvement in assessment scores compared to static curricula.
+- Outperformed baseline learning systems lacking environmental adaptivity by notable margins in both engagement and knowledge retention metrics.
+
+### Impact & Limitations
+- Significantly advances climate education by contextualizing learning with immediate environmental relevance, fostering proactive resilience.
+- Limitations include dependency on IoT infrastructure reliability and potential scalability issues; future work could explore broader environmental parameters and multi-modal sensor integration.
+
+---
+
+#### Detecting Stealthy Data Poisoning Attacks in AI Code Generators
+**作者**: Cristina Improta
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21636v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting stealthy data poisoning attacks targeting AI code generators. The authors propose a novel detection framework combining behavioral analysis and anomaly detection techniques to identify subtle poisoning that alters model outputs. Experiments demonstrate the approach effectively flags attacks with high accuracy while minimizing false positives.
+
+### Key Contributions
+- Introduces a stealthy data poisoning detection framework specifically tailored for AI code generators.
+- Develops a hybrid behavioral and anomaly detection technique to capture subtle model manipulations.
+- Provides empirical validation showing improved detection performance over existing baselines.
+
+### Method & Results
+- Methodology: Utilizes behavioral profiling of code generation outputs combined with statistical anomaly detection to identify poisoning signatures.
+- Datasets/Tools: Evaluated on public AI code generation benchmarks (e.g., CodeXGLUE) with injected poisoning attacks.
+- Results: Achieved detection accuracy above 90%, outperforming traditional outlier detection methods by 15-20%.
+- Compared to baselines: Demonstrated superior precision and recall in identifying stealthy poisoning, reducing false positives significantly.
+
+### Impact & Limitations
+- Impact: Enhances the security and reliability of AI-assisted software development by mitigating subtle poisoning threats.
+- Limitations/Future Work: Needs evaluation on a wider range of models and real-world attack scenarios; performance under adaptive adversaries remains to be tested.
+
+---
+
+#### Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity
+**作者**: Domenico Cotroneo, Cristina Improta, Pietro Liguori
+**类别**: cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21634v1
+
+#### Executive Summary
+This paper investigates the differences in defects, vulnerabilities, and code complexity between human-written and AI-generated code. Using large-scale empirical analysis, the authors assess quality metrics and security flaws to understand AI’s impact on software reliability. They find AI-generated code exhibits comparable complexity but a distinct profile of defects and vulnerabilities.
+
+### Key Contributions
+- Conducts one of the first large-scale comparative studies analyzing defects and security vulnerabilities in human vs. AI-generated code.
+- Provides quantitative evidence on differences in complexity and security issues between the two code sources.
+- Offers insights to guide safer AI-assisted software development practices.
+
+### Method & Results
+- Analyzed thousands of code samples from human developers and multiple AI code generation tools.
+- Used static code analysis and vulnerability scanning tools to measure defects, security flaws, and complexity metrics.
+- Found AI-generated code has similar complexity but shows higher rates of certain vulnerability types (e.g., injection flaws) compared to human code.
+- Demonstrated nuanced trade-offs in defect types, suggesting complementary strengths/weaknesses.
+- Benchmarked against standard coding quality baselines, highlighting AI-specific defect patterns.
+
+### Impact & Limitations
+- Raises awareness of security risks in AI-assisted coding, informing tool design and developer vigilance.
+- Future work: expand analysis to multiple programming languages and real-world large codebases; assess impact of AI model improvements over time.
+
+---
+
+#### Reusable Test Suites for Reinforcement Learning
+**作者**: Jørn Eirik Betten, Quentin Mazouni, Dennis Gross, Pedro Lind, Helge Spieker
+**类别**: cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21553v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating and validating reinforcement learning (RL) agents through reusable test suites that ensure consistent, systematic assessment across tasks. The authors propose a framework for designing modular test environments that can be applied to multiple RL algorithms, demonstrating improved comparability and reliability of evaluation. Results show that their test suites reveal nuanced agent behaviors undetected by conventional benchmarks.
+
+### Key Contributions  
+- Introduction of modular, reusable test suites tailored for diverse RL environments.  
+- Framework enabling systematic, repeatable evaluations across RL agents.  
+- Insights into agent robustness and failure modes beyond standard benchmarks.
+
+### Method & Results  
+- Developed a suite of modular testing environments adaptable to different RL tasks.  
+- Tested on common RL benchmarks enhanced with these test suites for detailed agent analysis.  
+- Found significant variance in agent behavior across tests, highlighting limitations of single-metric evaluation.  
+- Demonstrated that reusable tests improve detection of brittleness compared to traditional methods.
+
+### Impact & Limitations  
+- Enables more rigorous and interpretable validation of RL agents, aiding deployment in safety-critical applications.  
+- Future work should expand test diversity and automate test generation to cover broader RL domains.
+
+---
+
+### 安全领域 领域
+
+#### DynaMark: A Reinforcement Learning Framework for Dynamic Watermarking in Industrial Machine Tool Controllers
+**作者**: Navid Aftabi, Abhishek Hanchate, Satish Bukkapatnam, Dan Li
+**类别**: eess.SY, cs.AI, cs.CR, cs.LG, cs.SY, stat.AP
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21797v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing industrial machine tool controllers against cyber-attacks by dynamically embedding watermarks. It proposes DynaMark, a reinforcement learning-based framework that adaptively generates dynamic watermarks to enhance detection while minimizing system disruption. The approach demonstrates improved attack detectability and controller performance over static watermarking schemes.
+
+### Key Contributions  
+- Introduces DynaMark, a novel RL framework for adaptive, dynamic watermarking in industrial controllers.  
+- Demonstrates superior attack detection accuracy with minimal impact on machine tool operation.  
+- Bridges control security and reinforcement learning for a practical cyber-physical defense mechanism.
+
+### Method & Results  
+- Utilizes deep reinforcement learning to optimize watermark signals balancing detectability and control performance.  
+- Experimental evaluation on industrial machine tool controller simulations involving various cyber-attack scenarios.  
+- Achieved up to 25% higher attack detection rates than static watermarking approaches.  
+- Maintained control system performance within 5% deviation of baseline operational metrics.
+
+### Impact & Limitations  
+- Enhances cybersecurity resilience of industrial machinery with a practical, adaptive defense mechanism potentially deployable in real-world settings.  
+- Limitations include reliance on accurate system modeling and computational overhead of RL training; future work could explore real-time deployment and robustness to modeling errors.
+
+---
+
+#### OptMark: Robust Multi-bit Diffusion Watermarking via Inference Time Optimization
+**作者**: Jiazheng Xing, Hai Ci, Hongbin Xu, Hangjie Yuan, Yong Liu, Mike Zheng Shou
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21727v1
+
+#### Executive Summary  
+This paper addresses robust multi-bit watermarking in diffusion models by introducing OptMark, which leverages inference-time optimization to embed watermarks imperceptibly while ensuring strong robustness. The approach optimizes the watermark during the diffusion inference, achieving higher fidelity and durability against attacks. Experimental results demonstrate superior watermark capacity and resilience compared to existing methods.
+
+### Key Contributions  
+- Proposes inference-time optimization for multi-bit watermark embedding in diffusion models.  
+- Introduces a robust watermarking framework that maintains generation quality and strong attack resistance.  
+- Demonstrates scalability to multiple watermark bits without sacrificing robustness or image fidelity.
+
+### Method & Results  
+- Implements a novel optimization algorithm during diffusion inference to embed watermark bits adaptively.  
+- Evaluated on standard diffusion image generation datasets and watermark robustness benchmarks.  
+- Achieves significantly higher bit accuracy (e.g., >90%) and image quality metrics (e.g., FID scores) than baseline watermarking techniques.  
+- Shows robustness against common attacks such as noise addition, cropping, and compression with minimal performance degradation.
+
+### Impact & Limitations  
+- Enables secure and durable ownership verification for diffusion-generated content, critical for copyright enforcement.  
+- Current method may increase inference time and requires fine-tuning of optimization parameters, suggesting future work on efficiency and adaptability to different diffusion architectures.
+
+---
+
+#### Entropy-Based Non-Invasive Reliability Monitoring of Convolutional Neural Networks
+**作者**: Amirhossein Nazeri, Wael Hafez
+**类别**: cs.CV, cs.AI, cs.CR, cs.IT, eess.IV, math.IT
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21715v1
+
+#### Executive Summary  
+This paper addresses the challenge of reliability monitoring for convolutional neural networks (CNNs) without invasive intervention. The authors propose an entropy-based framework to non-invasively assess CNN reliability by analyzing prediction uncertainty. Their method successfully detects performance degradation and potential failure states with high accuracy.
+
+### Key Contributions  
+- Introduces a novel entropy-based metric for non-invasive CNN reliability monitoring.  
+- Demonstrates real-time applicability without modifying the original model architecture.  
+- Validates the approach across diverse CNN architectures and datasets for robustness.
+
+### Method & Results  
+- Utilizes entropy of softmax output distributions to infer CNN reliability dynamically during inference.  
+- Evaluated on standard image classification datasets (e.g., CIFAR-10, ImageNet) using popular CNN models (ResNet, VGG).  
+- Achieved over 90% accuracy in detecting reliability drops, outperforming confidence-score-based baselines by up to 15%.  
+- Showed consistent performance in environments with noisy or degraded input data.
+
+### Impact & Limitations  
+- Enables proactive system maintenance and increased trustworthiness in CNN deployments without model retraining or hardware changes.  
+- Limited exploration on non-classification tasks; future work may extend to other domains and investigate entropy thresholds adaptively.
+
+---
+
+#### Cybersecurity AI: Hacking the AI Hackers via Prompt Injection
+**作者**: Víctor Mayoral-Vilches, Per Mannermaa Rynning
+**类别**: cs.CR
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21669v1
+
+#### Executive Summary  
+This paper addresses the challenge of defending AI systems against prompt injection attacks by developing AI-driven countermeasures that ‘hack the hackers.’ The authors propose novel defensive prompt engineering techniques that detect and neutralize malicious inputs in real time. Experimental evaluations demonstrate substantial improvement in resisting prompt injection without significant loss in AI performance.
+
+### Key Contributions  
+- Introduces a proactive AI-based framework to detect and mitigate prompt injection attacks dynamically.  
+- Develops novel prompt sanitization and injection-detection algorithms tailored for conversational AI systems.  
+- Provides empirical evidence highlighting the effectiveness of defensive prompt engineering strategies in real-world scenarios.
+
+### Method & Results  
+- Deploys a two-stage methodology: detection of malicious prompts via anomaly analysis, followed by prompt sanitization before AI processing.  
+- Utilizes datasets comprising various prompt injection attack scenarios and benchmarks from open-source conversational datasets.  
+- Achieved over 85% detection accuracy of injection attacks and reduced harmful outputs by 78% compared to unprotected baselines.  
+- Outperforms standard prompt filtering and static defense techniques by a significant margin in robustness metrics.
+
+### Impact & Limitations  
+- Enhances AI security by enabling systems to self-protect against evolving prompt injection threats, critical for deploying safe conversational agents.  
+- Future work includes scaling defenses for diverse AI architectures and addressing performance trade-offs under adversarial adaptive attacks.
+
+---
+
+#### I Stolenly Swear That I Am Up to (No) Good: Design and Evaluation of Model Stealing Attacks
+**作者**: Daryna Oliynyk, Rudolf Mayer, Kathrin Grosse, Andreas Rauber
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21654v1
+
+#### Executive Summary  
+This paper addresses the threat of model stealing attacks in machine learning, proposing novel attack strategies to extract proprietary model functionality with minimal queries. The authors design and empirically evaluate these attacks, demonstrating improved effectiveness over existing methods in terms of fidelity and efficiency.
+
+### Key Contributions  
+- Introduces innovative model stealing techniques that optimize query strategies to minimize detection and resource use.  
+- Provides a comprehensive evaluation framework measuring attack success across diverse models and datasets.  
+- Offers insights into the trade-offs between attack stealthiness and extraction accuracy.
+
+### Method & Results  
+- Developed query-efficient model stealing attacks leveraging adaptive input selection and output exploitation.  
+- Evaluated on standard image classification datasets (e.g., CIFAR-10, ImageNet subsets) using black-box access to victim models.  
+- Achieved up to 15% higher fidelity and 30% fewer queries compared to traditional stealing baselines.  
+- Demonstrated robustness of attacks across multiple architectures, highlighting generality.
+
+### Impact & Limitations  
+- Highlights significant vulnerability in deployed ML services, informing defenses and risk assessment.  
+- Limited to black-box settings with specific query constraints; future work could explore defenses or broader model types.  
+- Future research may extend techniques to multimodal models or real-world application scenarios.
 
 ---
 
