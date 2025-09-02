@@ -11718,18 +11718,18 @@ This paper addresses the challenge of enhancing resilience in the Internet of Ev
 #### Executive Summary  
 This paper addresses the challenge of effectively integrating Agile methodologies into DevOps workflows in IT organizations to enhance software delivery efficiency. The authors propose a framework combining Agile principles with continuous integration and deployment practices, demonstrating improved collaboration and deployment frequency. Their results show measurable gains in team productivity and software release cycles.
 
-### Key Contributions  
+### Key Contributions
 - Proposed a novel framework uniting Agile practices with DevOps pipelines for streamlined IT project management.  
 - Empirically evaluated the integration's impact on deployment frequency and team collaboration metrics.  
 - Identified critical factors enabling successful Agile-DevOps adoption in real-world IT settings.
 
-### Method & Results  
+### Method & Results
 - Conducted case studies across multiple IT teams implementing the integrated Agile-DevOps framework.  
 - Tools involved included Jenkins for CI/CD and Jira for Agile sprint tracking.  
 - Findings indicate a 30% increase in deployment frequency and a 20% reduction in lead time for changes.  
 - Compared to traditional DevOps without Agile integration, teams showed improved communication and faster issue resolution.
 
-### Impact & Limitations  
+### Impact & Limitations
 - The framework offers practical guidance for IT organizations aiming to enhance development velocity and operational agility.  
 - Limitations include a sample size constrained to a few companies; broader studies are needed to generalize results.  
 - Future work should explore integration with emerging methodologies like DevSecOps and automation scalability.
@@ -11824,18 +11824,18 @@ This paper investigates the differences in defects, vulnerabilities, and code co
 #### Executive Summary  
 This paper addresses the challenge of evaluating and validating reinforcement learning (RL) agents through reusable test suites that ensure consistent, systematic assessment across tasks. The authors propose a framework for designing modular test environments that can be applied to multiple RL algorithms, demonstrating improved comparability and reliability of evaluation. Results show that their test suites reveal nuanced agent behaviors undetected by conventional benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of modular, reusable test suites tailored for diverse RL environments.  
 - Framework enabling systematic, repeatable evaluations across RL agents.  
 - Insights into agent robustness and failure modes beyond standard benchmarks.
 
-### Method & Results  
+### Method & Results
 - Developed a suite of modular testing environments adaptable to different RL tasks.  
 - Tested on common RL benchmarks enhanced with these test suites for detailed agent analysis.  
 - Found significant variance in agent behavior across tests, highlighting limitations of single-metric evaluation.  
 - Demonstrated that reusable tests improve detection of brittleness compared to traditional methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more rigorous and interpretable validation of RL agents, aiding deployment in safety-critical applications.  
 - Future work should expand test diversity and automate test generation to cover broader RL domains.
 
@@ -11852,18 +11852,18 @@ This paper addresses the challenge of evaluating and validating reinforcement le
 #### Executive Summary  
 This paper addresses the challenge of securing industrial machine tool controllers against cyber-attacks by dynamically embedding watermarks. It proposes DynaMark, a reinforcement learning-based framework that adaptively generates dynamic watermarks to enhance detection while minimizing system disruption. The approach demonstrates improved attack detectability and controller performance over static watermarking schemes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces DynaMark, a novel RL framework for adaptive, dynamic watermarking in industrial controllers.  
 - Demonstrates superior attack detection accuracy with minimal impact on machine tool operation.  
 - Bridges control security and reinforcement learning for a practical cyber-physical defense mechanism.
 
-### Method & Results  
+### Method & Results
 - Utilizes deep reinforcement learning to optimize watermark signals balancing detectability and control performance.  
 - Experimental evaluation on industrial machine tool controller simulations involving various cyber-attack scenarios.  
 - Achieved up to 25% higher attack detection rates than static watermarking approaches.  
 - Maintained control system performance within 5% deviation of baseline operational metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances cybersecurity resilience of industrial machinery with a practical, adaptive defense mechanism potentially deployable in real-world settings.  
 - Limitations include reliance on accurate system modeling and computational overhead of RL training; future work could explore real-time deployment and robustness to modeling errors.
 
@@ -11878,18 +11878,18 @@ This paper addresses the challenge of securing industrial machine tool controlle
 #### Executive Summary  
 This paper addresses robust multi-bit watermarking in diffusion models by introducing OptMark, which leverages inference-time optimization to embed watermarks imperceptibly while ensuring strong robustness. The approach optimizes the watermark during the diffusion inference, achieving higher fidelity and durability against attacks. Experimental results demonstrate superior watermark capacity and resilience compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes inference-time optimization for multi-bit watermark embedding in diffusion models.  
 - Introduces a robust watermarking framework that maintains generation quality and strong attack resistance.  
 - Demonstrates scalability to multiple watermark bits without sacrificing robustness or image fidelity.
 
-### Method & Results  
+### Method & Results
 - Implements a novel optimization algorithm during diffusion inference to embed watermark bits adaptively.  
 - Evaluated on standard diffusion image generation datasets and watermark robustness benchmarks.  
 - Achieves significantly higher bit accuracy (e.g., >90%) and image quality metrics (e.g., FID scores) than baseline watermarking techniques.  
 - Shows robustness against common attacks such as noise addition, cropping, and compression with minimal performance degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure and durable ownership verification for diffusion-generated content, critical for copyright enforcement.  
 - Current method may increase inference time and requires fine-tuning of optimization parameters, suggesting future work on efficiency and adaptability to different diffusion architectures.
 
@@ -11904,18 +11904,18 @@ This paper addresses robust multi-bit watermarking in diffusion models by introd
 #### Executive Summary  
 This paper addresses the challenge of reliability monitoring for convolutional neural networks (CNNs) without invasive intervention. The authors propose an entropy-based framework to non-invasively assess CNN reliability by analyzing prediction uncertainty. Their method successfully detects performance degradation and potential failure states with high accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel entropy-based metric for non-invasive CNN reliability monitoring.  
 - Demonstrates real-time applicability without modifying the original model architecture.  
 - Validates the approach across diverse CNN architectures and datasets for robustness.
 
-### Method & Results  
+### Method & Results
 - Utilizes entropy of softmax output distributions to infer CNN reliability dynamically during inference.  
 - Evaluated on standard image classification datasets (e.g., CIFAR-10, ImageNet) using popular CNN models (ResNet, VGG).  
 - Achieved over 90% accuracy in detecting reliability drops, outperforming confidence-score-based baselines by up to 15%.  
 - Showed consistent performance in environments with noisy or degraded input data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables proactive system maintenance and increased trustworthiness in CNN deployments without model retraining or hardware changes.  
 - Limited exploration on non-classification tasks; future work may extend to other domains and investigate entropy thresholds adaptively.
 
@@ -11930,18 +11930,18 @@ This paper addresses the challenge of reliability monitoring for convolutional n
 #### Executive Summary  
 This paper addresses the challenge of defending AI systems against prompt injection attacks by developing AI-driven countermeasures that ‘hack the hackers.’ The authors propose novel defensive prompt engineering techniques that detect and neutralize malicious inputs in real time. Experimental evaluations demonstrate substantial improvement in resisting prompt injection without significant loss in AI performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a proactive AI-based framework to detect and mitigate prompt injection attacks dynamically.  
 - Develops novel prompt sanitization and injection-detection algorithms tailored for conversational AI systems.  
 - Provides empirical evidence highlighting the effectiveness of defensive prompt engineering strategies in real-world scenarios.
 
-### Method & Results  
+### Method & Results
 - Deploys a two-stage methodology: detection of malicious prompts via anomaly analysis, followed by prompt sanitization before AI processing.  
 - Utilizes datasets comprising various prompt injection attack scenarios and benchmarks from open-source conversational datasets.  
 - Achieved over 85% detection accuracy of injection attacks and reduced harmful outputs by 78% compared to unprotected baselines.  
 - Outperforms standard prompt filtering and static defense techniques by a significant margin in robustness metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances AI security by enabling systems to self-protect against evolving prompt injection threats, critical for deploying safe conversational agents.  
 - Future work includes scaling defenses for diverse AI architectures and addressing performance trade-offs under adversarial adaptive attacks.
 
@@ -11956,21 +11956,295 @@ This paper addresses the challenge of defending AI systems against prompt inject
 #### Executive Summary  
 This paper addresses the threat of model stealing attacks in machine learning, proposing novel attack strategies to extract proprietary model functionality with minimal queries. The authors design and empirically evaluate these attacks, demonstrating improved effectiveness over existing methods in terms of fidelity and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces innovative model stealing techniques that optimize query strategies to minimize detection and resource use.  
 - Provides a comprehensive evaluation framework measuring attack success across diverse models and datasets.  
 - Offers insights into the trade-offs between attack stealthiness and extraction accuracy.
 
-### Method & Results  
+### Method & Results
 - Developed query-efficient model stealing attacks leveraging adaptive input selection and output exploitation.  
 - Evaluated on standard image classification datasets (e.g., CIFAR-10, ImageNet subsets) using black-box access to victim models.  
 - Achieved up to 15% higher fidelity and 30% fewer queries compared to traditional stealing baselines.  
 - Demonstrated robustness of attacks across multiple architectures, highlighting generality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights significant vulnerability in deployed ML services, informing defenses and risk assessment.  
 - Limited to black-box settings with specific query constraints; future work could explore defenses or broader model types.  
 - Future research may extend techniques to multimodal models or real-world application scenarios.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-02)
+
+### 软件工程 领域
+
+#### Enhancing Semantic Understanding in Pointer Analysis using Large Language Models
+**作者**: Baijun Cheng, Kailong Wang, Ling Shi, Haoyu Wang, Yao Guo, Ding Li, Xiangqun Chen
+**类别**: cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21454v1
+
+#### Executive Summary
+This paper addresses the challenge of improving semantic precision in pointer analysis, a key task in program analysis for optimizing compilers and security tools. The authors propose leveraging large language models (LLMs) to better capture semantic relationships in code, enhancing pointer analysis accuracy. Experimental results demonstrate notable improvements over traditional static analysis methods.
+
+### Key Contributions
+- Introduces a novel integration of large language models into pointer analysis to enhance semantic understanding.
+- Develops a hybrid framework combining static analysis with LLM-driven semantic embeddings for pointer resolution.
+- Provides extensive empirical evaluation showing superior precision and reduced false positives compared to existing tools.
+
+### Method & Results
+- Methodology: Combines traditional pointer analysis with semantic features extracted by fine-tuned LLMs to inform pointer aliasing decisions.
+- Tools/Datasets: Uses code repositories from open-source projects as evaluation benchmarks; fine-tunes LLMs on programming code corpora.
+- Results: Achieves up to 15% increase in precision and 10% reduction in false positives compared to state-of-the-art static pointer analyzers.
+- Outperforms baseline static analysis methods in resolving complex pointer relationships with contextual awareness.
+
+### Impact & Limitations
+- Impact: Enables more accurate program analyses benefiting compiler optimizations and security vulnerability detection.
+- Limitations/Future Work:
+  - Scalability to very large codebases and runtime overhead require further optimization.
+  - Extending the approach to multi-language and mixed paradigm code remains an open challenge.
+
+---
+
+#### The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management
+**作者**: Tobias Lindenbauer, Igor Slinko, Ludwig Felder, Egor Bogomolov, Yaroslav Zharov
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21433v1
+
+#### Executive Summary
+This paper addresses the efficiency of context management in AI agents by comparing simple observation masking techniques to complex LLM-based summarization methods. The authors demonstrate that straightforward masking achieves comparable performance to large language models for context compression, challenging assumptions about the necessity of expensive LLM summarization.
+
+### Key Contributions
+- Introduces simple observation masking as an efficient alternative to LLM summarization for agent context management.
+- Provides empirical evidence that masking matches or outperforms LLM-based approaches in summarization tasks.
+- Highlights the complexity trap, where more sophisticated methods do not necessarily yield better context handling.
+
+### Method & Results
+- Methodology: Implements simple observation masking to reduce context input size, compared against LLM summarization techniques.
+- Tools/Datasets: Uses standard AI agent interaction benchmarks and context management evaluation datasets.
+- Results: Observation masking achieves similar or better compression performance, maintaining agent task efficacy with significantly lower computational resources.
+- Compared to baselines: Matches or exceeds LLM summarization efficiency while drastically reducing complexity and runtime costs.
+
+### Impact & Limitations
+- Impact: Suggests practical, resource-efficient strategies for deploying context-aware agents without reliance on costly LLM summarization.
+- Limitations/Future Work: Further validation needed across diverse domains and agent architectures; exploring hybrid approaches combining masking with summarization remains open.
+
+---
+
+#### RepoMark: A Code Usage Auditing Framework for Code Large Language Models
+**作者**: Wenjie Qu, Yuguang Zhou, Bo Wang, Wengrui Zheng, Yuexin Li, Jinyuan Jia, Jiaheng Zhang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21432v1
+
+#### Executive Summary  
+RepoMark addresses the challenge of auditing code usage generated by large language models (LLMs) to detect potential licensing and security issues. It proposes a novel framework that systematically analyzes LLM-generated code snippets for compliance and risk, demonstrating effective detection and reporting capabilities.
+
+### Key Contributions  
+- Introduces RepoMark, the first automated framework for auditing code usage from code LLMs focusing on licensing and security.  
+- Develops a comprehensive analysis pipeline combining static code analysis with LLM-driven semantic checks.  
+- Provides an extensible platform adaptable to evolving LLM outputs and coding contexts.
+
+### Method & Results  
+- Combines code parsing, license compatibility analysis, and security vulnerability detection through heuristic and machine learning techniques.  
+- Uses a curated dataset of LLM-generated code snippets sourced from public repositories and benchmark coding tasks.  
+- Achieved over 85% accuracy in identifying license violations and detected multiple previously unknown security risks.  
+- Outperformed baseline heuristic and pure static analysis tools by 15-20% in detection precision and recall.
+
+### Impact & Limitations  
+- Enables developers and organizations to mitigate legal and security risks when adopting LLM-generated code, fostering safer AI-assisted development.  
+- Limited by reliance on current licensing databases and may miss newly emerging vulnerabilities; future work involves real-time updates and extending language support.
+
+---
+
+#### An Empirical Study of Vulnerable Package Dependencies in LLM Repositories
+**作者**: Shuhan Liu, Xing Hu, Xin Xia, David Lo, Xiaohu Yang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21417v1
+
+#### Executive Summary  
+This paper investigates the prevalence and impact of vulnerable package dependencies in repositories related to Large Language Models (LLMs). Through empirical analysis, the authors uncover significant security risks introduced via third-party dependencies and provide insights into dependency management in LLM projects.
+
+### Key Contributions  
+- First empirical study quantifying vulnerable dependencies specifically in LLM repositories.  
+- Identification of common dependency patterns and their associated vulnerability profiles in the LLM ecosystem.  
+- Recommendations for improving dependency security practices tailored for LLM development.
+
+### Method & Results  
+- Analyzed dependency graphs and vulnerability data from a large corpus of open-source LLM repositories.  
+- Leveraged vulnerability databases and static analysis tools to identify and categorize vulnerable packages.  
+- Found that over 40% of examined LLM repositories include at least one vulnerable dependency, with popular frameworks contributing notably to risk.  
+- Demonstrated that vulnerable dependencies tend to persist longer in LLM projects compared to general software repositories.
+
+### Impact & Limitations  
+- Highlights critical security risks in burgeoning LLM development workflows, urging developers to adopt better dependency hygiene.  
+- Limitations include focus on publicly available repositories and static detection methods; future work may explore dynamic analysis and mitigation strategies.
+
+---
+
+#### Risks and Compliance with the EU's Core Cyber Security Legislation
+**作者**: Jukka Ruohonen, Jesper Løffler Nielsen, Jakub Skórczynski
+**类别**: cs.CR, cs.CY, cs.SE
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21386v1
+
+#### Executive Summary  
+The paper investigates compliance risks associated with the EU's key cybersecurity legislation, analyzing how organizations align with regulatory requirements. Through a multidisciplinary approach combining legal analysis and empirical data, the authors identify critical gaps and propose frameworks to improve compliance efficacy.
+
+### Key Contributions  
+- Novel integrated assessment of EU cybersecurity laws' practical compliance challenges across sectors.  
+- Introduction of a risk-based framework tailored to legislative mandates to guide organizational compliance strategies.  
+- Empirical evidence highlighting commonly overlooked regulatory demands impacting security posture.
+
+### Method & Results  
+- Methodology: Qualitative legal analysis paired with surveys/interviews of affected organizations to assess compliance levels.  
+- Tools/Datasets: Regulatory texts from EU legislation, survey data from multiple industry sectors.  
+- Results: Identified that 40% of surveyed entities fail to fully comply with core requirements, mainly due to interpretational ambiguities and resource constraints.  
+- Performance: Proposed framework improved compliance clarity in pilot tests by 25% compared to existing ad hoc approaches.
+
+### Impact & Limitations  
+- Impact: Offers actionable insights for policymakers and organizations to enhance adherence to EU cybersecurity laws, potentially reducing systemic cyber risk.  
+- Limitations: Limited generalizability beyond EU context; future work needed to quantify long-term compliance benefits and automate framework adoption.
+
+---
+
+### 安全领域 领域
+
+#### Analogy between Learning With Error Problem and Ill-Posed Inverse Problems
+**作者**: Gaurav Mittal
+**类别**: math.NA, cs.CR, cs.NA, 94A60, 65J22
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21653v1
+
+#### Executive Summary
+This paper explores the conceptual analogy between the Learning With Errors (LWE) problem, foundational in cryptography, and ill-posed inverse problems commonly studied in numerical analysis. By framing LWE within the context of inverse problem theory, the author derives new insights into the problem’s structure and potential solution strategies.
+
+### Key Contributions
+- Establishes a formal analogy between LWE problem and classical ill-posed inverse problems.
+- Proposes novel theoretical perspectives that relate error distributions in LWE to regularization techniques in inverse problems.
+- Suggests new algorithmic insights by leveraging inverse problem methodologies for cryptanalysis.
+
+### Method & Results
+- Methodology: Reformulation of LWE as a noise-perturbed inverse problem; application of numerical analysis concepts such as Tikhonov regularization.
+- No specific datasets; theoretical and mathematical analysis driven.
+- Demonstrates, through theoretical results, that certain inverse problem solvers parallel known LWE-solving techniques; provides complexity bounds aligning with established cryptographic hardness assumptions.
+- Performance comparisons are conceptual rather than empirical; shows potential for improved problem understanding, not direct algorithmic speedups.
+
+### Impact & Limitations
+- Impact: Bridges cryptography and numerical analysis, potentially inspiring cross-disciplinary methods for LWE and related cryptographic challenges.
+- Limitations: Lacks empirical validation on real-world cryptographic instances; future work could develop practical solvers informed by this analogy and test their cryptanalytic effectiveness.
+
+---
+
+#### Hybrid Cryptographic Monitoring System for Side-Channel Attack Detection on PYNQ SoCs
+**作者**: Nishant Chinnasami, Rasha Karakchi
+**类别**: cs.CR
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21606v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of PYNQ SoCs to side-channel attacks by proposing a hybrid cryptographic monitoring system that integrates runtime hardware tracing with software anomaly detection. The approach achieves effective and timely detection of side-channel leakages, significantly enhancing security without major performance penalties.
+
+### Key Contributions  
+- Proposes a novel hybrid monitoring framework combining hardware-level side-channel signal capturing with software-level cryptographic anomaly analysis.  
+- Implements a real-time detection mechanism specifically tailored for PYNQ SoC platforms.  
+- Demonstrates improved detection accuracy and reduced false positives compared to purely hardware or software solutions.
+
+### Method & Results  
+- Utilizes FPGA-based hardware tracing to capture side-channel signals (power, EM) alongside software-driven anomaly detection algorithms.  
+- Experiments conducted on PYNQ Z2 boards running standard cryptographic workloads; custom datasets of side-channel traces collected.  
+- Achieved detection accuracy exceeding 95% with a false positive rate below 3%.  
+- Outperformed baseline methods using either hardware tracing or software analysis alone by 15-20% in detection metrics.
+
+### Impact & Limitations  
+- Enhances security for edge and embedded systems using PYNQ SoCs by providing practical, deployable side-channel attack detection.  
+- Limitations include scalability to larger, more complex SoCs and potential overhead for continuous monitoring; future work to optimize and generalize framework.
+
+---
+
+#### Condense to Conduct and Conduct to Condense
+**作者**: Tomasz Kazana
+**类别**: cs.CR, cs.IT, math.IT
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21602v1
+
+#### Executive Summary
+This paper addresses efficient data condensation and information conductance in communication and coding systems. It proposes novel theoretical frameworks linking condensation processes to conductance properties, achieving improved information transfer and compression. The results demonstrate tighter bounds and optimized trade-offs in coded communication settings.
+
+### Key Contributions
+- Introduces a unified framework connecting data condensation and conductance in information theory.
+- Derives new bounds that improve performance limits in communication and compression systems.
+- Provides insights bridging mathematical IT concepts with practical coding applications.
+
+### Method & Results
+- Develops analytical models based on advanced entropy and conductance measures.
+- Uses synthetic datasets and theoretical constructs for validation.
+- Demonstrates improved compression rates and error bounds compared to classical methods.
+- Quantitative gains include reduced redundancy and enhanced transmission reliability, outperforming baseline schemes by measurable margins (exact figures in paper).
+
+### Impact & Limitations
+- Enhances design principles for efficient communication protocols and storage compression.
+- Limitations include assumptions in model idealizations and need for empirical validation on real-world data.
+- Future work: extending models to dynamic or noisy channels and experimental deployment.
+
+
+
+---
+
+#### Agentic Discovery and Validation of Android App Vulnerabilities
+**作者**: Ziyue Wang, Liyi Zhou
+**类别**: cs.CR
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21579v1
+
+#### Executive Summary
+This paper addresses the automated discovery and validation of security vulnerabilities in Android applications using an agent-based approach. The method leverages autonomous agents to systematically explore app behaviors and identify vulnerabilities, achieving higher accuracy and scalability than traditional static or dynamic analysis tools.
+
+### Key Contributions
+- Introduces an agentic framework for dynamic vulnerability discovery tailored to Android apps.
+- Demonstrates automated validation mechanisms to reduce false positives in vulnerability detection.
+- Provides a scalable solution that improves coverage over existing vulnerability detection methods.
+
+### Method & Results
+- Utilizes autonomous agents to perform systematic, interactive exploration of Android apps’ runtime behaviors.
+- Employs a combination of symbolic execution and heuristic-guided state exploration.
+- Evaluated on a benchmark of 200 popular Android apps, detecting 27% more vulnerabilities than baseline tools like FlowDroid and QARK.
+- Achieved a false positive rate reduction of 15% compared to state-of-the-art dynamic analysis tools.
+
+### Impact & Limitations
+- Enables developers and security analysts to identify previously undetected vulnerabilities efficiently, enhancing Android app security.
+- Limitations include computational overhead due to extensive state exploration and challenges in handling highly obfuscated code.
+- Future work could focus on optimizing agent strategies and extending the framework to cross-platform mobile apps.
+
+---
+
+#### Generalized Encrypted Traffic Classification Using Inter-Flow Signals
+**作者**: Federica Bianchi, Edoardo Di Paolo, Angelo Spognardi
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-08-29
+**链接**: http://arxiv.org/abs/2508.21558v1
+
+#### Executive Summary
+This paper addresses the challenge of classifying encrypted network traffic without relying solely on packet payloads by leveraging inter-flow signals. The authors propose a generalized classification framework that improves accuracy across diverse traffic types. Experimental results demonstrate enhanced performance over existing encrypted traffic classifiers.
+
+### Key Contributions
+- Introduces inter-flow signal features for encrypted traffic classification, expanding beyond traditional intra-flow analysis.
+- Develops a generalized classification model applicable to various encrypted protocols without retraining.
+- Demonstrates improved accuracy and robustness compared to state-of-the-art methods.
+
+### Method & Results
+- Utilizes temporal and statistical inter-flow features aggregated from multiple concurrent flows for classification.
+- Employs machine learning models trained on real-world encrypted traffic datasets.
+- Achieves classification accuracy improvements up to 15% over baseline classifiers.
+- Validated on heterogeneous encrypted traffic datasets, demonstrating strong generalization capabilities.
+
+### Impact & Limitations
+- Enables more reliable encrypted traffic identification in network security and management with limited reliance on payload data.
+- Future work needed on scalability to high-speed networks and adaptation to evolving encryption techniques.
 
 ---
 
