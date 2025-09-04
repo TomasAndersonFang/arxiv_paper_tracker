@@ -12263,18 +12263,18 @@ This paper addresses the challenge of classifying encrypted network traffic with
 #### Executive Summary  
 This paper addresses the challenge of improving directed fuzzing by synthesizing agentic predicates that guide input generation towards targeted program behaviors. The proposed Locus framework innovatively integrates agentic predicate synthesis into fuzzing workflows, resulting in more efficient path exploration. Experimental results demonstrate significant improvements in discovering bugs and code coverage compared to traditional fuzzers.
 
-### Key Contributions  
+### Key Contributions
 - Introduces agentic predicate synthesis as a novel mechanism to direct fuzzing towards specific program states.  
 - Develops Locus, a framework that dynamically synthesizes and applies predicates to enhance fuzzing efficiency.  
 - Demonstrates substantial empirical gains in bug detection and coverage on real-world binaries and benchmarks.
 
-### Method & Results  
+### Method & Results
 - Combines symbolic execution and constraint solving to synthesize predicates reflecting program state transitions relevant for fuzzing guidance.  
 - Employs standard benchmark suites and open-source software as testbeds.  
 - Achieves up to 35% increase in vulnerability detection rate and 20% improvement in path coverage over state-of-the-art directed fuzzers.  
 - Outperforms baseline fuzzers such as AFLGo and Angora in both effectiveness and runtime efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more targeted and automated vulnerability discovery, potentially reducing time and manual effort in security testing.  
 - Current synthesis may struggle with highly complex predicates or very large codebases, suggesting future work on scalability and integration with machine learning techniques.
 
@@ -12289,18 +12289,18 @@ This paper addresses the challenge of improving directed fuzzing by synthesizing
 #### Executive Summary  
 This paper tackles reproducibility challenges in high-performance computing (HPC) by integrating continuous integration (CI) workflows tailored for HPC environments. The authors develop and demonstrate a CI approach that automates testing and validation of HPC software, improving reproducibility and reducing manual overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces HPC-specific continuous integration pipelines addressing unique infrastructure and workflow constraints.  
 - Demonstrates automation of reproducibility verification across diverse HPC systems and software stacks.  
 - Provides an open-source framework facilitating reproducible HPC experiments using CI tools.
 
-### Method & Results  
+### Method & Results
 - Developed CI workflows incorporating containerization, environment standardization, and automated test execution on HPC clusters.  
 - Utilized real HPC applications and benchmarks from scientific domains to validate the approach.  
 - Achieved consistent reproducibility with automated regression detection; reduced manual testing time by an estimated 40%.  
 - Outperformed traditional manual validation workflows in speed and reliability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, automated reproducibility testing essential for advancing HPC research reliability and collaboration.  
 - Limited by dependency on available HPC CI infrastructure and potential overhead in complex, large-scale deployments; future work includes broader system compatibility and enhanced fault tolerance.
 
@@ -12342,18 +12342,18 @@ The paper addresses the challenge of automating bug triaging to efficiently assi
 #### Executive Summary  
 The paper addresses automatic generation of unit tests to improve software reliability. It introduces an adversarial reinforcement learning framework where a generator creates tests and a discriminator evaluates their fault-detection effectiveness. Results show improved coverage and bug detection over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes an adversarial RL framework specifically designed for generating effective unit tests.  
 - Introduces a discriminator model that guides the generator by assessing test quality based on fault detection.  
 - Demonstrates superior test generation performance compared to traditional heuristics and supervised learning approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes adversarial reinforcement learning: the generator produces unit test cases, and the discriminator evaluates and provides reward signals.  
 - Experiments conducted on standard software repositories and benchmark datasets such as Defects4J.  
 - Achieves up to 25% higher fault detection rate and 15% better code coverage than state-of-the-art test generation baselines.  
 - Shows robustness across multiple programming languages and project sizes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated software testing, potentially reducing manual effort and improving software quality assurance.  
 - Limitations include computational overhead from adversarial training and possible challenges scaling to very large complex systems.  
 - Future work may focus on integrating domain knowledge and optimizing training efficiency.
@@ -12369,18 +12369,18 @@ The paper addresses automatic generation of unit tests to improve software relia
 #### Executive Summary  
 This paper addresses the challenge of automating quantum code generation by combining Model-Driven Engineering (MDE) with Large Language Models (LLMs) enhanced via Retrieval-Augmented Generation (RAG). The authors present an approach that integrates domain-specific models with LLMs to generate optimized quantum code, demonstrating improved accuracy and relevance in output.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of MDE with LLMs leveraging RAG to enhance quantum code synthesis.  
 - A framework enabling context-aware retrieval to improve the quality and correctness of generated quantum programs.  
 - Empirical validation showcasing superior performance compared to standard LLM-based quantum code generation methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes domain-specific modeling artifacts to guide LLMs using retrieval-augmented prompts, aligning generated code with model semantics.  
 - Employs open quantum computing frameworks and benchmarks (e.g., Qiskit circuits) for validation.  
 - Achieved significant improvements in code correctness and completeness metrics, with error rates reduced by up to 25% versus baseline LLM-only generation.  
 - Demonstrated enhanced adaptability to diverse quantum programming tasks through retrieval-enhanced context.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a scalable approach for reliably generating quantum code, fostering faster development cycles in quantum software engineering.  
 - Limitations include dependency on quality and coverage of retrieval databases and potential challenges adapting to highly novel quantum algorithms.  
 - Future work involves expanding retrieval corpora and refining domain modeling to cover broader quantum computing paradigms.
@@ -12398,19 +12398,19 @@ This paper addresses the challenge of automating quantum code generation by comb
 #### Executive Summary  
 This paper addresses the challenge of secure and decentralized onboarding of IoT devices in smart homes. It proposes a consortium blockchain-based framework to enable trustless device registration and authentication without relying on centralized authorities. Results demonstrate improved security and scalability in onboarding heterogeneous IoT devices.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a decentralized onboarding protocol for smart home IoT leveraging consortium blockchain.  
 - Proposes a lightweight authentication mechanism tailored for resource-constrained devices.  
 - Demonstrates integration feasibility with existing smart home ecosystems via a blockchain consortium model.
 
-### Method & Results  
+### Method & Results
 - Developed a blockchain-based framework where multiple trusted entities form a consortium validating device onboarding requests.  
 - Implemented a smart contract to manage device registration, authentication, and audit trails.  
 - Utilized a simulated smart home IoT environment with heterogeneous devices for evaluation.  
 - Achieved enhanced onboarding security with reduced single points of failure; transaction latency remained within acceptable limits (<2 seconds).  
 - Outperformed traditional centralized onboarding approaches in terms of resilience to attacks and fault tolerance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more secure, scalable, and transparent IoT device onboarding for smart homes, reducing reliance on vulnerable centralized servers.  
 - Limited evaluation on large-scale real-world deployments; future work includes optimizing consensus mechanisms and extending to cross-domain IoT scenarios.
 
@@ -12425,18 +12425,18 @@ This paper addresses the challenge of secure and decentralized onboarding of IoT
 #### Executive Summary  
 This paper investigates phishing campaigns generated entirely by large language models (LLMs), analyzing their creation, textual characteristics, and detection challenges. The authors present an end-to-end study that explores how LLM-generated phishing texts differ from human-crafted ones and evaluates detection methods. Results reveal distinctive linguistic patterns in LLM-generated phishing and propose improved detection strategies.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive end-to-end analysis of LLM-generated phishing campaigns, a novel focus in cybersecurity research.  
 - Identification of unique linguistic and structural traits of LLM-generated phishing texts compared to human-generated phishing.  
 - Evaluation and enhancement of detection methods tailored to emerging threats from LLM-generated textual content.
 
-### Method & Results  
+### Method & Results
 - Employed automatic phishing text generation using state-of-the-art LLMs and analyzed content features via linguistic and semantic metrics.  
 - Utilized datasets combining known phishing emails and newly generated LLM phishing samples; detection models include traditional classifiers and neural networks.  
 - Demonstrated that LLM-generated phishing texts have higher linguistic complexity but also contain subtle detectable anomalies; detection accuracy improved by up to 15% using proposed methods over baseline detectors.  
 - Reporting improved detection particularly when combining linguistic features with model output patterns.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the emerging risks of sophisticated AI-generated phishing attacks, guiding future defensive strategies and tool development.  
 - Limited by focus on current-generation LLMs; future work could explore evolving model capabilities and real-world deployment scenarios.  
 - Detection methods require ongoing adaptation to rapidly advancing generation techniques.
@@ -12452,18 +12452,18 @@ This paper investigates phishing campaigns generated entirely by large language 
 #### Executive Summary  
 This paper addresses the deanonymization of blockchain users interacting with RPC (Remote Procedure Call) interfaces by exploiting timing information, even when transactions have zero fees. The authors propose a novel timing analysis technique to link RPC calls to user addresses, demonstrating successful deanonymization without relying on transaction fees. Experimental evaluation reveals high accuracy in deanonymization under realistic network conditions.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a timing-based deanonymization attack against blockchain RPC users with zero transaction fees.  
 - Design of a novel methodology exploiting timing side-channels to link user RPC requests to blockchain addresses.  
 - Empirical demonstration of attack effectiveness and robustness on real-world blockchain data.
 
-### Method & Results  
+### Method & Results
 - Developed a timing correlation algorithm to match RPC requests with blockchain transactions by analyzing timestamps and network delays.  
 - Utilized real blockchain RPC logs and network traffic data for evaluation.  
 - Achieved deanonymization accuracy above 85% in various scenarios, significantly outperforming prior fee-based heuristics.  
 - Demonstrated attack resilience to noise and network latency variations compared to baseline timing attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical privacy vulnerabilities in blockchain user RPC interactions, informing better RPC interface designs and countermeasures.  
 - Limitations include dependency on network timing observability and assumptions about user behavior; future work could explore defenses and applicability to other blockchain protocols.
 
@@ -12478,18 +12478,18 @@ This paper addresses the deanonymization of blockchain users interacting with RP
 #### Executive Summary  
 This paper addresses the challenge of securely fine-tuning large language models (LLMs) by enabling verifiable correctness of the tuning process without exposing sensitive data or model parameters. The authors propose zkLoRA, a framework leveraging zero-knowledge proofs (ZKPs) to guarantee the integrity of LoRA-based fine-tuning. Experimental results demonstrate zkLoRA’s ability to provide security assurances with minimal computational overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces zkLoRA, the first method to integrate zero-knowledge proofs for verifiable LoRA fine-tuning of LLMs.  
 - Develops an efficient ZKP protocol tailored for the sparse update structure of LoRA to minimize proof size and verification cost.  
 - Presents practical security guarantees while maintaining model performance and fine-tuning efficiency.
 
-### Method & Results  
+### Method & Results
 - Utilizes zero-knowledge proof systems to verify correctness of low-rank adaptation steps in LLM fine-tuning without revealing underlying data or parameters.  
 - Implements zkLoRA on standard benchmark datasets for language modeling (not explicitly named but typically including common NLP corpora).  
 - Achieves verification with less than 20% overhead in training time and small ZKP proof sizes (~kilobytes).  
 - Demonstrates comparable model accuracy to non-secure LoRA baselines, confirming negligible impact on model utility.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables trustworthy, privacy-preserving fine-tuning of large language models, facilitating secure collaboration and deployment in sensitive domains.  
 - Future work may extend zkLoRA to other adaptation techniques beyond LoRA and improve scalability for extremely large models.  
 - The current proof generation overhead, while low, may still pose challenges for resource-constrained environments.
@@ -12519,6 +12519,277 @@ This paper addresses the challenge of accurately tracing cyber attack provenance
 ### Impact & Limitations
 - Impact: Enables more scalable and precise threat investigations, potentially transforming incident response workflows.
 - Limitations/Future Work: Requires addressing model interpretability and handling adversarial provenance data; extending to broader threat landscapes remains future work.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-04)
+
+### 软件工程 领域
+
+#### The Impact of Critique on LLM-Based Model Generation from Natural Language: The Case of Activity Diagrams
+**作者**: Parham Khamsepour, Mark Cole, Ish Ashraf, Sandeep Puri, Mehrdad Sabetzadeh, Shiva Nejati
+**类别**: cs.SE
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03463v1
+
+#### Executive Summary
+This paper investigates how iterative critique improves the generation of activity diagrams from natural language descriptions using large language models (LLMs). The authors introduce a critique-driven refinement approach that substantially enhances the accuracy and structural quality of generated diagrams compared to single-step outputs.
+
+### Key Contributions
+- Proposes a novel critique-based iterative refinement framework for LLM-driven activity diagram generation.
+- Demonstrates improved semantic and structural alignment of generated diagrams with natural language input.
+- Provides empirical evidence quantifying the impact of critique on model output quality.
+
+### Method & Results
+- Utilizes an LLM to generate initial activity diagrams from text, followed by critique phases where errors are identified and corrected iteratively.
+- Evaluated on a curated dataset of natural language descriptions paired with corresponding activity diagrams.
+- Achieves a significant increase in diagram accuracy and correctness metrics, outperforming baseline single-pass LLM generation by up to 25%.
+- Employs quantitative measures like precision, recall, and structural similarity to validate improvements.
+
+### Impact & Limitations
+- Enhances the usability of LLMs for software engineering tasks requiring precise model artifacts, reducing manual correction efforts.
+- Limitations include dependency on the quality of critique prompts and potential scalability issues in highly complex diagrams.
+- Future work could explore automated critique generation and broader model types beyond activity diagrams.
+
+---
+
+#### VulnRepairEval: An Exploit-Based Evaluation Framework for Assessing Large Language Model Vulnerability Repair Capabilities
+**作者**: Weizhe Wang, Wei Ma, Qiang Hu, Yao Zhang, Jianfei Sun, Bin Wu, Yang Liu, Guangquan Xu, Lingxiao Jiang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03331v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating large language models (LLMs) on their capability to repair software vulnerabilities effectively. The authors propose VulnRepairEval, an exploit-based evaluation framework that tests vulnerability patches by attempting real exploit executions. Results demonstrate that VulnRepairEval provides a more practical and stringent assessment than solely syntactic or semantic metrics.
+
+### Key Contributions  
+- Introduces VulnRepairEval, the first exploit-driven evaluation framework for LLM vulnerability repair.  
+- Provides a benchmark that assesses patch correctness through actual exploit success/failure rather than just code similarity or static analysis.  
+- Highlights gaps in current LLM repair performance when subjected to exploit-based validation, guiding future improvements.
+
+### Method & Results  
+- Methodology: Automatically generate patches via LLMs, then validate by executing exploits in a controlled environment to confirm vulnerability fix.  
+- Dataset/Tools: Uses a curated set of vulnerable code snippets paired with known exploits; integrates continuous integration for exploit execution.  
+- Results: VulnRepairEval reveals a significant discrepancy between traditional metrics and exploit validation success rates, with up to 30% lower effective patch correctness.  
+- Compared to baselines using code similarity metrics, VulnRepairEval provides stricter and more realistic assessments.
+
+### Impact & Limitations  
+- Impact: Offers a practical benchmark encouraging development of more secure and reliable LLM-based vulnerability repair models.  
+- Limitations/Future Work: Current exploits cover a limited vulnerability range; expanding exploit diversity and automating exploit generation remain open challenges.
+
+---
+
+#### app.build: A Production Framework for Scaling Agentic Prompt-to-App Generation with Environment Scaffolding
+**作者**: Evgenii Kniazev, Arseny Kravchenko, Igor Rekun, James Broadhead, Nikita Shamgunov, Pranav Sah, Pratik Nichite, Ivan Yamshchikov
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03310v1
+
+#### Executive Summary  
+This paper addresses scaling the generation of functional applications from natural language prompts using agentic AI underpinned by environment scaffolding. The authors introduce app.build, a production-ready framework that orchestrates modular agentic components to iteratively transform prompts into deployable apps. Results demonstrate effective scaling and quality improvements in automated app creation.
+
+### Key Contributions  
+- Development of app.build, the first production framework enabling scalable, modular prompt-to-app generation with environment scaffolding.  
+- Introduction of agentic workflows that decompose app generation into interpretable, environment-driven steps.  
+- Empirical validation showing improved app generation efficiency and quality compared to prior end-to-end prompt-based approaches.  
+
+### Method & Results  
+- Leverage modular agentic components coordinating through environment scaffolding to manage complexity in prompt-to-app pipelines.  
+- Utilize datasets of user prompts and app specifications; build custom tooling for environment state management and feedback loops.  
+- Demonstrate improved success rates and reduced iteration times for complex app generation tasks versus baseline prompt-only models (quantitative metrics reported but specifics not detailed here).  
+
+### Impact & Limitations  
+- Enables practical, scalable automated app development, potentially accelerating software engineering workflows and lowering entry barriers.  
+- Limitations include dependency on well-structured environment scaffolds; future work may explore generalization to diverse programming domains and robustness to ambiguous prompts.
+
+---
+
+#### An experience-based classification of quantum bugs in quantum software
+**作者**: Nils Quetschlich, Olivia Di Matteo
+**类别**: quant-ph, cs.SE
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03280v1
+
+#### Executive Summary
+This paper addresses the challenge of identifying and categorizing defects ("bugs") in quantum software, a crucial step for improving quantum program reliability. The authors propose an experience-based classification system derived from analyzing real-world quantum programming errors. Their taxonomy provides insights for developers and tool builders to better detect and mitigate quantum bugs.
+
+### Key Contributions
+- Introduces the first comprehensive, experience-based classification of quantum software bugs grounded in real developer experiences.
+- Highlights unique characteristics of quantum-specific bugs versus classical software defects.
+- Provides a foundation for future debugging tools tailored to quantum computing environments.
+
+### Method & Results
+- Analyzed bug reports and developer logs from quantum programming frameworks and projects.
+- Categorized bugs based on origin, symptoms, and potential fixes into a structured taxonomy.
+- Results show distinct bug categories linked to quantum gates, measurement errors, and hardware limitations.
+- Demonstrates that existing classical debugging paradigms are insufficient, motivating quantum-specific tools.
+
+### Impact & Limitations
+- Supports improved debugging practices and development of targeted quantum software testing tools.
+- Limited by dataset size and diversity; future work needed to validate taxonomy across broader quantum platforms and languages.
+- Suggests integration of classification with automated debugging frameworks as a next step.
+
+---
+
+#### AI Safety Assurance in Electric Vehicles: A Case Study on AI-Driven SOC Estimation
+**作者**: Martin Skoglund, Fredrik Warg, Aria Mirzai, Anders Thorsen, Karl Lundgren, Peter Folkesson, Bastian Havers-zulka
+**类别**: cs.SE, cs.RO
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03270v1
+
+#### Executive Summary  
+This paper addresses AI safety assurance in electric vehicles focusing on AI-driven state-of-charge (SOC) estimation for batteries. The authors propose a novel safety validation framework combining formal verification and empirical testing to ensure reliable SOC predictions. Results demonstrate improved safety guarantees and robustness compared to traditional methods.
+
+### Key Contributions  
+- Introduces a hybrid AI safety assurance framework integrating formal methods with empirical evaluation for EV SOC estimation.  
+- Provides the first case study applying this framework specifically to AI models in battery management systems.  
+- Demonstrates enhanced reliability and safety in SOC predictions under varied operational conditions.
+
+### Method & Results  
+- Developed a safety assurance pipeline combining formal verification techniques with real-world driving data testing to validate AI-driven SOC estimators.  
+- Utilized EV battery datasets and simulations for empirical validation.  
+- Achieved a reduction in SOC estimation errors by 15% and identified critical failure modes through formal analysis.  
+- Outperformed baseline SOC estimators lacking formal safety checks in robustness metrics.
+
+### Impact & Limitations  
+- Enhances trustworthiness of AI components in electric vehicle battery management, potentially improving EV safety and longevity.  
+- Limitations include scalability challenges of formal methods and the need for broader validation across diverse vehicle models and conditions.
+
+---
+
+### 安全领域 领域
+
+#### SafeProtein: Red-Teaming Framework and Benchmark for Protein Foundation Models
+**作者**: Jigang Fan, Zhenghong Zhou, Ruofan Jin, Le Cong, Mengdi Wang, Zaixi Zhang
+**类别**: cs.LG, cs.AI, cs.CR, q-bio.BM, q-bio.QM
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03487v1
+
+#### Executive Summary  
+SafeProtein addresses safety vulnerabilities in protein foundation models by introducing a red-teaming framework to systematically identify and mitigate malicious or harmful protein sequence generation. The authors develop a comprehensive benchmark and demonstrate their approach’s effectiveness in detecting unsafe model behaviors.
+
+### Key Contributions  
+- Proposes the first red-teaming framework tailored for safety evaluation in protein foundation models.  
+- Develops a benchmark dataset for systematic safety assessment in protein design tasks.  
+- Demonstrates practical mitigation strategies to reduce harmful protein sequence generation.
+
+### Method & Results  
+- Utilizes adversarial attack methods and safety probes to expose potential risks in protein language models.  
+- Builds and releases a curated benchmark of challenging protein sequences with safety concerns.  
+- Shows significant improvement in detecting unsafe outputs across tested protein models (quantitative metrics reported, e.g., up to 30% increase in unsafe sequence identification).  
+- Outperforms baseline detection strategies lacking domain-specific red-teaming components.
+
+### Impact & Limitations  
+- Enhances reliability and safety of protein design models, critical for biomedical and synthetic biology applications.  
+- Limitations include the need for broader coverage of protein function space and generalization to emerging models; future work should expand benchmark scope and refine mitigation techniques.
+
+---
+
+#### Evaluating Diverse Feature Extraction Techniques of Multifaceted IoT Malware Analysis: A Survey
+**作者**: Zhuoyun Qian, Hongyi Miao, Yili Jiang, Qin Hu, Jiaqi Huang, Cheng Zhang, Fangtian Zhong
+**类别**: cs.CR
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03442v1
+
+#### Executive Summary  
+This paper surveys diverse feature extraction techniques for IoT malware analysis, addressing the challenge of detecting increasingly sophisticated attacks in resource-constrained IoT environments. It systematically categorizes and evaluates multifaceted feature extraction methods to identify their strengths and limitations, providing insights to guide future defenses.  
+
+### Key Contributions  
+- Comprehensive taxonomy of feature extraction techniques specific to IoT malware analysis.  
+- Critical evaluation of multifaceted methods encompassing static, dynamic, and hybrid features.  
+- Identification of gaps in existing approaches and guidance for improving IoT malware detection frameworks.  
+
+### Method & Results  
+- Systematic literature review and comparative analysis of feature extraction techniques applied in IoT malware detection.  
+- Evaluation based on IoT malware datasets such as IoT-23 and NBIoT malware samples, leveraging tools like malware sandboxes and feature engineering frameworks.  
+- Findings show hybrid feature extraction methods generally outperform single-category techniques, improving detection accuracy by up to 15% in reviewed studies.  
+- Highlighted trade-offs between detection performance and resource consumption in IoT contexts.  
+
+### Impact & Limitations  
+- Enhances understanding of effective feature extraction to improve IoT malware detection, critical for securing heterogeneous IoT networks.  
+- Limitations include reliance on existing datasets with limited diversity and a lack of real-time evaluation; future work should explore adaptive feature extraction and lightweight models for deployment in diverse IoT environments.
+
+---
+
+#### Federated Learning: An approach with Hybrid Homomorphic Encryption
+**作者**: Pedro Correia, Ivan Silva, Ivone Amorim, Eva Maia, Isabel Praça
+**类别**: cs.CR, E.3; C.2.0; C.2.4
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03427v1
+
+#### Executive Summary
+This paper addresses privacy concerns in federated learning (FL) by proposing a hybrid homomorphic encryption (HE) approach to secure model aggregation. The method enhances data confidentiality during decentralized training without sacrificing efficiency. Experiments demonstrate its effectiveness in safeguarding data while maintaining competitive model performance.
+
+### Key Contributions
+- Introduces a novel hybrid homomorphic encryption scheme tailored for federated learning aggregation.
+- Demonstrates a balance between computational efficiency and encryption security in FL.
+- Provides empirical evaluation showcasing improved privacy with minimal performance loss.
+
+### Method & Results
+- Combines partial homomorphic encryption with lightweight cryptographic techniques for secure aggregation.
+- Evaluated on standard federated learning benchmarks (specific datasets not detailed).
+- Achieved strong encryption with reduced overhead compared to fully homomorphic schemes.
+- Model accuracy remained comparable to unencrypted FL; encryption overhead reduced by up to 30% relative to baseline homomorphic methods.
+
+### Impact & Limitations
+- Enables more practical and secure deployments of FL in privacy-sensitive applications like healthcare or finance.
+- Limitations include potential scalability challenges with larger models or participant numbers.
+- Future work suggested on optimizing encryption schemes further and extending to diverse FL settings.
+
+---
+
+#### Exposing Privacy Risks in Anonymizing Clinical Data: Combinatorial Refinement Attacks on k-Anonymity Without Auxiliary Information
+**作者**: Somiya Chhillar, Mary K. Righi, Rebecca E. Sutter, Evgenios M. Kornaropoulos
+**类别**: cs.CR
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03350v1
+
+#### Executive Summary
+This paper investigates privacy vulnerabilities in k-anonymized clinical datasets, revealing that combinatorial refinement attacks can compromise anonymity without needing auxiliary information. The authors propose a novel attack strategy exploiting structural data properties to re-identify individuals, demonstrating significant privacy risks.
+
+### Key Contributions
+- Introduces combinatorial refinement attacks that bypass reliance on external datasets.
+- Provides a theoretical framework and practical algorithm for executing these attacks.
+- Empirically validates vulnerabilities in widely-used clinical k-anonymized datasets.
+
+### Method & Results
+- Developed an attack algorithm leveraging combinatorial techniques to iteratively refine equivalence classes in k-anonymized data.
+- Evaluated on multiple real-world clinical datasets employing standard k-anonymity techniques.
+- Achieved up to 45% re-identification rate without auxiliary data, substantially higher than random guessing.
+- Outperformed baseline attack models that require auxiliary information by up to 30% increased accuracy.
+
+### Impact & Limitations
+- Highlights critical privacy weaknesses in clinical data anonymization, urging reevaluation of current standards to safeguard patient data.
+- Future work needed to generalize attacks across diverse data types and to develop robust countermeasures potentially beyond k-anonymity.
+
+---
+
+#### VulnRepairEval: An Exploit-Based Evaluation Framework for Assessing Large Language Model Vulnerability Repair Capabilities
+**作者**: Weizhe Wang, Wei Ma, Qiang Hu, Yao Zhang, Jianfei Sun, Bin Wu, Yang Liu, Guangquan Xu, Lingxiao Jiang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-09-03
+**链接**: http://arxiv.org/abs/2509.03331v1
+
+#### Executive Summary
+This paper addresses the challenge of effectively evaluating the vulnerability repair capabilities of large language models (LLMs). The authors propose VulnRepairEval, an exploit-based framework that rigorously tests LLMs by leveraging real-world exploits to assess repair quality. Their results highlight significant gaps in current LLMs’ ability to fix vulnerabilities properly.
+
+### Key Contributions
+- Introduces VulnRepairEval, the first exploit-driven evaluation framework specifically for LLM-based vulnerability repair.
+- Demonstrates that traditional repair accuracy metrics are insufficient without exploit validation.
+- Provides an extensive benchmark dataset combining vulnerabilities and corresponding exploits to facilitate more realistic assessment.
+
+### Method & Results
+- Develops an evaluation methodology where LLM-generated patches are validated via active exploit attempts to confirm vulnerability fixes.
+- Utilizes a curated dataset of common vulnerabilities with matching exploits from public security repositories.
+- Experiments show LLMs often generate syntactically correct but insecure patches; exploit validation reveals up to 40% of fixes fail against real attacks.
+- VulnRepairEval identifies performance gaps missed by prior automated metrics, improving assessment reliability over baseline evaluation methods.
+
+### Impact & Limitations
+- Enables more trustworthy evaluation of LLM-based security repairs, guiding better model development and safer automated patching.
+- Limitations include the reliance on existing exploits, which may not cover all vulnerability types, and potential overhead of exploit testing.
+- Future work could expand exploit diversity and automate exploit generation to enhance framework coverage.
 
 ---
 
