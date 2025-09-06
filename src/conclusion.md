@@ -12793,18 +12793,18 @@ This paper investigates privacy vulnerabilities in k-anonymized clinical dataset
 #### Executive Summary  
 This paper addresses the challenge of efficiently managing blood donation processes through a dedicated web platform. The authors design and develop an integrated system to streamline donor registration, blood inventory tracking, and donation event coordination. The platform demonstrates improved operational management and user engagement in pilot deployments.
 
-### Key Contributions  
+### Key Contributions
 - Development of a comprehensive web-based blood donation management system integrating donor, inventory, and event modules.  
 - Implementation of a user-friendly interface with real-time data updates to enhance donor engagement and blood stock monitoring.  
 - Novel application of database management techniques tailored for blood donation logistics.
 
-### Method & Results  
+### Method & Results
 - Utilized a modular web application framework combined with relational database management for structured data handling.  
 - Employed datasets comprising simulated and real blood donation records for testing system robustness.  
 - Achieved a 25% reduction in administrative processing time and a 30% increase in timely donor notifications compared to manual approaches.  
 - Performance metrics indicated improved data accuracy and system responsiveness over baseline manual tracking.
 
-### Impact & Limitations  
+### Impact & Limitations
 - The platform has potential to significantly improve blood donation coordination efficiency, aiding healthcare providers and donors alike.  
 - Limitations include scalability testing with larger datasets and integration with external healthcare systems as future work directions.
 
@@ -12819,18 +12819,18 @@ This paper addresses the challenge of efficiently managing blood donation proces
 #### Executive Summary  
 This paper addresses security challenges in the CI/CD pipelines of serverless applications, focusing on OpenFaaS frameworks. The authors propose FaaSGuard, a secure CI/CD approach that integrates security checks and automated defenses. Experimental evaluation demonstrates enhanced security posture with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FaaSGuard, a novel security-oriented CI/CD framework tailored for serverless apps.  
 - Integrates continuous security validation directly into serverless deployment workflows.  
 - Provides an open-source case study on OpenFaaS demonstrating practical applicability.
 
-### Method & Results  
+### Method & Results
 - Developed an automated pipeline incorporating static analysis, vulnerability scanning, and runtime security enforcement for serverless functions.  
 - Employed OpenFaaS and standard CI/CD tools along with security scanners as the experimental environment and toolkit.  
 - Achieved detection and mitigation of security flaws with less than 10% overhead on deployment times.  
 - Compared to baseline pipelines lacking integrated security, FaaSGuard improved threat detection rates substantially (exact metrics in paper).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to build and deploy serverless functions with embedded security assurance, reducing risks in production environments.  
 - Limitations include potential scalability challenges and the focus on OpenFaaS, suggesting future work on multi-framework support and broader attack coverage.
 
@@ -12845,19 +12845,19 @@ This paper addresses security challenges in the CI/CD pipelines of serverless ap
 #### Executive Summary  
 This paper investigates the prevalence and detection of security vulnerabilities in Python packages. The authors conduct an empirical study analyzing known vulnerabilities and evaluate existing detection tools, revealing gaps in coverage and accuracy. They propose enhancements to improve vulnerability identification in the Python ecosystem.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive empirical analysis of vulnerabilities across popular Python packages.  
 - Evaluation and benchmarking of state-of-the-art vulnerability detection tools specific to Python.  
 - Proposed improvements to detection methodologies addressing Python-specific code patterns.
 
-### Method & Results  
+### Method & Results
 - Analyzed vulnerability databases and Python package repositories to identify vulnerability types and distributions.  
 - Experimented with multiple detection tools on real-world Python packages to assess detection efficacy.  
 - Used datasets including Python package vulnerability reports and codebases from PyPI.  
 - Found detection rates below 70% for common vulnerability classes; improved tool extensions increased detection accuracy by up to 15%.  
 - Demonstrated current tools often miss vulnerabilities due to Python’s dynamic features and coding idioms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of Python package security, guiding developers and tool builders towards better vulnerability management.  
 - Limitations include focus on known vulnerabilities; dynamic and runtime detection remain challenging. Future work to explore real-time monitoring and automated patching strategies.
 
@@ -12872,18 +12872,18 @@ This paper investigates the prevalence and detection of security vulnerabilities
 #### Executive Summary  
 This paper addresses the challenge of evaluating large language models (LLMs) on debugging tasks spanning multiple programming languages at the repository level. The authors propose RepoDebug, a benchmark combining multi-task and multi-language debugging scenarios to assess LLMs comprehensively. Results demonstrate varied model capabilities, highlighting strengths and weaknesses across languages and tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces RepoDebug, the first repository-level, multi-task, multi-language debugging benchmark for LLM evaluation.  
 - Provides a systematic framework for assessing debugging performance across diverse programming environments and error types.  
 - Offers insights into model behavior, guiding future debugging-oriented LLM improvements.
 
-### Method & Results  
+### Method & Results
 - Developed RepoDebug dataset including tasks like bug localization, fixing, and explanation across multiple languages and real-world repos.  
 - Evaluated state-of-the-art LLMs, quantitatively measuring debugging accuracy, repair precision, and explanation quality.  
 - Found that models achieved up to X% accuracy on bug localization but showed substantial variance across languages; multi-task training improved generalization.  
 - RepoDebug outperformed existing benchmarks by covering more languages and holistic debugging challenges.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables comprehensive, realistic assessment of LLM debugging skills, crucial for deploying AI-assisted programming tools.  
 - Limitations include potential dataset bias towards certain languages and the need to expand to more diverse error types and development environments.
 
@@ -12898,18 +12898,18 @@ This paper addresses the challenge of evaluating large language models (LLMs) on
 #### Executive Summary  
 This paper addresses the challenge of integrating enterprise Single Sign-On (SSO) with standalone open-source applications lacking native support. The author proposes the Auth Shim, a lightweight architectural pattern that acts as an intermediary authentication layer. Results demonstrate improved SSO compatibility with minimal system overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the Auth Shim, a novel middleware pattern enabling seamless enterprise SSO for standalone open-source apps.  
 - Provides a modular approach that requires no modification of existing application code.  
 - Demonstrates lightweight deployment with low latency and resource usage.
 
-### Method & Results  
+### Method & Results
 - Developed an Auth Shim architecture that intercepts and manages authentication requests transparently.  
 - Implemented prototype with common enterprise SSO protocols (e.g., SAML, OAuth) on open-source targets.  
 - Evaluated latency overhead under realistic load, observing under 5ms added delay per authentication.  
 - Achieved full SSO integration without application code changes, outperforming heavier adapters or full rewrites.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to quickly integrate enterprise SSO with diverse open-source tools, enhancing security and user experience.  
 - Current work focuses on specific protocols; future work may extend support to broader authentication standards and dynamic policy enforcement.
 
@@ -12926,44 +12926,29 @@ This paper addresses the challenge of integrating enterprise Single Sign-On (SSO
 #### Executive Summary  
 This paper addresses the challenge of constructing high-quality, diverse multimodal datasets tailored for real-world safety-critical scenarios. The authors propose a self-adaptive framework that iteratively refines dataset composition by leveraging multimodal feedback and automatic data curation, achieving improved model robustness and safety performance. Experiments demonstrate that their approach outperforms standard dataset construction methods in multimodal safety tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel self-adaptive dataset construction method that dynamically selects and refines multimodal safety data.  
 - Proposes multimodal feedback mechanisms to guide dataset evolution without exhaustive manual labeling.  
 - Demonstrates enhanced robustness in safety-critical models trained on the adaptively constructed datasets.
 
-### Method & Results  
+### Method & Results
 - Methodology: Iterative data selection and refinement pipeline integrating visual, textual, and contextual signals to curate challenging samples.  
 - Datasets/Tools: Evaluated on benchmark multimodal safety datasets with real-world scenario relevance; utilizes multimodal model architectures for feedback.  
 - Results: Achieves up to 15% improvement in safety-critical classification accuracy over fixed dataset baselines.  
 - Outperforms conventional fixed dataset training by demonstrating more generalized model behavior under unseen safety conditions.
 
-### Impact & Limitations  
-- Enables more resilient AI systems for real-world safety applications by improving dataset relevance and diversity autonomously.  
-- Limitations include reliance on initial dataset quality and the need for future work on scaling to larger, more complex multimodal datasets.
-
----
-
-#### An Empirical Study of Vulnerabilities in Python Packages and Their Detection
-**作者**: Haowei Quan, Junjie Wang, Xinzhe Li, Terry Yue Zhuo, Xiao Chen, Xiaoning Du
-**类别**: cs.SE, cs.AI, cs.CR
-**发布日期**: 2025-09-04
-**链接**: http://arxiv.org/abs/2509.04260v1
-
-#### Executive Summary  
-This paper investigates security vulnerabilities in Python packages, analyzing their types and prevalence, and evaluates current detection mechanisms. The authors propose an empirical framework combining static and dynamic analysis to improve vulnerability identification, demonstrating enhanced detection rates.
-
-### Key Contributions  
+### Key Contributions
 - Comprehensive empirical study categorizing vulnerabilities specific to Python’s ecosystem.  
 - Integrated static and dynamic analysis tool tailored for Python package vulnerability detection.  
 - Quantitative evaluation showing improved recall over existing vulnerability scanners.
 
-### Method & Results  
+### Method & Results
 - Combined static code analysis with dynamic execution tracing to uncover hidden vulnerabilities.  
 - Dataset: Curated a large-scale collection of real-world Python packages with known and unknown vulnerabilities.  
 - Results: Achieved a 15-20% higher detection rate compared to leading static-only tools. Demonstrated reduction in false positives via dynamic analysis integration.  
 - Benchmarked against prevailing tools like Bandit and Safety, outperforming in both precision and recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances Python package security assessment, benefiting developers and security auditors by providing more reliable vulnerability detection.  
 - Limitations include potential overhead from dynamic analysis and incomplete coverage of runtime environments; future work may explore scalability improvements and broader language support.
 
@@ -12978,18 +12963,18 @@ This paper investigates security vulnerabilities in Python packages, analyzing t
 #### Executive Summary  
 The paper addresses the challenge of assessing model inversion attacks on machine learning systems by introducing an automated, scalable evaluation pipeline. The approach integrates attack simulation, metric computation, and reporting to streamline vulnerability analysis. Results demonstrate the pipeline’s efficiency in benchmarking inversion risks across diverse models and datasets.
 
-### Key Contributions  
+### Key Contributions
 - Developed the first fully automated pipeline for scalable machine learning model inversion assessment.  
 - Introduced a modular framework supporting multiple inversion attack methods and metrics.  
 - Validated pipeline effectiveness through extensive experiments across standard datasets.
 
-### Method & Results  
+### Method & Results
 - Designed a pipeline combining attack execution, inversion quality metrics, and aggregate reporting.  
 - Utilized popular datasets such as MNIST, CIFAR-10, and CelebA; incorporated state-of-the-art inversion attacks.  
 - Showcased the pipeline’s capacity to rapidly evaluate model vulnerability, processing evaluations up to 5x faster than manual setups.  
 - Quantified inversion success rates and reconstruction quality, with detailed comparative analysis against baseline manual methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables security researchers and practitioners to systematically and efficiently assess inversion risks, enhancing model robustness efforts.  
 - Current scope limited to vision datasets and known attack vectors; future work needed to extend to other modalities (e.g., NLP) and emerging inversion techniques.
 
@@ -13030,20 +13015,292 @@ This paper addresses the challenge of hardening Kubernetes clusters by leveragin
 #### Executive Summary  
 This paper addresses enhancing elliptic curve cryptography by proposing ECCFROG522PP, a novel 522-bit Weierstrass elliptic curve tailored for improved security and efficiency. The authors design the curve with strengthened resistance against known attacks and demonstrate its practical viability through performance evaluation. The results show ECCFROG522PP achieves better security margins with competitive computational overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ECCFROG522PP, a new 522-bit Weierstrass elliptic curve with enhanced cryptographic strength.  
 - Provides a detailed security analysis demonstrating improved resilience to side-channel and fault attacks.  
 - Validates empirical performance improvements over commonly used 521-bit curves.
 
-### Method & Results  
+### Method & Results
 - Developed curve parameters optimized for both security and efficiency in scalar multiplication and key generation.  
 - Security evaluated theoretically and via software simulation; performance benchmarked against NIST P-521 and other standard curves.  
 - Achieved up to 15% faster scalar multiplication with equivalent or better security levels.  
 - Demonstrated robustness against specific cryptanalytic attacks that challenge existing curves.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical alternative for securing cryptographic applications requiring higher bit security with minimal performance penalty.  
 - Future work includes hardware implementation and extensive real-world testing to confirm resistance under varied attack vectors.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-06)
+
+### 软件工程 领域
+
+#### Analyzing Variations in Dependency Distributions Due to Code Smell Interactions
+**作者**: Zushuai Zhang, Elliott Wen, Ewan Tempero
+**类别**: cs.SE
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.03896v1
+
+#### Executive Summary  
+This paper investigates how interactions among code smells affect the distributions of software dependency structures. By analyzing dependency variations caused by combined code smells, the authors reveal nuanced impacts beyond individual smell effects. Their approach quantifies these interaction effects, providing deeper insight into code quality degradation.
+
+### Key Contributions  
+- Novel empirical analysis of dependency distribution changes due to interacting code smells.  
+- Introduced a method to model and quantify combined effects of multiple code smells on software dependencies.  
+- Provided evidence that code smell interactions produce significantly different dependency patterns than isolated smells alone.
+
+### Method & Results  
+- Analyzed software systems’ dependency graphs relative to identified code smell occurrences and their interactions.  
+- Utilized dependency metrics and statistical tests to measure variations in distribution caused by smell combinations.  
+- Employed real-world open-source datasets with annotated code smells for evaluation.  
+- Found that interactions led to more substantial and statistically significant shifts in dependency patterns compared to single code smell effects.  
+
+### Impact & Limitations  
+- Enhances understanding of complex code quality issues by highlighting the importance of considering smell interactions in maintenance and refactoring.  
+- Future work could expand scope to more diverse code smell types and explore automated detection and mitigation strategies for interaction effects.
+
+---
+
+#### Vulnerability-Affected Versions Identification: How Far Are We?
+**作者**: Xingchu Chen, Chengwei Liu, Jialun Cao, Yang Xiao, Xinyue Cai, Yeting Li, Jingyi Shi, Tianqi Sun, Haiming Chen ang Wei Huo
+**类别**: cs.SE
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.03876v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately identifying vulnerability-affected software versions, which is critical for timely security patching. The authors propose a novel approach combining static and dynamic analysis with version-aware vulnerability databases to enhance identification precision. Experimental results demonstrate a significant improvement in detection accuracy over existing methods.
+
+### Key Contributions  
+- Introduces a hybrid static-dynamic analysis framework tailored for vulnerability-affected version identification.  
+- Develops a version-aware vulnerability database that enriches contextual information for more precise mapping.  
+- Provides a comprehensive evaluation showing substantial accuracy gains compared to state-of-the-art baselines.
+
+### Method & Results  
+- Combines static code analysis to detect potential vulnerable code patterns with dynamic testing to confirm exploitability across versions.  
+- Leverages enhanced vulnerability databases annotated with version metadata for training and validation.  
+- Utilized datasets include publicly available vulnerability repositories and extensive version histories of popular open-source projects.  
+- Achieves up to 15% increase in identification accuracy and reduces false positives by 20% compared to leading existing techniques.
+
+### Impact & Limitations  
+- Enables more reliable vulnerability management, facilitating faster, targeted security responses in software maintenance.  
+- Limitations include scalability challenges on very large codebases and dependency on the completeness of vulnerability databases; future work may focus on automation and database expansion.
+
+---
+
+#### VulRTex: A Reasoning-Guided Approach to Identify Vulnerabilities from Rich-Text Issue Report
+**作者**: Ziyou Jiang, Mingyang Li, Guowei Yang, Lin Shi, Qing Wang
+**类别**: cs.SE
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.03875v1
+
+#### Executive Summary  
+This paper addresses the challenge of identifying software vulnerabilities from rich-text issue reports, which contain complex, unstructured information. VulRTex introduces a reasoning-guided model that leverages semantic and contextual cues within these reports to enhance vulnerability detection. Experiments demonstrate significant improvements in accuracy over existing methods.
+
+### Key Contributions  
+- Proposes a novel reasoning-guided approach specifically tailored for rich-text issue reports.  
+- Integrates semantic reasoning mechanisms to better capture context and nuanced vulnerability indicators.  
+- Demonstrates comprehensive evaluation on real-world datasets, confirming superior detection performance.
+
+### Method & Results  
+- Uses a hybrid model combining natural language understanding with logical reasoning modules to analyze issue report content.  
+- Evaluated on publicly available vulnerability datasets enriched with issue report metadata.  
+- Achieved notable gains, e.g., X% increase in precision and Y% in recall compared to state-of-the-art baselines.  
+- Outperformed traditional text classification and vulnerability scanning techniques by a clear margin.
+
+### Impact & Limitations  
+- Enhances automated security analysis tools for more accurate early vulnerability detection from textual data sources.  
+- Current model may face scalability challenges with extremely large or diverse datasets; future work could explore deeper reasoning architectures and real-time application scenarios.
+
+---
+
+#### Towards an Understanding of Developer Experience-Driven Transparency in Software Ecosystems
+**作者**: Rodrigo Oliveira Zacarias, Rodrigo Pereira dos Santos, Patricia Lago
+**类别**: cs.SE, cs.HC
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.03848v1
+
+#### Executive Summary
+The paper addresses the challenge of improving transparency in software ecosystems from the perspective of developer experience (DX). It proposes a framework to systematically capture and integrate DX-driven transparency metrics, enhancing understanding and decision-making for ecosystem stakeholders. Results demonstrate improved clarity and actionable insights in ecosystem management.
+
+### Key Contributions
+- Introduces a novel framework linking developer experience metrics to transparency in software ecosystems.
+- Provides a structured approach to measure and visualize DX-related transparency factors.
+- Empirically validates the framework within real-world software ecosystems demonstrating actionable insights.
+
+### Method & Results
+- Developed a conceptual model and implemented a tool prototype to collect and analyze DX-driven transparency metrics.
+- Applied the approach to datasets from established software ecosystems, including open-source project repositories and developer communication channels.
+- Found significant improvement in stakeholder understanding of ecosystem dynamics, with transparency metrics correlating with developer engagement levels.
+- Outperformed baseline transparency approaches lacking developer experience integration regarding interpretability and stakeholder relevance.
+
+### Impact & Limitations
+- Enhances ecosystem governance by enabling more informed decisions based on developer-centric transparency insights.
+- Future work should focus on broader empirical validation across diverse ecosystems and refining real-time data integration for dynamic transparency updates.
+
+---
+
+#### BIDO: A Unified Approach to Address Obfuscation and Concept Drift Challenges in Image-based Malware Detection
+**作者**: Junhui Li, Chengbin Feng, Zhiwei Yang, Qi Mo, Wei Wang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.03807v1
+
+#### Executive Summary  
+This paper addresses the dual challenges of obfuscation and concept drift in image-based malware detection. The authors propose BIDO, a unified framework that adaptively counters evolving malware signatures while maintaining robustness against obfuscation techniques. Experiments demonstrate BIDO significantly improves detection accuracy over state-of-the-art baselines.
+
+### Key Contributions  
+- Introduces BIDO, the first unified framework tackling both obfuscation and concept drift in malware detection via image analysis.  
+- Develops an adaptive learning strategy that updates the detection model to handle evolving malware distributions.  
+- Demonstrates robustness against diverse obfuscation methods through comprehensive image-based feature extraction and dynamic model tuning.
+
+### Method & Results  
+- Combines deep image feature extraction with continual learning to adapt to malware evolution and obfuscation.  
+- Evaluated on benchmark malware image datasets incorporating diverse obfuscation and time-varying samples.  
+- Achieves up to 12% higher detection accuracy than leading image-based malware detectors.  
+- Shows sustained performance over time, reducing accuracy degradation due to concept drift by 15%.
+
+### Impact & Limitations  
+- Enhances practical malware defense by providing a resilient, adaptive detection system suitable for real-world deployment.  
+- Future work could extend adaptation mechanisms for zero-day malware and explore efficiency optimizations for resource-constrained environments.
+
+---
+
+### 安全领域 领域
+
+#### Revisiting Third-Party Library Detection: A Ground Truth Dataset and Its Implications Across Security Tasks
+**作者**: Jintao Gu, Haolang Lu, Guoshun Nan, Yihan Lin, Kun Wang, Yuchun Guo, Yigui Cao, Yang Liu
+**类别**: cs.CR, 68M25, K.6.5; D.2.7
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.04091v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately detecting third-party libraries (TPLs) within software, a crucial task for software security analysis. The authors present a comprehensive ground truth dataset specifically for TPL detection and investigate its implications across various security-related tasks. Their empirical evaluation demonstrates improved detection accuracy and highlights the broader impact on downstream security applications.
+
+### Key Contributions  
+- Introduces the first large-scale, ground truth dataset tailored for third-party library detection.  
+- Provides a systematic analysis of the effect of TPL detection accuracy on multiple security tasks.  
+- Reveals practical insights and challenges that inform the design of robust security tools leveraging TPL information.
+
+### Method & Results  
+- Developed an annotation pipeline to construct the ground truth dataset for TPL presence in real-world software.  
+- Evaluated and benchmarked existing TPL detection approaches using the dataset across different security tasks.  
+- Demonstrated significant performance improvements, with detection accuracy gains up to 20% over prior methods.  
+- Showed that enhanced TPL detection positively affects tasks like vulnerability identification and software composition analysis.
+
+### Impact & Limitations  
+- Enables more reliable and transparent security analysis by improving TPL detection, benefiting vulnerability assessment and compliance checking.  
+- Limitations include the dataset’s focus on specific programming languages and the need for more diverse TPL coverage in future work.  
+- Future research should explore automated approaches to extend dataset scope and adapt detection methods to evolving software ecosystems.
+
+---
+
+#### ICSLure: A Very High Interaction Honeynet for PLC-based Industrial Control Systems
+**作者**: Francesco Aurelio Pironti, Angelo Furfaro, Francesco Blefari, Carmelo Felicetti, Matteo Lupinacci, Francesco Romeo
+**类别**: cs.CR
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.04080v1
+
+#### Executive Summary  
+This paper addresses the gap in realistic industrial control system (ICS) honeynets by proposing ICSLure, a very high interaction honeynet tailored for PLC-based ICS environments. The approach combines genuine PLC hardware emulation with advanced network traffic simulation to attract and analyze sophisticated cyberattacks. Results demonstrate ICSLure’s effectiveness in capturing complex ICS attack vectors not detectable by traditional honeypots.
+
+### Key Contributions  
+- Developed ICSLure, the first high-fidelity honeynet specifically designed for PLC-based ICS, enhancing attacker engagement.  
+- Integrated real PLC hardware emulation with network-level interaction to realistically mimic industrial environments.  
+- Demonstrated ICSLure’s capability to identify novel ICS attack methodologies through high interaction data capture.
+
+### Method & Results  
+- Employed a hybrid method combining physical PLC emulators with custom software to simulate complex ICS network behaviors.  
+- Utilized datasets from real ICS traffic and attack scenarios for system calibration and validation.  
+- Experimentally showed a 30% increase in attack detection rates compared to low-interaction honeypots.  
+- Successfully identified previously unknown ICS attack patterns, underscoring the honeynet’s advanced detection capacity.
+
+### Impact & Limitations  
+- Provides a valuable tool for ICS cybersecurity research and early threat detection in critical infrastructure.  
+- Limitations include scalability challenges due to hardware dependence and the need for continuous updating to reflect evolving ICS protocols.  
+- Future work should explore virtualization techniques to improve scalability and integrate AI for automated attack analysis.
+
+---
+
+#### Error Detection Schemes for Barrett Reduction of CT-BU on FPGA in Post Quantum Cryptography
+**作者**: Paresh Baidya, Rourab Paul, Vikas Srivastava, Sumit Kumar Debnath
+**类别**: cs.CR, cs.AR
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.04070v1
+
+#### Executive Summary
+This paper addresses error detection challenges in Barrett reduction for the CT-BU multiplier used in FPGA implementations of post-quantum cryptographic algorithms. The authors propose novel error detection schemes tailored for Barrett reduction that improve fault tolerance without significantly impacting performance. Experimental results demonstrate enhanced error detection capabilities with minimal hardware overhead.
+
+### Key Contributions
+- Introduces specialized error detection schemes for Barrett reduction in CT-BU multipliers on FPGAs.
+- Demonstrates integration of error detection in post-quantum cryptographic hardware with low resource overhead.
+- Provides a detailed evaluation of fault coverage specific to Barrett reduction operations.
+
+### Method & Results
+- Developed error detection methods exploiting intermediate value checks during Barrett reduction in CT-BU multiplication.
+- Implemented and tested on FPGA platforms using post-quantum cryptographic primitives.
+- Achieved high error detection rates (>95%) with less than 10% additional hardware resource utilization.
+- Outperformed baseline Barrett reduction implementations lacking dedicated error detection in fault scenarios.
+
+### Impact & Limitations
+- Enhances the reliability and security of FPGA-based post-quantum cryptographic systems, critical for future-proof cryptographic applications.
+- Limited to Barrett reduction-focused errors; broader error classes and other modular reduction methods remain for future study.
+- Further optimization needed to reduce minimal overhead and evaluate long-term reliability under diverse fault models.
+
+---
+
+#### Systematic Timing Leakage Analysis of NIST PQDSS Candidates: Tooling and Lessons Learned
+**作者**: Olivier Adjonyo, Sebastien Bardin, Emanuele Bellini, Gilbert Ndollane Dione, Mahmudul Faisal Al Ameen, Robert Merget, Frederic Recoules, Yanis Sellami
+**类别**: cs.CR
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.04010v1
+
+#### Executive Summary  
+This paper investigates timing side-channel leakages in NIST post-quantum digital signature scheme (PQDSS) candidates. The authors develop an automated timing leakage analysis tool and apply it systematically, revealing practical vulnerabilities and offering lessons to improve implementation security.
+
+### Key Contributions  
+- Introduced a scalable tooling framework for systematic timing leakage detection in PQDSS implementations.  
+- Delivered the first comprehensive timing leakage assessment across multiple NIST PQDSS finalists.  
+- Provided actionable insights and best practices to mitigate timing side-channel threats in post-quantum signatures.
+
+### Method & Results  
+- Developed automated static and dynamic analysis combining program instrumentation and statistical testing to detect timing leaks.  
+- Evaluated on reference implementations of NIST PQDSS candidates (e.g., Dilithium, Falcon, Rainbow).  
+- Identified multiple timing leakages, quantified via leakage scores and statistical confidence levels.  
+- Demonstrated some mitigations reduced timing leakage substantially, outperforming naïve baseline implementations.
+
+### Impact & Limitations  
+- Enhances practical trustworthiness of PQDSS by guiding implementers on avoiding timing side channels.  
+- Limited to evaluated implementations; future work includes extending to newer versions and additional side channels.  
+- Tool scalability and false positive/negative rates warrant further refinement for industrial deployment.
+
+---
+
+#### NeuroBreak: Unveil Internal Jailbreak Mechanisms in Large Language Models
+**作者**: Chuhan Zhang, Ye Zhang, Bowen Shi, Yuyou Gan, Tianyu Du, Shouling Ji, Dazhan Deng, Yingcai Wu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-04
+**链接**: http://arxiv.org/abs/2509.03985v1
+
+#### Executive Summary  
+This paper investigates the internal mechanisms enabling jailbreaks in large language models (LLMs). By proposing NeuroBreak, the authors uncover how neural pathways facilitate unauthorized behaviors, offering a novel lens to understand and mitigate model vulnerabilities.
+
+### Key Contributions  
+- Introduces NeuroBreak, a novel framework to dissect and analyze internal jailbreak mechanisms in LLMs.  
+- Reveals specific neural activation patterns contributing to jailbreak susceptibility.  
+- Provides insights that can guide the development of more robust LLM safety measures.
+
+### Method & Results  
+- Utilizes neural pathway analysis combined with intervention techniques to isolate jailbreak-related activations.  
+- Experiments conducted on state-of-the-art LLMs, leveraging benchmark jailbreak prompt datasets.  
+- Achieved identification of jailbreak mechanisms with high precision, outperforming heuristic detection baselines by 30%.  
+- Demonstrated that targeted internal modifications significantly reduce jailbreak success rates without degrading model utility.
+
+### Impact & Limitations  
+- Practical for enhancing LLM safety by enabling targeted defense strategies at the neural level.  
+- Limitations include dependency on model access for internal analysis and potential variability across different LLM architectures; future work needed to generalize findings and automate defenses.
 
 ---
 
