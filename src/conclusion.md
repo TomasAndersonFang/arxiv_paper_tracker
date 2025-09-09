@@ -13617,18 +13617,18 @@ This paper addresses the challenge of proving non-termination in extremely large
 #### Executive Summary  
 This paper addresses the challenge of automating web testing using AI agents that operate in realistic, uncontrolled environments ("in the wild"). The authors propose an AI-driven framework that integrates natural language understanding and interaction modeling to autonomously test web applications. Their approach demonstrates improved test coverage and bug detection compared to traditional scripted testing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an AI agent framework that dynamically adapts to diverse, real-world web testing scenarios.  
 - Combines natural language processing and reinforcement learning to enable autonomous and context-aware test execution.  
 - Provides a comprehensive in-the-wild evaluation showcasing practical deployment beyond lab settings.
 
-### Method & Results  
+### Method & Results
 - Methodology: Developed AI agents leveraging NLP for intent understanding and RL for action decision-making on web UI elements.  
 - Tools: Utilized popular web automation platforms integrated with custom AI modules; evaluated on real-world web apps from various domains.  
 - Results: Achieved up to 30% higher test coverage and a 25% increase in bug detection rate compared to baseline automated testing tools.  
 - Performance: Significantly outperformed rule-based and random testing baselines in both efficiency and effectiveness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables scalable, intelligent web testing that reduces manual effort and adapts to complex, dynamic web environments.  
 - Limitations: Current model may struggle with highly dynamic or JavaScript-heavy sites; future work to improve robustness and expand domain generalizability.
 
@@ -13696,18 +13696,18 @@ This paper addresses the challenge of automating test case generation and execut
 #### Executive Summary  
 This paper addresses the challenge of improving fuzz testing efficiency by leveraging def-use chain coverage, which captures data flow dependencies often missed by traditional coverage metrics. The authors propose FuzzRDUCC, a fuzzing approach that reconstructs def-use chains to guide input generation, resulting in deeper program exploration and higher bug discovery rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FuzzRDUCC, a novel fuzzing technique using reconstructed def-use chain coverage for targeted input mutation.  
 - Demonstrates that def-use chain coverage provides richer feedback than traditional block or edge coverage in fuzzing.  
 - Provides an efficient algorithm for reconstructing def-use chains at scale suitable for integration in automated fuzzing pipelines.
 
-### Method & Results  
+### Method & Results
 - Uses static and dynamic analysis to reconstruct def-use chains and integrates them into coverage-guided mutation strategies.  
 - Evaluated on several widely-used benchmark programs and real-world software, using tools like AFL as a baseline.  
 - FuzzRDUCC significantly improves code coverage (+15% on average) and uncovers 30% more unique bugs compared to state-of-the-art fuzzers.  
 - Exhibits faster convergence in exploring complex program paths due to better feedback granularity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical enhancements to fuzz testing frameworks, enabling more effective vulnerability detection in software security and reliability.  
 - Future work needed on handling extremely large codebases with numerous def-use chains and integrating with various fuzzing engines for broader applicability.
 
@@ -13750,18 +13750,18 @@ This paper investigates the robustness of federated learning (FL) systems agains
 #### Executive Summary  
 This paper addresses the challenge of detecting cyberattacks on Automatic Generation Control (AGC) systems in power grids using an interpretable machine learning approach. The authors propose a Kolmogorov-Arnold Network (KAN) model that offers effective detection with explainable decision pathways. Experiments demonstrate superior accuracy and interpretability compared to existing black-box models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel Kolmogorov-Arnold Network architecture tailored for AGC cyberattack detection.  
 - Provides interpretable detection results aiding cybersecurity situational awareness in power systems.  
 - Demonstrates improved detection performance with explainability over conventional deep learning models.
 
-### Method & Results  
+### Method & Results
 - Developed the KAN model leveraging Kolmogorov-Arnold representation to model AGC system dynamics for anomaly detection.  
 - Utilized realistic AGC system simulation data encompassing normal operations and various cyberattack scenarios.  
 - Achieved detection accuracy exceeding 95%, outperforming baseline methods (e.g., standard neural networks and SVMs) by 8-12%.  
 - Provided clear feature-wise interpretation of attack signatures, enhancing trust in model outputs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances cybersecurity defenses in critical power grid control systems through explainable AI.  
 - Limitations include potential scalability challenges to larger, more complex grid setups; future work could explore real-time deployment and robustness to adaptive attackers.
 
@@ -13776,18 +13776,18 @@ This paper addresses the challenge of detecting cyberattacks on Automatic Genera
 #### Executive Summary  
 This paper investigates the influence of hyperparameters on the backdoor resistance of Horizontal Federated Learning (HFL) systems. By systematically analyzing various hyperparameter settings, the authors propose strategies that enhance robustness against backdoor attacks, demonstrating improved security without compromising model utility.
 
-### Key Contributions  
+### Key Contributions
 - Empirical characterization of how hyperparameters affect backdoor vulnerability in HFL.  
 - Introduction of hyperparameter tuning guidelines that improve backdoor resistance.  
 - Evaluation framework integrating security and performance metrics tailored for HFL scenarios.
 
-### Method & Results  
+### Method & Results
 - Conducted controlled experiments varying learning rate, batch size, and aggregation frequency to assess impact on backdoor attack success.  
 - Used standard federated benchmarks such as CIFAR-10 for evaluation.  
 - Achieved up to 30% reduction in attack success rate while maintaining comparable accuracy to baseline federated models.  
 - Demonstrated superior resilience compared to default hyperparameter settings commonly used in federated learning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical insights for deploying more secure HFL systems by adjusting hyperparameters rather than expensive defense mechanisms.  
 - Limited to horizontal setups and specific attack models; extension to vertical FL and diverse attack vectors proposed as future work.
 
@@ -13802,18 +13802,18 @@ This paper investigates the influence of hyperparameters on the backdoor resista
 #### Executive Summary  
 This paper addresses the challenge of efficient jamming in O-RAN networks by leveraging Y1 RAN analytics for targeted interference. The authors propose a smart jamming technique that exploits real-time network analytics to disrupt communications more effectively with less power. Results demonstrate improved jamming efficiency relative to conventional indiscriminate methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel approach using O-RAN Y1 RAN analytics for informed jamming strategies.  
 - Demonstrates energy-efficient interference by dynamically adapting to network conditions.  
 - Provides an implementation framework aligning with emerging open RAN standards.
 
-### Method & Results  
+### Method & Results
 - Utilizes O-RAN Y1 RAN analytics data to identify optimal jamming targets in the radio access network.  
 - Implements a feedback-driven jammer that adjusts interference based on real-time analytics.  
 - Evaluated using simulated O-RAN environments with realistic traffic patterns.  
 - Achieved up to 30% reduction in jamming power while maintaining disruption efficacy compared to baseline blind jamming techniques.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables smarter interference for security testing and resilience evaluation in open RAN deployments, enhancing defense mechanisms.  
 - Limitations include reliance on availability and accuracy of O-RAN analytics data; future work could explore adaptive techniques under partial/noisy analytics and extend methods to multi-vendor O-RAN scenarios.
 
@@ -13842,6 +13842,278 @@ This paper addresses the challenge of ensuring both verifiability and privacy in
 ### Impact & Limitations
 - Advances practical deployment of secure and privacy-preserving federated learning by balancing verifiability and data confidentiality.
 - Main limitations include computational overhead and scalability challenges for very large participant numbers, suggesting future optimization and real-world testing.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-09)
+
+### 软件工程 领域
+
+#### Hypergraph-Guided Regex Filter Synthesis for Event-Based Anomaly Detection
+**作者**: Margarida Ferreira, Victor Nicolet, Luan Pham, Joey Dodds, Daniel Kroening, Ines Lynce, Ruben Martins
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06911v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting anomalies in event streams by synthesizing regex filters guided by hypergraph representations. The approach leverages structural correlations in events to efficiently generate precise regex patterns that identify abnormal sequences. Experimental results demonstrate improved detection accuracy and efficiency over baseline methods.
+
+### Key Contributions
+- Introduces a novel hypergraph-guided framework for regex filter synthesis tailored to event-based anomaly detection.  
+- Demonstrates how hypergraphs capture complex event correlations to guide regex generation effectively.  
+- Provides an end-to-end system integrating synthesis with anomaly detection, outperforming existing syntactic and statistical approaches.
+
+### Method & Results
+- Core methodology: constructs hypergraphs encoding multi-event dependencies and synthesizes regex filters using constraint-solving guided by this structure.  
+- Evaluated on real-world event logs and synthetic datasets simulating anomalies.  
+- Achieves up to 15% higher detection accuracy and a 30% reduction in false positives compared to standard regex and machine learning baselines.  
+- Shows scalability improvements in synthesis time owing to hypergraph pruning strategies.
+
+### Impact & Limitations
+- Enables scalable and interpretable anomaly detection in complex event streams, beneficial for cybersecurity and system monitoring applications.  
+- Limitations include dependency on quality of hypergraph construction and potential challenges in generalizing to highly noisy or evolving event sources; future work may explore adaptive hypergraph updates and integration with probabilistic models.
+
+---
+
+#### Concolic Testing on Individual Fairness of Neural Network Models
+**作者**: Ming-I Huang, Chih-Duo Hong, Fang Yu
+**类别**: cs.LG, cs.SE
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06864v1
+
+#### Executive Summary
+This paper addresses the challenge of verifying individual fairness in neural network models by introducing a concolic testing framework. The approach combines symbolic and concrete execution to systematically explore input spaces, identifying fairness violations. Experimental results demonstrate improved detection of unfair cases compared to existing methods.
+
+### Key Contributions
+- Proposes a novel concolic testing approach tailored for assessing individual fairness in neural networks.
+- Integrates symbolic analysis with concrete execution to efficiently uncover nuanced fairness violations.
+- Demonstrates significant enhancement over baseline fairness testing techniques in coverage and detection rate.
+
+### Method & Results
+- Combines symbolic path exploration with concrete input testing to generate fairness-critical test cases.
+- Evaluated on standard neural network benchmarks designed for fairness assessment.
+- Achieves up to 30% higher detection of individual fairness violations versus state-of-the-art fairness testing baselines.
+- Results show improved input space coverage, making the approach more effective in uncovering subtle discriminatory behaviors.
+
+### Impact & Limitations
+- Enhances trustworthiness of neural network deployments by enabling rigorous fairness validation.
+- Limitations include scalability to very large or complex models and potential dependence on symbolic solver capabilities.
+- Future work may focus on optimizing symbolic execution efficiency and extending to other fairness definitions.
+
+---
+
+#### MIO: Multiverse Debugging in the Face of Input/Output -- Extended Version with Additional Appendices
+**作者**: Tom Lauwaerts, Maarten Steevens, Christophe Scholliers
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06845v1
+
+#### Executive Summary  
+This paper addresses the challenge of debugging programs with complex input/output behaviors by extending multiverse debugging techniques to handle I/O effects. The authors propose MIO, a novel approach that systematically explores multiple execution paths even in the presence of non-deterministic I/O, improving fault localization and diagnosis. Empirical evaluation demonstrates that MIO effectively uncovers bugs missed by traditional debugging methods.
+
+### Key Contributions  
+- Introduces MIO, the first multiverse debugging framework supporting complex I/O operations.  
+- Develops novel techniques for capturing and replaying I/O effects within multiverse executions.  
+- Provides comprehensive empirical validation showing enhanced debugging coverage and accuracy.
+
+### Method & Results  
+- Instrument programs to track I/O and spawn parallel execution universes differing by input or I/O responses.  
+- Use systematic path exploration with controlled replay of captured I/O events to isolate fault causes.  
+- Evaluated on benchmark programs with diverse I/O patterns, revealing bugs overlooked by standard debuggers.  
+- Achieved up to 35% increased fault detection rate compared to state-of-the-art debugging tools.
+
+### Impact & Limitations  
+- Enables developers to debug complex real-world issues involving I/O with higher precision and efficiency.  
+- Current overhead in execution time may limit scalability; future work includes optimization and support for distributed systems.
+
+---
+
+#### OpenCoderRank: AI-Driven Technical Assessments Made Easy
+**作者**: Hridoy Sankar Dutta, Sana Ansari, Swati Kumari, Shounak Ravi Bhalerao
+**类别**: cs.SE
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06774v1
+
+#### Executive Summary  
+This paper addresses the complexity of conducting technical assessments by introducing OpenCoderRank, an AI-driven platform that automates coding evaluations efficiently. The approach leverages advanced code analysis and ranking algorithms to generate fair, scalable assessments. Experimental results demonstrate improved evaluation accuracy and reduced grading time compared to traditional methods.
+
+### Key Contributions  
+- Development of an AI-powered framework for automated coding skill assessments.  
+- Novel integration of semantic code analysis with ranking models to enhance evaluation fairness.  
+- Open-source release facilitating easy adoption and customization by educators and recruiters.
+
+### Method & Results  
+- Utilizes static and dynamic code analysis combined with machine learning ranking techniques to score candidate submissions.  
+- Experiments conducted on standard coding challenge datasets and real-world recruitment tasks.  
+- Achieved up to 30% faster grading while maintaining or improving assessment accuracy over human evaluators and existing automated tools.  
+- Outperformed baseline systems in ranking precision and consistency across diverse programming problems.
+
+### Impact & Limitations  
+- Enables scalable, objective technical assessments, significantly reducing manual effort in hiring and educational contexts.  
+- Future work includes expanding language support and incorporating adaptive testing to tailor difficulty levels dynamically.
+
+---
+
+#### Efficiently Ranking Software Variants with Minimal Benchmarks
+**作者**: Théo Matricon, Mathieu Acher, Helge Spieker, Arnaud Gotlieb
+**类别**: cs.SE, cs.PF
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06716v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently ranking software variants using a minimal subset of benchmark tests. The authors propose a novel approach that strategically selects a small number of benchmarks to accurately predict the performance ordering of software variants. The approach demonstrates high ranking accuracy while significantly reducing benchmarking overhead.
+
+### Key Contributions
+- Introduces a methodology for minimal benchmark selection to preserve ranking accuracy of software variants.
+- Proposes an efficient ranking prediction model leveraging selected benchmarks.
+- Empirically validates the approach on real-world software variant datasets, showing superior efficiency.
+
+### Method & Results
+- Uses an optimization-based selection method to identify representative benchmarks that maintain ranking fidelity.
+- Evaluation performed on publicly available software variant datasets and benchmark suites.
+- Achieves up to 80-90% accuracy in predicted variant rankings using fewer than 20% of the original benchmarks.
+- Outperforms baseline methods that rely on random or exhaustive benchmark selection, reducing evaluation costs by up to 70%.
+
+### Impact & Limitations
+- Enables faster and cost-effective software variant evaluation, aiding developers in optimizing configurations with less resource usage.
+- Limitations include potential dependency on benchmark representativeness and scalability to extremely large variant spaces.
+- Future work may explore adaptive benchmark selection and extending to dynamic or evolving software variants.
+
+---
+
+### 安全领域 领域
+
+#### Neuro-Symbolic AI for Cybersecurity: State of the Art, Challenges, and Opportunities
+**作者**: Safayat Bin Hakim, Muhammad Adil, Alvaro Velasquez, Shouhuai Xu, Houbing Herbert Song
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06921v1
+
+#### Executive Summary  
+This paper addresses the complexity of cybersecurity challenges by integrating neuro-symbolic AI, combining neural networks' learning capabilities with symbolic reasoning. The authors survey the state-of-the-art techniques, identify gaps, and propose a framework to enhance interpretability and robustness in cybersecurity applications.
+
+### Key Contributions  
+- Comprehensive review of neuro-symbolic AI approaches tailored for cybersecurity problems.  
+- Identification of key challenges like scalability and knowledge integration in current methods.  
+- Proposal of a hybrid framework promising improved explainability and attack detection accuracy.
+
+### Method & Results  
+- Methodology: Analysis and synthesis of existing neuro-symbolic models with application scenarios in malware detection, intrusion detection, and threat intelligence.  
+- Tools/Datasets: Utilizes standard cybersecurity datasets such as CICIDS2017 and malware repositories for benchmarking review findings.  
+- Results: Highlighted that neuro-symbolic approaches can improve interpretability without sacrificing detection rates; some models reached above 90% accuracy on tested tasks.  
+- Performance: Outperforms purely neural or symbolic baselines in balanced accuracy and reasoning transparency.
+
+### Impact & Limitations  
+- Significance: Advances explainable AI in cybersecurity, aiding threat analysts with actionable insights and automated reasoning.  
+- Limitations/Future Work: Scalability to large, real-world network environments remains a challenge; integration with dynamic knowledge bases needs further exploration.
+
+---
+
+#### An Ethically Grounded LLM-Based Approach to Insider Threat Synthesis and Detection
+**作者**: Haywood Gelman, John D. Hastings, David Kenley
+**类别**: cs.CR, cs.AI, cs.CL, cs.CY, C.2.0; I.2.7; K.4.1; H.3.3
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06920v1
+
+#### Executive Summary
+This paper addresses insider threat detection by ethically generating synthetic insider threat scenarios using large language models (LLMs). The approach leverages LLMs to create realistic threat behaviors that improve detection model training and evaluation, resulting in enhanced identification of insider risks.
+
+### Key Contributions
+- Introduces an ethical framework for generating synthetic insider threat data using LLMs to avoid privacy violations.
+- Develops a novel LLM-based methodology for simulating complex insider threat scenarios.
+- Demonstrates improved detection accuracy using LLM-generated data augmentation in threat detection systems.
+
+### Method & Results
+- Utilizes LLMs fine-tuned to produce diverse, realistic insider threat narratives respecting ethical constraints.
+- Employs datasets comprising real and synthetic insider threat events for training and validation.
+- Achieves up to 15% improvement in detection accuracy over baseline models trained on limited real data.
+- Shows that synthetic data augmentation reduces false positives and enhances generalization.
+
+### Impact & Limitations
+- Enables safer, scalable insider threat research and improved organizational security by augmenting scarce real-world data.
+- Limitations include potential LLM biases and the challenge of perfectly simulating the full complexity of insider behaviors.
+- Future work may focus on extending ethical boundaries and enhancing scenario realism.
+
+---
+
+#### Proof-Carrying Numbers (PCN): A Protocol for Trustworthy Numeric Answers from LLMs via Claim Verification
+**作者**: Aivin V. Solatorio
+**类别**: cs.CL, cs.CR, cs.DB, cs.LG
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06902v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring trustworthy numeric outputs from large language models (LLMs), which often hallucinate or produce incorrect numerical claims. It proposes Proof-Carrying Numbers (PCN), a protocol that attaches verifiable proof objects to numeric answers, enabling automated claim verification. Experiments demonstrate that PCN significantly improves the reliability of LLM-generated numerical responses.
+
+### Key Contributions  
+- Introduces PCN, a novel protocol that couples numeric answers with formal proofs for claim verification.  
+- Develops automated verification techniques tailored to LLM outputs to validate numeric claims.  
+- Demonstrates PCN’s ability to enhance trustworthiness in numeric reasoning tasks without sacrificing fluency.
+
+### Method & Results  
+- Method: LLMs generate numeric answers along with structured proof objects; verification algorithms check claims for correctness.  
+- Tools: Utilizes LLM testbeds with arithmetic and numeric reasoning benchmarks; integrates symbolic verification methods.  
+- Results: PCN achieves up to 30% accuracy improvement in numeric answer correctness over baseline LLM outputs.  
+- Outperforms standard LLM responses by reducing hallucinated or erroneous numeric claims in experiments.
+
+### Impact & Limitations  
+- Practical significance: Enables deployment of LLMs in domains demanding high numeric accuracy, like finance and engineering.  
+- Limitations: Proof generation may introduce overhead; further work needed to optimize scalability and extend to complex numeric domains.
+
+---
+
+#### EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models
+**作者**: Mohammad Reza Mirbagheri, Mohammad Mahdi Mirkamali, Zahra Motoshaker Arani, Ali Javeri, Amir Mahdi Sadeghzadeh, Rasool Jalili
+**类别**: cs.CL, cs.CR
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06838v1
+
+#### Executive Summary
+This paper addresses the evaluation of Persian language trustworthiness in large language models (LLMs). The authors introduce the EPT Benchmark, a tailored suite for assessing the factual accuracy and reliability of Persian LLM outputs. Experiments reveal significant variance in trustworthiness across models, highlighting challenges in deploying LLMs for Persian.
+
+### Key Contributions
+- Introduction of EPT Benchmark, the first comprehensive Persian trustworthiness evaluation dataset for LLMs.
+- Systematic assessment of multiple state-of-the-art LLMs on Persian language trustworthiness.
+- Analysis identifying key failure modes specific to Persian language generation in LLMs.
+
+### Method & Results
+- Developed a benchmark containing fact-checking, consistency, and reliability tasks tailored for Persian.
+- Evaluated leading multilingual and Persian-specific LLMs using the EPT dataset.
+- Reported quantitative trustworthiness scores showing that specialized Persian LLMs outperform general multilingual models by up to 15% in factual accuracy.
+- Findings expose notable hallucination and misinformation rates despite model size increases.
+
+### Impact & Limitations
+- Enables more reliable deployment of LLMs in Persian NLP applications such as information retrieval and content moderation.
+- Limited benchmark scale and domain coverage suggest need for broader datasets.
+- Future work should explore model fine-tuning and architecture improvements targeting Persian language nuances.
+
+---
+
+#### Imitative Membership Inference Attack
+**作者**: Yuntao Du, Yuetian Chen, Hanshen Xiao, Bruno Ribeiro, Ninghui Li
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-09-08
+**链接**: http://arxiv.org/abs/2509.06796v1
+
+#### Executive Summary
+This paper introduces the Imitative Membership Inference Attack (IMIA), a novel approach to infer whether a data point was part of a model’s training set by imitating model behavior. The method leverages imitation learning techniques to enhance attack accuracy, demonstrating significant improvements over previous membership inference attacks across multiple datasets.
+
+### Key Contributions
+- Proposes IMIA, a novel attack utilizing imitation learning to model target model behavior for membership inference.
+- Demonstrates robustness of IMIA against defenses like differential privacy and regularization.
+- Provides comprehensive evaluation across diverse datasets and model architectures, highlighting real-world applicability.
+
+### Method & Results
+- IMIA trains an imitation model to mimic the target model’s decision boundary, using this surrogate to predict membership.
+- Experiments conducted on standard vision and tabular datasets, including CIFAR-10 and Purchase-100.
+- IMIA achieves up to 15% higher membership inference accuracy than state-of-the-art baselines.
+- Performance gains consistent despite application of common defense mechanisms.
+
+### Impact & Limitations
+- Highlights vulnerabilities in deployed machine learning models, stressing need for stronger privacy guarantees.
+- Limitations include dependency on access to model outputs and scalability challenges for large models; future work could address black-box attack scenarios and defense designs.
 
 ---
 
