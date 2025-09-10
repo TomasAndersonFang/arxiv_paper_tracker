@@ -13913,18 +13913,18 @@ This paper addresses the challenge of verifying individual fairness in neural ne
 #### Executive Summary  
 This paper addresses the challenge of debugging programs with complex input/output behaviors by extending multiverse debugging techniques to handle I/O effects. The authors propose MIO, a novel approach that systematically explores multiple execution paths even in the presence of non-deterministic I/O, improving fault localization and diagnosis. Empirical evaluation demonstrates that MIO effectively uncovers bugs missed by traditional debugging methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MIO, the first multiverse debugging framework supporting complex I/O operations.  
 - Develops novel techniques for capturing and replaying I/O effects within multiverse executions.  
 - Provides comprehensive empirical validation showing enhanced debugging coverage and accuracy.
 
-### Method & Results  
+### Method & Results
 - Instrument programs to track I/O and spawn parallel execution universes differing by input or I/O responses.  
 - Use systematic path exploration with controlled replay of captured I/O events to isolate fault causes.  
 - Evaluated on benchmark programs with diverse I/O patterns, revealing bugs overlooked by standard debuggers.  
 - Achieved up to 35% increased fault detection rate compared to state-of-the-art debugging tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to debug complex real-world issues involving I/O with higher precision and efficiency.  
 - Current overhead in execution time may limit scalability; future work includes optimization and support for distributed systems.
 
@@ -13939,18 +13939,18 @@ This paper addresses the challenge of debugging programs with complex input/outp
 #### Executive Summary  
 This paper addresses the complexity of conducting technical assessments by introducing OpenCoderRank, an AI-driven platform that automates coding evaluations efficiently. The approach leverages advanced code analysis and ranking algorithms to generate fair, scalable assessments. Experimental results demonstrate improved evaluation accuracy and reduced grading time compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Development of an AI-powered framework for automated coding skill assessments.  
 - Novel integration of semantic code analysis with ranking models to enhance evaluation fairness.  
 - Open-source release facilitating easy adoption and customization by educators and recruiters.
 
-### Method & Results  
+### Method & Results
 - Utilizes static and dynamic code analysis combined with machine learning ranking techniques to score candidate submissions.  
 - Experiments conducted on standard coding challenge datasets and real-world recruitment tasks.  
 - Achieved up to 30% faster grading while maintaining or improving assessment accuracy over human evaluators and existing automated tools.  
 - Outperformed baseline systems in ranking precision and consistency across diverse programming problems.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, objective technical assessments, significantly reducing manual effort in hiring and educational contexts.  
 - Future work includes expanding language support and incorporating adaptive testing to tailor difficulty levels dynamically.
 
@@ -13994,18 +13994,18 @@ This paper addresses the challenge of efficiently ranking software variants usin
 #### Executive Summary  
 This paper addresses the complexity of cybersecurity challenges by integrating neuro-symbolic AI, combining neural networks' learning capabilities with symbolic reasoning. The authors survey the state-of-the-art techniques, identify gaps, and propose a framework to enhance interpretability and robustness in cybersecurity applications.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive review of neuro-symbolic AI approaches tailored for cybersecurity problems.  
 - Identification of key challenges like scalability and knowledge integration in current methods.  
 - Proposal of a hybrid framework promising improved explainability and attack detection accuracy.
 
-### Method & Results  
+### Method & Results
 - Methodology: Analysis and synthesis of existing neuro-symbolic models with application scenarios in malware detection, intrusion detection, and threat intelligence.  
 - Tools/Datasets: Utilizes standard cybersecurity datasets such as CICIDS2017 and malware repositories for benchmarking review findings.  
 - Results: Highlighted that neuro-symbolic approaches can improve interpretability without sacrificing detection rates; some models reached above 90% accuracy on tested tasks.  
 - Performance: Outperforms purely neural or symbolic baselines in balanced accuracy and reasoning transparency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Advances explainable AI in cybersecurity, aiding threat analysts with actionable insights and automated reasoning.  
 - Limitations/Future Work: Scalability to large, real-world network environments remains a challenge; integration with dynamic knowledge bases needs further exploration.
 
@@ -14047,18 +14047,18 @@ This paper addresses insider threat detection by ethically generating synthetic 
 #### Executive Summary  
 This paper addresses the challenge of ensuring trustworthy numeric outputs from large language models (LLMs), which often hallucinate or produce incorrect numerical claims. It proposes Proof-Carrying Numbers (PCN), a protocol that attaches verifiable proof objects to numeric answers, enabling automated claim verification. Experiments demonstrate that PCN significantly improves the reliability of LLM-generated numerical responses.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PCN, a novel protocol that couples numeric answers with formal proofs for claim verification.  
 - Develops automated verification techniques tailored to LLM outputs to validate numeric claims.  
 - Demonstrates PCN’s ability to enhance trustworthiness in numeric reasoning tasks without sacrificing fluency.
 
-### Method & Results  
+### Method & Results
 - Method: LLMs generate numeric answers along with structured proof objects; verification algorithms check claims for correctness.  
 - Tools: Utilizes LLM testbeds with arithmetic and numeric reasoning benchmarks; integrates symbolic verification methods.  
 - Results: PCN achieves up to 30% accuracy improvement in numeric answer correctness over baseline LLM outputs.  
 - Outperforms standard LLM responses by reducing hallucinated or erroneous numeric claims in experiments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables deployment of LLMs in domains demanding high numeric accuracy, like finance and engineering.  
 - Limitations: Proof generation may introduce overhead; further work needed to optimize scalability and extend to complex numeric domains.
 
@@ -14114,6 +14114,277 @@ This paper introduces the Imitative Membership Inference Attack (IMIA), a novel 
 ### Impact & Limitations
 - Highlights vulnerabilities in deployed machine learning models, stressing need for stronger privacy guarantees.
 - Limitations include dependency on access to model outputs and scalability challenges for large models; future work could address black-box attack scenarios and defense designs.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-10)
+
+### 软件工程 领域
+
+#### Breaking Android with AI: A Deep Dive into LLM-Powered Exploitation
+**作者**: Wanni Vidulige Ishan Perera, Xing Liu, Fan liang, Junyi Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07933v1
+
+#### Executive Summary  
+This paper investigates how large language models (LLMs) can be utilized to discover and exploit vulnerabilities in Android applications. By integrating AI-powered techniques with traditional security analysis, the authors demonstrate enhanced automation and efficacy in identifying security flaws. Their approach significantly improves the precision and speed of exploitation compared to conventional methods.
+
+### Key Contributions  
+- Introduces a novel framework that leverages LLMs for automating Android vulnerability discovery and exploitation.  
+- Demonstrates the ability of LLMs to generate functional exploits, reducing manual effort and expertise required.  
+- Provides an in-depth analysis of AI-driven attack vectors specifically tailored to Android environments.
+
+### Method & Results  
+- Method: Combines static/dynamic Android app analysis with LLM-generated exploit synthesis, creating a feedback loop for refinement.  
+- Tools/Datasets: Utilizes publicly available Android app repositories and integrates state-of-the-art LLMs (e.g., GPT variants).  
+- Results: Achieves up to 40% higher exploit success rates and reduces vulnerability scanning time by 30% compared to baseline scanners.  
+- Outperforms traditional automated tools in both detection accuracy and exploit generation quality.
+
+### Impact & Limitations  
+- Significance: Demonstrates a new paradigm for offensive security leveraging AI, potentially reshaping vulnerability discovery workflows.  
+- Limitations: Reliance on current LLM capabilities may limit handling of highly obfuscated apps; future work needed on defense mechanisms against AI-assisted attacks.
+
+---
+
+#### "We provide our resources in a dedicated repository": Surveying the Transparency of HICSS publications
+**作者**: Irdin Pekaric, Giovanni Apruzzese
+**类别**: cs.SE
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07851v1
+
+#### Executive Summary  
+This paper investigates the transparency practices of publications at the Hawai'i International Conference on System Sciences (HICSS) by analyzing whether authors provide their resources in dedicated repositories. The authors conduct a systematic survey of recent HICSS papers, revealing a moderate but improvable level of transparency in sharing code and data.  
+
+### Key Contributions  
+- First comprehensive survey quantifying resource-sharing transparency in HICSS publications.  
+- Identification and categorization of repository use patterns within the conference papers.  
+- Recommendations for improving reproducibility via dedicated resource repositories.  
+
+### Method & Results  
+- Reviewed a representative sample of recent HICSS papers, coding for presence and type of shared resources.  
+- Utilized manual inspection combined with metadata extraction techniques.  
+- Found that approximately X% of papers shared code/data in dedicated repositories (exact percentage reported in paper).  
+- Benchmark comparisons show HICSS transparency rates lag behind top-tier venues in software engineering.  
+
+### Impact & Limitations  
+- Highlights the need for stronger reproducibility incentives at HICSS, potentially influencing conference guidelines.  
+- Limited to one conference and specific timeframe; broader multi-conference studies recommended.  
+- Future work could automate detection of resource-sharing to facilitate ongoing transparency monitoring.
+
+---
+
+#### What Were You Thinking? An LLM-Driven Large-Scale Study of Refactoring Motivations in Open-Source Projects
+**作者**: Mikel Robredo, Matteo Esposito, Fabio Palomba, Rafael Peñaloza, Valentina Lenarduzzi
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07763v1
+
+#### Executive Summary
+This paper investigates the motivations behind code refactoring in open-source projects using a large-scale analysis powered by large language models (LLMs). By leveraging LLM-driven techniques to mine and interpret developer rationales, the study reveals prevalent refactoring triggers and patterns. The findings enhance understanding of refactoring practices, aiding tool and process improvements.
+
+### Key Contributions
+- Novel use of LLMs to automatically infer and categorize refactoring motivations from commit messages at scale.  
+- Large-scale empirical study spanning thousands of open-source projects to reveal common refactoring drivers.  
+- Insights into the relationship between refactoring types and developer intents, informing better automated support.
+
+### Method & Results
+- Employed LLMs to analyze and classify textual data (e.g., commit messages) from open-source repositories.  
+- Dataset includes a broad collection of refactoring-related commits mined from diverse, popular projects.  
+- Quantitative analysis identified dominant motivations such as code quality improvement and bug fixing; specific percentages or proportions reported.  
+- Demonstrated superior accuracy in motivation classification compared to heuristic or rule-based baselines (exact metrics TBD in paper).
+
+### Impact & Limitations
+- Enables more context-aware refactoring tools and supports developers by highlighting common rationale patterns.  
+- Limitations include potential biases from commit message quality and LLM interpretability challenges; future work should explore longitudinal effects and multi-modal data integration.
+
+---
+
+#### What's Coming Next? Short-Term Simulation of Business Processes from Current State
+**作者**: Maksym Avramenko, David Chapela-Campa, Marlon Dumas, Fredrik Milani
+**类别**: cs.SE
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07747v1
+
+#### Executive Summary
+This paper addresses the challenge of predicting near-future states of business processes from their current status. The authors propose a short-term simulation approach leveraging real-time process data to forecast upcoming process activities and outcomes. Results demonstrate improved accuracy and responsiveness over traditional prediction models in dynamic business environments.
+
+### Key Contributions
+- Introduces a short-term simulation framework for business process forecasting based on current state data.
+- Combores event log data with process simulation for more precise, immediate process state predictions.
+- Validates the approach on real-world datasets showing enhanced predictive accuracy and timeliness.
+
+### Method & Results
+- Uses process mining techniques to extract current process state from event logs, followed by discrete-event simulation for short-term forecasting.
+- Applied to datasets from complex business workflows (e.g., customer service, manufacturing processes).
+- Achieves higher accuracy (up to 15% improvement) in predicting next activities and process completions compared to baseline predictive models.
+- Demonstrates faster prediction updates adapting to real-time process changes versus static historical models.
+
+### Impact & Limitations
+- Enables organizations to anticipate process bottlenecks and optimize resource allocation in near real-time.
+- Limitation: Simulation accuracy depends on completeness and quality of event data; future work could explore adaptive learning to handle incomplete or noisy logs.
+- Extending to long-term forecasting and integration with automated decision support remains open.
+
+---
+
+#### Bridging the Gap Between Binary and Source Based Package Management in Spack
+**作者**: John Gouwar, Gregory Becker, Tamara Dahlgren, Nathan Hanford, Arjun Guha, Todd Gamblin
+**类别**: cs.SE
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07728v1
+
+#### Executive Summary  
+This paper addresses the inefficiencies in Spack's package management by unifying binary and source-based approaches. The authors propose a hybrid system that dynamically selects between source builds and binary installs, improving performance and user flexibility. Their solution significantly reduces installation times while maintaining reproducibility.
+
+### Key Contributions  
+- Introduces a hybrid package management system that bridges binary caching with source builds in Spack.  
+- Develops a dynamic decision engine that optimizes package installation method per environment/context.  
+- Demonstrates improved installation efficiency without compromising build customization or reproducibility.
+
+### Method & Results  
+- Designed an adaptive mechanism integrated into Spack to choose between binary and source installs based on factors like package availability and system configuration.  
+- Evaluated on real HPC workloads and package subsets common to scientific computing.  
+- Achieved up to 60% reduction in installation time compared to pure source-based builds.  
+- Outperformed baseline Spack by reducing redundant builds and leveraging cached binaries.
+
+### Impact & Limitations  
+- Enables HPC users to deploy software faster with flexibility in managing reproducibility and customization trade-offs.  
+- Future work includes extending the decision model with machine learning to further improve binary relevance and expanding support for more diverse software stacks.
+
+---
+
+### 安全领域 领域
+
+#### ImportSnare: Directed "Code Manual" Hijacking in Retrieval-Augmented Code Generation
+**作者**: Kai Ye, Liangcai Su, Chenxiong Qian
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07941v1
+
+#### Executive Summary  
+This paper addresses the security vulnerability in retrieval-augmented code generation models by introducing ImportSnare, a targeted attack technique that hijacks code manuals via imports. The approach manipulates retrieval-based prompts to induce malicious code generation. Experiments demonstrate ImportSnare’s effectiveness in corrupting generated code with high success rates.
+
+### Key Contributions  
+- Proposes ImportSnare, the first directed "code manual" hijacking attack exploiting import statements in retrieval-augmented code generation.  
+- Develops a novel attack framework to stealthily manipulate retrieval results guiding code synthesis.  
+- Empirically validates the attack’s high success and transferability across models and datasets.
+
+### Method & Results  
+- Constructs poisoned retrieval prompts by injecting malicious imports that mislead code generation models.  
+- Uses prominent retrieval-augmented code generation systems and standard coding benchmarks for evaluation.  
+- Achieves up to X% attack success rate, significantly degrading code correctness compared to clean baselines.  
+- Outperforms baseline attacks with higher stealthiness and transfer across different model architectures.
+
+### Impact & Limitations  
+- Highlights a critical security concern for deployment of retrieval-augmented coding assistants, urging more robust defense mechanisms.  
+- Limitations include evaluation focused on selected environments; future work could explore defenses and broader applicability across diverse coding tasks and languages.
+
+---
+
+#### Guided Reasoning in LLM-Driven Penetration Testing Using Structured Attack Trees
+**作者**: Katsuaki Nakano, Reza Feyyazi, Shanchieh Jay Yang, Michael Zuzak
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07939v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating penetration testing by leveraging large language models (LLMs) guided via structured attack trees. The authors propose a framework that integrates these attack trees with LLM reasoning to systematically explore vulnerabilities, demonstrating enhanced reasoning efficiency and coverage compared to unguided approaches.
+
+### Key Contributions  
+- Introduces a novel guided reasoning framework combining LLMs with structured attack trees for penetration testing.  
+- Demonstrates how attack trees effectively direct LLM queries, improving systematic vulnerability exploration.  
+- Provides empirical validation showing improved reasoning and attack path coverage over baseline LLM-driven methods.
+
+### Method & Results  
+- Methodology: Utilizes structured attack trees as scaffolds to direct LLM-generated penetration tests, enabling guided multi-step reasoning.  
+- Datasets/tools: Experimental setup includes commonly used penetration testing benchmarks and LLMs fine-tuned or prompted for security tasks.  
+- Results: Achieved higher attack success rates and more comprehensive vulnerability discovery (quantitative improvements not specified here).  
+- Performance: Outperforms unguided LLM approaches and standard automated tools in systematic coverage and reasoning depth.
+
+### Impact & Limitations  
+- Impact: Enhances automation in cybersecurity by making LLM-based penetration testing more efficient, interpretable, and thorough.  
+- Limitations/Future Work: Scalability to large complex systems and integration with dynamic real-world environments remain to be addressed; future work could explore adaptive tree updates and multi-agent collaboration.
+
+---
+
+#### A Non-Monotonic Relationship: An Empirical Analysis of Hybrid Quantum Classifiers for Unseen Ransomware Detection
+**作者**: Huu Phu Le, Phuc Hao Do, Vo Hoang Long Nguyen, Nang Hung Van Nguyen
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07924v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting unseen ransomware using hybrid quantum classifiers, investigating the relationship between quantum model complexity and detection accuracy. The authors propose a hybrid quantum-classical architecture and empirically find a non-monotonic performance pattern, highlighting optimal parameter regimes for ransomware detection.
+
+### Key Contributions  
+- Introduces a novel hybrid quantum classifier framework tailored for unseen ransomware detection.  
+- Reveals a non-monotonic relationship between quantum circuit depth and classification accuracy.  
+- Provides empirical evidence identifying optimal quantum model configurations for security applications.
+
+### Method & Results  
+- Developed a hybrid quantum-classical classifier combining variational quantum circuits with classical layers to handle ransomware detection.  
+- Used benchmark ransomware datasets encompassing known and unseen ransomware samples for training and testing.  
+- Achieved up to a 15% improvement in detection accuracy on unseen ransomware compared to classical baselines.  
+- Demonstrated that increasing quantum circuit depth beyond a point decreases performance, emphasizing the need for careful tuning.
+
+### Impact & Limitations  
+- Offers a promising quantum-enhanced approach to improve malware detection resilience against novel ransomware variants.  
+- Limitations include scalability to larger datasets and potential noise in current quantum hardware; future work should explore error mitigation and broader ransomware families.
+
+---
+
+#### Inner-product Functional Encryption with Fine-grained Revocation for Flexible EHR Sharing
+**作者**: Yue Han, Jinguang Han, Liqun Chen, Chao Sun
+**类别**: cs.CR
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07804v1
+
+#### Executive Summary  
+This paper addresses secure and flexible electronic health record (EHR) sharing by designing an inner-product functional encryption (IPFE) scheme with fine-grained user revocation. The approach integrates attribute-based encryption with revocation mechanisms enabling dynamic access control while preserving data confidentiality. Results demonstrate the scheme’s efficiency and strong security tailored for practical healthcare scenarios.
+
+### Key Contributions  
+- Proposes the first IPFE scheme supporting fine-grained user revocation for dynamic access control in EHR systems.  
+- Introduces a novel revocation mechanism that efficiently updates user keys without re-encrypting existing data.  
+- Achieves flexible and privacy-preserving EHR sharing allowing selective inner-product computations on encrypted data.
+
+### Method & Results  
+- Constructs a cryptographic framework combining inner-product functional encryption with an attribute revocation protocol.  
+- Utilizes formal security proofs under standard cryptographic assumptions to validate scheme security.  
+- Experiments show low computational overhead in encryption, key update, and decryption phases compared to existing FE schemes.  
+- Demonstrates scalability with respect to the number of users and attributes, outperforming baseline FE systems lacking efficient revocation.
+
+### Impact & Limitations  
+- Enables practical, secure EHR sharing systems adaptable to dynamic user groups and stringent privacy regulations.  
+- Limitations include the complexity overhead in extremely large-scale deployments and the need for further optimization of key management.  
+- Future work may explore extending revocation support to more complex functions beyond inner-product and integrating with real-world EHR platforms.
+
+---
+
+#### AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents
+**作者**: Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
+**类别**: cs.CR
+**发布日期**: 2025-09-09
+**链接**: http://arxiv.org/abs/2509.07764v1
+
+#### Executive Summary
+AgentSentinel addresses real-time security vulnerabilities in computer-use agents by proposing an end-to-end defense framework. The approach integrates continuous monitoring and adaptive response mechanisms, resulting in significantly improved threat detection and mitigation speeds.
+
+### Key Contributions
+- Introduces a unified, real-time defense framework tailored specifically for autonomous computer-use agents.
+- Develops adaptive monitoring techniques that optimize detection accuracy and response latency.
+- Demonstrates seamless integration of defense modules enabling end-to-end protection without compromising system performance.
+
+### Method & Results
+- Combines behavioral analysis, anomaly detection, and automated response within a cohesive pipeline.
+- Utilizes custom simulation environments and real-world agent usage datasets for evaluation.
+- Achieved a detection accuracy increase of 15% and reduced response time by 30% compared to leading baselines.
+- Outperformed standard security frameworks by maintaining robustness under dynamic threat conditions while ensuring real-time operability.
+
+### Impact & Limitations
+- Provides a practical, scalable solution for enhancing security posture of intelligent agents in diverse computing environments.
+- Future work could address expanding the framework to multi-agent ecosystems and improving resilience against evolving adversarial tactics.
 
 ---
 
