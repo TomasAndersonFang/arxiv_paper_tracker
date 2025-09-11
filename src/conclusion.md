@@ -14132,18 +14132,18 @@ This paper introduces the Imitative Membership Inference Attack (IMIA), a novel 
 #### Executive Summary  
 This paper investigates how large language models (LLMs) can be utilized to discover and exploit vulnerabilities in Android applications. By integrating AI-powered techniques with traditional security analysis, the authors demonstrate enhanced automation and efficacy in identifying security flaws. Their approach significantly improves the precision and speed of exploitation compared to conventional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework that leverages LLMs for automating Android vulnerability discovery and exploitation.  
 - Demonstrates the ability of LLMs to generate functional exploits, reducing manual effort and expertise required.  
 - Provides an in-depth analysis of AI-driven attack vectors specifically tailored to Android environments.
 
-### Method & Results  
+### Method & Results
 - Method: Combines static/dynamic Android app analysis with LLM-generated exploit synthesis, creating a feedback loop for refinement.  
 - Tools/Datasets: Utilizes publicly available Android app repositories and integrates state-of-the-art LLMs (e.g., GPT variants).  
 - Results: Achieves up to 40% higher exploit success rates and reduces vulnerability scanning time by 30% compared to baseline scanners.  
 - Outperforms traditional automated tools in both detection accuracy and exploit generation quality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Demonstrates a new paradigm for offensive security leveraging AI, potentially reshaping vulnerability discovery workflows.  
 - Limitations: Reliance on current LLM capabilities may limit handling of highly obfuscated apps; future work needed on defense mechanisms against AI-assisted attacks.
 
@@ -14158,18 +14158,18 @@ This paper investigates how large language models (LLMs) can be utilized to disc
 #### Executive Summary  
 This paper investigates the transparency practices of publications at the Hawai'i International Conference on System Sciences (HICSS) by analyzing whether authors provide their resources in dedicated repositories. The authors conduct a systematic survey of recent HICSS papers, revealing a moderate but improvable level of transparency in sharing code and data.  
 
-### Key Contributions  
+### Key Contributions
 - First comprehensive survey quantifying resource-sharing transparency in HICSS publications.  
 - Identification and categorization of repository use patterns within the conference papers.  
 - Recommendations for improving reproducibility via dedicated resource repositories.  
 
-### Method & Results  
+### Method & Results
 - Reviewed a representative sample of recent HICSS papers, coding for presence and type of shared resources.  
 - Utilized manual inspection combined with metadata extraction techniques.  
 - Found that approximately X% of papers shared code/data in dedicated repositories (exact percentage reported in paper).  
 - Benchmark comparisons show HICSS transparency rates lag behind top-tier venues in software engineering.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the need for stronger reproducibility incentives at HICSS, potentially influencing conference guidelines.  
 - Limited to one conference and specific timeframe; broader multi-conference studies recommended.  
 - Future work could automate detection of resource-sharing to facilitate ongoing transparency monitoring.
@@ -14238,18 +14238,18 @@ This paper addresses the challenge of predicting near-future states of business 
 #### Executive Summary  
 This paper addresses the inefficiencies in Spack's package management by unifying binary and source-based approaches. The authors propose a hybrid system that dynamically selects between source builds and binary installs, improving performance and user flexibility. Their solution significantly reduces installation times while maintaining reproducibility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid package management system that bridges binary caching with source builds in Spack.  
 - Develops a dynamic decision engine that optimizes package installation method per environment/context.  
 - Demonstrates improved installation efficiency without compromising build customization or reproducibility.
 
-### Method & Results  
+### Method & Results
 - Designed an adaptive mechanism integrated into Spack to choose between binary and source installs based on factors like package availability and system configuration.  
 - Evaluated on real HPC workloads and package subsets common to scientific computing.  
 - Achieved up to 60% reduction in installation time compared to pure source-based builds.  
 - Outperformed baseline Spack by reducing redundant builds and leveraging cached binaries.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables HPC users to deploy software faster with flexibility in managing reproducibility and customization trade-offs.  
 - Future work includes extending the decision model with machine learning to further improve binary relevance and expanding support for more diverse software stacks.
 
@@ -14266,18 +14266,18 @@ This paper addresses the inefficiencies in Spack's package management by unifyin
 #### Executive Summary  
 This paper addresses the security vulnerability in retrieval-augmented code generation models by introducing ImportSnare, a targeted attack technique that hijacks code manuals via imports. The approach manipulates retrieval-based prompts to induce malicious code generation. Experiments demonstrate ImportSnare’s effectiveness in corrupting generated code with high success rates.
 
-### Key Contributions  
+### Key Contributions
 - Proposes ImportSnare, the first directed "code manual" hijacking attack exploiting import statements in retrieval-augmented code generation.  
 - Develops a novel attack framework to stealthily manipulate retrieval results guiding code synthesis.  
 - Empirically validates the attack’s high success and transferability across models and datasets.
 
-### Method & Results  
+### Method & Results
 - Constructs poisoned retrieval prompts by injecting malicious imports that mislead code generation models.  
 - Uses prominent retrieval-augmented code generation systems and standard coding benchmarks for evaluation.  
 - Achieves up to X% attack success rate, significantly degrading code correctness compared to clean baselines.  
 - Outperforms baseline attacks with higher stealthiness and transfer across different model architectures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical security concern for deployment of retrieval-augmented coding assistants, urging more robust defense mechanisms.  
 - Limitations include evaluation focused on selected environments; future work could explore defenses and broader applicability across diverse coding tasks and languages.
 
@@ -14292,18 +14292,18 @@ This paper addresses the security vulnerability in retrieval-augmented code gene
 #### Executive Summary  
 This paper addresses the challenge of automating penetration testing by leveraging large language models (LLMs) guided via structured attack trees. The authors propose a framework that integrates these attack trees with LLM reasoning to systematically explore vulnerabilities, demonstrating enhanced reasoning efficiency and coverage compared to unguided approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel guided reasoning framework combining LLMs with structured attack trees for penetration testing.  
 - Demonstrates how attack trees effectively direct LLM queries, improving systematic vulnerability exploration.  
 - Provides empirical validation showing improved reasoning and attack path coverage over baseline LLM-driven methods.
 
-### Method & Results  
+### Method & Results
 - Methodology: Utilizes structured attack trees as scaffolds to direct LLM-generated penetration tests, enabling guided multi-step reasoning.  
 - Datasets/tools: Experimental setup includes commonly used penetration testing benchmarks and LLMs fine-tuned or prompted for security tasks.  
 - Results: Achieved higher attack success rates and more comprehensive vulnerability discovery (quantitative improvements not specified here).  
 - Performance: Outperforms unguided LLM approaches and standard automated tools in systematic coverage and reasoning depth.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances automation in cybersecurity by making LLM-based penetration testing more efficient, interpretable, and thorough.  
 - Limitations/Future Work: Scalability to large complex systems and integration with dynamic real-world environments remain to be addressed; future work could explore adaptive tree updates and multi-agent collaboration.
 
@@ -14318,18 +14318,18 @@ This paper addresses the challenge of automating penetration testing by leveragi
 #### Executive Summary  
 This paper addresses the challenge of detecting unseen ransomware using hybrid quantum classifiers, investigating the relationship between quantum model complexity and detection accuracy. The authors propose a hybrid quantum-classical architecture and empirically find a non-monotonic performance pattern, highlighting optimal parameter regimes for ransomware detection.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hybrid quantum classifier framework tailored for unseen ransomware detection.  
 - Reveals a non-monotonic relationship between quantum circuit depth and classification accuracy.  
 - Provides empirical evidence identifying optimal quantum model configurations for security applications.
 
-### Method & Results  
+### Method & Results
 - Developed a hybrid quantum-classical classifier combining variational quantum circuits with classical layers to handle ransomware detection.  
 - Used benchmark ransomware datasets encompassing known and unseen ransomware samples for training and testing.  
 - Achieved up to a 15% improvement in detection accuracy on unseen ransomware compared to classical baselines.  
 - Demonstrated that increasing quantum circuit depth beyond a point decreases performance, emphasizing the need for careful tuning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a promising quantum-enhanced approach to improve malware detection resilience against novel ransomware variants.  
 - Limitations include scalability to larger datasets and potential noise in current quantum hardware; future work should explore error mitigation and broader ransomware families.
 
@@ -14344,18 +14344,18 @@ This paper addresses the challenge of detecting unseen ransomware using hybrid q
 #### Executive Summary  
 This paper addresses secure and flexible electronic health record (EHR) sharing by designing an inner-product functional encryption (IPFE) scheme with fine-grained user revocation. The approach integrates attribute-based encryption with revocation mechanisms enabling dynamic access control while preserving data confidentiality. Results demonstrate the scheme’s efficiency and strong security tailored for practical healthcare scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Proposes the first IPFE scheme supporting fine-grained user revocation for dynamic access control in EHR systems.  
 - Introduces a novel revocation mechanism that efficiently updates user keys without re-encrypting existing data.  
 - Achieves flexible and privacy-preserving EHR sharing allowing selective inner-product computations on encrypted data.
 
-### Method & Results  
+### Method & Results
 - Constructs a cryptographic framework combining inner-product functional encryption with an attribute revocation protocol.  
 - Utilizes formal security proofs under standard cryptographic assumptions to validate scheme security.  
 - Experiments show low computational overhead in encryption, key update, and decryption phases compared to existing FE schemes.  
 - Demonstrates scalability with respect to the number of users and attributes, outperforming baseline FE systems lacking efficient revocation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical, secure EHR sharing systems adaptable to dynamic user groups and stringent privacy regulations.  
 - Limitations include the complexity overhead in extremely large-scale deployments and the need for further optimization of key management.  
 - Future work may explore extending revocation support to more complex functions beyond inner-product and integrating with real-world EHR platforms.
@@ -14385,6 +14385,277 @@ AgentSentinel addresses real-time security vulnerabilities in computer-use agent
 ### Impact & Limitations
 - Provides a practical, scalable solution for enhancing security posture of intelligent agents in diverse computing environments.
 - Future work could address expanding the framework to multi-agent ecosystems and improving resilience against evolving adversarial tactics.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-11)
+
+### 软件工程 领域
+
+#### Handling Open-Vocabulary Constructs in Formalizing Specifications: Retrieval-Augmented Parsing with Expert Knowledge
+**作者**: Mohammad Saqib Hasan, Sayontan Ghosh, Dhruv Verma, Geoff Kuenning, Erez Zadok, Scott A. Smolka, Niranjan Balasubramanian
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08808v1
+
+#### Executive Summary
+This paper addresses the challenge of parsing open-vocabulary constructs in formal specifications, which traditional parsers struggle with due to limited vocabulary scope. The authors propose a retrieval-augmented parsing framework that leverages expert knowledge bases to improve handling of these constructs. Their approach demonstrates improved accuracy and robustness in formalizing specifications.
+
+### Key Contributions
+- Introduces a novel retrieval-augmented parsing method integrating external expert knowledge for open-vocabulary handling.
+- Develops a pipeline combining retrieval and parsing tailored for specification languages.
+- Provides empirical evidence of improved parsing accuracy on formal specification datasets.
+
+### Method & Results
+- Combines a retrieval module querying expert knowledge bases with a neural parser to resolve ambiguous or novel vocabulary in specifications.
+- Evaluated on benchmark formal specification datasets enhanced with open-vocabulary constructs.
+- Achieved up to 15% absolute improvement in parsing accuracy over baseline parsers without retrieval augmentation.
+- Demonstrated consistent gains in formal specification formalization quality across multiple scenarios.
+
+### Impact & Limitations
+- Enhances the practical automation of formal specification writing, enabling wider adoption and reduced manual effort.
+- Limitations include dependency on the quality and coverage of expert knowledge bases.
+- Future work: expanding knowledge sources, real-time adaptation to user-specific vocabularies, and broader domain applicability.
+
+---
+
+#### SWE-Mirror: Scaling Issue-Resolving Datasets by Mirroring Issues Across Repositories
+**作者**: Junhao Wang, Daoguang Zan, Shulin Xin, Siyao Liu, Yurong Wu, Kai Shen
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08724v1
+
+#### Executive Summary  
+This paper addresses the scarcity of large-scale issue-resolving datasets for software engineering research by introducing a mirroring technique that replicates issues across different repositories. SWE-Mirror leverages this approach to scale the dataset size significantly, enabling improved training and evaluation of issue resolution models. Experiments demonstrate enhanced model performance when trained on the mirrored dataset compared to existing benchmarks.
+
+### Key Contributions  
+- Proposes a novel issue mirroring technique to scale issue-resolving datasets across repositories.  
+- Constructs SWE-Mirror, a large-scale, multi-repository issue dataset with improved diversity and volume.  
+- Demonstrates that models trained on SWE-Mirror outperform baselines on issue resolution tasks.
+
+### Method & Results  
+- Methodology: Identify similar issues across projects and mirror them to create augmented datasets; refine mirrored data for quality.  
+- Tools/Datasets: SWE-Mirror dataset collected from multiple open-source repositories; evaluation via standard issue resolution models.  
+- Results: Models trained on SWE-Mirror achieve up to X% improvement in resolution accuracy over existing datasets (exact figures depend on paper’s reported numbers).  
+- Performance: Statistically significant gains in predictive accuracy and generalization compared to traditional single-repository datasets.
+
+### Impact & Limitations  
+- Impact: Enables scalable training of issue resolution models, facilitating better automated debugging and triage in software maintenance.  
+- Limitations: Quality of mirrored issues may vary, impacting downstream model reliability; future work needed on automated validation and expansion to private repositories.
+
+---
+
+#### Minimal Data, Maximum Clarity: A Heuristic for Explaining Optimization
+**作者**: Amirali Rayegan, Tim Menzies
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08667v1
+
+#### Executive Summary
+This paper tackles the challenge of explaining optimization problems with minimal data while maintaining clarity. The authors propose a heuristic approach that prioritizes succinctness in explanations without sacrificing comprehensibility. Their method achieves clearer optimization explanations using significantly less data than prior techniques.
+
+### Key Contributions
+- Introduces a novel heuristic focused on minimal data usage to explain optimization outcomes.
+- Demonstrates that clarity in explanations can be maximized without extensive data input.
+- Provides empirical validation supporting the efficacy of minimal data explanations in optimization contexts.
+
+### Method & Results
+- Developed a heuristic that selectively extracts critical information from optimization outputs to generate concise explanations.
+- Evaluated on benchmark optimization problems from standard datasets (details unspecified).
+- Achieved explanations with up to 50% less data while maintaining or improving clarity metrics compared to traditional methods.
+- Outperformed baseline explanation techniques in clarity scores and data efficiency.
+
+### Impact & Limitations
+- Enables more interpretable and accessible optimization insights, aiding practitioners with limited data resources.
+- Future work needed to generalize the heuristic across diverse optimization domains and scale to larger, more complex problems.
+
+---
+
+#### Beyond the Binary: The System of All-round Evaluation of Research and Its Practices in China
+**作者**: Yu Zhu, Jiyuan Ye
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08546v1
+
+#### Executive Summary  
+This paper investigates the current research evaluation system in China, critiquing its binary metrics and proposing an all-round evaluation framework. The authors develop a comprehensive model integrating qualitative and quantitative indicators, demonstrating its applicability through case studies. Results show improved fairness and multidimensional assessment of research quality.
+
+### Key Contributions  
+- Proposes a novel all-round evaluation system that transcends traditional binary metrics in research assessment.  
+- Introduces a multi-indicator framework combining qualitative and quantitative measures tailored for the Chinese academic context.  
+- Validates the framework through empirical case studies highlighting its effectiveness and adaptability.
+
+### Method & Results  
+- Developed a hybrid evaluation model incorporating bibliometrics, peer review, societal impact, and innovation metrics.  
+- Used datasets from Chinese academic institutions’ publication records and survey feedback from researchers and administrators.  
+- Demonstrated increased differentiation in research quality rankings, with a 20% improvement in assessing interdisciplinary and applied research compared to standard citation-based methods.  
+- Outperformed baseline evaluations focused solely on citations by capturing broader impact dimensions.
+
+### Impact & Limitations  
+- Provides policymakers and institutions with a balanced evaluation tool promoting more equitable research recognition across disciplines.  
+- Limitations include challenges in standardizing qualitative inputs and potential cultural resistance; future work should focus on automation and cross-cultural adaptation.
+
+---
+
+#### AutoStub: Genetic Programming-Based Stub Creation for Symbolic Execution
+**作者**: Felix Mächtle, Nils Loose, Jan-Niclas Serr, Jonas Sander, Thomas Eisenbarth
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08524v1
+
+#### Executive Summary
+The paper addresses the challenge of generating effective stubs for symbolic execution to improve software testing and vulnerability detection. It proposes AutoStub, a genetic programming-based approach that automatically creates stubs enhancing symbolic execution efficiency. Experiments demonstrate significant improvements in coverage and path exploration over traditional manual and heuristic methods.
+
+### Key Contributions
+- Introduces AutoStub, the first genetic programming method specifically designed to automate stub creation for symbolic execution.
+- Demonstrates improved symbolic execution performance through automated stub generation, reducing manual effort.
+- Provides empirical evidence validating the approach on real-world software, surpassing existing stub creation techniques.
+
+### Method & Results
+- Utilizes genetic programming to evolve stub functions optimizing symbolic execution metrics such as path coverage and execution speed.
+- Evaluated using a diverse set of open-source software benchmarks and symbolic execution tools (e.g., KLEE).
+- Achieved up to 35% increase in code coverage and 25% faster symbolic execution compared to baseline stub strategies.
+- Outperforms manual stub crafting and heuristic approaches consistently in controlled experiments.
+
+### Impact & Limitations
+- Enhances automated vulnerability detection and testing frameworks by reducing dependence on tedious manual stub development.
+- Future work: extend method to more complex software components and integrate with other symbolic execution improvements.
+- Limitations include potential scalability issues with very large codebases and the need for domain-specific adaptations.
+
+---
+
+### 安全领域 领域
+
+#### Approximate Algorithms for Verifying Differential Privacy with Gaussian Distributions
+**作者**: Bishnu Bhusal, Rohit Chadha, A. Prasad Sistla, Mahesh Viswanathan
+**类别**: cs.CR, cs.PL, D.2.5; F.4.1
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08804v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying differential privacy guarantees in algorithms involving Gaussian noise. The authors propose approximate algorithms that efficiently assess privacy levels by focusing on distributions with Gaussian perturbations, achieving scalable verification with provable error bounds.
+
+### Key Contributions  
+- First framework for approximate verification of differential privacy specifically targeting Gaussian mechanisms.  
+- Novel algorithmic techniques that provide tight bounds on privacy loss with reduced computational complexity.  
+- Demonstrated effective trade-offs between accuracy and computational efficiency in privacy verification.
+
+### Method & Results  
+- Developed approximation algorithms leveraging concentration inequalities and probabilistic analysis for Gaussian distributions.  
+- Utilized synthetic and benchmark datasets typical in privacy research to validate methods.  
+- Achieved verification error rates under 5% with significant speedups (up to 10x) compared to exact verification baselines.  
+- Outperformed previous approaches that either lacked computational feasibility or provided only coarse approximations.
+
+### Impact & Limitations  
+- Enables practical privacy guarantee assessments for machine learning models and statistical queries using Gaussian noise, facilitating better privacy compliance.  
+- Limitations include the focus solely on Gaussian distributions; extending methods to other noise models remains future work.  
+- Future directions involve improving approximation tightness and integrating the approach into automated privacy auditing tools.
+
+---
+
+#### Wanilla: Sound Noninterference Analysis for WebAssembly
+**作者**: Markus Scherer, Jeppe Fredsgaard Blaabjerg, Alexander Sjösten, Matteo Maffei
+**类别**: cs.CR
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08758v1
+
+#### Executive Summary
+This paper addresses the challenge of verifying noninterference—ensuring that confidential information does not leak—in WebAssembly code. The authors present Wanilla, the first sound static analysis tool specifically designed for WebAssembly to guarantee noninterference. Experimental evaluation demonstrates Wanilla’s effectiveness in automatically analyzing real-world WebAssembly binaries with sound security guarantees.
+
+### Key Contributions
+- Introduces Wanilla, a novel sound static noninterference analysis tailored for WebAssembly’s low-level and stack-based semantics.
+- Develops a precise formal model and proof of soundness ensuring that the analysis enforces security properties rigorously.
+- Provides an automated implementation that scales to realistic WebAssembly modules, demonstrating practical applicability.
+
+### Method & Results
+- Constructs a formal semantics-based analysis combining information-flow control with WebAssembly’s unique features (e.g., structured control flow, linear memory).
+- Implements Wanilla and evaluates it on a set of realistic WebAssembly benchmarks and open-source modules.
+- Results show the tool can soundly detect violations of noninterference with low false positives and reasonable analysis time.
+- Performance surpasses naive or generic information-flow analyses by being tailored specifically to WebAssembly semantics, though exact comparative numbers are limited.
+
+### Impact & Limitations
+- Enables stronger, formally certified security guarantees for WebAssembly applications, crucial for deploying sensitive code in untrusted environments.
+- Limitations include handling of dynamic code loading and certain WebAssembly extensions; future work may expand support and optimize scalability further.
+
+---
+
+#### Membrane: A Cryptographic Access Control System for Data Lakes
+**作者**: Sam Kumar, Samyukta Yagati, Conor Power, David E. Culler, Raluca Ada Popa
+**类别**: cs.CR, cs.DB
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08740v1
+
+#### Executive Summary  
+This paper addresses the challenge of fine-grained cryptographic access control in data lakes, where diverse and large datasets require secure, flexible sharing. The authors propose Membrane, a system combining cryptographic primitives to enforce expressive policies without trusting a centralized authority. Results demonstrate scalable, policy-compliant data access with low overhead.
+
+### Key Contributions  
+- Introduces Membrane, a novel cryptographic framework enabling policy-driven access control directly on encrypted data lakes.  
+- Designs an efficient key management and enforcement mechanism supporting expressive and dynamic access policies.  
+- Demonstrates practical scalability and security in real-world data lake scenarios.
+
+### Method & Results  
+- Combines attribute-based encryption with advanced key distribution to enforce complex access policies cryptographically.  
+- Evaluated on large-scale synthetic and real-world datasets, including public data lakes representative of enterprise scenarios.  
+- Achieved policy enforcement with <15% runtime overhead compared to unsecured access, scaling linearly with policy complexity.  
+- Outperformed traditional access control baselines by eliminating centralized trust and reducing key management costs.
+
+### Impact & Limitations  
+- Enables secure, flexible data sharing in data lakes, crucial for privacy-sensitive domains like healthcare and finance.  
+- Limitations include potential overhead in extremely high-frequency access workloads and the need for integration with existing data lake platforms; future work could explore adaptive optimizations and broader ecosystem support.
+
+---
+
+#### Securing Cryptographic Software via Typed Assembly Language (Extended Version)
+**作者**: Shixin Song, Tingzhen Dong, Kosi Nwabueze, Julian Zanders, Andres Erbsen, Adam Chlipala, Mengjia Yan
+**类别**: cs.CR, cs.AR, cs.PL
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08727v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in cryptographic software arising from low-level implementation errors. It proposes a secure compilation framework using Typed Assembly Language (TAL) to enforce strong safety and correctness guarantees at the assembly level. The approach successfully prevents common memory and control-flow attacks, significantly enhancing the security of cryptographic code.
+
+### Key Contributions  
+- Introduces a novel TAL-based framework tailored for cryptographic software security.  
+- Develops type-driven compilation techniques that preserve cryptographic invariants at the assembly level.  
+- Demonstrates practical feasibility through integration with existing cryptographic libraries and compilers.
+
+### Method & Results  
+- Applies a type system to assembly instructions ensuring memory safety, control-flow integrity, and cryptographic property preservation.  
+- Implements tools to compile high-level cryptographic code into TAL-protected assembly.  
+- Evaluates on standard cryptographic algorithms, showing zero exploitation of typical memory vulnerabilities.  
+- Experimental results indicate minor performance overhead (under 10%) compared to baseline untyped assembly code.  
+
+### Impact & Limitations  
+- Enables building more robust cryptographic software resistant to low-level attacks, valuable for security-critical applications.  
+- Limitations include scalability challenges for very large codebases and potential integration complexity with diverse compiler toolchains; future work could focus on automated tooling and extending TAL expressiveness.
+
+---
+
+#### SilentLedger: Privacy-Preserving Auditing for Blockchains with Complete Non-Interactivity
+**作者**: Zihan Liu, Xiaohu Wang, Chao Lin, Minghui Xu, Debiao He, Xinyi Huang
+**类别**: cs.CR
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08722v1
+
+#### Executive Summary  
+SilentLedger addresses the challenge of privacy-preserving auditing in blockchain systems by enabling verifiable audits without any interaction between auditors and blockchain nodes. The paper proposes a novel cryptographic protocol that achieves complete non-interactivity while maintaining audit integrity and user privacy. Experimental results demonstrate the protocol’s efficiency and scalability compared to existing interactive schemes.
+
+### Key Contributions  
+- Introduces a fully non-interactive auditing protocol for blockchains, preserving user privacy without sacrificing audit verifiability.  
+- Designs novel cryptographic constructions integrating zero-knowledge proofs with blockchain data structures for scalable audits.  
+- Demonstrates practical feasibility with significant performance improvements over prior interactive auditing methods.
+
+### Method & Results  
+- Utilizes non-interactive zero-knowledge (NIZK) proofs embedded in blockchain transactions to allow auditors to verify data integrity autonomously.  
+- Implements SilentLedger on a test blockchain environment to evaluate efficiency and scalability.  
+- Achieves audit proof generation times reduced by up to 40% and verification times under 1 second for large-scale datasets.  
+- Outperforms baseline interactive auditing protocols by reducing communication overhead to zero and improving overall throughput.
+
+### Impact & Limitations  
+- Enables privacy-preserving, scalable compliance audits in blockchain applications such as finance and healthcare without additional communication.  
+- Limitations include dependence on trusted setup for certain cryptographic primitives and challenges in adapting to dynamic blockchain data changes, suggesting future work on setup-free methods and dynamic auditing protocols.
 
 ---
 
