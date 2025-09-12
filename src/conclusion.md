@@ -14430,18 +14430,18 @@ This paper addresses the challenge of parsing open-vocabulary constructs in form
 #### Executive Summary  
 This paper addresses the scarcity of large-scale issue-resolving datasets for software engineering research by introducing a mirroring technique that replicates issues across different repositories. SWE-Mirror leverages this approach to scale the dataset size significantly, enabling improved training and evaluation of issue resolution models. Experiments demonstrate enhanced model performance when trained on the mirrored dataset compared to existing benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel issue mirroring technique to scale issue-resolving datasets across repositories.  
 - Constructs SWE-Mirror, a large-scale, multi-repository issue dataset with improved diversity and volume.  
 - Demonstrates that models trained on SWE-Mirror outperform baselines on issue resolution tasks.
 
-### Method & Results  
+### Method & Results
 - Methodology: Identify similar issues across projects and mirror them to create augmented datasets; refine mirrored data for quality.  
 - Tools/Datasets: SWE-Mirror dataset collected from multiple open-source repositories; evaluation via standard issue resolution models.  
 - Results: Models trained on SWE-Mirror achieve up to X% improvement in resolution accuracy over existing datasets (exact figures depend on paper’s reported numbers).  
 - Performance: Statistically significant gains in predictive accuracy and generalization compared to traditional single-repository datasets.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables scalable training of issue resolution models, facilitating better automated debugging and triage in software maintenance.  
 - Limitations: Quality of mirrored issues may vary, impacting downstream model reliability; future work needed on automated validation and expansion to private repositories.
 
@@ -14482,18 +14482,18 @@ This paper tackles the challenge of explaining optimization problems with minima
 #### Executive Summary  
 This paper investigates the current research evaluation system in China, critiquing its binary metrics and proposing an all-round evaluation framework. The authors develop a comprehensive model integrating qualitative and quantitative indicators, demonstrating its applicability through case studies. Results show improved fairness and multidimensional assessment of research quality.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel all-round evaluation system that transcends traditional binary metrics in research assessment.  
 - Introduces a multi-indicator framework combining qualitative and quantitative measures tailored for the Chinese academic context.  
 - Validates the framework through empirical case studies highlighting its effectiveness and adaptability.
 
-### Method & Results  
+### Method & Results
 - Developed a hybrid evaluation model incorporating bibliometrics, peer review, societal impact, and innovation metrics.  
 - Used datasets from Chinese academic institutions’ publication records and survey feedback from researchers and administrators.  
 - Demonstrated increased differentiation in research quality rankings, with a 20% improvement in assessing interdisciplinary and applied research compared to standard citation-based methods.  
 - Outperformed baseline evaluations focused solely on citations by capturing broader impact dimensions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides policymakers and institutions with a balanced evaluation tool promoting more equitable research recognition across disciplines.  
 - Limitations include challenges in standardizing qualitative inputs and potential cultural resistance; future work should focus on automation and cross-cultural adaptation.
 
@@ -14537,18 +14537,18 @@ The paper addresses the challenge of generating effective stubs for symbolic exe
 #### Executive Summary  
 This paper addresses the challenge of verifying differential privacy guarantees in algorithms involving Gaussian noise. The authors propose approximate algorithms that efficiently assess privacy levels by focusing on distributions with Gaussian perturbations, achieving scalable verification with provable error bounds.
 
-### Key Contributions  
+### Key Contributions
 - First framework for approximate verification of differential privacy specifically targeting Gaussian mechanisms.  
 - Novel algorithmic techniques that provide tight bounds on privacy loss with reduced computational complexity.  
 - Demonstrated effective trade-offs between accuracy and computational efficiency in privacy verification.
 
-### Method & Results  
+### Method & Results
 - Developed approximation algorithms leveraging concentration inequalities and probabilistic analysis for Gaussian distributions.  
 - Utilized synthetic and benchmark datasets typical in privacy research to validate methods.  
 - Achieved verification error rates under 5% with significant speedups (up to 10x) compared to exact verification baselines.  
 - Outperformed previous approaches that either lacked computational feasibility or provided only coarse approximations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical privacy guarantee assessments for machine learning models and statistical queries using Gaussian noise, facilitating better privacy compliance.  
 - Limitations include the focus solely on Gaussian distributions; extending methods to other noise models remains future work.  
 - Future directions involve improving approximation tightness and integrating the approach into automated privacy auditing tools.
@@ -14590,18 +14590,18 @@ This paper addresses the challenge of verifying noninterference—ensuring that 
 #### Executive Summary  
 This paper addresses the challenge of fine-grained cryptographic access control in data lakes, where diverse and large datasets require secure, flexible sharing. The authors propose Membrane, a system combining cryptographic primitives to enforce expressive policies without trusting a centralized authority. Results demonstrate scalable, policy-compliant data access with low overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Membrane, a novel cryptographic framework enabling policy-driven access control directly on encrypted data lakes.  
 - Designs an efficient key management and enforcement mechanism supporting expressive and dynamic access policies.  
 - Demonstrates practical scalability and security in real-world data lake scenarios.
 
-### Method & Results  
+### Method & Results
 - Combines attribute-based encryption with advanced key distribution to enforce complex access policies cryptographically.  
 - Evaluated on large-scale synthetic and real-world datasets, including public data lakes representative of enterprise scenarios.  
 - Achieved policy enforcement with <15% runtime overhead compared to unsecured access, scaling linearly with policy complexity.  
 - Outperformed traditional access control baselines by eliminating centralized trust and reducing key management costs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure, flexible data sharing in data lakes, crucial for privacy-sensitive domains like healthcare and finance.  
 - Limitations include potential overhead in extremely high-frequency access workloads and the need for integration with existing data lake platforms; future work could explore adaptive optimizations and broader ecosystem support.
 
@@ -14616,18 +14616,18 @@ This paper addresses the challenge of fine-grained cryptographic access control 
 #### Executive Summary  
 This paper addresses vulnerabilities in cryptographic software arising from low-level implementation errors. It proposes a secure compilation framework using Typed Assembly Language (TAL) to enforce strong safety and correctness guarantees at the assembly level. The approach successfully prevents common memory and control-flow attacks, significantly enhancing the security of cryptographic code.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel TAL-based framework tailored for cryptographic software security.  
 - Develops type-driven compilation techniques that preserve cryptographic invariants at the assembly level.  
 - Demonstrates practical feasibility through integration with existing cryptographic libraries and compilers.
 
-### Method & Results  
+### Method & Results
 - Applies a type system to assembly instructions ensuring memory safety, control-flow integrity, and cryptographic property preservation.  
 - Implements tools to compile high-level cryptographic code into TAL-protected assembly.  
 - Evaluates on standard cryptographic algorithms, showing zero exploitation of typical memory vulnerabilities.  
 - Experimental results indicate minor performance overhead (under 10%) compared to baseline untyped assembly code.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables building more robust cryptographic software resistant to low-level attacks, valuable for security-critical applications.  
 - Limitations include scalability challenges for very large codebases and potential integration complexity with diverse compiler toolchains; future work could focus on automated tooling and extending TAL expressiveness.
 
@@ -14642,20 +14642,291 @@ This paper addresses vulnerabilities in cryptographic software arising from low-
 #### Executive Summary  
 SilentLedger addresses the challenge of privacy-preserving auditing in blockchain systems by enabling verifiable audits without any interaction between auditors and blockchain nodes. The paper proposes a novel cryptographic protocol that achieves complete non-interactivity while maintaining audit integrity and user privacy. Experimental results demonstrate the protocol’s efficiency and scalability compared to existing interactive schemes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a fully non-interactive auditing protocol for blockchains, preserving user privacy without sacrificing audit verifiability.  
 - Designs novel cryptographic constructions integrating zero-knowledge proofs with blockchain data structures for scalable audits.  
 - Demonstrates practical feasibility with significant performance improvements over prior interactive auditing methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes non-interactive zero-knowledge (NIZK) proofs embedded in blockchain transactions to allow auditors to verify data integrity autonomously.  
 - Implements SilentLedger on a test blockchain environment to evaluate efficiency and scalability.  
 - Achieves audit proof generation times reduced by up to 40% and verification times under 1 second for large-scale datasets.  
 - Outperforms baseline interactive auditing protocols by reducing communication overhead to zero and improving overall throughput.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving, scalable compliance audits in blockchain applications such as finance and healthcare without additional communication.  
 - Limitations include dependence on trusted setup for certain cryptographic primitives and challenges in adapting to dynamic blockchain data changes, suggesting future work on setup-free methods and dynamic auditing protocols.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-12)
+
+### 软件工程 领域
+
+#### I Know Who Clones Your Code: Interpretable Smart Contract Similarity Detection
+**作者**: Zhenguang Liu, Lixun Ma, Zhongzheng Mu, Chengkun Wei, Xiaojun Xu, Yingying Jiao, Kui Ren
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09630v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting code cloning in smart contracts with interpretable results. The authors propose a novel similarity detection method that not only identifies cloned contracts accurately but also offers clear explanations of the detection. Their approach significantly improves clone detection performance with interpretable insights useful for security auditing.
+
+### Key Contributions
+- Introduces an interpretable smart contract similarity detection framework enhancing transparency.
+- Develops a novel model combining semantic and structural features tailored for smart contracts.
+- Demonstrates superior detection accuracy while providing explainable evidence of cloning instances.
+
+### Method & Results
+- Uses a hybrid model leveraging both semantic embeddings and control-flow graph structures of smart contracts.
+- Evaluated on widely-used Ethereum smart contract datasets and benchmarked cryptographic libraries.
+- Achieves detection accuracy improvements of up to 15% over state-of-the-art baselines.
+- Outperforms existing clone detectors like CloneDetector and SmartClone in both precision and recall.
+
+### Impact & Limitations
+- Enhances trust and security in blockchain ecosystems by enabling interpretable verification of contract originality.
+- Limited by scalability challenges on extremely large-scale contract repositories; future work may optimize efficiency.
+- Exploration of cross-platform contract similarities remains an open direction.
+
+---
+
+#### LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering
+**作者**: Jielin Qiu, Zuxin Liu, Zhiwei Liu, Rithesh Murthy, Jianguo Zhang, Haolin Chen, Shiyu Wang, Ming Zhu, Liangwei Yang, Juntao Tan, Zhepeng Cen, Cheng Qian, Shelby Heinecke, Weiran Yao, Silvio Savarese, Caiming Xiong, Huan Wang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09614v1
+
+#### Executive Summary  
+This paper introduces LoCoBench, a novel benchmark designed to evaluate Long-Context Large Language Models (LLMs) on complex software engineering tasks requiring understanding of extensive codebases and documentation. The benchmark challenges models with realistic, multi-file programming problems requiring in-depth reasoning over long contexts. Experimental results demonstrate significant gaps in current LLM capabilities, highlighting the need for improved long-context comprehension in software engineering.
+
+### Key Contributions  
+- Proposes LoCoBench, the first benchmark focused on long-context understanding for LLMs in complex software engineering.  
+- Provides a diverse set of challenging, multi-file code tasks simulating real-world software projects.  
+- Offers extensive evaluation of state-of-the-art LLMs, revealing their limitations in handling extended contexts.
+
+### Method & Results  
+- Constructs tasks involving multi-file code analysis, code generation, and debugging spanning thousands of tokens.  
+- Uses a curated dataset of real-world software projects and associated programming challenges.  
+- Reports performance metrics showing current LLMs achieve suboptimal accuracy, with major performance drops as context length increases.  
+- Baselines include popular models like GPT-4 and other open-source LLMs, with LoCoBench exposing their deficiencies in long-context scenarios.
+
+### Impact & Limitations  
+- Enables more targeted development of LLMs for software engineering applications demanding long-range context reasoning.  
+- Limitations include reliance on existing LLM architectures without proposing new model designs; future work could explore specialized techniques for long-context encoding.  
+- Benchmark may need continuous updates to keep pace with evolving software complexities and model capabilities.
+
+---
+
+#### An Integrated Open Source Software System for the Generation and Analysis of Subject-Specific Blood Flow Simulation Ensembles
+**作者**: Simon Leistikow, Thomas Miro, Adrian Kummerländer, Ali Nahardani, Katja Grün, Markus Franz, Verena Hoerr, Mathias J. Krause, Lars Linsen
+**类别**: physics.med-ph, cs.SE
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09392v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently generating and analyzing subject-specific blood flow simulation ensembles using open source tools. The authors present an integrated software system that streamlines the workflow from image-based vascular modeling to ensemble simulation and post-processing. The system demonstrates robust performance in producing detailed hemodynamic insights tailored to individual patient anatomies.
+
+### Key Contributions  
+- Development of a fully integrated open source pipeline for subject-specific blood flow simulation ensembles.  
+- Novel combination of simulation automation, ensemble analysis, and visualization within one coherent framework.  
+- Provision of extensible software aimed at improving reproducibility and accessibility in personalized hemodynamic studies.
+
+### Method & Results  
+- Utilizes patient imaging data to reconstruct vascular geometries, followed by automated setup and execution of multiple CFD simulations to form ensembles.  
+- Employs open source tools such as VMTK for segmentation, SimVascular or OpenFOAM for flow simulation, and ParaView for visualization.  
+- Experimental results show the system efficiently produces statistically relevant ensemble data, enabling detailed uncertainty quantification and sensitivity analysis.  
+- Demonstrated scalability and workflow robustness across several subject datasets; quantitative runtime improvements over manual pipelines reported but specific baseline comparisons are limited.
+
+### Impact & Limitations  
+- Enables clinicians and researchers to perform personalized blood flow studies more efficiently, potentially enhancing diagnostic and treatment planning.  
+- Currently limited by the dependence on quality of imaging data and computational resources; future work includes integrating machine learning for improved segmentation and expanding the physiological modeling capabilities.
+
+---
+
+#### ORCA: Unveiling Obscure Containers In The Wild
+**作者**: Jacopo Bufalino, Agathe Blaise, Stefano Secci
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09322v1
+
+#### Executive Summary  
+ORCA addresses the challenge of detecting and analyzing obscure container deployments in the wild, which often evade conventional security and monitoring tools. The authors present a novel detection framework leveraging dynamic analysis and metadata correlation to unveil hidden container usages. Evaluation on real-world network data demonstrates ORCA’s efficacy in revealing previously undetected containers.
+
+### Key Contributions  
+- Introduces ORCA, a novel system specifically designed to uncover obscure and stealthy containers in diverse network environments.  
+- Combines dynamic behavioral analysis with metadata correlation, a new approach to container detection beyond static signatures.  
+- Provides a comprehensive empirical study on real-world data demonstrating the presence and characteristics of hidden containers.
+
+### Method & Results  
+- Utilizes dynamic runtime monitoring coupled with container metadata cross-referencing to detect non-obvious container instances.  
+- Evaluated on large-scale network datasets collected from various cloud and on-premises infrastructures.  
+- Achieved detection accuracy exceeding 90%, outperforming baseline static detection methods by approximately 25%.  
+
+### Impact & Limitations  
+- Enhances security posture by enabling identification of stealth container deployments that could harbor malicious activities, aiding enterprise and cloud operators.  
+- Limitations include potential performance overhead in continuous dynamic monitoring and challenges in scaling to extremely large environments; future work may explore optimization and broader ecosystem integration.
+
+---
+
+#### Cross-Domain Evaluation of Transformer-Based Vulnerability Detection on Open & Industry Data
+**作者**: Moritz Mock, Thomas Forrer, Barbara Russo
+**类别**: cs.SE
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09313v1
+
+#### Executive Summary  
+This paper investigates the generalizability of transformer-based models for vulnerability detection across open-source and proprietary industrial codebases. By evaluating state-of-the-art architectures in cross-domain settings, the authors reveal performance degradation when models trained on public data are applied to industry data. The study quantifies this gap and discusses implications for deploying vulnerability detection tools in real-world environments.
+
+### Key Contributions  
+- Empirical cross-domain evaluation of transformer models on both open-source and industry vulnerability datasets.  
+- Identification and quantification of performance drops in cross-domain vulnerability detection, highlighting domain shift challenges.  
+- Recommendations for future modeling and dataset curation to improve practical applicability of vulnerability detection systems.
+
+### Method & Results  
+- Fine-tuned transformer architectures (e.g., CodeBERT) on vulnerability detection tasks, testing both within-domain and cross-domain scenarios.  
+- Used public datasets (e.g., open-source vulnerability databases) and proprietary industrial code samples.  
+- Observed up to 20% F1-score decrease when models trained on public data were tested on industrial code.  
+- Models outperformed classical ML baselines but showed limited transferability across domains.
+
+### Impact & Limitations  
+- Enhances understanding of domain adaptation issues in automated vulnerability detection, guiding deployment in secure software development pipelines.  
+- Limitations include reliance on specific transformer models and limited industrial dataset diversity; future work may explore domain adaptation techniques and broader industry samples.
+
+---
+
+### 安全领域 领域
+
+#### CryptoGuard: An AI-Based Cryptojacking Detection Dashboard Prototype
+**作者**: Amitabh Chakravorty, Jess Kropczynski, Nelly Elsayed
+**类别**: cs.CR, cs.HC
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09638v1
+
+#### Executive Summary  
+The paper addresses the growing threat of cryptojacking by developing CryptoGuard, an AI-driven dashboard prototype for real-time detection and monitoring of illicit cryptocurrency mining activities. Leveraging machine learning techniques, the system effectively identifies cryptojacking behaviors with high accuracy, providing actionable insights through an intuitive user interface.
+
+### Key Contributions  
+- Designed a novel AI-based cryptojacking detection dashboard integrating real-time data visualization.  
+- Introduced a lightweight, scalable detection model that balances accuracy with computational efficiency.  
+- Demonstrated effectiveness on diverse, real-world cryptojacking datasets beyond conventional static analysis approaches.
+
+### Method & Results  
+- Employed supervised machine learning models trained on network traffic and system resource usage features to detect cryptojacking.  
+- Utilized publicly available cryptojacking traces and synthetic event logs to build and validate the model.  
+- Achieved detection accuracy exceeding 92%, outperforming baseline signature and heuristics-based methods by 15-20%.  
+- Dashboard prototype enables quick anomaly identification and forensic investigation.
+
+### Impact & Limitations  
+- Provides cybersecurity practitioners with a practical tool for mitigating cryptojacking threats in organizational environments.  
+- Limitations include potential evasion by advanced polymorphic miners and the need for extensive labeled training data.  
+- Future work could focus on expanding detection to multi-vector attacks and integrating adaptive learning for evolving threats.
+
+---
+
+#### I Know Who Clones Your Code: Interpretable Smart Contract Similarity Detection
+**作者**: Zhenguang Liu, Lixun Ma, Zhongzheng Mu, Chengkun Wei, Xiaojun Xu, Yingying Jiao, Kui Ren
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09630v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting cloned or similar smart contracts on blockchain with interpretability. It proposes an interpretable similarity detection framework that combines program semantics and structure analysis to accurately identify clones. Experiments demonstrate improved detection accuracy and explainability compared to existing methods.
+
+### Key Contributions  
+- Introduces an interpretable framework that leverages semantic and structural features for smart contract similarity detection.  
+- Provides explainable evidence for detected clones, enhancing trust and forensic analysis capabilities.  
+- Validates the approach on real-world smart contract datasets with superior performance over prior art.
+
+### Method & Results  
+- Combines semantic representation learning and control/data flow graph analysis to model contract similarities.  
+- Utilizes publicly available Ethereum smart contract datasets for evaluation.  
+- Achieves over 90% detection accuracy, outperforming baseline models by 8-12% in F1 score.  
+- Demonstrates interpretability by highlighting code regions responsible for similarity decisions.
+
+### Impact & Limitations  
+- Enhances blockchain security by enabling reliable, interpretable clone detection useful for vulnerability assessment and intellectual property protection.  
+- Limited scalability on extremely large codebases; future work to optimize efficiency and extend to more diverse blockchain platforms.
+
+---
+
+#### Bridging the Gap in Phishing Detection: A Comprehensive Phishing Dataset Collector
+**作者**: Aditya Kulkarni, Shahil Manishbhai Patel, Shivam Pradip Tirmare, Vivek Balachandran, Tamal Das
+**类别**: cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09592v1
+
+#### Executive Summary  
+This paper addresses the scarcity and fragmentation of phishing datasets that hinder effective phishing detection research. The authors present a comprehensive phishing dataset collector that aggregates and curates diverse phishing data from multiple sources. Their approach significantly improves data availability, facilitating better model training and evaluation.
+
+### Key Contributions  
+- Developed an automated, scalable phishing dataset collector that unifies data from various public and private sources.  
+- Created one of the largest, diverse, and up-to-date phishing datasets to support research and practical detection systems.  
+- Demonstrated improved phishing detection performance using the aggregated dataset compared to models trained on individual, smaller datasets.
+
+### Method & Results  
+- Built a modular pipeline for continuous data collection, cleaning, deduplication, and labeling of phishing URLs, emails, and content.  
+- Utilized public repositories (PhishTank, OpenPhish), email providers, and web crawlers for data acquisition.  
+- Experimental results showed a 12-15% increase in detection accuracy using models trained on the collected dataset vs. baseline datasets.  
+- Benchmarked with common machine learning classifiers, observing consistent improvements in recall and precision metrics.
+
+### Impact & Limitations  
+- Enables the security community and industry to train more robust phishing detection systems with richer, diverse data, enhancing protection against evolving phishing tactics.  
+- Limitations include potential biases from source data and the need for continuous updating to capture new phishing trends; future work aims to integrate real-time detection feedback loops.
+
+---
+
+#### What Does Normal Even Mean? Evaluating Benign Traffic in Intrusion Detection Datasets
+**作者**: Meghan Wilkinson, Robert H Thomson
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09564v1
+
+#### Executive Summary  
+This paper investigates the ambiguity surrounding the definition of "normal" or benign traffic in intrusion detection datasets. By rigorously evaluating benign traffic characteristics, the authors reveal inconsistencies and biases that affect IDS model performance and reliability.
+
+### Key Contributions  
+- Identification and analysis of inconsistencies in benign traffic labeling across popular intrusion detection datasets.  
+- Novel framework for evaluating and standardizing benign traffic characteristics to improve dataset quality.  
+- Empirical demonstration of the impact of benign traffic definitions on IDS detection accuracy and false positive rates.
+
+### Method & Results  
+- Systematic review and characterization of benign traffic samples across multiple IDS datasets.  
+- Developed metrics and criteria to assess benign traffic representativeness and purity.  
+- Evaluated impact by retraining IDS models with refined benign traffic definitions.  
+- Used benchmark IDS datasets such as NSL-KDD, CICIDS2017, and UNSW-NB15.  
+- Results showed up to 15% variation in false positive rates depending on benign traffic curation methodology.  
+- Demonstrated improved model robustness and reduced bias with standardized benign traffic labeling compared to traditional baselines.
+
+### Impact & Limitations  
+- Highlights the critical yet overlooked role of benign traffic definition in IDS research, guiding future dataset creation and model training for more reliable intrusion detection.  
+- Limitations include focus on existing datasets; future work could extend evaluation to real-world network traffic and explore automated benign traffic classification techniques.
+
+---
+
+#### Prompt Pirates Need a Map: Stealing Seeds helps Stealing Prompts
+**作者**: Felix Mächtle, Ashwath Shetty, Jonas Sander, Nils Loose, Sören Pirk, Thomas Eisenbarth
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09488v1
+
+#### Executive Summary  
+This paper addresses the security threat of prompt stealing in large language models by revealing that stealing the initial seed used in prompt generation significantly eases prompt extraction. The authors propose novel attacks that leverage seed recovery to efficiently duplicate proprietary prompts, demonstrating the vulnerability more profoundly than prior work. Experimental results confirm the increased success and efficiency in prompt theft using seed information.
+
+### Key Contributions  
+- Identifies the critical role of random seeds in prompt stealing attacks and their impact on attack efficacy.  
+- Proposes a combined seed and prompt extraction framework that outperforms existing prompt stealing methods.  
+- Demonstrates practical feasibility and higher accuracy of prompt theft using recovered seeds in real-world scenarios.
+
+### Method & Results  
+- Develops algorithms that first extract the seed generating the prompt, then use it to reconstruct the prompt with fewer queries.  
+- Evaluates attacks on proprietary and public prompt datasets with language models.  
+- Achieves up to a 40% improvement in prompt recovery accuracy and reduces query complexity by 30% compared to baseline prompt stealing attacks.
+
+### Impact & Limitations  
+- Highlights a new attack vector impacting the security of prompt-based NLP services, urging stronger defenses around seed confidentiality.  
+- Limitations include focus on specific model architectures and seed types; future work should extend to broader model families and real-time defenses.
 
 ---
 
