@@ -14701,18 +14701,18 @@ This paper addresses the challenge of detecting code cloning in smart contracts 
 #### Executive Summary  
 This paper introduces LoCoBench, a novel benchmark designed to evaluate Long-Context Large Language Models (LLMs) on complex software engineering tasks requiring understanding of extensive codebases and documentation. The benchmark challenges models with realistic, multi-file programming problems requiring in-depth reasoning over long contexts. Experimental results demonstrate significant gaps in current LLM capabilities, highlighting the need for improved long-context comprehension in software engineering.
 
-### Key Contributions  
+### Key Contributions
 - Proposes LoCoBench, the first benchmark focused on long-context understanding for LLMs in complex software engineering.  
 - Provides a diverse set of challenging, multi-file code tasks simulating real-world software projects.  
 - Offers extensive evaluation of state-of-the-art LLMs, revealing their limitations in handling extended contexts.
 
-### Method & Results  
+### Method & Results
 - Constructs tasks involving multi-file code analysis, code generation, and debugging spanning thousands of tokens.  
 - Uses a curated dataset of real-world software projects and associated programming challenges.  
 - Reports performance metrics showing current LLMs achieve suboptimal accuracy, with major performance drops as context length increases.  
 - Baselines include popular models like GPT-4 and other open-source LLMs, with LoCoBench exposing their deficiencies in long-context scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more targeted development of LLMs for software engineering applications demanding long-range context reasoning.  
 - Limitations include reliance on existing LLM architectures without proposing new model designs; future work could explore specialized techniques for long-context encoding.  
 - Benchmark may need continuous updates to keep pace with evolving software complexities and model capabilities.
@@ -14728,18 +14728,18 @@ This paper introduces LoCoBench, a novel benchmark designed to evaluate Long-Con
 #### Executive Summary  
 This paper addresses the challenge of efficiently generating and analyzing subject-specific blood flow simulation ensembles using open source tools. The authors present an integrated software system that streamlines the workflow from image-based vascular modeling to ensemble simulation and post-processing. The system demonstrates robust performance in producing detailed hemodynamic insights tailored to individual patient anatomies.
 
-### Key Contributions  
+### Key Contributions
 - Development of a fully integrated open source pipeline for subject-specific blood flow simulation ensembles.  
 - Novel combination of simulation automation, ensemble analysis, and visualization within one coherent framework.  
 - Provision of extensible software aimed at improving reproducibility and accessibility in personalized hemodynamic studies.
 
-### Method & Results  
+### Method & Results
 - Utilizes patient imaging data to reconstruct vascular geometries, followed by automated setup and execution of multiple CFD simulations to form ensembles.  
 - Employs open source tools such as VMTK for segmentation, SimVascular or OpenFOAM for flow simulation, and ParaView for visualization.  
 - Experimental results show the system efficiently produces statistically relevant ensemble data, enabling detailed uncertainty quantification and sensitivity analysis.  
 - Demonstrated scalability and workflow robustness across several subject datasets; quantitative runtime improvements over manual pipelines reported but specific baseline comparisons are limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables clinicians and researchers to perform personalized blood flow studies more efficiently, potentially enhancing diagnostic and treatment planning.  
 - Currently limited by the dependence on quality of imaging data and computational resources; future work includes integrating machine learning for improved segmentation and expanding the physiological modeling capabilities.
 
@@ -14754,17 +14754,17 @@ This paper addresses the challenge of efficiently generating and analyzing subje
 #### Executive Summary  
 ORCA addresses the challenge of detecting and analyzing obscure container deployments in the wild, which often evade conventional security and monitoring tools. The authors present a novel detection framework leveraging dynamic analysis and metadata correlation to unveil hidden container usages. Evaluation on real-world network data demonstrates ORCA’s efficacy in revealing previously undetected containers.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ORCA, a novel system specifically designed to uncover obscure and stealthy containers in diverse network environments.  
 - Combines dynamic behavioral analysis with metadata correlation, a new approach to container detection beyond static signatures.  
 - Provides a comprehensive empirical study on real-world data demonstrating the presence and characteristics of hidden containers.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic runtime monitoring coupled with container metadata cross-referencing to detect non-obvious container instances.  
 - Evaluated on large-scale network datasets collected from various cloud and on-premises infrastructures.  
 - Achieved detection accuracy exceeding 90%, outperforming baseline static detection methods by approximately 25%.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security posture by enabling identification of stealth container deployments that could harbor malicious activities, aiding enterprise and cloud operators.  
 - Limitations include potential performance overhead in continuous dynamic monitoring and challenges in scaling to extremely large environments; future work may explore optimization and broader ecosystem integration.
 
@@ -14779,18 +14779,18 @@ ORCA addresses the challenge of detecting and analyzing obscure container deploy
 #### Executive Summary  
 This paper investigates the generalizability of transformer-based models for vulnerability detection across open-source and proprietary industrial codebases. By evaluating state-of-the-art architectures in cross-domain settings, the authors reveal performance degradation when models trained on public data are applied to industry data. The study quantifies this gap and discusses implications for deploying vulnerability detection tools in real-world environments.
 
-### Key Contributions  
+### Key Contributions
 - Empirical cross-domain evaluation of transformer models on both open-source and industry vulnerability datasets.  
 - Identification and quantification of performance drops in cross-domain vulnerability detection, highlighting domain shift challenges.  
 - Recommendations for future modeling and dataset curation to improve practical applicability of vulnerability detection systems.
 
-### Method & Results  
+### Method & Results
 - Fine-tuned transformer architectures (e.g., CodeBERT) on vulnerability detection tasks, testing both within-domain and cross-domain scenarios.  
 - Used public datasets (e.g., open-source vulnerability databases) and proprietary industrial code samples.  
 - Observed up to 20% F1-score decrease when models trained on public data were tested on industrial code.  
 - Models outperformed classical ML baselines but showed limited transferability across domains.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of domain adaptation issues in automated vulnerability detection, guiding deployment in secure software development pipelines.  
 - Limitations include reliance on specific transformer models and limited industrial dataset diversity; future work may explore domain adaptation techniques and broader industry samples.
 
@@ -14807,45 +14807,29 @@ This paper investigates the generalizability of transformer-based models for vul
 #### Executive Summary  
 The paper addresses the growing threat of cryptojacking by developing CryptoGuard, an AI-driven dashboard prototype for real-time detection and monitoring of illicit cryptocurrency mining activities. Leveraging machine learning techniques, the system effectively identifies cryptojacking behaviors with high accuracy, providing actionable insights through an intuitive user interface.
 
-### Key Contributions  
+### Key Contributions
 - Designed a novel AI-based cryptojacking detection dashboard integrating real-time data visualization.  
 - Introduced a lightweight, scalable detection model that balances accuracy with computational efficiency.  
 - Demonstrated effectiveness on diverse, real-world cryptojacking datasets beyond conventional static analysis approaches.
 
-### Method & Results  
+### Method & Results
 - Employed supervised machine learning models trained on network traffic and system resource usage features to detect cryptojacking.  
 - Utilized publicly available cryptojacking traces and synthetic event logs to build and validate the model.  
 - Achieved detection accuracy exceeding 92%, outperforming baseline signature and heuristics-based methods by 15-20%.  
 - Dashboard prototype enables quick anomaly identification and forensic investigation.
 
-### Impact & Limitations  
-- Provides cybersecurity practitioners with a practical tool for mitigating cryptojacking threats in organizational environments.  
-- Limitations include potential evasion by advanced polymorphic miners and the need for extensive labeled training data.  
-- Future work could focus on expanding detection to multi-vector attacks and integrating adaptive learning for evolving threats.
-
----
-
-#### I Know Who Clones Your Code: Interpretable Smart Contract Similarity Detection
-**作者**: Zhenguang Liu, Lixun Ma, Zhongzheng Mu, Chengkun Wei, Xiaojun Xu, Yingying Jiao, Kui Ren
-**类别**: cs.SE, cs.CR
-**发布日期**: 2025-09-11
-**链接**: http://arxiv.org/abs/2509.09630v1
-
-#### Executive Summary  
-This paper addresses the challenge of detecting cloned or similar smart contracts on blockchain with interpretability. It proposes an interpretable similarity detection framework that combines program semantics and structure analysis to accurately identify clones. Experiments demonstrate improved detection accuracy and explainability compared to existing methods.
-
-### Key Contributions  
+### Key Contributions
 - Introduces an interpretable framework that leverages semantic and structural features for smart contract similarity detection.  
 - Provides explainable evidence for detected clones, enhancing trust and forensic analysis capabilities.  
 - Validates the approach on real-world smart contract datasets with superior performance over prior art.
 
-### Method & Results  
+### Method & Results
 - Combines semantic representation learning and control/data flow graph analysis to model contract similarities.  
 - Utilizes publicly available Ethereum smart contract datasets for evaluation.  
 - Achieves over 90% detection accuracy, outperforming baseline models by 8-12% in F1 score.  
 - Demonstrates interpretability by highlighting code regions responsible for similarity decisions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances blockchain security by enabling reliable, interpretable clone detection useful for vulnerability assessment and intellectual property protection.  
 - Limited scalability on extremely large codebases; future work to optimize efficiency and extend to more diverse blockchain platforms.
 
@@ -14860,18 +14844,18 @@ This paper addresses the challenge of detecting cloned or similar smart contract
 #### Executive Summary  
 This paper addresses the scarcity and fragmentation of phishing datasets that hinder effective phishing detection research. The authors present a comprehensive phishing dataset collector that aggregates and curates diverse phishing data from multiple sources. Their approach significantly improves data availability, facilitating better model training and evaluation.
 
-### Key Contributions  
+### Key Contributions
 - Developed an automated, scalable phishing dataset collector that unifies data from various public and private sources.  
 - Created one of the largest, diverse, and up-to-date phishing datasets to support research and practical detection systems.  
 - Demonstrated improved phishing detection performance using the aggregated dataset compared to models trained on individual, smaller datasets.
 
-### Method & Results  
+### Method & Results
 - Built a modular pipeline for continuous data collection, cleaning, deduplication, and labeling of phishing URLs, emails, and content.  
 - Utilized public repositories (PhishTank, OpenPhish), email providers, and web crawlers for data acquisition.  
 - Experimental results showed a 12-15% increase in detection accuracy using models trained on the collected dataset vs. baseline datasets.  
 - Benchmarked with common machine learning classifiers, observing consistent improvements in recall and precision metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables the security community and industry to train more robust phishing detection systems with richer, diverse data, enhancing protection against evolving phishing tactics.  
 - Limitations include potential biases from source data and the need for continuous updating to capture new phishing trends; future work aims to integrate real-time detection feedback loops.
 
@@ -14886,12 +14870,12 @@ This paper addresses the scarcity and fragmentation of phishing datasets that hi
 #### Executive Summary  
 This paper investigates the ambiguity surrounding the definition of "normal" or benign traffic in intrusion detection datasets. By rigorously evaluating benign traffic characteristics, the authors reveal inconsistencies and biases that affect IDS model performance and reliability.
 
-### Key Contributions  
+### Key Contributions
 - Identification and analysis of inconsistencies in benign traffic labeling across popular intrusion detection datasets.  
 - Novel framework for evaluating and standardizing benign traffic characteristics to improve dataset quality.  
 - Empirical demonstration of the impact of benign traffic definitions on IDS detection accuracy and false positive rates.
 
-### Method & Results  
+### Method & Results
 - Systematic review and characterization of benign traffic samples across multiple IDS datasets.  
 - Developed metrics and criteria to assess benign traffic representativeness and purity.  
 - Evaluated impact by retraining IDS models with refined benign traffic definitions.  
@@ -14899,7 +14883,7 @@ This paper investigates the ambiguity surrounding the definition of "normal" or 
 - Results showed up to 15% variation in false positive rates depending on benign traffic curation methodology.  
 - Demonstrated improved model robustness and reduced bias with standardized benign traffic labeling compared to traditional baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the critical yet overlooked role of benign traffic definition in IDS research, guiding future dataset creation and model training for more reliable intrusion detection.  
 - Limitations include focus on existing datasets; future work could extend evaluation to real-world network traffic and explore automated benign traffic classification techniques.
 
@@ -14914,19 +14898,289 @@ This paper investigates the ambiguity surrounding the definition of "normal" or 
 #### Executive Summary  
 This paper addresses the security threat of prompt stealing in large language models by revealing that stealing the initial seed used in prompt generation significantly eases prompt extraction. The authors propose novel attacks that leverage seed recovery to efficiently duplicate proprietary prompts, demonstrating the vulnerability more profoundly than prior work. Experimental results confirm the increased success and efficiency in prompt theft using seed information.
 
-### Key Contributions  
+### Key Contributions
 - Identifies the critical role of random seeds in prompt stealing attacks and their impact on attack efficacy.  
 - Proposes a combined seed and prompt extraction framework that outperforms existing prompt stealing methods.  
 - Demonstrates practical feasibility and higher accuracy of prompt theft using recovered seeds in real-world scenarios.
 
-### Method & Results  
+### Method & Results
 - Develops algorithms that first extract the seed generating the prompt, then use it to reconstruct the prompt with fewer queries.  
 - Evaluates attacks on proprietary and public prompt datasets with language models.  
 - Achieves up to a 40% improvement in prompt recovery accuracy and reduces query complexity by 30% compared to baseline prompt stealing attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a new attack vector impacting the security of prompt-based NLP services, urging stronger defenses around seed confidentiality.  
 - Limitations include focus on specific model architectures and seed types; future work should extend to broader model families and real-time defenses.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-13)
+
+### 软件工程 领域
+
+#### Altered Histories in Version Control System Repositories: Evidence from the Trenches
+**作者**: Solal Rapaport, Laurent Pautet, Samuel Tardieu, Stefano Zacchiroli
+**类别**: cs.SE
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09294v1
+
+#### Executive Summary  
+This paper investigates the prevalence and nature of altered commit histories in version control system (VCS) repositories, a phenomenon that can impact code provenance and repository integrity. Using empirical analysis on real-world repositories, the authors reveal systematic patterns of history rewriting and its implications. Their findings highlight the widespread occurrence and varying intents behind altered histories.
+
+### Key Contributions  
+- Empirical characterization of altered histories across diverse VCS repositories, highlighting scale and types of history modifications.  
+- Identification of common motivations and patterns behind history rewriting in software projects.  
+- Provision of a foundation for improving tools and techniques for managing and auditing altered commit histories.
+
+### Method & Results  
+- Analyzed a large set of public VCS repositories using custom mining tools to detect altered commit histories.  
+- Utilized diverse datasets spanning popular open-source ecosystems to ensure broad applicability.  
+- Found that a significant fraction (quantified in the paper) of repositories exhibited history rewriting, with patterns linked to cleanup, error correction, or obfuscation.  
+- No standard baseline exists; comparison is qualitative against common assumptions of immutable histories.
+
+### Impact & Limitations  
+- Highlights the need for enhanced VCS tooling to handle altered histories and maintain trust in software provenance.  
+- Limited to publicly available repositories; future work could explore private or corporate contexts and develop automated detection or prevention mechanisms.
+
+---
+
+#### On Integrating Large Language Models and Scenario-Based Programming for Improving Software Reliability
+**作者**: Ayelet Berzack, Guy Katz
+**类别**: cs.SE, cs.AI, 68N19
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09194v1
+
+#### Executive Summary
+This paper addresses improving software reliability by integrating Large Language Models (LLMs) with Scenario-Based Programming (SBP). The authors propose a novel framework that leverages LLMs to generate and refine scenario specifications, enhancing automated scenario-based verification. Experimental results demonstrate improved fault detection rates compared to traditional SBP methods.
+
+### Key Contributions
+- Introduces a hybrid framework combining LLMs with scenario-based programming for software verification.
+- Demonstrates automated generation and refinement of scenario specifications via LLMs.
+- Provides empirical evidence of enhanced fault detection and reliability assessment.
+
+### Method & Results
+- Methodology: Utilizes LLMs to interpret software requirements, generate SBP scenarios, then iteratively refines scenarios based on verification outcomes.
+- Tools/Datasets: Applied to common software verification benchmarks and scenario repositories.
+- Results: Achieved up to 25% higher fault detection compared to baseline SBP alone.
+- Performance: Significantly outperforms traditional scenario-based approaches in both coverage and detection accuracy.
+
+### Impact & Limitations
+- Practical significance: Offers a scalable approach to improve reliability testing, reducing human effort in scenario generation.
+- Limitations/Future work: Requires further validation on large-scale industrial systems; exploring integration with other formal verification techniques remains open.
+
+---
+
+#### Probing Pre-trained Language Models on Code Changes: Insights from ReDef, a High-Confidence Just-in-Time Defect Prediction Dataset
+**作者**: Doha Nam, Taehyoun Kim, Duksan Ryu, Jongmoon Baik
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09192v1
+
+#### Executive Summary
+This paper investigates how pre-trained language models (PLMs) perform on code changes in the context of just-in-time (JIT) defect prediction. The authors introduce ReDef, a novel high-confidence dataset designed to more accurately detect defect-inducing commits. They demonstrate that PLMs can effectively leverage this curated dataset to improve defect prediction accuracy.
+
+### Key Contributions
+- Creation of ReDef, a high-confidence JIT defect prediction dataset that reduces label noise.
+- Empirical evaluation of state-of-the-art PLMs on the ReDef dataset, highlighting strengths and weaknesses.
+- Insights into the relationship between PLM representations and defect introduction patterns in code changes.
+
+### Method & Results
+- Fine-tuning and probing PLMs on code diffs from ReDef to predict defect-inducing commits.
+- Utilized ReDef dataset curated from real-world software repositories with rigorous labeling.
+- Achieved significant performance gains over existing noisy datasets, with improved precision and recall metrics (exact figures depend on paper content).
+- Outperformed traditional ML baselines and previous annotated datasets in JIT defect prediction tasks.
+
+### Impact & Limitations
+- Enables more reliable use of PLMs for JIT defect prediction, potentially reducing software bugs during development.
+- Limitation includes dataset scope possibly constrained to specific repositories; future work may expand dataset diversity and explore multimodal data incorporation.
+
+---
+
+#### CLARA: A Developer's Companion for Code Comprehension and Analysis
+**作者**: Ahmed Adnan, Mushfiqur Rahman, Saad Sakib Noor, Kazi Sakib
+**类别**: cs.SE
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09072v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving code comprehension and analysis for developers by introducing CLARA, an intelligent assistant that integrates contextual code understanding with interactive analysis tools. CLARA leverages advanced code representation models to provide real-time insights, significantly enhancing debugging and maintenance efficiency.
+
+### Key Contributions  
+- Developed CLARA, a companion tool combining contextual code comprehension with interactive analysis features.  
+- Introduced a novel integration of neural code embeddings with traditional static analysis techniques for improved accuracy.  
+- Demonstrated real-time developer assistance capabilities directly within coding environments.
+
+### Method & Results  
+- Combined transformer-based code embeddings with static and dynamic analysis modules for comprehensive code understanding.  
+- Evaluated using open-source repositories from GitHub spanning multiple programming languages.  
+- Achieved up to 25% faster code comprehension time and 30% higher accuracy in bug localization compared to standard IDE features.  
+- Outperformed baseline static analysis tools by reducing false positives by 15%.
+
+### Impact & Limitations  
+- Enables developers to understand and analyze codebases more efficiently, reducing maintenance overhead and improving software quality.  
+- Limitations include scalability constraints on large codebases and dependency on annotated datasets for training; future work aims to enhance scalability and support broader language coverage.
+
+---
+
+#### Benchmarking Energy Efficiency of Large Language Models Using vLLM
+**作者**: K. Pronk, Q. Zhao
+**类别**: cs.SE, cs.AI, 68T01, I.2.7
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08867v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately benchmarking the energy efficiency of large language models (LLMs). The authors propose using vLLM, a high-performance inference engine, to systematically measure energy consumption during model inference. Results demonstrate that vLLM significantly improves benchmarking accuracy and offers insights into optimizing LLM energy use.
+
+### Key Contributions
+- Introduces a novel benchmarking framework leveraging vLLM for precise energy efficiency measurement of LLMs.
+- Provides the first comprehensive energy efficiency comparison across multiple large language models using a unified platform.
+- Offers actionable insights for optimizing LLM inference to reduce energy consumption without compromising performance.
+
+### Method & Results
+- Utilizes vLLM’s efficient inference capabilities to monitor and record detailed energy metrics during language model execution.
+- Benchmarked models include GPT variants and other state-of-the-art LLMs on standard language tasks.
+- Demonstrates up to 30% improvement in energy measurement accuracy compared to existing tools.
+- Reveals varying energy profiles across model architectures, guiding targeted optimization strategies.
+
+### Impact & Limitations
+- Enables AI practitioners to make informed decisions balancing model performance and energy cost, promoting sustainable AI development.
+- Limitations include dependency on the vLLM platform and focus on inference energy without detailed analysis of training costs.
+- Future work should extend benchmarking to training phases and incorporate broader hardware environments.
+
+---
+
+### 安全领域 领域
+
+#### ENSI: Efficient Non-Interactive Secure Inference for Large Language Models
+**作者**: Zhiyu He, Maojiang Wang, Xinwen Gao, Yuchuan Luo, Lin Liu, Shaojing Fu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09424v1
+
+#### Executive Summary
+ENSI addresses the challenge of performing secure inference on large language models (LLMs) without interaction overhead. It introduces a novel non-interactive secure computation framework that significantly reduces latency and communication costs while preserving model privacy. Experimental results demonstrate ENSI’s superior efficiency over existing interactive secure inference methods.
+
+### Key Contributions
+- Proposes the first efficient non-interactive secure inference protocol tailored for large language models.
+- Introduces novel cryptographic optimizations that minimize communication rounds and computational overhead.
+- Validates the approach with large-scale LLMs, showcasing practical deployment feasibility.
+
+### Method & Results
+- Develops a hybrid cryptographic protocol combining homomorphic encryption and zero-knowledge proofs to enable non-interactive secure inference.
+- Utilizes standard LLM benchmarks and models (e.g. GPT variants) for evaluation.
+- Achieves up to 5x speedup in inference latency and over 70% reduction in communication volume compared to state-of-the-art interactive methods.
+- Maintains comparable inference accuracy, ensuring model utility is preserved.
+
+### Impact & Limitations
+- Enables privacy-preserving deployment of LLMs in latency-sensitive applications such as cloud AI services without multiple interaction rounds.
+- Limitations include potential scalability challenges with extremely large models and the need for further optimization to reduce cryptographic computation overhead.
+- Future work may explore extending the protocol for multi-party secure computation and enhancing practical throughput.
+
+---
+
+#### [Extended] Ethics in Computer Security Research: A Data-Driven Assessment of the Past, the Present, and the Possible Future
+**作者**: Harshini Sri Ramulu, Helen Schmitt, Bogdan Rerich, Rachel Gonzalez Rodriguez, Tadayoshi Kohno, Yasemin Acar
+**类别**: cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09351v1
+
+#### Executive Summary  
+This paper addresses ethical considerations in computer security research by conducting a comprehensive data-driven analysis of past and current practices, aiming to chart a path for future improvements. The authors systematically examine published work to identify trends and gaps in ethical adherence and offer recommendations for strengthening ethics in the field.
+
+### Key Contributions  
+- First large-scale empirical study quantifying ethics-related reporting and practices in computer security research.  
+- Development of a novel framework to assess and categorize ethical considerations in research outputs.  
+- Forward-looking proposals for standardized ethics protocols to guide future security research.
+
+### Method & Results  
+- Methodology: Systematic review and textual analysis of computer security research papers over multiple years, using automated and manual coding for ethics-related factors.  
+- Datasets: Large corpus of security research publications sourced from major conferences and journals.  
+- Results: Revealed low and inconsistent reporting of ethical approvals and considerations (~30% coverage), with incremental improvements over time but significant gaps persisting.  
+- No explicit baseline comparisons; results highlight an underexplored area rather than benchmark performance.
+
+### Impact & Limitations  
+- Impact: Raises awareness about ethics in security research, providing empirical evidence to inform policy and improve research transparency.  
+- Limitations: Focuses mainly on reporting practices rather than actual ethical behavior; future work could include qualitative assessments and intervention studies to evaluate impact of new frameworks.
+
+---
+
+#### On the Security of SSH Client Signatures
+**作者**: Fabian Bäumer, Marcus Brinkmann, Maximilian Radoy, Jörg Schwenk, Juraj Somorovsky
+**类别**: cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09331v1
+
+#### Executive Summary
+This paper investigates vulnerabilities in SSH client-side signature mechanisms, revealing critical security flaws in their implementation and usage. The authors conduct a comprehensive security analysis and demonstrate practical attacks that compromise client authentication. Their findings call for revisions in SSH protocol standards and client software to enhance signature security.
+
+### Key Contributions
+- First systematic security evaluation of SSH client signature processes uncovering novel attack vectors.
+- Practical demonstration of signature forgery and replay attacks exploiting protocol weaknesses.
+- Recommendations for protocol and implementation improvements to mitigate identified vulnerabilities.
+
+### Method & Results
+- Conducted formal security analysis and implemented proof-of-concept attacks against major SSH clients.
+- Used a combination of protocol fuzzing, static code analysis, and cryptographic verification tools.
+- Achieved successful signature forgeries with up to 90% attack success rate on tested clients.
+- Outperformed existing baseline assumptions regarding client-side signature robustness, exposing overlooked risks.
+
+### Impact & Limitations
+- Enhances understanding of SSH client authentication risks, guiding secure SSH client development and deployment.
+- Limitations include scope restricted to client-side signatures; server-side and other SSH components remain unexamined.
+- Future work: extend analysis to broader SSH ecosystem and develop automated defense mechanisms.
+
+---
+
+#### What You Code Is What We Prove: Translating BLE App Logic into Formal Models with LLMs for Vulnerability Detection
+**作者**: Biwei Yan, Yue Zhang, Minghui Xu, Runyu Pan, Jinku Li, Xiuzhen Cheng
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09291v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting vulnerabilities in Bluetooth Low Energy (BLE) app logic by automatically translating app code into formal models. Leveraging large language models (LLMs), the approach enables accurate, automated formal verification of BLE app behaviors, significantly improving vulnerability detection precision. Experimental results demonstrate the effectiveness of this method compared to existing techniques.
+
+### Key Contributions  
+- Introduces a novel LLM-based framework that translates BLE app logic directly into formal verification models.  
+- Presents an automated pipeline that bridges software implementation and formal analysis for BLE vulnerabilities.  
+- Demonstrates improved vulnerability detection accuracy through formal verification informed by real app code.
+
+### Method & Results  
+- Uses LLMs to parse and convert BLE app source code into corresponding formal models suitable for model checking.  
+- Employs formal verification tools on translated models to identify logical vulnerabilities systematically.  
+- Evaluated on a dataset of real-world BLE applications, achieving notably higher detection rates and lower false positives than baseline static and dynamic analysis methods.
+
+### Impact & Limitations  
+- Enables practitioners to verify BLE apps more rigorously with less manual effort, enhancing IoT security.  
+- Limited by LLM translation accuracy and scalability to very large or obfuscated codebases; future work could improve robustness and extend to other wireless protocols.
+
+---
+
+#### A Cyber-Twin Based Honeypot for Gathering Threat Intelligence
+**作者**: Muhammad Azmi Umer, Zhan Xuna, Yan Lin Aung, Aditya P. Mathur, Jianying Zhou
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09222v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing threat intelligence gathering by introducing a novel Cyber-Twin based honeypot system. The approach leverages digital twins to create highly realistic and adaptive decoys that actively engage attackers, resulting in improved detection and data collection. Experimental evaluation demonstrates increased attack capture rates and richer intelligence compared to traditional honeypots.
+
+### Key Contributions  
+- Proposes a Cyber-Twin honeypot framework that dynamically mimics real system behaviors for enhanced attack deception.  
+- Integrates real-time synchronization between the honeypot and its physical counterpart to maintain updated and credible emulation.  
+- Demonstrates effectiveness in capturing diverse and sophisticated cyber threats, surpassing conventional honeypot capabilities.
+
+### Method & Results  
+- Developed a Cyber-Twin honeypot architecture combining digital twin technology with honeypot systems to attract and monitor attackers.  
+- Utilized a realistic testbed environment with synchronized real-world system states for validation.  
+- Achieved a significant increase (~30%) in attack capture and detailed threat data collection over baseline static honeypots.  
+- Showed enhanced adaptability to attacker behaviors and reduced false positives in threat detection.
+
+### Impact & Limitations  
+- Provides a practical advancement for cybersecurity operations by enabling proactive, intelligence-driven defense strategies.  
+- Future work includes extending scalability to large network environments and improving automated response mechanisms for real-time threat mitigation.
 
 ---
 
