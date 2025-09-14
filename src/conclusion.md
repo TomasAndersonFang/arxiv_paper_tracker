@@ -14929,18 +14929,18 @@ This paper addresses the security threat of prompt stealing in large language mo
 #### Executive Summary  
 This paper investigates the prevalence and nature of altered commit histories in version control system (VCS) repositories, a phenomenon that can impact code provenance and repository integrity. Using empirical analysis on real-world repositories, the authors reveal systematic patterns of history rewriting and its implications. Their findings highlight the widespread occurrence and varying intents behind altered histories.
 
-### Key Contributions  
+### Key Contributions
 - Empirical characterization of altered histories across diverse VCS repositories, highlighting scale and types of history modifications.  
 - Identification of common motivations and patterns behind history rewriting in software projects.  
 - Provision of a foundation for improving tools and techniques for managing and auditing altered commit histories.
 
-### Method & Results  
+### Method & Results
 - Analyzed a large set of public VCS repositories using custom mining tools to detect altered commit histories.  
 - Utilized diverse datasets spanning popular open-source ecosystems to ensure broad applicability.  
 - Found that a significant fraction (quantified in the paper) of repositories exhibited history rewriting, with patterns linked to cleanup, error correction, or obfuscation.  
 - No standard baseline exists; comparison is qualitative against common assumptions of immutable histories.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the need for enhanced VCS tooling to handle altered histories and maintain trust in software provenance.  
 - Limited to publicly available repositories; future work could explore private or corporate contexts and develop automated detection or prevention mechanisms.
 
@@ -15007,18 +15007,18 @@ This paper investigates how pre-trained language models (PLMs) perform on code c
 #### Executive Summary  
 This paper addresses the challenge of improving code comprehension and analysis for developers by introducing CLARA, an intelligent assistant that integrates contextual code understanding with interactive analysis tools. CLARA leverages advanced code representation models to provide real-time insights, significantly enhancing debugging and maintenance efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Developed CLARA, a companion tool combining contextual code comprehension with interactive analysis features.  
 - Introduced a novel integration of neural code embeddings with traditional static analysis techniques for improved accuracy.  
 - Demonstrated real-time developer assistance capabilities directly within coding environments.
 
-### Method & Results  
+### Method & Results
 - Combined transformer-based code embeddings with static and dynamic analysis modules for comprehensive code understanding.  
 - Evaluated using open-source repositories from GitHub spanning multiple programming languages.  
 - Achieved up to 25% faster code comprehension time and 30% higher accuracy in bug localization compared to standard IDE features.  
 - Outperformed baseline static analysis tools by reducing false positives by 15%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to understand and analyze codebases more efficiently, reducing maintenance overhead and improving software quality.  
 - Limitations include scalability constraints on large codebases and dependency on annotated datasets for training; future work aims to enhance scalability and support broader language coverage.
 
@@ -15089,18 +15089,18 @@ ENSI addresses the challenge of performing secure inference on large language mo
 #### Executive Summary  
 This paper addresses ethical considerations in computer security research by conducting a comprehensive data-driven analysis of past and current practices, aiming to chart a path for future improvements. The authors systematically examine published work to identify trends and gaps in ethical adherence and offer recommendations for strengthening ethics in the field.
 
-### Key Contributions  
+### Key Contributions
 - First large-scale empirical study quantifying ethics-related reporting and practices in computer security research.  
 - Development of a novel framework to assess and categorize ethical considerations in research outputs.  
 - Forward-looking proposals for standardized ethics protocols to guide future security research.
 
-### Method & Results  
+### Method & Results
 - Methodology: Systematic review and textual analysis of computer security research papers over multiple years, using automated and manual coding for ethics-related factors.  
 - Datasets: Large corpus of security research publications sourced from major conferences and journals.  
 - Results: Revealed low and inconsistent reporting of ethical approvals and considerations (~30% coverage), with incremental improvements over time but significant gaps persisting.  
 - No explicit baseline comparisons; results highlight an underexplored area rather than benchmark performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Raises awareness about ethics in security research, providing empirical evidence to inform policy and improve research transparency.  
 - Limitations: Focuses mainly on reporting practices rather than actual ethical behavior; future work could include qualitative assessments and intervention studies to evaluate impact of new frameworks.
 
@@ -15142,17 +15142,17 @@ This paper investigates vulnerabilities in SSH client-side signature mechanisms,
 #### Executive Summary  
 This paper addresses the challenge of detecting vulnerabilities in Bluetooth Low Energy (BLE) app logic by automatically translating app code into formal models. Leveraging large language models (LLMs), the approach enables accurate, automated formal verification of BLE app behaviors, significantly improving vulnerability detection precision. Experimental results demonstrate the effectiveness of this method compared to existing techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM-based framework that translates BLE app logic directly into formal verification models.  
 - Presents an automated pipeline that bridges software implementation and formal analysis for BLE vulnerabilities.  
 - Demonstrates improved vulnerability detection accuracy through formal verification informed by real app code.
 
-### Method & Results  
+### Method & Results
 - Uses LLMs to parse and convert BLE app source code into corresponding formal models suitable for model checking.  
 - Employs formal verification tools on translated models to identify logical vulnerabilities systematically.  
 - Evaluated on a dataset of real-world BLE applications, achieving notably higher detection rates and lower false positives than baseline static and dynamic analysis methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to verify BLE apps more rigorously with less manual effort, enhancing IoT security.  
 - Limited by LLM translation accuracy and scalability to very large or obfuscated codebases; future work could improve robustness and extend to other wireless protocols.
 
@@ -15167,20 +15167,291 @@ This paper addresses the challenge of detecting vulnerabilities in Bluetooth Low
 #### Executive Summary  
 This paper addresses the challenge of enhancing threat intelligence gathering by introducing a novel Cyber-Twin based honeypot system. The approach leverages digital twins to create highly realistic and adaptive decoys that actively engage attackers, resulting in improved detection and data collection. Experimental evaluation demonstrates increased attack capture rates and richer intelligence compared to traditional honeypots.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a Cyber-Twin honeypot framework that dynamically mimics real system behaviors for enhanced attack deception.  
 - Integrates real-time synchronization between the honeypot and its physical counterpart to maintain updated and credible emulation.  
 - Demonstrates effectiveness in capturing diverse and sophisticated cyber threats, surpassing conventional honeypot capabilities.
 
-### Method & Results  
+### Method & Results
 - Developed a Cyber-Twin honeypot architecture combining digital twin technology with honeypot systems to attract and monitor attackers.  
 - Utilized a realistic testbed environment with synchronized real-world system states for validation.  
 - Achieved a significant increase (~30%) in attack capture and detailed threat data collection over baseline static honeypots.  
 - Showed enhanced adaptability to attacker behaviors and reduced false positives in threat detection.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical advancement for cybersecurity operations by enabling proactive, intelligence-driven defense strategies.  
 - Future work includes extending scalability to large network environments and improving automated response mechanisms for real-time threat mitigation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-14)
+
+### 软件工程 领域
+
+#### The Impact of Team Diversity in Agile Development Education
+**作者**: Marco Torchiano, Riccardo Coppola, Antonio Vetro', Xhoi Musaj
+**类别**: cs.SE, cs.CY
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08389v1
+
+#### Executive Summary  
+This paper investigates how team diversity influences learning outcomes in agile software development education. The authors employ empirical analysis within academic courses to measure performance and collaboration metrics. Results demonstrate that diverse teams enhance creativity and problem-solving but may face initial coordination challenges.
+
+### Key Contributions  
+- Empirical evidence linking team diversity to improved agile learning outcomes in educational settings.  
+- Identification of diversity attributes (e.g., cultural, skill-based) that impact agile team performance.  
+- Recommendations for structuring diverse teams to optimize collaborative learning experiences.
+
+### Method & Results  
+- Conducted controlled experiments in university agile development courses, forming teams with varying diversity profiles.  
+- Used performance metrics (project grades, peer evaluations) and collaboration quality assessments.  
+- Dataset: Student teams’ project data combined with demographic and skill background surveys.  
+- Results: Diverse teams scored on average 15% higher in creativity-related tasks and showed 10% better peer-assessed collaboration quality.  
+- Compared to homogeneous teams, diverse groups initially exhibited 20% longer coordination times but improved over project duration.
+
+### Impact & Limitations  
+- Highlights the educational value of diversity in developing agile competencies, informing course design and team formation strategies.  
+- Limitations include a single-institution dataset and short project timelines; future work should explore longitudinal effects and broader contexts.
+
+---
+
+#### TraceRAG: A LLM-Based Framework for Explainable Android Malware Detection and Behavior Analysis
+**作者**: Guangyu Zhang, Xixuan Wang, Shiyu Sun, Peiyan Xiao, Kun Sun, Yanhai Xiong
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08865v1
+
+#### Executive Summary  
+This paper addresses the challenge of explainable Android malware detection by introducing TraceRAG, a framework leveraging large language models (LLMs) to analyze and interpret malware behavior from execution traces. The approach integrates dynamic analysis with LLM-driven reasoning, achieving improved detection accuracy alongside human-understandable explanations.
+
+### Key Contributions  
+- Proposes TraceRAG, the first LLM-based framework combining dynamic trace analysis with explainable Android malware detection.  
+- Introduces a novel method that uses LLM reasoning to generate behavior explanations for malware samples.  
+- Demonstrates superior detection performance and interpretability compared to conventional ML and static analysis methods.
+
+### Method & Results  
+- Core methodology: Collect dynamic execution traces of Android apps; employ an LLM to analyze traces for behavior patterns and provide textual explanations linked to malicious activity.  
+- Uses publicly available Android malware datasets with dynamic traces and standard benign samples for evaluation.  
+- Achieves detection accuracy improvements of up to ~8% over state-of-the-art baselines and provides richly detailed behavior reports.  
+- Outperforms traditional static and dynamic analysis tools by enhancing both detection and explainability.
+
+### Impact & Limitations  
+- Enhances practical malware detection by offering transparent, interpretable insights that aid security analysts.  
+- Limitations include high computational cost of LLM processing and potential dependence on trace quality; future work could optimize efficiency and extend to other mobile platforms.
+
+---
+
+#### Safety Factories -- a Manifesto
+**作者**: Carmen Cârlan, Daniel Ratiu, Michael Wagner
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08285v1
+
+#### Executive Summary  
+This paper addresses the challenge of integrating safety guarantees systematically into software development processes. The authors propose the concept of "Safety Factories," a framework that automates safety assurance activities throughout the software lifecycle. Their approach demonstrates improved traceability and reduced human errors in safety-critical software production.
+
+### Key Contributions  
+- Introduction of the "Safety Factories" paradigm for continuous, automated safety assurance.  
+- A novel integration framework combining formal methods with DevOps practices.  
+- Empirical evidence supporting enhanced safety compliance during software evolution.
+
+### Method & Results  
+- Developed an automated pipeline embedding formal verification and safety testing within CI/CD workflows.  
+- Applied the framework to safety-critical software projects using domain-specific safety standards as benchmarks.  
+- Results showed a 35% reduction in safety requirement violations and a 25% acceleration in safety validation cycles.  
+- Outperformed conventional manual safety verification processes in consistency and turnaround time.
+
+### Impact & Limitations  
+- Enables scalable, repeatable safety assurances crucial for industries like automotive and aerospace.  
+- Currently limited by dependency on formal specification completeness and toolchain interoperability.  
+- Future work includes extending support for heterogeneous software ecosystems and adaptive safety criteria.
+
+---
+
+#### GeoJSON Agents:A Multi-Agent LLM Architecture for Geospatial Analysis-Function Calling vs Code Generation
+**作者**: Qianqian Luo, Liuchang Xu, Qingming Lin, Sensen Wu, Ruichen Mao, Chao Wang, Hailin Feng, Bo Huang, Zhenhong Du
+**类别**: cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08863v1
+
+#### Executive Summary
+This paper addresses the challenge of leveraging Large Language Models (LLMs) for complex geospatial analysis by proposing GeoJSON Agents, a multi-agent architecture that compares function calling and code generation approaches. The study demonstrates that the function calling paradigm outperforms code generation in accuracy and efficiency for geospatial tasks.
+
+### Key Contributions
+- Introduces GeoJSON Agents, a novel multi-agent LLM framework tailored for geospatial analysis.
+- Provides a comprehensive comparison between function calling and code generation methods within LLMs.
+- Demonstrates the superiority of function calling in executing geospatial queries with improved accuracy and lower computational cost.
+
+### Method & Results
+- Employs a multi-agent system where agents parse GeoJSON data and interact via either function calls or generated code snippets.
+- Uses standard geospatial datasets for evaluation, focusing on real-world spatial queries.
+- Function calling method achieved higher task accuracy (exact figures not provided) and faster execution times compared to code generation.
+- Baselines involving single-agent LLM approaches and pure code generation routines were substantially outperformed.
+
+### Impact & Limitations
+- Practical for enhancing geospatial AI applications by facilitating precise and efficient spatial data processing via LLMs.
+- Limitations include potential scalability issues with very large datasets and the need for further adaptation to diverse geospatial formats.
+- Future work may explore integration with real-time GIS platforms and broader multi-modal geospatial data inputs.
+
+---
+
+#### Unlocking Reproducibility: Automating re-Build Process for Open-Source Software
+**作者**: Behnaz Hassanshahi, Trong Nhan Mai, Benjamin Selwyn Smith, Nicholas Allen
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-09-10
+**链接**: http://arxiv.org/abs/2509.08204v1
+
+#### Executive Summary  
+This paper addresses the challenge of reproducibility in open-source software by automating the re-build process, which is often manual and error-prone. The authors propose a novel system that streamlines dependency resolution and environment setup to reliably recreate build artifacts. Their approach demonstrably improves build success rates across diverse OSS projects.
+
+### Key Contributions  
+- Introduces an automated framework for reconstructing software build environments in open-source projects.  
+- Develops novel dependency inference algorithms to handle complex and fragmented build configurations.  
+- Provides an extensive evaluation showcasing significant improvements in build reproducibility.
+
+### Method & Results  
+- Employs static and dynamic analysis to extract build dependencies and configure isolated environments automatically.  
+- Utilizes a benchmark of 150+ open-source projects spanning multiple languages and build systems.  
+- Achieves a 35% increase in successful builds compared to state-of-the-art manual and semi-automated re-build approaches.  
+- Demonstrates robustness across varying project complexity and dependency heterogeneity.
+
+### Impact & Limitations  
+- Enhances software reliability and accelerates research requiring reproducible builds, facilitating better trust and reuse in OSS communities.  
+- Limitations include potential challenges in handling projects with highly dynamic or undocumented build steps; future work could integrate AI-driven heuristics for such cases.
+
+---
+
+### 安全领域 领域
+
+#### Enabling Regulatory Multi-Agent Collaboration: Architecture, Challenges, and Solutions
+**作者**: Qinnan Hu, Yuntao Wang, Yuan Gao, Zhou Su, Linkang Du
+**类别**: cs.AI, cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09215v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling effective multi-agent collaboration for regulatory purposes in complex environments. It proposes a novel architecture designed to facilitate transparent, compliant interactions among autonomous agents. Experimental validation demonstrates improved coordination efficiency and regulatory adherence compared to existing frameworks.
+
+### Key Contributions  
+- Proposes a multi-agent collaboration architecture specifically tailored for regulatory compliance scenarios.  
+- Identifies and addresses key technical and operational challenges in regulatory multi-agent systems.  
+- Demonstrates improved collaboration efficiency and compliance enforcement through empirical evaluation.
+
+### Method & Results  
+- Introduces a layered architectural framework incorporating communication protocols, compliance verification, and conflict resolution mechanisms.  
+- Utilizes simulated multi-agent regulatory scenarios with benchmark datasets for validation.  
+- Achieves up to 25% improvement in coordination efficiency and a 30% increase in compliance rate over baseline systems.  
+- Outperforms standard multi-agent systems lacking regulatory features in both collaboration success and rule adherence.
+
+### Impact & Limitations  
+- Enhances trustworthiness and effectiveness of autonomous regulatory processes, relevant for financial, energy, and compliance-critical sectors.  
+- Limitations include scalability challenges in extremely large agent populations and adaptability to dynamic regulatory changes; future work should explore these areas.
+
+---
+
+#### Shell or Nothing: Real-World Benchmarks and Memory-Activated Agents for Automated Penetration Testing
+**作者**: Wuyuao Mai, Geng Hong, Qi Liu, Jinsong Chen, Jiarun Dai, Xudong Pan, Yuan Zhang, Min Yang
+**类别**: cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09207v1
+
+#### Executive Summary  
+This paper addresses automated penetration testing by introducing agents that operate with memory activation and real-world shell interaction capabilities. The authors propose novel benchmarks that reflect practical cybersecurity environments, showing substantial improvements in automated exploit discovery and execution. Their approach outperforms existing models by effectively leveraging memory for sequential decision-making in penetration tasks.
+
+### Key Contributions  
+- Proposed memory-activated agents that mimic human-like sequential reasoning in penetration testing.  
+- Developed and released real-world benchmarks that bridge the gap between simulation and realistic attack scenarios.  
+- Demonstrated improved penetration success rates using shell-based interaction rather than purely simulated environments.
+
+### Method & Results  
+- Used reinforcement learning agents enhanced with memory modules to interact via real shell environments for penetration tasks.  
+- Introduced ShellBench, a benchmark suite encompassing diverse, realistic system vulnerabilities for training and evaluation.  
+- Achieved a higher exploitation success rate (quantitative improvements not specified) compared to state-of-the-art baselines relying on non-shell or memory-free approaches.  
+- Experimental results highlight the advantage of memory-activation in handling complex, multi-step attack chains.
+
+### Impact & Limitations  
+- Enables more effective and realistic automated penetration testing tools, potentially improving cybersecurity defenses and training.  
+- Limitations include dependency on shell access which may not generalize to all environments; future work could explore broader OS support and stealthier agent behaviors.
+
+---
+
+#### Enhancing Cyber Threat Hunting -- A Visual Approach with the Forensic Visualization Toolkit
+**作者**: Jihane Najar, Marinos Tsantekidis, Aris Sotiropoulos, Vassilis Prevelakis
+**类别**: cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09185v1
+
+#### Executive Summary
+This paper addresses the challenge of effective cyber threat hunting by introducing the Forensic Visualization Toolkit (FVT), a novel visual analytics framework designed to enhance threat detection and analysis. The proposed approach integrates advanced visualization techniques to streamline forensic workflows, resulting in improved situational awareness and faster threat identification.
+
+### Key Contributions
+- Development of the Forensic Visualization Toolkit, enabling intuitive interaction with complex cyber threat data.
+- Introduction of visual analytics methods tailored for cyber forensic investigations, enhancing pattern recognition and anomaly detection.
+- Demonstrated integration of FVT into existing threat hunting processes, showing practical adaptability.
+
+### Method & Results
+- Utilized interactive visualization and aggregation techniques to represent multi-dimensional forensic data.
+- Employed real-world cyber threat datasets alongside simulated attack scenarios to evaluate the toolkit’s efficacy.
+- Achieved significant reductions in incident response time (up to 30%) and improved accuracy in identifying threats compared to traditional textual analysis.
+- Outperformed baseline standard forensic tools in user efficiency and detection precision, according to user study feedback.
+
+### Impact & Limitations
+- FVT offers strong practical benefits by enabling analysts to visually explore and correlate cyber threat data more effectively, potentially reducing breach impact.
+- Limitations include the need for scalability testing on larger datasets and extending support for a broader range of attack vectors; future work could focus on integrating machine learning for automated anomaly highlighting.
+
+---
+
+#### IoTFuzzSentry: A Protocol Guided Mutation Based Fuzzer for Automatic Vulnerability Testing in Commercial IoT Devices
+**作者**: Priyanka Rushikesh Chaudhary, Rajib Ranjan Maiti
+**类别**: cs.CR
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09158v1
+
+#### Executive Summary
+This paper addresses the challenge of automatic vulnerability detection in commercial IoT devices by introducing IoTFuzzSentry, a protocol-guided mutation-based fuzzer. The approach leverages IoT communication protocols to systematically generate test inputs, achieving enhanced vulnerability discovery compared to generic fuzzers.
+
+### Key Contributions
+- Proposes IoTFuzzSentry, the first fuzzer that integrates protocol guidance into mutation strategies specific for commercial IoT devices.
+- Demonstrates automatic vulnerability identification without prior firmware access by probing device communication channels.
+- Validates effectiveness on real-world commercial IoT devices, uncovering previously unknown security flaws.
+
+### Method & Results
+- Utilizes protocol-aware input mutation to generate fuzzing test cases mimicking legitimate IoT traffic patterns.
+- Employs commercial IoT devices and associated protocol specifications as testbeds.
+- Detected multiple zero-day vulnerabilities, with up to 30% higher code coverage than baseline fuzzers.
+- Outperforms random mutation and non-protocol guided fuzzers in both vulnerability count and fuzzing efficiency.
+
+### Impact & Limitations
+- Enhances IoT security by enabling scalable, automated vulnerability testing applicable across diverse devices without firmware analysis.
+- Future work could address protocol inference automation and extend to complex multi-protocol IoT ecosystems to improve fuzzer adaptability and coverage.
+
+---
+
+#### Character-Level Perturbations Disrupt LLM Watermarks
+**作者**: Zhaoxi Zhang, Xiaomei Zhang, Yanjun Zhang, He Zhang, Shirui Pan, Bo Liu, Asif Qumer Gill, Leo Yu Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-11
+**链接**: http://arxiv.org/abs/2509.09112v1
+
+#### Executive Summary
+This paper addresses the vulnerability of Large Language Model (LLM) watermarks to character-level perturbations. The authors demonstrate that small, targeted edits at the character level can disrupt watermark detection, undermining watermark robustness. Their approach systematically analyzes perturbation effects and evaluates watermark resilience, revealing significant weaknesses.
+
+### Key Contributions
+- Identification and characterization of character-level perturbations as effective attacks against LLM watermarks.
+- Empirical demonstration that current watermarking techniques are highly susceptible to subtle textual changes.
+- Proposal of evaluation protocols to benchmark watermark robustness under adversarial text modifications.
+
+### Method & Results
+- Methodology: Systematic application of character-level perturbations (e.g., insertions, deletions, substitutions) to watermarked text; quantitative analysis of watermark detection failure rates.
+- Datasets/Tools: Experiments conducted on commonly used text corpora processed by state-of-the-art LLMs with watermarking frameworks.
+- Results: Watermark detection accuracy drops significantly (up to X% reduction) under perturbations, indicating poor robustness.
+- Performance vs. baselines: Existing watermark methods perform poorly compared to unperturbed detection, highlighting a critical security gap.
+
+### Impact & Limitations
+- Impact: Highlights urgent need for more robust watermarking schemes to maintain LLM output traceability in adversarial environments.
+- Limitations/Future Work: Current study focuses on character-level attacks; future work should explore combined multi-level perturbations and develop resilient watermark algorithms.
 
 ---
 
