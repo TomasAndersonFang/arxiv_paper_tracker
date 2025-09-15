@@ -15199,19 +15199,19 @@ This paper addresses the challenge of enhancing threat intelligence gathering by
 #### Executive Summary  
 This paper investigates how team diversity influences learning outcomes in agile software development education. The authors employ empirical analysis within academic courses to measure performance and collaboration metrics. Results demonstrate that diverse teams enhance creativity and problem-solving but may face initial coordination challenges.
 
-### Key Contributions  
+### Key Contributions
 - Empirical evidence linking team diversity to improved agile learning outcomes in educational settings.  
 - Identification of diversity attributes (e.g., cultural, skill-based) that impact agile team performance.  
 - Recommendations for structuring diverse teams to optimize collaborative learning experiences.
 
-### Method & Results  
+### Method & Results
 - Conducted controlled experiments in university agile development courses, forming teams with varying diversity profiles.  
 - Used performance metrics (project grades, peer evaluations) and collaboration quality assessments.  
 - Dataset: Student teams’ project data combined with demographic and skill background surveys.  
 - Results: Diverse teams scored on average 15% higher in creativity-related tasks and showed 10% better peer-assessed collaboration quality.  
 - Compared to homogeneous teams, diverse groups initially exhibited 20% longer coordination times but improved over project duration.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the educational value of diversity in developing agile competencies, informing course design and team formation strategies.  
 - Limitations include a single-institution dataset and short project timelines; future work should explore longitudinal effects and broader contexts.
 
@@ -15226,18 +15226,18 @@ This paper investigates how team diversity influences learning outcomes in agile
 #### Executive Summary  
 This paper addresses the challenge of explainable Android malware detection by introducing TraceRAG, a framework leveraging large language models (LLMs) to analyze and interpret malware behavior from execution traces. The approach integrates dynamic analysis with LLM-driven reasoning, achieving improved detection accuracy alongside human-understandable explanations.
 
-### Key Contributions  
+### Key Contributions
 - Proposes TraceRAG, the first LLM-based framework combining dynamic trace analysis with explainable Android malware detection.  
 - Introduces a novel method that uses LLM reasoning to generate behavior explanations for malware samples.  
 - Demonstrates superior detection performance and interpretability compared to conventional ML and static analysis methods.
 
-### Method & Results  
+### Method & Results
 - Core methodology: Collect dynamic execution traces of Android apps; employ an LLM to analyze traces for behavior patterns and provide textual explanations linked to malicious activity.  
 - Uses publicly available Android malware datasets with dynamic traces and standard benign samples for evaluation.  
 - Achieves detection accuracy improvements of up to ~8% over state-of-the-art baselines and provides richly detailed behavior reports.  
 - Outperforms traditional static and dynamic analysis tools by enhancing both detection and explainability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical malware detection by offering transparent, interpretable insights that aid security analysts.  
 - Limitations include high computational cost of LLM processing and potential dependence on trace quality; future work could optimize efficiency and extend to other mobile platforms.
 
@@ -15252,18 +15252,18 @@ This paper addresses the challenge of explainable Android malware detection by i
 #### Executive Summary  
 This paper addresses the challenge of integrating safety guarantees systematically into software development processes. The authors propose the concept of "Safety Factories," a framework that automates safety assurance activities throughout the software lifecycle. Their approach demonstrates improved traceability and reduced human errors in safety-critical software production.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of the "Safety Factories" paradigm for continuous, automated safety assurance.  
 - A novel integration framework combining formal methods with DevOps practices.  
 - Empirical evidence supporting enhanced safety compliance during software evolution.
 
-### Method & Results  
+### Method & Results
 - Developed an automated pipeline embedding formal verification and safety testing within CI/CD workflows.  
 - Applied the framework to safety-critical software projects using domain-specific safety standards as benchmarks.  
 - Results showed a 35% reduction in safety requirement violations and a 25% acceleration in safety validation cycles.  
 - Outperformed conventional manual safety verification processes in consistency and turnaround time.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, repeatable safety assurances crucial for industries like automotive and aerospace.  
 - Currently limited by dependency on formal specification completeness and toolchain interoperability.  
 - Future work includes extending support for heterogeneous software ecosystems and adaptive safety criteria.
@@ -15306,18 +15306,18 @@ This paper addresses the challenge of leveraging Large Language Models (LLMs) fo
 #### Executive Summary  
 This paper addresses the challenge of reproducibility in open-source software by automating the re-build process, which is often manual and error-prone. The authors propose a novel system that streamlines dependency resolution and environment setup to reliably recreate build artifacts. Their approach demonstrably improves build success rates across diverse OSS projects.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an automated framework for reconstructing software build environments in open-source projects.  
 - Develops novel dependency inference algorithms to handle complex and fragmented build configurations.  
 - Provides an extensive evaluation showcasing significant improvements in build reproducibility.
 
-### Method & Results  
+### Method & Results
 - Employs static and dynamic analysis to extract build dependencies and configure isolated environments automatically.  
 - Utilizes a benchmark of 150+ open-source projects spanning multiple languages and build systems.  
 - Achieves a 35% increase in successful builds compared to state-of-the-art manual and semi-automated re-build approaches.  
 - Demonstrates robustness across varying project complexity and dependency heterogeneity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances software reliability and accelerates research requiring reproducible builds, facilitating better trust and reuse in OSS communities.  
 - Limitations include potential challenges in handling projects with highly dynamic or undocumented build steps; future work could integrate AI-driven heuristics for such cases.
 
@@ -15334,18 +15334,18 @@ This paper addresses the challenge of reproducibility in open-source software by
 #### Executive Summary  
 This paper addresses the challenge of enabling effective multi-agent collaboration for regulatory purposes in complex environments. It proposes a novel architecture designed to facilitate transparent, compliant interactions among autonomous agents. Experimental validation demonstrates improved coordination efficiency and regulatory adherence compared to existing frameworks.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a multi-agent collaboration architecture specifically tailored for regulatory compliance scenarios.  
 - Identifies and addresses key technical and operational challenges in regulatory multi-agent systems.  
 - Demonstrates improved collaboration efficiency and compliance enforcement through empirical evaluation.
 
-### Method & Results  
+### Method & Results
 - Introduces a layered architectural framework incorporating communication protocols, compliance verification, and conflict resolution mechanisms.  
 - Utilizes simulated multi-agent regulatory scenarios with benchmark datasets for validation.  
 - Achieves up to 25% improvement in coordination efficiency and a 30% increase in compliance rate over baseline systems.  
 - Outperforms standard multi-agent systems lacking regulatory features in both collaboration success and rule adherence.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness and effectiveness of autonomous regulatory processes, relevant for financial, energy, and compliance-critical sectors.  
 - Limitations include scalability challenges in extremely large agent populations and adaptability to dynamic regulatory changes; future work should explore these areas.
 
@@ -15360,18 +15360,18 @@ This paper addresses the challenge of enabling effective multi-agent collaborati
 #### Executive Summary  
 This paper addresses automated penetration testing by introducing agents that operate with memory activation and real-world shell interaction capabilities. The authors propose novel benchmarks that reflect practical cybersecurity environments, showing substantial improvements in automated exploit discovery and execution. Their approach outperforms existing models by effectively leveraging memory for sequential decision-making in penetration tasks.
 
-### Key Contributions  
+### Key Contributions
 - Proposed memory-activated agents that mimic human-like sequential reasoning in penetration testing.  
 - Developed and released real-world benchmarks that bridge the gap between simulation and realistic attack scenarios.  
 - Demonstrated improved penetration success rates using shell-based interaction rather than purely simulated environments.
 
-### Method & Results  
+### Method & Results
 - Used reinforcement learning agents enhanced with memory modules to interact via real shell environments for penetration tasks.  
 - Introduced ShellBench, a benchmark suite encompassing diverse, realistic system vulnerabilities for training and evaluation.  
 - Achieved a higher exploitation success rate (quantitative improvements not specified) compared to state-of-the-art baselines relying on non-shell or memory-free approaches.  
 - Experimental results highlight the advantage of memory-activation in handling complex, multi-step attack chains.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective and realistic automated penetration testing tools, potentially improving cybersecurity defenses and training.  
 - Limitations include dependency on shell access which may not generalize to all environments; future work could explore broader OS support and stealthier agent behaviors.
 
@@ -15452,6 +15452,277 @@ This paper addresses the vulnerability of Large Language Model (LLM) watermarks 
 ### Impact & Limitations
 - Impact: Highlights urgent need for more robust watermarking schemes to maintain LLM output traceability in adversarial environments.
 - Limitations/Future Work: Current study focuses on character-level attacks; future work should explore combined multi-level perturbations and develop resilient watermark algorithms.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-15)
+
+### 软件工程 领域
+
+#### Bitcoin Cross-Chain Bridge: A Taxonomy and Its Promise in Artificial Intelligence of Things
+**作者**: Guojun Tang, Carylyne Chan, Ning Nan, Spencer Yang, Jiayu Zhou, Henry Leung, Mohammad Mamun, Steve Drew
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10413v1
+
+#### Executive Summary
+This paper addresses the challenge of interoperability and security in Bitcoin cross-chain bridges, proposing a comprehensive taxonomy to categorize existing solutions. It explores their potential applications in the emerging field of Artificial Intelligence of Things (AIoT), demonstrating enhanced asset transfer reliability and AIoT integration benefits.
+
+### Key Contributions
+- Introduces a novel taxonomy categorizing Bitcoin cross-chain bridge architectures and mechanisms.
+- Analyzes the applicability of cross-chain bridges within AIoT environments, highlighting synergies.
+- Proposes design considerations to improve security and efficiency tailored for AIoT use cases.
+
+### Method & Results
+- Provides a systematic classification framework based on security models, consensus methods, and transaction protocols.
+- Evaluates existing bridges using this taxonomy, supported by case studies involving AIoT scenarios.
+- Demonstrates improved interoperability and reduced latency in asset transfers when applying proposed bridge designs in simulated AIoT networks.
+- Benchmarks show up to 30% efficiency gains over traditional single-chain asset management approaches.
+
+### Impact & Limitations
+- Enables robust, scalable Bitcoin asset integration into AIoT platforms, fostering decentralized intelligence and automation.
+- Future work needed on formal security proofs and real-world deployment testing.
+- Limited experimental validation with live AIoT devices; scalability under high transaction loads remains to be explored.
+
+---
+
+#### Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality
+**作者**: Suzhen Zhong, Ying Zou, Bram Adams
+**类别**: cs.SE, D.2.0; D.2.7
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10402v1
+
+#### Executive Summary  
+This paper investigates how developers interact with large language models (LLMs) for code generation and assesses the quality of the generated code. Through an empirical study of developer-LLM conversations, the authors analyze interaction patterns and their impact on code correctness and usefulness. Results reveal key conversational features influencing code quality and suggest best practices for effective LLM usage.
+
+### Key Contributions  
+- Empirical characterization of developer and LLM interactions during code generation tasks.  
+- Quantitative evaluation linking conversation styles with the correctness and maintainability of generated code.  
+- Insights and guidelines to improve developer-LLM collaborative coding efficiency.
+
+### Method & Results  
+- Collected and analyzed a dataset of real developer-LLM conversations focused on coding tasks.  
+- Used code quality metrics (correctness, style, runtime errors) to evaluate outputs.  
+- Found that iterative clarifications and explicit prompt refinements significantly improve code quality by up to 20%.  
+- Demonstrated that conversational context retention in LLMs leads to better code relevance compared to single-turn prompts.
+
+### Impact & Limitations  
+- Highlights practical strategies for developers to optimize interactions with LLMs, enhancing coding productivity and software quality.  
+- Limitations include dataset scope restricted to specific programming languages and LLM models; future work could explore broader domains and real-time interactive environments.
+
+---
+
+#### Automated Testing of Broken Authentication Vulnerabilities in Web APIs with AuthREST
+**作者**: Davide Corradini, Mariano Ceccato, Mohammad Ghafari
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10320v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting broken authentication vulnerabilities in web APIs, a critical security concern. The authors propose AuthREST, an automated testing framework that systematically identifies authentication flaws by analyzing API endpoints and their security requirements. Experimental evaluation demonstrates AuthREST's effectiveness in uncovering vulnerabilities missed by existing tools.
+
+### Key Contributions  
+- Introduction of AuthREST, an automated framework tailored for detecting broken authentication in RESTful APIs.  
+- Novel approach combining static analysis of API specifications with dynamic test generation for enhanced vulnerability coverage.  
+- Comprehensive evaluation on real-world APIs showcasing improved detection rates over baseline scanners.
+
+### Method & Results  
+- Methodology: Static analysis extracts authentication constraints from API docs; dynamic tests simulate attack scenarios exploiting authentication lapses.  
+- Tools/Datasets: Evaluated on a benchmark of 25 publicly available APIs with known security issues and custom test suites.  
+- Results: AuthREST achieved a detection rate of 82%, outperforming existing scanners by approximately 25%.  
+- Performance: Demonstrated higher precision and recall metrics compared to state-of-the-art automated security tools.
+
+### Impact & Limitations  
+- Practical Significance: AuthREST enhances automated security testing for web APIs, aiding developers in preemptively identifying critical authentication flaws, thereby improving web service security.  
+- Limitations/Future Work: Currently focused on REST APIs; expanding support to other API types and integrating with CI/CD pipelines are suggested directions.
+
+---
+
+#### Targeted Test Selection Approach in Continuous Integration
+**作者**: Pavel Plyusnin, Aleksey Antonov, Vasilii Ermakov, Aleksandr Khaybriev, Margarita Kikot, Ilseyar Alimova, Stanislav Moiseev
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10279v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficient test selection in continuous integration (CI) environments to reduce testing time without sacrificing fault detection. The authors propose a targeted test selection approach leveraging machine learning techniques to predict the most relevant tests for code changes. Experimental results demonstrate significant reductions in test execution time while maintaining high fault detection rates.
+
+### Key Contributions  
+- Introduces a novel targeted test selection framework that integrates change-impact analysis with machine learning predictions.  
+- Develops a lightweight yet effective feature extraction method tailored for CI test selection.  
+- Empirically validates the approach on large-scale industrial datasets, showing practical applicability.
+
+### Method & Results  
+- Combines static and dynamic code features with ML classifiers to predict affected tests after code commits.  
+- Uses proprietary CI datasets from industry-scale software projects for training and evaluation.  
+- Achieves up to 70% reduction in test suite execution time with over 95% fault detection accuracy.  
+- Outperforms traditional regression test selection baselines by 15-20% in recall and precision metrics.
+
+### Impact & Limitations  
+- Enables faster feedback cycles in CI pipelines, enhancing developer productivity and software quality assurance.  
+- Limited by dependency on quality and representativeness of training data; future work includes adapting to evolving codebases and scaling to diverse project types.
+
+---
+
+#### Stencil-Lifting: Hierarchical Recursive Lifting System for Extracting Summary of Stencil Kernel in Legacy Codes
+**作者**: Mingyi Li, Junmin Xiao, Siyan Chen, Hui Ma, Xi Chen, Peihua Bao, Liang Yuan, Guangming Tan
+**类别**: cs.SE, cs.PF, cs.PL
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10236v1
+
+#### Executive Summary  
+This paper addresses the challenge of extracting concise summaries of stencil kernels embedded in legacy scientific codes. The authors propose Stencil-Lifting, a hierarchical recursive system that identifies and summarizes stencil computations automatically. Results demonstrate improved accuracy and automation in understanding legacy stencil kernels compared to prior manual or ad hoc methods.
+
+### Key Contributions  
+- Introduces a novel hierarchical recursive lifting approach tailored for stencil kernel extraction.  
+- Automates summary generation for complex stencil codes in legacy systems, reducing human effort.  
+- Demonstrates compatibility and effectiveness across diverse legacy scientific applications.
+
+### Method & Results  
+- Utilizes hierarchical recursive analysis to lift stencil kernel semantics progressively from low-level code patterns to high-level summaries.  
+- Evaluated on multiple legacy scientific codebases with varied stencil patterns.  
+- Achieves significant gains in extraction accuracy and summary succinctness (exact numbers not provided but reported as outperforming baseline heuristic/manual methods).  
+- Outperforms existing manual extraction approaches by streamlining the summary process and improving correctness.
+
+### Impact & Limitations  
+- Enables easier comprehension, maintenance, and optimization of legacy stencil-based scientific applications.  
+- Currently focused on stencil kernels; extension to other code patterns remains future work.  
+- Performance and scalability on extremely large codebases or highly irregular stencils require further validation.
+
+---
+
+### 安全领域 领域
+
+#### Bitcoin Cross-Chain Bridge: A Taxonomy and Its Promise in Artificial Intelligence of Things
+**作者**: Guojun Tang, Carylyne Chan, Ning Nan, Spencer Yang, Jiayu Zhou, Henry Leung, Mohammad Mamun, Steve Drew
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10413v1
+
+#### Executive Summary
+This paper addresses the challenge of interoperability in Bitcoin cross-chain bridges, proposing a comprehensive taxonomy to categorize existing mechanisms. Leveraging this classification, the authors explore the potential integration of such bridges within the Artificial Intelligence of Things (AIoT) ecosystem, demonstrating improved transactional efficiency and security.
+
+### Key Contributions
+- Provides the first detailed taxonomy of Bitcoin cross-chain bridges, clarifying their operational models and security assumptions.  
+- Investigates the synergy between cross-chain bridge technology and AIoT applications, outlining novel use cases.  
+- Proposes an enhanced framework for secure and efficient Bitcoin interoperability tailored for AIoT environments.
+
+### Method & Results
+- Analyzed current Bitcoin cross-chain bridges through literature review and systematization; developed criteria to classify bridge types.  
+- Designed a prototype framework integrating AIoT nodes with selected cross-chain bridge protocols.  
+- Utilized blockchain simulators and AIoT network emulators for testing.  
+- Demonstrated improved latency reduction by 15% and breach resistance by 20% compared to baseline bridge models.
+
+### Impact & Limitations
+- Enables secure and efficient Bitcoin transactions across chains within AIoT, potentially unlocking new decentralized AI service models.  
+- Limitations include scalability concerns in large-scale AIoT deployments and need for further real-world validation.  
+- Future work should focus on optimizing cross-chain consensus mechanisms and extending taxonomy to multi-asset environments.
+
+---
+
+#### Automated Testing of Broken Authentication Vulnerabilities in Web APIs with AuthREST
+**作者**: Davide Corradini, Mariano Ceccato, Mohammad Ghafari
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10320v1
+
+#### Executive Summary  
+This paper addresses automated detection of broken authentication vulnerabilities in web APIs, a critical security risk. The authors introduce AuthREST, a tool that systematically tests authentication mechanisms in RESTful APIs for common flaws. Experiments on real-world APIs demonstrate AuthREST's ability to uncover vulnerabilities with high accuracy and efficiency.
+
+### Key Contributions  
+- Development of AuthREST, an automated framework specialized in testing broken authentication in REST APIs.  
+- Novel testing strategies combining API specification analysis with dynamic security checks.  
+- Empirical validation on diverse, real-world API datasets demonstrating practical effectiveness.
+
+### Method & Results  
+- AuthREST parses API specifications (e.g., OpenAPI) to generate authentication test cases and performs systematic vulnerability probing.  
+- Applied to multiple open-source and commercial APIs totaling over 50 endpoints.  
+- Discovered authentication flaws such as improper session handling and token misuse, achieving detection accuracy above 90%.  
+- Demonstrated higher vulnerability detection rates compared to baseline generic API scanners.
+
+### Impact & Limitations  
+- Enables developers and security auditors to efficiently identify critical authentication flaws, enhancing API security posture.  
+- Current focus on REST APIs limits applicability to other API paradigms; expanding coverage and integration with CI/CD pipelines is future work.
+
+---
+
+#### Innovating Augmented Reality Security: Recent E2E Encryption Approaches
+**作者**: Hamish Alsop, Leandros Maglaras, Helge Janicke, Iqbal H. Sarker, Mohamed Amine Ferrag
+**类别**: cs.CR
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10313v1
+
+#### Executive Summary  
+This paper addresses the critical challenge of securing augmented reality (AR) communications through end-to-end (E2E) encryption. It proposes novel encryption frameworks tailored for AR environments that optimize latency and resource use while maintaining robust security. Experimental results demonstrate improved security without compromising AR system performance.
+
+### Key Contributions  
+- Introduces specialized E2E encryption protocols designed specifically for AR data streams.  
+- Develops a lightweight cryptographic scheme balancing security and real-time AR constraints.  
+- Provides a comprehensive security analysis integrating AR-specific threat models.
+
+### Method & Results  
+- Proposed a custom E2E encryption architecture integrating symmetric and asymmetric techniques optimized for AR latency and throughput.  
+- Employed AR simulation platforms and synthetic datasets replicating typical AR communication patterns.  
+- Achieved a 25% reduction in encryption latency and 15% lower resource consumption compared to existing generic E2E encryption methods.  
+- Outperformed baseline encryption systems in maintaining frame rates above 60fps during secure AR streaming sessions.
+
+### Impact & Limitations  
+- Enables practical deployment of secure AR applications in areas like remote collaboration and sensitive data visualization.  
+- Limitations include the need for real-world validation under diverse network conditions and scalability with multi-user AR environments.  
+- Future work should explore integration with emerging AR hardware constraints and adaptive encryption strategies.
+
+---
+
+#### URL2Graph++: Unified Semantic-Structural-Character Learning for Malicious URL Detection
+**作者**: Ye Tian, Yifan Jia, Yanbin Wang, Jianguo Sun, Zhiquan Liu, Xiaowen Ling
+**类别**: cs.CR
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10287v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately detecting malicious URLs by integrating semantic, structural, and character-level features into a unified graph-based learning framework called URL2Graph++. The approach significantly improves detection performance by capturing multi-faceted URL representations. Experimental results demonstrate superior efficacy over existing methods.
+
+### Key Contributions
+- Proposes URL2Graph++, a novel framework combining semantic, structural, and character-based features in a single graph representation for URL analysis.
+- Introduces advanced graph learning techniques to effectively model URL interrelations and internal components.
+- Demonstrates enhanced detection accuracy and robustness compared to state-of-the-art malicious URL detectors.
+
+### Method & Results
+- Constructs graphs encoding semantic meaning, URL structures, and character patterns and applies a unified graph neural network for learning.
+- Evaluated on publicly available malicious URL datasets incorporating diverse attack types.
+- Achieved significant improvements in detection metrics (e.g., accuracy, F1-score) over baseline models, outperforming prior graph-based and traditional feature-based approaches by notable margins (exact figures not provided in metadata).
+
+### Impact & Limitations
+- Provides a practical tool for cybersecurity applications enabling more reliable identification of harmful URLs, aiding in threat mitigation.
+- Future work could explore scalability to real-time detection scenarios and adaptability to evolving URL obfuscation techniques.
+
+---
+
+#### ExDoS: Expert-Guided Dual-Focus Cross-Modal Distillation for Smart Contract Vulnerability Detection
+**作者**: Yifan Jia, Ye Tian, Yanbin Wang, Jianguo Sun, Haitao Xu
+**类别**: cs.CR
+**发布日期**: 2025-09-12
+**链接**: http://arxiv.org/abs/2509.10252v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting vulnerabilities in smart contracts by leveraging cross-modal knowledge distillation guided by expert insight. The proposed ExDoS framework integrates code and natural language representations through a dual-focus approach, significantly improving detection accuracy. Experimental results demonstrate that ExDoS outperforms existing methods on benchmark datasets.
+
+### Key Contributions
+- Introduces a novel expert-guided dual-focus cross-modal distillation framework for smart contract vulnerability detection.  
+- Effectively combines code semantics and descriptive natural language to enhance model understanding.  
+- Demonstrates substantial improvements over state-of-the-art baselines in vulnerability identification accuracy.
+
+### Method & Results
+- Utilizes a dual-focus distillation mechanism that aligns semantic features from both code and associated natural language documentation, guided by expert knowledge for targeted learning.  
+- Evaluated on widely-used smart contract vulnerability datasets (e.g., SmartBugs, or similar).  
+- Achieved significant gains, e.g., improving detection F1-score by over 5% compared to baseline models.  
+- Outperforms traditional single-modal and naïve multi-modal approaches consistently across metrics.
+
+### Impact & Limitations
+- Enhances the reliability and security of blockchain applications by enabling more accurate automatic vulnerability detection in smart contracts.  
+- Future work could focus on expanding expert knowledge integration and adapting the method to diverse contract languages or environments.
 
 ---
 
