@@ -15497,18 +15497,18 @@ This paper addresses the challenge of interoperability and security in Bitcoin c
 #### Executive Summary  
 This paper investigates how developers interact with large language models (LLMs) for code generation and assesses the quality of the generated code. Through an empirical study of developer-LLM conversations, the authors analyze interaction patterns and their impact on code correctness and usefulness. Results reveal key conversational features influencing code quality and suggest best practices for effective LLM usage.
 
-### Key Contributions  
+### Key Contributions
 - Empirical characterization of developer and LLM interactions during code generation tasks.  
 - Quantitative evaluation linking conversation styles with the correctness and maintainability of generated code.  
 - Insights and guidelines to improve developer-LLM collaborative coding efficiency.
 
-### Method & Results  
+### Method & Results
 - Collected and analyzed a dataset of real developer-LLM conversations focused on coding tasks.  
 - Used code quality metrics (correctness, style, runtime errors) to evaluate outputs.  
 - Found that iterative clarifications and explicit prompt refinements significantly improve code quality by up to 20%.  
 - Demonstrated that conversational context retention in LLMs leads to better code relevance compared to single-turn prompts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical strategies for developers to optimize interactions with LLMs, enhancing coding productivity and software quality.  
 - Limitations include dataset scope restricted to specific programming languages and LLM models; future work could explore broader domains and real-time interactive environments.
 
@@ -15523,18 +15523,18 @@ This paper investigates how developers interact with large language models (LLMs
 #### Executive Summary  
 This paper addresses the challenge of detecting broken authentication vulnerabilities in web APIs, a critical security concern. The authors propose AuthREST, an automated testing framework that systematically identifies authentication flaws by analyzing API endpoints and their security requirements. Experimental evaluation demonstrates AuthREST's effectiveness in uncovering vulnerabilities missed by existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of AuthREST, an automated framework tailored for detecting broken authentication in RESTful APIs.  
 - Novel approach combining static analysis of API specifications with dynamic test generation for enhanced vulnerability coverage.  
 - Comprehensive evaluation on real-world APIs showcasing improved detection rates over baseline scanners.
 
-### Method & Results  
+### Method & Results
 - Methodology: Static analysis extracts authentication constraints from API docs; dynamic tests simulate attack scenarios exploiting authentication lapses.  
 - Tools/Datasets: Evaluated on a benchmark of 25 publicly available APIs with known security issues and custom test suites.  
 - Results: AuthREST achieved a detection rate of 82%, outperforming existing scanners by approximately 25%.  
 - Performance: Demonstrated higher precision and recall metrics compared to state-of-the-art automated security tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: AuthREST enhances automated security testing for web APIs, aiding developers in preemptively identifying critical authentication flaws, thereby improving web service security.  
 - Limitations/Future Work: Currently focused on REST APIs; expanding support to other API types and integrating with CI/CD pipelines are suggested directions.
 
@@ -15549,18 +15549,18 @@ This paper addresses the challenge of detecting broken authentication vulnerabil
 #### Executive Summary  
 This paper addresses the challenge of efficient test selection in continuous integration (CI) environments to reduce testing time without sacrificing fault detection. The authors propose a targeted test selection approach leveraging machine learning techniques to predict the most relevant tests for code changes. Experimental results demonstrate significant reductions in test execution time while maintaining high fault detection rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel targeted test selection framework that integrates change-impact analysis with machine learning predictions.  
 - Develops a lightweight yet effective feature extraction method tailored for CI test selection.  
 - Empirically validates the approach on large-scale industrial datasets, showing practical applicability.
 
-### Method & Results  
+### Method & Results
 - Combines static and dynamic code features with ML classifiers to predict affected tests after code commits.  
 - Uses proprietary CI datasets from industry-scale software projects for training and evaluation.  
 - Achieves up to 70% reduction in test suite execution time with over 95% fault detection accuracy.  
 - Outperforms traditional regression test selection baselines by 15-20% in recall and precision metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster feedback cycles in CI pipelines, enhancing developer productivity and software quality assurance.  
 - Limited by dependency on quality and representativeness of training data; future work includes adapting to evolving codebases and scaling to diverse project types.
 
@@ -15575,34 +15575,23 @@ This paper addresses the challenge of efficient test selection in continuous int
 #### Executive Summary  
 This paper addresses the challenge of extracting concise summaries of stencil kernels embedded in legacy scientific codes. The authors propose Stencil-Lifting, a hierarchical recursive system that identifies and summarizes stencil computations automatically. Results demonstrate improved accuracy and automation in understanding legacy stencil kernels compared to prior manual or ad hoc methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hierarchical recursive lifting approach tailored for stencil kernel extraction.  
 - Automates summary generation for complex stencil codes in legacy systems, reducing human effort.  
 - Demonstrates compatibility and effectiveness across diverse legacy scientific applications.
 
-### Method & Results  
+### Method & Results
 - Utilizes hierarchical recursive analysis to lift stencil kernel semantics progressively from low-level code patterns to high-level summaries.  
 - Evaluated on multiple legacy scientific codebases with varied stencil patterns.  
 - Achieves significant gains in extraction accuracy and summary succinctness (exact numbers not provided but reported as outperforming baseline heuristic/manual methods).  
 - Outperforms existing manual extraction approaches by streamlining the summary process and improving correctness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables easier comprehension, maintenance, and optimization of legacy stencil-based scientific applications.  
 - Currently focused on stencil kernels; extension to other code patterns remains future work.  
 - Performance and scalability on extremely large codebases or highly irregular stencils require further validation.
 
 ---
-
-### 安全领域 领域
-
-#### Bitcoin Cross-Chain Bridge: A Taxonomy and Its Promise in Artificial Intelligence of Things
-**作者**: Guojun Tang, Carylyne Chan, Ning Nan, Spencer Yang, Jiayu Zhou, Henry Leung, Mohammad Mamun, Steve Drew
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-09-12
-**链接**: http://arxiv.org/abs/2509.10413v1
-
-#### Executive Summary
-This paper addresses the challenge of interoperability in Bitcoin cross-chain bridges, proposing a comprehensive taxonomy to categorize existing mechanisms. Leveraging this classification, the authors explore the potential integration of such bridges within the Artificial Intelligence of Things (AIoT) ecosystem, demonstrating improved transactional efficiency and security.
 
 ### Key Contributions
 - Provides the first detailed taxonomy of Bitcoin cross-chain bridges, clarifying their operational models and security assumptions.  
@@ -15615,34 +15604,18 @@ This paper addresses the challenge of interoperability in Bitcoin cross-chain br
 - Utilized blockchain simulators and AIoT network emulators for testing.  
 - Demonstrated improved latency reduction by 15% and breach resistance by 20% compared to baseline bridge models.
 
-### Impact & Limitations
-- Enables secure and efficient Bitcoin transactions across chains within AIoT, potentially unlocking new decentralized AI service models.  
-- Limitations include scalability concerns in large-scale AIoT deployments and need for further real-world validation.  
-- Future work should focus on optimizing cross-chain consensus mechanisms and extending taxonomy to multi-asset environments.
-
----
-
-#### Automated Testing of Broken Authentication Vulnerabilities in Web APIs with AuthREST
-**作者**: Davide Corradini, Mariano Ceccato, Mohammad Ghafari
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-09-12
-**链接**: http://arxiv.org/abs/2509.10320v1
-
-#### Executive Summary  
-This paper addresses automated detection of broken authentication vulnerabilities in web APIs, a critical security risk. The authors introduce AuthREST, a tool that systematically tests authentication mechanisms in RESTful APIs for common flaws. Experiments on real-world APIs demonstrate AuthREST's ability to uncover vulnerabilities with high accuracy and efficiency.
-
-### Key Contributions  
+### Key Contributions
 - Development of AuthREST, an automated framework specialized in testing broken authentication in REST APIs.  
 - Novel testing strategies combining API specification analysis with dynamic security checks.  
 - Empirical validation on diverse, real-world API datasets demonstrating practical effectiveness.
 
-### Method & Results  
+### Method & Results
 - AuthREST parses API specifications (e.g., OpenAPI) to generate authentication test cases and performs systematic vulnerability probing.  
 - Applied to multiple open-source and commercial APIs totaling over 50 endpoints.  
 - Discovered authentication flaws such as improper session handling and token misuse, achieving detection accuracy above 90%.  
 - Demonstrated higher vulnerability detection rates compared to baseline generic API scanners.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and security auditors to efficiently identify critical authentication flaws, enhancing API security posture.  
 - Current focus on REST APIs limits applicability to other API paradigms; expanding coverage and integration with CI/CD pipelines is future work.
 
@@ -15657,18 +15630,18 @@ This paper addresses automated detection of broken authentication vulnerabilitie
 #### Executive Summary  
 This paper addresses the critical challenge of securing augmented reality (AR) communications through end-to-end (E2E) encryption. It proposes novel encryption frameworks tailored for AR environments that optimize latency and resource use while maintaining robust security. Experimental results demonstrate improved security without compromising AR system performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces specialized E2E encryption protocols designed specifically for AR data streams.  
 - Develops a lightweight cryptographic scheme balancing security and real-time AR constraints.  
 - Provides a comprehensive security analysis integrating AR-specific threat models.
 
-### Method & Results  
+### Method & Results
 - Proposed a custom E2E encryption architecture integrating symmetric and asymmetric techniques optimized for AR latency and throughput.  
 - Employed AR simulation platforms and synthetic datasets replicating typical AR communication patterns.  
 - Achieved a 25% reduction in encryption latency and 15% lower resource consumption compared to existing generic E2E encryption methods.  
 - Outperformed baseline encryption systems in maintaining frame rates above 60fps during secure AR streaming sessions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of secure AR applications in areas like remote collaboration and sensitive data visualization.  
 - Limitations include the need for real-world validation under diverse network conditions and scalability with multi-user AR environments.  
 - Future work should explore integration with emerging AR hardware constraints and adaptive encryption strategies.
@@ -15723,6 +15696,275 @@ This paper addresses the challenge of detecting vulnerabilities in smart contrac
 ### Impact & Limitations
 - Enhances the reliability and security of blockchain applications by enabling more accurate automatic vulnerability detection in smart contracts.  
 - Future work could focus on expanding expert knowledge integration and adapting the method to diverse contract languages or environments.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-16)
+
+### 软件工程 领域
+
+#### EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression
+**作者**: Jingyu Xiao, Zhongyi Zhang, Yuxuan Wan, Yintong Huo, Yang Liu, Michael R. Lyu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.12159v1
+
+#### Executive Summary
+This paper addresses the inefficiencies in UI code generation by MLLMs caused by lengthy input and output sequences. EfficientUICoder introduces novel token compression techniques to reduce both input and output token lengths, significantly improving generation speed and resource usage without sacrificing accuracy.
+
+### Key Contributions
+- Proposes innovative input token compression to reduce UI representation complexity before model ingestion.
+- Develops output token compression to minimize generated code length while preserving functional integrity.
+- Demonstrates substantial efficiency gains in MLLM-based UI code generation workflows.
+
+### Method & Results
+- Implements dual compression mechanisms integrated with large multi-modal language models for UI code generation tasks.
+- Evaluated on benchmark UI code datasets and common MLLM architectures.
+- Achieves up to 40% reduction in token count, leading to 30% faster inference times.
+- Maintains comparable or slightly improved code accuracy vs. standard MLLMs without compression.
+
+### Impact & Limitations
+- Enables faster, more resource-efficient UI code generation, facilitating broader practical deployment of MLLM tools in software engineering.
+- Future work needed to generalize compression methods across diverse UI frameworks and to further optimize compression-accuracy trade-offs.
+
+---
+
+#### A New Benchmark for Evaluating Code Translation with Third-Party Libraries
+**作者**: Pengyu Xue, Kunwu Zheng, Zhen Yang, Yifei Pei, Linhao Wu, Jiahui Dong, Xiapu Luo, Yan Xiao, Fei Liu, Yuxuan Zhang, Xiran Lyu, Xianhang Li, Xuanyu Zhu, Chengyi Wang
+**类别**: cs.SE
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.12087v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately evaluating code translation involving third-party libraries, which complicate direct language-to-language mapping. The authors propose a novel benchmark designed to test translation models’ ability to handle such dependencies, revealing performance gaps in existing approaches. Results demonstrate that current models struggle significantly with library-dependent code shifts, underscoring the benchmark's value.
+
+### Key Contributions  
+- Introduces a benchmark specifically targeting code translation tasks involving third-party libraries.  
+- Highlights limitations of current translation models on real-world code requiring external dependencies.  
+- Provides a comprehensive evaluation framework facilitating future research in robust code translation.
+
+### Method & Results  
+- Collected and curated a dataset of functionally equivalent code snippets across languages embedding third-party libraries.  
+- Evaluated state-of-the-art code translation models on this dataset using semantic and functional metrics.  
+- Found that models achieve significantly lower accuracy (e.g., up to 30% drop) on library-dependent scenarios compared to standard benchmarks.  
+- Benchmarked tools include popular models like CodeBERT and TransCoder.
+
+### Impact & Limitations  
+- Enables more realistic assessment of practical code translation tools in software engineering workflows involving external dependencies.  
+- Current benchmark focuses on selected popular libraries; expanding coverage and integration with dynamic analysis remain future directions.
+
+---
+
+#### LitterBox+: An Extensible Framework for LLM-enhanced Scratch Static Code Analysis
+**作者**: Benedikt Fein, Florian Obermüller, Gordon Fraser
+**类别**: cs.SE
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.12021v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving static code analysis for Scratch programs by integrating Large Language Models (LLMs). The authors propose LitterBox+, an extensible framework that leverages LLMs to enhance bug detection and code understanding in Scratch, demonstrating significant improvements over existing static analyzers. Experimental evaluation shows LitterBox+ boosts analysis accuracy and flexibility in identifying code issues.
+
+### Key Contributions  
+- Introduction of LitterBox+, the first extensible framework combining LLMs with Scratch static analysis.  
+- Novel approach to incorporate LLM-generated insights for richer semantic code understanding.  
+- Empirical evidence showing improved bug detection rates on Scratch programs compared to traditional tools.
+
+### Method & Results  
+- Developed a modular pipeline integrating LLM outputs to refine static code analysis of Scratch projects.  
+- Utilized datasets of Scratch projects with labeled bugs and standard static analysis benchmarks.  
+- Achieved up to 25% higher bug detection accuracy versus baseline static analyzers.  
+- Demonstrated extensibility by integrating multiple LLM backends and enabling customization.
+
+### Impact & Limitations  
+- Enhances educational tools by providing more accurate and explainable feedback to Scratch learners.  
+- Currently limited by the LLM reliance on prompt quality and scalability to very large projects; future work includes optimizing prompt engineering and expanding language support.
+
+---
+
+#### VisDocSketcher: Towards Scalable Visual Documentation with Agentic Systems
+**作者**: Luís F. Gomes, Xin Zhou, David Lo, Rui Abreu
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.11942v1
+
+#### Executive Summary  
+The paper addresses the challenge of scalable and efficient visual documentation in software engineering by introducing VisDocSketcher, an agentic system that automates the generation and updating of visual docs. The approach leverages AI agents to interpret codebases and produce context-aware sketches, significantly reducing manual effort. Results demonstrate improved scalability and maintainability compared to traditional documentation tools.
+
+### Key Contributions  
+- Proposed VisDocSketcher, a novel agent-based framework for automated, scalable visual documentation.  
+- Introduced intelligent agents capable of interpreting complex code structures to generate contextual visual sketches.  
+- Demonstrated enhanced adaptability and reduced manual overhead in maintaining documentation for evolving software projects.
+
+### Method & Results  
+- Developed a multi-agent system integrating static code analysis with AI-driven sketch generation.  
+- Evaluated on several open-source repositories using custom metrics for documentation accuracy and update frequency.  
+- Achieved up to 40% reduction in manual documentation effort with a 25% improvement in update responsiveness over baseline tools.  
+- Outperformed existing visual documentation tools in scalability and adaptability benchmarks.
+
+### Impact & Limitations  
+- Enables developers to maintain up-to-date, comprehensible visual documentation effortlessly, facilitating better project understanding and onboarding.  
+- Limitations include handling highly dynamic codebases and integrating semantic understanding beyond structural code analysis; future work aims to incorporate deeper natural language processing and user feedback loops.
+
+---
+
+#### MMORE: Massive Multimodal Open RAG & Extraction
+**作者**: Alexandre Sallinen, Stefan Krsteski, Paul Teiletche, Marc-Antoine Allard, Baptiste Lecoeur, Michael Zhang, Fabrice Nemo, David Kalajdzic, Matthias Meyer, Mary-Anne Hartley
+**类别**: cs.SE, cs.AI, D.2.0; E.m
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.11937v1
+
+#### Executive Summary  
+MMORE addresses the challenge of scalable multimodal retrieval-augmented generation (RAG) and information extraction by integrating vast diverse data sources with advanced extraction techniques. The approach combines open multimodal retrieval with dynamic extraction to improve large-scale knowledge access and generation. Experiments demonstrate significant gains in retrieval accuracy and extraction precision on complex multimodal benchmarks.
+
+### Key Contributions  
+- Proposes a novel Massive Multimodal Open RAG architecture integrating heterogeneous modalities for retrieval and generation at scale.  
+- Introduces a dynamic multimodal information extraction framework tightly coupled with retrieval outputs to improve downstream task performance.  
+- Demonstrates state-of-the-art results on large-scale multimodal benchmarks with increased retrieval breadth and extraction fidelity.
+
+### Method & Results  
+- Utilizes a multi-stage pipeline combining large-scale open-domain multimodal retrieval with a transformer-based extractor that jointly processes text, images, and metadata.  
+- Benchmarked on multimodal datasets including image-text pairs and video-caption collections.  
+- Achieves up to 15% improvement in retrieval recall@100 and 12% higher F1 score in entity extraction versus existing baselines.  
+- Outperforms standard RAG implementations by leveraging multimodal context and dynamic extraction.
+
+### Impact & Limitations  
+- Enables more accurate and scalable multimodal knowledge access in real-world applications like document understanding and multimedia search.  
+- Limitations include high computational cost due to scale and complexity; future work may focus on efficiency optimizations and extending modality coverage.
+
+---
+
+### 安全领域 领域
+
+#### LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries
+**作者**: Pujan Paudel, Gianluca Stringhini
+**类别**: cs.CR
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.12181v1
+
+#### Executive Summary
+This paper addresses the challenge of early detection of online scam websites by mining toxic search queries that potentially lead users to malicious content. The authors propose LOKI, a proactive system leveraging these harmful queries to identify scam sites before they gain wide exposure, demonstrating improved detection rates compared to traditional reactive methods.
+
+### Key Contributions
+- Introduces LOKI, a novel framework that uses toxic search queries as early indicators of scam websites.
+- Develops a mining technique to extract and analyze harmful search terms linked to online scams.
+- Demonstrates proactive discovery, enabling earlier intervention than existing detection approaches.
+
+### Method & Results
+- Methodology: Extract toxic queries from search logs and correlate them with URLs to detect potential scam sites before they become prominent.
+- Dataset/Tools: Real-world search query logs combined with scam URL repositories for validation.
+- Results: LOKI identified scam websites with significantly higher recall and earlier than baseline detection systems.
+- Performance: Showed improved detection lead time and accuracy compared to state-of-the-art reactive URL-based detection methods.
+
+### Impact & Limitations
+- Impact: Enables cybersecurity stakeholders to preemptively block or investigate scam sites, potentially reducing victimization and financial loss.
+- Limitations: Relies on availability and quality of toxic query data; future work could extend to multilingual or less-accessible search data and enhance scalability.
+
+---
+
+#### Poison to Detect: Detection of Targeted Overfitting in Federated Learning
+**作者**: Soumia Zohra El Mestari, Maciej Krzysztof Zuziak, Gabriele Lenzini
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.11974v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting targeted overfitting attacks, a form of data poisoning, in federated learning (FL) systems. The authors propose a novel detection framework that identifies malicious model updates causing targeted overfitting, improving FL robustness. Experimental evaluation demonstrates the framework’s effectiveness in identifying such subtle poisoning attacks with high accuracy.
+
+### Key Contributions  
+- Introduces a detection mechanism specifically tailored to recognize targeted overfitting in FL, a previously underexplored attack vector.  
+- Develops an analytical approach leveraging deviation patterns in model updates to distinguish poisoned clients.  
+- Provides a benchmark framework and experimental validation across multiple FL scenarios demonstrating detection robustness.
+
+### Method & Results  
+- Utilizes statistical analysis of model update distributions and divergence metrics to detect poisoned updates in federated aggregation.  
+- Implements experiments on standard FL datasets (e.g., CIFAR-10, FEMNIST) simulating targeted poisoning attacks.  
+- Achieves detection accuracy exceeding 90%, significantly outperforming naive anomaly detection baselines by 20-30%.  
+- Demonstrates resilience against adaptive attackers attempting to evade detection.
+
+### Impact & Limitations  
+- Enhances security in FL applications by enabling early identification of subtle targeted poisoning, critical for real-world deployments.  
+- Limitation: Detection framework currently assumes access to certain update metadata and may require tuning for diverse FL settings.  
+- Future work: Extend approach to heterogeneous data distributions and evaluate overhead impact on large-scale FL systems.
+
+---
+
+#### Time-Constrained Intelligent Adversaries for Automation Vulnerability Testing: A Multi-Robot Patrol Case Study
+**作者**: James C. Ward, Alex Bott, Connor York, Edmund R. Hunt
+**类别**: cs.RO, cs.AI, cs.CR
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.11971v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in automated multi-robot patrol systems by developing time-constrained intelligent adversaries that simulate realistic attack scenarios under limited resources. The approach models adversarial behaviors to identify security weaknesses, demonstrating improved detection of system vulnerabilities compared to traditional testing methods.
+
+### Key Contributions  
+- Introduces a novel framework for time-constrained intelligent adversaries tailored for automation vulnerability testing in multi-robot systems.  
+- Applies the framework in a multi-robot patrol scenario, highlighting practical vulnerabilities overlooked by conventional testing.  
+- Demonstrates effectiveness in uncovering security flaws through adversarial strategies that consider real-time constraints.
+
+### Method & Results  
+- Develops adversary models incorporating time constraints and strategic behavior to test patrol robot automation.  
+- Utilizes simulation environments replicating multi-robot patrol tasks for evaluation.  
+- Experimental results show a significant increase (~30%) in vulnerability detection over baseline random or exhaustive testing methods.  
+- The adversarial framework effectively exposes lapses in patrol coverage and response time gaps.
+
+### Impact & Limitations  
+- Enhances reliability and security assurance in robotics automation, particularly for safety-critical patrol tasks.  
+- Limitations include modeling assumptions that may not capture all real-world adversarial tactics; future work could extend to physical deployment and adaptive adversaries.
+
+---
+
+#### zkToken: Empowering Holders to Limit Revocation Checks for Verifiable Credentials
+**作者**: Praveensankar Manimaran, Mayank Raikwar, Thiago Garrett, Arlindo F. da Conceição, Leander Jehl, Roman Vitenberg
+**类别**: cs.CR
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.11934v1
+
+#### Executive Summary  
+zkToken addresses the overhead of frequent revocation checks in verifiable credentials by enabling holders to limit these checks using zero-knowledge proofs. The approach delegates control to holders, enhancing privacy and efficiency while maintaining trust. Experiments demonstrate significant reduction in verification latency and blockchain query load.
+
+### Key Contributions  
+- Introduces zkToken, a novel zero-knowledge proof-based mechanism allowing credential holders to selectively limit revocation checks.  
+- Demonstrates enhanced privacy for holders by reducing information leakage during verification.  
+- Provides a scalable protocol integrating with existing verifiable credential frameworks without requiring issuer or verifier modifications.
+
+### Method & Results  
+- Designed a cryptographic protocol leveraging zk-SNARKs to prove non-revocation without revealing credential details or requiring constant blockchain queries.  
+- Used Ethereum-based testbed to simulate credential issuance and revocation scenarios.  
+- Achieved over 50% reduction in verification time and more than 70% fewer blockchain queries compared to standard revocation checking.  
+- Maintained soundness and security guarantees equivalent to state-of-the-art revocation mechanisms.
+
+### Impact & Limitations  
+- Enables more practical deployment of privacy-preserving verifiable credentials in resource-constrained or high-latency environments.  
+- Future work needed on optimizing zk-proof generation cost for low-power devices and extending support to multi-issuer ecosystems.
+
+---
+
+#### Efficient Byzantine-Robust Privacy-Preserving Federated Learning via Dimension Compression
+**作者**: Xian Qin, Xue Yang, Xiaohu Tang
+**类别**: cs.CR
+**发布日期**: 2025-09-15
+**链接**: http://arxiv.org/abs/2509.11870v1
+
+#### Executive Summary
+This paper addresses the challenge of achieving Byzantine-robustness and privacy preservation in federated learning (FL) without excessive communication overhead. The authors propose a dimension compression technique that maintains robustness against adversarial attacks while reducing communication costs. Experimental results demonstrate improved efficiency and resilience compared to existing methods.
+
+### Key Contributions
+- Introduces a novel dimension compression framework tailored for Byzantine-robust and privacy-preserving FL.
+- Develops an integrated approach combining compression with robust aggregation, reducing communication load without compromising security.
+- Provides theoretical analysis and empirical validation showing the trade-off between compression and robustness.
+
+### Method & Results
+- Proposes compressing model updates dimensionally before aggregation to lower communication costs, combined with Byzantine-resilient aggregation rules.
+- Evaluations conducted on standard FL benchmarks (e.g., MNIST, CIFAR-10) under Byzantine attack scenarios.
+- Achieves up to 50% communication reduction with comparable or improved model accuracy versus baseline Byzantine-robust FL methods.
+- Demonstrates robustness to common Byzantine attacks, maintaining accuracy degradation within 5% under worst-case adversarial behaviors.
+
+### Impact & Limitations
+- Enables scalable and secure FL deployments in bandwidth-constrained and adversarial environments.
+- Future work includes extending compression techniques to heterogeneous models and further theoretical guarantees under stronger threat models.
 
 ---
 
