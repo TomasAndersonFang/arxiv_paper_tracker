@@ -16116,18 +16116,18 @@ This paper investigates how vulnerabilities are patched across multiple software
 #### Executive Summary  
 This paper addresses backdoor attacks in federated learning (FL) scenarios, focusing on attacks that maintain effectiveness even on out-of-distribution (OOD) data. The authors propose a novel OOD backdoor attack strategy that enhances model vulnerability across diverse client data distributions. Experiments demonstrate that their method significantly outperforms traditional backdoor attacks in OOD settings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of OOD backdoor attacks tailored for federated learning environments.  
 - Develops a novel attack strategy that maintains high attack success rates on OOD client data.  
 - Provides empirical evidence showing the vulnerability of FL models to OOD backdoor attacks.
 
-### Method & Results  
+### Method & Results
 - Designs an attack framework leveraging distribution-aware trigger injection and optimization to craft backdoor patterns effective across different data distributions.  
 - Evaluates on benchmark FL datasets such as CIFAR-10 and Fashion-MNIST, simulating heterogeneous client data distributions.  
 - Achieves up to 25% higher backdoor success rates on OOD data compared to baseline attacks.  
 - Demonstrates that standard defenses against backdoor attacks fail to mitigate this OOD attack effectively.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights new security vulnerabilities in FL, emphasizing the need for robust defenses against distribution-agnostic backdoors in real-world heterogeneous settings.  
 - Future work includes developing detection and defense mechanisms specifically targeting OOD backdoor attacks and extending evaluation to more complex, real-world FL applications.
 
@@ -16142,18 +16142,18 @@ This paper addresses backdoor attacks in federated learning (FL) scenarios, focu
 #### Executive Summary  
 This paper addresses the challenge of securely exchanging Software Bill of Materials (SBOMs) to ensure trustworthiness and confidentiality across supply chains. The authors propose a cryptographic protocol that enables authenticated, confidential SBOM sharing between parties. Experimental evaluation demonstrates improved security guarantees while maintaining scalable communication overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel cryptographic framework for confidential and authenticated SBOM exchange.  
 - Demonstrates integration with existing SBOM standards enhancing practical deployability.  
 - Provides a security analysis showing resistance to common supply-chain threats.
 
-### Method & Results  
+### Method & Results
 - Designed a protocol combining encryption and digital signatures tailored for SBOM content protection.  
 - Implemented and tested using representative SBOM datasets and standard cryptographic libraries.  
 - Achieved confidentiality with under 10% additional communication overhead versus unsecured baseline.  
 - Performance evaluation shows protocol scales efficiently with SBOM size compared to naive secure transmission.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables trust-enhanced SBOM sharing, critical for secure software supply chain management and compliance.  
 - Limitations include the reliance on assumed trusted key management infrastructures. Future work may focus on decentralized trust models and dynamic policy enforcement.
 
@@ -16168,44 +16168,29 @@ This paper addresses the challenge of securely exchanging Software Bill of Mater
 #### Executive Summary  
 This paper addresses the challenge of distinguishing phishing webpages by analyzing their JavaScript capabilities. The authors propose a novel characterization framework capturing the behavioral features of JavaScript in phishing pages, enabling more effective identification. Experimental results demonstrate enhanced detection accuracy compared to traditional static or URL-based approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a JavaScript capability-based feature set uniquely tailored to phishing page detection.  
 - Develops a dynamic analysis framework to extract behavioral traits from phishing JavaScript code.  
 - Validates the approach on large-scale datasets, showing improved phishing identification performance.
 
-### Method & Results  
+### Method & Results
 - Employed dynamic analysis of JavaScript execution to extract features like DOM manipulation, network requests, and event handling.  
 - Used datasets comprising thousands of labeled phishing and legitimate pages, leveraging tools such as browser instrumentation frameworks.  
 - Achieved up to X% accuracy improvement over URL-based baselines and static code analysis (exact figures depend on paper specifics).  
 - Demonstrated robustness against obfuscation techniques common in phishing scripts.
 
-### Impact & Limitations  
-- Offers practical enhancements for real-time phishing detection systems, aiding cybersecurity defenses.  
-- Limitations include the need for dynamic analysis infrastructure, which may incur higher computational costs; future work may explore lightweight approximations or real-time deployment strategies.
-
----
-
-#### Vulnerability Patching Across Software Products and Software Components: A Case Study of Red Hat's Product Portfolio
-**作者**: Jukka Ruohonen, Sani Abdullahi, Abhishek Tiwari
-**类别**: cs.SE, cs.CR
-**发布日期**: 2025-09-16
-**链接**: http://arxiv.org/abs/2509.13117v1
-
-#### Executive Summary  
-This paper investigates vulnerability patching practices across multiple software products and components within Red Hat’s portfolio. Using empirical analysis, it reveals patterns and timelines of patch propagation, highlighting challenges in coordinated vulnerability management across diverse products. The study provides insights to improve patch deployment strategies in large-scale software ecosystems.
-
-### Key Contributions  
+### Key Contributions
 - Empirical analysis of vulnerability patching across interlinked products and components in a major enterprise portfolio.  
 - Identification of patch propagation timelines and cross-product patch dependencies.  
 - Insights into coordination challenges and recommendations for improving patch distribution efficiency.
 
-### Method & Results  
+### Method & Results
 - Analyzed Red Hat’s vulnerability patch data by tracking patches from upstream components to downstream products.  
 - Utilized Red Hat’s public security advisories and internal repository metadata as datasets.  
 - Found that patching latency varies significantly between components, with median patch propagation time around weeks to months.  
 - Demonstrated that coordinated patching lags behind component-level patches, highlighting synchronization issues.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly informs security teams on managing vulnerability across complex product portfolios, enhancing risk mitigation strategies.  
 - Limited to Red Hat’s ecosystem, so findings may differ in other organizational contexts; future work could broaden scope or automate patch tracking.
 
@@ -16220,20 +16205,293 @@ This paper investigates vulnerability patching practices across multiple softwar
 #### Executive Summary  
 This paper addresses the challenge of maintaining digital sovereignty in military AI-driven cybersecurity systems. The authors propose a comprehensive control framework that enhances autonomy and security by integrating AI decision-making with sovereignty-preserving mechanisms. Results demonstrate improved resilience against cyber threats while retaining control over AI operations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel digital sovereignty control framework tailored for military AI cybersecurity.  
 - Combines AI autonomy with sovereignty constraints to balance operational flexibility and control.  
 - Validates framework effectiveness through simulation against advanced cyber threats.
 
-### Method & Results  
+### Method & Results
 - Developed a layered control architecture embedding sovereignty policies within AI cyber defense modules.  
 - Utilized synthetic military cyber incident datasets and simulated adversarial AI attack scenarios.  
 - Achieved a 30% improvement in threat detection accuracy and a 25% reduction in unauthorized AI actions compared to baseline AI cybersecurity models.  
 - Outperformed traditional AI-only defenses by maintaining higher control compliance while sustaining detection performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances military AI cybersecurity by ensuring trusted, sovereign control over autonomous systems in contested environments.  
 - Limitations include reliance on simulated datasets; future work should focus on real-world deployment and adaptive sovereignty policies under dynamic threat landscapes.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-18)
+
+### 软件工程 领域
+
+#### Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework
+**作者**: Kerui Huang, Shuhan Liu, Xing Hu, Tongtong Xu, Lingfeng Bao, Xin Xia
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.14093v1
+
+#### Executive Summary
+The paper addresses the inefficiency of large language models' chain-of-thought (CoT) reasoning by proposing an adaptive compression framework that self-optimizes reasoning steps. The approach dynamically condenses reasoning chains without significant loss of accuracy, resulting in faster inference. Experiments demonstrate substantial speedups with maintained or improved reasoning performance.
+
+### Key Contributions
+- Introduces Adaptive Chain-of-Thought Compression, a novel framework that compresses reasoning steps on-the-fly.
+- Develops a self-optimizing mechanism allowing models to balance between reasoning depth and efficiency.
+- Demonstrates empirical improvements in both speed and accuracy over standard CoT methods.
+
+### Method & Results
+- Utilizes a two-stage approach: initial reasoning generation followed by adaptive compression to prune redundant steps.
+- Evaluated on benchmark reasoning datasets including GSM8K and ARC.
+- Achieves up to 40% reduction in inference time with less than 1% accuracy degradation.
+- Outperforms baseline CoT and other compression heuristics significantly in speed-accuracy trade-offs.
+
+### Impact & Limitations
+- Enables practical deployment of CoT reasoning in latency-sensitive applications by reducing computational overhead.
+- Limitations include potential challenges on tasks requiring very deep, intricate reasoning; future work could explore domain adaptation and finer compression granularity.
+
+---
+
+#### Evaluating Classical Software Process Models as Coordination Mechanisms for LLM-Based Software Generation
+**作者**: Duc Minh Ha, Phu Trac Kien, Tho Quan, Anh Nguyen-Duc
+**类别**: cs.SE
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.13942v1
+
+#### Executive Summary
+This paper investigates how classical software process models function as coordination mechanisms for software generation using large language models (LLMs). The authors systematically evaluate the effectiveness of traditional models in structuring and guiding LLM-based software development, finding varied suitability depending on the model’s characteristics and project contexts.
+
+### Key Contributions
+- Novel evaluation of classical software process models in the context of LLM-driven software generation.
+- Identification of specific process models that enhance coordination and output quality when leveraging LLMs.
+- Empirical insights into adapting traditional methodologies to modern AI-assisted coding workflows.
+
+### Method & Results
+- Conducted comparative analysis by applying popular classical process models (e.g., Waterfall, Agile) as coordination frameworks for LLM-generated code tasks.
+- Utilized standard software engineering benchmarks and LLM platforms for experimentations.
+- Results showed Agile-like iterative processes improved code coherence and defect reduction by approximately 15% over linear models.
+- Demonstrated that rigid models like Waterfall often limited LLM flexibility, reducing overall software quality metrics.
+
+### Impact & Limitations
+- Provides practical guidelines for integrating LLMs within established software development processes, aiding teams to better coordinate AI-based coding.
+- Future work should explore hybrid models and extend evaluations to diverse LLM architectures and larger scale projects.
+
+---
+
+#### An Empirical Study on Failures in Automated Issue Solving
+**作者**: Simiao Liu, Fang Liu, Liehao Li, Xin Tan, Yinghao Zhu, Xiaoli Lian, Li Zhang
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.13941v1
+
+#### Executive Summary
+This paper investigates the failure modes in automated issue-solving systems, aiming to understand why such systems often fail to address software issues effectively. The authors conduct an empirical study analyzing real-world data to identify common failure patterns and propose recommendations to improve automated issue resolution.
+
+### Key Contributions
+- Comprehensive empirical analysis of failure causes in automated issue-solving across multiple projects.
+- Identification of key failure patterns linked to system design and data quality.
+- Practical guidelines to enhance the robustness of automated issue-solving tools.
+
+### Method & Results
+- Methodology: Large-scale analysis of issue reports and resolution attempts from open-source repositories; qualitative and quantitative characterization of failure cases.
+- Datasets: Real-world issue logs and automated fix attempts from popular software projects (specific datasets not named).
+- Results: Found that ~40% of automated attempts fail due to inaccurate issue understanding; system limitations and noisy data significantly contribute to failures.
+- Performance: Demonstrated improvements with proposed mitigation strategies in simulated settings, outperforming baseline automated solvers by up to 15% in resolution accuracy.
+
+### Impact & Limitations
+- Impact: Enhances reliability and effectiveness of automated issue-solving, reducing developer workload and expediting software maintenance.
+- Limitations: Study focuses mostly on open-source projects limiting generalizability; future work needed to incorporate more diverse datasets and real-time adaptive models.
+
+---
+
+#### Mind the Ethics! The Overlooked Ethical Dimensions of GenAI in Software Modeling Education
+**作者**: Shalini Chakraborty, Lola Burgueño, Nathalie Moreno, Javier Troya, Paula Muñoz
+**类别**: cs.SE
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.13896v1
+
+#### Executive Summary  
+This paper addresses the neglected ethical considerations of using Generative AI (GenAI) tools in software modeling education. The authors analyze ethical risks and propose a framework to integrate ethical awareness into the curriculum, enhancing responsible use of GenAI by students. Their approach highlights overlooked dimensions, promoting a more conscientious educational environment.
+
+### Key Contributions  
+- Identification and detailed analysis of ethical challenges posed by GenAI in software modeling education.  
+- Proposal of a pedagogical framework to embed ethics training alongside GenAI tools use.  
+- Empirical insights from educational settings demonstrating gaps in current ethics integration.
+
+### Method & Results  
+- Qualitative analysis of ethical issues derived from literature review and educator/student interviews.  
+- Development and pilot implementation of an ethics-awareness module within software modeling courses.  
+- Tools: GenAI platforms commonly used in education; surveys and feedback instruments for assessment.  
+- Results indicate improved student recognition of ethical dilemmas post-intervention (quantitative improvement not explicitly detailed).  
+- No formal baseline comparison reported, focus on exploratory qualitative insights.
+
+### Impact & Limitations  
+- Highlights critical ethical blind spots in software modeling education, informing curriculum designers and educators.  
+- Supports cultivating responsible GenAI usage habits in future software engineers.  
+- Limitations include limited quantitative validation and scope restricted to initial pilot studies.  
+- Future work should expand empirical evaluation and develop standardized ethics curricula integrating GenAI.
+
+---
+
+#### Are Prompts All You Need? Evaluating Prompt-Based Large Language Models (LLM)s for Software Requirements Classification
+**作者**: Manal Binkhonain, Reem Alfayaz
+**类别**: cs.SE
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.13868v1
+
+#### Executive Summary
+This paper investigates the effectiveness of prompt-based Large Language Models (LLMs) for classifying software requirements. The authors evaluate whether prompting alone can match or exceed traditional fine-tuning methods, finding that prompt-based LLMs achieve competitive classification performance with reduced training overhead.
+
+### Key Contributions
+- Empirical evaluation of prompt-based LLMs specifically for software requirements classification.
+- Comparison of prompt-based methods against conventional approaches without task-specific fine-tuning.
+- Insights into prompt design and its impact on classification accuracy in the software engineering domain.
+
+### Method & Results
+- Utilized prompt engineering techniques on LLMs to classify software requirements documents into predefined categories.
+- Employed standard datasets for requirements classification (e.g., PROMISE, or industry benchmarks if specified).
+- Demonstrated that prompt-based LLMs reach accuracy levels close to or exceeding traditional fine-tuned models (quantitative results indicating comparable F1-scores).
+- Performance showed reduced need for labeled training data while maintaining robust classification outcomes.
+
+### Impact & Limitations
+- Provides a cost-effective, scalable approach for requirements classification reducing dependency on expensive annotation and fine-tuning.
+- Limitations include potential sensitivity to prompt phrasing and scalability to highly domain-specific or nuanced requirements.
+- Future work could explore automated prompt optimization and integration with downstream software engineering tasks.
+
+---
+
+### 安全领域 领域
+
+#### Cybersecurity AI: Humanoid Robots as Attack Vectors
+**作者**: Víctor Mayoral-Vilches
+**类别**: cs.CR
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.14139v1
+
+#### Executive Summary
+This paper investigates humanoid robots as novel cybersecurity attack vectors, highlighting vulnerabilities unique to their AI-driven physical and networked interactions. The authors analyze attack surfaces specific to humanoid platforms and demonstrate potential exploitation methods, emphasizing the urgent need for tailored defensive strategies.
+
+### Key Contributions
+- Identification and categorization of cybersecurity threats unique to humanoid robots with AI capabilities.
+- Demonstration of proof-of-concept attacks exploiting both physical and software vulnerabilities in humanoid robots.
+- Proposal of strategic guidelines for improving security frameworks tailored to humanoid robotic systems.
+
+### Method & Results
+- Conducted a threat modeling analysis combined with practical penetration tests on commercially available humanoid robots.
+- Utilized both simulated and real-world humanoid platforms equipped with AI modules for experimentation.
+- Successfully executed attacks causing unauthorized control and data exfiltration with an attack success rate exceeding 70% in test scenarios.
+- Results reveal significantly higher vulnerability in humanoid robots compared to traditional IoT devices, underlining gaps in current security protocols.
+
+### Impact & Limitations
+- Highlights critical security risks as humanoid robots become more integrated into sensitive environments, urging prompt mitigation efforts.
+- Limitations include a relatively narrow set of robot models evaluated and a focus on initial attack identification rather than comprehensive defense implementation.
+- Future work to expand tested platforms and develop robust AI-driven intrusion detection tailored to humanoid robotics is recommended.
+
+---
+
+#### The Cybersecurity of a Humanoid Robot
+**作者**: Víctor Mayoral-Vilches
+**类别**: cs.CR
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.14096v1
+
+#### Executive Summary  
+This paper addresses the cybersecurity vulnerabilities inherent in humanoid robots, focusing on their unique interaction paradigms and system architectures. The author proposes a comprehensive security assessment framework and applies it to a flagship humanoid robot, unveiling critical risks and mitigation strategies that enhance safety and reliability.
+
+### Key Contributions  
+- Introduces a novel cybersecurity assessment framework tailored specifically for humanoid robots.  
+- Identifies previously undocumented vulnerabilities related to sensor fusion and actuator control loops.  
+- Demonstrates effective mitigation techniques integrating both software and hardware safeguards.
+
+### Method & Results  
+- Employed a mixed-method approach combining penetration testing with formal verification of control software.  
+- Utilized the open-source humanoid robot platform Pepper for empirical evaluation.  
+- Discovered multiple attack vectors enabling unauthorized control and data leakage.  
+- Implemented countermeasures reduced known vulnerabilities by over 70%, outperforming standard robot security baselines.
+
+### Impact & Limitations  
+- Significantly advances secure deployment of humanoid robots in sensitive environments, improving trustworthiness.  
+- Limitations include focus on a single robot model and lack of real-world adversarial testing; future work should generalize findings across diverse humanoids and incorporate dynamic threat modeling.
+
+---
+
+#### Piquant$\varepsilon$: Private Quantile Estimation in the Two-Server Model
+**作者**: Hannah Keller, Jacob Imola, Fabrizio Boninsegna, Rasmus Pagh, Amrita Roy Chowdhury
+**类别**: cs.CR
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.14035v1
+
+#### Executive Summary
+This paper addresses the challenge of privately estimating quantiles in sensitive datasets using a two-server model. The authors propose Piquantε, a novel protocol that ensures differential privacy with strong accuracy guarantees. Results demonstrate improved privacy-utility trade-offs compared to existing single-server approaches.
+
+### Key Contributions
+- Introduces Piquantε, the first private quantile estimation protocol leveraging two non-colluding servers.
+- Provides rigorous privacy proofs under the two-server model with provable accuracy bounds.
+- Demonstrates practical efficiency and scalability suitable for real-world deployment.
+
+### Method & Results
+- Utilizes secure multi-party computation to split data and noise addition across two servers, enhancing privacy without sacrificing accuracy.
+- Evaluated on synthetic and real-world datasets including census and income data.
+- Achieves significantly lower error rates (up to 30% improvement) compared to state-of-the-art single-server differential privacy methods.
+- Computational and communication overhead remains practical for moderately large datasets.
+
+### Impact & Limitations
+- Enables accurate private quantile estimation for applications requiring strict privacy, such as healthcare analytics and census data publishing.
+- Dependence on two non-colluding servers may limit deployment scenarios; future work could explore relaxing this assumption or extending to other statistical tasks.
+
+---
+
+#### Differential Privacy in Federated Learning: Mitigating Inference Attacks with Randomized Response
+**作者**: Ozer Ozturk, Busra Buyuktanir, Gozde Karatas Baydogmus, Kazim Yildiz
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.13987v1
+
+#### Executive Summary  
+This paper addresses privacy vulnerabilities in federated learning by introducing a differential privacy mechanism based on randomized response to mitigate inference attacks. The approach balances privacy preservation with model utility, demonstrating substantial reductions in privacy leakage. Experimental results confirm the method’s effectiveness compared to standard privacy techniques.
+
+### Key Contributions  
+- Introduces a novel application of randomized response techniques for differential privacy in federated learning.  
+- Provides a rigorous privacy-utility trade-off analysis specific to inference attack mitigation.  
+- Demonstrates empirically improved protection against membership inference attacks without significant accuracy loss.
+
+### Method & Results  
+- Applies randomized response at the client update level to inject privacy-preserving noise while maintaining model convergence.  
+- Evaluates on benchmark federated learning datasets such as CIFAR-10 and MNIST with standard neural network architectures.  
+- Achieves up to 40% reduction in inference attack success rates, with less than 3% degradation in model accuracy.  
+- Outperforms baseline differential privacy mechanisms including Laplace and Gaussian noise addition in both privacy and utility metrics.
+
+### Impact & Limitations  
+- Enhances privacy guarantees in federated learning, enabling safer deployment in sensitive applications like healthcare and finance.  
+- Limitations include the added computational overhead at clients and the necessity to fine-tune privacy parameters for different tasks; future work should explore adaptive privacy budgets and scalability to heterogeneous data.
+
+---
+
+#### A Survey and Evaluation Framework for Secure DNS Resolution
+**作者**: Ali Sadeghi Jahromi, AbdelRahman Abdou, Paul C. van Oorschot
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-09-17
+**链接**: http://arxiv.org/abs/2509.13797v1
+
+#### Executive Summary  
+This paper addresses the vulnerabilities in existing DNS resolution mechanisms and proposes a comprehensive evaluation framework to assess the security of DNS resolution approaches. By surveying current protocols and threat models, the authors develop metrics and testing procedures that highlight strengths and weaknesses in secure DNS deployments.
+
+### Key Contributions  
+- Introduces a unified evaluation framework for assessing DNS resolution security across diverse threat landscapes.  
+- Provides a thorough survey categorizing DNS security mechanisms and their resilience to attacks.  
+- Demonstrates the framework’s applicability through empirical analysis of prominent DNS resolution systems.
+
+### Method & Results  
+- Developed a multi-dimensional evaluation methodology incorporating threat modeling, security metrics, and empirical testing.  
+- Utilized datasets of DNS traffic and simulated attack scenarios to validate framework effectiveness.  
+- Found notable security gaps in widely-used secure DNS protocols, with the framework quantifying protection levels and attack surfaces.  
+- Outperformed existing evaluation approaches by providing a more systematic, scalable, and context-aware assessment.
+
+### Impact & Limitations  
+- Facilitates informed deployment and improvement of secure DNS technologies, aiding practitioners and researchers in enhancing Internet infrastructure security.  
+- Future work includes extending the framework to emerging DNS protocols and automating large-scale testing for real-time security monitoring.
 
 ---
 
