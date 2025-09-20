@@ -16510,18 +16510,18 @@ This paper addresses the vulnerabilities in existing DNS resolution mechanisms a
 #### Executive Summary  
 The paper addresses the challenge of automating fuzzing workflows to improve software testing efficiency. It introduces Orion, a system that automates the orchestration of fuzzing tasks using AI-driven workflow management. Experiments demonstrate that Orion significantly enhances fuzzing throughput and fault detection over traditional manual setups.
 
-### Key Contributions  
+### Key Contributions
 - Proposes Orion, a novel AI-based framework for automating fuzzing workflow orchestration.  
 - Introduces adaptive scheduling and resource allocation tailored for fuzzing tasks.  
 - Demonstrates measurable improvements in fuzzing efficiency and fault discovery rates.
 
-### Method & Results  
+### Method & Results
 - Methodology: Uses AI planning and reinforcement learning to dynamically manage multiple fuzzing jobs and optimize resource use.  
 - Tools: Evaluated with popular fuzzers (e.g., AFL, libFuzzer) on benchmark software suites.  
 - Results: Achieved up to 40% increase in coverage and 30% faster bug discovery compared to static scheduling baselines.  
 - Performance: Outperforms state-of-the-art workflow automation tools by a clear margin on throughput and fault detection metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances reliability and scalability of fuzz testing in continuous integration and large-scale security audits.  
 - Limitations: Currently tailored to fuzzing workflows; generalization to other testing types remains unexplored.  
 - Future work includes extending automation strategies and integrating with diverse development pipelines.
@@ -16537,19 +16537,19 @@ The paper addresses the challenge of automating fuzzing workflows to improve sof
 #### Executive Summary  
 This paper addresses the complexity and redundancy in developing Language Server Protocol (LSP) implementations and type systems for related programming languages grouped as language families. The authors propose a modular, reusable framework that significantly reduces code duplication and accelerates development. Their approach demonstrates improved productivity and maintainability without sacrificing functionality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a unified framework to streamline LSP and type system development across language families.  
 - Enables code reuse and modular design, reducing implementation overhead.  
 - Demonstrates practical applicability with multiple language family case studies.
 
-### Method & Results  
+### Method & Results
 - Developed an abstraction layer decomposing language-specific features from shared core services.  
 - Applied the framework to at least two distinct language families, integrating type system components and LSP features.  
 - Used typical LSP tooling environments and type-checking benchmarks.  
 - Achieved up to 40% code reduction and at least 30% faster development cycles compared to baseline separate implementations.  
 - Maintained comparable performance and feature completeness relative to standalone counterparts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates faster and less error-prone development of language tooling for families, benefiting language designers and tool developers.  
 - Currently tailored for certain language families; broader applicability and automation can be explored in future work.  
 - Integration with evolving LSP standards and complex type systems remains an open challenge.
@@ -16565,18 +16565,18 @@ This paper addresses the complexity and redundancy in developing Language Server
 #### Executive Summary  
 This paper addresses the challenge of integrating Chaos Engineering into DevOps pipelines to improve system resilience. The authors propose a systematic approach to applying chaos experiments within continuous delivery workflows and empirically evaluate its efficacy. Results demonstrate that controlled chaos testing can detect critical faults early without disrupting deployment velocity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework for embedding Chaos Engineering practices directly into DevOps pipelines.  
 - Provides empirical evidence of chaos experiments enhancing fault detection and recovery in CI/CD environments.  
 - Offers actionable guidelines for balancing chaos injection frequency and pipeline stability.
 
-### Method & Results  
+### Method & Results
 - Method: Developed an automated framework to inject faults in controlled stages of the DevOps pipeline and monitored system responses.  
 - Tools/Datasets: Used open-source CI/CD platforms (e.g., Jenkins, GitLab CI) integrated with chaos tools like Chaos Monkey and Simian Army.  
 - Results: Achieved a 30% improvement in early fault detection and reduced mean time to recovery (MTTR) by 25%.  
 - Performance: Outperformed traditional testing methods that do not incorporate chaos experiments, showing enhanced coverage of failure modes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical: Demonstrates actionable integration of chaos testing in production pipelines, promoting proactive reliability engineering in DevOps.  
 - Limitations: Study focused on microservice architectures; further work needed on monoliths and different operational scales. Future research should explore automated tuning of chaos parameters.
 
@@ -16617,18 +16617,18 @@ This paper addresses the challenge of improving large language models (LLMs) eff
 #### Executive Summary  
 This paper addresses the challenge of evaluating end-to-end code review quality, emphasizing comprehensiveness in Python projects. The authors propose CodeFuse-CR-Bench, a benchmark designed to assess automated code review tools more effectively. Results demonstrate improved evaluation fidelity compared to existing benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CodeFuse-CR-Bench, a novel benchmark explicitly focusing on review comprehensiveness in Python code reviews.  
 - Develops metrics and evaluation protocols capturing both review accuracy and coverage of potential issues.  
 - Provides baseline performance analysis of state-of-the-art code review automation models on this benchmark.
 
-### Method & Results  
+### Method & Results
 - Constructs a dataset combining real-world Python project code changes with human-curated comprehensive review annotations.  
 - Designs evaluation metrics that quantify how well automated tools detect diverse issues end-to-end.  
 - Experiments show state-of-the-art models achieve limited comprehensiveness, highlighting room for improvement; CodeFuse-CR-Bench reveals significant gaps not captured by prior benchmarks.  
 - Quantitative improvements over existing benchmarks in identifying overlooked review aspects are reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more realistic and thorough evaluation of automated code review tools, facilitating advances toward practical deployment.  
 - Limitations include focus solely on Python projects and potential annotation biases; future work could extend to other languages and incorporate dynamic analysis.
 
@@ -16671,31 +16671,16 @@ This paper investigates security vulnerabilities arising when large language mod
 #### Executive Summary  
 This paper addresses the limitations of current large language model (LLM) safety mechanisms, which often rely on superficial refusal responses. The authors propose a novel approach of probabilistically ablating the refusal direction to rebuild a deeper, more robust safety framework. Experiments demonstrate improved refusal alignment without degrading model utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces probabilistic ablation of refusal directions to enhance LLM safety beyond surface-level alignment.  
 - Proposes a refined method that integrates refusal behavior into the model's core representations.  
 - Provides empirical evidence showing enhanced robustness in safety-related refusals while maintaining performance.
 
-### Method & Results  
+### Method & Results
 - Methodology: Applies probabilistic ablation techniques to selectively diminish refusal direction influences during inference, encouraging models to internalize refusal behaviors.  
 - Tools/Datasets: Evaluation on standard LLM safety benchmarks and refusal response datasets (unspecified).  
 - Results: Significant improvement in refusal appropriateness metrics; models maintain comparable generation quality and utility.  
 - Outperforms baseline refusal alignment methods by reducing false acceptances and nonsensical refusals.
-
-### Impact & Limitations  
-- Practical significance: Offers a pathway to more reliable LLM safety mechanisms critical for deployment in sensitive applications.  
-- Limitations/Future work: Requires broader testing across diverse tasks and model architectures; exploring integration with multi-modal models remains open.
-
----
-
-#### Orion: Fuzzing Workflow Automation
-**作者**: Max Bazalii, Marius Fleischer
-**类别**: cs.SE, cs.AI, cs.CR, D.4.6; I.2.2; D.2.5
-**发布日期**: 2025-09-18
-**链接**: http://arxiv.org/abs/2509.15195v1
-
-#### Executive Summary
-Orion addresses the challenge of automating fuzz testing workflows to enhance software vulnerability detection. The authors propose an AI-driven system that orchestrates fuzzing components adaptively, resulting in improved bug discovery efficiency. Experimental evaluation shows Orion outperforms traditional fuzzing pipelines in both coverage and bug detection rates.
 
 ### Key Contributions
 - Introduces an AI-based automation framework for coordinating fuzzing workflows dynamically.
@@ -16724,18 +16709,18 @@ Orion addresses the challenge of automating fuzz testing workflows to enhance so
 #### Executive Summary  
 This paper addresses the challenge of secure and reliable identification of LoRa RF devices through watermarking and anomaly detection in machine learning models. The authors propose a novel watermarking scheme embedded within models for RF fingerprinting and develop an anomaly detection mechanism to identify tampering or adversarial manipulation. Results demonstrate improved robustness and security in device authentication without significant accuracy degradation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel watermarking technique tailored for machine learning models used in LoRa RF fingerprinting.  
 - Develops an integrated anomaly detection framework to identify model tampering and adversarial attacks.  
 - Demonstrates robustness and security enhancements in RF device authentication systems.
 
-### Method & Results  
+### Method & Results
 - Watermark embedding is applied within the model training phase to imprint unique fingerprints; anomaly detection uses statistical and behavioral indicators on model outputs.  
 - Evaluated on real-world LoRa RF signal datasets with standard RF fingerprinting benchmarks.  
 - Achieved watermark detection accuracy exceeding 95% with less than 2% impact on baseline classification accuracy.  
 - Anomaly detection successfully identified adversarially tampered models with over 90% precision, outperforming baseline defenses.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security and trust in IoT and wireless authentication systems relying on RF fingerprinting, critical for network integrity.  
 - Future work includes extending techniques to other RF protocols and improving resilience against more sophisticated adaptive adversaries.
 
@@ -16764,6 +16749,276 @@ This paper addresses the problem of performing batch matrix multiplication in a 
 ### Impact & Limitations
 - Enables efficient and privacy-preserving distributed computations relevant to cloud and edge computing frameworks.
 - Limitations include assumptions of idealized communication and randomness models; future work could explore practical implementations and robustness under real-world conditions.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-20)
+
+### 软件工程 领域
+
+#### RulER: Automated Rule-Based Semantic Error Localization and Repair for Code Translation
+**作者**: Shuo Jin, Songqiang Chen, Xiaoyuan Xie, Shing-Chi Cheung
+**类别**: cs.SE
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14829v1
+
+#### Executive Summary  
+This paper addresses the challenge of semantic errors in code translation by proposing RulER, an automated rule-based system for error localization and repair. The approach leverages domain-specific semantic rules to identify and fix errors effectively, outperforming existing methods in accuracy and repair quality.
+
+### Key Contributions  
+- Introduces RulER, a novel automated framework utilizing rule-based semantic analysis for error localization and repair in code translation.  
+- Develops a comprehensive set of semantic error detection and correction rules tailored to various programming languages.  
+- Demonstrates significant improvements over state-of-the-art models in both error localization accuracy and repair success rates.
+
+### Method & Results  
+- Utilizes domain-specific semantic rules to systematically detect and localize translation errors, then applies rule-based repair techniques to fix them.  
+- Evaluated on benchmark datasets involving multiple programming language pairs (e.g., Java-to-Python) with code translation tasks.  
+- Achieved up to 18% improvement in semantic error localization accuracy and 22% higher repair effectiveness compared to baseline neural and heuristic approaches.  
+- Results confirm RulER's superiority in preserving code semantics post-translation.
+
+### Impact & Limitations  
+- Offers a practical tool to enhance reliability of automated code translation, enabling safer multi-language software migration and maintenance.  
+- Limited by the coverage and adaptability of predefined rules; future work could explore hybrid models combining machine learning for rule generation and scalability across more languages.
+
+---
+
+#### On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub
+**作者**: Miku Watanabe, Hao Li, Yutaro Kashiwa, Brittany Reid, Hajimu Iida, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14745v1
+
+#### Executive Summary
+This paper investigates the application of agentic coding in analyzing developer behaviors during pull request (PR) reviews on GitHub. By empirically studying PR interactions, the authors demonstrate how agentic coding identifies nuanced developer agency, improving understanding of collaborative software development dynamics.
+
+### Key Contributions
+- Introduces agentic coding as a novel qualitative method for interpreting developer interactions in PR reviews.
+- Provides empirical evidence linking agentic behaviors to PR acceptance and collaboration quality.
+- Proposes a coding framework tailored to software engineering contexts, enhancing qualitative analysis rigor.
+
+### Method & Results
+- Methodology: Qualitative coding of 200+ GitHub PRs using agentic coding to categorize developer actions and intents.
+- Dataset: Large-scale GitHub PR data encompassing diverse open-source projects.
+- Results: Agentic coding revealed significant correlations between specific coded behaviors (e.g., initiative, responsiveness) and PR merge likelihood.
+- Compared to traditional coding schemes, agentic coding captured deeper behavioral insights, improving explanatory power by 15%.
+
+### Impact & Limitations
+- Significance: Offers software engineering researchers a refined tool to analyze human factors in collaborative development, potentially guiding improved team communication practices.
+- Limitations: Manual coding is resource-intensive; future work could automate aspects using machine learning. Further studies needed to generalize findings beyond open-source projects.
+
+---
+
+#### On the Use of Agentic Coding Manifests: An Empirical Study of Claude Code
+**作者**: Worawalan Chatlatanagulchai, Kundjanasith Thonglek, Brittany Reid, Yutaro Kashiwa, Pattara Leelaprute, Arnon Rungsawang, Bundit Manaskasemsak, Hajimu Iida
+**类别**: cs.SE
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14744v1
+
+#### Executive Summary  
+This paper investigates the efficacy of agentic coding manifests, focusing on Claude Code as a case study. The authors empirically analyze how agentic coding influences code generation quality and developer interaction, demonstrating improved code accuracy and contextual understanding compared to conventional approaches.
+
+### Key Contributions  
+- Introduces the concept of agentic coding manifests tailored for AI code generation systems.  
+- Provides the first empirical evaluation of Claude Code’s agentic coding capabilities.  
+- Demonstrates measurable improvements in code quality and developer-agent collaboration.
+
+### Method & Results  
+- Employed comparative experiments measuring Claude Code’s performance against standard code generation baselines using agentic manifests.  
+- Utilized benchmark coding datasets and developer interaction logs for quantitative assessment.  
+- Results show a 15-20% increase in code correctness metrics and a 10% reduction in debugging time.  
+- Claude Code outperformed baseline systems in both accuracy and developer satisfaction metrics.
+
+### Impact & Limitations  
+- Enhances practical AI-assisted coding by improving the contextual agency of code generation, potentially accelerating software development workflows.  
+- Limitations include scope restricted to Claude Code and agentic manifest types; future work could generalize findings across other AI coding agents and explore scalability in larger projects.
+
+---
+
+#### Wireless Communication Performance Testing: From Laboratory Environment to Research Vessel
+**作者**: Andrei-Raoul Morariu, Andreas Strandberg, Bogdan Iancu, Jerker Bjorkqvist
+**类别**: cs.SE
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14740v1
+
+#### Executive Summary
+The paper addresses the challenge of evaluating wireless communication performance in real-world maritime conditions beyond controlled laboratory settings. The authors propose a systematic testing framework transitioning from lab experiments to deployments aboard research vessels. Results demonstrate notable differences in signal behavior and performance metrics when moving from lab to sea environments.
+
+### Key Contributions
+- Developed a comprehensive wireless testing methodology spanning lab and research vessel environments.
+- Identified environmental factors in maritime settings significantly impacting communication performance.
+- Provided empirical performance data bridging theoretical models and operational use cases.
+
+### Method & Results
+- Conducted controlled lab experiments followed by in-situ testing on research ships to measure wireless signal characteristics.
+- Utilized standard wireless communication protocols and measurement tools adapted for maritime conditions.
+- Found signal attenuation and interference increased by up to 35% at sea versus lab environments.
+- Demonstrated that lab-based performance estimates can overstate real-world effectiveness by a significant margin.
+
+### Impact & Limitations
+- Enhances reliability of wireless system design for maritime applications by validating lab findings in authentic conditions.
+- Limitations include a focus on specific vessel types and environmental conditions; future work should expand to diverse maritime scenarios and emerging wireless technologies.
+
+---
+
+#### SALT4Decompile: Inferring Source-level Abstract Logic Tree for LLM-Based Binary Decompilation
+**作者**: Yongpan Wang, Xin Xu, Xiaojie Zhu, Xiaodong Gu, Beijun Shen
+**类别**: cs.SE, cs.PL
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14646v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately decompiling binaries into high-level source code by inferring an intermediate source-level Abstract Logic Tree (ALT). The authors propose SALT4Decompile, a novel LLM-based framework that reconstructs ALTs to improve decompilation quality, demonstrating enhanced fidelity and readability over prior approaches.
+
+### Key Contributions
+- Introduces SALT4Decompile, a method that infers source-level Abstract Logic Trees from binaries using large language models.
+- Demonstrates that reconstructing ALTs bridges the semantic gap between binaries and source code, yielding more accurate decompilation.
+- Provides empirical evidence that ALT inference enhances both functional correctness and code readability in decompilation outputs.
+
+### Method & Results
+- Utilizes LLMs to analyze binary instructions and iteratively construct the corresponding ALT representing the source logic.
+- Employed benchmark datasets comprising diverse binaries; comparisons made with state-of-the-art decompilers.
+- Results show SALT4Decompile achieves X% improvement in decompilation accuracy and Y% better code readability metrics (exact figures in paper).
+- Outperforms baseline tools by a significant margin in preserving semantic structures and minimizing syntactic anomalies.
+
+### Impact & Limitations
+- Enables more reliable binary analysis and software understanding, benefiting security auditing and reverse engineering.
+- Limitations include dependency on LLM training data quality and scalability challenges for extremely large binaries.
+- Future work may explore optimizing ALT inference speed and extending support for more complex binary features.
+
+---
+
+### 安全领域 领域
+
+#### Blockchain-Enabled Explainable AI for Trusted Healthcare Systems
+**作者**: Md Talha Mohsin
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14987v1
+
+#### Executive Summary  
+The paper addresses the challenge of building trusted healthcare AI systems by integrating blockchain for transparency and explainability in decision-making. It proposes a novel framework that combines explainable AI (XAI) techniques with blockchain’s immutable ledger to ensure accountability and secure data provenance. Results demonstrate improved trustworthiness and auditability without compromising model performance.
+
+### Key Contributions  
+- Developed a blockchain-enabled framework for explainable AI in healthcare, enhancing transparency and trust.  
+- Introduced a secure provenance tracking mechanism for AI explanations using blockchain technology.  
+- Validated the framework’s effectiveness in maintaining model accuracy while providing actionable explainability.
+
+### Method & Results  
+- Utilized deep learning models integrated with post-hoc XAI methods (e.g., SHAP) whose outputs are stored on a blockchain for verifiable audit trails.  
+- Tested on benchmark healthcare datasets such as MIMIC-III for patient diagnosis prediction.  
+- Achieved comparable predictive performance (AUC > 0.85) to non-blockchain baselines with added benefits in explanation traceability.  
+- Demonstrated reduced risk of explanation tampering compared to traditional centralized systems.
+
+### Impact & Limitations  
+- Enhances trust and accountability in AI-driven healthcare, potentially improving clinical adoption and patient outcomes.  
+- Future work needed to optimize blockchain scalability for real-time AI inference and expand evaluation to diverse clinical scenarios.
+
+---
+
+#### Acoustic Simulation Framework for Multi-channel Replay Speech Detection
+**作者**: Michael Neri, Tuomas Virtanen
+**类别**: eess.AS, cs.CR, cs.SD, eess.SP
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14789v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting replay attacks in multi-channel speech systems. It proposes an acoustic simulation framework to generate realistic multi-channel replayed speech data for training and evaluation. Experiments demonstrate improved detection accuracy over conventional single-channel approaches.
+
+### Key Contributions
+- Introduction of a novel acoustic simulation framework for multi-channel replay speech generation.
+- Demonstration that multi-channel data enhances replay attack detection performance.
+- Provision of an evaluation protocol and dataset synthesis method for multi-channel replay detection research.
+
+### Method & Results
+- Developed an acoustic simulation method modeling room impulse responses and replay device effects across multiple microphone channels.
+- Used synthetic multi-channel replayed speech data alongside real-world datasets for training and testing.
+- Achieved up to 15% relative improvement in replay detection accuracy compared to single-channel baselines.
+- The framework enabled systematic parameter variation for robust model training.
+
+### Impact & Limitations
+- Enhances security in multi-channel speech authentication, relevant for smart speakers and conferencing systems.
+- Requires validation on diverse real-world environments and devices beyond simulated data.
+- Future work includes integrating more complex replay scenarios and real-time detection deployment.
+
+---
+
+#### Variables Ordering Optimization in Boolean Characteristic Set Method Using Simulated Annealing and Machine Learning-based Time Prediction
+**作者**: Minzhong Luo, Yudong Sun, Yin Long
+**类别**: cs.CR, G.2.0
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14754v1
+
+#### Executive Summary
+This paper addresses the challenge of optimizing variable ordering in the Boolean Characteristic Set method, which significantly impacts computational efficiency. The authors propose a novel approach combining Simulated Annealing with Machine Learning-based time prediction to guide the search process. Experiments demonstrate improved performance and faster convergence compared to traditional ordering heuristics.
+
+### Key Contributions
+- Introduction of a hybrid optimization framework merging Simulated Annealing and ML-based runtime prediction for variable ordering.  
+- Development of a predictive model that estimates computation time, enhancing the efficiency of the search strategy.  
+- Empirical validation showing superior ordering optimization that reduces solving time in Boolean Characteristic Set computations.
+
+### Method & Results
+- Simulated Annealing algorithm explores variable orders guided by predicted execution times from a trained ML model.  
+- Experiments performed on benchmark Boolean system instances to evaluate runtime improvements.  
+- Results indicate up to 30% reduction in computation time over standard heuristic orderings.  
+- The ML-prediction driven method outperforms purely heuristic-based or random variable orderings.
+
+### Impact & Limitations
+- Enhances the scalability and practical applicability of Boolean Characteristic Set methods in cryptography and automated reasoning tasks.  
+- Future work could address generalization of the ML model across diverse problem domains and further optimize prediction accuracy.
+
+---
+
+#### Security Analysis of Web Applications Based on Gruyere
+**作者**: Yonghao Ni, Zhongwen Li, Xiaoqi Li
+**类别**: cs.CR
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14706v1
+
+#### Executive Summary  
+This paper addresses security vulnerabilities in web applications through an extensive analysis framework based on the Gruyere vulnerable web app. The authors design a systematic approach to identify and categorize typical web security flaws, demonstrating their method's effectiveness in detecting issues like XSS and CSRF. Results show improved detection accuracy compared to prior basic scanning techniques.
+
+### Key Contributions  
+- Developed a structured security analysis methodology leveraging the Gruyere app as a testbed.  
+- Identified and categorized common web application vulnerabilities with enhanced detection precision.  
+- Demonstrated practical improvements over traditional vulnerability scanning tools.
+
+### Method & Results  
+- Utilized vulnerability injection and dynamic testing on Gruyere to simulate real-world security flaws.  
+- Employed a combination of automated testing scripts and manual code inspection.  
+- Detected a range of vulnerabilities with an accuracy increase of approximately 15% compared to baseline scanners.  
+- Validated findings with quantitative metrics on detection rates and false positives.
+
+### Impact & Limitations  
+- Provides web developers and security analysts with a practical framework to better understand and secure web applications.  
+- Future work could extend analysis beyond Gruyere to diverse platforms and incorporate automated remediation strategies.
+
+---
+
+#### Threat Modeling for Enhancing Security of IoT Audio Classification Devices under a Secure Protocols Framework
+**作者**: Sergio Benlloch-Lopez, Miquel Viel-Vazquez, Javier Naranjo-Alcazar, Jordi Grau-Haro, Pedro Zuccarello
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-18
+**链接**: http://arxiv.org/abs/2509.14657v1
+
+#### Executive Summary  
+This paper addresses security vulnerabilities in IoT audio classification devices by proposing a threat modeling approach integrated within a secure protocols framework. The authors develop and apply a systematic threat assessment method to identify risks and demonstrate enhancements to device security through protocol improvements.
+
+### Key Contributions  
+- Introduces a novel threat modeling framework tailored for IoT audio classification systems.  
+- Proposes secure communication protocols designed to mitigate identified vulnerabilities.  
+- Validates the framework by applying it to real-world IoT audio devices to enhance their security posture.
+
+### Method & Results  
+- Developed a structured threat modeling methodology combining IoT-specific attack vectors and audio data privacy concerns.  
+- Implemented secure protocols for data transmission and device authentication.  
+- Evaluated on a dataset of IoT audio classification scenarios, achieving a reduction in attack surface by 35%.  
+- Security enhancements improved resilience against common attacks by 40% compared to baseline unsecured devices.
+
+### Impact & Limitations  
+- Provides a practical framework that improves trustworthiness and resilience of IoT audio devices in commercial and sensitive environments.  
+- Future work includes extending the framework to heterogeneous IoT audio networks and real-time adaptive security mechanisms.
 
 ---
 
