@@ -17847,18 +17847,18 @@ This paper addresses the challenge of creating secure, cost-effective Write-Once
 #### Executive Summary  
 This paper investigates testing practices in open source AI agent frameworks and agentic applications, addressing a gap in empirical knowledge about their software quality assurance. The authors conduct a large-scale empirical study analyzing testing artifacts and practices to identify current weaknesses and opportunities for improvement. The study reveals prevalent testing challenges and proposes directions to enhance test coverage and effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - First large-scale empirical study examining testing practices specifically in open source AI agent frameworks and agentic applications.  
 - Identification of common testing deficiencies and their impact on software reliability in agentic AI systems.  
 - Recommendations tailored to improve testing frameworks and practices for AI agents.
 
-### Method & Results  
+### Method & Results
 - Analyzed 50+ open source AI agent projects by mining repositories to extract testing artifacts, test coverage, and issue data.  
 - Employed qualitative and quantitative analysis to assess test suite characteristics and defect correlations.  
 - Found that over 70% of projects suffer from inadequate test coverage, with many lacking tests for agentic behaviors.  
 - Demonstrated a significant correlation between insufficient testing and higher bug rates, outperforming generic software testing baselines in highlighting AI agent-specific weakness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights that can guide developers to enhance testing rigor, ultimately improving reliability in AI agent ecosystems.  
 - Limitations include focus on open source projects only and potential evolution of testing practices post-study; future work could explore industry adoption and automated testing tool development.
 
@@ -17900,18 +17900,18 @@ This paper explores the use of Large Language Models (LLMs) as verification orac
 #### Executive Summary  
 This paper addresses the reliability of large language model (LLM) agents in executing software test cases described in natural language. The authors propose a formal framework to assess soundness and consistency of such agents and empirically evaluate their execution behavior. Results indicate that while LLM agents show promise in interpreting and running test cases, challenges remain in ensuring consistent and sound execution outputs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a formal framework to evaluate soundness and consistency of LLM-driven test case execution.  
 - Empirically analyzes execution behaviors of state-of-the-art LLM agents on natural language test cases.  
 - Highlights critical gaps and potential risks in relying on LLMs for automated testing tasks.
 
-### Method & Results  
+### Method & Results
 - Developed a theoretical model characterizing soundness (correctness of execution) and consistency (repeatability of outputs).  
 - Evaluated multiple LLM agents on benchmark datasets of natural language test cases in software engineering.  
 - Found that LLM agents achieve an average soundness rate of ~75%, with consistency varying widely across repeated runs.  
 - Performance lags behind traditional deterministic test execution frameworks, emphasizing the need for improved reliability mechanisms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates significant potential for LLMs to augment software testing automation, reducing manual effort.  
 - Limitations include variability in outputs and incomplete adherence to formal correctness criteria.  
 - Future work should explore enhanced prompt engineering, model auditing, and integration with deterministic verification techniques.
@@ -17954,33 +17954,22 @@ This paper addresses the challenge of discovering software vulnerabilities by le
 #### Executive Summary  
 This paper addresses the challenge of detecting traffic accidents by leveraging multimodal large language models (LLMs) that integrate visual and textual data. The approach combines image recognition and contextual information from accident reports to improve detection accuracy. Results demonstrate enhanced performance over traditional single-modality methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multimodal LLM framework for traffic accident detection combining vision and language inputs.  
 - Incorporates contextual traffic report data to enrich accident scene understanding.  
 - Provides a benchmark dataset tailored for multimodal accident detection evaluation.
 
-### Method & Results  
+### Method & Results
 - Utilizes a transformer-based multimodal LLM integrating convolutional neural networks for image processing and pretrained language models for text analysis.  
 - Evaluated on a curated dataset containing annotated traffic accident images paired with relevant textual reports.  
 - Achieved a detection accuracy improvement of 12% over state-of-the-art unimodal baselines.  
 - Demonstrated robustness in diverse accident scenarios through multimodal context fusion.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more accurate, real-time traffic accident detection for intelligent transportation and emergency response systems.  
 - Future work needed to enhance model generalization to rare accident types and investigate real-world deployment constraints such as latency and sensor limitations.
 
 ---
-
-### 安全领域 领域
-
-#### LLMs as verification oracles for Solidity
-**作者**: Massimo Bartoletti, Enrico Lipparini, Livio Pompianu
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-09-23
-**链接**: http://arxiv.org/abs/2509.19153v1
-
-#### Executive Summary
-This paper addresses the challenge of verifying Solidity smart contracts by proposing the use of Large Language Models (LLMs) as verification oracles. The authors develop a framework where LLMs assist in bug detection and correctness validation, demonstrating that LLMs can effectively complement traditional verification techniques.
 
 ### Key Contributions
 - Introduces a novel paradigm of using LLMs as oracles for Solidity contract verification.
@@ -17993,34 +17982,18 @@ This paper addresses the challenge of verifying Solidity smart contracts by prop
 - Evaluated on a benchmark set of Solidity contracts; LLMs detected 15-20% more bugs than static analyzers alone.
 - Demonstrates that LLMs reduce false positives in verification tasks, improving practical usability.
 
-### Impact & Limitations
-- Shows practical potential in enhancing automated security checks for Ethereum smart contracts, aiding developers and auditors.
-- Limitations include reliance on LLM training data quality and challenges in scaling to highly complex contracts.
-- Future work may explore tighter integration and domain-specific tuning of LLMs for formal verification tasks.
-
----
-
-#### LLM-based Vulnerability Discovery through the Lens of Code Metrics
-**作者**: Felix Weissberg, Lukas Pirch, Erik Imgrund, Jonas Möller, Thorsten Eisenhofer, Konrad Rieck
-**类别**: cs.CR, cs.LG, cs.SE
-**发布日期**: 2025-09-23
-**链接**: http://arxiv.org/abs/2509.19117v1
-
-#### Executive Summary  
-This paper addresses vulnerability discovery in source code by leveraging large language models (LLMs) combined with code metrics. The authors propose an approach that integrates LLM-based vulnerability detection with traditional code metric analysis to improve identification accuracy. Their method significantly outperforms baseline models on standard vulnerability datasets.
-
-### Key Contributions  
+### Key Contributions
 - Novel integration of LLM outputs with traditional code complexity metrics for enhanced vulnerability detection.  
 - Demonstration of improved detection performance over purely ML or metric-based approaches.  
 - Comprehensive evaluation across multiple vulnerability datasets reflecting real-world codebases.  
 
-### Method & Results  
+### Method & Results
 - Utilizes pre-trained LLMs to generate vulnerability likelihoods from code snippets, augmented by static code metrics to refine predictions.  
 - Benchmarked on open-source vulnerability datasets including Juliet Test Suite and SATE IV.  
 - Achieves up to 15% higher F1-score compared to standalone LLM or metric-only methods.  
 - Shows robustness across different programming languages and vulnerability types.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Shows practical utility in automated security code review, potentially reducing manual auditing efforts.  
 - Limited by dependency on quality and representativeness of training data; future work could explore dynamic analysis features and real-time integration in development pipelines.
 
@@ -18035,18 +18008,18 @@ This paper addresses vulnerability discovery in source code by leveraging large 
 #### Executive Summary  
 This paper addresses the problem of detecting hidden backdoors in deep neural networks by leveraging model sensitivity analysis. The authors propose Sensitron, a novel framework that uncovers stealthy triggers by measuring sensitivity patterns in network parameters. Experiments demonstrate Sensitron’s effectiveness in detecting concealed backdoors with improved accuracy over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Sensitron, a sensitivity-based method to reveal hidden backdoor triggers in neural networks.  
 - Proposes a novel sensitivity metric that captures subtle perturbations linked to backdoor patterns.  
 - Demonstrates superior detection performance on multiple benchmark datasets compared to prior state-of-the-art approaches.
 
-### Method & Results  
+### Method & Results
 - Method: Analyzes parameter sensitivity to input perturbations to pinpoint potential backdoor triggers without requiring explicit trigger knowledge.  
 - Tools/Datasets: Evaluations conducted on standard backdoor benchmark datasets (e.g., CIFAR-10, GTSRB) with diverse attack scenarios.  
 - Results: Achieves detection accuracy improvements of 8-15% over leading baselines, effectively identifying hidden triggers that evade traditional detectors.  
 - Outperforms popular backdoor detection frameworks in both false positive rate and detection speed.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enhances AI security by providing a robust, trigger-agnostic detection mechanism, crucial for deploying trustworthy models.  
 - Limitations/Future Work: Requires further validation on larger-scale models and adaptive attacks; potential integration with real-time monitoring systems is suggested.
 
@@ -18087,20 +18060,293 @@ This paper tackles the challenge of detecting adversarial vulnerabilities in sma
 #### Executive Summary  
 This paper addresses side-channel attacks by proposing Obelix, a dynamic code obfuscation framework that continuously changes the program’s execution patterns to confuse attackers. The approach effectively reduces information leakage through side channels without significant performance degradation. Experimental results demonstrate substantial mitigation of key leakage on various microarchitectural attacks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Obelix, a novel dynamic obfuscation technique that adapts execution to thwart side-channel analysis.  
 - Demonstrates practical mitigation against real side-channel attacks with low runtime overhead.  
 - Provides a general framework applicable across different platforms and workload types.
 
-### Method & Results  
+### Method & Results
 - Implements runtime code layout randomization and dynamic instruction substitution to obscure side-channel signals.  
 - Evaluated using a combination of microarchitectural side-channel attack benchmarks and real-world cryptographic workloads.  
 - Achieved up to 80% reduction in side-channel leakage metrics while maintaining less than 15% runtime overhead.  
 - Outperforms static obfuscation baselines with significantly enhanced adaptability and security.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical defense mechanism for critical applications vulnerable to side channels, enhancing hardware-software security synergy.  
 - Limitations include potential increased complexity for debugging and possible residual leakage under highly adaptive adversaries; future work could explore integration with hardware-level protections.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-25)
+
+### 软件工程 领域
+
+#### Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study
+**作者**: Viktoria Stray, Elias Goldmann Brandtzæg, Viggo Tellefsen Wivestad, Astri Barbala, Nils Brede Moe
+**类别**: cs.SE
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20353v1
+
+#### Executive Summary  
+This paper investigates the impact of GitHub Copilot on developer productivity via a longitudinal mixed-methods case study. The study combines quantitative productivity metrics with qualitative insights to assess how Copilot influences coding efficiency and developer experience over time, finding nuanced effects that vary by task type and developer expertise.
+
+### Key Contributions  
+- Longitudinal mixed-methods evaluation of GitHub Copilot’s real-world productivity impact.  
+- Integration of quantitative coding metrics with qualitative developer feedback for richer understanding.  
+- Identification of contextual factors influencing Copilot’s effectiveness, such as task complexity and developer familiarity.
+
+### Method & Results  
+- Conducted a longitudinal field study with professional developers over multiple months using and without Copilot.  
+- Collected quantitative metrics (e.g., code completion time, error rates) alongside developer interviews and surveys.  
+- Found up to 20% reduction in coding time for routine tasks with Copilot, while creative or complex tasks showed negligible improvement.  
+- Copilot’s suggestions improved code correctness moderately but occasionally introduced subtle errors requiring manual correction.  
+- Compared with baseline coding without AI assistance, Copilot showed productivity gains primarily in repetitive coding segments.
+
+### Impact & Limitations  
+- Demonstrates practical productivity benefits of AI pair programming tools, influencing team adoption decisions.  
+- Limited sample size and domain scope; results may not generalize to all programming tasks or environments.  
+- Future work should explore long-term cognitive effects and scaling studies across diverse domains.
+
+---
+
+#### Protocol Testing with I/O Grammars
+**作者**: Alexander Liggesmeyer, José Antonio Zamudio Amaya, Andreas Zeller
+**类别**: cs.SE, 68M15 (Primary), 68M12, 68Q42 (Secondary), D.2.5; C.2.2; F.4.2
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20308v1
+
+#### Executive Summary
+This paper addresses the challenge of protocol testing by introducing I/O grammars to model and generate valid input/output sequences for communication protocols. The approach enables systematic test generation that captures protocol semantics more precisely, leading to improved detection of protocol violations and implementation errors.
+
+### Key Contributions
+- Introduction of I/O grammars for specifying and generating protocol test sequences.
+- A novel methodology combining grammar-based generation with black-box testing to enhance protocol validation.
+- Empirical demonstration showing superior fault detection compared to traditional random or state-based testing.
+
+### Method & Results
+- Utilizes context-free I/O grammars to model protocol interactions, automatically generating test cases that reflect valid communication patterns.
+- Experiments carried out on standard protocol benchmarks and real-world implementations (specific datasets/tools not explicitly mentioned).
+- Results reveal significant increases in fault detection rates, with up to 30% more errors found compared to baseline random and state machine based tests.
+- Performance improvements in test coverage and precision of error localization were observed.
+
+### Impact & Limitations
+- Advances practical protocol testing by providing a systematic, semantically aware test generation technique applicable to complex protocols.
+- Future work includes extending grammar expressiveness, scaling to very large protocols, and integrating with automated repair tools.
+
+---
+
+#### Confidentiality-Preserving Verifiable Business Processes through Zero-Knowledge Proofs
+**作者**: Jannis Kiesel, Jonathan Heiss
+**类别**: cs.SE
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20300v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying business process compliance without revealing confidential data. It proposes a novel framework leveraging zero-knowledge proofs to ensure verifiability while preserving privacy. Experimental results demonstrate the approach’s feasibility with minimal computational overhead.
+
+### Key Contributions  
+- Introduction of a zero-knowledge proof scheme tailored for business process verification.  
+- A confidentiality-preserving framework that enables compliance audits without data disclosure.  
+- Implementation and evaluation demonstrating practical applicability in enterprise scenarios.
+
+### Method & Results  
+- Utilizes zero-knowledge proofs to encode business process steps, ensuring verifiability without exposing sensitive information.  
+- Developed a prototype integrating cryptographic tools for real-world business process models.  
+- Experiments showed verification times under X seconds (exact time depends on process complexity), outperforming baseline naive disclosure methods.  
+- Demonstrated scalability across varying process complexities with minimal increase in proof generation time.
+
+### Impact & Limitations  
+- Enables organizations to conduct compliance checks securely, enhancing trust and meeting privacy regulations.  
+- Limited by reliance on current zero-knowledge proof efficiency; future work may focus on optimizing proof size and generation speed.  
+- Does not cover integration with heterogeneous business process management systems or dynamic process changes.
+
+---
+
+#### The Cream Rises to the Top: Efficient Reranking Method for Verilog Code Generation
+**作者**: Guang Yang, Wei Zheng, Xiang Chen, Yifan Sun, Fengji Zhang, Terry Yue Zhuo
+**类别**: cs.SE, cs.AI, cs.AR
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20215v1
+
+#### Executive Summary
+This paper addresses improving the accuracy of Verilog code generation from natural language descriptions by proposing an efficient reranking method. The approach leverages a lightweight reranker to reorder candidate code snippets generated by pretrained language models, significantly enhancing the quality of outputs. Experimental results demonstrate notable gains in code correctness over standard generation methods.
+
+### Key Contributions
+- Introduces a novel, efficient reranking algorithm tailored for Verilog code generation tasks.
+- Demonstrates how reranking boosts code synthesis quality without heavy computational overhead.
+- Provides a benchmark evaluation showing the effectiveness of reranking in hardware-description language generation.
+
+### Method & Results
+- Uses a two-stage approach: initial generation by a pretrained language model followed by a reranking step based on semantic and structural criteria.
+- Evaluated on established Verilog code generation datasets; tools include state-of-the-art neural code generation models.
+- Achieved improvements of up to XX% in accuracy and YY% in syntax correctness (exact figures from paper).
+- Outperformed baseline generation-only models by a significant margin in both precision and recall metrics.
+
+### Impact & Limitations
+- Enhances practical automatic code synthesis for hardware design, potentially accelerating design cycles.
+- Limitations include reliance on existing generation quality and potential challenges scaling to more complex circuits; future work may explore integrating reranking with larger, multimodal models.
+
+---
+
+#### Benchmarking Web API Integration Code Generation
+**作者**: Daniel Maninger, Leon Chemnitz, Amir Molzam Sharifloo, Jannis Brugger, Mira Mezini
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20172v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically generating Web API integration code, a task complicated by diverse APIs and incomplete documentation. The authors propose a benchmarking framework to evaluate code generation models specifically on Web API integration scenarios, providing standardized metrics and datasets. Their results highlight performance gaps and guide future improvements in API-focused code generation.
+
+### Key Contributions
+- Introduces the first benchmarking suite tailored for Web API integration code generation.
+- Curates and publicly releases a dataset reflecting real-world API integration tasks.
+- Offers comprehensive evaluation metrics that assess functional correctness and integration quality.
+
+### Method & Results
+- Developed a benchmark leveraging collected API specifications and corresponding integration code snippets.
+- Utilized popular code generation models (e.g., CodeGen, Codex) for comparative evaluation.
+- Demonstrated existing models achieve moderate success with notable error rates in handling API-specific nuances.
+- Benchmarked performance reveals room for substantial improvement against baseline language models.
+
+### Impact & Limitations
+- Provides a valuable resource to standardize and accelerate research on automated API integration, benefiting software engineering and ML communities.
+- Limitations include scope restricted to selected APIs and the challenge of evolving API versions, suggesting future work on adaptive and context-aware generation models.
+
+---
+
+### 安全领域 领域
+
+#### FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems
+**作者**: Shaoyuan Xie, Mohamad Habib Fakih, Junchi Lu, Fayzah Alshammari, Ningfei Wang, Takami Sato, Halima Bouzidi, Mohammad Abdullah Al Faruque, Qi Alfred Chen
+**类别**: cs.CR
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20362v1
+
+#### Executive Summary  
+This paper introduces FlyTrap, a novel physical attack that manipulates camera-based autonomous target tracking systems by pulling the perceived target’s position through distance alterations. The approach exploits system vulnerabilities to induce tracking errors without digital intrusion, demonstrating significant misdirection in real-world scenarios.
+
+### Key Contributions  
+- Proposes the first physical distance-pulling attack specifically targeting camera-based autonomous tracking systems.  
+- Develops an attack model that leverages physical movement to bias tracking algorithms without requiring system access.  
+- Validates FlyTrap’s effectiveness on multiple autonomous platforms, showcasing practical feasibility and impact.
+
+### Method & Results  
+- Methodology involves creating controlled physical perturbations that alter perceived target distance, misleading the tracking system’s position estimates.  
+- Experiments conducted on real autonomous vehicles and drones equipped with standard camera tracking modules.  
+- Results indicate FlyTrap causes up to a 45% deviation in target tracking accuracy, significantly outperforming traditional spoofing or occlusion attacks.  
+- Demonstrates robustness across diverse environments and tracking algorithms, with substantial degradation compared to baseline unmanipulated tracking.
+
+### Impact & Limitations  
+- Highlights a critical physical-layer vulnerability relevant to security and safety of autonomous surveillance and navigation systems.  
+- Limitations include dependency on line-of-sight and controlled physical environment; future work may explore countermeasures and attacks under less constrained conditions.
+
+---
+
+#### chainScale: Secure Functionality-oriented Scalability for Decentralized Resource Markets
+**作者**: Mohamed E. Najd, Ghada Almashaqbeh
+**类别**: cs.CR
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20356v1
+
+#### Executive Summary  
+This paper addresses scalability challenges in decentralized resource markets by introducing chainScale, a functionality-oriented framework designed to securely enhance transaction throughput. The approach leverages modular scalability techniques tailored to specific market functions, resulting in improved system efficiency. Experimental results demonstrate significant throughput gains without compromising security.
+
+### Key Contributions  
+- Proposes chainScale, a novel secure scalability framework focused on functionality-specific optimization in decentralized resource markets.  
+- Introduces modular scalability mechanisms enabling tailored performance enhancements for diverse market functionalities.  
+- Demonstrates the balance of improved scalability with robust security guarantees.
+
+### Method & Results  
+- Developed a modular approach to decouple and optimize distinct functions within decentralized resource market protocols.  
+- Implemented chainScale prototype evaluated using simulated decentralized market environments.  
+- Achieved up to 4x higher transaction throughput compared to baseline monolithic blockchain implementations.  
+- Maintained security properties with negligible overhead relative to improved scalability.
+
+### Impact & Limitations  
+- Enhances practical deployment prospects for decentralized resource markets by addressing the scalability-security trade-off effectively.  
+- Limitations include potential complexity in modular integration and the need for validation on real-world market platforms.  
+- Future work may explore dynamic adaptability of chainScale modules and broader compatibility with heterogeneous blockchain systems.
+
+---
+
+#### RAG Security and Privacy: Formalizing the Threat Model and Attack Surface
+**作者**: Atousa Arzanipour, Rouzbeh Behnia, Reza Ebrahimi, Kaushik Dutta
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20324v1
+
+#### Executive Summary  
+This paper addresses the lack of a formalized threat model for Retrieval-Augmented Generation (RAG) systems, focusing on their security and privacy vulnerabilities. The authors propose a comprehensive threat framework and systematically map out the attack surface, revealing critical risks in data retrieval and generation processes. Their analysis paves the way for more robust defenses in AI-powered RAG architectures.
+
+### Key Contributions  
+- Introduces the first formal threat model specific to RAG systems integrating both retrieval and generation threats.  
+- Provides a detailed attack surface analysis highlighting novel vectors unavailable in standalone language models or retrieval systems.  
+- Offers a foundational framework to guide the development of security and privacy-preserving techniques in RAG architectures.
+
+### Method & Results  
+- Decomposes RAG pipeline stages to identify potential attacker capabilities and objectives.  
+- Systematic characterization of attack vectors via theoretical analysis and proof-of-concept demonstrations.  
+- Utilizes synthetic and benchmark datasets to validate threat scenarios.  
+- Quantitative metrics measure vulnerability exposure; results show RAG systems suffer compounded risks versus non-augmented models.
+
+### Impact & Limitations  
+- Significantly enhances understanding of security risks in increasingly popular RAG models, informing future safeguards.  
+- Lacks implementation of mitigation strategies, leaving practical defense design as future work.  
+- Future directions include empirical evaluation under real-world adversarial conditions and development of automated threat detection tools.
+
+---
+
+#### Monitoring Violations of Differential Privacy over Time
+**作者**: Önder Askin, Tim Kutta, Holger Dette
+**类别**: cs.CR, math.ST, stat.ME, stat.TH
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20283v1
+
+#### Executive Summary
+This paper addresses the problem of detecting violations of differential privacy guarantees during data analysis over time. The authors propose a statistical monitoring framework that dynamically tests for privacy breaches based on observed outputs. The method provides timely detection with controlled false alarm rates, validated through theoretical guarantees and empirical evaluation.
+
+### Key Contributions
+- Introduces a novel sequential monitoring approach tailored to identify differential privacy violations in real-time.
+- Develops rigorous statistical tests that adapt to evolving data release mechanisms, ensuring controlled type I error.
+- Provides theoretical guarantees for detection delay and false alarm rates under differential privacy constraints.
+
+### Method & Results
+- Methodology: Sequential hypothesis testing framework combining privacy loss random variables with change-point detection techniques.
+- Tools/Datasets: Synthetic and benchmark datasets simulating various privacy mechanisms (e.g., Laplace, Gaussian mechanisms).
+- Results: Demonstrates accurate detection of privacy violations with low false alarm rates; detection delay reduced by up to 30% compared to static tests.
+- Performance: Outperforms baseline static privacy audits by providing continuous monitoring and quicker response to violations.
+
+### Impact & Limitations
+- Impact: Enables practitioners to monitor privacy losses dynamically, enhancing trustworthiness of privacy-preserving data systems in real-world deployments.
+- Limitations/Future Work: Extension to complex, high-dimensional data release settings and integration with automated privacy accounting tools remain open challenges.
+
+---
+
+#### Investigating Security Implications of Automatically Generated Code on the Software Supply Chain
+**作者**: Xiaofan Li, Xing Gao
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20277v1
+
+#### Executive Summary  
+This paper examines the security risks introduced by the increasing use of automatically generated code in software supply chains. The authors analyze vulnerabilities that arise from code synthesis tools and propose a framework to detect and mitigate these risks. Their results demonstrate that current automatic code generation can inadvertently propagate exploitable flaws, highlighting the need for enhanced security practices.
+
+### Key Contributions  
+- Identification and categorization of security vulnerabilities specific to automatically generated code in supply chains.  
+- Development of a security analysis framework tailored to detect vulnerabilities in synthesized code.  
+- Empirical evaluation showing the prevalence and impact of these vulnerabilities in real-world software packages.
+
+### Method & Results  
+- Conducted static and dynamic analysis on code snippets generated by popular AI-based code synthesis tools integrated into supply chains.  
+- Utilized datasets from open-source repositories employing auto-generated components and synthetic test cases.  
+- Discovered that up to 30% of automatically generated code samples contain security flaws such as injection or privilege escalation vectors.  
+- The proposed detection framework improved vulnerability identification rates by 25% over traditional static analysis baselines.
+
+### Impact & Limitations  
+- Highlights critical security concerns for developers relying on AI-generated code, promoting safer integration in software supply chains.  
+- Limited by focus on specific code generation tools and types of vulnerabilities; future work to expand scope and automate remediation strategies.
 
 ---
 
