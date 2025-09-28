@@ -18620,18 +18620,18 @@ This paper addresses the challenge of detecting phishing attacks by proposing a 
 #### Executive Summary  
 This paper addresses the challenge of aligning semantic intent and program logic in code retrieval tasks. The authors propose PseudoBridge, a novel framework that uses pseudo code as an intermediary representation to enhance the semantic and logical matching between natural language queries and source code. Experiments demonstrate that PseudoBridge significantly improves retrieval accuracy over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces pseudo code as a bridging representation to better capture semantic and logical relations in code retrieval.  
 - Develops a novel dual-encoder architecture that jointly learns from source code and generated pseudo code.  
 - Shows substantial performance gains on standard code retrieval benchmarks indicating improved semantic alignment.
 
-### Method & Results  
+### Method & Results
 - Proposes a dual-encoder model leveraging pseudo code generated from source code to bridge semantic gaps with natural language queries.  
 - Evaluated on widely used code retrieval datasets such as CodeSearchNet and others in multiple programming languages.  
 - Achieves up to 8% absolute improvement in top-1 retrieval accuracy compared to traditional code-to-text retrieval baselines.  
 - Outperforms state-of-the-art models including CodeBERT and GraphCodeBERT in both semantic and logical matching metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical code search tools by better understanding developers’ intent, improving developer productivity.  
 - Limitations include dependency on quality of pseudo code generation and increased computational overhead; future work can explore more efficient generation and integration methods.
 
@@ -18673,18 +18673,18 @@ This paper investigates the influence of formal verification constraints on trai
 #### Executive Summary  
 This paper addresses the challenge of effective log analysis by introducing LogReasoner, a novel framework that enables large language models (LLMs) to perform expert-like coarse-to-fine reasoning. The approach hierarchically narrows down log information, significantly improving accuracy and interpretability in tasks like anomaly detection and root cause analysis.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a coarse-to-fine reasoning paradigm tailored for LLMs to optimize log analysis performance.  
 - Develops a multi-stage framework that mimics expert log analysts’ reasoning processes.  
 - Demonstrates improved interpretability and precision over existing LLM-based log analysis methods.
 
-### Method & Results  
+### Method & Results
 - Core methodology: hierarchical reasoning stages that progressively refine log inputs and inferences using LLMs; integration of domain knowledge to guide reasoning.  
 - Datasets/tools: benchmark log analysis datasets from software systems, possibly including HDFS and BGL logs.  
 - Experimental results: significant accuracy gains (e.g., +10% improvement) in key tasks such as anomaly detection and fault diagnosis compared to vanilla LLM baselines.  
 - Outperforms state-of-the-art baselines in both detection precision and explanation clarity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable and interpretable log analysis in real-world software monitoring scenarios.  
 - Limitations: potential scalability challenges with extremely large logs; future work could explore automated domain knowledge extraction and real-time reasoning capabilities.
 
@@ -18726,18 +18726,18 @@ This paper addresses the challenge of understanding and enhancing participant en
 #### Executive Summary  
 This paper addresses the challenge of accurately classifying research papers by programming language topic using a novel workflow integrating semantic analysis and machine learning. The authors propose and implement a multi-stage classification pipeline that outperforms traditional keyword-based methods. Experiments demonstrate improved precision and recall on benchmark datasets.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid classification workflow combining NLP embeddings with supervised classifiers tailored for programming language topics.  
 - Develops a novel feature extraction technique capturing programming language semantics beyond simple keyword matching.  
 - Provides comprehensive evaluation on multiple datasets, demonstrating significant performance gains over existing methods.
 
-### Method & Results  
+### Method & Results
 - Core methodology: semantic feature extraction using language models followed by machine learning classification (e.g., SVM, Random Forest).  
 - Utilizes public programming paper datasets, including arXiv CS and GitHub metadata.  
 - Achieved up to 12% improvement in F1-score over baseline keyword classification approaches.  
 - Demonstrates robustness across different programming language categories and paper domains.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more accurate organization and retrieval of scholarly works by programming language, benefiting researchers and digital libraries.  
 - Limitations include reliance on labeled data for supervised learning and potential domain adaptation challenges; future work could explore unsupervised or transfer learning to generalize further.
 
@@ -18780,18 +18780,18 @@ This paper addresses the challenge of constructing a high-quality Cyber Threat I
 #### Executive Summary  
 This paper investigates vulnerabilities in large language model (LLM) watermarking schemes designed to attribute AI-generated text. The authors propose RLCracker, an adaptive reinforcement learning (RL) based attack that effectively removes watermarks while preserving text quality. Experimental results demonstrate that RLCracker significantly outperforms existing watermark removal methods, undermining current watermark reliability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces RLCracker, the first adaptive RL framework to bypass LLM watermarking by optimizing text modifications.  
 - Provides systematic evaluation exposing critical weaknesses in state-of-the-art LLM watermarking techniques.  
 - Offers insights into adversarial strategies that can inform the design of more robust watermarking defenses.
 
-### Method & Results  
+### Method & Results
 - Utilizes reinforcement learning to adaptively modify watermarked text, minimizing watermark detectability while retaining semantic coherence.  
 - Experiments conducted on benchmark LLM-generated corpora with prominent watermarking schemes.  
 - Achieves up to 40% reduction in watermark detection accuracy compared to baseline watermark removal attacks.  
 - Outperforms heuristic and naive editing methods by significant margins in both watermark evasion and text quality metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities threatening the trustworthiness of LLM watermarking for copyright and authenticity control.  
 - Future work includes developing robust watermarking resistant to adaptive RL attacks and exploring attacks on multimodal watermarks.
 
@@ -18806,18 +18806,18 @@ This paper investigates vulnerabilities in large language model (LLM) watermarki
 #### Executive Summary  
 This paper introduces a generalized \( \chi_n \)-function, extending classical \( \chi \)-type functions in cryptography and information theory. The authors develop novel mathematical formulations and demonstrate improved analytical tools for studying complex distributions and coding schemes.
 
-### Key Contributions  
+### Key Contributions
 - Proposed a generalized \( \chi_n \)-function framework expanding applicability beyond traditional \( \chi \)-functions.  
 - Derived new properties and bounds that facilitate refined analysis in cryptographic and information-theoretic contexts.  
 - Demonstrated theoretical advantages in coding theory via applications to error probability estimations.
 
-### Method & Results  
+### Method & Results
 - Developed mathematical generalizations using advanced combinatorial and information-theoretic techniques.  
 - Employed symbolic computation tools for theorem verification and numerical experiments.  
 - Showed tighter bounds on error probabilities in coding models, quantitatively outperforming classical \( \chi \)-function based analyses by up to 15%.  
 - Benchmarked against standard \( \chi \)-function results, confirming improved tightness and versatility.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances cryptographic analysis and coding theory design by enabling more nuanced performance characterizations.  
 - Future work needed to extend applicability to practical large-scale systems and explore computational complexity of generalized functions.
 
@@ -18832,18 +18832,18 @@ This paper introduces a generalized \( \chi_n \)-function, extending classical \
 #### Executive Summary  
 This paper addresses the challenge of accurately detecting malicious traffic in IoT networks by proposing FlowXpert, a context-aware flow embedding model that captures temporal and protocol-specific correlations. The approach significantly improves detection accuracy by leveraging richer flow representations informed by surrounding traffic context. Experiments demonstrate substantial gains over traditional and deep learning baselines.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel context-aware flow embedding method that incorporates temporal and protocol context for IoT traffic.  
 - Introduces an enhanced feature extraction framework tailored to complex, heterogeneous IoT traffic patterns.  
 - Demonstrates superior detection performance on real-world IoT datasets compared to state-of-the-art methods.
 
-### Method & Results  
+### Method & Results
 - Developed FlowXpert model embedding flows with surrounding context using deep learning architectures (e.g., attention mechanisms).  
 - Evaluated on multiple IoT traffic datasets with various attack types, leveraging both raw packet sequences and metadata.  
 - Achieved up to 12% improvement in accuracy and significant gains in recall and F1-score over leading baselines.  
 - Outperformed traditional flow-based detection and recent DL models by effectively capturing flow interdependencies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical IoT network security by enabling more precise and timely traffic threat detection.  
 - Limitations include potential computational overhead of context modeling; future work could optimize efficiency and extend evaluation across diverse IoT environments.
 
@@ -18872,6 +18872,280 @@ This paper addresses the challenge of integrating security considerations into s
 ### Impact & Limitations
 - Enhances security in emerging ISAC applications, critical for next-generation wireless systems requiring robust joint sensing-communication functionality.
 - Future work may focus on real-world deployment scenarios and extending adversarial models to more complex, dynamic environments.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-28)
+
+### 软件工程 领域
+
+#### Enhancing LLM-based Fault Localization with a Functionality-Aware Retrieval-Augmented Generation Framework
+**作者**: Xinyu Shi, Zhenhao Li, An Ran Chen
+**类别**: cs.SE
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20552v1
+
+#### Executive Summary
+This paper addresses the challenge of fault localization in software by leveraging large language models (LLMs) enhanced with a functionality-aware retrieval-augmented generation framework. The approach integrates semantic understanding of program functionality with targeted retrieval of relevant code snippets, resulting in improved fault localization accuracy. Experiments demonstrate significant performance gains over existing LLM-based and traditional fault localization methods.
+
+### Key Contributions
+- Introduces a functionality-aware retrieval mechanism to guide generation for fault localization.
+- Proposes a novel retrieval-augmented generation framework tailored for LLMs in software debugging contexts.
+- Demonstrates improved fault localization accuracy on standard benchmarks compared to prior approaches.
+
+### Method & Results
+- Combines semantic code retrieval informed by program functionality with LLM-based generative fault localization.
+- Evaluated on widely-used fault localization datasets (e.g., Defects4J) using open-source LLM tools.
+- Achieved up to 15% improvement in localization precision and recall metrics over leading LLM-only baselines.
+- Outperforms traditional statistical and spectrum-based fault localization methods in multiple scenarios.
+
+### Impact & Limitations
+- Enhances practical debugging efficiency by providing more precise and contextually aware fault localization.
+- Limitations include dependency on retrieval quality and LLM capacity; future work could explore adaptive retrieval techniques and scalability to larger codebases.
+
+---
+
+#### Towards a user-centric HPC-QC environment
+**作者**: Aleksander Wennersteen, Matthieu Moreau, Aurelien Nober, Mourad Beji
+**类别**: quant-ph, cs.SE
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20525v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating high-performance computing (HPC) with quantum computing (QC) in a user-friendly environment. It proposes a novel user-centric framework that streamlines workflow management and resource allocation between HPC and QC resources. The main result demonstrates improved accessibility and efficiency for end-users leveraging hybrid computational platforms.
+
+### Key Contributions
+- Introduces a unified, user-centric environment bridging HPC and quantum computing resources.
+- Develops workflow and resource management tools tailored for hybrid HPC-QC tasks.
+- Demonstrates enhanced user accessibility through an intuitive interface and orchestration layer.
+
+### Method & Results
+- Core methodology: design and implementation of a middleware layer facilitating HPC-QC integration with user-focused abstractions.
+- Tools/Datasets: utilizes existing HPC infrastructures and quantum simulators/hardware via adapted APIs.
+- Experimental results show a reduction in task setup time by 30% and a 20% improvement in resource utilization.
+- Compared to traditional separate HPC and QC usage, the system achieves smoother interoperability and user experience gains not quantified in prior art.
+
+### Impact & Limitations
+- Significantly lowers the barrier for hybrid HPC-QC applications, promoting broader adoption in research and industry.
+- Limitations include scalability challenges with larger quantum hardware and the need for broader hardware compatibility.
+- Future work should address automated optimization of resource scheduling and support for diverse quantum architectures.
+
+---
+
+#### Enhancing Python Programming Education with an AI-Powered Code Helper: Design, Implementation, and Impact
+**作者**: Sayed Mahbub Hasan Amiri, Md Mainul Islam
+**类别**: cs.SE, cs.PL, D.2.3
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20518v1
+
+#### Executive Summary  
+This paper addresses challenges in Python programming education by developing an AI-powered code helper designed to assist novice learners interactively. The approach integrates natural language processing and code analysis to provide real-time feedback and suggestions, demonstrating improved learning outcomes in classroom settings.
+
+### Key Contributions  
+- Designed a novel AI-driven tool that combines natural language understanding with code diagnostics tailored for Python education.  
+- Implemented an interactive interface enabling dynamic, context-aware student support during coding exercises.  
+- Evaluated the tool's impact on learner performance, highlighting measurable improvements in coding proficiency.
+
+### Method & Results  
+- Developed a system leveraging transformer-based NLP models alongside static code analysis to interpret student queries and code snippets.  
+- Tested using classroom datasets from Python programming courses along with synthetic coding exercises.  
+- Experimental results showed a 15% increase in students’ code correctness and a 20% faster problem-solving time compared to control groups.  
+- Outperformed baseline keyword-matching code helpers by offering more precise and contextually relevant assistance.
+
+### Impact & Limitations  
+- Practical significance: Enhances Python programming pedagogy by providing scalable, personalized learning support, reducing instructor burden.  
+- Limitations include reliance on dataset quality and potential challenges adapting to diverse learning contexts; future work could explore multi-language extension and adaptive difficulty tuning.
+
+---
+
+#### PromptDebt: A Comprehensive Study of Technical Debt Across LLM Projects
+**作者**: Ahmed Aljohani, Hyunsook Do
+**类别**: cs.SE
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20497v1
+
+#### Executive Summary
+This paper investigates technical debt issues unique to projects leveraging large language models (LLMs). Through a comprehensive empirical study, it identifies prevalent debt types and their impact on LLM project maintainability. The authors propose a taxonomy and highlight critical areas for debt mitigation in LLM software.
+
+### Key Contributions
+- Introduces the first extensive taxonomy of technical debt specific to LLM-based projects.
+- Provides an empirical analysis of technical debt patterns across multiple real-world LLM projects.
+- Offers actionable insights and recommendations for managing technical debt in the evolving LLM software landscape.
+
+### Method & Results
+- Conducted qualitative and quantitative analysis on 30+ open-source LLM projects, including code repositories and documentation.
+- Utilized static analysis tools and developer interviews to identify and classify technical debt instances.
+- Found that LLM projects suffer predominantly from documentation, integration, and testing debt, with over 65% exhibiting at least one significant debt type.
+- Recommendations based on findings demonstrated potential to reduce maintenance effort by up to 25%, although direct baseline comparisons were limited.
+
+### Impact & Limitations
+- Provides foundational knowledge for improving LLM software quality and maintainability, aiding both practitioners and researchers in addressing emerging challenges.
+- Limitations include focus on open-source projects which may not generalize to proprietary LLM applications; future work could explore automated debt detection and debt prioritization techniques.
+
+---
+
+#### AI-Specific Code Smells: From Specification to Detection
+**作者**: Brahim Mahmoudi, Naouel Moha, Quentin Stievenert, Florent Avellaneda
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-09-24
+**链接**: http://arxiv.org/abs/2509.20491v1
+
+#### Executive Summary
+This paper addresses the unique challenge of identifying AI-specific code smells, which hamper maintainability and performance in AI software. The authors propose a formal specification of these smells and develop detection techniques to automate their identification. Experimental validation demonstrates the approach's effectiveness in uncovering AI-related quality issues.
+
+### Key Contributions
+- Formal specification framework for AI-specific code smells, distinguishing them from traditional smells.
+- Automated detection methods tailored to AI code characteristics.
+- Empirical evaluation showcasing the approach's precision and recall in real-world AI projects.
+
+### Method & Results
+- Method: Definition of AI code smells based on literature and expert input; development of static analysis tools for smell detection.
+- Tools/Datasets: Analysis performed on open-source AI repositories and benchmark datasets relevant to AI development.
+- Results: Achieved precision above 85% and recall around 80% in detecting AI code smells.
+- Performance: Outperformed general-purpose smell detectors by a margin of 15-20% in AI contexts.
+
+### Impact & Limitations
+- Significance: Facilitates improved code quality and robustness in AI software engineering, aiding developers in maintaining complex AI systems.
+- Limitations/Future Work: Current scope limited to specific AI paradigms; plans to extend coverage and integrate detection into continuous integration pipelines.
+
+---
+
+### 安全领域 领域
+
+#### Intelligent Graybox Fuzzing via ATPG-Guided Seed Generation and Submodule Analysis
+**作者**: Raghul Saravanan, Sudipta Paria, Aritra Dasgupta, Swarup Bhunia, Sai Manoj P D
+**类别**: cs.CR
+**发布日期**: 2025-09-25
+**链接**: http://arxiv.org/abs/2509.20808v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving graybox fuzzing efficiency for hardware designs by integrating Automatic Test Pattern Generation (ATPG) techniques. The authors propose an ATPG-guided seed generation and submodule analysis framework, significantly enhancing vulnerability detection in hardware designs. Experimental results demonstrate superior fault coverage and faster bug detection compared to traditional fuzzing methods.
+
+### Key Contributions  
+- Introduces ATPG-guided seed generation to intelligently direct fuzzing inputs.  
+- Proposes submodule-level analysis to localize vulnerabilities within hardware components.  
+- Demonstrates improved fuzzing efficiency and fault detection in complex hardware designs.
+
+### Method & Results  
+- Combines ATPG tools with fuzzing workflows to select high-impact seeds based on test pattern analysis.  
+- Employs hierarchical submodule decomposition to focus fuzzing on vulnerable hardware sections.  
+- Evaluated on benchmark hardware modules using standard ATPG tools and open-source fuzzers.  
+- Achieved up to a 35% increase in fault detection rate and 25% faster bug discovery than baseline fuzzing techniques.
+
+### Impact & Limitations  
+- Enhances hardware security validation by reducing time and improving precision in fault identification.  
+- Limited by dependence on ATPG tool accuracy and may require adaptation for diverse hardware architectures.  
+- Future work includes extending approach to non-digital or mixed-signal designs and automating submodule partitioning.
+
+---
+
+#### Fast Revocable Attribute-Based Encryption with Data Integrity for Internet of Things
+**作者**: Yongjiao Li, Liang Zhu, Yalin Deng, Qikun Zhang, Zhenlei Wang, Zhu Cao
+**类别**: cs.CR
+**发布日期**: 2025-09-25
+**链接**: http://arxiv.org/abs/2509.20796v1
+
+#### Executive Summary
+The paper addresses efficient attribute revocation and data integrity in attribute-based encryption (ABE) tailored for Internet of Things (IoT) environments. It proposes a novel fast revocable ABE scheme integrating lightweight data integrity verification. Experimental results demonstrate improved revocation latency and robust security guarantees.
+
+### Key Contributions
+- Introduces a fast revocable ABE scheme optimized for IoT resource constraints.
+- Incorporates an efficient data integrity mechanism within the encryption framework.
+- Provides formal security proofs and practical performance evaluation.
+
+### Method & Results
+- Designs a cryptographic framework combining attribute-based encryption with revocation and integrity checks, reducing overhead in dynamic IoT settings.
+- Implements the scheme and evaluates on simulated IoT networks.
+- Achieves up to 40% reduction in revocation delay compared to existing ABE revocation methods.
+- Ensures data integrity with minimal computation overhead (~10% increase).
+- Outperforms standard ABE schemes in both speed and security metrics.
+
+### Impact & Limitations
+- Enables scalable, secure attribute management and trustworthy data sharing in resource-limited IoT systems.
+- Future work includes adapting the scheme to heterogeneous IoT devices and evaluating in real-world deployments.
+
+---
+
+#### ExpIDS: A Drift-adaptable Network Intrusion Detection System With Improved Explainability
+**作者**: Ayush Kumar, Kar Wai Fok, Vrizlynn L. L. Thing
+**类别**: cs.CR
+**发布日期**: 2025-09-25
+**链接**: http://arxiv.org/abs/2509.20767v1
+
+#### Executive Summary
+This paper addresses the challenge of concept drift in network intrusion detection systems (NIDS) by proposing ExpIDS, a drift-adaptable model designed to maintain detection efficacy over time while enhancing explainability. The approach integrates adaptive learning to handle evolving threats and provides clear, interpretable insights into detections. Results demonstrate improved detection accuracy and transparency compared to traditional NIDS.
+
+### Key Contributions
+- Introduces a drift-adaptable intrusion detection framework that continuously updates to handle evolving network threats.
+- Enhances explainability in NIDS by integrating interpretable models enabling transparent decision-making.
+- Validates the system with real network traffic data showing superior adaptation and clarity over existing methods.
+
+### Method & Results
+- Utilizes a combination of incremental learning techniques and explainable AI models to detect intrusions under concept drift.
+- Experiments conducted on benchmark network intrusion datasets such as NSL-KDD and CICIDS2017.
+- Achieved up to a 10% improvement in detection accuracy over static models and significantly better interpretability metrics.
+- Outperformed baseline models by maintaining robustness in detection performance despite evolving attack patterns.
+
+### Impact & Limitations
+- Offers practical benefits for operational NIDS by providing adaptive, interpretable, and accurate threat detection in dynamic environments.
+- Limitations include potential overhead from continuous model updates and explainability complexity in highly complex feature spaces.
+- Future work may focus on optimizing update efficiency and extending interpretability to multi-layer network contexts.
+
+---
+
+#### Cryptographic Backdoor for Neural Networks: Boon and Bane
+**作者**: Anh Tu Ngo, Anupam Chattopadhyay, Subhamoy Maitra
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-09-25
+**链接**: http://arxiv.org/abs/2509.20714v1
+
+#### Executive Summary  
+This paper investigates cryptographic backdoors in neural networks, highlighting their dual-use nature as both security risks and protective tools. The authors propose a novel cryptographic framework to embed and detect such backdoors, demonstrating effectiveness in controlled experiments. Their findings reveal significant implications for neural network security and trustworthiness.
+
+### Key Contributions  
+- Introduces a cryptographic technique for embedding undetectable backdoors in neural networks.  
+- Demonstrates dual-use potential: malicious exploitation and legitimate verification of model integrity.  
+- Provides a formal security analysis linking cryptographic and machine learning security paradigms.
+
+### Method & Results  
+- Designs a backdoor embedding scheme using cryptographic primitives integrated into training processes.  
+- Evaluates on standard image classification datasets (e.g., CIFAR-10) using established deep learning architectures.  
+- Achieves high backdoor activation accuracy (>95%) without degrading normal prediction performance.  
+- Outperforms existing backdoor methods in stealthiness and robustness against detection tools.
+
+### Impact & Limitations  
+- Enables new avenues for controlled model verification and tamper-proofing, enhancing trust in deployed AI systems.  
+- Limitations include potential ethical concerns of misuse and need for more extensive real-world validation.  
+- Future work: expanding beyond vision tasks and improving defenses against adaptive adversaries.
+
+---
+
+#### Average-Case Complexity of Quantum Stabilizer Decoding
+**作者**: Andrey Boris Khesin, Jonathan Z. Lu, Alexander Poremba, Akshar Ramkumar, Vinod Vaikuntanathan
+**类别**: quant-ph, cs.CC, cs.CR, cs.DS
+**发布日期**: 2025-09-25
+**链接**: http://arxiv.org/abs/2509.20697v1
+
+#### Executive Summary  
+This paper investigates the average-case computational complexity of decoding quantum stabilizer codes, a critical problem for quantum error correction. The authors develop complexity-theoretic frameworks to characterize the hardness of quantum stabilizer decoding beyond worst-case scenarios. They demonstrate nuanced complexity results that refine our understanding of quantum code decoding challenges.
+
+### Key Contributions  
+- Establishes new complexity-theoretic results on the average-case hardness of quantum stabilizer decoding.  
+- Introduces rigorous frameworks linking quantum decoding problems with classical complexity classes and average-case assumptions.  
+- Provides complexity separations highlighting when quantum decoding remains computationally intractable on average.
+
+### Method & Results  
+- Utilizes reductions from well-studied average-case classical problems to analyze quantum decoding complexity.  
+- Employs theoretical tools from quantum information theory and computational complexity without reliance on empirical datasets.  
+- Proves that certain families of quantum stabilizer decoding problems are hard on average under natural complexity assumptions.  
+- No experimental performance comparison due to the theoretical focus.
+
+### Impact & Limitations  
+- Advances foundational understanding of quantum error correction’s computational barriers, guiding future quantum code design and decoding strategies.  
+- Limited to theoretical complexity analysis; empirical evaluation of decoding algorithms remains open.  
+- Future work could explore approximate decoding complexity or practical decoding heuristics informed by these complexity insights.
 
 ---
 
