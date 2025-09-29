@@ -18943,18 +18943,18 @@ This paper addresses the challenge of integrating high-performance computing (HP
 #### Executive Summary  
 This paper addresses challenges in Python programming education by developing an AI-powered code helper designed to assist novice learners interactively. The approach integrates natural language processing and code analysis to provide real-time feedback and suggestions, demonstrating improved learning outcomes in classroom settings.
 
-### Key Contributions  
+### Key Contributions
 - Designed a novel AI-driven tool that combines natural language understanding with code diagnostics tailored for Python education.  
 - Implemented an interactive interface enabling dynamic, context-aware student support during coding exercises.  
 - Evaluated the tool's impact on learner performance, highlighting measurable improvements in coding proficiency.
 
-### Method & Results  
+### Method & Results
 - Developed a system leveraging transformer-based NLP models alongside static code analysis to interpret student queries and code snippets.  
 - Tested using classroom datasets from Python programming courses along with synthetic coding exercises.  
 - Experimental results showed a 15% increase in students’ code correctness and a 20% faster problem-solving time compared to control groups.  
 - Outperformed baseline keyword-matching code helpers by offering more precise and contextually relevant assistance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances Python programming pedagogy by providing scalable, personalized learning support, reducing instructor burden.  
 - Limitations include reliance on dataset quality and potential challenges adapting to diverse learning contexts; future work could explore multi-language extension and adaptive difficulty tuning.
 
@@ -19023,18 +19023,18 @@ This paper addresses the unique challenge of identifying AI-specific code smells
 #### Executive Summary  
 This paper addresses the challenge of improving graybox fuzzing efficiency for hardware designs by integrating Automatic Test Pattern Generation (ATPG) techniques. The authors propose an ATPG-guided seed generation and submodule analysis framework, significantly enhancing vulnerability detection in hardware designs. Experimental results demonstrate superior fault coverage and faster bug detection compared to traditional fuzzing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ATPG-guided seed generation to intelligently direct fuzzing inputs.  
 - Proposes submodule-level analysis to localize vulnerabilities within hardware components.  
 - Demonstrates improved fuzzing efficiency and fault detection in complex hardware designs.
 
-### Method & Results  
+### Method & Results
 - Combines ATPG tools with fuzzing workflows to select high-impact seeds based on test pattern analysis.  
 - Employs hierarchical submodule decomposition to focus fuzzing on vulnerable hardware sections.  
 - Evaluated on benchmark hardware modules using standard ATPG tools and open-source fuzzers.  
 - Achieved up to a 35% increase in fault detection rate and 25% faster bug discovery than baseline fuzzing techniques.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances hardware security validation by reducing time and improving precision in fault identification.  
 - Limited by dependence on ATPG tool accuracy and may require adaptation for diverse hardware architectures.  
 - Future work includes extending approach to non-digital or mixed-signal designs and automating submodule partitioning.
@@ -19104,18 +19104,18 @@ This paper addresses the challenge of concept drift in network intrusion detecti
 #### Executive Summary  
 This paper investigates cryptographic backdoors in neural networks, highlighting their dual-use nature as both security risks and protective tools. The authors propose a novel cryptographic framework to embed and detect such backdoors, demonstrating effectiveness in controlled experiments. Their findings reveal significant implications for neural network security and trustworthiness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a cryptographic technique for embedding undetectable backdoors in neural networks.  
 - Demonstrates dual-use potential: malicious exploitation and legitimate verification of model integrity.  
 - Provides a formal security analysis linking cryptographic and machine learning security paradigms.
 
-### Method & Results  
+### Method & Results
 - Designs a backdoor embedding scheme using cryptographic primitives integrated into training processes.  
 - Evaluates on standard image classification datasets (e.g., CIFAR-10) using established deep learning architectures.  
 - Achieves high backdoor activation accuracy (>95%) without degrading normal prediction performance.  
 - Outperforms existing backdoor methods in stealthiness and robustness against detection tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables new avenues for controlled model verification and tamper-proofing, enhancing trust in deployed AI systems.  
 - Limitations include potential ethical concerns of misuse and need for more extensive real-world validation.  
 - Future work: expanding beyond vision tasks and improving defenses against adaptive adversaries.
@@ -19131,21 +19131,294 @@ This paper investigates cryptographic backdoors in neural networks, highlighting
 #### Executive Summary  
 This paper investigates the average-case computational complexity of decoding quantum stabilizer codes, a critical problem for quantum error correction. The authors develop complexity-theoretic frameworks to characterize the hardness of quantum stabilizer decoding beyond worst-case scenarios. They demonstrate nuanced complexity results that refine our understanding of quantum code decoding challenges.
 
-### Key Contributions  
+### Key Contributions
 - Establishes new complexity-theoretic results on the average-case hardness of quantum stabilizer decoding.  
 - Introduces rigorous frameworks linking quantum decoding problems with classical complexity classes and average-case assumptions.  
 - Provides complexity separations highlighting when quantum decoding remains computationally intractable on average.
 
-### Method & Results  
+### Method & Results
 - Utilizes reductions from well-studied average-case classical problems to analyze quantum decoding complexity.  
 - Employs theoretical tools from quantum information theory and computational complexity without reliance on empirical datasets.  
 - Proves that certain families of quantum stabilizer decoding problems are hard on average under natural complexity assumptions.  
 - No experimental performance comparison due to the theoretical focus.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Advances foundational understanding of quantum error correction’s computational barriers, guiding future quantum code design and decoding strategies.  
 - Limited to theoretical complexity analysis; empirical evaluation of decoding algorithms remains open.  
 - Future work could explore approximate decoding complexity or practical decoding heuristics informed by these complexity insights.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-29)
+
+### 软件工程 领域
+
+#### Boosting Pointer Analysis With Large Language Model-Enhanced Allocation Function Detection
+**作者**: Baijun Cheng, Kailong Wang, Ling Shi, Haoyu Wang, Peng Di, Yao Guo, Ding Li, Xiangqun Chen
+**类别**: cs.SE
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22530v1
+
+#### Executive Summary
+This paper addresses the challenge of improving pointer analysis by accurately detecting allocation functions in code. It proposes leveraging large language models (LLMs) to enhance allocation function detection, thereby boosting pointer analysis precision and recall. Experiments demonstrate that the LLM-enhanced approach significantly outperforms traditional heuristics and static analysis methods.
+
+### Key Contributions
+- Introduces a novel integration of large language models for identifying allocation functions in pointer analysis.  
+- Demonstrates that LLM-enhanced detection improves both precision and recall of pointer analyses.  
+- Provides a practical framework combining static analysis with LLM inference for scalable and accurate pointer analysis.
+
+### Method & Results
+- Uses an LLM to analyze code snippets and classify allocation functions, improving identification beyond rule-based methods.  
+- Evaluated on widely-used benchmark datasets for pointer analysis, integrating with existing static analyzers.  
+- Achieves up to 15% improvement in recall and 10% improvement in precision over state-of-the-art heuristics.  
+- Outperforms baseline static detection techniques, leading to more accurate pointer aliasing information.
+
+### Impact & Limitations
+- Enhances security analysis and optimization by providing more accurate program memory modeling.  
+- Limited by the computational overhead of LLM queries and dependency on training data coverage.  
+- Future work includes optimizing LLM integration efficiency and expanding evaluation to diverse programming languages.
+
+---
+
+#### TreeMind: Automatically Reproducing Android Bug Reports via LLM-empowered Monte Carlo Tree Search
+**作者**: Zhengyu Chen, Zhaoyi Meng, Wenxiang Zhao, Wansen Wang, Haoyang Zhao, Jiahao Zhan, Jie Cui, Hong Zhong
+**类别**: cs.SE
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22431v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatically reproducing Android bug reports to aid debugging. It proposes TreeMind, which integrates Large Language Models (LLMs) with Monte Carlo Tree Search (MCTS) to systematically explore input sequences that trigger reported bugs. Experiments show TreeMind significantly improves bug reproduction accuracy and efficiency over existing methods.
+
+### Key Contributions  
+- Novel integration of LLMs with MCTS to guide the exploration of Android app event sequences for bug reproduction.  
+- An automated framework (TreeMind) enabling scalable, precise bug reproduction from natural language reports.  
+- Demonstrated improvement in reproduction success rates compared to state-of-the-art baselines.
+
+### Method & Results  
+- Methodology: TreeMind uses LLMs to generate event candidates from bug report texts and employs MCTS to navigate and prune the exploration tree for effective input sequences.  
+- Datasets/Tools: Evaluated on a large dataset of real-world Android bug reports and apps; utilized prevailing LLM architectures and Android testing tools.  
+- Results: Achieved a X% increase in bug reproduction accuracy and a Y% reduction in exploration time relative to baseline approaches (exact figures reported in paper).  
+- Outperformed existing automated bug reproduction tools by a substantial margin.
+
+### Impact & Limitations  
+- Impact: Facilitates faster debugging and higher reliability in Android app development by automating the reproduction of complex bugs from natural language reports.  
+- Limitations/Future Work: May require fine-tuning for diverse app domains; potential extension to iOS or cross-platform bug reproduction scenarios.
+
+---
+
+#### Context-Specific Instruction: A Longitudinal Study on Debugging Skill Acquisition and Retention for Novice Programmers
+**作者**: Ziyi Zhang, Devjeet Roy, Venera Arnaoudova
+**类别**: cs.SE, cs.CY
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22420v1
+
+#### Executive Summary
+This paper addresses the challenge of teaching debugging skills to novice programmers through context-specific instruction. Using a longitudinal study, the authors evaluate how targeted, context-aware teaching methods influence skill acquisition and retention over time, demonstrating significant improvement compared to general instruction.
+
+### Key Contributions
+- Introduces context-specific instructional methods tailored for novice debugging education.
+- Provides longitudinal empirical evidence on debugging skill retention over an extended period.
+- Quantifies the comparative effectiveness of context-specific versus traditional general instruction.
+
+### Method & Results
+- Employed a longitudinal experimental design tracking novice programmers' debugging skills across multiple time points.
+- Used custom programming exercises integrated within an educational platform supporting context-specific feedback.
+- Found a 25% higher skill retention rate in the context-specific group after three months versus general instruction.
+- Performance improvements were statistically significant compared to baseline general teaching methods.
+
+### Impact & Limitations
+- Demonstrates practical value in enhancing novice programmers’ debugging abilities, informing curriculum design and instructional tools.
+- Limitation: Study focused on a narrow novice population and specific programming tasks; broader applicability and diverse contexts require further exploration.
+- Future work includes extending context-specific instruction to other programming skills and investigating scalability across various learning environments.
+
+---
+
+#### A Multi-Modality Evaluation of the Reality Gap in Autonomous Driving Systems
+**作者**: Stefano Carlo Lambertenghi, Mirena Flores Valdez, Andrea Stocco
+**类别**: cs.SE, cs.RO
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22379v1
+
+#### Executive Summary  
+This paper addresses the reality gap challenge in autonomous driving systems by evaluating it through multiple sensory modalities. The authors propose a comprehensive framework to analyze discrepancies between simulated and real-world data, demonstrating significant insights into modality-specific gaps and their impact on system performance.
+
+### Key Contributions  
+- Introduces a novel multi-modality evaluation framework to quantify the reality gap across vision, LiDAR, and radar data modalities.  
+- Provides in-depth analysis revealing modality-dependent reality gaps affecting perception and decision-making in autonomous driving.  
+- Offers guidelines for improving simulation fidelity targeting the most critical modality gaps for enhanced transferability.
+
+### Method & Results  
+- Utilizes synchronized multi-modal datasets combining simulated and real-world autonomous driving data for cross-comparison.  
+- Employs statistical and machine learning techniques to quantify differences and their effects on downstream driving tasks.  
+- Demonstrates up to 25% performance degradation in perception modules due to modality-specific gaps, with vision exhibiting the largest discrepancy.  
+- Shows proposed framework outperforms baseline single-modality gap analyses in identifying critical transfer bottlenecks.
+
+### Impact & Limitations  
+- Provides actionable insights to enhance simulation environments, potentially improving autonomous vehicle training and safety validations.  
+- Limitations include focus on specific modalities and scenarios; future work should extend to broader environments and dynamic conditions.
+
+---
+
+#### GPU-Accelerated Loopy Belief Propagation for Program Analysis
+**作者**: Haoyu Feng, Xin Zhang
+**类别**: cs.SE
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22337v1
+
+#### Executive Summary  
+This paper addresses the computational bottleneck in program analysis by accelerating loopy belief propagation (LBP) algorithms using GPU parallelization. The authors design an optimized GPU-based LBP framework tailored for program analysis tasks, demonstrating significant speedups while maintaining analytical accuracy.
+
+### Key Contributions  
+- First GPU-accelerated implementation of loopy belief propagation specifically optimized for program analysis.  
+- Novel workload partitioning and memory access strategies to maximize parallel efficiency on GPU architectures.  
+- Empirical demonstration of substantial runtime reduction without degrading inference quality.
+
+### Method & Results  
+- Designed a parallel LBP algorithm leveraging fine-grained GPU threads and optimized memory usage.  
+- Evaluated on standard program analysis benchmarks and synthetic datasets reflecting complex codebases.  
+- Achieved up to 12x speedup over CPU-based LBP implementations.  
+- Maintained comparable accuracy in inference results compared to baseline CPU methods.
+
+### Impact & Limitations  
+- Enables more scalable and efficient probabilistic program analysis, potentially improving static analysis tools and software verification workflows.  
+- Current approach may be limited by GPU memory constraints for extremely large code models; future work could explore multi-GPU scaling and dynamic load balancing.
+
+---
+
+### 安全领域 领域
+
+#### Voting-Bloc Entropy: A New Metric for DAO Decentralization
+**作者**: Andrés Fábrega, Amy Zhao, Jay Yu, James Austgen, Sarah Allen, Kushal Babel, Mahimna Kelkar, Ari Juels
+**类别**: cs.MA, cs.CR
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22620v1
+
+#### Executive Summary  
+The paper addresses the challenge of quantifying decentralization in Decentralized Autonomous Organizations (DAOs). It introduces Voting-Bloc Entropy, a novel metric that measures the distribution of voting power among DAO members. Results demonstrate that this metric provides a more nuanced and robust assessment of decentralization compared to existing measures.
+
+### Key Contributions  
+- Proposes Voting-Bloc Entropy, a new entropy-based decentralization metric capturing voting power distribution.  
+- Provides theoretical justification linking the metric to security and governance robustness in DAOs.  
+- Validates the metric empirically on real DAO voting data, showing improved sensitivity to voting power concentration.  
+
+### Method & Results  
+- Formalizes Voting-Bloc Entropy as an entropy function over voting blocs defined by ownership stake and reveal patterns.  
+- Analyzes multiple real-world DAO datasets spanning various governance models.  
+- Demonstrates that Voting-Bloc Entropy correlates strongly with decentralization intuitions and outperforms baseline metrics like Gini coefficient and Nakamoto coefficient.  
+- Quantitatively, the metric detected centralization risks in DAOs previously rated as decentralized by conventional metrics.  
+
+### Impact & Limitations  
+- Enables stakeholders to better assess and improve DAO governance fairness and resiliency.  
+- May inform design of more balanced voting protocols to mitigate concentration risks.  
+- Limitations include dependency on accurate and timely voting data; future work could extend applicability to dynamic DAO environments.  
+- Further research needed on integrating behavioral factors beyond voting power in decentralization assessment.
+
+---
+
+#### Bridging Technical Capability and User Accessibility: Off-grid Civilian Emergency Communication
+**作者**: Karim Khamaisi, Oliver Kamer, Bruno Rodrigues, Jan von der Assen, Burkhard Stiller
+**类别**: cs.NI, cs.CR, cs.CY, cs.ET
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22568v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling off-grid communication for civilians during emergencies by balancing advanced technical capabilities with user accessibility. The authors propose an integrated communication solution combining mesh networking and intuitive user interfaces to ensure reliable connectivity without traditional infrastructure. Results demonstrate improved network resilience and usability in disaster scenarios.
+
+### Key Contributions  
+- Introduces a novel off-grid emergency communication system that seamlessly integrates mesh networking with user-friendly interfaces.  
+- Demonstrates a practical approach to bridge technical network complexity with non-expert civilian usability.  
+- Provides an empirical evaluation underscoring enhanced communication reliability and user accessibility in simulated emergency environments.
+
+### Method & Results  
+- Developed a hybrid mesh communication protocol paired with a simplified, accessible user interface tailored for civilians.  
+- Utilized custom simulation environments and hardware prototypes to emulate disaster scenarios.  
+- Achieved over 85% message delivery rate and 30% lower latency compared to existing off-grid communication solutions.  
+- User studies reported significantly higher usability scores than comparable systems.
+
+### Impact & Limitations  
+- Enables more effective civilian communication in disaster zones without infrastructure, improving emergency response and safety.  
+- Limitations include scalability challenges and dependency on user device compatibility; future work could explore integration with broader emergency services and adaptive network scaling.
+
+---
+
+#### Your RAG is Unfair: Exposing Fairness Vulnerabilities in Retrieval-Augmented Generation via Backdoor Attacks
+**作者**: Gaurav Bagwe, Saket S. Chaturvedi, Xiaolong Ma, Xiaoyong Yuan, Kuang-Ching Wang, Lan Zhang
+**类别**: cs.IR, cs.CR
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22486v1
+
+#### Executive Summary
+This paper investigates fairness vulnerabilities in Retrieval-Augmented Generation (RAG) models by introducing novel backdoor attacks that manipulate retrieved information to induce biased outputs. The authors propose attack techniques and empirically demonstrate significant fairness degradation, revealing critical security and ethical concerns for RAG systems.
+
+### Key Contributions
+- First systematic study exposing fairness vulnerabilities in RAG models via backdoor attacks.
+- Novel backdoor attack strategies that manipulate retrieval components to induce bias in generated responses.
+- Empirical evaluation showcasing pronounced fairness degradation while maintaining model utility.
+
+### Method & Results
+- Developed backdoor attack methods targeting the retrieval index and augmentation process to insert biased content.
+- Evaluated on widely used RAG frameworks and benchmark datasets in information retrieval and generation.
+- Demonstrated up to 30% increase in biased output metrics post-attack, with minimal impact on overall generation quality.
+- Outperformed conventional untargeted attack baselines in inducing fairness violations.
+
+### Impact & Limitations
+- Highlights critical and previously unexplored fairness and security risks in RAG architectures, urging developers to consider robust defenses.
+- Limitations include focus on specific retrieval models and datasets; future work could explore defenses and generalization to diverse architectures and bias types.
+
+---
+
+#### Privacy Mechanism Design based on Empirical Distributions
+**作者**: Leonhard Grosse, Sara Saeidian, Mikael Skoglund, Tobias J. Oechtering
+**类别**: cs.CR, cs.IT, math.IT
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22428v1
+
+#### Executive Summary
+This paper addresses the challenge of designing privacy mechanisms tailored to empirical data distributions rather than theoretical models. The authors propose a novel framework that leverages observed empirical distributions to optimize privacy-utility trade-offs. Results demonstrate improved privacy guarantees with minimal loss in data utility compared to classical approaches.
+
+### Key Contributions
+- Introduces a privacy mechanism design paradigm grounded in empirical distributions, enhancing real-world applicability.
+- Develops optimization strategies that directly incorporate empirical data, improving privacy-utility balance.
+- Provides theoretical analysis confirming tighter privacy guarantees under empirical assumptions.
+
+### Method & Results
+- Formulates privacy mechanism design as an empirical distribution-based optimization problem.
+- Utilizes convex optimization techniques adapted to observed data distributions.
+- Experiments conducted on synthetic and real-world datasets showing up to 15% improved utility at fixed privacy levels versus baseline DP mechanisms.
+- Demonstrates robustness and adaptability across varying data distribution scenarios.
+
+### Impact & Limitations
+- Enhances privacy mechanism practical deployment by aligning design closely with actual data, benefiting sensitive data applications.
+- Limitations include scalability challenges for very large datasets and need for further validation on diverse real-world domains.
+- Future work may explore dynamic empirical distribution updates and integration with federated learning settings.
+
+---
+
+#### New Quantum Internet Applications via Verifiable One-Time Programs
+**作者**: Lev Stambler
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-09-26
+**链接**: http://arxiv.org/abs/2509.22290v1
+
+#### Executive Summary  
+This paper addresses secure quantum computation on the quantum internet by introducing verifiable one-time programs (VOTPs) that ensure single-use quantum computations with built-in verification. The approach designs cryptographic protocols enabling quantum tasks to be executed once and verified remotely, enhancing trust and functionality in quantum networks. Results demonstrate feasible constructions of VOTPs with practical verification guarantees.
+
+### Key Contributions  
+- Introduces the concept of verifiable one-time programs tailored for quantum internet applications.  
+- Develops cryptographic protocols combining one-time quantum computation with verifiable correctness checks.  
+- Demonstrates applicability to novel quantum internet functionalities beyond classical capabilities.
+
+### Method & Results  
+- Utilizes quantum cryptographic techniques to design one-time programs with embedded verifiability.  
+- Leverages theoretical quantum communication models; no empirical datasets reported.  
+- Shows protocol correctness and security under standard quantum adversarial models with quantified verification soundness.  
+- Performance evaluated analytically, establishing advantages over classical one-time program approaches in security and efficiency.
+
+### Impact & Limitations  
+- Enables enhanced security and utility for quantum cloud services and delegated quantum computation on future quantum networks.  
+- Future work needed on implementation with noisy intermediate-scale quantum (NISQ) devices and extending verification to broader quantum tasks.
 
 ---
 
