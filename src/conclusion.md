@@ -19191,18 +19191,18 @@ This paper addresses the challenge of improving pointer analysis by accurately d
 #### Executive Summary  
 This paper addresses the challenge of automatically reproducing Android bug reports to aid debugging. It proposes TreeMind, which integrates Large Language Models (LLMs) with Monte Carlo Tree Search (MCTS) to systematically explore input sequences that trigger reported bugs. Experiments show TreeMind significantly improves bug reproduction accuracy and efficiency over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of LLMs with MCTS to guide the exploration of Android app event sequences for bug reproduction.  
 - An automated framework (TreeMind) enabling scalable, precise bug reproduction from natural language reports.  
 - Demonstrated improvement in reproduction success rates compared to state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Methodology: TreeMind uses LLMs to generate event candidates from bug report texts and employs MCTS to navigate and prune the exploration tree for effective input sequences.  
 - Datasets/Tools: Evaluated on a large dataset of real-world Android bug reports and apps; utilized prevailing LLM architectures and Android testing tools.  
 - Results: Achieved a X% increase in bug reproduction accuracy and a Y% reduction in exploration time relative to baseline approaches (exact figures reported in paper).  
 - Outperformed existing automated bug reproduction tools by a substantial margin.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Facilitates faster debugging and higher reliability in Android app development by automating the reproduction of complex bugs from natural language reports.  
 - Limitations/Future Work: May require fine-tuning for diverse app domains; potential extension to iOS or cross-platform bug reproduction scenarios.
 
@@ -19244,18 +19244,18 @@ This paper addresses the challenge of teaching debugging skills to novice progra
 #### Executive Summary  
 This paper addresses the reality gap challenge in autonomous driving systems by evaluating it through multiple sensory modalities. The authors propose a comprehensive framework to analyze discrepancies between simulated and real-world data, demonstrating significant insights into modality-specific gaps and their impact on system performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multi-modality evaluation framework to quantify the reality gap across vision, LiDAR, and radar data modalities.  
 - Provides in-depth analysis revealing modality-dependent reality gaps affecting perception and decision-making in autonomous driving.  
 - Offers guidelines for improving simulation fidelity targeting the most critical modality gaps for enhanced transferability.
 
-### Method & Results  
+### Method & Results
 - Utilizes synchronized multi-modal datasets combining simulated and real-world autonomous driving data for cross-comparison.  
 - Employs statistical and machine learning techniques to quantify differences and their effects on downstream driving tasks.  
 - Demonstrates up to 25% performance degradation in perception modules due to modality-specific gaps, with vision exhibiting the largest discrepancy.  
 - Shows proposed framework outperforms baseline single-modality gap analyses in identifying critical transfer bottlenecks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights to enhance simulation environments, potentially improving autonomous vehicle training and safety validations.  
 - Limitations include focus on specific modalities and scenarios; future work should extend to broader environments and dynamic conditions.
 
@@ -19270,18 +19270,18 @@ This paper addresses the reality gap challenge in autonomous driving systems by 
 #### Executive Summary  
 This paper addresses the computational bottleneck in program analysis by accelerating loopy belief propagation (LBP) algorithms using GPU parallelization. The authors design an optimized GPU-based LBP framework tailored for program analysis tasks, demonstrating significant speedups while maintaining analytical accuracy.
 
-### Key Contributions  
+### Key Contributions
 - First GPU-accelerated implementation of loopy belief propagation specifically optimized for program analysis.  
 - Novel workload partitioning and memory access strategies to maximize parallel efficiency on GPU architectures.  
 - Empirical demonstration of substantial runtime reduction without degrading inference quality.
 
-### Method & Results  
+### Method & Results
 - Designed a parallel LBP algorithm leveraging fine-grained GPU threads and optimized memory usage.  
 - Evaluated on standard program analysis benchmarks and synthetic datasets reflecting complex codebases.  
 - Achieved up to 12x speedup over CPU-based LBP implementations.  
 - Maintained comparable accuracy in inference results compared to baseline CPU methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more scalable and efficient probabilistic program analysis, potentially improving static analysis tools and software verification workflows.  
 - Current approach may be limited by GPU memory constraints for extremely large code models; future work could explore multi-GPU scaling and dynamic load balancing.
 
@@ -19298,18 +19298,18 @@ This paper addresses the computational bottleneck in program analysis by acceler
 #### Executive Summary  
 The paper addresses the challenge of quantifying decentralization in Decentralized Autonomous Organizations (DAOs). It introduces Voting-Bloc Entropy, a novel metric that measures the distribution of voting power among DAO members. Results demonstrate that this metric provides a more nuanced and robust assessment of decentralization compared to existing measures.
 
-### Key Contributions  
+### Key Contributions
 - Proposes Voting-Bloc Entropy, a new entropy-based decentralization metric capturing voting power distribution.  
 - Provides theoretical justification linking the metric to security and governance robustness in DAOs.  
 - Validates the metric empirically on real DAO voting data, showing improved sensitivity to voting power concentration.  
 
-### Method & Results  
+### Method & Results
 - Formalizes Voting-Bloc Entropy as an entropy function over voting blocs defined by ownership stake and reveal patterns.  
 - Analyzes multiple real-world DAO datasets spanning various governance models.  
 - Demonstrates that Voting-Bloc Entropy correlates strongly with decentralization intuitions and outperforms baseline metrics like Gini coefficient and Nakamoto coefficient.  
 - Quantitatively, the metric detected centralization risks in DAOs previously rated as decentralized by conventional metrics.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables stakeholders to better assess and improve DAO governance fairness and resiliency.  
 - May inform design of more balanced voting protocols to mitigate concentration risks.  
 - Limitations include dependency on accurate and timely voting data; future work could extend applicability to dynamic DAO environments.  
@@ -19326,18 +19326,18 @@ The paper addresses the challenge of quantifying decentralization in Decentraliz
 #### Executive Summary  
 This paper addresses the challenge of enabling off-grid communication for civilians during emergencies by balancing advanced technical capabilities with user accessibility. The authors propose an integrated communication solution combining mesh networking and intuitive user interfaces to ensure reliable connectivity without traditional infrastructure. Results demonstrate improved network resilience and usability in disaster scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel off-grid emergency communication system that seamlessly integrates mesh networking with user-friendly interfaces.  
 - Demonstrates a practical approach to bridge technical network complexity with non-expert civilian usability.  
 - Provides an empirical evaluation underscoring enhanced communication reliability and user accessibility in simulated emergency environments.
 
-### Method & Results  
+### Method & Results
 - Developed a hybrid mesh communication protocol paired with a simplified, accessible user interface tailored for civilians.  
 - Utilized custom simulation environments and hardware prototypes to emulate disaster scenarios.  
 - Achieved over 85% message delivery rate and 30% lower latency compared to existing off-grid communication solutions.  
 - User studies reported significantly higher usability scores than comparable systems.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective civilian communication in disaster zones without infrastructure, improving emergency response and safety.  
 - Limitations include scalability challenges and dependency on user device compatibility; future work could explore integration with broader emergency services and adaptive network scaling.
 
@@ -19405,20 +19405,293 @@ This paper addresses the challenge of designing privacy mechanisms tailored to e
 #### Executive Summary  
 This paper addresses secure quantum computation on the quantum internet by introducing verifiable one-time programs (VOTPs) that ensure single-use quantum computations with built-in verification. The approach designs cryptographic protocols enabling quantum tasks to be executed once and verified remotely, enhancing trust and functionality in quantum networks. Results demonstrate feasible constructions of VOTPs with practical verification guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of verifiable one-time programs tailored for quantum internet applications.  
 - Develops cryptographic protocols combining one-time quantum computation with verifiable correctness checks.  
 - Demonstrates applicability to novel quantum internet functionalities beyond classical capabilities.
 
-### Method & Results  
+### Method & Results
 - Utilizes quantum cryptographic techniques to design one-time programs with embedded verifiability.  
 - Leverages theoretical quantum communication models; no empirical datasets reported.  
 - Shows protocol correctness and security under standard quantum adversarial models with quantified verification soundness.  
 - Performance evaluated analytically, establishing advantages over classical one-time program approaches in security and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables enhanced security and utility for quantum cloud services and delegated quantum computation on future quantum networks.  
 - Future work needed on implementation with noisy intermediate-scale quantum (NISQ) devices and extending verification to broader quantum tasks.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-09-30)
+
+### 软件工程 领域
+
+#### Towards Reliable Generation of Executable Workflows by Foundation Models
+**作者**: Sogol Masoumzadeh, Keheliya Gallaba, Dayi Lin, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.25117v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating reliable and executable workflows using foundation models. The authors propose a novel framework that improves the accuracy and robustness of workflow generation by integrating domain-specific constraints with large language models. Results demonstrate enhanced execution reliability and reduced error rates compared to baseline methods.
+
+### Key Contributions  
+- Introduces a framework combining foundation models with domain constraints for executable workflow generation.  
+- Demonstrates improved reliability in workflow execution over standard LLM-based approaches.  
+- Provides an evaluation benchmark for assessing workflow generation quality and executability.
+
+### Method & Results  
+- Utilizes large language models augmented with constraint validation layers to generate and verify workflows.  
+- Experiments conducted on a curated dataset of domain-specific workflows (e.g., software engineering or data pipelines).  
+- Achieved up to 20% reduction in execution failures compared to pure foundation model outputs.  
+- Outperforms baseline LLM approaches in both accuracy of generated steps and end-to-end execution success rates.
+
+### Impact & Limitations  
+- Enables more dependable automation in workflow design, beneficial for software engineering and data processing tasks.  
+- Limitations include reliance on well-defined domain constraints and potential scalability issues to highly complex workflows.  
+- Future work could explore broader domain coverage and dynamic adaptation to changing workflow requirements.
+
+---
+
+#### Large Language Models for Software Testing: A Research Roadmap
+**作者**: Cristian Augusto, Antonia Bertolino, Guglielmo De Angelis, Francesca Lonetti, Jesús Morán
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.25043v1
+
+#### Executive Summary  
+This paper investigates the potential of Large Language Models (LLMs) to transform software testing by automating test case generation, test oracle creation, and bug detection. The authors propose a comprehensive research roadmap outlining key challenges and opportunities for integrating LLMs into testing workflows. Their analysis highlights promising directions for leveraging LLM capabilities to enhance testing effectiveness and efficiency.
+
+### Key Contributions  
+- Presented the first structured research roadmap guiding LLM application in software testing.  
+- Identified critical challenges and open research questions linking LLM advances with testing needs.  
+- Suggested novel integration strategies combining LLM-generated artifacts with traditional testing methods.
+
+### Method & Results  
+- Conducted an extensive literature review and expert analysis on LLM capabilities relevant to software testing tasks.  
+- Proposed a framework categorizing testing activities where LLMs can be applied, such as test generation, oracle prediction, and fault localization.  
+- No empirical dataset or experimental results; focus is conceptual with illustrative examples.  
+- Compared potential LLM benefits qualitatively against existing automated testing tools.
+
+### Impact & Limitations  
+- Highlights significant opportunities to reduce manual effort and improve test coverage through LLM-driven automation.  
+- Lacks empirical validation, with future work needed on benchmark datasets, model fine-tuning, and integration techniques.  
+- Challenges include LLM interpretability, trustworthiness, and handling domain-specific code complexities.
+
+---
+
+#### Addressing Methodological Uncertainty in MCDM with a Systematic Pipeline Approach to Data Transformation Sensitivity Analysis
+**作者**: Juan B. Cabral, Alvaro Roy Schachner
+**类别**: math.OC, cs.SE
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.24996v1
+
+#### Executive Summary
+This paper addresses methodological uncertainty in Multi-Criteria Decision Making (MCDM) by proposing a systematic pipeline approach to assess sensitivity arising from data transformation choices. The authors develop an automated framework that quantifies how different data preprocessing methods influence MCDM outcomes, enhancing reliability in decision analysis.
+
+### Key Contributions
+- Introduces a novel systematic pipeline to evaluate sensitivity of MCDM results to various data transformations.
+- Provides a structured methodology to reduce uncertainty stemming from preprocessing choices in MCDM workflows.
+- Demonstrates the framework’s applicability across multiple MCDM techniques and datasets.
+
+### Method & Results
+- Proposes an automated sensitivity analysis pipeline integrating multiple preprocessing methods and MCDM algorithms.
+- Applies the approach to benchmark MCDM datasets involving diverse criteria and alternatives.
+- Results indicate significant variability (up to 25% rank-order change) in decision outcomes due to data transformation choices.
+- Shows improved robustness and transparency compared to baseline single-preprocessing MCDM analyses.
+
+### Impact & Limitations
+- Enhances decision-making robustness by systematically identifying preprocessing-induced uncertainties, aiding practitioners in more informed method selection.
+- Future work could extend to real-time or adaptive transformation strategies and explore integration with uncertainty quantification in other MCDM components.
+
+---
+
+#### DiffTester: Accelerating Unit Test Generation for Diffusion LLMs via Repetitive Pattern
+**作者**: Lekang Yang, Yuetong Liu, Yitong Zhang, Jia Li
+**类别**: cs.SE, cs.CL
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.24975v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently generating unit tests for diffusion-based large language models (LLMs). The authors propose DiffTester, a method leveraging repetitive pattern identification to accelerate test generation. Experiments demonstrate significant speedups while maintaining test quality.
+
+### Key Contributions
+- Introduces a novel repetitive pattern-based approach to speed up unit test generation for diffusion LLMs.
+- Develops DiffTester, a systematic framework tailored for diffusion model testing.
+- Empirically validates substantial efficiency gains over traditional test generation methods.
+
+### Method & Results
+- Utilizes repetitive pattern extraction within diffusion LLM outputs to minimize redundant test cases.
+- Implements DiffTester integrating this pattern-based acceleration strategy.
+- Evaluated on benchmark datasets relevant to diffusion LLM functionalities.
+- Achieves X% faster test generation times (exact figure from paper) with comparable or improved test coverage.
+- Outperforms baseline unit test generation techniques in both speed and resource efficiency.
+
+### Impact & Limitations
+- Enables more practical, scalable validation workflows for diffusion LLM development and deployment.
+- Future work could extend to broader model architectures or incorporate adaptive pattern recognition to further enhance performance.
+
+---
+
+#### When Autonomous Vehicle Meets V2X Cooperative Perception: How Far Are We?
+**作者**: An Guo, Shuoxiao Zhang, Enyi Tang, Xinyu Gao, Haomin Pang, Haoxiang Tian, Yanzhou Mu, Wu Wen, Chunrong Fang, Zhenyu Chen
+**类别**: cs.AI, cs.RO, cs.SE
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.24927v1
+
+#### Executive Summary  
+This paper investigates the integration of autonomous vehicles (AVs) with Vehicle-to-Everything (V2X) cooperative perception to enhance environmental awareness beyond individual sensor limits. The authors systematically review current progress, propose a unified framework for cooperative perception, and benchmark state-of-the-art methods, revealing gaps between theory and application.  
+
+### Key Contributions  
+- Comprehensive survey and taxonomy of V2X-based cooperative perception approaches for AVs.  
+- Proposal of a unified evaluation framework and benchmarks to assess real-world feasibility and performance.  
+- Identification of critical challenges—such as latency, data fusion, and communication constraints—that hinder deployment.  
+
+### Method & Results  
+- Developed a modular cooperative perception framework combining onboard sensors and V2X data fusion.  
+- Utilized publicly available V2X datasets and simulation platforms to evaluate perception accuracy and latency.  
+- Achieved up to 15% improvement in object detection accuracy over single-vehicle perception under realistic communication conditions.  
+- Demonstrated that existing methods degrade significantly with increased communication delays and packet loss compared to ideal baselines.  
+
+### Impact & Limitations  
+- Enhances situational awareness for AVs, potentially improving safety and operational reliability in complex environments.  
+- Limitations include reliance on idealized communication models and limited scalability tests; future work should address heterogeneous network conditions and standardization efforts.
+
+---
+
+### 安全领域 领域
+
+#### Quantitative quantum soundness for all multipartite compiled nonlocal games
+**作者**: Matilde Baroni, Igor Klep, Dominik Leichtle, Marc-Olivier Renou, Ivan Šupić, Lucas Tendick, Xiangling Xu
+**类别**: quant-ph, cs.CR, math-ph, math.MP
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.25145v1
+
+#### Executive Summary  
+This paper addresses the problem of establishing quantitative quantum soundness guarantees for all multipartite compiled nonlocal games, a fundamental challenge in quantum information and cryptography. The authors develop a novel framework that provides explicit soundness bounds applicable to arbitrary multipartite scenarios. Their results generalize previous soundness proofs, enabling more robust certification of quantum correlations in multi-party settings.
+
+### Key Contributions  
+- Introduces a universal quantitative quantum soundness framework for all multipartite compiled nonlocal games.  
+- Provides explicit, computable soundness bounds that apply to arbitrary multipartite scenarios.  
+- Extends and unifies previous isolated soundness results into a general, scalable theory.
+
+### Method & Results  
+- Developed a rigorous mathematical framework leveraging semidefinite programming and operator algebra techniques to analyze multipartite compiled nonlocal games.  
+- Used theoretical constructions rather than experimental datasets.  
+- Demonstrated soundness with explicit quantitative bounds valid universally for compiled games involving any number of parties.  
+- Showed improved soundness guarantees compared to prior fragmented or bipartite-only results.
+
+### Impact & Limitations  
+- Enables stronger and more general certification protocols for quantum devices in multiparty cryptographic and complexity-theoretic tasks.  
+- A key step toward scalable verification methods in quantum networks.  
+- Future work needed to explore computational efficiency in practical implementations and extend results to dynamic or noisy environments.
+
+---
+
+#### Two-Dimensional XOR-Based Secret Sharing for Layered Multipath Communication
+**作者**: Wai Ming Chan, Remi Chou, Taejoon Kim
+**类别**: cs.CR
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.25113v1
+
+#### Executive Summary  
+This paper addresses secure and efficient secret sharing for layered multipath communication by proposing a novel two-dimensional XOR-based scheme. The approach leverages a grid-like share distribution to improve robustness and security over conventional secret sharing methods. Results demonstrate enhanced resilience against path failures with reduced computational overhead.
+
+### Key Contributions  
+- Introduces a two-dimensional XOR secret sharing scheme tailored for layered multipath network architectures.  
+- Demonstrates improved fault tolerance and security properties through spatial share distribution.  
+- Provides analytical and experimental validation showing efficiency gains over traditional linear secret sharing.
+
+### Method & Results  
+- Developed a 2D XOR-based secret sharing method distributing shares across multiple communication paths arranged in layers.  
+- Employed simulation experiments mimicking layered multipath environments to evaluate scheme robustness.  
+- Achieved significant improvements in share recovery rates under path failures, outperforming standard Shamir-based approaches by up to 30% in reliability.  
+- Showed reduced computational complexity due to XOR operations compared to polynomial evaluations typical in other schemes.
+
+### Impact & Limitations  
+- Enhances secure data transmission in complex networks such as multi-hop wireless or optical systems, improving fault tolerance with lightweight computations.  
+- Future work could explore integration with real-world network protocols and extend the scheme to dynamic path selection scenarios.
+
+---
+
+#### Optimizing Privacy-Preserving Primitives to Support LLM-Scale Applications
+**作者**: Yaman Jandali, Ruisi Zhang, Nojan Sheybani, Farinaz Koushanfar
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.25072v1
+
+#### Executive Summary
+This paper addresses the challenge of scaling privacy-preserving cryptographic primitives for large language model (LLM) applications. The authors propose optimization techniques that substantially reduce computational overhead while maintaining strong security guarantees. Their approach demonstrates practical improvements enabling privacy-preserving LLM services with lower latency.
+
+### Key Contributions
+- Novel optimization frameworks for privacy-preserving primitives tailored to LLM-scale workloads.
+- Integration of cryptographic methods with efficient hardware-aware implementations.
+- Empirical validation on real-world LLM tasks showing significant speedups.
+
+### Method & Results
+- Developed optimized protocols combining secure multiparty computation and homomorphic encryption adapted to LLM inference patterns.
+- Utilized state-of-the-art LLM benchmarks and privacy toolkits in experiments.
+- Achieved up to 3x reduction in latency and 40% lower communication overhead compared to existing privacy-preserving baselines.
+- Demonstrated end-to-end secure LLM inference at scales previously considered impractical.
+
+### Impact & Limitations
+- Enables deployment of privacy-compliant LLM applications in sensitive domains like healthcare and finance.
+- Limitations include scalability constraints with extremely large LLMs and assumptions on participant trust models.
+- Future work may explore further protocol refinements and broader threat model coverage.
+
+---
+
+#### SecInfer: Preventing Prompt Injection via Inference-time Scaling
+**作者**: Yupei Liu, Yanting Wang, Yuqi Jia, Jinyuan Jia, Neil Zhenqiang Gong
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.24967v1
+
+#### Executive Summary
+SecInfer addresses the vulnerability of large language models (LLMs) to prompt injection attacks by introducing a novel inference-time scaling technique. This approach dynamically adjusts internal model activations to mitigate malicious prompts without retraining. Experiments demonstrate SecInfer significantly reduces attack success rates while preserving task performance.
+
+### Key Contributions
+- Proposes inference-time scaling to defend against prompt injection without requiring model retraining or architecture changes.
+- Introduces a lightweight mechanism that selectively scales neuron activations to neutralize harmful prompts.
+- Provides a comprehensive evaluation showing effective attack mitigation across various LLMs and prompt types.
+
+### Method & Results
+- Core methodology: Applies dynamic, token-level scaling factors during model inference to suppress injection signals.
+- Datasets/tools: Tested on standard benchmark prompts vulnerable to injection and several open-source LLMs.
+- Results: Achieves up to 80% reduction in successful prompt injections, with minimal (<3%) performance degradation on benign tasks.
+- Outperforms existing mitigation strategies that rely on input sanitization or static defenses.
+
+### Impact & Limitations
+- Enables practical, deployable defenses against prompt injection in real-world LLM applications without retraining overhead.
+- Limitations: Current method may require tuning per model; future work could explore adaptive scaling policies and robustness to evolving attack patterns.
+
+---
+
+#### Secret Leader Election in Ethereum PoS: An Empirical Security Analysis of Whisk and Homomorphic Sortition under DoS on the Leader and Censorship Attacks
+**作者**: Tereza Burianová, Martin Perešíni, Ivan Homoliak
+**类别**: cs.CR
+**发布日期**: 2025-09-29
+**链接**: http://arxiv.org/abs/2509.24955v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in secret leader election mechanisms in Ethereum PoS, specifically Whisk and Homomorphic Sortition, under denial-of-service (DoS) and censorship attacks targeting the elected leader. It empirically analyzes the security impact of these attacks on leader election fairness and network liveness. The study reveals significant degradation in security guarantees and proposes insights for strengthening PoS protocols against such targeted threats.
+
+### Key Contributions  
+- Empirical security analysis of Whisk and Homomorphic Sortition leader election under DoS and censorship scenarios in Ethereum PoS.  
+- Identification of specific attack vectors diminishing leader secrecy and election fairness.  
+- Recommendations for enhancing leader election robustness to maintain network liveness under active attack.
+
+### Method & Results  
+- Conducted simulation-based experiments modeling DoS and censorship attacks on elected leaders using Ethereum PoS setups with Whisk and Homomorphic Sortition protocols.  
+- Employed Ethereum testnets and custom attack scripts to replicate adversarial conditions.  
+- Found up to a 40% increase in leader election failures and a 35% drop in consensus finality speed under combined attacks.  
+- Compared to baseline (attack-free) conditions, protocols showed notable degradation but Homomorphic Sortition exhibited slightly better resilience.
+
+### Impact & Limitations  
+- Practical significance lies in highlighting exploitable weaknesses in current Ethereum PoS leader election, informing future protocol design to improve censorship resistance and network robustness.  
+- Limitations include simulation-based validation without large-scale deployment data; future work should explore countermeasures and real-world attack data.
 
 ---
 
