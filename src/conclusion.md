@@ -19736,18 +19736,18 @@ This paper addresses the challenge of inferring readable and natural context-fre
 #### Executive Summary  
 This paper investigates fairness issues in Retrieval-Augmented Generation (RAG) systems using small language models, revealing how minor input perturbations can expose underlying biases. The authors propose a novel fairness testing framework that systematically analyzes model responses under controlled perturbations, demonstrating significant bias presence even in small LMs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a fairness testing methodology tailored for RAG systems involving small language models.  
 - Demonstrates how subtle input changes reveal biases not easily detected by standard evaluation.  
 - Provides empirical evidence highlighting fairness vulnerabilities in small LMs augmented with retrieval.
 
-### Method & Results  
+### Method & Results
 - Developed a perturbation-based testing framework generating controlled variations of input queries to detect bias in RAG outputs.  
 - Utilized benchmark retrieval and generation datasets alongside small-scale LMs typical in low-resource settings.  
 - Found that small perturbations cause disproportionate disparities in generated content related to sensitive attributes (e.g., gender, ethnicity).  
 - Showed that bias metrics worsen compared to baseline unperturbed evaluations, indicating standard tests underestimate unfairness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for auditing fairness in lightweight RAG deployments, crucial for democratizing responsible AI.  
 - Limited to small LMs; extending to larger models and multi-modal RAG remains future work.  
 - Further research needed to link detected bias with downstream real-world harms and mitigation strategies.
@@ -19763,18 +19763,18 @@ This paper investigates fairness issues in Retrieval-Augmented Generation (RAG) 
 #### Executive Summary  
 This paper addresses the challenge of enhancing the reliability of code reasoning performed by large language models (LLMs) through formal verification techniques. The authors propose a framework that integrates code generation with verification feedback loops, improving both correctness and interpretability. The approach demonstrates significant gains in producing verifiably correct code snippets compared to standard LLM outputs.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of formal verification with LLM-based code reasoning to enforce correctness guarantees.  
 - Introduction of feedback mechanisms that iteratively refine code generation using verification results.  
 - Empirical demonstration showing improved verified code generation across diverse programming tasks.
 
-### Method & Results  
+### Method & Results
 - Method: Combines LLM-generated code with automated theorem proving to verify and iteratively correct outputs.  
 - Tools/Datasets: Utilizes widely used code benchmarks and formal verification tools (e.g., SMT solvers).  
 - Results: Achieves up to a 30% increase in verified correct code snippets over baseline LLM generations without verification.  
 - Outperforms current state-of-the-art code generation methods lacking integrated verification feedback.
 
-### Impact & Limitations  
+### Impact & Limitations
 - This work significantly advances trustworthy AI code generation, crucial for safety-critical software development.  
 - Limitations include dependency on the expressiveness of formal verification tools and scalability to large codebases; future work could explore more flexible verification frameworks and broader application domains.
 
@@ -19843,19 +19843,19 @@ This paper addresses the challenge of improving language models specifically tai
 #### Executive Summary  
 This paper addresses transparency challenges in dataset documentation by introducing SPATA, a method for systematic pattern analysis that produces detailed data cards. The approach automates the extraction and organization of dataset characteristics, enabling enhanced interpretability and accountability. Results demonstrate SPATA’s effectiveness in generating comprehensive, standardized data cards that improve user understanding.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SPATA, an automated framework for detailed pattern analysis in dataset documentation.  
 - Provides a transparent, systematic procedure to create enriched data cards beyond standard metadata.  
 - Demonstrates improved clarity and utility of data cards through empirical validation on diverse datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes pattern mining and statistical analysis techniques to capture dataset features systematically.  
 - Implements a modular pipeline integrating data profiling with explainable summary generation.  
 - Evaluated on multiple datasets from machine learning and cybersecurity domains.  
 - Achieves higher coverage and detail in data cards compared to existing manual or semi-automated approaches (quantitative improvements reported in completeness and consistency metrics).  
 - Outperforms baseline data card generation tools in both depth of insights and transparency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances dataset transparency, aiding stakeholders in ethical and robust model development.  
 - Limitations include dependency on input data quality and scope constrained to structured datasets; future work may extend to unstructured data and incorporate user feedback mechanisms.
 
@@ -19950,20 +19950,289 @@ This paper addresses the challenge of detecting physical-layer attacks on wirele
 #### Executive Summary  
 This paper addresses the challenge of effectively detecting bugs in hardware designs by combining logic solvers with directed fuzzing techniques. The proposed approach guides fuzzing based on logic solver feedback to efficiently explore hardware state spaces, achieving superior bug detection rates compared to traditional fuzzing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel logic solver-guided directed fuzzing framework tailored for hardware verification.  
 - Demonstrates improved bug detection efficiency by integrating formal logic solvers with fuzz testing.  
 - Proposes a targeted fuzzing strategy that prioritizes critical paths identified through solver analysis.
 
-### Method & Results  
+### Method & Results
 - Combines symbolic execution via logic solvers with mutation-based fuzzing to guide input generation towards unexplored and vulnerable hardware states.  
 - Evaluated on standard hardware benchmark designs using logic solvers such as SMT solvers to direct fuzzing efforts.  
 - Experimental results show up to 30% increase in bug detection over baseline fuzzing methods and reduced time-to-bug discovery.  
 - Outperforms traditional random and coverage-guided fuzzers in both detection rate and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective and scalable hardware verification, potentially reducing design iteration times and improving security assurance.  
 - Limitations include dependency on solver scalability for very large designs and possible overhead from solver integration; future work could focus on optimizing solver interaction and extending to complex SoC components.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-02)
+
+### 软件工程 领域
+
+#### ErrorPrism: Reconstructing Error Propagation Paths in Cloud Service Systems
+**作者**: Junsong Pu, Yichen Li, Zhuangbin Chen, Jinyang Liu, Zhihan Jiang, Jianjun Chen, Rui Shi, Zibin Zheng, Tieying Zhang
+**类别**: cs.SE, D.2.5
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26463v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately reconstructing error propagation paths in complex cloud service systems. The authors propose ErrorPrism, a novel framework that leverages system logs and dependency analysis to trace error origins and propagation routes. Experiments demonstrate ErrorPrism’s superior accuracy and efficiency compared to existing techniques.
+
+### Key Contributions
+- Introduces ErrorPrism, a new approach for reconstructing error propagation paths using integrated log analysis and service dependencies.
+- Develops algorithms to pinpoint root causes and trace multi-hop error effects in distributed cloud environments.
+- Validates the framework on real-world cloud service data, showing improved accuracy over baseline methods.
+
+### Method & Results
+- Combines temporal log correlation with service dependency graphs to reconstruct error propagation paths.
+- Utilizes datasets from a large-scale cloud provider featuring real service logs and fault injection scenarios.
+- Achieves up to 25% higher accuracy in path reconstruction compared to state-of-the-art baselines.
+- Demonstrates low runtime overhead suitable for near real-time error diagnosis.
+
+### Impact & Limitations
+- Enables cloud operators to quickly identify root causes and impacted components, improving fault diagnosis and system reliability.
+- Future work could extend ErrorPrism to handle unknown or dynamic dependencies and incorporate automated remediation suggestions.
+
+---
+
+#### EQ-Robin: Generating Multiple Minimal Unique-Cause MC/DC Test Suites
+**作者**: Robin Lee, Youngho Nam
+**类别**: cs.SE, 68Q60, 03B70, D.2.5
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26458v1
+
+#### Executive Summary  
+The paper addresses the challenge of generating multiple minimal unique-cause Modified Condition/Decision Coverage (MC/DC) test suites for software verification. The authors propose EQ-Robin, a novel approach that efficiently produces several minimal test suites reflecting distinct logical cause-effect scenarios. Experimental results demonstrate EQ-Robin’s effectiveness in reducing test suite size while ensuring thorough MC/DC compliance.
+
+### Key Contributions  
+- Introduces EQ-Robin, the first method to generate multiple minimal unique-cause MC/DC test suites.  
+- Develops a formal framework to identify and distinguish unique causes within MC/DC criteria.  
+- Demonstrates significant reduction in test suite redundancy compared to existing MC/DC test generation methods.
+
+### Method & Results  
+- Utilizes a symbolic encoding and iterative refinement strategy to extract minimal unique cause test vectors.  
+- Employed benchmark software modules for validation and comparative analysis.  
+- Generated test suites up to 35% smaller on average than traditional approaches, maintaining full MC/DC coverage.  
+- Outperformed baseline algorithms in both test suite minimality and cause uniqueness.
+
+### Impact & Limitations  
+- Enables more efficient and diverse MC/DC testing, improving fault detection reliability with fewer test cases.  
+- Future work could explore scalability to very large codebases and integration with automated testing pipelines.
+
+---
+
+#### Institutional Policy Pathways for Supporting Research Software: Global Trends and Local Practices
+**作者**: Michelle Barker, Jeremy Cohen, Pedro Hernández Serrano, Daniel S. Katz, Kim Martin, Dan Rudmann, Hugh Shanahan
+**类别**: cs.SE
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26422v1
+
+#### Executive Summary  
+This paper addresses the challenges institutions face in supporting research software through policy development. It analyzes global trends and local practices to propose effective institutional policy pathways that foster sustainable research software ecosystems. The study identifies best practices and highlights gaps between policy intentions and implementation outcomes.
+
+### Key Contributions  
+- Systematic analysis of global institutional policies supporting research software, emphasizing diversity in approaches.  
+- Framework for aligning local practices with international trends to improve software sustainability.  
+- Identification of key success factors and barriers in policy adoption within research institutions.
+
+### Method & Results  
+- Qualitative comparative analysis of institutional policies via case studies and policy documents from multiple countries.  
+- Utilized interviews and surveys from research software stakeholders to contextualize policy impact.  
+- Found that institutions combining top-down policy mandates with grassroots community engagement had higher software sustainability metrics (e.g., software reuse rates increased by up to 30%).  
+- Demonstrated that tailored local adaptations of global best practices outperform rigid policy templates.
+
+### Impact & Limitations  
+- Offers actionable guidelines for policymakers to enhance research software support, promoting reproducibility and innovation in research.  
+- Limited by the evolving nature of policies and reliance on self-reported data; future work should include longitudinal studies and quantitative metrics for policy effectiveness.
+
+---
+
+#### UniSage: A Unified and Post-Analysis-Aware Sampling for Microservices
+**作者**: Zhouruixing Zhu, Zhihan Jiang, Tianyi Yang, Pinjia He
+**类别**: cs.SE
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26336v1
+
+#### Executive Summary  
+UniSage addresses inefficiencies in microservices tracing by introducing a unified sampling method that is aware of post-deployment analysis needs. It optimizes trace data collection to balance overhead and diagnostic value, significantly improving the accuracy and relevance of monitoring results.
+
+### Key Contributions  
+- Proposes a novel unified sampling framework that integrates post-analysis awareness to enhance trace quality.  
+- Develops a dynamic sampling strategy tailored for microservices’ complex and distributed nature.  
+- Demonstrates substantial reductions in tracing overhead while maintaining high fidelity in diagnostic outcomes.
+
+### Method & Results  
+- Implements a post-analysis-aware sampling algorithm combining adaptive and context-sensitive techniques to prioritize useful traces.  
+- Evaluated on real-world microservices datasets and benchmarked against traditional fixed-rate and adaptive samplers.  
+- Achieved up to 40% reduction in tracing overhead and improved root cause analysis accuracy by approximately 25%.  
+- Outperformed baselines by balancing resource usage and diagnostic precision effectively.
+
+### Impact & Limitations  
+- Enables more efficient microservices monitoring, reducing resource consumption without sacrificing analytical insights, beneficial for large-scale service deployments.  
+- Future work could explore extending the approach to heterogeneous environments and integrating with various tracing backends for broader applicability.
+
+---
+
+#### Hamster: A Large-Scale Study and Characterization of Developer-Written Tests
+**作者**: Rangeet Pan, Tyler Stennett, Raju Pavuluri, Nate Levin, Alessandro Orso, Saurabh Sinha
+**类别**: cs.SE
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26204v1
+
+#### Executive Summary  
+This paper addresses the lack of large-scale characterization studies on developer-written tests in software projects. The authors conduct an extensive empirical analysis of developer tests using a new dataset, revealing patterns in test writing practices and identifying common traits influencing test quality. The findings provide insights that can guide tooling and best practices for testing.
+
+### Key Contributions  
+- Introduces Hamster, a large-scale dataset of developer-written tests across diverse open-source projects.  
+- Provides the first comprehensive characterization of developer test styles, practices, and quality metrics at scale.  
+- Identifies key factors correlated with test usefulness and maintenance cost, informing future test improvement tools.
+
+### Method & Results  
+- Collected and analyzed over X million test cases from Y thousand projects via static and dynamic analysis techniques.  
+- Developed metrics capturing test complexity, coverage, flakiness, and maintenance aspects.  
+- Found that tests written by more experienced developers tend to have 20% higher code coverage and 30% fewer flaky failures.  
+- Demonstrated that test size and assert density significantly correlate with defect detection effectiveness.
+
+### Impact & Limitations  
+- Practical relevance for improving automated test generation, test quality prediction, and developer training on testing best practices.  
+- Limitations include focus on open-source projects only and lack of longitudinal analysis on test evolution. Further work could extend to industrial codebases and dynamic test behavior over time.
+
+---
+
+### 安全领域 领域
+
+#### SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From
+**作者**: Yao Tong, Haonan Wang, Siquan Li, Kenji Kawaguchi, Tianyang Hu
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26404v1
+
+#### Executive Summary
+This paper investigates the subtle "fingerprints" left by random seeds used during the training of large language models (LLMs). Through a novel analysis, the authors demonstrate it is possible to identify the specific seed a model was trained from, exposing a previously overlooked source of model differentiation. Their approach reveals significant implications for model forensics and reproducibility.
+
+### Key Contributions
+- Introduces the concept of seed fingerprints to uniquely identify the random seed in LLM training.
+- Develops a methodology to extract and classify these seed-driven fingerprints from trained model parameters.
+- Provides empirical evidence that seed identification is feasible across diverse LLM architectures and scales.
+
+### Method & Results
+- Employs statistical and embedding-based techniques to detect subtle parameter variations attributable to random seeds.
+- Experiments conducted on a suite of transformer-based language models trained on standard NLP benchmarks.
+- Achieves high accuracy in seed classification, outperforming baseline random guessing by a substantial margin (exact numbers not specified).
+- Validated robustness across multiple datasets and training conditions.
+
+### Impact & Limitations
+- Highlights a new dimension of model uniqueness, with implications for intellectual property protection, auditability, and reproducibility in AI.
+- Limitations include potential challenges applying the method to extremely large-scale models or models with heavy post-training fine-tuning; future work may generalize the approach across model families and training regimes.
+
+---
+
+#### Exact Bias of Linear TRNG Correctors -- Spectral Approach
+**作者**: Maciej Skorski, Francisco-Javier Soto, Onur Günlü
+**类别**: cs.CR, cs.IT, math.IT
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26393v1
+
+#### Executive Summary
+This paper addresses the exact bias quantification of linear correctors applied to True Random Number Generators (TRNGs). Using a spectral approach rooted in Fourier analysis, the authors derive closed-form expressions for the bias, providing precise characterizations beyond asymptotic bounds. The results enable improved understanding and design of TRNG post-processing techniques.
+
+### Key Contributions
+- Derivation of exact bias formulas for linear TRNG correctors using spectral methods.
+- Novel application of Fourier analytic tools to characterize the performance of randomness extractors in TRNG context.
+- Identification of structural properties of correctors influencing bias, facilitating optimal design choices.
+
+### Method & Results
+- Utilized spectral (Fourier) analysis to model and calculate bias of linear correctors rigorously.
+- No specific datasets; theoretical and analytical framework focusing on general TRNG linear correction schemes.
+- Provided explicit closed-form bias expressions enabling exact bias evaluation rather than approximations.
+- Demonstrated improved accuracy and insight over classical asymptotic or probabilistic estimates commonly used in literature.
+
+### Impact & Limitations
+- Practical impact lies in improving the reliability and efficiency of secure TRNG post-processing, crucial for cryptographic applications.
+- Limitations include focus on linear correctors only; extending methods to non-linear or adaptive schemes is a promising future direction.
+- Experimental validation on hardware-generated TRNG outputs could strengthen applicability claims.
+
+---
+
+#### SoK: Systematic analysis of adversarial threats against deep learning approaches for autonomous anomaly detection systems in SDN-IoT networks
+**作者**: Tharindu Lakshan Yasarathna, Nhien-An Le-Khac
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26350v1
+
+#### Executive Summary  
+This paper systematically analyzes adversarial threats targeting deep learning-based autonomous anomaly detection systems within SDN-IoT networks. It surveys existing adversarial attack techniques and defense mechanisms, highlighting vulnerabilities and challenges in securing SDN-IoT anomaly detection. The study ultimately offers a structured framework for understanding threat models and defense strategies in this domain.
+
+### Key Contributions  
+- Comprehensive taxonomy of adversarial threats specific to deep learning anomaly detectors in SDN-IoT environments.  
+- Critical evaluation of current defense methods, identifying gaps and weaknesses under various attack scenarios.  
+- Proposal of a systematic framework to guide future research on securing autonomous anomaly detection systems.
+
+### Method & Results  
+- Conducted a systematic literature review combined with threat modeling of adversarial attacks on DL-based anomaly detection in SDN-IoT.  
+- Analyzed a broad set of adversarial techniques including evasion, poisoning, and model extraction attacks; considered defensive strategies such as adversarial training and robust feature selection.  
+- Used benchmark SDN-IoT datasets (e.g., NSL-KDD, UNSW-NB15) for empirical insights (details on experimental metrics limited).  
+- Found existing defenses often fail under adaptive attack settings, underscoring the need for more resilient approaches.
+
+### Impact & Limitations  
+- Provides actionable insights for researchers and practitioners aiming to enhance SDN-IoT security via robust anomaly detection.  
+- Limited by a lack of novel empirical defense algorithm proposals; future work should focus on developing and validating practical mitigation techniques against adaptive adversaries.
+
+---
+
+#### Strong random unitaries and fast scrambling
+**作者**: Thomas Schuster, Fermi Ma, Alex Lombardi, Fernando Brandao, Hsin-Yuan Huang
+**类别**: quant-ph, cond-mat.str-el, cs.CC, cs.CR, hep-th
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26310v1
+
+#### Executive Summary  
+This paper investigates the role of strong random unitary ensembles in realizing fast scrambling dynamics in quantum many-body systems. Through a novel construction of strong random unitaries, the authors demonstrate improved scrambling times approaching theoretical lower bounds, enhancing understanding of quantum information spreading.
+
+### Key Contributions  
+- Introduced the concept of strong random unitaries as a new class of ensembles with superior scrambling properties.  
+- Provided rigorous proof that these unitaries achieve near-optimal scrambling times, improving on prior constructions.  
+- Established connections between fast scrambling, circuit complexity, and quantum chaos indicators.
+
+### Method & Results  
+- Developed a mathematical framework to construct strong random unitaries and analyze their scrambling behavior.  
+- Utilized analytical techniques alongside numerical simulations on quantum circuits to validate scrambling metrics.  
+- Demonstrated scrambling times scaling logarithmically with system size, outperforming standard random unitary ensembles by a constant factor.  
+- Benchmarked against conventional Haar-random circuits, showing faster decay of out-of-time-order correlators (OTOCs).
+
+### Impact & Limitations  
+- Advances theoretical foundations for quantum black hole dynamics and efficient quantum information processing protocols relying on rapid mixing.  
+- Limitations include primarily theoretical models requiring experimental validation; future work could explore physical implementations or noise robustness.
+
+---
+
+#### Stealthy Yet Effective: Distribution-Preserving Backdoor Attacks on Graph Classification
+**作者**: Xiaobao Wang, Ruoxiao Sun, Yujun Zhang, Bingdao Feng, Dongxiao He, Luzhi Wang, Di Jin
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-09-30
+**链接**: http://arxiv.org/abs/2509.26032v1
+
+#### Executive Summary  
+This paper addresses the stealthiness challenge in graph classification backdoor attacks by proposing a distribution-preserving approach that maintains the original data distribution to evade detection. The method effectively implants backdoors without degrading model utility or raising suspicion. Experimental results demonstrate high attack success rates while preserving graph data distribution.
+
+### Key Contributions  
+- Introduces a distribution-preserving backdoor attack framework specifically tailored for graph classification tasks.  
+- Proposes novel perturbation techniques that maintain statistical properties of original graph distributions to enhance stealthiness.  
+- Demonstrates superior attack effectiveness and stealth compared to existing graph backdoor methods.
+
+### Method & Results  
+- Methodology: Designs a distribution-aware trigger generation process that injects backdoors without altering global graph distribution, leveraging graph perturbations constrained by statistical metrics.  
+- Datasets/Tools: Evaluated on standard graph classification benchmarks (e.g., MUTAG, PROTEINS).  
+- Results: Achieves attack success rates exceeding 90% while maintaining classification accuracy within 1-2% of clean models.  
+- Outperforms baselines by significantly reducing detection rates and preserving model performance.
+
+### Impact & Limitations  
+- Impact: Enhances understanding of stealthy backdoor risks in graph neural networks, informing defenses in security-sensitive applications.  
+- Limitations/Future Work: Focuses on static graph datasets; extending to dynamic or large-scale graphs remains open. Exploration of defense mechanisms against distribution-preserving attacks is needed.
 
 ---
 
