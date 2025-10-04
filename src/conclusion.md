@@ -20251,18 +20251,18 @@ This paper addresses the stealthiness challenge in graph classification backdoor
 #### Executive Summary  
 This paper addresses the challenge of accurately identifying cross-breed pigs in small-scale farming using auricular vein pattern recognition. The authors employ machine learning techniques to analyze vein images, achieving reliable pig identification critical for health and breeding management. Results demonstrate high recognition accuracy, validating the approach for practical deployment in resource-constrained settings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel application of auricular vein pattern recognition specifically for cross-breed pig identification.  
 - Develops a tailored machine learning model optimized for small-scale farming contexts with limited data.  
 - Provides a lightweight, non-invasive biometric identification method suitable for diverse pig breeds.
 
-### Method & Results  
+### Method & Results
 - Utilizes image capture of pig ear veins, followed by feature extraction and classification using customized machine learning algorithms.  
 - Dataset comprises auricular vein images collected from multiple cross-breed pigs in small-scale farms.  
 - Achieves identification accuracy exceeding 90%, outperforming traditional visual or tag-based identification methods.  
 - Demonstrates robustness across different breeds and varying image qualities, outperforming standard CNN baselines by 5-7% in accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables affordable and reliable pig identification enhancing farm management and traceability in low-resource settings.  
 - Limitations include the need for standardized image capture conditions; future work should address scalability and automated image acquisition.
 
@@ -20277,18 +20277,18 @@ This paper addresses the challenge of accurately identifying cross-breed pigs in
 #### Executive Summary  
 This paper addresses the challenge of high false positive crash rates in OSS-Fuzz-Gen, a fuzzing tool for open-source software. The authors propose FalseCrashReducer, an agentic AI framework that intelligently verifies crash reports to reduce false positives. Experimental results show substantial improvement in crash validity, enhancing debugging efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FalseCrashReducer, the first agentic AI system tailored to filter false positive crashes in OSS-Fuzz-Gen.  
 - Demonstrates integration of multi-agent AI planning to autonomously validate crashes, improving reliability of fuzzing outputs.  
 - Provides empirical evidence showing significant reduction in false positives, boosting fuzz testing precision.
 
-### Method & Results  
+### Method & Results
 - Developed an agent-driven verification pipeline that replays crashes and analyzes program state to confirm validity.  
 - Evaluated on multiple OSS-Fuzz-Gen generated crash datasets across diverse open-source projects.  
 - Achieved up to 65% reduction in false positive crashes compared to baseline fuzzing without verification.  
 - Outperformed traditional heuristic and manual verification approaches in both accuracy and speed.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical fuzzing workflows by reducing developer time spent on irrelevant crash reports, increasing trust in automated testing.  
 - Current approach depends on replayability of crashes; future work could address non-deterministic bugs and expand to other fuzzing frameworks.
 
@@ -20303,18 +20303,18 @@ This paper addresses the challenge of high false positive crash rates in OSS-Fuz
 #### Executive Summary  
 This paper addresses the challenge of ensuring trustworthiness in AI-enabled systems by introducing TAIBOM, a novel framework integrating transparency, accountability, and robustness mechanisms. The approach combines formal verification, runtime monitoring, and explainability techniques to enhance system reliability. Experimental results demonstrate significant improvements in trust metrics without compromising system performance.
 
-### Key Contributions  
+### Key Contributions
 - Proposes TAIBOM, a comprehensive framework for trustworthiness encompassing transparency, accountability, and robustness specifically tailored for AI systems.  
 - Introduces a hybrid methodology combining formal methods with runtime monitoring and explainability to detect and mitigate failures.  
 - Provides empirical evidence of enhanced trust metrics in AI-enabled applications through rigorous evaluation.
 
-### Method & Results  
+### Method & Results
 - Utilizes formal verification techniques alongside runtime monitoring to detect deviations and explainability tools to interpret AI decisions.  
 - Evaluated on benchmark AI systems, including autonomous decision-making platforms and security-critical applications.  
 - Achieved up to 30% improvement in detection of anomalous behavior and a 25% increase in user-perceived trust scores compared to baseline models without trust enhancements.  
 - Demonstrates low computational overhead, maintaining real-time performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Addresses critical need for trustworthy AI in high-stakes domains, facilitating safer deployment of AI-enabled systems.  
 - Limitations include scalability challenges for extremely large models and dependency on quality of formal specifications; future work may explore automated specification generation and broader domain validation.
 
@@ -20329,18 +20329,18 @@ This paper addresses the challenge of ensuring trustworthiness in AI-enabled sys
 #### Executive Summary  
 This paper addresses the challenge of verifiable certification for code datasets used in software engineering and AI research. The authors propose SIEVE, a framework that enables traceable and trustworthy validation of dataset provenance and quality. Experiments demonstrate that SIEVE effectively detects dataset inconsistencies and enhances certification reliability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SIEVE, a novel framework for verifiable certification tailored for code datasets.  
 - Develops automated mechanisms to validate dataset provenance and detect integrity issues.  
 - Bridges software engineering practices with AI dataset certification, improving transparency.
 
-### Method & Results  
+### Method & Results
 - Utilizes automated provenance tracking combined with formal verification techniques to certify code datasets.  
 - Evaluated on multiple popular code repositories and benchmark datasets relevant to AI and software engineering.  
 - Achieved up to 95% accuracy in detecting provenance anomalies and inconsistencies, outperforming existing heuristic-based checks by 20%.  
 - Demonstrated scalable certification processes applicable to large-scale code repositories.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness of datasets fueling AI models and software analytics, promoting reproducibility and quality assurance.  
 - Currently focused on provenance and integrity; future work could extend to verifying dataset representativeness and bias.  
 - Scalability under extremely large and diverse codebases remains to be further evaluated.
@@ -20356,18 +20356,18 @@ This paper addresses the challenge of verifiable certification for code datasets
 #### Executive Summary  
 This paper addresses fare evasion and fraud detection in public transit through a novel real-time, tensor-based multimodal analytics framework. By modeling transit data as tensors, the authors enable effective detection of anomalous fare behaviors across different transport modes. The approach outperforms traditional methods, offering timely and fairer fare enforcement.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a real-time tensor decomposition method tailored for multimodal fare evasion detection.  
 - Proposes integration of various transport mode data streams into a unified analytical tensor framework.  
 - Demonstrates improved fraud detection accuracy and responsiveness compared to existing solutions.
 
-### Method & Results  
+### Method & Results
 - Utilizes tensor-based anomaly detection leveraging multi-dimensional transit data (e.g., passenger counts, ticket scans, mode type).  
 - Implements real-time processing for immediate identification of suspicious activities.  
 - Evaluations conducted on a large-scale dataset from an urban multimodal transit network.  
 - Achieves up to 15% higher detection accuracy and reduced false positives relative to state-of-the-art baseline models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables transit authorities to reduce revenue loss and improve fairness with prompt, accurate fraud detection.  
 - Future work includes addressing scalability to larger networks and incorporating additional contextual data (e.g., weather or event schedules).
 
@@ -20411,18 +20411,18 @@ This paper addresses the computational challenge of finding $S$-units in number 
 #### Executive Summary  
 This paper addresses the challenge of ensuring reproducibility in quantum computing software builds, a critical issue given quantum hardware variability. The authors propose a framework that integrates deterministic build processes and quantum circuit validation to produce verifiable, repeatable quantum program outputs. Their approach significantly reduces discrepancies in quantum experiments caused by non-reproducible builds.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel reproducible build framework tailored specifically for quantum computing environments.  
 - Develops deterministic compilation and deployment pipelines that minimize quantum state variability stemming from build inconsistencies.  
 - Validates reproducibility through experimental benchmarks on multiple quantum platforms, bridging software engineering with quantum verification.
 
-### Method & Results  
+### Method & Results
 - Utilizes controlled deterministic builds combined with quantum circuit equivalence checking to enforce reproducibility.  
 - Tools: Custom build system extensions; quantum simulators and IBM Quantum hardware for validation.  
 - Achieved over 95% consistency in output quantum states across independent build and execution cycles.  
 - Demonstrated a 40% reduction in variability of quantum results compared to standard build methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and trustworthiness in quantum algorithm deployment, crucial for both research and industry adoption.  
 - Limitations include scalability to larger, more complex quantum circuits and dependence on current quantum hardware availability.  
 - Future work could explore automated debugging for reproducibility failures and support for diverse quantum architectures.
@@ -20438,18 +20438,18 @@ This paper addresses the challenge of ensuring reproducibility in quantum comput
 #### Executive Summary  
 This paper addresses vulnerabilities in GNSS ranging authentication using pseudorandom function (PRF) schemes. It proposes a novel security framework that enhances resistance to spoofing and replay attacks by integrating cryptographic PRFs with GNSS signals. Experimental evaluations demonstrate improved authentication robustness without significant latency increases.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a cryptographically sound PRF-based authentication method tailored to GNSS ranging signals.  
 - Provides a security analysis framework quantifying resistance against spoofing and replay threats.  
 - Demonstrates practical integration with existing GNSS infrastructure, maintaining low latency.
 
-### Method & Results  
+### Method & Results
 - Designed a PRF-based protocol embedding authentication data into GNSS ranging signals.  
 - Evaluated using simulated GNSS environments with attacker models (spoofing, replay).  
 - Achieved up to 35% reduction in successful spoofing attacks compared to conventional authentication methods.  
 - Latency overhead remained below 5%, preserving real-time performance.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the security and trustworthiness of GNSS-based positioning critical for navigation and timing applications.  
 - Limitations include reliance on accurate attacker model assumptions and potential challenges scaling to global GNSS networks.  
 - Future work: extending robustness against more sophisticated adversaries and field-testing in operational environments.
@@ -20476,21 +20476,6 @@ This paper tackles the challenge of enhancing safety in large language models (L
 - Achieves a significant reduction in harmful or toxic outputs with minimal impact on general language understanding.
 - Outperforms baseline safety mitigation methods in both controllability and effectiveness.
 
-### Impact & Limitations
-- Offers a practical path for deploying safer LLMs in real-world applications where control over output safety is critical.
-- Limitations include dependency on quality safety feedback and unexplored scalability to extremely large models; future work could explore broader task domains and automated feedback mechanisms.
-
----
-
-#### FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI
-**作者**: Paschal C. Amusuo, Dongge Liu, Ricardo Andres Calvo Mendez, Jonathan Metzman, Oliver Chang, James C. Davis
-**类别**: cs.SE, cs.CR, cs.MA, D.2.4; F.3.1
-**发布日期**: 2025-10-02
-**链接**: http://arxiv.org/abs/2510.02185v1
-
-#### Executive Summary
-This paper addresses the high incidence of false positive crashes generated by OSS-Fuzz-Gen, an AI-based fuzz testing framework. It proposes FalseCrashReducer, an agentic AI system designed to differentiate true crashes from false positives, significantly improving crash triage accuracy. Experimental results demonstrate a substantial reduction in false positives without compromising bug-finding capabilities.
-
 ### Key Contributions
 - Introduces FalseCrashReducer, the first agentic AI tool explicitly targeting false positive reduction in OSS-Fuzz-Gen crash outputs.
 - Develops a novel AI-guided analysis pipeline integrating dynamic and static techniques to validate crash authenticity.
@@ -20505,6 +20490,274 @@ This paper addresses the high incidence of false positive crashes generated by O
 ### Impact & Limitations
 - Enhances practical fuzz testing workflow efficiency by reducing wasted effort on false alarms, facilitating more reliable security assessments.
 - Limited to OSS-Fuzz-Gen outputs; future work could generalize the agentic approach to other fuzzing frameworks and improve adaptability to diverse software domains.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-04)
+
+### 软件工程 领域
+
+#### ACM SIGSOFT SEN Empirical Software Engineering: Introducing Our New Regular Column
+**作者**: Justus Bogner, Roberto Verdecchia
+**类别**: cs.SE
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.02007v1
+
+#### Executive Summary  
+This paper introduces a new regular column in ACM SIGSOFT SEN focusing on Empirical Software Engineering. It outlines the column's goals to foster community discussion, highlight cutting-edge research, and provide empirical insights into software engineering practices.
+
+### Key Contributions  
+- Launch of a dedicated, recurring column to consolidate empirical software engineering knowledge.  
+- A platform designed to encourage dialogue between researchers and practitioners.  
+- Initial framework for thematic coverage and article selection criteria.
+
+### Method & Results  
+- Methodology: Conceptual design based on analysis of community needs and literature gaps.  
+- Tools/Datasets: Not applicable—focus is on editorial framework development.  
+- Results: Definition of column scope, objectives, and publication strategy; no experimental data presented.  
+- Performance: Not applicable as this is a position and editorial paper.
+
+### Impact & Limitations  
+- Practical Significance: Provides an ongoing venue to disseminate empirical findings and stimulate research-practice interaction in software engineering.  
+- Limitations/Future Work: Actual impact depends on sustained community engagement and quality of contributions; future evaluation of column effectiveness is needed.
+
+---
+
+#### Automatic Generation of Combinatorial Reoptimisation Problem Specifications: A Vision
+**作者**: Maximilian Kratz, Steffen Zschaler, Jens Kosiol, Gabriele Taentzer
+**类别**: cs.SE, D.2.1; D.2.2; D.2.3; D.3.4; G.1.6
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.02002v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically generating specifications for combinatorial reoptimization problems to aid in their effective solution. The authors propose a visionary framework that leverages model-driven engineering techniques to automate this specification process. Preliminary insights suggest potential to streamline problem formulation and improve solver applicability.
+
+### Key Contributions
+- Introduces a novel vision for automatic generation of reoptimization problem specifications using model-driven methods.
+- Proposes an integrative approach combining software engineering and combinatorial optimization domains.
+- Highlights the gap between existing manual specification practices and automated, reusable solutions.
+
+### Method & Results
+- Methodology: conceptual framework based on metamodeling and transformation layers to capture combinatorial problem changes and automate specification updates.
+- Tools: utilizes domain-specific modeling and transformation languages within a model-driven engineering environment.
+- Results: primarily theoretical and conceptual; no empirical dataset or benchmarks reported.
+- Performance: no quantitative performance results or baseline comparisons provided, as the work is visionary.
+
+### Impact & Limitations
+- Practical significance: could significantly reduce effort and error in reoptimization problem formulation, benefiting optimization practitioners and tool developers.
+- Limitations: currently lacks empirical validation and concrete tool implementation; future work needed to develop prototypes and evaluate effectiveness on real-world problems.
+
+---
+
+#### Clarifying Semantics of In-Context Examples for Unit Test Generation
+**作者**: Chen Yang, Lin Yang, Ziqi Wang, Dong Wang, Jianyi Zhou, Junjie Chen
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01994v1
+
+#### Executive Summary
+This paper addresses the ambiguity in semantics of in-context examples used for unit test generation in AI-driven code testing tools. The authors propose a novel semantic clarification framework to better interpret example contexts, significantly improving the accuracy of generated unit tests. Experiments demonstrate enhanced test precision and coverage compared to existing methods.
+
+### Key Contributions
+- Introduces a semantic clarification framework for interpreting in-context examples in unit test generation.
+- Proposes techniques to disambiguate contextual hints for more precise test case synthesis.
+- Validates approach with empirical evaluation showing improved performance over state-of-the-art baselines.
+
+### Method & Results
+- Developed a semantic parsing mechanism to extract and clarify intent from in-context examples within test generation prompts.
+- Used public code repositories and standard unit test benchmarks for evaluation.
+- Demonstrated up to 15% increase in test precision and 10% improvement in coverage metrics.
+- Outperformed leading baseline models in generating semantically consistent and functionally relevant unit tests.
+
+### Impact & Limitations
+- Enhances reliability and automation in AI-driven unit test generation, aiding software developers in quality assurance.
+- Limitations include potential dependency on example quality and incomplete handling of highly ambiguous contexts; future work could explore broader contextual and dynamic analysis integration.
+
+---
+
+#### KTBox: A Modular LaTeX Framework for Semantic Color, Structured Highlighting, and Scholarly Communication
+**作者**: Bhaskar Mangal, Ashutosh Bhatia, Yashvardhan Sharma, Kamlesh Tiwari, Rashmi Verma
+**类别**: cs.DL, cs.SE, D.2.2; I.7.2
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01961v1
+
+#### Executive Summary  
+KTBox addresses the challenge of enhancing semantic clarity and structured highlighting in LaTeX documents to improve scholarly communication. It introduces a modular framework enabling semantic color coding and structured annotations within academic papers. Results demonstrate improved readability and knowledge transfer in scientific documents.
+
+### Key Contributions  
+- Development of a modular LaTeX framework enabling semantic color and structured highlighting.  
+- Introduction of semantic layers to improve the interpretability of scholarly texts.  
+- Tools facilitating enhanced communication and knowledge extraction in academic writing.
+
+### Method & Results  
+- Designed modular LaTeX packages integrating semantic tagging and color schemes aligned with document structure.  
+- Evaluated on academic manuscripts with real-world scholarly content and tested for compatibility across LaTeX distributions.  
+- Experimental results showed up to 30% increase in reader comprehension scores compared to traditional formatting (user study).  
+- Significantly outperformed baseline static highlighting tools lacking semantic modularity.
+
+### Impact & Limitations  
+- Enhances academic paper clarity, benefiting authors, reviewers, and readers by improving semantic understanding and visual navigation.  
+- Limited by reliance on LaTeX proficiency; future work may target integration with other authoring platforms and automated semantic extraction.
+
+---
+
+#### RefFilter: Improving Semantic Conflict Detection via Refactoring-Aware Static Analysis
+**作者**: Victor Lira, Paulo Borba, Rodrigo Bonifácio, Galileu Santos e Matheus barbosa
+**类别**: cs.SE
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01960v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting semantic conflicts in software merges, which traditional static analysis tools often miss due to refactoring changes. The authors propose RefFilter, a refactoring-aware static analysis approach that accurately filters out refactoring-induced false positives. Empirical evaluation shows that RefFilter significantly improves semantic conflict detection precision compared to existing methods.
+
+### Key Contributions  
+- Introduces RefFilter, a novel static analysis technique that explicitly accounts for refactorings in conflict detection.  
+- Demonstrates enhanced precision in identifying genuine semantic conflicts, reducing false alarms caused by refactorings.  
+- Provides an empirical evaluation on real-world merge scenarios, showing practical effectiveness.
+
+### Method & Results  
+- Utilizes refactoring detection integrated with static analysis to distinguish semantic conflicts from refactoring changes.  
+- Evaluated on datasets of real software merges from open-source projects (specific datasets/tools not detailed).  
+- Results show a marked improvement in precision (exact numbers not provided), outperforming state-of-the-art conflict detection tools.  
+- Reduces false positive rates, thus improving developer trust and merging accuracy.
+
+### Impact & Limitations  
+- Practical significance: Helps developers more reliably identify true semantic conflicts, improving merge quality and reducing debugging effort.  
+- Limitations include potential scalability challenges with very large codebases and the dependency on the accuracy of refactoring detection. Future work could explore broader language support and integration with automated merge tools.
+
+---
+
+### 安全领域 领域
+
+#### NoMod: A Non-modular Attack on Module Learning With Errors
+**作者**: Cristian Bassotto, Ermes Franch, Marina Krček, Stjepan Picek
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.02162v1
+
+#### Executive Summary
+This paper addresses vulnerabilities in module-based Learning With Errors (LWE) cryptographic schemes by proposing NoMod, a novel non-modular attack that bypasses traditional modular assumptions. The approach leverages new algebraic techniques to exploit weaknesses overlooked by existing modular attacks, demonstrating practicality in breaking certain module-LWE instances. Experimental results confirm significant efficiency improvements over prior methods.
+
+### Key Contributions
+- Proposes NoMod, the first effective non-modular attack targeting module-LWE, challenging foundational modular assumptions.
+- Introduces novel algebraic analysis techniques to exploit structural weaknesses in module-LWE without relying on module decomposition.
+- Demonstrates practical attacks on standard parameter sets, exposing security gaps in widely used cryptographic instantiations.
+
+### Method & Results
+- Methodology: Developed a non-modular lattice reduction approach combined with an innovative decoding strategy on module-LWE samples.
+- Tools: Utilized lattice cryptanalysis frameworks and benchmarked on publicly available module-LWE parameter sets.
+- Results: Successfully recovered secret keys with up to 40% fewer samples and 30% less computation than previous modular attacks.
+- Performance: Outperforms existing modular attacks by reducing complexity and broadening the scope of exploitable module parameters.
+
+### Impact & Limitations
+- Impact: Challenges the assumed hardness of module-LWE schemes, urging reconsideration of security assumptions in post-quantum cryptography.
+- Limitations/Future Work: Attack applicability is currently limited to specific module dimensions; extending NoMod to broader parameters and investigating defenses remain open tasks.
+
+---
+
+#### Mirage Fools the Ear, Mute Hides the Truth: Precise Targeted Adversarial Attacks on Polyphonic Sound Event Detection Systems
+**作者**: Junjie Su, Weifei Jin, Yuxin Cao, Derui Wang, Kai Ye, Jie Hao
+**类别**: cs.CR, cs.SD
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.02158v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of polyphonic sound event detection (SED) systems to adversarial attacks, proposing precise targeted methods that fool detection while preserving audio perceptual quality. The authors design attacks to either inject false events ("Mirage") or suppress true events ("Mute"), demonstrating high attack success rates on state-of-the-art SED models without noticeable audio artifacts.
+
+### Key Contributions  
+- Introduces targeted adversarial attacks specifically crafted for polyphonic SED systems, enhancing attack precision.  
+- Develops two attack frameworks: "Mirage" for inserting fake events and "Mute" for concealing true events.  
+- Provides comprehensive empirical validation showing the effectiveness and stealthiness of the attacks.
+
+### Method & Results  
+- Uses gradient-based optimization to generate imperceptible perturbations targeting SED model outputs at event-level granularity.  
+- Evaluated on standard polyphonic SED benchmarks (e.g., URBAN-SED, TUT Sound Events).  
+- Achieved attack success rates exceeding 90% while maintaining high audio quality metrics (e.g., PESQ, STOI).  
+- Outperforms baseline untargeted attacks, demonstrating superior control over event insertion and deletion.
+
+### Impact & Limitations  
+- Highlights critical security risks for deploying SED systems in real-world applications like surveillance and smart environments.  
+- Limitations include dependence on white-box access and evaluation primarily on offline datasets; future work could explore black-box attacks and real-time robustness.
+
+---
+
+#### ZK-WAGON: Imperceptible Watermark for Image Generation Models using ZK-SNARKs
+**作者**: Aadarsh Anantha Ramakrishnan, Shubham Agarwal, Selvanayagam S, Kunwar Singh
+**类别**: cs.CR, cs.AI, cs.CV
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01967v1
+
+#### Executive Summary  
+This paper addresses the challenge of imperceptibly watermarking images generated by AI models to assert ownership and authenticity. The authors propose ZK-WAGON, a novel framework leveraging Zero-Knowledge Succinct Non-interactive ARguments of Knowledge (ZK-SNARKs) to embed undetectable watermarks with provable ownership. Their method achieves robust watermarking while preserving image quality and providing cryptographic proof.
+
+### Key Contributions  
+- Introduces the first integration of ZK-SNARKs for imperceptible watermarking in image generation models.  
+- Develops a watermark embedding and verification scheme that maintains high image fidelity and is resistant to removal attempts.  
+- Demonstrates a scalable proof system enabling efficient, non-interactive verification of watermark authenticity.
+
+### Method & Results  
+- Method: Embeds watermark bits into latent representations during image generation, accompanied by ZK-SNARK proofs validating watermark presence without revealing secrets.  
+- Tools/Datasets: Applied to standard image generation benchmarks (e.g., CIFAR-10, CelebA) and models like GANs and Diffusion models.  
+- Results: Watermarked images retain >98% of original visual quality metrics (FID scores), with watermark detectability near zero by conventional means. Proof generation and verification times remain practical (<1s).  
+- Compared to baseline watermarking approaches, ZK-WAGON offers superior imperceptibility and cryptographic assurance without sacrificing generation performance.
+
+### Impact & Limitations  
+- Significance: Enables trustworthy intellectual property protection for AI-generated images with minimal quality trade-offs, facilitating legal ownership claims.  
+- Limitations/Future Work: Extending to dynamic or video content watermarking; improving the efficiency of proof size and generation time for larger models.
+
+---
+
+#### Secure Multi-Modal Data Fusion in Federated Digital Health Systems via MCP
+**作者**: Aueaphum Aueawatthanaphisut
+**类别**: cs.CR, cs.AI, cs.CY, cs.LG
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01780v1
+
+#### Executive Summary  
+This paper addresses the challenge of securely integrating multi-modal data in federated digital health systems, where privacy and data heterogeneity are critical. It proposes a novel Multi-Channel Privacy (MCP) framework that enables effective and privacy-preserving fusion of diverse medical data sources. Experimental results demonstrate enhanced data utility and security compared to existing federated learning approaches.
+
+### Key Contributions  
+- Introduces the MCP framework for secure multi-modal data fusion tailored to federated digital health environments.  
+- Develops a privacy-preserving protocol that balances data utility and confidentiality across heterogeneous data modalities.  
+- Provides theoretical guarantees and empirical validation ensuring robustness against adversarial attacks within federated settings.
+
+### Method & Results  
+- Utilizes a multi-channel approach combining encryption and differential privacy mechanisms to enable secure data fusion without centralized data access.  
+- Employs real-world multi-modal health datasets including imaging, sensor, and electronic health records for evaluation.  
+- Achieves up to 15% improvement in prediction accuracy over standard federated learning baselines while maintaining strong privacy guarantees.  
+- Demonstrates resilience to inference and poisoning attacks through rigorous security analysis and experiments.
+
+### Impact & Limitations  
+- Enhances the feasibility of deploying federated learning in sensitive healthcare scenarios, empowering collaborative insights without compromising patient privacy.  
+- Limited scalability analysis for extremely large participant pools; future work should explore optimization for wider, real-world deployments and integration with emerging encryption techniques.
+
+---
+
+#### Constructions of Efficiently Implementable Boolean Functions with Provable Nonlinearity/Resiliency/Algebraic Immunity Trade-Offs
+**作者**: Palash Sarkar
+**类别**: cs.CR
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01720v1
+
+#### Executive Summary  
+This paper addresses the challenge of constructing Boolean functions that simultaneously achieve high nonlinearity, resiliency, and algebraic immunity—key properties for cryptographic robustness. The author proposes new construction techniques enabling efficient implementation while providing provable trade-offs among these properties. Experimental validations demonstrate improved trade-offs compared to prior art.
+
+### Key Contributions  
+- Novel constructions of Boolean functions balancing nonlinearity, resiliency, and algebraic immunity with rigorous proofs.  
+- Efficient implementability of the functions ensuring practical cryptographic deployment.  
+- Theoretical characterization of trade-offs guiding future function designs.
+
+### Method & Results  
+- Employed algebraic and combinatorial methods to systematically build Boolean functions meeting multiple cryptographic criteria.  
+- No specific datasets; theoretical constructs augmented by computational verification tools.  
+- Achieved higher combined metrics of nonlinearity, resiliency, and algebraic immunity than existing constructions.  
+- Outperformed baseline constructions in trade-off optimization, backed by provable theorems.
+
+### Impact & Limitations  
+- Enhances design of cryptographic primitives resistant to linear, correlation, and algebraic attacks with efficient hardware/software realization.  
+- Future work needed to extend constructions to variable function sizes and optimize for additional criteria like propagation characteristics.
 
 ---
 
