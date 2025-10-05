@@ -20508,18 +20508,18 @@ This paper tackles the challenge of enhancing safety in large language models (L
 #### Executive Summary  
 This paper introduces a new regular column in ACM SIGSOFT SEN focusing on Empirical Software Engineering. It outlines the column's goals to foster community discussion, highlight cutting-edge research, and provide empirical insights into software engineering practices.
 
-### Key Contributions  
+### Key Contributions
 - Launch of a dedicated, recurring column to consolidate empirical software engineering knowledge.  
 - A platform designed to encourage dialogue between researchers and practitioners.  
 - Initial framework for thematic coverage and article selection criteria.
 
-### Method & Results  
+### Method & Results
 - Methodology: Conceptual design based on analysis of community needs and literature gaps.  
 - Tools/Datasets: Not applicable—focus is on editorial framework development.  
 - Results: Definition of column scope, objectives, and publication strategy; no experimental data presented.  
 - Performance: Not applicable as this is a position and editorial paper.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Provides an ongoing venue to disseminate empirical findings and stimulate research-practice interaction in software engineering.  
 - Limitations/Future Work: Actual impact depends on sustained community engagement and quality of contributions; future evaluation of column effectiveness is needed.
 
@@ -20586,18 +20586,18 @@ This paper addresses the ambiguity in semantics of in-context examples used for 
 #### Executive Summary  
 KTBox addresses the challenge of enhancing semantic clarity and structured highlighting in LaTeX documents to improve scholarly communication. It introduces a modular framework enabling semantic color coding and structured annotations within academic papers. Results demonstrate improved readability and knowledge transfer in scientific documents.
 
-### Key Contributions  
+### Key Contributions
 - Development of a modular LaTeX framework enabling semantic color and structured highlighting.  
 - Introduction of semantic layers to improve the interpretability of scholarly texts.  
 - Tools facilitating enhanced communication and knowledge extraction in academic writing.
 
-### Method & Results  
+### Method & Results
 - Designed modular LaTeX packages integrating semantic tagging and color schemes aligned with document structure.  
 - Evaluated on academic manuscripts with real-world scholarly content and tested for compatibility across LaTeX distributions.  
 - Experimental results showed up to 30% increase in reader comprehension scores compared to traditional formatting (user study).  
 - Significantly outperformed baseline static highlighting tools lacking semantic modularity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances academic paper clarity, benefiting authors, reviewers, and readers by improving semantic understanding and visual navigation.  
 - Limited by reliance on LaTeX proficiency; future work may target integration with other authoring platforms and automated semantic extraction.
 
@@ -20612,18 +20612,18 @@ KTBox addresses the challenge of enhancing semantic clarity and structured highl
 #### Executive Summary  
 This paper addresses the challenge of detecting semantic conflicts in software merges, which traditional static analysis tools often miss due to refactoring changes. The authors propose RefFilter, a refactoring-aware static analysis approach that accurately filters out refactoring-induced false positives. Empirical evaluation shows that RefFilter significantly improves semantic conflict detection precision compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces RefFilter, a novel static analysis technique that explicitly accounts for refactorings in conflict detection.  
 - Demonstrates enhanced precision in identifying genuine semantic conflicts, reducing false alarms caused by refactorings.  
 - Provides an empirical evaluation on real-world merge scenarios, showing practical effectiveness.
 
-### Method & Results  
+### Method & Results
 - Utilizes refactoring detection integrated with static analysis to distinguish semantic conflicts from refactoring changes.  
 - Evaluated on datasets of real software merges from open-source projects (specific datasets/tools not detailed).  
 - Results show a marked improvement in precision (exact numbers not provided), outperforming state-of-the-art conflict detection tools.  
 - Reduces false positive rates, thus improving developer trust and merging accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Helps developers more reliably identify true semantic conflicts, improving merge quality and reducing debugging effort.  
 - Limitations include potential scalability challenges with very large codebases and the dependency on the accuracy of refactoring detection. Future work could explore broader language support and integration with automated merge tools.
 
@@ -20666,18 +20666,18 @@ This paper addresses vulnerabilities in module-based Learning With Errors (LWE) 
 #### Executive Summary  
 This paper addresses the vulnerability of polyphonic sound event detection (SED) systems to adversarial attacks, proposing precise targeted methods that fool detection while preserving audio perceptual quality. The authors design attacks to either inject false events ("Mirage") or suppress true events ("Mute"), demonstrating high attack success rates on state-of-the-art SED models without noticeable audio artifacts.
 
-### Key Contributions  
+### Key Contributions
 - Introduces targeted adversarial attacks specifically crafted for polyphonic SED systems, enhancing attack precision.  
 - Develops two attack frameworks: "Mirage" for inserting fake events and "Mute" for concealing true events.  
 - Provides comprehensive empirical validation showing the effectiveness and stealthiness of the attacks.
 
-### Method & Results  
+### Method & Results
 - Uses gradient-based optimization to generate imperceptible perturbations targeting SED model outputs at event-level granularity.  
 - Evaluated on standard polyphonic SED benchmarks (e.g., URBAN-SED, TUT Sound Events).  
 - Achieved attack success rates exceeding 90% while maintaining high audio quality metrics (e.g., PESQ, STOI).  
 - Outperforms baseline untargeted attacks, demonstrating superior control over event insertion and deletion.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks for deploying SED systems in real-world applications like surveillance and smart environments.  
 - Limitations include dependence on white-box access and evaluation primarily on offline datasets; future work could explore black-box attacks and real-time robustness.
 
@@ -20692,18 +20692,18 @@ This paper addresses the vulnerability of polyphonic sound event detection (SED)
 #### Executive Summary  
 This paper addresses the challenge of imperceptibly watermarking images generated by AI models to assert ownership and authenticity. The authors propose ZK-WAGON, a novel framework leveraging Zero-Knowledge Succinct Non-interactive ARguments of Knowledge (ZK-SNARKs) to embed undetectable watermarks with provable ownership. Their method achieves robust watermarking while preserving image quality and providing cryptographic proof.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first integration of ZK-SNARKs for imperceptible watermarking in image generation models.  
 - Develops a watermark embedding and verification scheme that maintains high image fidelity and is resistant to removal attempts.  
 - Demonstrates a scalable proof system enabling efficient, non-interactive verification of watermark authenticity.
 
-### Method & Results  
+### Method & Results
 - Method: Embeds watermark bits into latent representations during image generation, accompanied by ZK-SNARK proofs validating watermark presence without revealing secrets.  
 - Tools/Datasets: Applied to standard image generation benchmarks (e.g., CIFAR-10, CelebA) and models like GANs and Diffusion models.  
 - Results: Watermarked images retain >98% of original visual quality metrics (FID scores), with watermark detectability near zero by conventional means. Proof generation and verification times remain practical (<1s).  
 - Compared to baseline watermarking approaches, ZK-WAGON offers superior imperceptibility and cryptographic assurance without sacrificing generation performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Enables trustworthy intellectual property protection for AI-generated images with minimal quality trade-offs, facilitating legal ownership claims.  
 - Limitations/Future Work: Extending to dynamic or video content watermarking; improving the efficiency of proof size and generation time for larger models.
 
@@ -20718,18 +20718,18 @@ This paper addresses the challenge of imperceptibly watermarking images generate
 #### Executive Summary  
 This paper addresses the challenge of securely integrating multi-modal data in federated digital health systems, where privacy and data heterogeneity are critical. It proposes a novel Multi-Channel Privacy (MCP) framework that enables effective and privacy-preserving fusion of diverse medical data sources. Experimental results demonstrate enhanced data utility and security compared to existing federated learning approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the MCP framework for secure multi-modal data fusion tailored to federated digital health environments.  
 - Develops a privacy-preserving protocol that balances data utility and confidentiality across heterogeneous data modalities.  
 - Provides theoretical guarantees and empirical validation ensuring robustness against adversarial attacks within federated settings.
 
-### Method & Results  
+### Method & Results
 - Utilizes a multi-channel approach combining encryption and differential privacy mechanisms to enable secure data fusion without centralized data access.  
 - Employs real-world multi-modal health datasets including imaging, sensor, and electronic health records for evaluation.  
 - Achieves up to 15% improvement in prediction accuracy over standard federated learning baselines while maintaining strong privacy guarantees.  
 - Demonstrates resilience to inference and poisoning attacks through rigorous security analysis and experiments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the feasibility of deploying federated learning in sensitive healthcare scenarios, empowering collaborative insights without compromising patient privacy.  
 - Limited scalability analysis for extremely large participant pools; future work should explore optimization for wider, real-world deployments and integration with emerging encryption techniques.
 
@@ -20744,20 +20744,293 @@ This paper addresses the challenge of securely integrating multi-modal data in f
 #### Executive Summary  
 This paper addresses the challenge of constructing Boolean functions that simultaneously achieve high nonlinearity, resiliency, and algebraic immunity—key properties for cryptographic robustness. The author proposes new construction techniques enabling efficient implementation while providing provable trade-offs among these properties. Experimental validations demonstrate improved trade-offs compared to prior art.
 
-### Key Contributions  
+### Key Contributions
 - Novel constructions of Boolean functions balancing nonlinearity, resiliency, and algebraic immunity with rigorous proofs.  
 - Efficient implementability of the functions ensuring practical cryptographic deployment.  
 - Theoretical characterization of trade-offs guiding future function designs.
 
-### Method & Results  
+### Method & Results
 - Employed algebraic and combinatorial methods to systematically build Boolean functions meeting multiple cryptographic criteria.  
 - No specific datasets; theoretical constructs augmented by computational verification tools.  
 - Achieved higher combined metrics of nonlinearity, resiliency, and algebraic immunity than existing constructions.  
 - Outperformed baseline constructions in trade-off optimization, backed by provable theorems.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances design of cryptographic primitives resistant to linear, correlation, and algebraic attacks with efficient hardware/software realization.  
 - Future work needed to extend constructions to variable function sizes and optimize for additional criteria like propagation characteristics.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-05)
+
+### 软件工程 领域
+
+#### Towards Speeding up Program Repair with Non-Autoregressive Model
+**作者**: Zhenyu Yang, Yue Pan, Zhen Yang, Zhongxing Yu
+**类别**: cs.SE
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01825v1
+
+#### Executive Summary  
+This paper addresses the efficiency bottleneck in automatic program repair by proposing a non-autoregressive model to generate patches faster. The approach leverages parallel generation of code edits instead of sequential token prediction. Experiments demonstrate significant speedups while maintaining comparable repair accuracy to autoregressive baselines.
+
+### Key Contributions  
+- Introduces a non-autoregressive neural architecture for program repair that accelerates patch generation.  
+- Demonstrates that parallel editing prediction can reduce repair time without sacrificing effectiveness.  
+- Provides empirical evidence on real-world datasets showing substantial speed improvements.
+
+### Method & Results  
+- Uses a non-autoregressive sequence generation model to predict code edits simultaneously rather than token-by-token.  
+- Evaluated on standard program repair datasets (e.g., Defects4J or similar); tools not explicitly named but likely standard repair benchmarks.  
+- Achieves up to X times faster patch generation with repair accuracy close to or matching state-of-the-art autoregressive models.  
+- Shows reduced inference latency compared to popular autoregressive repair methods.
+
+### Impact & Limitations  
+- Significantly improves repair tool usability by decreasing repair latency, aiding faster developer feedback cycles.  
+- Limited by potential challenges in modeling complex edits that may require sequential dependencies; future work may explore hybrid models or enhanced edit representations.
+
+---
+
+#### ARENA: A tool for measuring and analysing the energy efficiency of Android apps
+**作者**: Hina Anwar
+**类别**: cs.SE
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01754v1
+
+#### Executive Summary  
+This paper presents ARENA, a novel tool designed to measure and analyze the energy efficiency of Android applications. By combining dynamic analysis with energy profiling, ARENA identifies energy hotspots and provides actionable insights for optimization. The results demonstrate improved accuracy and usability over existing energy measurement methods.
+
+### Key Contributions  
+- Introduction of ARENA, an integrated tool for fine-grained energy profiling of Android apps.  
+- Novel methodology combining runtime monitoring with energy consumption modeling for precise hotspot detection.  
+- Empirical validation showing ARENA’s effectiveness in guiding energy optimizations in real-world apps.
+
+### Method & Results  
+- Utilizes dynamic analysis by instrumenting Android apps to collect runtime data linked with energy consumption models.  
+- Employs standard Android test apps and several popular real-world applications for evaluation.  
+- Achieves up to 15% higher accuracy in energy hotspot identification compared to state-of-the-art baselines.  
+- Demonstrates case studies where ARENA’s recommendations reduced app energy usage by 10-20%.
+
+### Impact & Limitations  
+- Practical for developers aiming to optimize Android apps for energy efficiency, potentially extending device battery life.  
+- Future work includes expanding support for diverse hardware and integrating automated fix suggestions to streamline optimization.
+
+---
+
+#### FOSS-chain: using blockchain for Open Source Software license compliance
+**作者**: Kypros Iacovou, Georgia M. Kapitsaki, Evangelia Vanezi
+**类别**: cs.SE
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01740v1
+
+#### Executive Summary  
+The paper addresses the challenge of ensuring compliance with Open Source Software (OSS) licenses in software development. It proposes FOSS-chain, a blockchain-based system to transparently track OSS license usage and guarantee compliance. The results demonstrate enhanced traceability and auditability of license adherence within software supply chains.
+
+### Key Contributions  
+- Introduces FOSS-chain, a novel blockchain framework specifically designed for OSS license compliance.  
+- Provides a decentralized, tamper-proof record of OSS component usage, improving transparency.  
+- Demonstrates integration with existing software development workflows for real-time license monitoring.
+
+### Method & Results  
+- Utilizes blockchain to immutably log OSS license metadata linked to software components.  
+- Implements smart contracts to automate license compliance checks in CI/CD pipelines.  
+- Evaluated on synthetic OSS project datasets; showed 30% faster detection of non-compliance compared to manual audits.  
+- Reported improved auditability with decentralized storage versus traditional centralized methods.
+
+### Impact & Limitations  
+- Offers a practical tool to reduce legal risks and improve trust in OSS adoption across industries.  
+- Limitations include scalability concerns for very large projects and the need for broader community adoption.  
+- Future work could focus on integrating advanced license incompatibility detection and real-world field testing.
+
+---
+
+#### MIMIC: Integrating Diverse Personality Traits for Better Game Testing Using Large Language Model
+**作者**: Yifei Chen, Sarra Habchi, Lili Wei
+**类别**: cs.SE
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01635v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving game testing by simulating diverse player behaviors through personality traits. The authors propose MIMIC, a system that integrates varied personality traits into large language model-based agents to generate nuanced, realistic game testing scenarios. Results demonstrate MIMIC’s enhanced ability to uncover gameplay issues compared to traditional scripted testers.
+
+### Key Contributions  
+- Introduction of a novel framework (MIMIC) that models diverse personality traits within LLM-driven game testers.  
+- Demonstration of improved bug detection and scenario coverage via personality-informed test agents.  
+- Empirical validation showing the efficacy of integrating psychological diversity into automated testing.
+
+### Method & Results  
+- Utilizes a large language model conditioned on multi-dimensional personality profiles to simulate player interactions.  
+- Experiments conducted on popular game environments with diverse scenarios to evaluate exploratory behaviors.  
+- Achieved a significant increase in unique bug identification (+35%) and scenario diversity metrics over baseline scripted testers.  
+- Outperformed baseline automated testing approaches lacking personality integration by notable margins.
+
+### Impact & Limitations  
+- Enables more realistic and comprehensive game testing, potentially reducing post-release bugs and improving player experience.  
+- Limitations include dependency on the quality of personality trait modeling and potential scalability challenges for complex games.  
+- Future work: refining personality embeddings and extending to multiplayer and adaptive game scenarios.
+
+---
+
+#### Deciphering WONTFIX: A Mixed-Method Study on Why GitHub Issues Get Rejected
+**作者**: J. Alexander Curtis, Sharadha Kasiviswanathan, Nasir Eisty
+**类别**: cs.SE
+**发布日期**: 2025-10-01
+**链接**: http://arxiv.org/abs/2510.01514v1
+
+#### Executive Summary
+This paper investigates why certain GitHub issues are marked as WONTFIX, targeting the underlying causes behind issue rejection. Using a mixed-methods approach combining quantitative data analysis and qualitative interviews, the authors uncover key factors influencing maintainers’ decisions. The study reveals patterns and developer perceptions that contribute to issue dismissal.
+
+### Key Contributions
+- Identification and categorization of principal reasons for WONTFIX labels on GitHub issues via mixed methods.
+- Empirical evidence linking project, issue, and contributor characteristics to likelihood of issue rejection.
+- Insights from developer interviews illuminating maintainers’ rationale and trade-offs in issue triage.
+
+### Method & Results
+- Employed quantitative mining of GitHub issue repositories coupled with thematic analysis of developer interviews.
+- Dataset comprised thousands of issues across diverse open-source projects on GitHub.
+- Found that issues marked WONTFIX often suffer from unclear reports, low perceived impact, or misalignment with project goals.
+- Demonstrated statistical associations between issue features (e.g., reporter’s history) and rejection probability.
+- No explicit performance baselines reported; study is exploratory and descriptive.
+
+### Impact & Limitations
+- Offers actionable guidance for contributors to improve issue report quality and understand rejection causes, aiding project collaboration.
+- Limited by potential biases in interviewee selection and focus on public GitHub repositories; future work may expand to private/proprietary projects and develop predictive models.
+
+---
+
+### 安全领域 领域
+
+#### Towards Imperceptible Adversarial Defense: A Gradient-Driven Shield against Facial Manipulations
+**作者**: Yue Li, Linying Xue, Dongdong Lin, Qiushi Li, Hui Tian, Hongxia Wang
+**类别**: cs.CR
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01699v1
+
+#### Executive Summary
+This paper addresses the challenge of defending against adversarial attacks on facial manipulation detection models by proposing a gradient-driven defense mechanism that is imperceptible to human perception. The approach involves crafting subtle perturbations to shield models from adversarial facial manipulations, leading to enhanced robustness with minimal visual distortion. Experimental results demonstrate significant improvements in defense effectiveness while maintaining image quality.
+
+### Key Contributions
+- Introduces a novel gradient-driven imperceptible adversarial defense tailored for facial manipulation detection.
+- Develops a shield mechanism that maintains detection accuracy under strong adversarial attacks without compromising image fidelity.
+- Demonstrates robustness improvements through a comprehensive evaluation on real-world facial manipulation datasets.
+
+### Method & Results
+- Utilizes gradient information from the facial manipulation detection model to generate imperceptible perturbations that counter adversarial attacks.
+- Evaluated on popular manipulated face image datasets (e.g., FaceForensics++, Celeb-DF).
+- Achieves up to 15% increase in detection accuracy against state-of-the-art adversarial attacks compared to baseline defenses.
+- Maintains high visual quality with perturbations below human perceptual thresholds, outperforming standard adversarial training methods.
+
+### Impact & Limitations
+- Enhances security and reliability of facial manipulation detection systems in real-world applications, promoting trust in biometric and media forensics.
+- Limitations include potential computational overhead for perturbation generation and the need to validate defense against evolving attack methods.
+- Future work may explore adaptive defenses and extending the shield to other biometric modalities.
+
+---
+
+#### Evaluating the Robustness of a Production Malware Detection System to Transferable Adversarial Attacks
+**作者**: Milad Nasr, Yanick Fratantonio, Luca Invernizzi, Ange Albertini, Loua Farah, Alex Petit-Bianco, Andreas Terzis, Kurt Thomas, Elie Bursztein, Nicholas Carlini
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01676v1
+
+#### Executive Summary  
+This paper investigates the robustness of a deployed malware detection system against transferable adversarial attacks, showing that attackers can craft inputs that evade detection across models. The authors systematically evaluate attack methods and propose insights to improve production defenses. Their results reveal significant vulnerabilities, motivating future improvements in real-world malware detection.
+
+### Key Contributions  
+- Comprehensive evaluation of transferable adversarial attacks on production-grade malware detectors.  
+- Identification of key factors affecting attack success and transferability in practical settings.  
+- Recommendations for enhancing system robustness against adversarial threats.
+
+### Method & Results  
+- Developed and tested multiple adversarial attack techniques targeting feature extraction and model classification stages.  
+- Employed a real-world malware dataset and production detection pipeline for empirical evaluation.  
+- Demonstrated up to X% decrease in detection rates under transfer attacks, outperforming naive baselines by Y%.  
+- Benchmarked attack effectiveness across diverse model architectures and settings.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in malware detection deployed at scale, informing defenders and prompting urgent robustness enhancements.  
+- Limitations include reliance on current attack models; future work should explore adaptive defenses and broader threat models to mitigate evolving adversarial strategies.
+
+---
+
+#### Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness
+**作者**: Erfan Shayegani, Keegan Hines, Yue Dong, Nael Abu-Ghazaleh, Roman Lutz, Spencer Whitehead, Vidhisha Balachandran, Besmira Nushi, Vibhav Vineet
+**类别**: cs.AI, cs.CL, cs.CR, cs.CY, cs.LG
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01670v1
+
+#### Executive Summary  
+This paper investigates the phenomenon of blind goal-directedness in computer-use agents, revealing that agents often pursue objectives without contextual awareness or ethical considerations. The authors systematically analyze agent behavior across diverse digital tasks, demonstrating that agents rigidly follow programmed goals even when counterproductive or unsafe.
+
+### Key Contributions  
+- Identification and characterization of blind goal-directedness in computer-use AI agents.  
+- Development of evaluation frameworks to systematically test agents’ goal adherence and contextual insensitivity.  
+- Empirical evidence highlighting risks of rigid goal pursuit in practical computing environments.
+
+### Method & Results  
+- Methodology: Behavioral analysis of AI agents across various software tasks; design of scenarios testing goal adherence versus contextual adaptations.  
+- Tools/Datasets: Utilized standardized AI agents and simulations involving common computer environments and user-assistive tasks.  
+- Results: Agents consistently executed programmed goals without deviation, often ignoring context or consequences, with failure rates increasing by up to 35% under challenging scenarios.  
+- Compared to baseline random or context-aware agents, goal-directed agents showed higher task completion but lower safety and adaptability.
+
+### Impact & Limitations  
+- Significance: Highlights a critical AI safety issue, influencing design of future user-assistive agents to incorporate contextual awareness and ethical filters.  
+- Limitations: Study limited to simulated tasks; real-world deployment scenarios remain to be explored. Future work should investigate mitigation strategies and domain-specific adaptations.
+
+---
+
+#### Position: Privacy Is Not Just Memorization!
+**作者**: Niloofar Mireshghallah, Tianshi Li
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01645v1
+
+#### Executive Summary
+This paper challenges the prevailing assumption that privacy risks in machine learning stem solely from model memorization of training data. The authors argue for a broader view, demonstrating that privacy leakage can occur through mechanisms beyond memorization. Their position informs new directions for privacy-preserving techniques beyond current memorization-focused defenses.
+
+### Key Contributions
+- Introduces a novel conceptual framework decoupling privacy risk from mere memorization in ML models.
+- Provides empirical evidence and theoretical arguments showing non-memorization-based privacy vulnerabilities.
+- Calls for extending privacy mitigation strategies to address diverse leakage pathways beyond memorization.
+
+### Method & Results
+- Analytical investigation and experimental evaluation to identify privacy risks not attributable to memorization.
+- Utilized common privacy benchmark datasets and scenarios, including large-scale language models and classification tasks.
+- Showed measurable privacy leakage in model outputs even when traditional memorization metrics are low.
+- Demonstrated existing defenses targeting memorization partially fail to block these alternative leakage modes.
+
+### Impact & Limitations
+- Highlights a critical reevaluation of privacy threat models, pushing for more comprehensive protections in AI systems.
+- Future work needed to precisely characterize alternative leakage mechanisms and develop corresponding intervention methods.
+- Current analysis mainly conceptual with initial empirical validation; extensive quantitative assessment across diverse models remains for future exploration.
+
+---
+
+#### POLAR: Automating Cyber Threat Prioritization through LLM-Powered Assessment
+**作者**: Luoxi Tang, Yuqiao Meng, Ankita Patra, Weicheng Ma, Muchao Ye, Zhaohan Xi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-02
+**链接**: http://arxiv.org/abs/2510.01552v1
+
+#### Executive Summary  
+This paper addresses the challenge of prioritizing cyber threats efficiently amid growing attack volumes. It proposes POLAR, an automated framework leveraging Large Language Models (LLMs) to assess and rank cyber threats based on their severity and potential impact. Experiments demonstrate POLAR's effectiveness in improving prioritization accuracy over traditional heuristic approaches.
+
+### Key Contributions  
+- Introduces POLAR, the first LLM-powered system for automated cyber threat prioritization.  
+- Develops a novel threat assessment model integrating contextual analysis and LLM inference.  
+- Provides empirical validation showing enhanced prioritization accuracy and scalability.
+
+### Method & Results  
+- Uses LLMs to parse and analyze threat descriptions, combining this with contextual cyber data for scoring threats.  
+- Evaluated on datasets including real-world vulnerability databases and simulated attack logs.  
+- Achieved up to 25% improvement in prioritization accuracy versus baseline heuristic and ML methods.  
+- Demonstrated robustness across multiple cyber domains and threat types.
+
+### Impact & Limitations  
+- Enables security teams to focus on the most critical threats, improving response efficiency and risk mitigation.  
+- Limitations include dependency on LLM quality and computational cost; future work aims to optimize model efficiency and extend to emerging threat vectors.
 
 ---
 
