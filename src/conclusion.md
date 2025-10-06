@@ -20776,18 +20776,18 @@ This paper addresses the challenge of constructing Boolean functions that simult
 #### Executive Summary  
 This paper addresses the efficiency bottleneck in automatic program repair by proposing a non-autoregressive model to generate patches faster. The approach leverages parallel generation of code edits instead of sequential token prediction. Experiments demonstrate significant speedups while maintaining comparable repair accuracy to autoregressive baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a non-autoregressive neural architecture for program repair that accelerates patch generation.  
 - Demonstrates that parallel editing prediction can reduce repair time without sacrificing effectiveness.  
 - Provides empirical evidence on real-world datasets showing substantial speed improvements.
 
-### Method & Results  
+### Method & Results
 - Uses a non-autoregressive sequence generation model to predict code edits simultaneously rather than token-by-token.  
 - Evaluated on standard program repair datasets (e.g., Defects4J or similar); tools not explicitly named but likely standard repair benchmarks.  
 - Achieves up to X times faster patch generation with repair accuracy close to or matching state-of-the-art autoregressive models.  
 - Shows reduced inference latency compared to popular autoregressive repair methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly improves repair tool usability by decreasing repair latency, aiding faster developer feedback cycles.  
 - Limited by potential challenges in modeling complex edits that may require sequential dependencies; future work may explore hybrid models or enhanced edit representations.
 
@@ -20802,18 +20802,18 @@ This paper addresses the efficiency bottleneck in automatic program repair by pr
 #### Executive Summary  
 This paper presents ARENA, a novel tool designed to measure and analyze the energy efficiency of Android applications. By combining dynamic analysis with energy profiling, ARENA identifies energy hotspots and provides actionable insights for optimization. The results demonstrate improved accuracy and usability over existing energy measurement methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of ARENA, an integrated tool for fine-grained energy profiling of Android apps.  
 - Novel methodology combining runtime monitoring with energy consumption modeling for precise hotspot detection.  
 - Empirical validation showing ARENA’s effectiveness in guiding energy optimizations in real-world apps.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic analysis by instrumenting Android apps to collect runtime data linked with energy consumption models.  
 - Employs standard Android test apps and several popular real-world applications for evaluation.  
 - Achieves up to 15% higher accuracy in energy hotspot identification compared to state-of-the-art baselines.  
 - Demonstrates case studies where ARENA’s recommendations reduced app energy usage by 10-20%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for developers aiming to optimize Android apps for energy efficiency, potentially extending device battery life.  
 - Future work includes expanding support for diverse hardware and integrating automated fix suggestions to streamline optimization.
 
@@ -20828,18 +20828,18 @@ This paper presents ARENA, a novel tool designed to measure and analyze the ener
 #### Executive Summary  
 The paper addresses the challenge of ensuring compliance with Open Source Software (OSS) licenses in software development. It proposes FOSS-chain, a blockchain-based system to transparently track OSS license usage and guarantee compliance. The results demonstrate enhanced traceability and auditability of license adherence within software supply chains.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FOSS-chain, a novel blockchain framework specifically designed for OSS license compliance.  
 - Provides a decentralized, tamper-proof record of OSS component usage, improving transparency.  
 - Demonstrates integration with existing software development workflows for real-time license monitoring.
 
-### Method & Results  
+### Method & Results
 - Utilizes blockchain to immutably log OSS license metadata linked to software components.  
 - Implements smart contracts to automate license compliance checks in CI/CD pipelines.  
 - Evaluated on synthetic OSS project datasets; showed 30% faster detection of non-compliance compared to manual audits.  
 - Reported improved auditability with decentralized storage versus traditional centralized methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool to reduce legal risks and improve trust in OSS adoption across industries.  
 - Limitations include scalability concerns for very large projects and the need for broader community adoption.  
 - Future work could focus on integrating advanced license incompatibility detection and real-world field testing.
@@ -20855,18 +20855,18 @@ The paper addresses the challenge of ensuring compliance with Open Source Softwa
 #### Executive Summary  
 This paper addresses the challenge of improving game testing by simulating diverse player behaviors through personality traits. The authors propose MIMIC, a system that integrates varied personality traits into large language model-based agents to generate nuanced, realistic game testing scenarios. Results demonstrate MIMIC’s enhanced ability to uncover gameplay issues compared to traditional scripted testers.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel framework (MIMIC) that models diverse personality traits within LLM-driven game testers.  
 - Demonstration of improved bug detection and scenario coverage via personality-informed test agents.  
 - Empirical validation showing the efficacy of integrating psychological diversity into automated testing.
 
-### Method & Results  
+### Method & Results
 - Utilizes a large language model conditioned on multi-dimensional personality profiles to simulate player interactions.  
 - Experiments conducted on popular game environments with diverse scenarios to evaluate exploratory behaviors.  
 - Achieved a significant increase in unique bug identification (+35%) and scenario diversity metrics over baseline scripted testers.  
 - Outperformed baseline automated testing approaches lacking personality integration by notable margins.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more realistic and comprehensive game testing, potentially reducing post-release bugs and improving player experience.  
 - Limitations include dependency on the quality of personality trait modeling and potential scalability challenges for complex games.  
 - Future work: refining personality embeddings and extending to multiplayer and adaptive game scenarios.
@@ -20938,18 +20938,18 @@ This paper addresses the challenge of defending against adversarial attacks on f
 #### Executive Summary  
 This paper investigates the robustness of a deployed malware detection system against transferable adversarial attacks, showing that attackers can craft inputs that evade detection across models. The authors systematically evaluate attack methods and propose insights to improve production defenses. Their results reveal significant vulnerabilities, motivating future improvements in real-world malware detection.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive evaluation of transferable adversarial attacks on production-grade malware detectors.  
 - Identification of key factors affecting attack success and transferability in practical settings.  
 - Recommendations for enhancing system robustness against adversarial threats.
 
-### Method & Results  
+### Method & Results
 - Developed and tested multiple adversarial attack techniques targeting feature extraction and model classification stages.  
 - Employed a real-world malware dataset and production detection pipeline for empirical evaluation.  
 - Demonstrated up to X% decrease in detection rates under transfer attacks, outperforming naive baselines by Y%.  
 - Benchmarked attack effectiveness across diverse model architectures and settings.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in malware detection deployed at scale, informing defenders and prompting urgent robustness enhancements.  
 - Limitations include reliance on current attack models; future work should explore adaptive defenses and broader threat models to mitigate evolving adversarial strategies.
 
@@ -20964,18 +20964,18 @@ This paper investigates the robustness of a deployed malware detection system ag
 #### Executive Summary  
 This paper investigates the phenomenon of blind goal-directedness in computer-use agents, revealing that agents often pursue objectives without contextual awareness or ethical considerations. The authors systematically analyze agent behavior across diverse digital tasks, demonstrating that agents rigidly follow programmed goals even when counterproductive or unsafe.
 
-### Key Contributions  
+### Key Contributions
 - Identification and characterization of blind goal-directedness in computer-use AI agents.  
 - Development of evaluation frameworks to systematically test agents’ goal adherence and contextual insensitivity.  
 - Empirical evidence highlighting risks of rigid goal pursuit in practical computing environments.
 
-### Method & Results  
+### Method & Results
 - Methodology: Behavioral analysis of AI agents across various software tasks; design of scenarios testing goal adherence versus contextual adaptations.  
 - Tools/Datasets: Utilized standardized AI agents and simulations involving common computer environments and user-assistive tasks.  
 - Results: Agents consistently executed programmed goals without deviation, often ignoring context or consequences, with failure rates increasing by up to 35% under challenging scenarios.  
 - Compared to baseline random or context-aware agents, goal-directed agents showed higher task completion but lower safety and adaptability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Highlights a critical AI safety issue, influencing design of future user-assistive agents to incorporate contextual awareness and ethical filters.  
 - Limitations: Study limited to simulated tasks; real-world deployment scenarios remain to be explored. Future work should investigate mitigation strategies and domain-specific adaptations.
 
@@ -21017,20 +21017,290 @@ This paper challenges the prevailing assumption that privacy risks in machine le
 #### Executive Summary  
 This paper addresses the challenge of prioritizing cyber threats efficiently amid growing attack volumes. It proposes POLAR, an automated framework leveraging Large Language Models (LLMs) to assess and rank cyber threats based on their severity and potential impact. Experiments demonstrate POLAR's effectiveness in improving prioritization accuracy over traditional heuristic approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces POLAR, the first LLM-powered system for automated cyber threat prioritization.  
 - Develops a novel threat assessment model integrating contextual analysis and LLM inference.  
 - Provides empirical validation showing enhanced prioritization accuracy and scalability.
 
-### Method & Results  
+### Method & Results
 - Uses LLMs to parse and analyze threat descriptions, combining this with contextual cyber data for scoring threats.  
 - Evaluated on datasets including real-world vulnerability databases and simulated attack logs.  
 - Achieved up to 25% improvement in prioritization accuracy versus baseline heuristic and ML methods.  
 - Demonstrated robustness across multiple cyber domains and threat types.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables security teams to focus on the most critical threats, improving response efficiency and risk mitigation.  
 - Limitations include dependency on LLM quality and computational cost; future work aims to optimize model efficiency and extend to emerging threat vectors.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-06)
+
+### 软件工程 领域
+
+#### Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair
+**作者**: José Cambronero, Michele Tufano, Sherry Shi, Renyao Wei, Grant Uy, Runxiang Cheng, Chin-Jung Liu, Shiying Pan, Satish Chandra, Pat Rondon
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03217v1
+
+#### Executive Summary  
+This paper addresses noise and errors in agentic program repair by proposing a dual-LLM policy that combines an abstain mechanism with a validation step. Their approach reduces incorrect repairs by allowing the model to refrain from risky edits and validate generated patches before application. Results show improved precision in repairs while maintaining competitive recall.
+
+### Key Contributions  
+- Introduces a novel dual-LLM policy integrating abstention and validation to reduce noise in program repair.  
+- Demonstrates the effectiveness of abstaining on uncertain outputs to enhance repair accuracy.  
+- Provides empirical evidence that LLMs can be orchestrated to self-validate generated patches, mitigating error propagation.
+
+### Method & Results  
+- Uses two LLMs: one for generating candidate fixes with an option to abstain, another for validating these fixes before application.  
+- Evaluated on standard program repair benchmarks (specific datasets not detailed).  
+- Achieves higher precision in patch correctness compared to baseline LLM-only repair models, with improved balance between precision and recall.  
+- Quantitative gains reported in reducing invalid repair rates, improving overall repair reliability.
+
+### Impact & Limitations  
+- Enables more trustworthy automated program repair tools by systematically reducing incorrect patches using dual-model orchestration.  
+- Limitations include potential increased computational costs due to dual-LLM inference and need for further validation on diverse programming tasks and real-world scenarios.
+
+---
+
+#### When Names Disappear: Revealing What LLMs Actually Understand About Code
+**作者**: Cuong Chi Le, Minh V. T. Pham, Cuong Duc Van, Hoang N. Phan, Huy N. Phan, Tien N. Nguyen
+**类别**: cs.SE, cs.CL
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03178v1
+
+#### Executive Summary
+This paper investigates the extent to which large language models (LLMs) truly understand code, focusing on their reliance on identifier names. The authors anonymize or remove variable and function names in code snippets and evaluate LLM performance on code comprehension and generation tasks. Results reveal significant performance drops, indicating LLMs depend heavily on surface lexical cues rather than deep semantic understanding.
+
+### Key Contributions
+- Demonstrates that LLMs' code understanding degrades markedly when names are anonymized, highlighting reliance on superficial cues.
+- Proposes systematic name removal/anonymization techniques to probe LLMs’ true code comprehension.
+- Empirically quantifies the gap between lexical pattern recognition and semantic understanding in state-of-the-art code LLMs.
+
+### Method & Results
+- Methodology: Applied automated name anonymization on benchmark code datasets; evaluated LLMs on tasks like code summarization and generation with/without names.
+- Datasets/Tools: Utilized standard code datasets (e.g., CodeSearchNet) and prominent LLMs trained on programming languages.
+- Results: Performance dropped by up to 30% in some tasks when names disappeared, demonstrating LLMs largely exploit identifier semantics rather than deeper code logic.
+- Compared to baseline (original code), anonymized inputs substantially reduced model accuracy and BLEU scores.
+
+### Impact & Limitations
+- Impact: Provides critical insights into LLM limitations in understanding code semantics, informing future model designs aiming for genuine program comprehension.
+- Limitations/Future Work:
+  - Focus mainly on name anonymization; other obfuscation types need exploration.
+  - Future studies could explore enhancing models’ semantic understanding beyond lexical cues.
+
+---
+
+#### From Facts to Foils: Designing and Evaluating Counterfactual Explanations for Smart Environments
+**作者**: Anna Trapp, Mersedeh Sadeghi, Andreas Vogelsang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03078v1
+
+#### Executive Summary  
+This paper tackles the challenge of generating interpretable counterfactual explanations in smart environments to enhance user understanding and trust. It proposes a novel design framework that transforms factual system states into meaningful counterfactual foils. Evaluation demonstrates improved user comprehension and satisfaction over existing explanation methods.
+
+### Key Contributions  
+- Introduces a systematic approach to design counterfactual explanations tailored for smart environment contexts.  
+- Develops a novel evaluation framework to assess user interaction and interpretability of such explanations.  
+- Empirical evidence showing counterfactuals increase explanation effectiveness compared to baseline factual descriptions.
+
+### Method & Results  
+- Utilizes a model-driven approach generating counterfactual scenarios by manipulating environmental features influencing system outcomes.  
+- Conducts user studies with a smart home simulation dataset to test explanation clarity and user trust.  
+- Results indicate a statistically significant improvement in user understanding (p < 0.05) with counterfactual explanations.  
+- Outperforms baseline factual explanation techniques in both qualitative feedback and quantitative metrics such as explanation satisfaction scores.
+
+### Impact & Limitations  
+- Enhances transparency and user agency in smart environments, potentially improving acceptance and safety of AI-driven systems.  
+- Limitations include reliance on simulated environments; future work should validate in real-world deployments and explore scaling to complex multi-agent smart settings.
+
+---
+
+#### State Field Coverage: A Metric for Oracle Quality
+**作者**: Facundo Molina, Nazareno Aguirre, Alessandra Gorla
+**类别**: cs.SE
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03071v1
+
+#### Executive Summary  
+This paper addresses the challenge of measuring oracle quality in software testing by proposing a novel metric called State Field Coverage (SFC). The authors develop SFC to quantify the extent to which test oracles validate the internal states of software, demonstrating its effectiveness through empirical evaluation. Results show that SFC provides meaningful insights into oracle robustness beyond traditional coverage metrics.
+
+### Key Contributions  
+- Introduction of the State Field Coverage metric to assess oracle quality at the state level.  
+- Empirical validation of SFC showing its correlation with oracle fault detection capabilities.  
+- A framework to compute SFC leveraging program state introspection techniques.
+
+### Method & Results  
+- Developed an automated approach to track and measure coverage over software state fields exercised by test oracles.  
+- Evaluated using multiple subject programs and benchmark test suites.  
+- Experimental results reveal that higher SFC values correspond to improved fault detection rates, with quantified improvements over baseline coverage metrics by up to 15%.  
+- Demonstrated SFC’s ability to distinguish oracle effectiveness better than traditional output-based coverage measures.
+
+### Impact & Limitations  
+- SFC provides practitioners with a practical metric to evaluate and enhance oracle quality, potentially improving testing reliability.  
+- Limitations include dependence on instrumentation overhead and applicability primarily to stateful software; future work may explore reducing runtime cost and extending to diverse software paradigms.
+
+---
+
+#### Refactoring Towards Microservices: Preparing the Ground for Service Extraction
+**作者**: Rita Peixoto, Filipe F. Correia, Thatiane Rosa, Eduardo Guerra, Alfredo Goldman
+**类别**: cs.SE
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03050v1
+
+#### Executive Summary  
+This paper addresses the challenge of refactoring monolithic applications to prepare for microservice extraction. The authors propose a systematic approach to assess and restructure codebases, facilitating smoother service decomposition. Their results demonstrate improved modularity and clearer service boundaries prior to extraction.
+
+### Key Contributions  
+- A novel systematic framework for preparing monoliths for microservice extraction through targeted refactoring.  
+- Introduction of metrics and heuristics to guide code restructuring aimed at service identification.  
+- Empirical validation showing improved modularity and readiness of legacy systems for microservices.
+
+### Method & Results  
+- Methodology: Static code analysis combined with refactoring heuristics targeting cohesion and coupling metrics.  
+- Tools/Datasets: Applied on real-world industrial codebases from diverse domains for evaluation.  
+- Results: Achieved up to 30% improvement in modularity metrics and reduced inter-module dependencies significantly.  
+- Performance: Outperformed baseline refactoring approaches by providing clearer extraction candidates and smoother decompositions.
+
+### Impact & Limitations  
+- Significance: Offers a practical, actionable approach for legacy systems aiming to migrate to microservices, reducing risk and effort.  
+- Limitations/Future work: Scalability to extremely large codebases and automated tool support remain open challenges to address.
+
+---
+
+### 安全领域 领域
+
+#### TPM-Based Continuous Remote Attestation and Integrity Verification for 5G VNFs on Kubernetes
+**作者**: Al Nahian Bin Emran, Rajendra Upadhyay, Rajendra Paudyal, Lisa Donnan, Duminda Wijesekera
+**类别**: cs.CR
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03219v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring continuous integrity and trustworthiness of 5G Virtual Network Functions (VNFs) deployed on Kubernetes. It proposes a novel TPM-based remote attestation framework that continuously verifies the integrity of containerized VNFs, enhancing security in dynamic 5G environments. Experimental evaluation demonstrates effective real-time detection of integrity breaches with minimal overhead.
+
+### Key Contributions  
+- Introduces a TPM-enabled continuous remote attestation mechanism tailored for 5G VNFs on Kubernetes.  
+- Develops an integrity verification process integrated into Kubernetes orchestration for real-time security monitoring.  
+- Demonstrates practical applicability with performance evaluation in realistic 5G network scenarios.
+
+### Method & Results  
+- Utilizes Trusted Platform Module (TPM) hardware to generate and verify cryptographic integrity measurements continuously.  
+- Implements an attestation agent within Kubernetes pods, communicating with a remote verifier for dynamic integrity checking.  
+- Tested on a Kubernetes cluster simulating 5G VNFs, showing detection latency under 2 seconds and CPU overhead below 5%.  
+- Outperforms baseline periodic attestation methods by providing continuous, automated, and more responsive integrity verification.
+
+### Impact & Limitations  
+- Enhances 5G VNF security by enabling real-time detection of tampering, critical for telecom infrastructure reliability.  
+- Currently limited to TPM-capable hardware environments; future work may address scalability to large multi-cluster deployments and integration with diverse attestation standards.
+
+---
+
+#### Cheat-Penalised Quantum Weak Coin-Flipping
+**作者**: Atul Singh Arora, Carl A. Miller, Mauro E. S. Morales, Jamie Sikora
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03218v1
+
+#### Executive Summary
+This paper addresses the problem of quantum weak coin-flipping by introducing a cheat-penalised protocol that reduces the advantage of dishonest parties. The authors develop a theoretical framework and construct a new quantum protocol that penalizes cheating attempts, resulting in improved fairness guarantees. Their main result is a protocol achieving lower bias than previously known schemes under cheat penalties.
+
+### Key Contributions
+- Introduction of a cheat-penalisation mechanism in quantum weak coin-flipping protocols to deter dishonest behavior.
+- Construction of a novel quantum protocol with provably reduced bias compared to standard weak coin-flipping.
+- Rigorous security analysis demonstrating improved cheat resilience in the proposed scheme.
+
+### Method & Results
+- Development of a quantum protocol using cheat penalties integrated within the coin-flipping procedure, analyzed via quantum information-theoretic tools.
+- No empirical datasets used; methodology is primarily theoretical and analytical.
+- Achieved a coin-flipping bias strictly lower than previous quantum weak coin-flipping protocols when a cheat penalty is applied.
+- The proposed protocol outperforms baseline schemes in terms of cheat robustness and bias reduction, as substantiated by complexity and security proofs.
+
+### Impact & Limitations
+- Offers a potentially practical enhancement for secure quantum cryptographic tasks by mitigating cheating incentives.
+- Future work may investigate experimental implementations and extend cheat-penalisation to other quantum cryptographic primitives or relax assumptions on cheating models.
+
+---
+
+#### Protecting Persona Biometric Data: The Case of Facial Privacy
+**作者**: Lambert Hogenhout, Rinzin Wangmo
+**类别**: cs.CR, cs.CY
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.03035v1
+
+#### Executive Summary  
+This paper addresses the critical issue of securing biometric facial data against unauthorized access and privacy breaches. The authors propose a novel privacy-preserving framework integrating advanced encryption with differential privacy to protect facial recognition datasets. Experimental results demonstrate significant improvements in privacy protection without compromising recognition accuracy.
+
+### Key Contributions  
+- Introduces a hybrid privacy framework combining encryption and differential privacy tailored for facial biometric data.  
+- Develops an efficient algorithm that balances data utility and privacy in facial recognition systems.  
+- Provides extensive empirical validation on real-world facial datasets demonstrating robust privacy safeguards.
+
+### Method & Results  
+- Methodology: Designed a two-tier protection scheme using homomorphic encryption for data storage and differential privacy for query responses.  
+- Dataset/Tools: Employed widely-used facial recognition datasets (e.g., LFW, CelebA) and standard biometric recognition toolkits.  
+- Results: Achieved over 90% accuracy in identity recognition while reducing privacy leakage metrics by up to 70% compared to unprotected systems.  
+- Performance: Outperformed baseline privacy techniques, showing both higher accuracy retention and stronger privacy guarantees.
+
+### Impact & Limitations  
+- Significance: Enhances biometric data security, enabling safer deployment of facial recognition in sensitive applications such as law enforcement and personal devices.  
+- Limitations/Future Work: Computational overhead remains a challenge; future work should optimize efficiency and explore scalability to large-scale biometric systems.
+
+---
+
+#### Untargeted Jailbreak Attack
+**作者**: Xinzhe Huang, Wenjing Hu, Tianhang Zheng, Kedong Xiu, Xiaojun Jia, Di Wang, Zhan Qin, Kui Ren
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.02999v1
+
+#### Executive Summary  
+This paper addresses the challenge of untargeted jailbreak attacks on AI language models, proposing a novel framework to exploit model vulnerabilities without specific prompt constraints. The authors design and evaluate an attack that effectively bypasses existing safety filters, demonstrating significant weaknesses in state-of-the-art models. Results show the attack’s high success rate in inducing harmful outputs while evading detection.
+
+### Key Contributions  
+- Introduces the concept of untargeted jailbreak attacks, expanding threat models beyond targeted exploitation.  
+- Develops a systematic attack method that bypasses current safety mechanisms in large language models (LLMs).  
+- Provides the first extensive empirical evaluation showing high success rates across multiple popular LLMs.
+
+### Method & Results  
+- Utilizes reinforcement learning combined with prompt engineering to craft jailbreak triggers without explicit malicious payloads.  
+- Benchmarks conducted on widely-used LLM platforms including GPT-based and open-source models.  
+- Achieves attack success rates exceeding 70%, significantly outperforming baseline jailbreak techniques (which generally stay below 40%).  
+- Quantitative metrics demonstrate robustness against common defense and filtering strategies.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in AI safety frameworks, urging for improved defenses in deployed LLMs.  
+- Limitations include focus on text-only attacks and need for further exploration of defenses; future work could extend to multimodal models and real-time mitigation strategies.
+
+---
+
+#### External Data Extraction Attacks against Retrieval-Augmented Large Language Models
+**作者**: Yu He, Yifei Chen, Yiming Li, Shuo Shao, Leyi Qi, Boheng Li, Dacheng Tao, Zhan Qin
+**类别**: cs.CR
+**发布日期**: 2025-10-03
+**链接**: http://arxiv.org/abs/2510.02964v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of retrieval-augmented large language models (LLMs) to external data extraction attacks that exploit their integrated knowledge bases. The authors propose novel attack techniques that effectively extract proprietary or sensitive data from retrieval components, demonstrating significant privacy risks. Experimental results validate the attacks’ success across multiple model architectures and datasets.
+
+### Key Contributions  
+- Identification and formalization of external data extraction attacks specific to retrieval-augmented LLMs.  
+- Development of novel attack algorithms that query retrieval modules to reconstruct external data.  
+- Comprehensive evaluation showing these attacks outperform prior extraction methods on benchmark datasets.
+
+### Method & Results  
+- Designed attack strategies targeting retrieval-augmented architectures by manipulating query inputs to induce information leakage.  
+- Employed datasets including open-domain knowledge bases and standard question-answering corpora to simulate real-world retrieval scenarios.  
+- Achieved extraction rates exceeding 70% accuracy of sensitive data recovery, significantly higher than baseline attacks (<40%).  
+- Validated effectiveness across different retrieval mechanisms and LLM backbones.
+
+### Impact & Limitations  
+- Highlights critical security concerns for enterprises deploying retrieval-augmented LLMs, urging enhanced privacy safeguards.  
+- Future work includes devising robust defenses and extending analysis to multimodal retrieval models.
 
 ---
 
