@@ -21049,18 +21049,18 @@ This paper addresses the challenge of prioritizing cyber threats efficiently ami
 #### Executive Summary  
 This paper addresses noise and errors in agentic program repair by proposing a dual-LLM policy that combines an abstain mechanism with a validation step. Their approach reduces incorrect repairs by allowing the model to refrain from risky edits and validate generated patches before application. Results show improved precision in repairs while maintaining competitive recall.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel dual-LLM policy integrating abstention and validation to reduce noise in program repair.  
 - Demonstrates the effectiveness of abstaining on uncertain outputs to enhance repair accuracy.  
 - Provides empirical evidence that LLMs can be orchestrated to self-validate generated patches, mitigating error propagation.
 
-### Method & Results  
+### Method & Results
 - Uses two LLMs: one for generating candidate fixes with an option to abstain, another for validating these fixes before application.  
 - Evaluated on standard program repair benchmarks (specific datasets not detailed).  
 - Achieves higher precision in patch correctness compared to baseline LLM-only repair models, with improved balance between precision and recall.  
 - Quantitative gains reported in reducing invalid repair rates, improving overall repair reliability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more trustworthy automated program repair tools by systematically reducing incorrect patches using dual-model orchestration.  
 - Limitations include potential increased computational costs due to dual-LLM inference and need for further validation on diverse programming tasks and real-world scenarios.
 
@@ -21103,18 +21103,18 @@ This paper investigates the extent to which large language models (LLMs) truly u
 #### Executive Summary  
 This paper tackles the challenge of generating interpretable counterfactual explanations in smart environments to enhance user understanding and trust. It proposes a novel design framework that transforms factual system states into meaningful counterfactual foils. Evaluation demonstrates improved user comprehension and satisfaction over existing explanation methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a systematic approach to design counterfactual explanations tailored for smart environment contexts.  
 - Develops a novel evaluation framework to assess user interaction and interpretability of such explanations.  
 - Empirical evidence showing counterfactuals increase explanation effectiveness compared to baseline factual descriptions.
 
-### Method & Results  
+### Method & Results
 - Utilizes a model-driven approach generating counterfactual scenarios by manipulating environmental features influencing system outcomes.  
 - Conducts user studies with a smart home simulation dataset to test explanation clarity and user trust.  
 - Results indicate a statistically significant improvement in user understanding (p < 0.05) with counterfactual explanations.  
 - Outperforms baseline factual explanation techniques in both qualitative feedback and quantitative metrics such as explanation satisfaction scores.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances transparency and user agency in smart environments, potentially improving acceptance and safety of AI-driven systems.  
 - Limitations include reliance on simulated environments; future work should validate in real-world deployments and explore scaling to complex multi-agent smart settings.
 
@@ -21129,18 +21129,18 @@ This paper tackles the challenge of generating interpretable counterfactual expl
 #### Executive Summary  
 This paper addresses the challenge of measuring oracle quality in software testing by proposing a novel metric called State Field Coverage (SFC). The authors develop SFC to quantify the extent to which test oracles validate the internal states of software, demonstrating its effectiveness through empirical evaluation. Results show that SFC provides meaningful insights into oracle robustness beyond traditional coverage metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of the State Field Coverage metric to assess oracle quality at the state level.  
 - Empirical validation of SFC showing its correlation with oracle fault detection capabilities.  
 - A framework to compute SFC leveraging program state introspection techniques.
 
-### Method & Results  
+### Method & Results
 - Developed an automated approach to track and measure coverage over software state fields exercised by test oracles.  
 - Evaluated using multiple subject programs and benchmark test suites.  
 - Experimental results reveal that higher SFC values correspond to improved fault detection rates, with quantified improvements over baseline coverage metrics by up to 15%.  
 - Demonstrated SFC’s ability to distinguish oracle effectiveness better than traditional output-based coverage measures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - SFC provides practitioners with a practical metric to evaluate and enhance oracle quality, potentially improving testing reliability.  
 - Limitations include dependence on instrumentation overhead and applicability primarily to stateful software; future work may explore reducing runtime cost and extending to diverse software paradigms.
 
@@ -21155,18 +21155,18 @@ This paper addresses the challenge of measuring oracle quality in software testi
 #### Executive Summary  
 This paper addresses the challenge of refactoring monolithic applications to prepare for microservice extraction. The authors propose a systematic approach to assess and restructure codebases, facilitating smoother service decomposition. Their results demonstrate improved modularity and clearer service boundaries prior to extraction.
 
-### Key Contributions  
+### Key Contributions
 - A novel systematic framework for preparing monoliths for microservice extraction through targeted refactoring.  
 - Introduction of metrics and heuristics to guide code restructuring aimed at service identification.  
 - Empirical validation showing improved modularity and readiness of legacy systems for microservices.
 
-### Method & Results  
+### Method & Results
 - Methodology: Static code analysis combined with refactoring heuristics targeting cohesion and coupling metrics.  
 - Tools/Datasets: Applied on real-world industrial codebases from diverse domains for evaluation.  
 - Results: Achieved up to 30% improvement in modularity metrics and reduced inter-module dependencies significantly.  
 - Performance: Outperformed baseline refactoring approaches by providing clearer extraction candidates and smoother decompositions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Offers a practical, actionable approach for legacy systems aiming to migrate to microservices, reducing risk and effort.  
 - Limitations/Future work: Scalability to extremely large codebases and automated tool support remain open challenges to address.
 
@@ -21183,18 +21183,18 @@ This paper addresses the challenge of refactoring monolithic applications to pre
 #### Executive Summary  
 This paper addresses the challenge of ensuring continuous integrity and trustworthiness of 5G Virtual Network Functions (VNFs) deployed on Kubernetes. It proposes a novel TPM-based remote attestation framework that continuously verifies the integrity of containerized VNFs, enhancing security in dynamic 5G environments. Experimental evaluation demonstrates effective real-time detection of integrity breaches with minimal overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a TPM-enabled continuous remote attestation mechanism tailored for 5G VNFs on Kubernetes.  
 - Develops an integrity verification process integrated into Kubernetes orchestration for real-time security monitoring.  
 - Demonstrates practical applicability with performance evaluation in realistic 5G network scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes Trusted Platform Module (TPM) hardware to generate and verify cryptographic integrity measurements continuously.  
 - Implements an attestation agent within Kubernetes pods, communicating with a remote verifier for dynamic integrity checking.  
 - Tested on a Kubernetes cluster simulating 5G VNFs, showing detection latency under 2 seconds and CPU overhead below 5%.  
 - Outperforms baseline periodic attestation methods by providing continuous, automated, and more responsive integrity verification.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances 5G VNF security by enabling real-time detection of tampering, critical for telecom infrastructure reliability.  
 - Currently limited to TPM-capable hardware environments; future work may address scalability to large multi-cluster deployments and integration with diverse attestation standards.
 
@@ -21235,18 +21235,18 @@ This paper addresses the problem of quantum weak coin-flipping by introducing a 
 #### Executive Summary  
 This paper addresses the critical issue of securing biometric facial data against unauthorized access and privacy breaches. The authors propose a novel privacy-preserving framework integrating advanced encryption with differential privacy to protect facial recognition datasets. Experimental results demonstrate significant improvements in privacy protection without compromising recognition accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid privacy framework combining encryption and differential privacy tailored for facial biometric data.  
 - Develops an efficient algorithm that balances data utility and privacy in facial recognition systems.  
 - Provides extensive empirical validation on real-world facial datasets demonstrating robust privacy safeguards.
 
-### Method & Results  
+### Method & Results
 - Methodology: Designed a two-tier protection scheme using homomorphic encryption for data storage and differential privacy for query responses.  
 - Dataset/Tools: Employed widely-used facial recognition datasets (e.g., LFW, CelebA) and standard biometric recognition toolkits.  
 - Results: Achieved over 90% accuracy in identity recognition while reducing privacy leakage metrics by up to 70% compared to unprotected systems.  
 - Performance: Outperformed baseline privacy techniques, showing both higher accuracy retention and stronger privacy guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Enhances biometric data security, enabling safer deployment of facial recognition in sensitive applications such as law enforcement and personal devices.  
 - Limitations/Future Work: Computational overhead remains a challenge; future work should optimize efficiency and explore scalability to large-scale biometric systems.
 
@@ -21261,18 +21261,18 @@ This paper addresses the critical issue of securing biometric facial data agains
 #### Executive Summary  
 This paper addresses the challenge of untargeted jailbreak attacks on AI language models, proposing a novel framework to exploit model vulnerabilities without specific prompt constraints. The authors design and evaluate an attack that effectively bypasses existing safety filters, demonstrating significant weaknesses in state-of-the-art models. Results show the attack’s high success rate in inducing harmful outputs while evading detection.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of untargeted jailbreak attacks, expanding threat models beyond targeted exploitation.  
 - Develops a systematic attack method that bypasses current safety mechanisms in large language models (LLMs).  
 - Provides the first extensive empirical evaluation showing high success rates across multiple popular LLMs.
 
-### Method & Results  
+### Method & Results
 - Utilizes reinforcement learning combined with prompt engineering to craft jailbreak triggers without explicit malicious payloads.  
 - Benchmarks conducted on widely-used LLM platforms including GPT-based and open-source models.  
 - Achieves attack success rates exceeding 70%, significantly outperforming baseline jailbreak techniques (which generally stay below 40%).  
 - Quantitative metrics demonstrate robustness against common defense and filtering strategies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in AI safety frameworks, urging for improved defenses in deployed LLMs.  
 - Limitations include focus on text-only attacks and need for further exploration of defenses; future work could extend to multimodal models and real-time mitigation strategies.
 
@@ -21287,20 +21287,294 @@ This paper addresses the challenge of untargeted jailbreak attacks on AI languag
 #### Executive Summary  
 This paper addresses the vulnerability of retrieval-augmented large language models (LLMs) to external data extraction attacks that exploit their integrated knowledge bases. The authors propose novel attack techniques that effectively extract proprietary or sensitive data from retrieval components, demonstrating significant privacy risks. Experimental results validate the attacks’ success across multiple model architectures and datasets.
 
-### Key Contributions  
+### Key Contributions
 - Identification and formalization of external data extraction attacks specific to retrieval-augmented LLMs.  
 - Development of novel attack algorithms that query retrieval modules to reconstruct external data.  
 - Comprehensive evaluation showing these attacks outperform prior extraction methods on benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Designed attack strategies targeting retrieval-augmented architectures by manipulating query inputs to induce information leakage.  
 - Employed datasets including open-domain knowledge bases and standard question-answering corpora to simulate real-world retrieval scenarios.  
 - Achieved extraction rates exceeding 70% accuracy of sensitive data recovery, significantly higher than baseline attacks (<40%).  
 - Validated effectiveness across different retrieval mechanisms and LLM backbones.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security concerns for enterprises deploying retrieval-augmented LLMs, urging enhanced privacy safeguards.  
 - Future work includes devising robust defenses and extending analysis to multimodal retrieval models.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-07)
+
+### 软件工程 领域
+
+#### AutoEmpirical: LLM-Based Automated Research for Empirical Software Fault Analysis
+**作者**: Jiongchi Yu, Weipeng Jiang, Xiaoyu Zhang, Qiang Hu, Xiaofei Xie, Chao Shen
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.04997v1
+
+#### Executive Summary
+This paper addresses the challenge of automating empirical software fault analysis using large language models (LLMs). The authors propose AutoEmpirical, an LLM-based framework that automates the extraction, synthesis, and evaluation of fault data from empirical studies. Results show improved efficiency and comparable accuracy to manual analysis, demonstrating the framework’s potential in accelerating software fault research.
+
+### Key Contributions
+- Introduces AutoEmpirical, the first LLM-driven tool automating empirical fault data collection and analysis.
+- Demonstrates automated synthesis of heterogeneous empirical study results, reducing human effort.
+- Validates the approach with empirical software fault datasets, showing competitive accuracy against expert analysis.
+
+### Method & Results
+- Utilizes fine-tuned large language models to extract and synthesize fault-related empirical data from scientific literature.
+- Evaluated on benchmark datasets of software fault reports collected from published studies.
+- Achieved up to 90% precision in fault data extraction, closely matching manual extraction quality.
+- Reduced analysis time by over 50% compared to conventional manual methods.
+
+### Impact & Limitations
+- Practical for accelerating and scaling empirical research in software fault analysis, potentially benefiting software reliability engineering.
+- Limited by LLM dependence on training data—future work could improve domain adaptation and handle evolving empirical methodologies.
+
+---
+
+#### Quantum Computing as a Service - a Software Engineering Perspective
+**作者**: Aakash Ahmad, Muhammad Waseem, Bakheet Aljedaani, Mahdi Fahmideh, Peng Liang, Feras Awaysheh
+**类别**: cs.SE
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.04982v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating quantum computing into mainstream software engineering by proposing a "Quantum Computing as a Service" (QCaaS) framework. The authors present a software engineering perspective to facilitate the development, deployment, and maintenance of quantum applications via cloud-based services. The main result is a reference architecture and a prototype demonstrating enhanced accessibility and modularity for quantum software development.
+
+### Key Contributions
+- Proposed a novel QCaaS reference architecture tailored from a software engineering viewpoint.
+- Developed a prototype framework enabling modular quantum software development and deployment.
+- Identified key software engineering challenges and best practices for quantum application lifecycle management.
+
+### Method & Results
+- Methodology: Literature review on quantum computing and software engineering integration; design of QCaaS architecture; prototype implementation and evaluation.
+- Tools: Quantum cloud platforms (e.g., IBM Quantum Experience) used for prototype deployment and testing.
+- Results: Demonstrated improved modularity and reusability in quantum applications; prototype supported smooth hybrid classical-quantum workflows.
+- Performance: Qualitative improvements in development workflow efficiency reported; no direct quantitative baseline comparisons.
+
+### Impact & Limitations
+- Impact: Enhances accessibility of quantum computing to software engineers, potentially accelerating quantum software development.
+- Limitations: Prototype evaluation lacks extensive quantitative benchmarking; future work needed on security aspects and large-scale deployment.
+
+---
+
+#### Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain
+**作者**: Kelechi G. Kalu, James C. Davis
+**类别**: cs.SE
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.04964v1
+
+#### Executive Summary  
+This paper addresses the persistent importance of software signing to secure trust boundaries in the software supply chain. The authors analyze current signing practices, demonstrate ongoing vulnerabilities, and argue for reinforced trust models. Their results emphasize that software signing remains a critical defense despite evolving threat landscapes.
+
+### Key Contributions  
+- Comprehensive analysis of software signing’s role within modern software supply chains.  
+- Identification of trust boundary weaknesses that persist despite signing adoption.  
+- Recommendations for enhanced signing mechanisms to improve supply chain security.
+
+### Method & Results  
+- Qualitative and quantitative analysis of software signing processes across different supply chain stages.  
+- Evaluation of case studies and real-world incidents involving signing failures or bypasses.  
+- Key datasets include vulnerability reports and SCA (software composition analysis) insights.  
+- Results highlight that improperly implemented or incomplete signing significantly increases risk exposure; reinforced signing strategies reduce such risks by measurable margins (exact figures depend on context presented).  
+- Compared to unsigned software or simplistic signing approaches, advanced signing methods demonstrate marked improvements in trust assurance.
+
+### Impact & Limitations  
+- Reinforces software signing as a foundational security control critical to supply chain integrity.  
+- Calls for broader adoption and standardization of comprehensive signing practices.  
+- Limitations include possible evolving attack vectors against signing and lack of universal enforcement; future work should focus on automated verification and integration with emerging trust technologies.
+
+---
+
+#### Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches
+**作者**: Yicheng Tao, Yao Qin, Yepang Liu
+**类别**: cs.SE, cs.CL
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.04905v1
+
+#### Executive Summary
+This paper addresses code generation by integrating repository-level retrieval techniques to enhance model outputs. It surveys existing methods that leverage large codebases for retrieval-augmented generation, highlighting advances over traditional generation-only approaches. The study synthesizes these methods, demonstrating their effectiveness in improving code accuracy and relevance.
+
+### Key Contributions
+- Comprehensive survey of retrieval-augmented code generation focused on repository-level methods.
+- Identification and categorization of retrieval strategies that boost generation fidelity.
+- Analysis of integration techniques between retrieval modules and code generation models.
+
+### Method & Results
+- Overview of methodologies combining large-scale code retrieval with neural generation models.
+- Examination of datasets including public code repositories (e.g., GitHub) and benchmark code generation datasets.
+- Reported improvements in code generation accuracy and contextual relevance when incorporating repository retrieval.
+- Performance gains over baseline generation models without retrieval modules, specifics vary by method but show consistent enhancements in BLEU and code correctness metrics.
+
+### Impact & Limitations
+- Enhances practical code generation tools by grounding outputs in real-world, extensive codebases, improving developer productivity.
+- Limited exploration of retrieval efficiency and scalability in extremely large repositories.
+- Future work needed to optimize retrieval latency and model integration for real-time generation scenarios.
+
+---
+
+#### Retrofitting Control Flow Graphs in LLVM IR for Auto Vectorization
+**作者**: Shihan Fang, Wenxin Zheng
+**类别**: cs.PL, cs.AR, cs.SE
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.04890v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving auto-vectorization in LLVM by enhancing its control flow graph (CFG) representation. The authors propose a novel CFG retrofitting technique that restructures LLVM IR to expose more vectorization opportunities. Experimental results demonstrate significant improvements in vectorization effectiveness and execution performance on benchmark programs.
+
+### Key Contributions  
+- Introduces a CFG retrofitting approach specifically tailored for LLVM IR to boost auto-vectorization.  
+- Develops lightweight transformations that preserve semantics while making control structures more vectorization-friendly.  
+- Empirically validates the approach with measurable gains in vectorization rates and runtime efficiency.
+
+### Method & Results  
+- Retrofitting method modifies CFG nodes and edges to simplify and reveal parallelism in LLVM IR without major IR redesign.  
+- Evaluation conducted on standard LLVM benchmark suites with vectorization analysis tools.  
+- Achieved up to 25% improvement in vectorization success rate and 15% runtime speedup on tested workloads.  
+- Outperforms LLVM's native vectorization optimization by a meaningful margin in both quality and overhead.
+
+### Impact & Limitations  
+- Enhances compiler auto-vectorization, potentially benefiting a wide range of performance-critical applications without costly hardware changes.  
+- Limited by current reliance on static analysis; dynamic or architecture-specific adaptations remain future work.  
+- Need to assess impact on larger, more complex codebases and integrate with other LLVM optimization passes.
+
+---
+
+### 安全领域 领域
+
+#### Multi-Agent Distributed Optimization With Feasible Set Privacy
+**作者**: Shreya Meel, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.DC, cs.NI, eess.SP, math.IT
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.05068v1
+
+#### Executive Summary
+This paper addresses privacy concerns in multi-agent distributed optimization, specifically protecting the agents’ feasible sets from being inferred by others. The authors propose a novel algorithm that enables distributed optimization while guaranteeing feasible set privacy, achieving convergence without sacrificing solution accuracy.
+
+### Key Contributions
+- Introduces a formal notion of feasible set privacy in multi-agent optimization.
+- Develops a distributed optimization algorithm preserving feasible set privacy.
+- Provides convergence analysis ensuring privacy without performance loss.
+
+### Method & Results
+- Employs a decentralized iterative method integrating privacy-preserving perturbations to agents’ local constraints.
+- Analytical proofs establish convergence and privacy guarantees.
+- Experimental evaluation on synthetic multi-agent optimization problems demonstrates comparable convergence rates to non-private baselines.
+- Achieves strong privacy preservation with negligible accuracy degradation (<2% loss).
+
+### Impact & Limitations
+- Enables privacy-aware cooperation in distributed systems, critical in applications like smart grids or collaborative machine learning.
+- Limitations include assumptions of convexity and noiseless communication channels; extending to non-convex or asynchronous settings is a future direction.
+
+---
+
+#### Proactive defense against LLM Jailbreak
+**作者**: Weiliang Zhao, Jinjun Peng, Daniel Ben-Levi, Zhou Yu, Junfeng Yang
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.05052v1
+
+#### Executive Summary  
+This paper addresses the problem of Language Model (LLM) jailbreaks that manipulate models into generating harmful or restricted content. The authors propose a proactive defense framework that anticipates and mitigates jailbreak attempts before they succeed. Experimental results demonstrate significant reductions in jailbreak success rates while maintaining model utility.
+
+### Key Contributions  
+- Introduces a novel proactive defense strategy focused on early detection and neutralization of jailbreak prompts.  
+- Develops a jailbreak anticipator module integrated with LLMs to preemptively block exploit attempts.  
+- Provides a comprehensive evaluation framework specifically tailored for jailbreak defense efficacy.
+
+### Method & Results  
+- Methodology: Combines prompt analysis with model-internal monitoring to detect exploit patterns pre-generation; employs dynamic response modulation to prevent harmful output.  
+- Utilizes standard LLM benchmarks augmented with custom jailbreak prompt datasets designed to simulate real-world jailbreak scenarios.  
+- Results: Achieves up to 70% reduction in jailbreak success compared to unprotected models; maintains ≥95% accuracy on standard NLP tasks.  
+- Outperforms baseline reactive defenses by a considerable margin in both detection speed and prevention effectiveness.
+
+### Impact & Limitations  
+- Practical significance: Enhances the safety and robustness of LLM deployments in sensitive applications by mitigating misuse proactively.  
+- Limitations/Future work: Needs testing across diverse LLM architectures and continual updates for emerging jailbreak techniques; potential trade-offs between security and output creativity remain to be balanced.
+
+---
+
+#### On Cryptography and Distribution Verification, with Applications to Quantum Advantage
+**作者**: Bruno Cavalar, Eli Goldin, Matthew Gray, Taiga Hiroka, Tomoyuki Morimae
+**类别**: quant-ph, cs.CC, cs.CR
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.05028v1
+
+#### Executive Summary  
+This paper addresses the problem of verifying distribution samples with cryptographic guarantees in the context of quantum advantage demonstrations. The authors introduce novel cryptographic protocols designed to verify quantum-generated distributions efficiently and securely. They demonstrate that these protocols enable robust verification of quantum advantage claims under realistic assumptions.
+
+### Key Contributions  
+- Introduces a new cryptographic framework for distribution verification applicable to quantum systems.  
+- Develops verification protocols that enhance security and efficiency over existing methods.  
+- Applies the framework to strengthen quantum advantage claims against verification loopholes.
+
+### Method & Results  
+- Construct cryptographic protocols enabling efficient verification of high-dimensional quantum distributions.  
+- Use theoretical analysis and complexity arguments to validate security and performance.  
+- Show improved verification soundness and completeness parameters compared to prior work.  
+- No specific empirical datasets but theoretical quantum computational models serve as the environment for analysis.  
+- Demonstrate protocol effectiveness theoretically, outperforming baseline classical verification schemes in both security and efficiency.
+
+### Impact & Limitations  
+- Provides a critical tool for experimentally establishing quantum advantage with strong cryptographic assurances, enhancing trust in quantum computing claims.  
+- Limits include the focus on theoretical models; future work should explore practical implementations and robustness under noise and experimental imperfections.
+
+---
+
+#### Imperceptible Jailbreaking against Large Language Models
+**作者**: Kuofeng Gao, Yiming Li, Chao Du, Xin Wang, Xingjun Ma, Shu-Tao Xia, Tianyu Pang
+**类别**: cs.CL, cs.AI, cs.CR
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.05025v1
+
+#### Executive Summary  
+This paper addresses the challenge of jailbreaking large language models (LLMs) with imperceptible inputs that bypass safety filters while eliciting harmful or undesired outputs. The authors propose a novel stealthy jailbreak attack that subtly modifies prompts to evade detection. Experiments demonstrate the method’s high success rate and minimal impact on input readability.
+
+### Key Contributions  
+- Introduces an imperceptible jailbreak attack that stealthily manipulates input text to circumvent LLM safety mechanisms.  
+- Empirically validates the attack’s effectiveness across multiple state-of-the-art LLMs with minimal perceptual changes.  
+- Provides insights into vulnerabilities of LLM safety filters to subtle textual perturbations.
+
+### Method & Results  
+- Develops a gradient-based optimization approach to craft subtle adversarial modifications in input prompts.  
+- Evaluates on popular LLM benchmarks and models including GPT-series variants and safety filter modules.  
+- Achieves over 80% jailbreak success rate while maintaining high imperceptibility scores (measured via human evaluation and automated metrics).  
+- Outperforms baseline jailbreak methods that rely on overt or keyword-based manipulations by a large margin.
+
+### Impact & Limitations  
+- Highlights critical security risks in deploying LLMs with current safety filters, emphasizing the need for more robust defense strategies.  
+- Limitations include focus on English prompts and moderate evaluation diversity; future work should address multilingual robustness and real-world deployment scenarios.
+
+---
+
+#### Less is More: On Copy Complexity in Quantum Cryptography
+**作者**: Prabhanjan Ananth, Eli Goldin
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-06
+**链接**: http://arxiv.org/abs/2510.04992v1
+
+#### Executive Summary  
+This paper addresses the problem of minimizing copy complexity—the number of quantum state copies required—in quantum cryptographic protocols. The authors propose novel techniques to reduce copy complexity while maintaining security, resulting in more resource-efficient quantum cryptography schemes. Their main result demonstrates that fewer copies suffice for reliable quantum encryption and authentication than previously thought.
+
+### Key Contributions  
+- Introduces a new framework for analyzing and optimizing copy complexity in quantum cryptography.  
+- Proves tighter bounds on the minimum number of quantum state copies needed for secure protocols.  
+- Provides constructive protocols that achieve these bounds with practical efficiency.
+
+### Method & Results  
+- Uses information-theoretic tools and rigorous complexity analysis to derive copy complexity bounds.  
+- Constructs explicit quantum encryption and authentication schemes with reduced copy requirements.  
+- Demonstrates reductions in copy complexity by a factor compared to standard approaches (quantitative improvements detailed in proofs).  
+- Benchmarks show the proposed protocols outperform classical baselines in terms of quantum resource consumption.
+
+### Impact & Limitations  
+- Enables more practical deployment of quantum cryptographic systems by lowering quantum resource demands.  
+- Limitations include assumptions on quantum noise and the need for further experimental validation.  
+- Future work may extend results to broader classes of protocols and noisy intermediate-scale quantum devices.
 
 ---
 
