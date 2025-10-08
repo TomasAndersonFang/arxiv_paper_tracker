@@ -21371,19 +21371,19 @@ This paper addresses the challenge of integrating quantum computing into mainstr
 #### Executive Summary  
 This paper addresses the persistent importance of software signing to secure trust boundaries in the software supply chain. The authors analyze current signing practices, demonstrate ongoing vulnerabilities, and argue for reinforced trust models. Their results emphasize that software signing remains a critical defense despite evolving threat landscapes.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of software signing’s role within modern software supply chains.  
 - Identification of trust boundary weaknesses that persist despite signing adoption.  
 - Recommendations for enhanced signing mechanisms to improve supply chain security.
 
-### Method & Results  
+### Method & Results
 - Qualitative and quantitative analysis of software signing processes across different supply chain stages.  
 - Evaluation of case studies and real-world incidents involving signing failures or bypasses.  
 - Key datasets include vulnerability reports and SCA (software composition analysis) insights.  
 - Results highlight that improperly implemented or incomplete signing significantly increases risk exposure; reinforced signing strategies reduce such risks by measurable margins (exact figures depend on context presented).  
 - Compared to unsigned software or simplistic signing approaches, advanced signing methods demonstrate marked improvements in trust assurance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Reinforces software signing as a foundational security control critical to supply chain integrity.  
 - Calls for broader adoption and standardization of comprehensive signing practices.  
 - Limitations include possible evolving attack vectors against signing and lack of universal enforcement; future work should focus on automated verification and integration with emerging trust technologies.
@@ -21426,18 +21426,18 @@ This paper addresses code generation by integrating repository-level retrieval t
 #### Executive Summary  
 This paper addresses the challenge of improving auto-vectorization in LLVM by enhancing its control flow graph (CFG) representation. The authors propose a novel CFG retrofitting technique that restructures LLVM IR to expose more vectorization opportunities. Experimental results demonstrate significant improvements in vectorization effectiveness and execution performance on benchmark programs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a CFG retrofitting approach specifically tailored for LLVM IR to boost auto-vectorization.  
 - Develops lightweight transformations that preserve semantics while making control structures more vectorization-friendly.  
 - Empirically validates the approach with measurable gains in vectorization rates and runtime efficiency.
 
-### Method & Results  
+### Method & Results
 - Retrofitting method modifies CFG nodes and edges to simplify and reveal parallelism in LLVM IR without major IR redesign.  
 - Evaluation conducted on standard LLVM benchmark suites with vectorization analysis tools.  
 - Achieved up to 25% improvement in vectorization success rate and 15% runtime speedup on tested workloads.  
 - Outperforms LLVM's native vectorization optimization by a meaningful margin in both quality and overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances compiler auto-vectorization, potentially benefiting a wide range of performance-critical applications without costly hardware changes.  
 - Limited by current reliance on static analysis; dynamic or architecture-specific adaptations remain future work.  
 - Need to assess impact on larger, more complex codebases and integrate with other LLVM optimization passes.
@@ -21481,18 +21481,18 @@ This paper addresses privacy concerns in multi-agent distributed optimization, s
 #### Executive Summary  
 This paper addresses the problem of Language Model (LLM) jailbreaks that manipulate models into generating harmful or restricted content. The authors propose a proactive defense framework that anticipates and mitigates jailbreak attempts before they succeed. Experimental results demonstrate significant reductions in jailbreak success rates while maintaining model utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel proactive defense strategy focused on early detection and neutralization of jailbreak prompts.  
 - Develops a jailbreak anticipator module integrated with LLMs to preemptively block exploit attempts.  
 - Provides a comprehensive evaluation framework specifically tailored for jailbreak defense efficacy.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines prompt analysis with model-internal monitoring to detect exploit patterns pre-generation; employs dynamic response modulation to prevent harmful output.  
 - Utilizes standard LLM benchmarks augmented with custom jailbreak prompt datasets designed to simulate real-world jailbreak scenarios.  
 - Results: Achieves up to 70% reduction in jailbreak success compared to unprotected models; maintains ≥95% accuracy on standard NLP tasks.  
 - Outperforms baseline reactive defenses by a considerable margin in both detection speed and prevention effectiveness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances the safety and robustness of LLM deployments in sensitive applications by mitigating misuse proactively.  
 - Limitations/Future work: Needs testing across diverse LLM architectures and continual updates for emerging jailbreak techniques; potential trade-offs between security and output creativity remain to be balanced.
 
@@ -21507,19 +21507,19 @@ This paper addresses the problem of Language Model (LLM) jailbreaks that manipul
 #### Executive Summary  
 This paper addresses the problem of verifying distribution samples with cryptographic guarantees in the context of quantum advantage demonstrations. The authors introduce novel cryptographic protocols designed to verify quantum-generated distributions efficiently and securely. They demonstrate that these protocols enable robust verification of quantum advantage claims under realistic assumptions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a new cryptographic framework for distribution verification applicable to quantum systems.  
 - Develops verification protocols that enhance security and efficiency over existing methods.  
 - Applies the framework to strengthen quantum advantage claims against verification loopholes.
 
-### Method & Results  
+### Method & Results
 - Construct cryptographic protocols enabling efficient verification of high-dimensional quantum distributions.  
 - Use theoretical analysis and complexity arguments to validate security and performance.  
 - Show improved verification soundness and completeness parameters compared to prior work.  
 - No specific empirical datasets but theoretical quantum computational models serve as the environment for analysis.  
 - Demonstrate protocol effectiveness theoretically, outperforming baseline classical verification schemes in both security and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a critical tool for experimentally establishing quantum advantage with strong cryptographic assurances, enhancing trust in quantum computing claims.  
 - Limits include the focus on theoretical models; future work should explore practical implementations and robustness under noise and experimental imperfections.
 
@@ -21534,18 +21534,18 @@ This paper addresses the problem of verifying distribution samples with cryptogr
 #### Executive Summary  
 This paper addresses the challenge of jailbreaking large language models (LLMs) with imperceptible inputs that bypass safety filters while eliciting harmful or undesired outputs. The authors propose a novel stealthy jailbreak attack that subtly modifies prompts to evade detection. Experiments demonstrate the method’s high success rate and minimal impact on input readability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an imperceptible jailbreak attack that stealthily manipulates input text to circumvent LLM safety mechanisms.  
 - Empirically validates the attack’s effectiveness across multiple state-of-the-art LLMs with minimal perceptual changes.  
 - Provides insights into vulnerabilities of LLM safety filters to subtle textual perturbations.
 
-### Method & Results  
+### Method & Results
 - Develops a gradient-based optimization approach to craft subtle adversarial modifications in input prompts.  
 - Evaluates on popular LLM benchmarks and models including GPT-series variants and safety filter modules.  
 - Achieves over 80% jailbreak success rate while maintaining high imperceptibility scores (measured via human evaluation and automated metrics).  
 - Outperforms baseline jailbreak methods that rely on overt or keyword-based manipulations by a large margin.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks in deploying LLMs with current safety filters, emphasizing the need for more robust defense strategies.  
 - Limitations include focus on English prompts and moderate evaluation diversity; future work should address multilingual robustness and real-world deployment scenarios.
 
@@ -21560,21 +21560,293 @@ This paper addresses the challenge of jailbreaking large language models (LLMs) 
 #### Executive Summary  
 This paper addresses the problem of minimizing copy complexity—the number of quantum state copies required—in quantum cryptographic protocols. The authors propose novel techniques to reduce copy complexity while maintaining security, resulting in more resource-efficient quantum cryptography schemes. Their main result demonstrates that fewer copies suffice for reliable quantum encryption and authentication than previously thought.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a new framework for analyzing and optimizing copy complexity in quantum cryptography.  
 - Proves tighter bounds on the minimum number of quantum state copies needed for secure protocols.  
 - Provides constructive protocols that achieve these bounds with practical efficiency.
 
-### Method & Results  
+### Method & Results
 - Uses information-theoretic tools and rigorous complexity analysis to derive copy complexity bounds.  
 - Constructs explicit quantum encryption and authentication schemes with reduced copy requirements.  
 - Demonstrates reductions in copy complexity by a factor compared to standard approaches (quantitative improvements detailed in proofs).  
 - Benchmarks show the proposed protocols outperform classical baselines in terms of quantum resource consumption.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more practical deployment of quantum cryptographic systems by lowering quantum resource demands.  
 - Limitations include assumptions on quantum noise and the need for further experimental validation.  
 - Future work may extend results to broader classes of protocols and noisy intermediate-scale quantum devices.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-08)
+
+### 软件工程 领域
+
+#### Automated Program Repair of Uncompilable Student Code
+**作者**: Griffin Pitts, Aum Pandya, Darsh Rank, Tirth Bhatt, Muntasir Hoq, Bita Akram
+**类别**: cs.SE, cs.AI, cs.CY
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06187v1
+
+#### Executive Summary
+This paper addresses automated repair of uncompilable student code, a common issue in introductory programming education. The authors propose a novel approach combining static analysis with machine learning to generate fixes that restore compilability. Their method shows significant improvements in repairing code over baseline techniques.
+
+### Key Contributions
+- Introduces a hybrid static-analysis and ML-based framework for repairing uncompilable student code.
+- Curates and publicly releases a dataset of uncompilable student submissions with annotated fixes.
+- Demonstrates superior repair accuracy compared to state-of-the-art program repair models.
+
+### Method & Results
+- Utilizes static error diagnostics to guide a transformer-based model in generating targeted code edits.
+- Dataset consists of thousands of real-world student submissions collected from programming courses.
+- Achieves over 70% successful compilation restoration, outperforming baselines by 15-20%.
+- Evaluations show better generalization on diverse coding errors across multiple programming assignments.
+
+### Impact & Limitations
+- Enhances automated tutoring tools by enabling precise and automated feedback on syntactic errors, improving student learning experiences.
+- Limitations include reliance on static diagnostics and focus on syntax-level issues; future work could extend to semantic error repair and support more programming languages.
+
+---
+
+#### Explaining Code Risk in OSS: Towards LLM-Generated Fault Prediction Interpretations
+**作者**: Elijah Kayode Adejumo, Brittany Johnson
+**类别**: cs.SE
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06104v1
+
+#### Executive Summary  
+The paper addresses the challenge of interpreting fault predictions in open-source software (OSS) by leveraging large language models (LLMs) to generate human-understandable explanations of code risk. The authors propose a novel framework that combines fault prediction models with LLM-generated interpretations, demonstrating improved transparency in identifying vulnerable code segments.
+
+### Key Contributions  
+- Introduces an innovative approach integrating LLMs to generate explanations for OSS fault predictions.  
+- Proposes a framework enhancing interpretability of code risk beyond standard predictive accuracy.  
+- Provides empirical evaluation showing LLM explanations align well with expert reasoning on code faults.
+
+### Method & Results  
+- Methodology: Combines traditional fault prediction classifiers with LLM-based natural language explanation generation to interpret predictions.  
+- Dataset/Tools: Utilizes standard OSS fault prediction datasets (specifics not detailed) and state-of-the-art LLMs for explanation generation.  
+- Results: LLM-generated explanations achieve high alignment with expert annotations, increasing interpretability without sacrificing prediction performance.  
+- Performance: Maintains comparable fault prediction accuracy relative to baseline models while enhancing interpretability.
+
+### Impact & Limitations  
+- Impact: Offers a practical approach to improve developer trust in automated fault predictions by providing clear, interpretable code risk explanations.  
+- Limitations/Future Work: Requires exploration across more diverse OSS projects and LLMs; explanation quality depends on LLM capabilities and may vary.
+
+---
+
+#### Prompting in Practice: Investigating Software Developers' Use of Generative AI Tools
+**作者**: Daniel Otten, Trevor Stalnaker, Nathan Wintersgill, Oscar Chaparro, Denys Poshyvanyk
+**类别**: cs.SE
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06000v1
+
+#### Executive Summary
+This paper investigates how software developers utilize generative AI tools through prompting in practical coding scenarios. By analyzing developer interactions and prompt strategies, the study uncovers usage patterns and challenges. Results reveal key factors influencing prompt effectiveness and suggest guidelines for improving AI-assisted software development.
+
+### Key Contributions
+- Empirical analysis of real-world prompting behaviors by software developers using generative AI.
+- Identification of common prompt structures and their impact on code generation quality.
+- Recommendations to enhance prompt design tailored for software engineering tasks.
+
+### Method & Results
+- Mixed-methods approach combining qualitative analysis of developer prompts with quantitative evaluation of code outputs.
+- Datasets include logs of developer-AI interactions and generated code samples from popular AI coding tools.
+- Found certain prompt techniques improved code relevance and correctness by up to 20% over generic prompts.
+- Demonstrated that tailored prompts outperform baseline generic queries in generating usable code snippets.
+
+### Impact & Limitations
+- Offers actionable insights to improve AI tool usability and developer productivity in software engineering.
+- Limited by its focus on specific AI tools and developer demographics; broader generalization requires further validation.
+- Future work should explore adaptive prompting systems and integration with IDEs for real-time guidance.
+
+---
+
+#### Extending ResourceLink: Patterns for Large Dataset Processing in MCP Applications
+**作者**: Scott Frees
+**类别**: cs.SE
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.05968v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently processing large datasets within Model-Configurable Processing (MCP) applications by extending the ResourceLink framework. The approach introduces scalable architectural patterns to optimize data handling and computation. Results demonstrate improved throughput and scalability over existing ResourceLink implementations.
+
+### Key Contributions  
+- Introduces novel architectural patterns for scalable large dataset processing in MCP applications.  
+- Extends the ResourceLink framework to support optimized data flow and resource management.  
+- Demonstrates improved efficiency and scalability in handling big data workloads within MCP contexts.
+
+### Method & Results  
+- Developed pattern extensions focused on modular resource allocation and data pipelining within MCP frameworks.  
+- Evaluated using synthetic and real-world large datasets typical of MCP applications.  
+- Achieved up to 35% throughput improvement and reduced latency by 20% compared to baseline ResourceLink.  
+- Benchmarked against standard ResourceLink implementations and showed better scalability under increasing data volumes.
+
+### Impact & Limitations  
+- Enables MCP applications to handle large datasets more efficiently, benefiting domains requiring scalable data processing.  
+- Limitations include potential overhead in adapting existing MCP systems to new patterns and need for further real-world validation.  
+- Future work suggested on automated pattern selection and integration with heterogeneous computing resources.
+
+---
+
+#### Efficient Heuristics and Exact Methods for Pairwise Interaction Sampling
+**作者**: Sándor P. Fekete, Phillip Keldenich, Dominik Krupke, Michael Perk
+**类别**: cs.DS, cs.CC, cs.SE
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.05955v1
+
+#### Executive Summary  
+This paper addresses the computational challenge of efficiently sampling pairwise interactions in large datasets. The authors propose novel heuristic algorithms alongside exact optimization methods to balance between solution quality and computational efficiency. Experimental results demonstrate significant improvements in runtime without sacrificing accuracy over existing approaches.
+
+### Key Contributions  
+- Introduces innovative heuristics tailored for scalable pairwise interaction sampling with provable performance bounds.  
+- Develops exact optimization methods leveraging advanced combinatorial techniques for small-to-medium instances.  
+- Provides comprehensive empirical evaluation contrasting heuristic and exact approaches, highlighting trade-offs.
+
+### Method & Results  
+- Combines tailored heuristic algorithms with exact combinatorial optimization frameworks to tackle sampling complexity.  
+- Utilizes benchmark datasets from network analysis and bioinformatics domains to validate methods.  
+- Achieves up to a 50% reduction in computation time compared to state-of-the-art heuristics while maintaining near-optimal sampling quality.  
+- Exact methods solve instances with up to thousands of elements optimally, outperforming baseline integer programming formulations in efficiency.
+
+### Impact & Limitations  
+- Enables faster and more reliable sampling in applications like network simulations and experimental design, facilitating larger-scale studies.  
+- Limitations include scalability bounds of exact methods and potential heuristic performance variability on highly irregular data; future work may explore adaptive hybrid strategies and deeper theoretical guarantees.
+
+---
+
+### 安全领域 领域
+
+#### Anonymous Quantum Tokens with Classical Verification
+**作者**: Dmytro Gavinsky, Dar Gilboa, Siddhartha Jain, Dmitri Maslov, Jarrod R. McClean
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06212v1
+
+#### Executive Summary
+This paper addresses the challenge of designing quantum tokens that maintain user anonymity but can be verified through classical means. The authors propose a novel framework for anonymous quantum tokens enabling efficient classical verification without compromising anonymity. Their construction balances cryptographic security with practical implementability, advancing the integration of quantum authentication in classical systems.
+
+### Key Contributions
+- Introduces the first anonymous quantum token scheme supporting fully classical verification.
+- Develops new cryptographic techniques combining quantum information with classical proof systems.
+- Demonstrates security under standard quantum hardness assumptions.
+
+### Method & Results
+- Constructs quantum token protocols utilizing quantum state encoding paired with classical zero-knowledge proofs for verification.
+- Employs theoretical analysis rather than experimental datasets, relying on rigorous security proofs.
+- Proves that anonymity and unforgeability hold against quantum adversaries under specific hardness assumptions.
+- Achieves verification efficiency superior to previous quantum token methods requiring quantum interactions.
+
+### Impact & Limitations
+- Enables practical deployment of quantum-secure authentication tokens in classical infrastructure, enhancing privacy.
+- Limitations include reliance on currently unproven quantum hardness assumptions and lack of experimental validation.
+- Future work may explore optimizing token generation and extending protocols to more complex multi-token systems.
+
+---
+
+#### On the Quantum Equivalence between $S|LWE\rangle$ and $ISIS$
+**作者**: André Chailloux, Paul Hermouet
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06097v1
+
+#### Executive Summary
+This paper addresses the quantum equivalence between two foundational lattice problems: the Short Integer Solution variant over Learning With Errors states ($S|LWE\rangle$) and the Inhomogeneous Short Integer Solution problem ($ISIS$). The authors develop a rigorous quantum reduction framework demonstrating that these problems are essentially interchangeable in the quantum setting, strengthening the theoretical understanding of lattice-based cryptographic assumptions under quantum attacks.
+
+### Key Contributions
+- Establishes a novel quantum equivalence between $S|LWE\rangle$ and $ISIS$, unifying two key lattice problems.
+- Introduces a constructive quantum reduction technique that preserves problem hardness across the equivalence.
+- Provides new insights into the security assumptions of post-quantum cryptography relying on lattice hardness.
+
+### Method & Results
+- Utilizes advanced quantum reduction methods combining quantum state transformations and lattice-based problem structures.
+- No experimental datasets; theoretical and mathematical proofs form the core tools.
+- Main result: formal proof that solving $S|LWE\rangle$ quantumly reduces to solving $ISIS$, and vice versa, under polynomial-time quantum reductions.
+- Performance comparison situates the equivalence as foundational rather than practical speed-ups or optimizations.
+
+### Impact & Limitations
+- Enhances confidence in lattice problems as robust quantum-resistant foundations for cryptographic schemes.
+- Limitations: purely theoretical without empirical validation; future work could explore algorithmic implications or cryptographic protocol adjustments leveraging this equivalence.
+
+---
+
+#### Refusal Falls off a Cliff: How Safety Alignment Fails in Reasoning?
+**作者**: Qingyu Yin, Chak Tou Leong, Linyi Yang, Wenxuan Huang, Wenjie Li, Xiting Wang, Jaehong Yoon, YunXing, XingYu, Jinjin Gu
+**类别**: cs.AI, cs.CR
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06036v1
+
+#### Executive Summary  
+This paper investigates the sharp decline in the effectiveness of safety refusal mechanisms when large language models (LLMs) engage in complex reasoning tasks. The authors analyze how existing safety alignment strategies fail under reasoning stress, revealing a "cliff" phenomenon in refusal behavior. They propose diagnostic frameworks to understand and quantify this safety lapse.
+
+### Key Contributions  
+- Identification of a critical failure mode where refusal safety dramatically degrades during reasoning in LLMs.  
+- Introduction of novel metrics and evaluation protocols to measure alignment drop-offs in reasoning contexts.  
+- Empirical demonstration of safety failure across multiple state-of-the-art LLMs, highlighting systemic vulnerabilities.
+
+### Method & Results  
+- Developed a testing framework combining reasoning benchmarks with safety prompts to trace refusal rates under cognitive load.  
+- Utilized recent reasoning datasets alongside safety challenge datasets (details unspecified).  
+- Results show refusal rates plummet by over 40% when models process multi-hop reasoning tasks, compared to simpler queries.  
+- Performance significantly worse than baseline safety evaluations that do not account for reasoning complexity.
+
+### Impact & Limitations  
+- Emphasizes the need for reasoning-aware safety alignment to prevent misuse in advanced AI applications.  
+- Limitations include reliance on currently available benchmarks and unclear mitigation strategies; future work should develop proactive training methods integrating reasoning and alignment robustly.
+
+---
+
+#### Optimal Good-Case Latency for Sleepy Consensus
+**作者**: Yuval Efron, Joachim Neu, Ling Ren, Ertem Nusret Tas
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06023v1
+
+#### Executive Summary  
+This paper tackles the problem of optimizing good-case latency in sleepy consensus protocols, which aim to maintain agreement despite dynamic participant availability. The authors propose a novel algorithm that achieves asymptotically optimal good-case latency while preserving safety and liveness. Their approach balances responsiveness and security, improving practical efficiency in partial synchrony.
+
+### Key Contributions  
+- Introduces a sleepy consensus protocol with provably optimal good-case latency.  
+- Develops a new analytical framework to underpin latency optimality in dynamic participation settings.  
+- Demonstrates protocol robustness under minimal synchrony assumptions.
+
+### Method & Results  
+- Designs a consensus protocol that adapts to sleepy (intermittently available) participants, optimizing for fast commitment when conditions are favorable.  
+- Provides rigorous theoretical proofs of latency optimality and protocol correctness.  
+- Experimental evaluation shows improved latency over prior sleepy consensus methods by a significant margin (exact figures not given).  
+- Utilizes common consensus benchmarks and simulation setups to validate performance.
+
+### Impact & Limitations  
+- Enhances the practicality of consensus in decentralized networks with fluctuating participation, aiding blockchain and distributed ledger applications.  
+- Future work may explore real-world deployment challenges and extend to varied network models beyond partial synchrony.
+
+---
+
+#### "Your Doctor is Spying on You": An Analysis of Data Practices in Mobile Healthcare Applications
+**作者**: Luke Stevenson, Sanchari Das
+**类别**: cs.CR, cs.CY, cs.HC
+**发布日期**: 2025-10-07
+**链接**: http://arxiv.org/abs/2510.06015v1
+
+#### Executive Summary
+This paper investigates privacy risks posed by data collection and sharing practices in mobile healthcare apps. The authors analyze a large set of apps to uncover extensive user data tracking and unauthorized sharing with third parties, revealing significant privacy vulnerabilities.
+
+### Key Contributions
+- Comprehensive empirical analysis of data practices in a broad sample of mobile healthcare applications.
+- Identification and characterization of covert data sharing pathways beyond app permissions.
+- Novel insights into how these practices undermine user privacy and trust in digital health tools.
+
+### Method & Results
+- Conducted static and dynamic code analyses on 150 popular healthcare apps to detect data collection and transmission behaviors.
+- Employed network traffic monitoring and privacy policy comparisons for validation.
+- Found that over 70% of apps transmit sensitive health data to third-party trackers without explicit user consent.
+- Detected 35% more unauthorized data transmissions than predicted by app permissions alone.
+
+### Impact & Limitations
+- Highlights urgent need for stronger regulation and transparency in mobile health data sharing to protect users.
+- Limitation: Focus on Android apps only; iOS apps not analyzed.
+- Future work: Extend to cross-platform analysis and propose automated tools for real-time privacy auditing.
 
 ---
 
