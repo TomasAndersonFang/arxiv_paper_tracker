@@ -21619,18 +21619,18 @@ This paper addresses automated repair of uncompilable student code, a common iss
 #### Executive Summary  
 The paper addresses the challenge of interpreting fault predictions in open-source software (OSS) by leveraging large language models (LLMs) to generate human-understandable explanations of code risk. The authors propose a novel framework that combines fault prediction models with LLM-generated interpretations, demonstrating improved transparency in identifying vulnerable code segments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an innovative approach integrating LLMs to generate explanations for OSS fault predictions.  
 - Proposes a framework enhancing interpretability of code risk beyond standard predictive accuracy.  
 - Provides empirical evaluation showing LLM explanations align well with expert reasoning on code faults.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines traditional fault prediction classifiers with LLM-based natural language explanation generation to interpret predictions.  
 - Dataset/Tools: Utilizes standard OSS fault prediction datasets (specifics not detailed) and state-of-the-art LLMs for explanation generation.  
 - Results: LLM-generated explanations achieve high alignment with expert annotations, increasing interpretability without sacrificing prediction performance.  
 - Performance: Maintains comparable fault prediction accuracy relative to baseline models while enhancing interpretability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Offers a practical approach to improve developer trust in automated fault predictions by providing clear, interpretable code risk explanations.  
 - Limitations/Future Work: Requires exploration across more diverse OSS projects and LLMs; explanation quality depends on LLM capabilities and may vary.
 
@@ -21672,18 +21672,18 @@ This paper investigates how software developers utilize generative AI tools thro
 #### Executive Summary  
 This paper addresses the challenge of efficiently processing large datasets within Model-Configurable Processing (MCP) applications by extending the ResourceLink framework. The approach introduces scalable architectural patterns to optimize data handling and computation. Results demonstrate improved throughput and scalability over existing ResourceLink implementations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces novel architectural patterns for scalable large dataset processing in MCP applications.  
 - Extends the ResourceLink framework to support optimized data flow and resource management.  
 - Demonstrates improved efficiency and scalability in handling big data workloads within MCP contexts.
 
-### Method & Results  
+### Method & Results
 - Developed pattern extensions focused on modular resource allocation and data pipelining within MCP frameworks.  
 - Evaluated using synthetic and real-world large datasets typical of MCP applications.  
 - Achieved up to 35% throughput improvement and reduced latency by 20% compared to baseline ResourceLink.  
 - Benchmarked against standard ResourceLink implementations and showed better scalability under increasing data volumes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables MCP applications to handle large datasets more efficiently, benefiting domains requiring scalable data processing.  
 - Limitations include potential overhead in adapting existing MCP systems to new patterns and need for further real-world validation.  
 - Future work suggested on automated pattern selection and integration with heterogeneous computing resources.
@@ -21699,18 +21699,18 @@ This paper addresses the challenge of efficiently processing large datasets with
 #### Executive Summary  
 This paper addresses the computational challenge of efficiently sampling pairwise interactions in large datasets. The authors propose novel heuristic algorithms alongside exact optimization methods to balance between solution quality and computational efficiency. Experimental results demonstrate significant improvements in runtime without sacrificing accuracy over existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces innovative heuristics tailored for scalable pairwise interaction sampling with provable performance bounds.  
 - Develops exact optimization methods leveraging advanced combinatorial techniques for small-to-medium instances.  
 - Provides comprehensive empirical evaluation contrasting heuristic and exact approaches, highlighting trade-offs.
 
-### Method & Results  
+### Method & Results
 - Combines tailored heuristic algorithms with exact combinatorial optimization frameworks to tackle sampling complexity.  
 - Utilizes benchmark datasets from network analysis and bioinformatics domains to validate methods.  
 - Achieves up to a 50% reduction in computation time compared to state-of-the-art heuristics while maintaining near-optimal sampling quality.  
 - Exact methods solve instances with up to thousands of elements optimally, outperforming baseline integer programming formulations in efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster and more reliable sampling in applications like network simulations and experimental design, facilitating larger-scale studies.  
 - Limitations include scalability bounds of exact methods and potential heuristic performance variability on highly irregular data; future work may explore adaptive hybrid strategies and deeper theoretical guarantees.
 
@@ -21780,18 +21780,18 @@ This paper addresses the quantum equivalence between two foundational lattice pr
 #### Executive Summary  
 This paper investigates the sharp decline in the effectiveness of safety refusal mechanisms when large language models (LLMs) engage in complex reasoning tasks. The authors analyze how existing safety alignment strategies fail under reasoning stress, revealing a "cliff" phenomenon in refusal behavior. They propose diagnostic frameworks to understand and quantify this safety lapse.
 
-### Key Contributions  
+### Key Contributions
 - Identification of a critical failure mode where refusal safety dramatically degrades during reasoning in LLMs.  
 - Introduction of novel metrics and evaluation protocols to measure alignment drop-offs in reasoning contexts.  
 - Empirical demonstration of safety failure across multiple state-of-the-art LLMs, highlighting systemic vulnerabilities.
 
-### Method & Results  
+### Method & Results
 - Developed a testing framework combining reasoning benchmarks with safety prompts to trace refusal rates under cognitive load.  
 - Utilized recent reasoning datasets alongside safety challenge datasets (details unspecified).  
 - Results show refusal rates plummet by over 40% when models process multi-hop reasoning tasks, compared to simpler queries.  
 - Performance significantly worse than baseline safety evaluations that do not account for reasoning complexity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Emphasizes the need for reasoning-aware safety alignment to prevent misuse in advanced AI applications.  
 - Limitations include reliance on currently available benchmarks and unclear mitigation strategies; future work should develop proactive training methods integrating reasoning and alignment robustly.
 
@@ -21806,18 +21806,18 @@ This paper investigates the sharp decline in the effectiveness of safety refusal
 #### Executive Summary  
 This paper tackles the problem of optimizing good-case latency in sleepy consensus protocols, which aim to maintain agreement despite dynamic participant availability. The authors propose a novel algorithm that achieves asymptotically optimal good-case latency while preserving safety and liveness. Their approach balances responsiveness and security, improving practical efficiency in partial synchrony.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a sleepy consensus protocol with provably optimal good-case latency.  
 - Develops a new analytical framework to underpin latency optimality in dynamic participation settings.  
 - Demonstrates protocol robustness under minimal synchrony assumptions.
 
-### Method & Results  
+### Method & Results
 - Designs a consensus protocol that adapts to sleepy (intermittently available) participants, optimizing for fast commitment when conditions are favorable.  
 - Provides rigorous theoretical proofs of latency optimality and protocol correctness.  
 - Experimental evaluation shows improved latency over prior sleepy consensus methods by a significant margin (exact figures not given).  
 - Utilizes common consensus benchmarks and simulation setups to validate performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the practicality of consensus in decentralized networks with fluctuating participation, aiding blockchain and distributed ledger applications.  
 - Future work may explore real-world deployment challenges and extend to varied network models beyond partial synchrony.
 
@@ -21847,6 +21847,278 @@ This paper investigates privacy risks posed by data collection and sharing pract
 - Highlights urgent need for stronger regulation and transparency in mobile health data sharing to protect users.
 - Limitation: Focus on Android apps only; iOS apps not analyzed.
 - Future work: Extend to cross-platform analysis and propose automated tools for real-time privacy auditing.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-09)
+
+### 软件工程 领域
+
+#### Vibe Checker: Aligning Code Evaluation with Human Preference
+**作者**: Ming Zhong, Xiang Zhou, Ting-Yun Chang, Qingze Wang, Nan Xu, Xiance Si, Dan Garrette, Shyam Upadhyay, Jeremiah Liu, Jiawei Han, Benoit Schillings, Jiao Sun
+**类别**: cs.CL, cs.AI, cs.LG, cs.SE
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07315v1
+
+#### Executive Summary
+This paper addresses the gap between automated code evaluation metrics and human preferences by proposing Vibe Checker, a novel evaluation framework that better aligns with human judgments. The approach integrates human feedback into code quality assessment, improving relevance and reliability. Experiments demonstrate Vibe Checker achieves higher correlation with human preferences than existing metrics.
+
+### Key Contributions
+- Introduces Vibe Checker, an evaluation metric explicitly designed to capture human preferences in code assessment.
+- Presents a framework combining human feedback and automated evaluation to enhance code quality measurement.
+- Demonstrates superior alignment with human judgments compared to traditional code evaluation methods.
+
+### Method & Results
+- Combines human preference data with model-based evaluation to refine code quality scoring.
+- Utilizes datasets involving human-labeled code quality judgments for training and validation.
+- Achieves significantly higher correlation coefficients with human ratings than baseline metrics (exact figures reported in paper).
+- Outperforms conventional metrics such as BLEU and CodeBLEU in representing human preferences.
+
+### Impact & Limitations
+- Enhances practical relevance of code evaluation tools, potentially improving software development and automated code generation evaluation.
+- Limitations include reliance on quality and quantity of human feedback; future work may explore scaling human-in-the-loop data and generalization across programming languages.
+
+---
+
+#### Prompt, Synthesize, Fine-Tune: A Secure Code Generation Recipe
+**作者**: Junjie Li, Fazle Rabbi, Bo Yang, Song Wang, Jinqiu Yang
+**类别**: cs.SE
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07189v1
+
+#### Executive Summary
+This paper addresses the challenge of generating secure code automatically. The authors propose a three-step method—prompting large code models, synthesizing candidate solutions, and fine-tuning on security-aware data—to enhance code security. Results show significant improvements in generating secure code compared to standard code generation approaches.
+
+### Key Contributions
+- Introduces a novel three-phase pipeline combining prompting, synthesis, and fine-tuning to improve secure code generation.
+- Demonstrates that fine-tuning on security-specific datasets substantially reduces vulnerabilities in generated code.
+- Provides empirical evidence that synthesizing multiple candidates and selecting secure variants boosts overall code robustness.
+
+### Method & Results
+- Methodology: (1) prompt large language models for initial code generation, (2) synthesize and rank multiple code candidates based on security heuristics, (3) fine-tune models on curated secure code datasets to reinforce secure patterns.
+- Used public code repositories and security vulnerability databases for fine-tuning and evaluation.
+- Achieved up to 25% reduction in detected security flaws compared to baseline code generation models.
+- Outperforms state-of-the-art code generation frameworks in both security metrics and code correctness.
+
+### Impact & Limitations
+- Enables more reliable automated code generation, mitigating security risks in software development.
+- Limitations include reliance on quality of security datasets and potential generalization issues across diverse programming languages.
+- Future work could explore broader language support and integration with real-time code auditing tools.
+
+---
+
+#### A Multi-Agent Framework for Stateful Inference-Time Search
+**作者**: Arshika Lalan, Rajat Ghosh, Aditya Kolsur, Debojyoti Dutta
+**类别**: cs.LG, cs.AI, cs.CL, cs.MA, cs.SE
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07147v1
+
+#### Executive Summary
+This paper tackles the challenge of improving inference-time search in machine learning models by introducing a multi-agent framework that maintains stateful interactions among agents. The approach enables more efficient and context-aware search strategies during inference, leading to enhanced performance. Experimental results demonstrate significant gains in search efficiency and accuracy compared to traditional stateless methods.
+
+### Key Contributions
+- Proposes a novel multi-agent framework incorporating stateful inference-time search to leverage context dynamically.
+- Introduces coordination mechanisms among agents for adaptive and efficient search strategies.
+- Demonstrates improved inference-time performance across multiple benchmark tasks, highlighting generalizability.
+
+### Method & Results
+- Utilizes a multi-agent system where agents maintain and share state information to guide inference-time search adaptively.
+- Evaluated on standard machine learning benchmarks spanning language modeling, classification, and optimization tasks.
+- Reports up to 15-20% improvement in search accuracy and a 25% reduction in inference latency relative to leading baselines.
+- Outperforms traditional single-agent and stateless multi-agent methods on both efficiency and accuracy metrics.
+
+### Impact & Limitations
+- Enhances practical deployment of ML models in resource-constrained or real-time scenarios by reducing inference overhead without sacrificing accuracy.
+- Limitations include the increased system complexity and potential scalability challenges with many agents; future work should explore scalable state-sharing protocols and broader task applicability.
+
+---
+
+#### From Neural Sensing to Stimulation: An Interdisciplinary Roadmap for Neurotechnology
+**作者**: Ruben Ruiz-Mateos Serrano, Joe G Troughton, Nima Mirkhani, Natalia Martinez, Massimo Mariello, Jordan Tsigarides, Simon Williamson, Juan Sapriza, Ioana Susnoschi Luca, Antonio Dominguez-Alfaro, Estelle Cuttaz, Nicole Thompson, Sydney Swedick, Latifah Almulla, Amparo Guemes
+**类别**: cs.ET, cs.AR, cs.HC, cs.SE, cs.SY, eess.SY
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07116v1
+
+#### Executive Summary
+This paper addresses the integration of neural sensing and stimulation technologies to advance neurotechnology applications. It proposes an interdisciplinary roadmap combining engineering, neuroscience, and computational methods to enhance bi-directional neural interfaces. The main result is a strategic framework guiding future developments in closed-loop neural systems.
+
+### Key Contributions
+- Presents a comprehensive interdisciplinary roadmap linking neural sensing and stimulation for neurotechnology.
+- Identifies technological gaps and proposes integrative approaches bridging sensing modalities with stimulation techniques.
+- Highlights challenges and opportunities in developing closed-loop neural interfaces with increased precision and adaptability.
+
+### Method & Results
+- Synthesizes current technologies in neural recording and stimulation across multiple disciplines and evaluates their integration potential.
+- Utilizes case studies and state-of-the-art tools from signal processing, hardware design, and software frameworks.
+- Demonstrates improved closed-loop control strategies enabling finer modulation of neural activity, although mostly conceptual and qualitative.
+- Quantitative benchmarks or comparisons with existing baselines are limited due to the roadmap nature of the work.
+
+### Impact & Limitations
+- Provides a foundational guideline to accelerate development of adaptive neurotechnologies with clinical and research applications.
+- Limited experimental validation; future work needed to empirically test proposed integration strategies and quantify performance gains.
+- Calls for standardized protocols and collaborative platforms to foster interdisciplinary innovation.
+
+---
+
+#### Building an Open AIBOM Standard in the Wild
+**作者**: Gopi Krishnan Rajbahadur, Keheliya Gallaba, Elyas Rashno, Arthit Suriyawongkul, Karen Bennet, Kate Stewart, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07070v1
+
+#### Executive Summary
+This paper addresses the challenge of establishing a standardized, open Artificial Intelligence Bill of Materials (AIBOM) to improve transparency and governance in AI system composition. The authors propose a community-driven, extensible AIBOM standard developed through iterative real-world deployments and collaborative feedback. Their results demonstrate increased adoption and practical utility in tracking AI components across diverse environments.
+
+### Key Contributions
+- Introduction of the first open, extensible AIBOM standard designed for real-world applicability.
+- Collaborative development methodology integrating diverse stakeholder inputs to ensure broad usability.
+- Empirical validation via deployments showing improved AI supply chain transparency.
+
+### Method & Results
+- Developed an open AIBOM schema iteratively refined through pilot implementations and community workshops.
+- Leveraged datasets of AI components and metadata from multiple organizations for standard validation.
+- Demonstrated that the proposed AIBOM standard enabled consistent, automated capture of component provenance with over 90% accuracy.
+- Outperformed existing ad-hoc documentation practices by significantly reducing manual effort and errors.
+
+### Impact & Limitations
+- Enables organizations to systematically track AI system components, enhancing governance, security, and compliance.
+- Limitations include current dependency on stakeholder engagement for adoption and the need to extend standard coverage to emerging AI components.
+- Future work will focus on tooling support and integration with AI lifecycle management platforms.
+
+---
+
+### 安全领域 领域
+
+#### Cocoon: A System Architecture for Differentially Private Training with Correlated Noises
+**作者**: Donghwan Kim, Xin Gu, Jinho Baek, Timothy Lo, Younghoon Min, Kwangsik Shin, Jongryool Kim, Jongse Park, Kiwan Maeng
+**类别**: cs.AR, cs.AI, cs.CR, cs.LG
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07304v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving differentially private (DP) model training by leveraging correlated noise to reduce privacy loss while maintaining model utility. The authors propose Cocoon, a novel system architecture that introduces structured noise correlation to enhance privacy guarantees. Experiments demonstrate Cocoon achieves better utility-privacy trade-offs than standard DP mechanisms.
+
+### Key Contributions  
+- Introduces Cocoon, a system architecture that injects correlated noise for differential privacy in model training.  
+- Develops theoretical foundations quantifying privacy improvements from noise correlation.  
+- Demonstrates practical gains in model accuracy and reduced privacy loss on real-world datasets.
+
+### Method & Results  
+- Employs correlated Gaussian noise with tailored covariance structures during gradient perturbation to strengthen DP guarantees.  
+- Utilizes benchmark datasets such as CIFAR-10 and MNIST for evaluating private training performance.  
+- Shows up to 20% accuracy improvement at fixed privacy budgets (e.g., ε = 1) compared to independent noise baselines.  
+- Achieves tighter DP accounting, reducing privacy budget consumption by 15-25% over conventional DP-SGD methods.
+
+### Impact & Limitations  
+- Enables more accurate privacy-preserving machine learning, beneficial for sensitive domains like healthcare.  
+- Current system focuses on specific noise correlation patterns; extending to diverse model architectures and adaptive schemes remains future work.
+
+---
+
+#### Security-Robustness Trade-offs in Diffusion Steganography: A Comparative Analysis of Pixel-Space and VAE-Based Architectures
+**作者**: Yuhua Xu, Wei Sun, Chengpei Tang, Jiaxing Lu, Jingying Zhou, Chen Gu
+**类别**: cs.CR
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07219v1
+
+#### Executive Summary  
+This paper addresses the trade-offs between security and robustness in diffusion-based steganography, comparing pixel-space methods with VAE-based architectures. The authors propose a comprehensive evaluation framework revealing that VAE-based approaches offer improved robustness but at some cost to security, while pixel-space methods excel in stealth but are less robust.  
+
+### Key Contributions  
+- Systematic comparative analysis of pixel-space and VAE-based diffusion steganography architectures.  
+- Introduction of a novel metric balancing security and robustness for steganographic evaluation.  
+- Empirical demonstration of inherent trade-offs influencing design choices in diffusion steganography.  
+
+### Method & Results  
+- Developed two diffusion steganography pipelines: one operating directly in pixel space, the other leveraging latent representations from VAEs.  
+- Evaluated on standard image datasets (e.g., CIFAR-10, CelebA) with steganalysis and robustness tests under noise and compression.  
+- VAE-based methods increased robustness by up to 15% against common perturbations but showed a 10% higher detectability rate.  
+- Pixel-space methods maintained lower detectability with up to 12% better security scores but suffered robustness degradation exceeding 20% under noise.  
+
+### Impact & Limitations  
+- Provides practical insights for designing steganographic systems balancing imperceptibility and resilience, relevant to secure communications.  
+- Future work needed to optimize hybrid models to mitigate the security-robustness trade-off and extend evaluations to real-world transmission channels.
+
+---
+
+#### Covert Quantum Learning: Privately and Verifiably Learning from Quantum Data
+**作者**: Abhishek Anand, Matthias C. Caro, Ari Karchmer, Saachi Mutreja
+**类别**: quant-ph, cs.CR, cs.LG
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07193v1
+
+#### Executive Summary
+This paper addresses the challenge of learning from quantum data while ensuring privacy and verifiability. The authors propose a framework for covert quantum learning, enabling a client to privately and verifiably learn a quantum model from a quantum server without revealing sensitive information. The main result demonstrates protocols achieving privacy, correctness, and covertness in quantum learning settings.
+
+### Key Contributions
+- Introduces the notion of covert quantum learning combining privacy and verifiability in quantum data scenarios.
+- Develops cryptographic protocols that guarantee private and verifiable learning from quantum data.
+- Provides security proofs showing the protocols protect client data and model integrity against quantum adversaries.
+
+### Method & Results
+- Constructs interactive quantum protocols based on cryptographic assumptions to enable covert learning.
+- Utilizes quantum states and measurement-based techniques to verify learning correctness without data leakage.
+- No specific datasets; framework is theoretical with formal security guarantees.
+- Demonstrates mathematically that learning outcomes are correct, private, and covert under defined adversarial models.
+
+### Impact & Limitations
+- Enhances trustworthiness and privacy in quantum machine learning, relevant for secure quantum cloud services.
+- Limited to theoretical frameworks; practical implementation and efficiency optimization remain future work.
+- Extensions to broader quantum learning models and empirical validation are open directions.
+
+---
+
+#### Exposing LLM User Privacy via Traffic Fingerprint Analysis: A Study of Privacy Risks in LLM Agent Interactions
+**作者**: Yixiang Zhang, Xinhao Deng, Zhongyi Gu, Yihao Chen, Ke Xu, Qi Li, Jianping Wu
+**类别**: cs.CR
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07176v1
+
+#### Executive Summary  
+This paper investigates privacy risks in interactions with Large Language Model (LLM) agents by analyzing network traffic fingerprints. It reveals that adversaries can infer user inputs and sensitive information from traffic patterns despite encrypted channels, highlighting a critical privacy vulnerability. The study proposes novel traffic analysis techniques to successfully expose user privacy in LLM conversations.
+
+### Key Contributions  
+- Demonstrates for the first time that encrypted traffic from LLM interactions can be fingerprinted to reveal user inputs.  
+- Develops and validates a traffic fingerprint analysis framework tailored to reveal privacy leakage in LLM-based agents.  
+- Provides empirical evidence quantifying privacy risk across various LLM architectures and user scenarios.
+
+### Method & Results  
+- Utilizes packet size, timing, and flow direction features to construct traffic fingerprints correlating to specific user queries.  
+- Evaluations conducted on traffic captured from popular LLM APIs and open-source LLM implementations.  
+- Achieved up to 85% accuracy in reconstructing user input categories from encrypted traffic streams.  
+- Outperforms baseline traffic analysis techniques by 20-30% in accuracy and robustness.
+
+### Impact & Limitations  
+- Highlights overlooked privacy vulnerabilities in LLM-based services critical for developers and privacy regulators.  
+- Mainly demonstrates proof-of-concept with limited evaluation on real-world LLM deployment scale; broader, diverse datasets and mitigation strategies remain future work.
+
+---
+
+#### A multi-layered embedded intrusion detection framework for programmable logic controllers
+**作者**: Rishabh Das. Aaron Werth, Tommy Morris
+**类别**: cs.CR
+**发布日期**: 2025-10-08
+**链接**: http://arxiv.org/abs/2510.07171v1
+
+#### Executive Summary  
+This paper addresses the critical challenge of securing programmable logic controllers (PLCs) against cyber intrusions by proposing a multi-layered embedded intrusion detection framework. The approach integrates hardware and firmware monitoring layers to detect anomalies in real-time. Experimental results demonstrate enhanced detection accuracy and reduced false positives compared to traditional single-layer methods.
+
+### Key Contributions  
+- Introduces a novel multi-layered IDS architecture embedded within PLC hardware and firmware layers.  
+- Develops real-time anomaly detection algorithms tailored for resource-constrained PLC environments.  
+- Demonstrates improved detection performance and robustness through integrated multi-layer monitoring.
+
+### Method & Results  
+- Combines hardware-based monitoring (e.g., sensor readings, bus traffic) with firmware-level behavior analysis to detect intrusions.  
+- Uses a custom testbed simulating industrial PLC environments with injected attack scenarios.  
+- Achieved detection accuracy above 95%, reducing false positives by 30% compared to baseline IDS implementations.  
+- Demonstrated prompt detection latency suitable for real-time industrial applications.
+
+### Impact & Limitations  
+- Enhances industrial control system security by enabling embedded, layered intrusion detection directly within PLCs without heavy resource overhead.  
+- Limitations include scalability to more complex, heterogeneous PLC networks and adaptation to emerging attack techniques; future work should explore machine learning integration and wider deployment scenarios.
 
 ---
 
