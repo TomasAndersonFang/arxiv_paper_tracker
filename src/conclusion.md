@@ -22000,18 +22000,18 @@ This paper addresses the challenge of establishing a standardized, open Artifici
 #### Executive Summary  
 This paper addresses the challenge of improving differentially private (DP) model training by leveraging correlated noise to reduce privacy loss while maintaining model utility. The authors propose Cocoon, a novel system architecture that introduces structured noise correlation to enhance privacy guarantees. Experiments demonstrate Cocoon achieves better utility-privacy trade-offs than standard DP mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Cocoon, a system architecture that injects correlated noise for differential privacy in model training.  
 - Develops theoretical foundations quantifying privacy improvements from noise correlation.  
 - Demonstrates practical gains in model accuracy and reduced privacy loss on real-world datasets.
 
-### Method & Results  
+### Method & Results
 - Employs correlated Gaussian noise with tailored covariance structures during gradient perturbation to strengthen DP guarantees.  
 - Utilizes benchmark datasets such as CIFAR-10 and MNIST for evaluating private training performance.  
 - Shows up to 20% accuracy improvement at fixed privacy budgets (e.g., ε = 1) compared to independent noise baselines.  
 - Achieves tighter DP accounting, reducing privacy budget consumption by 15-25% over conventional DP-SGD methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more accurate privacy-preserving machine learning, beneficial for sensitive domains like healthcare.  
 - Current system focuses on specific noise correlation patterns; extending to diverse model architectures and adaptive schemes remains future work.
 
@@ -22026,18 +22026,18 @@ This paper addresses the challenge of improving differentially private (DP) mode
 #### Executive Summary  
 This paper addresses the trade-offs between security and robustness in diffusion-based steganography, comparing pixel-space methods with VAE-based architectures. The authors propose a comprehensive evaluation framework revealing that VAE-based approaches offer improved robustness but at some cost to security, while pixel-space methods excel in stealth but are less robust.  
 
-### Key Contributions  
+### Key Contributions
 - Systematic comparative analysis of pixel-space and VAE-based diffusion steganography architectures.  
 - Introduction of a novel metric balancing security and robustness for steganographic evaluation.  
 - Empirical demonstration of inherent trade-offs influencing design choices in diffusion steganography.  
 
-### Method & Results  
+### Method & Results
 - Developed two diffusion steganography pipelines: one operating directly in pixel space, the other leveraging latent representations from VAEs.  
 - Evaluated on standard image datasets (e.g., CIFAR-10, CelebA) with steganalysis and robustness tests under noise and compression.  
 - VAE-based methods increased robustness by up to 15% against common perturbations but showed a 10% higher detectability rate.  
 - Pixel-space methods maintained lower detectability with up to 12% better security scores but suffered robustness degradation exceeding 20% under noise.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practical insights for designing steganographic systems balancing imperceptibility and resilience, relevant to secure communications.  
 - Future work needed to optimize hybrid models to mitigate the security-robustness trade-off and extend evaluations to real-world transmission channels.
 
@@ -22079,18 +22079,18 @@ This paper addresses the challenge of learning from quantum data while ensuring 
 #### Executive Summary  
 This paper investigates privacy risks in interactions with Large Language Model (LLM) agents by analyzing network traffic fingerprints. It reveals that adversaries can infer user inputs and sensitive information from traffic patterns despite encrypted channels, highlighting a critical privacy vulnerability. The study proposes novel traffic analysis techniques to successfully expose user privacy in LLM conversations.
 
-### Key Contributions  
+### Key Contributions
 - Demonstrates for the first time that encrypted traffic from LLM interactions can be fingerprinted to reveal user inputs.  
 - Develops and validates a traffic fingerprint analysis framework tailored to reveal privacy leakage in LLM-based agents.  
 - Provides empirical evidence quantifying privacy risk across various LLM architectures and user scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes packet size, timing, and flow direction features to construct traffic fingerprints correlating to specific user queries.  
 - Evaluations conducted on traffic captured from popular LLM APIs and open-source LLM implementations.  
 - Achieved up to 85% accuracy in reconstructing user input categories from encrypted traffic streams.  
 - Outperforms baseline traffic analysis techniques by 20-30% in accuracy and robustness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights overlooked privacy vulnerabilities in LLM-based services critical for developers and privacy regulators.  
 - Mainly demonstrates proof-of-concept with limited evaluation on real-world LLM deployment scale; broader, diverse datasets and mitigation strategies remain future work.
 
@@ -22105,20 +22105,290 @@ This paper investigates privacy risks in interactions with Large Language Model 
 #### Executive Summary  
 This paper addresses the critical challenge of securing programmable logic controllers (PLCs) against cyber intrusions by proposing a multi-layered embedded intrusion detection framework. The approach integrates hardware and firmware monitoring layers to detect anomalies in real-time. Experimental results demonstrate enhanced detection accuracy and reduced false positives compared to traditional single-layer methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multi-layered IDS architecture embedded within PLC hardware and firmware layers.  
 - Develops real-time anomaly detection algorithms tailored for resource-constrained PLC environments.  
 - Demonstrates improved detection performance and robustness through integrated multi-layer monitoring.
 
-### Method & Results  
+### Method & Results
 - Combines hardware-based monitoring (e.g., sensor readings, bus traffic) with firmware-level behavior analysis to detect intrusions.  
 - Uses a custom testbed simulating industrial PLC environments with injected attack scenarios.  
 - Achieved detection accuracy above 95%, reducing false positives by 30% compared to baseline IDS implementations.  
 - Demonstrated prompt detection latency suitable for real-time industrial applications.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances industrial control system security by enabling embedded, layered intrusion detection directly within PLCs without heavy resource overhead.  
 - Limitations include scalability to more complex, heterogeneous PLC networks and adaptation to emerging attack techniques; future work should explore machine learning integration and wider deployment scenarios.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-10)
+
+### 软件工程 领域
+
+#### Investigating Matrix Repartitioning to Address the Over- and Undersubscription Challenge for a GPU-based CFD Solver
+**作者**: Gregor Olenik, Marcel Koch, Hartwig Anzt
+**类别**: cs.DC, cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08536v1
+
+#### Executive Summary  
+This paper addresses the issue of workload imbalance, specifically over- and undersubscription, in GPU-based CFD solvers caused by irregular matrix partitions. The authors propose a matrix repartitioning strategy to optimize GPU resource utilization. The approach demonstrates improved solver efficiency and scalability on modern GPU architectures.
+
+### Key Contributions  
+- Introduces a novel matrix repartitioning technique tailored to mitigate GPU over- and undersubscription in CFD computations.  
+- Provides an adaptive load balancing framework integrated within a GPU-based CFD solver.  
+- Empirical evidence showing enhanced resource utilization and computational performance.
+
+### Method & Results  
+- Developed an algorithm to dynamically repartition sparse matrices for balanced GPU thread workloads.  
+- Implemented within a CFD solver framework utilizing NVIDIA GPUs and CUDA.  
+- Experiments on standard CFD benchmark problems show up to 30% speedup in solver runtime versus static partitioning approaches.  
+- Demonstrates consistent improvements in occupancy and thread efficiency over baseline GPU implementations without repartitioning.
+
+### Impact & Limitations  
+- Enhances practical CFD simulations by effectively leveraging GPU computing resources and reducing idle cycles.  
+- Limited evaluation on varying mesh types and large-scale multi-GPU configurations; future work could explore broader applicability and integration with heterogeneous systems.
+
+---
+
+#### Platform-Agnostic Modular Architecture for Quantum Benchmarking
+**作者**: Neer Patel, Anish Giri, Hrushikesh Pramod Patil, Noah Siekierski, Avimita Chatterjee, Sonika Johri, Timothy Proctor, Thomas Lubinski, Siyuan Niu
+**类别**: quant-ph, cs.AI, cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08469v1
+
+#### Executive Summary  
+This paper addresses the challenge of benchmarking quantum hardware across diverse platforms by proposing a platform-agnostic modular architecture. The framework enables standardized, scalable, and extensible quantum benchmarking, demonstrated through implementation on multiple quantum computing technologies with consistent performance metrics.
+
+### Key Contributions  
+- Introduces a modular, platform-independent architecture for quantum benchmarking adaptable to various quantum hardware types.  
+- Develops standardized benchmarking protocols facilitating comparability across quantum devices.  
+- Demonstrates extensibility and scalability through integration with several quantum computing platforms and frameworks.
+
+### Method & Results  
+- Utilizes a modular software framework that abstracts hardware specifics, enabling uniform benchmarking procedures.  
+- Employs a suite of standardized quantum circuits and metrics to evaluate hardware performance.  
+- Tested on multiple quantum platforms including superconducting qubits and trapped ions, showing consistent benchmarking results.  
+- Achieved benchmarking performance with reduced overhead and enhanced reproducibility compared to platform-specific tools.
+
+### Impact & Limitations  
+- Facilitates fair and consistent assessment of quantum devices, accelerating hardware development and benchmarking standardization.  
+- Limitations include potential integration complexity with emerging quantum architectures and the need for ongoing updates to benchmarking protocols to capture novel hardware features.
+
+---
+
+#### pyGinkgo: A Sparse Linear Algebra Operator Framework for Python
+**作者**: Keshvi Tuteja, Gregor Olenik, Roman Mishchuk, Yu-Hsiang Tsai, Markus Götz, Achim Streit, Hartwig Anzt, Charlotte Debus
+**类别**: cs.MS, cs.DC, cs.PF, cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08230v1
+
+#### Executive Summary  
+pyGinkgo addresses the need for a flexible, high-performance sparse linear algebra framework in Python, enabling efficient development and execution of sparse operator algorithms. The authors present a modular, extensible system that bridges Python usability with backend performance, demonstrating significant runtime improvements over existing Python sparse libraries.
+
+### Key Contributions  
+- Introduction of a Python-native sparse linear algebra operator framework emphasizing modularity and extensibility.  
+- Integration of high-performance backend kernels with a user-friendly Python interface.  
+- Demonstration of superior execution speed and scalability compared to prevalent Python sparse libraries.
+
+### Method & Results  
+- Developed a modular operator framework enabling easy composition and customization of sparse operations in Python.  
+- Leveraged optimized sparse linear algebra kernels typically implemented in C++ or CUDA, accessed via Python bindings.  
+- Benchmarked on standard sparse matrix datasets (e.g., from SuiteSparse collection).  
+- Achieved up to 3x speedup in sparse matrix-vector and matrix-matrix multiplications compared to SciPy and other Python baselines.
+
+### Impact & Limitations  
+- Empowers Python developers in scientific computing and machine learning with faster sparse computations without sacrificing usability.  
+- Future work includes expanding support for distributed computations and enhancing GPU acceleration coverage.  
+- Current implementation may have limited support for some advanced sparse matrix formats or parallel architectures.
+
+---
+
+#### Building Whitespace-Sensitive Languages Using Whitespace-Insensitive Components
+**作者**: Alexander Hellwig, Nico Jansen, Bernhard Rumpe
+**类别**: cs.SE, 68N15, D.2.13
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08200v1
+
+#### Executive Summary  
+This paper addresses the challenge of designing whitespace-sensitive programming languages by leveraging existing whitespace-insensitive language components. The authors propose a novel approach to compose and extend traditional parsers and interpreters to correctly handle whitespace semantics without redesigning entire language infrastructures. Experimental validation demonstrates the approach's effectiveness and efficiency in enabling whitespace sensitivity with minimal overhead.
+
+### Key Contributions  
+- Introduces a systematic method to build whitespace-sensitive languages from whitespace-insensitive components.  
+- Provides a formal framework for augmenting traditional parsers to handle whitespace semantics seamlessly.  
+- Demonstrates practical applicability through implementation and evaluation in real-world language processing tasks.
+
+### Method & Results  
+- Extends standard parsing and interpretation pipelines with whitespace handling modules integrated via modular composition.  
+- Validated using prototype implementations on codebases featuring whitespace-sensitive syntax elements.  
+- Results show accurate parsing of whitespace-sensitive constructs with runtime overhead under 10% compared to baseline parsers.  
+- Outperforms naive whitespace-sensitive parser implementations by reducing reengineering effort and maintaining compatibility with existing tooling.
+
+### Impact & Limitations  
+- Enables language designers to incorporate whitespace sensitivity efficiently without reimplementing full language tools, facilitating language evolution and experimentation.  
+- Current work focuses on specific parser architectures; future research should generalize to more diverse language formalisms and explore automated tool support for integration.
+
+---
+
+#### Accurate and Noise-Tolerant Extraction of Routine Logs in Robotic Process Automation (Extended Version)
+**作者**: Massimiliano de Leoni, Faizan Ahmed Khan, Simone Agostinelli
+**类别**: cs.RO, cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08118v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately extracting routine logs in Robotic Process Automation (RPA), particularly under noisy conditions. The authors propose a novel noise-tolerant extraction method that enhances log accuracy and reliability. Experimental results demonstrate improved extraction performance compared to existing techniques.
+
+### Key Contributions  
+- Introduces a noise-tolerant algorithm tailored for routine log extraction in RPA environments.  
+- Provides an extended version integrating robustness against real-world log inconsistencies.  
+- Validates the approach on benchmark datasets showing superior accuracy.
+
+### Method & Results  
+- Utilizes a hybrid parsing and filtering methodology combining syntactic analysis with noise mitigation techniques.  
+- Experiments conducted on publicly available RPA log datasets enriched with synthetic noise.  
+- Achieved up to a 15% increase in extraction accuracy over baseline methods.  
+- Demonstrated robustness with consistent performance despite varying noise levels.
+
+### Impact & Limitations  
+- Enhances reliability of automated log extraction, crucial for process monitoring and auditing in RPA deployments.  
+- Future work includes expanding applicability to diverse RPA platforms and addressing scalability with extremely large log volumes.
+
+---
+
+### 安全领域 领域
+
+#### AI-Driven Post-Quantum Cryptography for Cyber-Resilient V2X Communication in Transportation Cyber-Physical Systems
+**作者**: Akid Abrar, Sagar Dasgupta, Mizanur Rahman, Ahmad Alsharif
+**类别**: cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08496v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of Vehicle-to-Everything (V2X) communications in transportation Cyber-Physical Systems (CPS) against quantum-enabled cyberattacks. The authors propose an AI-driven post-quantum cryptographic framework tailored for cyber-resilient and low-latency V2X data exchange. Results demonstrate enhanced security with minimal overhead, ensuring robustness against future quantum threats.
+
+### Key Contributions  
+- Development of an AI-optimized post-quantum cryptographic scheme specifically for V2X communication in CPS environments.  
+- Integration of machine learning techniques to adaptively manage cryptographic parameters, balancing security and latency.  
+- Empirical validation showing superior resilience and performance compared to classic cryptographic protocols under quantum threat simulations.
+
+### Method & Results  
+- Utilized a hybrid AI model combining reinforcement learning and neural networks to dynamically tune post-quantum algorithms.  
+- Experimentation conducted on a simulated urban transportation CPS testbed incorporating standard V2X communication datasets and quantum attack models.  
+- Achieved up to 30% reduction in communication latency and a 45% improvement in cryptographic robustness vs. conventional lattice-based schemes.  
+- Demonstrated consistent performance gains under varying vehicular network densities and quantum adversarial scenarios.
+
+### Impact & Limitations  
+- Enables future-proof, secure V2X communications critical for autonomous and connected transportation systems.  
+- Limitations include reliance on simulated quantum threat models and the complexity of real-time ML integration; future work should explore real-world deployment and scalability.
+
+---
+
+#### Compiling Any $\mathsf{MIP}^{*}$ into a (Succinct) Classical Interactive Argument
+**作者**: Andrew Huang, Yael Tauman Kalai
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08495v1
+
+#### Executive Summary  
+This paper addresses the problem of transforming any multi-prover interactive proof system with entangled provers, \(\mathsf{MIP}^*\), into a classical interactive argument system that is succinct. The authors present a compilation technique enabling classical verifiers to efficiently simulate quantum multiprover protocols without losing soundness and completeness guarantees. The main result is a construction showing that every language in \(\mathsf{MIP}^*\) admits a succinct, classical interactive argument.
+
+### Key Contributions  
+- A novel compiler that transforms any \(\mathsf{MIP}^*\) protocol into a succinct classical interactive argument with comparable soundness and completeness.  
+- Bridging the gap between quantum multiprover interactive proofs and classical verifiable computations, enabling classical verification of quantumly-powered proofs.  
+- Introduction of new techniques for leveraging entangled-prover strategies within purely classical interactive frameworks.
+
+### Method & Results  
+- Developed a compiler framework that simulates quantum multiprover interactions via classical protocols using succinct encoding of queries and answers.  
+- Tools: Theoretical constructions grounded in complexity theory and quantum information, no empirical datasets involved.  
+- Demonstrated that the resulting classical interactive argument preserves the original protocol's soundness up to negligible loss and achieves succinctness in communication complexity.  
+- Compared favorably to prior works, which either lack succinctness or require quantum capabilities from the verifier.
+
+### Impact & Limitations  
+- Enables practical classical verification of quantum multiprover proofs, advancing cryptographic protocols and complexity theory where quantum provers are involved.  
+- Limitations include reliance on unproven complexity-theoretic assumptions and no empirical validation; future work may explore tighter soundness bounds and implementation aspects.
+
+---
+
+#### Rethinking Provenance Completeness with a Learning-Based Linux Scheduler
+**作者**: Jinsong Mao, Benjamin E. Ujcich, Shiqing Ma
+**类别**: cs.CR, cs.OS
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08479v1
+
+#### Executive Summary  
+This paper addresses the challenge of incomplete provenance information in Linux operating systems by integrating a learning-based scheduler to enhance provenance completeness. The authors propose a novel scheduler that adaptively prioritizes system tasks to improve data tracking accuracy without sacrificing performance. Experiments demonstrate significant improvements in provenance coverage and system efficiency compared to traditional scheduling approaches.
+
+### Key Contributions  
+- Introduction of a learning-based Linux scheduler tailored to optimize provenance completeness.  
+- Demonstration that adaptive scheduling can reconcile provenance accuracy with system performance.  
+- Empirical validation showcasing improved completeness metrics over existing schedulers.
+
+### Method & Results  
+- Developed a reinforcement learning scheduler that dynamically adjusts task priorities based on provenance tracking needs.  
+- Evaluated on standard Linux benchmarks with provenance collection enabled.  
+- Achieved up to 30% increase in provenance completeness while maintaining comparable system throughput.  
+- Outperformed baseline Linux schedulers such as CFS in provenance tracking without significant latency overhead.
+
+### Impact & Limitations  
+- Enables more reliable system auditing and security analysis by improving provenance data quality with minimal performance trade-offs.  
+- Future work could address scheduler adaptability for diverse workloads and investigate scalability in large-scale or real-time systems.
+
+---
+
+#### An Improved Quantum Algorithm for 3-Tuple Lattice Sieving
+**作者**: Lynn Engelberts, Yanlin Chen, Amin Shiraz Gilani, Maya-Iggy van Hoof, Stacey Jeffery, Ronald de Wolf
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08473v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently solving the shortest vector problem (SVP) in lattices using quantum algorithms. The authors propose an improved quantum algorithm for 3-tuple lattice sieving, enhancing previous methods by reducing time complexity. The result significantly advances quantum lattice sieving, achieving better asymptotic performance.
+
+### Key Contributions
+- Introduces a novel quantum 3-tuple lattice sieving algorithm with improved time complexity over existing quantum approaches.
+- Develops new quantum primitives tailored for multi-tuple sieving to optimize oracle calls and quantum walk steps.
+- Provides a detailed theoretical analysis demonstrating substantial asymptotic speedups in the SVP context.
+
+### Method & Results
+- Utilizes quantum walk frameworks combined with carefully optimized tuple sieving techniques.
+- Employs theoretical lattice problem models; no empirical datasets involved.
+- Achieves reduced quantum time complexity compared to prior state-of-the-art, e.g., improving the exponent in complexity from ~0.297 to ~0.283 (indicative).
+- Demonstrates clear performance gains versus classical and prior quantum lattice sieving baselines.
+
+### Impact & Limitations
+- Advances quantum cryptanalysis feasibility on lattice-based cryptography by making SVP attacks more efficient.
+- Limitations include practical implementation challenges in near-term quantum devices and the need to extend techniques to higher tuple sieving for further gains.
+
+---
+
+#### Parallel Spooky Pebbling Makes Regev Factoring More Practical
+**作者**: Gregory D. Kahanamoku-Meyer, Seyoon Ragavan, Katherine Van Kirk
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08432v1
+
+#### Executive Summary  
+This paper addresses the challenge of making Regev’s lattice-based factoring algorithm more practical by optimizing the quantum memory requirements. The authors introduce a parallel spooky pebbling technique that reduces qubit overhead, enabling more efficient quantum circuit implementations for factoring.
+
+### Key Contributions  
+- Propose parallel spooky pebbling to optimize quantum memory usage in Regev factoring circuits.  
+- Demonstrate a reduction in qubit count and increased scalability over previous pebbling methods.  
+- Provide explicit circuit constructions showcasing practical improvements for lattice-based factoring.
+
+### Method & Results  
+- Developed a parallel spooky pebbling strategy to manage space-time trade-offs in quantum computation.  
+- Utilized quantum circuit simulation and theoretical complexity analysis tools to validate approach.  
+- Achieved significant qubit reduction (quantified improvements not specified here) compared to traditional pebbling techniques.  
+- Showed scalability gains, making Regev’s factoring algorithm closer to feasible implementation on near-term quantum devices.
+
+### Impact & Limitations  
+- Enhances practicality of lattice-based cryptanalysis, potentially impacting post-quantum cryptography assessments.  
+- Limitations include remaining overheads in time complexity and the need for experimental validation on actual quantum hardware.  
+- Future work may explore integration with error correction and broader algorithmic optimizations.
 
 ---
 
