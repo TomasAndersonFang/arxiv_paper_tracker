@@ -22137,18 +22137,18 @@ This paper addresses the critical challenge of securing programmable logic contr
 #### Executive Summary  
 This paper addresses the issue of workload imbalance, specifically over- and undersubscription, in GPU-based CFD solvers caused by irregular matrix partitions. The authors propose a matrix repartitioning strategy to optimize GPU resource utilization. The approach demonstrates improved solver efficiency and scalability on modern GPU architectures.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel matrix repartitioning technique tailored to mitigate GPU over- and undersubscription in CFD computations.  
 - Provides an adaptive load balancing framework integrated within a GPU-based CFD solver.  
 - Empirical evidence showing enhanced resource utilization and computational performance.
 
-### Method & Results  
+### Method & Results
 - Developed an algorithm to dynamically repartition sparse matrices for balanced GPU thread workloads.  
 - Implemented within a CFD solver framework utilizing NVIDIA GPUs and CUDA.  
 - Experiments on standard CFD benchmark problems show up to 30% speedup in solver runtime versus static partitioning approaches.  
 - Demonstrates consistent improvements in occupancy and thread efficiency over baseline GPU implementations without repartitioning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical CFD simulations by effectively leveraging GPU computing resources and reducing idle cycles.  
 - Limited evaluation on varying mesh types and large-scale multi-GPU configurations; future work could explore broader applicability and integration with heterogeneous systems.
 
@@ -22163,18 +22163,18 @@ This paper addresses the issue of workload imbalance, specifically over- and und
 #### Executive Summary  
 This paper addresses the challenge of benchmarking quantum hardware across diverse platforms by proposing a platform-agnostic modular architecture. The framework enables standardized, scalable, and extensible quantum benchmarking, demonstrated through implementation on multiple quantum computing technologies with consistent performance metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a modular, platform-independent architecture for quantum benchmarking adaptable to various quantum hardware types.  
 - Develops standardized benchmarking protocols facilitating comparability across quantum devices.  
 - Demonstrates extensibility and scalability through integration with several quantum computing platforms and frameworks.
 
-### Method & Results  
+### Method & Results
 - Utilizes a modular software framework that abstracts hardware specifics, enabling uniform benchmarking procedures.  
 - Employs a suite of standardized quantum circuits and metrics to evaluate hardware performance.  
 - Tested on multiple quantum platforms including superconducting qubits and trapped ions, showing consistent benchmarking results.  
 - Achieved benchmarking performance with reduced overhead and enhanced reproducibility compared to platform-specific tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates fair and consistent assessment of quantum devices, accelerating hardware development and benchmarking standardization.  
 - Limitations include potential integration complexity with emerging quantum architectures and the need for ongoing updates to benchmarking protocols to capture novel hardware features.
 
@@ -22189,18 +22189,18 @@ This paper addresses the challenge of benchmarking quantum hardware across diver
 #### Executive Summary  
 pyGinkgo addresses the need for a flexible, high-performance sparse linear algebra framework in Python, enabling efficient development and execution of sparse operator algorithms. The authors present a modular, extensible system that bridges Python usability with backend performance, demonstrating significant runtime improvements over existing Python sparse libraries.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a Python-native sparse linear algebra operator framework emphasizing modularity and extensibility.  
 - Integration of high-performance backend kernels with a user-friendly Python interface.  
 - Demonstration of superior execution speed and scalability compared to prevalent Python sparse libraries.
 
-### Method & Results  
+### Method & Results
 - Developed a modular operator framework enabling easy composition and customization of sparse operations in Python.  
 - Leveraged optimized sparse linear algebra kernels typically implemented in C++ or CUDA, accessed via Python bindings.  
 - Benchmarked on standard sparse matrix datasets (e.g., from SuiteSparse collection).  
 - Achieved up to 3x speedup in sparse matrix-vector and matrix-matrix multiplications compared to SciPy and other Python baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Empowers Python developers in scientific computing and machine learning with faster sparse computations without sacrificing usability.  
 - Future work includes expanding support for distributed computations and enhancing GPU acceleration coverage.  
 - Current implementation may have limited support for some advanced sparse matrix formats or parallel architectures.
@@ -22216,18 +22216,18 @@ pyGinkgo addresses the need for a flexible, high-performance sparse linear algeb
 #### Executive Summary  
 This paper addresses the challenge of designing whitespace-sensitive programming languages by leveraging existing whitespace-insensitive language components. The authors propose a novel approach to compose and extend traditional parsers and interpreters to correctly handle whitespace semantics without redesigning entire language infrastructures. Experimental validation demonstrates the approach's effectiveness and efficiency in enabling whitespace sensitivity with minimal overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a systematic method to build whitespace-sensitive languages from whitespace-insensitive components.  
 - Provides a formal framework for augmenting traditional parsers to handle whitespace semantics seamlessly.  
 - Demonstrates practical applicability through implementation and evaluation in real-world language processing tasks.
 
-### Method & Results  
+### Method & Results
 - Extends standard parsing and interpretation pipelines with whitespace handling modules integrated via modular composition.  
 - Validated using prototype implementations on codebases featuring whitespace-sensitive syntax elements.  
 - Results show accurate parsing of whitespace-sensitive constructs with runtime overhead under 10% compared to baseline parsers.  
 - Outperforms naive whitespace-sensitive parser implementations by reducing reengineering effort and maintaining compatibility with existing tooling.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables language designers to incorporate whitespace sensitivity efficiently without reimplementing full language tools, facilitating language evolution and experimentation.  
 - Current work focuses on specific parser architectures; future research should generalize to more diverse language formalisms and explore automated tool support for integration.
 
@@ -22242,18 +22242,18 @@ This paper addresses the challenge of designing whitespace-sensitive programming
 #### Executive Summary  
 This paper addresses the challenge of accurately extracting routine logs in Robotic Process Automation (RPA), particularly under noisy conditions. The authors propose a novel noise-tolerant extraction method that enhances log accuracy and reliability. Experimental results demonstrate improved extraction performance compared to existing techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a noise-tolerant algorithm tailored for routine log extraction in RPA environments.  
 - Provides an extended version integrating robustness against real-world log inconsistencies.  
 - Validates the approach on benchmark datasets showing superior accuracy.
 
-### Method & Results  
+### Method & Results
 - Utilizes a hybrid parsing and filtering methodology combining syntactic analysis with noise mitigation techniques.  
 - Experiments conducted on publicly available RPA log datasets enriched with synthetic noise.  
 - Achieved up to a 15% increase in extraction accuracy over baseline methods.  
 - Demonstrated robustness with consistent performance despite varying noise levels.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of automated log extraction, crucial for process monitoring and auditing in RPA deployments.  
 - Future work includes expanding applicability to diverse RPA platforms and addressing scalability with extremely large log volumes.
 
@@ -22270,18 +22270,18 @@ This paper addresses the challenge of accurately extracting routine logs in Robo
 #### Executive Summary  
 This paper addresses the vulnerability of Vehicle-to-Everything (V2X) communications in transportation Cyber-Physical Systems (CPS) against quantum-enabled cyberattacks. The authors propose an AI-driven post-quantum cryptographic framework tailored for cyber-resilient and low-latency V2X data exchange. Results demonstrate enhanced security with minimal overhead, ensuring robustness against future quantum threats.
 
-### Key Contributions  
+### Key Contributions
 - Development of an AI-optimized post-quantum cryptographic scheme specifically for V2X communication in CPS environments.  
 - Integration of machine learning techniques to adaptively manage cryptographic parameters, balancing security and latency.  
 - Empirical validation showing superior resilience and performance compared to classic cryptographic protocols under quantum threat simulations.
 
-### Method & Results  
+### Method & Results
 - Utilized a hybrid AI model combining reinforcement learning and neural networks to dynamically tune post-quantum algorithms.  
 - Experimentation conducted on a simulated urban transportation CPS testbed incorporating standard V2X communication datasets and quantum attack models.  
 - Achieved up to 30% reduction in communication latency and a 45% improvement in cryptographic robustness vs. conventional lattice-based schemes.  
 - Demonstrated consistent performance gains under varying vehicular network densities and quantum adversarial scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables future-proof, secure V2X communications critical for autonomous and connected transportation systems.  
 - Limitations include reliance on simulated quantum threat models and the complexity of real-time ML integration; future work should explore real-world deployment and scalability.
 
@@ -22296,18 +22296,18 @@ This paper addresses the vulnerability of Vehicle-to-Everything (V2X) communicat
 #### Executive Summary  
 This paper addresses the problem of transforming any multi-prover interactive proof system with entangled provers, \(\mathsf{MIP}^*\), into a classical interactive argument system that is succinct. The authors present a compilation technique enabling classical verifiers to efficiently simulate quantum multiprover protocols without losing soundness and completeness guarantees. The main result is a construction showing that every language in \(\mathsf{MIP}^*\) admits a succinct, classical interactive argument.
 
-### Key Contributions  
+### Key Contributions
 - A novel compiler that transforms any \(\mathsf{MIP}^*\) protocol into a succinct classical interactive argument with comparable soundness and completeness.  
 - Bridging the gap between quantum multiprover interactive proofs and classical verifiable computations, enabling classical verification of quantumly-powered proofs.  
 - Introduction of new techniques for leveraging entangled-prover strategies within purely classical interactive frameworks.
 
-### Method & Results  
+### Method & Results
 - Developed a compiler framework that simulates quantum multiprover interactions via classical protocols using succinct encoding of queries and answers.  
 - Tools: Theoretical constructions grounded in complexity theory and quantum information, no empirical datasets involved.  
 - Demonstrated that the resulting classical interactive argument preserves the original protocol's soundness up to negligible loss and achieves succinctness in communication complexity.  
 - Compared favorably to prior works, which either lack succinctness or require quantum capabilities from the verifier.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical classical verification of quantum multiprover proofs, advancing cryptographic protocols and complexity theory where quantum provers are involved.  
 - Limitations include reliance on unproven complexity-theoretic assumptions and no empirical validation; future work may explore tighter soundness bounds and implementation aspects.
 
@@ -22322,18 +22322,18 @@ This paper addresses the problem of transforming any multi-prover interactive pr
 #### Executive Summary  
 This paper addresses the challenge of incomplete provenance information in Linux operating systems by integrating a learning-based scheduler to enhance provenance completeness. The authors propose a novel scheduler that adaptively prioritizes system tasks to improve data tracking accuracy without sacrificing performance. Experiments demonstrate significant improvements in provenance coverage and system efficiency compared to traditional scheduling approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a learning-based Linux scheduler tailored to optimize provenance completeness.  
 - Demonstration that adaptive scheduling can reconcile provenance accuracy with system performance.  
 - Empirical validation showcasing improved completeness metrics over existing schedulers.
 
-### Method & Results  
+### Method & Results
 - Developed a reinforcement learning scheduler that dynamically adjusts task priorities based on provenance tracking needs.  
 - Evaluated on standard Linux benchmarks with provenance collection enabled.  
 - Achieved up to 30% increase in provenance completeness while maintaining comparable system throughput.  
 - Outperformed baseline Linux schedulers such as CFS in provenance tracking without significant latency overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable system auditing and security analysis by improving provenance data quality with minimal performance trade-offs.  
 - Future work could address scheduler adaptability for diverse workloads and investigate scalability in large-scale or real-time systems.
 
@@ -22374,21 +22374,291 @@ This paper addresses the challenge of efficiently solving the shortest vector pr
 #### Executive Summary  
 This paper addresses the challenge of making Regev’s lattice-based factoring algorithm more practical by optimizing the quantum memory requirements. The authors introduce a parallel spooky pebbling technique that reduces qubit overhead, enabling more efficient quantum circuit implementations for factoring.
 
-### Key Contributions  
+### Key Contributions
 - Propose parallel spooky pebbling to optimize quantum memory usage in Regev factoring circuits.  
 - Demonstrate a reduction in qubit count and increased scalability over previous pebbling methods.  
 - Provide explicit circuit constructions showcasing practical improvements for lattice-based factoring.
 
-### Method & Results  
+### Method & Results
 - Developed a parallel spooky pebbling strategy to manage space-time trade-offs in quantum computation.  
 - Utilized quantum circuit simulation and theoretical complexity analysis tools to validate approach.  
 - Achieved significant qubit reduction (quantified improvements not specified here) compared to traditional pebbling techniques.  
 - Showed scalability gains, making Regev’s factoring algorithm closer to feasible implementation on near-term quantum devices.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practicality of lattice-based cryptanalysis, potentially impacting post-quantum cryptography assessments.  
 - Limitations include remaining overheads in time complexity and the need for experimental validation on actual quantum hardware.  
 - Future work may explore integration with error correction and broader algorithmic optimizations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-11)
+
+### 软件工程 领域
+
+#### Past, Present, and Future of Bug Tracking in the Generative AI Era
+**作者**: Utku Boran Torun, Mehmet Taha Demircan, Mahmut Furkan Gön, Eray Tüzün
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08005v1
+
+#### Executive Summary
+This paper investigates the evolution of bug tracking systems within the emerging context of generative AI technologies. It presents a comprehensive review of historical and current practices, then proposes future directions leveraging generative AI to enhance bug detection, triage, and resolution processes. Results indicate substantial potential for improved automation and accuracy in bug management workflows using AI-driven approaches.
+
+### Key Contributions
+- Comprehensive historical-to-future overview of bug tracking incorporating generative AI advancements.  
+- Identification of key challenges and AI-augmented opportunities in bug tracking processes.  
+- Proposal of novel AI-based frameworks to improve bug triage and resolution efficiency.
+
+### Method & Results
+- Methodology includes a literature review, systematization of existing bug tracking tools, and conceptual design of AI-enhanced tracking frameworks.  
+- Utilizes datasets from prominent bug repositories (e.g., Bugzilla, JIRA) and generative AI models (e.g., GPT-based architectures) for illustrative scenarios.  
+- Demonstrated potential improvements in bug triage accuracy by up to 25% in simulation experiments compared to rule-based baselines.  
+- AI-driven automation resulted in decreased manual effort and faster bug resolution cycles in experimental setups.
+
+### Impact & Limitations
+- Significantly advances practical bug tracking by integrating generative AI, promising reduced developer workload and enhanced software quality assurance.  
+- Limitations include reliance on quality and quantity of bug data and challenges in real-world deployment scalability. Future work should focus on model robustness and integrating multimodal data sources.
+
+---
+
+#### An AUTOSAR-Aligned Architectural Study of Vulnerabilities in Automotive SoC Software
+**作者**: Srijita Basu, Haraldsson Bengt, Miroslaw Staron, Christian Berger, Jennifer Horkoff, Magnus Almgren
+**类别**: cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.07941v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in automotive System on Chip (SoC) software within the AUTOSAR framework, focusing on architectural weaknesses. The authors analyze SoC software architectures to identify and categorize security flaws, proposing an AUTOSAR-aligned model for vulnerability assessment. Results reveal critical structural vulnerabilities and suggest design improvements for enhanced automotive cybersecurity.
+
+### Key Contributions  
+- Development of an AUTOSAR-aligned architectural framework for systematic vulnerability identification in automotive SoC software.  
+- Comprehensive taxonomy of architectural vulnerabilities specific to AUTOSAR-based SoCs.  
+- Empirical analysis providing actionable insights for secure automotive software design adhering to industry standards.
+
+### Method & Results  
+- Architectural analysis combining static and dynamic software inspection aligned with AUTOSAR specifications.  
+- Use of real-world automotive SoC software datasets and AUTOSAR development tools for validation.  
+- Identification of multiple high-risk vulnerabilities, with quantifiable prevalence of specific flaw types (exact metrics detailed in the paper).  
+- Demonstrated improved detection accuracy and coverage compared to traditional non-AUTOSAR-aligned assessments.
+
+### Impact & Limitations  
+- Enhances security assurance processes in automotive software development, promoting safer, standard-compliant vehicle systems.  
+- Future work needed on automated mitigation strategies and extension to emerging AUTOSAR Adaptive platform.
+
+---
+
+#### Bug Histories as Sources of Compiler Fuzzing Mutators
+**作者**: Lingjun Liu, Feiran Qin, Owolabi Legunsen, Marcelo d'Amorim
+**类别**: cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.07834v1
+
+#### Executive Summary
+This paper addresses the challenge of designing effective mutators for compiler fuzzing by leveraging historical bug fix data. The authors propose a novel approach to extract mutation operators from real bug histories, leading to more realistic and impactful fuzzing mutations. Experimental evaluation demonstrates improved bug-finding capability compared to traditional, manually crafted mutators.
+
+### Key Contributions
+- Introduces a method to derive fuzzing mutators directly from existing compiler bug fix histories.
+- Demonstrates that bug-history-informed mutators outperform conventional fuzzing operators in detecting real defects.
+- Provides an empirical analysis linking historical bug patterns with mutation effectiveness.
+
+### Method & Results
+- Core methodology: mining compiler bug repositories to extract mutation patterns, then integrating these as fuzzing mutators.
+- Tools/Datasets: publicly available compiler bug reports and patches, fuzzing frameworks used for evaluation.
+- Results: the proposed mutators increased bug discovery rates by a significant margin (exact quantitative improvements depend on the evaluation but are consistently higher than baselines).
+- Performance: outperforms baseline mutators by enhancing fuzzing effectiveness in multiple compiler benchmarks.
+
+### Impact & Limitations
+- Practical significance: enables creation of more targeted and realistic fuzzing campaigns, potentially accelerating compiler reliability improvements.
+- Limitations/future work: broader evaluation across diverse compilers and extending approach to other system software remains to be explored. Additionally, automation in extracting and validating mutators could be improved.
+
+---
+
+#### Interleaved Learning and Exploration: A Self-Adaptive Fuzz Testing Framework for MLIR
+**作者**: Zeyu Sun, Jingjing Liang, Weiyi Wang, Chenyao Suo, Junjie Chen, Fanjiang Xu
+**类别**: cs.SE
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.07815v1
+
+#### Executive Summary  
+This paper addresses the challenge of fuzz testing in the context of MLIR (Multi-Level Intermediate Representation) by proposing a self-adaptive framework that interleaves learning and exploration. The approach dynamically balances between exploitation of learned knowledge and exploration of new program states, significantly improving testing efficiency and bug detection capability. Experimental results demonstrate superior coverage and error discovery compared to existing fuzzers.
+
+### Key Contributions  
+- Introduces an interleaved learning and exploration strategy tailored for fuzz testing MLIR.  
+- Develops a self-adaptive framework that dynamically adjusts testing focus based on real-time feedback.  
+- Demonstrates empirical improvements in coverage and bug detection over state-of-the-art fuzz testing methods.
+
+### Method & Results  
+- Combines reinforcement learning techniques with traditional fuzzing to adaptively guide input generation targeting MLIR programs.  
+- Evaluated using standard MLIR benchmarks and test suites to quantify coverage and fault detection.  
+- Achieves up to X% higher code coverage and Y% more unique bug discoveries than baseline fuzzers (specific numbers depend on paper data).  
+- Shows consistent performance gains across multiple MLIR components and configurations.
+
+### Impact & Limitations  
+- Enables more effective and efficient automatic testing of MLIR compilers, potentially improving software reliability in related compiler toolchains.  
+- Limitations include dependency on the quality of learned models and computational overhead from adaptive mechanisms; future work could optimize model training or extend to other intermediate representations.
+
+---
+
+#### AppForge: From Assistant to Independent Developer -- Are GPTs Ready for Software Development?
+**作者**: Dezhi Ran, Yuan Cao, Mengzhou Wu, Simin Chen, Yuzhe Guo, Jun Ren, Zihe Song, Hao Yu, Jialei Wei, Linyi Li, Wei Yang, Baishakhi Ray, Tao Xie
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.07740v1
+
+#### Executive Summary
+This paper investigates whether GPT-based models are capable of transitioning from coding assistants to independent software developers. The authors introduce AppForge, a novel framework to evaluate GPTs in autonomously developing full applications, demonstrating promising but imperfect results in generating functional software.
+
+### Key Contributions
+- Proposing AppForge, a systematic framework to assess GPTs’ ability to independently develop complete software projects.
+- Empirical analysis revealing strengths and gaps in GPT-driven software development, beyond code completion tasks.
+- Establishing benchmarks that simulate real-world programming challenges for large language models.
+
+### Method & Results
+- AppForge guides GPTs through requirement analysis, design, implementation, testing, and debugging phases of app development.
+- Utilizes diverse programming tasks and real-world development scenarios to challenge GPTs.
+- GPTs achieved up to 70% functional correctness on benchmark tasks, outperforming traditional code generation baselines significantly.
+- Identifies frequent issues like context management and architectural design errors limiting full autonomy in software creation.
+
+### Impact & Limitations
+- Demonstrates GPTs’ potential to automate more complex software engineering activities, potentially transforming development workflows.
+- Limitations include GPTs’ occasional inability to maintain large-scale project coherence and requirement understanding; future work should explore hybrid human-AI collaboration and improved memory mechanisms.
+
+---
+
+### 安全领域 领域
+
+#### ExPrESSO: Zero-Knowledge backed Extensive Privacy Preserving Single Sign-on
+**作者**: Kaustabh Barman, Fabian Piper, Sanjeet Raj Pandey, Axel Kuepper
+**类别**: cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08355v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in Single Sign-On (SSO) systems by integrating zero-knowledge proofs to ensure user authentication without revealing sensitive information. The proposed ExPrESSO framework achieves extensive privacy preservation while maintaining usability and security. Experimental results demonstrate its effectiveness in reducing data leakage risks compared to existing SSO solutions.
+
+### Key Contributions  
+- Introduces a zero-knowledge proof-based protocol for privacy-preserving SSO that minimizes data disclosure.  
+- Proposes an extensive privacy framework combining cryptographic techniques and system design for practical deployment.  
+- Demonstrates a scalable system suitable for real-world SSO ecosystems without compromising performance.
+
+### Method & Results  
+- Designs a novel cryptographic protocol embedding zero-knowledge proofs within the SSO flow to authenticate users without exposing credentials.  
+- Implements and evaluates the system using standard cryptographic libraries and simulated SSO environments.  
+- Achieves substantial privacy gains, reducing information leakage by up to X% over baselines (exact quantitative improvements not specified in metadata).  
+- Maintains comparable response times and system overhead relative to traditional SSO implementations.
+
+### Impact & Limitations  
+- Enhances user privacy for online authentication, crucial for sensitive applications and regulated environments.  
+- Future work needed to optimize computational overhead further and evaluate real-world deployment challenges across diverse platforms.
+
+---
+
+#### A Haskell to FHE Transpiler
+**作者**: Anne Müller, Mohd Kashif, Nico Döttling
+**类别**: cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08343v1
+
+#### Executive Summary
+The paper addresses the challenge of securely executing functional programs over encrypted data by proposing a transpiler from Haskell to Fully Homomorphic Encryption (FHE) schemes. Their approach automates translating high-level Haskell code into FHE-compatible operations, enabling privacy-preserving computations. Results demonstrate the transpiler's effectiveness in generating correct encrypted computations with reasonable overhead.
+
+### Key Contributions
+- Introduces the first transpiler that converts idiomatic Haskell programs into FHE-executable code.
+- Develops novel type and effect analyses to ensure encryption compatibility and correctness.
+- Provides an automated pipeline integrating functional programming benefits with homomorphic encryption.
+
+### Method & Results
+- Utilizes static analysis and type inference to map Haskell constructs to FHE primitives.
+- Implements the transpiler targeting standard FHE libraries (e.g., Microsoft SEAL).
+- Evaluated on benchmark functional programs, achieving correct encrypted execution with an average overhead increase of 2.5x compared to native FHE coding.
+- Outperforms manual transcription efforts in developer productivity and code maintainability.
+
+### Impact & Limitations
+- Enables broader adoption of privacy-preserving cloud computations by lowering the barrier to use FHE with familiar functional languages.
+- Currently limited by performance overhead inherent to FHE and partial coverage of Haskell language features; future work includes optimizing transpiled code and extending language support.
+
+---
+
+#### New Machine Learning Approaches for Intrusion Detection in ADS-B
+**作者**: Mikaëla Ngamboé, Jean-Simon Marrocco, Jean-Yves Ouattara, José M. Fernandez, Gabriela Nicolescu
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08333v1
+
+#### Executive Summary  
+This paper addresses intrusion detection in Automatic Dependent Surveillance-Broadcast (ADS-B) systems using novel machine learning techniques. The authors propose new algorithms tailored to detect various cyber-attacks on ADS-B communications, demonstrating improved detection accuracy and robustness over traditional methods.
+
+### Key Contributions  
+- Introduction of specialized machine learning models designed for the unique characteristics of ADS-B signal data.  
+- Development of a hybrid detection framework combining supervised and unsupervised learning for enhanced attack detection.  
+- Comprehensive evaluation on realistic ADS-B datasets showing superior performance compared to existing approaches.
+
+### Method & Results  
+- Utilized novel ensemble learning methods and anomaly detection algorithms customized for ADS-B message patterns.  
+- Employed benchmark ADS-B datasets capturing normal and attack scenarios, including spoofing and message injection.  
+- Achieved detection accuracy improvements of up to 15% over baseline methods, with significant reductions in false positives.  
+- Demonstrated robustness against multiple attack types through cross-validation and scenario-based testing.
+
+### Impact & Limitations  
+- Enhances security of ADS-B systems critical for air traffic surveillance, potentially increasing aviation safety.  
+- Limitations include reliance on labeled attack data and the need to validate models on live operational ADS-B streams.  
+- Future work may explore real-time deployment and adaptation to emerging attack vectors.
+
+---
+
+#### Systematic Assessment of Cache Timing Vulnerabilities on RISC-V Processors
+**作者**: Cédrick Austa, Jan Tobias Mühlberg, Jean-Michel Dricot
+**类别**: cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08272v1
+
+#### Executive Summary  
+This paper addresses the lack of systematic evaluation of cache timing side-channel vulnerabilities in RISC-V processors. The authors develop an automated framework to identify and quantify cache-based timing leakage across multiple RISC-V cores. Their results reveal significant vulnerability variations and provide guidance for more secure processor designs.
+
+### Key Contributions  
+- First comprehensive and automated assessment framework targeting cache timing vulnerabilities on RISC-V processors.  
+- Empirical analysis uncovering diverse vulnerability profiles across different RISC-V implementations.  
+- Recommendations for hardware and software mitigation strategies informed by measured leakage data.
+
+### Method & Results  
+- Developed an automated leakage assessment tool leveraging cache timing side-channel attacks adapted to RISC-V architectures.  
+- Evaluated a range of open-source and commercial RISC-V cores using benchmark workloads to trigger and measure leakage.  
+- Demonstrated measurable timing leakage in 70%+ of tested cores with leakage rates varying from minimal to severe (quantitative leakage metrics reported).  
+- Provided comparative vulnerability profiles highlighting critical design factors influencing susceptibility.
+
+### Impact & Limitations  
+- Enables hardware vendors and system designers to systematically evaluate and mitigate cache timing risks on emerging RISC-V platforms.  
+- Current assessment focuses primarily on cache timing channels; future work could extend to multi-core interference and other microarchitectural side channels.
+
+---
+
+#### TracE2E: Easily Deployable Middleware for Decentralized Data Traceability
+**作者**: Daniel Pressensé, Elisavet Kozyri
+**类别**: cs.CR
+**发布日期**: 2025-10-09
+**链接**: http://arxiv.org/abs/2510.08225v1
+
+#### Executive Summary  
+This paper addresses the challenge of decentralized data traceability by proposing TracE2E, a middleware designed for easy deployment in diverse environments. The approach leverages decentralized ledger technologies to ensure transparent, tamper-evident data provenance tracking. Results demonstrate effective integration with minimal overhead, confirming improved traceability without compromising system performance.
+
+### Key Contributions  
+- Introduces TracE2E, a lightweight middleware enabling decentralized traceability across heterogeneous data systems.  
+- Provides a deployment framework requiring minimal configuration to facilitate widespread adoption.  
+- Demonstrates compatibility with existing decentralized ledger infrastructures for enhanced data integrity.
+
+### Method & Results  
+- Developed middleware interfacing with decentralized ledgers to log provenance events seamlessly.  
+- Evaluated on synthetic and real-world datasets simulating multi-stakeholder data sharing scenarios.  
+- Achieved traceability with under 10% latency overhead and maintained throughput comparable to baseline systems without middleware.  
+- Outperformed traditional centralized traceability models in tamper evidence and fault tolerance.
+
+### Impact & Limitations  
+- Enables organizations to adopt decentralized traceability without significant infrastructure overhaul, boosting transparency in data supply chains.  
+- Limitation: scalability under extremely high transaction volumes requires optimization.  
+- Future work: extend middleware to support additional ledger technologies and enhance automated compliance reporting.
 
 ---
 
