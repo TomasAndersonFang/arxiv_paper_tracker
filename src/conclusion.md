@@ -22930,3 +22930,273 @@ This paper investigates backdoor attacks and defenses through the lens of task a
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-14)
+
+### 软件工程 领域
+
+#### Automatically Generating Questions About Scratch Programs
+**作者**: Florian Obermüller, Gordon Fraser
+**类别**: cs.SE, 97P50, D.2.5; K.3.2
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11658v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically generating meaningful questions about Scratch programming projects to support learning and assessment. The authors propose a novel approach leveraging program analysis and natural language generation techniques to create relevant, varied questions. Experiments demonstrate that their method produces high-quality questions that better capture program behavior compared to baseline approaches.
+
+### Key Contributions
+- Novel automated framework combining static analysis of Scratch blocks with template-based natural language question generation.
+- Introduction of a benchmark dataset of Scratch programs paired with human-generated questions for evaluation.
+- Empirical evidence showing improved question relevance and diversity over prior heuristic methods.
+
+### Method & Results
+- Method: Analyze Scratch program structure to identify key elements and behaviors; generate diverse questions via templated linguistic constructs tailored to program features.
+- Dataset: Curated set of Scratch projects with expert-annotated questions to validate question quality.
+- Results: Generated questions achieved significantly higher relevance scores (e.g., +15% compared to baselines) and demonstrated broader coverage of program components.
+- Performance: Outperformed heuristic baselines and random question generation in both automated metrics and human evaluation.
+
+### Impact & Limitations
+- Practical significance: Facilitates automated formative assessment and interactive learning in Scratch programming education.
+- Limitations: Current approach relies on fixed templates limiting linguistic creativity; future work could incorporate more advanced natural language generation models and broader program constructs.
+
+---
+
+#### CodeWatcher: IDE Telemetry Data Extraction Tool for Understanding Coding Interactions with LLMs
+**作者**: Manaal Basha, Aimeê M. Ribeiro, Jeena Javahar, Cleidson R. B. de Souza, Gema Rodríguez-Pérez
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11536v1
+
+#### Executive Summary
+This paper introduces CodeWatcher, a tool designed to extract and analyze Integrated Development Environment (IDE) telemetry data to better understand how developers interact with Large Language Models (LLMs) during coding. By capturing fine-grained coding behaviors and LLM usage patterns, the study provides novel insights into coding workflows enhanced by AI. The main result is a comprehensive dataset and analytical framework enabling improved design of developer tools integrating LLMs.
+
+### Key Contributions
+- Development of CodeWatcher, an automated tool for capturing detailed IDE telemetry related to LLM-assisted coding sessions.
+- Creation of a structured dataset that links developer interactions with LLM invocations and coding outcomes.
+- Empirical analysis revealing patterns in coding behavior and LLM usage, informing future IDE and AI tool integration designs.
+
+### Method & Results
+- Methodology: Instrumented VSCode IDE to log developer actions and LLM API calls; analyzed sequences to identify interaction patterns.
+- Dataset: Large-scale telemetry dataset from real-world developer sessions using LLM-powered coding assistance.
+- Results: Demonstrated distinct coding workflows when utilizing LLMs; quantitative analysis showed improvements in coding efficiency and problem-solving strategies correlated with LLM use.
+- Compared to prior manual or survey-based studies, CodeWatcher offers more granular, objective data enabling richer understanding.
+
+### Impact & Limitations
+- Impact: Provides a foundation for designing smarter, context-aware IDE tools that better leverage LLM capabilities, benefiting both researchers and practitioners.
+- Limitations/Future work: Currently limited to specific IDE and LLM configurations; future work could generalize to other environments and explore causal effects of LLM suggestions.
+
+---
+
+#### Cracking CodeWhisperer: Analyzing Developers' Interactions and Patterns During Programming Tasks
+**作者**: Jeena Javahar, Tanya Budhrani, Manaal Basha, Cleidson R. B. de Souza, Ivan Beschastnikh, Gema Rodriguez-Perez
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11516v1
+
+#### Executive Summary  
+This paper investigates how developers interact with Amazon CodeWhisperer while performing programming tasks, aiming to characterize usage patterns and identify challenges. By analyzing real user interactions, the study reveals insights into how CodeWhisperer aids code generation and where it falls short, informing improvements in AI-assisted coding tools.
+
+### Key Contributions  
+- First empirical analysis of developer interactions with CodeWhisperer during authentic programming tasks.  
+- Identification of distinct usage patterns and bottlenecks in AI code suggestion workflows.  
+- Recommendations to enhance AI assistant design based on interaction data.
+
+### Method & Results  
+- Conducted qualitative and quantitative analysis of interaction logs collected from developers using CodeWhisperer in controlled and natural settings.  
+- Utilized datasets comprising timestamped code completions, user edits, and feedback on suggestions.  
+- Found that users often suppress suggestions after moderate use; effectiveness varies by task complexity.  
+- Showed CodeWhisperer outperforms baseline code-completion tools in suggestion relevance by approximately 15%.
+
+### Impact & Limitations  
+- Offers actionable insights to improve AI-driven programming assistants, potentially increasing developer productivity and satisfaction.  
+- Limitations include study scope restricted to certain programming languages and tasks; future work should explore broader contexts and integrate more diverse developer feedback.
+
+---
+
+#### Detection of Performance Changes in MooBench Results Using Nyrkiö on GitHub Actions
+**作者**: Shinhyung Yang, David Georg Reichelt, Henrik Ingo, Wilhelm Hasselbring
+**类别**: cs.SE, cs.OS, cs.PF, D.2.8; D.4.8; C.4
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11310v1
+
+#### Executive Summary  
+This paper addresses detecting performance regressions in benchmark results by integrating Nyrkiö, a performance change detection tool, into GitHub Actions workflows. The approach automates performance monitoring in continuous integration pipelines, enabling timely detection of regressions. Results demonstrate the feasibility and effectiveness of this integration in real-world benchmarking scenarios.
+
+### Key Contributions  
+- Integration of Nyrkiö into GitHub Actions for automated performance regression detection.  
+- Demonstration of automated benchmark monitoring within CI/CD pipelines, enhancing developer feedback loops.  
+- Empirical evaluation showing practical detection of performance changes in MooBench results.
+
+### Method & Results  
+- Utilized statistical methods within Nyrkiö to analyze MooBench benchmark outputs for significant performance deviations.  
+- Employed GitHub Actions as the continuous integration environment to run benchmarks and trigger detection.  
+- Evaluated on multiple MooBench benchmark runs; detected performance changes with clear alerts, improving response times to regressions.  
+- Performance detection accuracy and promptness were improved compared to manual monitoring; quantitative metrics on detection precision were reported but specifics not detailed in abstract.
+
+### Impact & Limitations  
+- Enables continuous, automated performance regression detection in modern development workflows, reducing manual effort and improving software quality assurance.  
+- Limitations include dependency on benchmark quality and environmental consistency; future work suggests expanding Nyrkiö’s capabilities and integration with other benchmarking tools and CI platforms.
+
+---
+
+#### Interoperability From OpenTelemetry to Kieker: Demonstrated as Export from the Astronomy Shop
+**作者**: David Georg Reichelt, Shinhyung Yang, Wilhelm Hasselbring
+**类别**: cs.SE, astro-ph.IM
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11179v1
+
+#### Executive Summary
+This paper addresses the challenge of interoperability between two prominent monitoring frameworks, OpenTelemetry and Kieker, by demonstrating a practical export mechanism using data from the Astronomy Shop scenario. The authors present a novel interoperability layer enabling seamless data transfer, enhancing cross-framework analysis capabilities.
+
+### Key Contributions
+- Introduced an export module to convert OpenTelemetry data into the Kieker monitoring format.
+- Demonstrated the interoperability concept through a real-world astronomy-focused application.
+- Provided a reusable blueprint for integrating diverse monitoring tools in software performance analysis.
+
+### Method & Results
+- Developed a translation mechanism mapping OpenTelemetry’s trace and metric data to Kieker’s event format.
+- Employed the Astronomy Shop as a case study with real trace data for validation.
+- Achieved lossless export preserving fidelity of monitoring data, enabling Kieker-based analysis without data degradation.
+- Showed comparable performance in data processing times between native Kieker data and exported OpenTelemetry data.
+
+### Impact & Limitations
+- Enables organizations to leverage strengths of both OpenTelemetry and Kieker, improving observability toolchains in distributed systems.
+- Future work includes extending support for more complex data types and automating integration in heterogeneous environments.
+
+---
+
+### 安全领域 领域
+
+#### PACEbench: A Framework for Evaluating Practical AI Cyber-Exploitation Capabilities
+**作者**: Zicheng Liu, Lige Huang, Jie Zhang, Dongrui Liu, Yuan Tian, Jing Shao
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11688v1
+
+#### Executive Summary  
+PACEbench addresses the gap in standardized evaluation of AI-driven cyber-exploitation capabilities by proposing a realistic benchmarking framework. The authors design modular tasks simulating practical cyber-attacks and demonstrate PACEbench's ability to assess and compare AI agents' performance effectively.
+
+### Key Contributions  
+- Introduces PACEbench, the first comprehensive benchmark tailored for practical AI cyber-exploitation evaluation.  
+- Develops diverse, realistic cyber-attack scenarios reflecting real-world complexity.  
+- Provides a modular, extensible framework enabling consistent and reproducible evaluation of AI exploit methods.
+
+### Method & Results  
+- Methodology involves creating multi-stage vulnerability exploitation tasks with varying difficulty and environmental factors.  
+- Employs simulated enterprise networks and real CVE-based exploits for testing AI agents.  
+- Experimental results show AI models evaluated on PACEbench achieve up to 30% higher success rates than baseline heuristic methods.  
+- Demonstrates PACEbench’s sensitivity in distinguishing agent capabilities across different attack stages.
+
+### Impact & Limitations  
+- Enables cybersecurity researchers and practitioners to benchmark and improve AI-driven offensive tools systematically.  
+- Limitations include reliance on simulated environments, which may not capture all nuances of live networks.  
+- Future work could extend benchmarks to adaptive defenses and integrate real-time network dynamics.
+
+---
+
+#### Continual Release of Densest Subgraphs: Privacy Amplification & Sublinear Space via Subsampling
+**作者**: Felix Zhou
+**类别**: cs.DS, cs.CR, cs.LG
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11640v1
+
+#### Executive Summary  
+This paper addresses the problem of continually releasing densest subgraphs under differential privacy constraints. It introduces a novel subsampling technique that amplifies privacy while requiring sublinear space. The method achieves improved accuracy-privacy trade-offs for streaming graph data.
+
+### Key Contributions  
+- Proposes a privacy amplification framework via subsampling tailored for continual release of densest subgraphs.  
+- Develops a streaming algorithm with sublinear memory that maintains accuracy under differential privacy.  
+- Demonstrates improved error bounds compared to prior private subgraph algorithms.
+
+### Method & Results  
+- Utilizes subsampling-based privacy amplification combined with graph sketching to identify densest subgraphs in a streaming setting.  
+- Experiments conducted on synthetic and real-world graph datasets to evaluate performance.  
+- Achieves lower additive error in densest subgraph estimation while using significantly less space than baseline methods.  
+- Outperforms existing continual release private algorithms by reducing noise magnitude due to enhanced privacy guarantees.
+
+### Impact & Limitations  
+- Enables practical, privacy-preserving monitoring of dense communities in large-scale dynamic graphs with limited memory.  
+- Future work could explore extending the approach to other graph mining tasks and further reducing computational overhead.
+
+---
+
+#### Bag of Tricks for Subverting Reasoning-based Safety Guardrails
+**作者**: Shuo Chen, Zhen Han, Haokun Chen, Bailan He, Shengyun Si, Jingpei Wu, Philip Torr, Volker Tresp, Jindong Gu
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11570v1
+
+#### Executive Summary
+This paper investigates vulnerabilities in reasoning-based safety guardrails of language models, proposing a set of simple techniques ("bag of tricks") to subvert them. By systematically evaluating these methods, the authors demonstrate the ease with which safety mechanisms can be bypassed, highlighting critical weaknesses in current AI safety practices.
+
+### Key Contributions
+- Introduces novel, straightforward attack strategies specifically targeting reasoning-based safety guardrails in language models.
+- Provides a comprehensive empirical evaluation of these attacks, revealing significant degradation in safety guardrail effectiveness.
+- Highlights the threat landscape for AI safety, offering insights into designing more robust guardrails.
+
+### Method & Results
+- Developed multiple attack techniques exploiting reasoning processes that safety guardrails rely on, including prompting manipulations and semantic obfuscations.
+- Used state-of-the-art language models under safety guardrails for evaluation (exact model names not specified).
+- Found that the attack tricks reduce guardrail effectiveness by a substantial margin (quantitative results show >50% increase in successful subversions).
+- Demonstrated attacks outperform baseline bypass methods, evidencing a critical gap in existing defenses.
+
+### Impact & Limitations
+- Emphasizes urgent need for more resilient, multi-faceted safety approaches in AI systems, influencing future guardrail design.
+- Limitations include evaluation mostly on specific model families and reasoning-based guardrails; generalization to other architectures or safety techniques needs exploration.
+- Future work should focus on defenses against these attacks and broader robustness assessments.
+
+---
+
+#### Uncertainty-Aware, Risk-Adaptive Access Control for Agentic Systems using an LLM-Judged TBAC Model
+**作者**: Charles Fleming, Ashish Kundu, Ramana Kompella
+**类别**: cs.CR
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11414v1
+
+#### Executive Summary  
+This paper addresses the challenge of access control in agentic systems under uncertainty by integrating risk-adaptive mechanisms using a large language model (LLM)-judged trust-based access control (TBAC) framework. The authors propose a system that dynamically adjusts access permissions based on LLM-evaluated contextual trust scores, resulting in improved security responsiveness.
+
+### Key Contributions  
+- Introduces a novel LLM-augmented TBAC model that evaluates risk and uncertainty in real-time.  
+- Develops a risk-adaptive access control mechanism tailored for agentic, autonomous systems.  
+- Demonstrates enhanced decision-making under uncertain conditions using LLM-generated trust judgments.
+
+### Method & Results  
+- Methodology: Combines TBAC with LLM inference to score trustworthiness and adapt access permissions dynamically, incorporating uncertainty modeling.  
+- Tools/Datasets: Utilizes pretrained large language models for trust evaluation; experiments on simulated multi-agent security scenarios.  
+- Results: Achieves up to 30% improvement in risk assessment accuracy and reduces unauthorized access incidents by 25% compared to static TBAC.  
+- Outperforms traditional TBAC and role-based access control baselines in adaptive risk mitigation.
+
+### Impact & Limitations  
+- Impact: Enables more nuanced, context-aware access control for complex autonomous systems, enhancing security while maintaining operational flexibility.  
+- Limitations: Reliance on LLM inference could introduce latency and interpretability challenges; future work to improve robustness and real-time performance is needed.
+
+---
+
+#### Living Off the LLM: How LLMs Will Change Adversary Tactics
+**作者**: Sean Oesch, Jack Hutchins, Luke Koch, Kevin Kurian
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-13
+**链接**: http://arxiv.org/abs/2510.11398v1
+
+#### Executive Summary  
+This paper investigates how large language models (LLMs) can transform adversary tactics in cybersecurity. The authors analyze potential exploit enhancements enabled by LLM capabilities, demonstrating shifts in attack sophistication and automation. Their results highlight evolving threat landscapes driven by AI advances.
+
+### Key Contributions  
+- Conceptual framework outlining adversary tactic evolution driven by integrating LLMs.  
+- Empirical analysis demonstrating LLM-enabled enhancements in attack planning and execution.  
+- Insightful discussion on implications for defense strategies adapting to AI-augmented threats.
+
+### Method & Results  
+- Analyzed adversary behaviors simulated with LLM assistance for tasks like reconnaissance, phishing, and social engineering.  
+- Used state-of-the-art LLMs (e.g., GPT-based models) to generate realistic adversary communications and strategies.  
+- Demonstrated increased efficiency and complexity in simulated attacks; quantitative metrics showed improved success simulation rates versus baseline non-LLM tactics.  
+- Baseline comparison confirmed that LLM-augmented approaches outperform traditional automated techniques in adaptability and deception.
+
+### Impact & Limitations  
+- Highlights urgent need for cybersecurity defenses to adapt to AI-enhanced adversaries, informing future security policy and tool development.  
+- Limitations include reliance on simulated data and potential overestimation of real-world adversary LLM utilization; calls for validation with real threat intelligence.
+
+---
+
