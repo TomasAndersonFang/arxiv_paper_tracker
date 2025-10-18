@@ -23785,18 +23785,18 @@ This paper addresses the mismatch between how large language models (LLMs) gener
 #### Executive Summary  
 This paper addresses the challenge of migrating instruction sets across warehouse-scale computing environments, aiming to improve hardware adaptability and long-term system efficiency. The authors propose a novel migration framework that dynamically translates and manages instruction sets to maintain performance with minimal disruption. Results demonstrate significant runtime efficiency gains and reduced system downtime during migration.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a dynamic instruction set migration framework tailored for warehouse-scale systems.  
 - Demonstrates seamless execution continuity with minimal performance overhead during migration.  
 - Provides empirical evaluation at scale, highlighting practical deployment feasibility.
 
-### Method & Results  
+### Method & Results
 - Developed a translation and management layer that dynamically adapts instruction streams between differing ISAs without halting system operations.  
 - Evaluated on large-scale data center workloads simulated over diverse ISAs using proprietary warehouse-scale environment tools.  
 - Achieved up to 25% improvement in migration speed and 15% reduction in runtime performance degradation compared to static migration baselines.  
 - Showed near-transparent system operation with less than 3% average overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables hardware evolution in large data centers with minimal operational impact, potentially reducing costs and increasing flexibility.  
 - Future work: extending support for broader ISA diversity and improving migration automation; evaluating impact on heterogeneous multi-ISA environments.
 
@@ -23811,18 +23811,18 @@ This paper addresses the challenge of migrating instruction sets across warehous
 #### Executive Summary  
 This paper addresses the detection of source code supply chain attacks by analyzing code cohesion patterns. The authors propose a novel framework leveraging code cohesion metrics to identify suspicious inclusions indicative of malicious code injections. Experimental results demonstrate improved detection accuracy over traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel approach using code cohesion analysis to detect supply chain attacks in source code.  
 - Develops an automated framework that systematically identifies anomalous code segments disrupting cohesion.  
 - Provides empirical validation showing enhanced precision and recall in attack detection.
 
-### Method & Results  
+### Method & Results
 - Utilizes static code analysis to compute cohesion metrics and detect deviations signaling potential attacks.  
 - Evaluated on publicly available open-source projects and simulated injection scenarios.  
 - Achieved detection accuracy exceeding 90%, outperforming baseline heuristic and signature-based methods by 15-20% in F1 score.  
 - Demonstrates robustness across different programming languages and project sizes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical tools for securing software supply chains by early identification of tampered dependencies, aiding developers and security teams.  
 - Limited by reliance on static metrics that may miss sophisticated or stealthy attack patterns; future work could integrate dynamic analysis to enhance detection.  
 - Scalability and real-time application in large-scale CI/CD pipelines remain open challenges.
@@ -23838,18 +23838,18 @@ This paper addresses the detection of source code supply chain attacks by analyz
 #### Executive Summary  
 This paper investigates the capability of large language model (LLM) agents to autonomously reproduce web vulnerabilities, a critical task in cybersecurity testing. The authors develop an LLM-based framework for automated exploit generation and evaluate its effectiveness in reproducing known web vulnerabilities. Results indicate partial success but reveal significant challenges in reliability and precision, suggesting the field is not yet mature for fully automated reproduction.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM agent framework specifically tailored for automated web vulnerability reproduction.  
 - Provides the first systematic evaluation of LLM agents’ performance in replicating a diverse set of real-world web vulnerabilities.  
 - Highlights key failure modes and challenges in leveraging LLMs for security exploit automation.
 
-### Method & Results  
+### Method & Results
 - Method: Employs prompt-engineered LLM agents to generate exploit scripts based on vulnerability descriptions and web application contexts.  
 - Tools: Uses standard vulnerability datasets (e.g., OWASP WebGoat, DVWA) and custom validation frameworks to verify reproduction success.  
 - Results: Achieved reproduction success rates averaging around 45-55% across tested vulnerabilities.  
 - Compared to rule-based or manual baseline methods, LLM agents show improved automation but lower accuracy and consistency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Demonstrates potential for reducing manual efforts in penetration testing and vulnerability confirmation through AI assistance.  
 - Limitations: Current LLM agents lack robustness and precision, with notable false positives/negatives; future work should focus on integrating domain knowledge and improving context understanding.
 
@@ -23864,18 +23864,18 @@ This paper investigates the capability of large language model (LLM) agents to a
 #### Executive Summary  
 This paper addresses the challenge of defining precise requirements for traffic simulations within driving simulators to enhance realism and reliability. The authors propose a structured framework to identify and categorize these requirements based on functional and non-functional needs. The approach enables improved alignment between simulation fidelity and user expectations, validated through case studies.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a systematic requirement identification framework tailored for traffic simulation in driving simulators.  
 - Categorizes simulation requirements into functional, behavioral, and technical dimensions for clearer implementation guidance.  
 - Demonstrates the framework’s applicability via real-world simulation scenarios ensuring comprehensive requirement coverage.
 
-### Method & Results  
+### Method & Results
 - Developed a taxonomy-driven methodology combining expert interviews and literature analysis to compile requirement lists.  
 - Utilized driving simulator software platforms and traffic scenario databases for validation.  
 - Case studies showed enhanced detection of requirement gaps and increased simulation relevance.  
 - No explicit quantitative performance metrics reported; emphasis on qualitative improvement in requirement capture.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates development of more realistic driving simulators by clarifying simulation needs, benefiting automotive testing and research.  
 - Limitations include lack of automated metrics for requirement prioritization and limited empirical validation on diverse simulator types. Future work could address scalability and integration with real-time traffic data.
 
@@ -23892,17 +23892,17 @@ This paper addresses the challenge of defining precise requirements for traffic 
 #### Executive Summary  
 This paper addresses the challenge of evading ML-based malicious traffic detection systems under a hard-label black-box threat model, where only predicted labels are accessible. The authors propose a novel attack framework that efficiently crafts adversarial network traffic to bypass detection without relying on confidence scores. Experimental results demonstrate high evasion rates against state-of-the-art detectors.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hard-label black-box evasion attack specifically tailored for malicious traffic detection systems.  
 - Develops an efficient query strategy to generate adversarial perturbations using only predicted labels.  
 - Shows the attack’s effectiveness across multiple ML-based detectors, highlighting their vulnerability in realistic settings.
 
-### Method & Results  
+### Method & Results
 - Utilizes a decision-based attack method combining gradient estimation and iterative perturbations on network traffic features.  
 - Evaluated on benchmark malicious traffic datasets with popular ML detectors (e.g., Random Forest, SVM, DNN).  
 - Achieved evasion rates exceeding 85% with limited query budgets, outperforming baseline black-box attacks by 20% on average.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks for ML-based traffic detectors deployed in real-world cybersecurity environments.  
 - Limited by exploration of traffic feature perturbations; future work could focus on adaptive defenses and broader protocol-level evasion.
 
@@ -23996,20 +23996,291 @@ This paper addresses the challenge of provable unlearning in two-layer ReLU neur
 #### Executive Summary  
 This paper investigates column-based read disturbance errors in real DRAM chips, a phenomenon less studied than row-based disturbances. The authors characterize these errors through extensive experimental analysis and propose system-level implications and mitigation strategies to enhance DRAM reliability. Their findings reveal new insights into disturbance mechanisms, influencing future memory system designs.
 
-### Key Contributions  
+### Key Contributions
 - First comprehensive characterization of column-based read disturbance errors in real DRAM chips.  
 - Identification of distinct mechanisms behind column-based disturbances compared to traditional row-based errors.  
 - Proposal of system-level implications and potential mitigation techniques for improved DRAM reliability.
 
-### Method & Results  
+### Method & Results
 - Experimental characterization using real DRAM modules to systematically induce and measure column-based read disturbances.  
 - Analysis leveraging custom test patterns and error detection tools to isolate disturbance effects at the column granularity.  
 - Demonstrated measurable disturbance-induced errors at specific column addresses, with error rates exceeding baseline conditions by up to an order of magnitude.  
 - Compared to row-based disturbance models, column disturbances show unique spatial error distributions, highlighting limitations of existing mitigation schemes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances understanding of DRAM failure modes, guiding design of future memory controllers and error correction mechanisms.  
 - Limitations/Future work: Study focuses on specific DRAM generations; broader cross-vendor and technology node validation needed. Exploration of hardware-level mitigation techniques remains open.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-18)
+
+### 软件工程 领域
+
+#### ATGen: Adversarial Reinforcement Learning for Test Case Generation
+**作者**: Qingyao Li, Xinyi Dai, Weiwen Liu, Xiangyang Li, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang
+**类别**: cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14635v1
+
+#### Executive Summary
+This paper addresses automated test case generation by framing it as an adversarial reinforcement learning problem, aiming to generate challenging test inputs that expose software vulnerabilities. The proposed ATGen framework employs an adversarial agent to dynamically produce diverse, high-quality test cases, significantly improving fault detection rates. Experimental results demonstrate superior performance over state-of-the-art methods in both effectiveness and efficiency.
+
+### Key Contributions
+- Introduces ATGen, the first adversarial reinforcement learning framework tailored for software test case generation.
+- Designs a novel reward function to guide the adversarial agent towards generating fault-revealing test inputs.
+- Demonstrates significant improvements in bug detection rates compared to traditional and ML-based test generation approaches.
+
+### Method & Results
+- Utilizes an adversarial RL setup where one agent generates test cases and the environment provides dynamic feedback based on fault discovery.
+- Experiments conducted on widely-used benchmark datasets including Defects4J and open-source software repositories.
+- Achieves up to 25% higher fault detection rates and 30% faster convergence than baseline test generation tools.
+- Outperforms state-of-the-art techniques such as coverage-based and heuristic-driven methods in both accuracy and speed.
+
+### Impact & Limitations
+- Enables more effective automated software testing, potentially reducing manual efforts and improving software reliability.
+- Limitations include scalability challenges to large codebases and dependency on environment feedback quality.
+- Future work could explore combining static analysis with adversarial RL and extending to multi-agent frameworks.
+
+---
+
+#### Software Testing Education and Industry Needs - Report from the ENACTEST EU Project
+**作者**: Mehrdad Saadatmand, Abbas Khan, Beatriz Marin, Ana C. R Paiva, Nele Van Asch, Graham Moran, Felix Cammaerts, Monique Snoeck, Alexandra Mendes
+**类别**: cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14625v1
+
+#### Executive Summary  
+This paper addresses the gap between academic software testing education and the evolving needs of the software industry. The authors analyze the current education landscape and industry demands via the ENACTEST EU project, proposing aligned curricula and training methodologies. The main result is a set of recommendations and frameworks to enhance software testing education to better prepare students for industry challenges.
+
+### Key Contributions  
+- Identification of critical mismatches between software testing education and industry requirements through large-scale surveys and stakeholder interviews.  
+- Development of an integrated education-industry framework to modernize curricula based on real-world testing practices and tool usage.  
+- Guidelines for implementing continuous skill development to keep pace with evolving software testing technologies.
+
+### Method & Results  
+- Mixed-methods approach combining surveys, interviews, and workshops with academia and industry partners across Europe.  
+- Utilized datasets from ENACTEST project consortium: survey responses, educational course analyses, and industry feedback reports.  
+- Found over 60% of employers report graduates lack practical testing skills; academic programs overly focus on theoretical aspects.  
+- Proposed curricular adjustments improved student readiness by 30% in pilot evaluations (measured via skill assessment tests).  
+
+### Impact & Limitations  
+- Enhances alignment of academic programs with industry expectations, potentially improving graduate employability and productivity.  
+- Limited longitudinal data on the long-term effectiveness of recommended changes; future work should track graduates in industry over multiple years.
+
+---
+
+#### E2Edev: Benchmarking Large Language Models in End-to-End Software Development Task
+**作者**: Jingyao Liu, Chen Huang, Zhizhao Guan, Wenqiang Lei, Yang Deng
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14509v1
+
+#### Executive Summary
+This paper addresses the challenge of benchmarking large language models (LLMs) for end-to-end software development tasks. The authors propose E2Edev, a comprehensive benchmark designed to evaluate LLMs on coding, debugging, testing, and deployment phases. Experimental results demonstrate E2Edev’s effectiveness in revealing strengths and weaknesses of state-of-the-art LLMs.
+
+### Key Contributions
+- Introduces E2Edev, the first benchmark targeting entire software development lifecycle tasks for LLMs.
+- Provides a standardized evaluation framework encompassing code generation, debugging, testing, and deployment.
+- Offers extensive empirical analysis of leading LLMs, highlighting gaps in their end-to-end software development capabilities.
+
+### Method & Results
+- Constructs E2Edev benchmark by integrating multiple software engineering tasks reflecting real-world development workflows.
+- Evaluates popular LLMs (e.g., GPT variants) on E2Edev using quantitative metrics such as code correctness, bug detection rate, and test coverage.
+- Reports best models achieve up to ~70% accuracy on code generation but significantly lower performance on debugging and deployment tasks.
+- Demonstrates E2Edev outperforms previous datasets by covering comprehensive lifecycle stages.
+
+### Impact & Limitations
+- Enables more practical assessment of LLMs for software engineering, guiding future model improvements toward holistic development support.
+- Limits include current dependency on curated tasks that may not capture complex, large-scale software projects; future work could expand task diversity and real-world scenario complexity.
+
+---
+
+#### Certifying optimal MEV strategies with Lean
+**作者**: Massimo Bartoletti, Riccardo Marchesin, Roberto Zunino
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14480v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying optimal Miner Extractable Value (MEV) strategies in blockchain systems. The authors propose leveraging Lean, a formal verification tool, to certify the correctness and optimality of MEV strategies. Their approach provides rigorously verified guarantees, bridging gaps between theoretical MEV optimization and practical deployment.
+
+### Key Contributions  
+- Introduction of a formal framework using Lean for certifying MEV strategy optimality.  
+- Novel encoding of MEV strategy problems into formal proofs, enabling machine-checked correctness.  
+- Demonstration of Lean’s applicability to blockchain strategy verification, a first in the MEV research domain.
+
+### Method & Results  
+- Methodology: Formalization of MEV strategy optimization problems in Lean and certification of optimal strategies through proof automation.  
+- Tools used: Lean theorem prover for formal verification; MEV strategy datasets from public blockchain simulations.  
+- Results: Successfully certified multiple MEV strategies, confirming their optimality with formal proofs; showed that formal methods can detect and rule out suboptimal strategies.  
+- Performance comparable with heuristic approaches but with added guarantee of correctness.
+
+### Impact & Limitations  
+- Practical significance: Enhances trust and security in blockchain MEV extraction by providing mathematically grounded verification of strategy optimality.  
+- Limitations & Future Work: Scalability challenges in handling larger strategy spaces; extension to dynamic multi-agent MEV scenarios remains open.
+
+---
+
+#### Towards Automated Governance: A DSL for Human-Agent Collaboration in Software Projects
+**作者**: Adem Ait, Gwendal Jouneaux, Javier Luis Cánovas Izquierdo, Jordi Cabot
+**类别**: cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14465v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating governance in software projects by facilitating effective human-agent collaboration. The authors propose a Domain-Specific Language (DSL) tailored to specify governance rules and orchestrate interactions between humans and autonomous agents. Their approach demonstrates improved clarity and automation potential in managing project governance tasks.
+
+### Key Contributions  
+- Introduction of a novel DSL designed specifically for modeling and automating governance workflows in software projects.  
+- Framework enabling seamless collaboration between human stakeholders and software agents through explicit governance specifications.  
+- Validation through illustrative scenarios showing enhanced automation and governance consistency.
+
+### Method & Results  
+- Developed a DSL with formal syntax and semantics to express governance policies and roles in software projects.  
+- Implemented a prototype tool to parse, validate, and execute governance workflows integrating human and agent actions.  
+- Demonstrated effectiveness via case studies involving sample software project governance tasks.  
+- Quantitative metrics were not the study’s focus; instead, qualitative improvements in expressiveness and automation were highlighted.  
+- No direct baseline comparisons were reported.
+
+### Impact & Limitations  
+- Promotes structured and automated governance in software development, potentially reducing human errors and governance overhead.  
+- Current work is limited by lack of empirical evaluation at scale; future work includes integration with real-world project management tools and quantitative benchmarking.
+
+---
+
+### 安全领域 领域
+
+#### SLIE: A Secure and Lightweight Cryptosystem for Data Sharing in IoT Healthcare Services
+**作者**: Ha Xuan Son, Nguyen Quoc Anh, Phat T. Tran-Truong, Le Thanh Tuan, Pham Thanh Nghiem
+**类别**: cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14708v1
+
+#### Executive Summary
+This paper addresses secure data sharing challenges in IoT healthcare by proposing SLIE, a lightweight cryptosystem tailored for resource-constrained devices. The approach combines lightweight encryption techniques with IoT-specific optimizations, achieving robust security without compromising efficiency. Experimental results demonstrate SLIE's superior balance of security and performance compared to existing methods.
+
+### Key Contributions
+- Introduces SLIE, a novel lightweight cryptosystem optimized for IoT healthcare data sharing.
+- Demonstrates enhanced security with significantly reduced computational overhead.
+- Provides tailored design considerations for heterogeneous IoT healthcare environments.
+
+### Method & Results
+- Developed a lightweight encryption algorithm integrating lightweight symmetric primitives and key management optimized for IoT devices.
+- Evaluated using standard IoT healthcare datasets and simulations of heterogeneous IoT networks.
+- Achieved encryption/decryption times reduced by up to 40% and energy consumption decreased by 35% compared to AES and other baseline cryptosystems.
+- Maintained strong security guarantees, resisting common attacks relevant to IoT healthcare data.
+
+### Impact & Limitations
+- Enables secure, efficient data sharing in resource-constrained IoT healthcare settings, enhancing patient data confidentiality while preserving device longevity.
+- Limitations include scalability assessment in large-scale deployments and cross-protocol interoperability; future work should address multi-domain integration and advanced threat models.
+
+---
+
+#### FibRace: a large-scale benchmark of client-side proving on mobile devices
+**作者**: Simon Malatrait, Alex Sirac
+**类别**: cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14693v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficient client-side zero-knowledge proof generation on mobile devices, focusing on practicality and scalability. The authors propose FibRace, a large-scale benchmark suite to evaluate the performance of cryptographic proving systems under realistic mobile constraints, demonstrating significant insights into device capabilities and optimization needs.
+
+### Key Contributions  
+- Introduces FibRace, the first comprehensive benchmark for client-side proving on various mobile platforms.  
+- Provides extensive empirical analysis revealing performance bottlenecks in mobile zero-knowledge proof generation.  
+- Offers actionable optimization guidelines tailored for mobile cryptographic workloads.
+
+### Method & Results  
+- Developed a benchmarking framework simulating diverse proof systems across different mobile hardware configurations.  
+- Evaluated state-of-the-art proving algorithms using FibRace on multiple smartphone models.  
+- Demonstrated up to 40% improvement in proving time via proposed optimizations versus unoptimized baselines.  
+- Quantified memory and CPU usage, highlighting trade-offs specific to mobile environments.
+
+### Impact & Limitations  
+- Enables developers and researchers to better understand and improve cryptographic proofs on ubiquitous devices, facilitating broader deployment of privacy-preserving protocols.  
+- Current benchmarks focus primarily on existing proving schemes; future work could incorporate emerging proof systems and energy consumption metrics.
+
+---
+
+#### AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX
+**作者**: Nicolas Dutly, Friederike Groschupp, Ivan Puddu, Kari Kostiainen, Srdjan Capkun
+**类别**: cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14675v1
+
+#### Executive Summary  
+This paper addresses side-channel vulnerabilities in Intel SGX by introducing AEX-NStep, a probabilistic attack leveraging interrupt counting to infer enclave secrets. The authors propose an attack methodology that statistically analyzes enclave interruptions, achieving superior precision in key extraction compared to previous methods.
+
+### Key Contributions  
+- Introduces AEX-NStep, a novel probabilistic interrupt counting attack targeting Intel SGX enclaves.  
+- Demonstrates improved secret recovery rates by exploiting fine-grained interrupt patterns.  
+- Provides a comprehensive evaluation framework for SGX interruption-based side-channel attacks.
+
+### Method & Results  
+- Method: Develops a probabilistic model to analyze asynchronous enclave exits (AEXs) and correlates interrupt counts with secret-dependent enclave behaviors.  
+- Tools: Utilizes Intel SGX hardware in controlled experimental setups to collect interrupt counts during enclave execution.  
+- Results: Achieves up to X% higher secret extraction accuracy over baseline interrupt counting attacks (specific value not detailed here).  
+- Performance: Significantly outperforms traditional deterministic interrupt counting approaches in both success rate and efficiency.
+
+### Impact & Limitations  
+- Impact: Highlights a new practical attack vector on trusted execution environments, prompting the need for architectural mitigations in SGX and similar TEEs.  
+- Limitations: The attack depends on precise interrupt measurement, which may be affected by system noise; future work could extend to noisy, real-world conditions or other enclave platforms.
+
+---
+
+#### TITAN: Graph-Executable Reasoning for Cyber Threat Intelligence
+**作者**: Marco Simoni, Aleksandar Fontana, Andrea Saracino, Paolo Mori
+**类别**: cs.AI, cs.CL, cs.CR, cs.IR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14670v1
+
+#### Executive Summary  
+This paper addresses the challenge of reasoning over cyber threat intelligence (CTI) data by proposing TITAN, a graph-executable reasoning framework. The approach integrates structured graph representations with executable reasoning steps to enhance interpretability and accuracy in threat analysis. Results demonstrate improved performance in threat detection and intelligence extraction compared to baseline methods.
+
+### Key Contributions  
+- Introduces TITAN, a novel graph-executable reasoning framework tailored for CTI analysis.  
+- Combines knowledge graph structures with executable reasoning to improve interpretability in automated threat intelligence tasks.  
+- Demonstrates superior performance on real-world CTI datasets versus standard AI and NLP baselines.
+
+### Method & Results  
+- Utilizes a hybrid methodology combining knowledge graph construction from CTI text and an executable reasoning engine that processes graph queries stepwise.  
+- Evaluated on established CTI datasets (notably from industry threat reports and malware databases).  
+- Achieves significant gains in accuracy and reasoning transparency, e.g., up to 15% improvement in identifying complex threat relations.  
+- Outperforms state-of-the-art machine learning and NLP baselines in both precision and recall.
+
+### Impact & Limitations  
+- Enhances practical cyber defense by enabling more transparent reasoning over threat data, aiding analysts in decision-making.  
+- Limitations include potential scalability challenges with very large graphs and the need for richer CTI knowledge bases; future work could focus on optimizing scalability and integrating dynamic threat feeds.
+
+---
+
+#### Improving Cybercrime Detection and Digital Forensics Investigations with Artificial Intelligence
+**作者**: Silvia Lucia Sanna, Leonardo Regano, Davide Maiorca, Giorgio Giacinto
+**类别**: cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14638v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing cybercrime detection and digital forensics through artificial intelligence (AI). The authors propose an AI-driven framework that integrates advanced machine learning algorithms to improve detection accuracy and streamline forensic investigations. Experiments demonstrate significant improvements in identifying cyber threats and analyzing digital evidence compared to traditional methods.
+
+### Key Contributions
+- Development of a novel AI-based framework tailored for cybercrime detection and digital forensic analysis.
+- Integration of multiple machine learning models to enhance detection accuracy and evidence correlation.
+- Empirical validation showcasing improved performance over existing detection techniques.
+
+### Method & Results
+- Employed ensemble learning techniques combining deep neural networks and anomaly detection algorithms.
+- Utilized publicly available cybercrime datasets and real-world forensic case data for training and evaluation.
+- Achieved a detection accuracy improvement of up to 15% and reduced false positives by 10% relative to baseline systems.
+- Demonstrated faster forensic data processing times, aiding timely investigations.
+
+### Impact & Limitations
+- Provides practical tools to law enforcement and cybersecurity professionals, enhancing threat identification and case resolution speed.
+- Limitations include dependency on the quality of input data and the need for further validation on diverse cybercrime scenarios.
+- Future work suggests expanding the framework to incorporate emerging threat vectors and real-time analysis capabilities.
 
 ---
 
