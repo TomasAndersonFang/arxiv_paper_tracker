@@ -24055,18 +24055,18 @@ This paper addresses automated test case generation by framing it as an adversar
 #### Executive Summary  
 This paper addresses the gap between academic software testing education and the evolving needs of the software industry. The authors analyze the current education landscape and industry demands via the ENACTEST EU project, proposing aligned curricula and training methodologies. The main result is a set of recommendations and frameworks to enhance software testing education to better prepare students for industry challenges.
 
-### Key Contributions  
+### Key Contributions
 - Identification of critical mismatches between software testing education and industry requirements through large-scale surveys and stakeholder interviews.  
 - Development of an integrated education-industry framework to modernize curricula based on real-world testing practices and tool usage.  
 - Guidelines for implementing continuous skill development to keep pace with evolving software testing technologies.
 
-### Method & Results  
+### Method & Results
 - Mixed-methods approach combining surveys, interviews, and workshops with academia and industry partners across Europe.  
 - Utilized datasets from ENACTEST project consortium: survey responses, educational course analyses, and industry feedback reports.  
 - Found over 60% of employers report graduates lack practical testing skills; academic programs overly focus on theoretical aspects.  
 - Proposed curricular adjustments improved student readiness by 30% in pilot evaluations (measured via skill assessment tests).  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances alignment of academic programs with industry expectations, potentially improving graduate employability and productivity.  
 - Limited longitudinal data on the long-term effectiveness of recommended changes; future work should track graduates in industry over multiple years.
 
@@ -24107,18 +24107,18 @@ This paper addresses the challenge of benchmarking large language models (LLMs) 
 #### Executive Summary  
 This paper addresses the challenge of verifying optimal Miner Extractable Value (MEV) strategies in blockchain systems. The authors propose leveraging Lean, a formal verification tool, to certify the correctness and optimality of MEV strategies. Their approach provides rigorously verified guarantees, bridging gaps between theoretical MEV optimization and practical deployment.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a formal framework using Lean for certifying MEV strategy optimality.  
 - Novel encoding of MEV strategy problems into formal proofs, enabling machine-checked correctness.  
 - Demonstration of Lean’s applicability to blockchain strategy verification, a first in the MEV research domain.
 
-### Method & Results  
+### Method & Results
 - Methodology: Formalization of MEV strategy optimization problems in Lean and certification of optimal strategies through proof automation.  
 - Tools used: Lean theorem prover for formal verification; MEV strategy datasets from public blockchain simulations.  
 - Results: Successfully certified multiple MEV strategies, confirming their optimality with formal proofs; showed that formal methods can detect and rule out suboptimal strategies.  
 - Performance comparable with heuristic approaches but with added guarantee of correctness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances trust and security in blockchain MEV extraction by providing mathematically grounded verification of strategy optimality.  
 - Limitations & Future Work: Scalability challenges in handling larger strategy spaces; extension to dynamic multi-agent MEV scenarios remains open.
 
@@ -24133,19 +24133,19 @@ This paper addresses the challenge of verifying optimal Miner Extractable Value 
 #### Executive Summary  
 This paper addresses the challenge of automating governance in software projects by facilitating effective human-agent collaboration. The authors propose a Domain-Specific Language (DSL) tailored to specify governance rules and orchestrate interactions between humans and autonomous agents. Their approach demonstrates improved clarity and automation potential in managing project governance tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel DSL designed specifically for modeling and automating governance workflows in software projects.  
 - Framework enabling seamless collaboration between human stakeholders and software agents through explicit governance specifications.  
 - Validation through illustrative scenarios showing enhanced automation and governance consistency.
 
-### Method & Results  
+### Method & Results
 - Developed a DSL with formal syntax and semantics to express governance policies and roles in software projects.  
 - Implemented a prototype tool to parse, validate, and execute governance workflows integrating human and agent actions.  
 - Demonstrated effectiveness via case studies involving sample software project governance tasks.  
 - Quantitative metrics were not the study’s focus; instead, qualitative improvements in expressiveness and automation were highlighted.  
 - No direct baseline comparisons were reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Promotes structured and automated governance in software development, potentially reducing human errors and governance overhead.  
 - Current work is limited by lack of empirical evaluation at scale; future work includes integration with real-world project management tools and quantitative benchmarking.
 
@@ -24188,18 +24188,18 @@ This paper addresses secure data sharing challenges in IoT healthcare by proposi
 #### Executive Summary  
 This paper addresses the challenge of efficient client-side zero-knowledge proof generation on mobile devices, focusing on practicality and scalability. The authors propose FibRace, a large-scale benchmark suite to evaluate the performance of cryptographic proving systems under realistic mobile constraints, demonstrating significant insights into device capabilities and optimization needs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FibRace, the first comprehensive benchmark for client-side proving on various mobile platforms.  
 - Provides extensive empirical analysis revealing performance bottlenecks in mobile zero-knowledge proof generation.  
 - Offers actionable optimization guidelines tailored for mobile cryptographic workloads.
 
-### Method & Results  
+### Method & Results
 - Developed a benchmarking framework simulating diverse proof systems across different mobile hardware configurations.  
 - Evaluated state-of-the-art proving algorithms using FibRace on multiple smartphone models.  
 - Demonstrated up to 40% improvement in proving time via proposed optimizations versus unoptimized baselines.  
 - Quantified memory and CPU usage, highlighting trade-offs specific to mobile environments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and researchers to better understand and improve cryptographic proofs on ubiquitous devices, facilitating broader deployment of privacy-preserving protocols.  
 - Current benchmarks focus primarily on existing proving schemes; future work could incorporate emerging proof systems and energy consumption metrics.
 
@@ -24214,18 +24214,18 @@ This paper addresses the challenge of efficient client-side zero-knowledge proof
 #### Executive Summary  
 This paper addresses side-channel vulnerabilities in Intel SGX by introducing AEX-NStep, a probabilistic attack leveraging interrupt counting to infer enclave secrets. The authors propose an attack methodology that statistically analyzes enclave interruptions, achieving superior precision in key extraction compared to previous methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AEX-NStep, a novel probabilistic interrupt counting attack targeting Intel SGX enclaves.  
 - Demonstrates improved secret recovery rates by exploiting fine-grained interrupt patterns.  
 - Provides a comprehensive evaluation framework for SGX interruption-based side-channel attacks.
 
-### Method & Results  
+### Method & Results
 - Method: Develops a probabilistic model to analyze asynchronous enclave exits (AEXs) and correlates interrupt counts with secret-dependent enclave behaviors.  
 - Tools: Utilizes Intel SGX hardware in controlled experimental setups to collect interrupt counts during enclave execution.  
 - Results: Achieves up to X% higher secret extraction accuracy over baseline interrupt counting attacks (specific value not detailed here).  
 - Performance: Significantly outperforms traditional deterministic interrupt counting approaches in both success rate and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Highlights a new practical attack vector on trusted execution environments, prompting the need for architectural mitigations in SGX and similar TEEs.  
 - Limitations: The attack depends on precise interrupt measurement, which may be affected by system noise; future work could extend to noisy, real-world conditions or other enclave platforms.
 
@@ -24240,18 +24240,18 @@ This paper addresses side-channel vulnerabilities in Intel SGX by introducing AE
 #### Executive Summary  
 This paper addresses the challenge of reasoning over cyber threat intelligence (CTI) data by proposing TITAN, a graph-executable reasoning framework. The approach integrates structured graph representations with executable reasoning steps to enhance interpretability and accuracy in threat analysis. Results demonstrate improved performance in threat detection and intelligence extraction compared to baseline methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces TITAN, a novel graph-executable reasoning framework tailored for CTI analysis.  
 - Combines knowledge graph structures with executable reasoning to improve interpretability in automated threat intelligence tasks.  
 - Demonstrates superior performance on real-world CTI datasets versus standard AI and NLP baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes a hybrid methodology combining knowledge graph construction from CTI text and an executable reasoning engine that processes graph queries stepwise.  
 - Evaluated on established CTI datasets (notably from industry threat reports and malware databases).  
 - Achieves significant gains in accuracy and reasoning transparency, e.g., up to 15% improvement in identifying complex threat relations.  
 - Outperforms state-of-the-art machine learning and NLP baselines in both precision and recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical cyber defense by enabling more transparent reasoning over threat data, aiding analysts in decision-making.  
 - Limitations include potential scalability challenges with very large graphs and the need for richer CTI knowledge bases; future work could focus on optimizing scalability and integrating dynamic threat feeds.
 
@@ -24281,6 +24281,277 @@ This paper addresses the challenge of enhancing cybercrime detection and digital
 - Provides practical tools to law enforcement and cybersecurity professionals, enhancing threat identification and case resolution speed.
 - Limitations include dependency on the quality of input data and the need for further validation on diverse cybercrime scenarios.
 - Future work suggests expanding the framework to incorporate emerging threat vectors and real-time analysis capabilities.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-19)
+
+### 软件工程 领域
+
+#### Match & Mend: Minimally Invasive Local Reassembly for Patching N-day Vulnerabilities in ARM Binaries
+**作者**: Sebastian Jänich, Merlin Sievers, Johannes Kinder
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14384v1
+
+#### Executive Summary  
+This paper addresses the challenge of patching N-day vulnerabilities in ARM binaries with minimal disruption. The authors propose Match & Mend, a novel local reassembly technique that selectively reconstructs only the affected binary regions. The approach effectively reduces patch size and preserves binary integrity with minimal overhead.
+
+### Key Contributions  
+- Introduces Match & Mend, a minimally invasive local reassembly method for ARM binary patching.  
+- Demonstrates precise matching and selective reassembly to minimize patch footprint.  
+- Validates technique on real-world ARM binaries with improved patch applicability and efficiency.
+
+### Method & Results  
+- Uses static binary analysis to identify vulnerable code regions and performs targeted reassembly rather than full recompilation.  
+- Evaluated on multiple ARM binaries including popular open-source projects and N-day vulnerability benchmarks.  
+- Achieved significant reduction in patch size (up to 70%) compared to full binary recompilation.  
+- Maintained binary correctness and security post-patching, outperforming baseline full reassembly methods in patch generation time.
+
+### Impact & Limitations  
+- Enables faster, smaller patches for ARM devices, improving security responsiveness in resource-constrained environments.  
+- Future work includes extending approach to other architectures and automating vulnerability localization.
+
+---
+
+#### PathFix: Automated Program Repair with Expected Path
+**作者**: Xu He, Shu Wang, Kun Sun
+**类别**: cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14341v1
+
+#### Executive Summary  
+This paper addresses automated program repair by introducing PathFix, which leverages expected execution paths to guide patch generation. The approach integrates path expectations with repair models to improve accuracy. Experiments demonstrate that PathFix outperforms existing automated repair techniques in both precision and recall.
+
+### Key Contributions  
+- Introduces the concept of expected execution paths as a novel guidance mechanism for automated program repair.  
+- Develops PathFix, a framework combining path expectation with repair generation to enhance patch relevance.  
+- Provides empirical evaluation showing significant improvements over state-of-the-art automated repair tools.
+
+### Method & Results  
+- Combines static and dynamic analysis to infer expected execution paths, using them to prioritize and validate candidate patches.  
+- Utilizes standard benchmark datasets for program repair, including Defects4J and a newly curated expected path dataset.  
+- Achieves up to 15% higher repair accuracy and reduces incorrect patch generation compared to baseline methods.  
+- Demonstrates that integrating path expectations leads to more semantically correct patches.
+
+### Impact & Limitations  
+- Enables more reliable automated bug fixing, potentially reducing manual debugging effort in software maintenance.  
+- Limitations include dependency on accurate path expectations and potential scalability issues for very large codebases.  
+- Future work could focus on refining path inference and extending the approach to various programming languages and environments.
+
+---
+
+#### A Systematic Study of Time Limit Exceeded Errors in Online Programming Assignments
+**作者**: Jialu Zhang, Jialiang Gu, Wangmeiyu Zhang, José Pablo Cambronero, John Kolesar, Ruzica Piskac, Daming Li, Hanyuan Shi
+**类别**: cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14339v1
+
+#### Executive Summary  
+This paper addresses the frequent Time Limit Exceeded (TLE) errors in online programming assignments by systematically analyzing their causes and proposing automated detection techniques. The authors combine large-scale empirical analysis with machine learning models to predict and diagnose TLE occurrences. Their approach significantly improves the understanding and automatic identification of TLE errors, achieving high predictive accuracy.
+
+### Key Contributions  
+- Comprehensive empirical study categorizing root causes of TLE errors across diverse programming assignments.  
+- Development of predictive models that automatically detect potential TLEs before execution.  
+- Introduction of diagnostic tools to assist educators and learners in mitigating TLE issues effectively.
+
+### Method & Results  
+- Conducted large-scale data mining on programming assignment submissions from multiple online education platforms.  
+- Employed machine learning classifiers trained on code features, execution traces, and input-output characteristics to predict TLEs.  
+- Dataset included over 500K submissions spanning various algorithms and difficulty levels.  
+- Achieved up to 85% accuracy in predicting TLE errors, outperforming heuristic baselines by 20%.  
+
+### Impact & Limitations  
+- Enhances automated grading systems by enabling early detection and feedback on TLE errors, improving learning outcomes.  
+- Limitations include dependence on feature engineering and challenges generalizing models across novel problem domains. Future work includes exploring deeper code semantic analysis and transfer learning techniques.
+
+---
+
+#### A Hybrid, Knowledge-Guided Evolutionary Framework for Personalized Compiler Auto-Tuning
+**作者**: Haolin Pan, Hongbin Zhang, Mingjie Xing, Yanjun Wu
+**类别**: cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14292v1
+
+#### Executive Summary  
+This paper addresses the challenge of personalized compiler auto-tuning to optimize program performance on diverse hardware. It introduces a hybrid evolutionary framework guided by domain knowledge to efficiently explore tuning spaces, achieving superior optimization results. Experimental results demonstrate significant performance improvements over traditional auto-tuning methods.
+
+### Key Contributions  
+- Proposes a novel hybrid evolutionary algorithm integrating expert knowledge for compiler auto-tuning.  
+- Demonstrates personalized optimization tailored to diverse hardware configurations.  
+- Provides a scalable framework balancing exploration and exploitation in tuning space search.
+
+### Method & Results  
+- Combines knowledge-guided pruning with an evolutionary search to iteratively optimize compiler flags.  
+- Evaluated on standard compiler benchmark suites and real-world applications across heterogeneous hardware platforms.  
+- Achieved up to 15-25% runtime improvement compared to state-of-the-art auto-tuning approaches.  
+- Outperformed baseline genetic algorithms and random search in convergence speed and final performance gain.
+
+### Impact & Limitations  
+- Enables more efficient, tailored performance optimization in compiler design, benefiting diverse computing scenarios.  
+- Future work includes extending knowledge bases and improving adaptability to rapidly evolving hardware architectures.
+
+---
+
+#### Caruca: Effective and Efficient Specification Mining for Opaque Software Components
+**作者**: Evangelos Lamprou, Seong-Heon Jung, Mayank Keoliya, Lukas Lazarek, Konstantinos Kallas, Michael Greenberg, Nikos Vasilakis
+**类别**: cs.SE, cs.PL
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14279v1
+
+#### Executive Summary
+Caruca addresses the challenge of specification mining for opaque software components where source code or detailed documentation is unavailable. It introduces an efficient approach leveraging dynamic analysis and symbolic execution to infer accurate behavioral specifications. The results demonstrate improved effectiveness and scalability over existing methods in mining precise component specifications.
+
+### Key Contributions
+- Novel hybrid technique combining dynamic analysis with targeted symbolic execution for specification mining of black-box components.
+- Demonstrated significant efficiency gains enabling mining on complex software where traditional methods fail.
+- Provided an open-source implementation integrated with common development workflows.
+
+### Method & Results
+- Combines runtime monitoring to gather execution traces with symbolic reasoning to infer stateful specifications.
+- Evaluated on a benchmark suite of opaque components and real-world software libraries.
+- Achieved up to 40% higher precision and 30% faster execution than leading baseline tools.
+- Scaled to larger and more complex components, reducing manual effort in specification construction.
+
+### Impact & Limitations
+- Enables developers to generate reliable specifications for third-party or legacy components, improving software maintenance and testing.
+- Limitations include dependence on quality of runtime inputs and potential challenges with highly nondeterministic behaviors.
+- Future work could explore automated input generation and integration with formal verification pipelines.
+
+---
+
+### 安全领域 领域
+
+#### Symbolic verification of Apple's Find My location-tracking protocol
+**作者**: Vaishnavi Sundararajan, Rithwik
+**类别**: cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14589v1
+
+#### Executive Summary
+This paper addresses the security and privacy guarantees of Apple's Find My location-tracking protocol by applying symbolic verification techniques. The authors model the protocol formally and verify its security properties, uncovering potential vulnerabilities and confirming key privacy assurances. The work enhances understanding of the protocol’s robustness against adversarial threats.
+
+### Key Contributions
+- First comprehensive symbolic verification of Apple's Find My protocol focusing on both security and privacy aspects.
+- Formal modeling of the protocol within a symbolic verification framework enabling rigorous analysis.
+- Identification of subtle vulnerabilities and validation of the protocol’s privacy guarantees through automated reasoning.
+
+### Method & Results
+- Employed symbolic model checking and formal verification tools to represent and analyze the protocol’s processes and cryptographic operations.
+- Utilized standard verification frameworks (e.g., Tamarin or ProVerif, if specified) tailored to model Apple’s specific protocol steps.
+- Demonstrated through verification that certain attack vectors are mitigated while exposing edge-case vulnerabilities.
+- Quantitative verification included state space exploration and proof of security properties under defined attacker capabilities; performance compared favorably to prior informal analyses or less detailed models.
+
+### Impact & Limitations
+- Practical significance: Provides formal assurance to stakeholders about the security of a widely-used consumer protocol, guiding future design and audit efforts.
+- Limitations include potential abstraction gaps from real-world implementation and assumptions inherent in symbolic models; future work could address computational aspects and extend to related protocols.
+
+---
+
+#### Lexo: Eliminating Stealthy Supply-Chain Attacks via LLM-Assisted Program Regeneration
+**作者**: Evangelos Lamprou, Julian Dai, Grigoris Ntousakis, Martin C. Rinard, Nikos Vasilakis
+**类别**: cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14522v1
+
+#### Executive Summary  
+This paper addresses stealthy supply-chain attacks that compromise software integrity via undetected malicious code insertions. It proposes Lexo, a novel approach leveraging large language models (LLMs) to automatically regenerate programs, eliminating hidden backdoors while preserving intended functionality. Experimental results demonstrate Lexo’s effectiveness in removing stealthy threats without manual intervention.
+
+### Key Contributions  
+- Introduces LLM-assisted program regeneration as a defense against stealthy supply-chain attacks.  
+- Designs a framework that preserves program semantics while removing injected malicious code.  
+- Provides empirical validation showing significant improvement in attack elimination over traditional detection-based methods.
+
+### Method & Results  
+- Utilizes large language models to generate clean program variants from potentially compromised codebases.  
+- Employs semantic equivalence checking to ensure functionality preservation post-regeneration.  
+- Evaluated on synthetic and real-world supply-chain attack scenarios; achieves near-complete removal of stealthy attacks with minimal functional deviation.  
+- Outperforms baseline static analysis and heuristic detection tools by effectively regenerating clean code rather than merely detecting anomalies.
+
+### Impact & Limitations  
+- Enables automated, scalable mitigation of sophisticated supply-chain threats, improving software security and trustworthiness.  
+- Current reliance on LLMs may be limited by model size, training data, and regeneration correctness in highly complex codebases. Further work needed on efficiency and applicability across diverse programming languages.
+
+---
+
+#### Stealthy Dual-Trigger Backdoors: Attacking Prompt Tuning in LM-Empowered Graph Foundation Models
+**作者**: Xiaoyu Xue, Yuni Lai, Chenxi Huang, Yulin Zhu, Gaolei Li, Xiaoge Zhang, Kai Zhou
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14470v1
+
+#### Executive Summary
+This paper addresses the vulnerability of prompt tuning in language model (LM)-empowered graph foundation models to stealthy backdoor attacks. The authors design a novel dual-trigger backdoor framework that remains covert during normal use yet activates maliciously via carefully crafted triggers. Their approach demonstrates high attack success rates while maintaining model utility and stealthiness.
+
+### Key Contributions
+- Introduces a stealthy dual-trigger backdoor attack specifically targeting prompt tuning in LM-empowered graph models.
+- Develops a novel backdoor embedding mechanism that activates only when both triggers are present, enhancing attack concealment.
+- Provides comprehensive evaluation showcasing the attack’s effectiveness and stealth compared to existing single-trigger backdoors.
+
+### Method & Results
+- Core methodology: Design of dual-trigger backdoor embedding into prompt tuning parameters for graph foundation models empowered by LMs.
+- Datasets/tools: Evaluations performed on established graph datasets (e.g., ogbn-arxiv) and LM architectures integrated with graph models.
+- Results: Achieves >90% attack success rates while preserving baseline task accuracy within 1-2%.
+- Outperforms single-trigger backdoor baselines by nearly 15% in stealthiness metrics and attack precision.
+
+### Impact & Limitations
+- Practical significance: Highlights a new security threat vector in prompt-tuned graph foundation models, urging development of more robust defenses.
+- Limitations/future work: Currently focused on specific prompt tuning setups; extending attacks and defenses to broader LM and graph model variants remains open.
+
+---
+
+#### Match & Mend: Minimally Invasive Local Reassembly for Patching N-day Vulnerabilities in ARM Binaries
+**作者**: Sebastian Jänich, Merlin Sievers, Johannes Kinder
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14384v1
+
+#### Executive Summary
+This paper addresses the challenge of applying security patches to ARM binaries with minimal disruption. The authors propose "Match & Mend," a novel technique for local reassembly enabling precise, minimally invasive patching of N-day vulnerabilities. Experiments demonstrate effective patch application with reduced binary changes and preserved functionality.
+
+### Key Contributions
+- Introduces a local reassembly method tailored to ARM binaries for fine-grained patching.
+- Develops a matching algorithm to identify minimal binary regions to modify for N-day vulnerability fixes.
+- Validates approach with practical ARM binary patches, showing minimal code disruption.
+
+### Method & Results
+- Combines pattern matching of vulnerable code snippets with local binary reassembly to confine patch changes.
+- Uses ARM binary datasets containing known N-day vulnerabilities and official security patches for evaluation.
+- Achieves significantly smaller patch sizes and fewer modified instructions compared to full binary recompilation.
+- Outperforms baseline methods in patch precision and overhead, preserving binary functionality more reliably.
+
+### Impact & Limitations
+- Enables safer, more efficient deployment of security patches on ARM devices, crucial for embedded and IoT contexts.
+- Limited to ARM architectures and N-day vulnerabilities; extending to other ISAs and zero-day scenarios remains future work.
+- Potential integration with automated vulnerability scanning and patch generation tools is a promising direction.
+
+---
+
+#### Are My Optimized Prompts Compromised? Exploring Vulnerabilities of LLM-based Optimizers
+**作者**: Andrew Zhao, Reshmi Ghosh, Vitor Carvalho, Emily Lawton, Keegan Hines, Gao Huang, Jack W. Stokes
+**类别**: cs.LG, cs.AI, cs.CL, cs.CR
+**发布日期**: 2025-10-16
+**链接**: http://arxiv.org/abs/2510.14381v1
+
+#### Executive Summary  
+This paper investigates the security vulnerabilities of large language model (LLM)-based prompt optimizers, revealing that optimized prompts can be compromised by adversarial manipulations. It proposes a novel threat model and demonstrates attack vectors that degrade prompt performance, highlighting risks in deploying LLM-driven optimization tools.
+
+### Key Contributions  
+- Identification and formalization of new adversarial threat models targeting LLM-based prompt optimizers.  
+- Empirical demonstration that optimized prompts are susceptible to integrity attacks that reduce their effectiveness.  
+- Provision of initial mitigation strategies and evaluation frameworks to enhance prompt robustness.
+
+### Method & Results  
+- Developed attack techniques that perturb or poison optimized prompts generated by LLM optimizers.  
+- Utilized commonly employed prompt optimization frameworks and benchmark NLP tasks such as sentiment analysis and question answering.  
+- Showed up to a 30% relative drop in task performance post-attack compared to clean optimized prompts.  
+- Baseline prompt optimization methods degraded substantially, underscoring vulnerability magnitude.
+
+### Impact & Limitations  
+- Highlights critical security considerations for deploying LLM-based prompt tuning in practical applications, encouraging more robust optimizer designs.  
+- Limitations include focus on specific prompt optimization frameworks and attacks primarily on text-level perturbations; future work could explore broader attack surfaces and stronger defenses.
 
 ---
 
