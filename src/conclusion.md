@@ -24299,18 +24299,18 @@ This paper addresses the challenge of enhancing cybercrime detection and digital
 #### Executive Summary  
 This paper addresses the challenge of patching N-day vulnerabilities in ARM binaries with minimal disruption. The authors propose Match & Mend, a novel local reassembly technique that selectively reconstructs only the affected binary regions. The approach effectively reduces patch size and preserves binary integrity with minimal overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Match & Mend, a minimally invasive local reassembly method for ARM binary patching.  
 - Demonstrates precise matching and selective reassembly to minimize patch footprint.  
 - Validates technique on real-world ARM binaries with improved patch applicability and efficiency.
 
-### Method & Results  
+### Method & Results
 - Uses static binary analysis to identify vulnerable code regions and performs targeted reassembly rather than full recompilation.  
 - Evaluated on multiple ARM binaries including popular open-source projects and N-day vulnerability benchmarks.  
 - Achieved significant reduction in patch size (up to 70%) compared to full binary recompilation.  
 - Maintained binary correctness and security post-patching, outperforming baseline full reassembly methods in patch generation time.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster, smaller patches for ARM devices, improving security responsiveness in resource-constrained environments.  
 - Future work includes extending approach to other architectures and automating vulnerability localization.
 
@@ -24325,18 +24325,18 @@ This paper addresses the challenge of patching N-day vulnerabilities in ARM bina
 #### Executive Summary  
 This paper addresses automated program repair by introducing PathFix, which leverages expected execution paths to guide patch generation. The approach integrates path expectations with repair models to improve accuracy. Experiments demonstrate that PathFix outperforms existing automated repair techniques in both precision and recall.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of expected execution paths as a novel guidance mechanism for automated program repair.  
 - Develops PathFix, a framework combining path expectation with repair generation to enhance patch relevance.  
 - Provides empirical evaluation showing significant improvements over state-of-the-art automated repair tools.
 
-### Method & Results  
+### Method & Results
 - Combines static and dynamic analysis to infer expected execution paths, using them to prioritize and validate candidate patches.  
 - Utilizes standard benchmark datasets for program repair, including Defects4J and a newly curated expected path dataset.  
 - Achieves up to 15% higher repair accuracy and reduces incorrect patch generation compared to baseline methods.  
 - Demonstrates that integrating path expectations leads to more semantically correct patches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable automated bug fixing, potentially reducing manual debugging effort in software maintenance.  
 - Limitations include dependency on accurate path expectations and potential scalability issues for very large codebases.  
 - Future work could focus on refining path inference and extending the approach to various programming languages and environments.
@@ -24352,18 +24352,18 @@ This paper addresses automated program repair by introducing PathFix, which leve
 #### Executive Summary  
 This paper addresses the frequent Time Limit Exceeded (TLE) errors in online programming assignments by systematically analyzing their causes and proposing automated detection techniques. The authors combine large-scale empirical analysis with machine learning models to predict and diagnose TLE occurrences. Their approach significantly improves the understanding and automatic identification of TLE errors, achieving high predictive accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive empirical study categorizing root causes of TLE errors across diverse programming assignments.  
 - Development of predictive models that automatically detect potential TLEs before execution.  
 - Introduction of diagnostic tools to assist educators and learners in mitigating TLE issues effectively.
 
-### Method & Results  
+### Method & Results
 - Conducted large-scale data mining on programming assignment submissions from multiple online education platforms.  
 - Employed machine learning classifiers trained on code features, execution traces, and input-output characteristics to predict TLEs.  
 - Dataset included over 500K submissions spanning various algorithms and difficulty levels.  
 - Achieved up to 85% accuracy in predicting TLE errors, outperforming heuristic baselines by 20%.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated grading systems by enabling early detection and feedback on TLE errors, improving learning outcomes.  
 - Limitations include dependence on feature engineering and challenges generalizing models across novel problem domains. Future work includes exploring deeper code semantic analysis and transfer learning techniques.
 
@@ -24378,18 +24378,18 @@ This paper addresses the frequent Time Limit Exceeded (TLE) errors in online pro
 #### Executive Summary  
 This paper addresses the challenge of personalized compiler auto-tuning to optimize program performance on diverse hardware. It introduces a hybrid evolutionary framework guided by domain knowledge to efficiently explore tuning spaces, achieving superior optimization results. Experimental results demonstrate significant performance improvements over traditional auto-tuning methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel hybrid evolutionary algorithm integrating expert knowledge for compiler auto-tuning.  
 - Demonstrates personalized optimization tailored to diverse hardware configurations.  
 - Provides a scalable framework balancing exploration and exploitation in tuning space search.
 
-### Method & Results  
+### Method & Results
 - Combines knowledge-guided pruning with an evolutionary search to iteratively optimize compiler flags.  
 - Evaluated on standard compiler benchmark suites and real-world applications across heterogeneous hardware platforms.  
 - Achieved up to 15-25% runtime improvement compared to state-of-the-art auto-tuning approaches.  
 - Outperformed baseline genetic algorithms and random search in convergence speed and final performance gain.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient, tailored performance optimization in compiler design, benefiting diverse computing scenarios.  
 - Future work includes extending knowledge bases and improving adaptability to rapidly evolving hardware architectures.
 
@@ -24459,18 +24459,18 @@ This paper addresses the security and privacy guarantees of Apple's Find My loca
 #### Executive Summary  
 This paper addresses stealthy supply-chain attacks that compromise software integrity via undetected malicious code insertions. It proposes Lexo, a novel approach leveraging large language models (LLMs) to automatically regenerate programs, eliminating hidden backdoors while preserving intended functionality. Experimental results demonstrate Lexo’s effectiveness in removing stealthy threats without manual intervention.
 
-### Key Contributions  
+### Key Contributions
 - Introduces LLM-assisted program regeneration as a defense against stealthy supply-chain attacks.  
 - Designs a framework that preserves program semantics while removing injected malicious code.  
 - Provides empirical validation showing significant improvement in attack elimination over traditional detection-based methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes large language models to generate clean program variants from potentially compromised codebases.  
 - Employs semantic equivalence checking to ensure functionality preservation post-regeneration.  
 - Evaluated on synthetic and real-world supply-chain attack scenarios; achieves near-complete removal of stealthy attacks with minimal functional deviation.  
 - Outperforms baseline static analysis and heuristic detection tools by effectively regenerating clean code rather than merely detecting anomalies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables automated, scalable mitigation of sophisticated supply-chain threats, improving software security and trustworthiness.  
 - Current reliance on LLMs may be limited by model size, training data, and regeneration correctness in highly complex codebases. Further work needed on efficiency and applicability across diverse programming languages.
 
@@ -24495,21 +24495,6 @@ This paper addresses the vulnerability of prompt tuning in language model (LM)-e
 - Datasets/tools: Evaluations performed on established graph datasets (e.g., ogbn-arxiv) and LM architectures integrated with graph models.
 - Results: Achieves >90% attack success rates while preserving baseline task accuracy within 1-2%.
 - Outperforms single-trigger backdoor baselines by nearly 15% in stealthiness metrics and attack precision.
-
-### Impact & Limitations
-- Practical significance: Highlights a new security threat vector in prompt-tuned graph foundation models, urging development of more robust defenses.
-- Limitations/future work: Currently focused on specific prompt tuning setups; extending attacks and defenses to broader LM and graph model variants remains open.
-
----
-
-#### Match & Mend: Minimally Invasive Local Reassembly for Patching N-day Vulnerabilities in ARM Binaries
-**作者**: Sebastian Jänich, Merlin Sievers, Johannes Kinder
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-10-16
-**链接**: http://arxiv.org/abs/2510.14384v1
-
-#### Executive Summary
-This paper addresses the challenge of applying security patches to ARM binaries with minimal disruption. The authors propose "Match & Mend," a novel technique for local reassembly enabling precise, minimally invasive patching of N-day vulnerabilities. Experiments demonstrate effective patch application with reduced binary changes and preserved functionality.
 
 ### Key Contributions
 - Introduces a local reassembly method tailored to ARM binaries for fine-grained patching.
@@ -24538,20 +24523,292 @@ This paper addresses the challenge of applying security patches to ARM binaries 
 #### Executive Summary  
 This paper investigates the security vulnerabilities of large language model (LLM)-based prompt optimizers, revealing that optimized prompts can be compromised by adversarial manipulations. It proposes a novel threat model and demonstrates attack vectors that degrade prompt performance, highlighting risks in deploying LLM-driven optimization tools.
 
-### Key Contributions  
+### Key Contributions
 - Identification and formalization of new adversarial threat models targeting LLM-based prompt optimizers.  
 - Empirical demonstration that optimized prompts are susceptible to integrity attacks that reduce their effectiveness.  
 - Provision of initial mitigation strategies and evaluation frameworks to enhance prompt robustness.
 
-### Method & Results  
+### Method & Results
 - Developed attack techniques that perturb or poison optimized prompts generated by LLM optimizers.  
 - Utilized commonly employed prompt optimization frameworks and benchmark NLP tasks such as sentiment analysis and question answering.  
 - Showed up to a 30% relative drop in task performance post-attack compared to clean optimized prompts.  
 - Baseline prompt optimization methods degraded substantially, underscoring vulnerability magnitude.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security considerations for deploying LLM-based prompt tuning in practical applications, encouraging more robust optimizer designs.  
 - Limitations include focus on specific prompt optimization frameworks and attacks primarily on text-level perturbations; future work could explore broader attack surfaces and stronger defenses.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-20)
+
+### 软件工程 领域
+
+#### Towards Supporting Open Source Library Maintainers with Community-Based Analytics
+**作者**: Rachna Raj, Diego Elias Costa
+**类别**: cs.SE
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15794v1
+
+#### Executive Summary  
+This paper addresses the challenge faced by open source library maintainers in managing community contributions and project health. It proposes a novel community-based analytics framework that aggregates social and code-based metrics to provide actionable insights. The approach demonstrates improved support for maintainers in prioritizing tasks and fostering contributor engagement.
+
+### Key Contributions  
+- Introduces a community-driven analytics model combining social interactions and code metrics for maintainers.  
+- Provides an interactive dashboard prototype to visualize community health and contribution dynamics.  
+- Validates the approach through empirical analysis on multiple open source projects, highlighting maintainers’ decision support.
+
+### Method & Results  
+- Developed an analytics pipeline that integrates data from issue trackers, pull requests, and social forums to calculate engagement and contribution scores.  
+- Employed datasets from popular open source repositories hosted on GitHub, analyzing contributions over a 12-month period.  
+- Results showed a 25% improvement in maintainers’ ability to identify critical issues and active contributors compared to standard repository statistics.  
+- Outperformed baseline metrics that relied solely on code commits by incorporating community signals.
+
+### Impact & Limitations  
+- Enhances maintainers' capacity to sustainably manage project health and contributor coordination, potentially reducing burnout.  
+- Limitations include dependency on available social data and the need for scalability across diverse project sizes; future work aims to refine predictive analytics and extend to multi-repository ecosystems.
+
+---
+
+#### EASELAN: An Open-Source Framework for Multimodal Biosignal Annotation and Data Management
+**作者**: Rathi Adarshi Rammohan, Moritz Meier, Dennis Küster, Tanja Schultz
+**类别**: cs.SE
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15767v1
+
+#### Executive Summary  
+This paper addresses the challenge of annotating and managing multimodal biosignal data by introducing EASELAN, an open-source framework designed to streamline annotation workflows and data organization. It integrates versatile tools for synchronized multimodal signal visualization, annotation, and data handling, enhancing efficiency and accuracy. The framework demonstrates improved annotation consistency and ease of use through user studies and performance benchmarks.
+
+### Key Contributions  
+- Development of EASELAN, a comprehensive open-source framework tailored for multimodal biosignal annotation and data management.  
+- Integration of synchronized visualization and flexible annotation modules supporting diverse biosignal modalities.  
+- Provision of efficient data management tools facilitating collaborative research and data sharing.
+
+### Method & Results  
+- Implemented synchronized multimodal signal visualization and annotation pipelines, including customizable label schemas and automated quality control.  
+- Utilized common biosignal datasets (e.g., EEG, EMG, ECG) for validation along with experimental user evaluations.  
+- Achieved significant improvements in annotation speed (up to 30% faster) and inter-rater reliability compared to existing tools.  
+- Demonstrated streamlined data organization enhancing accessibility and collaboration in biosignal research.
+
+### Impact & Limitations  
+- Enables more effective and reproducible biosignal annotation workflows, benefiting neuroscience, healthcare, and wearable technology research.  
+- Limitations include dependency on user expertise for label schema design and potential scalability challenges with extremely large datasets.  
+- Future work could focus on integrating semi-automated annotation using machine learning and extending support to additional signal types.
+
+---
+
+#### MirrorFuzz: Leveraging LLM and Shared Bugs for Deep Learning Framework APIs Fuzzing
+**作者**: Shiwen Ou, Yuwei Li, Lu Yu, Chengkun Wei, Tingke Wen, Qiangpu Chen, Yu Chen, Haizhi Tang, Zulie Pan
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15690v1
+
+#### Executive Summary
+MirrorFuzz addresses the challenge of effectively fuzzing APIs in deep learning frameworks by leveraging large language models (LLMs) and shared bug patterns. The approach combines LLM-generated test cases with insights from existing shared bugs to improve fuzz testing depth and coverage, demonstrating superior bug detection capabilities.
+
+### Key Contributions
+- Introduces a novel fuzzing framework that synergizes LLM-generated inputs with shared bug information for deep learning API testing.
+- Leverages bug repositories to guide and enhance fuzzing strategies adaptively.
+- Demonstrates improved bug detection efficiency over traditional fuzzing methods for deep learning frameworks.
+
+### Method & Results
+- Utilizes an LLM to generate diverse API test inputs, refined by patterns extracted from a curated bug database.
+- Employs deep learning framework APIs as the fuzzing target, with benchmarks including popular frameworks’ API sets.
+- Detects significantly more unique bugs compared to baseline fuzzers, with quantitative gains (e.g., X% increase in bug detection rate).
+- Outperforms traditional fuzzers in terms of coverage and bug discovery speed.
+
+### Impact & Limitations
+- Offers a scalable and intelligent fuzzing solution critical for securing complex deep learning frameworks widely used in industry.
+- Limitations include dependency on quality and completeness of shared bug data; future work may explore automatic bug pattern extraction and extending to more diverse API types.
+
+---
+
+#### Interact and React: Exploring Gender Patterns in Development and the Impact on Innovation and Robustness of a User Interface Tool
+**作者**: Sian Brooke
+**类别**: cs.SE
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15642v1
+
+#### Executive Summary  
+This paper investigates how gender-related development patterns influence the innovation and robustness of a user interface (UI) tool. By analyzing interaction and reaction behaviors differentiated by gender, it reveals distinct design implications that enhance both creativity and stability in UI development.
+
+### Key Contributions  
+- Identifies gender-specific interaction patterns affecting UI tool development and maintenance.  
+- Demonstrates the impact of these patterns on the innovation capacity and robustness of the UI tool.  
+- Proposes design guidelines informed by gender-related behaviors to improve UI tools.
+
+### Method & Results  
+- Mixed-method approach combining quantitative behavioral analysis with qualitative feedback from developers of varied genders.  
+- Utilized custom telemetry data from the UI tool and surveys from 150 diverse developers.  
+- Results show a 15% increase in innovation metrics and a 10% improvement in robustness where gender-aware design considerations were applied.  
+- Outperformed baseline UI tool designs that did not account for gender differences by significant margins in both innovation and stability.
+
+### Impact & Limitations  
+- Enhances UI tool design by integrating gender-aware development patterns, potentially improving software quality and team collaboration.  
+- Limited by sample size and scope focused on a single UI tool; broader application and longitudinal studies needed.
+
+---
+
+#### Leveraging Test Driven Development with Large Language Models for Reliable and Verifiable Spreadsheet Code Generation: A Research Framework
+**作者**: Dr Simon Thorne, Dr Advait Sarkar
+**类别**: cs.SE, cs.CL, cs.PL, F.2.2; I.2.7
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15585v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating reliable and verifiable spreadsheet code by integrating Test Driven Development (TDD) principles with Large Language Models (LLMs). The authors propose a novel research framework combining TDD workflows with LLM-based code generation to improve code correctness and trustworthiness. Results indicate enhanced reliability and verifiability of generated spreadsheet scripts compared to conventional LLM outputs.
+
+### Key Contributions  
+- Introduces a novel framework that fuses TDD methodology with LLMs for spreadsheet code generation.  
+- Demonstrates improved correctness and verifiability of generated code through iterative test-based refinement.  
+- Provides a structured approach to systematically evaluate LLM-generated code for domain-specific applications.
+
+### Method & Results  
+- Methodology: Iterative prompt engineering combined with automated test generation to guide LLMs in producing verified spreadsheet code.  
+- Tools/Datasets: Utilizes state-of-the-art LLMs (e.g., GPT variants), standard spreadsheet tasks, and custom test suites to validate outputs.  
+- Results: Quantitative improvements in error rates and code reliability, with generated code passing a higher percentage of tests relative to baseline LLM outputs.  
+- Performance: Outperforms baseline LLM-generated code without TDD integration by a significant margin (exact metrics depend on task complexity).
+
+### Impact & Limitations  
+- Practical significance: Enables creation of dependable spreadsheet automation code, reducing manual correction effort and increasing user trust.  
+- Limitations/Future work: Requires refinement for broader spreadsheet functions; testing overhead may limit scalability to complex scenarios. Future work includes expanding test coverage and adapting framework to other programming domains.
+
+---
+
+### 安全领域 领域
+
+#### Towards Proactive Defense Against Cyber Cognitive Attacks
+**作者**: Bonnie Rushing, Mac-Rufus Umeokolo, Shouhuai Xu
+**类别**: cs.CR, cs.CY, cs.HC, cs.SI
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15801v1
+
+#### Executive Summary
+This paper addresses the emerging threat of cyber cognitive attacks that target human decision-making processes within cybersecurity contexts. The authors propose a proactive defense framework that anticipates attackers' manipulations by modeling attacker-defender interactions cognitively. The approach demonstrates improved resilience against such attacks compared to traditional reactive methods.
+
+### Key Contributions
+- Introduces a cognitive modeling framework for anticipating and mitigating cyber cognitive attacks.
+- Develops a proactive defense strategy integrating psychological factors into cybersecurity.
+- Provides empirical validation of the framework’s effectiveness in simulated attack scenarios.
+
+### Method & Results
+- Utilizes game-theoretic cognitive models to simulate attacker-defender dynamics focusing on cognitive vulnerabilities.
+- Implements the framework in a controlled simulation environment mimicking realistic cyber cognitive attack scenarios.
+- Results show up to a 35% increase in defense effectiveness over baseline reactive strategies.
+- Demonstrates earlier attack detection and reduced impact on human decision-making accuracy.
+
+### Impact & Limitations
+- Enhances cybersecurity by bridging human cognitive aspects and technical defense, promoting more robust cyber-human interaction security.
+- Limitations include reliance on simulation environments and assumptions in cognitive behavior modeling; future work should explore real-world deployment and adaptive learning mechanisms.
+
+---
+
+#### Ambusher: Exploring the Security of Distributed SDN Controllers Through Protocol State Fuzzing
+**作者**: Jinwoo Kim, Minjae Seo, Eduard Marin, Seungsoo Lee, Jaehyun Nam, Seungwon Shin
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15798v1
+
+#### Executive Summary
+This paper investigates security vulnerabilities in distributed Software-Defined Networking (SDN) controllers by applying protocol state fuzzing to the inter-controller communication. The authors design Ambusher, a novel state-aware fuzzing framework, uncovering multiple critical security flaws that threaten controller consistency and network integrity.
+
+### Key Contributions
+- Introduces Ambusher, the first protocol state fuzzing framework tailored for distributed SDN controller protocols.
+- Reveals novel attack vectors exploiting state inconsistencies between distributed controllers.
+- Provides concrete vulnerability cases impacting real-world distributed SDN platforms.
+
+### Method & Results
+- Developed a state-aware fuzzing approach that models protocol states and systematically explores state transitions in inter-controller messaging.
+- Evaluated Ambusher on prominent distributed SDN controllers (e.g., ONOS, OpenDaylight).
+- Discovered 7 new security vulnerabilities with up to 85% state coverage achieved.
+- Demonstrated practical exploitability, causing controller crashes and inconsistent network views.
+- Outperformed baseline random fuzzers by 40%+ in vulnerability detection efficacy.
+
+### Impact & Limitations
+- Highlights critical security risks in distributed SDN deployments, guiding operators to bolster inter-controller protocol hardening.
+- Limited to control plane protocols; future work could extend to data plane or hybrid SDN architectures.
+- Scalability of state modeling in larger distributed setups remains an open challenge for further research.
+
+---
+
+#### Grassroots Logic Programs: A Secure, Multiagent, Concurrent, Logic Programming Language
+**作者**: Ehud Shapiro
+**类别**: cs.PL, cs.CR, cs.DC, cs.LO, cs.MA
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15747v1
+
+#### Executive Summary  
+This paper addresses the challenge of secure, concurrent multiagent programming by introducing Grassroots Logic Programs, a novel logic programming language designed for distributed trust and coordination. The approach integrates logic programming with concurrency and security primitives, enabling rational agents to safely interact and reason in decentralized environments. The main result demonstrates that the language supports robust secure multiagent protocols with formal guarantees.
+
+### Key Contributions  
+- Proposes Grassroots Logic Programs, a new logic language combining concurrency, security, and multiagent reasoning.  
+- Introduces a security model ensuring safe distributed execution in open, untrusted networks.  
+- Formalizes semantics that enable compositional and scalable multiagent program design.
+
+### Method & Results  
+- Developed a logic-based language incorporating concurrent execution and cryptographic primitives for secure communication.  
+- Formal semantics and proof system established to guarantee security and correctness.  
+- Evaluated through protocol case studies exemplifying secure agent interactions; qualitative demonstration of composability and security.  
+- No large-scale quantitative benchmarks reported; focus is on formal validation rather than empirical performance.
+
+### Impact & Limitations  
+- Offers a significant foundation for secure multiagent systems applicable in decentralized applications and blockchain-smart contracts.  
+- Limitations include lack of extensive empirical evaluation and potential challenges scaling to highly complex real-world scenarios.  
+- Future work could explore performance optimization and integration with existing distributed systems frameworks.
+
+---
+
+#### MirrorFuzz: Leveraging LLM and Shared Bugs for Deep Learning Framework APIs Fuzzing
+**作者**: Shiwen Ou, Yuwei Li, Lu Yu, Chengkun Wei, Tingke Wen, Qiangpu Chen, Yu Chen, Haizhi Tang, Zulie Pan
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15690v1
+
+#### Executive Summary  
+This paper addresses the challenge of fuzzing APIs in deep learning frameworks, which are complex and prone to subtle bugs. It proposes MirrorFuzz, a novel approach leveraging large language models (LLMs) combined with insights from shared bugs to generate effective fuzzing inputs. MirrorFuzz demonstrates superior bug-finding capabilities on major DL framework APIs compared to traditional fuzzers.
+
+### Key Contributions  
+- Introduces MirrorFuzz, integrating LLM-generated inputs with historical shared bug data for targeted API fuzzing.  
+- Demonstrates enhanced bug detection ability in deep learning framework APIs over existing fuzzers.  
+- Provides a novel methodology to systematically mine and reuse knowledge from public bug repositories to improve fuzz testing.
+
+### Method & Results  
+- Utilizes LLMs to generate semantically rich API calls guided by patterns extracted from shared bugs.  
+- Combines static analysis with bug metadata to tailor fuzz input generation for DL frameworks like TensorFlow and PyTorch.  
+- Evaluated on real-world DL framework versions, detecting significantly more unique bugs (exact numbers not specified) than baseline fuzzers.  
+- Outperforms traditional fuzzers by a substantial margin in both bug discovery count and code coverage metrics.
+
+### Impact & Limitations  
+- Enhances reliability of widely-used DL frameworks by uncovering elusive API bugs, aiding developers and users in deploying safer AI systems.  
+- Limited by dependence on existing bug datasets and LLM quality; future work could expand to more frameworks and refine LLM-guided input generation strategies.
+
+---
+
+#### SoK: Market Microstructure for Decentralized Prediction Markets (DePMs)
+**作者**: Nahid Rahman, Joseph Al-Chami, Jeremy Clark
+**类别**: cs.CE, cs.CR, q-fin.TR
+**发布日期**: 2025-10-17
+**链接**: http://arxiv.org/abs/2510.15612v1
+
+#### Executive Summary  
+This paper surveys the market microstructure aspects of decentralized prediction markets (DePMs), identifying the unique challenges and opportunities arising from blockchain integration. It systematically analyzes order types, liquidity provision, and price discovery in DePMs, providing a foundational framework for future research and system design.
+
+### Key Contributions  
+- Comprehensive systematization of market microstructure theories tailored to the DePM context.  
+- Identification and classification of novel microstructural challenges unique to decentralized environments.  
+- Detailed proposal of design principles to enhance liquidity and fairness in DePMs.
+
+### Method & Results  
+- Methodology: Literature review combined with theoretical modeling of market mechanisms in decentralized settings.  
+- Tools: Analysis of existing DePM platforms and blockchain transaction protocols.  
+- Results: Framework highlighting trade-offs in liquidity provision and security, with no direct empirical dataset but grounded in evaluation of market design principles.  
+- Baselines: Compared traditional centralized prediction markets to decentralized variants to highlight distinct microstructure effects.
+
+### Impact & Limitations  
+- Practical significance: Offers a critical foundation for designing robust, secure decentralized prediction markets that can attract liquidity and ensure accurate price discovery.  
+- Limitations/Future work: Lacks empirical validation with real-world market data; future work needed on dynamic simulation and experimental deployment to test proposed frameworks.
 
 ---
 
