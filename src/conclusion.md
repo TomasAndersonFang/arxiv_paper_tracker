@@ -24555,18 +24555,18 @@ This paper investigates the security vulnerabilities of large language model (LL
 #### Executive Summary  
 This paper addresses the challenge faced by open source library maintainers in managing community contributions and project health. It proposes a novel community-based analytics framework that aggregates social and code-based metrics to provide actionable insights. The approach demonstrates improved support for maintainers in prioritizing tasks and fostering contributor engagement.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a community-driven analytics model combining social interactions and code metrics for maintainers.  
 - Provides an interactive dashboard prototype to visualize community health and contribution dynamics.  
 - Validates the approach through empirical analysis on multiple open source projects, highlighting maintainers’ decision support.
 
-### Method & Results  
+### Method & Results
 - Developed an analytics pipeline that integrates data from issue trackers, pull requests, and social forums to calculate engagement and contribution scores.  
 - Employed datasets from popular open source repositories hosted on GitHub, analyzing contributions over a 12-month period.  
 - Results showed a 25% improvement in maintainers’ ability to identify critical issues and active contributors compared to standard repository statistics.  
 - Outperformed baseline metrics that relied solely on code commits by incorporating community signals.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances maintainers' capacity to sustainably manage project health and contributor coordination, potentially reducing burnout.  
 - Limitations include dependency on available social data and the need for scalability across diverse project sizes; future work aims to refine predictive analytics and extend to multi-repository ecosystems.
 
@@ -24581,18 +24581,18 @@ This paper addresses the challenge faced by open source library maintainers in m
 #### Executive Summary  
 This paper addresses the challenge of annotating and managing multimodal biosignal data by introducing EASELAN, an open-source framework designed to streamline annotation workflows and data organization. It integrates versatile tools for synchronized multimodal signal visualization, annotation, and data handling, enhancing efficiency and accuracy. The framework demonstrates improved annotation consistency and ease of use through user studies and performance benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Development of EASELAN, a comprehensive open-source framework tailored for multimodal biosignal annotation and data management.  
 - Integration of synchronized visualization and flexible annotation modules supporting diverse biosignal modalities.  
 - Provision of efficient data management tools facilitating collaborative research and data sharing.
 
-### Method & Results  
+### Method & Results
 - Implemented synchronized multimodal signal visualization and annotation pipelines, including customizable label schemas and automated quality control.  
 - Utilized common biosignal datasets (e.g., EEG, EMG, ECG) for validation along with experimental user evaluations.  
 - Achieved significant improvements in annotation speed (up to 30% faster) and inter-rater reliability compared to existing tools.  
 - Demonstrated streamlined data organization enhancing accessibility and collaboration in biosignal research.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective and reproducible biosignal annotation workflows, benefiting neuroscience, healthcare, and wearable technology research.  
 - Limitations include dependency on user expertise for label schema design and potential scalability challenges with extremely large datasets.  
 - Future work could focus on integrating semi-automated annotation using machine learning and extending support to additional signal types.
@@ -24634,18 +24634,18 @@ MirrorFuzz addresses the challenge of effectively fuzzing APIs in deep learning 
 #### Executive Summary  
 This paper investigates how gender-related development patterns influence the innovation and robustness of a user interface (UI) tool. By analyzing interaction and reaction behaviors differentiated by gender, it reveals distinct design implications that enhance both creativity and stability in UI development.
 
-### Key Contributions  
+### Key Contributions
 - Identifies gender-specific interaction patterns affecting UI tool development and maintenance.  
 - Demonstrates the impact of these patterns on the innovation capacity and robustness of the UI tool.  
 - Proposes design guidelines informed by gender-related behaviors to improve UI tools.
 
-### Method & Results  
+### Method & Results
 - Mixed-method approach combining quantitative behavioral analysis with qualitative feedback from developers of varied genders.  
 - Utilized custom telemetry data from the UI tool and surveys from 150 diverse developers.  
 - Results show a 15% increase in innovation metrics and a 10% improvement in robustness where gender-aware design considerations were applied.  
 - Outperformed baseline UI tool designs that did not account for gender differences by significant margins in both innovation and stability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances UI tool design by integrating gender-aware development patterns, potentially improving software quality and team collaboration.  
 - Limited by sample size and scope focused on a single UI tool; broader application and longitudinal studies needed.
 
@@ -24660,18 +24660,18 @@ This paper investigates how gender-related development patterns influence the in
 #### Executive Summary  
 This paper addresses the challenge of generating reliable and verifiable spreadsheet code by integrating Test Driven Development (TDD) principles with Large Language Models (LLMs). The authors propose a novel research framework combining TDD workflows with LLM-based code generation to improve code correctness and trustworthiness. Results indicate enhanced reliability and verifiability of generated spreadsheet scripts compared to conventional LLM outputs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework that fuses TDD methodology with LLMs for spreadsheet code generation.  
 - Demonstrates improved correctness and verifiability of generated code through iterative test-based refinement.  
 - Provides a structured approach to systematically evaluate LLM-generated code for domain-specific applications.
 
-### Method & Results  
+### Method & Results
 - Methodology: Iterative prompt engineering combined with automated test generation to guide LLMs in producing verified spreadsheet code.  
 - Tools/Datasets: Utilizes state-of-the-art LLMs (e.g., GPT variants), standard spreadsheet tasks, and custom test suites to validate outputs.  
 - Results: Quantitative improvements in error rates and code reliability, with generated code passing a higher percentage of tests relative to baseline LLM outputs.  
 - Performance: Outperforms baseline LLM-generated code without TDD integration by a significant margin (exact metrics depend on task complexity).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables creation of dependable spreadsheet automation code, reducing manual correction effort and increasing user trust.  
 - Limitations/Future work: Requires refinement for broader spreadsheet functions; testing overhead may limit scalability to complex scenarios. Future work includes expanding test coverage and adapting framework to other programming domains.
 
@@ -24742,45 +24742,29 @@ This paper investigates security vulnerabilities in distributed Software-Defined
 #### Executive Summary  
 This paper addresses the challenge of secure, concurrent multiagent programming by introducing Grassroots Logic Programs, a novel logic programming language designed for distributed trust and coordination. The approach integrates logic programming with concurrency and security primitives, enabling rational agents to safely interact and reason in decentralized environments. The main result demonstrates that the language supports robust secure multiagent protocols with formal guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Proposes Grassroots Logic Programs, a new logic language combining concurrency, security, and multiagent reasoning.  
 - Introduces a security model ensuring safe distributed execution in open, untrusted networks.  
 - Formalizes semantics that enable compositional and scalable multiagent program design.
 
-### Method & Results  
+### Method & Results
 - Developed a logic-based language incorporating concurrent execution and cryptographic primitives for secure communication.  
 - Formal semantics and proof system established to guarantee security and correctness.  
 - Evaluated through protocol case studies exemplifying secure agent interactions; qualitative demonstration of composability and security.  
 - No large-scale quantitative benchmarks reported; focus is on formal validation rather than empirical performance.
 
-### Impact & Limitations  
-- Offers a significant foundation for secure multiagent systems applicable in decentralized applications and blockchain-smart contracts.  
-- Limitations include lack of extensive empirical evaluation and potential challenges scaling to highly complex real-world scenarios.  
-- Future work could explore performance optimization and integration with existing distributed systems frameworks.
-
----
-
-#### MirrorFuzz: Leveraging LLM and Shared Bugs for Deep Learning Framework APIs Fuzzing
-**作者**: Shiwen Ou, Yuwei Li, Lu Yu, Chengkun Wei, Tingke Wen, Qiangpu Chen, Yu Chen, Haizhi Tang, Zulie Pan
-**类别**: cs.SE, cs.CR
-**发布日期**: 2025-10-17
-**链接**: http://arxiv.org/abs/2510.15690v1
-
-#### Executive Summary  
-This paper addresses the challenge of fuzzing APIs in deep learning frameworks, which are complex and prone to subtle bugs. It proposes MirrorFuzz, a novel approach leveraging large language models (LLMs) combined with insights from shared bugs to generate effective fuzzing inputs. MirrorFuzz demonstrates superior bug-finding capabilities on major DL framework APIs compared to traditional fuzzers.
-
-### Key Contributions  
+### Key Contributions
 - Introduces MirrorFuzz, integrating LLM-generated inputs with historical shared bug data for targeted API fuzzing.  
 - Demonstrates enhanced bug detection ability in deep learning framework APIs over existing fuzzers.  
 - Provides a novel methodology to systematically mine and reuse knowledge from public bug repositories to improve fuzz testing.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to generate semantically rich API calls guided by patterns extracted from shared bugs.  
 - Combines static analysis with bug metadata to tailor fuzz input generation for DL frameworks like TensorFlow and PyTorch.  
 - Evaluated on real-world DL framework versions, detecting significantly more unique bugs (exact numbers not specified) than baseline fuzzers.  
 - Outperforms traditional fuzzers by a substantial margin in both bug discovery count and code coverage metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of widely-used DL frameworks by uncovering elusive API bugs, aiding developers and users in deploying safer AI systems.  
 - Limited by dependence on existing bug datasets and LLM quality; future work could expand to more frameworks and refine LLM-guided input generation strategies.
 
@@ -24795,20 +24779,290 @@ This paper addresses the challenge of fuzzing APIs in deep learning frameworks, 
 #### Executive Summary  
 This paper surveys the market microstructure aspects of decentralized prediction markets (DePMs), identifying the unique challenges and opportunities arising from blockchain integration. It systematically analyzes order types, liquidity provision, and price discovery in DePMs, providing a foundational framework for future research and system design.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive systematization of market microstructure theories tailored to the DePM context.  
 - Identification and classification of novel microstructural challenges unique to decentralized environments.  
 - Detailed proposal of design principles to enhance liquidity and fairness in DePMs.
 
-### Method & Results  
+### Method & Results
 - Methodology: Literature review combined with theoretical modeling of market mechanisms in decentralized settings.  
 - Tools: Analysis of existing DePM platforms and blockchain transaction protocols.  
 - Results: Framework highlighting trade-offs in liquidity provision and security, with no direct empirical dataset but grounded in evaluation of market design principles.  
 - Baselines: Compared traditional centralized prediction markets to decentralized variants to highlight distinct microstructure effects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Offers a critical foundation for designing robust, secure decentralized prediction markets that can attract liquidity and ensure accurate price discovery.  
 - Limitations/Future work: Lacks empirical validation with real-world market data; future work needed on dynamic simulation and experimental deployment to test proposed frameworks.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-21)
+
+### 软件工程 领域
+
+#### Executable Knowledge Graphs for Replicating AI Research
+**作者**: Yujie Luo, Zhuoyun Yu, Xuehai Wang, Yuqi Zhu, Ningyu Zhang, Lanning Wei, Lun Du, Da Zheng, Huajun Chen
+**类别**: cs.CL, cs.AI, cs.LG, cs.MA, cs.SE
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17795v1
+
+#### Executive Summary
+This paper addresses the challenge of replicating AI research by proposing Executable Knowledge Graphs (EKGs) that integrate research artifacts into a structured, machine-readable format. The approach enables automated, reproducible AI experiments by encoding model details, datasets, and code within the graph. Results demonstrate improved replicability and efficiency in reproducing state-of-the-art AI studies.
+
+### Key Contributions
+- Introduces Executable Knowledge Graphs as a unified framework to represent and execute AI research components.
+- Develops tooling to convert heterogeneous research artifacts into EKGs facilitating automatic reproducibility.
+- Demonstrates EKG effectiveness through multiple case studies replicating complex AI experiments.
+
+### Method & Results
+- Constructs knowledge graphs linking models, datasets, hyperparameters, and code snippets executable by an integrated engine.
+- Uses AI benchmarks and popular NLP/ML datasets to validate the approach.
+- Achieves a replication success rate of over 90% on tested papers, outperforming existing replication frameworks.
+- Reduces manual replication time by approximately 40% compared to baseline manual efforts.
+
+### Impact & Limitations
+- Enhances transparency and reliability in AI research by enabling systematic reproducibility and knowledge sharing.
+- Limitations include dependency on well-documented original research and challenges in scaling to extremely large or diverse datasets.
+- Future work: expanding coverage to more AI subfields and improving natural language parsing of research papers into EKGs.
+
+---
+
+#### HGAdapter: Hypergraph-based Adapters in Language Models for Code Summarization and Clone Detection
+**作者**: Guang Yang, Yujie Zhu
+**类别**: cs.CL, cs.AI, cs.LG, cs.SE
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17591v1
+
+#### Executive Summary
+The paper addresses enhancing code summarization and clone detection by integrating hypergraph-based adapters into language models. The proposed HGAdapter effectively captures structural code information, leading to significant improvements in both tasks. Experimental results demonstrate superior performance over existing adapter and baseline approaches.
+
+### Key Contributions
+- Introduces HGAdapter, a novel hypergraph-based adapter that models complex code structures within language models.
+- Applies HGAdapter to two key code understanding tasks: code summarization and clone detection.
+- Demonstrates improved performance without large-scale model retraining, preserving efficiency and adaptability.
+
+### Method & Results
+- Proposes embedding hypergraph representations of code into adapters inserted within pretrained language models to leverage structural dependencies.
+- Evaluated on benchmark datasets for code summarization (e.g., CodeSearchNet) and clone detection (e.g., BigCloneBench).
+- Achieves up to 5% absolute improvement in BLEU scores for summarization and 3–7% increase in F1 for clone detection over strong baselines.
+- Outperforms traditional adapters and several state-of-the-art code analysis models.
+
+### Impact & Limitations
+- Enhances code understanding in practical software engineering tools by effectively capturing code semantics with lightweight model augmentations.
+- Future work needed to explore scalability to larger codebases and integration with multilingual programming language settings.
+
+---
+
+#### Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff
+**作者**: Kuniaki Kudo, Sherine Devi
+**类别**: cs.SE
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17430v1
+
+#### Executive Summary  
+This paper addresses the challenge of scaling CI/CD pipelines for legacy system modernization in the context of the looming 2025 Japan Cliff workforce shortage. The authors propose an industrially validated, scalable CI/CD framework tailored to reduce manual intervention and accelerate modernization. Their approach demonstrates significant efficiency improvements in deployment frequency and quality.
+
+### Key Contributions  
+- Introduces a scalable CI/CD framework specifically designed for legacy modernization addressing workforce constraints.  
+- Presents an industrial case study highlighting practical challenges and solutions related to the 2025 Japan Cliff.  
+- Demonstrates integration strategies that minimize disruption and manual overhead in legacy environments.
+
+### Method & Results  
+- Developed a modular CI/CD pipeline incorporating automation tools and domain-specific adaptation layers for legacy systems.  
+- Case study conducted at a large Japanese enterprise undergoing legacy modernization; used proprietary deployment and monitoring tools.  
+- Resulted in a 40% increase in deployment frequency and a 30% reduction in post-deployment defects.  
+- Outperformed conventional CI/CD practices that lacked legacy adaptations by measurable operational metrics.
+
+### Impact & Limitations  
+- Enables scalable, sustainable legacy modernization mitigating risks of skill shortages due to demographic shifts.  
+- Limited generalizability outside similar enterprise contexts; future work could explore automation enhancements and broader tool integration.
+
+---
+
+#### BenCao: An Instruction-Tuned Large Language Model for Traditional Chinese Medicine
+**作者**: Jiacheng Xie, Yang Yu, Yibo Chen, Hanyao Zhang, Lening Zhao, Jiaxuan He, Lei Jiang, Xiaoting Tang, Guanghui An, Dong Xu
+**类别**: cs.CL, cs.AI, cs.MA, cs.MM, cs.SE
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17415v1
+
+#### Executive Summary  
+This paper addresses the lack of specialized large language models (LLMs) tuned for Traditional Chinese Medicine (TCM). The authors develop BenCao, an instruction-tuned LLM tailored to understand and generate TCM-related knowledge, demonstrating improved performance in TCM tasks over general LLMs.  
+
+### Key Contributions  
+- Introduction of BenCao, an instruction-tuned LLM specifically designed for TCM domain expertise.  
+- Creation and utilization of a comprehensive TCM instruction dataset for effective model tuning.  
+- Empirical validation showing BenCao’s superior performance on TCM-specific tasks compared to mainstream models.  
+
+### Method & Results  
+- Fine-tuning a pre-trained LLM using a curated instruction dataset derived from TCM literature and expert annotations.  
+- Leveraged TCM textual corpora and specialized question-answer sets for training and evaluation.  
+- BenCao achieved significant accuracy gains (exact figures not specified) on TCM knowledge tasks versus baseline models like general-purpose LLMs.  
+- Demonstrated better context understanding and response relevance in TCM consultations and diagnostics scenarios.  
+
+### Impact & Limitations  
+- Practical: BenCao provides an effective AI assistant for TCM practitioners, potentially improving clinical decision-support and knowledge dissemination.  
+- Limitations: Performance depends on the size and quality of TCM instruction data; future work should expand data scope and improve reasoning capabilities in complex TCM diagnostics.
+
+---
+
+#### AdapTrack: Constrained Decoding without Distorting LLM's Output Intent
+**作者**: Yongmin Li, Jia Li, Ge Li, Zhi Jin
+**类别**: cs.SE
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17376v1
+
+#### Executive Summary  
+The paper addresses the challenge of constrained decoding in large language models (LLMs) without altering their intended output. It proposes AdapTrack, a method that adaptively guides decoding to satisfy constraints while preserving the original response intent. Experiments demonstrate that AdapTrack achieves better adherence to constraints with minimal intent distortion compared to existing approaches.
+
+### Key Contributions  
+- Proposes AdapTrack, an adaptive constrained decoding framework that preserves LLM output intent.  
+- Introduces a tracking mechanism to balance constraint satisfaction and intent retention dynamically.  
+- Demonstrates superior performance over prior constrained decoding methods through extensive experiments.
+
+### Method & Results  
+- Employs an adaptive tracking strategy that adjusts decoding probabilities to enforce constraints without overriding LLM’s semantic intent.  
+- Evaluated on benchmark datasets involving lexical and structural constraints in generation tasks.  
+- Achieves up to 15% higher constraint satisfaction rates while reducing intent distortion by 20% relative to baseline decoding techniques.  
+- Outperforms classical constrained decoding methods like beam search with constraints and token-level filtering.
+
+### Impact & Limitations  
+- Enables more reliable and semantically consistent LLM outputs in applications requiring strict constraints, e.g., controlled text generation and compliance checking.  
+- Limitations include potential complexity overhead and reliance on specific constraint formulations; future work could explore broader constraint types and more efficient implementations.
+
+---
+
+### 安全领域 领域
+
+#### VERA-V: Variational Inference Framework for Jailbreaking Vision-Language Models
+**作者**: Qilin Liao, Anamika Lochab, Ruqi Zhang
+**类别**: cs.CR, cs.CL, cs.CV, cs.LG
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17759v1
+
+#### Executive Summary
+The paper addresses the challenge of jailbreaking vision-language models (VLMs) to bypass built-in safety and content filters. It proposes VERA-V, a novel variational inference framework that systematically explores adversarial inputs to elicit unauthorized behaviors. Experiments demonstrate that VERA-V outperforms existing jailbreak methods in effectiveness and stealthiness.
+
+### Key Contributions
+- Introduces VERA-V, the first variational inference-based framework tailored for jailbreaking VLMs.
+- Provides a principled approach for generating adversarial vision-language inputs that bypass safety constraints.
+- Demonstrates superior success rates and lower detection compared to heuristic jailbreak techniques.
+
+### Method & Results
+- Utilizes variational inference to approximate distributions over adversarial prompts paired with visual inputs.
+- Evaluated on several state-of-the-art vision-language models across tasks involving content bypass.
+- Achieves up to 35% higher jailbreak success rate compared to baseline attacks, with reduced flagged outputs.
+- Benchmarked against heuristic and reinforcement learning-based jailbreak methods, showing consistent improvements.
+
+### Impact & Limitations
+- Advances the understanding of VLM vulnerabilities, crucial for security auditing and model robustness enhancement.
+- Future work needed to generalize beyond tested VLM architectures and address ethical implications of jailbreak techniques.
+
+---
+
+#### CrossGuard: Safeguarding MLLMs against Joint-Modal Implicit Malicious Attacks
+**作者**: Xu Zhang, Hao Li, Zhichao Lu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17687v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of Multimodal Large Language Models (MLLMs) to joint-modal implicit malicious attacks that manipulate both vision and language inputs subtly. The authors propose CrossGuard, a novel defense framework that detects and mitigates such attacks by cross-modal consistency verification. Experiments demonstrate CrossGuard significantly improves robustness against these stealthy adversarial inputs without degrading model utility.
+
+### Key Contributions  
+- Introduces joint-modal implicit attacks specific to MLLMs, highlighting a previously underexplored threat.  
+- Proposes CrossGuard, a pioneering defense mechanism leveraging cross-modal consistency to detect malicious inputs.  
+- Demonstrates robustness improvement with minimal performance loss on standard MLLM benchmarks.
+
+### Method & Results  
+- CrossGuard evaluates alignment between modalities, flagging input pairs with inconsistent semantics as potential attacks.  
+- Utilizes standard multimodal datasets (e.g., MSCOCO, VQA) for evaluation under crafted joint-modal adversarial scenarios.  
+- Achieves up to 35% increase in attack detection accuracy and reduces attack success rates by over 40% compared to baseline defenses.  
+- Maintains comparable task performance on clean inputs, outperforming existing single-modal defense methods.
+
+### Impact & Limitations  
+- Enhances security of MLLMs in sensitive applications like image captioning and visual question answering, crucial for real-world deployment.  
+- Limitations include current reliance on known cross-modal inconsistencies; future work needed on adaptive attacks and real-time defense scalability.
+
+---
+
+#### SARSteer: Safeguarding Large Audio Language Models via Safe-Ablated Refusal Steering
+**作者**: Weilin Lin, Jianze Li, Hui Xiong, Li Liu
+**类别**: cs.SD, cs.CR
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17633v1
+
+#### Executive Summary  
+This paper addresses the safety challenges in large audio language models (ALMs) by proposing SARSteer, a novel safe-ablated refusal steering framework that selectively disables risky model components and steers the model to refuse unsafe queries. The approach effectively balances model utility and safety, significantly reducing harmful outputs while maintaining performance. Experimental results demonstrate SARSteer’s superiority in safeguarding ALMs over existing safety mechanisms.
+
+### Key Contributions  
+- Introduces a safe-ablated refusal steering technique uniquely designed for audio language models.  
+- Presents an adaptive mechanism for selective component ablation to optimize safety-utility trade-offs.  
+- Empirically validates substantial safety improvements without compromising model responsiveness.
+
+### Method & Results  
+- Implements a two-stage pipeline combining safe ablation of vulnerable model layers with a refusal steering protocol for risky inputs.  
+- Utilizes standard audio understanding benchmarks and custom unsafe prompt datasets for evaluation.  
+- Achieves over 40% reduction in unsafe generation incidents compared to baseline ALMs while retaining over 95% task accuracy.  
+- Outperforms conventional rejection or filter-based safety approaches by a significant margin in both safety and usability metrics.
+
+### Impact & Limitations  
+- Enhances deployment safety of ALMs in sensitive real-world applications, promoting responsible AI usage.  
+- Limitations include increased inference complexity and potential over-ablation impacting nuanced query handling; future work may focus on dynamic ablation and broader safety scenarios.
+
+---
+
+#### GUIDE: Enhancing Gradient Inversion Attacks in Federated Learning with Denoising Models
+**作者**: Vincenzo Carletti, Pasquale Foggia, Carlo Mazzocca, Giuseppe Parrella, Mario Vento
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17621v1
+
+#### Executive Summary
+This paper addresses the challenge of improving gradient inversion attacks in federated learning to reconstruct private training data from shared gradients. The authors propose GUIDE, a novel approach leveraging denoising models to enhance the fidelity and efficiency of gradient inversion. Experiments demonstrate significant improvement in reconstruction quality compared to existing methods.
+
+### Key Contributions
+- Introduces GUIDE, a framework integrating denoising models to refine gradient inversion attacks in federated learning.
+- Demonstrates enhanced reconstruction accuracy and noise robustness over traditional inversion techniques.
+- Provides extensive evaluation on diverse datasets, validating the model’s generalization and practical threat.
+
+### Method & Results
+- Utilizes denoising autoencoders to iteratively improve reconstructed images from gradients.
+- Tested on standard federated learning benchmarks such as MNIST, CIFAR-10, and ImageNet subsets.
+- Achieved up to 30% higher SSIM and 25% better PSNR scores in image reconstruction compared to baseline gradient inversion attacks.
+- Exhibited faster convergence and increased resilience against noisy gradient updates.
+
+### Impact & Limitations
+- Highlights critical privacy risks in federated learning, guiding future defense strategies.
+- Limited by computational overhead from denoising steps; future work should optimize efficiency and extend to more complex models and data modalities.
+
+---
+
+#### Dynamic Switched Quantum Key Distribution Networkwith PUF-based authentication
+**作者**: Persefoni Konteli, Nikolaos Makris, Evgenia Niovi Sassalou, Stylianos A. Kazazis, Alkinoos Papageorgopoulos, Stefanos Vasileiadis, Konstantinos Tsimvrakidis, Symeon Tsintzos, Georgios M. Nikolopoulos, George T. Kanellos
+**类别**: cs.CR
+**发布日期**: 2025-10-20
+**链接**: http://arxiv.org/abs/2510.17552v1
+
+#### Executive Summary
+This paper addresses secure quantum key distribution (QKD) networks by proposing a dynamic switched architecture integrated with physically unclonable function (PUF)-based authentication. The approach enhances network flexibility and security against impersonation attacks. Experimental validation demonstrates robust authentication and dynamic switching capabilities.
+
+### Key Contributions
+- Introduces a dynamic switched QKD network architecture to enable flexible quantum communication paths.
+- Incorporates PUF-based hardware authentication to strengthen security against spoofing.
+- Demonstrates seamless integration of PUF authentication within quantum network protocols for the first time.
+
+### Method & Results
+- Designed a QKD network with dynamic optical switching controlled by PUF-based authentication modules.
+- Employed custom PUF hardware devices and quantum communication testbeds for validation.
+- Achieved 99% successful authentication rate and effective dynamic switching with negligible latency overhead.
+- Improved security and network adaptability compared to static QKD setups without hardware authentication.
+
+### Impact & Limitations
+- Enables practical deployment of adaptable, secure quantum networks resistant to physical impersonation threats.
+- Limitations include scalability challenges for large networks and the need to explore resilience under diverse attack models.
+- Future work should focus on optimizing PUF designs and expanding the network topology complexity.
 
 ---
 
