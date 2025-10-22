@@ -24864,18 +24864,18 @@ The paper addresses enhancing code summarization and clone detection by integrat
 #### Executive Summary  
 This paper addresses the challenge of scaling CI/CD pipelines for legacy system modernization in the context of the looming 2025 Japan Cliff workforce shortage. The authors propose an industrially validated, scalable CI/CD framework tailored to reduce manual intervention and accelerate modernization. Their approach demonstrates significant efficiency improvements in deployment frequency and quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a scalable CI/CD framework specifically designed for legacy modernization addressing workforce constraints.  
 - Presents an industrial case study highlighting practical challenges and solutions related to the 2025 Japan Cliff.  
 - Demonstrates integration strategies that minimize disruption and manual overhead in legacy environments.
 
-### Method & Results  
+### Method & Results
 - Developed a modular CI/CD pipeline incorporating automation tools and domain-specific adaptation layers for legacy systems.  
 - Case study conducted at a large Japanese enterprise undergoing legacy modernization; used proprietary deployment and monitoring tools.  
 - Resulted in a 40% increase in deployment frequency and a 30% reduction in post-deployment defects.  
 - Outperformed conventional CI/CD practices that lacked legacy adaptations by measurable operational metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, sustainable legacy modernization mitigating risks of skill shortages due to demographic shifts.  
 - Limited generalizability outside similar enterprise contexts; future work could explore automation enhancements and broader tool integration.
 
@@ -24890,18 +24890,18 @@ This paper addresses the challenge of scaling CI/CD pipelines for legacy system 
 #### Executive Summary  
 This paper addresses the lack of specialized large language models (LLMs) tuned for Traditional Chinese Medicine (TCM). The authors develop BenCao, an instruction-tuned LLM tailored to understand and generate TCM-related knowledge, demonstrating improved performance in TCM tasks over general LLMs.  
 
-### Key Contributions  
+### Key Contributions
 - Introduction of BenCao, an instruction-tuned LLM specifically designed for TCM domain expertise.  
 - Creation and utilization of a comprehensive TCM instruction dataset for effective model tuning.  
 - Empirical validation showing BenCao’s superior performance on TCM-specific tasks compared to mainstream models.  
 
-### Method & Results  
+### Method & Results
 - Fine-tuning a pre-trained LLM using a curated instruction dataset derived from TCM literature and expert annotations.  
 - Leveraged TCM textual corpora and specialized question-answer sets for training and evaluation.  
 - BenCao achieved significant accuracy gains (exact figures not specified) on TCM knowledge tasks versus baseline models like general-purpose LLMs.  
 - Demonstrated better context understanding and response relevance in TCM consultations and diagnostics scenarios.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical: BenCao provides an effective AI assistant for TCM practitioners, potentially improving clinical decision-support and knowledge dissemination.  
 - Limitations: Performance depends on the size and quality of TCM instruction data; future work should expand data scope and improve reasoning capabilities in complex TCM diagnostics.
 
@@ -24916,18 +24916,18 @@ This paper addresses the lack of specialized large language models (LLMs) tuned 
 #### Executive Summary  
 The paper addresses the challenge of constrained decoding in large language models (LLMs) without altering their intended output. It proposes AdapTrack, a method that adaptively guides decoding to satisfy constraints while preserving the original response intent. Experiments demonstrate that AdapTrack achieves better adherence to constraints with minimal intent distortion compared to existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Proposes AdapTrack, an adaptive constrained decoding framework that preserves LLM output intent.  
 - Introduces a tracking mechanism to balance constraint satisfaction and intent retention dynamically.  
 - Demonstrates superior performance over prior constrained decoding methods through extensive experiments.
 
-### Method & Results  
+### Method & Results
 - Employs an adaptive tracking strategy that adjusts decoding probabilities to enforce constraints without overriding LLM’s semantic intent.  
 - Evaluated on benchmark datasets involving lexical and structural constraints in generation tasks.  
 - Achieves up to 15% higher constraint satisfaction rates while reducing intent distortion by 20% relative to baseline decoding techniques.  
 - Outperforms classical constrained decoding methods like beam search with constraints and token-level filtering.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable and semantically consistent LLM outputs in applications requiring strict constraints, e.g., controlled text generation and compliance checking.  
 - Limitations include potential complexity overhead and reliance on specific constraint formulations; future work could explore broader constraint types and more efficient implementations.
 
@@ -24970,18 +24970,18 @@ The paper addresses the challenge of jailbreaking vision-language models (VLMs) 
 #### Executive Summary  
 This paper addresses the vulnerability of Multimodal Large Language Models (MLLMs) to joint-modal implicit malicious attacks that manipulate both vision and language inputs subtly. The authors propose CrossGuard, a novel defense framework that detects and mitigates such attacks by cross-modal consistency verification. Experiments demonstrate CrossGuard significantly improves robustness against these stealthy adversarial inputs without degrading model utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces joint-modal implicit attacks specific to MLLMs, highlighting a previously underexplored threat.  
 - Proposes CrossGuard, a pioneering defense mechanism leveraging cross-modal consistency to detect malicious inputs.  
 - Demonstrates robustness improvement with minimal performance loss on standard MLLM benchmarks.
 
-### Method & Results  
+### Method & Results
 - CrossGuard evaluates alignment between modalities, flagging input pairs with inconsistent semantics as potential attacks.  
 - Utilizes standard multimodal datasets (e.g., MSCOCO, VQA) for evaluation under crafted joint-modal adversarial scenarios.  
 - Achieves up to 35% increase in attack detection accuracy and reduces attack success rates by over 40% compared to baseline defenses.  
 - Maintains comparable task performance on clean inputs, outperforming existing single-modal defense methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security of MLLMs in sensitive applications like image captioning and visual question answering, crucial for real-world deployment.  
 - Limitations include current reliance on known cross-modal inconsistencies; future work needed on adaptive attacks and real-time defense scalability.
 
@@ -24996,18 +24996,18 @@ This paper addresses the vulnerability of Multimodal Large Language Models (MLLM
 #### Executive Summary  
 This paper addresses the safety challenges in large audio language models (ALMs) by proposing SARSteer, a novel safe-ablated refusal steering framework that selectively disables risky model components and steers the model to refuse unsafe queries. The approach effectively balances model utility and safety, significantly reducing harmful outputs while maintaining performance. Experimental results demonstrate SARSteer’s superiority in safeguarding ALMs over existing safety mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a safe-ablated refusal steering technique uniquely designed for audio language models.  
 - Presents an adaptive mechanism for selective component ablation to optimize safety-utility trade-offs.  
 - Empirically validates substantial safety improvements without compromising model responsiveness.
 
-### Method & Results  
+### Method & Results
 - Implements a two-stage pipeline combining safe ablation of vulnerable model layers with a refusal steering protocol for risky inputs.  
 - Utilizes standard audio understanding benchmarks and custom unsafe prompt datasets for evaluation.  
 - Achieves over 40% reduction in unsafe generation incidents compared to baseline ALMs while retaining over 95% task accuracy.  
 - Outperforms conventional rejection or filter-based safety approaches by a significant margin in both safety and usability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances deployment safety of ALMs in sensitive real-world applications, promoting responsible AI usage.  
 - Limitations include increased inference complexity and potential over-ablation impacting nuanced query handling; future work may focus on dynamic ablation and broader safety scenarios.
 
@@ -25063,6 +25063,274 @@ This paper addresses secure quantum key distribution (QKD) networks by proposing
 - Enables practical deployment of adaptable, secure quantum networks resistant to physical impersonation threats.
 - Limitations include scalability challenges for large networks and the need to explore resilience under diverse attack models.
 - Future work should focus on optimizing PUF designs and expanding the network topology complexity.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-22)
+
+### 软件工程 领域
+
+#### EffiReasonTrans: RL-Optimized Reasoning for Code Translation
+**作者**: Yanlin Wang, Rongyi Ou, Yanli Wang, Mingwei Liu, Jiachi Chen, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18863v1
+
+#### Executive Summary
+This paper addresses the challenge of improving code translation through efficient and accurate reasoning in large language models. The authors propose EffiReasonTrans, a reinforcement learning-optimized framework that enhances reasoning paths for code translation tasks. Results show significant improvements in translation quality and computational efficiency over baseline models.
+
+### Key Contributions
+- Introduces a reinforcement learning-based reasoning optimization tailored for code translation.
+- Proposes a novel mechanism to dynamically guide reasoning paths, improving both accuracy and efficiency.
+- Demonstrates superior performance on benchmark code translation datasets with reduced inference costs.
+
+### Method & Results
+- Utilizes reinforcement learning to optimize reasoning steps in code translation, enabling adaptive decision-making during generation.
+- Evaluated on standard code translation datasets, such as CodeXGLUE benchmarks.
+- Achieved up to a 12% increase in translation accuracy and 30% reduction in inference time compared to baseline transformer models.
+- Outperforms state-of-the-art code translation methods including standard transformer and retrieval-augmented models.
+
+### Impact & Limitations
+- Enables more reliable and efficient automatic code translation, benefiting software migration and cross-language interoperability.
+- Future work could explore broader programming languages and deeper integration with large pretrained models; potential scalability issues under extremely large models remain to be addressed.
+
+---
+
+#### Streamlining Acceptance Test Generation for Mobile Applications Through Large Language Models: An Industrial Case Study
+**作者**: Pedro Luís Fonseca, Bruno Lima, João Pascoal Faria
+**类别**: cs.SE
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18861v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently generating acceptance tests for mobile applications. It proposes leveraging large language models (LLMs) to automate and streamline this process in an industrial setting. The study demonstrates significant time savings and improved test coverage using LLM-generated test cases.
+
+### Key Contributions
+- Introduces a novel LLM-based framework for automated acceptance test generation tailored to mobile apps.
+- Provides an industrial case study validating the approach in real-world development environments.
+- Demonstrates measurable improvements in test generation efficiency and quality over traditional manual methods.
+
+### Method & Results
+- Utilizes state-of-the-art large language models to generate acceptance tests from natural language requirements and app behaviors.
+- Applied the framework on proprietary datasets from an industrial partner’s mobile app projects.
+- Achieved up to 40% reduction in test generation time while maintaining or improving test thoroughness.
+- Outperformed baseline manual and heuristic-based test generation approaches in both speed and coverage.
+
+### Impact & Limitations
+- Enables faster and more scalable test creation, potentially enhancing app quality assurance and reducing development cycle time.
+- Limitations include dependency on LLM accuracy and potential difficulty adapting to highly domain-specific or complex testing scenarios.
+- Future work: refining model fine-tuning and expanding evaluation across diverse app types and languages.
+
+---
+
+#### Computational Foundations for Strategic Coopetition: Formalizing Interdependence and Complementarity
+**作者**: Vik Pant, Eric Yu
+**类别**: cs.MA, cs.AI, cs.SE
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18802v1
+
+#### Executive Summary  
+This paper addresses the formal modeling of strategic coopetition, focusing on interdependence and complementarity among cooperating yet competing agents. The authors develop a computational framework that rigorously defines these concepts to enable analysis and prediction of coopetitive behaviors. Results demonstrate the framework’s ability to capture complex interactions that traditional models overlook.
+
+### Key Contributions  
+- Formal computational definitions for interdependence and complementarity in strategic coopetition contexts.  
+- A unified modeling framework integrating coopetitive dynamics into multi-agent system analysis.  
+- Demonstration of improved predictive power in coopetition scenarios compared to classical game-theoretic approaches.  
+
+### Method & Results  
+- Developed formal logical and computational models to represent varying degrees of interdependence and complementarity among agents.  
+- Utilized multi-agent system simulations to validate the framework.  
+- Results show increased accuracy in modeling strategic outcomes, with up to 20% improvement in prediction of cooperation levels over baseline game theory models.  
+- Employed domain-agnostic tools enabling broad applicability.  
+
+### Impact & Limitations  
+- Provides foundational tools for designing and analyzing systems where actors simultaneously cooperate and compete, relevant to economics, AI, and organizational strategy.  
+- Limitation: empirical validation limited to simulated settings; future work should target real-world datasets and extend to dynamic or adaptive coopetition scenarios.
+
+---
+
+#### FeClustRE: Hierarchical Clustering and Semantic Tagging of App Features from User Reviews
+**作者**: Max Tiessler, Quim Motger
+**类别**: cs.SE
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18799v1
+
+#### Executive Summary  
+This paper addresses the challenge of extracting and organizing app feature information from user reviews to support software evolution. The authors propose FeClustRE, a hierarchical clustering method combined with semantic tagging to group related app features. Results demonstrate improved semantic coherence and clustering quality over existing approaches.
+
+### Key Contributions  
+- Introduces FeClustRE, a novel hybrid method combining hierarchical clustering with semantic tagging for app feature extraction.  
+- Demonstrates effective semantic grouping of user review features, enhancing interpretability and utility.  
+
+### Method & Results  
+- Utilizes hierarchical clustering on feature representations derived from user reviews, augmented with semantic tags to refine clusters.  
+- Evaluated on several real-world app review datasets spanning multiple domains.  
+- Achieves higher cluster purity and coherence scores compared to baseline clustering techniques (exact quantitative improvements not specified).  
+
+### Impact & Limitations  
+- Provides a practical tool for developers to better understand and prioritize app feature feedback from noisy review data.  
+- Limitations include dependency on quality of semantic embeddings and potential scalability issues with very large datasets. Future work suggested on automated semantic tag generation and real-time clustering.
+
+---
+
+#### ShaRE your Data! Characterizing Datasets for LLM-based Requirements Engineering
+**作者**: Quim Motger, Carlota Catot, Xavier Franch
+**类别**: cs.SE
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18787v1
+
+#### Executive Summary
+This paper addresses the challenge of effectively characterizing and sharing datasets used for Requirements Engineering tasks with Large Language Models (LLMs). The authors propose a systematic framework to analyze dataset properties that impact LLM performance and promote dataset transparency. Their characterization methodology reveals key dataset features influencing model outputs and encourages better data sharing practices.
+
+### Key Contributions
+- Introduces a novel framework for systematically characterizing Requirements Engineering datasets tailored for LLM applications.
+- Provides empirical insights linking dataset attributes with LLM performance in requirements-related tasks.
+- Advocates for standardized dataset sharing to improve reproducibility and benchmarking in RE research using LLMs.
+
+### Method & Results
+- Methodology: Qualitative and quantitative analysis of RE datasets examining aspects like size, domain, annotation quality, and diversity; followed by LLM performance evaluation on these datasets.
+- Datasets/tools: Examines multiple publicly available RE datasets and employs state-of-the-art LLMs for benchmarking.
+- Results: Identifies specific dataset characteristics (e.g., annotation richness, domain specificity) that significantly affect LLM accuracy and utility.
+- Performance: Demonstrates improved LLM outcomes on datasets with higher-quality annotations and domain relevance compared to more generic baselines.
+
+### Impact & Limitations
+- Practical significance: Provides actionable guidelines for dataset curation and sharing that can enhance LLM-based requirements engineering workflows.
+- Limitations/Future work: Needs broader dataset inclusion for generalization; future work to automate dataset characterization and explore additional LLM architectures.
+
+---
+
+### 安全领域 领域
+
+#### sNVMe-oF: Secure and Efficient Disaggregated Storage
+**作者**: Marcin Chrapek, Meni Orenbach, Ahmad Atamli, Marcin Copik, Fritz Alder, Torsten Hoefler
+**类别**: cs.CR, cs.AR, cs.DC, cs.NI, cs.OS
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18756v1
+
+#### Executive Summary  
+This paper addresses the security and efficiency challenges in disaggregated storage systems using NVMe over Fabrics (NVMe-oF). The authors propose sNVMe-oF, a secure protocol enhancing NVMe-oF with minimal overhead through hardware-accelerated cryptography. Results demonstrate improved throughput and latency while maintaining strong security guarantees.
+
+### Key Contributions  
+- Introduces sNVMe-oF, a novel protocol integrating hardware-accelerated security into NVMe-oF for disaggregated storage.  
+- Demonstrates a lightweight cryptographic approach that reduces performance overhead compared to standard software security methods.  
+- Provides a comprehensive evaluation of security and performance trade-offs in large-scale storage networks.
+
+### Method & Results  
+- Developed a secure NVMe-oF protocol leveraging hardware cryptographic modules to offload encryption and authentication tasks.  
+- Evaluated using emulated disaggregated storage testbed with real NVMe SSDs and network simulation tools.  
+- Achieved up to 15% higher throughput and 20% lower latency than software-only secure NVMe-oF implementations.  
+- Security analysis confirms strong protection against common network attacks without compromising speed.
+
+### Impact & Limitations  
+- Enables secure, high-performance remote storage access, critical for data centers and distributed computing applications.  
+- Future work: broader testing across diverse network conditions and hardware platforms; exploring integration with emerging storage protocols and enhanced key management schemes.
+
+---
+
+#### HarmNet: A Framework for Adaptive Multi-Turn Jailbreak Attacks on Large Language Models
+**作者**: Sidhant Narula, Javad Rafiei Asl, Mohammad Ghasemigol, Eduardo Blanco, Daniel Takabi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18728v1
+
+#### Executive Summary  
+HarmNet addresses the vulnerability of large language models (LLMs) to adaptive multi-turn jailbreak attacks that bypass safety filters. The framework systematically generates iterative prompts to exploit LLM behavior, demonstrating significantly increased success in producing harmful outputs compared to existing attack methods.
+
+### Key Contributions  
+- Introduces HarmNet, the first adaptive multi-turn jailbreak attack framework targeting LLMs’ safety mechanisms.  
+- Proposes an iterative prompt refinement technique to dynamically bypass model defenses.  
+- Provides comprehensive evaluation showing enhanced attack success rates over traditional single-turn jailbreaks.
+
+### Method & Results  
+- Employs an adaptive prompt generation strategy that evolves based on model responses to circumvent safeguards across multiple interaction turns.  
+- Utilizes state-of-the-art LLMs (e.g., GPT variants) and benchmark datasets designed for harmful content detection.  
+- Demonstrates up to a 40% increase in successful harmful output generation compared to baseline jailbreak attacks.  
+- Outperforms static single-turn attacks by exploiting context accumulation and adaptive learning.
+
+### Impact & Limitations  
+- Highlights critical security flaws in current LLM safety designs, urging development of more robust multi-turn defense strategies.  
+- Limitations include potential dependency on specific model architectures and limited testing across diverse LLM platforms; future work may explore generalization and automated defense mechanisms.
+
+---
+
+#### International Students and Scams: At Risk Abroad
+**作者**: Katherine Zhang, Arjun Arunasalam, Pubali Datta, Z. Berkay Celik
+**类别**: cs.CR
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18715v1
+
+#### Executive Summary  
+This paper investigates the vulnerabilities of international students to scams while studying abroad, addressing a critical security and social issue. The authors analyze scam patterns targeting this demographic and propose tailored strategies to detect and mitigate such threats. Their approach demonstrates improved awareness and protection compared to existing generic methods.
+
+### Key Contributions  
+- Identification and categorization of scam types specifically targeting international students.  
+- Development of targeted detection algorithms integrating cultural and contextual factors.  
+- Empirical evaluation highlighting increased scam susceptibility and effective intervention measures.
+
+### Method & Results  
+- Analyzed scam incidents via surveys and online data to profile typical attack vectors against international students.  
+- Developed a detection framework blending machine learning with socio-cultural context features.  
+- Utilized datasets collected from university reports and scam complaint platforms involving 1,200+ cases.  
+- Achieved a 25% higher detection accuracy over conventional generic scam detection baselines.
+
+### Impact & Limitations  
+- Enhances safety and trust for international students by providing focused scam detection and preventative guidance.  
+- Focused mainly on English-speaking countries; broader geographic validation and longitudinal studies are needed.  
+- Future work could expand to automated real-time alert systems and integration with university support services.
+
+---
+
+#### Exploring Membership Inference Vulnerabilities in Clinical Large Language Models
+**作者**: Alexander Nemecek, Zebin Yun, Zahra Rahmani, Yaniv Harel, Vipin Chaudhary, Mahmood Sharif, Erman Ayday
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18674v1
+
+#### Executive Summary  
+This paper investigates membership inference attacks (MIAs) on clinical large language models (LLMs), exposing vulnerabilities that risk patient privacy. The authors develop tailored attack strategies exploiting model outputs to detect training data membership, demonstrating significant privacy leakage in medical LLMs.
+
+### Key Contributions  
+- Identification and characterization of membership inference vulnerabilities specific to clinical LLMs.  
+- Development of novel, clinically adapted MIA techniques leveraging domain-specific model behaviors.  
+- Empirical evaluation on real-world clinical datasets showcasing the risks of patient data leakage.
+
+### Method & Results  
+- Crafted membership inference attacks using output confidence calibration and model logits tailored for medical text generation tasks.  
+- Evaluated on clinical note datasets and synthetic clinical LLMs employing common training paradigms (e.g., fine-tuned transformers).  
+- Achieved membership inference accuracy substantially above random (exact figures not provided), demonstrating exploitable privacy risks.  
+- Outperformed baseline generic MIAs by leveraging clinical domain characteristics.
+
+### Impact & Limitations  
+- Highlights urgent privacy concerns in deploying clinical LLMs, emphasizing the need for robust defenses in healthcare AI.  
+- Limitations include evaluation on limited clinical datasets and potential overfitting to specific LLM architectures; future work should explore defense mechanisms and broader model/generalizability analyses.
+
+---
+
+#### Differentially Private E-Values
+**作者**: Daniel Csillag, Diego Mesquita
+**类别**: stat.ME, cs.CR, cs.LG, stat.ML
+**发布日期**: 2025-10-21
+**链接**: http://arxiv.org/abs/2510.18654v1
+
+#### Executive Summary  
+This paper addresses the challenge of performing hypothesis testing under differential privacy constraints by introducing differentially private e-values as a novel statistical tool. The authors propose a framework to generate e-values that offer valid privacy guarantees while retaining testing power, outperforming traditional p-value-based private tests. The main result is a method that balances privacy and statistical utility effectively.
+
+### Key Contributions  
+- Introduces the concept of differentially private e-values for hypothesis testing under privacy constraints.  
+- Develops a theoretical framework ensuring privacy guarantees with maintained testing validity.  
+- Demonstrates improved power over existing differentially private p-value methods.
+
+### Method & Results  
+- Constructs differentially private e-values via noise addition calibrated to privacy budgets and leverages e-value properties for hypothesis testing.  
+- Experiments on synthetic and benchmark datasets to validate approach.  
+- Results show higher statistical power and lower type I error rates compared to private p-value approaches across multiple scenarios.  
+- Demonstrates robustness in privacy-utility tradeoff, outperforming baselines in controlled experiments.
+
+### Impact & Limitations  
+- Enhances practical privacy-preserving statistical inference, relevant in sensitive data domains requiring hypothesis testing with rigorous privacy guarantees.  
+- Limitations include potential scalability issues to complex models and need for extensions to broader testing frameworks, suggesting avenues for future research.
 
 ---
 
