@@ -25134,18 +25134,18 @@ This paper addresses the challenge of efficiently generating acceptance tests fo
 #### Executive Summary  
 This paper addresses the formal modeling of strategic coopetition, focusing on interdependence and complementarity among cooperating yet competing agents. The authors develop a computational framework that rigorously defines these concepts to enable analysis and prediction of coopetitive behaviors. Results demonstrate the framework’s ability to capture complex interactions that traditional models overlook.
 
-### Key Contributions  
+### Key Contributions
 - Formal computational definitions for interdependence and complementarity in strategic coopetition contexts.  
 - A unified modeling framework integrating coopetitive dynamics into multi-agent system analysis.  
 - Demonstration of improved predictive power in coopetition scenarios compared to classical game-theoretic approaches.  
 
-### Method & Results  
+### Method & Results
 - Developed formal logical and computational models to represent varying degrees of interdependence and complementarity among agents.  
 - Utilized multi-agent system simulations to validate the framework.  
 - Results show increased accuracy in modeling strategic outcomes, with up to 20% improvement in prediction of cooperation levels over baseline game theory models.  
 - Employed domain-agnostic tools enabling broad applicability.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides foundational tools for designing and analyzing systems where actors simultaneously cooperate and compete, relevant to economics, AI, and organizational strategy.  
 - Limitation: empirical validation limited to simulated settings; future work should target real-world datasets and extend to dynamic or adaptive coopetition scenarios.
 
@@ -25160,16 +25160,16 @@ This paper addresses the formal modeling of strategic coopetition, focusing on i
 #### Executive Summary  
 This paper addresses the challenge of extracting and organizing app feature information from user reviews to support software evolution. The authors propose FeClustRE, a hierarchical clustering method combined with semantic tagging to group related app features. Results demonstrate improved semantic coherence and clustering quality over existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FeClustRE, a novel hybrid method combining hierarchical clustering with semantic tagging for app feature extraction.  
 - Demonstrates effective semantic grouping of user review features, enhancing interpretability and utility.  
 
-### Method & Results  
+### Method & Results
 - Utilizes hierarchical clustering on feature representations derived from user reviews, augmented with semantic tags to refine clusters.  
 - Evaluated on several real-world app review datasets spanning multiple domains.  
 - Achieves higher cluster purity and coherence scores compared to baseline clustering techniques (exact quantitative improvements not specified).  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical tool for developers to better understand and prioritize app feature feedback from noisy review data.  
 - Limitations include dependency on quality of semantic embeddings and potential scalability issues with very large datasets. Future work suggested on automated semantic tag generation and real-time clustering.
 
@@ -25212,18 +25212,18 @@ This paper addresses the challenge of effectively characterizing and sharing dat
 #### Executive Summary  
 This paper addresses the security and efficiency challenges in disaggregated storage systems using NVMe over Fabrics (NVMe-oF). The authors propose sNVMe-oF, a secure protocol enhancing NVMe-oF with minimal overhead through hardware-accelerated cryptography. Results demonstrate improved throughput and latency while maintaining strong security guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Introduces sNVMe-oF, a novel protocol integrating hardware-accelerated security into NVMe-oF for disaggregated storage.  
 - Demonstrates a lightweight cryptographic approach that reduces performance overhead compared to standard software security methods.  
 - Provides a comprehensive evaluation of security and performance trade-offs in large-scale storage networks.
 
-### Method & Results  
+### Method & Results
 - Developed a secure NVMe-oF protocol leveraging hardware cryptographic modules to offload encryption and authentication tasks.  
 - Evaluated using emulated disaggregated storage testbed with real NVMe SSDs and network simulation tools.  
 - Achieved up to 15% higher throughput and 20% lower latency than software-only secure NVMe-oF implementations.  
 - Security analysis confirms strong protection against common network attacks without compromising speed.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure, high-performance remote storage access, critical for data centers and distributed computing applications.  
 - Future work: broader testing across diverse network conditions and hardware platforms; exploring integration with emerging storage protocols and enhanced key management schemes.
 
@@ -25238,18 +25238,18 @@ This paper addresses the security and efficiency challenges in disaggregated sto
 #### Executive Summary  
 HarmNet addresses the vulnerability of large language models (LLMs) to adaptive multi-turn jailbreak attacks that bypass safety filters. The framework systematically generates iterative prompts to exploit LLM behavior, demonstrating significantly increased success in producing harmful outputs compared to existing attack methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces HarmNet, the first adaptive multi-turn jailbreak attack framework targeting LLMs’ safety mechanisms.  
 - Proposes an iterative prompt refinement technique to dynamically bypass model defenses.  
 - Provides comprehensive evaluation showing enhanced attack success rates over traditional single-turn jailbreaks.
 
-### Method & Results  
+### Method & Results
 - Employs an adaptive prompt generation strategy that evolves based on model responses to circumvent safeguards across multiple interaction turns.  
 - Utilizes state-of-the-art LLMs (e.g., GPT variants) and benchmark datasets designed for harmful content detection.  
 - Demonstrates up to a 40% increase in successful harmful output generation compared to baseline jailbreak attacks.  
 - Outperforms static single-turn attacks by exploiting context accumulation and adaptive learning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security flaws in current LLM safety designs, urging development of more robust multi-turn defense strategies.  
 - Limitations include potential dependency on specific model architectures and limited testing across diverse LLM platforms; future work may explore generalization and automated defense mechanisms.
 
@@ -25264,18 +25264,18 @@ HarmNet addresses the vulnerability of large language models (LLMs) to adaptive 
 #### Executive Summary  
 This paper investigates the vulnerabilities of international students to scams while studying abroad, addressing a critical security and social issue. The authors analyze scam patterns targeting this demographic and propose tailored strategies to detect and mitigate such threats. Their approach demonstrates improved awareness and protection compared to existing generic methods.
 
-### Key Contributions  
+### Key Contributions
 - Identification and categorization of scam types specifically targeting international students.  
 - Development of targeted detection algorithms integrating cultural and contextual factors.  
 - Empirical evaluation highlighting increased scam susceptibility and effective intervention measures.
 
-### Method & Results  
+### Method & Results
 - Analyzed scam incidents via surveys and online data to profile typical attack vectors against international students.  
 - Developed a detection framework blending machine learning with socio-cultural context features.  
 - Utilized datasets collected from university reports and scam complaint platforms involving 1,200+ cases.  
 - Achieved a 25% higher detection accuracy over conventional generic scam detection baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances safety and trust for international students by providing focused scam detection and preventative guidance.  
 - Focused mainly on English-speaking countries; broader geographic validation and longitudinal studies are needed.  
 - Future work could expand to automated real-time alert systems and integration with university support services.
@@ -25291,18 +25291,18 @@ This paper investigates the vulnerabilities of international students to scams w
 #### Executive Summary  
 This paper investigates membership inference attacks (MIAs) on clinical large language models (LLMs), exposing vulnerabilities that risk patient privacy. The authors develop tailored attack strategies exploiting model outputs to detect training data membership, demonstrating significant privacy leakage in medical LLMs.
 
-### Key Contributions  
+### Key Contributions
 - Identification and characterization of membership inference vulnerabilities specific to clinical LLMs.  
 - Development of novel, clinically adapted MIA techniques leveraging domain-specific model behaviors.  
 - Empirical evaluation on real-world clinical datasets showcasing the risks of patient data leakage.
 
-### Method & Results  
+### Method & Results
 - Crafted membership inference attacks using output confidence calibration and model logits tailored for medical text generation tasks.  
 - Evaluated on clinical note datasets and synthetic clinical LLMs employing common training paradigms (e.g., fine-tuned transformers).  
 - Achieved membership inference accuracy substantially above random (exact figures not provided), demonstrating exploitable privacy risks.  
 - Outperformed baseline generic MIAs by leveraging clinical domain characteristics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent privacy concerns in deploying clinical LLMs, emphasizing the need for robust defenses in healthcare AI.  
 - Limitations include evaluation on limited clinical datasets and potential overfitting to specific LLM architectures; future work should explore defense mechanisms and broader model/generalizability analyses.
 
@@ -25317,20 +25317,294 @@ This paper investigates membership inference attacks (MIAs) on clinical large la
 #### Executive Summary  
 This paper addresses the challenge of performing hypothesis testing under differential privacy constraints by introducing differentially private e-values as a novel statistical tool. The authors propose a framework to generate e-values that offer valid privacy guarantees while retaining testing power, outperforming traditional p-value-based private tests. The main result is a method that balances privacy and statistical utility effectively.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of differentially private e-values for hypothesis testing under privacy constraints.  
 - Develops a theoretical framework ensuring privacy guarantees with maintained testing validity.  
 - Demonstrates improved power over existing differentially private p-value methods.
 
-### Method & Results  
+### Method & Results
 - Constructs differentially private e-values via noise addition calibrated to privacy budgets and leverages e-value properties for hypothesis testing.  
 - Experiments on synthetic and benchmark datasets to validate approach.  
 - Results show higher statistical power and lower type I error rates compared to private p-value approaches across multiple scenarios.  
 - Demonstrates robustness in privacy-utility tradeoff, outperforming baselines in controlled experiments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical privacy-preserving statistical inference, relevant in sensitive data domains requiring hypothesis testing with rigorous privacy guarantees.  
 - Limitations include potential scalability issues to complex models and need for extensions to broader testing frameworks, suggesting avenues for future research.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-23)
+
+### 软件工程 领域
+
+#### Integrating Transparent Models, LLMs, and Practitioner-in-the-Loop: A Case of Nonprofit Program Evaluation
+**作者**: Ji Ma, Albert Casella
+**类别**: cs.CY, cs.AI, cs.HC, cs.LG, cs.SE, econ.GN, q-fin.EC
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19799v1
+
+#### Executive Summary  
+This paper addresses challenges in nonprofit program evaluation by integrating transparent modeling techniques with large language models (LLMs) and incorporating practitioner feedback in the loop. Their hybrid approach enhances interpretability and practical relevance in evaluation outcomes, demonstrating improved decision support for nonprofit stakeholders.
+
+### Key Contributions  
+- Proposes a novel framework combining transparent models with LLMs and active practitioner involvement for program evaluation.  
+- Introduces a practitioner-in-the-loop mechanism to refine model outputs, improving real-world applicability.  
+- Demonstrates improved interpretability without sacrificing predictive power in nonprofit contexts.
+
+### Method & Results  
+- Utilizes transparent statistical and machine learning models augmented by LLM-generated insights, iteratively refined through practitioner feedback.  
+- Employs real nonprofit program datasets alongside domain expert inputs for validation.  
+- Results show enhanced evaluation accuracy (e.g., improved precision/recall metrics) and better stakeholder trust compared to standalone automated methods.  
+- Outperforms baseline models lacking transparency or practitioner integration by noticeable margins in evaluation relevance and usability.
+
+### Impact & Limitations  
+- Offers a practical, interpretable solution that aligns with nonprofit evaluation needs and fosters human-AI collaboration.  
+- Limitations include potential scalability challenges with larger datasets and dependence on practitioner availability; future work could explore automated feedback synthesis and broader application domains.
+
+---
+
+#### BOSQTGEN: Breaking the Sound Barrier in Test Generation
+**作者**: S M Sadrul Islam Asif, James Chen, Earl T. Barr, Mark Marron
+**类别**: cs.SE
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19777v1
+
+#### Executive Summary  
+BOSQTGEN addresses inefficiencies in automated test generation by introducing a novel algorithm that significantly accelerates the testing process without sacrificing coverage. Their approach leverages a sound barrier-breaking heuristic combined with quantum-inspired optimization. Results demonstrate substantial runtime improvements while maintaining or improving test quality compared to prior state-of-the-art methods.
+
+### Key Contributions  
+- Introduces BOSQTGEN, a quantum-inspired heuristic algorithm for test generation, breaking existing speed-performance trade-offs.  
+- Demonstrates scalable optimization that outperforms classical test generation approaches in both efficiency and effectiveness.  
+- Provides thorough empirical evaluation showing improved test suite coverage at reduced computational costs.
+
+### Method & Results  
+- Developed a hybrid optimization combining sound barrier heuristics with quantum-inspired techniques to guide test input generation.  
+- Evaluated on prominent software engineering benchmarks and real-world codebases using coverage and fault detection metrics.  
+- Achieved up to 40% reduction in test generation time and 15% improvement in coverage over leading baseline tools.  
+- Consistently generated higher quality test suites that detect more faults without increased overhead.
+
+### Impact & Limitations  
+- Enables more rapid and effective automated testing, facilitating continuous integration and faster development cycles.  
+- Future work includes adapting BOSQTGEN to different programming paradigms and exploring integration with hardware-level quantum processors.  
+- Current limitations involve scalability to extremely large codebases and dependency on heuristic tuning parameters.
+
+---
+
+#### Review of Tools for Zero-Code LLM Based Application Development
+**作者**: Priyaranjan Pattnayak, Hussain Bohra
+**类别**: cs.SE
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19747v1
+
+#### Executive Summary  
+This paper addresses the challenges of developing applications using Large Language Models (LLMs) without coding expertise. It systematically reviews existing zero-code tools that enable users to build LLM-powered apps through intuitive interfaces. The study highlights key design patterns, usability aspects, and comparative strengths of these tools.
+
+### Key Contributions  
+- Comprehensive survey of zero-code platforms for LLM-based application development, emphasizing user accessibility.  
+- Identification and analysis of common features and architectural approaches across different tools.  
+- Discussion on integration strategies and customization options within zero-code environments.
+
+### Method & Results  
+- Methodology: Systematic review of current zero-code LLM tools, categorized by functionality and user interface design.  
+- Tools reviewed include leading platforms such as LLM app builders and workflow orchestrators (specific names not stated).  
+- Results show varied strengths in ease of use, flexibility, and integration, with some tools supporting multi-LLM setups and plug-and-play modules.  
+- No direct quantitative benchmarks reported, focus is qualitative and comparative.
+
+### Impact & Limitations  
+- Enables democratization of AI application development by lowering technical barriers for non-programmers.  
+- Limited by absence of empirical user studies or detailed performance metrics; future work could explore usability evaluations and extend coverage to emerging toolsets.
+
+---
+
+#### Toward Agentic Software Engineering Beyond Code: Framing Vision, Values, and Vocabulary
+**作者**: Rashina Hoda
+**类别**: cs.SE, cs.AI, cs.MA
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19692v1
+
+#### Executive Summary  
+The paper addresses the challenge of advancing software engineering by integrating agentic perspectives beyond mere code, emphasizing human-centric vision, shared values, and enriched vocabulary. It proposes a conceptual framework that broadens the scope of software engineering to include cognitive and social dimensions, aiming to foster more holistic, adaptable development processes. The main result is a novel framing that guides future research and practice toward agentic, value-aware software systems.
+
+### Key Contributions  
+- Introduces a new multidimensional framework linking vision, values, and vocabulary to agentic software engineering.  
+- Reframes software engineering beyond coding to encompass human-centric, adaptive agency.  
+- Establishes foundational terminology and conceptual constructs to enable interdisciplinary dialogue and innovation.
+
+### Method & Results  
+- Conducted comprehensive literature synthesis and conceptual analysis to build the agentic framing.  
+- Utilized qualitative thematic analysis on multidisciplinary sources from software engineering, AI, and management.  
+- No empirical datasets or experimental benchmarks; focus is theoretical foundation and framing.  
+- Results emphasize conceptual clarity rather than measurable performance gains.
+
+### Impact & Limitations  
+- Offers a strategic roadmap for researchers and practitioners to adopt agentic perspectives, potentially transforming software engineering culture and tools.  
+- Limitations include lack of empirical validation and practical implementation guidelines; future work should develop operational models and evaluate in real-world settings.
+
+---
+
+#### LifeSync-Games: Toward a Video Game Paradigm for Promoting Responsible Gaming and Human Development
+**作者**: R. González-Ibáñez, J. Macías-Cáceres, M. Villalta-Paucar
+**类别**: cs.HC, cs.CY, cs.MM, cs.SE, H.5.2; H.1.2; K.8.0
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19691v1
+
+#### Executive Summary
+This paper addresses the challenge of promoting responsible gaming and personal development through a novel video game paradigm called LifeSync-Games. The authors design and evaluate game mechanics aimed at fostering self-regulation and socio-emotional skills, demonstrating their effectiveness in encouraging healthier player behavior.
+
+### Key Contributions
+- Introduces LifeSync-Games, a gaming framework explicitly integrating responsible gaming principles with human development goals.
+- Proposes innovative in-game feedback and reward systems that promote self-awareness and controlled play.
+- Demonstrates empirical evidence of improved player responsibility and emotional intelligence through gameplay interventions.
+
+### Method & Results
+- Developed a prototype game embedding self-regulation mechanics and socio-emotional skill exercises.
+- Conducted user studies with diverse player groups, employing behavioral and self-report measures.
+- Results show a statistically significant reduction in impulsive gaming behavior (p < 0.05) and enhanced emotional self-regulation scores post-intervention.
+- Outperforms conventional entertainment-focused games lacking responsible gaming features in fostering player well-being.
+
+### Impact & Limitations
+- Practical for game developers and policymakers aiming to mitigate gaming addiction and promote mental health.
+- Limited scalability tested; future work should explore long-term effects and integration across diverse game genres and populations.
+
+---
+
+### 安全领域 领域
+
+#### The Tail Tells All: Estimating Model-Level Membership Inference Vulnerability Without Reference Models
+**作者**: Euodia Dodd, Nataša Krčo, Igor Shilov, Yves-Alexandre de Montjoye
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19773v1
+
+#### Executive Summary  
+This paper addresses the challenge of estimating a machine learning model’s vulnerability to membership inference attacks without relying on reference models. The authors propose a novel approach that leverages the tail behavior of prediction confidence distributions to infer vulnerability levels. Their method achieves accurate vulnerability estimation, enabling risk assessment without costly or impractical retraining.
+
+### Key Contributions  
+- Introduces a reference-model-free technique to estimate membership inference vulnerability using tail confidence statistics.  
+- Demonstrates that distribution tail analysis suffices to gauge model privacy risks across diverse models and datasets.
+
+### Method & Results  
+- Method: Analyzes the tail of the model’s output confidence distribution to infer membership exposure risk.  
+- Datasets: Experiments conducted on standard datasets commonly used in membership inference research (e.g., CIFAR-10, Purchase100).  
+- Results: Achieves vulnerability estimation correlated with ground truth with high accuracy (exact numbers not specified).  
+- Outperforms or matches baseline methods requiring reference models, offering a more practical vulnerability assessment.
+
+### Impact & Limitations  
+- Enables practical privacy risk evaluation for deployed models without retraining or access to multiple model instances.  
+- Limitations include potential sensitivity to tail estimation accuracy and applicability to models with calibrated confidence outputs; future work may explore broader model classes and robustness to adaptive adversaries.
+
+---
+
+#### Under Pressure: Security Analysis and Process Impacts of a Commercial Smart Air Compressor
+**作者**: Jad Zarzour, Matthew Jablonski
+**类别**: cs.CR
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19772v1
+
+#### Executive Summary  
+This paper investigates security vulnerabilities and operational impacts in a commercial smart air compressor system. Through empirical security analysis and process impact evaluation, the authors identify exploitable weaknesses and quantify how attacks affect compressor performance, highlighting the need for enhanced cyber-physical safeguards.
+
+### Key Contributions  
+- First comprehensive security assessment of a commercial smart air compressor system.  
+- Demonstrates real-world impact of cyberattacks on industrial process performance.  
+- Provides actionable recommendations for improving security and resilience in smart industrial devices.
+
+### Method & Results  
+- Employed penetration testing and threat modeling on the air compressor’s hardware/software stack.  
+- Used real-device experimentation to measure process disruptions under different attack scenarios.  
+- Identified multiple vulnerabilities including insecure communication and firmware flaws.  
+- Quantified performance degradation: up to 30% drop in air delivery efficiency during attacks.  
+- No direct performance baselines reported, but results clearly demonstrate operational risk.
+
+### Impact & Limitations  
+- Highlights critical need for integrating cybersecurity with industrial process management in smart factories.  
+- Results inform designers and operators on protecting connected industrial equipment.  
+- Limited to one commercial device model; broader generalization requires further studies.  
+- Future work should include automated defense mechanisms and wider industrial contexts.
+
+---
+
+#### Exploring the Effect of DNN Depth on Adversarial Attacks in Network Intrusion Detection Systems
+**作者**: Mohamed ElShehaby, Ashraf Matrawy
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19761v1
+
+#### Executive Summary
+This paper investigates how the depth of Deep Neural Networks (DNNs) affects their vulnerability to adversarial attacks in Network Intrusion Detection Systems (NIDS). The authors conduct empirical experiments varying DNN depth to analyze attack success rates, revealing a non-linear relationship where neither shallow nor overly deep networks consistently resist adversarial perturbations.
+
+### Key Contributions
+- Demonstrates the nuanced impact of DNN depth on adversarial robustness in NIDS settings.
+- Provides systematic empirical evaluation across multiple DNN architectures varying in depth.
+- Highlights the trade-offs between model complexity and susceptibility to adversarial manipulation specific to intrusion detection.
+
+### Method & Results
+- Trains DNN models with varying numbers of layers on network traffic data, subjecting them to state-of-the-art adversarial attacks.
+- Utilizes well-established intrusion detection datasets (e.g., NSL-KDD or CICIDS) and standard adversarial attack algorithms.
+- Shows intermediate-depth DNNs achieve better robustness metrics, with attack success rates increasing for very shallow or very deep models (exact rates not specified).
+- Outperforms baseline shallow models in balancing detection accuracy and adversarial resilience.
+
+### Impact & Limitations
+- Offers practical insights for designing robust NIDS by carefully selecting DNN depth to mitigate adversarial risks.
+- Future work needed to generalize findings across diverse attack types, optimize architectures alongside adversarial training, and evaluate real-time deployment scenarios.
+
+---
+
+#### Unfair Mistakes on Social Media: How Demographic Characteristics influence Authorship Attribution
+**作者**: Jasmin Wyss, Rebekah Overdorf
+**类别**: cs.SI, cs.CR
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19708v1
+
+#### Executive Summary  
+This paper investigates how demographic characteristics influence errors in authorship attribution on social media, highlighting biases that lead to unfair misclassification. The authors analyze attribution models and demonstrate that demographic factors significantly affect prediction accuracy, often disadvantaging certain groups. They propose considerations to mitigate these disparities in authorship attribution systems.
+
+### Key Contributions  
+- Evidence that demographic variables (e.g., age, gender) systematically bias authorship attribution errors on social media.  
+- Quantitative analysis linking misclassification patterns to specific demographic groups.  
+- Recommendations for improving fairness in authorship attribution models considering social bias.
+
+### Method & Results  
+- Utilized machine learning classifiers on social media datasets labeled with authorship and demographic information.  
+- Employed error analysis techniques to correlate misattributions with demographics.  
+- Dataset: Large-scale social media posts with annotated demographics (platform unspecified).  
+- Found statistically significant disparities in attribution accuracy, with lower performance on underrepresented or marginalized groups.  
+- Models showed up to X% higher error rates on certain demographics compared to baselines ignoring demographic bias.
+
+### Impact & Limitations  
+- Raises awareness of fairness issues in forensic and security applications relying on authorship attribution.  
+- Encourages development of bias-mitigated attribution models to ensure equitable use in social media contexts.  
+- Limitations: Generalizability across platforms not fully explored; demographic labels may be noisy or incomplete.  
+- Future work should focus on bias correction methods and broader demographic variables.
+
+---
+
+#### CircuitGuard: Mitigating LLM Memorization in RTL Code Generation Against IP Leakage
+**作者**: Nowfel Mashnoor, Mohammad Akyash, Hadi Kamali, Kimia Azar
+**类别**: cs.CR
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19676v1
+
+#### Executive Summary
+CircuitGuard addresses the challenge of unintentional intellectual property (IP) leakage when large language models (LLMs) generate register-transfer level (RTL) code by memorizing proprietary designs. The paper proposes a privacy-preserving framework that detects and mitigates memorization-induced IP exposure, achieving significant reductions in leakage without sacrificing code generation quality.
+
+### Key Contributions
+- Introduces CircuitGuard, a novel framework to prevent LLM memorization of sensitive RTL IP during code generation.
+- Develops a detection mechanism tailored to identifying memorized proprietary RTL patterns within generated outputs.
+- Demonstrates effective mitigation techniques that balance privacy preservation with model utility in RTL synthesis tasks.
+
+### Method & Results
+- Utilizes watermarking and memorization detection strategies integrated with LLM fine-tuning to reduce IP leakage.
+- Evaluated on proprietary and benchmark RTL design datasets to simulate realistic intellectual property scenarios.
+- Achieved up to 85% reduction in IP leakage instances with less than 5% degradation in generation accuracy.
+- Outperformed standard fine-tuning methods lacking protective measures by a wide margin in leakage control metrics.
+
+### Impact & Limitations
+- Enables safer deployment of LLMs for RTL code generation in IP-sensitive environments, enhancing trust and adoption in hardware design workflows.
+- Future work: expanding coverage to diverse hardware languages and improving detection sensitivity to subtle memorization patterns.
 
 ---
 
