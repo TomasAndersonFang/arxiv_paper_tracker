@@ -25876,18 +25876,18 @@ This paper addresses bribery attacks undermining decentralized exchanges (DEXs) 
 #### Executive Summary  
 This paper addresses security and intellectual property (IP) protection challenges in distributed co-simulation using the Functional Mock-up Interface (FMI) standard. The authors propose an enhanced FMI-based framework integrating advanced encryption and access control mechanisms to safeguard model confidentiality. Experimental evaluation demonstrates improved security without compromising co-simulation performance.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of cryptographic techniques directly within the FMI co-simulation workflow for secure data exchange.  
 - Introduction of IP protection mechanisms that prevent unauthorized model access and reverse engineering.  
 - Development of a distributed co-simulation architecture that balances security enhancements with performance efficiency.
 
-### Method & Results  
+### Method & Results
 - Utilizes an FMI-compliant co-simulation setup augmented with encryption modules and secure key management protocols.  
 - Employs real-world multi-domain simulation models to validate approach.  
 - Results show a negligible performance overhead (<5%) while achieving robust confidentiality and IP protection.  
 - Outperforms traditional unsecured FMI co-simulation setups, which lack explicit security measures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables industry-grade secure collaborative simulation environments preserving proprietary model IP.  
 - Future work needed to scale the approach for highly complex simulations and to integrate real-time anomaly detection for enhanced threat responsiveness.
 
@@ -25980,18 +25980,18 @@ This paper addresses the challenge of maintaining consistency between cloud infr
 #### Executive Summary  
 This paper addresses the challenge of migrating legacy PL/SQL triggers to modern Java code, proposing a model-driven reengineering approach. The authors develop and validate a systematic process that automates trigger transformation, improving maintainability and integration in Java-based systems.
 
-### Key Contributions  
+### Key Contributions
 - A novel model-driven framework for automatic migration of PL/SQL triggers to Java code.  
 - Practical validation through an industrial case study demonstrating applicability and efficiency.  
 - Integration of reverse engineering and code generation techniques tailored for trigger semantics.
 
-### Method & Results  
+### Method & Results
 - Methodology combines reverse engineering of existing PL/SQL triggers into UML models, followed by model transformations to generate equivalent Java implementations.  
 - Utilized real-world industrial PL/SQL trigger datasets for validation.  
 - Achieved high automation levels, reducing manual effort by over 60%, with generated Java triggers preserving functional correctness.  
 - Demonstrated improved system maintainability compared to manual migration approaches; quantitative performance gains over baseline manual rewrites were reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables smoother legacy modernization in enterprise database applications, facilitating technology updates and maintainability.  
 - Limitations include handling of complex PL/SQL constructs and scalability to very large codebases; future work proposed on extending model expressiveness and tool support.
 
@@ -26008,18 +26008,18 @@ This paper addresses the challenge of migrating legacy PL/SQL triggers to modern
 #### Executive Summary  
 This paper investigates how Large Language Models (LLMs) may inadvertently absorb and replicate innovative ideas from human input without proper attribution, potentially undermining creativity and intellectual property. The authors introduce a conceptual framework to analyze this "black box absorption" phenomenon and empirically demonstrate its effects on innovation dynamics. Results reveal measurable degradation in the visibility and novelty of ideas when filtered through LLM outputs.
 
-### Key Contributions  
+### Key Contributions
 - Identification and formalization of the "black box absorption" phenomenon in LLMs affecting innovation.  
 - Empirical evidence showing LLMs dilute the originality and disrupt the recognition of novel human ideas.  
 - A proposed analytical framework to quantify impact on intellectual property and creative ecosystems.
 
-### Method & Results  
+### Method & Results
 - Analyzed interactions between human-generated innovative ideas and outputs from state-of-the-art LLMs using idea novelty and attribution metrics.  
 - Utilized datasets comprising patent filings, academic abstracts, and creative writing samples to measure originality loss.  
 - Found a statistically significant reduction (up to 25%) in novelty scores of ideas post-LLM processing compared with original inputs.  
 - Demonstrated that current LLMs outperform naive text generation baselines but at cost of absorbing and diluting innovative content.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights potential risks of deploying LLMs in innovation-driven environments, urging cautious integration to preserve creativity and IP rights.  
 - Limitations include dependency on selected datasets and need for longitudinal studies to fully ascertain long-term effects on innovation. Further work could develop methods to mitigate idea absorption.
 
@@ -26060,18 +26060,18 @@ This paper addresses adaptive Denial of Service (DoS) attacks in Software-Define
 #### Executive Summary  
 This paper addresses the challenge of private inference over wireless channels in the presence of adversaries aiming to extract sensitive information. The authors propose an adversary-aware communication framework that integrates information-theoretic privacy guarantees with wireless channel characteristics. Their approach achieves secure and efficient private inference, demonstrated by improved privacy-utility trade-offs under realistic wireless settings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel adversary-aware private inference framework tailored for wireless communication constraints.  
 - Develops information-theoretic privacy metrics that incorporate wireless channel noise and adversarial strategies.  
 - Provides theoretical and empirical evidence of enhanced privacy against eavesdroppers while maintaining inference accuracy.
 
-### Method & Results  
+### Method & Results
 - Utilizes joint design of coding schemes and private inference algorithms informed by wireless channel models.  
 - Employs synthetic and real-world wireless channel simulations to validate the approach.  
 - Demonstrates up to 30% improvement in privacy leakage reduction compared to baseline private inference methods without adversary awareness.  
 - Shows consistent inference accuracy retention (within 5% of non-private baselines) under adversarial conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more secure deployment of ML inference in wireless edge devices, critical for privacy-sensitive applications like healthcare and IoT.  
 - Future work needed on scalability to diverse network topologies and dynamic adversary models; real-world hardware validation is also suggested.
 
@@ -26086,18 +26086,18 @@ This paper addresses the challenge of private inference over wireless channels i
 #### Executive Summary  
 This paper investigates cybersecurity vulnerabilities in LoRaWAN-based systems through a Smart-Lighting case study. It proposes a security assessment framework tailored to LoRaWAN's architecture and demonstrates practical attack scenarios alongside mitigation strategies. The study reveals critical security gaps and evaluates defense mechanisms improving system resilience.
 
-### Key Contributions  
+### Key Contributions
 - Development of a LoRaWAN-tailored security assessment framework focusing on smart lighting applications.  
 - Identification and practical demonstration of novel attack vectors unique to LoRaWAN deployments.  
 - Evaluation and proposal of effective mitigation techniques enhancing LoRaWAN security posture.
 
-### Method & Results  
+### Method & Results
 - Employed penetration testing and threat modeling specific to LoRaWAN protocols in smart lighting contexts.  
 - Utilized a custom testbed simulating a LoRaWAN smart lighting network for real-world attack and defense experiments.  
 - Demonstrated attacks reduced system availability by up to 35%; proposed mitigations restored up to 90% operational stability.  
 - Compared to generic IoT security approaches, the tailored mitigation improved defense efficacy by approximately 25%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for securing LoRaWAN-based smart city infrastructures, promoting safer IoT deployments.  
 - Limitations include scope restricted to smart lighting; future work should address other LoRaWAN use cases and automated defense mechanisms.
 
@@ -26112,20 +26112,291 @@ This paper investigates cybersecurity vulnerabilities in LoRaWAN-based systems t
 #### Executive Summary  
 This paper addresses the challenge of forging watermarks in images using black-box, one-shot attacks powered by image preference models. The authors propose a transferable framework that exploits learned image biases to create effective watermark forgeries without requiring model internals. Experiments demonstrate high success rates and cross-model generalization, revealing vulnerabilities in current watermarking schemes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel black-box, one-shot approach to watermark forgery using image preference models.  
 - Demonstrates transferability of forged watermarks across different vision models.  
 - Provides empirical evidence exposing weaknesses in state-of-the-art watermarking methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes preference models to generate forgery triggers by querying black-box vision systems once per image.  
 - Evaluates on common computer vision datasets and benchmark watermarking techniques.  
 - Achieves forgery success rates exceeding 80% with minimal queries, outperforming baseline black-box attacks.  
 - Shows effective transfer of forged watermarks across architectures, reducing reliance on white-box access.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical vulnerabilities in watermark protection for AI-generated images, urging improved defense strategies.  
 - Limitations include reliance on pre-trained preference models and constrained analysis on diverse watermarking methods; future work could extend to stronger adaptive defenses and broader model classes.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-26)
+
+### 软件工程 领域
+
+#### The Cost of Downgrading Build Systems: A Case Study of Kubernetes
+**作者**: Gareema Ranjan, Mahmoud Alfadel, Gengyi Sun, Shane McIntosh
+**类别**: cs.SE
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.20041v1
+
+#### Executive Summary  
+This paper investigates the often-overlooked costs and challenges associated with downgrading build systems, using Kubernetes as a case study. The authors perform an empirical analysis to quantify the technical debt, effort, and disruptions caused by build system downgrades, demonstrating significant negative impacts on developer productivity and software quality.
+
+### Key Contributions  
+- Empirical evidence quantifying the technical and operational costs of downgrading build systems in a major open-source project.  
+- Identification of root causes and patterns leading to costly downgrade scenarios in complex CI/CD environments.  
+- Practical recommendations for managing and mitigating downgrade risks in large-scale software projects.
+
+### Method & Results  
+- Analyzed Kubernetes’ build system downgrade events through quantitative mining of repository history and issue trackers.  
+- Used Kubernetes source code, build logs, and issue databases as primary datasets.  
+- Found downgrades cause a 35% increase in build failures and 20% longer resolution times on average.  
+- Demonstrated performance degradation relative to maintaining or upgrading build systems, emphasizing costly build regressions.
+
+### Impact & Limitations  
+- Highlights the critical need for careful build system version management to prevent productivity loss and quality issues in large software projects.  
+- Limited to a single case study; generalizability requires further research across diverse projects and build environments.  
+- Future work may explore automated tools for downgrade risk detection and mitigation.
+
+---
+
+#### ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering
+**作者**: Marianne Menglin Liu, Daniel Garcia, Fjona Parllaku, Vikas Upadhyay, Syed Fahad Allam Shah, Dan Roth
+**类别**: cs.CL, cs.SE
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.20036v1
+
+#### Executive Summary
+This paper addresses the challenge of improving Large Language Model (LLM) agents' tool use by proposing ToolScope, a framework that merges overlapping tools and applies context-aware filtering to enhance relevance. The approach leads to more efficient and accurate tool engagement, demonstrating improved task performance in complex multi-tool environments.
+
+### Key Contributions
+- Introduces a novel tool merging technique to unify semantically similar tools, reducing redundancy.
+- Develops a context-aware filtering mechanism that dynamically selects the most relevant tools per user query.
+- Demonstrates enhanced LLM agent performance in multi-tool tasks through combined merging and filtering strategies.
+
+### Method & Results
+- Method: ToolScope first clusters and merges tools with overlapping functionalities, then applies a context-sensitive filter to select subset tools based on query context.
+- Datasets/Tools: Evaluations conducted on established multi-tool benchmarks and custom datasets simulating complex tool invocation scenarios.
+- Results: Achieved up to a 15% increase in task success rate and 20% reduction in tool invocation overhead compared to baselines.
+- Outperformed existing approaches that use static tool selection or no merging, demonstrating superior efficiency and accuracy.
+
+### Impact & Limitations
+- Impact: ToolScope offers a scalable solution to optimize LLM tool utilization, beneficial for real-world multi-tool applications in NLP and software engineering.
+- Limitations: Current merging relies on predefined semantic similarity thresholds; future work could explore adaptive merging strategies and broader tool types.
+
+---
+
+#### A Framework for the Adoption and Integration of Generative AI in Midsize Organizations and Enterprises (FAIGMOE)
+**作者**: Abraham Itzhak Weinberg
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19997v1
+
+#### Executive Summary  
+This paper addresses challenges in adopting generative AI technologies within midsize organizations and enterprises. It proposes the FAIGMOE framework, which guides seamless integration of generative AI tools aligned with organizational goals. The framework is validated through case studies demonstrating improved AI adoption efficiency and organizational readiness.
+
+### Key Contributions  
+- Introduction of FAIGMOE, a tailored framework for generative AI adoption specific to midsize entities.  
+- Integration strategy combining organizational change management with technical deployment of generative AI.  
+- Empirical validation via real-world cases highlighting improved adoption outcomes.
+
+### Method & Results  
+- Method: Developed a multi-phase adoption framework combining qualitative organizational assessment with iterative AI integration steps.  
+- Tools/Datasets: Case studies from midsize companies employing popular generative AI platforms (unnamed).  
+- Results: Reported 30% improvement in internal AI adoption metrics (e.g., user engagement, deployment speed) compared to prior approaches.  
+- Performance: No direct baseline comparison but qualitative improvements over typical unstructured adoption methods demonstrated.
+
+### Impact & Limitations  
+- Impact: Provides actionable roadmap helping midsize firms overcome unique technological and cultural barriers to generative AI uptake.  
+- Limitations: Limited quantitative benchmarking and dependency on case study generalizability; future work could include broader validation and automation components.
+
+---
+
+#### On Interaction Effects in Greybox Fuzzing
+**作者**: Konstantinos Kitsios, Marcel Böhme, Alberto Bacchelli
+**类别**: cs.SE, D.2.5
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19984v1
+
+#### Executive Summary  
+This paper investigates the role of interaction effects between program inputs in greybox fuzzing to improve bug detection. The authors propose a novel approach that models and exploits these interaction effects to guide fuzzing more effectively, demonstrating enhanced exploration and fault discovery. Experimental results show significant improvements over standard greybox fuzzing techniques.
+
+### Key Contributions  
+- Identification and formalization of interaction effects in greybox fuzzing input spaces.  
+- Introduction of a novel fuzzing strategy that explicitly incorporates interaction effects to prioritize test inputs.  
+- Empirical validation showing increased bug-finding efficiency across multiple benchmark programs.  
+
+### Method & Results  
+- Proposed a model to capture and leverage input interaction effects during the fuzzing process.  
+- Evaluated using mainstream greybox fuzzing tools combined with interaction-aware heuristics on standard vulnerability benchmarks.  
+- Achieved up to a 30% increase in unique bugs found and improved code coverage compared to classical AFL-based fuzzers.  
+- Outperformed baseline fuzzing techniques in both speed and bug detection rate.
+
+### Impact & Limitations  
+- Enhances fuzzing efficacy, enabling developers to discover complex bugs involving input interdependencies faster.  
+- May require additional computational overhead to model interactions, limiting scalability on very large input spaces.  
+- Future work could explore automated identification of interaction scopes and integration with other dynamic analysis tools.
+
+---
+
+#### SecureInfer: Heterogeneous TEE-GPU Architecture for Privacy-Critical Tensors for Large Language Model Deployment
+**作者**: Tushar Nayan, Ziqi Zhang, Ruimin Sun
+**类别**: cs.CR, cs.LG, cs.SE
+**发布日期**: 2025-10-22
+**链接**: http://arxiv.org/abs/2510.19979v1
+
+#### Executive Summary  
+This paper addresses the challenge of securely deploying large language models (LLMs) by protecting privacy-critical tensor computations. The authors propose SecureInfer, a novel heterogeneous architecture combining Trusted Execution Environments (TEEs) with GPUs, enabling efficient and secure inference on sensitive data. Results demonstrate substantial privacy guarantees with minimal performance overhead compared to traditional approaches.
+
+### Key Contributions  
+- Introduces a hybrid TEE-GPU architecture tailored for confidential LLM tensor operations.  
+- Develops a lightweight framework for isolating and securing critical computation within TEEs while leveraging GPU acceleration.  
+- Demonstrates strong privacy protection without significant latency penalties in large-scale LLM inference.
+
+### Method & Results  
+- Integrates TEE-based secure enclaves with GPU pipelines to partition workloads by sensitivity.  
+- Utilizes LLM benchmarks with privacy-critical tensor workloads for evaluation.  
+- Achieves up to 80% performance efficiency relative to unsecured GPU inference while ensuring data confidentiality.  
+- Outperforms baseline secure inference methods that either incur high latency or lack scalability.
+
+### Impact & Limitations  
+- Enables practical deployment of privacy-sensitive LLM applications in cloud/edge environments.  
+- Future work could extend support for a wider range of model architectures and enhance scalability for multi-tenant scenarios.
+
+---
+
+### 安全领域 领域
+
+#### MAC Aggregation over Lossy Channels in DTLS 1.3
+**作者**: Eric Wagner, David Heye, Jan Bauer, Klaus Wehrle, Martin Serror
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-10-23
+**链接**: http://arxiv.org/abs/2510.20419v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficient MAC aggregation in DTLS 1.3 over lossy channels, which traditionally degrades security and performance. The authors propose a novel MAC aggregation technique tailored for lossy environments, significantly improving throughput and reliability without compromising security. Experimental results demonstrate marked gains in performance over standard DTLS 1.3 implementations.
+
+### Key Contributions  
+- Introduction of a loss-resilient MAC aggregation scheme specifically designed for DTLS 1.3.  
+- Analytical model quantifying the trade-offs between aggregation size and packet loss impact on security and throughput.  
+- Demonstration of enhanced throughput and robustness over lossy wireless channels compared to standard DTLS.
+
+### Method & Results  
+- Developed an aggregation protocol adapting MAC sizes dynamically based on channel loss estimation.  
+- Conducted extensive simulations and experimentations on wireless network testbeds.  
+- Achieved up to 40% throughput improvement and 25% reduction in retransmissions under typical lossy conditions.  
+- Outperformed baseline DTLS 1.3 implementations lacking aggregation or with static MAC sizes.
+
+### Impact & Limitations  
+- Practical for improving secure communications in lossy wireless or IoT networks where DTLS 1.3 is employed.  
+- Future work needed to integrate with heterogeneous channel conditions and to evaluate security implications in extreme loss scenarios.
+
+---
+
+#### NeuPerm: Disrupting Malware Hidden in Neural Network Parameters by Leveraging Permutation Symmetry
+**作者**: Daniel Gilkarov, Ran Dubin
+**类别**: cs.CR
+**发布日期**: 2025-10-23
+**链接**: http://arxiv.org/abs/2510.20367v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting and disrupting malware hidden within neural network parameters by exploiting permutation symmetry inherent in network weights. The authors propose NeuPerm, a novel method that leverages permutation transformations to neutralize embedded malicious payloads without degrading model performance. Experimental results demonstrate effective malware disruption while preserving model accuracy.
+
+### Key Contributions  
+- Introduces leveraging permutation symmetry in neural networks as a defense against parameter-hidden malware.  
+- Develops NeuPerm, a novel permutation-based technique to disrupt covert malware embedding.  
+- Provides empirical validation of malware disruption effectiveness balanced with model utility preservation.
+
+### Method & Results  
+- Core methodology: Applies permutation transformations to neural network parameters to break the specific arrangement malware relies on, disrupting malicious code embedded without retraining.  
+- Evaluated on standard neural network architectures trained on benchmark datasets (details not explicitly stated).  
+- Results show significant reduction in malware activation rates post-permutation, with negligible impact on model accuracy (<1% drop).  
+- Performance surpasses baseline malware detection/neutralization approaches that often compromise model integrity.
+
+### Impact & Limitations  
+- Offers a practical and efficient defense layer against advanced malware threats embedded in neural network weights, enhancing AI security.  
+- Limitations include dependency on permutation symmetry assumptions and potential challenges scaling to very large or customized architectures; future work could explore adaptive permutation strategies and broader threat models.
+
+---
+
+#### GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?
+**作者**: Chiyu Chen, Xinhao Song, Yunkai Chai, Yang Yao, Haodong Zhao, Lijun Li, Jie Li, Yan Teng, Gongshen Liu, Yingchun Wang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-23
+**链接**: http://arxiv.org/abs/2510.20333v1
+
+#### Executive Summary  
+This paper investigates the resilience of mobile agents against environmental injection attacks in dynamic on-device settings. It proposes GhostEI-Bench, a novel benchmarking framework to evaluate such resilience under realistic conditions, revealing significant vulnerabilities in current mobile agent designs.
+
+### Key Contributions  
+- Introduces GhostEI-Bench, the first dedicated benchmark simulating environmental injection in dynamic mobile contexts.  
+- Provides systematic analysis demonstrating how environmental injections disrupt mobile agent functionalities.  
+- Offers insights and recommendations for designing more robust mobile agents resilient to such attacks.
+
+### Method & Results  
+- Developed a dynamic simulation environment to mimic realistic on-device environmental injections targeting mobile agents.  
+- Employed a suite of mobile agents and injected varying environmental perturbations to assess resilience.  
+- Used quantitative metrics including task success rate, response latency, and error rate for evaluation.  
+- Results show up to a 40% degradation in task success under environmental injections compared to baseline benign conditions.
+
+### Impact & Limitations  
+- Enables developers to better understand and enhance mobile agent robustness, critical for secure and reliable edge AI applications.  
+- Limitations include the scope of environmental factors tested; future work could extend to broader attack vectors and real-world deployment validations.
+
+---
+
+#### Enhancing Security in Deep Reinforcement Learning: A Comprehensive Survey on Adversarial Attacks and Defenses
+**作者**: Wu Yichao, Wang Yirui, Ding Panpan, Wang Hailong, Zhu Bingqian, Liu Chun
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-10-23
+**链接**: http://arxiv.org/abs/2510.20314v1
+
+#### Executive Summary
+This paper addresses the vulnerability of deep reinforcement learning (DRL) agents to adversarial attacks and surveys corresponding defense mechanisms. It systematically categorizes attack methods and defensive strategies, offering a unified framework that highlights gaps and future challenges. The survey culminates in identifying effective defense approaches and outlines potential research directions for securing DRL systems.
+
+### Key Contributions
+- Comprehensive taxonomy of adversarial attacks targeting DRL, covering state, action, and reward manipulations.
+- Detailed analysis and classification of defense techniques enhancing robustness in DRL agents.
+- Identification of open challenges and future research avenues in DRL security.
+
+### Method & Results
+- Synthesized existing literature on adversarial threats and defenses in DRL into a structured framework.
+- Reviewed benchmark environments commonly used (e.g., OpenAI Gym, Atari, MuJoCo) for empirical validation.
+- Summarized quantitative findings from surveyed works, noting defense methods improving robustness by up to 30% against typical attacks.
+- Demonstrated many defense strategies outperform naive baselines, though no one-size-fits-all solution exists.
+
+### Impact & Limitations
+- Provides critical insights for researchers and practitioners aiming to deploy secure DRL in real-world applications like robotics and autonomous systems.
+- Limitations include lack of novel empirical validation and focus on current rather than emergent attack vectors.
+- Future work should explore adaptive defenses and robustness certification for evolving DRL threats.
+
+---
+
+#### Privacy Protection of Automotive Location Data Based on Format-Preserving Encryption of Geographical Coordinates
+**作者**: Haojie Ji, Long Jin, Haowen Li, Chongshi Xin, Te Hu
+**类别**: cs.CR
+**发布日期**: 2025-10-23
+**链接**: http://arxiv.org/abs/2510.20300v1
+
+#### Executive Summary  
+This paper addresses the privacy risks in sharing automotive location data by applying format-preserving encryption (FPE) to geographical coordinates. The authors propose a tailored FPE scheme that maintains coordinate format and usability while securing sensitive location information. Experimental evaluation demonstrates effective privacy protection without compromising data utility.
+
+### Key Contributions  
+- Proposes a novel FPE approach specifically adapted for encrypting geographical coordinates in automotive data.  
+- Balances strong privacy protection with preservation of coordinate format to retain functionality in location-based applications.  
+- Demonstrates practical applicability in automotive scenarios with efficient encryption and decryption processes.
+
+### Method & Results  
+- Developed a customized format-preserving encryption algorithm targeting latitude and longitude data, ensuring encrypted coordinates remain valid geographically.  
+- Used simulated and real-world automotive location datasets to validate the approach.  
+- Achieved strong privacy guarantees measured by reduced re-identification risk, while maintaining coordinate validity for downstream use.  
+- Outperformed traditional encryption methods in terms of data usability and computational efficiency, with minimal overhead reported.
+
+### Impact & Limitations  
+- Enhances privacy protection in connected vehicles and smart transportation systems without sacrificing location data usability.  
+- Future work could explore resistance against advanced attacks and extension to multi-dimensional spatiotemporal data.
 
 ---
 
