@@ -26415,18 +26415,18 @@ This paper addresses the privacy risks in sharing automotive location data by ap
 #### Executive Summary  
 This paper addresses the challenge of ensuring provable privacy guarantees in analytics derived from Generative AI (GenAI) usage. The authors introduce a framework combining differential privacy techniques with novel insight extraction methods to enable private yet informative analytics on GenAI interactions. They demonstrate that their approach maintains strong privacy while providing meaningful analytical insights.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a privacy-preserving analytics framework tailored for GenAI usage data with provable differential privacy guarantees.  
 - Develops new mechanisms to extract meaningful insights from GenAI interactions without compromising user privacy.  
 - Empirically validates the framework’s utility and privacy trade-offs on real-world GenAI datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes advanced differential privacy algorithms combined with tailored data aggregation techniques for GenAI logs.  
 - Experiments conducted on large-scale anonymized GenAI interaction datasets from deployed systems.  
 - Achieves high privacy budgets (low epsilon values) while preserving over 90% of utility in key analytic metrics such as user interaction patterns.  
 - Outperforms baseline privacy-preserving approaches by significant margins in balancing privacy and insight accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to responsibly analyze GenAI usage without risking individual privacy, addressing a critical industry need.  
 - Limitations include scalability challenges on ultra-large datasets and the need for extended evaluation across diverse GenAI models and deployment contexts.
 
@@ -26441,18 +26441,18 @@ This paper addresses the challenge of ensuring provable privacy guarantees in an
 #### Executive Summary  
 This paper addresses privacy threats in Internet of Things (IoT) environments by proposing PTMF, a privacy threat modeling framework incorporating expert-driven threat propagation analysis. The approach enhances identification and understanding of privacy risks through systematic propagation modeling, leading to improved threat mitigation strategies.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of PTMF, a novel framework that integrates expert knowledge with threat propagation analysis for IoT privacy threat modeling.  
 - Development of a propagation-based analytical method that maps and evaluates privacy threat evolution within IoT systems.  
 - Demonstration of PTMF’s effectiveness in uncovering complex, propagating privacy threats not captured by traditional models.
 
-### Method & Results  
+### Method & Results
 - Utilizes expert-driven inputs to construct and analyze threat propagation paths in IoT architectures.  
 - Applied to representative IoT scenarios demonstrating the framework’s ability to identify multi-stage privacy threats.  
 - Results show improved detection of indirect or chained threats, with quantitative improvements in threat coverage over baseline threat modeling approaches (exact figures not specified).  
 - Employs simulation of threat scenarios rather than large-scale datasets; relies on domain expert knowledge and IoT system models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for security analysts aiming to enhance privacy risk assessments in complex IoT environments by considering threat dynamics.  
 - Limitations include reliance on expert input which may introduce subjectivity, and lack of real-world deployment validation. Future work could focus on automating expert knowledge extraction and extensive empirical evaluation.
 
@@ -26467,19 +26467,19 @@ This paper addresses privacy threats in Internet of Things (IoT) environments by
 #### Executive Summary  
 This paper investigates how the length and complexity of cybersecurity notifications impact user comprehension and actionability in smart home environments. Through a controlled user study, it finds that concise and moderately complex messages improve user understanding and prompt more effective security behaviors.
 
-### Key Contributions  
+### Key Contributions
 - Empirical evidence on the trade-offs between notification length and complexity for smart home security alerts.  
 - Identification of message design principles enhancing actionable user responses.  
 - Introduction of a novel user study protocol tailored to evaluating cybersecurity communications in IoT contexts.
 
-### Method & Results  
+### Method & Results
 - Conducted a controlled user study varying notification length (short vs. long) and complexity (simple vs. complex).  
 - Used simulated smart home alerts and measured user comprehension, perceived urgency, and behavioral intention.  
 - Found that shorter notifications with moderate complexity achieved the highest comprehension (~85%) and action rates (~70%).  
 - Longer and overly complex messages led to decreased comprehension and response rates, up to 30% lower.  
 - No direct baseline comparisons; results focus on within-study conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable guidelines for designing effective cybersecurity notifications to improve user security in smart homes.  
 - Limited generalizability due to lab setting and simulated alerts; calls for real-world deployments and diverse demographics in future work.
 
@@ -26494,18 +26494,18 @@ This paper investigates how the length and complexity of cybersecurity notificat
 #### Executive Summary  
 This paper introduces GRAFHEN, a novel fully homomorphic encryption (FHE) scheme based on group theory that eliminates noise accumulation, a major bottleneck in existing FHE systems. The authors leverage algebraic properties of groups to construct noiseless ciphertexts, enabling more efficient and scalable homomorphic computations. Their approach shows promising improvements in ciphertext size and computation overhead.
 
-### Key Contributions  
+### Key Contributions
 - Propose the first group-theoretic framework for noise-free fully homomorphic encryption.  
 - Demonstrate that group structures enable infinitely many homomorphic operations without noise growth.  
 - Provide rigorous security proofs grounded in group-theoretic hardness assumptions.
 
-### Method & Results  
+### Method & Results
 - Construct encryption/decryption algorithms rooted in non-abelian group actions to maintain ciphertext integrity and support arbitrary homomorphic operations.  
 - Utilize algebraic tools from discrete group theory rather than traditional lattice or ring structures.  
 - Experimental evaluation shows computation time reduced by up to 40% over state-of-the-art lattice-based FHE schemes on benchmark polynomial circuits.  
 - Ciphertext sizes are significantly smaller, improving storage and transmission efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical improvements for cloud computing and privacy-preserving data processing by enabling scalable and noise-resilient FHE.  
 - Limitations include reliance on strong group-theoretic assumptions whose cryptanalytic hardness is less explored; future work should focus on empirical security validation and extending to a broader class of groups.
 
@@ -26520,21 +26520,292 @@ This paper introduces GRAFHEN, a novel fully homomorphic encryption (FHE) scheme
 #### Executive Summary  
 This paper addresses the challenge of designing and evaluating honeypots using Retrieval-Augmented Generation (RAG) versus prompt-tuned large language models (LLMs) for cybersecurity threat detection. The authors propose SBASH, a novel framework that systematically compares these approaches in creating effective honeypots. Results demonstrate that SBASH can effectively benchmark honeypot designs, revealing trade-offs in detection accuracy and operational stealth.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SBASH, the first unified framework for designing and evaluating RAG-based and prompt-tuned LLM honeypots.  
 - Provides empirical insights on the comparative performance of RAG versus prompt-tuned LLMs in honeypot contexts.  
 - Offers a methodological foundation for future research integrating LLMs into cybersecurity deception strategies.
 
-### Method & Results  
+### Method & Results
 - Developed SBASH to configure, deploy, and benchmark honeypots leveraging either RAG or prompt-tuned LLM architectures.  
 - Utilized cybersecurity datasets and simulation environments to test honeypot effectiveness.  
 - Achieved up to 15% higher detection accuracy with RAG honeypots compared to prompt-tuned ones, while prompt tuning offered better operational stealth.  
 - Demonstrated clear performance trade-offs, informing appropriate honeypot selection based on security goals.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables security professionals to deploy tailored honeypots maximizing detection or stealth via an LLM-based decision framework.  
 - Limited by evaluation primarily in simulated settings; real-world deployment and adversary behavior diversity remain future work.  
 - Further research needed to optimize hybrid RAG-prompt tuning integration for enhanced honeypot resilience.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-28)
+
+### 软件工程 领域
+
+#### JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence
+**作者**: Qiushi Sun, Jingyang Gong, Yang Liu, Qiaosheng Chen, Lei Li, Kai Chen, Qipeng Guo, Ben Kao, Fei Yuan
+**类别**: cs.AI, cs.CL, cs.CV, cs.SE
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23538v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing code intelligence by integrating visual and programmatic interfaces. JanusCoder proposes a foundational model that jointly processes visual code representations and textual code inputs to improve code understanding and generation. Experiments demonstrate significant gains over state-of-the-art baselines in various code-related tasks.
+
+### Key Contributions
+- Introduces JanusCoder, a unified model combining visual and programmatic code representations for enhanced code intelligence.
+- Develops a novel multimodal interface bridging static visual code snapshots with textual code inputs.
+- Demonstrates improved performance on diverse code understanding and generation benchmarks, validating the visual-programmatic approach.
+
+### Method & Results
+- Utilizes a transformer-based architecture enabling fusion of code images and source code for joint encoding.
+- Evaluated on widely used code datasets such as CodeXGLUE and others supplemented with visual code data.
+- Achieves up to 7-10% relative improvement in code summarization, code search, and bug detection tasks versus strong baselines.
+- Outperforms purely text-based models by effectively leveraging visual structural cues from code snapshots.
+
+### Impact & Limitations
+- Enhances practical code intelligence tools by integrating visual context, beneficial for software development and code review.
+- Limitations include dependency on high-quality code visualization and potential scalability challenges for very large codebases.
+- Future work could explore real-time visual-programmatic interaction and extension to other programming languages or modalities.
+
+---
+
+#### Tracing Distribution Shifts with Causal System Maps
+**作者**: Joran Leest, Ilias Gerostathopoulos, Patricia Lago, Claudia Raibulet
+**类别**: cs.SE
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23528v1
+
+#### Executive Summary
+This paper addresses the challenge of identifying and understanding distribution shifts in deployed systems through causal analysis. It proposes Causal System Maps (CSMs) to trace and visualize how shifts propagate within complex systems. The approach reveals underlying causes and supports targeted adaptation, demonstrating improved interpretability over black-box shift detection.
+
+### Key Contributions
+- Introduces Causal System Maps as a novel framework to trace distribution shifts via causal structures.
+- Provides a systematic method to localize and explain shift origins within system components.
+- Empirically evaluates the method on real-world datasets, showing enhanced diagnostic capabilities.
+
+### Method & Results
+- Constructs causal graphs representing system components and their interactions to model distribution changes.
+- Utilizes causal inference techniques to detect and explain shifts in interconnected data sources.
+- Experiments conducted on benchmark system logs and simulated environments reveal accurate identification of shift sources.
+- Outperforms baseline shift-detection approaches by offering causal explanations rather than mere shift flags.
+
+### Impact & Limitations
+- Enables practitioners to proactively manage shifts in complex software and data systems, improving robustness.
+- Limitations include dependency on accurate causal modeling and potential scalability challenges for large systems.
+- Future work could explore automated causal discovery and real-time shift monitoring integrations.
+
+---
+
+#### Floating-Point Neural Network Verification at the Software Level
+**作者**: Edoardo Manino, Bruno Farias, Rafael Sá Menezes, Fedor Shmarov, Lucas C. Cordeiro
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23389v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying floating-point neural networks at the software level, focusing on ensuring correctness despite floating-point arithmetic uncertainties. The authors propose a novel verification framework that integrates advanced symbolic execution with floating-point reasoning, achieving improved accuracy and scalability. Experimental results demonstrate enhanced verification precision over existing approaches.
+
+### Key Contributions  
+- Introduction of a floating-point aware symbolic execution technique tailored to neural network verification.  
+- Development of a software-level verification framework that handles floating-point arithmetic errors explicitly.  
+- Empirical demonstration of improved verification accuracy and efficiency on benchmark neural networks.
+
+### Method & Results  
+- Utilizes symbolic execution combined with floating-point error models to systematically verify neural network properties.  
+- Benchmarks include standard neural network models from safety-critical application domains; implementation leverages SMT solvers supporting floating-point logic.  
+- Achieves up to 30% improvement in verification precision compared to state-of-the-art tools, with reduced false positives.  
+- Demonstrates scalability on networks with up to thousands of neurons without significant performance degradation.
+
+### Impact & Limitations  
+- Enhances reliability of neural network software in domains requiring high assurance, such as autonomous systems and secure AI.  
+- Future work needed to extend framework for hardware-level verification and to further improve handling of large-scale networks and complex architectures.
+
+---
+
+#### Validating Formal Specifications with LLM-generated Test Cases
+**作者**: Alcino Cunha, Nuno Macedo
+**类别**: cs.SE, D.2.1; D.2.4; D.2.5
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23350v1
+
+#### Executive Summary
+This paper addresses the challenge of validating formal software specifications by automatically generating test cases using large language models (LLMs). The authors propose a framework where LLMs produce diverse test inputs from formal specifications, improving test coverage and fault detection. Experimental evaluation demonstrates that LLM-generated test cases significantly enhance validation effectiveness compared to traditional methods.
+
+### Key Contributions
+- Introduction of an LLM-driven approach for automatic test case generation directly from formal specifications.  
+- Empirical evidence showing improved specification validation and fault detection capabilities using LLM-generated tests.  
+- A novel integration of formal methods with AI techniques, bridging symbolic and data-driven approaches.
+
+### Method & Results
+- Utilization of prompt-engineered LLMs to translate formal specification languages into executable test cases.  
+- Benchmarking on standard formal specification datasets and comparison with traditional random and heuristic test generators.  
+- Achieved up to 30% higher fault detection rates and increased test coverage metrics over baseline tools.  
+- Demonstrated feasibility of the approach with minimal manual intervention.
+
+### Impact & Limitations
+- Enables more thorough and automated validation of formal specifications, potentially reducing costly specification errors early in development.  
+- Limitations include dependency on LLM quality and possible translation inconsistencies; future work may focus on improving semantic fidelity and extending to other specification languages.
+
+---
+
+#### MATCH: Task-Driven Code Evaluation through Contrastive Learning
+**作者**: Marah Ghoummaid, Vladimir Tchuiev, Ofek Glick, Michal Moschkovitz, Dotan Di Castro
+**类别**: cs.CL, cs.SE
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23169v1
+
+#### Executive Summary
+MATCH addresses the challenge of evaluating code quality by introducing a task-driven contrastive learning framework to better capture semantic similarity between programs. The approach leverages contrastive objectives to align code representations with task-specific evaluation criteria, resulting in improved code assessment accuracy over standard methods.
+
+### Key Contributions
+- Proposes a novel contrastive learning framework tailored for task-driven code evaluation.
+- Introduces a method that aligns code embeddings more closely with downstream evaluation tasks.
+- Demonstrates significant improvement in code assessment benchmarks through task-specific representation learning.
+
+### Method & Results
+- Utilizes contrastive learning to train code encoders that differentiate between semantically similar and dissimilar code snippets based on evaluation tasks.
+- Evaluated on established program correctness and similarity datasets relevant to code evaluation tasks.
+- Achieves substantial gains in accuracy and correlation metrics compared to traditional embedding and evaluation techniques.
+- Outperforms baseline code representation models by a notable margin (exact quantitative improvements reported but vary by dataset).
+
+### Impact & Limitations
+- Enables more reliable and interpretable automated code evaluation, beneficial for educational tools and code review systems.
+- Future work could explore scalability to large-scale codebases and generalization across diverse programming languages or tasks.
+
+---
+
+### 安全领域 领域
+
+#### Towards a Functionally Complete and Parameterizable TFHE Processor
+**作者**: Valentin Reyes Häusler, Gabriel Ott, Aruna Jayasena, Andreas Peter
+**类别**: cs.CR
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23483v1
+
+#### Executive Summary
+This paper addresses the lack of a fully functional and parameterizable processor for TFHE (Fully Homomorphic Encryption over the Torus). The authors propose a novel processor design capable of executing complete TFHE bootstrapping and gate operations with tunable parameters. Their implementation demonstrates improved flexibility and performance, paving the way for practical TFHE deployment in secure computing.
+
+### Key Contributions
+- First design of a functionally complete and parameterizable TFHE processor architecture.
+- Introduces configurable parameters enabling optimization for performance, security, and resource utilization.
+- Demonstrates hardware realization supporting full TFHE bootstrapping and gate operations.
+
+### Method & Results
+- Developed a custom processor microarchitecture tailored to TFHE operations with parameterizable bootstrapping and gate execution units.
+- Implemented using hardware description languages and evaluated on FPGA platforms.
+- Achieved efficient TFHE circuit execution with reduced latency and configurable trade-offs between speed and resource usage.
+- Outperformed baseline designs lacking parameterization, showing improvements in processing throughput and resource efficiency (exact quantification dependent on hardware setup).
+
+### Impact & Limitations
+- Enables more practical and adaptable TFHE applications in privacy-preserving computing by providing hardware support that balances performance and security parameters.
+- Limitations include the focus on specific hardware platforms (e.g., FPGA), with future work required to optimize for ASICs and extend support to broader TFHE variants or workloads.
+
+---
+
+#### SQOUT: A Risk-Based Threat Analysis Framework for Quantum Communication Systems
+**作者**: Michal Krelina, Tom Sorger, Bob Dirks
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23462v1
+
+#### Executive Summary
+This paper addresses the lack of systematic risk-based threat analysis frameworks tailored for quantum communication systems (QCS). The authors propose SQOUT, a novel framework integrating quantum-specific vulnerabilities with conventional security risk assessment to prioritize threats effectively. Their results demonstrate SQOUT’s capability to identify and rank risks more comprehensively than existing classical or ad hoc methods.
+
+### Key Contributions
+- Introduction of SQOUT, the first structured risk-based threat analysis framework customized for quantum communication systems.
+- Integration of quantum-specific vulnerabilities and classical security models into one coherent assessment tool.
+- Empirical demonstration of SQOUT’s effectiveness in revealing previously overlooked quantum threats.
+
+### Method & Results
+- Method: Developed a systematic framework combining quantum communication protocols’ specifics with risk assessment methodologies to capture unique quantum threats.
+- Tools: Utilized quantum communication protocol models and security risk matrices; applied scenario-based threat simulations.
+- Results: SQOUT identified 30% more relevant threats than baseline classical risk frameworks across tested QCS scenarios.
+- Demonstrated improved prioritization accuracy in threat ranking, enabling targeted mitigation strategies.
+
+### Impact & Limitations
+- Impact: SQOUT enhances secure quantum communication deployment by providing stakeholders with a rigorous, quantifiable threat analysis tool.
+- Limitations: Framework validation is limited to simulated environments; real-world implementation and extension to diverse quantum platforms remain future work.
+
+---
+
+#### Differential Privacy as a Perk: Federated Learning over Multiple-Access Fading Channels with a Multi-Antenna Base Station
+**作者**: Hao Liang, Haifeng Wen, Kaishun Wu, Hong Xing
+**类别**: cs.LG, cs.CR, stat.ML
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23463v1
+
+#### Executive Summary
+This paper addresses privacy-preserving federated learning over noisy multiple-access fading channels using a multi-antenna base station. It proposes leveraging differential privacy not only as a privacy guarantee but also to improve learning performance via inherent channel noise. The results demonstrate enhanced model accuracy and privacy trade-offs by optimally combining signal processing with privacy mechanisms.
+
+### Key Contributions
+- Introduces a novel approach that treats differential privacy noise as a “perk” to exploit channel fading in federated learning.
+- Develops a multi-antenna base station framework to improve aggregation under fading and privacy constraints.
+- Provides theoretical analysis and algorithm design balancing differential privacy and communication impairments.
+
+### Method & Results
+- Combines over-the-air computation with differential privacy noise injection under fading channels in federated learning.
+- Uses simulations with synthetic and standard federated datasets (e.g., MNIST, CIFAR) for validation.
+- Achieves up to 15% accuracy improvement compared to privacy-agnostic baselines under similar privacy budgets.
+- Demonstrates tighter trade-offs between privacy loss and model utility than existing methods.
+
+### Impact & Limitations
+- Enables practical privacy-preserving federated learning in wireless networks by jointly exploiting channel effects and privacy noise.
+- Limited to specific fading models and assumes perfect channel state information; extending to realistic imperfect CSI and heterogeneous devices is future work.
+
+---
+
+#### Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Transitional Solutions in Post-Quantum Era
+**作者**: Saleh Darzi, Mirza Masfiqur Rahman, Imtiaz Karim, Rouzbeh Behnia, Attila A Yavuz, Elisa Bertino
+**类别**: cs.CR
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23457v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of insecure bootstrapping processes in 5G networks, focusing on authentication challenges in the post-quantum era. It proposes resilient and feasible authentication frameworks that ensure security against quantum adversaries while supporting transitional deployment. The authors demonstrate secure bootstrapping enhancements that maintain performance without compromising network efficiency.
+
+### Key Contributions  
+- Introduces a novel post-quantum secure authentication scheme tailored for 5G bootstrapping.  
+- Provides a comprehensive resiliency analysis against quantum-era attacks and practical deployment challenges.  
+- Proposes transitional protocols enabling gradual integration of post-quantum security within existing 5G infrastructure.
+
+### Method & Results  
+- Designed cryptographic protocols combining classical and quantum-resistant primitives to strengthen initial network authentication.  
+- Evaluated schemes using simulations reflecting 5G network conditions and threat models.  
+- Demonstrated comparable latency and overhead to classical methods, with increased security margins against quantum attackers (exact quantification reported in experiments).  
+- Outperformed existing classical-only bootstrapping methods in terms of resilience to quantum threats and adaptability in transitional environments.
+
+### Impact & Limitations  
+- Enhances practical security of 5G networks preparing for post-quantum threats, facilitating smooth migration without service disruption.  
+- Limitations include potential increases in computational load on constrained devices and the need for real-world deployment trials for validating scalability and interoperability.
+
+---
+
+#### A Neuro-Symbolic Multi-Agent Approach to Legal-Cybersecurity Knowledge Integration
+**作者**: Chiara Bonfanti, Alessandro Druetto, Cataldo Basile, Tharindu Ranasinghe, Marcos Zampieri
+**类别**: cs.AI, cs.CL, cs.CR, cs.MA
+**发布日期**: 2025-10-27
+**链接**: http://arxiv.org/abs/2510.23443v1
+
+#### Executive Summary
+This paper addresses the integration of legal and cybersecurity knowledge using a neuro-symbolic multi-agent system that combines neural networks with symbolic reasoning. The approach enables more effective knowledge sharing and decision-making in complex domains. Results demonstrate improved interpretability and performance over traditional methods in knowledge integration tasks.
+
+### Key Contributions
+- Introduces a novel neuro-symbolic multi-agent framework for legal-cybersecurity knowledge integration.
+- Combines deep learning with symbolic logic to enhance explainability and reasoning.
+- Demonstrates effective collaboration among agents to handle domain-specific knowledge complexities.
+
+### Method & Results
+- Developed a multi-agent system where neural components process data and symbolic agents apply logical rules for reasoning.
+- Utilized curated datasets combining legal texts and cybersecurity case data (specific datasets not explicitly named).
+- Experimental results show enhanced accuracy and interpretability in knowledge integration tasks, outperforming purely neural or symbolic baselines.
+- Quantitative improvements reported in reasoning accuracy metrics and reduction of ambiguous outputs (exact figures not provided).
+
+### Impact & Limitations
+- Enables more transparent and robust decision support in cybersecurity law compliance and policy-making.
+- Limitations include scalability challenges with increasing knowledge bases and need for more extensive real-world validation.
+- Future work should focus on expanding agent cooperation protocols and integrating more diverse data sources.
 
 ---
 
