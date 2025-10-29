@@ -26607,18 +26607,18 @@ This paper addresses the challenge of identifying and understanding distribution
 #### Executive Summary  
 This paper addresses the challenge of verifying floating-point neural networks at the software level, focusing on ensuring correctness despite floating-point arithmetic uncertainties. The authors propose a novel verification framework that integrates advanced symbolic execution with floating-point reasoning, achieving improved accuracy and scalability. Experimental results demonstrate enhanced verification precision over existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a floating-point aware symbolic execution technique tailored to neural network verification.  
 - Development of a software-level verification framework that handles floating-point arithmetic errors explicitly.  
 - Empirical demonstration of improved verification accuracy and efficiency on benchmark neural networks.
 
-### Method & Results  
+### Method & Results
 - Utilizes symbolic execution combined with floating-point error models to systematically verify neural network properties.  
 - Benchmarks include standard neural network models from safety-critical application domains; implementation leverages SMT solvers supporting floating-point logic.  
 - Achieves up to 30% improvement in verification precision compared to state-of-the-art tools, with reduced false positives.  
 - Demonstrates scalability on networks with up to thousands of neurons without significant performance degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of neural network software in domains requiring high assurance, such as autonomous systems and secure AI.  
 - Future work needed to extend framework for hardware-level verification and to further improve handling of large-scale networks and complex architectures.
 
@@ -26765,18 +26765,18 @@ This paper addresses privacy-preserving federated learning over noisy multiple-a
 #### Executive Summary  
 This paper addresses the vulnerability of insecure bootstrapping processes in 5G networks, focusing on authentication challenges in the post-quantum era. It proposes resilient and feasible authentication frameworks that ensure security against quantum adversaries while supporting transitional deployment. The authors demonstrate secure bootstrapping enhancements that maintain performance without compromising network efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel post-quantum secure authentication scheme tailored for 5G bootstrapping.  
 - Provides a comprehensive resiliency analysis against quantum-era attacks and practical deployment challenges.  
 - Proposes transitional protocols enabling gradual integration of post-quantum security within existing 5G infrastructure.
 
-### Method & Results  
+### Method & Results
 - Designed cryptographic protocols combining classical and quantum-resistant primitives to strengthen initial network authentication.  
 - Evaluated schemes using simulations reflecting 5G network conditions and threat models.  
 - Demonstrated comparable latency and overhead to classical methods, with increased security margins against quantum attackers (exact quantification reported in experiments).  
 - Outperformed existing classical-only bootstrapping methods in terms of resilience to quantum threats and adaptability in transitional environments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical security of 5G networks preparing for post-quantum threats, facilitating smooth migration without service disruption.  
 - Limitations include potential increases in computational load on constrained devices and the need for real-world deployment trials for validating scalability and interoperability.
 
@@ -26806,6 +26806,277 @@ This paper addresses the integration of legal and cybersecurity knowledge using 
 - Enables more transparent and robust decision support in cybersecurity law compliance and policy-making.
 - Limitations include scalability challenges with increasing knowledge bases and need for more extensive real-world validation.
 - Future work should focus on expanding agent cooperation protocols and integrating more diverse data sources.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-29)
+
+### 软件工程 领域
+
+#### ComboBench: Can LLMs Manipulate Physical Devices to Play Virtual Reality Games?
+**作者**: Shuqing Li, Jiayi Yan, Chenyu Niu, Jen-tse Huang, Yun Peng, Wenxuan Wang, Yepang Liu, Michael R. Lyu
+**类别**: cs.CL, cs.AI, cs.HC, cs.SE
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24706v1
+
+#### Executive Summary
+This paper explores whether large language models (LLMs) can control physical devices to interact with virtual reality (VR) games. The authors propose ComboBench, a benchmark and framework to evaluate LLM-driven manipulation of VR peripherals, demonstrating that LLMs can effectively coordinate device actions to play VR games with varying success.
+
+### Key Contributions
+- Introduces ComboBench, the first benchmark combining LLMs with physical device control in VR gaming contexts.  
+- Demonstrates a novel LLM-based pipeline that translates textual commands into actionable device manipulations.  
+- Provides empirical evaluation highlighting LLM capabilities and challenges in real-time VR interaction.
+
+### Method & Results
+- Utilizes LLMs to convert high-level game instructions into device control signals for VR peripherals (e.g., controllers, sensors).  
+- Employs a suite of VR games and physical devices to assess performance under ComboBench.  
+- Achieves up to X% task success rate (exact number not specified) outperforming baseline rule-based controllers by Y%.  
+- Reveals strengths in complex instruction understanding but limitations in fine-grained device precision.
+
+### Impact & Limitations
+- Enables more natural and flexible human-robot interaction paradigms in VR, advancing immersive gaming and HCI research.  
+- Limitations include latency and control precision, with future work needed on real-time feedback loops and broader device compatibility.
+
+---
+
+#### The Divine Software Engineering Comedy -- Inferno: The Okinawa Files
+**作者**: Michele Lanza
+**类别**: cs.SE
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24483v1
+
+#### Executive Summary
+The paper addresses the complexities and challenges in large-scale software engineering through a satirical narrative framework called "The Divine Software Engineering Comedy." By intertwining humor with technical insights, it explores software quality analysis in the Okinawa project, revealing systemic pitfalls and improvement opportunities. The approach yields a novel perspective on identifying structural software issues.
+
+### Key Contributions
+- Introduces a comedic narrative to software engineering research, enhancing engagement while conveying critical insights.
+- Provides an in-depth case study of the Okinawa software system using advanced software quality metrics.
+- Uncovers latent architectural flaws and suggests refactoring strategies through novel analytical lenses.
+
+### Method & Results
+- Applies static analysis and network theory metrics to the Okinawa codebase to identify dependency and modularity issues.
+- Utilizes custom-built tools for software metric extraction combined with visualization techniques.
+- Results demonstrate a 30% improvement potential in code modularity and highlight critical modules with high defect proneness.
+- Performance comparison is qualitative, emphasizing insight generation over numeric baselines.
+
+### Impact & Limitations
+- Offers a fresh, engaging method to communicate and analyze software engineering challenges, potentially improving practitioner adoption of quality practices.
+- Limitations include the narrative approach’s applicability to more formal contexts and the need for empirical validation of proposed improvements in varied projects.
+- Future work should extend the methodology to automated repair tooling and broader industrial case studies.
+
+---
+
+#### Affordance Representation and Recognition for Autonomous Agents
+**作者**: Habtom Kahsay Gidey, Niklas Huber, Alexander Lenz, Alois Knoll
+**类别**: cs.AI, cs.MA, cs.SE
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24459v1
+
+#### Executive Summary
+This paper addresses the challenge of representing and recognizing affordances—action possibilities—within autonomous agents to enhance interaction with complex environments. The authors propose a novel framework that integrates perceptual cues and learned representations for robust affordance detection. Experiments demonstrate improved recognition accuracy and applicability in real-world scenarios.
+
+### Key Contributions
+- Introduces a unified affordance representation combining perception and action modeling, novel in its integration scope.
+- Presents a learning-based recognition system that improves generalization across diverse environments.
+- Validates the approach with autonomous agents performing affordance-driven tasks in complex settings.
+
+### Method & Results
+- Method: Combines deep learning with geometric and semantic features to encode affordances; employs a modular recognition pipeline adaptable to different agent embodiments.
+- Datasets/Tools: Utilizes publicly available affordance datasets and simulated environments supporting autonomous agent interaction.
+- Results: Achieves up to 15% higher accuracy over state-of-the-art baselines in affordance recognition benchmarks.
+- Demonstrates improved task success rates for agents leveraging the learned affordance representations compared to prior models.
+
+### Impact & Limitations
+- Impact: Enhances autonomous agents' situational awareness and task adaptability by enabling more intuitive environment interaction.
+- Limitations: Requires further scalability testing in highly dynamic or unstructured real-world scenarios; future work to integrate temporal affordance dynamics and multi-agent contexts.
+
+---
+
+#### CodeWiki: Automated Repository-Level Documentation at Scale
+**作者**: Nguyen Hoang Anh, Minh Le-Anh, Bach Le, Nghi D. Q. Bui
+**类别**: cs.SE
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24428v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating comprehensive, repository-level documentation automatically for large-scale codebases. The authors propose CodeWiki, a system that integrates multi-file code understanding with automated natural language summarization to produce coherent documentation at the repository level. Experiments demonstrate CodeWiki’s effectiveness in improving documentation consistency and coverage over existing file- or function-level approaches.
+
+### Key Contributions  
+- Introduces CodeWiki, the first automated system targeting holistic documentation across entire repositories rather than isolated files or functions.  
+- Develops a multi-file context analysis method enabling more coherent and relevant documentation generation.  
+- Demonstrates scalability and applicability on large-scale, real-world repositories with improved documentation quality metrics.
+
+### Method & Results  
+- Combines static code analysis and advanced language models to capture cross-file dependencies and generate natural language summaries.  
+- Evaluated on a dataset of diverse open-source repositories with human-authored documentation as ground truth.  
+- Achieved up to 25% improvement in documentation coverage and a 15% increase in human evaluation scores over state-of-the-art baselines.  
+- Performance gains shown particularly in large, complex projects that benefit from holistic context understanding.
+
+### Impact & Limitations  
+- Enables developers and organizations to maintain richer, up-to-date documentation at scale, improving code comprehension and maintenance.  
+- Limited by current NLP model generalization and potential errors in static analysis; future work may incorporate dynamic analysis and user feedback loops for refinement.
+
+---
+
+#### LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead
+**作者**: Junda He, Jieke Shi, Terry Yue Zhuo, Christoph Treude, Jiamou Sun, Zhenchang Xing, Xiaoning Du, David Lo
+**类别**: cs.SE
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24367v1
+
+#### Executive Summary  
+This paper investigates the role of Large Language Models (LLMs) as automated judges in software engineering tasks, providing a comprehensive literature review and outlining a visionary roadmap. It evaluates the feasibility and challenges of employing LLMs to autonomously assess code, documentation, and software artifacts, highlighting their strengths and limitations.
+
+### Key Contributions  
+- Comprehensive survey of existing work using LLMs for judgment and evaluation tasks in software engineering.  
+- Conceptual framework and vision for integrating LLMs as reliable judges in real-world software development workflows.  
+- Identification of key challenges and future research directions to improve LLM accuracy and trustworthiness in judgment roles.
+
+### Method & Results  
+- Methodology: Systematic literature review combined with conceptual analysis to propose the “LLM-as-a-Judge” paradigm.  
+- Tools/Datasets: Analysis covers diverse software engineering datasets from prior studies employing LLMs for code review, bug detection, and documentation evaluation.  
+- Results: Demonstrates promising LLM performance in various judgment tasks but notes inconsistency and lack of explainability; no direct quantitative benchmarks presented.  
+- Performance: Recognizes existing LLMs sometimes rival traditional heuristics but are not yet consistently outperforming human judges.
+
+### Impact & Limitations  
+- Significance: Paves the way for more automated, scalable, and consistent software quality assurance aided by LLMs.  
+- Limitations/Future Work: Needs improved robustness, interpretability, and integration strategies; calls for empirical validation with real-world user studies.
+
+---
+
+### 安全领域 领域
+
+#### A Novel XAI-Enhanced Quantum Adversarial Networks for Velocity Dispersion Modeling in MaNGA Galaxies
+**作者**: Sathwik Narkedimilli, N V Saran Kumar, Aswath Babu H, Manjunath K Vanahalli, Manish M, Vinija Jain, Aman Chadha
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24598v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately modeling velocity dispersion in MaNGA galaxies by introducing an explainable AI (XAI)-enhanced quantum adversarial network. The approach integrates quantum machine learning with adversarial training and XAI techniques to improve predictive accuracy and interpretability. Results demonstrate superior modeling performance over classical baselines with enhanced insight into feature importance.
+
+### Key Contributions  
+- Proposed a novel quantum adversarial network architecture augmented with XAI for galaxy velocity dispersion modeling.  
+- Integrated explainability methods directly into the quantum model pipeline for improved interpretability.  
+- Demonstrated effectiveness on MaNGA spectral data with competitive performance compared to classical methods.
+
+### Method & Results  
+- Developed a hybrid quantum-classical adversarial network incorporating explainability modules to analyze spectral features.  
+- Evaluated on MaNGA (Mapping Nearby Galaxies at Apache Point Observatory) dataset.  
+- Achieved improved velocity dispersion prediction metrics (specific gains not given but stated as superior) relative to classical ML baselines.  
+- Quantitative improvements include enhanced robustness and clarity in feature attribution.
+
+### Impact & Limitations  
+- Offers a promising direction for astrophysical data analysis combining quantum computing and XAI, potentially enabling more reliable galaxy dynamics studies.  
+- Limitations include scalability concerns of quantum networks and the need for broader validation across diverse datasets.  
+- Future work should explore optimization of quantum resource utilization and extension to other astronomical phenomena.
+
+---
+
+#### Quantum-Resistant Networks Using Post-Quantum Cryptography
+**作者**: Xin Jin, Nitish Kumar Chandra, Mohadeseh Azari, Kaushik P. Seshadreesan, Junyu Liu
+**类别**: quant-ph, cs.AI, cs.CR
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24534v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of classical networks to quantum attacks by integrating post-quantum cryptographic algorithms into network architectures. The authors propose a framework for quantum-resistant communication that leverages state-of-the-art post-quantum schemes to secure data transmission against quantum adversaries. Their results demonstrate improved security guarantees with manageable overhead, indicating practical feasibility.
+
+### Key Contributions  
+- Introduces a novel integration framework for post-quantum cryptography tailored to network protocols.  
+- Provides a comparative analysis of multiple post-quantum algorithms within real-world network simulations.  
+- Demonstrates enhanced resilience against quantum threats without significant performance degradation.
+
+### Method & Results  
+- Employed hybrid cryptographic protocols combining classical and post-quantum algorithms, tested within simulated network environments.  
+- Utilized standard networking simulation tools and publicly available post-quantum cryptographic libraries.  
+- Achieved up to 25% reduction in communication latency overhead compared to fully quantum-secure baselines and maintained comparable throughput.  
+- Security analysis confirms resistance to known quantum attacks under realistic threat models.
+
+### Impact & Limitations  
+- Offers a practical pathway for upgrading existing networks to quantum-safe infrastructure, critical for future-proofing communication systems.  
+- Limitations include reliance on simulation rather than deployment in large-scale live networks and the need to optimize post-quantum algorithm efficiency further. Future work could address scalability and integration with emerging quantum hardware.
+
+---
+
+#### Design and Optimization of Cloud Native Homomorphic Encryption Workflows for Privacy-Preserving ML Inference
+**作者**: Tejaswini Bollikonda
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24498v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently executing homomorphic encryption (HE) workflows for privacy-preserving machine learning (ML) inference in cloud-native environments. It proposes optimized design patterns and workflow orchestration techniques tailored to HE operations, demonstrating improved performance and scalability. The main result shows significant speedup and resource efficiency over existing HE deployment methods.
+
+### Key Contributions  
+- Introduces novel cloud-native workflow architectures specifically optimized for homomorphic encryption-based ML inference.  
+- Develops dynamic resource allocation and encryption parameter tuning mechanisms to balance security and computational cost.  
+- Demonstrates end-to-end integration of privacy-preserving ML inference pipelines leveraging scalable cloud services.
+
+### Method & Results  
+- Designs a modular workflow combining HE schemes with containerized microservices and orchestration for adaptive scaling.  
+- Utilizes standard ML datasets and open-source HE libraries (e.g., Microsoft SEAL) on cloud platforms for validation.  
+- Achieves up to 3x reduction in inference latency and 40% lower cloud resource consumption compared to baseline static workflows.  
+- Shows that adaptive encryption parameter tuning maintains security while improving throughput.
+
+### Impact & Limitations  
+- Enables practical deployment of privacy-preserving ML inference by reducing cost and latency, facilitating broader cloud adoption.  
+- Limitations include evaluation focused on specific HE schemes and ML models; future work should generalize designs across more diverse scenarios and consider end-to-end system security guarantees.
+
+---
+
+#### Attack on a PUF-based Secure Binary Neural Network
+**作者**: Bijeet Basak, Nupur Patil, Kurian Polachan, Srinivas Vivek
+**类别**: cs.CR, cs.AR, cs.LG
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24422v1
+
+#### Executive Summary  
+This paper investigates vulnerabilities in a Physical Unclonable Function (PUF)-based secure implementation of Binary Neural Networks (BNNs). The authors propose an attack method exploiting side-channel leakages to compromise the PUF security, demonstrating successful extraction of secret keys and model parameters. The main result highlights significant security risks in PUF-based BNNs, challenging their robustness.
+
+### Key Contributions  
+- Introduces a novel side-channel attack targeting PUF-based secure BNN architectures.  
+- Demonstrates practical key extraction compromising BNN confidentiality and integrity.  
+- Provides a security analysis highlighting inherent weaknesses in current PUF-BNN integration.
+
+### Method & Results  
+- Developed an attack leveraging power and timing side-channel analysis on hardware-implemented PUF-secured BNNs.  
+- Evaluated using real PUF-enabled BNN hardware platforms and simulation tools.  
+- Achieved key recovery accuracy exceeding 90%, significantly breaching PUF security assumptions.  
+- Outperformed baseline attack methods by improving success rates and reducing attack time.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in deploying PUF-based security for neural networks, urging reconsideration of secure AI hardware design.  
+- Limited to specific PUF implementations and BNN architectures; broader applicability to other models or PUF types requires further study.  
+- Future work suggested on developing more resilient PUF designs and countermeasures against side-channel attacks.
+
+---
+
+#### Uncovering Gaps Between RFC Updates and TCP/IP Implementations: LLM-Facilitated Differential Checks on Intermediate Representations
+**作者**: Yifan Wu, Xuewei Feng, Yuxiang Yang, Ke Xu
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-10-28
+**链接**: http://arxiv.org/abs/2510.24408v1
+
+#### Executive Summary  
+This paper addresses discrepancies between updated RFC standards and real-world TCP/IP implementations by leveraging large language models (LLMs) to perform differential checks on intermediate representations of protocols. The approach effectively identifies gaps, offering automated insights that improve protocol compliance verification. Results demonstrate enhanced detection of non-conformances compared to traditional manual inspection.
+
+### Key Contributions  
+- Introduces an LLM-based framework for differential analysis between RFC updates and TCP/IP codebases.  
+- Proposes intermediate representation comparisons to bridge semantic gaps between textual standards and implementations.  
+- Provides a novel automated detection mechanism for protocol compliance deviations.
+
+### Method & Results  
+- Method: Extract intermediate protocol representations from RFC texts and code implementations, then use LLMs to perform semantic differential checks.  
+- Tools: Custom parser for intermediate representations; state-of-the-art LLM models for semantic analysis.  
+- Results: Identified numerous previously undocumented compliance gaps, with detection precision improved by 25% over baseline rule-based methods.  
+- Performance: Outperformed traditional static analysis tools in both coverage and interpretability.
+
+### Impact & Limitations  
+- Impact: Enables network engineers and standard bodies to quickly uncover and address TCP/IP implementation discrepancies, potentially improving internet reliability and security.  
+- Limitations: LLM dependency may introduce interpretability challenges; scalability to other protocols and real-time systems requires further validation.
 
 ---
 
