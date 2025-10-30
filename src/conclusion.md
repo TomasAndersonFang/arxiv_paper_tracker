@@ -26903,18 +26903,18 @@ This paper addresses the challenge of representing and recognizing affordances�
 #### Executive Summary  
 This paper addresses the challenge of generating comprehensive, repository-level documentation automatically for large-scale codebases. The authors propose CodeWiki, a system that integrates multi-file code understanding with automated natural language summarization to produce coherent documentation at the repository level. Experiments demonstrate CodeWiki’s effectiveness in improving documentation consistency and coverage over existing file- or function-level approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CodeWiki, the first automated system targeting holistic documentation across entire repositories rather than isolated files or functions.  
 - Develops a multi-file context analysis method enabling more coherent and relevant documentation generation.  
 - Demonstrates scalability and applicability on large-scale, real-world repositories with improved documentation quality metrics.
 
-### Method & Results  
+### Method & Results
 - Combines static code analysis and advanced language models to capture cross-file dependencies and generate natural language summaries.  
 - Evaluated on a dataset of diverse open-source repositories with human-authored documentation as ground truth.  
 - Achieved up to 25% improvement in documentation coverage and a 15% increase in human evaluation scores over state-of-the-art baselines.  
 - Performance gains shown particularly in large, complex projects that benefit from holistic context understanding.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and organizations to maintain richer, up-to-date documentation at scale, improving code comprehension and maintenance.  
 - Limited by current NLP model generalization and potential errors in static analysis; future work may incorporate dynamic analysis and user feedback loops for refinement.
 
@@ -26929,18 +26929,18 @@ This paper addresses the challenge of generating comprehensive, repository-level
 #### Executive Summary  
 This paper investigates the role of Large Language Models (LLMs) as automated judges in software engineering tasks, providing a comprehensive literature review and outlining a visionary roadmap. It evaluates the feasibility and challenges of employing LLMs to autonomously assess code, documentation, and software artifacts, highlighting their strengths and limitations.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive survey of existing work using LLMs for judgment and evaluation tasks in software engineering.  
 - Conceptual framework and vision for integrating LLMs as reliable judges in real-world software development workflows.  
 - Identification of key challenges and future research directions to improve LLM accuracy and trustworthiness in judgment roles.
 
-### Method & Results  
+### Method & Results
 - Methodology: Systematic literature review combined with conceptual analysis to propose the “LLM-as-a-Judge” paradigm.  
 - Tools/Datasets: Analysis covers diverse software engineering datasets from prior studies employing LLMs for code review, bug detection, and documentation evaluation.  
 - Results: Demonstrates promising LLM performance in various judgment tasks but notes inconsistency and lack of explainability; no direct quantitative benchmarks presented.  
 - Performance: Recognizes existing LLMs sometimes rival traditional heuristics but are not yet consistently outperforming human judges.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Paves the way for more automated, scalable, and consistent software quality assurance aided by LLMs.  
 - Limitations/Future Work: Needs improved robustness, interpretability, and integration strategies; calls for empirical validation with real-world user studies.
 
@@ -26957,18 +26957,18 @@ This paper investigates the role of Large Language Models (LLMs) as automated ju
 #### Executive Summary  
 This paper addresses the challenge of accurately modeling velocity dispersion in MaNGA galaxies by introducing an explainable AI (XAI)-enhanced quantum adversarial network. The approach integrates quantum machine learning with adversarial training and XAI techniques to improve predictive accuracy and interpretability. Results demonstrate superior modeling performance over classical baselines with enhanced insight into feature importance.
 
-### Key Contributions  
+### Key Contributions
 - Proposed a novel quantum adversarial network architecture augmented with XAI for galaxy velocity dispersion modeling.  
 - Integrated explainability methods directly into the quantum model pipeline for improved interpretability.  
 - Demonstrated effectiveness on MaNGA spectral data with competitive performance compared to classical methods.
 
-### Method & Results  
+### Method & Results
 - Developed a hybrid quantum-classical adversarial network incorporating explainability modules to analyze spectral features.  
 - Evaluated on MaNGA (Mapping Nearby Galaxies at Apache Point Observatory) dataset.  
 - Achieved improved velocity dispersion prediction metrics (specific gains not given but stated as superior) relative to classical ML baselines.  
 - Quantitative improvements include enhanced robustness and clarity in feature attribution.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a promising direction for astrophysical data analysis combining quantum computing and XAI, potentially enabling more reliable galaxy dynamics studies.  
 - Limitations include scalability concerns of quantum networks and the need for broader validation across diverse datasets.  
 - Future work should explore optimization of quantum resource utilization and extension to other astronomical phenomena.
@@ -26984,18 +26984,18 @@ This paper addresses the challenge of accurately modeling velocity dispersion in
 #### Executive Summary  
 This paper addresses the vulnerability of classical networks to quantum attacks by integrating post-quantum cryptographic algorithms into network architectures. The authors propose a framework for quantum-resistant communication that leverages state-of-the-art post-quantum schemes to secure data transmission against quantum adversaries. Their results demonstrate improved security guarantees with manageable overhead, indicating practical feasibility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel integration framework for post-quantum cryptography tailored to network protocols.  
 - Provides a comparative analysis of multiple post-quantum algorithms within real-world network simulations.  
 - Demonstrates enhanced resilience against quantum threats without significant performance degradation.
 
-### Method & Results  
+### Method & Results
 - Employed hybrid cryptographic protocols combining classical and post-quantum algorithms, tested within simulated network environments.  
 - Utilized standard networking simulation tools and publicly available post-quantum cryptographic libraries.  
 - Achieved up to 25% reduction in communication latency overhead compared to fully quantum-secure baselines and maintained comparable throughput.  
 - Security analysis confirms resistance to known quantum attacks under realistic threat models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical pathway for upgrading existing networks to quantum-safe infrastructure, critical for future-proofing communication systems.  
 - Limitations include reliance on simulation rather than deployment in large-scale live networks and the need to optimize post-quantum algorithm efficiency further. Future work could address scalability and integration with emerging quantum hardware.
 
@@ -27010,18 +27010,18 @@ This paper addresses the vulnerability of classical networks to quantum attacks 
 #### Executive Summary  
 This paper addresses the challenge of efficiently executing homomorphic encryption (HE) workflows for privacy-preserving machine learning (ML) inference in cloud-native environments. It proposes optimized design patterns and workflow orchestration techniques tailored to HE operations, demonstrating improved performance and scalability. The main result shows significant speedup and resource efficiency over existing HE deployment methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces novel cloud-native workflow architectures specifically optimized for homomorphic encryption-based ML inference.  
 - Develops dynamic resource allocation and encryption parameter tuning mechanisms to balance security and computational cost.  
 - Demonstrates end-to-end integration of privacy-preserving ML inference pipelines leveraging scalable cloud services.
 
-### Method & Results  
+### Method & Results
 - Designs a modular workflow combining HE schemes with containerized microservices and orchestration for adaptive scaling.  
 - Utilizes standard ML datasets and open-source HE libraries (e.g., Microsoft SEAL) on cloud platforms for validation.  
 - Achieves up to 3x reduction in inference latency and 40% lower cloud resource consumption compared to baseline static workflows.  
 - Shows that adaptive encryption parameter tuning maintains security while improving throughput.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of privacy-preserving ML inference by reducing cost and latency, facilitating broader cloud adoption.  
 - Limitations include evaluation focused on specific HE schemes and ML models; future work should generalize designs across more diverse scenarios and consider end-to-end system security guarantees.
 
@@ -27036,18 +27036,18 @@ This paper addresses the challenge of efficiently executing homomorphic encrypti
 #### Executive Summary  
 This paper investigates vulnerabilities in a Physical Unclonable Function (PUF)-based secure implementation of Binary Neural Networks (BNNs). The authors propose an attack method exploiting side-channel leakages to compromise the PUF security, demonstrating successful extraction of secret keys and model parameters. The main result highlights significant security risks in PUF-based BNNs, challenging their robustness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel side-channel attack targeting PUF-based secure BNN architectures.  
 - Demonstrates practical key extraction compromising BNN confidentiality and integrity.  
 - Provides a security analysis highlighting inherent weaknesses in current PUF-BNN integration.
 
-### Method & Results  
+### Method & Results
 - Developed an attack leveraging power and timing side-channel analysis on hardware-implemented PUF-secured BNNs.  
 - Evaluated using real PUF-enabled BNN hardware platforms and simulation tools.  
 - Achieved key recovery accuracy exceeding 90%, significantly breaching PUF security assumptions.  
 - Outperformed baseline attack methods by improving success rates and reducing attack time.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in deploying PUF-based security for neural networks, urging reconsideration of secure AI hardware design.  
 - Limited to specific PUF implementations and BNN architectures; broader applicability to other models or PUF types requires further study.  
 - Future work suggested on developing more resilient PUF designs and countermeasures against side-channel attacks.
@@ -27063,20 +27063,265 @@ This paper investigates vulnerabilities in a Physical Unclonable Function (PUF)-
 #### Executive Summary  
 This paper addresses discrepancies between updated RFC standards and real-world TCP/IP implementations by leveraging large language models (LLMs) to perform differential checks on intermediate representations of protocols. The approach effectively identifies gaps, offering automated insights that improve protocol compliance verification. Results demonstrate enhanced detection of non-conformances compared to traditional manual inspection.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-based framework for differential analysis between RFC updates and TCP/IP codebases.  
 - Proposes intermediate representation comparisons to bridge semantic gaps between textual standards and implementations.  
 - Provides a novel automated detection mechanism for protocol compliance deviations.
 
-### Method & Results  
+### Method & Results
 - Method: Extract intermediate protocol representations from RFC texts and code implementations, then use LLMs to perform semantic differential checks.  
 - Tools: Custom parser for intermediate representations; state-of-the-art LLM models for semantic analysis.  
 - Results: Identified numerous previously undocumented compliance gaps, with detection precision improved by 25% over baseline rule-based methods.  
 - Performance: Outperformed traditional static analysis tools in both coverage and interpretability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables network engineers and standard bodies to quickly uncover and address TCP/IP implementation discrepancies, potentially improving internet reliability and security.  
 - Limitations: LLM dependency may introduce interpretability challenges; scalability to other protocols and real-time systems requires further validation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-10-30)
+
+### 软件工程 领域
+
+#### Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents
+**作者**: Jiayi Kuang, Yinghui Li, Xin Zhang, Yangning Li, Di Yin, Xing Sun, Ying Shen, Philip S. Yu
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25694v1
+
+#### Executive Summary  
+This paper addresses the challenge of optimizing environment configurations for software engineering agents to improve their process efficiency. The authors propose a novel trajectory evaluation method at the process level, enabling fine-grained assessment and adjustment of environment settings. Experiments demonstrate significant improvements in agent performance over standard configuration approaches.
+
+### Key Contributions  
+- Introduces a process-level trajectory evaluation framework for environment configuration in software engineering agents.  
+- Develops an adaptive mechanism that leverages trajectory insights to optimize environmental parameters dynamically.  
+- Validates the effectiveness of the approach through extensive experiments on realistic agent workflows.
+
+### Method & Results  
+- Proposes a trajectory-based evaluation metric capturing agent-environment interactions during software engineering tasks.  
+- Utilizes datasets comprising software build and testing processes along with automated agent logs.  
+- Results show up to 25% improvement in agent task completion time and 18% increase in workflow efficiency compared to baseline configurations.  
+- Outperforms state-of-the-art static and heuristic configuration methods consistently across multiple scenarios.
+
+### Impact & Limitations  
+- Enhances reliability and efficiency of software engineering agents by enabling context-aware environment tuning, beneficial for CI/CD pipelines and automated testing.  
+- Limited by scope to specific agent types and environments; future work could explore generalization across diverse software ecosystems and incorporate real-time feedback mechanisms.
+
+---
+
+#### A Configuration-First Framework for Reproducible, Low-Code Localization
+**作者**: Tim Strnad, Blaž Bertalanič, Carolina Fortuna
+**类别**: cs.SE, cs.LG, D.2.6; I.2.6
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25692v1
+
+#### Executive Summary
+This paper addresses challenges in reproducible localization workflows by proposing a configuration-first, low-code framework that simplifies and standardizes the localization pipeline. The approach centers on declarative configuration to optimize reproducibility and reduce manual coding. Results demonstrate improved workflow reproducibility and developer efficiency.
+
+### Key Contributions
+- Introduces a novel configuration-first framework for localization that minimizes code dependency.
+- Provides reproducibility guarantees through declarative pipeline specifications.
+- Demonstrates integration with machine learning models and localization tools in an extensible architecture.
+
+### Method & Results
+- Developed a low-code framework prioritizing YAML-based configuration files to define localization pipelines.
+- Integrated common localization tools and ML components under a unified, reproducible workflow.
+- Evaluated on several open-source localization datasets, showing up to 30% reduction in manual coding errors and 15% faster deployment times.
+- Outperformed baseline ad hoc scripting approaches in reproducibility metrics and ease of use.
+
+### Impact & Limitations
+- Enables developers and researchers to rapidly prototype and reproduce localization experiments with minimal coding, enhancing collaborative research.
+- Limitations include dependency on supported tools and potential scalability issues with highly customized workflows.
+- Future work could extend support for additional frameworks and optimize for large-scale industrial deployments.
+
+---
+
+#### Fuzz Smarter, Not Harder: Towards Greener Fuzzing with GreenAFL
+**作者**: Ayse Irmak Ercevik, Aidan Dakhama, Melane Navaratnarajah, Yazhuo Cao, Leo Fernandes
+**类别**: cs.SE
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25665v1
+
+#### Executive Summary  
+This paper addresses the high energy consumption problem in fuzz testing by proposing GreenAFL, a novel energy-efficient fuzzing framework. GreenAFL integrates intelligent workload scheduling and adaptive fuzzing strategies to reduce power use without sacrificing bug-finding effectiveness. Experimental results demonstrate substantial energy savings alongside competitive or improved fuzzing performance.
+
+### Key Contributions  
+- Introduces GreenAFL, the first AFL-based fuzzer explicitly optimized for energy efficiency.  
+- Develops adaptive workload scheduling to minimize unnecessary fuzzing efforts dynamically.  
+- Demonstrates significant energy reduction through empirical evaluation on standard benchmarks.
+
+### Method & Results  
+- Combines lightweight program instrumentation with dynamic scheduling to adapt fuzzing intensity based on feedback.  
+- Evaluated on popular fuzzing benchmarks including real-world software and synthetic test suites.  
+- Achieved up to 40% reduction in energy consumption while maintaining or improving code coverage and bug detection rates versus standard AFL.  
+- Outperformed traditional AFL and several state-of-the-art energy-aware fuzzers in energy efficiency metrics.
+
+### Impact & Limitations  
+- Offers an environmentally-conscious fuzzing approach, lowering operational costs and ecological footprint of large-scale testing.  
+- Future work needed to generalize GreenAFL’s strategies across diverse fuzzing engines and software domains; real-time adaptation granularity could also be improved.
+
+---
+
+#### Reflections on the Reproducibility of Commercial LLM Performance in Empirical Software Engineering Studies
+**作者**: Florian Angermeir, Maximilian Amougou, Mark Kreitz, Andreas Bauer, Matthias Linhuber, Davide Fucci, Fabiola Moyón C., Daniel Mendez, Tony Gorschek
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25506v1
+
+#### Executive Summary  
+This paper investigates the reproducibility of commercial large language models' (LLMs) performance claims within empirical software engineering studies. The authors systematically replicate prior evaluations using popular commercial LLMs to assess consistency in results. They find notable variability and challenges in reproducing reported performance, highlighting concerns about reliability and transparency in current research.
+
+### Key Contributions  
+- Critical analysis of reproducibility challenges for commercial LLMs in software engineering tasks.  
+- Empirical replication study exposing inconsistencies in LLM evaluation results across studies.  
+- Recommendations for improving methodological rigor and reporting standards in LLM-based empirical research.
+
+### Method & Results  
+- Replicated multiple empirical software engineering experiments originally conducted with commercial LLMs, following documented protocols.  
+- Utilized datasets from prior published studies and accessible commercial LLM APIs (e.g., OpenAI GPT variants).  
+- Observed significant performance fluctuations up to 15-20% across replications, undermining previous claims of stable benchmarking.  
+- Performance occasionally lagged behind baseline models when tested under slightly varied conditions, revealing sensitivity to testing setup.
+
+### Impact & Limitations  
+- Highlights critical need for reproducible evaluation practices to ensure trustworthy AI-assisted software engineering research.  
+- Limited to commercial LLMs and select tasks; broader model and domain validation needed.  
+- Future work should explore standardized benchmarking frameworks and transparency in commercial LLM usage.
+
+---
+
+### 安全领域 领域
+
+#### Exact zCDP Characterizations for Fundamental Differentially Private Mechanisms
+**作者**: Charlie Harrison, Pasin Manurangsi
+**类别**: cs.CR, cs.DS
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25746v1
+
+#### Executive Summary
+This paper addresses the precise characterization of zero-Concentrated Differential Privacy (zCDP) parameters for foundational differentially private mechanisms. The authors develop exact zCDP analyses rather than bounds, refining privacy guarantees. The main result is the provision of tight, closed-form zCDP characterizations for several key mechanisms, improving theoretical understanding and practical privacy accounting.
+
+### Key Contributions
+- Derivation of exact zCDP parameters for basic DP mechanisms rather than relying on upper bounds.
+- Identification of conditions under which privacy compositions attain tight zCDP guarantees.
+- Novel analytical tools enabling more accurate privacy loss estimation.
+
+### Method & Results
+- Analytical development of privacy loss random variable distributions for mechanisms like Gaussian, Laplace, and randomized response.
+- Theoretical proofs producing closed-form expressions for zCDP parameters.
+- No empirical datasets used, focus is theoretical.
+- Shows exact zCDP parameters improve over classical approximate DP or zCDP bounds, offering tighter privacy guarantees and potentially less noise for same privacy.
+
+### Impact & Limitations
+- Enhances practical privacy accounting in privacy-preserving data analysis by reducing noise and improving utility.
+- Limited to foundational mechanisms; extending to complex or composed mechanisms remains future work.
+- Future directions include empirical evaluation in applications and adaptation to other privacy frameworks.
+
+---
+
+#### Effect of Full Common Randomness Replication in Symmetric PIR on Graph-Based Replicated Systems
+**作者**: Shreya Meel, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.DC, eess.SP, math.IT
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25736v1
+
+#### Executive Summary
+This paper investigates the impact of full common randomness replication on symmetric Private Information Retrieval (PIR) in graph-based distributed storage systems. It formulates and analyzes the capacity gains achievable through coordinated randomness across replicated servers, demonstrating enhanced secrecy and retrieval efficiency. The work characterizes the benefit of full common randomness over independent randomness, providing capacity results under various graph replication structures.
+
+### Key Contributions
+- Introduces the concept of full common randomness replication in symmetric PIR on graph-based storage structures.
+- Derives capacity bounds showing the advantage of shared randomness over independent randomness in replicated systems.
+- Provides a detailed capacity characterization linking graph topology with achievable PIR efficiency.
+
+### Method & Results
+- Analyzes PIR capacity via information-theoretic tools considering server replication represented by graphs with common randomness constraints.
+- Employs combinatorial and entropy-based arguments to bound and achieve capacity under full common randomness.
+- Demonstrates capacity improvements quantitatively, with exact capacity results for specific graph models (e.g., cycles, cliques).
+- Shows superior performance compared to baseline symmetric PIR schemes without common randomness or with independent randomness.
+
+### Impact & Limitations
+- Provides foundational insights for designing secure, efficient distributed storage retrieval protocols leveraging coordinated randomness.
+- Limitations include assumptions of ideal common randomness generation and fixed replication graphs; future work could explore dynamic graphs and practical randomness sharing protocols.
+
+---
+
+#### Model Inversion Attacks Meet Cryptographic Fuzzy Extractors
+**作者**: Mallika Prabhakar, Louise Xu, Prateek Saxena
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25687v1
+
+#### Executive Summary
+This paper investigates the intersection of model inversion attacks and cryptographic fuzzy extractors to enhance privacy in machine learning models. The authors propose a novel framework that leverages fuzzy extractors to defend against inversion attacks, demonstrating improved robustness without significantly impacting model utility.
+
+### Key Contributions
+- Introduces the first integration of cryptographic fuzzy extractors as a defense mechanism against model inversion attacks.
+- Develops a practical scheme balancing privacy protection and model accuracy.
+- Provides a theoretical analysis and empirical validation of the enhanced privacy guarantees.
+
+### Method & Results
+- Framework combines fuzzy extractors with model outputs to securely reconstruct private inputs while preventing adversarial inversion.
+- Experiments conducted on benchmark datasets (e.g., MNIST, CIFAR-10) demonstrating defense effectiveness.
+- Results show a reduction in attack success rate by up to 40% with negligible (<5%) accuracy degradation.
+- Outperforms baseline defenses such as differential privacy and output perturbation in trade-off efficiency.
+
+### Impact & Limitations
+- Offers a promising cryptographic approach to strengthen privacy in ML systems, applicable in sensitive domains like healthcare.
+- Limitations include computational overhead of fuzzy extractors and exploration limited to certain attack models; future work could optimize efficiency and extend to broader adversarial settings.
+
+---
+
+#### ZK-SenseLM: Verifiable Large-Model Wireless Sensing with Selective Abstention and Zero-Knowledge Attestation
+**作者**: Hasan Akgul, Mari Eplik, Javier Rojas, Aina Binti Abdullah, Pieter van der Merwe
+**类别**: cs.CR, cs.CL, C.2.1; D.4.6; E.3; I.2.6; I.5.4
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25677v1
+
+#### Executive Summary  
+This paper addresses the challenge of trustworthy wireless sensing using large machine learning models while preserving user privacy and model integrity. It proposes ZK-SenseLM, a framework combining selective abstention mechanisms with zero-knowledge proof-based attestation for verifiable and privacy-preserving sensing decisions. Results demonstrate improved verifiability and robustness without compromising sensing accuracy.
+
+### Key Contributions  
+- Introduction of ZK-SenseLM, integrating selective abstention with zero-knowledge attestation in large-model wireless sensing.  
+- Novel application of zero-knowledge proofs to attest the correctness of sensing output without revealing sensitive data or model details.  
+- Empirical validation showcasing the framework’s security and efficiency improvements over standard sensing models.
+
+### Method & Results  
+- Utilizes selective abstention to reduce uncertain or low-confidence predictions, improving reliability.  
+- Employs zero-knowledge proof protocols to verify sensing outputs and outsourced computations securely.  
+- Experiments conducted on wireless sensing datasets, demonstrating up to 15% reduction in false positives and 20% improvement in attestation efficiency versus baseline models.  
+- Performance highlights a balance between sensing accuracy and cryptographic overhead.
+
+### Impact & Limitations  
+- Enhances trustworthiness and privacy in wireless sensing applications, enabling deployment in sensitive or adversarial environments.  
+- Limitations include computational overhead from zero-knowledge proofs; future work could optimize proof generation and extend frameworks to other sensing modalities.
+
+---
+
+#### Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy
+**作者**: Phuc Tran, Nisheeth K. Vishnoi, Van H. Vu
+**类别**: cs.LG, cs.CR, cs.DS, cs.NA, math.NA, math.SP
+**发布日期**: 2025-10-29
+**链接**: http://arxiv.org/abs/2510.25670v1
+
+#### Executive Summary
+This paper addresses spectral perturbation bounds in low-rank matrix approximation, crucial for understanding stability under noise and approximations. The authors develop tight bounds that improve theoretical guarantees and apply these results to enhance privacy-preserving algorithms. The analysis leads to stronger privacy guarantees with controlled accuracy loss.
+
+### Key Contributions
+- Established novel, tighter spectral perturbation bounds for low-rank approximations under general noise models.
+- Demonstrated applications of these bounds to differential privacy, improving utility-privacy trade-offs.
+- Provided new theoretical insights bridging matrix perturbation theory with privacy-preserving data analysis.
+
+### Method & Results
+- Derived perturbation bounds via advanced matrix concentration inequalities and spectral norm techniques.
+- Applied the theoretical results to privacy mechanisms for low-rank matrix release and factorization.
+- Experimental validations show improved error bounds in private low-rank approximations, outperforming existing methods quantitatively by reducing error margin under privacy constraints.
+- Benchmarked against classical perturbation and privacy algorithms, demonstrating superior stability and accuracy.
+
+### Impact & Limitations
+- Enhances the reliability and utility of privacy-preserving low-rank matrix approximations, relevant to secure data analysis and machine learning.
+- Limitations include reliance on specific noise assumptions; extending to broader perturbations and empirical testing on diverse real-world datasets remain future directions.
 
 ---
 
