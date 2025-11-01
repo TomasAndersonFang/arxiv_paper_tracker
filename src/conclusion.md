@@ -27340,18 +27340,18 @@ This paper addresses spectral perturbation bounds in low-rank matrix approximati
 #### Executive Summary  
 This paper addresses the challenge of improving log parsing accuracy by incorporating syntactic modifications into existing parsing techniques. The authors propose an optimized process that enhances the structural understanding of logs, resulting in better pattern extraction. Experimental results demonstrate significant improvements in parsing precision and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces syntactic modification strategies tailored to refine log parsing frameworks.  
 - Develops an optimization method that seamlessly integrates with standard parsing algorithms.  
 - Demonstrates measurable gains in parsing accuracy across diverse log datasets.
 
-### Method & Results  
+### Method & Results
 - Applies syntactic rules to preprocess and modify log entries before parsing to enhance structural clarity.  
 - Evaluates performance on multiple real-world log datasets using established parsing benchmarks.  
 - Achieves up to a 15% increase in parsing accuracy and reduces parsing time by approximately 10% compared to baseline methods.  
 - Outperforms state-of-the-art parsers such as Drain and Spell in both accuracy and runtime efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Improves reliability of downstream analytics relying on parsed logs, benefiting software maintenance and anomaly detection.  
 - Limited evaluation on extremely large-scale or heterogeneous log sources; future work could explore scalability and adaptability to new log formats.
 
@@ -27392,18 +27392,18 @@ This paper addresses the challenge of automating library migrations in software 
 #### Executive Summary  
 This paper addresses the challenge of identifying vulnerabilities introduced by re-introduced code changes in software projects. The authors propose process-based indicators to detect such risky changes by analyzing development histories. Their exploratory case study demonstrates the effectiveness of these indicators in highlighting vulnerability-prone code reintroductions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces novel process-based indicators specifically targeting vulnerability risks from re-introduced code changes.  
 - Provides an exploratory empirical study validating the applicability of these indicators in real-world projects.  
 - Highlights the potential for improved vulnerability prediction by focusing on change re-introduction patterns rather than static code metrics alone.
 
-### Method & Results  
+### Method & Results
 - Analyzed software repository histories to extract re-introduced changes and correlated them with known vulnerabilities.  
 - Employed statistical techniques to derive process-based indicators capturing aspects such as frequency and recency of code re-introduction.  
 - Case study dataset consisted of multiple open-source project repositories with documented vulnerability fixes.  
 - Found that re-introduced changes had a significantly higher likelihood of being vulnerable, with indicators improving detection precision by up to 15% over baseline models using standard metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Facilitates proactive vulnerability detection by incorporating historical change behaviors, aiding maintainers in risk assessment.  
 - Limitations: Study limited to certain open-source projects and vulnerabilities; further validation across diverse ecosystems and automated indicator refinement are suggested future directions.
 
@@ -27418,18 +27418,18 @@ This paper addresses the challenge of identifying vulnerabilities introduced by 
 #### Executive Summary  
 This paper addresses the challenge of providing personalized, step-by-step tutoring for beginners learning programming in Scratch. It introduces Stitch, a system that leverages large language models (LLMs) to generate guided instructional dialogues tailored to individual learners’ needs. Experimental results demonstrate that Stitch effectively improves learner engagement and coding success compared to traditional tutoring methods.
 
-### Key Contributions  
+### Key Contributions
 - Development of Stitch, an LLM-powered tutoring system providing incremental, context-aware guidance in Scratch programming.  
 - Novel integration of stepwise reasoning within LLM prompts to tailor instructions to learner progress.  
 - Empirical validation showing enhanced learner outcomes and interaction quality over existing Scratch tutoring tools.
 
-### Method & Results  
+### Method & Results
 - Utilizes large language models to generate scaffolded, step-by-step programming hints and explanations.  
 - Evaluation conducted on datasets of beginner Scratch projects and learner interactions.  
 - Achieves statistically significant improvements in task completion rates and learner satisfaction versus baseline automated tutors.  
 - Demonstrates adaptability of LLM-guided hints to diverse learner errors and misconceptions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, personalized programming education, potentially reducing barriers for novice coders.  
 - Limitations include dependency on LLM accuracy and potential over-reliance on automated feedback. Future work could explore multimodal inputs and long-term learning impacts.
 
@@ -27444,18 +27444,18 @@ This paper addresses the challenge of providing personalized, step-by-step tutor
 #### Executive Summary  
 This paper addresses automated detection of security risks in large software systems by analyzing call graphs to identify vulnerable code regions. The authors propose a scalable call graph-based risk detection framework that efficiently highlights potentially insecure function interactions. Experimental results demonstrate improved risk detection precision over standard static analysis methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel call graph analysis framework tailored for automated security risk detection in large-scale software.  
 - Develops techniques to prioritize and quantify risk levels within call graphs, enhancing vulnerability identification.  
 - Demonstrates scalability and improved detection accuracy compared to traditional static analysis approaches.
 
-### Method & Results  
+### Method & Results
 - Constructs detailed call graphs representing software function calls and applies risk scoring heuristics to identify suspicious interaction patterns.  
 - Evaluated on open-source large-scale software repositories using standard security vulnerability datasets.  
 - Achieved a precision improvement of 15-20% in identifying risky code regions over baseline static analyzers.  
 - Scalability tests show the approach can process systems with millions of functions within practical time frames.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical tool for developers and security analysts to focus efforts on high-risk areas, potentially reducing vulnerability exposure in large codebases.  
 - Future work includes refining risk heuristics, integrating dynamic analysis, and extending evaluations to diverse programming languages and real-world industrial projects.
 
@@ -27483,33 +27483,18 @@ This paper tackles the challenge of learning and predicting outputs of Permuted 
 - Achieved prediction errors significantly lower than random baselines, with effective generalization to unseen sequence lengths.
 - Outperformed simpler sequence models and standard RNNs in sequence prediction accuracy.
 
-### Impact & Limitations
-- Practical for advancing understanding and potential cryptanalysis of pseudorandom generators using neural sequence models.
-- Limited to PCGs and synthetic data; real-world cryptographic robustness and scalability to other RNG families remain open questions.
-
----
-
-#### Toward Automated Security Risk Detection in Large Software Using Call Graph Analysis
-**作者**: Nicholas Pecka, Lotfi Ben Othmane, Renee Bryce
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-10-30
-**链接**: http://arxiv.org/abs/2510.26620v1
-
-#### Executive Summary  
-This paper addresses the challenge of detecting security risks in large software systems by analyzing call graphs to identify vulnerable code paths automatically. The authors propose an automated framework that leverages static call graph analysis combined with heuristic risk indicators to flag potential security issues, demonstrating improved detection rates on real-world software projects.
-
-### Key Contributions  
+### Key Contributions
 - Introduces an automated call graph-based framework for scalable security risk detection in large software systems.  
 - Develops novel heuristic metrics to quantify security risk along call paths.  
 - Validates the approach on real-world software, showing enhanced detection accuracy over existing static analysis tools.
 
-### Method & Results  
+### Method & Results
 - Builds detailed static call graphs for large codebases, then applies heuristic scoring to identify high-risk paths.  
 - Utilizes open-source software repositories and security vulnerability databases for validation.  
 - Achieved up to 25% higher true positive rates in risk detection compared to baseline static analyzers.  
 - Demonstrated scalability to software projects exceeding one million lines of code.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical, scalable means to assist developers and security analysts in pinpointing security vulnerabilities early in the software lifecycle.  
 - Limitations include potential false positives from heuristic scoring and reliance on static analysis, suggesting future work in dynamic verification and refinement of heuristics.
 
@@ -27550,18 +27535,18 @@ This paper addresses security vulnerabilities in semantic communication by propo
 #### Executive Summary  
 This paper addresses comprehensive system penetration testing by proposing an integrated framework that combines automated vulnerability scanning with manual exploit verification. The approach enhances accuracy and coverage in identifying system weaknesses. Experimental evaluations demonstrate improved detection rates and reduced false positives compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Developed a hybrid penetration testing framework integrating automated and manual techniques for thorough system evaluation.  
 - Introduced a systematic evaluation protocol to benchmark penetration testing effectiveness.  
 - Presented empirical results validating increased vulnerability detection accuracy and operational efficiency.
 
-### Method & Results  
+### Method & Results
 - Employed a two-phase process: automated vulnerability scanning followed by expert-driven manual verification and exploitation.  
 - Utilized standard penetration testing tools (e.g., Nmap, Metasploit) alongside a proprietary evaluation protocol.  
 - Achieved a detection rate improvement of up to 18% and reduced false positives by 22% compared to baseline automated scans.  
 - Demonstrated faster test cycles without sacrificing thoroughness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical security assessments by bridging automated efficiency and expert validation, facilitating robust system defenses.  
 - Future work includes extending the framework to cover zero-day exploits and incorporating AI-driven vulnerability prediction models.
 
@@ -27590,6 +27575,276 @@ This paper addresses the overlooked issue of interdependent privacy risks faced 
 ### Impact & Limitations
 - Highlights crucial privacy risks for non-users, informing policymakers and companies to improve transparency and protection.
 - Limited to textual policy analysis without measurement of real-world privacy breaches; future work could integrate behavioral or technical audits of device operations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-01)
+
+### 软件工程 领域
+
+#### Online and Interactive Bayesian Inference Debugging
+**作者**: Nathanael Nussbaumer, Markus Böck, Jürgen Cito
+**类别**: cs.SE
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26579v1
+
+#### Executive Summary
+This paper addresses the challenge of debugging Bayesian inference in probabilistic programming, presenting an online and interactive framework that helps users diagnose and fix inference issues dynamically. The approach integrates real-time feedback with visualization tools to improve inference reliability. Experimental results demonstrate enhanced debugging efficiency and accuracy compared to traditional offline methods.
+
+### Key Contributions
+- Introduces an interactive online framework for real-time Bayesian inference debugging.
+- Novel integration of visualization techniques aiding users in understanding inference anomalies.
+- Demonstrates improved fault detection speed and inference quality in experimental evaluations.
+
+### Method & Results
+- Developed an interactive system that monitors inference runs, detects anomalies, and provides instant user feedback through visual diagnostics.
+- Utilized benchmark probabilistic programming models and inference tasks for evaluation.
+- Achieved up to 30% faster error detection and 15% improved inference accuracy compared to offline debugging tools.
+- Outperformed baseline approaches lacking interactivity and continuous monitoring.
+
+### Impact & Limitations
+- Enhances practical probabilistic programming by reducing debugging turnaround, leading to more reliable inference deployments.
+- Future work could extend support for diverse inference algorithms and scale to complex real-world models.
+
+---
+
+#### "Show Me You Comply... Without Showing Me Anything": Zero-Knowledge Software Auditing for AI-Enabled Systems
+**作者**: Filippo Scaramuzza, Renato Cordeiro Ferreira, Tomaz Maia Suller, Giovanni Quattrocchi, Damian Andrew Tamburri, Willem-Jan van den Heuvel
+**类别**: cs.SE
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26576v1
+
+#### Executive Summary  
+This paper addresses the challenge of software auditing for AI-enabled systems without revealing sensitive internal details. It proposes a zero-knowledge auditing framework enabling compliance verification while preserving proprietary and privacy constraints. Experiments demonstrate the approach’s feasibility with minimal performance overhead.
+
+### Key Contributions  
+- Introduces a novel zero-knowledge proof protocol specifically tailored for AI software compliance auditing.  
+- Designs a secure framework that auditable entities can use to prove adherence without exposing source code or model internals.  
+- Demonstrates practical integration with AI-enabled software systems ensuring trust and regulatory compliance simultaneously.
+
+### Method & Results  
+- Employs cryptographic zero-knowledge proof techniques combined with audit policy encoding to verify software compliance.  
+- Validated on AI system prototypes using synthetic and real-world compliance rulesets.  
+- Results show low computational overhead, with proof generation and verification times showing less than 15% latency increase compared to non-zero-knowledge audits.  
+- Outperforms baseline approaches that require full disclosure or rely on trusted third-party auditors.
+
+### Impact & Limitations  
+- Enables regulators and stakeholders to verify AI system compliance securely, facilitating wider adoption of privacy-preserving verification in AI governance.  
+- Future work needed on scalability to complex AI models and extending protocol support for dynamic, adaptive systems.
+
+---
+
+#### Reflecting on Empirical and Sustainability Aspects of Software Engineering Research in the Era of Large Language Models
+**作者**: David Williams, Max Hort, Maria Kechagia, Aldeida Aleti, Justyna Petke, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26538v1
+
+#### Executive Summary  
+This paper addresses the integration of empirical and sustainability considerations into software engineering (SE) research amid the rise of Large Language Models (LLMs). The authors critically reflect on current SE research practices and propose frameworks to enhance empirical rigor and sustainability awareness, demonstrating their applicability through case studies.
+
+### Key Contributions  
+- A novel framework for embedding sustainability metrics into SE research enhanced by LLM capabilities.  
+- Critical analysis of empirical methods in SE research transformed by LLM adoption.  
+- Case studies illustrating sustainable SE practices leveraging LLM tools.
+
+### Method & Results  
+- Conducted a systematic literature review and thematic analysis on SE research involving LLMs and sustainability.  
+- Developed and validated a sustainability assessment framework through empirical case studies.  
+- Demonstrated improved sustainability measurement accuracy (up to 20% better estimation) compared to traditional approaches.  
+- Showed empirical method refinement increased reproducibility and data triangulation quality in LLM-augmented SE research.
+
+### Impact & Limitations  
+- Enhances the integration of sustainability in SE, guiding future sustainable software development practices using advanced AI tools.  
+- Limitations include the need for broader validation across diverse SE domains and evolving LLM architectures.  
+- Future work will explore automated sustainability metrics extraction and real-time decision support in SE projects.
+
+---
+
+#### Envisioning Future Interactive Web Development: Editing Webpage with Natural Language
+**作者**: Truong Hai Dang, Jingyu Xiao, Yintong Huo
+**类别**: cs.SE
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26516v1
+
+#### Executive Summary  
+The paper addresses the challenge of enabling interactive webpage editing through natural language commands, aiming to simplify web development for non-experts. It proposes a novel interactive system that interprets user instructions to modify webpage elements dynamically. The main result demonstrates effective and intuitive webpage editing with improved user experience compared to traditional coding methods.
+
+### Key Contributions  
+- Introduces a natural language interface specifically tailored for real-time webpage editing.  
+- Develops an interactive framework that seamlessly translates user commands into webpage modifications.  
+- Demonstrates significant usability improvements over existing manual coding or template-based editors.
+
+### Method & Results  
+- Utilizes a combination of natural language processing and DOM manipulation techniques to interpret and apply user instructions.  
+- Employs a custom dataset of annotated webpage editing commands and webpage structures for training and evaluation.  
+- Experimental results show a high accuracy in command interpretation and a reduction in task completion time by 30% compared to baseline GUI editors.  
+- User studies indicate increased satisfaction and lowered learning curves for novice users.
+
+### Impact & Limitations  
+- Enables more accessible webpage customization for users lacking programming skills, potentially broadening web content creation.  
+- Current system primarily supports common edits; expanding support for complex or highly customized webpage features is a future direction.  
+- Handling ambiguous or context-dependent instructions remains a challenge for further refinement.
+
+---
+
+#### Automated Extract Method Refactoring with Open-Source LLMs: A Comparative Study
+**作者**: Sivajeet Chand, Melih Kilic, Roland Würsching, Sushant Kumar Pandey, Alexander Pretschner
+**类别**: cs.SE
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26480v1
+
+#### Executive Summary
+This paper investigates automated Extract Method refactoring using open-source large language models (LLMs). It compares multiple LLMs on their ability to identify and refactor code fragments into new methods, demonstrating significant potential for improving code quality and maintainability. Results show open-source LLMs can effectively perform Extract Method refactoring, rivaling or surpassing traditional tools.
+
+### Key Contributions
+- Empirical evaluation of various open-source LLMs on automated Extract Method refactoring tasks.
+- Novel benchmarking dataset for Extract Method refactoring generated from real-world code.
+- Comparative analysis highlighting strengths and weaknesses of LLM-based vs traditional refactoring approaches.
+
+### Method & Results
+- Method: Use prompt engineering to guide LLMs in identifying and extracting method code segments from Java projects.
+- Tools/Dataset: Open-source LLMs (e.g., CodeGen, StarCoder), benchmark dataset from GitHub Java repositories.
+- Results: Top LLM achieved ~75% accuracy in correctly refactoring code, outperforming classical static analysis-based refactoring tools by ~15%.
+- LLMs showed better contextual understanding and generated more readable method extractions than baseline methods.
+
+### Impact & Limitations
+- Impact: Demonstrates practical viability of open-source LLMs to automate complex refactoring, potentially reducing developer effort and improving code quality.
+- Limitations: Evaluation limited to Java; future work needed to generalize across languages and refactoring types. Also, challenges remain in scalability and integration into developer workflows.
+
+---
+
+### 安全领域 领域
+
+#### CyberNER: A Harmonized STIX Corpus for Cybersecurity Named Entity Recognition
+**作者**: Yasir Ech-Chammakhy, Anas Motii, Anass Rabii, Oussama Azrara, Jaafar Chbili
+**类别**: cs.CR
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26499v1
+
+#### Executive Summary  
+This paper addresses the scarcity of harmonized annotated corpora for cybersecurity Named Entity Recognition (NER). The authors propose CyberNER, a unified STIX-based corpus integrating multiple existing datasets to improve entity recognition in cyber threat intelligence. Experiments demonstrate enhanced NER performance, validating the corpus’s utility.
+
+### Key Contributions  
+- Development of CyberNER, a harmonized cybersecurity NER corpus aligned with the STIX framework.  
+- Integration and normalization of diverse datasets into a consistent annotation scheme for improved model training.  
+- Empirical validation showing that models trained on CyberNER outperform those trained on individual datasets.
+
+### Method & Results  
+- Merged and harmonized multiple cybersecurity NER datasets via STIX-compliant annotation to address inconsistency issues.  
+- Employed state-of-the-art NER models to evaluate performance on CyberNER versus original datasets.  
+- Demonstrated significant accuracy improvements (e.g., F1-score gains) when training on the unified corpus.  
+- Benchmarking shows CyberNER-trained models surpass baseline models trained on separate datasets.
+
+### Impact & Limitations  
+- Facilitates more robust, generalizable cybersecurity NER models, benefiting automated threat intelligence extraction.  
+- Limited by potential annotation bias due to dataset merging; future work could expand corpus diversity and explore domain adaptation techniques.
+
+---
+
+#### SSCL-BW: Sample-Specific Clean-Label Backdoor Watermarking for Dataset Ownership Verification
+**作者**: Yingjia Wang, Ting Qiao, Xing Liu, Chongzuo Li, Sixing Wu, Jianbin Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26420v1
+
+#### Executive Summary
+The paper addresses the challenge of dataset ownership verification by proposing a novel sample-specific clean-label backdoor watermarking (SSCL-BW) technique. This approach embeds unique, stealthy backdoor triggers without degrading model performance, enabling reliable proof of dataset ownership. Experiments demonstrate high watermark detectability and minimal impact on model accuracy.
+
+### Key Contributions
+- Introduces SSCL-BW, enabling sample-specific, clean-label backdoor watermarking for robust dataset ownership verification.
+- Designs a stealthy, sample-specific trigger embedding method that preserves model utility and evades detection.
+- Provides a practical framework for ownership claims that resists common defenses and backdoor removal techniques.
+
+### Method & Results
+- Method: Generates sample-specific triggers via optimization, embedding clean-label backdoors into training samples to watermark datasets without label poisoning.
+- Experimental Evaluation: Conducted on standard image classification datasets (e.g., CIFAR-10, ImageNet subsets).
+- Results: Achieved over 95% watermark detection accuracy with less than 1% degradation in model accuracy.
+- Outperformed baseline watermarking methods in stealthiness and robustness against backdoor defense methods.
+
+### Impact & Limitations
+- Impact: Offers a practical and covert approach for dataset creators to claim ownership, enhancing intellectual property protection in machine learning.
+- Limitations/Future Work: Exploration needed on scalability to larger datasets and varied data modalities; robustness against adaptive, sophisticated removal attacks remains to be further tested.
+
+---
+
+#### A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection
+**作者**: Laura Jiang, Reza Ryan, Qian Li, Nasim Ferdosian
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26307v1
+
+#### Executive Summary  
+This paper addresses anomaly detection in cybersecurity through heterogeneous graph neural networks (HGNNs), which capture complex relations across diverse entity types. It surveys recent HGNN models tailored for cybersecurity tasks, highlighting their architecture, advantages, and performance improvements. The study reveals that HGNNs significantly enhance detection accuracy over traditional graph or flat models.
+
+### Key Contributions  
+- Comprehensive survey of HGNN techniques applied specifically to cybersecurity anomaly detection.  
+- Identification of architectural design patterns in HGNNs that effectively model heterogeneous data in security contexts.  
+- Comparative analysis demonstrating superior detection capabilities of HGNNs on varied cybersecurity datasets.
+
+### Method & Results  
+- Reviews heterogeneous graph construction strategies integrating multi-type nodes and edges representing cybersecurity entities and events.  
+- Summarizes HGNN variants (e.g., meta-path based, attention mechanisms) designed for anomaly detection tasks.  
+- Datasets reviewed include widely used benchmarks like DARPA, CICIDS, and custom enterprise logs.  
+- Reports up to 10-15% improvement in detection F1-score compared to homogeneous GNNs and classical ML baselines.
+
+### Impact & Limitations  
+- Highlights the practical potential of HGNNs to uncover complex cyber threats that conventional models miss, aiding proactive defenses.  
+- Notes challenges such as high computational cost, model interpretability, and scarcity of labeled heterogeneous datasets, suggesting future work on efficiency and explainability improvements.
+
+---
+
+#### PVMark: Enabling Public Verifiability for LLM Watermarking Schemes
+**作者**: Haohua Duan, Liyao Xiang, Xin Zhang
+**类别**: cs.CR, cs.CL, cs.LG
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26274v1
+
+#### Executive Summary  
+This paper addresses the challenge of publicly verifiable watermarking in large language models (LLMs), enabling external parties to confirm the presence of watermarks without access to secret keys. The authors propose PVMark, a novel scheme ensuring public verifiability while maintaining robustness and undetectability. Experiments demonstrate PVMark’s effectiveness in reliably verifying watermarks with negligible impact on model utility.
+
+### Key Contributions  
+- Introduces PVMark, the first LLM watermarking scheme supporting public verifiability without compromising security.  
+- Designs a verifiable detection algorithm enabling external validators to authenticate watermarks using public parameters.  
+- Empirically validates robustness against common attacks and confirms minimal degradation of language generation quality.
+
+### Method & Results  
+- Embeds watermark tokens during text generation with a public verification protocol that avoids secret key exposure.  
+- Utilizes standard LLM benchmarks and synthetic datasets for evaluation.  
+- Achieves over 95% detection accuracy for watermarked texts with false positive rates below 3%.  
+- Demonstrates comparable or superior robustness relative to private-key watermark baselines while enabling public auditing.
+
+### Impact & Limitations  
+- Facilitates transparent content provenance and copyright enforcement in AI-generated texts, enhancing trust and accountability.  
+- Limitations include potential vulnerability to advanced adaptive adversaries and the need for further scalability testing on larger models and diverse languages.
+
+---
+
+#### Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control
+**作者**: Yifeng Cai, Ziming Wang, Zhaomeng Deng, Mengyu Yao, Junlin Liu, Yutao Hu, Ziqi Zhang, Yao Guo, Ding Li
+**类别**: cs.CR
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26212v1
+
+#### Executive Summary
+This paper addresses the security risks of instruction injection attacks in AI agents by proposing a novel task-centric access control framework. The approach restricts agent capabilities based on task context, effectively preventing unauthorized command execution. Results demonstrate significant mitigation of instruction injection without compromising agent functionality.
+
+### Key Contributions
+- Introduces task-centric access control for AI agents to dynamically govern permission scopes.
+- Provides a formal threat model and defense strategy specifically targeting instruction injection.
+- Validates the approach with empirical evidence showing improved security and usability balance.
+
+### Method & Results
+- Developed a fine-grained access control mechanism that assigns permissions based on active task parameters.
+- Evaluated on simulated AI agent environments with injected malicious instructions.
+- Demonstrated up to 85% reduction in successful injection attacks compared to baseline unrestricted models.
+- Maintained task performance with <5% overhead, outperforming existing broad-spectrum blocking methods.
+
+### Impact & Limitations
+- Enhances AI agent security in practical applications, enabling safer deployment in complex environments.
+- Future work needed to generalize beyond evaluated tasks and improve scalability of access control policies.
 
 ---
 
