@@ -27619,18 +27619,18 @@ This paper addresses the challenge of debugging Bayesian inference in probabilis
 #### Executive Summary  
 This paper addresses the challenge of software auditing for AI-enabled systems without revealing sensitive internal details. It proposes a zero-knowledge auditing framework enabling compliance verification while preserving proprietary and privacy constraints. Experiments demonstrate the approach’s feasibility with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel zero-knowledge proof protocol specifically tailored for AI software compliance auditing.  
 - Designs a secure framework that auditable entities can use to prove adherence without exposing source code or model internals.  
 - Demonstrates practical integration with AI-enabled software systems ensuring trust and regulatory compliance simultaneously.
 
-### Method & Results  
+### Method & Results
 - Employs cryptographic zero-knowledge proof techniques combined with audit policy encoding to verify software compliance.  
 - Validated on AI system prototypes using synthetic and real-world compliance rulesets.  
 - Results show low computational overhead, with proof generation and verification times showing less than 15% latency increase compared to non-zero-knowledge audits.  
 - Outperforms baseline approaches that require full disclosure or rely on trusted third-party auditors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables regulators and stakeholders to verify AI system compliance securely, facilitating wider adoption of privacy-preserving verification in AI governance.  
 - Future work needed on scalability to complex AI models and extending protocol support for dynamic, adaptive systems.
 
@@ -27645,18 +27645,18 @@ This paper addresses the challenge of software auditing for AI-enabled systems w
 #### Executive Summary  
 This paper addresses the integration of empirical and sustainability considerations into software engineering (SE) research amid the rise of Large Language Models (LLMs). The authors critically reflect on current SE research practices and propose frameworks to enhance empirical rigor and sustainability awareness, demonstrating their applicability through case studies.
 
-### Key Contributions  
+### Key Contributions
 - A novel framework for embedding sustainability metrics into SE research enhanced by LLM capabilities.  
 - Critical analysis of empirical methods in SE research transformed by LLM adoption.  
 - Case studies illustrating sustainable SE practices leveraging LLM tools.
 
-### Method & Results  
+### Method & Results
 - Conducted a systematic literature review and thematic analysis on SE research involving LLMs and sustainability.  
 - Developed and validated a sustainability assessment framework through empirical case studies.  
 - Demonstrated improved sustainability measurement accuracy (up to 20% better estimation) compared to traditional approaches.  
 - Showed empirical method refinement increased reproducibility and data triangulation quality in LLM-augmented SE research.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the integration of sustainability in SE, guiding future sustainable software development practices using advanced AI tools.  
 - Limitations include the need for broader validation across diverse SE domains and evolving LLM architectures.  
 - Future work will explore automated sustainability metrics extraction and real-time decision support in SE projects.
@@ -27672,18 +27672,18 @@ This paper addresses the integration of empirical and sustainability considerati
 #### Executive Summary  
 The paper addresses the challenge of enabling interactive webpage editing through natural language commands, aiming to simplify web development for non-experts. It proposes a novel interactive system that interprets user instructions to modify webpage elements dynamically. The main result demonstrates effective and intuitive webpage editing with improved user experience compared to traditional coding methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a natural language interface specifically tailored for real-time webpage editing.  
 - Develops an interactive framework that seamlessly translates user commands into webpage modifications.  
 - Demonstrates significant usability improvements over existing manual coding or template-based editors.
 
-### Method & Results  
+### Method & Results
 - Utilizes a combination of natural language processing and DOM manipulation techniques to interpret and apply user instructions.  
 - Employs a custom dataset of annotated webpage editing commands and webpage structures for training and evaluation.  
 - Experimental results show a high accuracy in command interpretation and a reduction in task completion time by 30% compared to baseline GUI editors.  
 - User studies indicate increased satisfaction and lowered learning curves for novice users.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more accessible webpage customization for users lacking programming skills, potentially broadening web content creation.  
 - Current system primarily supports common edits; expanding support for complex or highly customized webpage features is a future direction.  
 - Handling ambiguous or context-dependent instructions remains a challenge for further refinement.
@@ -27727,18 +27727,18 @@ This paper investigates automated Extract Method refactoring using open-source l
 #### Executive Summary  
 This paper addresses the scarcity of harmonized annotated corpora for cybersecurity Named Entity Recognition (NER). The authors propose CyberNER, a unified STIX-based corpus integrating multiple existing datasets to improve entity recognition in cyber threat intelligence. Experiments demonstrate enhanced NER performance, validating the corpus’s utility.
 
-### Key Contributions  
+### Key Contributions
 - Development of CyberNER, a harmonized cybersecurity NER corpus aligned with the STIX framework.  
 - Integration and normalization of diverse datasets into a consistent annotation scheme for improved model training.  
 - Empirical validation showing that models trained on CyberNER outperform those trained on individual datasets.
 
-### Method & Results  
+### Method & Results
 - Merged and harmonized multiple cybersecurity NER datasets via STIX-compliant annotation to address inconsistency issues.  
 - Employed state-of-the-art NER models to evaluate performance on CyberNER versus original datasets.  
 - Demonstrated significant accuracy improvements (e.g., F1-score gains) when training on the unified corpus.  
 - Benchmarking shows CyberNER-trained models surpass baseline models trained on separate datasets.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates more robust, generalizable cybersecurity NER models, benefiting automated threat intelligence extraction.  
 - Limited by potential annotation bias due to dataset merging; future work could expand corpus diversity and explore domain adaptation techniques.
 
@@ -27779,18 +27779,18 @@ The paper addresses the challenge of dataset ownership verification by proposing
 #### Executive Summary  
 This paper addresses anomaly detection in cybersecurity through heterogeneous graph neural networks (HGNNs), which capture complex relations across diverse entity types. It surveys recent HGNN models tailored for cybersecurity tasks, highlighting their architecture, advantages, and performance improvements. The study reveals that HGNNs significantly enhance detection accuracy over traditional graph or flat models.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive survey of HGNN techniques applied specifically to cybersecurity anomaly detection.  
 - Identification of architectural design patterns in HGNNs that effectively model heterogeneous data in security contexts.  
 - Comparative analysis demonstrating superior detection capabilities of HGNNs on varied cybersecurity datasets.
 
-### Method & Results  
+### Method & Results
 - Reviews heterogeneous graph construction strategies integrating multi-type nodes and edges representing cybersecurity entities and events.  
 - Summarizes HGNN variants (e.g., meta-path based, attention mechanisms) designed for anomaly detection tasks.  
 - Datasets reviewed include widely used benchmarks like DARPA, CICIDS, and custom enterprise logs.  
 - Reports up to 10-15% improvement in detection F1-score compared to homogeneous GNNs and classical ML baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the practical potential of HGNNs to uncover complex cyber threats that conventional models miss, aiding proactive defenses.  
 - Notes challenges such as high computational cost, model interpretability, and scarcity of labeled heterogeneous datasets, suggesting future work on efficiency and explainability improvements.
 
@@ -27805,18 +27805,18 @@ This paper addresses anomaly detection in cybersecurity through heterogeneous gr
 #### Executive Summary  
 This paper addresses the challenge of publicly verifiable watermarking in large language models (LLMs), enabling external parties to confirm the presence of watermarks without access to secret keys. The authors propose PVMark, a novel scheme ensuring public verifiability while maintaining robustness and undetectability. Experiments demonstrate PVMark’s effectiveness in reliably verifying watermarks with negligible impact on model utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PVMark, the first LLM watermarking scheme supporting public verifiability without compromising security.  
 - Designs a verifiable detection algorithm enabling external validators to authenticate watermarks using public parameters.  
 - Empirically validates robustness against common attacks and confirms minimal degradation of language generation quality.
 
-### Method & Results  
+### Method & Results
 - Embeds watermark tokens during text generation with a public verification protocol that avoids secret key exposure.  
 - Utilizes standard LLM benchmarks and synthetic datasets for evaluation.  
 - Achieves over 95% detection accuracy for watermarked texts with false positive rates below 3%.  
 - Demonstrates comparable or superior robustness relative to private-key watermark baselines while enabling public auditing.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates transparent content provenance and copyright enforcement in AI-generated texts, enhancing trust and accountability.  
 - Limitations include potential vulnerability to advanced adaptive adversaries and the need for further scalability testing on larger models and diverse languages.
 
@@ -27845,6 +27845,278 @@ This paper addresses the security risks of instruction injection attacks in AI a
 ### Impact & Limitations
 - Enhances AI agent security in practical applications, enabling safer deployment in complex environments.
 - Future work needed to generalize beyond evaluated tasks and improve scalability of access control policies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-02)
+
+### 软件工程 领域
+
+#### SecureReviewer: Enhancing Large Language Models for Secure Code Review through Secure-aware Fine-tuning
+**作者**: Fang Liu, Simiao Liu, Yinghao Zhu, Xiaoli Lian, Li Zhang
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26457v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving the security capabilities of large language models (LLMs) in code review tasks. The authors propose SecureReviewer, a secure-aware fine-tuning framework that adapts LLMs to better detect security vulnerabilities in code. Experiments demonstrate significant improvements in vulnerability detection accuracy over baseline models.
+
+### Key Contributions  
+- Introduces SecureReviewer, a novel secure-aware fine-tuning approach specialized for enhancing code review in LLMs.  
+- Constructs a security-focused fine-tuning dataset by integrating vulnerability-labeled code snippets, enhancing model security sensitivity.  
+- Empirically validates the approach with substantial gains in vulnerability detection accuracy on benchmark datasets.
+
+### Method & Results  
+- Fine-tunes pre-trained LLMs with a security-labeled code dataset using a secure-aware loss function emphasizing vulnerability patterns.  
+- Utilizes prominent code vulnerability datasets (e.g., Juliet Test Suite) and standard code review benchmarks.  
+- Achieves up to a 15% increase in vulnerability detection F1-score compared to baseline LLMs without secure-aware fine-tuning.  
+- Outperforms existing code review models in both security recall and precision metrics.
+
+### Impact & Limitations  
+- Enables more reliable automated code review focusing on security, potentially reducing human oversight errors and accelerating vulnerability identification.  
+- Limitations include dependency on the quality and coverage of vulnerability-labeled data; future work could explore broader vulnerability classes and real-world deployment challenges.
+
+---
+
+#### CHCVerif: A Portfolio-Based Solver for Constrained Horn Clauses
+**作者**: Mihály Dobos-Kovács, Levente Bajczi, András Vörös
+**类别**: cs.SE, cs.LO, cs.PL
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26431v1
+
+#### Executive Summary
+CHCVerif addresses the challenge of efficiently solving Constrained Horn Clauses (CHCs), a critical task in program verification and analysis. By employing a portfolio-based approach that leverages multiple solving strategies, it significantly improves solving performance. Experimental results demonstrate superior effectiveness and efficiency compared to single-strategy solvers.
+
+### Key Contributions
+- Introduction of a portfolio-based solver combining diverse CHC solving techniques for enhanced robustness.
+- Development of a novel scheduling mechanism that dynamically allocates resources among solver components.
+- Empirical validation showing performance gains on standard CHC benchmarks.
+
+### Method & Results
+- Combines multiple CHC solving algorithms in a portfolio with dynamic resource scheduling.
+- Evaluated on widely-used CHC benchmark suites (e.g., SV-COMP).
+- Achieved higher solve rates and reduced solving time compared to top individual solvers.
+- Demonstrated scalability and improved reliability across diverse CHC instances.
+
+### Impact & Limitations
+- Enables more efficient and dependable verification workflows in software analysis via better CHC solving.
+- Future work includes expanding the portfolio with additional solvers and refining scheduling heuristics to further boost performance.
+
+---
+
+#### Theta as a Horn Solver
+**作者**: Levente Bajczi, Milán Mondok, Vince Molnár
+**类别**: cs.LO, cs.SE
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26430v1
+
+#### Executive Summary  
+This paper presents Theta, a novel solver for Horn clauses which are pivotal in logic programming and verification. The authors develop a specialized solving approach leveraging structural properties of Horn clauses to improve efficiency. Experimental results demonstrate significant speed-ups compared to existing solvers, enhancing scalability in logic reasoning tasks.
+
+### Key Contributions  
+- Introduction of Theta, a purpose-built Horn clause solver utilizing tailored heuristics.  
+- Demonstration of improved solving efficiency on benchmark Horn clause problems over state-of-the-art tools.  
+- Theoretical analysis linking solver design with Horn logic structural properties.
+
+### Method & Results  
+- Developed a Horn-specific solving algorithm exploiting syntactic and semantic simplifications.  
+- Evaluated on standard Horn clause benchmark suites commonly used in software verification.  
+- Achieved up to 40% reduction in solving time compared to leading Horn solvers (e.g., Z3, Eldarica).  
+- Scalability improved for large Horn problem instances, maintaining correctness and completeness.
+
+### Impact & Limitations  
+- Enables faster Horn clause reasoning, critical for formal verification and automated reasoning applications.  
+- Currently focused on Horn-specific cases; extending approach to broader logic fragments remains future work.  
+- Evaluation highlights efficiency but integration with existing verification pipelines requires further exploration.
+
+---
+
+#### Nexus: Execution-Grounded Multi-Agent Test Oracle Synthesis
+**作者**: Dong Huang, Mingzhe Du, Jie M. Zhang, Zheng Lin, Meng Luo, Qianru Zhang, See-Kiong Ng
+**类别**: cs.SE, cs.CL
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26423v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating multi-agent test oracle synthesis by grounding test oracles in actual execution behaviors. The authors propose Nexus, a novel framework that synthesizes test oracles through multi-agent interaction analysis, improving the detection of faults in complex systems. Experiments demonstrate Nexus outperforms existing methods in oracle precision and recall.
+
+### Key Contributions  
+- Introduces execution-grounded oracle synthesis to robustly capture multi-agent system behaviors.  
+- Develops Nexus, a framework integrating dynamic interaction traces for automated test oracle generation.  
+- Empirically validates Nexus on benchmark multi-agent scenarios, showing enhanced fault detection.
+
+### Method & Results  
+- Method: Leverages execution traces of multi-agent systems to synthesize test oracles reflective of realistic interactions and system state transitions.  
+- Datasets/Tools: Evaluated on standard multi-agent system benchmarks and simulations reflecting real-world agent cooperation/competition.  
+- Results: Nexus achieved up to 15% higher oracle accuracy and 12% better fault coverage than state-of-the-art baselines.  
+- Baselines: Outperformed traditional static oracle approaches lacking dynamic execution context.
+
+### Impact & Limitations  
+- Impact: Provides more reliable automated testing for complex multi-agent systems, crucial for safety-critical and distributed applications.  
+- Limitations/Future Work: Extending Nexus to handle heterogeneous agent architectures; improving scalability to larger multi-agent systems.
+
+---
+
+#### Environmental Impact of CI/CD Pipelines
+**作者**: Nuno Saavedra, Alexandra Mendes, João F. Ferreira
+**类别**: cs.SE, cs.DC
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26413v1
+
+#### Executive Summary  
+This paper addresses the environmental footprint of Continuous Integration/Continuous Deployment (CI/CD) pipelines, proposing a framework to quantify and reduce their energy consumption. The authors analyze typical CI/CD workflows and present optimization strategies that lead to significant carbon footprint reductions without compromising delivery speed.  
+
+### Key Contributions  
+- Introduces a novel methodology to measure the environmental impact of CI/CD processes.  
+- Proposes optimization techniques that balance energy efficiency and pipeline performance.  
+- Provides empirical evaluation demonstrating substantial reductions in pipeline-related carbon emissions.  
+
+### Method & Results  
+- Developed an energy profiling tool integrated into CI/CD workflows to monitor resource usage in real-time.  
+- Evaluated on popular CI/CD platforms using datasets from open-source software projects to simulate realistic pipeline executions.  
+- Achieved up to 30% reduction in energy consumption and CO2 emissions by applying workload scheduling and resource scaling optimizations.  
+- Outperformed baseline pipelines without optimization by reducing energy use while maintaining comparable build and deployment times.  
+
+### Impact & Limitations  
+- Offers practitioners actionable insights to implement greener software delivery pipelines, contributing to sustainable software engineering.  
+- Limitations include the focus on specific pipeline types and infrastructures; future work should explore broader pipeline configurations and integrate renewable energy indicators.
+
+---
+
+### 安全领域 领域
+
+#### Who Moved My Transaction? Uncovering Post-Transaction Auditability Vulnerabilities in Modern Super Apps
+**作者**: Junlin Liu, Zhaomeng Deng, Ziming Wang, Mengyu Yao, Yifeng Cai, Yutao Hu, Ziqi Zhang, Yao Guo, Ding Li
+**类别**: cs.CR
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26210v1
+
+#### Executive Summary  
+This paper investigates vulnerabilities in post-transaction auditability within modern super apps, where users consolidate multiple services. The authors analyze how transaction records can be altered or obscured after completion, undermining trust and accountability. They propose a systematic auditing framework to detect and mitigate these post-transaction manipulations.
+
+### Key Contributions  
+- Identification of novel post-transaction auditability threats unique to super apps integrating diverse financial services.  
+- Development of a comprehensive auditing framework that enhances detection of transaction record inconsistencies.  
+- Empirical evaluation revealing significant auditability gaps in widely-used super app platforms.
+
+### Method & Results  
+- Conduct static and dynamic analysis of transaction flows and storage architectures within super apps to uncover vulnerabilities.  
+- Deploy customized auditing tools tailored to the multi-service environment of super apps.  
+- Test on datasets collected from top-tier super apps, exposing up to 35% of transactions susceptible to post-completion tampering.  
+- Demonstrated the proposed framework reduces undetected manipulations by over 60% compared to existing auditing methods.
+
+### Impact & Limitations  
+- Enhances user trust and regulatory compliance by improving transparency in complex super app ecosystems.  
+- Limitations include potential overhead in continuous auditing and evolving attacker strategies; future work should optimize efficiency and extend to decentralized finance platforms.
+
+---
+
+#### Confidential FRIT via Homomorphic Encryption
+**作者**: Haruki Hoshino, Jungjin Park, Osamu Kaneko, Kiminao Kogiso
+**类别**: cs.CR, cs.SY, eess.SY
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26179v1
+
+#### Executive Summary
+This paper addresses the problem of securely performing functional random inner products (FRIT) without revealing input data or function details. The authors propose a homomorphic encryption-based protocol enabling confidential FRIT computation with strong privacy guarantees. Results demonstrate feasibility with reasonable efficiency improvements over prior secure computation methods.
+
+### Key Contributions
+- Introduces a novel homomorphic encryption scheme tailored for confidential FRIT computation.
+- Provides a security analysis ensuring input and function confidentiality throughout the protocol.
+- Demonstrates practical performance gains in privacy-preserving FRIT compared to existing secure multiparty computation approaches.
+
+### Method & Results
+- Utilizes leveled homomorphic encryption to compute inner products on encrypted inputs while preserving function secrecy.
+- Implements prototype using state-of-the-art homomorphic encryption libraries (e.g., Microsoft SEAL).
+- Experimental evaluation shows computation time reduction by approximately 30% over baseline garbled circuits in medium-sized datasets.
+- Maintains accuracy and correctness identical to plaintext computations.
+
+### Impact & Limitations
+- Enables privacy-preserving applications in sensitive domains such as biometric authentication and private signal processing.
+- Limitations include scalability challenges for very large datasets and increased computational overhead compared to non-secure methods.
+- Future work suggested on optimizing encryption parameters and extending to broader classes of functions beyond FRIT.
+
+---
+
+#### Security Risk of Misalignment between Text and Image in Multi-modal Model
+**作者**: Xiaosen Wang, Zhijin Ge, Shaokang Wang
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26105v1
+
+#### Executive Summary
+This paper investigates the security risks arising from misalignment between text and image inputs in multi-modal models. The authors propose methods to quantify and exploit this misalignment, demonstrating how it can lead to model vulnerabilities. Experiments reveal substantial performance degradation and security breaches under crafted misalignment attacks.
+
+### Key Contributions
+- Identification and formalization of security risks due to text-image misalignment in multi-modal models.
+- Development of attack strategies that exploit misalignment to degrade model integrity.
+- Empirical evaluation showcasing the severity of misalignment-induced vulnerabilities across standard benchmarks.
+
+### Method & Results
+- Methodology: Designed adversarial scenarios introducing controlled mismatches between text and image pairs to probe model robustness.
+- Tools/Datasets: Used popular multi-modal benchmarks (e.g., MS COCO, Visual Genome) and standard multi-modal architectures.
+- Results: Misalignment attacks caused accuracy drops up to 25% and increased error rates by over 30% compared to aligned inputs.
+- Compared to baseline models without attack, demonstrated significant model performance deterioration and security risk amplification.
+
+### Impact & Limitations
+- Impact: Highlights a critical security blind spot in widely deployed multi-modal systems, urging the need for robust alignment verification tools.
+- Limitations/Future Work: Currently focuses on specific types of misalignment; extending to diverse modalities and real-world deployment scenarios remains future work.
+
+---
+
+#### Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories
+**作者**: Maximilian Schreiber, Pascal Tippe
+**类别**: cs.CR
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26103v1
+
+#### Executive Summary  
+This paper investigates security vulnerabilities introduced by AI-generated code within public GitHub repositories. The authors conduct a large-scale empirical analysis to quantify and characterize these vulnerabilities, revealing systemic security risks linked to AI-assisted development. Results indicate a measurable increase in security flaws compared to manually written code.
+
+### Key Contributions  
+- First large-scale empirical assessment of security risks in AI-generated code on public GitHub projects.  
+- Identification and categorization of common vulnerability types introduced by AI code generation models.  
+- Insightful correlation between AI code usage patterns and security defect frequency.
+
+### Method & Results  
+- Utilized static analysis tools to scan millions of GitHub repositories flagged as containing AI-generated code snippets.  
+- Employed vulnerability detection frameworks (e.g., static analyzers and security linters) to classify and quantify security issues.  
+- Found AI-generated code exhibited a 15-25% higher vulnerability rate than non-AI-generated counterparts.  
+- Demonstrated specific vulnerability hotspots, such as input validation and authentication logic, disproportionately affected.
+
+### Impact & Limitations  
+- Highlights critical security concerns for organizations relying on AI-assisted coding, urging cautious integration and improved tooling.  
+- Limitations include potential inaccuracies in AI-generated code identification and reliance on static analysis without dynamic testing.  
+- Future work could expand to diverse AI models and incorporate real-world exploit evaluation.
+
+---
+
+#### PEEL: A Poisoning-Exposing Encoding Theoretical Framework for Local Differential Privacy
+**作者**: Lisha Shuai, Jiuling Dong, Nan Zhang, Shaofeng Tan, Haokun Zhang, Zilong Song, Gaoya Dong, Xiaolong Yang
+**类别**: cs.CR
+**发布日期**: 2025-10-30
+**链接**: http://arxiv.org/abs/2510.26102v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of local differential privacy (LDP) protocols to poisoning attacks that inject malicious data, undermining privacy guarantees. The authors propose PEEL, a theoretical framework that detects and exposes poisoning by encoding data in a manner resilient to adversarial manipulation. Experiments show PEEL significantly improves the robustness of LDP mechanisms against poisoning with minimal utility loss.
+
+### Key Contributions  
+- Introduces PEEL, a novel poisoning-exposing encoding framework specifically designed for LDP settings.  
+- Provides rigorous theoretical analysis linking encoding schemes to poisoning detectability under LDP constraints.  
+- Demonstrates empirical robustness improvements against poisoning attacks on real-world datasets.
+
+### Method & Results  
+- Develops encoding techniques that encode user data to reveal inconsistencies introduced by poisoned inputs, enabling detection.  
+- Uses standard benchmark datasets in privacy research to validate effectiveness.  
+- Results show PEEL reduces attack success rates by up to 45% compared to traditional LDP methods.  
+- Maintains comparable data utility, with less than 5% accuracy degradation versus non-robust baselines.
+
+### Impact & Limitations  
+- Enables more trustworthy deployment of LDP in sensitive applications by mitigating poisoning threats, enhancing overall privacy.  
+- Limitations include potential overhead in encoding complexity and unexplored adaptability to evolving, sophisticated poisoning attacks.  
+- Future work could extend PEEL to broader decentralized privacy frameworks and optimize computational efficiency.
 
 ---
 
