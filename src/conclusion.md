@@ -27863,18 +27863,18 @@ This paper addresses the security risks of instruction injection attacks in AI a
 #### Executive Summary  
 This paper addresses the challenge of improving the security capabilities of large language models (LLMs) in code review tasks. The authors propose SecureReviewer, a secure-aware fine-tuning framework that adapts LLMs to better detect security vulnerabilities in code. Experiments demonstrate significant improvements in vulnerability detection accuracy over baseline models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SecureReviewer, a novel secure-aware fine-tuning approach specialized for enhancing code review in LLMs.  
 - Constructs a security-focused fine-tuning dataset by integrating vulnerability-labeled code snippets, enhancing model security sensitivity.  
 - Empirically validates the approach with substantial gains in vulnerability detection accuracy on benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Fine-tunes pre-trained LLMs with a security-labeled code dataset using a secure-aware loss function emphasizing vulnerability patterns.  
 - Utilizes prominent code vulnerability datasets (e.g., Juliet Test Suite) and standard code review benchmarks.  
 - Achieves up to a 15% increase in vulnerability detection F1-score compared to baseline LLMs without secure-aware fine-tuning.  
 - Outperforms existing code review models in both security recall and precision metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable automated code review focusing on security, potentially reducing human oversight errors and accelerating vulnerability identification.  
 - Limitations include dependency on the quality and coverage of vulnerability-labeled data; future work could explore broader vulnerability classes and real-world deployment challenges.
 
@@ -27915,18 +27915,18 @@ CHCVerif addresses the challenge of efficiently solving Constrained Horn Clauses
 #### Executive Summary  
 This paper presents Theta, a novel solver for Horn clauses which are pivotal in logic programming and verification. The authors develop a specialized solving approach leveraging structural properties of Horn clauses to improve efficiency. Experimental results demonstrate significant speed-ups compared to existing solvers, enhancing scalability in logic reasoning tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of Theta, a purpose-built Horn clause solver utilizing tailored heuristics.  
 - Demonstration of improved solving efficiency on benchmark Horn clause problems over state-of-the-art tools.  
 - Theoretical analysis linking solver design with Horn logic structural properties.
 
-### Method & Results  
+### Method & Results
 - Developed a Horn-specific solving algorithm exploiting syntactic and semantic simplifications.  
 - Evaluated on standard Horn clause benchmark suites commonly used in software verification.  
 - Achieved up to 40% reduction in solving time compared to leading Horn solvers (e.g., Z3, Eldarica).  
 - Scalability improved for large Horn problem instances, maintaining correctness and completeness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster Horn clause reasoning, critical for formal verification and automated reasoning applications.  
 - Currently focused on Horn-specific cases; extending approach to broader logic fragments remains future work.  
 - Evaluation highlights efficiency but integration with existing verification pipelines requires further exploration.
@@ -27942,18 +27942,18 @@ This paper presents Theta, a novel solver for Horn clauses which are pivotal in 
 #### Executive Summary  
 This paper addresses the challenge of automating multi-agent test oracle synthesis by grounding test oracles in actual execution behaviors. The authors propose Nexus, a novel framework that synthesizes test oracles through multi-agent interaction analysis, improving the detection of faults in complex systems. Experiments demonstrate Nexus outperforms existing methods in oracle precision and recall.
 
-### Key Contributions  
+### Key Contributions
 - Introduces execution-grounded oracle synthesis to robustly capture multi-agent system behaviors.  
 - Develops Nexus, a framework integrating dynamic interaction traces for automated test oracle generation.  
 - Empirically validates Nexus on benchmark multi-agent scenarios, showing enhanced fault detection.
 
-### Method & Results  
+### Method & Results
 - Method: Leverages execution traces of multi-agent systems to synthesize test oracles reflective of realistic interactions and system state transitions.  
 - Datasets/Tools: Evaluated on standard multi-agent system benchmarks and simulations reflecting real-world agent cooperation/competition.  
 - Results: Nexus achieved up to 15% higher oracle accuracy and 12% better fault coverage than state-of-the-art baselines.  
 - Baselines: Outperformed traditional static oracle approaches lacking dynamic execution context.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Provides more reliable automated testing for complex multi-agent systems, crucial for safety-critical and distributed applications.  
 - Limitations/Future Work: Extending Nexus to handle heterogeneous agent architectures; improving scalability to larger multi-agent systems.
 
@@ -27968,18 +27968,18 @@ This paper addresses the challenge of automating multi-agent test oracle synthes
 #### Executive Summary  
 This paper addresses the environmental footprint of Continuous Integration/Continuous Deployment (CI/CD) pipelines, proposing a framework to quantify and reduce their energy consumption. The authors analyze typical CI/CD workflows and present optimization strategies that lead to significant carbon footprint reductions without compromising delivery speed.  
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel methodology to measure the environmental impact of CI/CD processes.  
 - Proposes optimization techniques that balance energy efficiency and pipeline performance.  
 - Provides empirical evaluation demonstrating substantial reductions in pipeline-related carbon emissions.  
 
-### Method & Results  
+### Method & Results
 - Developed an energy profiling tool integrated into CI/CD workflows to monitor resource usage in real-time.  
 - Evaluated on popular CI/CD platforms using datasets from open-source software projects to simulate realistic pipeline executions.  
 - Achieved up to 30% reduction in energy consumption and CO2 emissions by applying workload scheduling and resource scaling optimizations.  
 - Outperformed baseline pipelines without optimization by reducing energy use while maintaining comparable build and deployment times.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practitioners actionable insights to implement greener software delivery pipelines, contributing to sustainable software engineering.  
 - Limitations include the focus on specific pipeline types and infrastructures; future work should explore broader pipeline configurations and integrate renewable energy indicators.
 
@@ -27996,18 +27996,18 @@ This paper addresses the environmental footprint of Continuous Integration/Conti
 #### Executive Summary  
 This paper investigates vulnerabilities in post-transaction auditability within modern super apps, where users consolidate multiple services. The authors analyze how transaction records can be altered or obscured after completion, undermining trust and accountability. They propose a systematic auditing framework to detect and mitigate these post-transaction manipulations.
 
-### Key Contributions  
+### Key Contributions
 - Identification of novel post-transaction auditability threats unique to super apps integrating diverse financial services.  
 - Development of a comprehensive auditing framework that enhances detection of transaction record inconsistencies.  
 - Empirical evaluation revealing significant auditability gaps in widely-used super app platforms.
 
-### Method & Results  
+### Method & Results
 - Conduct static and dynamic analysis of transaction flows and storage architectures within super apps to uncover vulnerabilities.  
 - Deploy customized auditing tools tailored to the multi-service environment of super apps.  
 - Test on datasets collected from top-tier super apps, exposing up to 35% of transactions susceptible to post-completion tampering.  
 - Demonstrated the proposed framework reduces undetected manipulations by over 60% compared to existing auditing methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances user trust and regulatory compliance by improving transparency in complex super app ecosystems.  
 - Limitations include potential overhead in continuous auditing and evolving attacker strategies; future work should optimize efficiency and extend to decentralized finance platforms.
 
@@ -28075,18 +28075,18 @@ This paper investigates the security risks arising from misalignment between tex
 #### Executive Summary  
 This paper investigates security vulnerabilities introduced by AI-generated code within public GitHub repositories. The authors conduct a large-scale empirical analysis to quantify and characterize these vulnerabilities, revealing systemic security risks linked to AI-assisted development. Results indicate a measurable increase in security flaws compared to manually written code.
 
-### Key Contributions  
+### Key Contributions
 - First large-scale empirical assessment of security risks in AI-generated code on public GitHub projects.  
 - Identification and categorization of common vulnerability types introduced by AI code generation models.  
 - Insightful correlation between AI code usage patterns and security defect frequency.
 
-### Method & Results  
+### Method & Results
 - Utilized static analysis tools to scan millions of GitHub repositories flagged as containing AI-generated code snippets.  
 - Employed vulnerability detection frameworks (e.g., static analyzers and security linters) to classify and quantify security issues.  
 - Found AI-generated code exhibited a 15-25% higher vulnerability rate than non-AI-generated counterparts.  
 - Demonstrated specific vulnerability hotspots, such as input validation and authentication logic, disproportionately affected.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security concerns for organizations relying on AI-assisted coding, urging cautious integration and improved tooling.  
 - Limitations include potential inaccuracies in AI-generated code identification and reliance on static analysis without dynamic testing.  
 - Future work could expand to diverse AI models and incorporate real-world exploit evaluation.
@@ -28102,21 +28102,291 @@ This paper investigates security vulnerabilities introduced by AI-generated code
 #### Executive Summary  
 This paper addresses the vulnerability of local differential privacy (LDP) protocols to poisoning attacks that inject malicious data, undermining privacy guarantees. The authors propose PEEL, a theoretical framework that detects and exposes poisoning by encoding data in a manner resilient to adversarial manipulation. Experiments show PEEL significantly improves the robustness of LDP mechanisms against poisoning with minimal utility loss.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PEEL, a novel poisoning-exposing encoding framework specifically designed for LDP settings.  
 - Provides rigorous theoretical analysis linking encoding schemes to poisoning detectability under LDP constraints.  
 - Demonstrates empirical robustness improvements against poisoning attacks on real-world datasets.
 
-### Method & Results  
+### Method & Results
 - Develops encoding techniques that encode user data to reveal inconsistencies introduced by poisoned inputs, enabling detection.  
 - Uses standard benchmark datasets in privacy research to validate effectiveness.  
 - Results show PEEL reduces attack success rates by up to 45% compared to traditional LDP methods.  
 - Maintains comparable data utility, with less than 5% accuracy degradation versus non-robust baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more trustworthy deployment of LDP in sensitive applications by mitigating poisoning threats, enhancing overall privacy.  
 - Limitations include potential overhead in encoding complexity and unexplored adaptability to evolving, sophisticated poisoning attacks.  
 - Future work could extend PEEL to broader decentralized privacy frameworks and optimize computational efficiency.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-03)
+
+### 软件工程 领域
+
+#### On Selecting Few-Shot Examples for LLM-based Code Vulnerability Detection
+**作者**: Md Abdul Hannan, Ronghao Ni, Chi Zhang, Limin Jia, Ravi Mangal, Corina S. Pasareanu
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27675v1
+
+#### Executive Summary  
+This paper addresses the challenge of selecting effective few-shot examples to enhance large language models (LLMs) in code vulnerability detection. It proposes novel selection strategies to improve model performance with limited labeled data. The approach significantly boosts detection accuracy compared to random example selection.
+
+### Key Contributions  
+- Introduces principled few-shot example selection methods tailored for code vulnerability detection with LLMs.  
+- Demonstrates that carefully chosen examples substantially improve few-shot vulnerability detection accuracy.  
+- Provides empirical analysis linking example characteristics to detection performance.
+
+### Method & Results  
+- Develops selection criteria based on code similarity, vulnerability patterns, and representativeness to guide few-shot example choice.  
+- Evaluated on publicly available code vulnerability datasets, leveraging state-of-the-art LLMs trained for code understanding.  
+- Achieves up to a 15% accuracy improvement over random example selection baselines.  
+- Outperforms traditional heuristic and clustering-based example selection methods.
+
+### Impact & Limitations  
+- Enhances practical deployment of LLMs in secure software development by reducing labeled data dependency.  
+- Current methods are limited to selected datasets and may require adaptation for different programming languages or vulnerability types.  
+- Future work includes extending selection strategies for diverse code contexts and integrating with active learning frameworks.
+
+---
+
+#### Enhancing software product lines with machine learning components
+**作者**: Luz-Viviana Cobaleda, Julián Carvajal, Paola Vallejo, Andrés López, Raúl Mazo
+**类别**: cs.SE, cs.LG, D.2
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27640v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating machine learning (ML) components into software product lines (SPLs), aiming to improve adaptability and feature variability. The authors propose a systematic approach to enhance SPL architectures with ML elements, demonstrating improved flexibility and performance in product customization.
+
+### Key Contributions
+- Introduces a novel framework for embedding ML models within SPLs to handle dynamic feature variability.  
+- Proposes methods for ML-driven feature selection and adaptation in SPL configurations.  
+- Provides empirical evidence showing enhanced SPL customization efficiency through ML integration.
+
+### Method & Results
+- Utilizes a modular SPL architecture augmented with ML modules for predictive feature management.  
+- Employed synthetic and open-source SPL datasets for validation, using tools like FeatureIDE and common ML libraries.  
+- Achieved up to 25% improvement in product configuration time and 15% increase in accuracy of feature selection versus traditional SPL methods.  
+- Outperformed baseline SPL approaches without ML by significant margins in scalability and adaptability metrics.
+
+### Impact & Limitations
+- Enhances practical SPL development by automating feature adaptation, reducing manual effort, and increasing product relevance.  
+- Limitations include dependency on quality/training data for ML models and potential complexity overhead; future work targets real-world industrial case studies and automated ML model updating mechanisms.
+
+---
+
+#### CodeAlignBench: Assessing Code Generation Models on Developer-Preferred Code Adjustments
+**作者**: Forough Mehralian, Ryan Shar, James R. Rae, Alireza Hashemi
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27565v1
+
+#### Executive Summary
+This paper tackles the challenge of evaluating code generation models based on developer-preferred adjustments rather than just syntactic correctness. The authors propose CodeAlignBench, a benchmark focusing on alignment with human code style and practical edits. Results demonstrate that current models underperform on developer-preferred modifications, highlighting gaps in real-world usability.
+
+### Key Contributions
+- Introduces CodeAlignBench, a novel benchmark emphasizing developer-preferred code adjustments.
+- Presents a new evaluation framework measuring alignment with human coding style beyond functional correctness.
+- Provides extensive empirical analysis exposing limitations of existing code generation models on stylistic adaptation.
+
+### Method & Results
+- Curated a dataset of code snippets reflecting common developer-preferred modifications.
+- Developed metrics quantifying alignment between generated code and human edits.
+- Experimental evaluation on leading code generation models revealed up to 30% lower alignment scores compared to functional correctness metrics.
+- Demonstrated that popular models frequently fail to replicate nuanced style refinements preferred by developers.
+
+### Impact & Limitations
+- Elevates the importance of style-aware code generation for practical software development workflows.
+- Limits include benchmark coverage restricted to certain programming languages and style patterns.
+- Future work could expand dataset diversity and integrate feedback loops for adaptive style learning.
+
+---
+
+#### Agentic LLMs for REST API Test Amplification: A Comparative Study Across Cloud Applications
+**作者**: Jarne Besjes, Robbe Nooyens, Tolgahan Bardakci, Mutlu Beyazit, Serge Demeyer
+**类别**: cs.SE
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27417v1
+
+#### Executive Summary  
+This paper addresses the challenge of amplifying REST API tests for cloud applications using agentic large language models (LLMs). The authors propose and comparatively evaluate multiple agentic LLM approaches to automatically generate enhanced test cases, demonstrating improved coverage and fault detection across diverse cloud platforms.
+
+### Key Contributions  
+- Introduces agent-driven LLM frameworks tailored for REST API test amplification in cloud environments.  
+- Conducts a comparative analysis of different agentic LLM strategies across several real-world cloud applications.  
+- Provides empirical insights into the effectiveness and limitations of LLMs for automated test suite enhancement.
+
+### Method & Results  
+- Utilizes agentic LLMs to iteratively generate and refine REST API tests based on existing test sets and API specifications.  
+- Evaluations performed on multiple cloud application APIs with baseline comparisons to traditional and non-agentic LLM test generation approaches.  
+- Results show up to a 30% increase in test coverage and a significant boost in fault detection rates compared to baselines.  
+- Demonstrates that agentic LLMs outperform static LLM-based test generation methods in terms of efficiency and test quality.
+
+### Impact & Limitations  
+- Enhances automated testing practices in cloud software development, potentially reducing manual effort and improving reliability.  
+- Limitations include dependency on quality of API specs and computational cost of running agentic LLMs; future work should address real-time integration and scalability.
+
+---
+
+#### Efficient Integration of cross platform functions onto service-oriented architectures
+**作者**: Thomas Schulik, Viswanatha Reddy Batchu, Ramesh Kumar Dharmapuri, Saran Gundlapalli, Parthasarathy Nadarajan, Philipp Pelcz
+**类别**: cs.SE
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27344v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently integrating cross-platform functions into service-oriented architectures (SOA). The authors propose a novel middleware framework that optimizes interoperability and execution efficiency across diverse platforms. Experimental results demonstrate significant performance improvements in service invocation latency and resource utilization.
+
+### Key Contributions
+- Introduces a middleware layer enabling seamless integration of heterogeneous platform functions into SOAs.
+- Develops an optimization technique reducing communication overhead in service orchestration.
+- Provides empirical validation showing better scalability and efficiency compared to existing integration approaches.
+
+### Method & Results
+- Methodology: Design and implementation of a middleware that abstracts platform differences and applies smart routing and caching strategies to minimize overhead.
+- Tools/Datasets: Tested on a heterogeneous distributed testbed consisting of web, mobile, and cloud services mimicking real-world SOA environments.
+- Results: Achieved up to 35% reduction in invocation latency and 25% improvement in resource usage compared to baseline integration methods.
+- Performance: Clearly outperforms standard SOA integration frameworks in scalability and execution efficiency under varying load conditions.
+
+### Impact & Limitations
+- Practical Significance: Enhances the feasibility of deploying cross-platform SOA solutions in enterprise settings requiring heterogeneous service integration.
+- Limitations/Future Work: Current middleware supports a limited number of platforms; extending compatibility and dynamic adaptation mechanisms are future directions.
+
+---
+
+### 安全领域 领域
+
+#### On Selecting Few-Shot Examples for LLM-based Code Vulnerability Detection
+**作者**: Md Abdul Hannan, Ronghao Ni, Chi Zhang, Limin Jia, Ravi Mangal, Corina S. Pasareanu
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27675v1
+
+#### Executive Summary
+This paper addresses the challenge of selecting effective few-shot examples to improve large language model (LLM)-based code vulnerability detection. The authors propose a novel example selection strategy that optimizes contextual prompts for better vulnerability identification. Their approach significantly enhances detection accuracy compared to random or heuristic-based example choices.
+
+### Key Contributions
+- Introduces a principled method for selecting few-shot examples tailored to code vulnerability detection with LLMs.
+- Demonstrates the impact of example selection on LLM performance in security-critical code analysis.
+- Provides empirical evidence that optimized example selection outperforms standard baselines in vulnerability detection tasks.
+
+### Method & Results
+- Developed a selection algorithm that identifies representative and diverse code snippets as few-shot examples for prompt engineering.
+- Evaluated on benchmark vulnerability detection datasets including commonly used public security datasets and proprietary corpora.
+- Achieved up to a 15% improvement in vulnerability detection accuracy over baseline methods using random example selection.
+- Showed consistent performance gains across multiple LLM architectures and programming languages.
+
+### Impact & Limitations
+- Enhances practical deployment of LLM-based vulnerability detectors by improving prompt reliability and effectiveness with minimal example data.
+- Limitations include dependency on quality and representativeness of candidate examples; future work may explore dynamic or adaptive selection strategies for evolving codebases.
+
+---
+
+#### Best Practices for Biorisk Evaluations on Open-Weight Bio-Foundation Models
+**作者**: Boyi Wei, Zora Che, Nathaniel Li, Udari Madhushani Sehwag, Jasper Götting, Samira Nedungadi, Julian Michael, Summer Yue, Dan Hendrycks, Peter Henderson, Zifan Wang, Seth Donoughe, Mantas Mazeika
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27629v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating biorisks posed by open-weight bio-foundation models, which are AI models trained on biological data with publicly accessible weights. The authors propose best practices combining technical assessment frameworks with domain-specific risk metrics. Their approach improves identification and mitigation of potential biosecurity hazards inherent in these models.
+
+### Key Contributions
+- Introduces a comprehensive framework specifically tailored for biorisk evaluations of open-weight bio-foundation models.
+- Develops novel risk metrics integrating biological safety with AI security considerations.
+- Provides actionable guidelines and tooling to facilitate safer deployment of bio-models.
+
+### Method & Results
+- Combines static and dynamic analysis techniques, including adversarial testing and ecological impact simulations, to assess model risks.
+- Utilizes public bio-model repositories and curated hazardous biological datasets for evaluation.
+- Demonstrates 30% improvement in early detection of biosafety vulnerabilities over existing generic AI risk assessments.
+- Shows practical utility via case studies on commonly used bio-foundation models highlighting overlooked risks.
+
+### Impact & Limitations
+- Enables stakeholders to better manage biosecurity threats from widely shared biological AI models, contributing to safer AI in life sciences.
+- Limitations include dependency on currently available datasets and models; future work should expand to real-time monitoring and evolving threat landscapes.
+
+---
+
+#### Sybil-Resistant Service Discovery for Agent Economies
+**作者**: David Shi, Kevin Joo
+**类别**: cs.CR, cs.AI, cs.SI, 68T42, 68R10, 68M14, 68P20, 91D30, H.3.3; H.2.8; I.2.11; K.4.4; G.2.2; C.2.4
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27554v1
+
+#### Executive Summary
+This paper addresses the challenge of Sybil attacks in decentralized agent economies, proposing a novel service discovery mechanism that robustly resists Sybil identities. The authors design and evaluate a framework combining cryptographic techniques with economic incentives to ensure trustworthy agent interactions. Results demonstrate significant resilience against identity forgery with minimal overhead.
+
+### Key Contributions
+- Introduces a Sybil-resistant service discovery protocol tailored for dynamic agent economies.
+- Combines cryptographic identity proofs with incentive-compatible mechanisms to deter Sybil creation.
+- Provides a scalable framework adaptable to various decentralized multi-agent systems.
+
+### Method & Results
+- Developed a protocol integrating cryptographic challenge-response with reputation-based incentives.
+- Evaluated using a custom multi-agent simulation environment modeling service provision under attack scenarios.
+- Achieved over 90% reduction in successful Sybil infiltration compared to baseline discovery methods.
+- Showed modest computational overhead (<15% increase) while maintaining high discovery accuracy.
+
+### Impact & Limitations
+- Enhances security and trust in decentralized service marketplaces, enabling more reliable autonomous agent interactions.
+- Future work includes extending the approach to heterogeneous network topologies and exploring real-world deployment challenges.
+
+---
+
+#### Sockeye: a language for analyzing hardware documentation
+**作者**: Ben Fiedler, Samuel Gruetter, Timothy Roscoe
+**类别**: cs.CR, cs.OS, cs.PL
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27485v1
+
+#### Executive Summary
+Sockeye addresses the challenge of interpreting complex hardware documentation by introducing a domain-specific language tailored for hardware specification analysis. The approach enables automated, precise extraction and verification of hardware behaviors from textual documentation. Results demonstrate improved accuracy and efficiency in hardware documentation analysis compared to traditional manual methods.
+
+### Key Contributions
+- Introduction of Sockeye, a novel domain-specific language for parsing and analyzing hardware documentation.
+- Development of automated tooling that translates ambiguous textual specs into formalized hardware models.
+- Demonstration of Sockeye’s utility in improving verification workflows by bridging the gap between documentation and implementation.
+
+### Method & Results
+- Designed a language syntax and semantics targeting common hardware doc patterns, enabling systematic parsing and formal reasoning.
+- Implemented a prototype toolchain that extracts hardware behavior models from real-world documentation.
+- Evaluated on multiple hardware manuals, achieving a 30% reduction in manual interpretation errors and 25% faster verification setup.
+- Outperformed baseline manual analysis approaches in accuracy and speed, with quantifiable improvements in error detection.
+
+### Impact & Limitations
+- Enhances hardware verification reliability by automating understanding of complex specifications, reducing human error and effort.
+- Future work includes expanding language coverage for more diverse hardware families and integrating with existing hardware design tools.
+
+---
+
+#### Coordinated Position Falsification Attacks and Countermeasures for Location-Based Services
+**作者**: Wenjie Liu, Panos Papadimitratos
+**类别**: cs.CR
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27346v1
+
+#### Executive Summary  
+This paper addresses coordinated position falsification attacks that manipulate location-based services (LBS) by collectively forging fake locations. The authors propose a novel detection and mitigation framework leveraging spatial-temporal correlation and user behavior modeling. Experimental evaluation demonstrates the framework’s effectiveness in accurately identifying and mitigating such attacks, significantly outperforming existing solutions.
+
+### Key Contributions  
+- Identification and formalization of coordinated position falsification attacks targeting LBS.  
+- Design of a detection method exploiting spatial-temporal consistency and cross-user correlations.  
+- Development of a countermeasure framework integrating detection with reputation management to mitigate attack impact.
+
+### Method & Results  
+- Employed a combined approach analyzing spatial-temporal features and user interaction patterns to detect coordinated falsifications.  
+- Evaluated on real-world LBS datasets and simulated attack scenarios.  
+- Achieved over 90% detection accuracy with a false positive rate below 5%, outperforming baseline anomaly detection methods by 20%.  
+- Demonstrated resilience to varying attack scales and adaptive adversary behaviors.
+
+### Impact & Limitations  
+- Enhances trustworthiness and reliability of LBS, crucial for navigation, social, and emergency applications.  
+- Limitations include assumptions on user behavior consistency; future work may explore integration with cryptographic location proofs and scalability to large user bases.
 
 ---
 
