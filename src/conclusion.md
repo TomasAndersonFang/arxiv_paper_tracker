@@ -28135,18 +28135,18 @@ This paper addresses the vulnerability of local differential privacy (LDP) proto
 #### Executive Summary  
 This paper addresses the challenge of selecting effective few-shot examples to enhance large language models (LLMs) in code vulnerability detection. It proposes novel selection strategies to improve model performance with limited labeled data. The approach significantly boosts detection accuracy compared to random example selection.
 
-### Key Contributions  
+### Key Contributions
 - Introduces principled few-shot example selection methods tailored for code vulnerability detection with LLMs.  
 - Demonstrates that carefully chosen examples substantially improve few-shot vulnerability detection accuracy.  
 - Provides empirical analysis linking example characteristics to detection performance.
 
-### Method & Results  
+### Method & Results
 - Develops selection criteria based on code similarity, vulnerability patterns, and representativeness to guide few-shot example choice.  
 - Evaluated on publicly available code vulnerability datasets, leveraging state-of-the-art LLMs trained for code understanding.  
 - Achieves up to a 15% accuracy improvement over random example selection baselines.  
 - Outperforms traditional heuristic and clustering-based example selection methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical deployment of LLMs in secure software development by reducing labeled data dependency.  
 - Current methods are limited to selected datasets and may require adaptation for different programming languages or vulnerability types.  
 - Future work includes extending selection strategies for diverse code contexts and integrating with active learning frameworks.
@@ -28215,18 +28215,18 @@ This paper tackles the challenge of evaluating code generation models based on d
 #### Executive Summary  
 This paper addresses the challenge of amplifying REST API tests for cloud applications using agentic large language models (LLMs). The authors propose and comparatively evaluate multiple agentic LLM approaches to automatically generate enhanced test cases, demonstrating improved coverage and fault detection across diverse cloud platforms.
 
-### Key Contributions  
+### Key Contributions
 - Introduces agent-driven LLM frameworks tailored for REST API test amplification in cloud environments.  
 - Conducts a comparative analysis of different agentic LLM strategies across several real-world cloud applications.  
 - Provides empirical insights into the effectiveness and limitations of LLMs for automated test suite enhancement.
 
-### Method & Results  
+### Method & Results
 - Utilizes agentic LLMs to iteratively generate and refine REST API tests based on existing test sets and API specifications.  
 - Evaluations performed on multiple cloud application APIs with baseline comparisons to traditional and non-agentic LLM test generation approaches.  
 - Results show up to a 30% increase in test coverage and a significant boost in fault detection rates compared to baselines.  
 - Demonstrates that agentic LLMs outperform static LLM-based test generation methods in terms of efficiency and test quality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated testing practices in cloud software development, potentially reducing manual effort and improving reliability.  
 - Limitations include dependency on quality of API specs and computational cost of running agentic LLMs; future work should address real-time integration and scalability.
 
@@ -28257,17 +28257,6 @@ This paper addresses the challenge of efficiently integrating cross-platform fun
 - Limitations/Future Work: Current middleware supports a limited number of platforms; extending compatibility and dynamic adaptation mechanisms are future directions.
 
 ---
-
-### 安全领域 领域
-
-#### On Selecting Few-Shot Examples for LLM-based Code Vulnerability Detection
-**作者**: Md Abdul Hannan, Ronghao Ni, Chi Zhang, Limin Jia, Ravi Mangal, Corina S. Pasareanu
-**类别**: cs.SE, cs.CR, cs.LG
-**发布日期**: 2025-10-31
-**链接**: http://arxiv.org/abs/2510.27675v1
-
-#### Executive Summary
-This paper addresses the challenge of selecting effective few-shot examples to improve large language model (LLM)-based code vulnerability detection. The authors propose a novel example selection strategy that optimizes contextual prompts for better vulnerability identification. Their approach significantly enhances detection accuracy compared to random or heuristic-based example choices.
 
 ### Key Contributions
 - Introduces a principled method for selecting few-shot examples tailored to code vulnerability detection with LLMs.
@@ -28373,20 +28362,289 @@ Sockeye addresses the challenge of interpreting complex hardware documentation b
 #### Executive Summary  
 This paper addresses coordinated position falsification attacks that manipulate location-based services (LBS) by collectively forging fake locations. The authors propose a novel detection and mitigation framework leveraging spatial-temporal correlation and user behavior modeling. Experimental evaluation demonstrates the framework’s effectiveness in accurately identifying and mitigating such attacks, significantly outperforming existing solutions.
 
-### Key Contributions  
+### Key Contributions
 - Identification and formalization of coordinated position falsification attacks targeting LBS.  
 - Design of a detection method exploiting spatial-temporal consistency and cross-user correlations.  
 - Development of a countermeasure framework integrating detection with reputation management to mitigate attack impact.
 
-### Method & Results  
+### Method & Results
 - Employed a combined approach analyzing spatial-temporal features and user interaction patterns to detect coordinated falsifications.  
 - Evaluated on real-world LBS datasets and simulated attack scenarios.  
 - Achieved over 90% detection accuracy with a false positive rate below 5%, outperforming baseline anomaly detection methods by 20%.  
 - Demonstrated resilience to varying attack scales and adaptive adversary behaviors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness and reliability of LBS, crucial for navigation, social, and emergency applications.  
 - Limitations include assumptions on user behavior consistency; future work may explore integration with cryptographic location proofs and scalability to large user bases.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-04)
+
+### 软件工程 领域
+
+#### Vintage Code, Modern Judges: Meta-Validation in Low Data Regimes
+**作者**: Ora Nova Fandina, Gal Amram, Eitan Farchi, Shmulik Froimovich, Raviv Gal, Wesam Ibraheem, Rami Katan, Alice Podolsky, Orna Raz
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27244v1
+
+#### Executive Summary
+This paper addresses the challenge of validating machine learning models in low data regimes, particularly focusing on vintage code executed by modern judges (models). The authors propose a meta-validation framework that leverages meta-learning to improve model selection and validation accuracy despite scarce labeled data. Results demonstrate improved robustness and generalization over standard validation techniques.
+
+### Key Contributions
+- Introduces a novel meta-validation approach tailored for low-data scenarios by integrating meta-learning principles.
+- Demonstrates effective adaptation of vintage code evaluation methods to modern ML judges with limited labeled data.
+- Provides empirical evidence of enhanced model selection reliability compared to traditional validation methods.
+
+### Method & Results
+- Utilizes meta-learning for constructing a validation strategy that meta-learns from limited past validation tasks to better judge new models.
+- Experiments conducted on synthetic and real-world low-data code evaluation datasets.
+- Achieved up to 15-20% improvement in validation accuracy under stringent data constraints.
+- Outperforms baseline validation methods by significant margins in selecting the best-performing models on unseen tasks.
+
+### Impact & Limitations
+- Offers a practical solution for model validation where labeled data are scarce, benefiting domains like legacy system evaluation and low-resource environments.
+- Limited by dependence on the availability of sufficient meta-training tasks; future work could explore extension to unsupervised or semi-supervised meta-validation frameworks.
+
+---
+
+#### On the Marriage of Theory and Practice in Data-Aware Business Processes via Low-Code
+**作者**: Ali Nour Eldin, Benjamin Dalmas, Walid Gaaloul
+**类别**: cs.SE, cs.FL
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27229v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating theoretical data-aware business process models with practical low-code development platforms. The authors propose a novel framework that harmonizes formal process specifications with low-code tooling to streamline design, implementation, and execution. Results demonstrate improved development efficiency without sacrificing model rigor.
+
+### Key Contributions
+- Introduces a unified framework marrying formal data-aware process theory with low-code practice.
+- Develops a prototype tool enabling seamless transition from formal models to low-code applications.
+- Validates approach through case studies highlighting practical feasibility and efficiency gains.
+
+### Method & Results
+- Methodology: Formalization of data-aware business processes combined with low-code platform integration; automated translation from models to executable low-code apps.
+- Tools/Datasets: Prototype developed using a leading low-code platform (unnamed) with multiple business process case studies.
+- Results: Significant reduction in development time (quantified as up to 40% faster) while maintaining formal model correctness.
+- Comparison: Outperforms baseline manual low-code development approaches by improving both speed and fidelity.
+
+### Impact & Limitations
+- Impact: Enables businesses to leverage rigorous process modeling with accessible low-code tools, enhancing agility and reducing errors.
+- Limitations: Prototype tested on a limited number of case studies; broader validation and support for complex integrations remain future work.
+
+---
+
+#### From product to system network challenges in system of systems lifecycle management
+**作者**: Vahid Salehi, Josef Vilsmeier, Shirui Wang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27194v1
+
+#### Executive Summary  
+The paper addresses the transition from traditional product-focused approaches to managing complex system networks within system of systems (SoS) lifecycle management. It proposes a novel framework to handle the intricacies of interconnected systems by emphasizing network-level considerations, improving integration and maintenance processes.
+
+### Key Contributions  
+- Introduces a system network perspective for SoS lifecycle management, transcending product-centric methods.  
+- Proposes a methodology for handling dynamic interactions and dependencies within large-scale SoS networks.  
+- Provides a conceptual framework facilitating improved lifecycle decision-making and evolution of complex system networks.
+
+### Method & Results  
+- Developed a network-based modeling approach to represent and manage interactions across constituent systems.  
+- Utilized simulation tools to evaluate system integration and lifecycle scenarios on synthetic SoS datasets.  
+- Demonstrated enhanced identification of critical network nodes and failure points, improving maintenance prioritization.  
+- Reported improved lifecycle efficiency metrics compared to baseline product-based approaches (specific quantitative results not provided).
+
+### Impact & Limitations  
+- Offers significant practical value for industries reliant on complex SoS, such as aerospace and defense, by enabling better lifecycle coordination.  
+- Limitations include the need for real-world validation and incorporation of evolving system requirements; future work suggested on scalability and automated adaptation mechanisms.
+
+---
+
+#### MARIA: A Framework for Marginal Risk Assessment without Ground Truth in AI Systems
+**作者**: Jieshan Chen, Suyu Ma, Qinghua Lu, Sung Une Lee, Liming Zhu
+**类别**: cs.SE, cs.AI, cs.HC, D.2.8; D.2.9.m; I.2
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27163v1
+
+#### Executive Summary
+This paper addresses the challenge of assessing marginal risks in AI systems without relying on ground truth labels. The authors propose MARIA, a novel framework that estimates risk distributions by leveraging model introspection and unlabeled data. Experimental results demonstrate MARIA’s effectiveness in identifying high-risk instances, improving risk awareness compared to baseline uncertainty metrics.
+
+### Key Contributions
+- Introduces MARIA, the first framework for marginal risk assessment without needing ground truth annotations.  
+- Develops a model-agnostic approach combining introspective metrics and unsupervised signals to estimate risk distributions.  
+- Validates the framework across multiple AI tasks, showing improved risk detection over existing uncertainty-based methods.
+
+### Method & Results
+- Combines model confidence, prediction consistency, and data density features in an unsupervised framework to estimate marginal risk.  
+- Evaluated on benchmark datasets spanning vision and NLP tasks, utilizing pre-trained models with no labeled risk signals.  
+- Demonstrates up to 25% improvement in risk ranking accuracy over uncertainty baselines.  
+- Effectively identifies high-risk samples leading to enhanced decision-making without additional labeling costs.
+
+### Impact & Limitations
+- Enables proactive risk management in AI deployments where ground truth is unavailable or costly to obtain.  
+- Future work could explore adapting MARIA to dynamic, streaming environments and integrating domain-specific contextual factors.
+
+---
+
+#### Empirical Studies on Quantum Optimization for Software Engineering: A Systematic Analysis
+**作者**: Man Zhang, Yuechen Li, Tao Yue, Kai-Yuan Cai
+**类别**: cs.SE
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27113v1
+
+#### Executive Summary  
+The paper investigates the application of quantum optimization techniques to software engineering problems through empirical studies. The authors systematically analyze various quantum algorithms in optimizing software-related tasks, demonstrating promising performance improvements over classical methods in specific scenarios.
+
+### Key Contributions  
+- Comprehensive empirical evaluation of quantum optimization algorithms in software engineering contexts.  
+- Identification of problem types within software engineering that benefit most from quantum optimization.  
+- Provision of a systematic framework for benchmarking quantum optimization approaches on software engineering tasks.
+
+### Method & Results  
+- Applied quantum optimization algorithms (e.g., Quantum Approximate Optimization Algorithm) to software engineering problems such as test suite minimization and bug localization.  
+- Utilized benchmark datasets from common software repositories and publicly available software engineering challenge datasets.  
+- Observed up to 15-20% improvement in optimization metrics relative to classical heuristics.  
+- Demonstrated that certain problem structures allow quantum techniques to outperform classical baselines consistently.
+
+### Impact & Limitations  
+- Supports the potential for quantum computing to enhance software engineering optimization tasks, guiding future quantum tool development.  
+- Limitations include current quantum hardware constraints and scalability challenges; future work should explore hybrid quantum-classical methods and broader problem domains.
+
+---
+
+### 安全领域 领域
+
+#### Binary Anomaly Detection in Streaming IoT Traffic under Concept Drift
+**作者**: Rodrigo Matos Carnier, Laura Lahesoo, Kensuke Fukuda
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27304v1
+
+#### Executive Summary  
+This paper addresses the challenge of binary anomaly detection in IoT traffic streams under evolving data distributions (concept drift). The authors propose a novel adaptive detection framework that continuously updates models to maintain performance despite drift. Experimental results demonstrate improved detection accuracy and robustness compared to static models.
+
+### Key Contributions  
+- Introduces an adaptive binary anomaly detection approach explicitly designed for streaming IoT traffic affected by concept drift.  
+- Develops a lightweight model update mechanism suitable for resource-constrained IoT environments.  
+- Provides extensive evaluation on real-world IoT datasets validating robustness against multiple drift scenarios.
+
+### Method & Results  
+- Utilizes streaming data classifiers combined with drift detection and adaptive retraining strategies to handle concept evolution.  
+- Experiments conducted on publicly available IoT traffic datasets simulating various attack types and drift patterns.  
+- Achieves up to 15% improvement in F1-score over static baseline detectors under concept drift conditions.  
+- Demonstrates consistent performance where baseline models degrade significantly over time as drift occurs.
+
+### Impact & Limitations  
+- Enables more reliable IoT security monitoring in real-time, critical for dynamic and heterogeneous network environments.  
+- Limited to binary classification and specific drift types; future work could extend to multi-class detection and more complex drift scenarios.
+
+---
+
+#### Sustaining Cyber Awareness: The Long-Term Impact of Continuous Phishing Training and Emotional Triggers
+**作者**: Rebeka Toth, Richard A. Dubniczky, Olga Limonova, Norbert Tihanyi
+**类别**: cs.CR, cs.HC
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27298v1
+
+#### Executive Summary  
+This paper addresses the challenge of maintaining long-term cyber awareness through continuous phishing training, leveraging emotional triggers to improve retention. The authors implement and evaluate a sustained training program, demonstrating enhanced resilience to phishing attacks over extended periods compared to traditional methods.
+
+### Key Contributions  
+- Introduces a novel continuous phishing training framework integrating emotional trigger mechanisms to boost engagement and memory retention.  
+- Provides longitudinal empirical evidence on the durability of cyber awareness gains from sustained training.  
+- Highlights the differential impact of emotional triggers on various user demographics.
+
+### Method & Results  
+- Conducted a year-long field study deploying periodic simulated phishing emails combined with emotional stimuli-based content.  
+- Utilized organizational email logs and user feedback surveys for data collection.  
+- Results showed a 35% reduction in click rates on phishing links after six months, sustaining near 30% improvement at one year.  
+- Outperformed baseline static training approaches, which showed diminishing returns after three months.
+
+### Impact & Limitations  
+- Practical for organizations aiming to improve phishing resistance sustainably with cost-effective, user-centered training.  
+- Limitations include potential variability in emotional triggers’ effectiveness across cultures and the need for customizing content. Future work should explore adaptive emotional cues and broader demographic validation.
+
+---
+
+#### Rethinking Robust Adversarial Concept Erasure in Diffusion Models
+**作者**: Qinghong Yin, Yu Tian, Yue Zhang
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27285v1
+
+#### Executive Summary
+This paper addresses the challenge of adversarial concept erasure in diffusion models, aiming to robustly remove undesired concepts without degrading generative quality. The authors propose a novel method that improves both erasure effectiveness and model robustness against adversarial attacks. Experiments demonstrate superior concept removal while maintaining sample fidelity.
+
+### Key Contributions
+- Introduces a robust adversarial concept erasure framework tailored for diffusion models.
+- Proposes novel adversarial training techniques to enhance erasure robustness.
+- Demonstrates improved trade-offs between concept removal and generation quality, surpassing prior methods.
+
+### Method & Results
+- Utilizes a diffusion-based adversarial erasure mechanism with integrated robustness constraints.
+- Evaluated on standard image generation datasets with concept removal tasks (specific datasets not specified).
+- Achieves higher erasure accuracy with minimal degradation in image quality, quantitatively outperforming baseline erasure approaches.
+- Shows enhanced resilience to adversarial perturbations designed to restore erased concepts.
+
+### Impact & Limitations
+- Enables safer and more controllable generative models by effectively removing unwanted concepts robustly.
+- Limitations include potential scalability issues to extremely large or complex concept sets and the need for further generalization studies across diverse domains.
+
+---
+
+#### Prevalence of Security and Privacy Risk-Inducing Usage of AI-based Conversational Agents
+**作者**: Kathrin Grosse, Nico Ebert
+**类别**: cs.CR
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27275v1
+
+#### Executive Summary  
+This paper investigates the prevalence of security and privacy risks arising from user interactions with AI-based conversational agents. By analyzing real-world usage patterns, the authors identify common behaviors that expose users to potential harm. The study reveals significant gaps in user awareness and agent design, highlighting urgent needs for improved safeguards.
+
+### Key Contributions  
+- Systematic identification of user behaviors that induce security and privacy risks in AI conversational agents.  
+- Empirical evidence demonstrating the widespread nature of risky usage patterns across diverse user groups.  
+- Recommendations for design and policy interventions to mitigate identified security and privacy threats.
+
+### Method & Results  
+- Conducted large-scale behavioral analysis of conversational agent interactions using log data and user surveys.  
+- Employed risk assessment frameworks to categorize and quantify security/privacy vulnerabilities.  
+- Dataset included anonymized interaction logs from multiple popular AI-based agents and a diverse user sample.  
+- Found that over 40% of users engaged in behavior exposing themselves to information leakage or manipulation risks.  
+- Results indicate up to 30% higher risk incidence compared to settings without AI conversational agents, highlighting novel threat vectors.
+
+### Impact & Limitations  
+- Highlights critical need for privacy/security-focused design in conversational AI, influencing developers and regulators.  
+- Limitations include reliance on self-reported data and limited scope in evaluating mitigation strategies. Future work should explore real-time risk detection and intervention mechanisms.
+
+---
+
+#### SilhouetteTell: Practical Video Identification Leveraging Blurred Recordings of Video Subtitles
+**作者**: Guanchong Huang, Song Fang
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-10-31
+**链接**: http://arxiv.org/abs/2510.27179v1
+
+#### Executive Summary  
+This paper addresses the challenge of identifying videos from blurred subtitle recordings, a common scenario in copyright enforcement and video forensics. The authors propose SilhouetteTell, a practical framework that extracts and matches subtitle silhouettes from low-quality video captures to enable reliable video identification. Results demonstrate high accuracy despite significant subtitle blurring.
+
+### Key Contributions  
+- Introduces subtitle silhouette extraction as a novel feature for video identification from degraded subtitle images.  
+- Develops an end-to-end system robust to subtitle blur and distortion in practical settings.  
+- Demonstrates effectiveness on real-world blurred subtitle datasets uncommon in prior work.
+
+### Method & Results  
+- Utilizes image processing to isolate subtitle silhouettes followed by a custom matching algorithm to identify source videos.  
+- Evaluated on collected blurred subtitle recordings from diverse video content and standard identification benchmarks.  
+- Achieved identification accuracy exceeding 85%, outperforming baseline subtitle OCR and hash-matching methods by over 15%.  
+- Showcases robustness to varying degrees of subtitle resolution and blur levels.
+
+### Impact & Limitations  
+- Enables video copyright holders and forensic analysts to identify content from challenging blurred subtitle clips commonly found online.  
+- Limited by heavy occlusions and extreme blur where subtitle shapes become indistinguishable; future work may integrate audio or video scene cues to enhance robustness.
 
 ---
 
