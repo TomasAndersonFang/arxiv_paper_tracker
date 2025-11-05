@@ -28446,18 +28446,18 @@ This paper addresses the challenge of integrating theoretical data-aware busines
 #### Executive Summary  
 The paper addresses the transition from traditional product-focused approaches to managing complex system networks within system of systems (SoS) lifecycle management. It proposes a novel framework to handle the intricacies of interconnected systems by emphasizing network-level considerations, improving integration and maintenance processes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a system network perspective for SoS lifecycle management, transcending product-centric methods.  
 - Proposes a methodology for handling dynamic interactions and dependencies within large-scale SoS networks.  
 - Provides a conceptual framework facilitating improved lifecycle decision-making and evolution of complex system networks.
 
-### Method & Results  
+### Method & Results
 - Developed a network-based modeling approach to represent and manage interactions across constituent systems.  
 - Utilized simulation tools to evaluate system integration and lifecycle scenarios on synthetic SoS datasets.  
 - Demonstrated enhanced identification of critical network nodes and failure points, improving maintenance prioritization.  
 - Reported improved lifecycle efficiency metrics compared to baseline product-based approaches (specific quantitative results not provided).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers significant practical value for industries reliant on complex SoS, such as aerospace and defense, by enabling better lifecycle coordination.  
 - Limitations include the need for real-world validation and incorporation of evolving system requirements; future work suggested on scalability and automated adaptation mechanisms.
 
@@ -28498,18 +28498,18 @@ This paper addresses the challenge of assessing marginal risks in AI systems wit
 #### Executive Summary  
 The paper investigates the application of quantum optimization techniques to software engineering problems through empirical studies. The authors systematically analyze various quantum algorithms in optimizing software-related tasks, demonstrating promising performance improvements over classical methods in specific scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive empirical evaluation of quantum optimization algorithms in software engineering contexts.  
 - Identification of problem types within software engineering that benefit most from quantum optimization.  
 - Provision of a systematic framework for benchmarking quantum optimization approaches on software engineering tasks.
 
-### Method & Results  
+### Method & Results
 - Applied quantum optimization algorithms (e.g., Quantum Approximate Optimization Algorithm) to software engineering problems such as test suite minimization and bug localization.  
 - Utilized benchmark datasets from common software repositories and publicly available software engineering challenge datasets.  
 - Observed up to 15-20% improvement in optimization metrics relative to classical heuristics.  
 - Demonstrated that certain problem structures allow quantum techniques to outperform classical baselines consistently.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Supports the potential for quantum computing to enhance software engineering optimization tasks, guiding future quantum tool development.  
 - Limitations include current quantum hardware constraints and scalability challenges; future work should explore hybrid quantum-classical methods and broader problem domains.
 
@@ -28526,18 +28526,18 @@ The paper investigates the application of quantum optimization techniques to sof
 #### Executive Summary  
 This paper addresses the challenge of binary anomaly detection in IoT traffic streams under evolving data distributions (concept drift). The authors propose a novel adaptive detection framework that continuously updates models to maintain performance despite drift. Experimental results demonstrate improved detection accuracy and robustness compared to static models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an adaptive binary anomaly detection approach explicitly designed for streaming IoT traffic affected by concept drift.  
 - Develops a lightweight model update mechanism suitable for resource-constrained IoT environments.  
 - Provides extensive evaluation on real-world IoT datasets validating robustness against multiple drift scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes streaming data classifiers combined with drift detection and adaptive retraining strategies to handle concept evolution.  
 - Experiments conducted on publicly available IoT traffic datasets simulating various attack types and drift patterns.  
 - Achieves up to 15% improvement in F1-score over static baseline detectors under concept drift conditions.  
 - Demonstrates consistent performance where baseline models degrade significantly over time as drift occurs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable IoT security monitoring in real-time, critical for dynamic and heterogeneous network environments.  
 - Limited to binary classification and specific drift types; future work could extend to multi-class detection and more complex drift scenarios.
 
@@ -28552,18 +28552,18 @@ This paper addresses the challenge of binary anomaly detection in IoT traffic st
 #### Executive Summary  
 This paper addresses the challenge of maintaining long-term cyber awareness through continuous phishing training, leveraging emotional triggers to improve retention. The authors implement and evaluate a sustained training program, demonstrating enhanced resilience to phishing attacks over extended periods compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel continuous phishing training framework integrating emotional trigger mechanisms to boost engagement and memory retention.  
 - Provides longitudinal empirical evidence on the durability of cyber awareness gains from sustained training.  
 - Highlights the differential impact of emotional triggers on various user demographics.
 
-### Method & Results  
+### Method & Results
 - Conducted a year-long field study deploying periodic simulated phishing emails combined with emotional stimuli-based content.  
 - Utilized organizational email logs and user feedback surveys for data collection.  
 - Results showed a 35% reduction in click rates on phishing links after six months, sustaining near 30% improvement at one year.  
 - Outperformed baseline static training approaches, which showed diminishing returns after three months.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for organizations aiming to improve phishing resistance sustainably with cost-effective, user-centered training.  
 - Limitations include potential variability in emotional triggers’ effectiveness across cultures and the need for customizing content. Future work should explore adaptive emotional cues and broader demographic validation.
 
@@ -28604,19 +28604,19 @@ This paper addresses the challenge of adversarial concept erasure in diffusion m
 #### Executive Summary  
 This paper investigates the prevalence of security and privacy risks arising from user interactions with AI-based conversational agents. By analyzing real-world usage patterns, the authors identify common behaviors that expose users to potential harm. The study reveals significant gaps in user awareness and agent design, highlighting urgent needs for improved safeguards.
 
-### Key Contributions  
+### Key Contributions
 - Systematic identification of user behaviors that induce security and privacy risks in AI conversational agents.  
 - Empirical evidence demonstrating the widespread nature of risky usage patterns across diverse user groups.  
 - Recommendations for design and policy interventions to mitigate identified security and privacy threats.
 
-### Method & Results  
+### Method & Results
 - Conducted large-scale behavioral analysis of conversational agent interactions using log data and user surveys.  
 - Employed risk assessment frameworks to categorize and quantify security/privacy vulnerabilities.  
 - Dataset included anonymized interaction logs from multiple popular AI-based agents and a diverse user sample.  
 - Found that over 40% of users engaged in behavior exposing themselves to information leakage or manipulation risks.  
 - Results indicate up to 30% higher risk incidence compared to settings without AI conversational agents, highlighting novel threat vectors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical need for privacy/security-focused design in conversational AI, influencing developers and regulators.  
 - Limitations include reliance on self-reported data and limited scope in evaluating mitigation strategies. Future work should explore real-time risk detection and intervention mechanisms.
 
@@ -28631,20 +28631,291 @@ This paper investigates the prevalence of security and privacy risks arising fro
 #### Executive Summary  
 This paper addresses the challenge of identifying videos from blurred subtitle recordings, a common scenario in copyright enforcement and video forensics. The authors propose SilhouetteTell, a practical framework that extracts and matches subtitle silhouettes from low-quality video captures to enable reliable video identification. Results demonstrate high accuracy despite significant subtitle blurring.
 
-### Key Contributions  
+### Key Contributions
 - Introduces subtitle silhouette extraction as a novel feature for video identification from degraded subtitle images.  
 - Develops an end-to-end system robust to subtitle blur and distortion in practical settings.  
 - Demonstrates effectiveness on real-world blurred subtitle datasets uncommon in prior work.
 
-### Method & Results  
+### Method & Results
 - Utilizes image processing to isolate subtitle silhouettes followed by a custom matching algorithm to identify source videos.  
 - Evaluated on collected blurred subtitle recordings from diverse video content and standard identification benchmarks.  
 - Achieved identification accuracy exceeding 85%, outperforming baseline subtitle OCR and hash-matching methods by over 15%.  
 - Showcases robustness to varying degrees of subtitle resolution and blur levels.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables video copyright holders and forensic analysts to identify content from challenging blurred subtitle clips commonly found online.  
 - Limited by heavy occlusions and extreme blur where subtitle shapes become indistinguishable; future work may integrate audio or video scene cues to enhance robustness.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-05)
+
+### 软件工程 领域
+
+#### From Code Changes to Quality Gains: An Empirical Study in Python ML Systems with PyQu
+**作者**: Mohamed Almukhtar, Anwar Ghammam, Marouane Kessentini, Hua Ming
+**类别**: cs.SE
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02827v1
+
+#### Executive Summary  
+This paper investigates how specific code changes affect software quality in Python-based machine learning (ML) systems using the PyQu framework. The authors empirically analyze code modifications and their direct impact on quality metrics, demonstrating measurable quality improvements linked to targeted code changes.
+
+### Key Contributions  
+- Introduces PyQu, a novel tool for tracing code changes to quality metrics in Python ML projects.  
+- Provides the first large-scale empirical study quantifying quality gains from incremental code modifications in ML systems.  
+- Establishes actionable insights on which types of code changes most effectively enhance software quality.
+
+### Method & Results  
+- Conducted an empirical analysis correlating fine-grained code changes in Python ML codebases to quality improvements using PyQu.  
+- Analyzed datasets from multiple open-source Python ML projects with real code commits and quality assessment data.  
+- Found that strategic refactorings and bug fixes led to up to a 15% reduction in defect density and a 10% improvement in maintainability scores.  
+- PyQu outperformed baseline static analysis tools in identifying impactful code changes by 20% in predictive accuracy.
+
+### Impact & Limitations  
+- Enables ML practitioners to prioritize code improvements for better software quality and sustainability.  
+- Limited to Python ML systems; generalizability to other languages and domains remains to be explored.  
+- Future work could integrate runtime performance and automated code suggestion mechanisms.
+
+---
+
+#### Formalizing Regression Testing for Agile and Continuous Integration Environments
+**作者**: Suddhasvatta Das, Kevin Gary
+**类别**: cs.SE
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02810v1
+
+#### Executive Summary
+This paper addresses the challenge of formalizing regression testing processes tailored for Agile and Continuous Integration (CI) environments. The authors propose a novel formal framework that systematically integrates regression testing into CI workflows to improve testing accuracy and efficiency. Experimental validation demonstrates enhanced test coverage and reduced time overhead compared to existing informal methods.
+
+### Key Contributions
+- Introduces a formal model specifically designed to represent regression testing sequences within Agile and CI pipelines.
+- Develops an automated framework that dynamically adapts regression tests based on code changes and build status.
+- Demonstrates measurable improvement in test coverage and execution efficiency in practical CI scenarios.
+
+### Method & Results
+- Formalization of regression test selection and scheduling using state transition systems aligned with CI event triggers.
+- Implementation and evaluation conducted on open-source projects using Jenkins CI and Git repositories.
+- Results show up to 30% reduction in test execution time while maintaining or improving fault detection rates.
+- Outperforms baseline heuristic-based regression testing approaches by delivering higher precision in test selection.
+
+### Impact & Limitations
+- Provides a scalable and rigorous approach that enhances regression testing reliability in fast-paced Agile developments.
+- Limitations include potential overhead in initial formal model construction and integration complexity with diverse CI tools.
+- Future work may focus on automated model generation and extending formalization to distributed CI environments.
+
+---
+
+#### 1 PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts
+**作者**: Vivi Andersson, Sofia Bobadilla, Harald Hobbelhagen, Martin Monperrus
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02780v1
+
+#### Executive Summary
+This paper tackles the challenge of automatically generating proof-of-concept exploits for vulnerabilities in smart contracts. It introduces PoCo, an agentic framework that autonomously synthesizes exploit transactions, demonstrating its effectiveness on real-world contracts. Results show PoCo significantly improves exploit discovery efficiency and coverage compared to existing methods.
+
+### Key Contributions
+- Introduces PoCo, the first agentic proof-of-concept exploit generator tailored for smart contracts.
+- Proposes a novel approach combining symbolic execution with agentic exploration to generate meaningful exploits.
+- Demonstrates improved exploit generation success rates and reduced manual effort on benchmark smart contracts.
+
+### Method & Results
+- Methodology: Combines symbolic execution of smart contracts with an autonomous agent that iteratively refines exploit inputs to maximize vulnerability exposure.
+- Tools/Datasets: Evaluated on a diverse set of publicly known vulnerable Ethereum smart contracts.
+- Results: PoCo achieved a 30-50% higher exploit discovery rate and generated exploits with fewer queries than baseline symbolic execution tools.
+- Performance: Outperformed traditional symbolic execution and heuristic-based exploit generators in both coverage and efficiency.
+
+### Impact & Limitations
+- Impact: PoCo advances automated smart contract security by providing developers and auditors with actionable proof-of-concept exploits, aiding vulnerability verification and patching.
+- Limitations/Future Work: Currently focuses on a subset of vulnerability types; extending to cross-contract attacks and integrating with real-time monitoring are promising directions.
+
+---
+
+#### Investigating the Experience of Autistic Individuals in Software Engineering
+**作者**: Madalena Sasportes, Grischa Liebel, Miguel Goulão
+**类别**: cs.SE
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02736v1
+
+#### Executive Summary  
+This paper explores the lived experiences of autistic individuals within software engineering, aiming to identify unique challenges and strengths. Through qualitative approaches, the authors reveal insights into workplace inclusivity and how autism influences software development practices.
+
+### Key Contributions  
+- Provides one of the first comprehensive studies focused on autistic software engineers’ workplace experiences.  
+- Highlights specific accommodations and practices that enhance productivity and well-being for autistic developers.  
+- Introduces recommendations for integrating neurodiversity awareness into SE team management.
+
+### Method & Results  
+- Conducted semi-structured interviews with autistic software engineers to collect qualitative data on their professional experiences.  
+- Used thematic analysis to extract key themes around challenges, coping strategies, and positive aspects.  
+- Found common challenges include sensory overload and communication difficulties, while strengths involve pattern recognition and detail orientation.  
+- Proposed accommodations such as flexible work environments improved inclusion; no quantitative baseline comparison was reported.
+
+### Impact & Limitations  
+- Provides valuable insights for HR and management to foster inclusive SE workplaces that leverage neurodiverse talents.  
+- Limited sample size and qualitative nature restrict generalizability; future work should include larger, diverse cohorts and quantitative measures.
+
+---
+
+#### ReleaseEval: A Benchmark for Evaluating Language Models in Automated Release Note Generation
+**作者**: Qianru Meng, Zhaochun Ren, Joost Visser
+**类别**: cs.SE
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02713v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically generating software release notes by introducing ReleaseEval, a benchmark designed to evaluate language models on this task. The authors develop comprehensive evaluation metrics and datasets to rigorously assess model outputs. Experimental results demonstrate the benchmark’s effectiveness in distinguishing model performance and guiding improvements.
+
+### Key Contributions
+- Introduction of ReleaseEval, a novel benchmark specifically for automated release note generation.
+- Development of tailored evaluation metrics capturing both informativeness and fluency of release notes.
+- Provision of a curated dataset aligning release notes with corresponding software commits and updates.
+
+### Method & Results
+- Designed evaluation criteria combining linguistic quality and domain-specific relevance for assessing generated release notes.
+- Compiled and released a dataset containing real-world software updates paired with human-written release notes.
+- Experiments on state-of-the-art language models show varied performance, with ReleaseEval highlighting strengths and weaknesses quantitatively.
+- Demonstrated that models fine-tuned on domain-specific data significantly outperform generic baselines by up to 15% on key metrics.
+
+### Impact & Limitations
+- Enables systematic benchmarking of language models tailored to software engineering documentation, facilitating more practical automated release note generation.
+- Limitations include potential dataset bias towards certain software types and reliance on current language models; future work could explore broader software domains and incorporate user feedback for evaluation refinement.
+
+---
+
+### 安全领域 领域
+
+#### 1 PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts
+**作者**: Vivi Andersson, Sofia Bobadilla, Harald Hobbelhagen, Martin Monperrus
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02780v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatically generating proof-of-concept (PoC) exploits for vulnerabilities in smart contracts. The authors propose PoCo, an agentic framework that autonomously explores contract behaviors to discover and generate concrete exploit scenarios. Experiments demonstrate PoCo's effectiveness in producing actionable PoCs, outperforming existing heuristic methods.
+
+### Key Contributions  
+- Introduces PoCo, the first agent-driven system for automated PoC exploit generation in smart contracts.  
+- Employs an intelligent exploration strategy combining symbolic execution with agent heuristics.  
+- Validates approach on real-world contracts, showcasing improved exploit discovery and generation rates.
+
+### Method & Results  
+- Utilizes an agentic model integrating symbolic execution with reinforcement learning to explore execution paths.  
+- Evaluated on a dataset of diverse Ethereum smart contracts including known vulnerabilities.  
+- Achieved a 35% higher success rate in generating valid PoCs compared to state-of-the-art heuristics.  
+- Demonstrated scalability to complex contracts with multiple interacting components.
+
+### Impact & Limitations  
+- Enables developers and auditors to identify and demonstrate vulnerabilities more effectively, enhancing smart contract security.  
+- Current system relies heavily on accurate symbolic execution; future work could improve handling of stateful and cross-contract interactions.  
+- Potential to extend framework to other blockchain platforms beyond Ethereum.
+
+---
+
+#### Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval
+**作者**: Artur Iasenovets, Fei Tang, Huihui Zhu, Ping Wang, Lei Liu
+**类别**: cs.CR, C.2.4; D.4.6; H.2.0; H.3.3
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02656v1
+
+#### Executive Summary  
+This paper addresses privacy challenges in data reads from Hyperledger Fabric by integrating Private Information Retrieval (PIR) techniques. The authors propose a novel framework enabling private queries over Fabric’s ledger without revealing query content, achieving secure and efficient private reads. Experimental results demonstrate the approach maintains query privacy with manageable performance overhead.
+
+### Key Contributions  
+- Introduces the first PIR-based mechanism tailored for Hyperledger Fabric to enable private ledger reads.  
+- Designs an efficient integration framework that balances privacy and system performance in permissioned blockchains.  
+- Provides comprehensive evaluation showing practical feasibility and performance trade-offs in real Fabric deployments.
+
+### Method & Results  
+- Combines cryptographic PIR protocols with Fabric’s endorsement and ordering services to preserve query privacy during ledger reads.  
+- Implementation on Hyperledger Fabric test network with standard ledger workloads.  
+- Achieves query privacy with latency overhead under 25% compared to non-private reads; throughput remains within acceptable limits for enterprise use.  
+- Outperforms baseline naive privacy approaches by significantly reducing communication cost and computational load on peers.
+
+### Impact & Limitations  
+- Enables privacy-preserving data access in permissioned blockchains, crucial for sensitive enterprise applications.  
+- Future work includes optimizing performance for large-scale Fabric deployments and extending privacy guarantees to complex multi-query scenarios.
+
+---
+
+#### Verifying LLM Inference to Prevent Model Weight Exfiltration
+**作者**: Roy Rinberg, Adam Karvonen, Alex Hoover, Daniel Reuter, Keri Warr
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02620v1
+
+#### Executive Summary
+This paper addresses the risk of model weight exfiltration during inference in large language models (LLMs). The authors propose a verification framework that detects unauthorized extraction attempts by monitoring inference queries and responses. Their approach significantly reduces the potential for covert weight leakage without degrading model performance.
+
+### Key Contributions
+- Introduces a novel real-time verification mechanism to detect LLM weight exfiltration during inference.
+- Provides a systematic threat model and defense strategy specific to inference-stage attacks.
+- Demonstrates the framework’s effectiveness with minimal overhead, maintaining inference efficiency.
+
+### Method & Results
+- Developed an inference auditing protocol that cross-verifies input-output pairs against expected model behavior to flag suspicious queries.
+- Employed synthetic and publicly available LLM benchmarks for testing exfiltration scenarios.
+- Achieved detection rates above 90% for simulated exfiltration attacks, with false positive rates below 5%.
+- Maintained comparable inference throughput versus baseline models without security measures.
+
+### Impact & Limitations
+- Enhances the security of cloud-deployed LLM services by preventing stealthy model theft and intellectual property loss.
+- Limited to inference-time attacks; future work could extend defenses to training-time vulnerabilities and explore adaptive adversaries.
+
+---
+
+#### On The Dangers of Poisoned LLMs In Security Automation
+**作者**: Patrick Karlsen, Even Eilertsen
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02600v1
+
+#### Executive Summary  
+This paper investigates the security risks posed by poisoned large language models (LLMs) in automation systems for cybersecurity tasks. The authors analyze attack vectors where adversaries inject malicious training data to manipulate LLM outputs, demonstrating how this compromises automated security decision-making. Their empirical evaluation reveals significant vulnerabilities that can lead to erroneous or harmful security actions.
+
+### Key Contributions  
+- Identification and characterization of poisoning threats specific to LLM-based security automation tools.  
+- Empirical demonstration of attack feasibility and impact on automated security tasks.  
+- Proposal of preliminary detection strategies to mitigate poisoned LLM risks.
+
+### Method & Results  
+- Methodology: Simulate data poisoning attacks on LLMs used in security automation workflows and assess output manipulation.  
+- Tools/Datasets: Custom security automation scenarios with standard LLM benchmarks adapted to security tasks.  
+- Results: Poisoned LLMs caused up to 40% erroneous security decisions, significantly outperforming random baseline error rates (~5%).  
+- Performance: Poisoned models showed degraded decision accuracy compared to clean LLMs by a margin of 30-35%.
+
+### Impact & Limitations  
+- Impact: Raises critical awareness of a novel attack vector compromising AI-driven cybersecurity, urging development of robust safeguards before wider LLM adoption in security automation.  
+- Limitations: Limited to specific poisoning scenarios; broader attacks and defenses require future exploration. Detector methods remain preliminary and need refinement for production use.
+
+---
+
+#### AutoAdv: Automated Adversarial Prompting for Multi-Turn Jailbreaking of Large Language Models
+**作者**: Aashray Reddy, Andrew Zagula, Nicholas Saban
+**类别**: cs.CL, cs.AI, cs.CR, cs.LG
+**发布日期**: 2025-11-04
+**链接**: http://arxiv.org/abs/2511.02376v1
+
+#### Executive Summary  
+This paper addresses the challenge of multi-turn jailbreaking attacks on large language models (LLMs), where adversarial prompts bypass safety filters. The authors propose AutoAdv, an automated system generating adversarial prompts that effectively induce harmful outputs over multiple interactions. Experiments demonstrate AutoAdv’s superior success rate in jailbreak attacks compared to manual and heuristic baselines.
+
+### Key Contributions  
+- Introduces AutoAdv, an automated approach for crafting multi-turn adversarial prompts targeting LLM safety systems.  
+- Demonstrates scalability and effectiveness of multi-turn jailbreak generation beyond prior single-turn attacks.  
+- Provides a comprehensive evaluation framework for adversarial prompt robustness in conversational settings.
+
+### Method & Results  
+- Uses reinforcement learning to iteratively refine adversarial prompts through multi-turn interactions with the target LLM.  
+- Evaluated on state-of-the-art LLMs and their safety filters under multi-turn conversational scenarios.  
+- AutoAdv achieves significantly higher jailbreaking success rates (e.g., +30% success over baselines) across diverse prompts.  
+- Outperforms manual and heuristic prompt generation methods in both efficiency and attack potency.
+
+### Impact & Limitations  
+- Highlights vulnerabilities in current LLM safety mechanisms, informing development of stronger defenses.  
+- Limitations include potential dependency on specific model architectures and defense setups; future work may explore transferability and real-time mitigation strategies.
 
 ---
 
