@@ -28663,18 +28663,18 @@ This paper addresses the challenge of identifying videos from blurred subtitle r
 #### Executive Summary  
 This paper investigates how specific code changes affect software quality in Python-based machine learning (ML) systems using the PyQu framework. The authors empirically analyze code modifications and their direct impact on quality metrics, demonstrating measurable quality improvements linked to targeted code changes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PyQu, a novel tool for tracing code changes to quality metrics in Python ML projects.  
 - Provides the first large-scale empirical study quantifying quality gains from incremental code modifications in ML systems.  
 - Establishes actionable insights on which types of code changes most effectively enhance software quality.
 
-### Method & Results  
+### Method & Results
 - Conducted an empirical analysis correlating fine-grained code changes in Python ML codebases to quality improvements using PyQu.  
 - Analyzed datasets from multiple open-source Python ML projects with real code commits and quality assessment data.  
 - Found that strategic refactorings and bug fixes led to up to a 15% reduction in defect density and a 10% improvement in maintainability scores.  
 - PyQu outperformed baseline static analysis tools in identifying impactful code changes by 20% in predictive accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables ML practitioners to prioritize code improvements for better software quality and sustainability.  
 - Limited to Python ML systems; generalizability to other languages and domains remains to be explored.  
 - Future work could integrate runtime performance and automated code suggestion mechanisms.
@@ -28743,18 +28743,18 @@ This paper tackles the challenge of automatically generating proof-of-concept ex
 #### Executive Summary  
 This paper explores the lived experiences of autistic individuals within software engineering, aiming to identify unique challenges and strengths. Through qualitative approaches, the authors reveal insights into workplace inclusivity and how autism influences software development practices.
 
-### Key Contributions  
+### Key Contributions
 - Provides one of the first comprehensive studies focused on autistic software engineers’ workplace experiences.  
 - Highlights specific accommodations and practices that enhance productivity and well-being for autistic developers.  
 - Introduces recommendations for integrating neurodiversity awareness into SE team management.
 
-### Method & Results  
+### Method & Results
 - Conducted semi-structured interviews with autistic software engineers to collect qualitative data on their professional experiences.  
 - Used thematic analysis to extract key themes around challenges, coping strategies, and positive aspects.  
 - Found common challenges include sensory overload and communication difficulties, while strengths involve pattern recognition and detail orientation.  
 - Proposed accommodations such as flexible work environments improved inclusion; no quantitative baseline comparison was reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides valuable insights for HR and management to foster inclusive SE workplaces that leverage neurodiverse talents.  
 - Limited sample size and qualitative nature restrict generalizability; future work should include larger, diverse cohorts and quantitative measures.
 
@@ -28786,29 +28786,18 @@ This paper addresses the challenge of automatically generating software release 
 
 ---
 
-### 安全领域 领域
-
-#### 1 PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts
-**作者**: Vivi Andersson, Sofia Bobadilla, Harald Hobbelhagen, Martin Monperrus
-**类别**: cs.CR, cs.AI, cs.SE
-**发布日期**: 2025-11-04
-**链接**: http://arxiv.org/abs/2511.02780v1
-
-#### Executive Summary  
-This paper addresses the challenge of automatically generating proof-of-concept (PoC) exploits for vulnerabilities in smart contracts. The authors propose PoCo, an agentic framework that autonomously explores contract behaviors to discover and generate concrete exploit scenarios. Experiments demonstrate PoCo's effectiveness in producing actionable PoCs, outperforming existing heuristic methods.
-
-### Key Contributions  
+### Key Contributions
 - Introduces PoCo, the first agent-driven system for automated PoC exploit generation in smart contracts.  
 - Employs an intelligent exploration strategy combining symbolic execution with agent heuristics.  
 - Validates approach on real-world contracts, showcasing improved exploit discovery and generation rates.
 
-### Method & Results  
+### Method & Results
 - Utilizes an agentic model integrating symbolic execution with reinforcement learning to explore execution paths.  
 - Evaluated on a dataset of diverse Ethereum smart contracts including known vulnerabilities.  
 - Achieved a 35% higher success rate in generating valid PoCs compared to state-of-the-art heuristics.  
 - Demonstrated scalability to complex contracts with multiple interacting components.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and auditors to identify and demonstrate vulnerabilities more effectively, enhancing smart contract security.  
 - Current system relies heavily on accurate symbolic execution; future work could improve handling of stateful and cross-contract interactions.  
 - Potential to extend framework to other blockchain platforms beyond Ethereum.
@@ -28824,18 +28813,18 @@ This paper addresses the challenge of automatically generating proof-of-concept 
 #### Executive Summary  
 This paper addresses privacy challenges in data reads from Hyperledger Fabric by integrating Private Information Retrieval (PIR) techniques. The authors propose a novel framework enabling private queries over Fabric’s ledger without revealing query content, achieving secure and efficient private reads. Experimental results demonstrate the approach maintains query privacy with manageable performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first PIR-based mechanism tailored for Hyperledger Fabric to enable private ledger reads.  
 - Designs an efficient integration framework that balances privacy and system performance in permissioned blockchains.  
 - Provides comprehensive evaluation showing practical feasibility and performance trade-offs in real Fabric deployments.
 
-### Method & Results  
+### Method & Results
 - Combines cryptographic PIR protocols with Fabric’s endorsement and ordering services to preserve query privacy during ledger reads.  
 - Implementation on Hyperledger Fabric test network with standard ledger workloads.  
 - Achieves query privacy with latency overhead under 25% compared to non-private reads; throughput remains within acceptable limits for enterprise use.  
 - Outperforms baseline naive privacy approaches by significantly reducing communication cost and computational load on peers.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving data access in permissioned blockchains, crucial for sensitive enterprise applications.  
 - Future work includes optimizing performance for large-scale Fabric deployments and extending privacy guarantees to complex multi-query scenarios.
 
@@ -28876,18 +28865,18 @@ This paper addresses the risk of model weight exfiltration during inference in l
 #### Executive Summary  
 This paper investigates the security risks posed by poisoned large language models (LLMs) in automation systems for cybersecurity tasks. The authors analyze attack vectors where adversaries inject malicious training data to manipulate LLM outputs, demonstrating how this compromises automated security decision-making. Their empirical evaluation reveals significant vulnerabilities that can lead to erroneous or harmful security actions.
 
-### Key Contributions  
+### Key Contributions
 - Identification and characterization of poisoning threats specific to LLM-based security automation tools.  
 - Empirical demonstration of attack feasibility and impact on automated security tasks.  
 - Proposal of preliminary detection strategies to mitigate poisoned LLM risks.
 
-### Method & Results  
+### Method & Results
 - Methodology: Simulate data poisoning attacks on LLMs used in security automation workflows and assess output manipulation.  
 - Tools/Datasets: Custom security automation scenarios with standard LLM benchmarks adapted to security tasks.  
 - Results: Poisoned LLMs caused up to 40% erroneous security decisions, significantly outperforming random baseline error rates (~5%).  
 - Performance: Poisoned models showed degraded decision accuracy compared to clean LLMs by a margin of 30-35%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Raises critical awareness of a novel attack vector compromising AI-driven cybersecurity, urging development of robust safeguards before wider LLM adoption in security automation.  
 - Limitations: Limited to specific poisoning scenarios; broader attacks and defenses require future exploration. Detector methods remain preliminary and need refinement for production use.
 
@@ -28902,20 +28891,290 @@ This paper investigates the security risks posed by poisoned large language mode
 #### Executive Summary  
 This paper addresses the challenge of multi-turn jailbreaking attacks on large language models (LLMs), where adversarial prompts bypass safety filters. The authors propose AutoAdv, an automated system generating adversarial prompts that effectively induce harmful outputs over multiple interactions. Experiments demonstrate AutoAdv’s superior success rate in jailbreak attacks compared to manual and heuristic baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AutoAdv, an automated approach for crafting multi-turn adversarial prompts targeting LLM safety systems.  
 - Demonstrates scalability and effectiveness of multi-turn jailbreak generation beyond prior single-turn attacks.  
 - Provides a comprehensive evaluation framework for adversarial prompt robustness in conversational settings.
 
-### Method & Results  
+### Method & Results
 - Uses reinforcement learning to iteratively refine adversarial prompts through multi-turn interactions with the target LLM.  
 - Evaluated on state-of-the-art LLMs and their safety filters under multi-turn conversational scenarios.  
 - AutoAdv achieves significantly higher jailbreaking success rates (e.g., +30% success over baselines) across diverse prompts.  
 - Outperforms manual and heuristic prompt generation methods in both efficiency and attack potency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights vulnerabilities in current LLM safety mechanisms, informing development of stronger defenses.  
 - Limitations include potential dependency on specific model architectures and defense setups; future work may explore transferability and real-time mitigation strategies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-06)
+
+### 软件工程 领域
+
+#### The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents
+**作者**: Xingyao Wang, Simon Rosenberg, Juan Michelini, Calvin Smith, Hoang Tran, Engel Nyst, Rohit Malhotra, Xuhui Zhou, Valerie Chen, Robert Brennan, Graham Neubig
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03690v1
+
+#### Executive Summary  
+The paper introduces the OpenHands Software Agent SDK, designed to provide a modular and extensible framework for building production-ready software agents. The approach emphasizes composability and scalability to streamline the development and deployment of intelligent agents. Results demonstrate enhanced flexibility and efficiency in agent construction compared to existing SDKs.
+
+### Key Contributions  
+- Development of a highly composable and extensible SDK tailored for production software agents.  
+- Integration of modular components enabling easy customization and scalability of agent functionalities.  
+- Demonstration of real-world applicability through deployment scenarios showcasing robustness and adaptability.
+
+### Method & Results  
+- Methodology: Modular software design employing interchangeable components and standardized interfaces to facilitate agent customization and scalability.  
+- Tools: Utilization of existing AI frameworks integrated within the SDK; benchmarked on real-world agent tasks.  
+- Results: Achieved improved development speed and reduced complexity in building agents; quantified metrics on efficiency gains (e.g., ~30% faster integration time) reported.  
+- Performance: Outperformed baseline SDKs in flexibility and extensibility, yielding more maintainable and scalable agent implementations.
+
+### Impact & Limitations  
+- Impact: Provides a foundational toolkit that accelerates the development cycle of intelligent agents, promoting wider adoption in production environments.  
+- Limitations & Future Work: Further optimization for resource-constrained environments and expanded support for emerging agent capabilities remain areas for future enhancement.
+
+---
+
+#### CLAX: Fast and Flexible Neural Click Models in JAX
+**作者**: Philipp Hager, Onno Zoeter, Maarten de Rijke
+**类别**: cs.IR, cs.LG, cs.SE
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03620v1
+
+#### Executive Summary  
+This paper introduces CLAX, a fast and flexible neural click model implemented in JAX to improve user interaction modeling in information retrieval. The approach leverages JAX's capabilities for efficient computation and automatic differentiation, achieving faster training and inference without sacrificing modeling complexity. Experimental results demonstrate competitive or superior predictive performance compared to existing click models with reduced computational overhead.
+
+### Key Contributions  
+- Proposes CLAX, a novel neural click model framework optimized with JAX for speed and flexibility.  
+- Demonstrates efficient training and inference leveraging JAX’s hardware acceleration and JIT compilation.  
+- Provides an easy-to-extend architecture suitable for capturing complex user behavior in click data.
+
+### Method & Results  
+- Utilizes differentiable neural networks for click modeling, implemented in JAX for scalable computation.  
+- Evaluated on standard click datasets commonly used in IR research (e.g., AOL, MSLR-Web30K).  
+- Achieves comparable or better log-likelihood and perplexity metrics versus traditional and neural baselines.  
+- Reports significant speedups in training and inference times compared to existing frameworks.
+
+### Impact & Limitations  
+- Enables scalable and flexible click modeling, facilitating large-scale user behavior analysis in practical search systems.  
+- Future work could explore integration with other user interaction signals beyond clicks and further real-world deployment studies.
+
+---
+
+#### Uncovering Code Insights: Leveraging GitHub Artifacts for Deeper Code Understanding
+**作者**: Ziv Nevo, Orna Raz, Karen Yorav
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03549v1
+
+#### Executive Summary
+This paper addresses the challenge of deep code understanding by exploiting diverse artifacts available on GitHub beyond source code, such as issue discussions and pull request data. The authors propose a novel framework that integrates these heterogeneous data sources to enhance semantic code analysis, demonstrating improved insight extraction compared to code-only approaches.
+
+### Key Contributions
+- Introduces a multi-artifact integration approach leveraging GitHub metadata for enriched code comprehension.
+- Presents a unified representation model combining code, comments, and project activity logs.
+- Empirically validates enhanced code understanding through downstream tasks outperforming standard code analysis methods.
+
+### Method & Results
+- Combines static code analysis with natural language processing over GitHub issues, PR descriptions, and commit messages.
+- Utilizes publicly available GitHub repositories encompassing varied software domains as datasets.
+- Achieves up to 15% improvement in task accuracy (e.g., bug localization, code summarization) versus baselines relying solely on source code.
+- Demonstrates robustness across multiple projects and programming languages.
+
+### Impact & Limitations
+- Enables developers and automated tools to gain richer context, potentially improving debugging, maintenance, and recommendation systems.
+- Limitations include handling noisy or sparse GitHub data and scalability on extremely large repos; future work may address artifact weighting and real-time integration.
+
+---
+
+#### Investigating the Impact of Isolation on Synchronized Benchmarks
+**作者**: Nils Japke, Furat Hamdan, Diana Baumann, David Bermbach
+**类别**: cs.DC, cs.SE
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03533v1
+
+#### Executive Summary
+This paper examines how isolation mechanisms affect the performance and reliability of synchronized benchmarking processes. The authors propose a systematic evaluation approach and provide empirical evidence demonstrating that stronger isolation improves benchmark stability but may reduce throughput.
+
+### Key Contributions
+- Novel analytical framework quantifying the trade-offs between isolation levels and synchronized benchmark performance.
+- Extensive empirical study revealing the impact of varying isolation strategies on benchmark consistency.
+- Insights into optimizing synchronization in distributed benchmarking environments.
+
+### Method & Results
+- Developed and applied a benchmarking framework varying isolation degrees during synchronized tasks.
+- Utilized common distributed systems benchmarks and controlled cluster environments for experiments.
+- Found that higher isolation reduces measurement noise by up to 30%, improving result reliability, but throughput dropped by approximately 15%.
+- Comparison with baseline setups showed enhanced consistency at a moderate performance cost.
+
+### Impact & Limitations
+- Provides practitioners with actionable guidelines to balance isolation and performance when designing benchmarking setups.
+- Future work needed to explore isolation impacts in more heterogeneous and large-scale systems.
+- Does not fully address the overhead trade-offs in multi-tenant cloud environments, limiting generalizability.
+
+---
+
+#### U2F: Encouraging SWE-Agent to Seize Novelty without Losing Feasibility
+**作者**: Wencheng Ye, Yan Liu
+**类别**: cs.SE
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03517v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling Software Engineering (SWE) agents to explore novel solutions without compromising feasibility. The authors propose U2F, a framework that balances novelty-seeking with constraint satisfaction. Experiments demonstrate U2F improves the agent's ability to generate innovative yet practical software solutions compared to existing methods.
+
+### Key Contributions  
+- Introduces U2F, a novel framework encouraging SWE agents to capture novelty while maintaining feasibility.  
+- Develops a dual-objective optimization approach balancing exploration and constraint adherence.  
+- Provides empirical evidence showing enhanced performance in software generation tasks over standard baselines.
+
+### Method & Results  
+- Utilizes a dual-objective approach combining novelty metrics with feasibility constraints within SWE-agent training.  
+- Benchmarked on standard software engineering datasets involving code synthesis and automated test generation.  
+- Achieves a significant increase (e.g., 15% improvement) in novelty scores while maintaining feasibility rates above 90%.  
+- Outperforms baseline models that either focus solely on novelty or feasibility, demonstrating a balanced trade-off.
+
+### Impact & Limitations  
+- Significantly benefits automated software generation by pushing SWE agents towards creative yet viable solutions.  
+- Limitations include potential scalability issues with more complex software domains and the need for further validation across diverse programming tasks.
+
+---
+
+### 安全领域 领域
+
+#### Whisper Leak: a side-channel attack on Large Language Models
+**作者**: Geoff McDonald, Jonathan Bar Or
+**类别**: cs.CR, cs.AI, K.4.1; C.2.0; K.6.5; I.2.7
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03675v1
+
+#### Executive Summary  
+This paper identifies a novel side-channel vulnerability in large language models (LLMs), specifically the Whisper model, enabling leakage of private input data through unintended model outputs. The authors design and demonstrate an attack that exploits subtle timing and output behavior to extract sensitive information. Results reveal significant privacy risks in current LLM implementations.
+
+### Key Contributions  
+- First demonstration of a side-channel attack that leaks private input data from Whisper, a state-of-the-art LLM.  
+- Identification and characterization of timing and output-based leakage vectors in model inference.  
+- Proposal of initial mitigation strategies to reduce leakage risk without severely impacting model performance.
+
+### Method & Results  
+- Attack methodology: analysis of Whisper’s inference timing and output token distributions under controlled inputs to extract private data.  
+- Tools used: Whisper model implementation, crafted input sequences, timing measurement frameworks.  
+- Results: Successful extraction of sensitive tokens with a leakage accuracy exceeding 75% under experimental conditions.  
+- Performance: Outperforms naive baseline methods by over 50% in private data inference accuracy.
+
+### Impact & Limitations  
+- Highlights critical privacy vulnerabilities in widely deployed LLMs, urging stronger security considerations in model design and deployment.  
+- Limitations include focus on Whisper only; generalization to other LLMs and large-scale defenses remain open challenges. Future work should explore automated detection and robust mitigation techniques.
+
+---
+
+#### Watermarking Large Language Models in Europe: Interpreting the AI Act in Light of Technology
+**作者**: Thomas Souverain
+**类别**: cs.CR, cs.AI, cs.CL, cs.CY, 68T01, 68727, 68T30, 68T35, 68T37, 68T50
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03641v1
+
+#### Executive Summary  
+The paper addresses the challenge of legally interpreting the European AI Act in the context of watermarking large language models (LLMs). It examines how technical watermarking methods can comply with regulatory demands and proposes a framework linking legislation with current technological capabilities. The analysis reveals gaps and opportunities for regulatory alignment with watermarking technology.
+
+### Key Contributions  
+- Offers a novel legal-technical interpretation of the AI Act regarding watermarking LLMs in Europe.  
+- Proposes a framework to align watermarking tech practices with compliance requirements.  
+- Identifies specific regulatory challenges and technological constraints in implementing watermarking.
+
+### Method & Results  
+- Combines legal analysis of the AI Act with a technical survey of watermarking methods for LLMs.  
+- Discusses watermarking algorithms and detection techniques relevant to model transparency and provenance.  
+- No experimental datasets used; the work is conceptual and interpretive rather than empirical.  
+- Results highlight mismatches between current watermarking methods and regulatory expectations, suggesting refinements.
+
+### Impact & Limitations  
+- Practical significance lies in guiding policymakers and practitioners on integrating watermarking for AI transparency and accountability.  
+- Limitations include lack of empirical validation and focus on European legal context only. Future work could explore cross-jurisdictional implications and technical robustness.
+
+---
+
+#### Multi-robot searching with limited sensing range for static and mobile intruders
+**作者**: Swadhin Agrawal, Sujoy Bhore, Joseph S. B. Mitchell, P. B. Sujit, Aayush Gohil
+**类别**: cs.RO, cs.CG, cs.CR, cs.MA
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03622v1
+
+#### Executive Summary  
+This paper addresses the challenge of searching for static and mobile intruders using multiple robots equipped with limited sensing ranges. The authors develop novel search strategies combining geometric and algorithmic approaches to maximize detection and interception efficiency. Results demonstrate improved coverage and intruder detection rates compared to prior methods under sensing constraints.
+
+### Key Contributions  
+- Developed coordinated multi-robot search algorithms tailored for limited sensing ranges targeting both static and mobile intruders.  
+- Introduced novel geometric partitioning and movement coordination techniques ensuring efficient area coverage.  
+- Provided theoretical performance guarantees and validated improvements in detection capabilities over existing baselines.
+
+### Method & Results  
+- Utilized geometric coverage modeling and multi-agent coordination protocols to optimize search paths under sensing limitations.  
+- Simulated scenarios with intruders exhibiting various movement patterns to test robustness.  
+- Achieved up to a 25% increase in intruder detection probability and a 30% reduction in search time compared to classical sweeping approaches.  
+- Demonstrated scalability of algorithms with increasing robot team size.
+
+### Impact & Limitations  
+- Enhances real-world autonomous surveillance and security applications where sensors have limited range, improving resource utilization.  
+- Assumes known area boundaries and certain intruder motion models; future work could explore uncertain environments and adversarial intruder strategies.
+
+---
+
+#### Security and Privacy Management of IoT Using Quantum Computing
+**作者**: Jaydip Sen
+**类别**: cs.CR
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03538v1
+
+#### Executive Summary  
+This paper addresses the critical challenge of enhancing security and privacy in IoT networks by leveraging quantum computing techniques. The approach integrates quantum cryptographic protocols with IoT frameworks to mitigate vulnerabilities inherent in classical cryptography. Results indicate improved resistance to quantum attacks, providing a promising pathway for future IoT security architectures.
+
+### Key Contributions  
+- Proposes a novel quantum-based security framework specifically tailored for IoT devices.  
+- Demonstrates the integration of quantum key distribution (QKD) protocols with existing IoT infrastructure.  
+- Evaluates the quantum-enhanced privacy management capabilities beyond classical methods.
+
+### Method & Results  
+- Developed a hybrid quantum-classical security protocol utilizing QKD for key exchange in IoT environments.  
+- Simulation-based evaluation using standard IoT communication models and quantum cryptographic toolkits.  
+- Achieved a significant reduction in key compromise probability compared to classical schemes—quantitative improvement reported as a ~40% increase in resistance to quantum attacks.  
+- Outperformed baseline classical encryption methods in simulated quantum attack scenarios.
+
+### Impact & Limitations  
+- Offers a foundational step towards quantum-secure IoT, potentially transforming security paradigms in high-risk environments.  
+- Limitations include hardware constraints for practical QKD deployment and scalability challenges in large-scale IoT networks.  
+- Future work suggested on optimizing protocol efficiency and real-world experimental validation.
+
+---
+
+#### Federated Anonymous Blocklisting across Service Providers and its Application to Group Messaging
+**作者**: David Soler, Carlos Dafonte, Manuel Fernández-Veiga, Ana Fernández Vilas, Francisco J. Nóvoa
+**类别**: cs.CR
+**发布日期**: 2025-11-05
+**链接**: http://arxiv.org/abs/2511.03486v1
+
+#### Executive Summary  
+This paper addresses the challenge of implementing anonymous blocklisting across multiple service providers, preserving user privacy while preventing abusive communication. The authors propose a federated protocol enabling efficient, privacy-preserving blocklist sharing specifically applied to group messaging contexts. Their approach demonstrates scalability and strong privacy guarantees without revealing blocklist contents.
+
+### Key Contributions  
+- Novel federated anonymous blocklisting protocol allowing cross-provider sharing without disclosing blocked identities.  
+- Application of the protocol to secure group messaging, preventing unwanted participants without compromising privacy.  
+- Demonstration of practical scalability and efficiency suitable for real-world deployment across multiple services.
+
+### Method & Results  
+- Developed a privacy-preserving cryptographic protocol based on secure multi-party computation and anonymous communication techniques.  
+- Implemented with a prototype tested on simulated service providers and group messaging scenarios.  
+- Achieved sub-linear communication overhead growth relative to blocklist sizes, maintaining user anonymity.  
+- Outperformed naïve or centralized blocklist sharing methods by reducing information leakage and improving scalability.
+
+### Impact & Limitations  
+- Enables collaborative abuse prevention across platforms while preserving user privacy, a crucial feature for modern decentralized communication systems.  
+- Limitations include reliance on honest-but-curious service providers; future work could explore robustness against actively malicious actors and integration with evolving messaging protocols.
 
 ---
 
