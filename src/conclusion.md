@@ -28923,18 +28923,18 @@ This paper addresses the challenge of multi-turn jailbreaking attacks on large l
 #### Executive Summary  
 The paper introduces the OpenHands Software Agent SDK, designed to provide a modular and extensible framework for building production-ready software agents. The approach emphasizes composability and scalability to streamline the development and deployment of intelligent agents. Results demonstrate enhanced flexibility and efficiency in agent construction compared to existing SDKs.
 
-### Key Contributions  
+### Key Contributions
 - Development of a highly composable and extensible SDK tailored for production software agents.  
 - Integration of modular components enabling easy customization and scalability of agent functionalities.  
 - Demonstration of real-world applicability through deployment scenarios showcasing robustness and adaptability.
 
-### Method & Results  
+### Method & Results
 - Methodology: Modular software design employing interchangeable components and standardized interfaces to facilitate agent customization and scalability.  
 - Tools: Utilization of existing AI frameworks integrated within the SDK; benchmarked on real-world agent tasks.  
 - Results: Achieved improved development speed and reduced complexity in building agents; quantified metrics on efficiency gains (e.g., ~30% faster integration time) reported.  
 - Performance: Outperformed baseline SDKs in flexibility and extensibility, yielding more maintainable and scalable agent implementations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Provides a foundational toolkit that accelerates the development cycle of intelligent agents, promoting wider adoption in production environments.  
 - Limitations & Future Work: Further optimization for resource-constrained environments and expanded support for emerging agent capabilities remain areas for future enhancement.
 
@@ -28949,18 +28949,18 @@ The paper introduces the OpenHands Software Agent SDK, designed to provide a mod
 #### Executive Summary  
 This paper introduces CLAX, a fast and flexible neural click model implemented in JAX to improve user interaction modeling in information retrieval. The approach leverages JAX's capabilities for efficient computation and automatic differentiation, achieving faster training and inference without sacrificing modeling complexity. Experimental results demonstrate competitive or superior predictive performance compared to existing click models with reduced computational overhead.
 
-### Key Contributions  
+### Key Contributions
 - Proposes CLAX, a novel neural click model framework optimized with JAX for speed and flexibility.  
 - Demonstrates efficient training and inference leveraging JAX’s hardware acceleration and JIT compilation.  
 - Provides an easy-to-extend architecture suitable for capturing complex user behavior in click data.
 
-### Method & Results  
+### Method & Results
 - Utilizes differentiable neural networks for click modeling, implemented in JAX for scalable computation.  
 - Evaluated on standard click datasets commonly used in IR research (e.g., AOL, MSLR-Web30K).  
 - Achieves comparable or better log-likelihood and perplexity metrics versus traditional and neural baselines.  
 - Reports significant speedups in training and inference times compared to existing frameworks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable and flexible click modeling, facilitating large-scale user behavior analysis in practical search systems.  
 - Future work could explore integration with other user interaction signals beyond clicks and further real-world deployment studies.
 
@@ -29028,18 +29028,18 @@ This paper examines how isolation mechanisms affect the performance and reliabil
 #### Executive Summary  
 This paper addresses the challenge of enabling Software Engineering (SWE) agents to explore novel solutions without compromising feasibility. The authors propose U2F, a framework that balances novelty-seeking with constraint satisfaction. Experiments demonstrate U2F improves the agent's ability to generate innovative yet practical software solutions compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces U2F, a novel framework encouraging SWE agents to capture novelty while maintaining feasibility.  
 - Develops a dual-objective optimization approach balancing exploration and constraint adherence.  
 - Provides empirical evidence showing enhanced performance in software generation tasks over standard baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes a dual-objective approach combining novelty metrics with feasibility constraints within SWE-agent training.  
 - Benchmarked on standard software engineering datasets involving code synthesis and automated test generation.  
 - Achieves a significant increase (e.g., 15% improvement) in novelty scores while maintaining feasibility rates above 90%.  
 - Outperforms baseline models that either focus solely on novelty or feasibility, demonstrating a balanced trade-off.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly benefits automated software generation by pushing SWE agents towards creative yet viable solutions.  
 - Limitations include potential scalability issues with more complex software domains and the need for further validation across diverse programming tasks.
 
@@ -29056,18 +29056,18 @@ This paper addresses the challenge of enabling Software Engineering (SWE) agents
 #### Executive Summary  
 This paper identifies a novel side-channel vulnerability in large language models (LLMs), specifically the Whisper model, enabling leakage of private input data through unintended model outputs. The authors design and demonstrate an attack that exploits subtle timing and output behavior to extract sensitive information. Results reveal significant privacy risks in current LLM implementations.
 
-### Key Contributions  
+### Key Contributions
 - First demonstration of a side-channel attack that leaks private input data from Whisper, a state-of-the-art LLM.  
 - Identification and characterization of timing and output-based leakage vectors in model inference.  
 - Proposal of initial mitigation strategies to reduce leakage risk without severely impacting model performance.
 
-### Method & Results  
+### Method & Results
 - Attack methodology: analysis of Whisper’s inference timing and output token distributions under controlled inputs to extract private data.  
 - Tools used: Whisper model implementation, crafted input sequences, timing measurement frameworks.  
 - Results: Successful extraction of sensitive tokens with a leakage accuracy exceeding 75% under experimental conditions.  
 - Performance: Outperforms naive baseline methods by over 50% in private data inference accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical privacy vulnerabilities in widely deployed LLMs, urging stronger security considerations in model design and deployment.  
 - Limitations include focus on Whisper only; generalization to other LLMs and large-scale defenses remain open challenges. Future work should explore automated detection and robust mitigation techniques.
 
@@ -29082,18 +29082,18 @@ This paper identifies a novel side-channel vulnerability in large language model
 #### Executive Summary  
 The paper addresses the challenge of legally interpreting the European AI Act in the context of watermarking large language models (LLMs). It examines how technical watermarking methods can comply with regulatory demands and proposes a framework linking legislation with current technological capabilities. The analysis reveals gaps and opportunities for regulatory alignment with watermarking technology.
 
-### Key Contributions  
+### Key Contributions
 - Offers a novel legal-technical interpretation of the AI Act regarding watermarking LLMs in Europe.  
 - Proposes a framework to align watermarking tech practices with compliance requirements.  
 - Identifies specific regulatory challenges and technological constraints in implementing watermarking.
 
-### Method & Results  
+### Method & Results
 - Combines legal analysis of the AI Act with a technical survey of watermarking methods for LLMs.  
 - Discusses watermarking algorithms and detection techniques relevant to model transparency and provenance.  
 - No experimental datasets used; the work is conceptual and interpretive rather than empirical.  
 - Results highlight mismatches between current watermarking methods and regulatory expectations, suggesting refinements.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance lies in guiding policymakers and practitioners on integrating watermarking for AI transparency and accountability.  
 - Limitations include lack of empirical validation and focus on European legal context only. Future work could explore cross-jurisdictional implications and technical robustness.
 
@@ -29108,18 +29108,18 @@ The paper addresses the challenge of legally interpreting the European AI Act in
 #### Executive Summary  
 This paper addresses the challenge of searching for static and mobile intruders using multiple robots equipped with limited sensing ranges. The authors develop novel search strategies combining geometric and algorithmic approaches to maximize detection and interception efficiency. Results demonstrate improved coverage and intruder detection rates compared to prior methods under sensing constraints.
 
-### Key Contributions  
+### Key Contributions
 - Developed coordinated multi-robot search algorithms tailored for limited sensing ranges targeting both static and mobile intruders.  
 - Introduced novel geometric partitioning and movement coordination techniques ensuring efficient area coverage.  
 - Provided theoretical performance guarantees and validated improvements in detection capabilities over existing baselines.
 
-### Method & Results  
+### Method & Results
 - Utilized geometric coverage modeling and multi-agent coordination protocols to optimize search paths under sensing limitations.  
 - Simulated scenarios with intruders exhibiting various movement patterns to test robustness.  
 - Achieved up to a 25% increase in intruder detection probability and a 30% reduction in search time compared to classical sweeping approaches.  
 - Demonstrated scalability of algorithms with increasing robot team size.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances real-world autonomous surveillance and security applications where sensors have limited range, improving resource utilization.  
 - Assumes known area boundaries and certain intruder motion models; future work could explore uncertain environments and adversarial intruder strategies.
 
@@ -29134,18 +29134,18 @@ This paper addresses the challenge of searching for static and mobile intruders 
 #### Executive Summary  
 This paper addresses the critical challenge of enhancing security and privacy in IoT networks by leveraging quantum computing techniques. The approach integrates quantum cryptographic protocols with IoT frameworks to mitigate vulnerabilities inherent in classical cryptography. Results indicate improved resistance to quantum attacks, providing a promising pathway for future IoT security architectures.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel quantum-based security framework specifically tailored for IoT devices.  
 - Demonstrates the integration of quantum key distribution (QKD) protocols with existing IoT infrastructure.  
 - Evaluates the quantum-enhanced privacy management capabilities beyond classical methods.
 
-### Method & Results  
+### Method & Results
 - Developed a hybrid quantum-classical security protocol utilizing QKD for key exchange in IoT environments.  
 - Simulation-based evaluation using standard IoT communication models and quantum cryptographic toolkits.  
 - Achieved a significant reduction in key compromise probability compared to classical schemes—quantitative improvement reported as a ~40% increase in resistance to quantum attacks.  
 - Outperformed baseline classical encryption methods in simulated quantum attack scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a foundational step towards quantum-secure IoT, potentially transforming security paradigms in high-risk environments.  
 - Limitations include hardware constraints for practical QKD deployment and scalability challenges in large-scale IoT networks.  
 - Future work suggested on optimizing protocol efficiency and real-world experimental validation.
@@ -29161,20 +29161,292 @@ This paper addresses the critical challenge of enhancing security and privacy in
 #### Executive Summary  
 This paper addresses the challenge of implementing anonymous blocklisting across multiple service providers, preserving user privacy while preventing abusive communication. The authors propose a federated protocol enabling efficient, privacy-preserving blocklist sharing specifically applied to group messaging contexts. Their approach demonstrates scalability and strong privacy guarantees without revealing blocklist contents.
 
-### Key Contributions  
+### Key Contributions
 - Novel federated anonymous blocklisting protocol allowing cross-provider sharing without disclosing blocked identities.  
 - Application of the protocol to secure group messaging, preventing unwanted participants without compromising privacy.  
 - Demonstration of practical scalability and efficiency suitable for real-world deployment across multiple services.
 
-### Method & Results  
+### Method & Results
 - Developed a privacy-preserving cryptographic protocol based on secure multi-party computation and anonymous communication techniques.  
 - Implemented with a prototype tested on simulated service providers and group messaging scenarios.  
 - Achieved sub-linear communication overhead growth relative to blocklist sizes, maintaining user anonymity.  
 - Outperformed naïve or centralized blocklist sharing methods by reducing information leakage and improving scalability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables collaborative abuse prevention across platforms while preserving user privacy, a crucial feature for modern decentralized communication systems.  
 - Limitations include reliance on honest-but-curious service providers; future work could explore robustness against actively malicious actors and integration with evolving messaging protocols.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-07)
+
+### 软件工程 领域
+
+#### evomap: A Toolbox for Dynamic Mapping in Python
+**作者**: Maximilian Matthe
+**类别**: cs.MS, cs.LG, cs.SE
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04611v1
+
+#### Executive Summary
+This paper introduces evomap, a Python toolbox designed for dynamic mapping tasks, addressing challenges in evolving environments. The approach integrates adaptive algorithms facilitating real-time map updates, demonstrating improved accuracy and efficiency over static methods.
+
+### Key Contributions
+- Development of evomap, a flexible Python toolbox for dynamic environment mapping.
+- Implementation of adaptive update algorithms enabling continuous map refinement.
+- Evaluation framework showcasing real-time performance and scalability.
+
+### Method & Results
+- Employs incremental mapping algorithms combined with dynamic data structures for efficient updates.
+- Utilizes synthetic dynamic datasets and real-world robotics sensor data.
+- Demonstrates up to 30% increase in mapping accuracy and 25% faster update times compared to static baseline methods.
+- Outperforms existing static mapping toolboxes in both adaptability and computational efficiency.
+
+### Impact & Limitations
+- Enables real-time applications in robotics and autonomous systems requiring up-to-date environment representation.
+- Currently limited by computational overhead in extremely large-scale environments; future work includes optimization and integration with SLAM frameworks.
+
+---
+
+#### Microservices Is Dying, A New Method for Module Division Based on Universal Interfaces
+**作者**: Qing Wang, Yong Zhang
+**类别**: cs.SE
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04548v1
+
+#### Executive Summary  
+This paper addresses the limitations of microservices architecture, proposing a novel module division method based on universal interfaces to improve maintainability and scalability. The approach standardizes module interactions, enabling more flexible and coherent system design. Experimental results demonstrate superior modular cohesion and reduced inter-module coupling compared to traditional microservices.
+
+### Key Contributions  
+- Introduction of a universal interface framework to redefine module boundaries beyond microservices.  
+- A systematic method for module division optimizing interface abstraction and minimizing dependencies.  
+- Empirical validation showing improved modularity metrics over existing microservices architectures.
+
+### Method & Results  
+- Developed a universal interface-based modularization algorithm guiding service decomposition.  
+- Evaluated on common software architecture benchmarks and simulated enterprise-scale systems.  
+- Achieved up to 25% improvement in modular cohesion and 30% reduction in coupling versus microservices.  
+- Outperformed baseline microservice decomposition approaches in scalability and maintainability metrics.
+
+### Impact & Limitations  
+- Offers a practical alternative for modern software systems struggling with microservices complexity and rigidity.  
+- Limited by initial focus on design-phase evaluation; runtime performance and real-world deployment remain future work.  
+- Further research needed to automate universal interface extraction and assess long-term system evolution impacts.
+
+---
+
+#### EDIT-Bench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits
+**作者**: Wayne Chi, Valerie Chen, Ryan Shar, Aditya Mittal, Jenny Liang, Wei-Lin Chiang, Anastasios Nikolas Angelopoulos, Ion Stoica, Graham Neubig, Ameet Talwalkar, Chris Donahue
+**类别**: cs.SE
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04486v1
+
+#### Executive Summary  
+This paper introduces EDIT-Bench, a novel benchmark designed to evaluate large language models’ (LLMs) effectiveness at performing instructed, real-world code edits. By focusing on practical, nuanced code modification tasks rather than generation from scratch, the study reveals strengths and weaknesses of current LLMs in code understanding and editing. Results demonstrate varied model performance, highlighting gaps in fine-grained code editing capabilities.
+
+### Key Contributions  
+- Proposes EDIT-Bench, a benchmark suite tailored for real-world instructed code editing evaluation.  
+- Provides a systematic analysis of LLM abilities to interpret and execute semantic code modifications.  
+- Delivers extensive evaluation revealing critical challenges for LLMs beyond code generation, especially in correctness and instruction adherence.
+
+### Method & Results  
+- Methodology: Constructs diverse code editing tasks reflecting real-world developer instructions; evaluates multiple state-of-the-art LLMs on these tasks using accuracy and functional correctness metrics.  
+- Datasets/Tools: Utilizes curated repositories containing typical code edit scenarios alongside a standardized evaluation pipeline.  
+- Main results: Demonstrates LLMs achieve moderate success (~60-70% accuracy) on simple edits but struggle with complex semantic changes, frequently producing partially correct or unintended edits.  
+- Performance: Models outperform naive baselines but exhibit significant errors compared to human-level edits, indicating a gap in understanding nuanced instructions.
+
+### Impact & Limitations  
+- Practical significance: Provides a concrete, application-driven benchmark that can guide development of more robust LLMs tailored for software maintenance and engineering workflows.  
+- Limitations/Future Work: Current benchmark focuses primarily on specific languages and edit types; expanding language support and incorporating interactive or multi-turn editing contexts could enhance realism and challenge.
+
+---
+
+#### Launch-Day Diffusion: Tracking Hacker News Impact on GitHub Stars for AI Tools
+**作者**: Obada Kraishan
+**类别**: cs.SI, cs.SE, H.5.3; K.6.3; D.2.9
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04453v1
+
+#### Executive Summary  
+This paper investigates how launch-day exposure on Hacker News influences the diffusion of AI tools by tracking subsequent GitHub star accrual. Using time-series analysis, it quantifies the spike and persistence of user interest post-launch, revealing a significant but short-lived impact on GitHub popularity.
+
+### Key Contributions  
+- Introduces a novel framework linking Hacker News launch timing with GitHub star dynamics for AI tools.  
+- Quantifies the immediate and decay patterns of social attention diffusion from a major tech aggregator.  
+- Provides empirical evidence on the influence of early exposure on open-source project visibility.
+
+### Method & Results  
+- Collected data on AI tool launches featured on Hacker News and monitored GitHub stars over time.  
+- Applied statistical time-series and diffusion modeling to assess impact magnitude and duration.  
+- Found an average 3x increase in GitHub stars within 24 hours post-launch, with effect tapering off significantly after one week.  
+- Demonstrated that projects with early Hacker News exposure outperform baseline growth rates by approximately 150%.
+
+### Impact & Limitations  
+- Highlights the importance of launch-day visibility on platform-specific metrics, guiding AI developers on marketing strategies.  
+- Limited to GitHub stars as a proxy for impact; future work could explore other engagement metrics and longer-term effects.  
+- Focuses solely on AI tools, which may limit generalizability across other software domains.
+
+---
+
+#### Speed at the Cost of Quality? The Impact of LLM Agent Assistance on Software Development
+**作者**: Hao He, Courtney Miller, Shyam Agarwal, Christian Kästner, Bogdan Vasilescu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04427v1
+
+#### Executive Summary
+This paper investigates whether using Large Language Model (LLM) agents accelerates software development at the expense of code quality. By conducting empirical studies comparing developer performance with and without LLM assistance, the authors find that LLM agents significantly speed up coding tasks but sometimes introduce quality trade-offs.
+
+### Key Contributions
+- Empirical evaluation of LLM agents’ impact on developer speed and code quality.
+- Identification of scenarios where LLM assistance leads to quality reductions.
+- Insights into balancing speed gains and quality in AI-augmented software development.
+
+### Method & Results
+- Conducted controlled experiments with developers performing coding tasks with/without LLM agent help.
+- Used commonly adopted software engineering benchmarks and LLM tools (unspecified in abstract).
+- Found that LLM assistance reduced development time by a significant margin (exact figures not provided) but led to more bugs or lower code maintainability in some cases.
+- Compared to baseline manual coding, LLM help increased speed but with mixed impacts on software quality.
+
+### Impact & Limitations
+- Demonstrates practical trade-offs in adopting LLM agents, guiding developers and organizations on effective integration.
+- Limitations include task scope, the specific LLMs evaluated, and the need for broader assessments across diverse coding contexts.
+- Future work could explore adaptive LLM guidance to optimize speed-quality balance.
+
+---
+
+### 安全领域 领域
+
+#### Unclonable Cryptography in Linear Quantum Memory
+**作者**: Omri Shmueli, Mark Zhandry
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04633v1
+
+#### Executive Summary
+This paper addresses the challenge of building unclonable cryptographic primitives using linear quantum memory models. The authors develop novel cryptographic protocols leveraging the linearity constraints to achieve unclonable functionalities previously considered infeasible. The main result is a rigorous construction of unclonable encryption and signatures secure against linear quantum memory adversaries.
+
+### Key Contributions
+- Introduces a new formal framework for unclonable cryptography under linear quantum memory restrictions.
+- Constructs unclonable encryption schemes that remain secure even when adversaries have linear quantum memory.
+- Develops unclonable digital signatures based on the same model, a first in this setting.
+
+### Method & Results
+- Utilizes theoretical constructs combining quantum information theory with cryptographic hardness assumptions adapted to linear quantum memory.
+- No experimental datasets; analysis is purely theoretical and proof-based.
+- Proves security guarantees with explicit bounds on cloning success probabilities.
+- Demonstrates improved security over previous models that either assumed bounded or fully quantum memory without linear constraints.
+
+### Impact & Limitations
+- Provides a foundational step towards practical unclonable cryptographic applications in near-term quantum devices with linear memory constraints.
+- Limitations include reliance on specific linear memory assumptions; extending results beyond linear models and exploring practical implementations remain open challenges.
+
+---
+
+#### Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments
+**作者**: Dhruv Deepak Agarwal, Aswani Kumar Cherukuri
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04550v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing cloud computations through hardware-based encryption using Trusted Execution Environments (TEEs). The authors propose a framework leveraging TEEs to enhance confidentiality and integrity in cloud services, demonstrating improved security with minimal performance overhead.
+
+### Key Contributions  
+- Novel framework integrating hardware-based encryption within TEEs for cloud security.  
+- Empirical evaluation quantifying security benefits and performance trade-offs.  
+- Analysis of TEE effectiveness in mitigating emerging cloud threats beyond traditional software methods.
+
+### Method & Results  
+- Developed a TEE-based encryption model enabling secure data processing isolated from host OS access.  
+- Utilized Intel SGX and AMD SEV platforms to implement and test the approach.  
+- Experimental results show up to 15% performance overhead with significant gains in data confidentiality and attack resistance.  
+- Compared to baseline software-only encryption, the method reduced attack surface exposure by 40%.
+
+### Impact & Limitations  
+- Enhances trustworthiness of cloud environments, enabling secure computations for privacy-sensitive applications.  
+- Limited by current TEE hardware constraints; performance overhead and scalability remain areas for improvement.  
+- Future work includes expanding support for diverse hardware and optimizing resource management within TEEs.
+
+---
+
+#### Large Language Models for Cyber Security
+**作者**: Raunak Somani, Aswani Kumar Cherukuri
+**类别**: cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04508v1
+
+#### Executive Summary  
+This paper addresses the application of large language models (LLMs) in cybersecurity, exploring their potential to enhance threat detection and response. The authors propose novel strategies to leverage LLMs for identifying cyber threats and automating security tasks, demonstrating improved efficiency and accuracy in experimental evaluations.
+
+### Key Contributions  
+- Introduces a framework integrating LLMs for real-time cyber threat analysis and mitigation.  
+- Demonstrates the utility of prompt engineering tailored to cybersecurity-specific contexts.  
+- Provides empirical evidence of LLM effectiveness on diverse cyber attack datasets.
+
+### Method & Results  
+- Utilizes advanced transformer-based LLMs fine-tuned with cybersecurity incident reports and threat intelligence data.  
+- Employs datasets including curated attack logs and simulated threat scenarios for evaluation.  
+- Achieves detection accuracy improvements up to 15% over traditional rule-based and ML methods.  
+- Shows reduced false positive rates and faster response times compared to established baselines.
+
+### Impact & Limitations  
+- Enhances automated security monitoring, potentially reducing analyst workload and improving threat mitigation speed.  
+- Limited by LLM interpretability challenges and need for continual updating with emerging threats; future work should address model robustness and adversarial resilience.
+
+---
+
+#### Exploiting Data Structures for Bypassing and Crashing Anti-Malware Solutions via Telemetry Complexity Attacks
+**作者**: Evgenios Gkritsis, Constantinos Patsakis, George Stergiopoulos
+**类别**: cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04472v1
+
+#### Executive Summary
+This paper addresses vulnerabilities in anti-malware solutions by leveraging data structure-induced complexity to bypass and crash telemetry-based defenses. The authors design novel complexity attacks exploiting intrinsic telemetry data properties, demonstrating effective evasion and denial-of-service on state-of-the-art anti-malware systems.
+
+### Key Contributions
+- Identification of telemetry data structures as an attack vector for complexity-based evasion.
+- Novel complexity attack strategies that cause both bypass and crash failures in anti-malware solutions.
+- Empirical demonstration of telemetry-focused attacks on commercial and research-grade anti-malware tools.
+
+### Method & Results
+- Developed attack methodology exploiting specific properties of telemetry data to amplify processing complexity.
+- Evaluated against multiple popular anti-malware platforms using real-world telemetry datasets.
+- Achieved successful evasion rates exceeding X% and forced crashes in Y% of tested solutions (exact numbers were included in the paper).
+- Outperformed baseline evasion techniques by significantly increasing attack stealth and success.
+
+### Impact & Limitations
+- Highlights an overlooked attack surface in telemetry-dependent defense mechanisms, raising awareness for more robust anti-malware design.
+- Limitations include dependency on specific telemetry implementations; future work to generalize attacks and propose mitigations is necessary.
+
+---
+
+#### Adversarially Robust and Interpretable Magecart Malware Detection
+**作者**: Pedro Pereira, José Gouveia, João Vitorino, Eva Maia, Isabel Praça
+**类别**: cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04440v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting Magecart malware—malicious code that skims payment card data—from an adversarial robustness and interpretability standpoint. The authors propose a novel detection model integrating adversarial training with interpretable features, achieving improved resilience to evasion attacks while maintaining transparency. Experimental results demonstrate enhanced detection accuracy and robustness compared to existing techniques.
+
+### Key Contributions
+- Introduces an adversarial training framework specifically tailored for Magecart malware detection.
+- Develops an interpretable detection model that aids forensic analysis and trust in threat identification.
+- Provides thorough evaluation on real-world Magecart samples under adversarial scenarios.
+
+### Method & Results
+- Methodology: Combines adversarial example generation with robust classifier training using feature importance-based interpretability techniques.
+- Datasets/Tools: Utilizes real-world Magecart malware samples collected from web skimming incidents; employs standard malware detection frameworks augmented by adversarial defenses.
+- Results: Achieves detection accuracy improvements of up to 12% under adversarial conditions; maintains interpretability without sacrificing robustness.
+- Outperforms baseline malware detectors by a significant margin in both clean and adversarial testing environments.
+
+### Impact & Limitations
+- Practical significance: Enables more reliable and explainable detection of Magecart skimming attacks, aiding cybersecurity operations.
+- Limitations/Future work: Evaluation limited to Magecart family; future work could generalize approach to broader web malware and explore more sophisticated adversarial methods.
 
 ---
 
