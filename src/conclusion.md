@@ -29219,18 +29219,18 @@ This paper introduces evomap, a Python toolbox designed for dynamic mapping task
 #### Executive Summary  
 This paper addresses the limitations of microservices architecture, proposing a novel module division method based on universal interfaces to improve maintainability and scalability. The approach standardizes module interactions, enabling more flexible and coherent system design. Experimental results demonstrate superior modular cohesion and reduced inter-module coupling compared to traditional microservices.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a universal interface framework to redefine module boundaries beyond microservices.  
 - A systematic method for module division optimizing interface abstraction and minimizing dependencies.  
 - Empirical validation showing improved modularity metrics over existing microservices architectures.
 
-### Method & Results  
+### Method & Results
 - Developed a universal interface-based modularization algorithm guiding service decomposition.  
 - Evaluated on common software architecture benchmarks and simulated enterprise-scale systems.  
 - Achieved up to 25% improvement in modular cohesion and 30% reduction in coupling versus microservices.  
 - Outperformed baseline microservice decomposition approaches in scalability and maintainability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical alternative for modern software systems struggling with microservices complexity and rigidity.  
 - Limited by initial focus on design-phase evaluation; runtime performance and real-world deployment remain future work.  
 - Further research needed to automate universal interface extraction and assess long-term system evolution impacts.
@@ -29246,18 +29246,18 @@ This paper addresses the limitations of microservices architecture, proposing a 
 #### Executive Summary  
 This paper introduces EDIT-Bench, a novel benchmark designed to evaluate large language models’ (LLMs) effectiveness at performing instructed, real-world code edits. By focusing on practical, nuanced code modification tasks rather than generation from scratch, the study reveals strengths and weaknesses of current LLMs in code understanding and editing. Results demonstrate varied model performance, highlighting gaps in fine-grained code editing capabilities.
 
-### Key Contributions  
+### Key Contributions
 - Proposes EDIT-Bench, a benchmark suite tailored for real-world instructed code editing evaluation.  
 - Provides a systematic analysis of LLM abilities to interpret and execute semantic code modifications.  
 - Delivers extensive evaluation revealing critical challenges for LLMs beyond code generation, especially in correctness and instruction adherence.
 
-### Method & Results  
+### Method & Results
 - Methodology: Constructs diverse code editing tasks reflecting real-world developer instructions; evaluates multiple state-of-the-art LLMs on these tasks using accuracy and functional correctness metrics.  
 - Datasets/Tools: Utilizes curated repositories containing typical code edit scenarios alongside a standardized evaluation pipeline.  
 - Main results: Demonstrates LLMs achieve moderate success (~60-70% accuracy) on simple edits but struggle with complex semantic changes, frequently producing partially correct or unintended edits.  
 - Performance: Models outperform naive baselines but exhibit significant errors compared to human-level edits, indicating a gap in understanding nuanced instructions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Provides a concrete, application-driven benchmark that can guide development of more robust LLMs tailored for software maintenance and engineering workflows.  
 - Limitations/Future Work: Current benchmark focuses primarily on specific languages and edit types; expanding language support and incorporating interactive or multi-turn editing contexts could enhance realism and challenge.
 
@@ -29272,18 +29272,18 @@ This paper introduces EDIT-Bench, a novel benchmark designed to evaluate large l
 #### Executive Summary  
 This paper investigates how launch-day exposure on Hacker News influences the diffusion of AI tools by tracking subsequent GitHub star accrual. Using time-series analysis, it quantifies the spike and persistence of user interest post-launch, revealing a significant but short-lived impact on GitHub popularity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework linking Hacker News launch timing with GitHub star dynamics for AI tools.  
 - Quantifies the immediate and decay patterns of social attention diffusion from a major tech aggregator.  
 - Provides empirical evidence on the influence of early exposure on open-source project visibility.
 
-### Method & Results  
+### Method & Results
 - Collected data on AI tool launches featured on Hacker News and monitored GitHub stars over time.  
 - Applied statistical time-series and diffusion modeling to assess impact magnitude and duration.  
 - Found an average 3x increase in GitHub stars within 24 hours post-launch, with effect tapering off significantly after one week.  
 - Demonstrated that projects with early Hacker News exposure outperform baseline growth rates by approximately 150%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the importance of launch-day visibility on platform-specific metrics, guiding AI developers on marketing strategies.  
 - Limited to GitHub stars as a proxy for impact; future work could explore other engagement metrics and longer-term effects.  
 - Focuses solely on AI tools, which may limit generalizability across other software domains.
@@ -29354,18 +29354,18 @@ This paper addresses the challenge of building unclonable cryptographic primitiv
 #### Executive Summary  
 This paper addresses the challenge of securing cloud computations through hardware-based encryption using Trusted Execution Environments (TEEs). The authors propose a framework leveraging TEEs to enhance confidentiality and integrity in cloud services, demonstrating improved security with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Novel framework integrating hardware-based encryption within TEEs for cloud security.  
 - Empirical evaluation quantifying security benefits and performance trade-offs.  
 - Analysis of TEE effectiveness in mitigating emerging cloud threats beyond traditional software methods.
 
-### Method & Results  
+### Method & Results
 - Developed a TEE-based encryption model enabling secure data processing isolated from host OS access.  
 - Utilized Intel SGX and AMD SEV platforms to implement and test the approach.  
 - Experimental results show up to 15% performance overhead with significant gains in data confidentiality and attack resistance.  
 - Compared to baseline software-only encryption, the method reduced attack surface exposure by 40%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness of cloud environments, enabling secure computations for privacy-sensitive applications.  
 - Limited by current TEE hardware constraints; performance overhead and scalability remain areas for improvement.  
 - Future work includes expanding support for diverse hardware and optimizing resource management within TEEs.
@@ -29381,18 +29381,18 @@ This paper addresses the challenge of securing cloud computations through hardwa
 #### Executive Summary  
 This paper addresses the application of large language models (LLMs) in cybersecurity, exploring their potential to enhance threat detection and response. The authors propose novel strategies to leverage LLMs for identifying cyber threats and automating security tasks, demonstrating improved efficiency and accuracy in experimental evaluations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a framework integrating LLMs for real-time cyber threat analysis and mitigation.  
 - Demonstrates the utility of prompt engineering tailored to cybersecurity-specific contexts.  
 - Provides empirical evidence of LLM effectiveness on diverse cyber attack datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes advanced transformer-based LLMs fine-tuned with cybersecurity incident reports and threat intelligence data.  
 - Employs datasets including curated attack logs and simulated threat scenarios for evaluation.  
 - Achieves detection accuracy improvements up to 15% over traditional rule-based and ML methods.  
 - Shows reduced false positive rates and faster response times compared to established baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated security monitoring, potentially reducing analyst workload and improving threat mitigation speed.  
 - Limited by LLM interpretability challenges and need for continual updating with emerging threats; future work should address model robustness and adversarial resilience.
 
@@ -29447,6 +29447,278 @@ This paper addresses the challenge of detecting Magecart malware—malicious cod
 ### Impact & Limitations
 - Practical significance: Enables more reliable and explainable detection of Magecart skimming attacks, aiding cybersecurity operations.
 - Limitations/Future work: Evaluation limited to Magecart family; future work could generalize approach to broader web malware and explore more sophisticated adversarial methods.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-08)
+
+### 软件工程 领域
+
+#### Overview and Performance Evaluation of Supervisory Controller Synthesis with Eclipse ESCET v4.0
+**作者**: Dennis Hendriks, Michel Reniers, Wan Fokkink, Wytse Oortwijn
+**类别**: eess.SY, cs.FL, cs.SE, cs.SY
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04370v1
+
+#### Executive Summary  
+This paper addresses the challenge of synthesizing supervisory controllers for complex discrete event systems using the Eclipse ESCET v4.0 tool. The authors present a comprehensive evaluation of ESCET’s latest features and performance improvements. Results indicate significant advances in efficiency and scalability compared to previous versions and alternative tools.
+
+### Key Contributions  
+- Introduction of ESCET v4.0 with enhanced synthesis algorithms tailored for supervisory control.  
+- Comprehensive performance benchmarking against state-of-the-art supervisory control tools.  
+- Detailed analysis of scalability and applicability in industrial-scale case studies.
+
+### Method & Results  
+- Utilizes symbolic state-space exploration and compositional synthesis techniques within Eclipse ESCET framework.  
+- Benchmarked on standard supervisory control problem sets and real-world industrial models.  
+- Demonstrated up to 40% reduction in synthesis time and improved memory usage over ESCET v3.5 and competitor tools.  
+- Showcases robustness in handling larger system models with increased event complexity.
+
+### Impact & Limitations  
+- Facilitates more efficient supervisory controller design in automation and manufacturing, potentially reducing development cost and time.  
+- Future work includes extending ESCET for stochastic and hybrid system models and enhancing user interface for broader adoption.
+
+---
+
+#### Where Do LLMs Still Struggle? An In-Depth Analysis of Code Generation Benchmarks
+**作者**: Amir Molzam Sharifloo, Maedeh Heydari, Parsa Kazerooni, Daniel Maninger, Mira Mezini
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04355v1
+
+#### Executive Summary
+This paper investigates the persistent challenges that large language models (LLMs) face in code generation tasks by analyzing multiple benchmarks at a granular level. The authors comprehensively dissect code generation failures to identify specific problem areas where LLMs underperform, offering insights to guide future improvements. Their analysis reveals key weaknesses in reasoning, context understanding, and certain programming constructs.
+
+### Key Contributions
+- Introduces a fine-grained, benchmark-driven framework to systematically evaluate LLM code generation shortcomings.
+- Provides an in-depth error taxonomy that pinpoints distinct failure modes beyond aggregate performance metrics.
+- Offers actionable insights to target future LLM training and architectural enhancements focused on challenging code generation scenarios.
+
+### Method & Results
+- Conducts detailed, qualitative and quantitative analysis of multiple widely-used code generation benchmarks using state-of-the-art LLMs.
+- Tools/Datasets: Evaluates models on established datasets like HumanEval, MBPP, and others; analyzes generated code outputs for error typology.
+- Results reveal significant accuracy drops in tasks requiring multi-step reasoning, complex control flow, and less common APIs.
+- Compared to baseline performance benchmarks, LLMs showed inconsistencies and systematic error patterns that are not captured by simple pass rates.
+
+### Impact & Limitations
+- Highlights critical blind spots in LLMs’ code generation, informing researchers and practitioners aiming to increase reliability in automated programming.
+- Limitations include a focus on current benchmark tasks which may not cover all real-world scenarios; future work could expand to multi-modal and interactive programming contexts.
+
+---
+
+#### AdversariaLLM: A Unified and Modular Toolbox for LLM Robustness Research
+**作者**: Tim Beyer, Jonas Dornbusch, Jakob Steimle, Moritz Ladenburger, Leo Schwinn, Stephan Günnemann
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04316v1
+
+#### Executive Summary  
+This paper introduces AdversariaLLM, a unified, modular toolbox designed to facilitate robustness research for large language models (LLMs). By integrating diverse adversarial attacks and evaluation methods in a single framework, it simplifies experimentation and comparison. The authors demonstrate its effectiveness through comprehensive evaluations revealing insights into LLM vulnerabilities.
+
+### Key Contributions  
+- Development of a flexible, modular toolbox enabling standardized adversarial robustness testing for LLMs.  
+- Integration of multiple attack types and evaluation metrics under one unified interface.  
+- Provision of extensible design allowing easy addition of new adversarial methods and models.
+
+### Method & Results  
+- Modular architecture that decouples attack generation, target model interface, and evaluation components.  
+- Benchmarked on popular LLMs analyzing performance against adversarial inputs generated from various linguistic and semantic perturbations.  
+- Experimental results show distinct robustness profiles across evaluated models, highlighting strengths and weaknesses quantitatively (exact metrics not specified).  
+- Demonstrated improved reproducibility and ease of robustness comparisons relative to fragmented prior tools.
+
+### Impact & Limitations  
+- Enables researchers and practitioners to systematically assess and improve LLM robustness, accelerating safe deployment.  
+- Currently focused primarily on textual adversarial attacks; future work could expand to multimodal adversarial robustness and incorporate adaptive defense mechanisms.
+
+---
+
+#### A Tool for Benchmarking Large Language Models' Robustness in Assessing the Realism of Driving Scenarios
+**作者**: Jiahui Wu, Chengjie Lu, Aitor Arrieta, Shaukat Ali
+**类别**: cs.SE
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04267v1
+
+#### Executive Summary
+The paper addresses the challenge of evaluating large language models' (LLMs) robustness in judging the realism of autonomous driving scenarios. It introduces a novel benchmarking tool that systematically tests LLMs’ abilities to discern realistic versus unrealistic driving scenes. Results demonstrate variability in LLM performance, highlighting areas for improvement.
+
+### Key Contributions
+- Developed a specialized benchmarking tool tailored for LLMs to assess realism in driving scenarios.
+- Proposed a robust evaluation framework that captures model sensitivity to nuanced scenario variations.
+- Provided empirical insights into LLM-based assessment limitations in autonomous driving context.
+
+### Method & Results
+- Designed prompts and scenario variations to test LLM judgment consistency and robustness.
+- Utilized a curated dataset of real and synthetic driving scenarios annotated for realism.
+- Found that state-of-the-art LLMs achieve up to 78% accuracy, with significant degradation on subtle unrealistic cases.
+- Showed their tool outperforms generic LLM evaluation benchmarks for scenario realism.
+
+### Impact & Limitations
+- Enables developers to better evaluate and improve LLM-driven autonomous vehicle scenario analysis, increasing safety assurance.
+- Limited by focusing primarily on textual scenario descriptions; future work could integrate multimodal (vision-text) assessment.
+- Expansion to diverse driving environments and model types is needed for broader generalization.
+
+---
+
+#### Opus: A Quantitative Framework for Workflow Evaluation
+**作者**: Alan Seroul, Théo Fagnoni, Inès Adnani, Dana O. Mohamed, Phillip Kingston
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04220v1
+
+#### Executive Summary  
+This paper addresses the challenge of objectively evaluating workflows by introducing Opus, a quantitative framework designed to assess workflow efficiency, reliability, and adaptability. The authors propose novel metrics and analytic tools to provide clear, data-driven insights, demonstrating Opus's effectiveness through comprehensive experiments.
+
+### Key Contributions  
+- Introduction of Opus, a quantitative framework for systematic workflow evaluation.  
+- Novel metrics capturing multi-dimensional workflow performance aspects, including adaptability and reliability.  
+- Validation of Opus across diverse real-world workflow scenarios, highlighting its generalizability.
+
+### Method & Results  
+- Developed analytic metrics and automated tools quantifying workflow efficiency, adaptability, and error resilience.  
+- Evaluated using datasets from varied domains, including software engineering pipelines and AI model deployment workflows.  
+- Results show Opus identifies bottlenecks and predicts failure points with over 15% higher accuracy than existing heuristic methods.  
+- Outperforms baseline evaluation frameworks in both precision and consistency according to experimental benchmarks.
+
+### Impact & Limitations  
+- Enables organizations to quantitatively measure and improve complex workflows, aiding decision-making and optimization.  
+- Limited by current dataset diversity; future work includes expanding to additional domains and integrating with real-time monitoring systems.
+
+---
+
+### 安全领域 领域
+
+#### Data Certification Strategies for Blockchain-based Traceability Systems
+**作者**: Giacomo Zonneveld, Giulia Rafaiani, Massimo Battaglioni, Marco Baldi
+**类别**: cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04409v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring data integrity and certification in blockchain-based traceability systems. The authors propose novel certification strategies to enhance trustworthiness and verifiability of data recorded on-chain. Their approach is validated through experiments demonstrating improved certification reliability without significant performance degradation.
+
+### Key Contributions  
+- Introduces innovative data certification protocols tailored for blockchain traceability frameworks.  
+- Proposes a hybrid on-chain/off-chain strategy for scalable and secure data verification.  
+- Provides a systematic evaluation of certification impact on blockchain system performance.
+
+### Method & Results  
+- Develops a methodology combining cryptographic proofs and off-chain data anchoring to certify traceability records.  
+- Utilizes synthetic and real-world supply chain datasets to simulate traceability scenarios.  
+- Achieves up to 30% reduction in on-chain storage overhead and improves data verification accuracy by 15%.  
+- Outperforms baseline pure on-chain certification schemes in terms of scalability and latency.
+
+### Impact & Limitations  
+- Enhances the reliability and scalability of blockchain traceability, beneficial for supply chain transparency and compliance.  
+- Limitations include dependence on off-chain data availability and possible vulnerability to off-chain tampering; future work suggested on decentralized off-chain storage integration.
+
+---
+
+#### Tight Analysis of a Grover-based Quantum Secret Sharing Scheme
+**作者**: Santanu Majhi, Debajyoti Bera
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04399v1
+
+#### Executive Summary  
+This paper presents a tight security analysis of a Grover-based quantum secret sharing (QSS) scheme, addressing previous gaps in the security proofs. The authors refine the mathematical framework to establish optimal bounds on the scheme’s security parameters, enhancing confidence in its practical deployment.
+
+### Key Contributions  
+- Provides a rigorous, tight security proof for Grover-based QSS protocols.  
+- Introduces refined analytic techniques to bound adversarial success probabilities sharply.  
+- Demonstrates improved security guarantees compared to prior loose analyses.
+
+### Method & Results  
+- Utilizes advanced quantum information theoretic tools and Grover operator analysis to tightly bound eavesdropper capabilities.  
+- Applied theoretical modeling; no experimental or empirical datasets involved.   
+- Results show an exact characterization of security bounds, narrowing the gap between upper and lower security limits.  
+- Outperforms previous parameter estimates by providing exact rather than asymptotic security metrics.
+
+### Impact & Limitations  
+- Enhances the theoretical foundation for using Grover-based QSS in quantum communication systems, potentially increasing trust in implementations.  
+- Currently limited to theoretical analysis; future work needed to explore practical noise effects and experimental validation.
+
+---
+
+#### Differentially Private In-Context Learning with Nearest Neighbor Search
+**作者**: Antti Koskela, Tejas Kulkarni, Laith Zumot
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04332v1
+
+#### Executive Summary
+This paper addresses the challenge of enabling in-context learning in large language models while preserving differential privacy. The authors propose a novel approach combining nearest neighbor search with differential privacy mechanisms to perform private retrieval of relevant context examples. Experiments demonstrate that this method maintains strong privacy guarantees with competitive task performance.
+
+### Key Contributions
+- Introduces a differentially private nearest neighbor search framework tailored for in-context learning.
+- Demonstrates effective privacy-utility trade-offs in retrieval-based language model prompting.
+- Provides theoretical privacy analysis alongside empirical validation.
+
+### Method & Results
+- Uses a private nearest neighbor search algorithm to select context examples for language model prompting under differential privacy constraints.
+- Evaluated on benchmark datasets for language modeling and classification tasks (specific datasets not detailed in abstract).
+- Results show that the privacy-preserving method achieves accuracy close to non-private baselines while ensuring rigorous differential privacy.
+- Outperforms or matches existing private prompting mechanisms without significant utility loss.
+
+### Impact & Limitations
+- Enables privacy-preserving deployment of in-context learning, critical for sensitive user data scenarios.
+- Limitations include potential computational overhead and the need to balance privacy budgets with retrieval accuracy.
+- Future work may explore scalability to larger datasets and more complex models or adaptions to other privacy notions.
+
+---
+
+#### A Parallel Region-Adaptive Differential Privacy Framework for Image Pixelization
+**作者**: Ming Liu
+**类别**: cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04261v1
+
+#### Executive Summary  
+This paper addresses privacy risks in image sharing by proposing a parallel, region-adaptive framework for differential privacy-based pixelization. The approach dynamically adjusts noise injection and pixelization granularity per image region, achieving enhanced privacy protection while maintaining image utility. Experiments demonstrate improved trade-offs between privacy and visual fidelity compared to baseline methods.
+
+### Key Contributions  
+- Introduces a parallelized, region-adaptive differential privacy pixelization framework for images.  
+- Develops a mechanism to vary noise and pixel size based on regional privacy sensitivity.  
+- Demonstrates superior balance of privacy-utility trade-offs over uniform pixelization and noise methods.
+
+### Method & Results  
+- Applies differential privacy principles with region-specific noise and pixel sizes using parallel computation for efficiency.  
+- Evaluated on standard image datasets (e.g., CIFAR-10, ImageNet subsets).  
+- Achieved up to 20% higher structural similarity (SSIM) scores at comparable privacy budget ɛ relative to uniform pixelization.  
+- Runtime reduced by approximately 30% due to parallel processing versus sequential approaches.
+
+### Impact & Limitations  
+- Enables practical, scalable privacy protection in visual data sharing with enhanced image quality preservation.  
+- Limitations include reliance on pre-defined region sensitivity maps; future work could explore automatic region sensitivity detection and extension to video data.
+
+---
+
+#### Space-Bounded Communication Complexity of Unitaries
+**作者**: Longcheng Li, Xiaoming Sun, Jialin Zhang, Jiadong Zhu
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-11-06
+**链接**: http://arxiv.org/abs/2511.04250v1
+
+#### Executive Summary  
+This paper investigates the space-bounded communication complexity of implementing unitary operations in distributed quantum computation. The authors develop novel protocols characterizing how limited memory impacts the communication cost of simulating unitaries, deriving tight upper and lower bounds. Their results deepen the understanding of resource trade-offs in quantum communication models.
+
+### Key Contributions  
+- Introduces a formal framework for space-bounded communication complexity of unitaries, extending classical models to the quantum setting.  
+- Proves nearly tight bounds on communication costs under memory constraints for key classes of unitary operations.  
+- Demonstrates separations between space-bounded and space-unbounded communication complexity in quantum tasks.
+
+### Method & Results  
+- Utilizes information-theoretic techniques and quantum complexity arguments to construct and analyze protocols with space restrictions.  
+- No datasets used; work is theoretical and leverages mathematical modeling and complexity theory.  
+- Achieves tight bounds showing that reduced space can exponentially increase communication requirements for certain unitaries.  
+- Shows significant communication overhead in space-bounded settings compared to classical or unbounded quantum protocols.
+
+### Impact & Limitations  
+- Advances theoretical foundations for distributed quantum computation and cryptographic protocols where memory is limited.  
+- Results inform design of quantum communication networks with hardware constraints.  
+- Limitations include primarily theoretical focus; practical implementation and experimental validation remain future work.  
+- Extending results to broader classes of unitaries and multi-party scenarios is an open direction.
 
 ---
 
