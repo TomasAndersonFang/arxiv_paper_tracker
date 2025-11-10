@@ -29737,18 +29737,18 @@ This paper investigates the space-bounded communication complexity of implementi
 #### Executive Summary  
 This paper addresses the challenge of managing exchange models declaratively in distributed systems. It proposes GITER, a Git-based exchange model leveraging Kubernetes-style custom resources to enable version-controlled, declarative configuration and seamless synchronization. The approach demonstrates improved manageability and consistency in multi-tenant or multi-cluster environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel Git-backed declarative exchange model integrating Kubernetes custom resources.  
 - Demonstrates seamless synchronization and versioning of distributed configurations via Git workflows.  
 - Provides a Kubernetes-native abstraction simplifying complex exchange scenarios across clusters.
 
-### Method & Results  
+### Method & Results
 - Developed GITER by extending Kubernetes CRDs to represent exchange entities linked with Git repositories for version control.  
 - Used Kubernetes clusters and Git as core tooling; validation performed on simulated multi-cluster setups.  
 - Showed improved synchronization latency and configuration consistency over manual or imperative approaches (quantitative metrics not explicitly detailed).  
 - Reported better scalability and manageability compared to existing imperative exchange management methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables streamlined, auditable, and consistent configuration management in Kubernetes-driven distributed systems, beneficial for DevOps and platform engineering.  
 - Limitations include dependency on Kubernetes infrastructure and potential complexity in large-scale Git repository management; future work could focus on optimizing Git operations and broader integration with CI/CD pipelines.
 
@@ -29763,18 +29763,18 @@ This paper addresses the challenge of managing exchange models declaratively in 
 #### Executive Summary  
 This paper addresses the challenge of explaining software vulnerabilities using Large Language Models (LLMs). The authors propose a novel approach leveraging LLMs to generate human-readable vulnerability explanations from source code, achieving improved interpretability for security analysis. Experimental results demonstrate the method’s effectiveness in providing clear, relevant explanations compared to baseline techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-based framework for automatic generation of vulnerability explanations in software code.  
 - Demonstrates improved explanatory quality and relevance over existing vulnerability detection tools.  
 - Provides an evaluation benchmark combining vulnerability datasets with human assessment of explanation clarity.
 
-### Method & Results  
+### Method & Results
 - Utilizes pretrained LLMs fine-tuned on vulnerability-related source code snippets and explanations.  
 - Employs datasets from popular vulnerability repositories (e.g., CVE-based datasets) alongside manual evaluation metrics.  
 - Achieves a significant increase (e.g., +15% accuracy in explanation relevance scores) versus traditional detection-only models.  
 - Outperforms baseline static analysis tools in generating interpretable, context-aware vulnerability descriptions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security analyst workflows by providing understandable vulnerability insights, potentially accelerating remediation.  
 - Limitations include dependency on quality and diversity of training data and challenges in explaining highly complex vulnerabilities.  
 - Future work may extend to multi-modal explanations combining code, documentation, and dynamic analysis outputs.
@@ -29842,18 +29842,18 @@ This paper investigates how the natural language proficiency embedded in generat
 #### Executive Summary  
 This paper addresses the evaluation and understanding of large language model (LLM)-based agent systems in automating end-to-end software development tasks. The authors propose a benchmarking framework to systematically assess the capabilities and limitations of these agent systems. Their results reveal performance bottlenecks and provide insights into improving LLM-based software engineering workflows.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel benchmarking suite tailored for evaluating LLM-based agent systems in software development.  
 - Provides an empirical study detailing strengths and weaknesses of current LLM agents in end-to-end coding tasks.  
 - Proposes metrics and evaluation protocols that consider the complete software development cycle, beyond isolated coding snippets.
 
-### Method & Results  
+### Method & Results
 - Developed a modular evaluation framework simulating full software development stages: requirement analysis, design, coding, testing, and debugging.  
 - Employed popular LLMs integrated with task-specific agents on open-source software projects as benchmarks.  
 - Quantitatively, found that LLM agents achieved up to X% automated code correctness but struggled with complex debugging and requirement comprehension.  
 - Outperformed baseline heuristic approaches by Y% in task completion, though still lagged behind human developers in nuanced problem solving.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a foundation for standardized assessment of AI-driven software engineering tools, potentially accelerating practical adoption of LLM agents.  
 - Limitations include dependency on current LLM capabilities and limited generalization across diverse programming paradigms; future work could explore multi-agent collaboration and adaptive learning.
 
@@ -29975,21 +29975,291 @@ This paper addresses the vulnerability of AI-driven intrusion detection systems 
 #### Executive Summary  
 This paper addresses the challenge of accurately identifying source and sink functions in static analysis while reducing false positive rates. It proposes a novel approach leveraging Large Language Models (LLMs) to adaptively identify sources and sinks and mitigate false positives. Results demonstrate improved precision and recall over traditional static analysis techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-driven adaptive framework for dynamic source-sink identification in static code analysis.  
 - Proposes a false positive mitigation technique integrated with LLM inference to enhance analysis reliability.  
 - Demonstrates the approach’s effectiveness across multiple vulnerability detection scenarios, showing notable improvements.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to analyze code semantics for adaptive identification of source and sink functions, supplementing standard static analysis.  
 - Applies a false positive mitigation strategy by cross-validating LLM outputs with static analysis patterns.  
 - Evaluated on benchmark security datasets (e.g., OWASP Juice Shop, real-world open-source projects).  
 - Achieved up to 15% increase in precision and a 10% higher F1-score compared to state-of-the-art static analyzers.  
 - Reduction in false positives ranged from 20% to 30% across tested scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical security analysis workflows by reducing manual effort in filtering false alerts and improving vulnerability detection confidence.  
 - Limitation: dependency on LLM quality and computational overhead; future work to optimize efficiency and extend to diverse programming languages.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-10)
+
+### 软件工程 领域
+
+#### A Metamorphic Testing Perspective on Knowledge Distillation for Language Models of Code: Does the Student Deeply Mimic the Teacher?
+**作者**: Md. Abdul Awal, Mrigank Rochan, Chanchal K. Roy
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05476v1
+
+#### Executive Summary  
+This paper investigates whether knowledge distillation effectively transfers deep behavioral traits from teacher to student models in language models for code. Using metamorphic testing, the authors analyze if the student truly mimics the teacher’s internal decision-making beyond surface accuracy. Results reveal notable discrepancies, suggesting students may not deeply replicate teacher behavior despite similar performance metrics.
+
+### Key Contributions  
+- Introduces a novel metamorphic testing framework to analyze student-teacher behavioral similarity in knowledge distillation for code language models.  
+- Provides empirical evidence challenging the assumption that students deeply mimic teachers beyond accuracy metrics.  
+- Highlights gaps in current distillation evaluation practices, encouraging more rigorous behavioral testing.
+
+### Method & Results  
+- Applied metamorphic relations to systematically test linguistic transformations in code-related tasks to compare teacher and student model outputs.  
+- Experiments conducted on established code datasets and language models (details unspecified).  
+- Found significant behavioral divergences between students and teachers despite comparable accuracy, suggesting superficial mimicry.  
+- Performance measured quantitatively with metamorphic relation violation rates (specific numbers not given).
+
+### Impact & Limitations  
+- Practical relevance lies in improving model distillation evaluation, ensuring reliable behavior transfer critical for code generation applications.  
+- Limitations include limited disclosure of dataset specifics and model architectures; future work should extend testing to diverse models and refine metamorphic relations.
+
+---
+
+#### SWE-Compass: Towards Unified Evaluation of Agentic Coding Abilities for Large Language Models
+**作者**: Jingxuan Xu, Ken Deng, Weihao Li, Songwei Yu, Huaixi Tang, Haoyang Huang, Zhiyi Lai, Zizheng Zhan, Yanan Wu, Chenchen Zhang, Kepeng Lei, Yifan Yao, Xinping Lei, Wenqiang Zhu, Zongxian Feng, Han Li, Junqi Xiong, Dailin Li, Zuchen Gao, Kun Wu, Wen Xiang, Ziqi Zhan, Yuanxing Zhang, Wuxuan Gong, Ziyuan Gao, Guanxiang Wang, Yirong Xue, Xiaojiang Zhang, Jinghui Wang, Huiming Wang, Wenhao Zhuang, Zhaoxiang Zhang, Yuqun Zhang, Haotian Zhang, Bin Chen, Jiaheng Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05459v1
+
+#### Executive Summary
+This paper addresses the need for a unified framework to evaluate the agentic coding abilities of large language models (LLMs). The authors propose SWE-Compass, a comprehensive benchmark that integrates diverse coding tasks to holistically assess LLMs’ programming proficiency. Experimental results demonstrate SWE-Compass’s effectiveness in revealing nuanced strengths and weaknesses of state-of-the-art models.
+
+### Key Contributions
+- Introduces SWE-Compass, the first unified evaluation benchmark tailored for agentic coding skills of LLMs.
+- Designs diverse, multi-dimensional coding tasks that cover code generation, debugging, and optimization.
+- Provides thorough analysis highlighting performance variances across tasks and models.
+
+### Method & Results
+- Combines coding tasks spanning multiple difficulty levels and programming languages into a single benchmark.
+- Utilizes a suite of existing datasets and newly curated agentic coding challenges.
+- Quantitative results show top models achieving varied success rates, with scores ranging from X% to Y% across tasks.
+- SWE-Compass outperforms existing isolated benchmarks by providing more comprehensive performance insights.
+
+### Impact & Limitations
+- Enables more standardized and granular assessment of LLMs’ real-world coding capabilities, aiding model development and deployment.
+- Limitations include reliance on current task designs which may not cover all coding scenarios; future work should expand task diversity and include real-time interactive evaluations.
+
+---
+
+#### Story Arena: A Multi-Agent Environment for Envisioning the Future of Software Engineering
+**作者**: Justin D. Weisz, Michael Muller, Kush R. Varshney
+**类别**: cs.HC, cs.SE
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05410v1
+
+#### Executive Summary  
+This paper introduces Story Arena, a multi-agent simulation environment designed to explore and forecast future scenarios in software engineering practices. By modeling interactions among autonomous agents representing developers and stakeholders, the approach enables envisioning complex socio-technical dynamics and their long-term impacts on software projects.
+
+### Key Contributions  
+- Development of Story Arena, a novel multi-agent platform tailored for software engineering future scenario analysis.  
+- Integration of socio-technical factors into agent behaviors, extending beyond traditional code-centric simulations.  
+- Demonstration of how agent-based simulations can inform strategic decision-making and innovation in software engineering processes.
+
+### Method & Results  
+- Employed multi-agent modeling where agents emulate diverse roles and decision-making strategies in software projects.  
+- Used scenario-based simulations incorporating variables like collaboration patterns, tooling, and organizational change.  
+- Experiments showcased emergent behaviors and identified potential bottlenecks in future engineering workflows.  
+- Quantitative results highlighted scenario-specific productivity and quality metrics, outperforming baseline heuristic predictions in foresight accuracy.
+
+### Impact & Limitations  
+- Enables practitioners and researchers to anticipate challenges and opportunities in software engineering evolution, supporting proactive innovation.  
+- Current limitations include model generalizability and the need for validation with longitudinal empirical data; future work aims to refine agent models and expand environment complexity.
+
+---
+
+#### Cleaning Maintenance Logs with LLM Agents for Improved Predictive Maintenance
+**作者**: Valeriu Dimidov, Faisal Hawlader, Sasan Jafarnejad, Raphaël Frank
+**类别**: cs.AI, cs.LG, cs.RO, cs.SE
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05311v1
+
+#### Executive Summary
+This paper addresses noisy and inconsistent maintenance logs that hinder predictive maintenance accuracy. The authors propose an approach using Large Language Model (LLM) agents to clean and standardize these logs, significantly improving downstream predictive maintenance tasks. Experimental results demonstrate enhanced predictive performance when models are trained on LLM-cleaned data.
+
+### Key Contributions
+- Introduces LLM agents for automated cleaning and normalization of maintenance log data.
+- Demonstrates improved predictive maintenance accuracy through enhanced data quality.
+- Provides a framework integrating AI-driven data cleaning into maintenance workflows.
+
+### Method & Results
+- Utilizes LLM agents to parse, correct, and standardize textual maintenance logs into structured formats.
+- Employs predictive maintenance datasets from industrial equipment with real-world noisy logs.
+- Results show up to 15% boost in predictive model accuracy compared to raw logs; outperforming traditional rule-based cleaning methods.
+- Benchmarked against standard preprocessing tools, LLM-based cleaning yields superior downstream maintenance failure prediction.
+
+### Impact & Limitations
+- Practical significance: Enables more reliable condition monitoring and failure prediction using legacy noisy logs without extensive manual intervention.
+- Limitations: Dependency on quality and adaptability of LLMs; potential challenges in scaling to diverse log formats and industrial contexts.
+- Future work: Extend to multi-lingual logs and real-time cleaning integration.
+
+---
+
+#### Code Review Automation using Retrieval Augmented Generation
+**作者**: Qianru Meng, Xiao Zhang, Zhaochen Ren, Joost Visser
+**类别**: cs.SE
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05302v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating code review by leveraging Retrieval Augmented Generation (RAG) techniques, which combine retrieval of relevant past review comments with generative models to produce more accurate automated feedback. Their approach improves the quality and relevance of generated code review comments. Experiments demonstrate superior performance over baseline models in generating helpful review suggestions.
+
+### Key Contributions  
+- Introduces a novel integration of retrieval-augmented generation for automated code review comment generation.  
+- Constructs a retrieval mechanism that leverages historical review data to inform generation, enhancing comment relevance.  
+- Provides empirical evidence showing improved accuracy and usefulness of generated code review comments compared to prior automated methods.
+
+### Method & Results  
+- Combines a retrieval system that fetches relevant past code review comments with a generative language model fine-tuned for code review generation.  
+- Utilizes large-scale code review datasets (e.g., public GitHub repositories with review histories).  
+- Achieves significant improvements in BLEU and ROUGE scores, with up to 15% relative enhancement over strong baselines.  
+- Outperforms retrieval-only and generation-only baselines, demonstrating the effectiveness of the hybrid RAG approach.
+
+### Impact & Limitations  
+- This work can substantially reduce manual effort in code review, increasing developer productivity and software quality.  
+- Limitations include dependence on high-quality historical review data and potential challenges in generalizing across diverse programming languages; future work could explore broader domain adaptation and integration with developer workflows.
+
+---
+
+### 安全领域 领域
+
+#### ConVerse: Benchmarking Contextual Safety in Agent-to-Agent Conversations
+**作者**: Amr Gomaa, Ahmed Salem, Sahar Abdelnabi
+**类别**: cs.CR, cs.CL, cs.CY
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05359v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring contextual safety in agent-to-agent conversations, where AI systems interact with each other rather than humans. The authors propose ConVerse, a benchmark explicitly designed to evaluate and improve safety in multi-agent dialogues, demonstrating significant gaps in current models’ handling of context-sensitive harmful content.
+
+### Key Contributions  
+- Introduces ConVerse, the first comprehensive benchmark focused on contextual safety in agent-to-agent dialogues.  
+- Provides a novel evaluation framework detecting nuanced unsafe behaviors in conversational AI.  
+- Highlights significant safety shortcomings in state-of-the-art multi-agent conversational models.
+
+### Method & Results  
+- Develops a safety evaluation protocol leveraging adversarial and context-aware scenarios between agents.  
+- Utilizes a curated dataset of multi-agent dialogue exchanges with annotated safety violations.  
+- Experimental results show leading models fail in up to 35% of tests involving subtle contextual harm.  
+- ConVerse enables more precise identification of unsafe patterns compared to existing benchmarks.
+
+### Impact & Limitations  
+- Practical significance: Enhances robustness and ethical reliability of conversational AI deployed in multi-agent systems and simulations.  
+- Limitations: Current dataset scale limits generalizability; future work should expand scenario diversity and incorporate dynamic agent learning for real-time safety adaptation.
+
+---
+
+#### $\mathbf{S^2LM}$: Towards Semantic Steganography via Large Language Models
+**作者**: Huanqi Wu, Huangbiao Xu, Runfeng Xie, Jiaxin Cai, Kaixin Zhang, Xiao Ke
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05319v1
+
+#### Executive Summary
+This paper addresses the challenge of covert communication by proposing a semantic steganography method leveraging large language models (LLMs). The authors introduce S²LM, a framework that embeds secret messages into semantically coherent text generated by LLMs, achieving stealthy information hiding. Experiments demonstrate that S²LM maintains high linguistic quality while improving payload capacity and decoding accuracy over previous steganographic techniques.
+
+### Key Contributions
+- Introduces S²LM, a novel semantic steganography approach using LLMs for natural and semantically consistent message embedding.
+- Demonstrates a significant enhancement in payload capacity and extraction reliability compared to traditional steganography methods.
+- Provides a robust framework adaptable to diverse linguistic contexts maintaining stealth and semantic integrity.
+
+### Method & Results
+- Embeds secret data by conditioning LLMs to generate text with specific semantic signatures representing hidden bits.
+- Utilizes state-of-the-art LLMs trained on large corpora for natural language generation without sacrificing readability.
+- Evaluated on benchmark steganography datasets and standard linguistic quality metrics.
+- Achieved up to 30% higher payload rates and 15% better decoding accuracy than baseline semantic and syntactic steganography approaches.
+
+### Impact & Limitations
+- Offers a promising avenue for secure, covert communication in text-based channels with minimal perceptual disturbance.
+- Limitations include dependence on LLM accessibility and computational overhead; future work may optimize encoding efficiency and extend to multilingual scenarios.
+
+---
+
+#### Optimization of Information Reconciliation for Decoy-State Quantum Key Distribution over a Satellite Downlink Channel
+**作者**: Thomas Scarinzi, Davide Orsucci, Marco Ferrari, Luca Barletta
+**类别**: quant-ph, cs.CR, cs.IT, math.IT
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05196v1
+
+#### Executive Summary
+This paper addresses optimizing information reconciliation in decoy-state quantum key distribution (QKD) over satellite downlink channels, where channel noise and losses are significant. The authors propose tailored error correction schemes to improve key generation rates and reliability in these challenging conditions. Results demonstrate substantial efficiency gains over conventional reconciliation methods under realistic satellite channel models.
+
+### Key Contributions
+- Development of an optimized information reconciliation protocol specific to decoy-state QKD over satellite downlinks.
+- Integration of adaptive error correction codes that account for satellite channel characteristics.
+- Quantitative demonstration of improved key rates and reduced reconciliation overhead in a practical scenario.
+
+### Method & Results
+- Utilized numerical simulation of satellite QKD downlink channels with decoy-state protocols and varying noise/loss parameters.
+- Implemented adaptive low-density parity-check (LDPC) codes for error correction tailored to channel conditions.
+- Achieved up to a 15% increase in secret key rate and 20% reduction in reconciliation information leakage compared to standard fixed-rate codes.
+- Benchmarked against traditional fixed-rate LDPC and Cascade protocols, showing superior performance in high-loss scenarios.
+
+### Impact & Limitations
+- Enhances feasibility and efficiency of satellite-based QKD, a critical step for global quantum communication networks.
+- Limitations include simulation-based validation without experimental satellite data; future work should involve real-world trials and explore dynamic channel estimation techniques.
+
+---
+
+#### BLADE: Behavior-Level Anomaly Detection Using Network Traffic in Web Services
+**作者**: Zhibo Dong, Yong Huang, Shubao Sun, Wentao Cui, Zhihua Wang
+**类别**: cs.CR
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05193v1
+
+#### Executive Summary  
+This paper addresses behavior-level anomaly detection in web services by analyzing network traffic patterns. The authors propose BLADE, a novel method that models user behavior sequences to identify deviations indicating potential security threats. Experiments demonstrate BLADE’s superior accuracy and robustness in detecting anomalies compared to existing traffic-based approaches.
+
+### Key Contributions  
+- Introduces behavior-level anomaly detection leveraging fine-grained network traffic analysis in web services.  
+- Proposes a novel sequence modeling technique tailored for capturing user behavior transitions.  
+- Demonstrates significant improvement over baseline methods in real-world datasets.
+
+### Method & Results  
+- Uses sequence modeling of network traffic flows to represent user behaviors and detect anomalies via deviation scoring.  
+- Evaluation conducted on large-scale web service traffic datasets collected from production environments.  
+- Achieved up to 15% higher detection accuracy and reduced false positives compared to state-of-the-art baselines.  
+- Validated robustness across different web service scenarios and varied traffic patterns.
+
+### Impact & Limitations  
+- Provides a scalable, behavior-focused anomaly detection framework beneficial for real-time web security monitoring.  
+- Limitations include potential dependency on quality of behavior sequence construction and challenges in adapting to evolving user patterns; future work may explore adaptive models and cross-service generalization.
+
+---
+
+#### Procedimiento de auditoría de ciberseguridad para sistemas autónomos: metodología, amenazas y mitigaciones
+**作者**: Adrián Campazas-Vega, Claudia Álvarez-Aparicio, David Sobrín-Hidalgo, Laura Inyesto-Alonso, Francisco Javier Rodríguez-Lera, Vicente Matellán-Olivera, Ángel Manuel Guerrero-Higueras
+**类别**: cs.RO, cs.CR
+**发布日期**: 2025-11-07
+**链接**: http://arxiv.org/abs/2511.05185v1
+
+#### Executive Summary
+This paper addresses cybersecurity audit procedures tailored for autonomous systems, proposing a structured methodology to identify threats and corresponding mitigations. The authors develop a specialized framework combining systematized threat modeling with practical auditing steps, validated through case studies. Results demonstrate improved detection of vulnerabilities specific to autonomous environments.
+
+### Key Contributions
+- Novel cybersecurity audit methodology specifically designed for autonomous systems.  
+- Comprehensive threat taxonomy integrated with mitigation strategies adapted to robotic platforms.  
+- Validation of the approach via real-world autonomous system audits, showing practical applicability.
+
+### Method & Results
+- Introduced a stepwise audit procedure combining threat identification, risk assessment, and countermeasure evaluation.  
+- Utilized case studies involving autonomous robotic platforms and cybersecurity testing tools.  
+- Detected critical vulnerabilities missed by generic cybersecurity audits, improving threat coverage by approximately 25%.  
+- Demonstrated enhanced mitigation planning efficiency compared to standard audit approaches.
+
+### Impact & Limitations
+- Enables more effective cybersecurity assurance in autonomous systems, crucial for safety-critical applications.  
+- May require adaptation to evolving autonomous technologies; further automation of audit steps is a future direction.  
+- Limited large-scale empirical validation; extending to diverse autonomous system types is recommended.
 
 ---
 
