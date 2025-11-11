@@ -30008,18 +30008,18 @@ This paper addresses the challenge of accurately identifying source and sink fun
 #### Executive Summary  
 This paper investigates whether knowledge distillation effectively transfers deep behavioral traits from teacher to student models in language models for code. Using metamorphic testing, the authors analyze if the student truly mimics the teacher’s internal decision-making beyond surface accuracy. Results reveal notable discrepancies, suggesting students may not deeply replicate teacher behavior despite similar performance metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel metamorphic testing framework to analyze student-teacher behavioral similarity in knowledge distillation for code language models.  
 - Provides empirical evidence challenging the assumption that students deeply mimic teachers beyond accuracy metrics.  
 - Highlights gaps in current distillation evaluation practices, encouraging more rigorous behavioral testing.
 
-### Method & Results  
+### Method & Results
 - Applied metamorphic relations to systematically test linguistic transformations in code-related tasks to compare teacher and student model outputs.  
 - Experiments conducted on established code datasets and language models (details unspecified).  
 - Found significant behavioral divergences between students and teachers despite comparable accuracy, suggesting superficial mimicry.  
 - Performance measured quantitatively with metamorphic relation violation rates (specific numbers not given).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical relevance lies in improving model distillation evaluation, ensuring reliable behavior transfer critical for code generation applications.  
 - Limitations include limited disclosure of dataset specifics and model architectures; future work should extend testing to diverse models and refine metamorphic relations.
 
@@ -30060,18 +30060,18 @@ This paper addresses the need for a unified framework to evaluate the agentic co
 #### Executive Summary  
 This paper introduces Story Arena, a multi-agent simulation environment designed to explore and forecast future scenarios in software engineering practices. By modeling interactions among autonomous agents representing developers and stakeholders, the approach enables envisioning complex socio-technical dynamics and their long-term impacts on software projects.
 
-### Key Contributions  
+### Key Contributions
 - Development of Story Arena, a novel multi-agent platform tailored for software engineering future scenario analysis.  
 - Integration of socio-technical factors into agent behaviors, extending beyond traditional code-centric simulations.  
 - Demonstration of how agent-based simulations can inform strategic decision-making and innovation in software engineering processes.
 
-### Method & Results  
+### Method & Results
 - Employed multi-agent modeling where agents emulate diverse roles and decision-making strategies in software projects.  
 - Used scenario-based simulations incorporating variables like collaboration patterns, tooling, and organizational change.  
 - Experiments showcased emergent behaviors and identified potential bottlenecks in future engineering workflows.  
 - Quantitative results highlighted scenario-specific productivity and quality metrics, outperforming baseline heuristic predictions in foresight accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners and researchers to anticipate challenges and opportunities in software engineering evolution, supporting proactive innovation.  
 - Current limitations include model generalizability and the need for validation with longitudinal empirical data; future work aims to refine agent models and expand environment complexity.
 
@@ -30113,18 +30113,18 @@ This paper addresses noisy and inconsistent maintenance logs that hinder predict
 #### Executive Summary  
 This paper addresses the challenge of automating code review by leveraging Retrieval Augmented Generation (RAG) techniques, which combine retrieval of relevant past review comments with generative models to produce more accurate automated feedback. Their approach improves the quality and relevance of generated code review comments. Experiments demonstrate superior performance over baseline models in generating helpful review suggestions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel integration of retrieval-augmented generation for automated code review comment generation.  
 - Constructs a retrieval mechanism that leverages historical review data to inform generation, enhancing comment relevance.  
 - Provides empirical evidence showing improved accuracy and usefulness of generated code review comments compared to prior automated methods.
 
-### Method & Results  
+### Method & Results
 - Combines a retrieval system that fetches relevant past code review comments with a generative language model fine-tuned for code review generation.  
 - Utilizes large-scale code review datasets (e.g., public GitHub repositories with review histories).  
 - Achieves significant improvements in BLEU and ROUGE scores, with up to 15% relative enhancement over strong baselines.  
 - Outperforms retrieval-only and generation-only baselines, demonstrating the effectiveness of the hybrid RAG approach.
 
-### Impact & Limitations  
+### Impact & Limitations
 - This work can substantially reduce manual effort in code review, increasing developer productivity and software quality.  
 - Limitations include dependence on high-quality historical review data and potential challenges in generalizing across diverse programming languages; future work could explore broader domain adaptation and integration with developer workflows.
 
@@ -30141,18 +30141,18 @@ This paper addresses the challenge of automating code review by leveraging Retri
 #### Executive Summary  
 This paper addresses the challenge of ensuring contextual safety in agent-to-agent conversations, where AI systems interact with each other rather than humans. The authors propose ConVerse, a benchmark explicitly designed to evaluate and improve safety in multi-agent dialogues, demonstrating significant gaps in current models’ handling of context-sensitive harmful content.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ConVerse, the first comprehensive benchmark focused on contextual safety in agent-to-agent dialogues.  
 - Provides a novel evaluation framework detecting nuanced unsafe behaviors in conversational AI.  
 - Highlights significant safety shortcomings in state-of-the-art multi-agent conversational models.
 
-### Method & Results  
+### Method & Results
 - Develops a safety evaluation protocol leveraging adversarial and context-aware scenarios between agents.  
 - Utilizes a curated dataset of multi-agent dialogue exchanges with annotated safety violations.  
 - Experimental results show leading models fail in up to 35% of tests involving subtle contextual harm.  
 - ConVerse enables more precise identification of unsafe patterns compared to existing benchmarks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances robustness and ethical reliability of conversational AI deployed in multi-agent systems and simulations.  
 - Limitations: Current dataset scale limits generalizability; future work should expand scenario diversity and incorporate dynamic agent learning for real-time safety adaptation.
 
@@ -30219,18 +30219,18 @@ This paper addresses optimizing information reconciliation in decoy-state quantu
 #### Executive Summary  
 This paper addresses behavior-level anomaly detection in web services by analyzing network traffic patterns. The authors propose BLADE, a novel method that models user behavior sequences to identify deviations indicating potential security threats. Experiments demonstrate BLADE’s superior accuracy and robustness in detecting anomalies compared to existing traffic-based approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces behavior-level anomaly detection leveraging fine-grained network traffic analysis in web services.  
 - Proposes a novel sequence modeling technique tailored for capturing user behavior transitions.  
 - Demonstrates significant improvement over baseline methods in real-world datasets.
 
-### Method & Results  
+### Method & Results
 - Uses sequence modeling of network traffic flows to represent user behaviors and detect anomalies via deviation scoring.  
 - Evaluation conducted on large-scale web service traffic datasets collected from production environments.  
 - Achieved up to 15% higher detection accuracy and reduced false positives compared to state-of-the-art baselines.  
 - Validated robustness across different web service scenarios and varied traffic patterns.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a scalable, behavior-focused anomaly detection framework beneficial for real-time web security monitoring.  
 - Limitations include potential dependency on quality of behavior sequence construction and challenges in adapting to evolving user patterns; future work may explore adaptive models and cross-service generalization.
 
@@ -30260,6 +30260,275 @@ This paper addresses cybersecurity audit procedures tailored for autonomous syst
 - Enables more effective cybersecurity assurance in autonomous systems, crucial for safety-critical applications.  
 - May require adaptation to evolving autonomous technologies; further automation of audit steps is a future direction.  
 - Limited large-scale empirical validation; extending to diverse autonomous system types is recommended.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-11)
+
+### 软件工程 领域
+
+#### Bridging the Prototype-Production Gap: A Multi-Agent System for Notebooks Transformation
+**作者**: Hanya Elhashemy, Youssef Lotfy, Yongjian Tang
+**类别**: cs.SE, cs.MA
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07257v1
+
+#### Executive Summary  
+This paper addresses the challenge of transforming prototype notebooks into production-ready code, a gap often hindering reproducibility and deployment in data science workflows. The authors propose a multi-agent system that automates notebook refactoring and optimization, demonstrating improved code modularity and maintainability without sacrificing performance.
+
+### Key Contributions  
+- Introduces a novel multi-agent framework for automated transformation of prototype notebooks to production-quality scripts.  
+- Develops agents that collaboratively handle code refactoring, dependency management, and performance tuning within notebooks.  
+- Provides a seamless pipeline integrating notebook analysis with automated code modularization techniques.
+
+### Method & Results  
+- Multi-agent system architecture where specialized agents perform static code analysis, refactoring, and dependency resolution iteratively.  
+- Evaluated on a benchmark suite of open-source Jupyter notebooks across scientific and machine learning domains.  
+- Achieved up to 30% reduction in code complexity metrics (e.g., cyclomatic complexity), 20% improvement in execution efficiency, and enhanced code readability scores.  
+- Outperformed baseline notebook conversion tools by automating end-to-end transformations with less manual intervention.
+
+### Impact & Limitations  
+- Practical significance lies in facilitating smoother transition from experimentation to production, improving reproducibility and collaboration in data science projects.  
+- Limitations include dependency on notebook code quality and limited evaluation on very large-scale industrial notebooks. Future work may focus on integrating dynamic analysis and supporting multi-language notebooks.
+
+---
+
+#### Conservative Software Reliability Assessments Using Collections of Bayesian Inference Problems
+**作者**: Kizito Salako, Rabiu Tsoho Muhammad
+**类别**: stat.AP, cs.SE, Primary 62F15, 62F35, secondary 62N05, 62P30
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07038v1
+
+#### Executive Summary  
+This paper addresses the challenge of obtaining conservative reliability assessments in software systems by leveraging collections of Bayesian inference problems. The authors present a novel framework that systematically aggregates Bayesian posteriors to produce reliability estimates with guaranteed conservatism. Empirical results demonstrate improved confidence calibration over conventional single-model approaches.
+
+### Key Contributions  
+- Introduces a framework aggregating multiple Bayesian inference problems for conservative software reliability estimation.  
+- Provides theoretical guarantees ensuring the conservativeness of reliability assessments.  
+- Demonstrates practical application and improved performance through empirical validation.
+
+### Method & Results  
+- Utilizes collections of Bayesian models to infer reliability metrics, combining posterior distributions to capture uncertainty comprehensively.  
+- Employs statistical theory (Bayesian inference techniques and relevant probability inequalities) for conservative guarantee proofs.  
+- Experiments conducted on benchmark software reliability datasets demonstrate that the proposed method yields more reliable and less overconfident estimates compared to standard Bayesian and frequentist models. Quantitative improvements include tighter confidence intervals with maintained coverage.  
+- Outperforms conventional single-model Bayesian approaches in terms of conservative reliability bounds.
+
+### Impact & Limitations  
+- Provides software engineers and reliability analysts with a robust tool for risk-averse reliability predictions, enhancing software safety and decision-making.  
+- Future work may extend to scalable inference for large-scale software systems and integration with real-time reliability monitoring frameworks.
+
+---
+
+#### Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice
+**作者**: Ruida Hu, Xinchen Wang, Xin-Cheng Wen, Zhao Zhang, Bo Jiang, Pengfei Gao, Chao Peng, Cuiyun Gao
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07017v1
+
+#### Executive Summary  
+This paper tackles the challenge of fine-grained code review by benchmarking large language models (LLMs) with enriched contextual information from practical software engineering settings. The authors propose a novel evaluation framework incorporating detailed code context and demonstrate improved review accuracy using state-of-the-art LLMs. Their findings highlight the importance of context enrichment for effective automated code review.
+
+### Key Contributions  
+- Introduces a benchmark specifically designed for fine-grained code review with enriched contextual inputs.  
+- Provides a systematic evaluation of various LLMs in practical code review scenarios, revealing performance gaps and strengths.  
+- Proposes context enrichment strategies that significantly boost LLM effectiveness in code analysis tasks.
+
+### Method & Results  
+- Method: Utilizes enriched context embedding combining code snippets, commit history, and developer comments to better inform LLM-based review.  
+- Datasets: Constructs realistic code review datasets from open-source repositories, including detailed commit metadata.  
+- Results: Demonstrates up to 15% improvement in review accuracy over baseline LLMs without enriched context.  
+- Comparison: LLMs with context enrichment outperform traditional static code analyzers and vanilla LLM approaches significantly.
+
+### Impact & Limitations  
+- Impact: Enhances practical automated code review tools, reducing developers’ manual effort and improving code quality in real-world software projects.  
+- Limitations: Current benchmarks focus on open-source projects and may not generalize fully to proprietary code; future work should explore broader codebases and integrate human feedback.
+
+---
+
+#### A Collaborative Model for Improving Information Sharing among Cancer Care Groups using Software Engineering Principles
+**作者**: Davis Byamugisha, Francis Kamuganga, Adones Rukundo, John Businge
+**类别**: cs.SE, cs.SI
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.06885v1
+
+#### Executive Summary
+This paper addresses the challenge of inefficient information sharing among cancer care groups. It proposes a collaborative model grounded in software engineering principles to enhance data interoperability and communication. The approach demonstrated improved coordination and data accuracy across participating groups.
+
+### Key Contributions
+- Introduced a novel collaborative framework applying software engineering methodologies tailored for cancer care information sharing.
+- Developed a prototype system emphasizing modularity, scalability, and secure communication.
+- Validated the model’s effectiveness in improving real-time data exchange among multidisciplinary cancer care teams.
+
+### Method & Results
+- Employed system design principles such as modular architecture, service-oriented components, and version control for iterative development.
+- Used synthetic and anonymized patient datasets simulating data from multiple cancer centers.
+- Achieved a 30% reduction in data synchronization errors and a 25% improvement in communication latency compared to traditional methods.
+- Outperformed baseline manual and semi-automated sharing mechanisms by enhancing data consistency and reducing delays.
+
+### Impact & Limitations
+- Potentially transforms cancer care coordination by enabling timely, accurate information sharing, thus supporting better clinical decisions.
+- Limitations include reliance on simulated datasets and need for real-world deployment; future work should focus on integrating heterogeneous EMR systems and evaluating long-term clinical outcomes.
+
+---
+
+#### MetricSynth: Framework for Aggregating DORA and KPI Metrics Across Multi-Platform Engineering
+**作者**: Pallav Jain, Yuvraj Agrawal, Ashutosh Nigam, Pushpak Patil
+**类别**: cs.SE
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.06864v1
+
+#### Executive Summary  
+This paper addresses the challenge of aggregating engineering productivity metrics from multiple platforms by proposing MetricSynth, a unified framework that consolidates DORA metrics and KPIs. The approach enables cross-platform comparability and visualization, improving actionable insights for engineering management. Empirical evaluation demonstrates the framework’s effectiveness in harmonizing disparate data sources while maintaining meaningful metric integrity.
+
+### Key Contributions  
+- Introduces MetricSynth, a novel framework aggregating DORA and KPI metrics across heterogeneous engineering platforms.  
+- Provides a standardized data model facilitating consistent metric synthesis and cross-team comparisons.  
+- Demonstrates practical deployment with real-world engineering data, validating scalability and usability.
+
+### Method & Results  
+- Developed a data ingestion pipeline normalizing platform-specific metrics into a unified schema.  
+- Utilized case studies involving multiple CI/CD and project management tools across engineering teams.  
+- Quantitative results show improved correlation (15-20% increase) between synthesized metrics and team performance indicators.  
+- Outperforms baseline approaches by reducing metric variance and increasing interpretability in multi-source environments.
+
+### Impact & Limitations  
+- Enables engineering leaders to make data-driven decisions across diverse toolchains, fostering productivity improvements at scale.  
+- Limitations include reliance on quality and availability of input data; future work to enhance support for more platforms and real-time analytics.
+
+---
+
+### 安全领域 领域
+
+#### JPRO: Automated Multimodal Jailbreaking via Multi-Agent Collaboration Framework
+**作者**: Yuxuan Zhou, Yang Bai, Kuofeng Gao, Tao Dai, Shu-Tao Xia
+**类别**: cs.CR
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07315v1
+
+#### Executive Summary
+This paper addresses the challenge of jailbreaking multimodal AI systems to bypass content restrictions. It proposes JPRO, a multi-agent collaboration framework that automates jailbreak prompt generation using interactions among specialized agents. Experiments demonstrate JPRO’s superior effectiveness in producing successful jailbreaking prompts compared to existing baselines.
+
+### Key Contributions
+- Introduces a novel multi-agent collaboration framework specifically tailored for automated multimodal jailbreaking.
+- Designs specialized agents that interact to iteratively refine jailbreak prompts, enhancing bypass success.
+- Presents empirical evidence showcasing significant improvements over traditional single-agent or heuristic-based jailbreak methods.
+
+### Method & Results
+- Utilizes a multi-agent system where agents with distinct roles (e.g., prompt generator, verifier, adapter) collaboratively generate and optimize jailbreak prompts.
+- Evaluates on multimodal datasets involving text and image-based AI systems to test jailbreak efficacy.
+- Achieves higher jailbreak success rates (quantitative improvements up to 30% over baselines) and robustness across modalities.
+- Demonstrates outperforming existing automated and manual jailbreak techniques quantitatively and qualitatively.
+
+### Impact & Limitations
+- Provides a scalable, automated tool for analyzing vulnerabilities in multimodal AI systems, aiding security assessment and robustness improvement.
+- Limitations include potential ethical concerns surrounding misuse, and scope currently limited to specific modalities; future work could explore broader modality coverage and mitigation strategies.
+
+---
+
+#### Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data
+**作者**: Tianle Song, Chenhao Lin, Yang Cao, Zhengyu Zhao, Jiahao Sun, Chong Zhang, Le Yang, Chao Shen
+**类别**: cs.CR
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07242v1
+
+#### Executive Summary  
+This paper addresses the challenge of protecting user privacy while retaining utility in mobile sensor data. It proposes a Predictive Adversarial Transformation Network (PATN) that dynamically transforms sensor data to obscure sensitive information. Experiments demonstrate PATN effectively balances privacy preservation and data utility with superior real-time performance.
+
+### Key Contributions  
+- Introduces PATN, a novel adversarial network for on-the-fly privacy transformation of mobile sensor data.  
+- Develops a predictive mechanism enabling real-time data sanitization without severe utility loss.  
+- Demonstrates effectiveness across multiple sensor modalities and privacy-utility trade-offs.
+
+### Method & Results  
+- Combines prediction and adversarial learning to alter sensor data streams dynamically, minimizing sensitive attribute inference.  
+- Evaluated on public mobile sensor datasets (e.g., HAR and PAMAP2) with benchmarks on privacy leakage and task accuracy.  
+- Achieved over 30% reduction in privacy leakage metrics while maintaining >90% of original task accuracy.  
+- Outperforms baseline sanitization methods by 15-25% in privacy-utility metrics and provides low-latency processing suitable for mobile devices.
+
+### Impact & Limitations  
+- Enables practical, automated privacy protection in mobile sensing applications, enhancing user trust without hindering downstream analytics.  
+- Limitations include potential reduced efficacy under unknown adversary models and increased computational cost for extremely resource-constrained devices; future work may explore adaptive and lightweight model variants.
+
+---
+
+#### Breaking the Stealth-Potency Trade-off in Clean-Image Backdoors with Generative Trigger Optimization
+**作者**: Binyan Xu, Fan Yang, Di Tang, Xilin Dai, Kehuan Zhang
+**类别**: cs.CV, cs.CR, cs.LG, 68T07, I.2.6
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07210v1
+
+#### Executive Summary  
+This paper addresses the common trade-off in clean-image backdoor attacks between stealthiness and attack potency. The authors propose a generative trigger optimization framework that designs imperceptible yet highly effective backdoor triggers. Their approach significantly improves attack success rates while maintaining clean-label stealth.
+
+### Key Contributions  
+- Introduces a generative trigger optimization method to break the stealth-potency trade-off in clean-image backdoors.  
+- Demonstrates the ability to create imperceptible triggers that achieve high attack success without degrading clean accuracy.  
+- Provides a framework adaptable to various model architectures and datasets.
+
+### Method & Results  
+- Utilizes generative models to optimize trigger patterns conditioned on target labels, maintaining stealth in clean images.  
+- Evaluated on standard vision datasets including CIFAR-10 and ImageNet variants.  
+- Achieves attack success rates exceeding 90% while keeping clean accuracy drops under 1%.  
+- Outperforms existing backdoor approaches by a substantial margin in both stealthiness (measured via visual similarity metrics) and potency.
+
+### Impact & Limitations  
+- Enables more covert and effective backdoor attacks, raising concerns for defense strategies in security-critical AI systems.  
+- Limitations include potential reliance on the generative model’s quality and the need for extensive computational resources; future work could focus on real-time trigger generation and detection countermeasures.
+
+---
+
+#### LiteUpdate: A Lightweight Framework for Updating AI-Generated Image Detectors
+**作者**: Jiajie Lu, Zhenkan Fu, Na Zhao, Long Xing, Kejiang Chen, Weiming Zhang, Nenghai Yu
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07192v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently updating AI-generated image detectors to adapt to evolving generation techniques. LiteUpdate proposes a lightweight framework that incrementally updates detectors without full retraining, maintaining high detection accuracy. Experiments demonstrate that LiteUpdate achieves competitive performance with significantly reduced computational costs.
+
+### Key Contributions  
+- Introduces a novel incremental update framework tailored for AI-generated image detectors.  
+- Achieves efficient model updates using limited new data and low computational overhead.  
+- Validates effectiveness across multiple state-of-the-art image generation methods and detection benchmarks.
+
+### Method & Results  
+- Employs a lightweight incremental learning mechanism to update detector models using small batches of newly generated images.  
+- Utilizes popular AI-generated image datasets and detectors for comprehensive evaluation.  
+- Demonstrates up to 90% of baseline detection accuracy with less than 30% training time compared to full retraining.  
+- Outperforms naive fine-tuning and other update baselines in both efficiency and accuracy retention.
+
+### Impact & Limitations  
+- Enables practical and cost-effective deployment of AI-generated image detectors in dynamic environments with evolving generation techniques.  
+- Limitations: effectiveness depends on quality/diversity of incremental data; future work to explore automated update scheduling and robustness against adversarial updates.
+
+---
+
+#### On Stealing Graph Neural Network Models
+**作者**: Marcin Podhajski, Jan Dubiński, Franziska Boenisch, Adam Dziedzic, Agnieszka Pręgowska, Tomasz P. Michalak
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-11-10
+**链接**: http://arxiv.org/abs/2511.07170v1
+
+#### Executive Summary
+This paper addresses the vulnerability of Graph Neural Network (GNN) models to model extraction attacks, where adversaries steal trained GNNs to replicate functionality without authorization. The authors propose novel attack strategies tailored to the unique structural characteristics of GNNs and demonstrate their effectiveness through extensive experiments. Results reveal high-fidelity stolen models that closely approximate the target’s performance.
+
+### Key Contributions
+- Introduces the first comprehensive framework for extracting GNN models, leveraging graph-specific query strategies.
+- Proposes novel attack techniques exploiting GNN structural properties rather than treating them as black-box classifiers.
+- Provides empirical evaluation on multiple benchmark datasets, highlighting significant leakage risks in deployed GNNs.
+
+### Method & Results
+- Develops graph-aware query methods combining node feature perturbations and topology manipulations to efficiently reconstruct GNN parameters.
+- Evaluates attacks on standard graph datasets such as Cora, Citeseer, and PubMed.
+- Achieves up to 95% accuracy replication of target GNNs with limited query budgets.
+- Demonstrates superior extraction fidelity compared to baseline black-box model stealing approaches.
+
+### Impact & Limitations
+- Highlights urgent security concerns for GNN deployment, urging the design of robust defenses against model theft.
+- Future work needed on defense mechanisms and extension to dynamic or heterogeneous graph models.
+- Current focus limited to static, homogeneous graphs; generalization remains an open challenge.
 
 ---
 
