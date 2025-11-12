@@ -30278,18 +30278,18 @@ This paper addresses cybersecurity audit procedures tailored for autonomous syst
 #### Executive Summary  
 This paper addresses the challenge of transforming prototype notebooks into production-ready code, a gap often hindering reproducibility and deployment in data science workflows. The authors propose a multi-agent system that automates notebook refactoring and optimization, demonstrating improved code modularity and maintainability without sacrificing performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multi-agent framework for automated transformation of prototype notebooks to production-quality scripts.  
 - Develops agents that collaboratively handle code refactoring, dependency management, and performance tuning within notebooks.  
 - Provides a seamless pipeline integrating notebook analysis with automated code modularization techniques.
 
-### Method & Results  
+### Method & Results
 - Multi-agent system architecture where specialized agents perform static code analysis, refactoring, and dependency resolution iteratively.  
 - Evaluated on a benchmark suite of open-source Jupyter notebooks across scientific and machine learning domains.  
 - Achieved up to 30% reduction in code complexity metrics (e.g., cyclomatic complexity), 20% improvement in execution efficiency, and enhanced code readability scores.  
 - Outperformed baseline notebook conversion tools by automating end-to-end transformations with less manual intervention.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance lies in facilitating smoother transition from experimentation to production, improving reproducibility and collaboration in data science projects.  
 - Limitations include dependency on notebook code quality and limited evaluation on very large-scale industrial notebooks. Future work may focus on integrating dynamic analysis and supporting multi-language notebooks.
 
@@ -30304,18 +30304,18 @@ This paper addresses the challenge of transforming prototype notebooks into prod
 #### Executive Summary  
 This paper addresses the challenge of obtaining conservative reliability assessments in software systems by leveraging collections of Bayesian inference problems. The authors present a novel framework that systematically aggregates Bayesian posteriors to produce reliability estimates with guaranteed conservatism. Empirical results demonstrate improved confidence calibration over conventional single-model approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a framework aggregating multiple Bayesian inference problems for conservative software reliability estimation.  
 - Provides theoretical guarantees ensuring the conservativeness of reliability assessments.  
 - Demonstrates practical application and improved performance through empirical validation.
 
-### Method & Results  
+### Method & Results
 - Utilizes collections of Bayesian models to infer reliability metrics, combining posterior distributions to capture uncertainty comprehensively.  
 - Employs statistical theory (Bayesian inference techniques and relevant probability inequalities) for conservative guarantee proofs.  
 - Experiments conducted on benchmark software reliability datasets demonstrate that the proposed method yields more reliable and less overconfident estimates compared to standard Bayesian and frequentist models. Quantitative improvements include tighter confidence intervals with maintained coverage.  
 - Outperforms conventional single-model Bayesian approaches in terms of conservative reliability bounds.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides software engineers and reliability analysts with a robust tool for risk-averse reliability predictions, enhancing software safety and decision-making.  
 - Future work may extend to scalable inference for large-scale software systems and integration with real-time reliability monitoring frameworks.
 
@@ -30330,18 +30330,18 @@ This paper addresses the challenge of obtaining conservative reliability assessm
 #### Executive Summary  
 This paper tackles the challenge of fine-grained code review by benchmarking large language models (LLMs) with enriched contextual information from practical software engineering settings. The authors propose a novel evaluation framework incorporating detailed code context and demonstrate improved review accuracy using state-of-the-art LLMs. Their findings highlight the importance of context enrichment for effective automated code review.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a benchmark specifically designed for fine-grained code review with enriched contextual inputs.  
 - Provides a systematic evaluation of various LLMs in practical code review scenarios, revealing performance gaps and strengths.  
 - Proposes context enrichment strategies that significantly boost LLM effectiveness in code analysis tasks.
 
-### Method & Results  
+### Method & Results
 - Method: Utilizes enriched context embedding combining code snippets, commit history, and developer comments to better inform LLM-based review.  
 - Datasets: Constructs realistic code review datasets from open-source repositories, including detailed commit metadata.  
 - Results: Demonstrates up to 15% improvement in review accuracy over baseline LLMs without enriched context.  
 - Comparison: LLMs with context enrichment outperform traditional static code analyzers and vanilla LLM approaches significantly.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances practical automated code review tools, reducing developers’ manual effort and improving code quality in real-world software projects.  
 - Limitations: Current benchmarks focus on open-source projects and may not generalize fully to proprietary code; future work should explore broader codebases and integrate human feedback.
 
@@ -30382,18 +30382,18 @@ This paper addresses the challenge of inefficient information sharing among canc
 #### Executive Summary  
 This paper addresses the challenge of aggregating engineering productivity metrics from multiple platforms by proposing MetricSynth, a unified framework that consolidates DORA metrics and KPIs. The approach enables cross-platform comparability and visualization, improving actionable insights for engineering management. Empirical evaluation demonstrates the framework’s effectiveness in harmonizing disparate data sources while maintaining meaningful metric integrity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MetricSynth, a novel framework aggregating DORA and KPI metrics across heterogeneous engineering platforms.  
 - Provides a standardized data model facilitating consistent metric synthesis and cross-team comparisons.  
 - Demonstrates practical deployment with real-world engineering data, validating scalability and usability.
 
-### Method & Results  
+### Method & Results
 - Developed a data ingestion pipeline normalizing platform-specific metrics into a unified schema.  
 - Utilized case studies involving multiple CI/CD and project management tools across engineering teams.  
 - Quantitative results show improved correlation (15-20% increase) between synthesized metrics and team performance indicators.  
 - Outperforms baseline approaches by reducing metric variance and increasing interpretability in multi-source environments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables engineering leaders to make data-driven decisions across diverse toolchains, fostering productivity improvements at scale.  
 - Limitations include reliance on quality and availability of input data; future work to enhance support for more platforms and real-time analytics.
 
@@ -30436,18 +30436,18 @@ This paper addresses the challenge of jailbreaking multimodal AI systems to bypa
 #### Executive Summary  
 This paper addresses the challenge of protecting user privacy while retaining utility in mobile sensor data. It proposes a Predictive Adversarial Transformation Network (PATN) that dynamically transforms sensor data to obscure sensitive information. Experiments demonstrate PATN effectively balances privacy preservation and data utility with superior real-time performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PATN, a novel adversarial network for on-the-fly privacy transformation of mobile sensor data.  
 - Develops a predictive mechanism enabling real-time data sanitization without severe utility loss.  
 - Demonstrates effectiveness across multiple sensor modalities and privacy-utility trade-offs.
 
-### Method & Results  
+### Method & Results
 - Combines prediction and adversarial learning to alter sensor data streams dynamically, minimizing sensitive attribute inference.  
 - Evaluated on public mobile sensor datasets (e.g., HAR and PAMAP2) with benchmarks on privacy leakage and task accuracy.  
 - Achieved over 30% reduction in privacy leakage metrics while maintaining >90% of original task accuracy.  
 - Outperforms baseline sanitization methods by 15-25% in privacy-utility metrics and provides low-latency processing suitable for mobile devices.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical, automated privacy protection in mobile sensing applications, enhancing user trust without hindering downstream analytics.  
 - Limitations include potential reduced efficacy under unknown adversary models and increased computational cost for extremely resource-constrained devices; future work may explore adaptive and lightweight model variants.
 
@@ -30462,18 +30462,18 @@ This paper addresses the challenge of protecting user privacy while retaining ut
 #### Executive Summary  
 This paper addresses the common trade-off in clean-image backdoor attacks between stealthiness and attack potency. The authors propose a generative trigger optimization framework that designs imperceptible yet highly effective backdoor triggers. Their approach significantly improves attack success rates while maintaining clean-label stealth.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a generative trigger optimization method to break the stealth-potency trade-off in clean-image backdoors.  
 - Demonstrates the ability to create imperceptible triggers that achieve high attack success without degrading clean accuracy.  
 - Provides a framework adaptable to various model architectures and datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes generative models to optimize trigger patterns conditioned on target labels, maintaining stealth in clean images.  
 - Evaluated on standard vision datasets including CIFAR-10 and ImageNet variants.  
 - Achieves attack success rates exceeding 90% while keeping clean accuracy drops under 1%.  
 - Outperforms existing backdoor approaches by a substantial margin in both stealthiness (measured via visual similarity metrics) and potency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more covert and effective backdoor attacks, raising concerns for defense strategies in security-critical AI systems.  
 - Limitations include potential reliance on the generative model’s quality and the need for extensive computational resources; future work could focus on real-time trigger generation and detection countermeasures.
 
@@ -30488,18 +30488,18 @@ This paper addresses the common trade-off in clean-image backdoor attacks betwee
 #### Executive Summary  
 This paper addresses the challenge of efficiently updating AI-generated image detectors to adapt to evolving generation techniques. LiteUpdate proposes a lightweight framework that incrementally updates detectors without full retraining, maintaining high detection accuracy. Experiments demonstrate that LiteUpdate achieves competitive performance with significantly reduced computational costs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel incremental update framework tailored for AI-generated image detectors.  
 - Achieves efficient model updates using limited new data and low computational overhead.  
 - Validates effectiveness across multiple state-of-the-art image generation methods and detection benchmarks.
 
-### Method & Results  
+### Method & Results
 - Employs a lightweight incremental learning mechanism to update detector models using small batches of newly generated images.  
 - Utilizes popular AI-generated image datasets and detectors for comprehensive evaluation.  
 - Demonstrates up to 90% of baseline detection accuracy with less than 30% training time compared to full retraining.  
 - Outperforms naive fine-tuning and other update baselines in both efficiency and accuracy retention.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical and cost-effective deployment of AI-generated image detectors in dynamic environments with evolving generation techniques.  
 - Limitations: effectiveness depends on quality/diversity of incremental data; future work to explore automated update scheduling and robustness against adversarial updates.
 
