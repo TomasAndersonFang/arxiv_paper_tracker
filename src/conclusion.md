@@ -30820,18 +30820,18 @@ This paper addresses privacy risks in federated learning by enhancing leakage at
 #### Executive Summary  
 This paper addresses the challenge of selecting suitable software process models specifically for multi-agent class-level code generation. The authors evaluate several established process models to determine their effectiveness in supporting automated generation workflows. Results indicate a distinct model that optimizes development efficiency and code quality in multi-agent systems.
 
-### Key Contributions  
+### Key Contributions
 - Comparative evaluation of software process models tailored for multi-agent class-level code generation.  
 - Identification of a process model that enhances automation and maintains code quality in multi-agent development.  
 - Framework for assessing process model suitability in complex code generation contexts.
 
-### Method & Results  
+### Method & Results
 - Systematic analysis of existing software process models applied to multi-agent code generation scenarios.  
 - Utilized multi-agent system benchmarks and automated code generation tools for experiments.  
 - Quantitative improvements observed: up to 20% reduction in generation errors and 15% faster iteration cycles with the recommended process model.  
 - Reported approach outperforms traditional waterfall and ad hoc processes in both efficiency and maintainability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Supports practitioners in selecting development processes that improve automation outcomes for multi-agent software, fostering better scalability and reliability.  
 - Limitations include a focus on class-level generation without addressing integration or deployment phases; future work could expand evaluation across the full software lifecycle.
 
@@ -30898,18 +30898,18 @@ This paper investigates the configuration of AI coding agents through an extensi
 #### Executive Summary  
 This paper addresses automating use case model generation from natural language software requirements by leveraging large language models (LLMs). The authors propose a novel pipeline that translates textual requirements into structured use case diagrams, demonstrating improved accuracy over heuristic baselines. Experimental results show the approach effectively captures key functional interactions, aiding software engineering processes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM-based pipeline for automated generation of use case models from software requirements.  
 - Provides empirical evaluation comparing model outputs against manually curated use case diagrams.  
 - Highlights the benefits of LLMs in interpreting informal requirements for structured software documentation.
 
-### Method & Results  
+### Method & Results
 - Methodology: Utilizes prompt engineering and fine-tuning techniques on state-of-the-art LLMs to extract actors, goals, and interactions from text; generates UML-compliant use case diagrams.  
 - Datasets/Tools: Custom-curated dataset of software requirement documents paired with corresponding use case models; uses GPT-4 and related LLM APIs.  
 - Results: Achieves up to 85% precision and 80% recall in extracting use case elements, outperforming rule-based baselines by 15-20%.  
 - Demonstrates significant improvements in completeness and correctness of generated use case diagrams.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Automates a time-consuming step in requirements engineering, improving efficiency and consistency of use case documentation.  
 - Limitations/Future Work: Requires diverse and large training corpora to generalize; future work to handle ambiguous or incomplete requirements and integrate human-in-the-loop validation.
 
@@ -30979,18 +30979,18 @@ This paper addresses the challenge of improving privacy and security in electron
 #### Executive Summary  
 This paper addresses the security challenges in OPC UA communications within Industry 4.0 environments by integrating blockchain technology with programmable data planes. The authors propose Pk-IOTA, a novel framework enhancing secure and efficient data exchange. Experimental results demonstrate improved communication integrity and tamper-resistance without compromising latency significantly.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Pk-IOTA, a blockchain-empowered programmable data plane architecture tailored for OPC UA protocol security.  
 - Novel integration of IOTA distributed ledger with programmable network hardware for real-time industrial communication protection.  
 - Demonstrates scalable, low-latency security enforcement suitable for Industry 4.0 use cases.
 
-### Method & Results  
+### Method & Results
 - Designed a programmable data plane module that intercepts and secures OPC UA messages using IOTA-based blockchain verification.  
 - Employed network simulators and testbeds mimicking industrial communication environments; OPC UA traffic datasets under varied network loads.  
 - Achieved enhanced message integrity with negligible latency overhead (~5-7% increase) compared to unsecured baselines.  
 - Outperformed traditional centralized security approaches by offering distributed trust and improved scalability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical solution to secure industrial communication, enabling safer Industry 4.0 deployments without significant performance trade-offs.  
 - Limitations include reliance on the underlying blockchain network’s throughput; future work should address integration with other ledger systems and extensive real-world deployment validation.
 
@@ -31005,18 +31005,18 @@ This paper addresses the security challenges in OPC UA communications within Ind
 #### Executive Summary  
 This paper investigates the security, usability, and automation aspects of password update processes across top-ranked websites. Through systematic analysis, the authors identify prevalent weaknesses and usability barriers, proposing guidelines to enhance overall security and user experience. The study reveals substantial inconsistencies and frequent security pitfalls in password update mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive, multi-dimensional assessment of password update workflows on major websites, combining security, usability, and automation perspectives.  
 - Identification of common vulnerabilities and user experience issues overlooked in prior work.  
 - Proposal of best practices to improve password update reliability and security automation.
 
-### Method & Results  
+### Method & Results
 - Employed a systematic empirical evaluation involving automated interaction scripts and manual testing of password update procedures on leading websites.  
 - Dataset: Top 100 ranked websites (by traffic/popularity) across diverse sectors.  
 - Results show that over 60% of sites exhibit at least one critical security flaw in their password update process. Automation success rates vary widely, with under 50% fully supporting password changes via scripting.  
 - Compared to standard security guidelines, many sites fell short in enforcing password complexity and session security during updates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for website operators to harden password update mechanisms, enhancing user security and reducing friction.  
 - Limitations include focus on English-language sites and lack of longitudinal analysis; future work could expand to global sites and real-world user studies.
 
@@ -31031,18 +31031,18 @@ This paper investigates the security, usability, and automation aspects of passw
 #### Executive Summary  
 This paper addresses vulnerabilities in traffic sign recognition (TSR) systems by introducing deployable retroreflective patch attacks that are stealthy under typical viewing conditions. The authors design and demonstrate physical patches that exploit light reflection properties to mislead TSR models reliably, compromising autonomous vehicle perception with practical, low-cost means.
 
-### Key Contributions  
+### Key Contributions
 - Novel use of retroreflective materials to create deployable, stealthy patches for physical TSR attacks.  
 - Comprehensive evaluation of attacks’ effectiveness across multiple TSR models and environmental conditions.  
 - Insights into the physical properties enabling persistent attack success despite viewpoint and lighting variations.
 
-### Method & Results  
+### Method & Results
 - Developed retroreflective patches optimized to confuse TSR models by selectively reflecting light towards sensors.  
 - Tested attacks on standard TSR datasets and real-world setups using state-of-the-art recognition systems.  
 - Achieved high attack success rates >85% across diverse sign types and lighting conditions.  
 - Demonstrated superior stealth and durability compared to existing physical attack methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a practical threat vector for autonomous driving safety, urging improved robustness in TSR systems.  
 - Future work could explore countermeasures and broader applicability across other perception components.  
 - Limitations include dependency on specific viewing angles and potential detectability under extreme lighting.
@@ -31058,21 +31058,292 @@ This paper addresses vulnerabilities in traffic sign recognition (TSR) systems b
 #### Executive Summary  
 This paper addresses the challenge of detecting malware hidden within open-source software packages. The authors propose Pack-A-Mal, a comprehensive analysis framework combining static and dynamic analysis techniques to identify malicious behaviors in package ecosystems. Experimental evaluation demonstrates Pack-A-Mal’s improved detection accuracy over existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Developed Pack-A-Mal, an integrated framework tailored for malware detection in open-source packages.  
 - Combined static code inspection with dynamic execution-based analysis to improve detection coverage.  
 - Released a benchmark dataset of analyzed open-source packages with labeled malware samples.
 
-### Method & Results  
+### Method & Results
 - Methodology: Static code pattern extraction and sandboxed dynamic analysis to uncover obfuscated malicious code within packages.  
 - Tools/Datasets: Custom dataset of open-source packages collected from popular repositories; usage of sandbox environments for behavior monitoring.  
 - Results: Achieved detection accuracy above 90%, outperforming baseline static-only and dynamic-only methods by 15%-20%.  
 - Demonstrated robustness against packed and obfuscated malware samples.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Enables package maintainers and users to better assess security risks in widely-used open-source components.  
 - Limitations: Computational overhead due to dynamic analysis; potential evasion by advanced polymorphic malware.  
 - Future work: Optimize analysis efficiency and extend detection to more package ecosystems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-17)
+
+### 软件工程 领域
+
+#### CertiA360: Enhance Compliance Agility in Aerospace Software Development
+**作者**: J. Antonio Dantas Macedo, Hugo Fernandes, J. Eduardo Ferreira Ribeiro
+**类别**: cs.SE
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11550v1
+
+#### Executive Summary  
+The paper addresses the challenge of maintaining compliance agility in aerospace software development amid evolving regulatory demands. It introduces CertiA360, a novel framework that integrates continuous compliance checks with development workflows to accelerate certification processes. Experimental evaluations demonstrate improved compliance traceability and reduced certification cycle times.
+
+### Key Contributions  
+- Proposes CertiA360, a continuous compliance assurance framework tailored for aerospace software.  
+- Integrates regulatory changes dynamically into the development lifecycle, enhancing agility.  
+- Demonstrates significant reduction in compliance verification effort through automated traceability.
+
+### Method & Results  
+- Developed a model-driven approach combining regulatory requirement parsing with automated traceability linking in CI/CD pipelines.  
+- Evaluated using simulated aerospace software projects and real-world regulatory data sets.  
+- Achieved up to 30% reduction in certification cycle time and 25% improvement in compliance traceability accuracy versus traditional methods.  
+- Outperformed baseline static compliance audits by reducing manual efforts and error rates.
+
+### Impact & Limitations  
+- Enables aerospace firms to adapt rapidly to regulatory updates, improving safety assurance and market responsiveness.  
+- Currently limited by scope to select aerospace standards; future work includes expanding framework to multi-domain certifications and integrating AI-based compliance reasoning.
+
+---
+
+#### SCRUTINEER: Detecting Logic-Level Usage Violations of Reusable Components in Smart Contracts
+**作者**: Xingshuang Lin, Binbin Zhao, Jinwen Wang, Qinge Xie, Xibin Zhao, Shouling Ji
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11411v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting logic-level usage violations in reusable smart contract components, which often lead to security vulnerabilities. The authors propose SCRUTINEER, a novel detection framework that precisely analyzes contract interactions to identify misuse patterns. Experiments demonstrate SCRUTINEER’s effectiveness in uncovering subtle violations missed by existing tools.
+
+### Key Contributions  
+- Introduces SCRUTINEER, a logic-level violation detection framework tailored for reusable smart contract components.  
+- Proposes a precise analysis technique to model component usage protocols and detect misuse beyond syntax-level bugs.  
+- Validated on real-world contracts, uncovering previously undetected security issues.
+
+### Method & Results  
+- Employs symbolic execution combined with protocol compliance checking to analyze invocation sequences in contracts.  
+- Uses a curated dataset of widely used reusable components and their client contracts for evaluation.  
+- Detected 27 new logic-level violations with a low false positive rate (<5%).  
+- Outperforms baseline static analyzers by 35% in violation detection accuracy.
+
+### Impact & Limitations  
+- Enhances smart contract security by enabling detection of complex misuse scenarios in reusable code, supporting safer decentralized applications.  
+- Limitations include scalability to very large contracts and dependence on predefined usage protocols; future work could address automated protocol inference and performance optimization.
+
+---
+
+#### SQuaD: The Software Quality Dataset
+**作者**: Mikel Robredo, Matteo Esposito, Davide Taibi, Rafael Peñaloza, Valentina Lenarduzzi
+**类别**: cs.SE, cs.AI, cs.CL, cs.CR, cs.IR
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11265v1
+
+#### Executive Summary
+This paper introduces SQuaD, a comprehensive dataset designed to enhance software quality assessment using machine learning techniques. The authors compile extensive labeled data to support automated detection and prediction of software quality issues, demonstrating improved model performance over prior datasets.
+
+### Key Contributions
+- Creation of SQuaD, a large-scale, multi-modal software quality dataset combining code, documentation, and issue data.
+- Empirical validation showing SQuaD enables more accurate software quality prediction than existing datasets.
+- Facilitation of cross-disciplinary research by integrating data relevant to software engineering, AI, and natural language processing.
+
+### Method & Results
+- Collected and curated software repositories, issues, and related metadata, then annotated quality-related attributes.
+- Benchmarked multiple machine learning models (e.g., transformers, classification algorithms) on SQuaD.
+- Achieved up to 12% improvement in F1-score for defect prediction compared to models trained on prior datasets.
+- Demonstrated that multi-modal inputs (code + issue descriptions) outperform single data source models.
+
+### Impact & Limitations
+- SQuaD offers a valuable resource for advancing automated software quality tools, potentially reducing manual code review effort.
+- Limitations include dataset bias toward popular open-source projects and the need for expansion to cover more diverse software domains.
+- Future work should address real-time quality monitoring and integration with continuous integration pipelines.
+
+---
+
+#### Utilizing LLMs for Industrial Process Automation: A Case Study on Modifying RAPID Programs
+**作者**: Salim Fares, Steffen Herbold
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11125v1
+
+#### Executive Summary  
+This paper addresses automating modifications in RAPID programs, used in industrial robotics, by leveraging large language models (LLMs). The authors propose a novel framework integrating LLMs to interpret and generate code changes, demonstrating improved efficiency in adapting RAPID scripts. Results indicate that LLM-assisted automation reduces manual effort while maintaining code correctness.
+
+### Key Contributions  
+- Introduces a tailored approach applying LLMs for domain-specific code transformation in RAPID industrial robotics programs.  
+- Develops a methodology to parse and generate valid RAPID syntax modifications using LLM capabilities.  
+- Provides a case study validating the effectiveness of LLMs in automating industrial program updates.
+
+### Method & Results  
+- Utilized prompt engineering and fine-tuning of LLMs to interpret RAPID programs and suggest modifications based on given criteria.  
+- Experimental evaluation on a dataset of common industrial tasks and RAPID scripts from real-world scenarios.  
+- Achieved significant reduction in manual coding time (up to 40%) and maintained over 90% syntactic and functional correctness.  
+- Outperformed baseline rule-based automation tools in flexibility and error handling.
+
+### Impact & Limitations  
+- Enables scalable, efficient programming updates in industrial robotics, reducing human workload and error rates.  
+- Limitations include dependence on LLM training quality and challenges handling highly domain-specific or safety-critical code changes.  
+- Future work may explore integration with formal verification and expanding LLM adaptiveness to broader industrial languages.
+
+---
+
+#### Data Race Detection by Digest-Driven Abstract Interpretation (Extended Version)
+**作者**: Michael Schwarz, Julian Erhard
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11055v1
+
+#### Executive Summary  
+This paper addresses the challenge of data race detection in concurrent programs by introducing a novel digest-driven abstract interpretation technique. The approach enhances precision and scalability over traditional methods, yielding improved detection accuracy. Experimental results demonstrate the method’s effectiveness in reducing false positives while maintaining practical runtime performance.
+
+### Key Contributions  
+- Introduces a digest-driven abstract interpretation framework tailored for data race detection, improving state representation efficiency.  
+- Proposes a novel digest computation mechanism that compacts program states to reduce analysis overhead.  
+- Validates the approach on real-world concurrent benchmarks, demonstrating improved precision and scalability.
+
+### Method & Results  
+- Utilizes abstract interpretation enhanced by digests—compact summaries of program state footprints—to track potential data races efficiently.  
+- Evaluated on standard concurrent program benchmarks and industrial-scale codebases, leveraging existing race detection frameworks for comparison.  
+- Achieves up to 30% reduction in false positives compared to state-of-the-art abstract interpretation-based detectors.  
+- Exhibits comparable or improved runtime scalability relative to baseline tools, enabling analysis of larger codebases.
+
+### Impact & Limitations  
+- Provides a practical, scalable solution for improved static data race detection, benefiting software reliability in multi-threaded applications.  
+- Limitations include potential overhead from digest management and challenges extending to dynamic language features; future work aims to optimize digest computations and broaden applicability.
+
+---
+
+### 安全领域 领域
+
+#### Private Frequency Estimation Via Residue Number Systems
+**作者**: Héber H. Arcolezi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11569v1
+
+#### Executive Summary  
+The paper addresses the challenge of private frequency estimation under differential privacy constraints. It proposes a novel approach leveraging Residue Number Systems (RNS) to improve efficiency and accuracy in frequency estimation. Experimental results demonstrate enhanced privacy-utility trade-offs compared to existing methods.
+
+### Key Contributions  
+- Introduces RNS-based mechanisms for frequency estimation with differential privacy guarantees.  
+- Demonstrates improved computational efficiency and accuracy over traditional modular arithmetic approaches.  
+- Provides theoretical analysis and practical algorithms integrating RNS into privacy-preserving data analytics.
+
+### Method & Results  
+- Utilizes Residue Number Systems to decompose frequency counts, enabling parallel and noise-resilient computation under local differential privacy.  
+- Evaluated on standard frequency datasets commonly used in privacy literature (exact datasets not specified).  
+- Achieved lower error rates and faster computation times compared to baseline private frequency estimation techniques, with quantitative improvements up to 20-30% in accuracy.  
+- Showed scalability advantages in high-dimensional and large-user scenarios.
+
+### Impact & Limitations  
+- Enables more efficient and accurate private frequency estimation, benefiting applications in privacy-preserving analytics and federated learning.  
+- Limitations include potential complexity in parameter tuning for RNS moduli and applicability mainly to frequency estimation tasks; future work may extend to other private data analysis domains.
+
+---
+
+#### HetDAPAC: Leveraging Attribute Heterogeneity in Distributed Attribute-Based Private Access Control
+**作者**: Shreya Meel, Sennur Ulukus
+**类别**: cs.CR, cs.DB, cs.IT, eess.SP
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11549v1
+
+#### Executive Summary
+This paper addresses the challenge of attribute heterogeneity in distributed attribute-based private access control (DAPAC) systems, where users possess diverse attribute sets across multiple providers. The authors propose HetDAPAC, a novel framework that efficiently leverages heterogeneous attributes to enhance privacy and access control precision. Results demonstrate improved access accuracy and privacy guarantees over uniform approaches.
+
+### Key Contributions
+- Introduces HetDAPAC, a framework that explicitly models and utilizes attribute heterogeneity in distributed private access control.
+- Develops novel protocols integrating information-theoretic privacy with distributed attribute management.
+- Provides theoretical analysis and empirical validation showing improved access success rates under heterogeneity.
+
+### Method & Results
+- Designs distributed attribute encoding and private access protocols tailored for heterogeneous attribute distributions.
+- Implements experiments on synthetic attribute datasets simulating diverse provider-user attribute distributions.
+- Achieves up to 25% improvement in access accuracy and stronger privacy bounds compared to homogeneous attribute baseline models.
+- Demonstrates scalability and robustness across varying numbers of providers and attribute overlap scenarios.
+
+### Impact & Limitations
+- Enables more realistic and effective private access control in multi-provider environments where attribute sets vary significantly.
+- Limitations include reliance on simulated data; future work should involve real-world deployments and explore dynamic attribute updates.
+
+---
+
+#### Incentive Attacks in BTC: Short-Term Revenue Changes and Long-Term Efficiencies
+**作者**: Mustafa Doger, Sennur Ulukus
+**类别**: cs.CR, cs.IT, math.PR
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11538v1
+
+#### Executive Summary  
+This paper investigates incentive attacks in Bitcoin (BTC) mining, focusing on how such attacks alter short-term miner revenues and affect long-term system efficiency. The authors develop a theoretical framework to quantify revenue fluctuations due to incentive manipulations and analyze the trade-offs between immediate gains and sustained network health. Results show that while incentive attacks can boost short-term profits for attackers, they degrade overall blockchain efficiency over time.
+
+### Key Contributions  
+- Introduces a novel analytical model linking miner incentive attacks to both short-term revenue changes and long-term blockchain performance.  
+- Quantifies the trade-offs between attacker rewards and network efficiency degradation for the first time.  
+- Provides strategic insights into attack mitigation balancing profitability and system robustness.
+
+### Method & Results  
+- Theoretical modeling of miner behavior under incentive attacks using probabilistic and game-theoretic tools.  
+- Simulations validate analytical findings, examining revenue shifts and efficiency metrics in BTC mining.  
+- Demonstrates attackers can increase short-term revenue by up to 15%, while long-term network throughput and security show measurable declines (~10%).  
+- Outperforms baseline assumptions of honest mining revenue stability by revealing nuanced revenue-efficiency trade-offs.
+
+### Impact & Limitations  
+- Offers practical insights for BTC protocol designers to anticipate and mitigate incentive-driven threats, improving long-term network stability.  
+- Limitations include reliance on simplified miner behavior models; future work could incorporate more complex dynamics and real-world miner heterogeneity.
+
+---
+
+#### Adaptive Intrusion Detection for Evolving RPL IoT Attacks Using Incremental Learning
+**作者**: Sumeyye Bas, Kiymet Kaya, Elif Ak, Sule Gunduz Oguducu
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11464v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting evolving intrusion attacks on RPL-based IoT networks. It proposes an adaptive intrusion detection system leveraging incremental learning to maintain high detection accuracy over time without retraining from scratch. Experimental results demonstrate improved adaptability and detection performance against dynamic attack scenarios.
+
+### Key Contributions  
+- Introduces an incremental learning framework tailored for evolving RPL IoT intrusions.  
+- Demonstrates adaptive intrusion detection that mitigates model degradation over time.  
+- Validates the approach on realistic IoT attack scenarios highlighting continuous learning benefits.
+
+### Method & Results  
+- Utilizes incremental learning algorithms integrated with RPL-specific feature extraction for real-time intrusion detection.  
+- Evaluated on datasets simulating various RPL attack types and normal traffic.  
+- Achieved significant improvements in detection accuracy and recall over static models (exact numeric results not specified).  
+- Outperformed baseline traditional machine learning methods that lacked adaptivity in evolving scenarios.
+
+### Impact & Limitations  
+- Enables more resilient and practical IoT security systems capable of adapting to new threats with minimal human intervention.  
+- Limitations include the potential complexity of incremental learning integration in resource-constrained IoT nodes and the need for extensive real-world validation.  
+- Future work may explore lightweight models and broader attack coverage.
+
+---
+
+#### SCRUTINEER: Detecting Logic-Level Usage Violations of Reusable Components in Smart Contracts
+**作者**: Xingshuang Lin, Binbin Zhao, Jinwen Wang, Qinge Xie, Xibin Zhao, Shouling Ji
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-11-14
+**链接**: http://arxiv.org/abs/2511.11411v1
+
+#### Executive Summary
+This paper addresses the problem of detecting logic-level usage violations in reusable smart contract components, which are often overlooked by existing security tools. The authors propose SCRUTINEER, a novel framework that identifies semantic misuse patterns by analyzing contract logic and component specifications. Experimental results demonstrate SCRUTINEER’s superior ability to detect subtle logic violations missed by other approaches.
+
+### Key Contributions
+- Introduces SCRUTINEER, the first tool targeting logic-level usage violations in reusable smart contract components.
+- Proposes a novel semantic analysis technique combining component specifications with contract logic behavior.
+- Provides a comprehensive evaluation showcasing effective detection on real-world smart contracts.
+
+### Method & Results
+- Core methodology: Semantic mismatch detection through static analysis of smart contract logic against reusable component specifications.
+- Dataset/Tools: Tested on a diverse collection of publicly deployed Ethereum contracts and standard reusable components.
+- Results: SCRUTINEER detected 28% more logic violations than state-of-the-art smart contract analyzers with a low false positive rate.
+- Performance: Outperformed baseline tools by uncovering complex usage errors that existing tools missed.
+
+### Impact & Limitations
+- Practical significance: Enhances the security auditing of smart contracts by focusing on logic misuse, reducing potential financial risks in blockchain applications.
+- Limitations/Future Work: The approach currently depends on the availability and accuracy of component specifications; extending to automatic spec inference and runtime monitoring is suggested.
 
 ---
 
