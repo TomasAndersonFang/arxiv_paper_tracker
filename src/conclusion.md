@@ -31091,18 +31091,18 @@ This paper addresses the challenge of detecting malware hidden within open-sourc
 #### Executive Summary  
 The paper addresses the challenge of maintaining compliance agility in aerospace software development amid evolving regulatory demands. It introduces CertiA360, a novel framework that integrates continuous compliance checks with development workflows to accelerate certification processes. Experimental evaluations demonstrate improved compliance traceability and reduced certification cycle times.
 
-### Key Contributions  
+### Key Contributions
 - Proposes CertiA360, a continuous compliance assurance framework tailored for aerospace software.  
 - Integrates regulatory changes dynamically into the development lifecycle, enhancing agility.  
 - Demonstrates significant reduction in compliance verification effort through automated traceability.
 
-### Method & Results  
+### Method & Results
 - Developed a model-driven approach combining regulatory requirement parsing with automated traceability linking in CI/CD pipelines.  
 - Evaluated using simulated aerospace software projects and real-world regulatory data sets.  
 - Achieved up to 30% reduction in certification cycle time and 25% improvement in compliance traceability accuracy versus traditional methods.  
 - Outperformed baseline static compliance audits by reducing manual efforts and error rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables aerospace firms to adapt rapidly to regulatory updates, improving safety assurance and market responsiveness.  
 - Currently limited by scope to select aerospace standards; future work includes expanding framework to multi-domain certifications and integrating AI-based compliance reasoning.
 
@@ -31117,18 +31117,18 @@ The paper addresses the challenge of maintaining compliance agility in aerospace
 #### Executive Summary  
 This paper addresses the challenge of detecting logic-level usage violations in reusable smart contract components, which often lead to security vulnerabilities. The authors propose SCRUTINEER, a novel detection framework that precisely analyzes contract interactions to identify misuse patterns. Experiments demonstrate SCRUTINEER’s effectiveness in uncovering subtle violations missed by existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SCRUTINEER, a logic-level violation detection framework tailored for reusable smart contract components.  
 - Proposes a precise analysis technique to model component usage protocols and detect misuse beyond syntax-level bugs.  
 - Validated on real-world contracts, uncovering previously undetected security issues.
 
-### Method & Results  
+### Method & Results
 - Employs symbolic execution combined with protocol compliance checking to analyze invocation sequences in contracts.  
 - Uses a curated dataset of widely used reusable components and their client contracts for evaluation.  
 - Detected 27 new logic-level violations with a low false positive rate (<5%).  
 - Outperforms baseline static analyzers by 35% in violation detection accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances smart contract security by enabling detection of complex misuse scenarios in reusable code, supporting safer decentralized applications.  
 - Limitations include scalability to very large contracts and dependence on predefined usage protocols; future work could address automated protocol inference and performance optimization.
 
@@ -31170,18 +31170,18 @@ This paper introduces SQuaD, a comprehensive dataset designed to enhance softwar
 #### Executive Summary  
 This paper addresses automating modifications in RAPID programs, used in industrial robotics, by leveraging large language models (LLMs). The authors propose a novel framework integrating LLMs to interpret and generate code changes, demonstrating improved efficiency in adapting RAPID scripts. Results indicate that LLM-assisted automation reduces manual effort while maintaining code correctness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a tailored approach applying LLMs for domain-specific code transformation in RAPID industrial robotics programs.  
 - Develops a methodology to parse and generate valid RAPID syntax modifications using LLM capabilities.  
 - Provides a case study validating the effectiveness of LLMs in automating industrial program updates.
 
-### Method & Results  
+### Method & Results
 - Utilized prompt engineering and fine-tuning of LLMs to interpret RAPID programs and suggest modifications based on given criteria.  
 - Experimental evaluation on a dataset of common industrial tasks and RAPID scripts from real-world scenarios.  
 - Achieved significant reduction in manual coding time (up to 40%) and maintained over 90% syntactic and functional correctness.  
 - Outperformed baseline rule-based automation tools in flexibility and error handling.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, efficient programming updates in industrial robotics, reducing human workload and error rates.  
 - Limitations include dependence on LLM training quality and challenges handling highly domain-specific or safety-critical code changes.  
 - Future work may explore integration with formal verification and expanding LLM adaptiveness to broader industrial languages.
@@ -31197,18 +31197,18 @@ This paper addresses automating modifications in RAPID programs, used in industr
 #### Executive Summary  
 This paper addresses the challenge of data race detection in concurrent programs by introducing a novel digest-driven abstract interpretation technique. The approach enhances precision and scalability over traditional methods, yielding improved detection accuracy. Experimental results demonstrate the method’s effectiveness in reducing false positives while maintaining practical runtime performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a digest-driven abstract interpretation framework tailored for data race detection, improving state representation efficiency.  
 - Proposes a novel digest computation mechanism that compacts program states to reduce analysis overhead.  
 - Validates the approach on real-world concurrent benchmarks, demonstrating improved precision and scalability.
 
-### Method & Results  
+### Method & Results
 - Utilizes abstract interpretation enhanced by digests—compact summaries of program state footprints—to track potential data races efficiently.  
 - Evaluated on standard concurrent program benchmarks and industrial-scale codebases, leveraging existing race detection frameworks for comparison.  
 - Achieves up to 30% reduction in false positives compared to state-of-the-art abstract interpretation-based detectors.  
 - Exhibits comparable or improved runtime scalability relative to baseline tools, enabling analysis of larger codebases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical, scalable solution for improved static data race detection, benefiting software reliability in multi-threaded applications.  
 - Limitations include potential overhead from digest management and challenges extending to dynamic language features; future work aims to optimize digest computations and broaden applicability.
 
@@ -31225,18 +31225,18 @@ This paper addresses the challenge of data race detection in concurrent programs
 #### Executive Summary  
 The paper addresses the challenge of private frequency estimation under differential privacy constraints. It proposes a novel approach leveraging Residue Number Systems (RNS) to improve efficiency and accuracy in frequency estimation. Experimental results demonstrate enhanced privacy-utility trade-offs compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces RNS-based mechanisms for frequency estimation with differential privacy guarantees.  
 - Demonstrates improved computational efficiency and accuracy over traditional modular arithmetic approaches.  
 - Provides theoretical analysis and practical algorithms integrating RNS into privacy-preserving data analytics.
 
-### Method & Results  
+### Method & Results
 - Utilizes Residue Number Systems to decompose frequency counts, enabling parallel and noise-resilient computation under local differential privacy.  
 - Evaluated on standard frequency datasets commonly used in privacy literature (exact datasets not specified).  
 - Achieved lower error rates and faster computation times compared to baseline private frequency estimation techniques, with quantitative improvements up to 20-30% in accuracy.  
 - Showed scalability advantages in high-dimensional and large-user scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient and accurate private frequency estimation, benefiting applications in privacy-preserving analytics and federated learning.  
 - Limitations include potential complexity in parameter tuning for RNS moduli and applicability mainly to frequency estimation tasks; future work may extend to other private data analysis domains.
 
@@ -31277,18 +31277,18 @@ This paper addresses the challenge of attribute heterogeneity in distributed att
 #### Executive Summary  
 This paper investigates incentive attacks in Bitcoin (BTC) mining, focusing on how such attacks alter short-term miner revenues and affect long-term system efficiency. The authors develop a theoretical framework to quantify revenue fluctuations due to incentive manipulations and analyze the trade-offs between immediate gains and sustained network health. Results show that while incentive attacks can boost short-term profits for attackers, they degrade overall blockchain efficiency over time.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel analytical model linking miner incentive attacks to both short-term revenue changes and long-term blockchain performance.  
 - Quantifies the trade-offs between attacker rewards and network efficiency degradation for the first time.  
 - Provides strategic insights into attack mitigation balancing profitability and system robustness.
 
-### Method & Results  
+### Method & Results
 - Theoretical modeling of miner behavior under incentive attacks using probabilistic and game-theoretic tools.  
 - Simulations validate analytical findings, examining revenue shifts and efficiency metrics in BTC mining.  
 - Demonstrates attackers can increase short-term revenue by up to 15%, while long-term network throughput and security show measurable declines (~10%).  
 - Outperforms baseline assumptions of honest mining revenue stability by revealing nuanced revenue-efficiency trade-offs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical insights for BTC protocol designers to anticipate and mitigate incentive-driven threats, improving long-term network stability.  
 - Limitations include reliance on simplified miner behavior models; future work could incorporate more complex dynamics and real-world miner heterogeneity.
 
@@ -31303,32 +31303,16 @@ This paper investigates incentive attacks in Bitcoin (BTC) mining, focusing on h
 #### Executive Summary  
 This paper addresses the challenge of detecting evolving intrusion attacks on RPL-based IoT networks. It proposes an adaptive intrusion detection system leveraging incremental learning to maintain high detection accuracy over time without retraining from scratch. Experimental results demonstrate improved adaptability and detection performance against dynamic attack scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an incremental learning framework tailored for evolving RPL IoT intrusions.  
 - Demonstrates adaptive intrusion detection that mitigates model degradation over time.  
 - Validates the approach on realistic IoT attack scenarios highlighting continuous learning benefits.
 
-### Method & Results  
+### Method & Results
 - Utilizes incremental learning algorithms integrated with RPL-specific feature extraction for real-time intrusion detection.  
 - Evaluated on datasets simulating various RPL attack types and normal traffic.  
 - Achieved significant improvements in detection accuracy and recall over static models (exact numeric results not specified).  
 - Outperformed baseline traditional machine learning methods that lacked adaptivity in evolving scenarios.
-
-### Impact & Limitations  
-- Enables more resilient and practical IoT security systems capable of adapting to new threats with minimal human intervention.  
-- Limitations include the potential complexity of incremental learning integration in resource-constrained IoT nodes and the need for extensive real-world validation.  
-- Future work may explore lightweight models and broader attack coverage.
-
----
-
-#### SCRUTINEER: Detecting Logic-Level Usage Violations of Reusable Components in Smart Contracts
-**作者**: Xingshuang Lin, Binbin Zhao, Jinwen Wang, Qinge Xie, Xibin Zhao, Shouling Ji
-**类别**: cs.SE, cs.CR
-**发布日期**: 2025-11-14
-**链接**: http://arxiv.org/abs/2511.11411v1
-
-#### Executive Summary
-This paper addresses the problem of detecting logic-level usage violations in reusable smart contract components, which are often overlooked by existing security tools. The authors propose SCRUTINEER, a novel framework that identifies semantic misuse patterns by analyzing contract logic and component specifications. Experimental results demonstrate SCRUTINEER’s superior ability to detect subtle logic violations missed by other approaches.
 
 ### Key Contributions
 - Introduces SCRUTINEER, the first tool targeting logic-level usage violations in reusable smart contract components.
@@ -31344,6 +31328,278 @@ This paper addresses the problem of detecting logic-level usage violations in re
 ### Impact & Limitations
 - Practical significance: Enhances the security auditing of smart contracts by focusing on logic misuse, reducing potential financial risks in blockchain applications.
 - Limitations/Future Work: The approach currently depends on the availability and accuracy of component specifications; extending to automatic spec inference and runtime monitoring is suggested.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-18)
+
+### 软件工程 领域
+
+#### Ontology-Driven Model-to-Model Transformation of Workflow Specifications
+**作者**: Francisco Abreu, Luís Cruz, Sérgio Guerreiro
+**类别**: cs.SE, cs.FL
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13661v1
+
+#### Executive Summary  
+This paper addresses the challenge of translating workflow specifications across different modeling languages using ontology-driven model-to-model transformation. The authors propose a semantic approach leveraging ontologies to ensure consistency and preserve workflow semantics during transformations. Results demonstrate improved accuracy in mapping complex workflow constructs compared to traditional syntactic methods.
+
+### Key Contributions  
+- Introduces an ontology-based framework for workflow model transformation ensuring semantic alignment.  
+- Develops a reusable ontology capturing core workflow concepts across languages.  
+- Demonstrates enhanced transformation accuracy preserving behavioral semantics.
+
+### Method & Results  
+- Utilizes OWL ontologies to represent workflow semantics and guide model-to-model transformations using rule-based reasoning.  
+- Implements prototype transformation tool integrated with Eclipse Modeling Framework (EMF).  
+- Evaluated on benchmark workflow models with various constructs (e.g., parallelism, conditions).  
+- Achieved up to 20% higher semantic preservation accuracy versus baseline syntactic transformations.  
+- Reported improved handling of complex control-flow patterns and exception handling.
+
+### Impact & Limitations  
+- Enables more reliable interoperability between heterogeneous workflow modeling tools, beneficial for enterprise process integration.  
+- Current prototype limited to select workflow languages; future work includes extending ontology coverage and automating transformation rule generation.
+
+---
+
+#### What's in a Software Engineering Job Posting?
+**作者**: Marvin Wyrich, Lloyd Montgomery
+**类别**: cs.SE
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13656v1
+
+#### Executive Summary  
+This paper investigates the content and characteristics of software engineering job postings to understand employer expectations and skill demands. The authors analyze a large corpus of job ads using natural language processing techniques, revealing trends in required skills, experience, and job roles. Their findings highlight key competencies and evolving requirements in software engineering recruitment.
+
+### Key Contributions  
+- Systematic extraction and analysis of skill and role mentions from a large dataset of software engineering job postings.  
+- Identification of trends and commonalities across job ads, providing insight into employer hiring preferences.  
+- Novel application of NLP to parse and categorize job posting text at scale within software engineering.
+
+### Method & Results  
+- Used NLP methods to process and cluster job description text from thousands of postings collected from major job boards.  
+- Employed keyword extraction and role classification techniques to map skills and experience requirements.  
+- Dataset comprised X,000 postings from diverse geographic and industry domains (exact number unspecified).  
+- Results: Found a sharp rise in demand for cloud, agile, and DevOps skills; most postings expect 3-5 years experience; trend toward more specialized roles.  
+- Compared to prior manual analyses, this approach provides scalable, up-to-date insights but no explicit performance benchmark reported.
+
+### Impact & Limitations  
+- Provides actionable insights for job seekers, educators, and recruiters to align skills training and hiring strategies with market demands.  
+- Limitations: Dataset bias toward English-language and major job boards; potential noise in automated text parsing.  
+- Future work could include longitudinal tracking of skill evolution and deeper semantic analysis of job role dynamics.
+
+---
+
+#### Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?
+**作者**: Chunqiu Steven Xia, Zhe Wang, Yan Yang, Yuxiang Wei, Lingming Zhang
+**类别**: cs.SE, cs.AI, cs.CL, cs.LG
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13646v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling software engineering agents to autonomously evolve their capabilities during runtime. The authors propose Live-SWE-agent, a novel framework allowing agents to self-improve by dynamically adapting their models and strategies on the fly. Experimentation demonstrates significant improvements in adaptability and performance compared to static SE agents.
+
+### Key Contributions  
+- Introduces Live-SWE-agent, the first framework supporting on-the-fly self-evolution in software engineering agents.  
+- Develops a dynamic adaptation mechanism integrating runtime feedback for continuous learning and strategy evolution.  
+- Demonstrates cross-disciplinary innovation by combining SE, AI, and NLP techniques in agent self-improvement.
+
+### Method & Results  
+- Utilizes a feedback-driven self-evolution loop allowing agents to modify internal models based on environment interactions.  
+- Experiments conducted on standard SE tasks with datasets including bug reports, code repositories, and developer discussions.  
+- Achieves up to 25% improvement in task completion efficiency and 18% higher accuracy in code-related predictions versus baseline static agents.  
+- Outperforms baseline SE agents that lack self-evolution capabilities in adaptability and robustness measures.
+
+### Impact & Limitations  
+- Enables practical deployment of self-improving SE agents, potentially reducing human intervention and improving software lifecycle management.  
+- Limitations include scalability challenges in complex environments and the need for more extensive real-world validations; future work aims to address these aspects.
+
+---
+
+#### BIOMERO 2.0: end-to-end FAIR infrastructure for bioimaging data import, analysis, and provenance
+**作者**: Torec T. Luik, Joost de Folter, Rodrigo Rosas-Bertolini, Eric A. J. Reits, Ron A. Hoebe, Przemek M. Krawczyk
+**类别**: cs.SE, q-bio.QM
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13611v1
+
+#### Executive Summary  
+BIOMERO 2.0 addresses the challenge of managing, analyzing, and maintaining provenance of complex bioimaging data within FAIR (Findable, Accessible, Interoperable, Reusable) principles. It presents an end-to-end infrastructure facilitating seamless data import, standardized metadata handling, and integrated analysis workflows. The platform demonstrably improves data reproducibility and workflow transparency in bioimaging research.
+
+### Key Contributions  
+- Development of a fully integrated FAIR-compliant infrastructure for bioimaging data lifecycle management.  
+- Implementation of automated provenance tracking linking raw data, metadata, and analysis results.  
+- Seamless interoperability with existing bioinformatics tools, enhancing reproducibility and data reuse.
+
+### Method & Results  
+- Combines a modular architecture with standardized metadata schemas and automated provenance capture during data import and analysis.  
+- Utilizes real-world bioimaging datasets and integrates with popular analysis frameworks such as OMERO and Fiji.  
+- Demonstrated >30% improvement in metadata completeness and ~25% reduction in manual curation time versus traditional workflows.  
+- Outperforms baseline platforms by providing end-to-end traceability and FAIR compliance without significant overhead.
+
+### Impact & Limitations  
+- Enables researchers to efficiently handle large-scale bioimaging data ensuring adherence to FAIR principles, promoting open and reproducible science.  
+- Currently tailored primarily for microscopy imaging; extension to other modalities and scalability testing are future directions.
+
+---
+
+#### Towards Quantum Software for Quantum Simulation
+**作者**: Maja Franz, Lukas Schmidbauer, Joshua Ammermann, Ina Schaefer, Wolfgang Mauerer
+**类别**: quant-ph, cs.SE
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13520v1
+
+#### Executive Summary  
+This paper addresses the challenge of developing robust quantum software frameworks tailored for quantum simulation tasks. The authors present a modular software architecture that integrates quantum algorithms with classical control, demonstrating scalable simulation workflows. Their approach improves the practicality of quantum simulations on near-term quantum hardware.
+
+### Key Contributions  
+- Proposes a novel, modular quantum software architecture optimized for simulation applications.  
+- Introduces an interface bridging quantum algorithm design with classical control workflows.  
+- Demonstrates scalability and usability through implementation on existing quantum hardware simulators.
+
+### Method & Results  
+- Develops a layered software stack combining quantum circuit generation, error mitigation, and classical orchestration.  
+- Utilizes IBM Qiskit and Rigetti Forest as benchmarking platforms for implementation and testing.  
+- Achieves up to 20% improvement in simulation fidelity over standard libraries on tested quantum devices.  
+- Demonstrates enhanced modularity enabling easier integration of emerging quantum algorithms.
+
+### Impact & Limitations  
+- Facilitates more accessible and reliable quantum simulations, aiding research in materials science and chemistry.  
+- Currently limited by hardware noise and scalability; future work to focus on error correction integration and broader quantum architectures support.
+
+---
+
+### 安全领域 领域
+
+#### TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone
+**作者**: Xunjie Wang, Jiacheng Shi, Zihan Zhao, Yang Yu, Zhichao Hua, Jinyu Gu
+**类别**: cs.CR
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13717v1
+
+#### Executive Summary  
+This paper addresses the security challenges of deploying large language models (LLMs) on edge devices by leveraging Arm TrustZone to protect model integrity and user data. The authors design TZ-LLM, a trusted execution environment framework that isolates sensitive LLM operations, achieving strong security guarantees with minimal performance overhead.
+
+### Key Contributions  
+- Propose TZ-LLM, the first framework integrating on-device LLM inference with Arm TrustZone for robust security.  
+- Develop lightweight mechanisms to securely manage model parameters and user inputs within the TrustZone environment.  
+- Demonstrate practical protection against common attacks (e.g., model tampering, data leakage) without significant latency or resource penalties.
+
+### Method & Results  
+- Utilize Arm TrustZone to create a secure enclave for critical LLM functions, separating trusted and untrusted code execution.  
+- Evaluate on real-world LLMs deployed on ARM-based edge devices, measuring throughput, latency, and security properties.  
+- Results show under 10% inference latency increase while preventing unauthorized access and model extraction attacks.  
+- Outperforms conventional software-only protection approaches in security and efficiency.
+
+### Impact & Limitations  
+- Enables trustworthy, privacy-preserving on-device LLM deployment in IoT and mobile contexts, enhancing user data confidentiality.  
+- Limitations include dependence on Arm TrustZone hardware availability and potential scalability challenges with larger LLMs; future work may explore broader hardware support and optimized enclave designs.
+
+---
+
+#### Tuning for Two Adversaries: Enhancing the Robustness Against Transfer and Query-Based Attacks using Hyperparameter Tuning
+**作者**: Pascal Zimmer, Ghassan Karame
+**类别**: cs.LG, cs.CR, cs.CV
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13654v1
+
+#### Executive Summary  
+This paper addresses the challenge of defending machine learning models against both transfer-based and query-based adversarial attacks. The authors propose a novel hyperparameter tuning framework specifically designed to enhance robustness against these two adversarial scenarios simultaneously. Their approach demonstrates significant improvement in model resilience without sacrificing accuracy.
+
+### Key Contributions  
+- Introduces a unified hyperparameter tuning strategy targeting robustness against both transfer and query-based attacks.  
+- Provides empirical evidence that strategic tuning can outperform conventional adversarial defenses without model architecture changes.  
+- Highlights the dual-adversary threat model, which has been underexplored in existing robustness research.
+
+### Method & Results  
+- Develops a tuning framework adjusting parameters like learning rate, regularization, and defense-specific hyperparameters to optimize robustness.  
+- Evaluates on standard vision datasets (e.g., CIFAR-10, ImageNet) against well-known adversarial attacks (e.g., PGD, NES queries).  
+- Achieves up to 15% increased robustness under transfer attacks and reduces query attack success rate by around 20%.  
+- Outperforms baseline defenses that rely solely on adversarial training or gradient masking techniques.
+
+### Impact & Limitations  
+- Practical significance: Offers a low-overhead method to strengthen models in realistic threat environments involving multiple attack vectors.  
+- Limitations/Future work: Needs validation across more diverse domains beyond vision; automating tuning for deployment scalability remains a challenge.
+
+---
+
+#### It's a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications
+**作者**: Quinn Burke, Anjo Vahldiek-Oberwagner, Michael Swift, Patrick McDaniel
+**类别**: cs.CR
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13641v1
+
+#### Executive Summary
+This paper addresses the challenge of securely implementing state rollback in confidential cloud applications, a feature traditionally seen as a vulnerability. The authors propose a novel framework that enables secure, auditable rollback mechanisms, ensuring integrity and confidentiality despite potential adversarial rollback attempts. Their approach demonstrates effective state management without compromising security guarantees.
+
+### Key Contributions
+- Introduces a secure and auditable state rollback framework tailored for confidential cloud applications.
+- Provides novel cryptographic and system design techniques to detect and prevent unauthorized rollbacks.
+- Demonstrates practical implementation preserving confidentiality while enabling forensic auditability.
+
+### Method & Results
+- Utilizes cryptographic proofs and secure hardware enclaves to validate state transitions and rollback legitimacy.
+- Developed a prototype using Intel SGX to enforce rollback policies and record audit logs.
+- Experimental results show low overhead (<10% performance impact) compared to unsecured rollback approaches.
+- Outperforms baseline rollback mechanisms by ensuring both security and auditability without significant latency penalties.
+
+### Impact & Limitations
+- Enables cloud applications to confidently adopt rollback features, improving fault tolerance and recoverability in sensitive environments.
+- Limitations include dependency on secure hardware availability and potential scalability challenges with large-scale state management.
+- Future work may explore broader hardware support and optimize audit log storage for long-term deployment.
+
+---
+
+#### Robust Client-Server Watermarking for Split Federated Learning
+**作者**: Jiaxiong Tang, Zhengchunmin Dai, Liantao Wu, Peng Sun, Honglong Chen, Zhenfu Cao
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13598v1
+
+#### Executive Summary
+This paper addresses the challenge of protecting intellectual property in split federated learning by embedding robust watermarks on both client and server sides. The authors propose a novel watermarking framework that ensures ownership verification without compromising model performance, demonstrated through extensive experiments. Results show high watermark detection accuracy and resistance to common attacks.
+
+### Key Contributions
+- Introduces a dual watermarking mechanism tailored for split federated learning architectures.
+- Develops a robustness-enhancing technique to secure watermarks against tampering and model updates.
+- Empirically validates the watermark's effectiveness without degrading collaborative model accuracy.
+
+### Method & Results
+- Proposes embedding watermarks in intermediate activation maps exchanged between client and server during training.
+- Utilizes standard split learning benchmarks and simulation of practical attack scenarios.
+- Achieves watermark detection accuracy exceeding 95% under various attack settings.
+- Maintains model accuracy within 1% of unwatermarked baselines, outperforming existing watermarking methods in robustness.
+
+### Impact & Limitations
+- Enhances trust and IP protection in collaborative learning, facilitating wider adoption of split federated learning frameworks.
+- Limited assessment on scalability to large-scale, heterogeneous client environments; future work could explore adaptive watermark schemes for dynamic network conditions.
+
+---
+
+#### Exploring the Effectiveness of Google Play Store's Privacy Transparency Channels
+**作者**: Anhao Xiang, Weiping Pei, Chuan Yue
+**类别**: cs.CR, cs.HC
+**发布日期**: 2025-11-17
+**链接**: http://arxiv.org/abs/2511.13576v1
+
+#### Executive Summary  
+This paper investigates the effectiveness of privacy transparency channels within the Google Play Store in informing users about app data practices. Using empirical analysis and user studies, the authors reveal gaps between the intended transparency mechanisms and actual user comprehension and engagement. Their results highlight the need for improved design and communication strategies to enhance privacy awareness.
+
+### Key Contributions  
+- Provides the first comprehensive evaluation of Google Play Store's privacy transparency tools from a user-centric perspective.  
+- Identifies specific UI/UX shortcomings affecting user understanding of app data practices.  
+- Proposes actionable recommendations to improve privacy disclosures in mobile app ecosystems.
+
+### Method & Results  
+- Conducted mixed-method research including content analysis of privacy disclosures, user surveys, and interaction logs.  
+- Utilized datasets comprising a representative sample of Google Play apps and questionnaire responses from diverse users.  
+- Found that less than 40% of users could accurately interpret privacy information, with engagement rates below 25%.  
+- Demonstrated that current transparency channels underperform compared to standard privacy labels reported in prior literature.
+
+### Impact & Limitations  
+- Highlights practical gaps in app store privacy communication, guiding better policy and design for protecting user data.  
+- Limitations include a focus on Google Play only and potential biases in user self-reporting; future work should extend to other platforms and incorporate longitudinal behavior tracking.
 
 ---
 
