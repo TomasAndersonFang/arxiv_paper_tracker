@@ -31346,19 +31346,19 @@ This paper addresses the challenge of detecting evolving intrusion attacks on RP
 #### Executive Summary  
 This paper addresses the challenge of translating workflow specifications across different modeling languages using ontology-driven model-to-model transformation. The authors propose a semantic approach leveraging ontologies to ensure consistency and preserve workflow semantics during transformations. Results demonstrate improved accuracy in mapping complex workflow constructs compared to traditional syntactic methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an ontology-based framework for workflow model transformation ensuring semantic alignment.  
 - Develops a reusable ontology capturing core workflow concepts across languages.  
 - Demonstrates enhanced transformation accuracy preserving behavioral semantics.
 
-### Method & Results  
+### Method & Results
 - Utilizes OWL ontologies to represent workflow semantics and guide model-to-model transformations using rule-based reasoning.  
 - Implements prototype transformation tool integrated with Eclipse Modeling Framework (EMF).  
 - Evaluated on benchmark workflow models with various constructs (e.g., parallelism, conditions).  
 - Achieved up to 20% higher semantic preservation accuracy versus baseline syntactic transformations.  
 - Reported improved handling of complex control-flow patterns and exception handling.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable interoperability between heterogeneous workflow modeling tools, beneficial for enterprise process integration.  
 - Current prototype limited to select workflow languages; future work includes extending ontology coverage and automating transformation rule generation.
 
@@ -31373,19 +31373,19 @@ This paper addresses the challenge of translating workflow specifications across
 #### Executive Summary  
 This paper investigates the content and characteristics of software engineering job postings to understand employer expectations and skill demands. The authors analyze a large corpus of job ads using natural language processing techniques, revealing trends in required skills, experience, and job roles. Their findings highlight key competencies and evolving requirements in software engineering recruitment.
 
-### Key Contributions  
+### Key Contributions
 - Systematic extraction and analysis of skill and role mentions from a large dataset of software engineering job postings.  
 - Identification of trends and commonalities across job ads, providing insight into employer hiring preferences.  
 - Novel application of NLP to parse and categorize job posting text at scale within software engineering.
 
-### Method & Results  
+### Method & Results
 - Used NLP methods to process and cluster job description text from thousands of postings collected from major job boards.  
 - Employed keyword extraction and role classification techniques to map skills and experience requirements.  
 - Dataset comprised X,000 postings from diverse geographic and industry domains (exact number unspecified).  
 - Results: Found a sharp rise in demand for cloud, agile, and DevOps skills; most postings expect 3-5 years experience; trend toward more specialized roles.  
 - Compared to prior manual analyses, this approach provides scalable, up-to-date insights but no explicit performance benchmark reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for job seekers, educators, and recruiters to align skills training and hiring strategies with market demands.  
 - Limitations: Dataset bias toward English-language and major job boards; potential noise in automated text parsing.  
 - Future work could include longitudinal tracking of skill evolution and deeper semantic analysis of job role dynamics.
@@ -31401,18 +31401,18 @@ This paper investigates the content and characteristics of software engineering 
 #### Executive Summary  
 This paper addresses the challenge of enabling software engineering agents to autonomously evolve their capabilities during runtime. The authors propose Live-SWE-agent, a novel framework allowing agents to self-improve by dynamically adapting their models and strategies on the fly. Experimentation demonstrates significant improvements in adaptability and performance compared to static SE agents.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Live-SWE-agent, the first framework supporting on-the-fly self-evolution in software engineering agents.  
 - Develops a dynamic adaptation mechanism integrating runtime feedback for continuous learning and strategy evolution.  
 - Demonstrates cross-disciplinary innovation by combining SE, AI, and NLP techniques in agent self-improvement.
 
-### Method & Results  
+### Method & Results
 - Utilizes a feedback-driven self-evolution loop allowing agents to modify internal models based on environment interactions.  
 - Experiments conducted on standard SE tasks with datasets including bug reports, code repositories, and developer discussions.  
 - Achieves up to 25% improvement in task completion efficiency and 18% higher accuracy in code-related predictions versus baseline static agents.  
 - Outperforms baseline SE agents that lack self-evolution capabilities in adaptability and robustness measures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of self-improving SE agents, potentially reducing human intervention and improving software lifecycle management.  
 - Limitations include scalability challenges in complex environments and the need for more extensive real-world validations; future work aims to address these aspects.
 
@@ -31427,18 +31427,18 @@ This paper addresses the challenge of enabling software engineering agents to au
 #### Executive Summary  
 BIOMERO 2.0 addresses the challenge of managing, analyzing, and maintaining provenance of complex bioimaging data within FAIR (Findable, Accessible, Interoperable, Reusable) principles. It presents an end-to-end infrastructure facilitating seamless data import, standardized metadata handling, and integrated analysis workflows. The platform demonstrably improves data reproducibility and workflow transparency in bioimaging research.
 
-### Key Contributions  
+### Key Contributions
 - Development of a fully integrated FAIR-compliant infrastructure for bioimaging data lifecycle management.  
 - Implementation of automated provenance tracking linking raw data, metadata, and analysis results.  
 - Seamless interoperability with existing bioinformatics tools, enhancing reproducibility and data reuse.
 
-### Method & Results  
+### Method & Results
 - Combines a modular architecture with standardized metadata schemas and automated provenance capture during data import and analysis.  
 - Utilizes real-world bioimaging datasets and integrates with popular analysis frameworks such as OMERO and Fiji.  
 - Demonstrated >30% improvement in metadata completeness and ~25% reduction in manual curation time versus traditional workflows.  
 - Outperforms baseline platforms by providing end-to-end traceability and FAIR compliance without significant overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables researchers to efficiently handle large-scale bioimaging data ensuring adherence to FAIR principles, promoting open and reproducible science.  
 - Currently tailored primarily for microscopy imaging; extension to other modalities and scalability testing are future directions.
 
@@ -31453,18 +31453,18 @@ BIOMERO 2.0 addresses the challenge of managing, analyzing, and maintaining prov
 #### Executive Summary  
 This paper addresses the challenge of developing robust quantum software frameworks tailored for quantum simulation tasks. The authors present a modular software architecture that integrates quantum algorithms with classical control, demonstrating scalable simulation workflows. Their approach improves the practicality of quantum simulations on near-term quantum hardware.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel, modular quantum software architecture optimized for simulation applications.  
 - Introduces an interface bridging quantum algorithm design with classical control workflows.  
 - Demonstrates scalability and usability through implementation on existing quantum hardware simulators.
 
-### Method & Results  
+### Method & Results
 - Develops a layered software stack combining quantum circuit generation, error mitigation, and classical orchestration.  
 - Utilizes IBM Qiskit and Rigetti Forest as benchmarking platforms for implementation and testing.  
 - Achieves up to 20% improvement in simulation fidelity over standard libraries on tested quantum devices.  
 - Demonstrates enhanced modularity enabling easier integration of emerging quantum algorithms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates more accessible and reliable quantum simulations, aiding research in materials science and chemistry.  
 - Currently limited by hardware noise and scalability; future work to focus on error correction integration and broader quantum architectures support.
 
@@ -31481,18 +31481,18 @@ This paper addresses the challenge of developing robust quantum software framewo
 #### Executive Summary  
 This paper addresses the security challenges of deploying large language models (LLMs) on edge devices by leveraging Arm TrustZone to protect model integrity and user data. The authors design TZ-LLM, a trusted execution environment framework that isolates sensitive LLM operations, achieving strong security guarantees with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Propose TZ-LLM, the first framework integrating on-device LLM inference with Arm TrustZone for robust security.  
 - Develop lightweight mechanisms to securely manage model parameters and user inputs within the TrustZone environment.  
 - Demonstrate practical protection against common attacks (e.g., model tampering, data leakage) without significant latency or resource penalties.
 
-### Method & Results  
+### Method & Results
 - Utilize Arm TrustZone to create a secure enclave for critical LLM functions, separating trusted and untrusted code execution.  
 - Evaluate on real-world LLMs deployed on ARM-based edge devices, measuring throughput, latency, and security properties.  
 - Results show under 10% inference latency increase while preventing unauthorized access and model extraction attacks.  
 - Outperforms conventional software-only protection approaches in security and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables trustworthy, privacy-preserving on-device LLM deployment in IoT and mobile contexts, enhancing user data confidentiality.  
 - Limitations include dependence on Arm TrustZone hardware availability and potential scalability challenges with larger LLMs; future work may explore broader hardware support and optimized enclave designs.
 
@@ -31507,18 +31507,18 @@ This paper addresses the security challenges of deploying large language models 
 #### Executive Summary  
 This paper addresses the challenge of defending machine learning models against both transfer-based and query-based adversarial attacks. The authors propose a novel hyperparameter tuning framework specifically designed to enhance robustness against these two adversarial scenarios simultaneously. Their approach demonstrates significant improvement in model resilience without sacrificing accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a unified hyperparameter tuning strategy targeting robustness against both transfer and query-based attacks.  
 - Provides empirical evidence that strategic tuning can outperform conventional adversarial defenses without model architecture changes.  
 - Highlights the dual-adversary threat model, which has been underexplored in existing robustness research.
 
-### Method & Results  
+### Method & Results
 - Develops a tuning framework adjusting parameters like learning rate, regularization, and defense-specific hyperparameters to optimize robustness.  
 - Evaluates on standard vision datasets (e.g., CIFAR-10, ImageNet) against well-known adversarial attacks (e.g., PGD, NES queries).  
 - Achieves up to 15% increased robustness under transfer attacks and reduces query attack success rate by around 20%.  
 - Outperforms baseline defenses that rely solely on adversarial training or gradient masking techniques.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Offers a low-overhead method to strengthen models in realistic threat environments involving multiple attack vectors.  
 - Limitations/Future work: Needs validation across more diverse domains beyond vision; automating tuning for deployment scalability remains a challenge.
 
@@ -31586,20 +31586,292 @@ This paper addresses the challenge of protecting intellectual property in split 
 #### Executive Summary  
 This paper investigates the effectiveness of privacy transparency channels within the Google Play Store in informing users about app data practices. Using empirical analysis and user studies, the authors reveal gaps between the intended transparency mechanisms and actual user comprehension and engagement. Their results highlight the need for improved design and communication strategies to enhance privacy awareness.
 
-### Key Contributions  
+### Key Contributions
 - Provides the first comprehensive evaluation of Google Play Store's privacy transparency tools from a user-centric perspective.  
 - Identifies specific UI/UX shortcomings affecting user understanding of app data practices.  
 - Proposes actionable recommendations to improve privacy disclosures in mobile app ecosystems.
 
-### Method & Results  
+### Method & Results
 - Conducted mixed-method research including content analysis of privacy disclosures, user surveys, and interaction logs.  
 - Utilized datasets comprising a representative sample of Google Play apps and questionnaire responses from diverse users.  
 - Found that less than 40% of users could accurately interpret privacy information, with engagement rates below 25%.  
 - Demonstrated that current transparency channels underperform compared to standard privacy labels reported in prior literature.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical gaps in app store privacy communication, guiding better policy and design for protecting user data.  
 - Limitations include a focus on Google Play only and potential biases in user self-reporting; future work should extend to other platforms and incorporate longitudinal behavior tracking.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-19)
+
+### 软件工程 领域
+
+#### Why Do We Code? A Theory on Motivations and Challenges in Software Engineering from Education to Practice
+**作者**: Aaliyah Chang, Mariam Guizani, Brittany Johnson
+**类别**: cs.SE
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14711v1
+
+#### Executive Summary  
+This paper investigates the underlying motivations and challenges faced by individuals in software engineering, spanning from educational settings to professional practice. Through a mixed-methods approach, the authors develop a comprehensive theory linking intrinsic and extrinsic factors to coding engagement and persistence. Results highlight key motivational drivers that inform both teaching strategies and workplace practices.
+
+### Key Contributions  
+- Proposes a novel motivational theory connecting educational and professional coding experiences.  
+- Identifies specific psychological and contextual factors influencing coder engagement and challenges.  
+- Bridges gaps between software engineering education and practice through empirical insights.
+
+### Method & Results  
+- Employed surveys and in-depth interviews across students and professional developers to gather qualitative and quantitative data.  
+- Utilized thematic analysis alongside statistical correlation to identify motivational themes.  
+- Found intrinsic interest and problem-solving satisfaction are primary motivators; external rewards and recognition play a supporting role.  
+- Identified common challenges include time management, imposter syndrome, and evolving technical complexity.  
+- Compared motivational patterns between novices and experts, revealing distinct shifts in priorities.
+
+### Impact & Limitations  
+- Offers actionable guidance to educators and managers to tailor support that enhances coder motivation and reduces attrition.  
+- Limited by sample diversity, with future work needed to explore cross-cultural and domain-specific factors.  
+- Suggests longitudinal studies to track motivation dynamics over career progression.
+
+---
+
+#### FHIRconnect: Towards a seamless integration of openEHR and FHIR
+**作者**: Severin Kohler, Jordi Piera Jiménez, Michael Anywar, Lars Fuhrmann, Heather Leslie, Maximilian Meixner, Julian Saß, Florian Kärcher, Diego Boscá, Birger Haarbrandt, Michael Marschollek, Roland Eils
+**类别**: cs.SE
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14618v1
+
+#### Executive Summary
+The paper addresses the challenge of interoperably integrating openEHR and FHIR, two prominent healthcare data standards. It presents FHIRconnect, a middleware solution enabling seamless data exchange and consistency between the two. The approach facilitates smoother interoperability, validated through prototype implementation and evaluation.
+
+### Key Contributions
+- Development of FHIRconnect middleware for bidirectional integration of openEHR and FHIR data models.
+- Innovative approach harmonizing differing semantic and structural aspects between openEHR and FHIR.
+- Prototype demonstration proving feasibility and effectiveness of seamless standard integration.
+
+### Method & Results
+- Designed a mapping framework converting clinical data instances and archetypes between openEHR and FHIR representations.
+- Implemented middleware tested on synthetic and real-world healthcare datasets.
+- Achieved high accuracy in data transformation with minimal information loss; latency and throughput metrics showed practical performance suitable for clinical settings.
+- Demonstrated improved interoperability compared to existing one-way or manual integration methods.
+
+### Impact & Limitations
+- Enables healthcare systems to leverage advantages of both standards, promoting unified data workflows and potentially improving clinical decision support systems.
+- Limitations include scalability tests on larger datasets and extension to broader FHIR resources; future work involves enhancing automation and dynamic update handling.
+
+---
+
+#### LLM-Assisted Thematic Analysis: Opportunities, Limitations, and Recommendations
+**作者**: Tatiane Ornelas, Allysson Allex Araújo, Júlia Araújo, Marina Araújo, Bianca Trinkenreich, Marcos Kalinowski
+**类别**: cs.SE
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14528v1
+
+#### Executive Summary  
+This paper addresses the integration of Large Language Models (LLMs) into thematic analysis processes to enhance qualitative data coding and theme identification. The authors systematically investigate the opportunities and challenges of LLM-assisted thematic analysis, presenting practical recommendations to optimize its use. Results highlight both the potential efficiency gains and critical limitations of relying on LLMs as analytic aides.
+
+### Key Contributions  
+- Demonstrates how LLMs can support and accelerate thematic coding in qualitative research.  
+- Identifies limitations in LLM interpretability and contextual understanding within thematic analysis.  
+- Provides actionable guidelines for researchers deploying LLMs in qualitative data workflows.
+
+### Method & Results  
+- Method: Empirical evaluation combining manual thematic analysis with LLM-generated coding on qualitative datasets.  
+- Tools: Use of state-of-the-art LLMs (e.g., GPT-based models) for coding assistance across diverse textual corpora.  
+- Results: LLM assistance reduced coding time by up to 30% while maintaining thematic consistency, but showed variability in theme granularity.  
+- Compared to purely manual baseline, LLMs improved efficiency but occasionally missed nuanced themes, indicating complementary rather than replacement roles.
+
+### Impact & Limitations  
+- Impact: Enhances qualitative research efficiency, enabling broader adoption of thematic analysis in large datasets.  
+- Limitations: LLMs currently lack deep contextual reasoning required for complex thematic interpretation; future work should improve model explainability and domain adaptation.
+
+---
+
+#### Towards A Catalogue of Requirement Patterns for Space Robotic Missions
+**作者**: Mahdi Etumi, Hazel M. Taylor, Marie Farrell
+**类别**: cs.LO, cs.FL, cs.RO, cs.SE
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14438v1
+
+#### Executive Summary
+The paper addresses the challenge of specifying and reusing requirements in space robotic missions by developing a structured catalogue of requirement patterns. The authors systematically identify, classify, and formalize common requirement patterns, facilitating improved clarity and reuse in mission design. The work results in a foundational catalogue that supports more reliable and maintainable requirements engineering in space robotics.
+
+### Key Contributions
+- Introduction of the first comprehensive catalogue of reusable requirement patterns tailored for space robotic missions.
+- Formalization of these patterns to enhance precision and facilitate automated reasoning.
+- Integration of multidisciplinary insights spanning logic, robotics, and software engineering in pattern development.
+
+### Method & Results
+- Reviewed space mission documents and expert interviews to extract recurring requirement motifs.
+- Formalized patterns using logical and formal methods frameworks to ensure rigor and reusability.
+- Created an initial catalogue comprising X distinct patterns (exact number not specified).
+- Demonstrated pattern applicability through case studies or validation scenarios (details not explicitly quantified).
+- No direct quantitative comparison to baseline methods reported but qualitative improvements in requirement clarity and reuse are indicated.
+
+### Impact & Limitations
+- Enables systematic reuse and clearer specification of requirements in complex space robotic projects, potentially reducing design errors and development time.
+- Limited by initial catalogue scope; future work includes expanding pattern coverage and tooling for automated pattern application and verification.
+
+---
+
+#### Watchdogs and Oracles: Runtime Verification Meets Large Language Models for Autonomous Systems
+**作者**: Angelo Ferrando
+**类别**: cs.SE, cs.AI, cs.LO
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14435v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring safety and reliability in autonomous systems by integrating runtime verification with large language models (LLMs). The authors propose a hybrid framework where LLMs serve as oracles to interpret system behavior, while formal runtime monitors act as watchdogs to enforce correctness. Experimental results demonstrate enhanced detection of anomalies and contextual understanding beyond traditional verification.
+
+### Key Contributions  
+- Introduces a novel hybrid framework combining runtime verification techniques with LLM-based oracles for autonomous system monitoring.  
+- Demonstrates that LLMs can enhance anomaly detection through semantic interpretation of runtime data.  
+- Provides empirical evidence of improved fault detection without significant performance overhead.
+
+### Method & Results  
+- Method: Deployment of formal monitors alongside LLMs to analyze event traces and generate runtime verdicts on system correctness.  
+- Tools: Utilizes state-of-the-art LLMs (e.g., GPT variants) integrated with existing runtime verification frameworks.  
+- Results: Achieves up to 25% higher anomaly detection rates compared to traditional monitoring alone, with minimal latency impact.  
+- Performance: Outperforms baseline runtime verification systems by effectively reducing false positives through contextual reasoning.
+
+### Impact & Limitations  
+- Practical Significance: Enhances trustworthiness of autonomous systems by combining formal guarantees with AI-driven interpretability.  
+- Limitations/Future Work: Needs exploration of scalability to complex systems and robustness against adversarial inputs; integration with real-time constraints remains challenging.
+
+---
+
+### 安全领域 领域
+
+#### A Unified Compositional View of Attack Tree Metrics
+**作者**: Benedikt Peterseim, Milan Lopuhaä-Zwakenberg
+**类别**: cs.CR
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14717v1
+
+#### Executive Summary
+This paper tackles the challenge of quantifying attack tree metrics in cybersecurity by proposing a unified compositional framework. The authors develop a systematic approach that integrates diverse metric definitions into a coherent algebraic structure, enabling consistent evaluation and comparison. Their framework elegantly generalizes prior disparate metrics and simplifies compositional reasoning about security risks.
+
+### Key Contributions
+- Introduces a unified algebraic framework that consolidates multiple attack tree metrics under one compositional model.
+- Demonstrates how existing metrics (e.g., probability, cost, time) fit naturally into the unified framework.
+- Provides theoretical foundations enabling modular and scalable security analysis.
+
+### Method & Results
+- Formalizes attack tree metrics using algebraic structures that support compositional operations for complex security scenarios.
+- Applies the framework to representative attack trees to validate metric calculation consistency and generality.
+- No specific datasets used; focus is theoretical with illustrative examples.
+- Achieves seamless integration of previously incompatible metric notions, outperforming fragmented approaches in conceptual clarity.
+
+### Impact & Limitations
+- Offers a foundational tool for security analysts to evaluate and combine attack metrics reliably, enhancing risk assessment methodologies.
+- Limited empirical evaluation on real-world datasets; future work could explore scalability and tool support for practical deployment.
+
+---
+
+#### \textit{FLARE}: Adaptive Multi-Dimensional Reputation for Robust Client Reliability in Federated Learning
+**作者**: Abolfazl Younesi, Leon Kiss, Zahra Najafabadi Samani, Juan Aznar Poveda, Thomas Fahringer
+**类别**: cs.LG, cs.AI, cs.CR, cs.DC, cs.MA
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14715v1
+
+#### Executive Summary
+This paper addresses the challenge of robust client reliability evaluation in federated learning under adversarial and noisy conditions. It introduces FLARE, an adaptive multi-dimensional reputation system that dynamically assesses clients across diverse criteria to improve trustworthiness estimation. Experiments demonstrate FLARE significantly enhances model robustness and convergence compared to traditional single-dimensional reputation methods.
+
+### Key Contributions
+- Proposes a novel multi-dimensional reputation framework for client reliability that adapts over time.
+- Integrates heterogeneous metrics (e.g., data quality, update consistency) into a unified trust score.
+- Demonstrates improved defense against adversarial attacks in federated learning settings.
+
+### Method & Results
+- Develops an adaptive mechanism combining diverse client behavior metrics to compute reputations for reliable aggregation.
+- Evaluates on standard federated datasets (e.g., CIFAR-10, FEMNIST) under mixed benign and malicious client scenarios.
+- Achieves up to 15% accuracy improvement over baseline aggregation methods under adversarial noise.
+- Outperforms existing reputation-based approaches by maintaining stable performance as adversarial intensity increases.
+
+### Impact & Limitations
+- Enhances practical federated learning deployment by reliably identifying trustworthy clients, improving model security.
+- Future work needed to extend framework scalability and explore reputation dynamics in non-IID data environments.
+
+---
+
+#### SecureSign: Bridging Security and UX in Mobile Web3 through Emulated EIP-6963 Sandboxing
+**作者**: Charles Cheng Ji, Brandon Kong
+**类别**: cs.CR, cs.HC
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14611v1
+
+#### Executive Summary
+SecureSign addresses the tension between security and user experience in mobile Web3 by introducing an emulated sandboxing approach based on EIP-6963. The system enables secure, seamless transaction signing within mobile browsers without compromising UX. Evaluations demonstrate SecureSign’s effectiveness in mitigating security risks while maintaining user-friendly interactions.
+
+### Key Contributions
+- Introduces an emulated sandboxing mechanism inspired by EIP-6963 specifically adapted for mobile Web3 environments.
+- Demonstrates a practical integration that balances strong security guarantees with enhanced user experience.
+- Provides empirical evidence showcasing SecureSign’s robustness against common mobile Web3 attack vectors.
+
+### Method & Results
+- Designed an emulated sandbox that isolates transaction signing from malicious scripts in mobile browsers.
+- Developed a prototype integrated into a popular mobile Web3 wallet for real-world usability assessment.
+- Conducted security evaluations confirming resistance to script injection and phishing; user studies showed a 30% improvement in signing efficiency.
+- Outperformed baseline approaches lacking sandboxing by reducing unauthorized transaction risks by over 75%.
+
+### Impact & Limitations
+- Enables safer mobile Web3 interactions, potentially increasing mainstream adoption by addressing security-UX tradeoffs.
+- Limitations include reliance on browser support for emulation fidelity and potential overhead on lower-end devices; future work to optimize performance and expand compatibility.
+
+---
+
+#### ForensicFlow: A Tri-Modal Adaptive Network for Robust Deepfake Detection
+**作者**: Mohammad Romani
+**类别**: cs.CV, cs.CR, cs.LG
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14554v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting deepfakes by proposing ForensicFlow, a tri-modal adaptive network leveraging spatial, frequency, and biological signals for robust deepfake identification. The method demonstrates improved generalization across diverse manipulations and datasets, achieving superior detection accuracy.
+
+### Key Contributions  
+- Introduces a novel tri-modal architecture combining spatial, frequency, and physiological cues for deepfake detection.  
+- Proposes an adaptive fusion mechanism dynamically weighting modalities based on input characteristics.  
+- Demonstrates enhanced robustness and generalization across multiple unseen deepfake datasets.
+
+### Method & Results  
+- Core methodology: Fusion of three feature streams (visual, frequency-domain, and heart-rate signals from videos) with adaptive weighting for decision making.  
+- Datasets/tools: Evaluations conducted on FaceForensics++, Celeb-DF, and DeepFakeDetection datasets.  
+- Results: Achieved up to 7% improvement in accuracy over leading single- and dual-modal baselines, with cross-dataset generalization showing marked gains.  
+- Performance: Outperformed state-of-the-art methods in both intra- and cross-dataset scenarios.
+
+### Impact & Limitations  
+- Practical significance: Enhances reliability of deepfake detection tools for forensic and security applications by exploiting complementary signal modalities.  
+- Limitations/Future work: Computational complexity due to tri-modal fusion; exploring real-time deployment and extending to other forgery types remains future work.
+
+---
+
+#### Compression with Privacy-Preserving Random Access
+**作者**: Venkat Chandar, Aslan Tchamkerten, Shashank Vatedka
+**类别**: cs.IT, cs.CR, cs.DS
+**发布日期**: 2025-11-18
+**链接**: http://arxiv.org/abs/2511.14524v1
+
+#### Executive Summary  
+This paper addresses the challenge of achieving efficient data compression while enabling privacy-preserving random access to compressed data. The authors propose a novel coding scheme that balances compression efficiency with strong privacy guarantees, allowing users to retrieve data segments without exposing other content. The main result is a provably secure compression framework with competitive compression rates and fast random access.
+
+### Key Contributions  
+- Introduced a compression scheme integrating privacy-preserving random access with formal security guarantees.  
+- Developed a novel coding construction that supports sublinear-time random access with minimal overhead.  
+- Provided rigorous theoretical analysis and security proofs for the proposed method.
+
+### Method & Results  
+- Utilized coding theory techniques combined with cryptographic primitives to protect data privacy during random access.  
+- Tested on synthetic data models representative of typical storage scenarios (no standard dataset specified).  
+- Demonstrated compression close to classical methods while enabling private and efficient random access.  
+- Showed improved access latency and privacy over naive approaches that require full data decryption.
+
+### Impact & Limitations  
+- Offers practical relevance for cloud storage and secure data outsourcing where private queries over compressed data are critical.  
+- Limitations include the need for extension to richer data models and empirical validation on real-world datasets.  
+- Future work may explore optimization for varying threat models and heterogeneous data types.
 
 ---
 
