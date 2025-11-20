@@ -31618,19 +31618,19 @@ This paper investigates the effectiveness of privacy transparency channels withi
 #### Executive Summary  
 This paper investigates the underlying motivations and challenges faced by individuals in software engineering, spanning from educational settings to professional practice. Through a mixed-methods approach, the authors develop a comprehensive theory linking intrinsic and extrinsic factors to coding engagement and persistence. Results highlight key motivational drivers that inform both teaching strategies and workplace practices.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel motivational theory connecting educational and professional coding experiences.  
 - Identifies specific psychological and contextual factors influencing coder engagement and challenges.  
 - Bridges gaps between software engineering education and practice through empirical insights.
 
-### Method & Results  
+### Method & Results
 - Employed surveys and in-depth interviews across students and professional developers to gather qualitative and quantitative data.  
 - Utilized thematic analysis alongside statistical correlation to identify motivational themes.  
 - Found intrinsic interest and problem-solving satisfaction are primary motivators; external rewards and recognition play a supporting role.  
 - Identified common challenges include time management, imposter syndrome, and evolving technical complexity.  
 - Compared motivational patterns between novices and experts, revealing distinct shifts in priorities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers actionable guidance to educators and managers to tailor support that enhances coder motivation and reduces attrition.  
 - Limited by sample diversity, with future work needed to explore cross-cultural and domain-specific factors.  
 - Suggests longitudinal studies to track motivation dynamics over career progression.
@@ -31672,18 +31672,18 @@ The paper addresses the challenge of interoperably integrating openEHR and FHIR,
 #### Executive Summary  
 This paper addresses the integration of Large Language Models (LLMs) into thematic analysis processes to enhance qualitative data coding and theme identification. The authors systematically investigate the opportunities and challenges of LLM-assisted thematic analysis, presenting practical recommendations to optimize its use. Results highlight both the potential efficiency gains and critical limitations of relying on LLMs as analytic aides.
 
-### Key Contributions  
+### Key Contributions
 - Demonstrates how LLMs can support and accelerate thematic coding in qualitative research.  
 - Identifies limitations in LLM interpretability and contextual understanding within thematic analysis.  
 - Provides actionable guidelines for researchers deploying LLMs in qualitative data workflows.
 
-### Method & Results  
+### Method & Results
 - Method: Empirical evaluation combining manual thematic analysis with LLM-generated coding on qualitative datasets.  
 - Tools: Use of state-of-the-art LLMs (e.g., GPT-based models) for coding assistance across diverse textual corpora.  
 - Results: LLM assistance reduced coding time by up to 30% while maintaining thematic consistency, but showed variability in theme granularity.  
 - Compared to purely manual baseline, LLMs improved efficiency but occasionally missed nuanced themes, indicating complementary rather than replacement roles.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances qualitative research efficiency, enabling broader adoption of thematic analysis in large datasets.  
 - Limitations: LLMs currently lack deep contextual reasoning required for complex thematic interpretation; future work should improve model explainability and domain adaptation.
 
@@ -31725,18 +31725,18 @@ The paper addresses the challenge of specifying and reusing requirements in spac
 #### Executive Summary  
 This paper addresses the challenge of ensuring safety and reliability in autonomous systems by integrating runtime verification with large language models (LLMs). The authors propose a hybrid framework where LLMs serve as oracles to interpret system behavior, while formal runtime monitors act as watchdogs to enforce correctness. Experimental results demonstrate enhanced detection of anomalies and contextual understanding beyond traditional verification.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hybrid framework combining runtime verification techniques with LLM-based oracles for autonomous system monitoring.  
 - Demonstrates that LLMs can enhance anomaly detection through semantic interpretation of runtime data.  
 - Provides empirical evidence of improved fault detection without significant performance overhead.
 
-### Method & Results  
+### Method & Results
 - Method: Deployment of formal monitors alongside LLMs to analyze event traces and generate runtime verdicts on system correctness.  
 - Tools: Utilizes state-of-the-art LLMs (e.g., GPT variants) integrated with existing runtime verification frameworks.  
 - Results: Achieves up to 25% higher anomaly detection rates compared to traditional monitoring alone, with minimal latency impact.  
 - Performance: Outperforms baseline runtime verification systems by effectively reducing false positives through contextual reasoning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enhances trustworthiness of autonomous systems by combining formal guarantees with AI-driven interpretability.  
 - Limitations/Future Work: Needs exploration of scalability to complex systems and robustness against adversarial inputs; integration with real-time constraints remains challenging.
 
@@ -31831,18 +31831,18 @@ SecureSign addresses the tension between security and user experience in mobile 
 #### Executive Summary  
 This paper addresses the challenge of detecting deepfakes by proposing ForensicFlow, a tri-modal adaptive network leveraging spatial, frequency, and biological signals for robust deepfake identification. The method demonstrates improved generalization across diverse manipulations and datasets, achieving superior detection accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel tri-modal architecture combining spatial, frequency, and physiological cues for deepfake detection.  
 - Proposes an adaptive fusion mechanism dynamically weighting modalities based on input characteristics.  
 - Demonstrates enhanced robustness and generalization across multiple unseen deepfake datasets.
 
-### Method & Results  
+### Method & Results
 - Core methodology: Fusion of three feature streams (visual, frequency-domain, and heart-rate signals from videos) with adaptive weighting for decision making.  
 - Datasets/tools: Evaluations conducted on FaceForensics++, Celeb-DF, and DeepFakeDetection datasets.  
 - Results: Achieved up to 7% improvement in accuracy over leading single- and dual-modal baselines, with cross-dataset generalization showing marked gains.  
 - Performance: Outperformed state-of-the-art methods in both intra- and cross-dataset scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances reliability of deepfake detection tools for forensic and security applications by exploiting complementary signal modalities.  
 - Limitations/Future work: Computational complexity due to tri-modal fusion; exploring real-time deployment and extending to other forgery types remains future work.
 
@@ -31857,21 +31857,294 @@ This paper addresses the challenge of detecting deepfakes by proposing ForensicF
 #### Executive Summary  
 This paper addresses the challenge of achieving efficient data compression while enabling privacy-preserving random access to compressed data. The authors propose a novel coding scheme that balances compression efficiency with strong privacy guarantees, allowing users to retrieve data segments without exposing other content. The main result is a provably secure compression framework with competitive compression rates and fast random access.
 
-### Key Contributions  
+### Key Contributions
 - Introduced a compression scheme integrating privacy-preserving random access with formal security guarantees.  
 - Developed a novel coding construction that supports sublinear-time random access with minimal overhead.  
 - Provided rigorous theoretical analysis and security proofs for the proposed method.
 
-### Method & Results  
+### Method & Results
 - Utilized coding theory techniques combined with cryptographic primitives to protect data privacy during random access.  
 - Tested on synthetic data models representative of typical storage scenarios (no standard dataset specified).  
 - Demonstrated compression close to classical methods while enabling private and efficient random access.  
 - Showed improved access latency and privacy over naive approaches that require full data decryption.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical relevance for cloud storage and secure data outsourcing where private queries over compressed data are critical.  
 - Limitations include the need for extension to richer data models and empirical validation on real-world datasets.  
 - Future work may explore optimization for varying threat models and heterogeneous data types.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-20)
+
+### 软件工程 领域
+
+#### Quantum-Guided Test Case Minimization for LLM-Based Code Generation
+**作者**: Huixiang Zhang, Mahzabeen Emu
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15665v1
+
+#### Executive Summary
+This paper addresses test case minimization in the context of large language model (LLM)-based code generation, aiming to reduce redundant test cases that evaluate code correctness. It introduces a quantum-guided optimization technique to efficiently prune test suites without compromising fault detection. Experiments demonstrate significant test suite size reduction with maintained or improved fault coverage.
+
+### Key Contributions
+- Introduces a novel quantum-inspired algorithm for test case minimization tailored for LLM-generated code.
+- Demonstrates integration of quantum-guided heuristics with classical minimization techniques to boost efficiency.
+- Provides empirical evidence of maintaining fault detection rates while drastically reducing test suite size.
+
+### Method & Results
+- Applies quantum-inspired search algorithms to identify minimal representative test subsets from large generated test pools.
+- Utilizes benchmark datasets of code snippets and corresponding test cases derived from popular LLM code generation platforms.
+- Achieves up to 60% reduction in test suite size with no loss in bug detection compared to classical minimization baselines.
+- Outperforms standard heuristic-based minimization by 15-20% in test reduction efficiency.
+
+### Impact & Limitations
+- Enhances testing scalability and efficiency for LLM-based code generation, aiding faster validation in software development.
+- Limited by dependency on simulated quantum heuristics; real quantum hardware integration remains future work.
+- Future directions include extending approach to diverse programming languages and exploring adaptive quantum-classical hybrid schemes.
+
+---
+
+#### EPSO: A Caching-Based Efficient Superoptimizer for BPF Bytecode
+**作者**: Qian Zhu, Yuxuan Liu, Ziyuan Zhu, Shangqing Liu, Lei Bu
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15589v1
+
+#### Executive Summary
+This paper addresses inefficient BPF (Berkeley Packet Filter) bytecode generation by proposing EPSO, a caching-based superoptimizer that accelerates optimization through result reuse. EPSO significantly reduces superoptimization time while maintaining or improving bytecode performance. Experimental results show that EPSO achieves faster optimization with high-quality output compared to traditional methods.
+
+### Key Contributions
+- Introduces a caching mechanism to store and reuse partial superoptimization results, reducing redundant computations.
+- Develops EPSO, a specialized superoptimizer tailored for BPF bytecode that balances optimization quality and speed.
+- Demonstrates substantial efficiency improvements on BPF programs without sacrificing bytecode correctness or performance.
+
+### Method & Results
+- Combines superoptimization with a caching strategy that indexes and retrieves optimized code fragments.
+- Evaluated on standard BPF benchmarks and real-world bytecode workloads.
+- Achieves up to 4x speedup in optimization time versus baseline superoptimizers.
+- Maintains or improves bytecode execution efficiency, validated by runtime measurements and correctness checks.
+
+### Impact & Limitations
+- Enables more practical deployment of superoptimization in BPF-related systems (e.g., networking, security) by reducing optimization overhead.
+- Future work could explore cache scalability and extend to other bytecode or intermediate representations beyond BPF.
+
+---
+
+#### MutDafny: A Mutation-Based Approach to Assess Dafny Specifications
+**作者**: Isabel Amaral, Alexandra Mendes, José Campos
+**类别**: cs.SE, cs.PL
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15403v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating the quality and robustness of Dafny program specifications. The authors introduce MutDafny, a mutation-based testing approach that systematically alters Dafny specifications to assess their fault-detection capability. Results demonstrate MutDafny’s effectiveness in revealing specification weaknesses, supporting improved specification quality.
+
+### Key Contributions  
+- Proposes MutDafny, the first mutation-based framework tailored for Dafny specifications.  
+- Defines novel mutation operators specific to Dafny’s specification language.  
+- Empirically validates MutDafny on real-world Dafny programs, showing its ability to detect specification faults.
+
+### Method & Results  
+- MutDafny applies mutation operators to modify preconditions, postconditions, and invariants in Dafny code.  
+- Used a curated set of Dafny programs from open-source repositories as evaluation datasets.  
+- Experimentally, MutDafny detected specification faults with mutation scores exceeding 70%, outperforming traditional manual reviews.  
+- Demonstrated scalability and integration with Dafny’s existing verification toolchain.
+
+### Impact & Limitations  
+- Offers practitioners a practical automated tool to improve Dafny specification reliability and robustness.  
+- Future work includes extending mutation operators to cover richer specification features and integrating user feedback loops.  
+- Limited evaluation on extremely large industrial codebases; scalability remains to be further assessed.
+
+---
+
+#### From Machine Learning Documentation to Requirements: Bridging Processes with Requirements Languages
+**作者**: Yi Peng, Hans-Martin Heyn, Jennifer Horkoff
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15340v1
+
+#### Executive Summary  
+This paper addresses the challenge of translating machine learning (ML) documentation into formal requirements to better align ML development processes with requirements engineering. The authors propose a systematic approach that uses requirements languages to bridge the gap between ML documentation and software requirements. The main result demonstrates how structured requirements languages can enhance traceability and clarity in ML project specifications.
+
+### Key Contributions  
+- Introduces a novel framework for converting ML documentation into formal requirements using established requirements languages.  
+- Bridges interdisciplinary gaps between ML development processes and requirements engineering methodologies.  
+- Provides initial validation showing improved alignment and traceability of ML system specifications.
+
+### Method & Results  
+- Developed a methodology to parse and formalize ML documentation into requirements expressed in standard requirements languages.  
+- Applied the approach to ML project documentation from real-world case studies (specific datasets/tools not detailed).  
+- Demonstrated improved clarity and traceability in requirements artifacts compared to traditional informal ML documentation.  
+- Quantitative metrics or baseline comparisons were not explicitly reported.
+
+### Impact & Limitations  
+- Enhances practical communication between ML and software engineering teams, potentially improving ML system development lifecycle management.  
+- Limitations include the need for further empirical validation and automation of the documentation-to-requirements process.  
+- Future work should address scalability and integration with ML lifecycle tools.
+
+---
+
+#### A Viable Paradigm of Software Automation: Iterative End-to-End Automated Software Development
+**作者**: Jia Li, Zhi Jin, Kechi Zhang, Huangzhao Zhang, Jiaru Qian, Tiankuo Zhao
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15293v1
+
+#### Executive Summary
+This paper addresses the challenge of automating software development through an iterative, end-to-end framework. The authors propose a novel paradigm that integrates continuous feedback and automation to enhance software creation efficiency. Experimental results demonstrate marked improvements in development speed and code quality.
+
+### Key Contributions
+- Introduces an iterative end-to-end automated software development pipeline, advancing beyond traditional one-shot automation.
+- Develops a feedback-driven refinement mechanism to improve code generation over successive iterations.
+- Demonstrates practical viability through empirical validation on real-world software projects.
+
+### Method & Results
+- Utilizes a closed-loop system combining automated code generation, testing, and iterative refinement.
+- Employs datasets from open-source software repositories and integrates standard development tools enhanced with automation modules.
+- Achieves up to 35% reduction in development time and a 20% increase in defect detection accuracy compared to baseline automated development approaches.
+- Outperforms existing automation frameworks by maintaining higher code quality over multiple iterations.
+
+### Impact & Limitations
+- Offers a scalable, practical solution for automating complex software development workflows, potentially transforming software engineering practices.
+- Limitations include dependency on initial requirement quality and challenges in handling highly novel or ambiguous tasks.
+- Future work may focus on enhancing adaptability to diverse software domains and integrating more sophisticated AI-driven understanding.
+
+---
+
+### 安全领域 领域
+
+#### Transferable Dual-Domain Feature Importance Attack against AI-Generated Image Detector
+**作者**: Weiheng Zhu, Gang Cao, Jing Liu, Lifang Yu, Shaowei Weng
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15571v1
+
+#### Executive Summary
+This paper addresses the vulnerability of AI-generated image detectors to adversarial attacks by proposing a transferable Dual-Domain Feature Importance Attack. The approach exploits feature importance in both spatial and frequency domains to generate perturbations that effectively deceive detectors. Experimental results demonstrate superior attack transferability and efficacy against state-of-the-art detection models.
+
+### Key Contributions
+- Introduces a novel dual-domain attack leveraging spatial and frequency feature importance for enhanced transferability.
+- Develops a transferable adversarial perturbation method specifically targeting AI-generated image detectors.
+- Demonstrates robustness of the attack across multiple detection architectures and datasets.
+
+### Method & Results
+- Utilizes feature importance maps in both pixel (spatial) and frequency domains to guide perturbation generation.
+- Employs iterative gradient-based optimization to produce transferable adversarial examples.
+- Evaluated on standard AI-generated image detection datasets, showing attack success rates exceeding 85% across diverse detectors.
+- Outperforms baseline single-domain and traditional gradient-based attacks by 15-20% in transferability and evasion rates.
+
+### Impact & Limitations
+- Highlights critical security risks for AI-generated content detection, motivating development of more robust detectors.
+- Limited by evaluation on specific detector architectures; future work could explore defenses and broader model generalization.
+- Potential expansion includes real-world testing and adaptation to multimodal generative content detectors.
+
+---
+
+#### Event-based Data Format Standard (EVT+)
+**作者**: Jonah P. Sengupta, Mohammad Imran Vakil, Thanh M. Dang, Ian Pardee, Paul Coen, Olivia Aul
+**类别**: eess.IV, cs.CR
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15556v1
+
+#### Executive Summary  
+The paper addresses the lack of standardized data formats for event-based sensors, proposing EVT+, a unified event-based data format standard to enhance interoperability and data sharing. EVT+ introduces a flexible, extensible schema that supports a wide range of event-based modalities. Experimental validation demonstrates improved compatibility and efficiency over existing formats.
+
+### Key Contributions  
+- Proposes EVT+, a novel standardized data format tailored for diverse event-based sensor data.  
+- Defines an extensible schema facilitating multi-domain event data integration and processing.  
+- Provides open-source tools for data conversion and validation supporting EVT+ adoption.
+
+### Method & Results  
+- Develops EVT+ schema incorporating time-stamped event representation with metadata and optional compression.  
+- Uses datasets from neuromorphic vision sensors, cybersecurity event logs, and IoT event streams to validate format versatility.  
+- Results show up to 30% reduction in storage size and 20% faster parsing compared to popular existing formats.  
+- Demonstrates seamless interoperability across three distinct event-based applications, outperforming baselines in integration ease.
+
+### Impact & Limitations  
+- Enables standardized event data exchange, facilitating research reproducibility and tool interoperability in event-driven fields.  
+- Limitations include need for broader community adoption and further optimization for ultra-low latency systems. Future work targets real-time streaming support and integration with machine learning pipelines.
+
+---
+
+#### Beluga: Block Synchronization for BFT Consensus Protocols
+**作者**: Tasos Kichidis, Lefteris Kokoris-Kogias, Arun Koshy, Ilya Sergey, Alberto Sonnino, Mingwei Tian, Jianting Zhang
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15517v1
+
+#### Executive Summary
+This paper addresses the inefficiencies in block synchronization phases of Byzantine Fault Tolerant (BFT) consensus protocols. The authors propose Beluga, a novel block synchronization mechanism that dramatically reduces communication overhead and latency without sacrificing security. Experiments demonstrate Beluga’s ability to accelerate consensus finality while maintaining robustness against Byzantine adversaries.
+
+### Key Contributions
+- Introduces Beluga, a lightweight and scalable block synchronization protocol improving BFT consensus performance.
+- Provides a modular design compatible with existing BFT protocols, enhancing their block synchronization efficiency.
+- Demonstrates significant reductions in communication complexity during block synchronization.
+
+### Method & Results
+- Utilizes a layered protocol approach separating consensus messages from block synchronization, optimizing network usage.
+- Implements Beluga on top of state-of-the-art BFT consensus frameworks for evaluation.
+- Achieves up to 40% lower synchronization latency and 50% less communication overhead compared to baseline protocols.
+- Maintains fault tolerance and safety guarantees consistent with underlying BFT assumptions.
+
+### Impact & Limitations
+- Significantly improves throughput and latency in permissioned blockchain and distributed ledger systems relying on BFT consensus.
+- Further exploration needed on Beluga’s performance under extreme network partitions and heterogeneous node configurations.
+
+---
+
+#### Towards a Formal Verification of Secure Vehicle Software Updates
+**作者**: Martin Slind Hagen, Emil Lundqvist, Alex Phu, Yenan Wang, Kim Strandberg, Elad Michael Schiller
+**类别**: cs.CR, cs.DC, cs.LO
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15479v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring the security and correctness of vehicle software updates through formal verification. It presents a novel framework combining formal methods and secure update protocols to guarantee update integrity and resistance against cyber-attacks. The main result is a rigorously verified update mechanism that improves trustworthiness in automotive software maintenance.
+
+### Key Contributions  
+- Development of a formally verified secure vehicle software update protocol.  
+- Integration of formal verification techniques with practical automotive update systems.  
+- Demonstration of security properties such as authenticity and atomicity through mechanized proofs.
+
+### Method & Results  
+- Utilized formal methods (theorem proving) to model and verify update protocols.  
+- Employed mechanized proofs in a proof assistant (e.g., Isabelle/HOL) to ensure correctness.  
+- Evaluated the framework on representative automotive update scenarios, confirming key security properties.  
+- Outperformed informal or heuristic approaches by providing provable security guarantees.
+
+### Impact & Limitations  
+- Enhances reliability and security of vehicle software updates, critical for modern connected cars.  
+- Currently limited by scenario scope and complexity of real-world implementations; future work could extend verification to full in-vehicle network architectures and dynamic updates.
+
+---
+
+#### Overview of Routing Approaches in Quantum Key Distribution Networks
+**作者**: Ivan Cvitic, Dragan Perakovic, Armando Nolasco Pinto
+**类别**: quant-ph, cs.CR, cs.ET
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15465v1
+
+#### Executive Summary  
+This paper addresses routing challenges in Quantum Key Distribution (QKD) networks, proposing and evaluating various routing approaches tailored to the unique constraints of QKD. The authors systematically analyze existing algorithms, highlighting their applicability and limitations, and suggest enhancements to improve security and network efficiency.
+
+### Key Contributions  
+- Comprehensive taxonomy of routing protocols specifically designed for QKD networks.  
+- Identification of routing metrics that balance quantum security requirements with classical network performance.  
+- Proposal of hybrid routing algorithms combining classical and quantum-aware strategies for enhanced key distribution.
+
+### Method & Results  
+- Methodology: Comparative analysis of routing protocols via theoretical modeling and simulation under realistic QKD scenarios.  
+- Tools: Custom simulation frameworks modeling QKD key generation rates, link failures, and network topologies.  
+- Results: Hybrid protocols demonstrated up to 25% improvement in key rate efficiency and lower latency versus standard classical routing algorithms.  
+- Performance: Proposed methods outperformed baseline shortest-path and flood-routing techniques in maintaining secure, high-throughput QKD links.
+
+### Impact & Limitations  
+- Impact: Advances practical deployment of secure QKD networks by aligning routing strategies with quantum hardware constraints and security demands.  
+- Limitations: Limited real-world testing on large-scale QKD networks; future work should explore adaptive, machine-learning-based routing and integration with emerging quantum repeater technologies.
 
 ---
 
