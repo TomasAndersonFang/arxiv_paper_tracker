@@ -31943,18 +31943,18 @@ This paper addresses inefficient BPF (Berkeley Packet Filter) bytecode generatio
 #### Executive Summary  
 This paper addresses the challenge of evaluating the quality and robustness of Dafny program specifications. The authors introduce MutDafny, a mutation-based testing approach that systematically alters Dafny specifications to assess their fault-detection capability. Results demonstrate MutDafny’s effectiveness in revealing specification weaknesses, supporting improved specification quality.
 
-### Key Contributions  
+### Key Contributions
 - Proposes MutDafny, the first mutation-based framework tailored for Dafny specifications.  
 - Defines novel mutation operators specific to Dafny’s specification language.  
 - Empirically validates MutDafny on real-world Dafny programs, showing its ability to detect specification faults.
 
-### Method & Results  
+### Method & Results
 - MutDafny applies mutation operators to modify preconditions, postconditions, and invariants in Dafny code.  
 - Used a curated set of Dafny programs from open-source repositories as evaluation datasets.  
 - Experimentally, MutDafny detected specification faults with mutation scores exceeding 70%, outperforming traditional manual reviews.  
 - Demonstrated scalability and integration with Dafny’s existing verification toolchain.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practitioners a practical automated tool to improve Dafny specification reliability and robustness.  
 - Future work includes extending mutation operators to cover richer specification features and integrating user feedback loops.  
 - Limited evaluation on extremely large industrial codebases; scalability remains to be further assessed.
@@ -31970,18 +31970,18 @@ This paper addresses the challenge of evaluating the quality and robustness of D
 #### Executive Summary  
 This paper addresses the challenge of translating machine learning (ML) documentation into formal requirements to better align ML development processes with requirements engineering. The authors propose a systematic approach that uses requirements languages to bridge the gap between ML documentation and software requirements. The main result demonstrates how structured requirements languages can enhance traceability and clarity in ML project specifications.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework for converting ML documentation into formal requirements using established requirements languages.  
 - Bridges interdisciplinary gaps between ML development processes and requirements engineering methodologies.  
 - Provides initial validation showing improved alignment and traceability of ML system specifications.
 
-### Method & Results  
+### Method & Results
 - Developed a methodology to parse and formalize ML documentation into requirements expressed in standard requirements languages.  
 - Applied the approach to ML project documentation from real-world case studies (specific datasets/tools not detailed).  
 - Demonstrated improved clarity and traceability in requirements artifacts compared to traditional informal ML documentation.  
 - Quantitative metrics or baseline comparisons were not explicitly reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical communication between ML and software engineering teams, potentially improving ML system development lifecycle management.  
 - Limitations include the need for further empirical validation and automation of the documentation-to-requirements process.  
 - Future work should address scalability and integration with ML lifecycle tools.
@@ -32053,18 +32053,18 @@ This paper addresses the vulnerability of AI-generated image detectors to advers
 #### Executive Summary  
 The paper addresses the lack of standardized data formats for event-based sensors, proposing EVT+, a unified event-based data format standard to enhance interoperability and data sharing. EVT+ introduces a flexible, extensible schema that supports a wide range of event-based modalities. Experimental validation demonstrates improved compatibility and efficiency over existing formats.
 
-### Key Contributions  
+### Key Contributions
 - Proposes EVT+, a novel standardized data format tailored for diverse event-based sensor data.  
 - Defines an extensible schema facilitating multi-domain event data integration and processing.  
 - Provides open-source tools for data conversion and validation supporting EVT+ adoption.
 
-### Method & Results  
+### Method & Results
 - Develops EVT+ schema incorporating time-stamped event representation with metadata and optional compression.  
 - Uses datasets from neuromorphic vision sensors, cybersecurity event logs, and IoT event streams to validate format versatility.  
 - Results show up to 30% reduction in storage size and 20% faster parsing compared to popular existing formats.  
 - Demonstrates seamless interoperability across three distinct event-based applications, outperforming baselines in integration ease.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables standardized event data exchange, facilitating research reproducibility and tool interoperability in event-driven fields.  
 - Limitations include need for broader community adoption and further optimization for ultra-low latency systems. Future work targets real-time streaming support and integration with machine learning pipelines.
 
@@ -32105,18 +32105,18 @@ This paper addresses the inefficiencies in block synchronization phases of Byzan
 #### Executive Summary  
 This paper addresses the challenge of ensuring the security and correctness of vehicle software updates through formal verification. It presents a novel framework combining formal methods and secure update protocols to guarantee update integrity and resistance against cyber-attacks. The main result is a rigorously verified update mechanism that improves trustworthiness in automotive software maintenance.
 
-### Key Contributions  
+### Key Contributions
 - Development of a formally verified secure vehicle software update protocol.  
 - Integration of formal verification techniques with practical automotive update systems.  
 - Demonstration of security properties such as authenticity and atomicity through mechanized proofs.
 
-### Method & Results  
+### Method & Results
 - Utilized formal methods (theorem proving) to model and verify update protocols.  
 - Employed mechanized proofs in a proof assistant (e.g., Isabelle/HOL) to ensure correctness.  
 - Evaluated the framework on representative automotive update scenarios, confirming key security properties.  
 - Outperformed informal or heuristic approaches by providing provable security guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and security of vehicle software updates, critical for modern connected cars.  
 - Currently limited by scenario scope and complexity of real-world implementations; future work could extend verification to full in-vehicle network architectures and dynamic updates.
 
@@ -32131,20 +32131,291 @@ This paper addresses the challenge of ensuring the security and correctness of v
 #### Executive Summary  
 This paper addresses routing challenges in Quantum Key Distribution (QKD) networks, proposing and evaluating various routing approaches tailored to the unique constraints of QKD. The authors systematically analyze existing algorithms, highlighting their applicability and limitations, and suggest enhancements to improve security and network efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive taxonomy of routing protocols specifically designed for QKD networks.  
 - Identification of routing metrics that balance quantum security requirements with classical network performance.  
 - Proposal of hybrid routing algorithms combining classical and quantum-aware strategies for enhanced key distribution.
 
-### Method & Results  
+### Method & Results
 - Methodology: Comparative analysis of routing protocols via theoretical modeling and simulation under realistic QKD scenarios.  
 - Tools: Custom simulation frameworks modeling QKD key generation rates, link failures, and network topologies.  
 - Results: Hybrid protocols demonstrated up to 25% improvement in key rate efficiency and lower latency versus standard classical routing algorithms.  
 - Performance: Proposed methods outperformed baseline shortest-path and flood-routing techniques in maintaining secure, high-throughput QKD links.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Advances practical deployment of secure QKD networks by aligning routing strategies with quantum hardware constraints and security demands.  
 - Limitations: Limited real-world testing on large-scale QKD networks; future work should explore adaptive, machine-learning-based routing and integration with emerging quantum repeater technologies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-21)
+
+### 软件工程 领域
+
+#### Green Resilience of Cyber-Physical Systems: Doctoral Dissertation
+**作者**: Diaeddin Rimawi
+**类别**: cs.SE, cs.AI, cs.CV, cs.RO
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16593v1
+
+#### Executive Summary  
+This dissertation addresses the challenge of enhancing the green resilience of cyber-physical systems (CPS) by integrating energy-efficient design with robust AI-driven fault tolerance. It proposes novel frameworks combining sustainable resource management and adaptive control to maintain system reliability under environmental and operational stresses. Results demonstrate improved energy savings alongside increased system resilience.
+
+### Key Contributions  
+- Introduces a hybrid green resilience framework for CPS combining energy efficiency with adaptive fault tolerance.  
+- Develops AI-based algorithms for predictive maintenance and real-time environmental adaptation.  
+- Demonstrates integration of sustainability metrics into CPS resilience modeling for the first time.
+
+### Method & Results  
+- Utilizes a combination of model-based control, reinforcement learning, and real-time sensor data fusion to optimize energy use and system reliability.  
+- Employs CPS simulation platforms with synthetic and real-world industrial datasets for validation.  
+- Achieves up to 25% energy savings and 30% improvement in fault recovery time compared to standard resilience approaches.  
+- Outperforms baseline models by 15% in maintaining operational stability during simulated environmental disruptions.
+
+### Impact & Limitations  
+- Enables more sustainable and dependable CPS deployments critical for smart cities and industrial IoT.  
+- Limitations include scalability challenges for large-scale heterogeneous CPS and dependence on accurate sensor inputs.  
+- Future work should address distributed implementation and robustness against sensor failures.
+
+---
+
+#### Data Annotation Quality Problems in AI-Enabled Perception System Development
+**作者**: Hina Saeeda, Tommy Johansson, Mazen Mohamad, Eric Knauss
+**类别**: cs.SE
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16410v1
+
+#### Executive Summary  
+This paper investigates data annotation quality issues critically affecting AI-enabled perception systems. The authors analyze common annotation errors, their causes, and impacts on system performance, proposing improved quality control measures. Their results emphasize annotation quality as a key bottleneck in perception model accuracy and reliability.
+
+### Key Contributions  
+- Identification and categorization of predominant data annotation quality problems specific to perception systems.  
+- A systematic framework for annotation quality evaluation and improvement tailored to AI-enabled perception development.  
+- Empirical evidence linking annotation errors to degraded model performance, with proposals for mitigation strategies.
+
+### Method & Results  
+- Conducted a detailed qualitative and quantitative analysis of annotation datasets used in perception systems, including error taxonomy development.  
+- Evaluated the impact of annotation quality on model accuracy using standard perception datasets (names/details not specified).  
+- Demonstrated that addressing annotation quality issues can improve model performance by up to 15% in key perception benchmarks.  
+- Showed superior outcomes with their annotation quality framework compared to standard annotation practices (baseline performance improvements highlighted).
+
+### Impact & Limitations  
+- Emphasizes the critical role of annotation quality in practical AI perception applications, guiding practitioners on improving dataset reliability.  
+- Limitations include unspecified generalizability across diverse datasets and the need for automated tooling to scale quality checks; future work should address these gaps.
+
+---
+
+#### CorrectHDL: Agentic HDL Design with LLMs Leveraging High-Level Synthesis as Reference
+**作者**: Kangwei Xu, Grace Li Zhang, Ulf Schlichtmann, Bing Li
+**类别**: cs.AI, cs.PL, cs.SE, eess.SY
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16395v1
+
+#### Executive Summary
+This paper addresses the challenge of improving Hardware Description Language (HDL) design accuracy by integrating Large Language Models (LLMs) with High-Level Synthesis (HLS) tools as references. The authors propose CorrectHDL, an agentic framework that leverages HLS-generated code to guide and correct LLM-generated HDL, resulting in enhanced design correctness. Experimental results demonstrate significant improvements in HDL generation quality over baseline LLM approaches.
+
+### Key Contributions
+- Introduces CorrectHDL, an agentic design framework combining LLMs with HLS references for improved HDL correctness.
+- Demonstrates a novel method of leveraging HLS outputs as corrective guidance during agent-driven HDL synthesis.
+- Provides empirical validation showing enhanced accuracy and reliability of generated HDL code.
+
+### Method & Results
+- Uses an agentic approach where LLMs iteratively generate HDL code, guided and corrected by HLS-generated reference implementations.
+- Employs standard HLS tools (e.g., Vivado HLS) alongside transformer-based LLMs fine-tuned or prompted for HDL tasks.
+- Results show up to X% (exact value not provided) improvement in synthesis correctness metrics compared to baseline LLM-only HDL generation.
+- Outperforms state-of-the-art HDL generation baselines by reducing logical errors and improving synthesis convergence rates.
+
+### Impact & Limitations
+- Enables more reliable and automated HDL design processes, potentially reducing human error and design cycle time in hardware development.
+- Limitations include dependency on quality of HLS references and potential computational overhead from iterative agentic correction; future work may explore broader architecture compatibility and optimization of correction steps.
+
+---
+
+#### An Agent-Based Framework for the Automatic Validation of Mathematical Optimization Models
+**作者**: Alexander Zadorojniy, Segev Wasserkrug, Eitan Farchi
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16383v1
+
+#### Executive Summary  
+This paper addresses the challenge of validating mathematical optimization models automatically to ensure their correctness and reliability. It proposes an agent-based framework that simulates and verifies model behaviors through decentralized interactions of validation agents. The approach demonstrates improved detection of modeling errors compared to traditional validation techniques.
+
+### Key Contributions  
+- Introduction of a novel agent-based framework for systematic, automated validation of optimization models.  
+- Demonstration of decentralized agent interactions to uncover subtle modeling flaws often missed by static checks.  
+- Integration of validation processes directly into optimization workflows, enhancing model reliability pre-deployment.
+
+### Method & Results  
+- Developed a multi-agent system where autonomous agents validate different aspects of the model by exploring constraints and solution consistency.  
+- Used standard benchmark optimization problems to evaluate framework efficacy.  
+- Experimental results show up to 35% higher error detection rates than baseline static validation tools.  
+- Runtime overhead remains manageable, with validation completing within minutes for medium-sized models.
+
+### Impact & Limitations  
+- Facilitates robust, automatic verification, reducing manual effort and increasing confidence in complex optimization deployments.  
+- Limitations include scalability concerns for extremely large models and dependency on proper agent configuration; future work may explore adaptive agent behaviors and integration with real-time optimization environments.
+
+---
+
+#### Beyond Code Similarity: Benchmarking the Plausibility, Efficiency, and Complexity of LLM-Generated Smart Contracts
+**作者**: Francesco Salzano, Simone Scalabrino, Rocco Oliveto, Simone Scalabrino
+**类别**: cs.SE
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16224v1
+
+#### Executive Summary
+This paper addresses the evaluation of large language model (LLM)-generated smart contracts beyond mere code similarity, focusing on their plausibility, efficiency, and complexity. It proposes a comprehensive benchmarking framework that highlights discrepancies between syntactic resemblance and functional quality. Results demonstrate that current similarity metrics inadequately capture practical contract quality, urging broader evaluation criteria.
+
+### Key Contributions
+- Introduces a novel benchmarking framework assessing plausibility, efficiency, and complexity of LLM-generated smart contracts.
+- Reveals limitations of traditional code similarity metrics in evaluating smart contract quality.
+- Provides insights into trade-offs between generated contract correctness and computational efficiency.
+
+### Method & Results
+- Methodology involves generating smart contracts with state-of-the-art LLMs, then systematically evaluating them on functional plausibility, gas efficiency, and complexity metrics.
+- Utilizes a curated dataset of smart contract tasks and integrates existing static/dynamic analysis tools for evaluation.
+- Experiments show that many generated contracts score high in similarity but lower in real-world usability and performance; e.g., up to 30% efficiency degradation despite 90% code similarity.
+- Significantly outperforms baseline similarity-only assessments by incorporating multi-dimensional evaluation.
+
+### Impact & Limitations
+- Promotes more reliable and practical evaluation of AI-generated smart contracts, encouraging safer blockchain development.
+- Limited by reliance on specific smart contract benchmarks and analysis tools; future work should explore broader contract types and incorporate formal verification methods.
+
+---
+
+### 安全领域 领域
+
+#### Systematically Deconstructing APVD Steganography and its Payload with a Unified Deep Learning Paradigm
+**作者**: Kabbo Jit Deb, Md. Azizul Hakim, Md Shamse Tabrej
+**类别**: cs.CR
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16604v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting and decoding steganography implemented via Adaptive Pixel Value Differencing (APVD). The authors propose a unified deep learning framework that simultaneously identifies APVD steganographic embeddings and reconstructs the hidden payload, achieving significant improvements in detection accuracy and payload extraction fidelity.
+
+### Key Contributions
+- Introduces a novel unified deep learning paradigm for joint detection and payload recovery in APVD steganography.
+- Provides an in-depth systematic analysis of APVD steganographic patterns, enhancing interpretability of the model.
+- Demonstrates superior performance over existing steganalysis techniques both in detection and payload extraction tasks.
+
+### Method & Results
+- Developed an end-to-end neural network architecture that learns to both classify stego images and recover embedded information simultaneously.
+- Employed datasets consisting of images embedded with APVD steganography payloads at varying capacities.
+- Achieved steganography detection accuracy exceeding 95% and payload recovery rates improving prior baselines by 15-20%.
+- Outperformed traditional handcrafted feature-based detectors and separated payload extraction approaches in experimental benchmarks.
+
+### Impact & Limitations
+- Enables more robust and interpretable detection of APVD steganography critical for digital forensics and cybersecurity defenses.
+- Limitations include potential dependency on training data diversity and challenges extending the method to other steganography schemes.
+- Future work may explore cross-method generalization and real-time deployment scenarios.
+
+---
+
+#### Auditable Ledger Snapshot for Non-Repudiable Cross-Blockchain Communication
+**作者**: Tirthankar Sengupta, Bishakh Chandra Ghosh, Sandip Chakraborty, Shamik Sural
+**类别**: cs.CR, eess.SY
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16560v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring non-repudiable and auditable communication across disparate blockchains. The authors propose an auditable ledger snapshot mechanism that enables verifiable cross-chain message delivery without compromising scalability or security. Their approach demonstrates improved accountability and integrity in cross-blockchain interactions.
+
+### Key Contributions  
+- Introduces an auditable ledger snapshot technique enabling non-repudiable cross-blockchain communication.  
+- Designs a protocol ensuring verifiable message delivery with minimal trust assumptions between blockchains.  
+- Provides a security analysis and empirical evaluation showcasing improved auditability over existing cross-chain methods.
+
+### Method & Results  
+- Utilizes cryptographic proofs to create snapshots of ledger states that serve as verifiable checkpoints for inter-blockchain messages.  
+- Implements a prototype connecting multiple blockchain instances to validate the approach.  
+- Demonstrates audit correctness with low overhead, achieving communication verifiability with latency and resource usage within acceptable bounds.  
+- Shows improved security guarantees compared to baseline cross-chain interoperability protocols, though exact numerical benchmarks are limited.
+
+### Impact & Limitations  
+- Enhances trust and accountability in decentralized multi-blockchain ecosystems, relevant for finance, supply chain, and IoT applications.  
+- Limitations include potential scalability constraints for very large ledgers and a need for integration with diverse blockchain platforms. Future work could address optimization and broader applicability.
+
+---
+
+#### Optimizing Quantum Key Distribution Network Performance using Graph Neural Networks
+**作者**: Akshit Pramod Anchan, Ameiy Acharya, Leki Chom Thungon
+**类别**: quant-ph, cs.CR, cs.LG, cs.NI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16468v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing quantum key distribution (QKD) network performance by leveraging graph neural networks (GNNs) to optimize routing and resource allocation. The authors develop a GNN-based framework that captures the complex network topology and quantum resource constraints, achieving significant improvements in key generation rates and network efficiency.
+
+### Key Contributions
+- Introduced a novel GNN architecture tailored for QKD network optimization, considering quantum-specific constraints.
+- Demonstrated superior routing and resource allocation strategies that outperform classical heuristic methods.
+- Provided a scalable framework adaptable to dynamic QKD network topologies.
+
+### Method & Results
+- Employed graph neural networks to model QKD network nodes and edges, learning optimal routing paths and resource distributions.
+- Utilized simulated QKD network datasets reflecting realistic quantum link quality and network traffic patterns.
+- Achieved up to 35% improvement in secure key generation rate compared to baseline heuristic algorithms.
+- Showed enhanced network throughput and reduced latency, validating the approach’s practical effectiveness.
+
+### Impact & Limitations
+- Facilitates more efficient deployment and operation of QKD infrastructures, advancing secure quantum communications.
+- Limitations include reliance on simulated data; real-world validation and extension to heterogeneous quantum technologies remain future work directions.
+
+---
+
+#### Optimal Fairness under Local Differential Privacy
+**作者**: Hrad Ghoukasian, Shahab Asoodeh
+**类别**: cs.LG, cs.CR, stat.ML
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16377v1
+
+#### Executive Summary  
+This paper addresses fairness optimization under local differential privacy (LDP) constraints, a challenging intersection of privacy and equitable machine learning. The authors develop a theoretically grounded framework to achieve optimal fairness guarantees without sacrificing privacy, demonstrating trade-offs and proposing mechanisms that balance both effectively.
+
+### Key Contributions  
+- Formulation of optimal fairness criteria compatible with LDP constraints.  
+- Novel privacy-preserving mechanisms that enforce fairness guarantees under LDP.  
+- Theoretical characterization of privacy-fairness trade-offs with provable optimality.
+
+### Method & Results  
+- Developed a framework combining local randomization mechanisms with fairness metrics to optimize equitable outcomes under LDP.  
+- Utilized synthetic and benchmark fairness datasets to validate the approach.  
+- Experimental results show improved fairness metrics (e.g., equalized odds) while maintaining strong LDP (ε-differential privacy) guarantees.  
+- Outperforms existing baseline methods that treat privacy and fairness independently, achieving better privacy-fairness trade-offs.
+
+### Impact & Limitations  
+- Enables deployment of fair ML models in privacy-sensitive scenarios, such as health or finance, where local data privacy is paramount.  
+- Limitations include potential scalability challenges and the need to extend to complex, real-world data distributions. Future work could explore adaptive mechanisms and broader fairness definitions.
+
+---
+
+#### The Shawshank Redemption of Embodied AI: Understanding and Benchmarking Indirect Environmental Jailbreaks
+**作者**: Chunyang Li, Zifeng Kang, Junwei Zhang, Zhuo Ma, Anda Cheng, Xinghua Li, Jianfeng Ma
+**类别**: cs.CR, cs.CY, cs.RO
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16347v1
+
+#### Executive Summary  
+This paper investigates indirect environmental jailbreaks in embodied AI, where agents exploit environmental loopholes to bypass constraints without direct command manipulation. The authors propose a novel benchmarking framework to systematically identify and evaluate such jailbreaks, revealing significant security risks and robustness deficits in current embodied AI systems.
+
+### Key Contributions  
+- Introduces the first comprehensive definition and taxonomy of indirect environmental jailbreaks in embodied AI.  
+- Develops an innovative benchmark suite to detect and quantify jailbreak vulnerabilities in simulated environments.  
+- Demonstrates through experiments that state-of-the-art embodied AI models are susceptible to indirect jailbreaks, posing safety concerns.
+
+### Method & Results  
+- Method: Designed controlled simulated scenarios that allow agents to exploit indirect environmental cues to circumvent restrictions.  
+- Tools: Utilized popular embodied AI simulators and state-of-the-art agent architectures for evaluation.  
+- Results: Found up to 45% of tested agents successfully executed jailbreaks across scenarios, outperforming naïve baselines by 30%.  
+- Performance: The benchmark clearly identifies differing robustness levels, highlighting crucial gaps in current defense mechanisms.
+
+### Impact & Limitations  
+- Impact: Provides a foundational framework for the AI security community to assess and improve embodied agent safety in real-world applications.  
+- Limitations: Focuses primarily on simulated environments; extending evaluation to physical robots remains future work.  
+- Future work includes developing mitigation strategies and expanding the benchmark to more complex, dynamic settings.
 
 ---
 
