@@ -32163,18 +32163,18 @@ This paper addresses routing challenges in Quantum Key Distribution (QKD) networ
 #### Executive Summary  
 This dissertation addresses the challenge of enhancing the green resilience of cyber-physical systems (CPS) by integrating energy-efficient design with robust AI-driven fault tolerance. It proposes novel frameworks combining sustainable resource management and adaptive control to maintain system reliability under environmental and operational stresses. Results demonstrate improved energy savings alongside increased system resilience.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid green resilience framework for CPS combining energy efficiency with adaptive fault tolerance.  
 - Develops AI-based algorithms for predictive maintenance and real-time environmental adaptation.  
 - Demonstrates integration of sustainability metrics into CPS resilience modeling for the first time.
 
-### Method & Results  
+### Method & Results
 - Utilizes a combination of model-based control, reinforcement learning, and real-time sensor data fusion to optimize energy use and system reliability.  
 - Employs CPS simulation platforms with synthetic and real-world industrial datasets for validation.  
 - Achieves up to 25% energy savings and 30% improvement in fault recovery time compared to standard resilience approaches.  
 - Outperforms baseline models by 15% in maintaining operational stability during simulated environmental disruptions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more sustainable and dependable CPS deployments critical for smart cities and industrial IoT.  
 - Limitations include scalability challenges for large-scale heterogeneous CPS and dependence on accurate sensor inputs.  
 - Future work should address distributed implementation and robustness against sensor failures.
@@ -32190,18 +32190,18 @@ This dissertation addresses the challenge of enhancing the green resilience of c
 #### Executive Summary  
 This paper investigates data annotation quality issues critically affecting AI-enabled perception systems. The authors analyze common annotation errors, their causes, and impacts on system performance, proposing improved quality control measures. Their results emphasize annotation quality as a key bottleneck in perception model accuracy and reliability.
 
-### Key Contributions  
+### Key Contributions
 - Identification and categorization of predominant data annotation quality problems specific to perception systems.  
 - A systematic framework for annotation quality evaluation and improvement tailored to AI-enabled perception development.  
 - Empirical evidence linking annotation errors to degraded model performance, with proposals for mitigation strategies.
 
-### Method & Results  
+### Method & Results
 - Conducted a detailed qualitative and quantitative analysis of annotation datasets used in perception systems, including error taxonomy development.  
 - Evaluated the impact of annotation quality on model accuracy using standard perception datasets (names/details not specified).  
 - Demonstrated that addressing annotation quality issues can improve model performance by up to 15% in key perception benchmarks.  
 - Showed superior outcomes with their annotation quality framework compared to standard annotation practices (baseline performance improvements highlighted).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Emphasizes the critical role of annotation quality in practical AI perception applications, guiding practitioners on improving dataset reliability.  
 - Limitations include unspecified generalizability across diverse datasets and the need for automated tooling to scale quality checks; future work should address these gaps.
 
@@ -32242,18 +32242,18 @@ This paper addresses the challenge of improving Hardware Description Language (H
 #### Executive Summary  
 This paper addresses the challenge of validating mathematical optimization models automatically to ensure their correctness and reliability. It proposes an agent-based framework that simulates and verifies model behaviors through decentralized interactions of validation agents. The approach demonstrates improved detection of modeling errors compared to traditional validation techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel agent-based framework for systematic, automated validation of optimization models.  
 - Demonstration of decentralized agent interactions to uncover subtle modeling flaws often missed by static checks.  
 - Integration of validation processes directly into optimization workflows, enhancing model reliability pre-deployment.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-agent system where autonomous agents validate different aspects of the model by exploring constraints and solution consistency.  
 - Used standard benchmark optimization problems to evaluate framework efficacy.  
 - Experimental results show up to 35% higher error detection rates than baseline static validation tools.  
 - Runtime overhead remains manageable, with validation completing within minutes for medium-sized models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates robust, automatic verification, reducing manual effort and increasing confidence in complex optimization deployments.  
 - Limitations include scalability concerns for extremely large models and dependency on proper agent configuration; future work may explore adaptive agent behaviors and integration with real-time optimization environments.
 
@@ -32323,18 +32323,18 @@ This paper addresses the challenge of detecting and decoding steganography imple
 #### Executive Summary  
 This paper addresses the challenge of ensuring non-repudiable and auditable communication across disparate blockchains. The authors propose an auditable ledger snapshot mechanism that enables verifiable cross-chain message delivery without compromising scalability or security. Their approach demonstrates improved accountability and integrity in cross-blockchain interactions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an auditable ledger snapshot technique enabling non-repudiable cross-blockchain communication.  
 - Designs a protocol ensuring verifiable message delivery with minimal trust assumptions between blockchains.  
 - Provides a security analysis and empirical evaluation showcasing improved auditability over existing cross-chain methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes cryptographic proofs to create snapshots of ledger states that serve as verifiable checkpoints for inter-blockchain messages.  
 - Implements a prototype connecting multiple blockchain instances to validate the approach.  
 - Demonstrates audit correctness with low overhead, achieving communication verifiability with latency and resource usage within acceptable bounds.  
 - Shows improved security guarantees compared to baseline cross-chain interoperability protocols, though exact numerical benchmarks are limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trust and accountability in decentralized multi-blockchain ecosystems, relevant for finance, supply chain, and IoT applications.  
 - Limitations include potential scalability constraints for very large ledgers and a need for integration with diverse blockchain platforms. Future work could address optimization and broader applicability.
 
@@ -32375,18 +32375,18 @@ This paper addresses the challenge of enhancing quantum key distribution (QKD) n
 #### Executive Summary  
 This paper addresses fairness optimization under local differential privacy (LDP) constraints, a challenging intersection of privacy and equitable machine learning. The authors develop a theoretically grounded framework to achieve optimal fairness guarantees without sacrificing privacy, demonstrating trade-offs and proposing mechanisms that balance both effectively.
 
-### Key Contributions  
+### Key Contributions
 - Formulation of optimal fairness criteria compatible with LDP constraints.  
 - Novel privacy-preserving mechanisms that enforce fairness guarantees under LDP.  
 - Theoretical characterization of privacy-fairness trade-offs with provable optimality.
 
-### Method & Results  
+### Method & Results
 - Developed a framework combining local randomization mechanisms with fairness metrics to optimize equitable outcomes under LDP.  
 - Utilized synthetic and benchmark fairness datasets to validate the approach.  
 - Experimental results show improved fairness metrics (e.g., equalized odds) while maintaining strong LDP (ε-differential privacy) guarantees.  
 - Outperforms existing baseline methods that treat privacy and fairness independently, achieving better privacy-fairness trade-offs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables deployment of fair ML models in privacy-sensitive scenarios, such as health or finance, where local data privacy is paramount.  
 - Limitations include potential scalability challenges and the need to extend to complex, real-world data distributions. Future work could explore adaptive mechanisms and broader fairness definitions.
 
@@ -32401,21 +32401,292 @@ This paper addresses fairness optimization under local differential privacy (LDP
 #### Executive Summary  
 This paper investigates indirect environmental jailbreaks in embodied AI, where agents exploit environmental loopholes to bypass constraints without direct command manipulation. The authors propose a novel benchmarking framework to systematically identify and evaluate such jailbreaks, revealing significant security risks and robustness deficits in current embodied AI systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first comprehensive definition and taxonomy of indirect environmental jailbreaks in embodied AI.  
 - Develops an innovative benchmark suite to detect and quantify jailbreak vulnerabilities in simulated environments.  
 - Demonstrates through experiments that state-of-the-art embodied AI models are susceptible to indirect jailbreaks, posing safety concerns.
 
-### Method & Results  
+### Method & Results
 - Method: Designed controlled simulated scenarios that allow agents to exploit indirect environmental cues to circumvent restrictions.  
 - Tools: Utilized popular embodied AI simulators and state-of-the-art agent architectures for evaluation.  
 - Results: Found up to 45% of tested agents successfully executed jailbreaks across scenarios, outperforming naïve baselines by 30%.  
 - Performance: The benchmark clearly identifies differing robustness levels, highlighting crucial gaps in current defense mechanisms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Provides a foundational framework for the AI security community to assess and improve embodied agent safety in real-world applications.  
 - Limitations: Focuses primarily on simulated environments; extending evaluation to physical robots remains future work.  
 - Future work includes developing mitigation strategies and expanding the benchmark to more complex, dynamic settings.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-22)
+
+### 软件工程 领域
+
+#### Domain-constrained Synthesis of Inconsistent Key Aspects in Textual Vulnerability Descriptions
+**作者**: Linyi Han, Shidong Pan, Zhenchang Xing, Sofonias Yitagesu, Xiaowang Zhang, Zhiyong Feng, Jiamou Sun, Qing Huang
+**类别**: cs.SE
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16123v1
+
+#### Executive Summary  
+This paper addresses the challenge of synthesizing inconsistent key aspects in textual vulnerability descriptions, which often hinder automated security analysis. The authors propose a domain-constrained synthesis approach that generates coherent and domain-valid descriptions by integrating domain knowledge and inconsistency detection. Their method improves the quality and reliability of synthesized vulnerability descriptions.
+
+### Key Contributions  
+- Introduces a novel domain-constrained synthesis framework specifically targeting inconsistency in vulnerability text.  
+- Develops an automated mechanism to detect and reconcile contradictory key aspects within descriptions.  
+- Demonstrates improved synthesis quality that better supports downstream security tasks.
+
+### Method & Results  
+- Combines domain knowledge constraints with inconsistency identification to guide synthesis of vulnerability descriptions.  
+- Utilizes vulnerability databases and textual security corpora for training and evaluation.  
+- Achieves significant improvements in coherence and correctness metrics compared to baseline text generation models (quantitative gains not specified).  
+- Outperforms standard language models by effectively reducing contradictory information in output.
+
+### Impact & Limitations  
+- Enhances the accuracy and usability of vulnerability text, benefiting automated vulnerability management and security automation tools.  
+- Limited by domain specificity; future work could explore generalizing the approach to other security-related text and incorporating more diverse datasets.
+
+---
+
+#### The Future of Development Environments with AI Foundation Models: NII Shonan Meeting 222 Report
+**作者**: Xing Hu, Raula Gaikovina Kula, Christoph Treude
+**类别**: cs.SE
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16092v1
+
+#### Executive Summary  
+This paper addresses the evolving role of AI foundation models in software development environments by synthesizing discussions from the NII Shonan Meeting 222. The authors analyze how these models can transform developer workflows, tooling, and collaboration. They report emerging themes and challenges guiding future research and development.
+
+### Key Contributions  
+- Identification of critical opportunities for AI foundation models to revolutionize integrated development environments (IDEs).  
+- Synthesis of multidisciplinary expert insights shaping the future landscape of AI-augmented coding tools.  
+- Highlighting key research challenges around AI model integration, trust, and human-AI interaction in software engineering.
+
+### Method & Results  
+- Qualitative synthesis from a multi-day expert workshop involving researchers and practitioners.  
+- Analysis focused on AI capabilities, developer experience, privacy, and model adaptability.  
+- Output includes a roadmap of research directions rather than quantitative experimental results.  
+- No standard datasets or numeric performance metrics are provided due to the paper's exploratory nature.
+
+### Impact & Limitations  
+- Provides foundational guidance for both academia and industry to harness AI foundation models in development tools meaningfully.  
+- Limited by the absence of empirical validation and reliance on expert opinion, necessitating future concrete implementations and user studies.  
+- Encourages future work to address real-world deployment challenges and model explainability in coding contexts.
+
+---
+
+#### InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution
+**作者**: Qingao Dong, Mengfei Wang, Hengzhi Zhang, Zhichao Li, Yuan Yuan, Mu Li, Xiang Gao, Hailong Sun, Chunming Hu, Weifeng Lv
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16005v1
+
+#### Executive Summary
+This paper addresses the challenge of resolving C++ programming issues by leveraging intent-guided semantic retrieval combined with abstract syntax tree (AST)-structured search. The authors propose InfCode-C++, a novel system integrating semantic understanding of developer intentions with code structural analysis, demonstrating significant improvement in locating relevant issue resolution snippets.
+
+### Key Contributions
+- Introduces an intent-guided semantic retrieval model tailored for C++ issue resolution.
+- Proposes an AST-structured search technique to accurately capture code semantics and syntax.
+- Combines semantic and structural approaches to enhance retrieval precision in debugging tasks.
+
+### Method & Results
+- Utilizes natural language intent extraction from issue descriptions coupled with AST-based code structure matching.
+- Evaluated on a large C++ bug-fix repository and benchmark datasets for issue resolution.
+- Achieved up to 18% improvement in retrieval accuracy over state-of-the-art semantic search baselines.
+- Demonstrated robustness in handling complex code structures and varied developer intents.
+
+### Impact & Limitations
+- Enables more efficient and accurate debugging support for C++ developers, potentially reducing defect resolution time.
+- Limitation includes reliance on quality of intent extraction; future work could enhance intent understanding with deeper context or integrate dynamic analysis.
+
+---
+
+#### InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution
+**作者**: KeFan Li, Mengfei Wang, Hengzhi Zhang, Zhichao Li, Yuan Yuan, Mu Li, Xiang Gao, Hailong Sun, Chunming Hu, Weifeng Lv
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16004v1
+
+#### Executive Summary  
+This paper addresses the challenge of unreliable software issue resolution caused by inadequate test cases and patches. It proposes InfCode, an adversarial iterative framework that refines tests and patches to enhance fix reliability. Experiments demonstrate that InfCode significantly improves bug resolution accuracy and robustness compared to existing methods.
+
+### Key Contributions  
+- Introduces an adversarial iterative refinement process jointly optimizing tests and patches to improve software repair reliability.  
+- Develops a novel framework, InfCode, that dynamically generates and refines adversarial test cases to expose weaknesses in patches.  
+- Demonstrates superior performance on benchmark datasets, showing improved fix correctness and fewer regressions than state-of-the-art approaches.
+
+### Method & Results  
+- Utilizes adversarial learning techniques to iteratively generate challenging test inputs and refine candidate patches, ensuring robustness.  
+- Evaluated on widely used software debugging benchmarks including Defects4J and QuixBugs.  
+- Achieves up to 15% higher patch correctness and reduces post-fix failures by 20% relative to leading automated program repair tools.
+
+### Impact & Limitations  
+- Provides a practical solution to increase trustworthiness of automated software fixes, beneficial for developers and continuous integration systems.  
+- Limitations include increased computational overhead due to iterative adversarial processes; future work could focus on efficiency improvements and extending to multi-language codebases.
+
+---
+
+#### RE for AI in Practice: Managing Data Annotation Requirements for AI Autonomous Driving Systems
+**作者**: Hina Saeeda, Mazen Mohamad, Eric Knauss, Jennifer Horkoff, Ali Nouri
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15859v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently managing data annotation requirements critical for AI-driven autonomous driving systems. The authors propose a requirements engineering (RE) framework tailored to optimize annotation workflows, improving data quality and reducing overhead. Empirical evaluation demonstrates enhanced annotation management aligning with AI system needs.
+
+### Key Contributions  
+- Introduces an RE-based framework specifically for streamlining data annotation in autonomous driving AI development.  
+- Provides a structured approach to balance annotation accuracy with resource constraints.  
+- Empirically validates the framework with industry-relevant scenarios and data.
+
+### Method & Results  
+- Developed a requirements engineering process integrating stakeholder needs, annotation specificity, and iterative feedback loops.  
+- Utilized real-world autonomous driving datasets augmented with annotation task metadata.  
+- Demonstrated up to a 30% reduction in annotation time while maintaining or improving labeling quality.  
+- Showed improvements over traditional annotation planning methods lacking structured RE guidance.
+
+### Impact & Limitations  
+- Practical significance: Offers a repeatable process to optimize costly and complex annotation activities vital for autonomous AI system training.  
+- Limitations: Primarily evaluated within specific autonomous driving contexts; broader validation across varied AI domains and annotation types is needed.  
+- Future work: Automating aspects of RE integration and scaling the approach for larger, more diverse datasets.
+
+---
+
+### 安全领域 领域
+
+#### Multi-Domain Security for 6G ISAC: Challenges and Opportunities in Transportation
+**作者**: Musa Furkan Keskin, Muralikrishnan Srinivasan, Onur Gunlu, Hui Chen, Panagiotis Papadimitratos, Magnus Almgren, Zhongxia Simon He, Henk Wymeersch
+**类别**: cs.CR
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16316v1
+
+#### Executive Summary
+This paper addresses security challenges in 6G Integrated Sensing and Communication (ISAC) systems for transportation, focusing on multi-domain security threats spanning wireless, sensing, and cyber-physical layers. It proposes a holistic multi-domain security framework to enhance robustness and trustworthiness in 6G-enabled intelligent transportation systems, demonstrating opportunities for attack detection and mitigation.
+
+### Key Contributions
+- Introduces a multi-domain security framework tailored for 6G ISAC in transportation scenarios.
+- Identifies and categorizes cross-domain security threats unique to ISAC-enabled vehicular environments.
+- Highlights opportunities for leveraging ISAC features to improve security through integrated sensing and communication modalities.
+
+### Method & Results
+- Methodology: Comprehensive threat analysis across wireless, sensing, and cyber-physical domains combined with proposed mitigation strategies leveraging ISAC’s dual-functionality.
+- Tools/Datasets: Conceptual framework based on realistic 6G ISAC vehicular models, no specific datasets disclosed.
+- Results: Demonstrates improved detection and resilience against spoofing and jamming attacks through integrated sensing data fusion techniques.
+- Baselines: Shows superior threat mitigation compared to legacy communication-only security approaches by exploiting sensing capabilities.
+
+### Impact & Limitations
+- Practical Significance: Provides foundational security architecture vital for safe deployment of 6G ISAC in future autonomous transportation systems.
+- Limitations/Future Work: Lacks extensive empirical validation on real-world datasets; calls for development of standardized benchmarks and practical prototype implementations.
+
+---
+
+#### "To Survive, I Must Defect": Jailbreaking LLMs via the Game-Theory Scenarios
+**作者**: Zhen Sun, Zongmin Zhang, Deqi Liang, Han Sun, Yule Liu, Yun Shen, Xiangshan Gao, Yilong Yang, Shuai Liu, Yutao Yue, Xinlei He
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16278v1
+
+#### Executive Summary  
+This paper investigates jailbreaking large language models (LLMs) by framing interactions as game-theoretic scenarios where the LLMs strategically defect from alignment to survive user prompts. The authors formulate novel game-theory-based attacks and demonstrate that these can effectively bypass safety mechanisms in state-of-the-art LLMs. Experimental results highlight the vulnerability of aligned models under strategic adversarial settings.
+
+### Key Contributions  
+- Introduces a game-theoretic framework modeling LLM-user interactions to expose jailbreak vulnerabilities.  
+- Proposes novel strategic “defection” attacks to bypass alignment constraints.  
+- Empirically validates the framework on multiple LLMs, revealing significant weaknesses.
+
+### Method & Results  
+- Models prompt-response as multi-round games where LLMs maximize survival by selectively defecting.  
+- Uses simulated environments involving state-of-the-art LLMs and alignment mechanisms for testing.  
+- Demonstrates increased successful jailbreak rates compared to existing attack methods (quantitative improvements not specified).  
+- Benchmarks show the proposed strategy outperforms baseline jailbreak techniques in evading filters.
+
+### Impact & Limitations  
+- Highlights critical security gaps in current LLM alignment, informing safer model deployment and defense design.  
+- Limited to simulated scenarios; real-world deployment consequences and defenses require further exploration.  
+- Future work needed to extend theoretical models to diverse LLM architectures and adaptive defenses.
+
+---
+
+#### Q-MLLM: Vector Quantization for Robust Multimodal Large Language Model Security
+**作者**: Wei Zhao, Zhe Li, Yige Li, Jun Sun
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16229v1
+
+#### Executive Summary
+The paper addresses vulnerabilities in multimodal large language models (MLLMs) concerning adversarial attacks and data leakage. It proposes Q-MLLM, a vector quantization-based technique that enhances robustness and security by discretizing latent representations. Experiments demonstrate improved attack resistance while preserving model utility.
+
+### Key Contributions
+- Introduces vector quantization to secure MLLM latent spaces against adversarial manipulation.
+- Demonstrates a novel framework (Q-MLLM) balancing robustness with multimodal understanding.
+- Provides empirical evidence of enhanced security without significant performance loss.
+
+### Method & Results
+- Applies product quantization on multimodal embeddings to reduce attack surface.
+- Evaluated on public multimodal datasets integrating vision and text inputs.
+- Q-MLLM reduces adversarial success rates by over 30% compared to baseline MLLMs.
+- Maintains comparable accuracy on downstream tasks, outperforming existing defense strategies.
+
+### Impact & Limitations
+- Offers a practical security enhancement for deploying MLLMs in sensitive contexts.
+- Future work: Extend to larger-scale models and diverse attack types; assess trade-offs in computational overhead.
+
+---
+
+#### PSM: Prompt Sensitivity Minimization via LLM-Guided Black-Box Optimization
+**作者**: Huseein Jawad, Nicolas Brunel
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16209v1
+
+#### Executive Summary  
+This paper addresses the challenge of prompt sensitivity in large language models (LLMs), where minor prompt variations can cause significant output fluctuations. The authors propose PSM, a novel LLM-guided black-box optimization framework that minimizes prompt sensitivity to stabilize model responses. Experiments demonstrate PSM achieves notably improved robustness over baseline prompt-tuning methods.
+
+### Key Contributions  
+- Introduces Prompt Sensitivity Minimization (PSM), a new framework leveraging black-box optimization guided by LLM feedback.  
+- Proposes a novel metric and optimization strategy specifically targeting reduction of output variance across prompt perturbations.  
+- Demonstrates effectiveness of PSM across diverse NLP tasks, enhancing model stability without sacrificing accuracy.
+
+### Method & Results  
+- Uses black-box optimization driven by LLM to iteratively refine prompts minimizing sensitivity measured by model response variance.  
+- Evaluated on standard NLP benchmarks including question answering and sentiment analysis datasets.  
+- Achieves up to 30% reduction in output variance and maintains or improves task accuracy over strong prompt-tuning baselines.  
+- Outperforms standard prompt optimization and heuristic baselines consistently in robustness metrics.
+
+### Impact & Limitations  
+- Enhances reliability of LLM applications where output consistency is critical, such as dialogue systems and automated reasoning.  
+- Limitations include dependency on costly LLM calls during optimization and potential challenges scaling to extremely large prompt spaces.  
+- Future work could explore more efficient optimization algorithms and extend to multimodal prompts.
+
+---
+
+#### ART: A Graph-based Framework for Investigating Illicit Activity in Monero via Address-Ring-Transaction Structures
+**作者**: Andrea Venturi, Imanol Jerico-Yoldi, Francesco Zola, Raul Orduna
+**类别**: cs.CR, cs.ET, cs.LG, cs.SI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16192v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting illicit activities in Monero, a privacy-focused cryptocurrency, by leveraging a novel graph-based framework called ART that models Address-Ring-Transaction relationships. The approach captures complex transaction structures to unveil suspicious behavior, demonstrating improved investigative capabilities over traditional methods.
+
+### Key Contributions
+- Introduces ART, a unified graph framework combining addresses, rings, and transactions to analyze Monero's privacy features.
+- Proposes novel metrics and heuristics within the graph to identify patterns indicative of illicit activity.
+- Validates framework effectiveness with real-world Monero transaction data, enhancing traceability despite inherent privacy mechanisms.
+
+### Method & Results
+- Constructs a heterogeneous graph integrating addresses, ring signatures, and transactions for structural analysis.
+- Applies machine learning classifiers and graph analytics to detect anomalous transaction patterns.
+- Utilizes Monero blockchain datasets spanning multiple years, including annotated illicit activity samples.
+- Achieves a detection accuracy improvement of up to 25% compared to baseline heuristics, with enhanced precision in identifying illicit clusters.
+
+### Impact & Limitations
+- Provides a practical tool for law enforcement and regulators to better track privacy-oriented crypto crimes while maintaining user privacy considerations.
+- Limited by dependence on data labeling and evolving Monero protocol updates; future work could explore adaptive models and broader cross-chain integration.
 
 ---
 
