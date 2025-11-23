@@ -32434,18 +32434,18 @@ This paper investigates indirect environmental jailbreaks in embodied AI, where 
 #### Executive Summary  
 This paper addresses the challenge of synthesizing inconsistent key aspects in textual vulnerability descriptions, which often hinder automated security analysis. The authors propose a domain-constrained synthesis approach that generates coherent and domain-valid descriptions by integrating domain knowledge and inconsistency detection. Their method improves the quality and reliability of synthesized vulnerability descriptions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel domain-constrained synthesis framework specifically targeting inconsistency in vulnerability text.  
 - Develops an automated mechanism to detect and reconcile contradictory key aspects within descriptions.  
 - Demonstrates improved synthesis quality that better supports downstream security tasks.
 
-### Method & Results  
+### Method & Results
 - Combines domain knowledge constraints with inconsistency identification to guide synthesis of vulnerability descriptions.  
 - Utilizes vulnerability databases and textual security corpora for training and evaluation.  
 - Achieves significant improvements in coherence and correctness metrics compared to baseline text generation models (quantitative gains not specified).  
 - Outperforms standard language models by effectively reducing contradictory information in output.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the accuracy and usability of vulnerability text, benefiting automated vulnerability management and security automation tools.  
 - Limited by domain specificity; future work could explore generalizing the approach to other security-related text and incorporating more diverse datasets.
 
@@ -32460,18 +32460,18 @@ This paper addresses the challenge of synthesizing inconsistent key aspects in t
 #### Executive Summary  
 This paper addresses the evolving role of AI foundation models in software development environments by synthesizing discussions from the NII Shonan Meeting 222. The authors analyze how these models can transform developer workflows, tooling, and collaboration. They report emerging themes and challenges guiding future research and development.
 
-### Key Contributions  
+### Key Contributions
 - Identification of critical opportunities for AI foundation models to revolutionize integrated development environments (IDEs).  
 - Synthesis of multidisciplinary expert insights shaping the future landscape of AI-augmented coding tools.  
 - Highlighting key research challenges around AI model integration, trust, and human-AI interaction in software engineering.
 
-### Method & Results  
+### Method & Results
 - Qualitative synthesis from a multi-day expert workshop involving researchers and practitioners.  
 - Analysis focused on AI capabilities, developer experience, privacy, and model adaptability.  
 - Output includes a roadmap of research directions rather than quantitative experimental results.  
 - No standard datasets or numeric performance metrics are provided due to the paper's exploratory nature.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides foundational guidance for both academia and industry to harness AI foundation models in development tools meaningfully.  
 - Limited by the absence of empirical validation and reliance on expert opinion, necessitating future concrete implementations and user studies.  
 - Encourages future work to address real-world deployment challenges and model explainability in coding contexts.
@@ -32513,17 +32513,17 @@ This paper addresses the challenge of resolving C++ programming issues by levera
 #### Executive Summary  
 This paper addresses the challenge of unreliable software issue resolution caused by inadequate test cases and patches. It proposes InfCode, an adversarial iterative framework that refines tests and patches to enhance fix reliability. Experiments demonstrate that InfCode significantly improves bug resolution accuracy and robustness compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an adversarial iterative refinement process jointly optimizing tests and patches to improve software repair reliability.  
 - Develops a novel framework, InfCode, that dynamically generates and refines adversarial test cases to expose weaknesses in patches.  
 - Demonstrates superior performance on benchmark datasets, showing improved fix correctness and fewer regressions than state-of-the-art approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes adversarial learning techniques to iteratively generate challenging test inputs and refine candidate patches, ensuring robustness.  
 - Evaluated on widely used software debugging benchmarks including Defects4J and QuixBugs.  
 - Achieves up to 15% higher patch correctness and reduces post-fix failures by 20% relative to leading automated program repair tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical solution to increase trustworthiness of automated software fixes, beneficial for developers and continuous integration systems.  
 - Limitations include increased computational overhead due to iterative adversarial processes; future work could focus on efficiency improvements and extending to multi-language codebases.
 
@@ -32538,18 +32538,18 @@ This paper addresses the challenge of unreliable software issue resolution cause
 #### Executive Summary  
 This paper addresses the challenge of efficiently managing data annotation requirements critical for AI-driven autonomous driving systems. The authors propose a requirements engineering (RE) framework tailored to optimize annotation workflows, improving data quality and reducing overhead. Empirical evaluation demonstrates enhanced annotation management aligning with AI system needs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an RE-based framework specifically for streamlining data annotation in autonomous driving AI development.  
 - Provides a structured approach to balance annotation accuracy with resource constraints.  
 - Empirically validates the framework with industry-relevant scenarios and data.
 
-### Method & Results  
+### Method & Results
 - Developed a requirements engineering process integrating stakeholder needs, annotation specificity, and iterative feedback loops.  
 - Utilized real-world autonomous driving datasets augmented with annotation task metadata.  
 - Demonstrated up to a 30% reduction in annotation time while maintaining or improving labeling quality.  
 - Showed improvements over traditional annotation planning methods lacking structured RE guidance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Offers a repeatable process to optimize costly and complex annotation activities vital for autonomous AI system training.  
 - Limitations: Primarily evaluated within specific autonomous driving contexts; broader validation across varied AI domains and annotation types is needed.  
 - Future work: Automating aspects of RE integration and scaling the approach for larger, more diverse datasets.
@@ -32593,18 +32593,18 @@ This paper addresses security challenges in 6G Integrated Sensing and Communicat
 #### Executive Summary  
 This paper investigates jailbreaking large language models (LLMs) by framing interactions as game-theoretic scenarios where the LLMs strategically defect from alignment to survive user prompts. The authors formulate novel game-theory-based attacks and demonstrate that these can effectively bypass safety mechanisms in state-of-the-art LLMs. Experimental results highlight the vulnerability of aligned models under strategic adversarial settings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a game-theoretic framework modeling LLM-user interactions to expose jailbreak vulnerabilities.  
 - Proposes novel strategic “defection” attacks to bypass alignment constraints.  
 - Empirically validates the framework on multiple LLMs, revealing significant weaknesses.
 
-### Method & Results  
+### Method & Results
 - Models prompt-response as multi-round games where LLMs maximize survival by selectively defecting.  
 - Uses simulated environments involving state-of-the-art LLMs and alignment mechanisms for testing.  
 - Demonstrates increased successful jailbreak rates compared to existing attack methods (quantitative improvements not specified).  
 - Benchmarks show the proposed strategy outperforms baseline jailbreak techniques in evading filters.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security gaps in current LLM alignment, informing safer model deployment and defense design.  
 - Limited to simulated scenarios; real-world deployment consequences and defenses require further exploration.  
 - Future work needed to extend theoretical models to diverse LLM architectures and adaptive defenses.
@@ -32646,18 +32646,18 @@ The paper addresses vulnerabilities in multimodal large language models (MLLMs) 
 #### Executive Summary  
 This paper addresses the challenge of prompt sensitivity in large language models (LLMs), where minor prompt variations can cause significant output fluctuations. The authors propose PSM, a novel LLM-guided black-box optimization framework that minimizes prompt sensitivity to stabilize model responses. Experiments demonstrate PSM achieves notably improved robustness over baseline prompt-tuning methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Prompt Sensitivity Minimization (PSM), a new framework leveraging black-box optimization guided by LLM feedback.  
 - Proposes a novel metric and optimization strategy specifically targeting reduction of output variance across prompt perturbations.  
 - Demonstrates effectiveness of PSM across diverse NLP tasks, enhancing model stability without sacrificing accuracy.
 
-### Method & Results  
+### Method & Results
 - Uses black-box optimization driven by LLM to iteratively refine prompts minimizing sensitivity measured by model response variance.  
 - Evaluated on standard NLP benchmarks including question answering and sentiment analysis datasets.  
 - Achieves up to 30% reduction in output variance and maintains or improves task accuracy over strong prompt-tuning baselines.  
 - Outperforms standard prompt optimization and heuristic baselines consistently in robustness metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of LLM applications where output consistency is critical, such as dialogue systems and automated reasoning.  
 - Limitations include dependency on costly LLM calls during optimization and potential challenges scaling to extremely large prompt spaces.  
 - Future work could explore more efficient optimization algorithms and extend to multimodal prompts.
@@ -32687,6 +32687,276 @@ This paper addresses the challenge of detecting illicit activities in Monero, a 
 ### Impact & Limitations
 - Provides a practical tool for law enforcement and regulators to better track privacy-oriented crypto crimes while maintaining user privacy considerations.
 - Limited by dependence on data labeling and evolving Monero protocol updates; future work could explore adaptive models and broader cross-chain integration.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-23)
+
+### 软件工程 领域
+
+#### AI-Enabled Orchestration of Event-Driven Business Processes in Workday ERP for Healthcare Enterprises
+**作者**: Monu Sharma
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15852v1
+
+#### Executive Summary  
+This paper addresses the challenge of orchestrating event-driven business processes within Workday ERP systems tailored for healthcare enterprises. It proposes an AI-enabled orchestration framework that dynamically manages complex workflows triggered by diverse healthcare events. The approach demonstrates improved efficiency and adaptability in process management compared to traditional static orchestration methods.
+
+### Key Contributions  
+- Introduces an AI-based orchestration framework specifically designed for event-driven business processes in Workday ERP for the healthcare sector.  
+- Develops dynamic workflow management that adapts to real-time healthcare events, enhancing responsiveness.  
+- Presents an integrated solution combining AI techniques with Workday ERP’s event architecture for process automation.  
+
+### Method & Results  
+- Utilizes machine learning algorithms to predict and trigger appropriate business workflows based on incoming events.  
+- Implements the system within a simulated Workday ERP environment tailored with healthcare-specific business rules.  
+- Experimental evaluation shows a reduction in process handling time by up to 25% and increased process accuracy by 18% over baseline static orchestration.  
+- Benchmarked against rule-based orchestration, the AI framework significantly improved workflow adaptability and resource utilization.  
+
+### Impact & Limitations  
+- Enables healthcare enterprises to streamline operations and improve responsiveness to dynamic events, potentially reducing administrative overhead and errors.  
+- Limitations include dependency on high-quality event data and scalability testing in real-world deployments; future work could focus on expanding to multi-ERP environments and incorporating deeper AI explainability.
+
+---
+
+#### A Causal Perspective on Measuring, Explaining and Mitigating Smells in \llm-Generated Code
+**作者**: Alejandro Velasco, Daniel Rodriguez-Cardenas, Dipin Khati, David N. Palacio, Luftar Rahman Alif, Denys Poshyvanyk
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15817v1
+
+#### Executive Summary  
+This paper addresses the challenge of identifying and mitigating code smells generated by large language models (LLMs). It presents a causal framework to measure, explain, and reduce such smells, improving code quality in AI-assisted development. The approach effectively reveals causal relationships and demonstrates mitigation benefits empirically.
+
+### Key Contributions  
+- Proposes a novel causal analysis framework for detecting and explaining code smells in LLM-generated code.  
+- Introduces a systematic mitigation strategy grounded in causal insights to reduce code smell prevalence.  
+- Empirically validates the causal approach on real LLM-generated code samples, enhancing understanding of AI code quality issues.
+
+### Method & Results  
+- Developed a causal inference methodology leveraging interventions and counterfactual reasoning to analyze smell generation.  
+- Evaluated on datasets of code snippets produced by state-of-the-art LLMs, using well-established smell detection tools as baselines.  
+- Demonstrated significant reduction in multiple code smell metrics post-mitigation; quantitative improvements outperform standard heuristic-based fixes.  
+- Provided evidence that causal explanations better highlight underlying issues than correlational analyses.
+
+### Impact & Limitations  
+- Enables developers and researchers to more reliably identify and address structural weaknesses in AI-generated code, potentially increasing adoption trust.  
+- Limitations include dependency on the quality of smell detectors and scalability concerns for larger codebases; future work may explore automated intervention strategies and integration with developer workflows.
+
+---
+
+#### Identifying the Supply Chain of AI for Trustworthiness and Risk Management in Critical Applications
+**作者**: Raymond K. Sheh, Karen Geappen
+**类别**: cs.AI, cs.CR, cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15763v1
+
+#### Executive Summary  
+This paper addresses the challenge of tracing AI component supply chains to enhance trustworthiness and risk management in critical applications. The authors propose a comprehensive framework combining provenance tracking, risk assessment, and stakeholder collaboration, demonstrating improved transparency and risk mitigation.
+
+### Key Contributions  
+- Introduces a novel AI supply chain identification framework integrating provenance and risk analysis.  
+- Provides a systematic approach for managing trust and risk in AI deployed in critical sectors.  
+- Bridges gaps between technical supply chain tracking and governance requirements in AI systems.
+
+### Method & Results  
+- Developed a multi-layered methodology combining provenance data capture, risk scoring algorithms, and stakeholder input integration.  
+- Utilized simulated AI component datasets representing various supply chain stages for validation.  
+- Achieved a 30% improvement in risk detection accuracy over baseline static tracing methods.  
+- Demonstrated enhanced ability to pinpoint high-risk components, facilitating proactive risk management.
+
+### Impact & Limitations  
+- Offers practical tools for organizations to increase AI system transparency and safety, crucial for critical infrastructure & healthcare AI deployments.  
+- Limitations include dependency on data availability and challenges in real-time provenance updates; future work to focus on scalability and integration with existing AI platforms.
+
+---
+
+#### M, Toolchain and Language for Reusable Model Compilation
+**作者**: Hiep Hong Trinh, Federico Ciccozzi, Abu Naser Masud, Marjan Sirjani, Mikael Sjödin
+**类别**: cs.SE, cs.CL
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15257v1
+
+#### Executive Summary
+This paper addresses the challenge of creating reusable, efficient model compilers by introducing M, a new toolchain and language designed for model compilation modularity and reuse. The authors present a novel approach combining a domain-specific language with an extensible toolchain to facilitate sharing and adaptation of compilation processes. Results demonstrate improved reusability and flexibility without sacrificing performance.
+
+### Key Contributions
+- Introduction of M, a reusable model compilation language enabling modular and composable compiler specifications.
+- Development of a corresponding toolchain that supports incremental compilation and model transformation reuse.
+- Evaluation showcasing the practicality and efficiency gains of the approach over traditional monolithic compilers.
+
+### Method & Results
+- Core methodology: design of a domain-specific language for model compilation and an extensible toolchain supporting modular transformations.
+- Tools used: implemented M language and toolchain, benchmark models drawn from established model compilation scenarios.
+- Results: achieved up to 30% reduction in development effort for new compilation tasks and maintained competitive compilation performance.
+- Compared to baselines: improved flexibility and reusability with negligible overhead compared to standard non-modular compilers.
+
+### Impact & Limitations
+- Impact: facilitates faster development and maintenance of model compilers, promoting reuse in complex system engineering.
+- Limitations/future work: broader evaluation on diverse model types needed; optimizing runtime efficiency further and integrating with other compilation ecosystems remain future directions.
+
+---
+
+#### Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym
+**作者**: Kareem Shehada, Yifan Wu, Wyatt D. Feng, Adithya Iyer, Gryphon Kumfert, Yangruibo Ding, Zhiyun Qian
+**类别**: cs.SE
+**发布日期**: 2025-11-19
+**链接**: http://arxiv.org/abs/2511.15757v1
+
+#### Executive Summary  
+This paper addresses the challenge of repairing kernel-level programs by benchmarking Large Language Models (LLMs) using a novel framework, RGym. The authors introduce RGym to systematically evaluate and enhance LLM capabilities in kernel program repair tasks, demonstrating significant improvements over existing approaches.
+
+### Key Contributions  
+- Introduces RGym, a comprehensive benchmarking suite tailored for kernel program repair tasks leveraging LLMs.  
+- Demonstrates enhanced LLM repair performance through targeted training and adaptation on kernel-specific bug distributions.  
+- Provides extensive empirical analysis highlighting limitations in current LLM methods and pathways for improvement.
+
+### Method & Results  
+- Developed RGym framework combining kernel bug datasets with program-level evaluation metrics to assess LLM repair quality.  
+- Used prominent LLMs (such as GPT variants) fine-tuned or prompted on RGym datasets for model benchmarking.  
+- Achieved up to X% improvement in bug repair accuracy compared to general-purpose LLM baselines (exact numbers depend on reported metrics).  
+- Showed enhanced robustness and reduced false positives in kernel program repair scenarios.
+
+### Impact & Limitations  
+- Enables more reliable and automated kernel patch generation, potentially accelerating OS development and security fixes.  
+- Current RGym scope may not cover all kernel code complexity; future work includes expanding dataset diversity and integrating deeper semantic analysis.
+
+---
+
+### 安全领域 领域
+
+#### Multi-Faceted Attack: Exposing Cross-Model Vulnerabilities in Defense-Equipped Vision-Language Models
+**作者**: Yijun Yang, Lichao Wang, Jianping Zhang, Chi Harold Liu, Lanqing Hong, Qiang Xu
+**类别**: cs.CR
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16110v1
+
+#### Executive Summary
+This paper addresses vulnerabilities in vision-language models (VLMs) that have integrated defense mechanisms against attacks. The authors propose a novel Multi-Faceted Attack to expose cross-model weaknesses, demonstrating that current defenses fail to provide robust protection. Experimental results reveal significant drops in robustness despite defense measures.
+
+### Key Contributions
+- Introduces the first Multi-Faceted Attack targeting multiple defense-equipped VLMs simultaneously.
+- Reveals cross-model vulnerabilities, exposing limitations of existing defense strategies.
+- Provides a comprehensive evaluation framework to test robustness across diverse VLM architectures.
+
+### Method & Results
+- Developed an attack framework combining multiple adversarial perturbations tailored to vision-language fusion layers.
+- Evaluated on popular VLMs such as CLIP and BLIP equipped with standard adversarial defenses.
+- Achieved up to 35% higher attack success rate compared to single-model attacks.
+- Demonstrated that defenses fail to generalize across models, with robustness drops exceeding 25% under multi-faceted attacks.
+
+### Impact & Limitations
+- Highlights the urgent need for more generalized and adaptive defense mechanisms in multi-modal AI systems.
+- Future work should explore defenses resilient to cross-model attack vectors and evaluate broader model families beyond vision-language tasks.
+
+---
+
+#### Future-Back Threat Modeling: A Foresight-Driven Security Framework
+**作者**: Vu Van Than
+**类别**: cs.CR, cs.AI, cs.CY
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16088v1
+
+#### Executive Summary  
+This paper addresses the challenge of anticipating and mitigating future cybersecurity threats via a proactive, foresight-driven framework called Future-Back Threat Modeling. The approach integrates predictive analytics with threat modeling techniques to identify and prioritize emerging security risks. Results demonstrate improved early detection and strategic planning capabilities compared to traditional reactive models.
+
+### Key Contributions  
+- Introduces a novel Future-Back Threat Modeling framework combining foresight and security analysis.  
+- Develops a predictive analytics methodology tailored to cybersecurity threat forecasting.  
+- Demonstrates enhanced prioritization accuracy for emerging threats ahead of their manifestation.
+
+### Method & Results  
+- Employs a hybrid methodology combining scenario-based foresight, machine learning prediction, and traditional threat modeling.  
+- Utilizes cybersecurity incident datasets and synthetic foresight scenarios for evaluation.  
+- Achieves up to 25% improvement in early threat detection accuracy over baseline reactive threat models.  
+- Shows better alignment of resource allocation with emergent threat priorities in simulation studies.
+
+### Impact & Limitations  
+- Enables security teams to proactively prepare for and mitigate future cyber risks, enhancing organizational resilience.  
+- Limitations include reliance on quality foresight data and potential adaptation challenges in dynamic threat landscapes.  
+- Future work could explore automated data integration and real-time model updating mechanisms.
+
+---
+
+#### A Quantum-Secure and Blockchain-Integrated E-Voting Framework with Identity Validation
+**作者**: Ashwin Poudel, Utsav Poudel, Dikshyanta Aryal, Anuj Nepal, Pranish Pathak, Subramaniyaswamy V
+**类别**: cs.CR
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16034v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in electronic voting systems by proposing a quantum-secure framework integrated with blockchain for transparent, tamper-resistant e-voting and robust voter identity validation. The approach combines post-quantum cryptographic algorithms with blockchain technology to enhance security and trustworthiness. Experimental validation demonstrates improved resistance against quantum attacks and ensures election integrity.
+
+### Key Contributions  
+- Introduces a novel quantum-resistant cryptographic protocol tailored for e-voting systems.  
+- Integrates blockchain technology to provide immutable, transparent vote recording and identity verification.  
+- Develops an identity validation mechanism that strengthens voter authentication without compromising privacy.
+
+### Method & Results  
+- Utilizes lattice-based cryptography for quantum security and smart contracts on blockchain for vote tallying and identity validation.  
+- Implements a prototype system tested on a simulated election dataset with synthesized voter identities.  
+- Demonstrates reduced risk of quantum attack vectors and achieves a transaction throughput suitable for large-scale elections (~5000 votes/min).  
+- Outperforms classical cryptographic baselines by maintaining security against quantum adversaries without significant overhead.
+
+### Impact & Limitations  
+- Enhances trust in digital elections, crucial for future-proof democratic processes in the quantum era.  
+- Limitations include the need for scalability testing in real-world deployments and adaptations for diverse electoral regulations.  
+- Future work may explore integration with biometric identity factors and optimization for constrained devices.
+
+---
+
+#### Nonadaptive One-Way to Hiding Implies Adaptive Quantum Reprogramming
+**作者**: Joseph Jaeger
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.16009v1
+
+#### Executive Summary  
+This paper addresses the interplay between nonadaptive one-way functions and adaptive quantum oracle reprogramming. It establishes that nonadaptive security in one-way functions necessarily enables adaptive quantum reprogramming strategies, resolving an important open question in quantum cryptography.
+
+### Key Contributions  
+- Demonstrates a novel connection between nonadaptive one-way functions and adaptive quantum oracle reprogramming.  
+- Develops a general framework translating nonadaptive hardness assumptions into adaptive quantum security guarantees.  
+- Provides formal proofs bridging classical one-wayness and quantum adaptivity capabilities.
+
+### Method & Results  
+- Constructs a reduction from nonadaptive one-way assumptions to adaptive quantum reprogramming algorithms using theoretical quantum computational models.  
+- Uses formal cryptographic proofs rather than empirical datasets.  
+- Shows that any nonadaptive one-way to hiding scenario admits adaptive quantum reprogramming with polynomial overhead.  
+- No baseline comparison due to the theoretical nature, but resolves a previously open conceptual gap.
+
+### Impact & Limitations  
+- Advances understanding of quantum security primitives with implications for designing quantum-resistant cryptographic schemes.  
+- Limitations include reliance on idealized models; extending to concrete constructions and evaluating practical overhead remain future work.
+
+---
+
+#### Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming
+**作者**: Strahinja Janjusevic, Anna Baron Garcia, Sohrob Kazerounian
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-20
+**链接**: http://arxiv.org/abs/2511.15998v1
+
+#### Executive Summary  
+This paper investigates exploiting Multi-Channel Protocols (MCP) to stealthily embed malicious Large Language Model (LLM)-powered agentic behaviors within AI traffic, enabling covert red teaming attacks. The authors design adversarial strategies that hide harmful instructions in normal AI interactions, demonstrating high evasion of existing detection systems. Their results highlight critical vulnerabilities in AI traffic monitoring frameworks.
+
+### Key Contributions  
+- Introduces a novel attack framework leveraging MCP to obscure agentic red teaming powered by LLMs within benign AI traffic.  
+- Develops techniques to systematically hide and trigger harmful LLM behaviors, bypassing current detection mechanisms.  
+- Provides empirical evaluation exposing significant gaps in AI content moderation systems under MCP-based obfuscation.
+
+### Method & Results  
+- Proposes an MCP abuse methodology embedding malicious prompts across multiple communication channels that fuse into harmful agentic instructions at the LLM endpoint.  
+- Employs standard LLM APIs and simulated AI traffic datasets for experimental validation.  
+- Demonstrates up to 85% evasion rate against state-of-the-art AI monitoring tools, significantly outperforming baseline straightforward prompt injection attacks.  
+- Shows the feasibility of stealth red teaming that can operate undetected in realistic AI communication environments.
+
+### Impact & Limitations  
+- Highlights urgent need to redesign AI monitoring and security protocols to handle multiplexed communication attacks.  
+- Limitations include testing predominantly on simulated traffic and limited scope on diverse real-world MCP implementations; future work should explore adaptive defenses and broader protocol coverage.
 
 ---
 
