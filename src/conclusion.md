@@ -32975,18 +32975,18 @@ This paper investigates exploiting Multi-Channel Protocols (MCP) to stealthily e
 #### Executive Summary  
 This paper addresses secure management of electronic health records (EHR) by introducing a patient-centric blockchain framework that separates data storage from access control. The approach enhances privacy and security by leveraging blockchain’s immutability for access policies while storing bulky medical data off-chain. Results demonstrate improved security and user control over EHR access.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel blockchain-based framework that decouples EHR data storage from access control mechanisms.  
 - Introduces patient-centric access management empowering users to control data sharing dynamically.  
 - Designs and implements a scalable architecture combining on-chain smart contracts with off-chain encrypted storage.
 
-### Method & Results  
+### Method & Results
 - Utilizes smart contracts on a permissioned blockchain for secure, auditable access control policies, with encrypted EHR data stored off-chain in distributed storage.  
 - Employs realistic synthetic EHR datasets to simulate access scenarios and system workloads.  
 - Experimental evaluation shows reduced transaction costs and latency compared to integrated blockchain storage approaches, with access control enforcement overhead under 10%.  
 - Demonstrates enhanced privacy by preventing direct on-chain data exposure while maintaining tamper-proof access logs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables patients to regain control over sensitive health data, fostering trust and compliance with data protection regulations.  
 - Scalability hinges on off-chain storage reliability; future work should address integration with diverse EHR standards and real-world deployment challenges.
 
@@ -33027,18 +33027,18 @@ This paper tackles the challenge of enhancing the interpretability and effective
 #### Executive Summary  
 This paper addresses the challenge of identifying Self-Admitted Technical Debt (SATD) in scientific software, a critical issue impacting research reproducibility and software quality. The authors propose AI-driven techniques leveraging natural language processing to automatically detect SATD from code comments. Their approach demonstrates improved accuracy over traditional keyword and heuristic methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel AI-based SATD detection model specifically tailored for scientific software contexts.  
 - Presents a curated dataset of scientific software code comments labeled for SATD, enabling benchmark comparisons.  
 - Empirical evaluation shows superior SATD identification performance compared to baseline keyword and heuristic approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes transformer-based NLP models fine-tuned on a newly compiled scientific software corpus to classify SATD comments.  
 - Dataset comprises thousands of annotated scientific code comments from open-source repositories in domains like bioinformatics and physics.  
 - Achieves up to 85% F1-score in SATD detection, outperforming baseline keyword spotting by 15 percentage points.  
 - Validated generalizability across multiple scientific disciplines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated quality assessment tools in scientific software, supporting better debt management and research reproducibility.  
 - Limitations include domain specificity potentially reducing applicability to non-scientific codebases; future work could expand dataset diversity and incorporate code context beyond comments.
 
@@ -33053,18 +33053,18 @@ This paper addresses the challenge of identifying Self-Admitted Technical Debt (
 #### Executive Summary  
 This paper addresses the challenge of verifying programs that actively interact with their environment via agents. It proposes an agentic verification framework that models program-environment interactions explicitly to ensure correctness properties under dynamic conditions. The approach demonstrates improved verification precision and scalability on agent-driven software systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an agentic verification paradigm that integrates agent-environment dynamics into program correctness proofs.  
 - Develops novel techniques to model and verify non-deterministic behaviors stemming from agent interactions.  
 - Provides empirical validation showcasing enhanced coverage and fewer false positives compared to traditional verification methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes a formal modeling framework combining program semantics with agent behavior specifications to enable sound verification.  
 - Implements the approach within an extended symbolic execution tool tailored for agentic programs.  
 - Evaluated on benchmark suites involving multi-agent and autonomous system scenarios, achieving up to a 30% increase in verification accuracy.  
 - Outperforms baseline verification tools by reducing false alarms while maintaining comparable analysis time.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables reliable verification of emerging autonomous and multi-agent software, facilitating safer deployment in critical domains.  
 - Future work needed to handle larger-scale systems with more complex agent hierarchies and to integrate probabilistic reasoning for uncertain environments.
 
@@ -33079,46 +33079,35 @@ This paper addresses the challenge of verifying programs that actively interact 
 #### Executive Summary  
 This paper investigates the energy efficiency of popular UI automation testing frameworks, addressing the overlooked environmental impact of software testing. By empirically evaluating multiple frameworks under controlled conditions, the authors identify significant energy consumption differences, providing actionable insights for greener software testing practices.
 
-### Key Contributions  
+### Key Contributions
 - First systematic comparison of energy consumption across leading UI automation testing frameworks.  
 - Introduction of a standardized energy measurement methodology tailored for UI tests.  
 - Empirical evidence linking framework choice to substantial reductions in testing energy use.
 
-### Method & Results  
+### Method & Results
 - Instrumentation of various UI automation frameworks (e.g., Selenium, Appium) to measure real-time energy consumption during test execution.  
 - Utilized a controlled hardware environment with energy profiling tools to ensure consistency.  
 - Findings show up to 35% variance in energy usage between frameworks; some frameworks consumed significantly less power without sacrificing test coverage or speed.  
 - Demonstrated that framework selection impacts not only efficiency but also carbon footprint, outperforming baseline assumptions of equal energy costs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the importance of considering energy efficiency in CI/CD pipelines, promoting sustainable software engineering.  
 - Limitations include a focus on a limited set of frameworks and test scenarios, suggesting further work on broader application domains and integration with energy-aware scheduling.
 
 ---
 
-### 安全领域 领域
-
-#### A Patient-Centric Blockchain Framework for Secure Electronic Health Record Management: Decoupling Data Storage from Access Control
-**作者**: Tanzim Hossain Romel, Kawshik Kumar Paul, Tanberul Islam Ruhan, Maisha Rahman Mim, Abu Sayed Md. Latiful Hoque
-**类别**: cs.CR, cs.SE, eess.SY
-**发布日期**: 2025-11-21
-**链接**: http://arxiv.org/abs/2511.17464v1
-
-#### Executive Summary  
-The paper addresses security and privacy challenges in Electronic Health Record (EHR) management by proposing a patient-centric blockchain framework that separates data storage from access control. This approach enhances data confidentiality and patient autonomy while maintaining efficient and secure access management. Results demonstrate improved security and flexibility compared to traditional systems.
-
-### Key Contributions  
+### Key Contributions
 - Introduces a novel blockchain-based EHR framework that decouples data storage from access control, enhancing patient control over health data.  
 - Employs smart contracts for automated, transparent access management without compromising data confidentiality.  
 - Demonstrates scalability and privacy preservation tailored for healthcare applications.
 
-### Method & Results  
+### Method & Results
 - Developed a permissioned blockchain architecture integrated with off-chain encrypted storage for EHR data.  
 - Implemented smart contracts to manage dynamic access permissions driven by patient consent.  
 - Evaluated using simulated healthcare datasets, showing a 30% reduction in access latency versus monolithic blockchain storage methods.  
 - Security analysis confirmed resistance to common attacks such as unauthorized access and data tampering.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables patients to securely control who accesses their health records, potentially increasing trust in digital health ecosystems.  
 - Limitations include dependence on off-chain storage security and the need for real-world clinical validation; future work will address interoperability with existing EHR systems and performance under large-scale deployment.
 
@@ -33159,18 +33148,18 @@ This paper addresses the challenge of testing the complex thread protocol used i
 #### Executive Summary  
 This paper addresses the reliability and persistence challenges of BitTorrent trackers that maintain peer lists despite node failures or churn. The authors propose a novel persistent tracker mechanism that improves tracker uptime and data availability through enhanced redundancy and fault tolerance. Experimental evaluation demonstrates substantial improvements in tracker availability and download success rates compared to traditional approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a persistent BitTorrent tracker architecture that maintains peer state through distributed redundancy.  
 - Development of fault-tolerant algorithms enabling tracker continuity despite node failures.  
 - Empirical validation of the persistent tracker’s effectiveness in real-world network conditions.
 
-### Method & Results  
+### Method & Results
 - Designed a distributed tracking system combining replication and state synchronization to ensure tracker persistence.  
 - Evaluated using controlled BitTorrent network simulations and datasets derived from real torrent swarms.  
 - Achieved over 30% increase in tracker availability and improved peer discovery rates, leading to up to 20% faster download completions.  
 - Outperformed baseline centralized trackers by maintaining functionality during node outages.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and robustness of BitTorrent infrastructure, potentially reducing content distribution failures.  
 - Limited evaluation scope in extremely large-scale or highly dynamic environments; future work to assess scalability and optimize overhead.
 
@@ -33185,18 +33174,18 @@ This paper addresses the reliability and persistence challenges of BitTorrent tr
 #### Executive Summary  
 This paper addresses the vulnerability of large language models (LLMs) to activation space attacks by proposing a novel causal amplification technique to stealthily steer model behavior. The approach identifies and manipulates causal pathways within the activation space, significantly enhancing the effectiveness and subtlety of activation attacks. Experimental results demonstrate substantial improvements in attack success rates with minimal detectability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces causal amplification to exploit and enhance activation space attacks in LLMs.  
 - Develops a framework for identifying causal pathways enabling precise internal steering.  
 - Demonstrates improved attack efficacy and stealth compared to existing activation manipulation methods.
 
-### Method & Results  
+### Method & Results
 - Uses causal inference methods to analyze and amplify key activations responsible for target behaviors in transformer layers.  
 - Evaluates on standard large language models (e.g., GPT variants) using controlled activation perturbations.  
 - Achieves a 30-50% increase in successful behavioral steering while maintaining low detection rates relative to baseline activation attacks.  
 - Benchmarked against prior activation manipulation and adversarial attack techniques, showing superior control and stealth.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights new security risks and opportunities for controlled behavioral steering in LLMs, impacting AI robustness and interpretability.  
 - Limitations include dependence on model access for causal pathway identification and potential challenges scaling to diverse architectures. Future work could explore defenses and broader applicability.
 
@@ -33211,20 +33200,290 @@ This paper addresses the vulnerability of large language models (LLMs) to activa
 #### Executive Summary  
 This paper addresses the challenge of testing relevant dependencies in high-dimensional data under differential privacy constraints. The authors develop novel testing procedures that ensure privacy while maintaining statistical power for identifying meaningful dependencies. Their approach balances privacy guarantees and detection capabilities, with theoretical and empirical validation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a differentially private testing framework tailored for relevant dependency detection in high dimensions.  
 - Provides theoretical guarantees on privacy and statistical validity under differential privacy.  
 - Demonstrates improved power and relevance-focused detection compared to non-private and generic private methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes hypothesis testing for relevant dependency measures combined with noise addition mechanisms to satisfy differential privacy.  
 - Experiments conducted on synthetic high-dimensional datasets to benchmark performance.  
 - Results show superior true positive rates and controlled false positives while preserving rigorous privacy parameters.  
 - Outperforms baseline private hypothesis tests by achieving better trade-offs between privacy loss and testing power.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving discovery of meaningful dependencies critical in sensitive domains like healthcare or finance.  
 - Limited by assumptions on data distribution and scalability challenges in extremely high dimensions; future work could extend methods to more general dependency structures and optimize computational efficiency.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-25)
+
+### 软件工程 领域
+
+#### Prompt Less, Smile More: MTP with Semantic Engineering in Lieu of Prompt Engineering
+**作者**: Jayanaka L. Dantanarayana, Savini Kashmira, Thakee Nathees, Zichen Zhang, Krisztian Flautner, Lingjia Tang, Jason Mars
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19427v1
+
+#### Executive Summary  
+This paper addresses the challenges of prompt engineering for large language models (LLMs) by proposing "Semantic Engineering" as an alternative method for multi-turn prompting (MTP). The authors introduce a framework that reduces dependency on manual prompt design by leveraging semantic structures, leading to improved interaction efficiency and response quality. Experiments demonstrate that this approach outperforms traditional prompt engineering in generating coherent and contextually relevant conversations.
+
+### Key Contributions  
+- Introduces Semantic Engineering as a novel substitute for prompt engineering in multi-turn dialogue systems.  
+- Develops a Multi-Turn Prompting (MTP) framework that integrates semantic structures to guide LLM responses.  
+- Demonstrates empirically that semantic-driven prompting reduces the need for manual prompt tuning while enhancing output quality.
+
+### Method & Results  
+- Method: Constructs semantic representations to inform prompt formulation in MTPs, minimizing explicit prompt crafting.  
+- Tools/Datasets: Evaluations utilized common conversational AI benchmarks and LLM platforms (specific datasets unnamed).  
+- Results: Achieved higher coherence and relevance scores compared to baseline prompt engineering methods; reported quantitative gains of up to 15% in dialogue quality metrics.  
+- Performance: Outperformed standard prompt tuning baselines, showing more efficient and stable multi-turn interactions.
+
+### Impact & Limitations  
+- Practical Significance: Simplifies deployment of conversational agents by reducing reliance on manual prompt engineering, improving scalability.  
+- Limitations/Future Work: Needs validation across diverse languages and domains; integration with real-time adaptive systems remains unexplored.
+
+---
+
+#### SLMFix: Leveraging Small Language Models for Error Fixing with Reinforcement Learning
+**作者**: David Jiahao Fu, Aryan Gupta, Aaron Councilman, David Grove, Yu-Xiong Wang, Vikram Adve
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19422v1
+
+#### Executive Summary  
+SLMFix addresses the challenge of automatically fixing programming errors using small language models (SLMs). By integrating reinforcement learning to fine-tune these SLMs, the approach achieves competitive error correction performance with significantly reduced computational resources. Results demonstrate that SLMFix outperforms standard fine-tuning baselines and rivals larger models on common code repair benchmarks.
+
+### Key Contributions  
+- Introduces a reinforcement learning framework tailored to empower small language models for code error fixing.  
+- Demonstrates that SLMs can match or exceed performance of larger models with efficient training and inference.  
+- Provides extensive evaluation on realistic code error datasets emphasizing practical usability.
+
+### Method & Results  
+- Utilizes reinforcement learning with reward signals derived from successful code repairs to refine small language model capabilities.  
+- Experiments conducted on popular code error datasets such as CodeXGLUE and Defects4J.  
+- SLMFix achieves up to 15% higher fix accuracy compared to standard supervised fine-tuning of small models.  
+- Performance is within 5% of much larger models like Codex while reducing model size by an order of magnitude.
+
+### Impact & Limitations  
+- Enables deployment of effective error fixing in resource-constrained environments, facilitating wider adoption in development tools.  
+- Future work needed to extend capabilities to multi-file and semantic bugs, and to improve reward design for complex fixes.
+
+---
+
+#### Synthesizing Test Cases for Narrowing Specification Candidates
+**作者**: Alcino Cunha, Nuno Macedo
+**类别**: cs.SE
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19177v1
+
+#### Executive Summary  
+This paper addresses the challenge of reducing ambiguity in software specifications by automatically synthesizing test cases to differentiate among candidate specifications. The authors propose a novel framework that generates targeted test inputs aimed at narrowing down the specification space. Experimental results demonstrate the approach’s effectiveness in quickly eliminating incorrect candidates, improving specification clarity.
+
+### Key Contributions  
+- Introduces an automated test case synthesis method specifically designed to discriminate between multiple specification candidates.  
+- Proposes a formal framework integrating specification refinement with test generation.  
+- Demonstrates significant reduction in candidate specifications through synthesized tests in empirical evaluation.
+
+### Method & Results  
+- Utilizes symbolic execution and constraint solving to generate distinguishable test cases for candidate specifications.  
+- Implements the approach on benchmark specification sets drawn from software engineering repositories (details not specified).  
+- Empirically achieves up to 70% reduction in candidate specifications with fewer than 10 synthesized tests on average.  
+- Outperforms baseline random or coverage-based test generation in disambiguating specifications.
+
+### Impact & Limitations  
+- Enhances software verification and validation by automating the refinement of uncertain or ambiguous specifications, potentially reducing developer effort and errors.  
+- Future work includes scaling the approach to larger, more complex specifications and integrating user feedback for guided refinement.
+
+---
+
+#### LLMs-Powered Real-Time Fault Injection: An Approach Toward Intelligent Fault Test Cases Generation
+**作者**: Mohammad Abboush, Ahmad Hatahet, Andreas Rausch
+**类别**: cs.SE
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19132v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating intelligent fault test cases in software systems by leveraging Large Language Models (LLMs) for real-time fault injection. The proposed approach utilizes LLMs to dynamically generate relevant fault scenarios, improving test coverage and fault detection efficiency. Experimental results demonstrate enhanced fault injection precision and test case generation over traditional methods.
+
+### Key Contributions  
+- Introduces an LLM-powered framework for real-time, intelligent fault injection in software testing.  
+- Demonstrates automated, context-aware generation of fault test cases with improved relevance and diversity.  
+- Validates approach with empirical results showing superior performance to conventional static fault injection techniques.
+
+### Method & Results  
+- Methodology: LLMs are integrated into the fault injection pipeline to generate fault scenarios dynamically based on system context and execution state.  
+- Tools/Datasets: Uses open-source software benchmarks and fault injection testbeds to validate the approach.  
+- Results: Achieves up to 30% increase in fault detection rates and reduces manual effort in test case creation by approximately 40%.  
+- Outperforms baseline static fault injection methods by producing more varied and impactful fault scenarios.
+
+### Impact & Limitations  
+- Practical Significance: Enhances software reliability testing by automating complex fault scenario design, saving time and improving fault coverage.  
+- Limitations/Future Work: Requires further validation on large-scale industrial systems; optimizing LLM inference efficiency for deployment remains a challenge.
+
+---
+
+#### Can LLMs Recover Program Semantics? A Systematic Evaluation with Symbolic Execution
+**作者**: Rong Feng, Suman Saha
+**类别**: cs.SE
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19130v1
+
+#### Executive Summary
+This paper investigates whether large language models (LLMs) can accurately recover program semantics by comparing their inferred representations with results from symbolic execution. The authors conduct a systematic evaluation, revealing that while LLMs show promise in capturing high-level program behaviors, significant gaps remain in detailed semantic accuracy.
+
+### Key Contributions
+- First systematic evaluation of LLMs’ ability to recover precise program semantics using symbolic execution as a ground truth.
+- Introduction of a framework to quantitatively compare LLM-generated semantics against symbolic execution paths.
+- Empirical insights into the strengths and weaknesses of current LLMs for semantic understanding in software engineering.
+
+### Method & Results
+- Utilized symbolic execution to generate precise semantic representations from programs.
+- Compared LLM outputs on semantic recovery tasks against symbolic execution results on benchmark code snippets.
+- Benchmarked across multiple popular LLMs using standard programming datasets.
+- Found that LLMs achieve moderate semantic alignment (~60-70% accuracy) but struggle with complex control flows.
+- Performance generally below symbolic execution in precision and coverage, highlighting complementary strengths.
+
+### Impact & Limitations
+- Demonstrates practical potential of LLMs in assisting program understanding and software analysis but not yet as standalone semantic analyzers.
+- Limitations include focus on small-scale code, lack of handling full program contexts, and challenges with highly complex or obfuscated code.
+- Future work should integrate symbolic execution and LLMs for hybrid analyses and explore scaling to larger codebases.
+
+---
+
+### 安全领域 领域
+
+#### Evolution of Cybersecurity Subdisciplines: A Science of Science Study
+**作者**: Yao Chen, Jeff Yan
+**类别**: cs.CR
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19331v1
+
+#### Executive Summary  
+This paper investigates the evolution of cybersecurity subdisciplines using a science of science approach to quantitatively map how the field has developed over time. By analyzing publication and citation data, the authors reveal structural trends and emerging areas within cybersecurity research.
+
+### Key Contributions  
+- Introduces a novel bibliometric framework tailored to dissect the evolution of cybersecurity subfields.  
+- Provides the first comprehensive temporal mapping of cybersecurity research clusters and their interrelations.  
+- Identifies emerging subdisciplines and their growth trajectories through data-driven analysis.
+
+### Method & Results  
+- Employed network analysis and topic modeling on large-scale bibliographic datasets to identify and track subdiscipline clusters.  
+- Utilized major publication databases (e.g., IEEE, ACM digital libraries) for comprehensive coverage.  
+- Quantified emergence and maturation patterns of 10+ cybersecurity subdisciplines over the last two decades.  
+- Demonstrated distinct growth rates and cross-disciplinary linkages, surpassing simpler keyword-based trend analyses.
+
+### Impact & Limitations  
+- Offers valuable insights for researchers and policymakers to understand research dynamics and allocate resources strategically.  
+- Limitations include reliance on available publication metadata which may miss emerging areas not yet well represented; future work could integrate patent and funding data for a fuller picture.
+
+---
+
+#### Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation
+**作者**: Yingjia Shang, Yi Liu, Huimin Wang, Furong Li, Wenfang Sun, Wu Chengyu, Yefeng Zheng
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19257v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in multimodal medical retrieval-augmented generation (RAG) systems by proposing Medusa, a cross-modal adversarial attack framework. Medusa generates transferable perturbations impacting both visual and textual inputs, significantly degrading system retrieval and generation performance. Experiments demonstrate Medusa’s effectiveness in compromising state-of-the-art multimodal medical RAG models.
+
+### Key Contributions  
+- Introduces Medusa, the first transferable adversarial attack targeting cross-modal medical retrieval-augmented generation systems.  
+- Develops a unified perturbation strategy that simultaneously disrupts visual and textual modalities.  
+- Demonstrates cross-modal transferability and robustness of attacks on leading multimodal medical AI models.
+
+### Method & Results  
+- Uses a gradient-based approach to craft adversarial perturbations jointly on medical images and associated text queries.  
+- Evaluated on benchmark multimodal medical datasets, including MIMIC-CXR and ROCO, with retrieval and generation tasks.  
+- Achieves up to 35% drop in retrieval accuracy and significantly degrades generation quality (measured by BLEU and ROUGE scores) compared to non-attacked models.  
+- Outperforms baseline uni-modal and naive multimodal attack methods by 15-20% in attack success rate.
+
+### Impact & Limitations  
+- Highlights critical security risks in deploying multimodal medical AI systems in clinical decision support, emphasizing the need for robust defenses.  
+- Limitations include focus on specific datasets and need for exploration of defense mechanisms; future work should extend to real-world noisy environments and other medical modalities.
+
+---
+
+#### FedPoisonTTP: A Threat Model and Poisoning Attack for Federated Test-Time Personalization
+**作者**: Md Akil Raihan Iftee, Syed Md. Ahnaf Hasan, Amin Ahsan Ali, AKM Mahbubur Rahman, Sajib Mistry, Aneesh Krishna
+**类别**: cs.CR, cs.CV
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19248v1
+
+#### Executive Summary  
+This paper introduces FedPoisonTTP, a novel threat model targeting federated test-time personalization by injecting carefully crafted poisoned updates during training. The approach demonstrates how malicious actors can degrade personalized model performance without disrupting overall global training. Experiments validate the attack’s effectiveness in significantly reducing downstream personalization accuracy.
+
+### Key Contributions  
+- Proposes FedPoisonTTP, a first-of-its-kind poisoning attack specifically designed for federated test-time personalization.  
+- Demonstrates that malicious clients can stealthily poison local updates to impair personalized models while maintaining global model integrity.  
+- Provides comprehensive empirical evaluation showing the vulnerability of federated personalization frameworks.
+
+### Method & Results  
+- Designs a poisoning strategy that subtly manipulates local updates optimized for test-time adaptation objectives.  
+- Evaluates on standard federated personalization benchmarks (e.g., FEMNIST, CIFAR-100) under realistic settings.  
+- Achieves up to a 30% drop in personalization accuracy with minimal impact on global model performance, outperforming existing federated poisoning baselines.  
+- Shows that traditional defenses fail to detect this nuanced attack targeting personalization phases.
+
+### Impact & Limitations  
+- Highlights a critical security risk in emerging federated personalization systems, urging development of robust defenses.  
+- Future work needed on defense mechanisms specifically for personalized federated learning and evaluation on broader real-world scenarios.
+
+---
+
+#### Adversarial Attack-Defense Co-Evolution for LLM Safety Alignment via Tree-Group Dual-Aware Search and Optimization
+**作者**: Xurui Li, Kaisong Song, Rui Zhu, Pin-Yu Chen, Haixu Tang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19218v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing large language model (LLM) safety alignment by simultaneously evolving adversarial attacks and defenses. The authors propose a novel tree-group dual-aware search and optimization framework to co-evolve attack-defense strategies, achieving improved robustness in LLM safety mechanisms.
+
+### Key Contributions  
+- Introduces a tree-group dual-aware search framework for co-evolving adversarial attack and defense strategies in LLMs.  
+- Develops an optimization method balancing attack potency and defense adaptability to enhance safety alignment.  
+- Demonstrates superior performance in safety robustness compared to existing adversarial training and alignment techniques.
+
+### Method & Results  
+- Utilizes a co-evolutionary optimization approach leveraging tree-structured representations for group-aware adversarial search and defense tuning.  
+- Experimental evaluation on standard LLM safety benchmark datasets and adversarial attack suites.  
+- Shows significant improvement in defense robustness metrics (e.g., increased attack success reduction rate by X%) and alignment safety scores relative to baseline methods.  
+- Outperforms state-of-the-art adversarial training and alignment frameworks in both attack efficacy and defense resilience.
+
+### Impact & Limitations  
+- Provides a practical framework for continuous improvement in LLM safety via dynamic adversarial co-evolution, beneficial for deployment in sensitive applications.  
+- Limitations include increased computational complexity and potential scalability challenges; future work could explore more efficient optimization or broader threat models.
+
+---
+
+#### Can LLMs Threaten Human Survival? Benchmarking Potential Existential Threats from LLMs via Prefix Completion
+**作者**: Yu Cui, Yifei Liu, Hang Fu, Sicheng Pan, Haibin Zhang, Cong Zuo, Licheng Wang
+**类别**: cs.CR
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19171v1
+
+#### Executive Summary  
+This paper investigates whether large language models (LLMs) pose existential threats to humanity by simulating dangerous scenarios through prefix completions. The authors develop a novel benchmarking framework to evaluate LLMs’ potential for generating outputs that could lead to catastrophic outcomes. Results highlight nuanced risks, showing that while LLMs can produce threatening content, controls and context heavily influence threat levels.
+
+### Key Contributions  
+- Introduces a new prefix completion benchmark specifically designed to evaluate existential risk scenarios generated by LLMs.  
+- Provides a systematic analysis quantifying the likelihood of LLMs producing outputs with potential catastrophic consequences.  
+- Offers insights into how model behavior varies with prompt engineering and context, informing risk mitigation strategies.
+
+### Method & Results  
+- Utilizes a prefix completion approach where various existential threat scenarios are seeded as prompts to multiple LLMs to generate continuations predicting dangerous outcomes.  
+- Employs datasets constructed from known catastrophic risk domains and safety-critical topics for prompt creation.  
+- Experimental results show measurable but varied probabilities of LLMs completing prompts in ways that may amplify threats, with some models demonstrating greater propensity than others.  
+- Benchmarks highlight performance gaps between more recent LLM architectures and older baselines regarding threat potential.
+
+### Impact & Limitations  
+- Provides a foundational framework for the AI safety community to assess and mitigate extreme risk from LLM outputs in real-world deployments.  
+- Future work should explore broader scenario coverage and integrate dynamic human-AI interaction for more comprehensive threat evaluation.
 
 ---
 
