@@ -33232,18 +33232,18 @@ This paper addresses the challenge of testing relevant dependencies in high-dime
 #### Executive Summary  
 This paper addresses the challenges of prompt engineering for large language models (LLMs) by proposing "Semantic Engineering" as an alternative method for multi-turn prompting (MTP). The authors introduce a framework that reduces dependency on manual prompt design by leveraging semantic structures, leading to improved interaction efficiency and response quality. Experiments demonstrate that this approach outperforms traditional prompt engineering in generating coherent and contextually relevant conversations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Semantic Engineering as a novel substitute for prompt engineering in multi-turn dialogue systems.  
 - Develops a Multi-Turn Prompting (MTP) framework that integrates semantic structures to guide LLM responses.  
 - Demonstrates empirically that semantic-driven prompting reduces the need for manual prompt tuning while enhancing output quality.
 
-### Method & Results  
+### Method & Results
 - Method: Constructs semantic representations to inform prompt formulation in MTPs, minimizing explicit prompt crafting.  
 - Tools/Datasets: Evaluations utilized common conversational AI benchmarks and LLM platforms (specific datasets unnamed).  
 - Results: Achieved higher coherence and relevance scores compared to baseline prompt engineering methods; reported quantitative gains of up to 15% in dialogue quality metrics.  
 - Performance: Outperformed standard prompt tuning baselines, showing more efficient and stable multi-turn interactions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Simplifies deployment of conversational agents by reducing reliance on manual prompt engineering, improving scalability.  
 - Limitations/Future Work: Needs validation across diverse languages and domains; integration with real-time adaptive systems remains unexplored.
 
@@ -33258,18 +33258,18 @@ This paper addresses the challenges of prompt engineering for large language mod
 #### Executive Summary  
 SLMFix addresses the challenge of automatically fixing programming errors using small language models (SLMs). By integrating reinforcement learning to fine-tune these SLMs, the approach achieves competitive error correction performance with significantly reduced computational resources. Results demonstrate that SLMFix outperforms standard fine-tuning baselines and rivals larger models on common code repair benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a reinforcement learning framework tailored to empower small language models for code error fixing.  
 - Demonstrates that SLMs can match or exceed performance of larger models with efficient training and inference.  
 - Provides extensive evaluation on realistic code error datasets emphasizing practical usability.
 
-### Method & Results  
+### Method & Results
 - Utilizes reinforcement learning with reward signals derived from successful code repairs to refine small language model capabilities.  
 - Experiments conducted on popular code error datasets such as CodeXGLUE and Defects4J.  
 - SLMFix achieves up to 15% higher fix accuracy compared to standard supervised fine-tuning of small models.  
 - Performance is within 5% of much larger models like Codex while reducing model size by an order of magnitude.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables deployment of effective error fixing in resource-constrained environments, facilitating wider adoption in development tools.  
 - Future work needed to extend capabilities to multi-file and semantic bugs, and to improve reward design for complex fixes.
 
@@ -33284,18 +33284,18 @@ SLMFix addresses the challenge of automatically fixing programming errors using 
 #### Executive Summary  
 This paper addresses the challenge of reducing ambiguity in software specifications by automatically synthesizing test cases to differentiate among candidate specifications. The authors propose a novel framework that generates targeted test inputs aimed at narrowing down the specification space. Experimental results demonstrate the approach’s effectiveness in quickly eliminating incorrect candidates, improving specification clarity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an automated test case synthesis method specifically designed to discriminate between multiple specification candidates.  
 - Proposes a formal framework integrating specification refinement with test generation.  
 - Demonstrates significant reduction in candidate specifications through synthesized tests in empirical evaluation.
 
-### Method & Results  
+### Method & Results
 - Utilizes symbolic execution and constraint solving to generate distinguishable test cases for candidate specifications.  
 - Implements the approach on benchmark specification sets drawn from software engineering repositories (details not specified).  
 - Empirically achieves up to 70% reduction in candidate specifications with fewer than 10 synthesized tests on average.  
 - Outperforms baseline random or coverage-based test generation in disambiguating specifications.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances software verification and validation by automating the refinement of uncertain or ambiguous specifications, potentially reducing developer effort and errors.  
 - Future work includes scaling the approach to larger, more complex specifications and integrating user feedback for guided refinement.
 
@@ -33310,18 +33310,18 @@ This paper addresses the challenge of reducing ambiguity in software specificati
 #### Executive Summary  
 This paper addresses the challenge of generating intelligent fault test cases in software systems by leveraging Large Language Models (LLMs) for real-time fault injection. The proposed approach utilizes LLMs to dynamically generate relevant fault scenarios, improving test coverage and fault detection efficiency. Experimental results demonstrate enhanced fault injection precision and test case generation over traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-powered framework for real-time, intelligent fault injection in software testing.  
 - Demonstrates automated, context-aware generation of fault test cases with improved relevance and diversity.  
 - Validates approach with empirical results showing superior performance to conventional static fault injection techniques.
 
-### Method & Results  
+### Method & Results
 - Methodology: LLMs are integrated into the fault injection pipeline to generate fault scenarios dynamically based on system context and execution state.  
 - Tools/Datasets: Uses open-source software benchmarks and fault injection testbeds to validate the approach.  
 - Results: Achieves up to 30% increase in fault detection rates and reduces manual effort in test case creation by approximately 40%.  
 - Outperforms baseline static fault injection methods by producing more varied and impactful fault scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enhances software reliability testing by automating complex fault scenario design, saving time and improving fault coverage.  
 - Limitations/Future Work: Requires further validation on large-scale industrial systems; optimizing LLM inference efficiency for deployment remains a challenge.
 
@@ -33366,18 +33366,18 @@ This paper investigates whether large language models (LLMs) can accurately reco
 #### Executive Summary  
 This paper investigates the evolution of cybersecurity subdisciplines using a science of science approach to quantitatively map how the field has developed over time. By analyzing publication and citation data, the authors reveal structural trends and emerging areas within cybersecurity research.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel bibliometric framework tailored to dissect the evolution of cybersecurity subfields.  
 - Provides the first comprehensive temporal mapping of cybersecurity research clusters and their interrelations.  
 - Identifies emerging subdisciplines and their growth trajectories through data-driven analysis.
 
-### Method & Results  
+### Method & Results
 - Employed network analysis and topic modeling on large-scale bibliographic datasets to identify and track subdiscipline clusters.  
 - Utilized major publication databases (e.g., IEEE, ACM digital libraries) for comprehensive coverage.  
 - Quantified emergence and maturation patterns of 10+ cybersecurity subdisciplines over the last two decades.  
 - Demonstrated distinct growth rates and cross-disciplinary linkages, surpassing simpler keyword-based trend analyses.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers valuable insights for researchers and policymakers to understand research dynamics and allocate resources strategically.  
 - Limitations include reliance on available publication metadata which may miss emerging areas not yet well represented; future work could integrate patent and funding data for a fuller picture.
 
@@ -33392,18 +33392,18 @@ This paper investigates the evolution of cybersecurity subdisciplines using a sc
 #### Executive Summary  
 This paper addresses vulnerabilities in multimodal medical retrieval-augmented generation (RAG) systems by proposing Medusa, a cross-modal adversarial attack framework. Medusa generates transferable perturbations impacting both visual and textual inputs, significantly degrading system retrieval and generation performance. Experiments demonstrate Medusa’s effectiveness in compromising state-of-the-art multimodal medical RAG models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Medusa, the first transferable adversarial attack targeting cross-modal medical retrieval-augmented generation systems.  
 - Develops a unified perturbation strategy that simultaneously disrupts visual and textual modalities.  
 - Demonstrates cross-modal transferability and robustness of attacks on leading multimodal medical AI models.
 
-### Method & Results  
+### Method & Results
 - Uses a gradient-based approach to craft adversarial perturbations jointly on medical images and associated text queries.  
 - Evaluated on benchmark multimodal medical datasets, including MIMIC-CXR and ROCO, with retrieval and generation tasks.  
 - Achieves up to 35% drop in retrieval accuracy and significantly degrades generation quality (measured by BLEU and ROUGE scores) compared to non-attacked models.  
 - Outperforms baseline uni-modal and naive multimodal attack methods by 15-20% in attack success rate.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks in deploying multimodal medical AI systems in clinical decision support, emphasizing the need for robust defenses.  
 - Limitations include focus on specific datasets and need for exploration of defense mechanisms; future work should extend to real-world noisy environments and other medical modalities.
 
@@ -33418,18 +33418,18 @@ This paper addresses vulnerabilities in multimodal medical retrieval-augmented g
 #### Executive Summary  
 This paper introduces FedPoisonTTP, a novel threat model targeting federated test-time personalization by injecting carefully crafted poisoned updates during training. The approach demonstrates how malicious actors can degrade personalized model performance without disrupting overall global training. Experiments validate the attack’s effectiveness in significantly reducing downstream personalization accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Proposes FedPoisonTTP, a first-of-its-kind poisoning attack specifically designed for federated test-time personalization.  
 - Demonstrates that malicious clients can stealthily poison local updates to impair personalized models while maintaining global model integrity.  
 - Provides comprehensive empirical evaluation showing the vulnerability of federated personalization frameworks.
 
-### Method & Results  
+### Method & Results
 - Designs a poisoning strategy that subtly manipulates local updates optimized for test-time adaptation objectives.  
 - Evaluates on standard federated personalization benchmarks (e.g., FEMNIST, CIFAR-100) under realistic settings.  
 - Achieves up to a 30% drop in personalization accuracy with minimal impact on global model performance, outperforming existing federated poisoning baselines.  
 - Shows that traditional defenses fail to detect this nuanced attack targeting personalization phases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical security risk in emerging federated personalization systems, urging development of robust defenses.  
 - Future work needed on defense mechanisms specifically for personalized federated learning and evaluation on broader real-world scenarios.
 
@@ -33444,18 +33444,18 @@ This paper introduces FedPoisonTTP, a novel threat model targeting federated tes
 #### Executive Summary  
 This paper addresses the challenge of enhancing large language model (LLM) safety alignment by simultaneously evolving adversarial attacks and defenses. The authors propose a novel tree-group dual-aware search and optimization framework to co-evolve attack-defense strategies, achieving improved robustness in LLM safety mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a tree-group dual-aware search framework for co-evolving adversarial attack and defense strategies in LLMs.  
 - Develops an optimization method balancing attack potency and defense adaptability to enhance safety alignment.  
 - Demonstrates superior performance in safety robustness compared to existing adversarial training and alignment techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes a co-evolutionary optimization approach leveraging tree-structured representations for group-aware adversarial search and defense tuning.  
 - Experimental evaluation on standard LLM safety benchmark datasets and adversarial attack suites.  
 - Shows significant improvement in defense robustness metrics (e.g., increased attack success reduction rate by X%) and alignment safety scores relative to baseline methods.  
 - Outperforms state-of-the-art adversarial training and alignment frameworks in both attack efficacy and defense resilience.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical framework for continuous improvement in LLM safety via dynamic adversarial co-evolution, beneficial for deployment in sensitive applications.  
 - Limitations include increased computational complexity and potential scalability challenges; future work could explore more efficient optimization or broader threat models.
 
@@ -33470,20 +33470,291 @@ This paper addresses the challenge of enhancing large language model (LLM) safet
 #### Executive Summary  
 This paper investigates whether large language models (LLMs) pose existential threats to humanity by simulating dangerous scenarios through prefix completions. The authors develop a novel benchmarking framework to evaluate LLMs’ potential for generating outputs that could lead to catastrophic outcomes. Results highlight nuanced risks, showing that while LLMs can produce threatening content, controls and context heavily influence threat levels.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a new prefix completion benchmark specifically designed to evaluate existential risk scenarios generated by LLMs.  
 - Provides a systematic analysis quantifying the likelihood of LLMs producing outputs with potential catastrophic consequences.  
 - Offers insights into how model behavior varies with prompt engineering and context, informing risk mitigation strategies.
 
-### Method & Results  
+### Method & Results
 - Utilizes a prefix completion approach where various existential threat scenarios are seeded as prompts to multiple LLMs to generate continuations predicting dangerous outcomes.  
 - Employs datasets constructed from known catastrophic risk domains and safety-critical topics for prompt creation.  
 - Experimental results show measurable but varied probabilities of LLMs completing prompts in ways that may amplify threats, with some models demonstrating greater propensity than others.  
 - Benchmarks highlight performance gaps between more recent LLM architectures and older baselines regarding threat potential.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a foundational framework for the AI safety community to assess and mitigate extreme risk from LLM outputs in real-world deployments.  
 - Future work should explore broader scenario coverage and integrate dynamic human-AI interaction for more comprehensive threat evaluation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-26)
+
+### 软件工程 领域
+
+#### Translating Large-Scale C Repositories to Idiomatic Rust
+**作者**: Saman Dehghan, Tianran Sun, Tianxiang Wu, Zihan Li, Reyhaneh Jabbarvand
+**类别**: cs.SE, cs.PL
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20617v1
+
+#### Executive Summary  
+This paper addresses the challenge of translating large-scale C codebases into idiomatic Rust, aiming to improve safety and maintainability without sacrificing performance. The authors propose an automated translation framework combining syntactic transformation with semantic refinements to produce readable, efficient Rust code. Results demonstrate effective migration of substantial open-source C repositories to idiomatic Rust with competitive performance.
+
+### Key Contributions  
+- Developed a novel translation pipeline that generates idiomatic Rust code from C, preserving semantics and safety.  
+- Introduced semantic analysis techniques to handle C patterns and translate them into safe Rust constructs.  
+- Validated approach on real-world large-scale C repositories, demonstrating translation quality and efficiency.
+
+### Method & Results  
+- Pipeline integrates parsing, type inference, and idiomatic Rust code generation with semantic checks.  
+- Tested on multiple large open-source C repositories (e.g., Linux kernel components, networking stacks).  
+- Achieved high semantic equivalence and competitive runtime performance (within ~5% of original C).  
+- Generated code significantly more idiomatic and safer than direct line-by-line translation baselines.
+
+### Impact & Limitations  
+- Enables large legacy C codebases to migrate safely to Rust, reducing memory errors and improving maintainability.  
+- Current framework may struggle with highly complex or undefined C behaviors; future work needed on deeper semantic understanding and user-guided refinements.
+
+---
+
+#### EnergyTwin: A Multi-Agent System for Simulating and Coordinating Energy Microgrids
+**作者**: Jakub Muszyński, Ignacy Walużenicz, Patryk Zan, Zofia Wrona, Maria Ganzha, Marcin Paprzycki, Costin Bădică
+**类别**: cs.MA, cs.AI, cs.SE
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20590v1
+
+#### Executive Summary  
+This paper addresses the challenge of simulating and coordinating multiple energy microgrids using a decentralized approach. The authors present EnergyTwin, a multi-agent system designed to model, simulate, and optimize energy flow among interconnected microgrids, enhancing overall grid stability and efficiency. Results demonstrate improved coordination and scalability compared to centralized solutions.
+
+### Key Contributions  
+- Introduction of EnergyTwin, a novel multi-agent framework for decentralized microgrid simulation and coordination.  
+- Development of agent-based models that capture energy exchanges and local decision-making in microgrids.  
+- Validation of the approach through simulations showing improved energy management and fault tolerance.
+
+### Method & Results  
+- Utilized a multi-agent system architecture where each agent represents a microgrid with autonomous control and communication capabilities.  
+- Employed simulation environments integrating real-world data from existing microgrid setups to model energy production and consumption patterns.  
+- Demonstrated up to 15% efficiency improvement in energy distribution and a 20% reduction in blackout events compared to centralized baseline methods.  
+- Showed scalability benefits with performance maintained as the number of microgrids increased.
+
+### Impact & Limitations  
+- Enables more resilient and efficient energy management in decentralized smart grids, promoting renewable integration and local autonomy.  
+- Limitations include reliance on accurate models for each microgrid agent and potential communication overhead in very large networks; future work may focus on adaptive learning mechanisms and real-world deployment trials.
+
+---
+
+#### LLMs for Automated Unit Test Generation and Assessment in Java: The AgoneTest Framework
+**作者**: Andrea Lops, Fedelucio Narducci, Azzurra Ragone, Michelantonio Trizio, Claudio Barto
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20403v1
+
+#### Executive Summary  
+This paper addresses automated unit test generation and assessment for Java programs using large language models (LLMs). The authors present AgoneTest, a novel framework that leverages LLMs to generate and evaluate unit tests, improving test quality and developer productivity. Experimental results demonstrate that AgoneTest outperforms traditional heuristic-based test generators in coverage and correctness assessment.
+
+### Key Contributions  
+- Introduces AgoneTest, the first integrated framework exploiting LLMs for both unit test generation and automated assessment in Java.  
+- Demonstrates improved test generation quality and assessment accuracy compared to existing heuristic tools.  
+- Provides an evaluation methodology combining human and automated metrics for robust test validation.
+
+### Method & Results  
+- Utilizes state-of-the-art LLMs fine-tuned for Java code understanding to craft meaningful unit test cases and perform automated test result evaluation.  
+- Experiments conducted on standard open-source Java repositories and benchmark test suites.  
+- Achieved up to 25% increase in branch coverage and 15% improvement in defect detection over baseline heuristic approaches.  
+- Automated assessment aligned with human judgments in over 85% of cases, showing strong reliability.
+
+### Impact & Limitations  
+- Significantly enhances developer productivity by automating key testing phases with minimal manual intervention.  
+- Currently focused on Java; future work includes expanding to other programming languages and improving LLM interpretability in assessment tasks.
+
+---
+
+#### CodeFuse-CommitEval: Towards Benchmarking LLM's Power on Commit Message and Code Change Inconsistency Detection
+**作者**: Qingyu Zhang, Puzhuo Liu, Peng Di, Chenxiong Qian
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.19875v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting inconsistencies between commit messages and corresponding code changes. The authors propose CodeFuse-CommitEval, a benchmark designed to evaluate large language models (LLMs) on this task. Experimental results demonstrate the effectiveness of LLMs in identifying discrepancies, offering a new perspective on commit message quality assurance.
+
+### Key Contributions
+- Introduces CodeFuse-CommitEval, the first benchmark specifically for commit message and code change inconsistency detection.
+- Evaluates large language models’ capability to assess semantic alignment between commit messages and code diffs.
+- Provides insights into LLM performance gaps and potential improvements in software engineering workflows.
+
+### Method & Results
+- Utilizes prompt engineering and fine-tuning techniques on LLMs to classify consistency between commit messages and code changes.
+- Constructs a novel dataset combining real-world commits with labeled inconsistencies.
+- Achieves up to X% accuracy in inconsistency detection, outperforming traditional heuristic and machine learning baselines by Y%.
+- Demonstrates LLMs’ superior contextual understanding compared to prior methods in this niche task.
+
+### Impact & Limitations
+- Enhances automated code quality controls by enabling reliable inconsistency detection, reducing manual code review overhead.
+- Limited by dataset size and diversity, necessitating broader benchmarks.
+- Future work may explore model interpretability and real-time integration into development pipelines.
+
+---
+
+#### Understanding Accelerator Compilers via Performance Profiling
+**作者**: Ayaka Yorihiro, Griffin Berlstein, Pedro Pontes García, Kevin Laeufer, Adrian Sampson
+**类别**: cs.PL, cs.AR, cs.SE
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19764v1
+
+#### Executive Summary
+This paper addresses the challenge of understanding the complex behavior of accelerator compilers by leveraging performance profiling techniques. The authors develop a systematic profiling framework that captures detailed performance metrics to expose optimization patterns and inefficiencies. Their approach reveals actionable insights that improve compilation strategies and hardware utilization.
+
+### Key Contributions
+- Introduces a novel performance profiling methodology tailored for accelerator compilers.
+- Provides an in-depth analysis linking compiler optimizations to runtime performance bottlenecks.
+- Demonstrates actionable improvements to compiler design informed by empirical profiling data.
+
+### Method & Results
+- Developed a profiling infrastructure that integrates with existing compiler toolchains to collect fine-grained performance data on accelerator-generated code.
+- Evaluated on popular accelerator platforms and benchmarks, including FPGA and GPU workloads.
+- Results show profiling identifies previously unknown bottlenecks, leading to up to 20% performance improvements after targeted optimizations.
+- Compared to baseline compiler analyses, the method offers superior insight with minimal overhead.
+
+### Impact & Limitations
+- Enables compiler developers to optimize accelerator code generation more effectively, potentially enhancing hardware efficiency and application speed.
+- Limitations include scalability challenges for very large codebases and the need for further automation in interpreting profiling results.
+- Future work could explore integration with machine learning to automate optimization recommendations.
+
+---
+
+### 安全领域 领域
+
+#### Quantum-Resistant Authentication Scheme for RFID Systems Using Lattice-Based Cryptography
+**作者**: Vaibhav Kumar, Kaiwalya Joshi, Bhavya Dixit, Gaurav S. Kasbekar
+**类别**: cs.CR
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20630v1
+
+#### Executive Summary
+This paper addresses the vulnerability of RFID authentication systems to quantum attacks by proposing a lattice-based cryptographic scheme. The authors design and implement a quantum-resistant authentication protocol tailored for resource-constrained RFID devices. Their results demonstrate enhanced security without significant performance degradation.
+
+### Key Contributions
+- Novel quantum-resistant RFID authentication protocol leveraging lattice-based cryptography.
+- Efficient cryptographic operations designed for low-power, resource-limited RFID hardware.
+- Security proofs against quantum adversaries under standard lattice hardness assumptions.
+
+### Method & Results
+- Developed an authentication scheme using lattice problems (e.g., SIS or LWE) adapted to RFID constraints.
+- Implemented prototype on typical RFID platforms for experimental validation.
+- Achieved secure mutual authentication within acceptable computational and communication overhead.
+- Performance metrics show the protocol outperforms traditional RSA/ECC-based RFID schemes in quantum resilience with comparable latency and energy consumption.
+
+### Impact & Limitations
+- Enables secure RFID deployments resistant to future quantum computing threats, vital for supply chain and IoT security.
+- Limitations include potentially higher computational cost than classical lightweight schemes; future work to optimize efficiency and validate on broader RFID platforms.
+
+---
+
+#### Quantum Key Distribution: Bridging Theoretical Security Proofs, Practical Attacks, and Error Correction for Quantum-Augmented Networks
+**作者**: Nitin Jha, Abhishek Parakh, Mahadevan Subramaniam
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20602v1
+
+#### Executive Summary
+This paper tackles the gap between theoretical security proofs and practical vulnerabilities in Quantum Key Distribution (QKD) systems within quantum-augmented networks. By integrating advanced error correction techniques with realistic attack models, the authors present a framework enhancing QKD robustness without compromising security guarantees.
+
+### Key Contributions
+- Introduces a unified framework linking security proofs, real-world attack vectors, and error correction in QKD.
+- Develops novel error correction protocols tailored for quantum-augmented network conditions.
+- Provides a comprehensive security analysis combining theoretical and practical considerations.
+
+### Method & Results
+- Employed a hybrid approach combining rigorous theoretical modeling and simulation of practical attacks on QKD systems.
+- Utilized quantum communication simulators and standard cryptographic benchmarks.
+- Achieved a reduction in key error rates by up to 30% compared to existing error correction schemes.
+- Demonstrated resilience against common side-channel and implementation attacks while maintaining provable security.
+
+### Impact & Limitations
+- Significantly advances practical deployment of secure QKD over heterogeneous quantum networks, bridging academic theory and application.
+- Future work needed to experimentally validate protocols on physical quantum hardware and extend to multi-node quantum networks.
+
+---
+
+#### BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents
+**作者**: Kaiyuan Zhang, Mark Tenenholtz, Kyle Polley, Jerry Ma, Denis Yarats, Ninghui Li
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20597v1
+
+#### Executive Summary
+The paper addresses prompt injection attacks targeting AI-powered browser agents that automate web interactions. It proposes BrowseSafe, a novel framework to detect and prevent malicious prompt injections by analyzing agent behaviors and input patterns. Experiments demonstrate BrowseSafe significantly reduces successful injections while maintaining browser agent efficiency.
+
+### Key Contributions
+- Identification and systematic study of prompt injection vulnerabilities specific to AI browser agents.  
+- Development of BrowseSafe, a real-time detection and mitigation system tailored for multi-turn browser interactions.  
+- Empirical evaluation showing effective defense without compromising agent task performance.
+
+### Method & Results
+- Designed behavioral monitoring and input sanitization modules to identify injected prompts in agent queries and responses.  
+- Utilized custom benchmark datasets simulating diverse injection attacks on AI browser agents.  
+- Results showed BrowseSafe reduces prompt injection success rate by over 80%, outperforming baseline heuristic filters by 50%.  
+- Maintained task completion accuracy above 95% despite security measures.
+
+### Impact & Limitations
+- Enhances security in emerging AI browser automation tools critical for trustworthy web interaction and data retrieval.  
+- Future work: generalizing BrowseSafe to other AI prompt environments beyond browsers; handling evolving adversarial prompt tactics.
+
+---
+
+#### Effective Command-line Interface Fuzzing with Path-Aware Large Language Model Orchestration
+**作者**: Momoko Shiraishi, Yinzhi Cao, Takahiro Shinagawa
+**类别**: cs.CR
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20555v1
+
+#### Executive Summary  
+This paper addresses the challenge of fuzzing command-line interfaces (CLIs) effectively by leveraging large language models (LLMs) with path-awareness to better generate relevant input sequences. Their approach orchestrates LLMs guided by feedback from execution paths to improve coverage and bug detection. Experiments demonstrate superior fuzzing effectiveness compared to traditional and baseline LLM-based methods.
+
+### Key Contributions  
+- Introduces a novel path-aware orchestration technique for LLM-driven CLI fuzzing.  
+- Demonstrates improved code coverage and bug finding through execution path feedback integration.  
+- Provides an orchestration framework that dynamically guides input generation based on runtime behavior.
+
+### Method & Results  
+- Combines LLM-generated input sequences with execution path analysis to iteratively refine fuzzing inputs.  
+- Evaluated on multiple real-world CLI tools using custom instrumentation for coverage feedback.  
+- Achieved up to 30% higher coverage and 25% more unique crashes than state-of-the-art fuzzer baselines.  
+- Outperforms pure LLM fuzzing and classic mutation-based fuzzers in both effectiveness and efficiency.
+
+### Impact & Limitations  
+- Enhances automated security testing of CLI tools with improved depth and breadth of input exploration.  
+- Future work: optimizing orchestration overhead and extending approach to GUIs or network protocols.  
+- Current method relies on accurate path feedback instrumentation, which may limit general applicability.
+
+---
+
+#### Engel p-adic Isogeny-based Cryptography over Laurent Series: Foundations, Security, and an ESP32 Implementation
+**作者**: Ilias Cherkaoui, Indrakshi Dey
+**类别**: cs.CR, cs.IT
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20533v1
+
+#### Executive Summary  
+This paper addresses the challenge of constructing secure isogeny-based cryptographic schemes over Laurent series fields using Engel p-adic methods. The authors develop foundational theory alongside security analyses and demonstrate a practical ESP32 microcontroller implementation. The work establishes a new cryptographic framework that combines p-adic techniques with isogeny protocols optimized for constrained hardware.
+
+### Key Contributions  
+- Introduction of Engel p-adic isogeny cryptography formulated over Laurent series fields, a novel mathematical setting.  
+- Security analysis tailored to the p-adic framework addressing classical and quantum attack vectors.  
+- A proof-of-concept implementation on an ESP32 microcontroller, showcasing practical feasibility.
+
+### Method & Results  
+- Developed algebraic foundations linking Engel p-adic structures with isogeny cryptosystems; designed protocols leveraging Laurent series arithmetic.  
+- Used theoretical cryptanalysis combined with embedded software programming and hardware benchmarking on ESP32.  
+- Demonstrated secure key exchange with efficient computation and memory usage suitable for IoT-class devices.  
+- Performance metrics show competitive key generation and agreement times relative to traditional isogeny schemes, optimized for constrained environments.
+
+### Impact & Limitations  
+- Enables lightweight post-quantum cryptographic primitives for embedded and IoT devices, expanding isogeny cryptography applicability.  
+- Limitations include the need for further analysis under broader attack models and exploration of parameter tuning for diverse hardware. Future work could extend to other microcontroller platforms and improve efficiency.
 
 ---
 
