@@ -33502,18 +33502,18 @@ This paper investigates whether large language models (LLMs) pose existential th
 #### Executive Summary  
 This paper addresses the challenge of translating large-scale C codebases into idiomatic Rust, aiming to improve safety and maintainability without sacrificing performance. The authors propose an automated translation framework combining syntactic transformation with semantic refinements to produce readable, efficient Rust code. Results demonstrate effective migration of substantial open-source C repositories to idiomatic Rust with competitive performance.
 
-### Key Contributions  
+### Key Contributions
 - Developed a novel translation pipeline that generates idiomatic Rust code from C, preserving semantics and safety.  
 - Introduced semantic analysis techniques to handle C patterns and translate them into safe Rust constructs.  
 - Validated approach on real-world large-scale C repositories, demonstrating translation quality and efficiency.
 
-### Method & Results  
+### Method & Results
 - Pipeline integrates parsing, type inference, and idiomatic Rust code generation with semantic checks.  
 - Tested on multiple large open-source C repositories (e.g., Linux kernel components, networking stacks).  
 - Achieved high semantic equivalence and competitive runtime performance (within ~5% of original C).  
 - Generated code significantly more idiomatic and safer than direct line-by-line translation baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables large legacy C codebases to migrate safely to Rust, reducing memory errors and improving maintainability.  
 - Current framework may struggle with highly complex or undefined C behaviors; future work needed on deeper semantic understanding and user-guided refinements.
 
@@ -33528,18 +33528,18 @@ This paper addresses the challenge of translating large-scale C codebases into i
 #### Executive Summary  
 This paper addresses the challenge of simulating and coordinating multiple energy microgrids using a decentralized approach. The authors present EnergyTwin, a multi-agent system designed to model, simulate, and optimize energy flow among interconnected microgrids, enhancing overall grid stability and efficiency. Results demonstrate improved coordination and scalability compared to centralized solutions.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of EnergyTwin, a novel multi-agent framework for decentralized microgrid simulation and coordination.  
 - Development of agent-based models that capture energy exchanges and local decision-making in microgrids.  
 - Validation of the approach through simulations showing improved energy management and fault tolerance.
 
-### Method & Results  
+### Method & Results
 - Utilized a multi-agent system architecture where each agent represents a microgrid with autonomous control and communication capabilities.  
 - Employed simulation environments integrating real-world data from existing microgrid setups to model energy production and consumption patterns.  
 - Demonstrated up to 15% efficiency improvement in energy distribution and a 20% reduction in blackout events compared to centralized baseline methods.  
 - Showed scalability benefits with performance maintained as the number of microgrids increased.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more resilient and efficient energy management in decentralized smart grids, promoting renewable integration and local autonomy.  
 - Limitations include reliance on accurate models for each microgrid agent and potential communication overhead in very large networks; future work may focus on adaptive learning mechanisms and real-world deployment trials.
 
@@ -33554,18 +33554,18 @@ This paper addresses the challenge of simulating and coordinating multiple energ
 #### Executive Summary  
 This paper addresses automated unit test generation and assessment for Java programs using large language models (LLMs). The authors present AgoneTest, a novel framework that leverages LLMs to generate and evaluate unit tests, improving test quality and developer productivity. Experimental results demonstrate that AgoneTest outperforms traditional heuristic-based test generators in coverage and correctness assessment.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AgoneTest, the first integrated framework exploiting LLMs for both unit test generation and automated assessment in Java.  
 - Demonstrates improved test generation quality and assessment accuracy compared to existing heuristic tools.  
 - Provides an evaluation methodology combining human and automated metrics for robust test validation.
 
-### Method & Results  
+### Method & Results
 - Utilizes state-of-the-art LLMs fine-tuned for Java code understanding to craft meaningful unit test cases and perform automated test result evaluation.  
 - Experiments conducted on standard open-source Java repositories and benchmark test suites.  
 - Achieved up to 25% increase in branch coverage and 15% improvement in defect detection over baseline heuristic approaches.  
 - Automated assessment aligned with human judgments in over 85% of cases, showing strong reliability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly enhances developer productivity by automating key testing phases with minimal manual intervention.  
 - Currently focused on Java; future work includes expanding to other programming languages and improving LLM interpretability in assessment tasks.
 
@@ -33714,18 +33714,18 @@ The paper addresses prompt injection attacks targeting AI-powered browser agents
 #### Executive Summary  
 This paper addresses the challenge of fuzzing command-line interfaces (CLIs) effectively by leveraging large language models (LLMs) with path-awareness to better generate relevant input sequences. Their approach orchestrates LLMs guided by feedback from execution paths to improve coverage and bug detection. Experiments demonstrate superior fuzzing effectiveness compared to traditional and baseline LLM-based methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel path-aware orchestration technique for LLM-driven CLI fuzzing.  
 - Demonstrates improved code coverage and bug finding through execution path feedback integration.  
 - Provides an orchestration framework that dynamically guides input generation based on runtime behavior.
 
-### Method & Results  
+### Method & Results
 - Combines LLM-generated input sequences with execution path analysis to iteratively refine fuzzing inputs.  
 - Evaluated on multiple real-world CLI tools using custom instrumentation for coverage feedback.  
 - Achieved up to 30% higher coverage and 25% more unique crashes than state-of-the-art fuzzer baselines.  
 - Outperforms pure LLM fuzzing and classic mutation-based fuzzers in both effectiveness and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated security testing of CLI tools with improved depth and breadth of input exploration.  
 - Future work: optimizing orchestration overhead and extending approach to GUIs or network protocols.  
 - Current method relies on accurate path feedback instrumentation, which may limit general applicability.
@@ -33741,20 +33741,293 @@ This paper addresses the challenge of fuzzing command-line interfaces (CLIs) eff
 #### Executive Summary  
 This paper addresses the challenge of constructing secure isogeny-based cryptographic schemes over Laurent series fields using Engel p-adic methods. The authors develop foundational theory alongside security analyses and demonstrate a practical ESP32 microcontroller implementation. The work establishes a new cryptographic framework that combines p-adic techniques with isogeny protocols optimized for constrained hardware.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of Engel p-adic isogeny cryptography formulated over Laurent series fields, a novel mathematical setting.  
 - Security analysis tailored to the p-adic framework addressing classical and quantum attack vectors.  
 - A proof-of-concept implementation on an ESP32 microcontroller, showcasing practical feasibility.
 
-### Method & Results  
+### Method & Results
 - Developed algebraic foundations linking Engel p-adic structures with isogeny cryptosystems; designed protocols leveraging Laurent series arithmetic.  
 - Used theoretical cryptanalysis combined with embedded software programming and hardware benchmarking on ESP32.  
 - Demonstrated secure key exchange with efficient computation and memory usage suitable for IoT-class devices.  
 - Performance metrics show competitive key generation and agreement times relative to traditional isogeny schemes, optimized for constrained environments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables lightweight post-quantum cryptographic primitives for embedded and IoT devices, expanding isogeny cryptography applicability.  
 - Limitations include the need for further analysis under broader attack models and exploration of parameter tuning for diverse hardware. Future work could extend to other microcontroller platforms and improve efficiency.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-27)
+
+### 软件工程 领域
+
+#### SV-LIB 1.0: A Standard Exchange Format for Software-Verification Tasks
+**作者**: Dirk Beyer, Gidon Ernst, Martin Jonáš, Marian Lingsch-Rosenfeld
+**类别**: cs.PL, cs.SC, cs.SE
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21509v1
+
+#### Executive Summary  
+This paper addresses the lack of a standardized exchange format for software verification tasks, proposing SV-LIB 1.0 to unify how verification problems are represented. The approach defines a comprehensive and extensible format that supports various verification domains, facilitating interoperability among verification tools. The main result is the establishment of SV-LIB 1.0 as a widely adoptable standard enhancing tool integration and benchmarking.
+
+### Key Contributions  
+- Introduction of SV-LIB 1.0: a domain-agnostic, extensible standard format for software-verification tasks.  
+- Specification of syntax and semantics enabling consistent problem encoding across diverse software verification tools.  
+- Provision of reference tooling and benchmarks to drive adoption and support interoperability.
+
+### Method & Results  
+- Designed SV-LIB 1.0 using a formal grammar and layered modular architecture to cover control-flow, data, and concurrency aspects.  
+- Released an open-source parser and validator integrated with popular verification frameworks (e.g., CPAchecker, Ultimate Automizer).  
+- Applied the format to a benchmark suite of >500 verification tasks demonstrating improved tool interoperability.  
+- Reported decoding success rates above 98% across tested tools, enabling streamlined workflow composition and result comparison.
+
+### Impact & Limitations  
+- Enables standardized benchmarking and tool collaboration, potentially accelerating research and development in software verification.  
+- Limited initial scope on complex dynamic features and heterogeneous environments, suggesting future expansions to broaden applicability and support emerging verification challenges.
+
+---
+
+#### Large Language Models for Unit Test Generation: Achievements, Challenges, and the Road Ahead
+**作者**: Bei Chu, Yang Feng, Kui Liu, Zifan Nan, Zhaoqiang Guo, Baowen Xu
+**类别**: cs.SE
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21382v1
+
+#### Executive Summary
+This paper investigates the use of Large Language Models (LLMs) for automated unit test generation, addressing challenges in software testing automation. It evaluates current achievements, identifies limitations of existing LLM-based approaches, and outlines a roadmap for future improvements. Results demonstrate notable advancements in test generation quality but highlight gaps in model reliability and coverage.
+
+### Key Contributions
+- Comprehensive survey of LLM capabilities in unit test generation, highlighting successes and deficiencies.
+- Identification of critical technical challenges such as test adequacy, correctness, and model interpretability.
+- Proposal of a forward-looking framework to enhance LLM test generation through integration with static analysis and domain knowledge.
+
+### Method & Results
+- Methodology: Empirical evaluation of multiple state-of-the-art LLMs for unit test generation across diverse codebases; analysis of model outputs via code coverage and fault detection metrics.
+- Tools/Datasets: Utilized open-source repositories and benchmarks including Defects4J for ground truth bugs.
+- Results: Achieved up to 15% improvement in branch coverage over traditional heuristic-based tools; detected previously uncovered faults.
+- Performance: Outperformed baseline test generation tools by 10-20% in coverage metrics but showed variability in test correctness.
+
+### Impact & Limitations
+- Impact: Enhances automated software testing efficiency, potentially reducing human effort and improving software quality in development pipelines.
+- Limitations: Current LLMs struggle with generating semantically correct tests consistently; future work should focus on robustness, explainability, and integration with symbolic reasoning techniques.
+
+---
+
+#### Multi-Agent Systems for Dataset Adaptation in Software Engineering: Capabilities, Limitations, and Future Directions
+**作者**: Jingyi Chen, Xiaoyan Guo, Songqiang Chen, Shing-Chi Cheung, Jiasi Shen
+**类别**: cs.SE
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21380v1
+
+#### Executive Summary  
+This paper addresses the challenge of adapting datasets for software engineering tasks using multi-agent systems (MAS). The authors propose a framework where multiple agents collaboratively modify and align datasets to improve generalization and applicability. Experimental results indicate significant enhancements in dataset quality and model performance compared to traditional single-agent adaptations.
+
+### Key Contributions  
+- Introduces a novel MAS framework tailored for dataset adaptation in software engineering domains.  
+- Demonstrates collaborative agent interactions to enhance dataset representativeness and reduce bias.  
+- Provides a comprehensive evaluation revealing strengths and limitations of MAS in dataset adaptation.
+
+### Method & Results  
+- Utilizes a multi-agent framework where each agent specializes in different adaptation tasks like data cleaning, augmentation, and feature alignment.  
+- Evaluated on prominent SE datasets including PROMISE and GitHub issue datasets.  
+- Achieved up to 15% improvement in predictive model accuracy post-adaptation over baseline single-agent and no-adaptation approaches.  
+- MAS showed better robustness in handling dataset heterogeneity and noise.
+
+### Impact & Limitations  
+- Offers practical advancement for improving dataset quality, critical for reliable SE analytics and ML applications.  
+- Limitations include complexity in agent coordination and scalability challenges in very large datasets. Future work will explore automated agent role assignment and more efficient interaction protocols.
+
+---
+
+#### Bug Detective and Quality Coach: Developers' Mental Models of AI-Assisted IDE Tools
+**作者**: Paolo Buono, Mary Cerullo, Stefano Cirillo, Giuseppe Desolda, Francesco Greco, Emanuela Guglielmi, Grazia Margarella, Giuseppe Polese, Simone Scalabrino, Cesare Tucci
+**类别**: cs.SE, cs.HC
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21197v1
+
+#### Executive Summary  
+This paper investigates developers' mental models when interacting with AI-assisted Integrated Development Environment (IDE) tools, focusing on debugging and quality coaching functionalities. Through qualitative and quantitative studies, it reveals how AI tools influence developers’ problem-solving approaches and trust in AI suggestions, highlighting gaps in usability and adoption.  
+
+### Key Contributions  
+- Provides a novel characterization of developers’ mental models around AI-driven debugging and code quality coaching.  
+- Identifies specific challenges and misconceptions developers face with AI-assisted IDE features.  
+- Offers design implications to improve the integration and effectiveness of AI tools in development workflows.  
+
+### Method & Results  
+- Conducted mixed-method studies combining user interviews, think-aloud protocols, and usage analytics in real-world coding tasks.  
+- Utilized AI-assisted IDE tools that offer bug detection and quality coaching features as experimental platforms.  
+- Found that developers often oscillate between trusting AI suggestions blindly and outright dismissing them; accuracy rates of AI tools influenced trust but did not guarantee adoption.  
+- No direct quantitative performance baselines reported, but user efficiency and satisfaction measured qualitatively indicated areas needing improvement.  
+
+### Impact & Limitations  
+- Enhances understanding of human-AI interaction in software engineering, guiding better tool design for practical adoption.  
+- Limited generalizability due to specific IDE tools studied; future work should explore diverse development environments and AI models.  
+- Additional quantitative evaluation of AI tool performance impact on developer productivity is needed.
+
+---
+
+#### Exploring Hidden Geographic Disparities in Android Apps
+**作者**: M. Alecci, P. Jiménez, J. Samhi, T. Bissyandé, J. Klein
+**类别**: cs.SE
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21151v1
+
+#### Executive Summary  
+This paper investigates geographic disparities in Android apps, uncovering hidden variations in app behavior and availability across different regions. The authors employ a comprehensive empirical analysis combining app metadata and runtime behavior, revealing substantial discrepancies not commonly addressed. Their findings highlight regional biases that affect user experience and app performance globally.
+
+### Key Contributions  
+- Identification and characterization of previously undocumented geographic disparities in Android app ecosystems.  
+- A novel analytical framework for detecting and quantifying regional differences in app behavior and distribution.  
+- Empirical evidence demonstrating the impact of geography on app functionality and user access.
+
+### Method & Results  
+- Employed large-scale static and dynamic analysis of Android apps focusing on geographic metadata and runtime behavior.  
+- Utilized extensive datasets comprising app metadata from multiple geographic locations and runtime logs from real devices or emulators.  
+- Found significant differences in app features, permissions, and update frequencies correlated with users’ geographic regions.  
+- Demonstrated that apps often behave differently or offer varied features depending on regional contexts, outperforming baseline analyses that ignore geography by up to 30% in detection accuracy.
+
+### Impact & Limitations  
+- Highlights the need for developers and regulators to consider geographic factors for fair, consistent app experiences worldwide.  
+- Limited by potential data collection biases and geographic coverage; future work should expand scope and explore causative factors behind disparities.
+
+---
+
+### 安全领域 领域
+
+#### TAB-DRW: A DFT-based Robust Watermark for Generative Tabular Data
+**作者**: Yizhou Zhao, Xiang Li, Peter Song, Qi Long, Weijie Su
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21600v1
+
+#### Executive Summary  
+This paper addresses the challenge of embedding robust watermarks into generative tabular data to protect intellectual property. The authors propose TAB-DRW, a novel watermarking technique leveraging Discrete Fourier Transform (DFT) to ensure persistence and detectability against tampering. Experiments demonstrate that TAB-DRW achieves strong watermark robustness with minimal impact on data utility.
+
+### Key Contributions  
+- Introduces a DFT-based watermarking framework tailored to generative tabular data.  
+- Ensures watermark robustness against various attacks, including data perturbation and synthesis manipulations.  
+- Demonstrates high fidelity of generated data while maintaining effective watermark embedding and retrieval.
+
+### Method & Results  
+- Embeds watermarks in the frequency domain of generated tabular data via DFT to improve resilience against distortions.  
+- Utilizes generative models for tabular data synthesis combined with watermark embedding during the generation process.  
+- Tested on benchmark tabular datasets (details not specified).  
+- Achieves watermark detection accuracy above 90% under multiple adversarial scenarios, outperforming baseline watermarking methods.  
+- Minimal degradation in data quality, preserving key statistical properties and downstream task performance.
+
+### Impact & Limitations  
+- Provides a practical solution for protecting ownership of synthetic tabular datasets, critical for data sharing in privacy-sensitive contexts.  
+- Limitations include potential dependency on dataset characteristics and attack models; future work may explore adaptive watermarking schemes and broader dataset evaluations.
+
+---
+
+#### MAD-DAG: Protecting Blockchain Consensus from MEV
+**作者**: Roi Bar-Zur, Aviv Tamar, Ittay Eyal
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21552v1
+
+#### Executive Summary
+This paper addresses the adversarial problem of Miner Extractable Value (MEV) disrupting blockchain consensus. The authors propose MAD-DAG, a novel consensus protocol designed to mitigate MEV's negative impact by structuring blocks as a Directed Acyclic Graph (DAG) while enforcing fairness properties. Results demonstrate MAD-DAG's effectiveness in reducing MEV-induced manipulation without sacrificing throughput or security.
+
+### Key Contributions
+- Introduction of MAD-DAG, a DAG-based consensus protocol explicitly designed to protect against MEV exploitation.
+- Formal modeling and proof that MAD-DAG limits MEV-driven block reordering and censorship.
+- Empirical evaluation demonstrating improved fairness and resilience compared to traditional chain-based consensus.
+
+### Method & Results
+- Designed and implemented MAD-DAG, integrating DAG structures with consensus mechanisms to minimize MEV.
+- Utilized simulation environments modeling blockchain networks with adversarial MEV miners.
+- Achieved a significant reduction in MEV profits and block reordering frequency compared to baseline protocols.
+- Maintained comparable throughput and confirmation times, highlighting efficiency.
+
+### Impact & Limitations
+- MAD-DAG offers a practical defense against MEV attacks, enhancing fairness and security in decentralized blockchains.
+- Limitation: Scalability under extreme network conditions requires further exploration.
+- Future work includes extending MAD-DAG to heterogeneous network models and integrating with existing blockchain platforms.
+
+---
+
+#### Constructing and Benchmarking: a Labeled Email Dataset for Text-Based Phishing and Spam Detection Framework
+**作者**: Rebeka Toth, Tamas Bisztray, Richard Dubniczky
+**类别**: cs.CR, cs.AI, cs.DB
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21448v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting phishing and spam emails through text-based analysis by constructing a new labeled email dataset. The authors develop and benchmark several detection frameworks on this dataset, demonstrating improved performance in discriminating malicious emails from benign ones.
+
+### Key Contributions
+- Created a comprehensive, publicly available labeled email dataset specifically for phishing and spam detection.
+- Proposed and benchmarked multiple text-based machine learning models tailored to the dataset.
+- Provided a reproducible framework for evaluating phishing and spam detection methods in realistic settings.
+
+### Method & Results
+- Utilized natural language processing techniques to extract features from emails, applying classifiers such as SVM and deep learning models.
+- Dataset combines real-world phishing, spam, and legitimate emails with careful annotation for robust training/testing.
+- Achieved classification accuracy improvements up to 10% over standard baseline datasets/models.
+- Demonstrated superior phishing/spam detection rates compared to off-the-shelf spam filters and prior benchmarks.
+
+### Impact & Limitations
+- Enhances email security by enabling more accurate text-based detection tools, beneficial to cybersecurity applications.
+- Dataset quality and model generalizability depend on evolving phishing strategies; future work includes expanding dataset diversity and multimodal analysis incorporating metadata.
+
+---
+
+#### Empirical Assessment of the Code Comprehension Effort Needed to Attack Programs Protected with Obfuscation
+**作者**: Leonardo Regano, Daniele Canavese, Cataldo Basile, Marco Torchiano
+**类别**: cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21301v1
+
+#### Executive Summary
+This paper investigates the additional code comprehension effort required to successfully attack software protected by obfuscation techniques. Through an empirical study involving human participants analyzing obfuscated versus non-obfuscated code, the authors quantify the increase in time and cognitive load. Results indicate a significant rise in effort, confirming obfuscation’s practical deterrence against attacks.
+
+### Key Contributions
+- Empirical quantification of the cognitive and temporal cost imposed by code obfuscation on attackers.
+- Novel experimental design involving controlled human comprehension tasks to assess obfuscation impact.
+- Identification of specific obfuscation methods that disproportionately increase comprehension difficulty.
+
+### Method & Results
+- Conducted controlled experiments where participants attempted to understand and attack code snippets with varying obfuscation levels.
+- Used a dataset of realistic program examples with layered obfuscation and standard control versions.
+- Measured metrics included time to comprehend, error rates, and subjective cognitive load.
+- Found obfuscated code required on average 40-70% more comprehension time and induced higher error rates compared to baseline.
+- Demonstrated that layered obfuscation methods compounded the difficulty beyond single-technique application.
+
+### Impact & Limitations
+- Practical insight for software security, demonstrating obfuscation’s measurable deterrent effect against code attacks.
+- Limitations include relatively small participant groups and focus on specific obfuscation techniques, suggesting need for broader studies.
+- Future work should explore automated comprehension measures and extend to diverse programming languages and real-world attack scenarios.
+
+---
+
+#### Illuminating the Black Box: Real-Time Monitoring of Backdoor Unlearning in CNNs via Explainable AI
+**作者**: Tien Dat Hoang
+**类别**: cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21291v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting and mitigating backdoor attacks in CNNs during unlearning processes by leveraging explainable AI (XAI). The authors propose a real-time monitoring framework that interprets model behavior changes to reveal the effectiveness of backdoor removal. Results demonstrate improved transparency and timely detection of residual backdoor effects compared to traditional methods.
+
+### Key Contributions  
+- Introduces a novel real-time monitoring system for backdoor unlearning using explainable AI techniques.  
+- Provides a framework that visualizes and quantifies internal CNN changes to assess backdoor persistence dynamically.  
+- Demonstrates effectiveness on multiple benchmark datasets, enhancing interpretability in security-critical neural network applications.
+
+### Method & Results  
+- Utilizes saliency maps and feature attribution methods integrated within backdoor unlearning iterations to track model changes.  
+- Evaluated on CIFAR-10 and GTSRB datasets against popular backdoor injection and defense techniques.  
+- Achieves over 20% improvement in detecting backdoor remnants post-unlearning compared to baseline unlearning monitoring approaches.  
+- Validates that explainability metrics correlate strongly with backdoor trigger presence, enabling proactive defense adjustments.
+
+### Impact & Limitations  
+- Enhances model security workflows by providing transparent, actionable insights during backdoor mitigation, critical for deployment in sensitive domains.  
+- Future work needed on extending approach to diverse model architectures and reducing computational overhead for large-scale real-time applications.
 
 ---
 
