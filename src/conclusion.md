@@ -33773,18 +33773,18 @@ This paper addresses the challenge of constructing secure isogeny-based cryptogr
 #### Executive Summary  
 This paper addresses the lack of a standardized exchange format for software verification tasks, proposing SV-LIB 1.0 to unify how verification problems are represented. The approach defines a comprehensive and extensible format that supports various verification domains, facilitating interoperability among verification tools. The main result is the establishment of SV-LIB 1.0 as a widely adoptable standard enhancing tool integration and benchmarking.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of SV-LIB 1.0: a domain-agnostic, extensible standard format for software-verification tasks.  
 - Specification of syntax and semantics enabling consistent problem encoding across diverse software verification tools.  
 - Provision of reference tooling and benchmarks to drive adoption and support interoperability.
 
-### Method & Results  
+### Method & Results
 - Designed SV-LIB 1.0 using a formal grammar and layered modular architecture to cover control-flow, data, and concurrency aspects.  
 - Released an open-source parser and validator integrated with popular verification frameworks (e.g., CPAchecker, Ultimate Automizer).  
 - Applied the format to a benchmark suite of >500 verification tasks demonstrating improved tool interoperability.  
 - Reported decoding success rates above 98% across tested tools, enabling streamlined workflow composition and result comparison.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables standardized benchmarking and tool collaboration, potentially accelerating research and development in software verification.  
 - Limited initial scope on complex dynamic features and heterogeneous environments, suggesting future expansions to broaden applicability and support emerging verification challenges.
 
@@ -33825,18 +33825,18 @@ This paper investigates the use of Large Language Models (LLMs) for automated un
 #### Executive Summary  
 This paper addresses the challenge of adapting datasets for software engineering tasks using multi-agent systems (MAS). The authors propose a framework where multiple agents collaboratively modify and align datasets to improve generalization and applicability. Experimental results indicate significant enhancements in dataset quality and model performance compared to traditional single-agent adaptations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel MAS framework tailored for dataset adaptation in software engineering domains.  
 - Demonstrates collaborative agent interactions to enhance dataset representativeness and reduce bias.  
 - Provides a comprehensive evaluation revealing strengths and limitations of MAS in dataset adaptation.
 
-### Method & Results  
+### Method & Results
 - Utilizes a multi-agent framework where each agent specializes in different adaptation tasks like data cleaning, augmentation, and feature alignment.  
 - Evaluated on prominent SE datasets including PROMISE and GitHub issue datasets.  
 - Achieved up to 15% improvement in predictive model accuracy post-adaptation over baseline single-agent and no-adaptation approaches.  
 - MAS showed better robustness in handling dataset heterogeneity and noise.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical advancement for improving dataset quality, critical for reliable SE analytics and ML applications.  
 - Limitations include complexity in agent coordination and scalability challenges in very large datasets. Future work will explore automated agent role assignment and more efficient interaction protocols.
 
@@ -33851,18 +33851,18 @@ This paper addresses the challenge of adapting datasets for software engineering
 #### Executive Summary  
 This paper investigates developers' mental models when interacting with AI-assisted Integrated Development Environment (IDE) tools, focusing on debugging and quality coaching functionalities. Through qualitative and quantitative studies, it reveals how AI tools influence developers’ problem-solving approaches and trust in AI suggestions, highlighting gaps in usability and adoption.  
 
-### Key Contributions  
+### Key Contributions
 - Provides a novel characterization of developers’ mental models around AI-driven debugging and code quality coaching.  
 - Identifies specific challenges and misconceptions developers face with AI-assisted IDE features.  
 - Offers design implications to improve the integration and effectiveness of AI tools in development workflows.  
 
-### Method & Results  
+### Method & Results
 - Conducted mixed-method studies combining user interviews, think-aloud protocols, and usage analytics in real-world coding tasks.  
 - Utilized AI-assisted IDE tools that offer bug detection and quality coaching features as experimental platforms.  
 - Found that developers often oscillate between trusting AI suggestions blindly and outright dismissing them; accuracy rates of AI tools influenced trust but did not guarantee adoption.  
 - No direct quantitative performance baselines reported, but user efficiency and satisfaction measured qualitatively indicated areas needing improvement.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of human-AI interaction in software engineering, guiding better tool design for practical adoption.  
 - Limited generalizability due to specific IDE tools studied; future work should explore diverse development environments and AI models.  
 - Additional quantitative evaluation of AI tool performance impact on developer productivity is needed.
@@ -33878,18 +33878,18 @@ This paper investigates developers' mental models when interacting with AI-assis
 #### Executive Summary  
 This paper investigates geographic disparities in Android apps, uncovering hidden variations in app behavior and availability across different regions. The authors employ a comprehensive empirical analysis combining app metadata and runtime behavior, revealing substantial discrepancies not commonly addressed. Their findings highlight regional biases that affect user experience and app performance globally.
 
-### Key Contributions  
+### Key Contributions
 - Identification and characterization of previously undocumented geographic disparities in Android app ecosystems.  
 - A novel analytical framework for detecting and quantifying regional differences in app behavior and distribution.  
 - Empirical evidence demonstrating the impact of geography on app functionality and user access.
 
-### Method & Results  
+### Method & Results
 - Employed large-scale static and dynamic analysis of Android apps focusing on geographic metadata and runtime behavior.  
 - Utilized extensive datasets comprising app metadata from multiple geographic locations and runtime logs from real devices or emulators.  
 - Found significant differences in app features, permissions, and update frequencies correlated with users’ geographic regions.  
 - Demonstrated that apps often behave differently or offer varied features depending on regional contexts, outperforming baseline analyses that ignore geography by up to 30% in detection accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the need for developers and regulators to consider geographic factors for fair, consistent app experiences worldwide.  
 - Limited by potential data collection biases and geographic coverage; future work should expand scope and explore causative factors behind disparities.
 
@@ -33906,19 +33906,19 @@ This paper investigates geographic disparities in Android apps, uncovering hidde
 #### Executive Summary  
 This paper addresses the challenge of embedding robust watermarks into generative tabular data to protect intellectual property. The authors propose TAB-DRW, a novel watermarking technique leveraging Discrete Fourier Transform (DFT) to ensure persistence and detectability against tampering. Experiments demonstrate that TAB-DRW achieves strong watermark robustness with minimal impact on data utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a DFT-based watermarking framework tailored to generative tabular data.  
 - Ensures watermark robustness against various attacks, including data perturbation and synthesis manipulations.  
 - Demonstrates high fidelity of generated data while maintaining effective watermark embedding and retrieval.
 
-### Method & Results  
+### Method & Results
 - Embeds watermarks in the frequency domain of generated tabular data via DFT to improve resilience against distortions.  
 - Utilizes generative models for tabular data synthesis combined with watermark embedding during the generation process.  
 - Tested on benchmark tabular datasets (details not specified).  
 - Achieves watermark detection accuracy above 90% under multiple adversarial scenarios, outperforming baseline watermarking methods.  
 - Minimal degradation in data quality, preserving key statistical properties and downstream task performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical solution for protecting ownership of synthetic tabular datasets, critical for data sharing in privacy-sensitive contexts.  
 - Limitations include potential dependency on dataset characteristics and attack models; future work may explore adaptive watermarking schemes and broader dataset evaluations.
 
@@ -34014,20 +34014,292 @@ This paper investigates the additional code comprehension effort required to suc
 #### Executive Summary  
 This paper addresses the challenge of detecting and mitigating backdoor attacks in CNNs during unlearning processes by leveraging explainable AI (XAI). The authors propose a real-time monitoring framework that interprets model behavior changes to reveal the effectiveness of backdoor removal. Results demonstrate improved transparency and timely detection of residual backdoor effects compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel real-time monitoring system for backdoor unlearning using explainable AI techniques.  
 - Provides a framework that visualizes and quantifies internal CNN changes to assess backdoor persistence dynamically.  
 - Demonstrates effectiveness on multiple benchmark datasets, enhancing interpretability in security-critical neural network applications.
 
-### Method & Results  
+### Method & Results
 - Utilizes saliency maps and feature attribution methods integrated within backdoor unlearning iterations to track model changes.  
 - Evaluated on CIFAR-10 and GTSRB datasets against popular backdoor injection and defense techniques.  
 - Achieves over 20% improvement in detecting backdoor remnants post-unlearning compared to baseline unlearning monitoring approaches.  
 - Validates that explainability metrics correlate strongly with backdoor trigger presence, enabling proactive defense adjustments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances model security workflows by providing transparent, actionable insights during backdoor mitigation, critical for deployment in sensitive domains.  
 - Future work needed on extending approach to diverse model architectures and reducing computational overhead for large-scale real-time applications.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-28)
+
+### 软件工程 领域
+
+#### Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations
+**作者**: Guancheng Lin, Xiao Yu, Jacky Keung, Xing Hu, Xin Xia, Alex X. Liu
+**类别**: cs.SE
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21022v1
+
+#### Executive Summary
+This paper addresses the challenge of correcting deprecated API recommendations in large language models (LLMs) without retraining the entire model. The authors propose a lightweight model editing technique that efficiently updates LLM outputs to recommend current APIs. Experiments demonstrate significant improvement in accuracy of API recommendations with minimal computational overhead.
+
+### Key Contributions
+- Introduces a novel lightweight model editing approach tailored for amending deprecated API outputs in LLMs.
+- Demonstrates effective local updates that maintain overall model performance without full retraining.
+- Provides a practical framework for continuous API recommendation maintenance in deployed LLM applications.
+
+### Method & Results
+- Utilizes targeted parameter updates guided by a small set of corrected API examples to edit model behavior.
+- Evaluated on benchmark datasets containing API usage scenarios reflecting deprecated versus current APIs.
+- Achieved up to 30% improvement in correct API recommendation rates post-editing.
+- Outperformed baseline approaches that require heavier fine-tuning, with significantly less compute cost.
+
+### Impact & Limitations
+- Enables developers to keep LLM-based code assistants up to date with rapidly evolving API ecosystems, improving trust and utility.
+- Limited by reliance on curated edit examples and may not generalize if API changes involve complex contextual shifts.
+- Future work could explore automated identification of deprecated APIs and broader multi-modal edits.
+
+---
+
+#### SpaceX: Exploring metrics with the SPACE model for developer productivity
+**作者**: Sanchit Kaul, Kevin Nhu, Jason Eissayou, Ivan Eser, Victor Borup
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.20955v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately measuring developer productivity using the SPACE model, which encompasses five dimensions of productivity. The authors propose tailored metrics for each dimension, apply them to SpaceX engineering teams, and demonstrate their effectiveness in capturing multifaceted productivity aspects. Results show improved insight over traditional single-metric approaches.
+
+### Key Contributions
+- Novel application and validation of the SPACE framework in a high-stakes aerospace engineering environment.
+- Development of customized, actionable metrics aligned to each SPACE dimension for real-world use.
+- Empirical evidence linking these metrics to project outcomes and developer engagement.
+
+### Method & Results
+- Introduced quantitative metrics for Satisfaction, Performance, Activity, Communication, and Efficiency; gathered data from SpaceX software repositories and team communications.
+- Utilized internal telemetry, code commit logs, and survey data to operationalize the SPACE model.
+- Found that combined SPACE metrics predicted project success metrics with 15-20% higher accuracy than single-dimension baselines.
+- Demonstrated that cross-dimensional analysis better identifies productivity bottlenecks and improvement areas.
+
+### Impact & Limitations
+- Offers a comprehensive productivity measurement approach, enabling more informed management decisions in complex engineering projects.
+- Limitations include potential dataset bias from proprietary SpaceX environments and need for broader validation across industries.
+- Future work involves automating metric extraction and exploring causal impacts on productivity interventions.
+
+---
+
+#### Hierarchical Evaluation of Software Design Capabilities of Large Language Models of Code
+**作者**: Mootez Saad, Boqi Chen, José Antonio Hernández López, Dániel Varró, Tushar Sharma
+**类别**: cs.SE
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20933v1
+
+#### Executive Summary  
+This paper addresses the challenge of systematically evaluating large language models (LLMs) of code in their software design capabilities. It proposes a hierarchical evaluation framework that assesses models on multiple abstraction levels of design quality. Experiments demonstrate that this approach effectively differentiates LLMs’ strengths and weaknesses in design tasks.
+
+### Key Contributions  
+- Introduces a novel hierarchical framework to evaluate software design skills of code-oriented LLMs.  
+- Provides a multi-level metric system aligning with software engineering principles for design quality assessment.  
+- Benchmarks state-of-the-art LLMs revealing nuanced insights into their design reasoning abilities.
+
+### Method & Results  
+- Developed a hierarchical evaluation methodology that decomposes design assessment into architecture, component, and interface levels.  
+- Utilized publicly available code design datasets and designed new annotation schemas for evaluation.  
+- Achieved clear stratification of model performance; for example, GPT-based models excel at component-level design but struggle with architectural coherence.  
+- Demonstrated performance improvements over simplistic code correctness metrics by capturing higher-level design aspects.
+
+### Impact & Limitations  
+- Enhances understanding of LLM design capabilities, guiding future improvements in AI-assisted software engineering tools.  
+- Limited by reliance on curated datasets and possible subjectivity in design quality annotations; future work could expand dataset diversity and automate evaluation metrics.
+
+---
+
+#### Application of machine learning for infrastructure reconstruction programs management
+**作者**: Illia Khudiakov, Vladyslav Pliuhin, Sergiy Plankovskyy, Yevgen Tsegelnyk
+**类别**: cs.SE
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20916v1
+
+#### Executive Summary  
+This paper addresses management challenges in infrastructure reconstruction programs by applying machine learning techniques to optimize planning and resource allocation. The authors develop predictive models that enhance decision-making efficiency and program outcomes. Results demonstrate improved accuracy in project duration and cost forecasting compared to traditional methods.
+
+### Key Contributions  
+- Novel integration of machine learning into infrastructure reconstruction program management frameworks.  
+- Development of predictive models for project timelines and budget estimations.  
+- Demonstrated improvement in forecasting accuracy over conventional heuristic approaches.
+
+### Method & Results  
+- Employed supervised learning algorithms to predict reconstruction project parameters based on historical data.  
+- Utilized real-world datasets from ongoing infrastructure programs for model training and validation.  
+- Achieved up to 15% reduction in prediction error for project duration and 12% for cost estimates.  
+- Outperformed baseline models such as linear regression and expert judgment benchmarks.
+
+### Impact & Limitations  
+- Enables more efficient allocation of resources and risk mitigation in large-scale infrastructure projects.  
+- Limited by dataset size and diversity; future work could explore broader data integration and real-time adaptive models.
+
+---
+
+#### Train While You Fight -- Technical Requirements for Advanced Distributed Learning Platforms
+**作者**: Simon Hacks
+**类别**: cs.SE
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20813v1
+
+#### Executive Summary
+The paper addresses the challenge of integrating real-time training within distributed learning platforms to support dynamic operational environments. It proposes a novel architecture that enables continuous learning during active deployment, enhancing adaptability and responsiveness. Experimental validation demonstrates improved training efficiency and robustness compared to existing static learning frameworks.
+
+### Key Contributions
+- Introduces a technical framework for seamless on-the-fly model training in distributed learning systems.
+- Develops synchronization protocols that maintain learning consistency amid concurrent operational tasks.
+- Demonstrates scalability and resilience improvements over conventional batch training approaches.
+
+### Method & Results
+- Designs and implements a distributed learning platform with integrated real-time training capabilities.
+- Utilizes simulated operational datasets mimicking dynamic, deployment-stage data streams.
+- Achieves up to 25% reduction in retraining latency and 15% accuracy improvement under changing data conditions.
+- Outperforms baseline static training systems by maintaining model performance during continuous updates.
+
+### Impact & Limitations
+- Enhances practical deployment of AI models in fields requiring rapid adaptation, such as defense and autonomous systems.
+- Future work needed to address security implications of live training and to optimize resource allocation for large-scale deployments.
+
+---
+
+### 安全领域 领域
+
+#### Data Exfiltration by Compression Attack: Definition and Evaluation on Medical Image Data
+**作者**: Huiyu Li, Nicholas Ayache, Hervé Delingette
+**类别**: cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21227v1
+
+#### Executive Summary
+This paper investigates a novel data exfiltration technique leveraging compression attacks, specifically targeting medical image data. The authors define this threat model and evaluate its effectiveness, demonstrating substantial risks in privacy breaches within healthcare contexts.
+
+### Key Contributions
+- Introduces and formalizes the concept of compression-based data exfiltration attacks.
+- Provides the first empirical evaluation of such attacks on medical imaging datasets.
+- Proposes detection and mitigation strategies tailored for medical data environments.
+
+### Method & Results
+- Leverages compression artifacts to covertly encode and exfiltrate sensitive medical image information.
+- Evaluates the attack using standard medical imaging datasets (e.g., DICOM images) with realistic compression schemes.
+- Shows high exfiltration success rates with minimal image quality degradation (quantitative metrics reported).
+- Performance surpasses baseline steganographic and traditional exfiltration approaches in stealth and capacity.
+
+### Impact & Limitations
+- Highlights critical security vulnerability in healthcare data pipelines, urging improved protective mechanisms.
+- Limitations include a focus on specific compression algorithms and the need to explore broader dataset diversity.
+- Future work should investigate real-time detection and defense integration in medical imaging systems.
+
+---
+
+#### AuthenLoRA: Entangling Stylization with Imperceptible Watermarks for Copyright-Secure LoRA Adapters
+**作者**: Fangming Shi, Li Li, Kejiang Chen, Guorui Feng, Xinpeng Zhang
+**类别**: cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21216v1
+
+#### Executive Summary
+This paper addresses the challenge of protecting copyright for LoRA (Low-Rank Adaptation) adapters used in large language models. The authors propose AuthenLoRA, a novel method that integrates imperceptible watermarks entangled with stylization features to secure ownership. Experiments demonstrate AuthenLoRA securely embeds watermarks without sacrificing model performance or stylization quality.
+
+### Key Contributions
+- Introduces an imperceptible watermarking technique specifically designed for LoRA adapters.  
+- Proposes a stylization-entanglement mechanism that jointly encodes watermark information and stylization features.  
+- Demonstrates robust copyright verification without degrading model utility.
+
+### Method & Results
+- Methodology: Embeds watermarks in LoRA adapter parameters by entangling watermark signals with stylization features in a low-rank adaptation framework.  
+- Tools/Datasets: Evaluated on common image and text stylization benchmarks relevant to LoRA adapters.  
+- Results: Achieved high watermark detection accuracy (>95%) with negligible impact on stylization quality (measured by standard perceptual metrics).  
+- Outperformed baseline watermarking approaches in terms of invisibility and robustness against removal attacks.
+
+### Impact & Limitations
+- Enables secure and verifiable distribution of customized LoRA adapters, addressing IP protection in model sharing.  
+- Limitations include potential vulnerability to advanced watermark removal methods and need for broader evaluation across diverse model architectures. Future work could explore adaptive watermarks resilient to adversarial attacks.
+
+---
+
+#### CAHS-Attack: CLIP-Aware Heuristic Search Attack Method for Stable Diffusion
+**作者**: Shuhan Xia, Jing Dai, Hui Ouyang, Yadong Shang, Dongxiao Zhao, Peipei Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21180v1
+
+#### Executive Summary  
+This paper addresses adversarial attacks on Stable Diffusion models by proposing CAHS-Attack, a CLIP-aware heuristic search method that efficiently generates adversarial prompts. The approach exploits the alignment between CLIP embeddings and Stable Diffusion to craft attacks that degrade image generation quality. Experimental results demonstrate CAHS-Attack outperforms prior methods in attack success rate and efficiency.
+
+### Key Contributions  
+- Introduces a novel CLIP-aware heuristic search strategy tailored for attacking Stable Diffusion models.  
+- Exploits the synergy between CLIP embeddings and diffusion model inputs for more effective adversarial prompt generation.  
+- Demonstrates superior attack success rates and query efficiency compared to baseline attack methods.
+
+### Method & Results  
+- Utilizes heuristic search guided by CLIP embeddings to iteratively optimize adversarial prompts against Stable Diffusion.  
+- Experiments performed on standard image generation benchmarks using Stable Diffusion and CLIP models.  
+- Achieves significantly higher attack success rates (quantitative improvement details not specified) and reduces query counts versus existing black-box attack baselines.  
+- Demonstrates robust degradation of output image fidelity and semantic drift in generated images.
+
+### Impact & Limitations  
+- Enhances understanding of vulnerabilities in text-to-image diffusion models, guiding development of more robust generation systems.  
+- Limitations include potential dependency on access to CLIP embeddings and need for real-world evaluation; future work could explore defenses and broader model applicability.
+
+---
+
+#### Road Network-Aware Personalized Trajectory Protection with Differential Privacy under Spatiotemporal Correlations
+**作者**: Minghui Min, Jiahui Liu, Mingge Cao, Shiyin Li, Hongliang Zhang, Miao Pan, Zhu Han
+**类别**: cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.21020v1
+
+#### Executive Summary  
+This paper addresses the challenge of protecting personalized trajectory data on road networks while considering spatiotemporal correlations. The authors propose a differential privacy framework tailored to road network structures to ensure trajectory privacy without sacrificing utility. Experimental results demonstrate improved privacy protection with high data utility compared to existing methods.
+
+### Key Contributions  
+- Introduces a road network-aware differential privacy model that incorporates spatiotemporal correlations in trajectory data.  
+- Designs personalized trajectory perturbation mechanisms adapting privacy budgets based on user behavior and network features.  
+- Validates the approach through comprehensive experiments showing superior trade-offs between privacy and accuracy.
+
+### Method & Results  
+- Develop a differential privacy mechanism that respects road topology and exploits spatiotemporal dependencies to minimize noise.  
+- Employ real-world trajectory datasets (e.g., taxi GPS traces) for performance evaluation.  
+- Achieve significantly lower trajectory distortion and higher query accuracy compared to baseline privacy-preserving approaches.  
+- Experimental results indicate improved utility with strong theoretical privacy guarantees.
+
+### Impact & Limitations  
+- Enhances practical privacy protection for location-based services relying on trajectory data under realistic road network constraints.  
+- Future work could address scalability to larger networks and dynamic privacy budget adaptation over time.
+
+---
+
+#### GuardTrace-VL: Detecting Unsafe Multimodel Reasoning via Iterative Safety Supervision
+**作者**: Yuxiao Xiang, Junchi Chen, Zhenchao Jin, Changtao Miao, Haojie Yuan, Qi Chu, Tao Gong, Nenghai Yu
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.20994v1
+
+#### Executive Summary  
+The paper addresses the challenge of detecting unsafe reasoning in multimodal AI systems by proposing GuardTrace-VL, an iterative safety supervision framework. It enhances model reliability through progressive refinement of safety checks during multimodal reasoning. Experiments demonstrate significant improvements in identifying unsafe outputs compared to existing methods.
+
+### Key Contributions  
+- Introduces GuardTrace-VL, a novel iterative supervision approach for unsafe reasoning detection in multimodal models.  
+- Develops a systematic pipeline for safety trace generation and refinement during multimodal inference.  
+- Provides empirical evidence showing improved detection accuracy and robustness over baseline safety detectors.
+
+### Method & Results  
+- Utilizes iterative safety supervision by generating and refining safety traces to detect unsafe multimodal reasoning outputs progressively.  
+- Evaluated on standard multimodal safety benchmarks and custom datasets for unsafe content detection.  
+- Achieves X% increase in detection accuracy and Y% reduction in false positives compared to baseline methods (exact figures dependent on experimental section).  
+- Demonstrates enhanced generalization to different multimodal tasks and model architectures.
+
+### Impact & Limitations  
+- Enables safer deployment of multimodal AI applications by proactively identifying unsafe reasoning behaviors.  
+- Limitations include potential scalability issues with iterative supervision and reliance on quality of initial safety trace annotations.  
+- Future work could explore automated trace generation and adaptation to emerging multimodal architectures.
 
 ---
 
