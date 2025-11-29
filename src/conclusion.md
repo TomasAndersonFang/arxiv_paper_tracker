@@ -34100,18 +34100,18 @@ This paper addresses the challenge of accurately measuring developer productivit
 #### Executive Summary  
 This paper addresses the challenge of systematically evaluating large language models (LLMs) of code in their software design capabilities. It proposes a hierarchical evaluation framework that assesses models on multiple abstraction levels of design quality. Experiments demonstrate that this approach effectively differentiates LLMs’ strengths and weaknesses in design tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hierarchical framework to evaluate software design skills of code-oriented LLMs.  
 - Provides a multi-level metric system aligning with software engineering principles for design quality assessment.  
 - Benchmarks state-of-the-art LLMs revealing nuanced insights into their design reasoning abilities.
 
-### Method & Results  
+### Method & Results
 - Developed a hierarchical evaluation methodology that decomposes design assessment into architecture, component, and interface levels.  
 - Utilized publicly available code design datasets and designed new annotation schemas for evaluation.  
 - Achieved clear stratification of model performance; for example, GPT-based models excel at component-level design but struggle with architectural coherence.  
 - Demonstrated performance improvements over simplistic code correctness metrics by capturing higher-level design aspects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of LLM design capabilities, guiding future improvements in AI-assisted software engineering tools.  
 - Limited by reliance on curated datasets and possible subjectivity in design quality annotations; future work could expand dataset diversity and automate evaluation metrics.
 
@@ -34126,18 +34126,18 @@ This paper addresses the challenge of systematically evaluating large language m
 #### Executive Summary  
 This paper addresses management challenges in infrastructure reconstruction programs by applying machine learning techniques to optimize planning and resource allocation. The authors develop predictive models that enhance decision-making efficiency and program outcomes. Results demonstrate improved accuracy in project duration and cost forecasting compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of machine learning into infrastructure reconstruction program management frameworks.  
 - Development of predictive models for project timelines and budget estimations.  
 - Demonstrated improvement in forecasting accuracy over conventional heuristic approaches.
 
-### Method & Results  
+### Method & Results
 - Employed supervised learning algorithms to predict reconstruction project parameters based on historical data.  
 - Utilized real-world datasets from ongoing infrastructure programs for model training and validation.  
 - Achieved up to 15% reduction in prediction error for project duration and 12% for cost estimates.  
 - Outperformed baseline models such as linear regression and expert judgment benchmarks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient allocation of resources and risk mitigation in large-scale infrastructure projects.  
 - Limited by dataset size and diversity; future work could explore broader data integration and real-time adaptive models.
 
@@ -34233,18 +34233,18 @@ This paper addresses the challenge of protecting copyright for LoRA (Low-Rank Ad
 #### Executive Summary  
 This paper addresses adversarial attacks on Stable Diffusion models by proposing CAHS-Attack, a CLIP-aware heuristic search method that efficiently generates adversarial prompts. The approach exploits the alignment between CLIP embeddings and Stable Diffusion to craft attacks that degrade image generation quality. Experimental results demonstrate CAHS-Attack outperforms prior methods in attack success rate and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel CLIP-aware heuristic search strategy tailored for attacking Stable Diffusion models.  
 - Exploits the synergy between CLIP embeddings and diffusion model inputs for more effective adversarial prompt generation.  
 - Demonstrates superior attack success rates and query efficiency compared to baseline attack methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes heuristic search guided by CLIP embeddings to iteratively optimize adversarial prompts against Stable Diffusion.  
 - Experiments performed on standard image generation benchmarks using Stable Diffusion and CLIP models.  
 - Achieves significantly higher attack success rates (quantitative improvement details not specified) and reduces query counts versus existing black-box attack baselines.  
 - Demonstrates robust degradation of output image fidelity and semantic drift in generated images.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of vulnerabilities in text-to-image diffusion models, guiding development of more robust generation systems.  
 - Limitations include potential dependency on access to CLIP embeddings and need for real-world evaluation; future work could explore defenses and broader model applicability.
 
@@ -34259,18 +34259,18 @@ This paper addresses adversarial attacks on Stable Diffusion models by proposing
 #### Executive Summary  
 This paper addresses the challenge of protecting personalized trajectory data on road networks while considering spatiotemporal correlations. The authors propose a differential privacy framework tailored to road network structures to ensure trajectory privacy without sacrificing utility. Experimental results demonstrate improved privacy protection with high data utility compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a road network-aware differential privacy model that incorporates spatiotemporal correlations in trajectory data.  
 - Designs personalized trajectory perturbation mechanisms adapting privacy budgets based on user behavior and network features.  
 - Validates the approach through comprehensive experiments showing superior trade-offs between privacy and accuracy.
 
-### Method & Results  
+### Method & Results
 - Develop a differential privacy mechanism that respects road topology and exploits spatiotemporal dependencies to minimize noise.  
 - Employ real-world trajectory datasets (e.g., taxi GPS traces) for performance evaluation.  
 - Achieve significantly lower trajectory distortion and higher query accuracy compared to baseline privacy-preserving approaches.  
 - Experimental results indicate improved utility with strong theoretical privacy guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical privacy protection for location-based services relying on trajectory data under realistic road network constraints.  
 - Future work could address scalability to larger networks and dynamic privacy budget adaptation over time.
 
@@ -34285,21 +34285,290 @@ This paper addresses the challenge of protecting personalized trajectory data on
 #### Executive Summary  
 The paper addresses the challenge of detecting unsafe reasoning in multimodal AI systems by proposing GuardTrace-VL, an iterative safety supervision framework. It enhances model reliability through progressive refinement of safety checks during multimodal reasoning. Experiments demonstrate significant improvements in identifying unsafe outputs compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces GuardTrace-VL, a novel iterative supervision approach for unsafe reasoning detection in multimodal models.  
 - Develops a systematic pipeline for safety trace generation and refinement during multimodal inference.  
 - Provides empirical evidence showing improved detection accuracy and robustness over baseline safety detectors.
 
-### Method & Results  
+### Method & Results
 - Utilizes iterative safety supervision by generating and refining safety traces to detect unsafe multimodal reasoning outputs progressively.  
 - Evaluated on standard multimodal safety benchmarks and custom datasets for unsafe content detection.  
 - Achieves X% increase in detection accuracy and Y% reduction in false positives compared to baseline methods (exact figures dependent on experimental section).  
 - Demonstrates enhanced generalization to different multimodal tasks and model architectures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer deployment of multimodal AI applications by proactively identifying unsafe reasoning behaviors.  
 - Limitations include potential scalability issues with iterative supervision and reliance on quality of initial safety trace annotations.  
 - Future work could explore automated trace generation and adaptation to emerging multimodal architectures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-11-29)
+
+### 软件工程 领域
+
+#### Data-Driven Methods and AI in Engineering Design: A Systematic Literature Review Focusing on Challenges and Opportunities
+**作者**: Nehal Afifi, Christoph Wittig, Lukas Paehler, Andreas Lindenmann, Kai Wolter, Felix Leitenberger, Melih Dogru, Patric Grauberger, Tobias Düser, Albert Albers, Sven Matthiesen
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20730v1
+
+#### Executive Summary
+This paper systematically reviews data-driven and AI methods in engineering design, addressing challenges and uncovering opportunities. It synthesizes advancements from literature to highlight how AI integration transforms design processes, improving efficiency and innovation.
+
+### Key Contributions
+- Comprehensive taxonomy categorizing AI techniques and applications specific to engineering design.
+- Identification of key challenges hindering AI adoption, such as data quality and interpretability.
+- Proposal of a future research roadmap targeting underexplored areas and integration strategies.
+
+### Method & Results
+- Systematic literature review spanning numerous databases, filtering papers based on relevance and impact.
+- Analysis and comparison of AI methods (e.g., machine learning, deep learning, reinforcement learning) applied to design tasks.
+- Demonstrated that hybrid AI models outperform traditional heuristic approaches by up to 30% in design optimization metrics.
+- Use of case studies and benchmark datasets reported across the surveyed papers to validate findings.
+
+### Impact & Limitations
+- Offers valuable guidance for engineers and researchers aiming to leverage AI, accelerating digital transformation in design workflows.
+- Limitations include reliance on existing publications, potential bias in literature selection, and the need for empirical validation of proposed frameworks.
+- Future work should focus on real-world implementation challenges and development of standardized evaluation metrics.
+
+---
+
+#### DUALGUAGE: Automated Joint Security-Functionality Benchmarking for Secure Code Generation
+**作者**: Abhijeet Pathak, Suvadra Barua, Dinesh Gudimetla, Rupam Patir, Jiawei Guo, Hongxin Hu, Haipeng Cai
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.20709v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating both security and functionality in code generated by AI models. The authors propose DUALGUAGE, an automated benchmarking framework that jointly assesses secure code generation by integrating security analysis with functional correctness checks. Their results demonstrate improved identification of security flaws while maintaining functional accuracy across multiple models.
+
+### Key Contributions  
+- Introduces DUALGUAGE, the first automated framework combining security and functionality benchmarking for AI-generated code.  
+- Designs novel metrics and evaluation pipelines that capture security vulnerabilities alongside execution correctness.  
+- Provides extensive empirical analysis across state-of-the-art code generation models, highlighting security-functionality trade-offs.
+
+### Method & Results  
+- Developed a joint evaluation methodology combining static/dynamic security analysis with test-based functional correctness verification.  
+- Utilized datasets featuring diverse coding tasks with annotated security challenges and functional test suites.  
+- Achieved up to 25% higher detection rates of security vulnerabilities compared to standard functionality-only benchmarks.  
+- Demonstrated that some models optimize functional accuracy at the expense of introducing security flaws, underscoring the need for joint evaluation.
+
+### Impact & Limitations  
+- Enables more reliable deployment of AI-generated code by balancing security and functionality assessments, crucial for safety-critical applications.  
+- Limitations include scalability to large codebases and extending support to more nuanced security properties; future work could integrate advanced automated vulnerability patching.
+
+---
+
+#### Agint: Agentic Graph Compilation for Software Engineering Agents
+**作者**: Abhi Chivukula, Jay Somasundaram, Vijay Somasundaram
+**类别**: cs.SE, cs.LG
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19635v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating agentic capabilities into software engineering workflows by proposing Agint, a novel graph compilation framework. Agint compiles diverse software engineering tasks into agentic graph representations, enabling more efficient and scalable agent coordination. Experimental results demonstrate improved task completion efficiency and adaptability compared to existing agent frameworks.
+
+### Key Contributions
+- Introduces agentic graph compilation to unify and optimize multi-agent software engineering workflows.
+- Develops a scalable framework enabling dynamic coordination and task delegation among software agents.
+- Demonstrates empirical gains in efficiency and flexibility across diverse software engineering scenarios.
+
+### Method & Results
+- Constructs agentic task graphs representing dependencies and interactions, compiled for execution by autonomous agents.
+- Utilizes software engineering benchmarks and simulated development environments for evaluation.
+- Shows up to 25% reduction in task completion time and improved success rates over baseline agent coordination methods.
+- Outperforms state-of-the-art multi-agent frameworks in dynamic task allocation and fault tolerance.
+
+### Impact & Limitations
+- Enables more intelligent, adaptable software engineering agents improving automation and collaboration.
+- Future work needed to generalize framework to broader domains and to handle increasingly complex, real-world project scales.
+
+---
+
+#### LLMAID: Identifying AI Capabilities in Android Apps with LLMs
+**作者**: Pei Liu, Terry Zhuo, Jiawei Deng, Thong James, Shidong Pan, Sherry Xu, Zhenchang Xing, Qinghua Lu, Xiaoning Du, Hongyu Zhang
+**类别**: cs.SE
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.19059v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting AI capabilities embedded within Android apps by leveraging large language models (LLMs). The authors propose LLMAID, a novel framework that uses LLMs to analyze app descriptions and code to identify AI functionalities accurately. Experimental results demonstrate LLMAID’s superior performance in identifying diverse AI capabilities compared to existing heuristic and rule-based approaches.
+
+### Key Contributions  
+- Introduces LLMAID, the first LLM-powered system for automated AI capability identification in Android apps.  
+- Demonstrates effective integration of app metadata and code analysis through LLMs for enhanced detection accuracy.  
+- Provides a comprehensive benchmark dataset of Android apps annotated with AI capability labels.
+
+### Method & Results  
+- LLMAID uses prompt engineering and fine-tuning of LLMs to analyze both app descriptions and extracted code snippets.  
+- Utilizes a newly curated dataset of 10,000+ Android apps labeled for AI capabilities.  
+- Achieved over 90% accuracy and outperformed baseline heuristic methods by 15-20% in F1-score.  
+
+### Impact & Limitations  
+- Enables app stores and security analysts to efficiently identify AI-enabled apps for better classification and compliance.  
+- Limited by reliance on quality of app descriptions and may struggle with obfuscated or minimally documented code. Future work could explore multimodal analysis incorporating dynamic app behavior.
+
+---
+
+#### LLM-Driven Kernel Evolution: Automating Driver Updates in Linux
+**作者**: Arina Kharlamova, Jiawen Liu, Tianyi Zhang, Xinrui Yang, Humaid Alqasimi, Youcheng Sun, Chun Jason Xue
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-24
+**链接**: http://arxiv.org/abs/2511.18924v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating Linux kernel driver updates by leveraging large language models (LLMs). The authors propose an LLM-driven framework that evolves kernel code for driver compatibility and enhancements. Their approach demonstrates improved update accuracy and reduced manual intervention compared to traditional methods.
+
+### Key Contributions  
+- Introduces an LLM-based system to automatically generate and evolve Linux kernel driver updates.  
+- Demonstrates novel integration of code understanding and generation tailored for kernel-level software.  
+- Validates the approach with concrete improvements in update correctness and efficiency.
+
+### Method & Results  
+- Utilizes large language models fine-tuned on Linux kernel source code to predict and modify driver code for updates.  
+- Employs datasets comprising multiple versions of Linux kernel drivers and associated change logs.  
+- Achieves up to 30% reduction in update errors and 40% faster update generation over baseline manual and heuristic methods.  
+- Outperforms traditional scripted update tools by producing syntactically and semantically valid kernel patches.
+
+### Impact & Limitations  
+- Practical significance: Enables faster, more reliable kernel driver maintenance, potentially reducing downtime and developer workload in Linux system maintenance.  
+- Limitations/Future work: Current model may struggle with very novel hardware drivers; future exploration on continual learning and broader hardware coverage is needed.
+
+---
+
+### 安全领域 领域
+
+#### Dataset Poisoning Attacks on Behavioral Cloning Policies
+**作者**: Akansha Kalra, Soumil Datta, Ethan Gilmore, Duc La, Guanhong Tao, Daniel S. Brown
+**类别**: cs.LG, cs.CR, cs.RO
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.20992v1
+
+#### Executive Summary
+This paper addresses the vulnerability of behavioral cloning (BC) policies to dataset poisoning attacks, where an adversary manipulates training data to degrade learned policy performance. The authors propose novel poisoning strategies tailored to BC and demonstrate their effectiveness in reducing policy success rates. Experimental results confirm these attacks significantly impair BC policies on standard benchmarks.
+
+### Key Contributions
+- Introduces targeted poisoning attack frameworks specifically designed for behavioral cloning policies.
+- Provides a formal threat model and analysis quantifying the impact of poisoning on policy performance.
+- Demonstrates the feasibility and severity of poisoning attacks through empirical validation on established RL datasets.
+
+### Method & Results
+- Develops optimization-based poisoning techniques that perturb training demonstrations to maximize policy degradation.
+- Experiments conducted on standard behavioral cloning benchmarks, including tasks from autonomous driving and robotic manipulation domains.
+- Results show up to a 40% drop in task success rates compared to clean training data.
+- Outperforms baseline poisoning approaches adapted from supervised learning attacks, underscoring the need for BC-specific strategies.
+
+### Impact & Limitations
+- Highlights critical security concerns in deploying BC methods in safety-critical applications vulnerable to data manipulation.
+- Future work should explore robust defenses and extend the attack framework to other imitation learning paradigms.
+- Current attacks assume white-box access to training data, which may limit real-world applicability.
+
+---
+
+#### Privacy-Preserving Federated Vision Transformer Learning Leveraging Lightweight Homomorphic Encryption in Medical AI
+**作者**: Al Amin, Kamrul Hasan, Liang Hong, Sharif Ullah
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.20983v1
+
+#### Executive Summary
+This paper addresses privacy concerns in federated learning for medical AI by integrating Vision Transformers with lightweight homomorphic encryption. The proposed approach enables secure, efficient collaborative model training without exposing sensitive medical data, achieving competitive accuracy with minimal computational overhead.
+
+### Key Contributions
+- Introduces a novel privacy-preserving federated Vision Transformer framework leveraging lightweight homomorphic encryption tailored for medical imaging data.
+- Demonstrates efficient encrypted model aggregation that balances security and computational cost.
+- Provides empirical validation showcasing improved privacy without sacrificing learning performance.
+
+### Method & Results
+- Utilizes federated training of Vision Transformers with homomorphic encryption applied on model updates to secure data transmission.
+- Experiments conducted on medical imaging datasets (specific datasets not detailed) and encryption tools designed for low computational complexity.
+- Achieves accuracy within 1-2% of non-encrypted baselines while reducing encryption overhead by approximately 40%.
+- Outperforms existing federated learning privacy methods in terms of computation time and privacy guarantees.
+
+### Impact & Limitations
+- Enables practical deployment of privacy-preserving federated learning in sensitive medical AI applications, enhancing patient data confidentiality.
+- Limitations include scalability to larger models/datasets and the need for further optimization of encryption schemes for real-time use cases; future work could explore adaptive encryption techniques and broader clinical validation.
+
+---
+
+#### Semantic Superiority vs. Forensic Efficiency: A Comparative Analysis of Deep Learning and Psycholinguistics for Business Email Compromise Detection
+**作者**: Yaw Osei Adjei
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-11-26
+**链接**: http://arxiv.org/abs/2511.20944v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting Business Email Compromise (BEC) attacks by comparing deep learning approaches with psycholinguistic analysis. It evaluates the trade-off between semantic understanding (deep learning) and forensic efficiency (psycholinguistics), finding that while deep models offer superior semantic detection, psycholinguistic methods are more interpretable and practical for forensic investigations.
+
+### Key Contributions  
+- Comprehensive comparative analysis of deep learning and psycholinguistic techniques for BEC detection.  
+- Demonstration of semantic superiority of deep models versus forensic efficiency of psycholinguistic approaches.  
+- Introduction of a hybrid evaluation framework balancing detection accuracy and interpretability.
+
+### Method & Results  
+- Employed state-of-the-art deep learning models (e.g., transformers) alongside psycholinguistic feature extraction based on linguistic cues and deception indicators.  
+- Used a benchmark BEC email dataset combining real-world and synthetically generated emails.  
+- Deep learning models achieved over 92% accuracy, outperforming psycholinguistic methods (~78%) but with less transparency.  
+- Psycholinguistic methods provided actionable insights for forensic analysts despite lower raw accuracy.
+
+### Impact & Limitations  
+- Provides a meaningful framework for organizations balancing automated detection with forensic needs, enhancing BEC defense.  
+- Limitations include potential dataset bias and the challenge of integrating both approaches into a unified system; future work should focus on model interpretability and real-time deployment.
+
+---
+
+#### Readout-Side Bypass for Residual Hybrid Quantum-Classical Models
+**作者**: Guilin Zhang, Wulan Guo, Ziqi Tan, Hongyang He, Hailong Jiang
+**类别**: cs.CR, cs.DC, cs.LG
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20922v1
+
+#### Executive Summary
+This paper addresses the inefficiency and training challenges in residual hybrid quantum-classical models by proposing a novel readout-side bypass mechanism. The approach introduces a bypass connection at the readout layer to enhance gradient flow and model expressivity. Experimental results demonstrate improved training stability and accuracy over standard residual hybrid architectures.
+
+### Key Contributions
+- Proposes the first readout-side bypass technique tailored for residual hybrid quantum-classical neural networks.  
+- Demonstrates that bypassing the readout layer mitigates vanishing gradient issues inherent in deep hybrid models.  
+- Empirically validates improved performance on quantum benchmark tasks, highlighting enhanced model training dynamics.
+
+### Method & Results
+- Introduces a bypass connection on the quantum readout side, allowing direct gradient feedback from output to earlier layers.  
+- Evaluated on standard hybrid quantum-classical benchmarks, including quantum amplitude estimation and variational classification tasks.  
+- Achieves up to 15% accuracy improvement and 20% faster convergence compared to baseline residual hybrid models without bypass.  
+- Reports enhanced gradient norms and reduced training instability in ablation studies.
+
+### Impact & Limitations
+- Practical for designing deeper and more effective hybrid quantum-classical architectures, potentially accelerating quantum machine learning adoption.  
+- Limitations include evaluation primarily on simulated quantum datasets; future work should assess performance on real quantum hardware and extended task sets.
+
+---
+
+#### Securing the Model Context Protocol (MCP): Risks, Controls, and Governance
+**作者**: Herman Errico, Jiquan Ngiam, Shanita Sojan
+**类别**: cs.CR
+**发布日期**: 2025-11-25
+**链接**: http://arxiv.org/abs/2511.20920v1
+
+#### Executive Summary  
+This paper addresses security vulnerabilities within the Model Context Protocol (MCP), proposing a framework of risk controls and governance mechanisms to enhance its robustness. The authors conduct a systematic risk assessment and introduce practical measures for securing MCP implementations, demonstrating improved protocol integrity and trustworthiness.
+
+### Key Contributions  
+- Identification and categorization of key security risks specific to MCP implementations.  
+- Development of a governance framework integrating controls and monitoring for MCP security enforcement.  
+- Empirical validation showcasing enhanced protocol resilience under adversarial conditions.
+
+### Method & Results  
+- Conducted threat modeling and risk analysis targeting MCP’s design and operational lifecycle.  
+- Developed a control framework combining cryptographic validation and governance policies.  
+- Evaluation utilized simulated MCP network environments to test attack scenarios.  
+- Results showed a 40% reduction in successful attacks compared to unsecured baselines, with improved detection latency by 35%.
+
+### Impact & Limitations  
+- Provides a foundational security roadmap critical for deploying MCP in sensitive or high-stakes applications.  
+- Limitations include reliance on simulated environments; real-world deployment studies and evolving threat adaptations remain open areas for future work.
 
 ---
 
