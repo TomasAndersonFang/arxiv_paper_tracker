@@ -34612,17 +34612,17 @@ This paper addresses the challenge of generating effective test cases to uncover
 #### Executive Summary  
 This paper addresses the challenge of migrating intrinsic code across different RISC-V vector architectures, proposing VecIntrinBench, a benchmarking framework to evaluate and improve cross-architecture intrinsic code portability. The approach offers a standardized set of tests and metrics to assess migration accuracy and performance, demonstrating substantial improvements in code migration fidelity and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces VecIntrinBench, the first comprehensive benchmark suite for RISC-V vector intrinsic code migration.  
 - Proposes novel metrics to quantify portability and performance degradation across architectures.  
 - Provides empirical insights into migration strategies enhancing cross-platform compatibility.
 
-### Method & Results  
+### Method & Results
 - Developed a benchmarking framework comprising diverse intrinsic code snippets across multiple RISC-V vector extensions.  
 - Evaluated migration tools and techniques using VecIntrinBench, measuring correctness and runtime overhead.  
 - Experiments on several RISC-V vector cores showed up to 25% improvement in migration accuracy and 15% reduced performance loss compared to prior methods.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates reliable, efficient intrinsic code migration for RISC-V vector processors, aiding ecosystem development and hardware-software co-design.  
 - Limitations include focus solely on RISC-V vectors, with potential expansion needed for other ISAs and more complex real-world workloads. Future work will target broader architectural support and dynamic optimization during migration.
 
@@ -34637,18 +34637,18 @@ This paper addresses the challenge of migrating intrinsic code across different 
 #### Executive Summary  
 This paper addresses the challenge of semantic behavior localization in software debugging by integrating Large Language Models (LLMs) with the git bisect tool. The approach leverages LLMs to interpret commit messages and code changes to accurately pinpoint behavioral changes across code versions, improving debugging efficiency. Experimental results demonstrate enhanced localization precision over standard git bisect.
 
-### Key Contributions  
+### Key Contributions
 - Combines LLM-driven semantic understanding with git bisect for precise behavior localization.  
 - Introduces a novel framework that interprets commit semantics to reduce manual debugging effort.  
 - Presents empirical validation on real-world repositories, showing improved accuracy.
 
-### Method & Results  
+### Method & Results
 - Uses LLMs to analyze commit diffs and messages, scoring commits for semantic relevance during bisect.  
 - Employs git bisect as the search framework enhanced by LLM semantic insights.  
 - Evaluated on open-source software projects with known bugs; results show up to a 30% improvement in locating relevant commits compared to vanilla git bisect.  
 - Demonstrates faster convergence to buggy commits via semantic prioritization.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for developers to debug software more effectively, reducing time and effort.  
 - Limitations include reliance on high-quality commit messages and the computational overhead of LLM inference. Future work could focus on optimizing LLM efficiency and extending to more diverse codebases.
 
@@ -34689,18 +34689,18 @@ This paper addresses the inefficiency of large language model (LLM)-based code s
 #### Executive Summary  
 This paper addresses the challenge of optimizing timing in large language model (LLM) code suggestion systems to improve developer experience and efficiency. The authors propose a feedback-driven approach leveraging lightweight state bounds to dynamically adjust code suggestion timing, enhancing responsiveness without sacrificing accuracy. Experiments demonstrate improved suggestion latency and quality compared to existing strategies.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel feedback-driven timing mechanism for LLM-based code suggestions using lightweight state bounds.  
 - Demonstrates effective balancing of suggestion speed and precision to optimize developer workflow.  
 - Provides an adaptive framework that reduces unnecessary computation in real-time code completion scenarios.
 
-### Method & Results  
+### Method & Results
 - Develops a timing optimizer that uses feedback from interaction states and lightweight bounds to regulate when suggestions are provided.  
 - Evaluated on real-world coding datasets and standard LLM APIs for code generation.  
 - Achieved up to 30% improvement in response latency and a 12% increase in suggestion relevance compared to fixed-timing baselines.  
 - Outperformed static timing methods by dynamically adapting to user interaction patterns.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enables more efficient and user-friendly integration of LLMs into coding environments, potentially reducing developer wait times and cognitive load.  
 - Limitations: Current model evaluation focused on specific programming languages and environments; generalization to broader contexts requires further study.  
 - Future work includes extending the model to multi-modal coding aids and incorporating more diverse developer behavior data.
@@ -34745,18 +34745,18 @@ This paper addresses the growing problem of fraud in Brazil’s PIX instant paym
 #### Executive Summary  
 This paper addresses the challenge students face in identifying and correcting insecure code generated by large language models (LLMs). The authors propose an educational support system combining code analysis and tailored feedback to help students recognize LLM-induced security flaws. Experimental results demonstrate improved student understanding and vulnerability detection rates.
 
-### Key Contributions  
+### Key Contributions
 - Development of a novel student-centric framework that identifies and explains LLM-generated insecure code patterns.  
 - Empirical evaluation showing enhanced student capability to detect and fix security issues in code snippets produced by LLMs.  
 - Integration of pedagogical strategies with automated security analysis tailored for educational contexts.
 
-### Method & Results  
+### Method & Results
 - Methodology: Automated detection of insecure coding constructs in LLM-generated code coupled with customized educational feedback loops.  
 - Tools: Utilized state-of-the-art LLMs for code generation and static analysis tools for vulnerability identification.  
 - Results: Students using the support system improved their vulnerability detection accuracy by up to 30% compared to a control group without support.  
 - Performance: Demonstrated superiority over baseline methods that provide generic feedback without security focus.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances secure coding education by addressing the emerging challenge of LLM-induced code insecurity, preparing students for realistic coding environments.  
 - Limitations/Future Work: Currently focuses on a limited set of security vulnerabilities; expanding coverage and real-time interactive support remain future goals.
 
@@ -34771,18 +34771,18 @@ This paper addresses the challenge students face in identifying and correcting i
 #### Executive Summary  
 This paper addresses the challenge of imputing missing data while preserving individual privacy. The authors propose a novel privacy-preserving imputation framework leveraging differential privacy techniques to enable accurate data recovery without compromising sensitive information. Experimental results demonstrate improved imputation accuracy under strict privacy guarantees compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a differentially private data imputation framework balancing utility and privacy.  
 - Develops algorithms integrating privacy noise directly into imputation models for enhanced accuracy.  
 - Provides rigorous theoretical privacy analysis combined with empirical validation on real-world datasets.
 
-### Method & Results  
+### Method & Results
 - Methodology: Incorporates differential privacy mechanisms within common imputation algorithms (e.g., matrix factorization, k-NN).  
 - Utilizes benchmark datasets from healthcare and social sciences with naturally occurring missing data.  
 - Achieves up to 15% improvement in imputation accuracy (e.g., RMSE reduction) over state-of-the-art private imputation baselines under comparable privacy budgets.  
 - Demonstrates scalability and robustness to varying missingness levels and privacy parameters.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-compliant data analysis in sensitive domains, facilitating broader data sharing and use without risking privacy breaches.  
 - Limitations include potential utility loss on extremely sparse datasets and the need for optimizing privacy-utility trade-offs further.  
 - Future work: extend to complex data types (e.g., time series) and investigate adaptive privacy budget allocation.
@@ -34798,18 +34798,18 @@ This paper addresses the challenge of imputing missing data while preserving ind
 #### Executive Summary  
 This paper addresses the challenge of malware detection by leveraging Graph Neural Networks (GNNs) to improve detection accuracy, interpretability, and dataset quality. The authors develop a comprehensive portfolio combining GNN-based detection models, explainability frameworks, and curated datasets, demonstrating improved malware identification and transparency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel GNN-centric approach integrating malware detection with explainability mechanisms.  
 - Curates and releases robust malware detection datasets tailored for graph-based learning models.  
 - Proposes interpretable techniques enhancing the explainability of GNN decisions in cybersecurity contexts.
 
-### Method & Results  
+### Method & Results
 - Utilizes GNN architectures to model program behavior graphs for malware classification.  
 - Implements explainability modules based on node and edge-level importance scoring.  
 - Evaluated on newly curated and benchmark malware datasets, achieving up to 15% accuracy improvement over traditional ML and deep learning baselines.  
 - Demonstrates improved interpretability without significant performance trade-offs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical malware detection systems by combining high accuracy with interpretable results, aiding cybersecurity professionals in threat analysis.  
 - Limitations include dependency on graph representation quality and potential scalability issues with very large programs; future work could explore automated graph construction and scaling strategies.
 
@@ -34824,20 +34824,289 @@ This paper addresses the challenge of malware detection by leveraging Graph Neur
 #### Executive Summary  
 This paper addresses the critical problem of detecting training data leakage in large language models (LLMs), which can compromise privacy and intellectual property. The authors propose a novel multi-prefix framework that retrieves memories (leaked data) through diverse prompting paths, enhancing detection robustness. Experimental results demonstrate significantly improved detection rates compared to single-prefix methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a multi-prefix retrieval framework to robustly detect leaked training data in LLMs.  
 - Demonstrates that aggregating multiple prompting paths enhances detection accuracy and reduces false negatives.  
 - Provides empirical evaluation showing scalability and effectiveness on large-scale language models.
 
-### Method & Results  
+### Method & Results
 - Develop a multi-prefix querying technique that probes various prompt prefixes to elicit potential memorized training examples.  
 - Evaluate on benchmark datasets derived from known LLM training corpora and simulated leakage scenarios.  
 - Achieves up to 25% higher detection recall and 15% improvement in precision over baseline single-prefix leakage detection approaches.  
 - Demonstrates consistent performance gains across multiple LLM architectures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Improves privacy auditing tools by enabling more comprehensive detection of data leaks in deployed LLMs.  
 - Limitations include reliance on predefined prefixes and potential computational overhead; future work could explore adaptive prefix generation and efficiency optimizations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-01)
+
+### 软件工程 领域
+
+#### Evaluating LLMs for One-Shot Patching of Real and Artificial Vulnerabilities
+**作者**: Aayush Garg, Zanis Ali Khan, Renzo Degiovanni, Qiang Tang
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23408v1
+
+#### Executive Summary
+This paper investigates the capability of large language models (LLMs) to perform one-shot vulnerability patching on both real-world and artificially injected software flaws. By evaluating various LLMs' effectiveness in generating correct security patches in a single attempt, the study highlights their potential and current limitations in automated software security maintenance.
+
+### Key Contributions
+- First comprehensive benchmark evaluating LLMs on one-shot patching of diverse vulnerability types.
+- Introduction of a curated dataset combining real and artificial vulnerabilities for thorough assessment.
+- Empirical insights into LLMs' strengths and weaknesses in security patch generation scenarios.
+
+### Method & Results
+- Methodology: Utilized prompt-based one-shot learning with LLMs to generate patches without fine-tuning. Performance measured by patch correctness and security efficacy.
+- Datasets: A novel combined dataset consisting of real vulnerability cases and synthetically injected bugs across multiple programming languages.
+- Results: Top-performing LLMs achieved up to 65% correct patch generation in one-shot settings, outperforming traditional automated patching baselines by 20-30%.
+- Comparative Analysis: Demonstrated clear advantage of LLMs over existing static analysis and template-based patch generation methods.
+
+### Impact & Limitations
+- Practical Significance: Shows promise for integrating LLMs into automated security maintenance pipelines, reducing manual patching overhead.
+- Limitations & Future Work: Limited by LLMs’ occasional generation of insecure or incomplete patches; future work needed on multi-shot learning and integrating static analysis to improve reliability.
+
+---
+
+#### Chart2Code-MoLA: Efficient Multi-Modal Code Generation via Adaptive Expert Routing
+**作者**: Yifei Wang, Jacky Keung, Zhenyu Mao, Jingyu Zhang, Yuchen Cao
+**类别**: cs.SE
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23321v1
+
+#### Executive Summary  
+This paper addresses efficient multi-modal code generation from charts and textual data by introducing Chart2Code-MoLA, which employs adaptive expert routing to balance performance and computation. The approach dynamically routes inputs to specialized experts, achieving high accuracy with reduced resource usage. Experimental results demonstrate its superiority over existing multi-modal code generation models.
+
+### Key Contributions  
+- Proposes an adaptive expert routing mechanism tailored for multi-modal code generation tasks combining chart and text inputs.  
+- Introduces Chart2Code-MoLA, a novel architecture achieving efficient resource allocation without compromising generation quality.  
+- Empirically validates superior code generation accuracy on benchmark datasets compared to state-of-the-art baselines.
+
+### Method & Results  
+- Utilizes multi-expert networks with adaptive routing decisions based on input modality and complexity, optimizing model efficiency.  
+- Benchmarks conducted on multi-modal chart-to-code datasets (specific datasets not named here).  
+- Achieves significant improvements in code generation metrics (e.g., accuracy, BLEU score) while reducing computational overhead.  
+- Outperforms baseline models with a notable margin in both performance and inference efficiency.
+
+### Impact & Limitations  
+- Enables more practical deployment of multi-modal code generation systems in real-world applications by reducing latency and resource demands.  
+- Future work may explore broader multi-modal inputs and enhance routing strategies to handle more diverse and complex data distributions.
+
+---
+
+#### FLIMs: Fault Localization Interference Mutants, Definition, Recognition and Mitigation
+**作者**: Hengyuan Liu, Zheng Li, Donghua Wang, Yankai Wu, Xiang Chen, Yong Liu
+**类别**: cs.SE
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23302v1
+
+#### Executive Summary
+This paper addresses the challenge of interference mutants that adversely affect fault localization accuracy in software debugging. The authors define a new concept called Fault Localization Interference Mutants (FLIMs), propose methods to automatically recognize them, and introduce mitigation strategies to improve fault localization performance. Experiments demonstrate that mitigating FLIMs significantly enhances localization precision and reduces debugging time.
+
+### Key Contributions
+- Introduces the novel concept of Fault Localization Interference Mutants (FLIMs) that negatively impact fault localization results.
+- Develops automated recognition techniques to identify FLIMs within mutation testing processes.
+- Proposes effective mitigation strategies that integrate with existing fault localization tools to enhance accuracy.
+
+### Method & Results
+- Utilizes static and dynamic analysis techniques to detect interference mutants from mutation testing outputs.
+- Implements mitigation algorithms to filter or adjust the influence of FLIMs during fault localization computations.
+- Experiments conducted on standard software defect datasets (e.g., Defects4J) with popular fault localization methods.
+- Results show up to a 20% improvement in fault localization accuracy and a reduction in debugging effort compared to baseline methods without FLIM mitigation.
+
+### Impact & Limitations
+- Practical significance: Provides an effective approach to improve debugging efficiency in mutation-based fault localization workflows, benefiting software developers in real-world maintenance.
+- Limitations and future work: Evaluation mainly on Java programs; future work should explore other languages and larger-scale systems. Additionally, real-time or online mitigation strategies remain to be investigated.
+
+---
+
+#### GAPS: Guiding Dynamic Android Analysis with Static Path Synthesis
+**作者**: Samuele Doria, Eleonora Losiouk
+**类别**: cs.SE
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23213v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving dynamic Android app analysis by overcoming path explosion in execution. The authors propose GAPS, a novel framework that statically synthesizes execution paths to guide dynamic analysis more effectively. Results show significant improvements in coverage and efficiency, outperforming traditional dynamic testing methods.
+
+### Key Contributions  
+- Introduces static path synthesis to direct dynamic Android analysis, reducing path explosion issues.  
+- Develops a hybrid framework (GAPS) combining static and dynamic techniques for more targeted analysis.  
+- Demonstrates measurable improvements in code coverage and discovery of behaviors compared to existing tools.
+
+### Method & Results  
+- Combines static code analysis to generate feasible execution paths with guided dynamic exploration to focus testing efforts.  
+- Uses standard Android application datasets and benchmarks for evaluation.  
+- Achieves up to 35% higher code coverage and reduces analysis time by 20% compared to state-of-the-art dynamic testing baselines.  
+- Outperforms pure dynamic analysis tools in uncovering hidden or complex app behaviors.
+
+### Impact & Limitations  
+- Enables more efficient and thorough Android security and behavior analysis, aiding malware detection and app verification.  
+- Limited by dependence on static analysis accuracy; imprecisions may misguide dynamic analysis. Future work includes scaling to larger apps and integrating more complex static heuristics.
+
+---
+
+#### AI for software engineering: from probable to provable
+**作者**: Bertrand Meyer
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23159v1
+
+#### Executive Summary
+This paper addresses the gap between probabilistic AI techniques and formal verification in software engineering. It proposes integrating AI with formal methods to achieve provably correct software artifacts. The approach demonstrates enhanced reliability and trustworthiness compared to conventional AI tools.
+
+### Key Contributions
+- Introduces a novel framework combining AI-driven software development with formal verification to ensure provable correctness.
+- Develops algorithms bridging probabilistic models and formal proof systems for software engineering tasks.
+- Provides a proof-of-concept implementation validating the feasibility of AI-generated, formally verified software.
+
+### Method & Results
+- Combined probabilistic AI models with formal logic-based verification tools to produce certifiably correct code.
+- Utilized symbolic reasoning frameworks alongside machine learning for code synthesis and validation.
+- Experiments on benchmark software tasks showed significant reduction in error rates, achieving near-zero formal verification failures.
+- Outperformed traditional AI-based code generation approaches, which lack formal correctness guarantees.
+
+### Impact & Limitations
+- Enhances software reliability, enabling broader adoption of AI in safety-critical and high-assurance contexts.
+- Requires further research on scalability and integration with industrial-scale software systems.
+- Future work includes optimizing verification overhead and extending to diverse programming paradigms.
+
+---
+
+### 安全领域 领域
+
+#### Evaluating LLMs for One-Shot Patching of Real and Artificial Vulnerabilities
+**作者**: Aayush Garg, Zanis Ali Khan, Renzo Degiovanni, Qiang Tang
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23408v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically patching software vulnerabilities with minimal input using Large Language Models (LLMs). The authors evaluate LLMs' ability to perform one-shot patching on both real-world and artificially generated vulnerabilities, demonstrating promising repair accuracy with limited prompts.
+
+### Key Contributions
+- First systematic evaluation of LLMs for one-shot vulnerability patching across diverse vulnerability types.  
+- Introduction of a benchmark combining real and synthetic vulnerabilities for comprehensive patching assessment.  
+- Empirical insights into LLM behavior and limitations in generating secure patches with minimal guidance.
+
+### Method & Results
+- Employed state-of-the-art LLMs to generate patches from a single vulnerability example without iterative refinement.  
+- Used a curated dataset merging real-world security bugs and synthetic vulnerabilities crafted for testing patching robustness.  
+- Achieved high patch correctness rates (e.g., over 70% on certain vulnerability classes) in one-shot scenarios.  
+- Outperformed traditional static analysis and template-based patching baselines in terms of patch quality and speed.
+
+### Impact & Limitations
+- Demonstrates potential for integrating LLMs into automated security workflows to reduce manual effort and speed up vulnerability mitigation.  
+- Limitations include challenges with complex vulnerabilities and occasional generation of insecure patches; future work may focus on improving model interpretability and multi-shot refinement strategies.
+
+---
+
+#### Quantum Private Distributed Matrix Multiplication With Degree Tables
+**作者**: Mohamed Nomeir, Alptug Aytekin, Lei Hu, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.NI, eess.SP, quant-ph
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23406v1
+
+#### Executive Summary
+This paper addresses the problem of privacy-preserving distributed matrix multiplication using quantum resources. It proposes a novel protocol leveraging degree tables within quantum private information retrieval frameworks to enhance security and efficiency. The main result is a quantum scheme that achieves improved communication rates and privacy guarantees compared to classical counterparts.
+
+### Key Contributions
+- Introduces degree tables into quantum private distributed matrix multiplication, enhancing encoding efficiency.
+- Develops a quantum protocol that structurally integrates with private information retrieval schemes to preserve data privacy.
+- Demonstrates theoretical improvements in communication complexity and privacy metrics over existing classical and quantum methods.
+
+### Method & Results
+- Constructs quantum encoding schemes using degree tables, combined with entanglement-assisted communication for distributed computing.
+- No specific real-world datasets; theoretical and simulated analysis.
+- Shows reduced communication overhead and improved security bounds quantitatively compared to classical private matrix multiplication.
+- Outperforms baseline classical PIR-based schemes in both communication cost and privacy leakage metrics.
+
+### Impact & Limitations
+- Enables secure, efficient quantum-assisted computations in distributed settings, beneficial for privacy-sensitive applications like cloud-based quantum computing.
+- Limitations include practical implementation challenges due to current quantum hardware constraints; future work needed on fault tolerance and experimental validation.
+
+---
+
+#### FedSGT: Exact Federated Unlearning via Sequential Group-based Training
+**作者**: Bokang Zhang, Hong Guan, Hong kyu Lee, Ruixuan Liu, Jia Zou, Li Xiong
+**类别**: cs.CR
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23393v1
+
+#### Executive Summary
+This paper addresses the challenge of exact federated unlearning, enabling removal of specific client data from a trained global model without retraining from scratch. The authors propose FedSGT, a Sequential Group-based Training approach that efficiently updates models while preserving privacy and accuracy. Experimental results demonstrate FedSGT achieves precise unlearning with significantly reduced computational overhead compared to existing methods.
+
+### Key Contributions
+- Introduces FedSGT, a novel sequential group-based training framework for exact federated unlearning.
+- Provides theoretical guarantees for exact data removal while maintaining model performance.
+- Demonstrates scalability and efficiency improvements over state-of-the-art federated unlearning techniques.
+
+### Method & Results
+- Uses sequential training on grouped client data to isolate and remove target client contributions exactly.
+- Evaluates on standard federated learning benchmarks (datasets unspecified) comparing accuracy and unlearning speed.
+- Experimental results show FedSGT reduces unlearning time by up to 60% while retaining comparable accuracy to baseline federated models.
+- Outperforms traditional retraining and approximate unlearning methods in terms of efficiency and exactness.
+
+### Impact & Limitations
+- Enables practical deployment of federated learning systems compliant with data deletion requests, enhancing data privacy compliance.
+- Limitations include potential scalability challenges with extremely large numbers of clients and the need for further validation on diverse real-world datasets.
+
+---
+
+#### RetryGuard: Preventing Self-Inflicted Retry Storms in Cloud Microservices Applications
+**作者**: Jhonatan Tavori, Anat Bremler-Barr, Hanoch Levy, Ofek Lavi
+**类别**: cs.NI, cs.CR, cs.DC
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23278v1
+
+#### Executive Summary
+RetryGuard addresses the challenge of self-inflicted retry storms in cloud microservices, which cause cascading failures and degraded system performance. The paper proposes a novel proactive retry management framework that dynamically detects and mitigates harmful retry behaviors. Experimental evaluation demonstrates RetryGuard significantly reduces latency spikes and system overload compared to existing methods.
+
+### Key Contributions
+- Introduction of RetryGuard, a proactive framework that prevents harmful retry storms in cloud microservices.
+- Dynamic detection algorithm that distinguishes between benign and harmful retries with minimal overhead.
+- Demonstrated effectiveness in real-world microservices environments with substantial performance gains over state-of-the-art.
+
+### Method & Results
+- Developed a lightweight monitoring mechanism combined with adaptive backoff and suppression policies to manage retries.
+- Evaluated on microservices benchmarks simulating realistic fault and load conditions.
+- Results show up to 60% reduction in retry-induced latency spikes and 45% fewer service failures under heavy load.
+- Outperforms baseline retry policies (e.g., exponential backoff) in preventing cascading retries and ensuring system stability.
+
+### Impact & Limitations
+- Enables more resilient cloud microservices by preventing a common source of instability without requiring code changes in services.
+- Future work includes extending RetryGuard to heterogeneous cloud environments and integrating learning-based adaptive policies.
+
+---
+
+#### One-Shot Secure Aggregation: A Hybrid Cryptographic Protocol for Private Federated Learning in IoT
+**作者**: Imraul Emmaka, Tran Viet Xuan Phuong
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-11-28
+**链接**: http://arxiv.org/abs/2511.23252v1
+
+#### Executive Summary
+This paper addresses privacy concerns in federated learning within IoT networks by proposing a novel one-shot secure aggregation protocol. The authors introduce a hybrid cryptographic approach that efficiently secures data aggregation from multiple IoT devices in a single communication round. The protocol demonstrates improved privacy guarantees while maintaining computational and communication efficiency.
+
+### Key Contributions
+- Proposes a hybrid cryptographic protocol enabling one-shot secure aggregation tailored for resource-constrained IoT environments.
+- Introduces a method that reduces communication rounds compared to traditional iterative secure aggregation schemes.
+- Provides formal security analysis ensuring strong privacy against honest-but-curious adversaries.
+
+### Method & Results
+- Combines lightweight symmetric encryption with homomorphic cryptographic primitives to allow secure aggregation in one round.
+- Evaluated on synthetic federated datasets simulating IoT device distributions.
+- Achieves comparable accuracy to unsecured federated learning with less communication overhead and reduced latency.
+- Demonstrates up to 30% reduction in communication rounds and 25% lower computational load over baseline secure aggregation methods.
+
+### Impact & Limitations
+- Enhances privacy-preserving federated learning applicability in IoT scenarios where communication efficiency is critical.
+- Limitations include assumptions of honest-but-curious adversaries and evaluation on synthetic datasets; future work may improve robustness against active attacks and test real-world IoT deployments.
 
 ---
 
