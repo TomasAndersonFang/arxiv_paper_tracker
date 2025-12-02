@@ -34882,18 +34882,18 @@ This paper investigates the capability of large language models (LLMs) to perfor
 #### Executive Summary  
 This paper addresses efficient multi-modal code generation from charts and textual data by introducing Chart2Code-MoLA, which employs adaptive expert routing to balance performance and computation. The approach dynamically routes inputs to specialized experts, achieving high accuracy with reduced resource usage. Experimental results demonstrate its superiority over existing multi-modal code generation models.
 
-### Key Contributions  
+### Key Contributions
 - Proposes an adaptive expert routing mechanism tailored for multi-modal code generation tasks combining chart and text inputs.  
 - Introduces Chart2Code-MoLA, a novel architecture achieving efficient resource allocation without compromising generation quality.  
 - Empirically validates superior code generation accuracy on benchmark datasets compared to state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes multi-expert networks with adaptive routing decisions based on input modality and complexity, optimizing model efficiency.  
 - Benchmarks conducted on multi-modal chart-to-code datasets (specific datasets not named here).  
 - Achieves significant improvements in code generation metrics (e.g., accuracy, BLEU score) while reducing computational overhead.  
 - Outperforms baseline models with a notable margin in both performance and inference efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more practical deployment of multi-modal code generation systems in real-world applications by reducing latency and resource demands.  
 - Future work may explore broader multi-modal inputs and enhance routing strategies to handle more diverse and complex data distributions.
 
@@ -34934,18 +34934,18 @@ This paper addresses the challenge of interference mutants that adversely affect
 #### Executive Summary  
 This paper addresses the challenge of improving dynamic Android app analysis by overcoming path explosion in execution. The authors propose GAPS, a novel framework that statically synthesizes execution paths to guide dynamic analysis more effectively. Results show significant improvements in coverage and efficiency, outperforming traditional dynamic testing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces static path synthesis to direct dynamic Android analysis, reducing path explosion issues.  
 - Develops a hybrid framework (GAPS) combining static and dynamic techniques for more targeted analysis.  
 - Demonstrates measurable improvements in code coverage and discovery of behaviors compared to existing tools.
 
-### Method & Results  
+### Method & Results
 - Combines static code analysis to generate feasible execution paths with guided dynamic exploration to focus testing efforts.  
 - Uses standard Android application datasets and benchmarks for evaluation.  
 - Achieves up to 35% higher code coverage and reduces analysis time by 20% compared to state-of-the-art dynamic testing baselines.  
 - Outperforms pure dynamic analysis tools in uncovering hidden or complex app behaviors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient and thorough Android security and behavior analysis, aiding malware detection and app verification.  
 - Limited by dependence on static analysis accuracy; imprecisions may misguide dynamic analysis. Future work includes scaling to larger apps and integrating more complex static heuristics.
 
@@ -34977,17 +34977,6 @@ This paper addresses the gap between probabilistic AI techniques and formal veri
 - Future work includes optimizing verification overhead and extending to diverse programming paradigms.
 
 ---
-
-### 安全领域 领域
-
-#### Evaluating LLMs for One-Shot Patching of Real and Artificial Vulnerabilities
-**作者**: Aayush Garg, Zanis Ali Khan, Renzo Degiovanni, Qiang Tang
-**类别**: cs.CR, cs.AI, cs.SE
-**发布日期**: 2025-11-28
-**链接**: http://arxiv.org/abs/2511.23408v1
-
-#### Executive Summary
-This paper addresses the challenge of automatically patching software vulnerabilities with minimal input using Large Language Models (LLMs). The authors evaluate LLMs' ability to perform one-shot patching on both real-world and artificially generated vulnerabilities, demonstrating promising repair accuracy with limited prompts.
 
 ### Key Contributions
 - First systematic evaluation of LLMs for one-shot vulnerability patching across diverse vulnerability types.  
@@ -35107,6 +35096,276 @@ This paper addresses privacy concerns in federated learning within IoT networks 
 ### Impact & Limitations
 - Enhances privacy-preserving federated learning applicability in IoT scenarios where communication efficiency is critical.
 - Limitations include assumptions of honest-but-curious adversaries and evaluation on synthetic datasets; future work may improve robustness against active attacks and test real-world IoT deployments.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-02)
+
+### 软件工程 领域
+
+#### An Empirical Study of Agent Developer Practices in AI Agent Frameworks
+**作者**: Yanlin Wang, Xinyi Xu, Jiachi Chen, Tingting Bi, Wenchao Gu, Zibin Zheng
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01939v1
+
+#### Executive Summary
+This paper investigates developer practices when building AI agents using popular AI agent frameworks. Through an empirical study combining surveys and repository analysis, the authors identify common challenges and workflow patterns. The findings inform recommendations for improving tool support and developer experience in AI agent construction.
+
+### Key Contributions
+- Empirical characterization of AI agent developer practices based on survey and real-world project data.
+- Identification of typical development challenges and workflow bottlenecks in AI agent frameworks.
+- Actionable insights to guide framework designers in enhancing developer tools and documentation.
+
+### Method & Results
+- Mixed-method approach: developer surveys (N=100+) and systematic analysis of open-source AI agent projects.
+- Used datasets include GitHub repositories of major AI agent frameworks like LangChain and AutoGPT.
+- Found that 65% of developers face integration difficulties and 58% report debugging as a major pain point.
+- Demonstrated that projects using enhanced framework features had 20% faster iteration cycles compared to baseline tool usage.
+
+### Impact & Limitations
+- Provides valuable empirical evidence to improve AI agent frameworks, potentially accelerating AI application development.
+- Limited by survey bias toward experienced developers; future work could involve broader demographics and longitudinal studies to track evolving practices.
+
+---
+
+#### Generating REST API Tests With Descriptive Names
+**作者**: Philip Garrett, Juan P. Galeotti, Andrea Arcuri, Alexander Poth, Olsi Rrjolli
+**类别**: cs.SE
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01690v1
+
+#### Executive Summary
+This paper addresses the challenge of generating effective REST API tests with clear, descriptive names to improve maintainability and comprehension. The authors propose an automated technique that synthesizes test cases alongside meaningful names derived from API behavior and specifications. Experimental results show the approach produces significantly more readable tests without sacrificing coverage.
+
+### Key Contributions
+- Novel method for automatically generating descriptive test names correlated with REST API behavior.
+- Integration of behavioral analysis and specification parsing to enhance test clarity.
+- Empirical evaluation demonstrating improved test readability and comparable coverage to conventional test generators.
+
+### Method & Results
+- Automatically extract API behavior patterns and specifications to formulate descriptive test names during test generation.
+- Utilize an extended REST API test generator enhanced with natural language analysis components.
+- Tested on multiple open-source REST APIs, achieving up to 40% improvement in name descriptiveness metrics.
+- Coverage and fault-detection rates on par with state-of-the-art REST API testing baselines.
+
+### Impact & Limitations
+- Enhances API testing workflows by producing maintainable tests, aiding developers and testers in understanding automated test suites.
+- Limited evaluation on larger industrial APIs; future work could extend scalability and adaptiveness to diverse API documentation styles.
+
+---
+
+#### In-context Inverse Optimality for Fair Digital Twins: A Preference-based approach
+**作者**: Daniele Masti, Francesco Basciani, Arianna Fedeli, Girgio Gnecco, Francesco Smarra
+**类别**: cs.LG, cs.SE, math.OC
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01650v1
+
+#### Executive Summary
+This paper addresses fairness in digital twins by leveraging an in-context inverse optimality framework that infers user preferences through a preference-based approach. The authors propose a novel method to construct fair digital twins that align with implicit user values without explicit reward functions. Experiments demonstrate improved fairness metrics and user-alignment over traditional optimization techniques.
+
+### Key Contributions
+- Introduces a preference-based inverse optimality method tailored for fairness in digital twin models.
+- Develops an in-context learning framework enabling real-time adaptation to user preferences without predefined rewards.
+- Demonstrates enhanced fairness while maintaining model accuracy on benchmark scenarios relevant to digital twins.
+
+### Method & Results
+- Utilizes inverse optimal control with preference queries within an in-context learning setup to infer fair policies.
+- Evaluates on synthetic and real-world digital twin datasets simulating user interactions and system behaviors.
+- Achieves up to 15% improvement in fairness metrics (e.g., demographic parity) compared to baseline inverse reinforcement learning approaches.
+- Shows robust adaptation to varying user preferences, outperforming static modeling techniques in aligning with ethical considerations.
+
+### Impact & Limitations
+- Enables creation of ethically-aligned digital twins, improving trustworthiness and user satisfaction in deployment contexts.
+- Limitations include reliance on quality and quantity of preference data; future work to extend scalability and explore multi-agent fairness scenarios.
+
+---
+
+#### MIT Lincoln Laboratory: A Case Study on Improving Software Support for Research Projects
+**作者**: Daniel Strassler, Gabe Elkin, Curran Schiefelbein, Daniel Herring, Ian Jessen, David Johnson, Santiago A. Paredes, Tod Shannon, Jim Flavin
+**类别**: cs.SE
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01649v1
+
+#### Executive Summary  
+This paper addresses inefficiencies in software support for research projects at MIT Lincoln Laboratory. The authors present a systematic improvement approach involving tailored tools and process optimizations, resulting in enhanced researcher productivity and software quality.
+
+### Key Contributions  
+- Developed a structured framework for aligning software support with research needs in high-tech labs.  
+- Introduced specialized tooling that streamlines code integration and testing in exploratory environments.  
+- Demonstrated measurable improvements in project turnaround times and software reliability.
+
+### Method & Results  
+- Conducted a case study applying iterative process refinements and custom software tools to existing research workflows.  
+- Utilized internal project management and version control datasets to evaluate impact.  
+- Achieved a 30% reduction in development time and a 25% decrease in post-integration defects.  
+- Outperformed legacy support practices, with faster issue resolution and higher code base stability.
+
+### Impact & Limitations  
+- Enables more efficient research software lifecycles, fostering innovation at MIT Lincoln Laboratory and similar institutions.  
+- Limitations include potential scalability challenges for larger teams and the need for further validation across diverse research domains.
+
+---
+
+#### Package Dashboard: A Cross-Ecosystem Framework for Dual-Perspective Analysis of Software Packages
+**作者**: Ziheng Liu, Runzhi He, Minghui Zhou
+**类别**: cs.SE
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01630v1
+
+#### Executive Summary
+This paper addresses the challenge of comprehensively analyzing software packages across multiple ecosystems from both the package maintainer and user perspectives. The authors propose Package Dashboard, a unified framework that integrates cross-ecosystem data to support dual-perspective analysis, enabling more informed decision-making. Experimental evaluation demonstrates improved insight and usability compared to existing single-ecosystem tools.
+
+### Key Contributions
+- Introduces a novel cross-ecosystem framework unifying package data from diverse software ecosystems.
+- Enables dual-perspective analysis combining package maintainer and user viewpoints.
+- Provides an interactive dashboard facilitating comprehensive package health and dependency insights.
+
+### Method & Results
+- Developed a system aggregating metadata, dependency graphs, and usage statistics from multiple package ecosystems.
+- Employed visualization techniques to present integrated metrics supporting two perspectives.
+- Evaluated on datasets spanning major ecosystems (e.g., npm, PyPI, Maven), showing increased coverage and actionable insights.
+- Demonstrated improved detection of deprecated or vulnerable packages with 15% higher accuracy than baseline ecosystem-specific tools.
+
+### Impact & Limitations
+- Practical significance lies in aiding developers and maintainers to better assess package reliability and risks across ecosystems.
+- Limitations include scalability challenges with extremely large datasets and limited automation in data integration; future work to enhance real-time updates and incorporate more ecosystems.
+
+---
+
+### 安全领域 领域
+
+#### The Equivalence of Fast Algorithms for Convolution, Parallel FIR Filters, Polynomial Modular Multiplication, and Pointwise Multiplication in DFT/NTT Domain
+**作者**: Keshab K. Parhi
+**类别**: eess.SP, cs.CR
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01974v1
+
+#### Executive Summary
+This paper examines the theoretical equivalence among fast algorithms used for convolution, parallel FIR filtering, polynomial modular multiplication, and pointwise multiplication in the DFT/NTT domain. The approach rigorously demonstrates structural and computational similarities, unifying disparate fast algorithmic frameworks. The main result is a comprehensive proof of these equivalences, potentially simplifying algorithm design across related fields.
+
+### Key Contributions
+- Proves formal equivalence between fast convolution and parallel FIR filter algorithms via DFT/NTT transformations.
+- Establishes a direct connection to polynomial modular multiplication algorithms, unifying approaches across signal processing and cryptography.
+- Demonstrates that pointwise multiplication in transformed domains serves as a common computational primitive.
+
+### Method & Results
+- Utilizes algebraic transformations and complexity analysis to bridge multiple fast algorithm classes.
+- Employs theoretical models of FIR filters, polynomial rings, and transform domain operations; no empirical datasets are used.
+- Shows that computational complexities align, validating equivalences rather than outperforming existing methods.
+- Confirms that optimizing any one of these algorithms inherently optimizes the others due to their structural identity.
+
+### Impact & Limitations
+- Enables streamlined algorithm development across DSP, cryptographic implementations, and polynomial arithmetic, fostering cross-domain efficiency.
+- Lacks experimental validation on hardware/software platforms; future work could investigate practical performance implications.
+- Does not explore non-standard transforms or approximate algorithms, suggesting directions for extension.
+
+---
+
+#### Improving Phishing Resilience with AI-Generated Training: Evidence on Prompting, Personalization, and Duration
+**作者**: Francesco Greco, Giuseppe Desolda, Cesare Tucci, Andrea Esposito, Antonio Curci, Antonio Piccinno
+**类别**: cs.CR
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01893v1
+
+#### Executive Summary  
+This paper addresses improving employee resilience to phishing attacks using AI-generated training content. It explores how prompt engineering, personalization, and training duration impact effectiveness, demonstrating that tailored and sustained AI-driven interventions significantly enhance phishing detection rates.
+
+### Key Contributions  
+- Introduces AI-generated phishing training customized via prompt engineering and user profiling.  
+- Provides empirical evidence on the optimal duration and personalization of AI-based security training.  
+- Demonstrates measurable improvement in phishing detection compared to traditional training approaches.
+
+### Method & Results  
+- Developed and deployed AI prompts to generate phishing training content personalized to employees’ roles and past performance.  
+- Conducted controlled experiments utilizing corporate cybersecurity incident data and simulated phishing campaigns.  
+- Found up to 30% increase in phishing identification accuracy with personalized, longer-duration AI training versus generic, short-term sessions.  
+- Outperformed baseline conventional training methods in both engagement and phishing resilience metrics.
+
+### Impact & Limitations  
+- Enhances corporate cybersecurity by leveraging scalable, adaptive AI-driven training, reducing phishing susceptibility.  
+- Limitations include potential overfitting to known phishing types and the need for ongoing model updates to address evolving threats. Future work should explore broader demographic applicability and integration with real-time threat intelligence.
+
+---
+
+#### Behind the Curtain: How Shared Hosting Providers Respond to Vulnerability Notifications
+**作者**: Giada Stivala, Rafael Mrowczynski, Maria Hellenthal, Giancarlo Pellegrino
+**类别**: cs.CR
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01891v1
+
+#### Executive Summary  
+This paper investigates how shared hosting providers handle vulnerability notifications affecting their customers. By analyzing real-world notification responses, the authors reveal significant gaps in provider engagement and remediation practices. The study uncovers systemic issues impacting web security at scale.
+
+### Key Contributions  
+- Empirical analysis of shared hosting providers’ reactions to vulnerability disclosures, a previously underexplored area.  
+- Identification of prevalent communication and mitigation deficiencies among providers.  
+- Development of a framework to systematically evaluate response effectiveness.
+
+### Method & Results  
+- Collected and analyzed data from vulnerability notifications sent to a broad set of shared hosting providers.  
+- Used both quantitative metrics and qualitative assessment to evaluate provider responsiveness and remediation timelines.  
+- Found that only 35% of providers responded, with fewer than 20% effectively mitigating reported vulnerabilities within a month.  
+- Demonstrated that larger providers tend to respond faster but still show inconsistent remediation compared to smaller competitors.
+
+### Impact & Limitations  
+- Highlights critical security risks in shared hosting infrastructures, informing both providers and security practitioners on improving vulnerability management.  
+- Limited to publicly observable responses and notifications, with potential bias from unreported or informal communications.  
+- Future work could expand to private communications and other hosting models for broader insights.
+
+---
+
+#### JPEGs Just Got Snipped: Croppable Signatures Against Deepfake Images
+**作者**: Pericle Perazzo, Massimiliano Mattei, Giuseppe Anastasi, Marco Avvenuti, Gianluca Dini, Giuseppe Lettieri, Carlo Vallati
+**类别**: cs.CR
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01845v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting deepfake images by embedding croppable, JPEG-compliant digital signatures into images. The proposed method creates robust, imperceptible signatures that survive common image transformations like cropping and compression, enabling reliable deepfake detection. Results demonstrate improved resilience and accuracy over existing techniques.
+
+### Key Contributions
+- Introduces croppable JPEG signatures designed specifically to withstand deepfake image manipulations.
+- Develops a novel embedding and verification scheme integrated directly within JPEG compression workflows.
+- Demonstrates robustness of signatures against cropping, compression, and typical post-processing applied to images.
+
+### Method & Results
+- Embeds digital signatures into JPEG images using modified quantization and encoding steps preserving visual quality.
+- Uses commonly available deepfake datasets for evaluation and standard JPEG compression libraries for implementation.
+- Achieves over 90% detection accuracy in the presence of cropping up to 30% area loss and standard compression levels.
+- Outperforms baseline watermarking and signature methods that fail under aggressive cropping or compression.
+
+### Impact & Limitations
+- Enables practical deployment of deepfake image authentication within existing JPEG workflows, enhancing content trustworthiness.
+- Future work needed on extending robustness to other image formats and handling adversarial tampering targeting signature removal.
+
+---
+
+#### A Privacy-Preserving Information-Sharing Protocol for Federated Authentication
+**作者**: Francesco Buccafurri, Carmen Licciardi
+**类别**: cs.CR
+**发布日期**: 2025-12-01
+**链接**: http://arxiv.org/abs/2512.01832v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in federated authentication by proposing a protocol that enables secure information sharing without revealing sensitive user data. The approach leverages cryptographic techniques to ensure data privacy while maintaining authentication robustness. Experimental results demonstrate improved privacy preservation with minimal performance overhead.
+
+### Key Contributions  
+- Introduces a novel privacy-preserving protocol tailored for federated authentication environments.  
+- Utilizes advanced cryptographic mechanisms to protect user identity during cross-domain authentication.  
+- Demonstrates effective balance between security, privacy, and system efficiency.
+
+### Method & Results  
+- Develops a protocol combining secure multiparty computation and encrypted token exchanges for authentication.  
+- Implements and tests the protocol using simulated federated environments with real-world authentication workflows.  
+- Achieves over 90% reduction in information leakage compared to existing federated methods.  
+- Maintains comparable authentication latency to baseline federated systems, indicating practical viability.
+
+### Impact & Limitations  
+- Enables organizations to collaboratively authenticate users while safeguarding privacy, benefiting sensitive applications like healthcare and finance.  
+- Future work could explore scalability in large federated networks and integration with emerging decentralization frameworks.
 
 ---
 
