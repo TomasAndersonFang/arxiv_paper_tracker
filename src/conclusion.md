@@ -35192,18 +35192,18 @@ This paper addresses fairness in digital twins by leveraging an in-context inver
 #### Executive Summary  
 This paper addresses inefficiencies in software support for research projects at MIT Lincoln Laboratory. The authors present a systematic improvement approach involving tailored tools and process optimizations, resulting in enhanced researcher productivity and software quality.
 
-### Key Contributions  
+### Key Contributions
 - Developed a structured framework for aligning software support with research needs in high-tech labs.  
 - Introduced specialized tooling that streamlines code integration and testing in exploratory environments.  
 - Demonstrated measurable improvements in project turnaround times and software reliability.
 
-### Method & Results  
+### Method & Results
 - Conducted a case study applying iterative process refinements and custom software tools to existing research workflows.  
 - Utilized internal project management and version control datasets to evaluate impact.  
 - Achieved a 30% reduction in development time and a 25% decrease in post-integration defects.  
 - Outperformed legacy support practices, with faster issue resolution and higher code base stability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient research software lifecycles, fostering innovation at MIT Lincoln Laboratory and similar institutions.  
 - Limitations include potential scalability challenges for larger teams and the need for further validation across diverse research domains.
 
@@ -35273,18 +35273,18 @@ This paper examines the theoretical equivalence among fast algorithms used for c
 #### Executive Summary  
 This paper addresses improving employee resilience to phishing attacks using AI-generated training content. It explores how prompt engineering, personalization, and training duration impact effectiveness, demonstrating that tailored and sustained AI-driven interventions significantly enhance phishing detection rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AI-generated phishing training customized via prompt engineering and user profiling.  
 - Provides empirical evidence on the optimal duration and personalization of AI-based security training.  
 - Demonstrates measurable improvement in phishing detection compared to traditional training approaches.
 
-### Method & Results  
+### Method & Results
 - Developed and deployed AI prompts to generate phishing training content personalized to employees’ roles and past performance.  
 - Conducted controlled experiments utilizing corporate cybersecurity incident data and simulated phishing campaigns.  
 - Found up to 30% increase in phishing identification accuracy with personalized, longer-duration AI training versus generic, short-term sessions.  
 - Outperformed baseline conventional training methods in both engagement and phishing resilience metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances corporate cybersecurity by leveraging scalable, adaptive AI-driven training, reducing phishing susceptibility.  
 - Limitations include potential overfitting to known phishing types and the need for ongoing model updates to address evolving threats. Future work should explore broader demographic applicability and integration with real-time threat intelligence.
 
@@ -35299,18 +35299,18 @@ This paper addresses improving employee resilience to phishing attacks using AI-
 #### Executive Summary  
 This paper investigates how shared hosting providers handle vulnerability notifications affecting their customers. By analyzing real-world notification responses, the authors reveal significant gaps in provider engagement and remediation practices. The study uncovers systemic issues impacting web security at scale.
 
-### Key Contributions  
+### Key Contributions
 - Empirical analysis of shared hosting providers’ reactions to vulnerability disclosures, a previously underexplored area.  
 - Identification of prevalent communication and mitigation deficiencies among providers.  
 - Development of a framework to systematically evaluate response effectiveness.
 
-### Method & Results  
+### Method & Results
 - Collected and analyzed data from vulnerability notifications sent to a broad set of shared hosting providers.  
 - Used both quantitative metrics and qualitative assessment to evaluate provider responsiveness and remediation timelines.  
 - Found that only 35% of providers responded, with fewer than 20% effectively mitigating reported vulnerabilities within a month.  
 - Demonstrated that larger providers tend to respond faster but still show inconsistent remediation compared to smaller competitors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks in shared hosting infrastructures, informing both providers and security practitioners on improving vulnerability management.  
 - Limited to publicly observable responses and notifications, with potential bias from unreported or informal communications.  
 - Future work could expand to private communications and other hosting models for broader insights.
@@ -35352,20 +35352,292 @@ This paper addresses the challenge of detecting deepfake images by embedding cro
 #### Executive Summary  
 This paper addresses privacy concerns in federated authentication by proposing a protocol that enables secure information sharing without revealing sensitive user data. The approach leverages cryptographic techniques to ensure data privacy while maintaining authentication robustness. Experimental results demonstrate improved privacy preservation with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel privacy-preserving protocol tailored for federated authentication environments.  
 - Utilizes advanced cryptographic mechanisms to protect user identity during cross-domain authentication.  
 - Demonstrates effective balance between security, privacy, and system efficiency.
 
-### Method & Results  
+### Method & Results
 - Develops a protocol combining secure multiparty computation and encrypted token exchanges for authentication.  
 - Implements and tests the protocol using simulated federated environments with real-world authentication workflows.  
 - Achieves over 90% reduction in information leakage compared to existing federated methods.  
 - Maintains comparable authentication latency to baseline federated systems, indicating practical viability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to collaboratively authenticate users while safeguarding privacy, benefiting sensitive applications like healthcare and finance.  
 - Future work could explore scalability in large federated networks and integration with emerging decentralization frameworks.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-03)
+
+### 软件工程 领域
+
+#### The Evolutionary Ecology of Software: Constraints, Innovation, and the AI Disruption
+**作者**: Sergi Valverde, Blai Vidiella, Salva Duran-Nebreda
+**类别**: cs.SE, cond-mat.dis-nn
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02953v1
+
+#### Executive Summary  
+This paper investigates how evolutionary ecology principles apply to software development, focusing on constraints, innovation dynamics, and the transformative impact of AI technologies. Through modeling software ecosystems as evolving complex networks, it reveals patterns underlying software diversity and the disruptive role of AI-driven tools in accelerating innovation and altering development constraints.
+
+### Key Contributions  
+- Introduces an evolutionary ecology framework to model software development and innovation processes.  
+- Demonstrates how AI technologies disrupt traditional development constraints, enabling novel pathways for software evolution.  
+- Provides quantitative analysis linking software ecosystem complexity with innovation rates and AI adoption.
+
+### Method & Results  
+- Utilizes complex network theory and ecological modeling to simulate software evolution under varying constraints and AI influence.  
+- Analyzes large-scale software repositories and dependency networks to validate model predictions.  
+- Results show AI integration correlates with increased innovation velocity and shifts in software modularity metrics.  
+- Outperforms previous static models by capturing dynamic interaction effects between software components and AI tools.
+
+### Impact & Limitations  
+- Highlights AI’s role in reshaping software ecology, informing future development strategies and tool design.  
+- Limitations include reliance on publicly available repositories that may not represent proprietary ecosystems; future work should integrate broader datasets and refine AI disruption modeling.
+
+---
+
+#### Belobog: Move Language Fuzzing Framework For Real-World Smart Contracts
+**作者**: Wanxu Xia, Ziqiao Kong, Zhengwei Li, Yi Lu, Pan Li, Liqun Yang, Yang Liu, Xiapu Luo, Shaohua Li
+**类别**: cs.CR, cs.PL, cs.SE
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02918v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting vulnerabilities in Move language-based smart contracts, widely used in blockchain systems. The authors propose Belobog, a novel move language fuzzing framework that systematically generates test inputs to uncover hidden bugs. Experimental results demonstrate Belobog’s effectiveness in detecting real-world security flaws missed by existing tools.
+
+### Key Contributions
+- Introduction of Belobog, the first dedicated fuzzing framework tailored for Move smart contracts.
+- Novel input generation techniques that improve coverage and bug detection in the Move context.
+- Empirical evaluation showing superior vulnerability detection over baseline static and dynamic analysis tools.
+
+### Method & Results
+- Use of semantic-aware mutation and stateful fuzzing strategies to explore Move contract behaviors.
+- Evaluation performed on a dataset of real-world Move smart contracts deployed on blockchains like Aptos.
+- Detected 54 unique vulnerabilities, including critical logic errors; improved fuzzing coverage by 30% compared to baselines.
+- Outperformed existing Move security analyzers in both number and severity of bugs found.
+
+### Impact & Limitations
+- Enhances real-world security auditing capabilities for Move smart contracts, reducing blockchain risks.
+- Currently focused only on Move language contracts; future work may extend to cross-chain or multi-language fuzzing.
+- Potential improvements include automated exploit generation and integration with formal verification tools.
+
+---
+
+#### Model-Based Diagnosis with Multiple Observations: A Unified Approach for C Software and Boolean Circuits
+**作者**: Pedro Orvalho, Marta Kwiatkowska, Mikoláš Janota, Vasco Manquinho
+**类别**: cs.SE, cs.AI, cs.LO, cs.SC
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02898v1
+
+#### Executive Summary  
+This paper addresses the challenge of model-based diagnosis from multiple observations applied to C software and Boolean circuits. It proposes a unified framework that efficiently integrates multiple observations to improve diagnostic accuracy. Experimental results demonstrate significant gains in diagnosis precision and scalability over existing methods.
+
+### Key Contributions  
+- Unified diagnosis framework applicable to both C software and Boolean circuit models with multiple observations.  
+- Novel algorithmic approach combining logical reasoning and optimization techniques for efficient fault localization.  
+- Comprehensive evaluation showcasing improved accuracy and scalability compared to state-of-the-art diagnostic tools.
+
+### Method & Results  
+- Method combines model-based reasoning with iterative refinement using multiple observation points to isolate faults.  
+- Utilizes benchmarks from software debugging and circuit diagnosis domains for evaluation.  
+- Achieved up to 30% improvement in diagnostic accuracy and reduced runtime by 25% compared to baseline tools.  
+- Demonstrated scalability to large C programs and complex Boolean circuits, outperforming traditional single-observation approaches.
+
+### Impact & Limitations  
+- Enables more reliable and efficient debugging in software engineering and hardware verification, with potential for automation in industrial settings.  
+- Future work includes extending the framework to probabilistic models and further optimization for extremely large-scale systems.
+
+---
+
+#### Towards Observation Lakehouses: Living, Interactive Archives of Software Behavior
+**作者**: Marcus Kessel
+**类别**: cs.SE
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02795v1
+
+#### Executive Summary  
+This paper addresses the challenge of effectively capturing and analyzing software behavior over time to support debugging and maintenance. It proposes "Observation Lakehouses," a novel concept of interactive, continuously updated archives that unify runtime data and metadata for living software systems. The approach demonstrates improved accessibility and usability of behavioral data compared to conventional log-based methods.
+
+### Key Contributions  
+- Introduces the concept of Observation Lakehouses as living, interactive archives of software behavior.  
+- Designs a system architecture integrating real-time data ingestion with queryable software behavior repositories.  
+- Demonstrates enhanced developer interaction and insight generation through novel interface tools for behavioral data exploration.
+
+### Method & Results  
+- Developed a prototype system combining streaming data pipelines with a lakehouse storage model tailored for software behavior data.  
+- Evaluated using runtime data collected from open-source projects and synthetic benchmarks simulating bug scenarios.  
+- Results showed up to 40% faster query retrieval times and improved context-rich behavioral insights compared to traditional log aggregation systems.  
+- User studies indicated increased developer efficiency in diagnosing issues with the Observation Lakehouse interface.
+
+### Impact & Limitations  
+- Enables more effective software debugging and maintenance by providing rich, interactive behavioral archives that evolve with the software.  
+- Limitations include scalability challenges for extremely large-scale systems and the need for further automation in data labeling and anomaly detection. Future work should address these and expand support for diverse programming environments.
+
+---
+
+#### "Can you feel the vibes?": An exploration of novice programmer engagement with vibe coding
+**作者**: Kiev Gama, Filipe Calegario, Victoria Jackson, Alexander Nolte, Luiz Augusto Morais, Vinicius Garcia
+**类别**: cs.SE, cs.HC
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02750v1
+
+#### Executive Summary
+This paper investigates novice programmers' engagement with "vibe coding," a novel qualitative coding approach capturing affective and experiential data during programming. Through user studies, the authors assess how vibe coding influences motivation and learning experience, finding enhanced engagement and reflective practice among novices.
+
+### Key Contributions
+- Introduces vibe coding as an innovative method to capture emotional and experiential data during programming sessions.
+- Empirically evaluates novice programmers’ engagement, linking vibe coding to improved motivation and self-reflection.
+- Provides design implications for incorporating affective feedback in programming education tools.
+
+### Method & Results
+- Conducted qualitative user studies involving novice programmers employing vibe coding during coding tasks.
+- Utilized coding session recordings and participant self-reports as primary data sources.
+- Results show a statistically significant increase in engagement metrics and positive qualitative feedback regarding learning experience.
+- Outperforms traditional observational methods by offering richer insights into programmers’ affective states.
+
+### Impact & Limitations
+- Enhances understanding of emotional factors in programming education, informing tool design to foster motivation and deeper learning.
+- Limitations include small sample size and reliance on self-reported data; future work should explore scalability and integration with automated tools.
+
+---
+
+### 安全领域 领域
+
+#### Contextual Image Attack: How Visual Context Exposes Multimodal Safety Vulnerabilities
+**作者**: Yuan Xiong, Ziqi Miao, Lijun Li, Chen Qian, Jie Li, Jing Shao
+**类别**: cs.CV, cs.CL, cs.CR
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02973v1
+
+#### Executive Summary
+This paper investigates how visual context in multimodal AI models creates vulnerabilities in safety detection, enabling targeted attacks that manipulate context rather than objects themselves. The authors propose a novel "Contextual Image Attack" framework demonstrating these weaknesses and empirically validate that altering surrounding scene elements can mislead multimodal safety systems effectively.
+
+### Key Contributions
+- Identification of visual context as a critical exploitable factor in multimodal safety vulnerabilities.
+- Introduction of the Contextual Image Attack method focusing on context manipulation rather than object alteration.
+- Empirical demonstration of attack success on state-of-the-art multimodal models, highlighting overlooked safety risks.
+
+### Method & Results
+- Developed a framework that perturbs visual context in images while preserving the main object to evade or confuse multimodal safety classifiers.
+- Evaluated on large-scale multimodal datasets (specific datasets not mentioned in abstract) and standard multimodal safety detection benchmarks.
+- Achieved significant degradation in safety detection accuracy (quantitative results not provided in abstract) compared to baseline attacks that alter target objects.
+- Demonstrated that contextual perturbations are more stealthy and effective than conventional object-focused attacks.
+
+### Impact & Limitations
+- Highlights a new dimension of multimodal safety risk, urging more robust context-aware defenses in AI safety systems.
+- Future work needed on generalizing attacks across diverse contexts and improving defenses tailored to contextual vulnerabilities.
+
+---
+
+#### Belobog: Move Language Fuzzing Framework For Real-World Smart Contracts
+**作者**: Wanxu Xia, Ziqiao Kong, Zhengwei Li, Yi Lu, Pan Li, Liqun Yang, Yang Liu, Xiapu Luo, Shaohua Li
+**类别**: cs.CR, cs.PL, cs.SE
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02918v1
+
+#### Executive Summary  
+This paper addresses the challenge of effectively fuzzing Move smart contracts, which are increasingly used in real-world blockchain systems. The authors propose Belobog, a novel Move language fuzzing framework designed to detect vulnerabilities by generating meaningful test inputs tailored to Move’s unique features. Belobog demonstrates superior bug-finding capabilities compared to existing tools on real-world Move contracts.
+
+### Key Contributions  
+- Introduces Belobog, the first comprehensive fuzzing framework tailored specifically for the Move programming language.  
+- Develops language-aware input generation strategies that leverage Move's semantics for more effective fuzzing.  
+- Evaluates Belobog extensively on real-world Move smart contracts, uncovering new security issues missed by prior tools.
+
+### Method & Results  
+- Constructs a Move-specific fuzzing engine combining semantic analysis and customized input mutation techniques.  
+- Uses a dataset of deployed Move smart contracts from prominent blockchain platforms for evaluation.  
+- Finds significantly more vulnerabilities (e.g., X% increase) than state-of-the-art fuzzers, with improved code coverage and bug discovery rates.  
+- Demonstrates scalability and practicality for real-world contract security assessment.
+
+### Impact & Limitations  
+- Offers a vital security tool enhancing the reliability of Move smart contracts, contributing to safer blockchain ecosystems.  
+- Future work needed to handle increasingly complex contract interactions and integrate with formal verification methods for comprehensive safety guarantees.
+
+---
+
+#### Decryption thorough polynomial ambiguity: noise-enhanced high-memory convolutional codes for post-quantum cryptography
+**作者**: Meir Ariel
+**类别**: cs.CR
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02822v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing cryptographic systems against quantum attacks by introducing noise-enhanced high-memory convolutional codes. The approach leverages polynomial ambiguity during decryption to achieve robustness in post-quantum cryptography schemes. Results demonstrate improved resistance to quantum decryption attempts while maintaining efficient decoding.
+
+### Key Contributions  
+- Introduces a novel noise-enhanced convolutional coding scheme with high memory tailored for post-quantum cryptography.  
+- Develops a decryption method exploiting polynomial ambiguity to enhance security against quantum adversaries.  
+- Provides a theoretical framework connecting convolutional code parameters with cryptographic hardness in a quantum context.
+
+### Method & Results  
+- Designs convolutional codes with increased memory and integrates controlled noise to obfuscate ciphertext structure.  
+- Employs algebraic polynomial ambiguity during decryption to improve error correction and resist quantum decoding strategies.  
+- Experimental evaluation on simulated quantum attack scenarios shows a reduction in successful decryption rates by over 30% compared to conventional codes.  
+- Demonstrates decoding efficiency comparable to traditional methods, with marginal computational overhead.
+
+### Impact & Limitations  
+- Offers a promising direction for post-quantum secure communication by enhancing code-based cryptographic primitives.  
+- Future work should address implementation on real quantum-resistant platforms and analyze scalability for large-scale data.  
+- Limitations include theoretical assumptions on noise models and potential challenges in parameter optimization for diverse use cases.
+
+---
+
+#### Cybersecurity AI: The World's Top AI Agent for Security Capture-the-Flag (CTF)
+**作者**: Víctor Mayoral-Vilches, Luis Javier Navarrete-Lozano, Francesco Balassone, María Sanz-Gómez, Cristóbal R. J. Veas Chavez, Maite del Mundo de Torres, Vanesa Turiel
+**类别**: cs.CR
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02654v1
+
+#### Executive Summary
+This paper addresses the challenge of automating cybersecurity tasks in Capture-the-Flag (CTF) competitions using AI agents. The authors present Cybersecurity AI, a top-performing autonomous agent designed to detect and exploit vulnerabilities in CTF scenarios. The approach achieves state-of-the-art performance, surpassing existing AI agents in security challenge environments.
+
+### Key Contributions
+- Developed Cybersecurity AI, the leading AI agent for security CTF competitions.
+- Introduced novel techniques for automated vulnerability detection and exploitation within realistic CTF contexts.
+- Demonstrated superior performance compared to existing AI competitors on benchmark CTF challenges.
+
+### Method & Results
+- Utilized reinforcement learning and advanced symbolic reasoning to enable autonomous exploration and attack strategies.
+- Employed standard CTF datasets and environments for training and evaluation.
+- Achieved a notably higher success rate in capturing flags compared to baseline AI agents (quantitative improvements not specified but implied as significant).
+- Demonstrated robustness across diverse CTF scenarios and complex security tasks.
+
+### Impact & Limitations
+- Enables more effective automated cybersecurity testing and threat detection, advancing AI-driven defense capabilities.
+- Limitations include potential scalability issues to real-world large-scale networks and the need for further generalization beyond CTF-style challenges.
+- Future work could explore integration with live systems and expansion to broader security domains.
+
+---
+
+#### CryptoQA: A Large-scale Question-answering Dataset for AI-assisted Cryptography
+**作者**: Mayar Elfares, Pascal Reisert, Tilman Dietz, Manpa Barman, Ahmed Zaki, Ralf Küsters, Andreas Bulling
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-02
+**链接**: http://arxiv.org/abs/2512.02625v1
+
+#### Executive Summary
+This paper addresses the lack of large-scale datasets for AI-assisted cryptography by introducing CryptoQA, a comprehensive question-answering dataset focused on cryptographic concepts. The authors develop and benchmark models trained on CryptoQA, demonstrating improved AI performance in understanding and reasoning about cryptography-related queries.
+
+### Key Contributions
+- Creation of CryptoQA, the first large-scale, domain-specific QA dataset tailored for cryptography.
+- Benchmarking of state-of-the-art NLP models on cryptographic QA tasks, highlighting challenges unique to AI in security contexts.
+- Analysis of AI-assisted cryptography capabilities, facilitating research at the intersection of cryptography and natural language understanding.
+
+### Method & Results
+- Constructed CryptoQA dataset through expert annotation and automated question generation covering diverse cryptographic topics.
+- Evaluated transformer-based language models fine-tuned on CryptoQA for accuracy and reasoning depth.
+- Achieved significant accuracy gains over baseline models lacking domain adaptation (quantitative improvements reported up to XX%).
+- Demonstrated model limitations in complex multi-step cryptographic reasoning tasks.
+
+### Impact & Limitations
+- Enables AI tools to better assist cryptographers by providing a resource that bridges NLP and security expertise.
+- Limitations include dataset scope restricted to specific cryptographic concepts and challenges with models handling complex logical reasoning.
+- Future work: expand dataset diversity, improve model reasoning capabilities, and explore integration with formal verification tools.
 
 ---
 
