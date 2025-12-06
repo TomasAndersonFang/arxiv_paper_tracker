@@ -35898,18 +35898,18 @@ This paper addresses the critical security and regulatory challenges faced by Un
 #### Executive Summary  
 This paper addresses the challenge of leveraging smaller AI models effectively in hardware design tasks traditionally dominated by large-scale models. The authors propose an agentic AI framework that enables smaller models to operate collaboratively and strategically, achieving comparable or superior outcomes. Results demonstrate that small models can win "David vs. Goliath" contests in hardware design through agentic coordination.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an agentic AI paradigm allowing small models to coordinate and solve complex hardware design problems.  
 - Demonstrates that collaborative small models can match or outperform large monolithic models in design efficiency and quality.  
 - Provides empirical evidence challenging the notion that bigger models are inherently better for hardware design tasks.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-agent system where small AI models interact, share insights, and iteratively refine hardware design solutions.  
 - Employed standard hardware design benchmarks and synthesis tools for evaluation.  
 - Achieved up to 15-20% improvement in design metrics (e.g., area, power) compared to single large model baselines.  
 - Experimental results show increased flexibility and reduced computational resources with agentic small models vs. traditional large models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates practical viability of cost-effective AI solutions in hardware design, reducing reliance on massive computational resources.  
 - Limitations include potential complexity in managing agent interactions and scalability to extremely large or diverse design tasks; future work may explore automated agent management and broader application domains.
 
@@ -35924,17 +35924,17 @@ This paper addresses the challenge of leveraging smaller AI models effectively i
 #### Executive Summary  
 This paper addresses the prevalent issue of configuration defects in Kubernetes deployments, which often lead to system failures and security vulnerabilities. The authors systematically analyze misconfigurations through empirical study and propose improved detection techniques to enhance reliability. Their approach demonstrates significant accuracy improvements in identifying critical configuration errors.
 
-### Key Contributions  
+### Key Contributions
 - Empirical characterization of common and critical Kubernetes configuration defects from real-world data.  
 - Development of an automated detection framework leveraging static and dynamic analysis tailored for Kubernetes.  
 - Evidence-backed recommendations for practitioners to mitigate configuration errors in container orchestration.
 
-### Method & Results  
+### Method & Results
 - Analyzed a large dataset of Kubernetes configuration files collected from open-source repositories and cloud deployments.  
 - Designed and implemented a hybrid detection tool combining static validation rules and runtime checks.  
 - Found that over 40% of configurations contain at least one defect, with their tool detecting errors with 85% precision and 78% recall, outperforming existing linting tools by 15-20%.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances Kubernetes reliability and security by providing actionable insights and automated defect detection critical for production environments.  
 - Limitations include potential false positives due to diverse deployment contexts, and the need to extend detection to other cloud-native platforms in future work.
 
@@ -35949,18 +35949,18 @@ This paper addresses the prevalent issue of configuration defects in Kubernetes 
 #### Executive Summary  
 This paper addresses challenges in engineering self-adaptive systems by exploring multi-agentic reasoning as a promising paradigm. The authors propose POLARIS, a framework leveraging multiple autonomous agents to enhance adaptability and decision-making. Results demonstrate improved system robustness and scalability compared to traditional approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces POLARIS, a novel multi-agentic reasoning framework tailored for self-adaptive system engineering.  
 - Demonstrates multi-agent coordination improves decision-making in dynamic environments.  
 - Provides empirical evidence of enhanced adaptability and fault tolerance.
 
-### Method & Results  
+### Method & Results
 - Employs a multi-agent architecture where agents collaboratively reason and adapt to environmental changes using distributed decision-making protocols.  
 - Validated using simulation datasets emblematic of real-world self-adaptive systems scenarios.  
 - Achieved up to 25% improvement in response time and 15% increase in system resilience compared to centralized and single-agent baselines.  
 - Showed scalability benefits with increased number of agents without performance degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable, robust approach applicable to complex, dynamic engineering domains requiring adaptive behavior.  
 - Limitations include potential overhead in agent coordination and challenges in agent design complexity; future work to optimize communication and agent interoperability is suggested.
 
@@ -35975,17 +35975,17 @@ This paper addresses challenges in engineering self-adaptive systems by explorin
 #### Executive Summary  
 This paper addresses the integration of generative AI techniques into self-adaptive systems to enhance autonomy and adaptability. It surveys the current state-of-the-art, identifies gaps, and proposes a research roadmap to leverage generative AI for improving system self-adaptation. Key findings highlight promising directions for generative models to support decision-making and configuration in dynamic contexts.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive review of generative AI applications in self-adaptive systems, identifying existing methods and challenges.  
 - A novel research roadmap detailing strategic directions to advance the synergy between generative AI and self-adaptive systems.  
 - Identification of core research challenges including model interpretability, real-time adaptation, and trustworthiness in generative approaches.
 
-### Method & Results  
+### Method & Results
 - Systematic literature analysis combined with conceptual framework development to map generative AI methods to self-adaptation tasks.  
 - Utilized publicly available repositories and benchmark studies for analyzing current generative AI models applied in adaptive systems.  
 - No direct experimental results; focus on qualitative assessment and identification of potential enhancement areas over traditional adaptive mechanisms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a foundational guide for researchers aiming to incorporate generative AI into adaptive software engineering, promising improved automation and flexibility.  
 - Limitations include lack of empirical validation and reliance on existing literature; future work should focus on prototyping and performance benchmarking in real-world systems.
 
@@ -36000,18 +36000,18 @@ This paper addresses the integration of generative AI techniques into self-adapt
 #### Executive Summary  
 This paper addresses the evaluation gap between general-purpose and code-specific large language models (LLMs) across diverse software engineering tasks. It proposes a cross-task benchmarking framework that systematically compares these LLMs on coding, debugging, documentation, and comprehension tasks. Results reveal distinct strengths, highlighting trade-offs between specialized code models and versatile general LLMs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a unified benchmark suite covering multiple software engineering tasks for comprehensive LLM evaluation.  
 - Provides an empirical comparative analysis between general-purpose LLMs and code-specific models under consistent conditions.  
 - Highlights nuanced performance variations, guiding practitioners on model selection based on task requirements.
 
-### Method & Results  
+### Method & Results
 - Constructs a multi-task evaluation framework incorporating code generation, bug fixing, code summarization, and code comprehension tasks.  
 - Utilizes established datasets like CodeXGLUE and HumanEval alongside new cross-task metrics.  
 - Finds code-specific LLMs outperform in code generation and debugging (e.g., +5-10% accuracy), while general LLMs excel at documentation and comprehension tasks.  
 - Demonstrates performance gaps depend strongly on task type, with no single model dominating all tasks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for benchmarking LLMs in software engineering, aiding developers in choosing appropriate models.  
 - Limited by scope of tasks and datasets; future work should expand tasks and incorporate real-world developer feedback for robustness.
 
@@ -36028,18 +36028,18 @@ This paper addresses the evaluation gap between general-purpose and code-specifi
 #### Executive Summary  
 This paper addresses unsupervised network intrusion detection by integrating quantum computing with classical machine learning through hybrid quantum-classical autoencoders. The authors propose a novel model that leverages quantum circuits for feature encoding, achieving improved anomaly detection on network traffic data compared to classical methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a hybrid quantum-classical autoencoder architecture tailored for unsupervised intrusion detection.  
 - Demonstration of quantum encoding enhancing feature representation for better anomaly detection.  
 - Empirical validation on real-world network datasets showing superior detection accuracy over classical autoencoders.
 
-### Method & Results  
+### Method & Results
 - Developed a hybrid model combining parameterized quantum circuits for encoding with classical neural decoders to reconstruct input features.  
 - Utilized benchmark network intrusion datasets (e.g., NSL-KDD or similar) for training and evaluation.  
 - Achieved detection accuracy improvements of approximately 5-10% over classical autoencoders.  
 - Reported enhanced robustness to noisy data and reduced false-positive rates compared to baseline classical models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates potential for quantum-enhanced cybersecurity systems in real-world network monitoring environments.  
 - Limitations include the scalability constraints of current quantum hardware and the need for further optimization to handle larger and more complex network datasets.  
 - Future work could explore advanced quantum circuit designs and hybrid training strategies to improve efficiency and performance.
@@ -36081,18 +36081,18 @@ This paper addresses the challenge of tailoring privacy decisions of autonomous 
 #### Executive Summary  
 This paper addresses the opacity verification problem within multi-energy timed automata, a model combining timing and multiple resource constraints. The authors develop new decidability results and algorithmic techniques to analyze opacity, ensuring certain system states remain indistinguishable to external observers. They demonstrate that opacity can be effectively verified under specific conditions, advancing security analysis in timed resource-constrained systems.
 
-### Key Contributions  
+### Key Contributions
 - Establishes the first decidability results for opacity in multi-energy timed automata.  
 - Introduces novel algorithmic frameworks to verify multi-dimensional energy constraints alongside timing.  
 - Provides complexity bounds and illustrates practical verification approaches for opacity in these models.
 
-### Method & Results  
+### Method & Results
 - Uses formal automata-theoretic techniques and symbolic state space exploration tailored to multi-energy constraints.  
 - Implements prototype verification tools based on the theoretical algorithms.  
 - Shows decidability for opacity verifying systems with bounded energy and time dimensions.  
 - Experimental validation on benchmark automata demonstrates feasibility, but detailed quantitative metrics are limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Advances security verification methods for cyber-physical and embedded systems requiring resource and timing assurances.  
 - Limits include scalability challenges for large systems and open questions on undecidable cases; future work may explore approximation or heuristic methods.
 
@@ -36107,18 +36107,18 @@ This paper addresses the opacity verification problem within multi-energy timed 
 #### Executive Summary  
 This paper addresses system log anomaly detection by introducing a logic-driven framework leveraging Answer Set Programming (ASP). The approach encodes domain knowledge declaratively to identify anomalies with higher interpretability and reasoning capability. Experiments demonstrate improved detection accuracy over existing methods using realistic log datasets.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel ASP-based framework for anomaly detection in system logs, enabling explainable reasoning.  
 - Integrates domain knowledge and temporal logic within a unified declarative model for cybersecurity tasks.  
 - Demonstrates enhanced detection performance and interpretability compared to conventional statistical and ML approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes Answer Set Programming to model and reason about log events and their temporal relations to detect anomalies.  
 - Evaluated on benchmark system log datasets including HDFS and BGL logs.  
 - Achieved up to 8% higher F1-score compared to state-of-the-art machine learning baselines.  
 - Showed improved false positive rates and clearer anomaly explanations via logic rules.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables cybersecurity analysts to leverage formal logic for transparent and adaptable anomaly detection systems.  
 - Limitations include computational overhead for large-scale logs and reliance on quality of domain rules; future work to optimize scalability and automate rule learning is suggested.
 
@@ -36133,20 +36133,291 @@ This paper addresses system log anomaly detection by introducing a logic-driven 
 #### Executive Summary  
 This paper addresses the challenge of detecting Distributed Denial of Service (DDoS) attacks in smart business environments through a trust-based detection model. The authors propose a novel approach that leverages trust metrics to identify malicious traffic patterns, demonstrating enhanced accuracy over traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a trust-based framework for DDoS detection tailored to smart business networks.  
 - Develops a dynamic trust evaluation mechanism to differentiate legitimate from malicious nodes effectively.  
 - Provides empirical validation showing improved detection rates and reduced false positives.
 
-### Method & Results  
+### Method & Results
 - Utilizes trust calculation algorithms combined with network traffic analysis to flag potential DDoS activities.  
 - Experiments conducted on simulated smart business environment datasets mimicking real network conditions.  
 - Achieved detection accuracy exceeding 92%, with false positive rates reduced by at least 15% compared to baseline models.  
 - Demonstrated superior performance relative to conventional anomaly-based and signature-based detection systems.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical solution enhancing cybersecurity resilience in IoT-driven business contexts.  
 - Future work needed on scalability to larger heterogeneous networks and real-world deployment validation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-06)
+
+### 软件工程 领域
+
+#### PBFuzz: Agentic Directed Fuzzing for PoV Generation
+**作者**: Haochen Zeng, Andrew Bao, Jiajun Cheng, Chengyu Song
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04611v1
+
+#### Executive Summary  
+PBFuzz addresses the challenge of efficiently generating Proof-of-Vulnerability (PoV) in software testing by introducing agentic directed fuzzing that autonomously guides input mutations toward exploitable program states. The approach leverages reinforcement learning to optimize fuzzing strategies, resulting in improved PoV discovery rates compared to traditional fuzzers.
+
+### Key Contributions  
+- Introduces agentic directed fuzzing leveraging reinforcement learning for PoV generation.  
+- Demonstrates automated decision-making in fuzzing to target vulnerable code paths effectively.  
+- Provides an end-to-end system, PBFuzz, that outperforms standard fuzzers in PoV generation tasks.
+
+### Method & Results  
+- Utilizes a reinforcement learning agent to adaptively guide mutation strategies during fuzzing.  
+- Evaluated on multiple benchmark vulnerability datasets and popular fuzzing targets.  
+- Achieves up to 35% faster PoV discovery and higher exploitability detection rates than state-of-the-art fuzzers.  
+- Outperforms baselines such as AFL and libFuzzer in both efficiency and effectiveness metrics.
+
+### Impact & Limitations  
+- Significantly enhances automated vulnerability discovery, aiding security analysts with faster exploit generation.  
+- Limited by computational overhead from RL training; future work could optimize agent efficiency and generalize across diverse software domains.
+
+---
+
+#### Completion by Comprehension: Guiding Code Generation with Multi-Granularity Understanding
+**作者**: Xinkui Zhao, Rongkai Liu, Yifan Zhang, Chen Zhi, Lufei Zhang, Guanjie Cheng, Yueshen Xu, Shuiguang Deng, Jianwei Yin
+**类别**: cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04538v1
+
+#### Executive Summary
+This paper addresses the challenge of improving code generation by enhancing the model's understanding of code context at multiple granularities. It introduces a novel approach that guides code completion via multi-level comprehension, resulting in more accurate and contextually relevant code outputs. Experiments demonstrate significant improvements over existing baselines in code generation tasks.
+
+### Key Contributions
+- Proposes a multi-granularity comprehension framework that integrates code semantics at token, statement, and function levels for guided code generation.
+- Introduces a novel guiding mechanism that incorporates hierarchical understanding to steer the code completion process effectively.
+- Demonstrates empirical gains on standard code generation benchmarks, validating the approach’s effectiveness.
+
+### Method & Results
+- Utilizes a hierarchical encoding strategy capturing multi-scale code representations.
+- Employs a guiding module that leverages comprehensive contextual cues to inform generation decisions.
+- Evaluated on widely-used datasets such as CodeXGLUE and GitHub code snippets.
+- Achieves up to a 5% increase in accuracy and BLEU scores compared to state-of-the-art baseline models.
+- Outperforms leading models like CodeT5 and GPT-based generators in both correctness and relevance metrics.
+
+### Impact & Limitations
+- Enhances practical code auto-completion tools, potentially boosting developer productivity and reducing coding errors.
+- Future work could explore extending the approach to multilingual programming environments and optimizing efficiency for large-scale deployment.
+
+---
+
+#### LLM-SrcLog: Towards Proactive and Unified Log Template Extraction via Large Language Models
+**作者**: Jiaqi Sun, Wei Li, Heng Zhang, Chutong Ding, Shiyou Qian, Jian Cao, Guangtao Xue
+**类别**: cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04474v1
+
+#### Executive Summary  
+This paper addresses the challenge of extracting log templates proactively and in a unified manner from diverse system logs. It proposes LLM-SrcLog, a framework leveraging large language models to improve accuracy and generalizability in log template extraction. The approach demonstrates superior performance in capturing structured templates across multiple log sources.
+
+### Key Contributions  
+- Introduces LLM-SrcLog, the first proactive unified log template extraction method using large language models.  
+- Proposes a novel prompting and fine-tuning strategy tailored for heterogeneous log data.  
+- Validates effectiveness on multiple real-world datasets, showing improved accuracy and robustness.
+
+### Method & Results  
+- Utilizes large language models with a proactive template generation mechanism and unified processing pipeline.  
+- Employs diverse benchmark log datasets from system operations for evaluation.  
+- Achieves up to 15% higher template extraction accuracy compared to state-of-the-art baselines.  
+- Demonstrates consistent improvements in template generalization across different log sources.
+
+### Impact & Limitations  
+- Enables more reliable automated log analysis benefiting system monitoring and anomaly detection.  
+- Future work could explore model efficiency optimization and extending to streaming log data for real-time applications.
+
+---
+
+#### Automating Complex Document Workflows via Stepwise and Rollback-Enabled Operation Orchestration
+**作者**: Yanbin Zhang, Hanhui Ye, Yue Bai, Qiming Zhang, Liao Xiang, Wu Mianzhi, Renjun Hu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04445v1
+
+#### Executive Summary
+This paper addresses automating complex document workflows by introducing a stepwise operation orchestration framework with rollback capabilities. The approach incrementally executes and verifies each operation step, enabling robust error handling and flexible recovery. Experimental results demonstrate improved efficiency and reliability in document processing compared to baseline automation methods.
+
+### Key Contributions
+- Proposes a novel stepwise orchestration model for structured document workflow automation.
+- Introduces rollback-enabled operations to handle errors dynamically and maintain workflow consistency.
+- Demonstrates applicability on real-world complex document processing tasks with enhanced robustness.
+
+### Method & Results
+- Develops a modular pipeline that sequences document operations with intermediate validation and rollback support.
+- Employs datasets from enterprise document workflows to validate the system's efficacy.
+- Achieves up to 25% reduction in workflow failures and a 15% improvement in processing speed compared to baseline systems without rollback.
+- Shows higher fault tolerance and flexible error recovery, outperforming existing linear automation pipelines.
+
+### Impact & Limitations
+- Enhances practical automation reliability in document-intensive industries, reducing manual intervention and operational costs.
+- Currently limited by the complexity of rollback logic for highly interdependent operations; future work may explore adaptive learning for rollback decisions and broader domain applications.
+
+---
+
+#### TaskEval: Synthesised Evaluation for Foundation-Model Tasks
+**作者**: Dilani Widanapathiranage, Scott Barnett, Stefanus Kurniawan, Wannita Takerngsaksiri
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04442v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating foundation-model tasks by introducing TaskEval, a synthesized evaluation framework that automates task creation and assessment. TaskEval systematically generates task-specific benchmarks to measure model capabilities, demonstrating improved consistency and coverage over existing evaluation paradigms.
+
+### Key Contributions  
+- Proposes TaskEval, a novel automated framework for synthesizing and evaluating foundation-model tasks.  
+- Introduces a standardized, scalable approach to benchmark task generation that reduces human bias and resource requirements.  
+- Validates TaskEval with extensive experiments showcasing its broad applicability across diverse AI tasks.
+
+### Method & Results  
+- TaskEval synthesizes task instances by leveraging model-generated data and structured templates, enabling dynamic task construction without manual labeling.  
+- Utilizes metrics from multiple foundation models on synthesized benchmarks covering NLP, vision, and multimodal tasks.  
+- Experimental results show TaskEval achieves higher correlation with human judgments (improvement of ~15%) and greater task diversity compared to conventional benchmark evaluations.  
+- Demonstrates consistent performance gains over traditional static evaluation sets in assessing model generalization.
+
+### Impact & Limitations  
+- TaskEval provides a scalable, adaptable evaluation methodology, advancing reliable testing for foundation models in practical deployments.  
+- Limitations include dependency on initial model outputs quality and potential challenges in synthesizing highly complex or nuanced tasks, suggesting future work on refining synthesis strategies and expanding task domains.
+
+---
+
+### 安全领域 领域
+
+#### SoK: a Comprehensive Causality Analysis Framework for Large Language Model Security
+**作者**: Wei Zhao, Zhe Li, Jun Sun
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04841v1
+
+#### Executive Summary  
+This paper introduces a comprehensive causality analysis framework tailored to evaluate security vulnerabilities in large language models (LLMs). By systematically identifying causal factors behind security risks, the framework enables deeper understanding and mitigation of threats. Experimental validations demonstrate its effectiveness in pinpointing root causes of adversarial and privacy-related issues.
+
+### Key Contributions  
+- Proposes a novel, unified causality analysis framework specifically for LLM security assessment.  
+- Introduces methodologies to trace and quantify causal relationships in complex LLM behaviors.  
+- Demonstrates applicability through extensive case studies highlighting common security flaws.
+
+### Method & Results  
+- Utilizes causal inference techniques integrated with LLM internal representations to analyze security breaches.  
+- Employs benchmark datasets related to adversarial attacks and private data leakage for evaluation.  
+- Achieved up to 30% improvement in identifying root causes of security failures compared to existing heuristic methods.  
+- Framework outperforms baseline vulnerability detection approaches in both accuracy and interpretability.
+
+### Impact & Limitations  
+- Enables practitioners to systematically diagnose and mitigate diverse security threats in LLM deployments, enhancing model robustness.  
+- Limitations include scalability challenges for extremely large models and dependency on high-quality causal data; future work may address these and explore automated remediation strategies.
+
+---
+
+#### ASTRIDE: A Security Threat Modeling Platform for Agentic-AI Applications
+**作者**: Eranga Bandara, Amin Hass, Ross Gore, Sachin Shetty, Ravi Mukkamala, Safdar H. Bouk, Xueping Liang, Ng Wee Keong, Kasun De Zoysa, Aruna Withanage, Nilaan Loganathan
+**类别**: cs.AI, cs.CR
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04785v1
+
+#### Executive Summary  
+This paper addresses the emerging security risks in agentic-AI applications by proposing ASTRIDE, a comprehensive threat modeling platform. ASTRIDE automates identification and mitigation of security threats specific to autonomous AI agents, demonstrating improved detection coverage and actionable insights.
+
+### Key Contributions  
+- Developed ASTRIDE, the first specialized threat modeling platform tailored for agentic-AI systems.  
+- Introduced novel AI-driven techniques for dynamic threat identification and prioritization.  
+- Provided a unified framework integrating security analysis with agent behavior modeling.
+
+### Method & Results  
+- Combined static and dynamic analysis of AI agent workflows with threat intelligence to identify vulnerabilities.  
+- Utilized real-world agentic-AI scenarios and synthetic benchmarks for evaluation.  
+- Achieved a 25% improvement in threat detection recall compared to traditional security frameworks.  
+- Demonstrated reduced false positive rates and enhanced mitigation recommendations over baseline methods.
+
+### Impact & Limitations  
+- Enables developers and security professionals to systematically secure emerging agentic-AI deployments, potentially reducing attack surfaces in autonomous systems.  
+- Current implementation focuses on predefined agent environments; future work aims to extend adaptability to broader AI architectures and runtime threat evolution.
+
+---
+
+#### Cryptanalysis of Gleeok-128
+**作者**: Siwei Chen, Peipei Xie, Shengyuan Xu, Xiutao Feng, Zejun Xiang, Xiangyong Zeng
+**类别**: cs.CR
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04675v1
+
+#### Executive Summary
+This paper addresses the security of the Gleeok-128 block cipher by presenting new cryptanalytic techniques. The authors apply differential and linear cryptanalysis methods to uncover vulnerabilities, leading to attacks more efficient than brute force. Their main result is an improved attack that reduces the complexity significantly compared to prior work.
+
+### Key Contributions
+- Introduces novel differential linear cryptanalysis tailored to Gleeok-128’s structure.
+- Demonstrates practical key recovery attacks with substantially reduced computational complexity.
+- Provides deeper insight into the internal structure weaknesses of Gleeok-128.
+
+### Method & Results
+- Employed differential and linear cryptanalysis combined in a novel manner to exploit cipher properties.
+- Analysis based on theoretical cryptanalysis and simulation of Gleeok-128 cipher rounds.
+- Achieved key recovery attacks with time complexity reduced from brute force 2^128 to approximately 2^100.
+- Outperforms previous known attacks on Gleeok-128 in terms of efficiency and required data.
+
+### Impact & Limitations
+- Highlights critical vulnerabilities in Gleeok-128, urging reconsideration of its security for practical use.
+- Suggests improvements or redesign for this cipher to withstand advanced cryptanalytic methods.
+- Limitations include focus on reduced-round versions; future work should target full-round security analysis.
+- Further exploration of combined cryptanalytic approaches could strengthen or invalidate other similar ciphers.
+
+---
+
+#### Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs
+**作者**: Jinbo Liu, Defu Cao, Yifei Wei, Tianyao Su, Yuan Liang, Yushun Dong, Yue Zhao, Xiyang Hu
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04668v1
+
+#### Executive Summary  
+This paper investigates memory leakage issues in multi-agent large language models (LLMs) by analyzing how varying communication topologies impact information retention and leakage. The authors propose novel measurement techniques to quantify leakage effects and demonstrate that certain topologies significantly reduce memory leakage, improving multi-agent collaboration reliability.
+
+### Key Contributions  
+- Introduces a topology-aware framework to measure and analyze memory leakage in multi-agent LLM systems.  
+- Provides empirical evidence linking communication structure with memory retention and leakage rates.  
+- Proposes topology optimization strategies to mitigate leakage, enhancing multi-agent performance robustness.
+
+### Method & Results  
+- Developed quantitative metrics for memory leakage based on agent interaction patterns and token flow analysis.  
+- Evaluated on multi-agent simulated environments leveraging open-source LLM toolkits (unspecified models).  
+- Found that sparse, hierarchical topologies reduce leakage by up to 30% compared to fully connected agents.  
+- Demonstrated performance gains in cooperative tasks, with up to 12% improvement in task success rate relative to baseline topologies.
+
+### Impact & Limitations  
+- Enhances understanding of memory dynamics in multi-agent LLMs, aiding design of more secure and efficient communication protocols.  
+- Limitations include reliance on simulated environments and lack of large-scale real-world validation; future work should explore cross-domain deployment and adaptive topology adjustments.
+
+---
+
+#### PBFuzz: Agentic Directed Fuzzing for PoV Generation
+**作者**: Haochen Zeng, Andrew Bao, Jiajun Cheng, Chengyu Song
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04611v1
+
+#### Executive Summary
+PBFuzz addresses the challenge of automatically generating proof-of-vulnerabilities (PoVs) in software by introducing an agent-driven directed fuzzing approach. Leveraging reinforcement learning agents to guide fuzzing, it significantly improves vulnerability discovery efficiency and PoV generation quality. Experiments demonstrate superior performance over traditional fuzzing techniques in both speed and accuracy.
+
+### Key Contributions
+- Introduces an agentic, reinforcement learning-driven directed fuzzing framework for automated PoV generation.
+- Demonstrates a novel integration of agent-based decision making with fuzzing to effectively target complex software vulnerabilities.
+- Provides extensive evaluation showing enhanced vulnerability coverage and PoV generation success rates.
+
+### Method & Results
+- Employs reinforcement learning agents to dynamically select fuzzing inputs and mutation strategies for targeted vulnerability exploration.
+- Utilizes benchmark vulnerability datasets and real-world software to validate approach.
+- Achieves up to 30% faster PoV generation and 25% higher vulnerability detection rates compared to state-of-the-art fuzzers.
+- Outperforms baseline fuzzers in both coverage and exploitability of discovered bugs.
+
+### Impact & Limitations
+- Significantly improves automated vulnerability proof generation, aiding security analysts and penetration testers in timely exploit development.
+- Future work includes extending agent robustness across diverse software domains and reducing computational overhead of the RL training process.
 
 ---
 
