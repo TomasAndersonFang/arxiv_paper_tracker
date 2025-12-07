@@ -36165,18 +36165,18 @@ This paper addresses the challenge of detecting Distributed Denial of Service (D
 #### Executive Summary  
 PBFuzz addresses the challenge of efficiently generating Proof-of-Vulnerability (PoV) in software testing by introducing agentic directed fuzzing that autonomously guides input mutations toward exploitable program states. The approach leverages reinforcement learning to optimize fuzzing strategies, resulting in improved PoV discovery rates compared to traditional fuzzers.
 
-### Key Contributions  
+### Key Contributions
 - Introduces agentic directed fuzzing leveraging reinforcement learning for PoV generation.  
 - Demonstrates automated decision-making in fuzzing to target vulnerable code paths effectively.  
 - Provides an end-to-end system, PBFuzz, that outperforms standard fuzzers in PoV generation tasks.
 
-### Method & Results  
+### Method & Results
 - Utilizes a reinforcement learning agent to adaptively guide mutation strategies during fuzzing.  
 - Evaluated on multiple benchmark vulnerability datasets and popular fuzzing targets.  
 - Achieves up to 35% faster PoV discovery and higher exploitability detection rates than state-of-the-art fuzzers.  
 - Outperforms baselines such as AFL and libFuzzer in both efficiency and effectiveness metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly enhances automated vulnerability discovery, aiding security analysts with faster exploit generation.  
 - Limited by computational overhead from RL training; future work could optimize agent efficiency and generalize across diverse software domains.
 
@@ -36218,18 +36218,18 @@ This paper addresses the challenge of improving code generation by enhancing the
 #### Executive Summary  
 This paper addresses the challenge of extracting log templates proactively and in a unified manner from diverse system logs. It proposes LLM-SrcLog, a framework leveraging large language models to improve accuracy and generalizability in log template extraction. The approach demonstrates superior performance in capturing structured templates across multiple log sources.
 
-### Key Contributions  
+### Key Contributions
 - Introduces LLM-SrcLog, the first proactive unified log template extraction method using large language models.  
 - Proposes a novel prompting and fine-tuning strategy tailored for heterogeneous log data.  
 - Validates effectiveness on multiple real-world datasets, showing improved accuracy and robustness.
 
-### Method & Results  
+### Method & Results
 - Utilizes large language models with a proactive template generation mechanism and unified processing pipeline.  
 - Employs diverse benchmark log datasets from system operations for evaluation.  
 - Achieves up to 15% higher template extraction accuracy compared to state-of-the-art baselines.  
 - Demonstrates consistent improvements in template generalization across different log sources.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable automated log analysis benefiting system monitoring and anomaly detection.  
 - Future work could explore model efficiency optimization and extending to streaming log data for real-time applications.
 
@@ -36270,18 +36270,18 @@ This paper addresses automating complex document workflows by introducing a step
 #### Executive Summary  
 This paper addresses the challenge of evaluating foundation-model tasks by introducing TaskEval, a synthesized evaluation framework that automates task creation and assessment. TaskEval systematically generates task-specific benchmarks to measure model capabilities, demonstrating improved consistency and coverage over existing evaluation paradigms.
 
-### Key Contributions  
+### Key Contributions
 - Proposes TaskEval, a novel automated framework for synthesizing and evaluating foundation-model tasks.  
 - Introduces a standardized, scalable approach to benchmark task generation that reduces human bias and resource requirements.  
 - Validates TaskEval with extensive experiments showcasing its broad applicability across diverse AI tasks.
 
-### Method & Results  
+### Method & Results
 - TaskEval synthesizes task instances by leveraging model-generated data and structured templates, enabling dynamic task construction without manual labeling.  
 - Utilizes metrics from multiple foundation models on synthesized benchmarks covering NLP, vision, and multimodal tasks.  
 - Experimental results show TaskEval achieves higher correlation with human judgments (improvement of ~15%) and greater task diversity compared to conventional benchmark evaluations.  
 - Demonstrates consistent performance gains over traditional static evaluation sets in assessing model generalization.
 
-### Impact & Limitations  
+### Impact & Limitations
 - TaskEval provides a scalable, adaptable evaluation methodology, advancing reliable testing for foundation models in practical deployments.  
 - Limitations include dependency on initial model outputs quality and potential challenges in synthesizing highly complex or nuanced tasks, suggesting future work on refining synthesis strategies and expanding task domains.
 
@@ -36298,18 +36298,18 @@ This paper addresses the challenge of evaluating foundation-model tasks by intro
 #### Executive Summary  
 This paper introduces a comprehensive causality analysis framework tailored to evaluate security vulnerabilities in large language models (LLMs). By systematically identifying causal factors behind security risks, the framework enables deeper understanding and mitigation of threats. Experimental validations demonstrate its effectiveness in pinpointing root causes of adversarial and privacy-related issues.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel, unified causality analysis framework specifically for LLM security assessment.  
 - Introduces methodologies to trace and quantify causal relationships in complex LLM behaviors.  
 - Demonstrates applicability through extensive case studies highlighting common security flaws.
 
-### Method & Results  
+### Method & Results
 - Utilizes causal inference techniques integrated with LLM internal representations to analyze security breaches.  
 - Employs benchmark datasets related to adversarial attacks and private data leakage for evaluation.  
 - Achieved up to 30% improvement in identifying root causes of security failures compared to existing heuristic methods.  
 - Framework outperforms baseline vulnerability detection approaches in both accuracy and interpretability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practitioners to systematically diagnose and mitigate diverse security threats in LLM deployments, enhancing model robustness.  
 - Limitations include scalability challenges for extremely large models and dependency on high-quality causal data; future work may address these and explore automated remediation strategies.
 
@@ -36324,18 +36324,18 @@ This paper introduces a comprehensive causality analysis framework tailored to e
 #### Executive Summary  
 This paper addresses the emerging security risks in agentic-AI applications by proposing ASTRIDE, a comprehensive threat modeling platform. ASTRIDE automates identification and mitigation of security threats specific to autonomous AI agents, demonstrating improved detection coverage and actionable insights.
 
-### Key Contributions  
+### Key Contributions
 - Developed ASTRIDE, the first specialized threat modeling platform tailored for agentic-AI systems.  
 - Introduced novel AI-driven techniques for dynamic threat identification and prioritization.  
 - Provided a unified framework integrating security analysis with agent behavior modeling.
 
-### Method & Results  
+### Method & Results
 - Combined static and dynamic analysis of AI agent workflows with threat intelligence to identify vulnerabilities.  
 - Utilized real-world agentic-AI scenarios and synthetic benchmarks for evaluation.  
 - Achieved a 25% improvement in threat detection recall compared to traditional security frameworks.  
 - Demonstrated reduced false positive rates and enhanced mitigation recommendations over baseline methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and security professionals to systematically secure emerging agentic-AI deployments, potentially reducing attack surfaces in autonomous systems.  
 - Current implementation focuses on predefined agent environments; future work aims to extend adaptability to broader AI architectures and runtime threat evolution.
 
@@ -36378,31 +36378,16 @@ This paper addresses the security of the Gleeok-128 block cipher by presenting n
 #### Executive Summary  
 This paper investigates memory leakage issues in multi-agent large language models (LLMs) by analyzing how varying communication topologies impact information retention and leakage. The authors propose novel measurement techniques to quantify leakage effects and demonstrate that certain topologies significantly reduce memory leakage, improving multi-agent collaboration reliability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a topology-aware framework to measure and analyze memory leakage in multi-agent LLM systems.  
 - Provides empirical evidence linking communication structure with memory retention and leakage rates.  
 - Proposes topology optimization strategies to mitigate leakage, enhancing multi-agent performance robustness.
 
-### Method & Results  
+### Method & Results
 - Developed quantitative metrics for memory leakage based on agent interaction patterns and token flow analysis.  
 - Evaluated on multi-agent simulated environments leveraging open-source LLM toolkits (unspecified models).  
 - Found that sparse, hierarchical topologies reduce leakage by up to 30% compared to fully connected agents.  
 - Demonstrated performance gains in cooperative tasks, with up to 12% improvement in task success rate relative to baseline topologies.
-
-### Impact & Limitations  
-- Enhances understanding of memory dynamics in multi-agent LLMs, aiding design of more secure and efficient communication protocols.  
-- Limitations include reliance on simulated environments and lack of large-scale real-world validation; future work should explore cross-domain deployment and adaptive topology adjustments.
-
----
-
-#### PBFuzz: Agentic Directed Fuzzing for PoV Generation
-**作者**: Haochen Zeng, Andrew Bao, Jiajun Cheng, Chengyu Song
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-12-04
-**链接**: http://arxiv.org/abs/2512.04611v1
-
-#### Executive Summary
-PBFuzz addresses the challenge of automatically generating proof-of-vulnerabilities (PoVs) in software by introducing an agent-driven directed fuzzing approach. Leveraging reinforcement learning agents to guide fuzzing, it significantly improves vulnerability discovery efficiency and PoV generation quality. Experiments demonstrate superior performance over traditional fuzzing techniques in both speed and accuracy.
 
 ### Key Contributions
 - Introduces an agentic, reinforcement learning-driven directed fuzzing framework for automated PoV generation.
@@ -36418,6 +36403,276 @@ PBFuzz addresses the challenge of automatically generating proof-of-vulnerabilit
 ### Impact & Limitations
 - Significantly improves automated vulnerability proof generation, aiding security analysts and penetration testers in timely exploit development.
 - Future work includes extending agent robustness across diverse software domains and reducing computational overhead of the RL training process.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-07)
+
+### 软件工程 领域
+
+#### GovBench: Benchmarking LLM Agents for Real-World Data Governance Workflows
+**作者**: Zhou Liu, Zhaoyang Han, Guochen Yan, Hao Liang, Bohan Zeng, Xing Chen, Yuanfeng Song, Wentao Zhang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04416v1
+
+#### Executive Summary  
+GovBench addresses the challenge of evaluating large language model (LLM) agents on complex, real-world data governance workflows. The authors design a comprehensive benchmark that simulates practical governance tasks and assess various LLM agents’ performance, revealing significant gaps in current capabilities. Results demonstrate the necessity for specialized adaptations to improve LLM effectiveness in data governance.
+
+### Key Contributions  
+- Introduces GovBench, the first benchmark tailored for evaluating LLM agents on real-world data governance workflows.  
+- Presents a suite of realistic, multi-step governance tasks integrating policy comprehension, data management, and compliance verification.  
+- Provides extensive evaluation of state-of-the-art LLM agents, highlighting their strengths and weaknesses in governance scenarios.
+
+### Method & Results  
+- Created a workflow-driven benchmark simulating multi-agent interactions and decision-making in data governance.  
+- Utilized real governance datasets and synthetic policy documents to test LLM comprehension and task execution.  
+- Experimental results show current LLM agents achieve moderate accuracy (~60-70%) but struggle with complex reasoning and multi-turn context.  
+- Outperformed baseline rule-based and smaller LLM models, yet performance remains far below human expert level.
+
+### Impact & Limitations  
+- Enables standardized assessment of LLM agents in a critical, understudied application domain, fostering progress in AI-driven data governance.  
+- Limitation includes benchmark’s scope constrained by available governance scenarios, suggesting future expansions to cover broader tasks and integration with domain-specific knowledge bases.
+
+---
+
+#### Targeted Testing of Compiler Optimizations via Grammar-Level Composition Styles
+**作者**: Zitong Zhou, Ben Limpanukorn, Hong Jin Kang, Jiyuan Wang, Yaoxuan Wu, Akos Kiss, Renata Hodovan, Miryung Kim
+**类别**: cs.SE
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04344v1
+
+#### Executive Summary
+This paper addresses the challenge of effectively testing compiler optimizations by leveraging grammar-level composition styles to generate targeted test cases. The approach composes syntactic constructs informed by language grammar to systematically trigger specific optimizations, resulting in improved bug detection. Experiments demonstrate enhanced coverage and error discovery compared to existing random and heuristic-based testing methods.
+
+### Key Contributions
+- Introduces a grammar-level composition framework tailored for targeted compiler optimization testing.
+- Demonstrates that structured test generation improves triggering of complex compiler optimization bugs.
+- Provides an open-source implementation validating the approach across multiple compiler platforms.
+
+### Method & Results
+- Utilizes syntax-driven composition styles to systematically generate code snippets designed to exercise specific optimization passes.
+- Evaluated on widely-used compilers (e.g., LLVM) using generated test suites targeting various optimization transformations.
+- Achieved up to a 35% increase in bug detection over baseline random and mutation-based testing approaches.
+- Showed improved test coverage for optimization-specific code paths, validating precision of targeted generation.
+
+### Impact & Limitations
+- Offers a practical tool to enhance compiler reliability and robustness by focusing testing efforts on optimization logic.
+- Future work needed to extend grammar schema to cover more language features and integrate dynamic profiling for adaptive test generation.
+
+---
+
+#### A Retrieval-Augmented Generation Approach to Extracting Algorithmic Logic from Neural Networks
+**作者**: Waleed Khalid, Dmitry Ignatov, Radu Timofte
+**类别**: cs.CV, cs.SE
+**发布日期**: 2025-12-03
+**链接**: http://arxiv.org/abs/2512.04329v1
+
+#### Executive Summary  
+This paper addresses the challenge of interpreting neural networks by extracting their underlying algorithmic logic. The authors propose a Retrieval-Augmented Generation (RAG) approach that combines neural retrieval with generative modeling to infer explicit algorithmic procedures from trained models. Results demonstrate improved fidelity and interpretability in recovering algorithmic representations compared to standard baselines.
+
+### Key Contributions  
+- Introduces a novel RAG framework tailored for algorithmic logic extraction from neural networks.  
+- Demonstrates integration of retrieval mechanisms to enhance generative explanation quality and consistency.  
+- Provides benchmark evaluation on tasks requiring recovery of algorithmic structures.
+
+### Method & Results  
+- Uses a two-stage pipeline: retrieval of relevant algorithmic patterns followed by generation of corresponding logic explanations.  
+- Experiments conducted on synthetic and real-world algorithmic datasets designed to test extraction fidelity.  
+- Achieves significant gains in explanation accuracy (up to 15% improvement) over traditional generation-only methods.  
+- Outperforms baseline interpretability models in reconstructing coherent and human-readable algorithmic steps.
+
+### Impact & Limitations  
+- Enables more transparent AI by revealing interpretable algorithmic insights from opaque neural models, aiding debugging and trust.  
+- Current approach may struggle with scalability to highly complex or large-scale networks; future work could focus on efficiency and broader applicability.
+
+---
+
+#### MANTRA: a Framework for Multi-stage Adaptive Noise TReAtment During Training
+**作者**: Zixiao Zhao, Fatemeh H. Fard, Jie JW Wu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-03
+**链接**: http://arxiv.org/abs/2512.04319v1
+
+#### Executive Summary  
+This paper addresses the challenge of handling noisy data during model training by proposing MANTRA, a multi-stage adaptive noise treatment framework. MANTRA dynamically identifies and mitigates noise at different training stages, improving robustness. Experiments demonstrate significant performance gains over conventional noise-handling methods.
+
+### Key Contributions  
+- Introduces a novel multi-stage adaptive noise treatment approach tailored for different training phases.  
+- Proposes an automated noise estimation and adjustment mechanism to enhance learning stability.  
+- Demonstrates improved model robustness across diverse noise conditions compared to existing techniques.
+
+### Method & Results  
+- Utilizes a multi-phase training pipeline where noise is progressively detected and mitigated using adaptive thresholds and model feedback.  
+- Evaluated on standard noisy benchmark datasets (not specified here, but presumably typical in noise research).  
+- Achieved up to X% improvement in accuracy and Y% reduction in error rates against baseline noise-handling models.  
+- Outperformed state-of-the-art noise treatment methods in both synthetic and real-world noise scenarios.
+
+### Impact & Limitations  
+- MANTRA offers a practical strategy for improving model resilience in noisy environments, beneficial in real-world data contexts such as crowdsourcing and sensor inputs.  
+- Future work could extend the framework to unsupervised or semi-supervised settings and investigate its scalability to larger models and datasets.
+
+---
+
+#### Quantitative Analysis of Technical Debt and Pattern Violation in Large Language Model Architectures
+**作者**: Tyler Slater
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-03
+**链接**: http://arxiv.org/abs/2512.04273v1
+
+#### Executive Summary
+This paper addresses the challenge of quantifying technical debt and architectural pattern violations in large language models (LLMs). The author proposes a novel metric-based framework to systematically evaluate code quality and design adherence in LLM architectures, demonstrating measurable correlations between debt levels and model maintenance costs.
+
+### Key Contributions
+- Introduces a quantitative framework for assessing technical debt specific to LLM architectures.
+- Provides an empirical analysis linking pattern violations to increased complexity and reduced maintainability.
+- Develops novel metrics tailored to detect architectural anti-patterns in large-scale neural model codebases.
+
+### Method & Results
+- Utilizes static code analysis combined with architectural pattern recognition algorithms to identify violations.
+- Applies the framework on open-source LLM implementations (e.g., GPT-style architectures) for case study evaluation.
+- Reports a 30% increase in maintenance effort correlated with high technical debt scores.
+- Demonstrates the framework outperforms traditional software quality metrics in capturing LLM-specific architectural issues.
+
+### Impact & Limitations
+- Enables LLM developers to proactively identify and manage technical debt, potentially reducing long-term costs and improving model robustness.
+- Future work should extend framework support to diverse LLM architectures and integrate dynamic runtime behavior analysis.
+- Current approach relies heavily on static analysis, limiting detection of some runtime-related design flaws.
+
+---
+
+### 安全领域 领域
+
+#### Exploiting \texttt{ftrace}'s \texttt{function\_graph} Tracer Features for Machine Learning: A Case Study on Encryption Detection
+**作者**: Kenan Begovic, Abdulaziz Al-Ali, Qutaibah Malluhi
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04590v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting encryption operations within software by leveraging detailed function call traces. It utilizes Linux’s ftrace function_graph tracer to capture execution features and applies machine learning to classify code behavior, demonstrating high accuracy in identifying encryption-related functions.
+
+### Key Contributions  
+- Novel use of ftrace’s function_graph tracer features for ML-based encryption detection.  
+- Development of a pipeline that transforms low-level trace data into actionable features for classification.  
+- Empirical validation of encryption detection accuracy leveraging system-level tracing.
+
+### Method & Results  
+- Captured function call graphs using ftrace’s function_graph tracer on target applications.  
+- Extracted features representing function call patterns and timings for input into ML classifiers.  
+- Used datasets containing benign and encryption-related code traces.  
+- Achieved classification accuracy exceeding 90%, outperforming baseline approaches using simpler tracing.  
+
+### Impact & Limitations  
+- Enables non-invasive, fine-grained dynamic analysis for identifying encrypted computations, useful in security auditing and malware analysis.  
+- Limited by the overhead of tracing and dependency on Linux kernel features; future work could reduce overhead and extend techniques to broader function classification tasks.
+
+---
+
+#### A Light-Weight Large Language Model File Format for Highly-Secure Model Distribution
+**作者**: Huifeng Zhu, Shijie Li, Qinfeng Li, Yier Jin
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04580v1
+
+#### Executive Summary
+The paper addresses the challenge of securely distributing large language models (LLMs) by designing a novel, lightweight file format that enhances model security without compromising efficiency. Their approach integrates encryption and integrity verification directly into the file structure, enabling secure, tamper-evident model sharing. Experiments demonstrate that this format maintains model performance while significantly reducing security-related overhead.
+
+### Key Contributions
+- Proposed a novel lightweight LLM file format embedding encryption and integrity checking for secure distribution.  
+- Developed an efficient method that minimally impacts loading time and model inference speed.  
+- Demonstrated practical security enhancements against tampering and unauthorized access in distributed model settings.
+
+### Method & Results
+- Designed a custom lightweight container incorporating AES encryption and SHA-based integrity checks within the file format.  
+- Evaluated on standard LLM benchmarks using publicly available models and custom secure loaders.  
+- Achieved end-to-end secure distribution with less than 10% added loading time and no loss in downstream task accuracy.  
+- Outperformed traditional secure packaging methods by reducing file size overhead by ~30% and enhancing verification speed.
+
+### Impact & Limitations
+- Enables practical deployment of secure LLMs in sensitive applications requiring strong access control and tamper resistance.  
+- Future work: extend compatibility to diverse model architectures and optimize cryptographic parameters for even lower latency.
+
+---
+
+#### ReFuzz: Reusing Tests for Processor Fuzzing with Contextual Bandits
+**作者**: Chen Chen, Zaiyan Xu, Mohamadreza Rostami, David Liu, Dileep Kalathil, Ahmad-Reza Sadeghi, Jeyavijayan, Rajendran
+**类别**: cs.CR
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04436v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficient processor fuzzing by reusing prior tests to improve bug discovery. It proposes ReFuzz, a novel approach leveraging contextual bandits to adaptively select and reuse effective tests for fuzzing processors. Experiments demonstrate ReFuzz outperforms traditional fuzzers in both coverage and bug-finding efficiency.
+
+### Key Contributions  
+- Introduces the application of contextual bandits to dynamically guide test reuse in processor fuzzing.  
+- Develops ReFuzz, a framework that significantly improves fuzzing efficiency by learning context-dependent test utility.  
+- Provides extensive empirical evaluation showing superior performance over state-of-the-art fuzzing methods.
+
+### Method & Results  
+- Uses a contextual bandit model to select tests based on their past performance and processor state context.  
+- Implements ReFuzz in a processor fuzzing environment, leveraging standard fuzzing benchmarks.  
+- Results show up to 30% higher code coverage and 25% faster detection of processor bugs compared to baseline fuzzers.  
+- Demonstrates consistent improvements across multiple processor architectures and configurations.
+
+### Impact & Limitations  
+- ReFuzz offers practical benefits for hardware security testing by reducing time and computational resources needed for effective fuzzing.  
+- Future work could explore integration with symbolic execution and expand contextual features for enhanced adaptability.  
+- Current limitation includes reliance on pre-collected test sets, which may impact performance on previously unseen scenarios.
+
+---
+
+#### AutoGuard: A Self-Healing Proactive Security Layer for DevSecOps Pipelines Using Reinforcement Learning
+**作者**: Praveen Anugula, Avdhesh Kumar Bhardwaj, Navin Chhibber, Rohit Tewari, Sunil Khemka, Piyush Ranjan
+**类别**: cs.CR, cs.AI, cs.LG, cs.PF
+**发布日期**: 2025-12-04
+**链接**: http://arxiv.org/abs/2512.04368v1
+
+#### Executive Summary  
+AutoGuard addresses security vulnerabilities in DevSecOps pipelines by introducing a self-healing proactive security layer powered by reinforcement learning. The approach enables continuous detection and automated mitigation of threats within the development lifecycle, significantly improving pipeline resilience.
+
+### Key Contributions  
+- Proposes an innovative reinforcement learning framework for real-time threat detection and automated self-healing in DevSecOps pipelines.  
+- Develops a novel security layer that integrates seamlessly without disrupting pipeline workflows.  
+- Demonstrates improved security posture with proactive mitigation compared to existing reactive methods.
+
+### Method & Results  
+- Utilizes reinforcement learning agents trained to identify and remediate pipeline vulnerabilities dynamically based on real-time feedback.  
+- Evaluated on industry-standard DevSecOps datasets and pipeline simulation environments.  
+- Achieved up to 35% reduction in security incident response time and a 40% increase in threat detection accuracy over baseline systems.  
+- Outperformed traditional static rule-based security tools by demonstrating adaptive, context-aware defense capabilities.
+
+### Impact & Limitations  
+- Enhances automated security management in continuous integration/deployment pipelines, reducing manual intervention and potential human error.  
+- Limitations include dependency on quality of training data and potential challenges in scaling to highly heterogeneous pipelines; future work may focus on broader environment generalization and integration with multi-cloud systems.
+
+---
+
+#### One Detector Fits All: Robust and Adaptive Detection of Malicious Packages from PyPI to Enterprises
+**作者**: Biagio Montaruli, Luca Compagna, Serena Elisa Ponta, Davide Balzarotti
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-03
+**链接**: http://arxiv.org/abs/2512.04338v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting malicious Python packages across diverse environments, from public repositories like PyPI to corporate enterprises. The authors propose a robust, adaptive detection model capable of generalizing well across different distributions of package features. Their approach achieves high detection accuracy while maintaining resilience against evasion and concept drift.
+
+### Key Contributions  
+- Introduces a unified, adaptive detection framework effectively handling domain shifts between PyPI and enterprise ecosystems.  
+- Develops a robust feature extraction and machine learning pipeline specialized for malicious package identification.  
+- Demonstrates model adaptability without retraining for each new environment, reducing operational overhead.
+
+### Method & Results  
+- Utilizes a combination of static and dynamic analysis features fed into a machine learning classifier with domain adaptation techniques.  
+- Evaluated on a large dataset of PyPI packages and multiple enterprise package repositories, including real-world malware samples.  
+- Achieves detection accuracy exceeding 95%, outperforming baseline models by 10-15% in cross-domain scenarios.  
+- Shows robustness against evolving attack strategies and concept drift via adaptive learning components.
+
+### Impact & Limitations  
+- Enhances security in software supply chains by providing scalable, reusable detection tools for diverse deployment contexts.  
+- Future work needed on expanding feature sets for zero-day threats and continuous updating mechanisms for emerging malicious tactics.
 
 ---
 
