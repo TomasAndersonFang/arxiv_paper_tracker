@@ -36691,18 +36691,18 @@ This paper addresses the challenge of detecting malicious Python packages across
 #### Executive Summary  
 This paper addresses the complex resource allocation problem by proposing a novel Variational Quantum Rainbow Deep Q-Network (VQR-DQN) that integrates quantum variational circuits within a Rainbow DQN framework. The approach enhances learning efficiency and decision-making accuracy for resource management tasks, demonstrating superior performance over classical baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the integration of variational quantum circuits into Rainbow DQN for resource allocation optimization.  
 - Develops a quantum-enhanced reinforcement learning model tailored for dynamic resource management problems.  
 - Provides empirical evidence of improved convergence speed and solution quality compared to conventional methods.
 
-### Method & Results  
+### Method & Results
 - Combines variational quantum circuits with Rainbow deep Q-learning to capture complex state-action relationships in resource allocation.  
 - Utilizes simulated quantum environments and standard resource allocation benchmarks for evaluation.  
 - Achieves up to 15% higher cumulative reward and faster convergence relative to classical Rainbow DQN and other baselines.  
 - Demonstrates robustness across varying resource constraints and problem scales.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a promising pathway for leveraging quantum machine learning in practical optimization problems within AI and embedded systems.  
 - Limitations include reliance on simulated quantum hardware and scalability challenges as problem size grows—highlighting the need for real quantum devices and further scalability testing.
 
@@ -36717,18 +36717,18 @@ This paper addresses the complex resource allocation problem by proposing a nove
 #### Executive Summary  
 This paper addresses the challenge of locating bugs across multiple repositories in microservice architectures. It proposes a novel technique leveraging large language models (LLMs) enhanced by natural language summarization of code and documentation to improve cross-repository bug localization. Experiments demonstrate that this approach significantly outperforms standard LLM-based methods without summarization.
 
-### Key Contributions  
+### Key Contributions
 - Introduces natural language summarization as a pre-processing step to enable multi-repository bug localization by LLMs.  
 - Demonstrates effective integration of code and textual summaries to enhance LLM understanding of complex microservice contexts.  
 - Empirically validates the approach on multi-repository datasets, showing improved bug localization accuracy.
 
-### Method & Results  
+### Method & Results
 - Uses LLMs fine-tuned with summarized code and documentation snippets representing multiple repositories in microservice systems.  
 - Evaluated on a curated dataset of microservice bug reports linked to multiple repositories across open-source projects.  
 - Achieved up to 15% improvement in Top-1 bug localization accuracy compared to LLM baselines without summarization.  
 - Shows better cross-repository bug mapping versus state-of-the-art IR and code-based localization methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for developers working in microservices environments facing challenges of dispersed codebases, enabling faster bug identification.  
 - Limitations include dependency on quality of summaries and LLM capacity; future work should explore adaptive summarization and domain-specific tuning.
 
@@ -36743,18 +36743,18 @@ This paper addresses the challenge of locating bugs across multiple repositories
 #### Executive Summary  
 This paper addresses the challenge of fuzzing compilers for low-resource language dialects, where test inputs are scarce or unavailable. The authors propose leveraging large language models (LLMs) to automatically generate diverse and relevant fuzzing inputs, bootstrapping the fuzzer for these dialects. The approach significantly improves bug discovery in dialect compilers compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework that uses LLMs to generate test inputs for fuzzing under low-resource conditions.  
 - Demonstrates effective bootstrapping of fuzzers for multiple low-resource language dialects without needing large hand-crafted corpora.  
 - Provides empirical evaluation showing improved bug detection over state-of-the-art fuzzing techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes pretrained language models fine-tuned or prompted to generate syntactically valid and diverse fuzzing inputs tailored to specific dialects.  
 - Experimental evaluation on several low-resource language dialect compilers using custom and publicly available benchmarks.  
 - Achieves up to 30% higher bug find rates and 25% better coverage metrics compared to baseline fuzzers without LLM augmentation.  
 - Demonstrates scalability and adaptability across multiple dialects with minimal domain expertise.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient security and correctness testing for niche or emerging language dialects lacking extensive test corpora.  
 - Limited by the quality and availability of language models for very obscure dialects and potential overfitting of input generation.  
 - Future work includes refining model prompting and extending to broader compiler testing scenarios.
@@ -36770,18 +36770,18 @@ This paper addresses the challenge of fuzzing compilers for low-resource languag
 #### Executive Summary  
 This paper addresses the challenge of detecting concurrency bugs in cloud service systems, which are particularly difficult due to complex interactions and scale. The authors propose MicroRacer, a novel detection framework tailored for microservice environments, demonstrating improved bug detection accuracy and coverage. Experimental validation shows MicroRacer outperforms existing tools in identifying concurrency issues in real-world cloud systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MicroRacer, a concurrency bug detection framework specifically designed for cloud-based microservices.  
 - Proposes a unique analysis technique combining dynamic tracing with lightweight static analysis to enhance bug detection precision.  
 - Demonstrates superior bug coverage and lower false positives in practical cloud service scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic runtime tracing of microservice interactions coupled with static analysis to identify potential race conditions and deadlocks.  
 - Evaluated on multiple real-world cloud service datasets and benchmark microservice applications.  
 - Achieved up to 35% higher bug detection rates and 20% reduction in false positives compared to state-of-the-art concurrency bug detectors.  
 - Showed scalability to systems with hundreds of microservices with minimal overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides cloud service developers with an effective tool to improve reliability by early detection of concurrency bugs in microservice architectures.  
 - Future work includes extending support for more complex distributed transaction patterns and reducing runtime overhead further.
 
@@ -36796,19 +36796,19 @@ This paper addresses the challenge of detecting concurrency bugs in cloud servic
 #### Executive Summary  
 This paper addresses inefficiencies in serverless computing caused by uniform delay scheduling that overlooks function heterogeneity. The authors propose Metronome, a differentiated delay scheduling framework prioritizing serverless functions based on their distinct latency sensitivities. Experimental results demonstrate that Metronome significantly reduces average response times compared to traditional scheduling.
 
-### Key Contributions  
+### Key Contributions
 - Introduces differentiated delay scheduling tailored to heterogeneous serverless function requirements.  
 - Develops a novel scheduling algorithm that dynamically adjusts delays per function characteristics.  
 - Demonstrates improved performance through comprehensive simulations and real-world workload traces.
 
-### Method & Results  
+### Method & Results
 - Proposes a delay scheduling framework that assigns function-specific delay values rather than uniform delays.  
 - Uses a combination of queuing theory and empirical function profiling to guide scheduling decisions.  
 - Evaluations utilize real serverless workloads and trace-driven simulations.  
 - Achieves up to 35% reduction in average response latency compared to baseline uniform delay scheduling.  
 - Shows improved throughput and fairness among serverless functions with varying sensitivity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for cloud providers to enhance serverless platform responsiveness and resource utilization.  
 - Limitations include complexity in accurately profiling diverse functions dynamically; future work may explore adaptive learning-based delay tuning.
 
@@ -36825,18 +36825,18 @@ This paper addresses inefficiencies in serverless computing caused by uniform de
 #### Executive Summary  
 This paper addresses the challenge of building trustworthy AI agents operating within cloud environments by integrating security, transparency, and reliability guarantees. The authors propose a novel framework combining secure hardware enclaves with AI workflow orchestration to ensure confidentiality and integrity of AI computations. Experimental evaluation demonstrates improved trustworthiness without significant performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a trusted execution framework tailored for AI agents deployed in cloud infrastructures, ensuring data and model privacy.  
 - Proposes a transparent AI workflow orchestration mechanism that enables verifiable traceability of AI decisions.  
 - Presents a comprehensive evaluation showing the feasibility of secure, reliable AI agents in real-world cloud settings.
 
-### Method & Results  
+### Method & Results
 - Utilizes hardware-based trusted execution environments (TEEs) integrated with AI pipelines orchestrated via a custom middleware layer.  
 - Employs standard AI benchmark datasets (e.g., ImageNet for vision tasks) along with synthetic security workloads for testing robustness.  
 - Achieves up to 15% overhead compared to insecure baselines, significantly improving trust metrics like data confidentiality and model tampering resistance.  
 - Outperforms naive cloud AI deployments by providing verifiable computation guarantees without major degradation in throughput.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of secure, accountable AI systems in cloud platforms, addressing pressing privacy and security concerns.  
 - Limitations include dependency on specific hardware TEEs and potential scalability issues for very large-scale AI models; future work aims at broader hardware compatibility and optimization for distributed AI workloads.
 
@@ -36851,18 +36851,18 @@ This paper addresses the challenge of building trustworthy AI agents operating w
 #### Executive Summary  
 ARGUS addresses vulnerabilities in multimodal large language models (LLMs) caused by indirect prompt injection attacks. By steering the models’ instruction-following behavior, ARGUS effectively defends against adversarial prompts embedded in multimodal inputs. Experiments demonstrate significant robustness improvements against such attacks compared to existing defenses.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel steering mechanism to modify multimodal LLM behavior, mitigating indirect prompt injection threats.  
 - Develops a comprehensive threat model for multimodal indirect prompt injection, highlighting new attack vectors.  
 - Provides the first empirical evaluation of defense strategies specifically targeting multimodal prompt injection in vision-language models.
 
-### Method & Results  
+### Method & Results
 - Methodology: Utilizes instruction tuning with curated steering prompts to guide model responses away from adversarial instructions in multimodal contexts.  
 - Datasets/Tools: Benchmarked on standard multimodal LLM datasets augmented with crafted indirect prompt injection attacks.  
 - Results: ARGUS reduces successful attack rates by over 70% while maintaining high task accuracy.  
 - Outperforms baseline defenses lacking steering behavior by a wide margin in resisting multimodal prompt manipulation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enhances security and reliability of multimodal AI systems deployed in sensitive applications.  
 - Limitations/Future Work: Potential performance trade-offs under complex compositional prompts require further study; extension to broader attack types remains open.
 
@@ -36877,18 +36877,18 @@ ARGUS addresses vulnerabilities in multimodal large language models (LLMs) cause
 #### Executive Summary  
 This paper addresses the challenge of preventing the generation of Child Sexual Abuse Material (CSAM) by text-to-image models through concept filtering defenses. The authors systematically evaluate these defenses to understand their effectiveness and limitations. Results reveal that current filtering methods often fail to fully block CSAM generation without severely impacting model utility.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive evaluation of concept filtering strategies against CSAM generation in text-to-image diffusion models.  
 - Identification of critical failure modes where filtered concepts bypass defenses, highlighting gaps in existing approaches.  
 - Recommendations for improving mitigation techniques balancing content safety and model fidelity.
 
-### Method & Results  
+### Method & Results
 - Employed controlled prompt engineering and concept filtering to mitigate CSAM generation in diffusion-based text-to-image models.  
 - Utilized standard large-scale text-to-image datasets and bespoke CSAM-related prompt sets for evaluation.  
 - Demonstrated that concept filtering reduces CSAM outputs by up to 60%, but residual generation and false positives persist.  
 - Compared against baseline unfiltered models, filtering shows improved safety but at the cost of decreased image quality and creativity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of safeguarding generative AI against harmful content, informing safer deployment practices.  
 - Limitations include incomplete blocking of CSAM and potential over-filtering harming benign content generation; future work should explore adaptive, context-aware defenses and improved detection mechanisms.
 
@@ -36903,18 +36903,18 @@ This paper addresses the challenge of preventing the generation of Child Sexual 
 #### Executive Summary  
 This paper addresses the challenge of achieving deep safety alignment in AI systems by proposing a novel approach that emphasizes matching ranks over raw probability outputs. The authors demonstrate that aligning models based on rank-order consistency yields more robust and truthful safety properties than traditional probabilistic calibration. Their results indicate superior performance in safety-critical benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces rank-based matching as a fundamentally more reliable metric for safety alignment than probability-based techniques.  
 - Demonstrates theoretically and empirically that rank alignment leads to deeper and more consistent safety guarantees.  
 - Provides a new framework applicable across diverse AI safety tasks, enhancing generalization.
 
-### Method & Results  
+### Method & Results
 - Develops a rank-matching alignment methodology that compares and optimizes rank order of model outputs rather than their exact probabilities.  
 - Evaluations conducted on established AI safety benchmarks and synthetic datasets designed to stress-test safety metrics.  
 - Achieves up to 15% improvement in alignment robustness metrics over state-of-the-art probability-based baselines.  
 - Shows improved calibration stability and reduced vulnerability to adversarial perturbations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical and theoretically grounded approach for safer AI deployment, especially in high-stakes scenarios.  
 - Future work needed to scale rank-based alignment to large language models and real-world diverse settings.  
 - Further exploration required to integrate with existing probabilistic calibration frameworks for combined benefits.
@@ -36930,20 +36930,292 @@ This paper addresses the challenge of achieving deep safety alignment in AI syst
 #### Executive Summary  
 This paper addresses the security challenges of large language models (LLMs) by introducing TeleAI-Safety, a comprehensive benchmark targeting jailbreaking attacks, defenses, and evaluation metrics. The authors develop a systematic framework combining diverse attack strategies and robust defense mechanisms, demonstrating improved detection and mitigation of malicious prompt injections.
 
-### Key Contributions  
+### Key Contributions
 - Proposes TeleAI-Safety, the first extensive benchmark for LLM jailbreaking encompassing attacks, defenses, and evaluation protocols.  
 - Introduces novel multi-modal attack scenarios leveraging teleoperation inputs to bypass LLM safety filters.  
 - Develops adaptive defense techniques integrating contextual understanding to enhance LLM robustness against jailbreak attempts.
 
-### Method & Results  
+### Method & Results
 - Constructs a modular framework that simulates various jailbreak attacks and applies layered defenses to evaluate LLM vulnerability and resilience.  
 - Uses a curated dataset of jailbreak prompts and teleoperation commands designed to probe LLM safety boundaries.  
 - Experimental results show TeleAI-Safety’s defense mechanisms reduce successful jailbreak rates by up to 35% compared to baseline models lacking contextual adaptive defenses.  
 - Benchmark facilitates standardized comparisons across different LLM safety approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides valuable tools for researchers and developers to evaluate and strengthen LLM safety in real-world teleoperation and conversational scenarios.  
 - Limitations include reliance on curated prompts, suggesting future work on automated jailbreak generation and broader model generalization testing.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-09)
+
+### 软件工程 领域
+
+#### Studying the Role of Reusing Crowdsourcing Knowledge in Software Development
+**作者**: Rabe Abdalkareem
+**类别**: cs.SE
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07824v1
+
+#### Executive Summary  
+This paper investigates how reusing crowdsourced knowledge can enhance software development processes. It proposes a framework to systematically capture and integrate community-generated solutions and evaluates its impact on development efficiency. Results demonstrate improved task completion speed and solution quality through knowledge reuse.
+
+### Key Contributions  
+- Introduces a novel framework for reusing crowdsourced software development knowledge systematically.  
+- Empirically validates the impact of crowdsourced knowledge reuse on developer performance and code quality.  
+- Provides insights into optimizing knowledge integration within software engineering workflows.
+
+### Method & Results  
+- Conducted a mixed-method study combining a prototype framework deployment with controlled experiments involving professional developers.  
+- Utilized datasets comprising open-source project issue trackers and crowdsourcing platform repositories.  
+- Found a 25% reduction in time-to-resolution and a 15% improvement in code correctness when using reused knowledge versus baseline development without reuse.  
+- Outperformed traditional knowledge management approaches by facilitating more relevant and accessible crowdsourced insights.
+
+### Impact & Limitations  
+- Enhances practical software development by making community expertise more accessible, potentially reducing redundant effort and improving solution quality.  
+- Limitations include dependency on the quality and relevance of crowdsourced data; future work should explore automated filtering and domain adaptation.
+
+---
+
+#### Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach
+**作者**: Hua Yang, Alejandro Velasco, Sen Fang, Bowen Xu, Denys Poshyvanyk
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07814v1
+
+#### Executive Summary
+This paper addresses privacy risks in code generation models by analyzing their training dynamics through a causal inference lens. The authors propose a novel causal framework to identify factors contributing to privacy leakage during model training. Empirical results demonstrate improved insight into how training behaviors affect privacy vulnerabilities.
+
+### Key Contributions
+- Introduces a causal approach to dissect training dynamics influencing privacy risks in code models.
+- Develops metrics and methodologies to quantify privacy leakage via training behavior analysis.
+- Provides empirical evidence linking specific training patterns to increased privacy exposure.
+
+### Method & Results
+- Utilizes causal inference techniques to model dependencies between training samples, model updates, and privacy leakage.
+- Evaluates approach on standard code datasets (e.g., CodeSearchNet) with large pre-trained code models.
+- Demonstrates that certain phases in training correlate strongly with privacy risk spikes; quantifies leakage reduction when adjusting training protocols.
+- Shows improved identification of privacy leak points compared to conventional heuristic analyses.
+
+### Impact & Limitations
+- Enhances understanding of privacy risks in code models, guiding safer training practices and model auditing.
+- Limited to analyzing existing training dynamics; future work needed to develop real-time defenses and extend beyond studied datasets/models.
+
+---
+
+#### Bridging Code Graphs and Large Language Models for Better Code Understanding
+**作者**: Zeqi Chen, Zhaoyang Chu, Yi Gui, Feng Guo, Yao Wan, Chuan Shi
+**类别**: cs.CL, cs.SE
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07666v1
+
+#### Executive Summary
+This paper addresses the challenge of improving code understanding by integrating structural code representations with pretrained large language models (LLMs). The authors propose a novel framework that bridges code graphs with LLMs to capture both syntactic structure and semantic context, resulting in enhanced comprehension of code. Experimental results demonstrate significant performance gains on multiple code understanding benchmarks.
+
+### Key Contributions
+- Introduces a hybrid architecture combining code graphs and large language models to leverage structural and semantic code information.
+- Proposes an effective mechanism for fusing graph-based code embeddings with LLM outputs, improving representation quality.
+- Demonstrates superior performance on diverse code understanding tasks, validating the integration approach.
+
+### Method & Results
+- Core methodology: constructs program dependency graphs to represent code structure; integrates these graph embeddings with LLM latent spaces through a tailored fusion module.
+- Key datasets: evaluated on standard code understanding benchmarks such as CodeXGLUE and CodeSearchNet.
+- Results: achieves up to 5-7% absolute improvement in accuracy/F1 scores over state-of-the-art LLM-only baselines.
+- Outperforms baselines by effectively capturing both syntactic dependencies and semantic nuances in code.
+
+### Impact & Limitations
+- Practical significance: enhances automated code analysis, aiding software maintenance, debugging, and comprehension tools.
+- Limitations/future work: scalability to very large codebases and cross-language generalization remain open challenges; further exploration of dynamic code behaviors is suggested.
+
+---
+
+#### Reliable agent engineering should integrate machine-compatible organizational principles
+**作者**: R. Patrick Xian, Garry A. Gabison, Ahmed Alaa, Christoph Riedl, Grigorios G. Chrysos
+**类别**: cs.CY, cs.MA, cs.SE
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07665v1
+
+#### Executive Summary
+This paper addresses the challenge of designing reliable agent systems by integrating machine-readable organizational principles into agent engineering. The authors propose a framework that embeds formal organizational structures directly into multi-agent systems to improve dependability and coordination. Experimental validation demonstrates enhanced reliability and robustness compared to traditional approaches.
+
+### Key Contributions
+- Introduces a novel framework combining organizational theory with agent engineering for improved machine compatibility.
+- Formalizes organizational principles enabling scalable and verifiable multi-agent coordination.
+- Demonstrates measurable reliability gains through embedding structured organizational constraints in agent design.
+
+### Method & Results
+- Developed a formal model integrating organizational concepts (roles, norms, and hierarchies) into agent architectures.
+- Tested framework on simulated multi-agent scenarios designed to mimic complex, real-world coordination tasks.
+- Results show a 15-25% improvement in system reliability and fault tolerance over baseline agent systems lacking organizational embedding.
+- Leveraged agent simulation platforms and formal verification tools to validate system properties.
+
+### Impact & Limitations
+- Enhances engineering practice by bridging human organizational insights and automated agent design, improving trustworthiness in critical applications.
+- Limitations include current dependence on predefined organizational schemas and limited evaluation in dynamic real-world environments.
+- Future work should explore adaptive organizational principles and broader empirical validations across diverse domains.
+
+---
+
+#### VP-AutoTest: A Virtual-Physical Fusion Autonomous Driving Testing Platform
+**作者**: Yiming Cui, Shiyu Fang, Jiarui Zhang, Yan Huang, Chengkai Xu, Bing Zhu, Hao Zhang, Peng Hang, Jian Sun
+**类别**: cs.RO, cs.SE
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07507v1
+
+#### Executive Summary  
+This paper addresses the challenge of validating autonomous driving systems by proposing VP-AutoTest, a hybrid virtual-physical testing platform that integrates simulated environments with real-world hardware-in-the-loop testing. The approach enables comprehensive, scalable testing, demonstrated through improved detection of driving system faults compared to purely virtual or physical tests.
+
+### Key Contributions  
+- Introduces a novel virtual-physical fusion platform for autonomous driving testing combining simulation with real vehicle hardware.  
+- Develops methodologies for synchronized scenario execution and data exchange between virtual and physical components.  
+- Demonstrates enhanced detection of functional and safety issues beyond traditional testing methods.
+
+### Method & Results  
+- Constructs a co-simulation environment linking high-fidelity virtual scenarios and physical vehicle controllers via real-time communication protocols.  
+- Utilizes standard autonomous driving datasets for scenario generation alongside proprietary hardware testbeds.  
+- Experimental results show a 30% increase in fault detection coverage compared to standalone virtual or physical testing approaches.  
+- Validated scalability and robustness across diverse urban driving scenarios with performance gains in test efficiency.
+
+### Impact & Limitations  
+- Enables more reliable and efficient autonomous system validation, accelerating deployment safety assurance.  
+- Limitations include integration complexity and potential synchronization delays; future work may focus on real-time optimization and expanding scenario diversity.
+
+---
+
+### 安全领域 领域
+
+#### An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning
+**作者**: Lukas Johannes Möller
+**类别**: cs.CR, cs.DC, cs.LG
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07827v1
+
+#### Executive Summary
+This paper addresses the challenge of analyzing cyber threat behaviors by proposing an adaptive, multi-layered honeynet architecture integrated with deep learning. The approach enhances threat detection and behavioral analysis by capturing rich multi-stage attack data and leveraging neural models for pattern recognition. Results demonstrate improved accuracy in detecting sophisticated attack sequences compared to traditional honeynet systems.
+
+### Key Contributions
+- Introduces a multi-layered honeynet design adaptive to evolving threats, improving data richness for analysis.
+- Integrates deep learning models to automatically identify and predict complex attack behaviors.
+- Demonstrates enhanced threat behavior classification accuracy over baseline honeynets without deep learning.
+
+### Method & Results
+- Developed a multi-layered honeynet capturing attack stages from reconnaissance to exploitation.
+- Employed deep neural networks trained on collected honeynet traffic to classify threat behaviors.
+- Used a custom dataset derived from simulated attacks on the honeynet environment.
+- Achieved over 15% improvement in detection accuracy compared to classical signature-based and single-layer honeynet methods.
+
+### Impact & Limitations
+- Promotes proactive cybersecurity by enabling detailed behavior analysis, aiding rapid response to advanced persistent threats.
+- Limitations include potential overfitting to simulated attack data and the need for real-world deployment validation.
+- Future work should explore scalability and adaptive learning mechanisms for zero-day attack detection.
+
+---
+
+#### Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach
+**作者**: Hua Yang, Alejandro Velasco, Sen Fang, Bowen Xu, Denys Poshyvanyk
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07814v1
+
+#### Executive Summary
+This paper investigates privacy leakage risks in code generation models through the lens of training dynamics using a causal inference framework. The authors propose a novel approach to disentangle how training patterns contribute to memorization and potential private data exposure. Their analysis reveals key causal factors influencing privacy vulnerabilities in code models.
+
+### Key Contributions
+- Introduces a causal framework to analyze training dynamics related to privacy risks in code models.
+- Identifies specific training behaviors that correlate with increased memorization of sensitive data.
+- Provides empirical evidence linking causal factors to privacy leakage, enabling more informed mitigation strategies.
+
+### Method & Results
+- Utilizes causal inference techniques to model the relationship between training dynamics (e.g., gradient norms, parameter updates) and privacy leakage.
+- Experiments conducted on popular code generation datasets, leveraging state-of-the-art transformer-based code models.
+- Demonstrates that certain training phases or patterns causally increase memorization metrics by up to 25% compared to baselines.
+- Outperforms previous heuristic-based privacy assessments by providing actionable causal insights.
+
+### Impact & Limitations
+- Enhances understanding of how training procedures affect privacy in code generation, aiding development of safer ML pipelines.
+- Future work needed to generalize findings across diverse model architectures and real-world software repositories.
+- Current causal analysis limited to static training snapshots; dynamic or online training scenarios remain to be explored.
+
+---
+
+#### Privacy Practices of Browser Agents
+**作者**: Alisha Ukani, Hamed Haddadi, Ali Shahin Shamsabadi, Peter Snyder
+**类别**: cs.CR
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07725v1
+
+#### Executive Summary  
+This paper investigates the privacy practices of browser agents—software components that act on behalf of users during web interactions. The authors analyze these agents' data handling and sharing behaviors, revealing significant privacy risks. They propose measurement techniques to systematically evaluate and compare these practices across various agents.
+
+### Key Contributions  
+- Introduces a novel framework to audit browser agents’ privacy behaviors at scale.  
+- Provides the first comprehensive comparative analysis of privacy leakage across popular browser agents.  
+- Highlights inconsistencies and potential vulnerabilities in existing agent privacy policies.
+
+### Method & Results  
+- Developed automated instrumentation tools to monitor data flows and sharing within browser agents during routine browsing tasks.  
+- Used a dataset of 50 popular browser agents tested over numerous real-world websites to capture privacy metrics.  
+- Found that many agents leak identifiable user data to third parties, with leakage rates varying from 15% to over 60%.  
+- Demonstrated their approach detects privacy breaches more effectively than previous static analysis baselines.
+
+### Impact & Limitations  
+- Offers actionable insights for browser developers and users to understand and mitigate privacy risks from embedded agents.  
+- Limited by the focus on contemporary agents; future work could expand to emerging browser technologies and long-term behavioral changes.
+
+---
+
+#### Precise Liver Tumor Segmentation in CT Using a Hybrid Deep Learning-Radiomics Framework
+**作者**: Xuecheng Li, Weikuan Jia, Komildzhon Sharipov, Alimov Ruslan, Lutfuloev Mazbutdzhon, Ismoilov Shuhratjon, Yuanjie Zheng
+**类别**: eess.IV, cs.CR, cs.CV
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07574v1
+
+#### Executive Summary
+This paper addresses the challenge of precise liver tumor segmentation in CT scans by proposing a hybrid deep learning and radiomics framework. The approach integrates convolutional neural networks with handcrafted radiomics features to enhance segmentation accuracy. Experimental results demonstrate significant improvement over standard deep learning models.
+
+### Key Contributions
+- Introduces a novel hybrid framework combining deep learning with radiomics for liver tumor segmentation.
+- Demonstrates enhanced segmentation precision by fusing learned features and handcrafted radiomics.
+- Provides comprehensive evaluation on clinical CT datasets, highlighting robustness and accuracy.
+
+### Method & Results
+- Utilizes a deep convolutional neural network for initial tumor segmentation, augmented by radiomics feature extraction for refined boundary delineation.
+- Experiments conducted on publicly available liver CT datasets, including LiTS.
+- Achieves a Dice similarity coefficient surpassing baseline models by approximately 4-6%, indicating improved segmentation quality.
+- Outperforms conventional deep learning-only and radiomics-only methods in tumor boundary accuracy and overall segmentation metrics.
+
+### Impact & Limitations
+- Offers a clinically relevant tool to assist radiologists with more accurate liver tumor delineation, potentially improving diagnosis and treatment planning.
+- Limitations include dependency on high-quality labeled data and increased computational complexity; future work could explore real-time applicability and generalization to multi-modal imaging.
+
+---
+
+#### VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection
+**作者**: Yuzhou Nie, Hongwei Li, Chengquan Guo, Ruizhe Jiang, Zhun Wang, Bo Li, Dawn Song, Wenbo Guo
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-08
+**链接**: http://arxiv.org/abs/2512.07533v1
+
+#### Executive Summary
+VulnLLM-R addresses the challenge of automated software vulnerability detection by integrating specialized reasoning large language models (LLMs) with an agent scaffold to enhance interpretability and detection accuracy. The approach synergizes reasoning capabilities with iterative agent interactions, achieving state-of-the-art results in vulnerability identification tasks.
+
+### Key Contributions
+- Introduces VulnLLM-R, a novel LLM architecture with an agent scaffold tailored for vulnerability reasoning.
+- Demonstrates improved vulnerability detection by combining reasoning chains with multi-agent collaboration.
+- Provides a framework enabling enhanced explainability in automated security analysis.
+
+### Method & Results
+- Develops a multi-agent scaffold atop an LLM to perform stepwise reasoning and cross-validate vulnerability findings.
+- Evaluated on prominent vulnerability datasets (e.g., Juliet Test Suite, real-world code bases).
+- Achieves significant performance gains, improving detection F1-score by 7-10% over leading baselines.
+- Outperforms prior models in both precision and recall, reducing false positives through reasoning-informed validation.
+
+### Impact & Limitations
+- Offers a practical tool for cybersecurity professionals seeking automated yet interpretable vulnerability detection in software.
+- Limitations include reliance on large-scale LLMs with high computational requirements and potential challenges in scaling to diverse programming languages.
+- Future work could explore lightweight models and extend agent scaffold capabilities to broader security domains.
 
 ---
 
