@@ -36962,18 +36962,18 @@ This paper addresses the security challenges of large language models (LLMs) by 
 #### Executive Summary  
 This paper investigates how reusing crowdsourced knowledge can enhance software development processes. It proposes a framework to systematically capture and integrate community-generated solutions and evaluates its impact on development efficiency. Results demonstrate improved task completion speed and solution quality through knowledge reuse.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework for reusing crowdsourced software development knowledge systematically.  
 - Empirically validates the impact of crowdsourced knowledge reuse on developer performance and code quality.  
 - Provides insights into optimizing knowledge integration within software engineering workflows.
 
-### Method & Results  
+### Method & Results
 - Conducted a mixed-method study combining a prototype framework deployment with controlled experiments involving professional developers.  
 - Utilized datasets comprising open-source project issue trackers and crowdsourcing platform repositories.  
 - Found a 25% reduction in time-to-resolution and a 15% improvement in code correctness when using reused knowledge versus baseline development without reuse.  
 - Outperformed traditional knowledge management approaches by facilitating more relevant and accessible crowdsourced insights.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical software development by making community expertise more accessible, potentially reducing redundant effort and improving solution quality.  
 - Limitations include dependency on the quality and relevance of crowdsourced data; future work should explore automated filtering and domain adaptation.
 
@@ -37067,18 +37067,18 @@ This paper addresses the challenge of designing reliable agent systems by integr
 #### Executive Summary  
 This paper addresses the challenge of validating autonomous driving systems by proposing VP-AutoTest, a hybrid virtual-physical testing platform that integrates simulated environments with real-world hardware-in-the-loop testing. The approach enables comprehensive, scalable testing, demonstrated through improved detection of driving system faults compared to purely virtual or physical tests.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel virtual-physical fusion platform for autonomous driving testing combining simulation with real vehicle hardware.  
 - Develops methodologies for synchronized scenario execution and data exchange between virtual and physical components.  
 - Demonstrates enhanced detection of functional and safety issues beyond traditional testing methods.
 
-### Method & Results  
+### Method & Results
 - Constructs a co-simulation environment linking high-fidelity virtual scenarios and physical vehicle controllers via real-time communication protocols.  
 - Utilizes standard autonomous driving datasets for scenario generation alongside proprietary hardware testbeds.  
 - Experimental results show a 30% increase in fault detection coverage compared to standalone virtual or physical testing approaches.  
 - Validated scalability and robustness across diverse urban driving scenarios with performance gains in test efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable and efficient autonomous system validation, accelerating deployment safety assurance.  
 - Limitations include integration complexity and potential synchronization delays; future work may focus on real-time optimization and expanding scenario diversity.
 
@@ -37105,22 +37105,6 @@ This paper addresses the challenge of analyzing cyber threat behaviors by propos
 - Employed deep neural networks trained on collected honeynet traffic to classify threat behaviors.
 - Used a custom dataset derived from simulated attacks on the honeynet environment.
 - Achieved over 15% improvement in detection accuracy compared to classical signature-based and single-layer honeynet methods.
-
-### Impact & Limitations
-- Promotes proactive cybersecurity by enabling detailed behavior analysis, aiding rapid response to advanced persistent threats.
-- Limitations include potential overfitting to simulated attack data and the need for real-world deployment validation.
-- Future work should explore scalability and adaptive learning mechanisms for zero-day attack detection.
-
----
-
-#### Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach
-**作者**: Hua Yang, Alejandro Velasco, Sen Fang, Bowen Xu, Denys Poshyvanyk
-**类别**: cs.SE, cs.AI, cs.CR
-**发布日期**: 2025-12-08
-**链接**: http://arxiv.org/abs/2512.07814v1
-
-#### Executive Summary
-This paper investigates privacy leakage risks in code generation models through the lens of training dynamics using a causal inference framework. The authors propose a novel approach to disentangle how training patterns contribute to memorization and potential private data exposure. Their analysis reveals key causal factors influencing privacy vulnerabilities in code models.
 
 ### Key Contributions
 - Introduces a causal framework to analyze training dynamics related to privacy risks in code models.
@@ -37149,18 +37133,18 @@ This paper investigates privacy leakage risks in code generation models through 
 #### Executive Summary  
 This paper investigates the privacy practices of browser agents—software components that act on behalf of users during web interactions. The authors analyze these agents' data handling and sharing behaviors, revealing significant privacy risks. They propose measurement techniques to systematically evaluate and compare these practices across various agents.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework to audit browser agents’ privacy behaviors at scale.  
 - Provides the first comprehensive comparative analysis of privacy leakage across popular browser agents.  
 - Highlights inconsistencies and potential vulnerabilities in existing agent privacy policies.
 
-### Method & Results  
+### Method & Results
 - Developed automated instrumentation tools to monitor data flows and sharing within browser agents during routine browsing tasks.  
 - Used a dataset of 50 popular browser agents tested over numerous real-world websites to capture privacy metrics.  
 - Found that many agents leak identifiable user data to third parties, with leakage rates varying from 15% to over 60%.  
 - Demonstrated their approach detects privacy breaches more effectively than previous static analysis baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers actionable insights for browser developers and users to understand and mitigate privacy risks from embedded agents.  
 - Limited by the focus on contemporary agents; future work could expand to emerging browser technologies and long-term behavioral changes.
 
@@ -37216,6 +37200,279 @@ VulnLLM-R addresses the challenge of automated software vulnerability detection 
 - Offers a practical tool for cybersecurity professionals seeking automated yet interpretable vulnerability detection in software.
 - Limitations include reliance on large-scale LLMs with high computational requirements and potential challenges in scaling to diverse programming languages.
 - Future work could explore lightweight models and extend agent scaffold capabilities to broader security domains.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-10)
+
+### 软件工程 领域
+
+#### Exploring the Garden of Forking Paths in Empirical Software Engineering Research: A Multiverse Analysis
+**作者**: Nathan Cassee, Robert Feldt
+**类别**: cs.SE
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08910v1
+
+#### Executive Summary  
+This paper addresses the "garden of forking paths" problem in empirical software engineering, where analytic choices can lead to multiple plausible results. The authors apply a multiverse analysis to systematically explore how different analytical decisions affect study outcomes, demonstrating substantial variability in results depending on chosen paths.
+
+### Key Contributions  
+- Introduces multiverse analysis to software engineering research to transparently quantify the impact of researcher degrees of freedom.  
+- Empirically demonstrates that analytic choices significantly influence conclusions in software engineering studies.  
+- Provides guidelines and tooling recommendations for incorporating multiverse approaches to strengthen result robustness.
+
+### Method & Results  
+- Conducted a multiverse analysis by re-analyzing common software engineering datasets through multiple analytic decision branches (e.g., data cleaning, statistical model selection).  
+- Utilized publicly available empirical software engineering datasets and statistical software tailored for multiverse workflows.  
+- Found result variability ranges consistently affected sign and magnitude of effects, with up to 40% of analytic paths yielding contradictory conclusions.  
+- No direct baseline comparisons but established multiverse analysis as a new standard for robustness checks.
+
+### Impact & Limitations  
+- Enhances the rigor and reproducibility of empirical software engineering research by exposing hidden analytic biases.  
+- Limitations include computational overhead for extensive multiverse analyses and the challenge of interpreting a broad result space; future work could optimize methods and integrate domain expert input.
+
+---
+
+#### SimpleDevQA: Benchmarking Large Language Models on Development Knowledge QA
+**作者**: Jing Zhang, Lianghong Guo, Yanlin Wang, Mingwei Liu, Jiachi Chen, Yuchi Ma, Ensheng Shi, Terry Yue Zhuo, Hongyu Zhang, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08867v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating large language models (LLMs) on software development knowledge through a new QA benchmark, SimpleDevQA. The authors construct this dataset and comprehensively assess multiple state-of-the-art LLMs, revealing notable gaps in their understanding of development-specific concepts. Their results highlight areas for improvement in LLMs’ coding and software engineering capabilities.
+
+### Key Contributions
+- Introduces SimpleDevQA, a novel benchmark dedicated to assessing LLMs on development knowledge QA.
+- Provides a systematic evaluation of leading LLMs on this benchmark, exposing their strengths and weaknesses.
+- Offers insights to guide future improvements in LLMs for development-focused tasks.
+
+### Method & Results
+- Constructed a diverse QA dataset focused on programming concepts, tools, and best practices.
+- Evaluated multiple LLMs (including GPT-style models) using standard QA metrics (accuracy, F1).
+- Found that no LLM achieves above 75% accuracy, indicating substantial room for improvement.
+- LLMs outperform naïve baselines but struggle with complex or nuanced development questions.
+
+### Impact & Limitations
+- Practical significance: SimpleDevQA fills a gap by providing a targeted tool for benchmarking LLMs in software engineering contexts, aiding developers and researchers.
+- Limitations: Dataset scope could be expanded to cover more languages and frameworks; future work needed on enhancing LLM training for development knowledge proficiency.
+
+---
+
+#### Multicalibration for LLM-based Code Generation
+**作者**: Viola Campos, Robin Kuschnereit, Adrian Ulges
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08810v1
+
+#### Executive Summary
+This paper addresses the challenge of calibration in large language model (LLM)-based code generation, aiming to improve prediction reliability across diverse code tasks. The authors propose a multicalibration approach that adjusts confidence estimates to align better with actual correctness across multiple code domains. Experiments demonstrate enhanced calibration and improved code generation reliability without sacrificing accuracy.
+
+### Key Contributions
+- Introduces a novel multicalibration framework tailored for LLM-driven code generation tasks.
+- Demonstrates improved confidence alignment across heterogeneous code datasets, beyond standard single-domain calibration.
+- Provides empirical evidence that multicalibrated models yield more trustworthy prediction confidence useful for downstream decision-making.
+
+### Method & Results
+- Methodology: Applied multicalibration via iterative reweighting of model outputs to minimize calibration error across multiple programming languages and problem types.
+- Datasets/Tools: Evaluated on standard code generation benchmarks including HumanEval and MBPP.
+- Results: Achieved up to 20% reduction in Expected Calibration Error (ECE) compared to baseline calibration methods.
+- Outperformed conventional single-calibration techniques in confidence reliability, maintaining comparable code generation accuracy.
+
+### Impact & Limitations
+- Impact: Enhances the practical trustworthiness of LLM-generated code, benefiting applications requiring high-confidence code suggestions and error detection.
+- Limitations/Future Work:
+  - Scalability to very large model families and broader code domains remains to be explored.
+  - Integration with prompt engineering and reinforcement learning could further improve calibration fidelity.
+
+---
+
+#### RESTifAI: LLM-Based Workflow for Reusable REST API Testing
+**作者**: Leon Kogler, Maximilian Ehrhart, Benedikt Dornauer, Eduard Paul Enoiu
+**类别**: cs.SE
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08706v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating reusable testing for REST APIs by leveraging large language models (LLMs). The authors propose RESTifAI, an LLM-based workflow that generates, executes, and refines API tests automatically. Experiments demonstrate improved test coverage and reusability compared to traditional testing methods.
+
+### Key Contributions  
+- Introduction of RESTifAI, an LLM-driven framework to automate reusable REST API test generation and execution.  
+- Novel integration of LLMs to infer test workflows and adapt them across API versions.  
+- Empirical evidence showing enhanced coverage and maintenance efficiency over conventional techniques.
+
+### Method & Results  
+- Utilizes LLMs to parse API specifications and generate test sequences, then iteratively refines tests based on execution feedback.  
+- Evaluated on real-world REST APIs using open benchmarks and proprietary datasets.  
+- Demonstrated up to 25% increase in test coverage and significant reduction in manual test maintenance effort.  
+- Outperformed baseline scripted and random testing approaches in robustness and reusability metrics.
+
+### Impact & Limitations  
+- Enables efficient, scalable testing pipelines for evolving REST APIs, reducing developer effort and increasing confidence in API stability.  
+- Limitations include dependence on LLM quality and potential challenges with highly dynamic or poorly documented APIs.  
+- Future work may explore cross-domain generalization and integration with CI/CD environments.
+
+---
+
+#### Reusability in MLOps: Leveraging Ports and Adapters to Build a Microservices Architecture for the Maritime Domain
+**作者**: Renato Cordeiro Ferreira, Aditya Dhinavahi, Rowanne Trapmann, Willem-Jan van den Heuvel
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08657v1
+
+#### Executive Summary  
+This paper addresses the challenge of reusability in MLOps within the maritime sector by proposing a microservices architecture based on the Ports and Adapters (Hexagonal) pattern. The approach enables modular, scalable, and maintainable deployment of machine learning components in maritime applications. Results demonstrate improved system flexibility and reusability, facilitating easier integration and evolution of maritime AI services.
+
+### Key Contributions  
+- Introduces a novel application of the Ports and Adapters architectural style to MLOps for maritime domain microservices.  
+- Demonstrates increased reusability and decoupling of ML components in complex maritime systems.  
+- Provides a practical design framework bridging software engineering and AI deployment challenges in maritime contexts.
+
+### Method & Results  
+- Utilizes Ports and Adapters to decouple ML model logic from infrastructural and domain-specific services, implemented as microservices.  
+- Employs maritime-related datasets (details unspecified) and containerization tools for deployment.  
+- Experimental evaluation indicates improved modularity and reduced integration overhead, though specific quantitative metrics are limited.  
+- Shows architectural benefits over monolithic and less-structured MLOps baselines in terms of maintainability and service scalability.
+
+### Impact & Limitations  
+- Enhances the sustainable development and deployment of maritime AI solutions, promoting faster iteration and integration of new models.  
+- Limitations include preliminary quantitative evaluation and need for extensive real-world validations; future work may explore automated orchestration and expanded domain applications.
+
+---
+
+### 安全领域 领域
+
+#### Improved Pseudorandom Codes from Permuted Puzzles
+**作者**: Miranda Christ, Noah Golowich, Sam Gunn, Ankur Moitra, Daniel Wichs
+**类别**: cs.CR
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08918v1
+
+#### Executive Summary  
+This paper addresses the construction of improved pseudorandom codes by leveraging a novel framework called permuted puzzles. The authors introduce a new coding scheme that enhances security and efficiency in code generation, achieving stronger pseudorandomness guarantees. Their approach systematically integrates permutation-based puzzles to construct codes with better hardness and performance trade-offs.
+
+### Key Contributions  
+- Introduces a novel permutation-based puzzle framework to generate pseudorandom codes.  
+- Provides explicit construction of pseudorandom codes with improved hardness and efficiency trade-offs.  
+- Establishes new theoretical bounds connecting puzzle permutation properties to code security.
+
+### Method & Results  
+- Develops a coding construction based on the hardness of solving permuted puzzle instances, exploiting structural permutation properties.  
+- Uses rigorous theoretical analysis and complexity-theoretic arguments; no large empirical datasets required.  
+- Demonstrates improved pseudorandomness parameters quantifiably surpassing prior constructions in terms of security versus code length.  
+- Shows provable separation and advantages over classical pseudorandom code baselines in complexity and performance guarantees.
+
+### Impact & Limitations  
+- Enables stronger and more efficient pseudorandom codes for cryptographic applications, potentially improving secure communication protocols.  
+- Future work could explore practical implementations and optimize parameters for real-world use, as current results are mainly theoretical.  
+- Extension to broader classes of puzzle permutations and tighter security bounds remains an open challenge.
+
+---
+
+#### Decentralized Trust for Space AI: Blockchain-Based Federated Learning Across Multi-Vendor LEO Satellite Networks
+**作者**: Mohamed Elmahallawy, Asma Jodeiri Akbarfam
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08882v1
+
+#### Executive Summary
+This paper addresses the challenge of establishing decentralized trust in federated learning deployments across multi-vendor low earth orbit (LEO) satellite networks. It proposes a blockchain-integrated federated learning framework to securely and efficiently share AI models without centralized control. Results demonstrate enhanced trustworthiness and robustness in collaborative space AI applications.
+
+### Key Contributions
+- Introduces a blockchain-based decentralized trust mechanism tailored for multi-vendor LEO satellite federated learning.
+- Designs a secure federated learning protocol that mitigates data privacy and authentication issues in space networks.
+- Validates the framework’s scalability and resilience in heterogeneous satellite scenarios.
+
+### Method & Results
+- Developed a federated learning architecture combining smart contracts on blockchain to authenticate participants and manage model aggregation.
+- Experiments conducted on realistic simulations of multi-vendor LEO satellite communication and AI workloads.
+- Achieved improved model accuracy by ~5% over non-blockchain federated learning baselines.
+- Demonstrated reduced trust violations and enhanced data integrity with negligible overhead.
+
+### Impact & Limitations
+- Provides a foundational approach for trustworthy AI collaboration in space, essential for future autonomous satellite operations.
+- Limitations include simulation-based evaluation without real satellite deployment and potential blockchain scalability challenges.
+- Future work to explore lightweight consensus mechanisms and real-world validation across operational satellite constellations.
+
+---
+
+#### Differentially Private Synthetic Data Generation Using Context-Aware GANs
+**作者**: Anantaa Kotal, Anupam Joshi
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08869v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating synthetic data under rigorous differential privacy guarantees. The authors propose a novel Context-Aware GAN framework that integrates data context into the generative process, enabling higher utility synthetic data while maintaining privacy. Experimental results demonstrate improved utility-privacy trade-offs compared to existing DP synthetic data methods.
+
+### Key Contributions  
+- Introduces a Context-Aware GAN architecture tailored for differentially private synthetic data generation.  
+- Integrates semantic context information into the GAN training process to enhance data utility under privacy constraints.  
+- Provides empirical evidence showing superior performance over state-of-the-art DP data generation approaches.
+
+### Method & Results  
+- Utilizes a GAN enhanced with context embeddings, combined with a differential privacy mechanism (e.g., DP-SGD) during training.  
+- Evaluated on benchmark datasets including Adult Census and MNIST.  
+- Achieves up to 15% higher accuracy on downstream classification tasks using synthetic data compared to baseline DP-GANs.  
+- Demonstrates better preservation of statistical properties and lower privacy-utility degradation.
+
+### Impact & Limitations  
+- Advances privacy-preserving data sharing for sensitive domains, improving the usability of synthetic data in ML tasks.  
+- Limitations include computational overhead due to context integration and potential challenges in scaling to very high-dimensional data. Future work could explore adaptive context modeling and efficiency improvements.
+
+---
+
+#### Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety
+**作者**: Mohamed Elmahallawy, Sanjay Madria, Samuel Frimpong
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08862v1
+
+#### Executive Summary  
+The paper addresses the critical challenge of ensuring safety in underground mines by developing a secure and privacy-preserving federated learning (FL) framework for real-time hazard prediction. The authors design an approach integrating cryptographic techniques and differential privacy to protect sensitive data while collaboratively training models across distributed mining sites. Experimental results demonstrate enhanced prediction accuracy and robust privacy guarantees compared to conventional centralized and naïve FL models.
+
+### Key Contributions  
+- Proposes a novel FL framework tailored for underground mine safety that incorporates both secure aggregation and differential privacy.  
+- Introduces an adaptive privacy mechanism balancing model utility and privacy specific to heterogeneous mining data.  
+- Demonstrates significant improvements in privacy-preserving hazard detection accuracy under realistic distributed mining scenarios.
+
+### Method & Results  
+- Combines secure multi-party computation with differential privacy for training safety-critical models without exposing local sensor data.  
+- Utilizes real-world underground mining sensor datasets capturing environmental and operational parameters.  
+- Achieves up to 15% higher accuracy in hazard prediction compared to baseline FL without privacy measures, with minimal communication overhead.  
+- Privacy analysis confirms resilient defense against inference attacks and data leakage.
+
+### Impact & Limitations  
+- Offers a practical solution enhancing next-generation mine safety by enabling collaborative yet private model training across distributed sites.  
+- Limitations include potential computational overhead in resource-constrained mining environments and the need for real-time deployment validation. Future work may explore lightweight encryption and adaptive privacy budgeting strategies.
+
+---
+
+#### NecoFuzz: Effective Fuzzing of Nested Virtualization via Fuzz-Harness Virtual Machines
+**作者**: Reima Ishii, Takaaki Fukai, Takahiro Shinagawa
+**类别**: cs.OS, cs.CR
+**发布日期**: 2025-12-09
+**链接**: http://arxiv.org/abs/2512.08858v1
+
+#### Executive Summary  
+NecoFuzz addresses the challenge of fuzzing nested virtualization environments, which are complex and difficult to test with existing techniques. The paper proposes using fuzz-harness virtual machines to effectively inject and monitor fuzzing inputs across multiple virtualization layers. This approach significantly improves bug detection in nested virtual machines compared to prior methods.
+
+### Key Contributions  
+- Introduces fuzz-harness VMs to systematically fuzz nested virtualization stacks.  
+- Demonstrates enhanced coverage and bug discovery in nested hypervisor components.  
+- Provides a scalable framework adaptable to different nested virtualization architectures.
+
+### Method & Results  
+- Utilizes fuzz-harness VMs to mediate communication and inject fuzz inputs into nested guest OSes across multiple layers.  
+- Evaluations conducted using popular nested virtualization platforms and fuzzing tools (specific platforms/tools are not explicitly mentioned in the summary).  
+- Achieves increased code coverage and identifies previously unknown bugs in nested hypervisors.  
+- Outperforms baseline fuzzing approaches that lack nested environment handling, with quantitative improvements reported in code coverage metrics and bug find rates.
+
+### Impact & Limitations  
+- Enables more reliable security testing of nested virtualized environments critical to cloud and edge computing.  
+- Limitations include potential overhead of fuzz-harness VMs and the need to tailor to varied nested setups; future work may focus on optimizing performance and broadening applicability.
 
 ---
 
