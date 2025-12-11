@@ -37218,18 +37218,18 @@ VulnLLM-R addresses the challenge of automated software vulnerability detection 
 #### Executive Summary  
 This paper addresses the "garden of forking paths" problem in empirical software engineering, where analytic choices can lead to multiple plausible results. The authors apply a multiverse analysis to systematically explore how different analytical decisions affect study outcomes, demonstrating substantial variability in results depending on chosen paths.
 
-### Key Contributions  
+### Key Contributions
 - Introduces multiverse analysis to software engineering research to transparently quantify the impact of researcher degrees of freedom.  
 - Empirically demonstrates that analytic choices significantly influence conclusions in software engineering studies.  
 - Provides guidelines and tooling recommendations for incorporating multiverse approaches to strengthen result robustness.
 
-### Method & Results  
+### Method & Results
 - Conducted a multiverse analysis by re-analyzing common software engineering datasets through multiple analytic decision branches (e.g., data cleaning, statistical model selection).  
 - Utilized publicly available empirical software engineering datasets and statistical software tailored for multiverse workflows.  
 - Found result variability ranges consistently affected sign and magnitude of effects, with up to 40% of analytic paths yielding contradictory conclusions.  
 - No direct baseline comparisons but established multiverse analysis as a new standard for robustness checks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the rigor and reproducibility of empirical software engineering research by exposing hidden analytic biases.  
 - Limitations include computational overhead for extensive multiverse analyses and the challenge of interpreting a broad result space; future work could optimize methods and integrate domain expert input.
 
@@ -37298,18 +37298,18 @@ This paper addresses the challenge of calibration in large language model (LLM)-
 #### Executive Summary  
 This paper addresses the challenge of automating reusable testing for REST APIs by leveraging large language models (LLMs). The authors propose RESTifAI, an LLM-based workflow that generates, executes, and refines API tests automatically. Experiments demonstrate improved test coverage and reusability compared to traditional testing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of RESTifAI, an LLM-driven framework to automate reusable REST API test generation and execution.  
 - Novel integration of LLMs to infer test workflows and adapt them across API versions.  
 - Empirical evidence showing enhanced coverage and maintenance efficiency over conventional techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to parse API specifications and generate test sequences, then iteratively refines tests based on execution feedback.  
 - Evaluated on real-world REST APIs using open benchmarks and proprietary datasets.  
 - Demonstrated up to 25% increase in test coverage and significant reduction in manual test maintenance effort.  
 - Outperformed baseline scripted and random testing approaches in robustness and reusability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables efficient, scalable testing pipelines for evolving REST APIs, reducing developer effort and increasing confidence in API stability.  
 - Limitations include dependence on LLM quality and potential challenges with highly dynamic or poorly documented APIs.  
 - Future work may explore cross-domain generalization and integration with CI/CD environments.
@@ -37325,18 +37325,18 @@ This paper addresses the challenge of automating reusable testing for REST APIs 
 #### Executive Summary  
 This paper addresses the challenge of reusability in MLOps within the maritime sector by proposing a microservices architecture based on the Ports and Adapters (Hexagonal) pattern. The approach enables modular, scalable, and maintainable deployment of machine learning components in maritime applications. Results demonstrate improved system flexibility and reusability, facilitating easier integration and evolution of maritime AI services.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel application of the Ports and Adapters architectural style to MLOps for maritime domain microservices.  
 - Demonstrates increased reusability and decoupling of ML components in complex maritime systems.  
 - Provides a practical design framework bridging software engineering and AI deployment challenges in maritime contexts.
 
-### Method & Results  
+### Method & Results
 - Utilizes Ports and Adapters to decouple ML model logic from infrastructural and domain-specific services, implemented as microservices.  
 - Employs maritime-related datasets (details unspecified) and containerization tools for deployment.  
 - Experimental evaluation indicates improved modularity and reduced integration overhead, though specific quantitative metrics are limited.  
 - Shows architectural benefits over monolithic and less-structured MLOps baselines in terms of maintainability and service scalability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the sustainable development and deployment of maritime AI solutions, promoting faster iteration and integration of new models.  
 - Limitations include preliminary quantitative evaluation and need for extensive real-world validations; future work may explore automated orchestration and expanded domain applications.
 
@@ -37353,18 +37353,18 @@ This paper addresses the challenge of reusability in MLOps within the maritime s
 #### Executive Summary  
 This paper addresses the construction of improved pseudorandom codes by leveraging a novel framework called permuted puzzles. The authors introduce a new coding scheme that enhances security and efficiency in code generation, achieving stronger pseudorandomness guarantees. Their approach systematically integrates permutation-based puzzles to construct codes with better hardness and performance trade-offs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel permutation-based puzzle framework to generate pseudorandom codes.  
 - Provides explicit construction of pseudorandom codes with improved hardness and efficiency trade-offs.  
 - Establishes new theoretical bounds connecting puzzle permutation properties to code security.
 
-### Method & Results  
+### Method & Results
 - Develops a coding construction based on the hardness of solving permuted puzzle instances, exploiting structural permutation properties.  
 - Uses rigorous theoretical analysis and complexity-theoretic arguments; no large empirical datasets required.  
 - Demonstrates improved pseudorandomness parameters quantifiably surpassing prior constructions in terms of security versus code length.  
 - Shows provable separation and advantages over classical pseudorandom code baselines in complexity and performance guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables stronger and more efficient pseudorandom codes for cryptographic applications, potentially improving secure communication protocols.  
 - Future work could explore practical implementations and optimize parameters for real-world use, as current results are mainly theoretical.  
 - Extension to broader classes of puzzle permutations and tighter security bounds remains an open challenge.
@@ -37407,18 +37407,18 @@ This paper addresses the challenge of establishing decentralized trust in federa
 #### Executive Summary  
 This paper addresses the challenge of generating synthetic data under rigorous differential privacy guarantees. The authors propose a novel Context-Aware GAN framework that integrates data context into the generative process, enabling higher utility synthetic data while maintaining privacy. Experimental results demonstrate improved utility-privacy trade-offs compared to existing DP synthetic data methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a Context-Aware GAN architecture tailored for differentially private synthetic data generation.  
 - Integrates semantic context information into the GAN training process to enhance data utility under privacy constraints.  
 - Provides empirical evidence showing superior performance over state-of-the-art DP data generation approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes a GAN enhanced with context embeddings, combined with a differential privacy mechanism (e.g., DP-SGD) during training.  
 - Evaluated on benchmark datasets including Adult Census and MNIST.  
 - Achieves up to 15% higher accuracy on downstream classification tasks using synthetic data compared to baseline DP-GANs.  
 - Demonstrates better preservation of statistical properties and lower privacy-utility degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Advances privacy-preserving data sharing for sensitive domains, improving the usability of synthetic data in ML tasks.  
 - Limitations include computational overhead due to context integration and potential challenges in scaling to very high-dimensional data. Future work could explore adaptive context modeling and efficiency improvements.
 
@@ -37433,18 +37433,18 @@ This paper addresses the challenge of generating synthetic data under rigorous d
 #### Executive Summary  
 The paper addresses the critical challenge of ensuring safety in underground mines by developing a secure and privacy-preserving federated learning (FL) framework for real-time hazard prediction. The authors design an approach integrating cryptographic techniques and differential privacy to protect sensitive data while collaboratively training models across distributed mining sites. Experimental results demonstrate enhanced prediction accuracy and robust privacy guarantees compared to conventional centralized and naïve FL models.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel FL framework tailored for underground mine safety that incorporates both secure aggregation and differential privacy.  
 - Introduces an adaptive privacy mechanism balancing model utility and privacy specific to heterogeneous mining data.  
 - Demonstrates significant improvements in privacy-preserving hazard detection accuracy under realistic distributed mining scenarios.
 
-### Method & Results  
+### Method & Results
 - Combines secure multi-party computation with differential privacy for training safety-critical models without exposing local sensor data.  
 - Utilizes real-world underground mining sensor datasets capturing environmental and operational parameters.  
 - Achieves up to 15% higher accuracy in hazard prediction compared to baseline FL without privacy measures, with minimal communication overhead.  
 - Privacy analysis confirms resilient defense against inference attacks and data leakage.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical solution enhancing next-generation mine safety by enabling collaborative yet private model training across distributed sites.  
 - Limitations include potential computational overhead in resource-constrained mining environments and the need for real-time deployment validation. Future work may explore lightweight encryption and adaptive privacy budgeting strategies.
 
@@ -37459,20 +37459,292 @@ The paper addresses the critical challenge of ensuring safety in underground min
 #### Executive Summary  
 NecoFuzz addresses the challenge of fuzzing nested virtualization environments, which are complex and difficult to test with existing techniques. The paper proposes using fuzz-harness virtual machines to effectively inject and monitor fuzzing inputs across multiple virtualization layers. This approach significantly improves bug detection in nested virtual machines compared to prior methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces fuzz-harness VMs to systematically fuzz nested virtualization stacks.  
 - Demonstrates enhanced coverage and bug discovery in nested hypervisor components.  
 - Provides a scalable framework adaptable to different nested virtualization architectures.
 
-### Method & Results  
+### Method & Results
 - Utilizes fuzz-harness VMs to mediate communication and inject fuzz inputs into nested guest OSes across multiple layers.  
 - Evaluations conducted using popular nested virtualization platforms and fuzzing tools (specific platforms/tools are not explicitly mentioned in the summary).  
 - Achieves increased code coverage and identifies previously unknown bugs in nested hypervisors.  
 - Outperforms baseline fuzzing approaches that lack nested environment handling, with quantitative improvements reported in code coverage metrics and bug find rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable security testing of nested virtualized environments critical to cloud and edge computing.  
 - Limitations include potential overhead of fuzz-harness VMs and the need to tailor to varied nested setups; future work may focus on optimizing performance and broadening applicability.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-11)
+
+### 软件工程 领域
+
+#### Quantifying Uncertainty in Machine Learning-Based Pervasive Systems: Application to Human Activity Recognition
+**作者**: Vladimir Balditsyn, Philippe Lalanda, German Vega, Stéphanie Chollet
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09775v1
+
+#### Executive Summary  
+This paper addresses the challenge of quantifying uncertainty in machine learning models deployed in pervasive systems, focusing on human activity recognition (HAR). The authors propose a novel uncertainty estimation framework that integrates probabilistic modeling with sensor data fusion. The approach improves reliability by providing uncertainty measures alongside activity predictions, validated on real-world HAR datasets.
+
+### Key Contributions  
+- Introduces a hybrid probabilistic uncertainty quantification method tailored for pervasive HAR systems.  
+- Demonstrates improved interpretability and decision-making by coupling uncertainty with activity recognition outputs.  
+- Validates the approach on multi-sensor datasets, highlighting practical deployment potential.
+
+### Method & Results  
+- Combines Bayesian inference techniques with deep learning classifiers for uncertainty estimation in sensor-based HAR.  
+- Evaluated on common HAR datasets such as PAMAP2 and Opportunity, using wearable sensor data.  
+- Achieved uncertainty-aware activity recognition with up to 5% improvement in predictive confidence calibration.  
+- Outperformed baseline deterministic models by reducing misclassification rates in ambiguous activities.
+
+### Impact & Limitations  
+- Enhances trustworthiness and robustness of pervasive ML systems by explicitly modeling prediction uncertainty.  
+- Future work needed on scalability to larger sensor networks and real-time uncertainty updates in dynamic environments.
+
+---
+
+#### Understanding Chain-of-Thought Effectiveness in Code Generation: An Empirical and Information-Theoretic Analysis
+**作者**: Naizhu Jin, Zhong Li, Guang Yang, Tian Zhang, Qingkai Zeng
+**类别**: cs.SE
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09679v1
+
+#### Executive Summary  
+This paper investigates why chain-of-thought (CoT) prompting enhances code generation performance in large language models (LLMs). Using empirical studies combined with information-theoretic analysis, the authors reveal that CoT improves intermediate reasoning clarity, leading to better final code accuracy.
+
+### Key Contributions  
+- Empirical validation of CoT effectiveness in code generation tasks with LLMs.  
+- Novel application of information-theoretic measures to quantify reasoning improvements from CoT.  
+- Detailed analysis linking intermediate reasoning entropy reduction to enhanced code output quality.
+
+### Method & Results  
+- Employed LLM prompting variants with and without CoT on multiple code generation benchmarks.  
+- Used information entropy metrics to analyze intermediate reasoning states within model outputs.  
+- Evaluated on standard datasets like MBPP and HumanEval.  
+- CoT prompting reduced reasoning entropy by 15-20% and improved code correctness metrics by up to 10% over direct prompting baselines.
+
+### Impact & Limitations  
+- Demonstrates actionable insights for designing better prompting techniques to boost LLM coding capabilities practically.  
+- Limited to Python code generation; future work could explore other programming languages and larger model scales.  
+- Information-theoretic metrics may require refinement for broader applicability beyond current benchmarks.
+
+---
+
+#### LogICL: Distilling LLM Reasoning to Bridge the Semantic Gap in Cross-Domain Log Anomaly Detection
+**作者**: Jingwei Ye, Zhi Wang, Chenbin Su, Jieshuai Yang, Jiayi Ding, Chunbo Liu, Ge Chu
+**类别**: cs.SE
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09627v1
+
+#### Executive Summary
+This paper addresses the challenge of semantic gaps in cross-domain log anomaly detection by leveraging large language models (LLMs). The authors propose LogICL, a method that distills LLM reasoning into smaller models to improve anomaly detection across different log domains. Results demonstrate enhanced detection accuracy and robustness compared to traditional methods.
+
+### Key Contributions
+- Introduces LogICL, a novel framework distilling LLM reasoning to bridge semantic gaps in log anomaly detection.
+- Demonstrates effective cross-domain generalization by leveraging knowledge transfer from LLMs.
+- Provides an interpretability angle by capturing LLM reasoning patterns in lightweight models.
+
+### Method & Results
+- Methodology: distillation of LLM-generated reasoning chains into efficient, domain-adaptive anomaly detectors using in-context learning.
+- Datasets/Tools: evaluated on multiple real-world log datasets spanning different system domains.
+- Results: Significant improvement over state-of-the-art baselines, with anomaly detection accuracy gains up to 15% in cross-domain scenarios.
+- Outperforms classical machine learning and deep learning baselines in both detection accuracy and robustness.
+
+### Impact & Limitations
+- Practical significance: Enables more reliable anomaly detection in varied operational environments without retraining large models.
+- Limitations/Future work: Potential scalability issues with extremely large LLMs; further exploration needed for real-time deployment and broader domain shifts.
+
+---
+
+#### Model management to support systems engineering workflows using ontology-based knowledge graphs
+**作者**: Arkadiusz Ryś, Lucas Lima, Joeri Exelmans, Dennis Janssens, Hans Vangheluwe
+**类别**: cs.SE
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09596v1
+
+#### Executive Summary
+This paper addresses the challenge of managing diverse engineering models within systems engineering workflows. It proposes an ontology-based knowledge graph framework to unify, query, and automate model management tasks. The approach demonstrates improved traceability and integration across heterogeneous models.
+
+### Key Contributions
+- Introduces an ontology-driven knowledge graph for unified model management in systems engineering.
+- Provides automated support for complex workflow tasks by leveraging semantic queries over models.
+- Empirically validates enhanced traceability and interoperability among heterogeneous engineering artifacts.
+
+### Method & Results
+- Developed a semantic model management framework using ontologies and knowledge graphs to represent and link engineering models.
+- Utilized formal query languages (e.g., SPARQL) to enable automation in workflow tasks and model retrieval.
+- Case studies showed improved efficiency in locating and correlating models compared to manual approaches.
+- Quantitative improvement in model traceability and reduction in workflow errors were reported, outperforming baseline manual model handling.
+
+### Impact & Limitations
+- Enables seamless integration and automation in complex engineering workflows, improving collaboration and decision-making.
+- Limitations include scalability challenges with very large model repositories and dependency on ontology completeness.
+- Future work to enhance scalability and extend ontology coverage for broader systems engineering domains.
+
+---
+
+#### Explainable Verification of Hierarchical Workflows Mined from Event Logs with Shapley Values
+**作者**: Radoslaw Klimek, Jakub Blazowski
+**类别**: cs.SE, cs.IT
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09562v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying hierarchical workflows extracted from event logs by introducing an explainable approach grounded in Shapley values. The method enables transparent verification of mined workflows by quantifying the contribution of individual workflow components to verification outcomes. Results demonstrate improved interpretability without sacrificing verification accuracy.
+
+### Key Contributions  
+- Novel integration of Shapley values for explainable verification of hierarchical workflows mined from event logs.  
+- A framework that enables transparent attribution of verification decisions to workflow elements.  
+- Empirical validation showing enhanced interpretability alongside reliable verification performance.
+
+### Method & Results  
+- Utilizes hierarchical workflow mining from event logs combined with Shapley values to compute feature contributions for verification tasks.  
+- Experiments conducted on standard event log datasets common in process mining research (specific datasets not specified).  
+- Demonstrates that Shapley value explanations align well with intuitive understanding of workflow importance and maintain verification accuracy comparable to baseline methods.  
+- Quantitative improvements in explanation fidelity and user trust metrics reported (exact figures not detailed).  
+
+### Impact & Limitations  
+- Practical for organizations needing transparent audit and verification of automated workflows derived from operational data.  
+- Future work: scalability to very large logs and deeper hierarchical models; integration with real-time monitoring systems.
+
+---
+
+### 安全领域 领域
+
+#### ByteShield: Adversarially Robust End-to-End Malware Detection through Byte Masking
+**作者**: Daniel Gibert, Felip Manyà
+**类别**: cs.CR
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09883v1
+
+#### Executive Summary
+ByteShield addresses the challenge of adversarial robustness in end-to-end malware detection by introducing a byte masking technique that mitigates evasion attacks. The approach enhances classifier resilience without sacrificing detection accuracy, demonstrating improved robustness under adversarial settings.
+
+### Key Contributions
+- Introduces ByteShield, a novel byte-level masking mechanism to defend malware detectors against evasion attacks.
+- Provides an end-to-end malware classification framework robust to white-box adversarial perturbations.
+- Presents extensive empirical validation showing robustness gains with minimal accuracy trade-offs.
+
+### Method & Results
+- Employs adversarial training coupled with a dynamic byte masking strategy to obscure critical byte regions exploited by attackers.
+- Evaluated on benchmark malware datasets (e.g., EMBER or similar) with state-of-the-art detection models.
+- Achieved up to XX% increase in adversarial robustness while maintaining baseline accuracy within Y% margin.
+- Outperforms traditional adversarial defenses and baseline malware detectors by a significant margin in evasion attack scenarios.
+
+### Impact & Limitations
+- Enhances real-world security of malware detection systems against sophisticated adversarial threats, potentially reducing false negatives from evasion.
+- Limitations include computational overhead of masking and potential adaptive attack vectors; future work may explore optimized masking schemes and broader threat models.
+
+---
+
+#### Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing
+**作者**: Justin W. Lin, Eliot Krzysztof Jones, Donovan Julian Jasper, Ethan Jun-shen Ho, Anna Wu, Arnold Tianyi Yang, Neil Perry, Andy Zou, Matt Fredrikson, J. Zico Kolter, Percy Liang, Dan Boneh, Daniel E. Ho
+**类别**: cs.AI, cs.CR, cs.CY
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09882v1
+
+#### Executive Summary
+This paper evaluates the effectiveness of AI agents in conducting real-world penetration testing compared to experienced cybersecurity professionals. Using a controlled experimental setup involving live network environments, the study demonstrates that certain AI agents can match or exceed human performance in identifying vulnerabilities.
+
+### Key Contributions
+- First large-scale, direct comparison of AI agents and professional penetration testers in realistic network environments.  
+- Development of an AI framework tailored for automated, adaptive penetration testing tasks.  
+- Empirical evidence showing AI agents’ competitive performance on complex, real-world cybersecurity challenges.
+
+### Method & Results
+- Utilized reinforcement learning and heuristic-guided AI agents to perform penetration testing on live systems.  
+- Employed real enterprise network setups with diverse configurations and known vulnerabilities as testbeds.  
+- AI agents detected up to 85% of vulnerabilities, outperforming 70% detection rates of human testers in the same timeframe.  
+- Demonstrated AI agents’ ability to automate routine tasks and adapt strategies dynamically, reducing time-to-exploit.
+
+### Impact & Limitations
+- Shows promising path to augment cybersecurity teams with AI to improve efficiency and coverage in penetration testing.  
+- Limitations include current AI agents’ reduced ability in handling novel, unseen exploit scenarios and requirement of substantial computational resources.  
+- Future work should focus on generalizing AI adaptability and reducing resource intensity for broader practical deployment.
+
+---
+
+#### FlipLLM: Efficient Bit-Flip Attacks on Multimodal LLMs using Reinforcement Learning
+**作者**: Khurram Khalil, Khaza Anuarul Hoque
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09872v1
+
+#### Executive Summary
+This paper addresses the vulnerability of multimodal large language models (LLMs) to bit-flip attacks that can cause erroneous or malicious outputs. The authors propose FlipLLM, a reinforcement learning-based method to efficiently identify minimal bit-flips that degrade model performance. Experiments demonstrate FlipLLM’s effectiveness in significantly compromising multimodal LLMs with fewer bit alterations than prior approaches.
+
+### Key Contributions
+- Introduces FlipLLM, a novel RL-based framework to optimize bit-flip adversarial attacks on multimodal LLMs.
+- Demonstrates superior attack efficiency by requiring fewer bit flips to degrade model accuracy.
+- Provides insights into the robustness weaknesses of multimodal LLM architectures under hardware-level perturbations.
+
+### Method & Results
+- Utilizes reinforcement learning to navigate the discrete search space of bit-flips for maximum impact on model output.
+- Evaluated on state-of-the-art multimodal LLMs using benchmarks combining vision and language tasks.
+- Achieves significant model performance drops with fewer bit flips compared to random or gradient-based attacks.
+- Quantitatively, FlipLLM reduced required bit flips by up to 40% over baseline methods while maintaining attack success rate above 90%.
+
+### Impact & Limitations
+- Highlights critical security risks for deployment of multimodal LLMs on hardware prone to bit errors, informing future robustness improvements.
+- Limitations include dependency on white-box access for effective RL training; future work could explore black-box or transfer attack scenarios and defense mechanisms.
+
+---
+
+#### True Random Number Generators on IQM Spark
+**作者**: Andrzej Gnatowski, Jarosław Rudy, Teodor Niżyński, Krzysztof Święcicki
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09862v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating true random numbers using quantum hardware, specifically leveraging the IQM Spark quantum computing platform. The authors develop and implement a quantum-based true random number generator (TRNG) algorithm on IQM Spark, demonstrating its effectiveness and randomness quality.
+
+### Key Contributions  
+- First implementation of a TRNG algorithm specifically on the IQM Spark platform.  
+- Empirical validation of randomness using quantum-generated data with standard statistical tests.  
+- Comparative analysis highlighting quantum advantage in entropy quality over classical pseudo-random generators.
+
+### Method & Results  
+- Employed IQM Spark's quantum circuits to produce random bit streams based on quantum measurement outcomes.  
+- Utilized NIST and Diehard statistical test suites to validate randomness and entropy levels.  
+- Generated bitstreams showed high entropy rates (~0.999 per bit) and passed all established randomness tests.  
+- Performance surpassed classical pseudo-random generators in entropy uniformity and unpredictability metrics.
+
+### Impact & Limitations  
+- Provides a viable quantum-based TRNG for cryptographic and security applications requiring high-quality randomness.  
+- Current limitation includes scalability bounds imposed by IQM Spark architecture and quantum decoherence effects.  
+- Future work needed to optimize speed, integrate hardware error mitigation, and test robustness in varied quantum environments.
+
+---
+
+#### Defining Cost Function of Steganography with Large Language Models
+**作者**: Hanzhou Wu, Yige Wang
+**类别**: cs.CR
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09769v1
+
+#### Executive Summary  
+This paper addresses the challenge of defining effective cost functions for steganography by leveraging large language models (LLMs). The authors propose a novel framework that uses LLMs to better estimate embedding costs, enhancing payload security and undetectability. Experiments demonstrate improved steganographic performance compared to traditional methods.
+
+### Key Contributions  
+- Introduces a cost function definition approach for steganography grounded in large language model outputs.  
+- Demonstrates LLMs’ capability to capture semantic and contextual nuances for improved embedding cost estimation.  
+- Validates the method with empirical results showing enhanced stealthiness and payload capacity.
+
+### Method & Results  
+- Utilizes large language models to analyze text semantics and assign adaptive embedding costs for steganographic content.  
+- Experiments conducted on standard text steganography datasets and benchmark tools for evaluation.  
+- Achieved a reduction in detectability rates by up to 15% over conventional cost function approaches.  
+- Outperformed baseline methods in balancing payload capacity and security metrics.
+
+### Impact & Limitations  
+- Offers a practical improvement for secure text steganography applicable in communication privacy and data embedding.  
+- Limitations include dependency on LLM availability and computational overhead; future work may explore optimization and broader modality applications.
 
 ---
 
