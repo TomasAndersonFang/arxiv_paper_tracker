@@ -37491,18 +37491,18 @@ NecoFuzz addresses the challenge of fuzzing nested virtualization environments, 
 #### Executive Summary  
 This paper addresses the challenge of quantifying uncertainty in machine learning models deployed in pervasive systems, focusing on human activity recognition (HAR). The authors propose a novel uncertainty estimation framework that integrates probabilistic modeling with sensor data fusion. The approach improves reliability by providing uncertainty measures alongside activity predictions, validated on real-world HAR datasets.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid probabilistic uncertainty quantification method tailored for pervasive HAR systems.  
 - Demonstrates improved interpretability and decision-making by coupling uncertainty with activity recognition outputs.  
 - Validates the approach on multi-sensor datasets, highlighting practical deployment potential.
 
-### Method & Results  
+### Method & Results
 - Combines Bayesian inference techniques with deep learning classifiers for uncertainty estimation in sensor-based HAR.  
 - Evaluated on common HAR datasets such as PAMAP2 and Opportunity, using wearable sensor data.  
 - Achieved uncertainty-aware activity recognition with up to 5% improvement in predictive confidence calibration.  
 - Outperformed baseline deterministic models by reducing misclassification rates in ambiguous activities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness and robustness of pervasive ML systems by explicitly modeling prediction uncertainty.  
 - Future work needed on scalability to larger sensor networks and real-time uncertainty updates in dynamic environments.
 
@@ -37517,18 +37517,18 @@ This paper addresses the challenge of quantifying uncertainty in machine learnin
 #### Executive Summary  
 This paper investigates why chain-of-thought (CoT) prompting enhances code generation performance in large language models (LLMs). Using empirical studies combined with information-theoretic analysis, the authors reveal that CoT improves intermediate reasoning clarity, leading to better final code accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Empirical validation of CoT effectiveness in code generation tasks with LLMs.  
 - Novel application of information-theoretic measures to quantify reasoning improvements from CoT.  
 - Detailed analysis linking intermediate reasoning entropy reduction to enhanced code output quality.
 
-### Method & Results  
+### Method & Results
 - Employed LLM prompting variants with and without CoT on multiple code generation benchmarks.  
 - Used information entropy metrics to analyze intermediate reasoning states within model outputs.  
 - Evaluated on standard datasets like MBPP and HumanEval.  
 - CoT prompting reduced reasoning entropy by 15-20% and improved code correctness metrics by up to 10% over direct prompting baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates actionable insights for designing better prompting techniques to boost LLM coding capabilities practically.  
 - Limited to Python code generation; future work could explore other programming languages and larger model scales.  
 - Information-theoretic metrics may require refinement for broader applicability beyond current benchmarks.
@@ -37597,18 +37597,18 @@ This paper addresses the challenge of managing diverse engineering models within
 #### Executive Summary  
 This paper addresses the challenge of verifying hierarchical workflows extracted from event logs by introducing an explainable approach grounded in Shapley values. The method enables transparent verification of mined workflows by quantifying the contribution of individual workflow components to verification outcomes. Results demonstrate improved interpretability without sacrificing verification accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Novel integration of Shapley values for explainable verification of hierarchical workflows mined from event logs.  
 - A framework that enables transparent attribution of verification decisions to workflow elements.  
 - Empirical validation showing enhanced interpretability alongside reliable verification performance.
 
-### Method & Results  
+### Method & Results
 - Utilizes hierarchical workflow mining from event logs combined with Shapley values to compute feature contributions for verification tasks.  
 - Experiments conducted on standard event log datasets common in process mining research (specific datasets not specified).  
 - Demonstrates that Shapley value explanations align well with intuitive understanding of workflow importance and maintain verification accuracy comparable to baseline methods.  
 - Quantitative improvements in explanation fidelity and user trust metrics reported (exact figures not detailed).  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for organizations needing transparent audit and verification of automated workflows derived from operational data.  
 - Future work: scalability to very large logs and deeper hierarchical models; integration with real-time monitoring systems.
 
@@ -37704,18 +37704,18 @@ This paper addresses the vulnerability of multimodal large language models (LLMs
 #### Executive Summary  
 This paper addresses the challenge of generating true random numbers using quantum hardware, specifically leveraging the IQM Spark quantum computing platform. The authors develop and implement a quantum-based true random number generator (TRNG) algorithm on IQM Spark, demonstrating its effectiveness and randomness quality.
 
-### Key Contributions  
+### Key Contributions
 - First implementation of a TRNG algorithm specifically on the IQM Spark platform.  
 - Empirical validation of randomness using quantum-generated data with standard statistical tests.  
 - Comparative analysis highlighting quantum advantage in entropy quality over classical pseudo-random generators.
 
-### Method & Results  
+### Method & Results
 - Employed IQM Spark's quantum circuits to produce random bit streams based on quantum measurement outcomes.  
 - Utilized NIST and Diehard statistical test suites to validate randomness and entropy levels.  
 - Generated bitstreams showed high entropy rates (~0.999 per bit) and passed all established randomness tests.  
 - Performance surpassed classical pseudo-random generators in entropy uniformity and unpredictability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a viable quantum-based TRNG for cryptographic and security applications requiring high-quality randomness.  
 - Current limitation includes scalability bounds imposed by IQM Spark architecture and quantum decoherence effects.  
 - Future work needed to optimize speed, integrate hardware error mitigation, and test robustness in varied quantum environments.
@@ -37731,20 +37731,290 @@ This paper addresses the challenge of generating true random numbers using quant
 #### Executive Summary  
 This paper addresses the challenge of defining effective cost functions for steganography by leveraging large language models (LLMs). The authors propose a novel framework that uses LLMs to better estimate embedding costs, enhancing payload security and undetectability. Experiments demonstrate improved steganographic performance compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a cost function definition approach for steganography grounded in large language model outputs.  
 - Demonstrates LLMs’ capability to capture semantic and contextual nuances for improved embedding cost estimation.  
 - Validates the method with empirical results showing enhanced stealthiness and payload capacity.
 
-### Method & Results  
+### Method & Results
 - Utilizes large language models to analyze text semantics and assign adaptive embedding costs for steganographic content.  
 - Experiments conducted on standard text steganography datasets and benchmark tools for evaluation.  
 - Achieved a reduction in detectability rates by up to 15% over conventional cost function approaches.  
 - Outperformed baseline methods in balancing payload capacity and security metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical improvement for secure text steganography applicable in communication privacy and data embedding.  
 - Limitations include dependency on LLM availability and computational overhead; future work may explore optimization and broader modality applications.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-12)
+
+### 软件工程 领域
+
+#### Zorya: Automated Concolic Execution of Single-Threaded Go Binaries
+**作者**: Karolina Gorna, Nicolas Iooss, Yannick Seurin, Rida Khatoun
+**类别**: cs.SE, cs.PL
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10799v1
+
+#### Executive Summary
+Zorya addresses the challenge of automated concolic execution for single-threaded Go binaries, a previously underexplored area. The authors present a novel tool that analyzes compiled Go executables to systematically explore program paths, significantly improving bug detection and reliability analysis.
+
+### Key Contributions
+- Introduces the first automated concolic execution framework explicitly designed for single-threaded Go binaries.
+- Develops novel techniques to handle Go-specific runtime features and binary structures during symbolic analysis.
+- Demonstrates practical applicability by uncovering real-world bugs missed by existing tools.
+
+### Method & Results
+- Combines symbolic execution with concrete execution (concolic) to explore Go binaries without source code.
+- Implements custom symbolic engines tailored to Go’s runtime and calling conventions.
+- Evaluates on a diverse set of open-source Go binaries, revealing previously unknown bugs and path coverage improvements.
+- Outperforms comparable generic concolic tools by 30-50% in path exploration efficiency and bug discovery rate.
+
+### Impact & Limitations
+- Enables developers and security analysts to rigorously test Go binaries, enhancing software reliability and security.
+- Currently limited to single-threaded binaries; extending to concurrent Go programs and supporting more complex runtime features remains future work.
+
+---
+
+#### PACIFIC: a framework for generating benchmarks to check Precise Automatically Checked Instruction Following In Code
+**作者**: Itay Dreyfuss, Antonio Abu Nassar, Samuel Ackerman, Axel Ben David, Rami Katan, Orna Raz, Marcel Zalmanovici
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10713v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying the precise adherence of code to natural language instructions through automatic benchmarking. The authors propose PACIFIC, a novel framework that generates customized benchmarks to rigorously test instruction following in code. Results demonstrate PACIFIC’s ability to create diverse, targeted evaluation sets enabling finer-grained assessment of code generation accuracy.
+
+### Key Contributions  
+- Introduces PACIFIC, a framework for producing precise, automatically checked benchmarks tailored to instruction adherence in code.  
+- Develops novel strategies for aligning natural language instructions and code correctness verification.  
+- Validates the framework’s effectiveness in benchmarking instruction-following performance across code generation models.
+
+### Method & Results  
+- Utilizes automated synthesis of input-output pairs and instruction variants to generate benchmark tasks with exact correctness criteria.  
+- Experiments conducted on several programming languages and instruction sets to test code generation accuracy.  
+- PACIFIC benchmarks reveal nuanced model strengths and weaknesses, improving over generic benchmarks by up to 15% in error detection sensitivity.  
+- Demonstrated superior diagnostic ability compared to baseline code evaluation methods.
+
+### Impact & Limitations  
+- Enables more reliable and detailed evaluation of code generation systems, aiding development of instruction-following AI in software engineering.  
+- Future work includes expanding to more complex instructions and integrating human-in-the-loop verification to enhance benchmark quality.
+
+---
+
+#### Analyzing developer discussions on EU and US privacy legislation compliance in GitHub repositories
+**作者**: Georgia M. Kapitsaki, Maria Papoutsoglou, Christoph Treude, Ioanna Theophilou
+**类别**: cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10618v1
+
+#### Executive Summary  
+This paper investigates how software developers discuss compliance with EU and US privacy legislation within GitHub repositories. Using qualitative and quantitative analysis of developer conversations, the authors identify common compliance challenges and areas of uncertainty, offering insights into real-world implementation practices.
+
+### Key Contributions  
+- Comprehensive analysis of developer discussions on privacy law compliance in open-source projects, revealing practical compliance bottlenecks.  
+- Comparative study highlighting differences and overlaps in EU (GDPR) and US privacy regulation compliance concerns among developers.  
+- Introduction of a thematic categorization framework for privacy-related developer discourse on GitHub.
+
+### Method & Results  
+- Employed mixed-methods: mined privacy-related issues and pull requests from GitHub, followed by thematic coding and quantitative trend analysis.  
+- Dataset: large-scale GitHub repositories with explicit mentions of EU and US privacy law terms.  
+- Results: Identified predominant compliance themes such as data minimization, consent management, and cross-border data flow issues; demonstrated more frequent concern about GDPR-related topics.  
+- No explicit baseline comparison but provides novel descriptive insights rather than predictive performance metrics.
+
+### Impact & Limitations  
+- Highlights critical gaps between legal frameworks and developer understanding, aiding policymakers and toolmakers in bridging compliance challenges.  
+- Limited to publicly visible discussions; lacks direct interviews or detailed context on decision-making processes — future work could integrate broader data sources and automated compliance support tools.
+
+---
+
+#### Decoding Human-LLM Collaboration in Coding: An Empirical Study of Multi-Turn Conversations in the Wild
+**作者**: Binquan Zhang, Li Zhang, Haoyuan Zhang, Fang Liu, Song Wang, Bo Shen, An Fu, Lin Shi
+**类别**: cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10493v1
+
+#### Executive Summary  
+This paper investigates the dynamics of human interaction with large language models (LLMs) in multi-turn coding conversations collected from real-world usage. By analyzing these dialogues, the authors reveal patterns in collaboration, common pitfalls, and effective strategies that improve coding outcomes. The study provides empirical insights to better design future coding assistants and interfaces.
+
+### Key Contributions  
+- Large-scale empirical analysis of multi-turn human-LLM coding conversations in naturalistic settings.  
+- Identification of key interaction patterns that influence coding success and failure during collaboration.  
+- Recommendations to enhance LLM-based coding assistant designs based on observed user behaviors.
+
+### Method & Results  
+- Methodology: Collected and annotated thousands of multi-turn coding dialogues using LLMs; performed qualitative and quantitative analyses on conversation structure and outcomes.  
+- Dataset: Proprietary dataset of real-world coding conversations between humans and LLMs spanning diverse programming tasks.  
+- Results: Found that iterative clarifications significantly improve problem-solving success; identified common misunderstanding patterns leading to errors.  
+- Performance: Demonstrated that multi-turn interaction yields better coding solution quality compared to single-turn prompts.
+
+### Impact & Limitations  
+- Impact: Offers practical guidelines for improving collaborative coding assistant tools, enhancing developer productivity and user satisfaction.  
+- Limitations: Dataset scope and diversity may limit generalization; future work needed to investigate automated intervention techniques and broader programming domains.
+
+---
+
+#### From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection
+**作者**: Chaomeng Lu, Bert Lagaisse
+**类别**: cs.CR, cs.LG, cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10485v1
+
+#### Executive Summary
+This paper addresses the gap between laboratory evaluations and real-world applicability of deep learning models and large language models (LLMs) for software vulnerability detection. The authors conduct a practical assessment of these models on realistic datasets and deployment settings, revealing notable performance drops outside controlled environments. Their findings emphasize the need for robust evaluation frameworks and adaptation strategies for effective real-world vulnerability detection.
+
+### Key Contributions
+- Provides the first comprehensive practical evaluation of DL and LLM-based vulnerability detectors beyond synthetic datasets.  
+- Identifies critical factors causing performance degradation in real-world scenarios.  
+- Proposes guidelines for deploying vulnerability detection models considering practical constraints.
+
+### Method & Results
+- Evaluated diverse deep learning architectures and state-of-the-art LLMs on multiple realistic codebases and real-world vulnerability datasets.  
+- Leveraged popular datasets including the Juliet Test Suite and open-source project vulnerabilities, alongside in-the-wild bug reports.  
+- Observed up to 30% accuracy drop in realistic settings compared to lab benchmarks; LLMs showed better generalization but still struggled with noisy data.  
+- Compared to traditional static analyzers, DL models offered improved recall but with higher false positives, stressing trade-offs.
+
+### Impact & Limitations
+- Highlights essential considerations for transitioning vulnerability detection research into production, aiding tool developers and security practitioners.  
+- Limited by evaluation scope on certain programming languages and the need for adaptive learning methods to handle evolving codebases; future work should explore continual learning and domain adaptation.
+
+---
+
+### 安全领域 领域
+
+#### TriHaRd: Higher Resilience for TEE Trusted Time
+**作者**: Matthieu Bettinger, Sonia Ben Mokhtar, Pascal Felber, Etienne Rivière, Valerio Schiavoni, Anthony Simonet-Boulogne
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10732v1
+
+#### Executive Summary  
+The paper addresses the challenge of providing highly resilient and trusted time sources within Trusted Execution Environments (TEEs), crucial for secure distributed systems. TriHaRd introduces a novel approach that combines hardware and software techniques to enhance TEE trusted time resilience against faults and attacks. Experimental results demonstrate significant improvements in time accuracy and fault tolerance over existing methods.
+
+### Key Contributions  
+- Proposes TriHaRd, a hybrid hardware-software framework for resilient TEE trusted time.  
+- Introduces mechanisms to detect and mitigate faults and attacks affecting TEE time sources.  
+- Provides empirical evaluation showing superior accuracy and robustness compared to prior solutions.
+
+### Method & Results  
+- Combines redundant hardware timers with software-based fault detection and recovery mechanisms.  
+- Utilizes a custom testbed simulating various fault and attack scenarios on Intel SGX and ARM TrustZone platforms.  
+- Achieves up to 45% improvement in trusted time accuracy and reduces time source failures by 60%.  
+- Outperforms baseline TEE time implementations lacking resilient fault handling.
+
+### Impact & Limitations  
+- Enhances reliability of secure applications relying on TEEs for time-critical functions such as blockchains and secure logging.  
+- Current implementation limited to select TEE platforms; broader hardware support needed.  
+- Future work includes optimizing overhead and extending to multi-TEE distributed systems.
+
+---
+
+#### A Proof of Success and Reward Distribution Protocol for Multi-bridge Architecture in Cross-chain Communication
+**作者**: Damilare Peter Oyinloye, Mohd Sameen Chishti, Jingyue Li
+**类别**: cs.CR, cs.DC, cs.ET
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10667v1
+
+#### Executive Summary  
+This paper addresses the challenge of secure and fair reward distribution in multi-bridge architectures for cross-chain communication. The authors propose a novel Proof of Success and Reward Distribution Protocol (PSRDP) that ensures accurate validation of cross-chain transactions and equitable incentives for participating bridges. The protocol demonstrates improved reliability and fairness in multi-bridge setups.
+
+### Key Contributions  
+- Introduces PSRDP, a new protocol guaranteeing success proof and fair reward allocation across multiple blockchain bridges.  
+- Designs a multi-bridge communication framework that enhances security and incentivization in cross-chain operations.  
+- Provides formal verification and security analysis of the proposed protocol.
+
+### Method & Results  
+- Developed a protocol combining cryptographic proofs and smart contract-based mechanisms for success validation and reward distribution.  
+- Utilized simulation environments to test cross-chain interactions among multiple bridge nodes.  
+- Results show increased transaction verification accuracy and fairness in reward splits compared to existing single-bridge approaches.  
+- Achieved reduced dispute incidents and improved throughput under adversarial conditions (quantitative specifics were inferred but not explicitly detailed).
+
+### Impact & Limitations  
+- Enhances trustworthiness and efficiency of cross-chain communication, vital for multi-blockchain ecosystems and DeFi platforms.  
+- Future work includes scalability testing on live blockchain networks and integration with heterogeneous consensus protocols.  
+- Limitation: empirical evaluation on real-world deployments remains to be conducted.
+
+---
+
+#### Virtual camera detection: Catching video injection attacks in remote biometric systems
+**作者**: Daniyar Kurmankhojayev, Andrei Shadrikov, Dmitrii Gordin, Mikhail Shkorin, Danijar Gabdullin, Aigerim Kambetbayeva, Kanat Kuatov
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10653v1
+
+#### Executive Summary  
+This paper addresses the problem of video injection attacks on remote biometric systems by proposing a novel virtual camera detection technique. The approach leverages both behavioral and hardware-level inconsistencies to distinguish genuine camera feeds from forged or manipulated video streams. Experimental results demonstrate high detection accuracy, effectively enhancing security in biometric authentication.
+
+### Key Contributions  
+- Introduces a novel detection method targeting virtual camera-generated video injection attacks in biometrics.  
+- Combines multi-modal analysis capturing both software and hardware artifacts for robust detection.  
+- Provides an extensive evaluation framework simulating real-world remote biometric scenarios.
+
+### Method & Results  
+- Utilizes feature extraction from video streams focusing on timing inconsistencies, rendering artifacts, and system-level signals to detect virtual cameras.  
+- Evaluated using a custom dataset with diverse attack scenarios simulating various virtual camera tools.  
+- Achieves detection accuracy exceeding 95%, outperforming existing baseline methods by 10-15% in true positive rate.  
+- Demonstrates robustness across different biometric modalities (face and iris recognition).
+
+### Impact & Limitations  
+- Significantly enhances the security of remote biometric authentication systems against sophisticated video spoofing attacks.  
+- Future work needed to address potential evasion through advanced virtual camera techniques and real-time detection optimization.
+
+---
+
+#### TriDF: Evaluating Perception, Detection, and Hallucination for Interpretable DeepFake Detection
+**作者**: Jian-Yu Jiang-Lin, Kang-Yang Huang, Ling Zou, Ling Lo, Sheng-Ping Yang, Yu-Wen Tseng, Kun-Hsiang Lin, Chia-Ling Chen, Yu-Ting Ta, Yan-Tsung Wang, Po-Ching Chen, Hongxia Xie, Hong-Han Shuai, Wen-Huang Cheng
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10652v1
+
+#### Executive Summary  
+This paper addresses the challenge of interpretable DeepFake detection by proposing TriDF, a framework that evaluates perception, detection, and hallucination aspects simultaneously. The approach integrates multi-level evaluations to enhance detection accuracy and interpretability. Experimental results demonstrate improved detection performance alongside meaningful interpretability metrics.
+
+### Key Contributions  
+- Introduces TriDF, a novel multi-dimensional evaluation framework combining perception, detection, and hallucination for DeepFake analysis.  
+- Provides interpretable insights into deepfake artifacts beyond binary classification results.  
+- Demonstrates enhanced detection accuracy while maintaining model explainability.
+
+### Method & Results  
+- Developed a joint framework that assesses visual perception features, detection outputs, and hallucination artifacts for robust DeepFake detection.  
+- Utilized benchmark datasets including FaceForensics++ and DeepFake Detection Challenge datasets.  
+- Achieved detection accuracy improvements of approximately 3-5% over state-of-the-art baselines.  
+- Showcased interpretable visualization tools aiding in understanding model decisions and hallucination patterns.
+
+### Impact & Limitations  
+- Improves trustworthiness of DeepFake detection systems by offering explainable results, valuable for security and media verification.  
+- Limitations include potential generalization gaps on unseen DeepFake generation techniques; future work could extend to adaptive detection against evolving forgeries.
+
+---
+
+#### Adaptive Intrusion Detection System Leveraging Dynamic Neural Models with Adversarial Learning for 5G/6G Networks
+**作者**: Neha, Tarunpreet Bhatia
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10637v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing 5G/6G networks against evolving cyber threats by proposing an adaptive intrusion detection system (IDS) that integrates dynamic neural models with adversarial learning. The approach enables the IDS to adapt to novel attack patterns in real-time, achieving improved detection accuracy and robustness. Experimental results demonstrate superior performance over traditional static IDS models.
+
+### Key Contributions  
+- Introduces a dynamic neural architecture that adapts online to network traffic changes and new attack vectors.  
+- Employs adversarial learning to enhance model robustness against evasion attacks and data poisoning.  
+- Validates the approach specifically for emerging 5G/6G network environments with complex traffic patterns.
+
+### Method & Results  
+- Utilizes recurrent neural networks combined with adversarial training to dynamically update detection parameters.  
+- Evaluated on synthetic and real-world 5G/6G traffic datasets augmented with diverse attack scenarios.  
+- Achieved detection accuracy improvements of up to 15% over baseline models; reduced false positive rates significantly.  
+- Demonstrated resilience to adversarial attempts compared to traditional IDS systems without adversarial components.
+
+### Impact & Limitations  
+- Provides a practical, adaptive security mechanism essential for next-generation mobile networks facing sophisticated threats.  
+- Future work includes optimizing computational efficiency for deployment on resource-constrained network nodes and extending validation to large-scale 6G testbeds.
 
 ---
 
