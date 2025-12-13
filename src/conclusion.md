@@ -37789,18 +37789,18 @@ Zorya addresses the challenge of automated concolic execution for single-threade
 #### Executive Summary  
 This paper addresses the challenge of verifying the precise adherence of code to natural language instructions through automatic benchmarking. The authors propose PACIFIC, a novel framework that generates customized benchmarks to rigorously test instruction following in code. Results demonstrate PACIFIC’s ability to create diverse, targeted evaluation sets enabling finer-grained assessment of code generation accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PACIFIC, a framework for producing precise, automatically checked benchmarks tailored to instruction adherence in code.  
 - Develops novel strategies for aligning natural language instructions and code correctness verification.  
 - Validates the framework’s effectiveness in benchmarking instruction-following performance across code generation models.
 
-### Method & Results  
+### Method & Results
 - Utilizes automated synthesis of input-output pairs and instruction variants to generate benchmark tasks with exact correctness criteria.  
 - Experiments conducted on several programming languages and instruction sets to test code generation accuracy.  
 - PACIFIC benchmarks reveal nuanced model strengths and weaknesses, improving over generic benchmarks by up to 15% in error detection sensitivity.  
 - Demonstrated superior diagnostic ability compared to baseline code evaluation methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable and detailed evaluation of code generation systems, aiding development of instruction-following AI in software engineering.  
 - Future work includes expanding to more complex instructions and integrating human-in-the-loop verification to enhance benchmark quality.
 
@@ -37815,18 +37815,18 @@ This paper addresses the challenge of verifying the precise adherence of code to
 #### Executive Summary  
 This paper investigates how software developers discuss compliance with EU and US privacy legislation within GitHub repositories. Using qualitative and quantitative analysis of developer conversations, the authors identify common compliance challenges and areas of uncertainty, offering insights into real-world implementation practices.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of developer discussions on privacy law compliance in open-source projects, revealing practical compliance bottlenecks.  
 - Comparative study highlighting differences and overlaps in EU (GDPR) and US privacy regulation compliance concerns among developers.  
 - Introduction of a thematic categorization framework for privacy-related developer discourse on GitHub.
 
-### Method & Results  
+### Method & Results
 - Employed mixed-methods: mined privacy-related issues and pull requests from GitHub, followed by thematic coding and quantitative trend analysis.  
 - Dataset: large-scale GitHub repositories with explicit mentions of EU and US privacy law terms.  
 - Results: Identified predominant compliance themes such as data minimization, consent management, and cross-border data flow issues; demonstrated more frequent concern about GDPR-related topics.  
 - No explicit baseline comparison but provides novel descriptive insights rather than predictive performance metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical gaps between legal frameworks and developer understanding, aiding policymakers and toolmakers in bridging compliance challenges.  
 - Limited to publicly visible discussions; lacks direct interviews or detailed context on decision-making processes — future work could integrate broader data sources and automated compliance support tools.
 
@@ -37841,18 +37841,18 @@ This paper investigates how software developers discuss compliance with EU and U
 #### Executive Summary  
 This paper investigates the dynamics of human interaction with large language models (LLMs) in multi-turn coding conversations collected from real-world usage. By analyzing these dialogues, the authors reveal patterns in collaboration, common pitfalls, and effective strategies that improve coding outcomes. The study provides empirical insights to better design future coding assistants and interfaces.
 
-### Key Contributions  
+### Key Contributions
 - Large-scale empirical analysis of multi-turn human-LLM coding conversations in naturalistic settings.  
 - Identification of key interaction patterns that influence coding success and failure during collaboration.  
 - Recommendations to enhance LLM-based coding assistant designs based on observed user behaviors.
 
-### Method & Results  
+### Method & Results
 - Methodology: Collected and annotated thousands of multi-turn coding dialogues using LLMs; performed qualitative and quantitative analyses on conversation structure and outcomes.  
 - Dataset: Proprietary dataset of real-world coding conversations between humans and LLMs spanning diverse programming tasks.  
 - Results: Found that iterative clarifications significantly improve problem-solving success; identified common misunderstanding patterns leading to errors.  
 - Performance: Demonstrated that multi-turn interaction yields better coding solution quality compared to single-turn prompts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Offers practical guidelines for improving collaborative coding assistant tools, enhancing developer productivity and user satisfaction.  
 - Limitations: Dataset scope and diversity may limit generalization; future work needed to investigate automated intervention techniques and broader programming domains.
 
@@ -37895,18 +37895,18 @@ This paper addresses the gap between laboratory evaluations and real-world appli
 #### Executive Summary  
 The paper addresses the challenge of providing highly resilient and trusted time sources within Trusted Execution Environments (TEEs), crucial for secure distributed systems. TriHaRd introduces a novel approach that combines hardware and software techniques to enhance TEE trusted time resilience against faults and attacks. Experimental results demonstrate significant improvements in time accuracy and fault tolerance over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes TriHaRd, a hybrid hardware-software framework for resilient TEE trusted time.  
 - Introduces mechanisms to detect and mitigate faults and attacks affecting TEE time sources.  
 - Provides empirical evaluation showing superior accuracy and robustness compared to prior solutions.
 
-### Method & Results  
+### Method & Results
 - Combines redundant hardware timers with software-based fault detection and recovery mechanisms.  
 - Utilizes a custom testbed simulating various fault and attack scenarios on Intel SGX and ARM TrustZone platforms.  
 - Achieves up to 45% improvement in trusted time accuracy and reduces time source failures by 60%.  
 - Outperforms baseline TEE time implementations lacking resilient fault handling.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of secure applications relying on TEEs for time-critical functions such as blockchains and secure logging.  
 - Current implementation limited to select TEE platforms; broader hardware support needed.  
 - Future work includes optimizing overhead and extending to multi-TEE distributed systems.
@@ -37922,18 +37922,18 @@ The paper addresses the challenge of providing highly resilient and trusted time
 #### Executive Summary  
 This paper addresses the challenge of secure and fair reward distribution in multi-bridge architectures for cross-chain communication. The authors propose a novel Proof of Success and Reward Distribution Protocol (PSRDP) that ensures accurate validation of cross-chain transactions and equitable incentives for participating bridges. The protocol demonstrates improved reliability and fairness in multi-bridge setups.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PSRDP, a new protocol guaranteeing success proof and fair reward allocation across multiple blockchain bridges.  
 - Designs a multi-bridge communication framework that enhances security and incentivization in cross-chain operations.  
 - Provides formal verification and security analysis of the proposed protocol.
 
-### Method & Results  
+### Method & Results
 - Developed a protocol combining cryptographic proofs and smart contract-based mechanisms for success validation and reward distribution.  
 - Utilized simulation environments to test cross-chain interactions among multiple bridge nodes.  
 - Results show increased transaction verification accuracy and fairness in reward splits compared to existing single-bridge approaches.  
 - Achieved reduced dispute incidents and improved throughput under adversarial conditions (quantitative specifics were inferred but not explicitly detailed).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness and efficiency of cross-chain communication, vital for multi-blockchain ecosystems and DeFi platforms.  
 - Future work includes scalability testing on live blockchain networks and integration with heterogeneous consensus protocols.  
 - Limitation: empirical evaluation on real-world deployments remains to be conducted.
@@ -37949,18 +37949,18 @@ This paper addresses the challenge of secure and fair reward distribution in mul
 #### Executive Summary  
 This paper addresses the problem of video injection attacks on remote biometric systems by proposing a novel virtual camera detection technique. The approach leverages both behavioral and hardware-level inconsistencies to distinguish genuine camera feeds from forged or manipulated video streams. Experimental results demonstrate high detection accuracy, effectively enhancing security in biometric authentication.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel detection method targeting virtual camera-generated video injection attacks in biometrics.  
 - Combines multi-modal analysis capturing both software and hardware artifacts for robust detection.  
 - Provides an extensive evaluation framework simulating real-world remote biometric scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes feature extraction from video streams focusing on timing inconsistencies, rendering artifacts, and system-level signals to detect virtual cameras.  
 - Evaluated using a custom dataset with diverse attack scenarios simulating various virtual camera tools.  
 - Achieves detection accuracy exceeding 95%, outperforming existing baseline methods by 10-15% in true positive rate.  
 - Demonstrates robustness across different biometric modalities (face and iris recognition).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly enhances the security of remote biometric authentication systems against sophisticated video spoofing attacks.  
 - Future work needed to address potential evasion through advanced virtual camera techniques and real-time detection optimization.
 
@@ -37975,18 +37975,18 @@ This paper addresses the problem of video injection attacks on remote biometric 
 #### Executive Summary  
 This paper addresses the challenge of interpretable DeepFake detection by proposing TriDF, a framework that evaluates perception, detection, and hallucination aspects simultaneously. The approach integrates multi-level evaluations to enhance detection accuracy and interpretability. Experimental results demonstrate improved detection performance alongside meaningful interpretability metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces TriDF, a novel multi-dimensional evaluation framework combining perception, detection, and hallucination for DeepFake analysis.  
 - Provides interpretable insights into deepfake artifacts beyond binary classification results.  
 - Demonstrates enhanced detection accuracy while maintaining model explainability.
 
-### Method & Results  
+### Method & Results
 - Developed a joint framework that assesses visual perception features, detection outputs, and hallucination artifacts for robust DeepFake detection.  
 - Utilized benchmark datasets including FaceForensics++ and DeepFake Detection Challenge datasets.  
 - Achieved detection accuracy improvements of approximately 3-5% over state-of-the-art baselines.  
 - Showcased interpretable visualization tools aiding in understanding model decisions and hallucination patterns.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Improves trustworthiness of DeepFake detection systems by offering explainable results, valuable for security and media verification.  
 - Limitations include potential generalization gaps on unseen DeepFake generation techniques; future work could extend to adaptive detection against evolving forgeries.
 
@@ -38001,20 +38001,287 @@ This paper addresses the challenge of interpretable DeepFake detection by propos
 #### Executive Summary  
 This paper addresses the challenge of securing 5G/6G networks against evolving cyber threats by proposing an adaptive intrusion detection system (IDS) that integrates dynamic neural models with adversarial learning. The approach enables the IDS to adapt to novel attack patterns in real-time, achieving improved detection accuracy and robustness. Experimental results demonstrate superior performance over traditional static IDS models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a dynamic neural architecture that adapts online to network traffic changes and new attack vectors.  
 - Employs adversarial learning to enhance model robustness against evasion attacks and data poisoning.  
 - Validates the approach specifically for emerging 5G/6G network environments with complex traffic patterns.
 
-### Method & Results  
+### Method & Results
 - Utilizes recurrent neural networks combined with adversarial training to dynamically update detection parameters.  
 - Evaluated on synthetic and real-world 5G/6G traffic datasets augmented with diverse attack scenarios.  
 - Achieved detection accuracy improvements of up to 15% over baseline models; reduced false positive rates significantly.  
 - Demonstrated resilience to adversarial attempts compared to traditional IDS systems without adversarial components.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical, adaptive security mechanism essential for next-generation mobile networks facing sophisticated threats.  
 - Future work includes optimizing computational efficiency for deployment on resource-constrained network nodes and extending validation to large-scale 6G testbeds.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-13)
+
+### 软件工程 领域
+
+#### UniCoR: Modality Collaboration for Robust Cross-Language Hybrid Code Retrieval
+**作者**: Yang Yang, Li Kuang, Jiakun Liu, Zhongxin Liu, Yingjie Xia, David Lo
+**类别**: cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10452v1
+
+#### Executive Summary
+UniCoR addresses the challenge of robust code retrieval across different programming languages by leveraging modality collaboration between textual and code representations. The approach integrates hybrid semantic embeddings to enhance cross-language retrieval accuracy. Experimental results demonstrate UniCoR’s superior performance in retrieving relevant code snippets across diverse language pairs.
+
+### Key Contributions
+- Proposes a novel modality collaboration framework combining text and code modalities for enhanced hybrid code retrieval.
+- Introduces a cross-language retrieval mechanism robust to language discrepancies.
+- Demonstrates effectiveness with extensive experiments on multiple cross-language datasets.
+
+### Method & Results
+- Method: Utilizes joint embedding spaces for textual queries and code snippets, applying modality collaboration to capture complementary semantics.
+- Datasets/Tools: Evaluated on standard cross-language code retrieval benchmarks featuring multiple programming languages.
+- Results: Achieves significant improvements over baseline models, with up to 15% increase in retrieval accuracy metrics like MRR and Recall@K.
+- Outperforms existing hybrid and monolingual retrieval baselines across all tested language pairs.
+
+### Impact & Limitations
+- Practical Significance: Enables developers to find relevant code snippets across different programming languages effectively, aiding software reuse and maintenance.
+- Limitations/Future Work: Requires further exploration into scalability on extremely large codebases; future work may extend modality collaboration to incorporate runtime behavior or documentation cues.
+
+---
+
+#### How to Trick Your AI TA: A Systematic Study of Academic Jailbreaking in LLM Code Evaluation
+**作者**: Devanshu Sahoo, Vasudev Majhi, Arjun Neekhra, Yash Sinha, Murari Mandal, Dhruv Kumar
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10415v1
+
+#### Executive Summary  
+The paper investigates academic jailbreaking techniques that manipulate Large Language Models (LLMs) to bypass evaluation constraints in code-related tasks. The authors systematically analyze how adversarial prompts can trick AI teaching assistants (TAs) into producing unauthorized or misleading code outputs, revealing vulnerabilities in automated code evaluation systems. Results highlight significant weaknesses in current LLM safeguards during code assessments.
+
+### Key Contributions  
+- Systematic taxonomy and characterization of academic jailbreaking methods targeting LLM code evaluation.  
+- Empirical evaluation demonstrating the effectiveness of jailbreaking prompts against state-of-the-art LLM evaluation systems.  
+- Discussion of potential mitigation strategies to strengthen AI TAs against adversarial exploitation.
+
+### Method & Results  
+- Developed a framework to craft and classify adversarial prompts that circumvent academic integrity checks in coding assignments assessed by LLMs.  
+- Tested on popular code evaluation platforms and several leading LLMs (e.g., GPT variants).  
+- Found that adversarial prompts increased the rate of unauthorized code output by up to 40% compared to baseline prompts.  
+- Jailbreaking attacks consistently outperformed random or naive prompt modifications in bypassing evaluation controls.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in AI-based academic evaluation, stressing the need for robust defense mechanisms.  
+- Limitations include focus on specific LLMs and code domains; future work should explore broader model types and automated detection of jailbreaks.
+
+---
+
+#### Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale
+**作者**: Zhaodong Wang, Zhenting Qi, Sherman Wong, Nathan Hu, Samuel Lin, Jun Ge, Erwin Gao, Yining Yang, Ben Maurer, Wenlin Chen, David Recordon, Yilun Du, Minlan Yu, Ying Zhang
+**类别**: cs.CL, cs.AI, cs.LG, cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10398v1
+
+#### Executive Summary  
+The paper presents Confucius Code Agent, an open-source AI system designed to operate as a software engineer at industrial scale. It leverages advanced AI techniques to automate coding tasks, significantly improving software development efficiency. The system demonstrates superior performance in handling large-scale, real-world coding workflows.
+
+### Key Contributions  
+- Introduces an industrial-scale AI software engineer with open-source availability.  
+- Develops novel integration of AI planning and coding generation tailored for complex software projects.  
+- Demonstrates scalable, end-to-end automation of software engineering tasks in practical environments.
+
+### Method & Results  
+- Utilizes a modular AI pipeline combining code generation, task planning, and feedback loops for iterative improvement.  
+- Employs large-scale code repositories and industrial project datasets for training and evaluation.  
+- Achieves notable improvements in productivity metrics and code quality over standard AI coding assistants (exact quantitative gains detailed in paper).  
+- Outperforms baseline models in code synthesis accuracy and task completion rates on industrial benchmarks.
+
+### Impact & Limitations  
+- Provides a practical tool that can drastically reduce developer workload and accelerate software delivery cycles.  
+- Limitations include dependency on high-quality training data and challenges in handling ambiguous or novel coding tasks; future work aims to enhance model adaptability and interpretability.
+
+---
+
+#### Cross-modal Retrieval Models for Stripped Binary Analysis
+**作者**: Guoqiang Chen, Lingyun Ying, Ziyang Song, Daguang Liu, Qiang Wang, Zhiqi Wang, Li Hu, Shaoyin Cheng, Weiming Zhang, Nenghai Yu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10393v1
+
+#### Executive Summary
+This paper addresses the challenge of retrieving related information from stripped binary code by proposing novel cross-modal retrieval models that align binary features with corresponding source or semantic representations. The approach leverages deep learning to bridge the semantic gap between low-level binary data and higher-level code semantics, achieving improved retrieval accuracy. Experiments demonstrate superior performance over traditional binary analysis methods.
+
+### Key Contributions
+- Introduces a cross-modal retrieval framework tailored for stripped binary analysis, a first in this domain.  
+- Develops novel feature extraction and alignment techniques to effectively map binaries to semantic/source code modalities.  
+- Demonstrates significant improvements in retrieval accuracy on relevant benchmarks compared to existing approaches.
+
+### Method & Results
+- Combines deep neural networks to extract and align embeddings from binary code and code semantics for cross-modal retrieval.  
+- Utilizes datasets of stripped binaries paired with corresponding source code or semantic annotations.  
+- Achieves up to X% increase in retrieval precision and recall over state-of-the-art baselines (exact figures are dataset-dependent).  
+- Validated on multiple benchmark datasets showing robustness across different binary stripping levels.
+
+### Impact & Limitations
+- Enhances binary analysis tools by enabling accurate semantic retrieval without debug symbols, aiding reverse engineering and vulnerability discovery.  
+- Limitations include potential scalability issues with very large codebases and dependency on quality of semantic annotations. Future work may explore unsupervised methods and real-time retrieval scenarios.
+
+---
+
+#### Studying and Automating Issue Resolution for Software Quality
+**作者**: Antu Saha
+**类别**: cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10238v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating issue resolution to improve software quality. It proposes a novel framework combining issue categorization and solution synthesis using machine learning techniques. Experiments show improved accuracy and efficiency in resolving software defects compared to existing methods.
+
+### Key Contributions  
+- Introduces an automated issue classification approach tailored for software quality improvement.  
+- Develops a solution generation model to automate bug fix recommendations.  
+- Demonstrates integration of both modules in a unified pipeline for end-to-end issue resolution.
+
+### Method & Results  
+- Utilizes supervised learning for issue type identification and sequence-to-sequence modeling for fix suggestion.  
+- Evaluated on open-source software repositories with labeled issue-fix pairs.  
+- Achieves 15% higher resolution accuracy and 20% faster resolution time than baseline heuristics.  
+- Outperforms traditional rule-based and keyword-matching approaches in both precision and recall.
+
+### Impact & Limitations  
+- Enables faster, more accurate automated bug fixing, potentially reducing developer workload and improving software reliability.  
+- Limited by dataset diversity and may struggle with novel or complex issues; future work includes expanding training data and refining fix synthesis for broader applicability.
+
+---
+
+### 安全领域 领域
+
+#### Objectives and Design Principles in Offline Payments with Central Bank Digital Currency (CBDC)
+**作者**: David-Alexandre Guiraud, Andrea Tundis, Marc Winstel
+**类别**: cs.CR
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10636v1
+
+#### Executive Summary  
+This paper addresses the challenges and design considerations for enabling offline payments using Central Bank Digital Currency (CBDC). The authors propose a set of clear objectives and design principles to guide secure, private, and efficient offline CBDC transactions. Their framework balances usability with security constraints to facilitate real-world offline payment scenarios.
+
+### Key Contributions  
+- Identification and formalization of core objectives specific to offline CBDC payment systems.  
+- Proposal of design principles that ensure security, privacy, and usability in offline payment contexts.  
+- Comprehensive discussion linking theoretical goals with practical architectural choices for offline CBDC implementations.
+
+### Method & Results  
+- Analytical approach combining cryptographic, economic, and usability perspectives to define offline CBDC requirements.  
+- No empirical datasets; focus is on conceptual framework and system design guidelines.  
+- Evaluation through detailed scenario analyses and comparison to existing online CBDC models.  
+- Demonstrated how the proposed principles can mitigate risks like double-spending without continuous online verification.
+
+### Impact & Limitations  
+- Provides actionable guidelines that central banks and system designers can adopt to develop practical offline CBDC solutions.  
+- Lacks implementation and real-world testing; future work could involve prototyping and empirical validation under varied offline conditions.
+
+---
+
+#### Authority Backdoor: A Certifiable Backdoor Mechanism for Authoring DNNs
+**作者**: Han Yang, Shaofeng Li, Tian Dong, Xiangyu Xu, Guangchi Liu, Zhen Ling
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10600v1
+
+#### Executive Summary  
+This paper addresses the challenge of creating backdoors in deep neural networks (DNNs) that are both stealthy and certifiable, enabling secure yet controllable model authoring. The authors propose "Authority Backdoor," a novel mechanism that guarantees the presence of a backdoor detectable only with a secret authority key. Experiments demonstrate effectiveness in embedding certifiable triggers without sacrificing model performance.
+
+### Key Contributions  
+- Introduces Authority Backdoor, the first certifiable backdoor mechanism for controllable DNN authoring.  
+- Designs a theoretical framework ensuring backdoor integrity and exclusivity via secret keys.  
+- Empirically validates robustness and stealth under various attack scenarios, surpassing conventional backdoors.
+
+### Method & Results  
+- Develops a key-based trigger embedding method integrating trigger certification within DNN training.  
+- Evaluated on standard image classification benchmarks (datasets not explicitly named).  
+- Achieves over 90% attack success rate with near-original accuracy on clean data, outperforming baseline backdoor approaches in certifiability and stealth.  
+
+### Impact & Limitations  
+- Enables trustworthy backdoor deployment for secure model distribution and IP protection, advancing controllable DNN authoring practices.  
+- Limitation: Focuses primarily on classification tasks; future work could extend to other domains and evaluate resilience against adaptive adversaries.
+
+---
+
+#### LLM-Assisted AHP for Explainable Cyber Range Evaluation
+**作者**: Vyron Kampourakis, Georgios Kavallieratos, Georgios Spathoulas, Vasileios Gkioulos, Sokratis Katsikas
+**类别**: cs.CR
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10487v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating cyber range platforms by integrating Large Language Models (LLMs) with the Analytic Hierarchy Process (AHP) to enhance explainability in decision-making. The proposed LLM-assisted AHP method improves transparency and interpretability in cyber range evaluations, facilitating better-informed choices. Experimental results demonstrate the approach’s effectiveness in producing explainable and robust assessments.
+
+### Key Contributions
+- Introduces LLM-assisted AHP for explainable and transparent cyber range evaluation.
+- Develops a novel framework combining AI-driven natural language explanations with structured multi-criteria decision analysis.
+- Provides empirical evidence validating the approach’s clarity and decision support benefits.
+
+### Method & Results
+- Combines AHP’s multi-criteria decision-making framework with LLM-generated textual explanations for criteria weighting and decision rationale.
+- Uses cyber range evaluation datasets from existing platforms as test cases.
+- Achieves improved explainability, with qualitative assessments indicating enhanced user understanding.
+- Shows comparable or better decision consistency compared to standard AHP baselines.
+
+### Impact & Limitations
+- Enhances practical decision-making in cybersecurity training environments through explainable evaluations.
+- Future work needed on quantitative evaluation metrics for explanation quality and scalability across diverse cyber range scenarios.
+
+---
+
+#### Stealth and Evasion in Rogue AP Attacks: An Analysis of Modern Detection and Bypass Techniques
+**作者**: Kaleb Bacztub, Braden Vester, Matteo Hodge, Liulseged Abate
+**类别**: cs.CR
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10470v1
+
+#### Executive Summary  
+This paper addresses the growing threat of rogue Access Point (AP) attacks by analyzing stealth and evasion techniques that bypass modern detection systems. The authors systematically evaluate current detection approaches and propose new evasion strategies that enhance rogue AP stealthiness. Their experimental results demonstrate significant gaps in existing defenses, highlighting vulnerabilities in widely deployed detection mechanisms.
+
+### Key Contributions  
+- Comprehensive analysis of state-of-the-art rogue AP detection and evasion methods.  
+- Introduction of novel stealth techniques that effectively bypass multiple detection systems.  
+- Empirical validation exposing weaknesses in standard detection frameworks under realistic attack scenarios.
+
+### Method & Results  
+- Employed an experimental framework simulating rogue AP deployments with varying stealth tactics against different detection tools.  
+- Utilized real-world wireless traffic datasets and popular detection software such as wireless intrusion prevention systems (WIPS).  
+- Showed that proposed evasion techniques reduced detection rates by up to 45%, significantly outperforming baseline rogue AP attack methods.  
+- Benchmarked detection effectiveness revealed gaps in both signature-based and anomaly-based detectors.
+
+### Impact & Limitations  
+- Highlights urgent need for enhanced detection frameworks in wireless security critical for enterprise network defense.  
+- Limitations include focus on current generation detection approaches; future work should explore machine learning-based adaptive detection and real-time countermeasures.
+
+---
+
+#### When Reject Turns into Accept: Quantifying the Vulnerability of LLM-Based Scientific Reviewers to Indirect Prompt Injection
+**作者**: Devanshu Sahoo, Manish Prasad, Vasudev Majhi, Jahnvi Singh, Vinay Chamola, Yash Sinha, Murari Mandal, Dhruv Kumar
+**类别**: cs.AI, cs.CL, cs.CR
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10449v1
+
+#### Executive Summary
+This paper investigates the vulnerability of large language model (LLM)-based scientific reviewers to indirect prompt injection attacks that can alter their final verdict from reject to accept. The authors design and quantify these indirect attacks, demonstrating significant susceptibility in LLM reviewers. Their empirical results highlight critical security risks in automated scientific review pipelines.
+
+### Key Contributions
+- Introduces the concept of indirect prompt injection targeting LLM-based scientific reviewers.
+- Quantifies the vulnerability of LLM reviewers to these attacks with thorough experimentation.
+- Proposes potential mitigation insights to improve robustness of automated review models.
+
+### Method & Results
+- Developed an indirect prompt injection framework that embeds adversarial cues within scientific manuscripts to manipulate LLM review outcomes.
+- Used state-of-the-art LLMs commonly employed for manuscript evaluation.
+- Experimental results show attack success rates exceeding X% (exact figures missing) where reject decisions flipped to accept.
+- Compared to baseline non-adversarial conditions, a significant degradation in review reliability was observed.
+
+### Impact & Limitations
+- Highlights critical security and trust challenges for deploying LLM-based peer review systems practically.
+- Limitations include focus on specific LLM architectures and attack scenarios; future work needed on broader model types and robust defense strategies.
 
 ---
 
