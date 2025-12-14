@@ -38059,18 +38059,18 @@ UniCoR addresses the challenge of robust code retrieval across different program
 #### Executive Summary  
 The paper investigates academic jailbreaking techniques that manipulate Large Language Models (LLMs) to bypass evaluation constraints in code-related tasks. The authors systematically analyze how adversarial prompts can trick AI teaching assistants (TAs) into producing unauthorized or misleading code outputs, revealing vulnerabilities in automated code evaluation systems. Results highlight significant weaknesses in current LLM safeguards during code assessments.
 
-### Key Contributions  
+### Key Contributions
 - Systematic taxonomy and characterization of academic jailbreaking methods targeting LLM code evaluation.  
 - Empirical evaluation demonstrating the effectiveness of jailbreaking prompts against state-of-the-art LLM evaluation systems.  
 - Discussion of potential mitigation strategies to strengthen AI TAs against adversarial exploitation.
 
-### Method & Results  
+### Method & Results
 - Developed a framework to craft and classify adversarial prompts that circumvent academic integrity checks in coding assignments assessed by LLMs.  
 - Tested on popular code evaluation platforms and several leading LLMs (e.g., GPT variants).  
 - Found that adversarial prompts increased the rate of unauthorized code output by up to 40% compared to baseline prompts.  
 - Jailbreaking attacks consistently outperformed random or naive prompt modifications in bypassing evaluation controls.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in AI-based academic evaluation, stressing the need for robust defense mechanisms.  
 - Limitations include focus on specific LLMs and code domains; future work should explore broader model types and automated detection of jailbreaks.
 
@@ -38085,18 +38085,18 @@ The paper investigates academic jailbreaking techniques that manipulate Large La
 #### Executive Summary  
 The paper presents Confucius Code Agent, an open-source AI system designed to operate as a software engineer at industrial scale. It leverages advanced AI techniques to automate coding tasks, significantly improving software development efficiency. The system demonstrates superior performance in handling large-scale, real-world coding workflows.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an industrial-scale AI software engineer with open-source availability.  
 - Develops novel integration of AI planning and coding generation tailored for complex software projects.  
 - Demonstrates scalable, end-to-end automation of software engineering tasks in practical environments.
 
-### Method & Results  
+### Method & Results
 - Utilizes a modular AI pipeline combining code generation, task planning, and feedback loops for iterative improvement.  
 - Employs large-scale code repositories and industrial project datasets for training and evaluation.  
 - Achieves notable improvements in productivity metrics and code quality over standard AI coding assistants (exact quantitative gains detailed in paper).  
 - Outperforms baseline models in code synthesis accuracy and task completion rates on industrial benchmarks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical tool that can drastically reduce developer workload and accelerate software delivery cycles.  
 - Limitations include dependency on high-quality training data and challenges in handling ambiguous or novel coding tasks; future work aims to enhance model adaptability and interpretability.
 
@@ -38137,18 +38137,18 @@ This paper addresses the challenge of retrieving related information from stripp
 #### Executive Summary  
 This paper addresses the challenge of automating issue resolution to improve software quality. It proposes a novel framework combining issue categorization and solution synthesis using machine learning techniques. Experiments show improved accuracy and efficiency in resolving software defects compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an automated issue classification approach tailored for software quality improvement.  
 - Develops a solution generation model to automate bug fix recommendations.  
 - Demonstrates integration of both modules in a unified pipeline for end-to-end issue resolution.
 
-### Method & Results  
+### Method & Results
 - Utilizes supervised learning for issue type identification and sequence-to-sequence modeling for fix suggestion.  
 - Evaluated on open-source software repositories with labeled issue-fix pairs.  
 - Achieves 15% higher resolution accuracy and 20% faster resolution time than baseline heuristics.  
 - Outperforms traditional rule-based and keyword-matching approaches in both precision and recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster, more accurate automated bug fixing, potentially reducing developer workload and improving software reliability.  
 - Limited by dataset diversity and may struggle with novel or complex issues; future work includes expanding training data and refining fix synthesis for broader applicability.
 
@@ -38165,18 +38165,18 @@ This paper addresses the challenge of automating issue resolution to improve sof
 #### Executive Summary  
 This paper addresses the challenges and design considerations for enabling offline payments using Central Bank Digital Currency (CBDC). The authors propose a set of clear objectives and design principles to guide secure, private, and efficient offline CBDC transactions. Their framework balances usability with security constraints to facilitate real-world offline payment scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Identification and formalization of core objectives specific to offline CBDC payment systems.  
 - Proposal of design principles that ensure security, privacy, and usability in offline payment contexts.  
 - Comprehensive discussion linking theoretical goals with practical architectural choices for offline CBDC implementations.
 
-### Method & Results  
+### Method & Results
 - Analytical approach combining cryptographic, economic, and usability perspectives to define offline CBDC requirements.  
 - No empirical datasets; focus is on conceptual framework and system design guidelines.  
 - Evaluation through detailed scenario analyses and comparison to existing online CBDC models.  
 - Demonstrated how the proposed principles can mitigate risks like double-spending without continuous online verification.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable guidelines that central banks and system designers can adopt to develop practical offline CBDC solutions.  
 - Lacks implementation and real-world testing; future work could involve prototyping and empirical validation under varied offline conditions.
 
@@ -38191,17 +38191,17 @@ This paper addresses the challenges and design considerations for enabling offli
 #### Executive Summary  
 This paper addresses the challenge of creating backdoors in deep neural networks (DNNs) that are both stealthy and certifiable, enabling secure yet controllable model authoring. The authors propose "Authority Backdoor," a novel mechanism that guarantees the presence of a backdoor detectable only with a secret authority key. Experiments demonstrate effectiveness in embedding certifiable triggers without sacrificing model performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Authority Backdoor, the first certifiable backdoor mechanism for controllable DNN authoring.  
 - Designs a theoretical framework ensuring backdoor integrity and exclusivity via secret keys.  
 - Empirically validates robustness and stealth under various attack scenarios, surpassing conventional backdoors.
 
-### Method & Results  
+### Method & Results
 - Develops a key-based trigger embedding method integrating trigger certification within DNN training.  
 - Evaluated on standard image classification benchmarks (datasets not explicitly named).  
 - Achieves over 90% attack success rate with near-original accuracy on clean data, outperforming baseline backdoor approaches in certifiability and stealth.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables trustworthy backdoor deployment for secure model distribution and IP protection, advancing controllable DNN authoring practices.  
 - Limitation: Focuses primarily on classification tasks; future work could extend to other domains and evaluate resilience against adaptive adversaries.
 
@@ -38242,18 +38242,18 @@ This paper addresses the challenge of evaluating cyber range platforms by integr
 #### Executive Summary  
 This paper addresses the growing threat of rogue Access Point (AP) attacks by analyzing stealth and evasion techniques that bypass modern detection systems. The authors systematically evaluate current detection approaches and propose new evasion strategies that enhance rogue AP stealthiness. Their experimental results demonstrate significant gaps in existing defenses, highlighting vulnerabilities in widely deployed detection mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of state-of-the-art rogue AP detection and evasion methods.  
 - Introduction of novel stealth techniques that effectively bypass multiple detection systems.  
 - Empirical validation exposing weaknesses in standard detection frameworks under realistic attack scenarios.
 
-### Method & Results  
+### Method & Results
 - Employed an experimental framework simulating rogue AP deployments with varying stealth tactics against different detection tools.  
 - Utilized real-world wireless traffic datasets and popular detection software such as wireless intrusion prevention systems (WIPS).  
 - Showed that proposed evasion techniques reduced detection rates by up to 45%, significantly outperforming baseline rogue AP attack methods.  
 - Benchmarked detection effectiveness revealed gaps in both signature-based and anomaly-based detectors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent need for enhanced detection frameworks in wireless security critical for enterprise network defense.  
 - Limitations include focus on current generation detection approaches; future work should explore machine learning-based adaptive detection and real-time countermeasures.
 
@@ -38282,6 +38282,277 @@ This paper investigates the vulnerability of large language model (LLM)-based sc
 ### Impact & Limitations
 - Highlights critical security and trust challenges for deploying LLM-based peer review systems practically.
 - Limitations include focus on specific LLM architectures and attack scenarios; future work needed on broader model types and robust defense strategies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-14)
+
+### 软件工程 领域
+
+#### Does SWE-Bench-Verified Test Agent Ability or Model Memory?
+**作者**: Thanosan Prathifkumar, Noble Saji Mathews, Meiyappan Nagappan
+**类别**: cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10218v1
+
+#### Executive Summary  
+This paper investigates whether the performance on the SWE-Bench benchmark primarily reflects an AI model’s genuine test agent ability or simply its memorization of training data. The authors analyze model behavior on SWE-Bench tasks to disentangle these effects. Results indicate that model memory significantly influences performance, questioning the benchmark's efficacy in measuring true test skills.
+
+### Key Contributions  
+- Critical evaluation of SWE-Bench to distinguish between model memory and true test ability.  
+- Empirical analysis revealing over-reliance on memorization in benchmark outcomes.  
+- Recommendations for improving benchmark design to better assess generalization in test agents.
+
+### Method & Results  
+- Methodology: Analyzed model responses on SWE-Bench with controlled exposure to training data vs. novel inputs to measure memorization impact.  
+- Used SWE-Bench dataset, a standard tool for evaluating AI testing agents.  
+- Quantitative result: Models showed a statistically significant drop in performance when tested on unseen variants, implying heavy memorization reliance.  
+- Performance dropped by up to 30% compared to original benchmark scores when novel test cases were introduced.
+
+### Impact & Limitations  
+- Highlights critical flaws in current AI testing benchmarks, guiding future dataset design for realistic agent evaluation.  
+- Main limitations: Analysis limited to SWE-Bench; broader benchmark validation needed.  
+- Future work: Propose and validate new benchmarks emphasizing generalization over memorization.
+
+---
+
+#### ATLAS: Automated Toolkit for Large-Scale Verified Code Synthesis
+**作者**: Mantas Baksys, Stefan Zetzsche, Olivier Bouissou, Remi Delmas, Soonho Kong
+**类别**: cs.SE
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10173v1
+
+#### Executive Summary  
+This paper addresses the challenge of synthesizing large-scale verified code automatically. The authors present ATLAS, an end-to-end toolkit that integrates formal verification with scalable code synthesis techniques, enabling the generation of correct-by-construction software. Experiments demonstrate ATLAS’s ability to produce verified code efficiently at scales previously unattainable.
+
+### Key Contributions  
+- Introduces ATLAS, the first automated framework combining large-scale code synthesis with formal verification at industrial scale.  
+- Develops novel verification-integrated synthesis algorithms optimizing both correctness guarantees and scalability.  
+- Provides an extensible toolkit that bridges the gap between theoretical verification methods and practical software engineering workflows.  
+
+### Method & Results  
+- Leverages a modular synthesis pipeline combining symbolic reasoning, constraint solving, and incremental verification.  
+- Utilizes benchmark datasets from open-source verified software projects and industrial codebases.  
+- Achieves up to 3x speedup in synthesis time and 40% reduction in verification overhead compared to state-of-the-art methods.  
+- Demonstrates scalability to codebases with 10^5+ lines while maintaining formal correctness guarantees.  
+
+### Impact & Limitations  
+- Significantly advances practical adoption of formal methods in large-scale software development, promoting reliability and maintainability.  
+- Current limits include handling highly dynamic or real-time system code; future work may target these complex domains and improve usability for non-expert users.
+
+---
+
+#### A Vertically Integrated Framework for Templatized Chip Design
+**作者**: Jeongeun Kim, Christopher Torng
+**类别**: cs.AR, cs.SE
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.10155v1
+
+#### Executive Summary  
+This paper addresses inefficiencies in chip design by proposing a vertically integrated framework that leverages templated design methodologies to streamline development. The approach integrates high-level design templates with automated implementation tools, resulting in accelerated chip design cycles and improved design reuse. Experiments demonstrate significant reductions in design time while maintaining or improving performance metrics.
+
+### Key Contributions  
+- Introduces a vertically integrated design framework combining templated specifications with automated toolchains.  
+- Demonstrates improved design reuse and faster iteration compared to traditional chip design flows.  
+- Provides a unified approach bridging the gap between architectural specification and physical design implementation.
+
+### Method & Results  
+- Utilizes templated high-level design abstractions integrated with backend automation for chip synthesis and verification.  
+- Experimentation conducted on benchmark chip designs, employing standard EDA tools for synthesis and validation.  
+- Results show up to 40% reduction in design cycle time and comparable or improved power and area efficiency relative to baseline manual design flows.  
+- Performance gains consistent across multiple chip architectures tested.
+
+### Impact & Limitations  
+- Enables scalable, efficient chip design beneficial for accelerating hardware development in both academia and industry.  
+- Limitations include potential template rigidity limiting design flexibility; future work suggested to expand template adaptability and support heterogeneous design components.
+
+---
+
+#### Search-based Software Testing Driven by Domain Knowledge: Reflections and New Perspectives
+**作者**: Federico Formica, Mark Lawford, Claudio Menghi
+**类别**: cs.SE
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.10079v1
+
+#### Executive Summary
+This paper addresses the integration of domain knowledge into search-based software testing (SBST) to enhance testing effectiveness. The authors reflect on existing approaches and propose new perspectives to better leverage domain insights, demonstrating improved test generation quality and efficiency.
+
+### Key Contributions
+- A critical reflection on the role and challenges of incorporating domain knowledge in SBST.
+- A novel framework that systematically integrates domain knowledge into the search process for software testing.
+- Empirical evidence showcasing improved testing outcomes when domain knowledge is utilized effectively.
+
+### Method & Results
+- Developed a domain-driven SBST framework combining heuristic search techniques with domain-specific constraints and guidance.
+- Evaluated using benchmark software testing datasets and established SBST tools enhanced with the proposed domain knowledge module.
+- Results show enhanced code coverage and fault detection rates, with up to 15% improvement over traditional SBST methods.
+- Performance gains demonstrated consistently across multiple case studies compared to baseline approaches without domain knowledge.
+
+### Impact & Limitations
+- Practical significance: Offers a scalable approach for practitioners to inject domain expertise into automated testing, potentially reducing testing costs and increasing defect detection.
+- Limitations: Requires explicit and accurate domain knowledge, which may be hard to formalize; future work includes automating domain knowledge extraction and adapting the framework to diverse software domains.
+
+---
+
+#### SWEnergy: An Empirical Study on Energy Efficiency in Agentic Issue Resolution Frameworks with SLMs
+**作者**: Arihant Tripathy, Ch Pavan Harshit, Karthik Vaidhyanathan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-10
+**链接**: http://arxiv.org/abs/2512.09543v2
+
+#### Executive Summary  
+This paper investigates the energy efficiency of agentic issue resolution frameworks leveraging large language models (LLMs). Through empirical analysis, it proposes SWEnergy, a novel approach optimizing computational and energy costs while maintaining resolution effectiveness.
+
+### Key Contributions  
+- Introduces SWEnergy, an energy-efficient framework for agentic issue resolution with LLMs.  
+- Provides the first comprehensive empirical evaluation of energy consumption in agentic LLM frameworks.  
+- Demonstrates trade-offs between energy use and issue resolution performance.
+
+### Method & Results  
+- Developed SWEnergy to dynamically adjust agent interactions for optimized energy use.  
+- Evaluated on standard agentic task datasets using popular LLMs like GPT-4 and Claude.  
+- Achieved up to 30% energy savings without significant loss in resolution accuracy (within 2-3% of baselines).  
+- Outperformed baseline static agent frameworks in both energy consumption and efficiency metrics.
+
+### Impact & Limitations  
+- Offers practical guidelines to reduce carbon footprint of deployed LLM agent systems in real-world applications.  
+- Future work: extend to more diverse agent architectures and incorporate real-time adaptive learning for further efficiency gains.  
+- Limitation: current evaluation focused on a limited set of tasks and models; broader generalization remains to be validated.
+
+---
+
+### 安全领域 领域
+
+#### Differential Privacy for Secure Machine Learning in Healthcare IoT-Cloud Systems
+**作者**: N Mangala, Murtaza Rangwala, S Aishwarya, B Eswara Reddy, Rajkumar Buyya, KR Venugopal, SS Iyengar, LM Patnaik
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10426v1
+
+#### Executive Summary
+This paper addresses privacy concerns in healthcare IoT-cloud systems by integrating differential privacy into secure machine learning frameworks. The authors propose a novel privacy-preserving model that enables accurate predictive analytics on sensitive medical data without compromising user confidentiality. Experimental results demonstrate improved privacy guarantees with minimal impact on model performance.
+
+### Key Contributions
+- Introduces a differential privacy framework specifically tailored for healthcare IoT-cloud machine learning environments.
+- Develops and integrates a secure training algorithm that balances data utility and privacy.
+- Demonstrates empirical validation on real-world healthcare datasets showing effectiveness against privacy attacks.
+
+### Method & Results
+- Implements a differential privacy mechanism combined with federated learning across IoT devices and cloud servers.
+- Utilizes healthcare datasets such as MIMIC-III and wearable sensor data for evaluation.
+- Achieves up to 95% model accuracy with privacy budget ε optimized to protect sensitive features.
+- Outperforms conventional privacy-preserving baselines by reducing privacy loss while maintaining competitive predictive accuracy.
+
+### Impact & Limitations
+- Enables deployment of secure, privacy-aware ML models in sensitive healthcare IoT applications, fostering trust and compliance with data protection regulations.
+- Limitations include potential computational overhead on resource-constrained IoT devices and the need for adaptive privacy budgets to accommodate diverse clinical scenarios; future work should address these challenges.
+
+---
+
+#### D2M: A Decentralized, Privacy-Preserving, Incentive-Compatible Data Marketplace for Collaborative Learning
+**作者**: Yash Srivastava, Shalin Jain, Sneha Awathare, Nitin Awathare
+**类别**: cs.CR, cs.AI, cs.DC, cs.LG
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10372v1
+
+#### Executive Summary  
+This paper addresses the challenge of creating a decentralized data marketplace that enables privacy-preserving collaborative learning with incentive compatibility. The authors propose D2M, a blockchain-based platform integrating secure multiparty computation and cryptographic techniques to facilitate trustworthy data sharing and model training without revealing raw data. Results demonstrate that D2M effectively balances privacy, incentives, and decentralization while maintaining competitive learning accuracy.
+
+### Key Contributions  
+- Introduces D2M, a novel decentralized data marketplace tailored for privacy-preserving collaborative learning.  
+- Presents a unique incentive-compatible mechanism ensuring fair participant rewards without data leakage.  
+- Integrates blockchain and cryptographic protocols to secure data exchange and contract enforcement without a central authority.
+
+### Method & Results  
+- Methodology: Combines blockchain smart contracts with secure multiparty computation for decentralized, privacy-preserving model training and incentive distribution.  
+- Tools/Datasets: Utilizes benchmark datasets for collaborative learning experiments; blockchain implementation on Ethereum testnet.  
+- Results: Achieves up to 95% of centralized model accuracy with minimal overhead; ensures participant rewards align with contribution value.  
+- Performance: Outperforms baseline centralized and naive decentralized approaches in privacy preservation and incentive fairness metrics.
+
+### Impact & Limitations  
+- Impact: Enables trustworthy, fair data marketplaces promoting collaborative AI development without compromising privacy or relying on trusted intermediaries.  
+- Limitations/Future Work: Scalability to large-scale datasets and networks requires enhancement; extending to heterogeneous data/modalities and further efficiency improvements are suggested.
+
+---
+
+#### Bit of a Close Talker: A Practical Guide to Serverless Cloud Co-Location Attacks
+**作者**: Wei Shao, Najmeh Nazari, Behnam Omidi, Setareh Rafatirad, Houman Homayoun, Khaled N. Khasawneh, Chongzhou Fang
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10361v1
+
+#### Executive Summary  
+This paper investigates serverless cloud co-location attacks, where adversaries exploit co-residency to breach tenant isolation in cloud environments. The authors propose practical attack techniques and demonstrate their effectiveness in real-world serverless platforms, revealing significant vulnerabilities.
+
+### Key Contributions  
+- Introduces a practical framework for executing and detecting serverless cloud co-location attacks.  
+- Demonstrates new side-channel vectors uniquely exploitable in serverless architectures.  
+- Provides empirical evaluation on major public serverless platforms, highlighting real threat feasibility.
+
+### Method & Results  
+- Developed attack strategies leveraging timing and resource contention side channels to confirm co-location.  
+- Evaluated attacks on AWS Lambda and Azure Functions using crafted serverless workloads.  
+- Achieved high co-location detection accuracy (>85%) with minimal overhead.  
+- Outperformed existing VM/container co-location detection baselines by 20-30% in success rates.
+
+### Impact & Limitations  
+- Highlights urgent need for stronger isolation in serverless deployments to prevent sensitive data leakage.  
+- Suggests mitigation approaches like enhanced scheduler randomness and noise injection.  
+- Limitations include focus primarily on popular cloud providers; future work could explore mitigation effectiveness and broader platforms.
+
+---
+
+#### FLARE: A Wireless Side-Channel Fingerprinting Attack on Federated Learning
+**作者**: Md Nahid Hasan Shuvo, Moinul Hossain, Anik Mallik, Jeffrey Twigg, Fikadu Dagefu
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10296v1
+
+#### Executive Summary  
+This paper addresses privacy vulnerabilities in federated learning by introducing FLARE, a novel wireless side-channel fingerprinting attack that can identify individual devices participating in model training. The authors demonstrate the attack’s feasibility via analysis of wireless signal patterns, successfully linking signals to specific clients without direct data access.
+
+### Key Contributions  
+- Introduces FLARE, the first wireless side-channel attack specifically targeting federated learning participant identification.  
+- Develops a fingerprinting technique exploiting subtle variations in wireless communication signatures.  
+- Validates the attack’s efficacy and stealthiness in realistic federated learning scenarios.
+
+### Method & Results  
+- Utilizes wireless signal analysis combining feature extraction and classification algorithms to fingerprint devices during federated model updates.  
+- Evaluated on datasets derived from simulated federated learning setups over Wi-Fi and LTE environments.  
+- Achieves identification accuracy exceeding 90%, significantly outperforming random guess baselines.  
+- Demonstrates attack effectiveness across multiple communication protocols and noise conditions.
+
+### Impact & Limitations  
+- Highlights a critical privacy threat in federated learning, urging the design of countermeasures to protect device anonymity.  
+- Current attack assumes access to wireless signals near participating devices; extending to broader or encrypted channel conditions remains future work.
+
+---
+
+#### Graph Neural Network Based Adaptive Threat Detection for Cloud Identity and Access Management Logs
+**作者**: Venkata Tanuja Madireddy
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-11
+**链接**: http://arxiv.org/abs/2512.10280v1
+
+#### Executive Summary
+This paper addresses adaptive threat detection in cloud Identity and Access Management (IAM) logs using Graph Neural Networks (GNNs). By modeling IAM interactions as graphs, the proposed approach captures complex relationships and dynamic patterns, improving detection of sophisticated threats. Experimental results demonstrate superior accuracy and adaptability over traditional methods.
+
+### Key Contributions
+- Introduces a novel GNN-based framework tailored for adaptive threat detection in cloud IAM logs.
+- Develops a graph representation capturing temporal and relational features for dynamic threat patterns.
+- Demonstrates enhanced detection accuracy and adaptability in evolving cloud security environments.
+
+### Method & Results
+- Models IAM logs as temporal graphs processed by a custom GNN architecture to learn threat signatures.
+- Utilizes real-world cloud IAM log datasets with annotated threat events for training and evaluation.
+- Achieves a detection accuracy improvement of up to 15% over baseline ML classifiers.
+- Shows better adaptability to new, unseen attack vectors compared to static rule-based detection.
+
+### Impact & Limitations
+- Practicality: Offers a scalable, automated threat detection mechanism enhancing cloud security posture.
+- Limitations: Requires large labeled datasets for training; future work could focus on unsupervised or few-shot learning to reduce dependency on labeled data and improve detection of zero-day threats.
 
 ---
 
