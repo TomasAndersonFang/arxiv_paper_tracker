@@ -38300,18 +38300,18 @@ This paper investigates the vulnerability of large language model (LLM)-based sc
 #### Executive Summary  
 This paper investigates whether the performance on the SWE-Bench benchmark primarily reflects an AI model’s genuine test agent ability or simply its memorization of training data. The authors analyze model behavior on SWE-Bench tasks to disentangle these effects. Results indicate that model memory significantly influences performance, questioning the benchmark's efficacy in measuring true test skills.
 
-### Key Contributions  
+### Key Contributions
 - Critical evaluation of SWE-Bench to distinguish between model memory and true test ability.  
 - Empirical analysis revealing over-reliance on memorization in benchmark outcomes.  
 - Recommendations for improving benchmark design to better assess generalization in test agents.
 
-### Method & Results  
+### Method & Results
 - Methodology: Analyzed model responses on SWE-Bench with controlled exposure to training data vs. novel inputs to measure memorization impact.  
 - Used SWE-Bench dataset, a standard tool for evaluating AI testing agents.  
 - Quantitative result: Models showed a statistically significant drop in performance when tested on unseen variants, implying heavy memorization reliance.  
 - Performance dropped by up to 30% compared to original benchmark scores when novel test cases were introduced.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical flaws in current AI testing benchmarks, guiding future dataset design for realistic agent evaluation.  
 - Main limitations: Analysis limited to SWE-Bench; broader benchmark validation needed.  
 - Future work: Propose and validate new benchmarks emphasizing generalization over memorization.
@@ -38327,18 +38327,18 @@ This paper investigates whether the performance on the SWE-Bench benchmark prima
 #### Executive Summary  
 This paper addresses the challenge of synthesizing large-scale verified code automatically. The authors present ATLAS, an end-to-end toolkit that integrates formal verification with scalable code synthesis techniques, enabling the generation of correct-by-construction software. Experiments demonstrate ATLAS’s ability to produce verified code efficiently at scales previously unattainable.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ATLAS, the first automated framework combining large-scale code synthesis with formal verification at industrial scale.  
 - Develops novel verification-integrated synthesis algorithms optimizing both correctness guarantees and scalability.  
 - Provides an extensible toolkit that bridges the gap between theoretical verification methods and practical software engineering workflows.  
 
-### Method & Results  
+### Method & Results
 - Leverages a modular synthesis pipeline combining symbolic reasoning, constraint solving, and incremental verification.  
 - Utilizes benchmark datasets from open-source verified software projects and industrial codebases.  
 - Achieves up to 3x speedup in synthesis time and 40% reduction in verification overhead compared to state-of-the-art methods.  
 - Demonstrates scalability to codebases with 10^5+ lines while maintaining formal correctness guarantees.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly advances practical adoption of formal methods in large-scale software development, promoting reliability and maintainability.  
 - Current limits include handling highly dynamic or real-time system code; future work may target these complex domains and improve usability for non-expert users.
 
@@ -38353,18 +38353,18 @@ This paper addresses the challenge of synthesizing large-scale verified code aut
 #### Executive Summary  
 This paper addresses inefficiencies in chip design by proposing a vertically integrated framework that leverages templated design methodologies to streamline development. The approach integrates high-level design templates with automated implementation tools, resulting in accelerated chip design cycles and improved design reuse. Experiments demonstrate significant reductions in design time while maintaining or improving performance metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a vertically integrated design framework combining templated specifications with automated toolchains.  
 - Demonstrates improved design reuse and faster iteration compared to traditional chip design flows.  
 - Provides a unified approach bridging the gap between architectural specification and physical design implementation.
 
-### Method & Results  
+### Method & Results
 - Utilizes templated high-level design abstractions integrated with backend automation for chip synthesis and verification.  
 - Experimentation conducted on benchmark chip designs, employing standard EDA tools for synthesis and validation.  
 - Results show up to 40% reduction in design cycle time and comparable or improved power and area efficiency relative to baseline manual design flows.  
 - Performance gains consistent across multiple chip architectures tested.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, efficient chip design beneficial for accelerating hardware development in both academia and industry.  
 - Limitations include potential template rigidity limiting design flexibility; future work suggested to expand template adaptability and support heterogeneous design components.
 
@@ -38405,18 +38405,18 @@ This paper addresses the integration of domain knowledge into search-based softw
 #### Executive Summary  
 This paper investigates the energy efficiency of agentic issue resolution frameworks leveraging large language models (LLMs). Through empirical analysis, it proposes SWEnergy, a novel approach optimizing computational and energy costs while maintaining resolution effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SWEnergy, an energy-efficient framework for agentic issue resolution with LLMs.  
 - Provides the first comprehensive empirical evaluation of energy consumption in agentic LLM frameworks.  
 - Demonstrates trade-offs between energy use and issue resolution performance.
 
-### Method & Results  
+### Method & Results
 - Developed SWEnergy to dynamically adjust agent interactions for optimized energy use.  
 - Evaluated on standard agentic task datasets using popular LLMs like GPT-4 and Claude.  
 - Achieved up to 30% energy savings without significant loss in resolution accuracy (within 2-3% of baselines).  
 - Outperformed baseline static agent frameworks in both energy consumption and efficiency metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical guidelines to reduce carbon footprint of deployed LLM agent systems in real-world applications.  
 - Future work: extend to more diverse agent architectures and incorporate real-time adaptive learning for further efficiency gains.  
 - Limitation: current evaluation focused on a limited set of tasks and models; broader generalization remains to be validated.
@@ -38460,18 +38460,18 @@ This paper addresses privacy concerns in healthcare IoT-cloud systems by integra
 #### Executive Summary  
 This paper addresses the challenge of creating a decentralized data marketplace that enables privacy-preserving collaborative learning with incentive compatibility. The authors propose D2M, a blockchain-based platform integrating secure multiparty computation and cryptographic techniques to facilitate trustworthy data sharing and model training without revealing raw data. Results demonstrate that D2M effectively balances privacy, incentives, and decentralization while maintaining competitive learning accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces D2M, a novel decentralized data marketplace tailored for privacy-preserving collaborative learning.  
 - Presents a unique incentive-compatible mechanism ensuring fair participant rewards without data leakage.  
 - Integrates blockchain and cryptographic protocols to secure data exchange and contract enforcement without a central authority.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines blockchain smart contracts with secure multiparty computation for decentralized, privacy-preserving model training and incentive distribution.  
 - Tools/Datasets: Utilizes benchmark datasets for collaborative learning experiments; blockchain implementation on Ethereum testnet.  
 - Results: Achieves up to 95% of centralized model accuracy with minimal overhead; ensures participant rewards align with contribution value.  
 - Performance: Outperforms baseline centralized and naive decentralized approaches in privacy preservation and incentive fairness metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables trustworthy, fair data marketplaces promoting collaborative AI development without compromising privacy or relying on trusted intermediaries.  
 - Limitations/Future Work: Scalability to large-scale datasets and networks requires enhancement; extending to heterogeneous data/modalities and further efficiency improvements are suggested.
 
@@ -38486,18 +38486,18 @@ This paper addresses the challenge of creating a decentralized data marketplace 
 #### Executive Summary  
 This paper investigates serverless cloud co-location attacks, where adversaries exploit co-residency to breach tenant isolation in cloud environments. The authors propose practical attack techniques and demonstrate their effectiveness in real-world serverless platforms, revealing significant vulnerabilities.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a practical framework for executing and detecting serverless cloud co-location attacks.  
 - Demonstrates new side-channel vectors uniquely exploitable in serverless architectures.  
 - Provides empirical evaluation on major public serverless platforms, highlighting real threat feasibility.
 
-### Method & Results  
+### Method & Results
 - Developed attack strategies leveraging timing and resource contention side channels to confirm co-location.  
 - Evaluated attacks on AWS Lambda and Azure Functions using crafted serverless workloads.  
 - Achieved high co-location detection accuracy (>85%) with minimal overhead.  
 - Outperformed existing VM/container co-location detection baselines by 20-30% in success rates.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent need for stronger isolation in serverless deployments to prevent sensitive data leakage.  
 - Suggests mitigation approaches like enhanced scheduler randomness and noise injection.  
 - Limitations include focus primarily on popular cloud providers; future work could explore mitigation effectiveness and broader platforms.
@@ -38513,18 +38513,18 @@ This paper investigates serverless cloud co-location attacks, where adversaries 
 #### Executive Summary  
 This paper addresses privacy vulnerabilities in federated learning by introducing FLARE, a novel wireless side-channel fingerprinting attack that can identify individual devices participating in model training. The authors demonstrate the attack’s feasibility via analysis of wireless signal patterns, successfully linking signals to specific clients without direct data access.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FLARE, the first wireless side-channel attack specifically targeting federated learning participant identification.  
 - Develops a fingerprinting technique exploiting subtle variations in wireless communication signatures.  
 - Validates the attack’s efficacy and stealthiness in realistic federated learning scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes wireless signal analysis combining feature extraction and classification algorithms to fingerprint devices during federated model updates.  
 - Evaluated on datasets derived from simulated federated learning setups over Wi-Fi and LTE environments.  
 - Achieves identification accuracy exceeding 90%, significantly outperforming random guess baselines.  
 - Demonstrates attack effectiveness across multiple communication protocols and noise conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical privacy threat in federated learning, urging the design of countermeasures to protect device anonymity.  
 - Current attack assumes access to wireless signals near participating devices; extending to broader or encrypted channel conditions remains future work.
 
@@ -38553,6 +38553,278 @@ This paper addresses adaptive threat detection in cloud Identity and Access Mana
 ### Impact & Limitations
 - Practicality: Offers a scalable, automated threat detection mechanism enhancing cloud security posture.
 - Limitations: Requires large labeled datasets for training; future work could focus on unsupervised or few-shot learning to reduce dependency on labeled data and improve detection of zero-day threats.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-15)
+
+### 软件工程 领域
+
+#### From Signal to Turn: Interactional Friction in Modular Speech-to-Speech Pipelines
+**作者**: Titaya Mairittha, Tanakon Sawanglok, Panuwit Raden, Jirapast Buntub, Thanapat Warunee, Napat Asawachaisuvikrom, Thanaphum Saiwongin
+**类别**: cs.HC, cs.AI, cs.CL, cs.SE
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11724v1
+
+#### Executive Summary  
+This paper investigates interactional friction in modular speech-to-speech translation pipelines, focusing on misalignments between speech recognition, translation, and synthesis modules. The authors propose a detailed analytical framework to identify and characterize errors causing conversational breakdowns, demonstrating how such friction impacts communication quality.
+
+### Key Contributions  
+- Introduces a novel framework to detect and categorize interactional friction in modular speech-to-speech systems.  
+- Provides empirical analysis linking specific pipeline errors to conversational breakdowns.  
+- Offers insights for improving modular architectures by addressing turn-taking and alignment issues.
+
+### Method & Results  
+- Employs a modular pipeline decomposition approach, analyzing errors at ASR, MT, and TTS stages and their compounded effects on dialogue flow.  
+- Uses proprietary and/or benchmark speech-to-speech datasets with human interaction scenarios (details unspecified).  
+- Quantifies friction impact: errors in recognition and translation significantly reduce turn-taking smoothness and user satisfaction (exact metrics not stated).  
+- Demonstrates that addressing friction points improves overall system coherence over baseline modular setups.  
+
+### Impact & Limitations  
+- Highlights crucial interaction design factors for real-time speech translation, benefiting user experience in multilingual dialogues.  
+- Limitations include unspecified dataset details and potential scalability issues; future work may integrate end-to-end models or adaptive turn-taking strategies.
+
+---
+
+#### A Study of Library Usage in Agent-Authored Pull Requests
+**作者**: Lukas Twist
+**类别**: cs.SE
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11589v1
+
+#### Executive Summary
+This paper investigates how software libraries are utilized within pull requests generated by code authoring agents. By analyzing agent-authored PRs, the study uncovers patterns and challenges in library use, revealing discrepancies from human developers’ practices. The results suggest targeted improvements for agent design to better support effective library integration.
+
+### Key Contributions
+- First systematic study of library usage patterns specifically in agent-authored pull requests.
+- Identification of unique usage behaviors and common errors distinct from human-written code.
+- Recommendations to enhance agent-generated code quality through improved library handling.
+
+### Method & Results
+- Analyzed a curated dataset of agent-authored pull requests from popular repositories, focusing on library imports and API usage.
+- Employed static code analysis tools and manual review to detect usage patterns and misuse.
+- Found that agent-authored PRs exhibit 30% higher rates of improper library use compared to human-authored PRs.
+- Demonstrated that enhanced agent training on library APIs could reduce errors by up to 25%.
+
+### Impact & Limitations
+- Highlights practical needs for refining AI code generation tools to improve reliability and maintainability in collaborative development.
+- Limits include dataset scope restricted to specific agents and languages; future work could expand coverage and explore automated mitigation strategies.
+
+---
+
+#### Mini-SFC: A Comprehensive Simulation Framework for Orchestration and Management of Service Function Chains
+**作者**: Xi Wang, Shuo Shi, Chenyu Wu
+**类别**: cs.SE
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11527v1
+
+#### Executive Summary  
+The paper addresses the challenge of efficiently orchestrating and managing Service Function Chains (SFCs) in network environments. It proposes Mini-SFC, a comprehensive simulation framework designed to model, deploy, and evaluate SFC orchestration strategies. Results demonstrate Mini-SFC’s capability to accurately simulate SFC scenarios, enabling effective performance assessment of various management techniques.
+
+### Key Contributions  
+- Development of Mini-SFC, an integrated simulation framework tailored for SFC orchestration and management.  
+- Introduction of modular components that model key SFC functionalities and performance metrics.  
+- Validation of Mini-SFC's versatility through diverse SFC scenario simulations.
+
+### Method & Results  
+- Utilizes a modular simulation approach combining network topology, service functions, and orchestration policies.  
+- Implements realistic traffic and service chaining models to test orchestration strategies.  
+- Experiments conducted on synthetic network topologies and benchmark scenarios.  
+- Demonstrated improved evaluation fidelity compared to existing basic simulation tools; specific metrics show enhanced accuracy in delay and resource usage estimations (quantitative details not specified).  
+- Performance benchmarks indicate Mini-SFC supports scalable and fast simulations aiding rapid prototyping.
+
+### Impact & Limitations  
+- Provides a practical tool for researchers and practitioners to design and test SFC orchestration policies before deployment.  
+- Currently may lack real-world traffic datasets and integration with live network environments, suggesting directions for future enhancement.
+
+---
+
+#### Towards Privacy-Preserving Code Generation: Differentially Private Code Language Models
+**作者**: Melih Catal, Pooja Rani, Harald C. Gall
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11482v1
+
+#### Executive Summary
+This paper addresses privacy risks in code generation by introducing differential privacy (DP) techniques into code language models. The authors develop and evaluate DP-enabled models that balance code generation utility with strong privacy guarantees. Results demonstrate meaningful privacy protection with manageable performance trade-offs.
+
+### Key Contributions
+- Propose the first differentially private code language models tailored for privacy-preserving code generation.
+- Develop training frameworks integrating DP mechanisms specifically for code data.
+- Empirically analyze the trade-offs between privacy guarantees and code generation quality.
+
+### Method & Results
+- Implement DP-SGD based training on code language models, adapting privacy budgets and noise for code semantics.
+- Evaluate on standard code datasets (e.g., CodeSearchNet) using common language modeling and code generation metrics.
+- Achieve differential privacy guarantees (ε values reported), with up to 10-15% performance degradation in code generation accuracy compared to non-private baselines.
+- Demonstrate robustness of privacy protection without catastrophic loss in utility.
+
+### Impact & Limitations
+- Enables safer adoption of code generation tools where sensitive or proprietary code is involved, addressing an urgent privacy need.
+- Limitations include performance drops under strict privacy levels and potential challenges in scaling to very large models.
+- Future work: improved noise calibration and exploring privacy-utility trade-offs on diverse programming languages and model architectures.
+
+---
+
+#### REMODEL-LLM: Transforming C code to Java using LLMs
+**作者**: Aryan Gupta, Y. Raghu Reddy
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11402v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating source code translation from C to Java using large language models (LLMs). The authors propose REMODEL-LLM, a novel framework that leverages prompt engineering and fine-tuning of LLMs to accurately transform C programs into semantically equivalent Java code. Experiments demonstrate significant improvements in translation accuracy over baseline models.
+
+### Key Contributions  
+- Introduces REMODEL-LLM, a tailored LLM-based pipeline specifically for C to Java code translation.  
+- Develops a domain-specific prompt optimization technique enhancing model understanding of programming constructs.  
+- Demonstrates superior translation fidelity relative to existing generic code translation approaches.
+
+### Method & Results  
+- Utilizes fine-tuning of a pre-trained LLM on paired C-Java code snippets with custom prompt templates.  
+- Evaluated on a curated benchmark dataset of diverse C programs and their Java counterparts.  
+- Achieved up to 85% semantic equivalence accuracy, outperforming baseline translation models by 15%.  
+- Reports robustness in handling complex language features and idiomatic patterns.
+
+### Impact & Limitations  
+- Enables developers to efficiently migrate legacy C codebases to modern Java environments, reducing manual rewrite effort.  
+- Limited by reliance on dataset quality and scalability to very large or domain-specific codebases; future work to incorporate feedback loops and incremental learning.
+
+---
+
+### 安全领域 领域
+
+#### Super Suffixes: Bypassing Text Generation Alignment and Guard Models Simultaneously
+**作者**: Andrew Adiletta, Kathryn Adiletta, Kemal Derya, Berk Sunar
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11783v1
+
+#### Executive Summary  
+This paper addresses the challenge of circumventing alignment and guard mechanisms in text generation models by introducing "Super Suffixes," sequences appended to prompts that simultaneously bypass multiple safety filters. The authors demonstrate that these suffixes effectively manipulate models to produce unsafe outputs without triggering standard guardrails.
+
+### Key Contributions  
+- Introduces the novel concept of "Super Suffixes" that jointly evade text generation alignment and guard models.  
+- Provides an automated framework to generate these suffixes across diverse language models.  
+- Empirically validates the approach on leading large language models, showing broad effectiveness.
+
+### Method & Results  
+- Developed an algorithmic technique to craft suffixes appended to prompts that fool both alignment and guard layers simultaneously.  
+- Experiments conducted using state-of-the-art LLMs (specific models not named) and commonly employed safety filters.  
+- Results show a significant increase in bypass rates, exceeding baseline evasion methods by up to 40%.  
+- Demonstrates robustness across multiple datasets and attack scenarios.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in current AI safety mechanisms, urging the need for stronger multi-layered defenses.  
+- Limitation: Mainly tested on select models—generalizability to emerging architectures requires further study.  
+- Future work may explore dynamic, context-aware guard adaptations to mitigate such bypass techniques.
+
+---
+
+#### Hypergraph based Multi-Party Payment Channel
+**作者**: Ayush Nainwal, Atharva Kamble, Nitin Awathare
+**类别**: cs.DC, cs.CR, cs.NI
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11775v1
+
+#### Executive Summary
+This paper addresses scalability and efficiency issues in multi-party payment channels by proposing a novel hypergraph-based model to represent complex payment relationships. The approach enhances route optimization and concurrent payment processing, resulting in improved throughput and reduced latency compared to traditional graph-based methods.
+
+### Key Contributions
+- Introduces a hypergraph framework to model multi-party payment channels, capturing higher-order interactions beyond pairwise links.
+- Develops algorithms leveraging hypergraph properties for optimized payment routing and concurrency management.
+- Demonstrates rigorously improved network throughput and latency over baseline payment channel networks.
+
+### Method & Results
+- Utilizes hypergraph theory to represent multi-party channels and formulates payment routing as hyperedge traversal problems.
+- Implements routing and concurrency algorithms; evaluates using simulated payment channel networks.
+- Results show a 25-40% increase in transaction throughput and a 15-30% reduction in latency relative to standard graph-based approaches.
+- Benchmarks against existing state-of-the-art multi-party payment routing protocols confirm superior performance and scalability.
+
+### Impact & Limitations
+- Enhances real-world scalability and efficiency of blockchain payment networks, enabling faster and more flexible multi-party payments.
+- Limitations include dependency on accurate hypergraph construction and potential computational overhead in large-scale networks.
+- Future work could focus on real-world deployment trials and optimizing computation for dynamically changing payment topologies.
+
+---
+
+#### SoK: Demystifying the multiverse of MPC protocols
+**作者**: Roberta De Viti, Vaastav Anand, Pierfrancesco Ingo, Deepak Garg
+**类别**: cs.CR
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11699v1
+
+#### Executive Summary
+This paper presents a comprehensive Systematization of Knowledge (SoK) on secure multiparty computation (MPC) protocols, addressing the complexity and diversity in the field. It proposes a unified framework to classify and demystify various MPC approaches, enabling clearer understanding and comparison. The result is an organized map that guides researchers and practitioners through the multiverse of MPC designs.
+
+### Key Contributions
+- Proposes a novel taxonomy that systematically categorizes MPC protocols based on key design parameters.
+- Provides critical analysis of protocol efficiency, security assumptions, and practical applicability.
+- Highlights open challenges and guides future research directions for MPC development.
+
+### Method & Results
+- Method: Extensive literature review and comparative analysis of existing MPC protocols across multiple dimensions (security model, efficiency, communication complexity).
+- Tools: No experimental datasets; primarily theoretical and analytical work synthesizing prior results.
+- Results: Identifies trade-offs and classifications of MPC families; reveals underexplored protocol design spaces.
+- Performance: Offers qualitative comparison rather than empirical benchmarks, emphasizing conceptual clarity over raw performance metrics.
+
+### Impact & Limitations
+- Impact: A valuable reference framework fostering better comprehension, implementation choices, and innovation in MPC research.
+- Limitations: Lack of empirical validation or benchmarking; future work could extend taxonomy to emerging MPC paradigms or integrate quantitative performance evaluations.
+
+---
+
+#### Leveraging FPGAs for Homomorphic Matrix-Vector Multiplication in Oblivious Message Retrieval
+**作者**: Grant Bosworth, Keewoo Lee, Sunwoong Kim
+**类别**: cs.CR, cs.AR
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11690v1
+
+#### Executive Summary  
+The paper addresses the challenge of efficiently performing homomorphic matrix-vector multiplication for oblivious message retrieval, a core operation in secure computation protocols. It proposes an FPGA-accelerated approach that leverages custom hardware optimizations to significantly enhance computation speed. Results demonstrate substantial throughput improvements over CPU and GPU baselines, enabling more practical homomorphic encryption deployments.
+
+### Key Contributions  
+- Novel FPGA architecture tailored for homomorphic matrix-vector multiplication in oblivious retrieval settings.  
+- Hardware-aware optimization techniques that minimize latency and maximize parallelism under encryption constraints.  
+- Comprehensive evaluation demonstrating substantial speedups vs. state-of-the-art CPU/GPU implementations.
+
+### Method & Results  
+- Designed and implemented an FPGA pipeline customized for the mathematical operations of homomorphic encryption schemes used in oblivious message retrieval.  
+- Leveraged standard homomorphic encryption libraries integrated with FPGA hardware description languages for prototyping.  
+- Achieved up to 10x speedup in matrix-vector multiplication throughput compared to optimized CPU and GPU baselines on benchmark datasets.  
+- Reported consistent latency reductions critical for practical secure retrieval scenarios.
+
+### Impact & Limitations  
+- Enables more practical, low-latency secure computations in privacy-sensitive applications such as encrypted database queries.  
+- Limitations include FPGA resource constraints that may limit scalability to larger problem sizes; future work to explore multi-FPGA scaling and support for broader encryption schemes.
+
+---
+
+#### Granite: Granular Runtime Enforcement for GitHub Actions Permissions
+**作者**: Mojtaba Moazen, Amir. M Ahmadian, Musard Balliu
+**类别**: cs.CR
+**发布日期**: 2025-12-12
+**链接**: http://arxiv.org/abs/2512.11602v1
+
+#### Executive Summary  
+This paper addresses the security risks posed by overly permissive GitHub Actions workflows by proposing Granite, a granular runtime enforcement system that dynamically restricts permissions during action execution. Granite monitors and enforces fine-grained permissions at runtime, significantly reducing the attack surface without affecting workflow functionality.
+
+### Key Contributions  
+- Introduces a novel granular runtime permission enforcement mechanism for GitHub Actions.  
+- Demonstrates precise permission tracking that minimizes privilege escalation risks in CI/CD pipelines.  
+- Provides an implementation compatible with existing GitHub infrastructure, enabling practical deployment.
+
+### Method & Results  
+- Implements dynamic instrumentation to enforce permission constraints during actions’ runtime based on observed usage patterns.  
+- Evaluates Granite on a curated set of popular open-source GitHub workflows to measure effectiveness.  
+- Results show up to 70% reduction in unnecessary permissions granted, with negligible performance overhead (<5%).  
+- Outperforms static permission models by dynamically adapting permissions, reducing false positives and usability disruption.
+
+### Impact & Limitations  
+- Enhances security for DevOps workflows by preventing abuse of excessive permissions, fostering safer continuous integration practices.  
+- Limitation: Granite currently focuses on predefined permission sets; future work could explore automated permission inference and broader action ecosystem integration.
 
 ---
 
