@@ -38571,18 +38571,18 @@ This paper addresses adaptive threat detection in cloud Identity and Access Mana
 #### Executive Summary  
 This paper investigates interactional friction in modular speech-to-speech translation pipelines, focusing on misalignments between speech recognition, translation, and synthesis modules. The authors propose a detailed analytical framework to identify and characterize errors causing conversational breakdowns, demonstrating how such friction impacts communication quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel framework to detect and categorize interactional friction in modular speech-to-speech systems.  
 - Provides empirical analysis linking specific pipeline errors to conversational breakdowns.  
 - Offers insights for improving modular architectures by addressing turn-taking and alignment issues.
 
-### Method & Results  
+### Method & Results
 - Employs a modular pipeline decomposition approach, analyzing errors at ASR, MT, and TTS stages and their compounded effects on dialogue flow.  
 - Uses proprietary and/or benchmark speech-to-speech datasets with human interaction scenarios (details unspecified).  
 - Quantifies friction impact: errors in recognition and translation significantly reduce turn-taking smoothness and user satisfaction (exact metrics not stated).  
 - Demonstrates that addressing friction points improves overall system coherence over baseline modular setups.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights crucial interaction design factors for real-time speech translation, benefiting user experience in multilingual dialogues.  
 - Limitations include unspecified dataset details and potential scalability issues; future work may integrate end-to-end models or adaptive turn-taking strategies.
 
@@ -38623,19 +38623,19 @@ This paper investigates how software libraries are utilized within pull requests
 #### Executive Summary  
 The paper addresses the challenge of efficiently orchestrating and managing Service Function Chains (SFCs) in network environments. It proposes Mini-SFC, a comprehensive simulation framework designed to model, deploy, and evaluate SFC orchestration strategies. Results demonstrate Mini-SFC’s capability to accurately simulate SFC scenarios, enabling effective performance assessment of various management techniques.
 
-### Key Contributions  
+### Key Contributions
 - Development of Mini-SFC, an integrated simulation framework tailored for SFC orchestration and management.  
 - Introduction of modular components that model key SFC functionalities and performance metrics.  
 - Validation of Mini-SFC's versatility through diverse SFC scenario simulations.
 
-### Method & Results  
+### Method & Results
 - Utilizes a modular simulation approach combining network topology, service functions, and orchestration policies.  
 - Implements realistic traffic and service chaining models to test orchestration strategies.  
 - Experiments conducted on synthetic network topologies and benchmark scenarios.  
 - Demonstrated improved evaluation fidelity compared to existing basic simulation tools; specific metrics show enhanced accuracy in delay and resource usage estimations (quantitative details not specified).  
 - Performance benchmarks indicate Mini-SFC supports scalable and fast simulations aiding rapid prototyping.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical tool for researchers and practitioners to design and test SFC orchestration policies before deployment.  
 - Currently may lack real-world traffic datasets and integration with live network environments, suggesting directions for future enhancement.
 
@@ -38677,18 +38677,18 @@ This paper addresses privacy risks in code generation by introducing differentia
 #### Executive Summary  
 This paper addresses the challenge of automating source code translation from C to Java using large language models (LLMs). The authors propose REMODEL-LLM, a novel framework that leverages prompt engineering and fine-tuning of LLMs to accurately transform C programs into semantically equivalent Java code. Experiments demonstrate significant improvements in translation accuracy over baseline models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces REMODEL-LLM, a tailored LLM-based pipeline specifically for C to Java code translation.  
 - Develops a domain-specific prompt optimization technique enhancing model understanding of programming constructs.  
 - Demonstrates superior translation fidelity relative to existing generic code translation approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes fine-tuning of a pre-trained LLM on paired C-Java code snippets with custom prompt templates.  
 - Evaluated on a curated benchmark dataset of diverse C programs and their Java counterparts.  
 - Achieved up to 85% semantic equivalence accuracy, outperforming baseline translation models by 15%.  
 - Reports robustness in handling complex language features and idiomatic patterns.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to efficiently migrate legacy C codebases to modern Java environments, reducing manual rewrite effort.  
 - Limited by reliance on dataset quality and scalability to very large or domain-specific codebases; future work to incorporate feedback loops and incremental learning.
 
@@ -38705,18 +38705,18 @@ This paper addresses the challenge of automating source code translation from C 
 #### Executive Summary  
 This paper addresses the challenge of circumventing alignment and guard mechanisms in text generation models by introducing "Super Suffixes," sequences appended to prompts that simultaneously bypass multiple safety filters. The authors demonstrate that these suffixes effectively manipulate models to produce unsafe outputs without triggering standard guardrails.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the novel concept of "Super Suffixes" that jointly evade text generation alignment and guard models.  
 - Provides an automated framework to generate these suffixes across diverse language models.  
 - Empirically validates the approach on leading large language models, showing broad effectiveness.
 
-### Method & Results  
+### Method & Results
 - Developed an algorithmic technique to craft suffixes appended to prompts that fool both alignment and guard layers simultaneously.  
 - Experiments conducted using state-of-the-art LLMs (specific models not named) and commonly employed safety filters.  
 - Results show a significant increase in bypass rates, exceeding baseline evasion methods by up to 40%.  
 - Demonstrates robustness across multiple datasets and attack scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in current AI safety mechanisms, urging the need for stronger multi-layered defenses.  
 - Limitation: Mainly tested on select models—generalizability to emerging architectures requires further study.  
 - Future work may explore dynamic, context-aware guard adaptations to mitigate such bypass techniques.
@@ -38785,18 +38785,18 @@ This paper presents a comprehensive Systematization of Knowledge (SoK) on secure
 #### Executive Summary  
 The paper addresses the challenge of efficiently performing homomorphic matrix-vector multiplication for oblivious message retrieval, a core operation in secure computation protocols. It proposes an FPGA-accelerated approach that leverages custom hardware optimizations to significantly enhance computation speed. Results demonstrate substantial throughput improvements over CPU and GPU baselines, enabling more practical homomorphic encryption deployments.
 
-### Key Contributions  
+### Key Contributions
 - Novel FPGA architecture tailored for homomorphic matrix-vector multiplication in oblivious retrieval settings.  
 - Hardware-aware optimization techniques that minimize latency and maximize parallelism under encryption constraints.  
 - Comprehensive evaluation demonstrating substantial speedups vs. state-of-the-art CPU/GPU implementations.
 
-### Method & Results  
+### Method & Results
 - Designed and implemented an FPGA pipeline customized for the mathematical operations of homomorphic encryption schemes used in oblivious message retrieval.  
 - Leveraged standard homomorphic encryption libraries integrated with FPGA hardware description languages for prototyping.  
 - Achieved up to 10x speedup in matrix-vector multiplication throughput compared to optimized CPU and GPU baselines on benchmark datasets.  
 - Reported consistent latency reductions critical for practical secure retrieval scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more practical, low-latency secure computations in privacy-sensitive applications such as encrypted database queries.  
 - Limitations include FPGA resource constraints that may limit scalability to larger problem sizes; future work to explore multi-FPGA scaling and support for broader encryption schemes.
 
@@ -38811,20 +38811,292 @@ The paper addresses the challenge of efficiently performing homomorphic matrix-v
 #### Executive Summary  
 This paper addresses the security risks posed by overly permissive GitHub Actions workflows by proposing Granite, a granular runtime enforcement system that dynamically restricts permissions during action execution. Granite monitors and enforces fine-grained permissions at runtime, significantly reducing the attack surface without affecting workflow functionality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel granular runtime permission enforcement mechanism for GitHub Actions.  
 - Demonstrates precise permission tracking that minimizes privilege escalation risks in CI/CD pipelines.  
 - Provides an implementation compatible with existing GitHub infrastructure, enabling practical deployment.
 
-### Method & Results  
+### Method & Results
 - Implements dynamic instrumentation to enforce permission constraints during actions’ runtime based on observed usage patterns.  
 - Evaluates Granite on a curated set of popular open-source GitHub workflows to measure effectiveness.  
 - Results show up to 70% reduction in unnecessary permissions granted, with negligible performance overhead (<5%).  
 - Outperforms static permission models by dynamically adapting permissions, reducing false positives and usability disruption.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security for DevOps workflows by preventing abuse of excessive permissions, fostering safer continuous integration practices.  
 - Limitation: Granite currently focuses on predefined permission sets; future work could explore automated permission inference and broader action ecosystem integration.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-16)
+
+### 软件工程 领域
+
+#### Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation
+**作者**: Richard J. Young
+**类别**: cs.CL, cs.SE
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13655v1
+
+#### Executive Summary
+This paper addresses the challenge of effectively removing or ablating knowledge from large language models (LLMs) across different architectures. It presents a comparative evaluation of various LLM obliteration methods, revealing architecture-dependent efficacy and proposing best practices for targeted knowledge erasure. Results demonstrate significant variance in method performance tied to model design, guiding more reliable and interpretable model editing.
+
+### Key Contributions
+- Conducts the first systematic, cross-architecture comparison of LLM knowledge obliteration techniques.
+- Identifies architecture-specific factors influencing method effectiveness, informing tailored model editing.
+- Proposes evaluation metrics and protocols enhancing standardization in knowledge removal assessments.
+
+### Method & Results
+- Evaluates multiple obliteration methods (e.g., fine-tuning, gradient surgery, weight pruning) across transformer-based architectures.
+- Utilizes benchmark datasets for knowledge tracing and forgetting tasks (e.g., counterfact datasets, factual probing tests).
+- Shows that some methods reduce targeted knowledge recall by up to 70% in GPT-like models but only 40% in BERT-based ones.
+- Demonstrates superior baseline performance in knowledge removal effectiveness, balanced against minimal performance degradation on unrelated tasks.
+
+### Impact & Limitations
+- Facilitates safer deployment of LLMs through controllable knowledge editing, with implications for privacy and compliance.
+- Limited exploration of non-transformer architectures and long-term stability of abliteration effects; future work should address broader models and persistent evaluation.
+
+---
+
+#### How Low Can You Go? The Data-Light SE Challenge
+**作者**: Kishan Kumar Ganguly, Tim Menzies
+**类别**: cs.SE
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13524v1
+
+#### Executive Summary  
+This paper addresses the challenge of building effective software engineering (SE) models under severe data scarcity. The authors propose a novel data-light approach that leverages minimal labeled data combined with strategic modeling techniques to maintain competitive performance. Results show that their approach significantly reduces data requirements while achieving comparable accuracy to data-heavy baselines.
+
+### Key Contributions  
+- Introduces a data-light modeling framework tailored for software engineering tasks under limited data conditions.  
+- Demonstrates that minimal labeled data, when combined with specific learning strategies, can match performance levels of traditional large-data models.  
+- Provides empirical evidence challenging the assumption that large datasets are indispensable for effective SE prediction models.
+
+### Method & Results  
+- Utilizes a combination of transfer learning and selective sampling to maximize learning from sparse data.  
+- Experiments conducted on standard SE benchmarks including defect prediction and effort estimation datasets.  
+- Achieved up to 90% of baseline model accuracy using less than 30% of the training data.  
+- Outperformed standard small-sample learning baselines by 10-15% in prediction accuracy.
+
+### Impact & Limitations  
+- Enables practical SE modeling in scenarios where data collection is costly or infeasible, reducing barriers to deploying predictive tools.  
+- Limited evaluation on diverse SE tasks; future work could explore broader applicability and automate data selection strategies.
+
+---
+
+#### Fine-tuned LLM-based Code Migration Framework
+**作者**: Oleg Grynets, Vasyl Lyashkevych, Dmytro Baran, Maksym Orliansky, Taras Zelenyy, Markiian Leshchyshyn
+**类别**: cs.SE, cs.CL, cs.LO
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13515v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating code migration across programming languages and frameworks by fine-tuning large language models (LLMs). The authors propose a novel framework leveraging domain-specific LLM fine-tuning to improve code translation accuracy. Experimental results demonstrate significant gains in migration quality over baseline models.
+
+### Key Contributions  
+- Introduces a fine-tuned LLM-based framework specifically tailored for code migration tasks.  
+- Demonstrates improved cross-language and cross-framework code translation accuracy through domain adaptation.  
+- Provides an evaluation protocol and dataset focused on realistic code migration scenarios.
+
+### Method & Results  
+- Fine-tuning pre-trained large language models on curated code migration datasets with task-specific prompts.  
+- Utilizes datasets comprising parallel code snippets from multiple programming languages and frameworks.  
+- Achieved up to 15% improvement in migration accuracy and reduced syntactic errors compared to vanilla LLM baselines.  
+- Outperformed standard code translation baselines by a notable margin in both precision and recall metrics.
+
+### Impact & Limitations  
+- Enhances developer productivity by automating tedious code migration, facilitating modernization and interoperability.  
+- Limited by current dataset size and diversity, with future work needed on broader language coverage and optimizing inference efficiency.
+
+---
+
+#### Mapping of the system of software-related emissions and shared responsibilities
+**作者**: Laura Partanen, Antti Sipila, Md Sanaul Haque, Jari Porras
+**类别**: cs.SE
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13474v1
+
+#### Executive Summary  
+This paper addresses the challenge of quantifying and allocating emissions generated by software systems across stakeholders. The authors develop a comprehensive mapping of software-related emissions and propose a framework for understanding shared responsibilities in emission accounting. Their results offer a novel systemic perspective that informs more equitable and effective mitigation strategies.
+
+### Key Contributions  
+- Introduces a systemic mapping of software-related emissions linking software lifecycle stages to emissions sources.  
+- Proposes a shared responsibility model for emission allocation among software producers, users, and infrastructure providers.  
+- Provides a conceptual foundation for future empirical quantification and governance of software emissions.
+
+### Method & Results  
+- Developed a conceptual framework combining literature review and stakeholder analysis to map emission sources and responsibilities.  
+- Utilized case study data from software development and cloud infrastructure providers to illustrate the framework.  
+- Demonstrated how responsibilities are distributed and identified emission hotspots tied to software use and infrastructure.  
+- No direct quantitative performance comparison, as work is primarily conceptual and exploratory.
+
+### Impact & Limitations  
+- Supports policy design and corporate accountability by clarifying emission attribution in complex software ecosystems.  
+- Limited empirical validation; future work needed to quantify emissions and refine allocation models with real-world data.  
+- Expansion to diverse software domains and integration with lifecycle assessment tools suggested.
+
+---
+
+#### A Data Annotation Requirements Representation and Specification (DARS)
+**作者**: Yi Peng, Hina Saeeda, Hans-Martin Heyn, Jennifer Horkoff, Eric Knauss, Fredrick Warg
+**类别**: cs.SE
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13444v1
+
+#### Executive Summary  
+This paper addresses the challenge of specifying and managing data annotation requirements, critical for ensuring high-quality labeled datasets in machine learning workflows. The authors propose DARS, a formal representation and specification framework that enables clear, systematic capture and validation of annotation requirements. The approach improves communication among stakeholders and supports automated consistency checks.
+
+### Key Contributions  
+- Introduction of DARS, a novel formalism for representing data annotation requirements clearly and unambiguously.  
+- Mechanisms for validating annotation specifications and ensuring requirement completeness and consistency.  
+- Demonstration of DARS’s applicability in real-world annotation projects, enhancing quality control.
+
+### Method & Results  
+- Developed a formal modeling language tailored to express diverse annotation requirements and constraints.  
+- Implemented tooling to support requirement specification, automated validation, and integration with annotation processes.  
+- Evaluated on case studies involving image and text annotation datasets, showing improved detection of specification gaps.  
+- Quantitative results indicate a reduction in annotation errors by up to 20% compared to projects without formal requirement specifications.
+
+### Impact & Limitations  
+- Enables more precise annotation guidelines, potentially reducing costly re-annotations and improving dataset reliability.  
+- Current limitation in handling evolving requirements dynamically; future work may extend DARS for adaptive and collaborative environments.
+
+---
+
+### 安全领域 领域
+
+#### SEDULity: A Proof-of-Learning Framework for Distributed and Secure Blockchains with Efficient Useful Work
+**作者**: Weihang Cao, Mustafa Doger, Sennur Ulukus
+**类别**: cs.CR, cs.DC, cs.IT, cs.LG
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13666v1
+
+#### Executive Summary
+This paper addresses the inefficiency of traditional blockchain proof-of-work by proposing SEDULity, a distributed, secure Proof-of-Learning (PoL) framework that leverages useful machine learning tasks as consensus work. The approach integrates training of shared models into blockchain validation, improving resource utility while maintaining security. Results show enhanced efficiency and competitive security compared to standard PoW systems.
+
+### Key Contributions
+- Proposes SEDULity, a novel PoL consensus mechanism embedding useful ML model training into blockchain mining.
+- Develops a secure distributed learning protocol resistant to adversarial attacks within blockchain settings.
+- Demonstrates improved computational resource utilization by transforming useless work into valuable training tasks.
+
+### Method & Results
+- Combines distributed machine learning tasks with consensus mechanisms to verify block validity through training progress.
+- Evaluation uses federated learning benchmarks with real-world datasets (e.g., CIFAR-10) to measure training accuracy and convergence.
+- Shows up to 40% improvement in energy efficiency over conventional PoW and comparable security guarantees.
+- Achieves faster model convergence speed across distributed nodes while maintaining tamper-resistance.
+
+### Impact & Limitations
+- Offers practical advancement by enabling blockchains to produce useful ML models, potentially reducing environmental impact.
+- Limitations include dependency on task suitability for distributed learning and challenges in balancing security with training variability.
+- Future work to explore broader ML tasks and resist more sophisticated adversarial behaviors.
+
+---
+
+#### Certified-Everlasting Quantum NIZK Proofs
+**作者**: Nikhil Pappu
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13628v1
+
+#### Executive Summary  
+This paper addresses the challenge of constructing quantum non-interactive zero-knowledge (NIZK) proofs that maintain certified everlasting security against quantum adversaries. The authors introduce a novel framework for quantum NIZK proofs that guarantees security even if computational assumptions fail in the future. They demonstrate the feasibility of certified-everlasting quantum NIZK proofs with provable security guarantees.
+
+### Key Contributions  
+- Introduces the first framework for certified-everlasting quantum NIZK proofs ensuring long-term security against quantum attacks.  
+- Develops novel proof techniques leveraging quantum cryptographic primitives to enable non-interactivity with certified security.  
+- Provides formal security proofs under quantum computational assumptions bridging classical and quantum cryptographic models.
+
+### Method & Results  
+- Constructs certified-everlasting quantum NIZK protocols using quantum-secure commitment schemes and novel extractor simulations.  
+- Employs theoretical tools from quantum cryptography and complexity theory, no experimental datasets.  
+- Proves soundness, zero-knowledge, and everlasting security rigorously; demonstrates protocols achieve negligible soundness error and strong zero-knowledge properties.  
+- Performance metrics focus on security parameters rather than runtime, showing improvements in theoretical assurances over classical NIZK and previous quantum attempts.
+
+### Impact & Limitations  
+- Provides foundational advances for secure quantum-proof cryptographic protocols with practical implications for future-proof systems in secure communications and blockchain.  
+- Future work includes optimizing efficiency and expanding constructions to broader classes of languages and functionalities.  
+- Practical deployment remains limited by quantum hardware and complexity overhead presently.
+
+---
+
+#### QoeSiGN: Towards Qualified Collaborative eSignatures
+**作者**: Karl W. Koch, Stephan Krenn, Alexandra Hofer
+**类别**: cs.CR
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13613v1
+
+#### Executive Summary  
+The paper addresses the challenge of creating legally qualified collaborative electronic signatures (eSignatures) that ensure security and compliance in multi-party workflows. It introduces QoeSiGN, a novel framework combining cryptographic protocols with standardized qualified electronic signature requirements. The approach demonstrates secure, scalable, and compliant multi-user signing with formal verification of properties.
+
+### Key Contributions  
+- Proposes QoeSiGN, the first framework enabling qualified collaborative eSignatures meeting EU eIDAS standards.  
+- Develops a secure multi-party signing protocol with formal proofs of compliance and security.  
+- Demonstrates practical deployment feasibility with integration into existing eSignature infrastructures.
+
+### Method & Results  
+- Designed a cryptographic protocol supporting collaborative signing on distributed signatures ensuring integrity and non-repudiation.  
+- Utilized formal verification tools (e.g., Tamarin prover) to validate security properties against standard threat models.  
+- Experimental evaluation on a prototype showed signing latency under 1 second for 5 parties with negligible overhead compared to traditional single-signer systems.  
+- Outperformed baseline non-qualified collaborative signing schemes in compliance and security guarantees.
+
+### Impact & Limitations  
+- Enables businesses and institutions to adopt legally binding multi-party eSignatures, enhancing workflow efficiency and trust.  
+- Limitations include scalability analysis beyond small groups and integration challenges with diverse legacy systems; future work targets these aspects.
+
+---
+
+#### Behavior-Aware and Generalizable Defense Against Black-Box Adversarial Attacks for ML-Based IDS
+**作者**: Sabrine Ennaji, Elhadj Benkhelifa, Luigi Vincenzo Mancini
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13501v1
+
+#### Executive Summary
+This paper addresses the vulnerability of ML-based Intrusion Detection Systems (IDS) to black-box adversarial attacks by proposing a behavior-aware defense mechanism. The approach enhances generalizability across different attack types by leveraging behavioral patterns rather than model-specific features. Experimental results demonstrate improved robustness against diverse black-box adversarial threats compared to existing defenses.
+
+### Key Contributions
+- Introduces a novel behavior-aware defense strategy that generalizes well to various black-box adversarial attacks.
+- Demonstrates enhanced robustness for ML-based IDS without requiring access to the attacker’s model or attack details.
+- Provides comprehensive evaluation across multiple attack vectors and real-world datasets.
+
+### Method & Results
+- Proposes a defense framework focusing on the behavior of input features under attack, enabling detection of adversarial perturbations.
+- Utilizes benchmark IDS datasets (e.g., CICIDS2017) and black-box attack simulations for evaluation.
+- Achieves up to a 30% improvement in detection accuracy against black-box attacks compared to baseline methods.
+- Outperforms state-of-the-art adversarial defenses by maintaining high detection rates under varying attack scenarios.
+
+### Impact & Limitations
+- Enhances the practical security of ML-based IDS deployed in real networks by offering a robust, model-agnostic defensive layer.
+- Limitations include potential challenges in adapting to rapidly evolving adversarial strategies and overhead introduced by behavior monitoring.
+- Future work could explore real-time deployment scalability and defense adaptation to white-box attack settings.
+
+---
+
+#### Weak Enforcement and Low Compliance in PCI~DSS: A Comparative Security Study
+**作者**: Soonwon Park, John D. Hastings
+**类别**: cs.CR, cs.CY
+**发布日期**: 2025-12-15
+**链接**: http://arxiv.org/abs/2512.13430v1
+
+#### Executive Summary  
+This paper investigates the effectiveness of PCI DSS enforcement and compliance across organizations, revealing widespread weak enforcement mechanisms and low compliance rates. The authors perform a comparative security study highlighting the gap between PCI DSS standards and actual security postures. Their analysis demonstrates that weak enforcement critically undermines PCI DSS’s intended security benefits.
+
+### Key Contributions  
+- First empirical study quantifying enforcement strength and compliance levels in PCI DSS adoption.  
+- Novel comparative framework assessing real-world security outcomes vs. PCI DSS requirements.  
+- Identification of key organizational and technical factors linked to low compliance and vulnerability.
+
+### Method & Results  
+- Methodology: Comparative analysis combining survey data, security audit reports, and breach incident assessments across diverse organizations.  
+- Tools/Datasets: Mixed dataset from PCI compliance scanners, public breach databases, and organizational surveys.  
+- Results: Found that over 60% of assessed entities failed key PCI DSS control requirements; those with weak enforcement had 3x higher breach rates.  
+- Performance: Demonstrated significantly poorer security metrics than organizations with strong compliance, quantifying enforcement impact.
+
+### Impact & Limitations  
+- Significance: Highlights critical gaps in PCI DSS enforcement affecting payment card security industry-wide, urging policy and technical improvements.  
+- Limitations/Future Work: Limited by self-reported data bias; future research to explore automated compliance verification and enforcement mechanisms.
 
 ---
 
