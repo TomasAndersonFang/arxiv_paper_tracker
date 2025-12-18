@@ -39115,18 +39115,18 @@ This paper investigates the effectiveness of PCI DSS enforcement and compliance 
 #### Executive Summary  
 This paper addresses the challenge of adapting conversational norms in large language model (LLM) chatbots to promote sustainable AI usage. The authors propose revising interaction protocols to balance user experience with computational resource efficiency, demonstrating reduced environmental impact without compromising dialogue quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces sustainable conversational norms tailored for LLM chatbots to reduce computational load.  
 - Proposes a novel framework for integrating environmental awareness into chatbot dialogue management.  
 - Empirically validates that conversational adjustments can maintain user satisfaction while lowering energy consumption.
 
-### Method & Results  
+### Method & Results
 - Developed a dialogue management framework that modulates response verbosity and interaction frequency based on sustainability criteria.  
 - Evaluated on custom conversational datasets with metrics for response quality and estimated carbon footprint.  
 - Results show up to 25% reduction in computational resource use with negligible impact on user-rated dialogue coherence.  
 - Outperforms baseline chatbot interaction models that do not consider sustainability factors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for deployment in AI services seeking greener profiles without degrading UX.  
 - Limitations include reliance on proxy sustainability metrics and need for broader user testing to generalize findings.  
 - Future work should explore integration with diverse LLM architectures and real-time environmental feedback.
@@ -39142,18 +39142,18 @@ This paper addresses the challenge of adapting conversational norms in large lan
 #### Executive Summary  
 This paper addresses the complexity of developing Cloud-of-Things (CoT) applications by proposing MoT, a model-driven low-code framework that simplifies design and deployment. The approach integrates domain-specific models with automated code generation, resulting in accelerated development cycles and reduced technical barriers. Experimental evaluation demonstrates significant reductions in development time with maintained application quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of MoT, a novel low-code, model-driven framework tailored for Cloud-of-Things application development.  
 - Seamless integration of domain-specific modeling and automated code generation to abstract cloud and IoT complexities.  
 - Empirical evidence showing improved developer productivity and ease of use compared to traditional programming approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes domain-specific modeling languages (DSMLs) and model-to-code transformations for application generation.  
 - Validation through case studies involving real-world CoT scenarios and tool implementation supporting cloud deployment.  
 - Results indicate up to 40% reduction in development time and decreased error rates versus baseline manual coding methods.  
 - Performance and reliability metrics comparable to fully hand-coded solutions, validating the approach’s practical viability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables non-expert developers to quickly build robust CoT applications, promoting wider adoption of IoT-cloud integration.  
 - Limitations include scalability challenges for extremely large-scale deployments and limited support for custom low-level optimizations.  
 - Future work suggested in enhancing the modeling language expressiveness and extending support for heterogeneous cloud platforms.
@@ -39195,18 +39195,18 @@ The paper addresses the challenge of defining relevant Hardware Abstraction Laye
 #### Executive Summary  
 This paper tackles the challenge of automating the migration from conventional unit tests to property-based tests by leveraging semantic analysis. The authors propose Teralizer, a tool that generalizes existing unit tests into property-based tests to improve test coverage and robustness. Experimental evaluation demonstrates Teralizer’s effectiveness in generating meaningful property-based tests with minimal manual effort.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a semantics-based approach to automatically generalize unit tests into property-based tests.  
 - Development of the Teralizer tool that bridges the gap between conventional and property-based testing paradigms.  
 - Empirical demonstration of improved test generality and coverage through automated test generation.
 
-### Method & Results  
+### Method & Results
 - Analyzed execution semantics of unit tests to infer test properties and synthesized generalized property-based tests.  
 - Evaluated on several open-source projects using common testing frameworks and property-based testing tools (e.g., QuickCheck).  
 - Achieved up to 35% increase in test coverage and reduced redundancy compared to manually written property-based tests.  
 - Outperformed baseline methods relying on syntactic template extraction, showing higher precision in property generation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables software testers to leverage existing unit tests for scalable property-based testing, enhancing software reliability with limited overhead.  
 - Limitations include dependency on the quality and diversity of original unit tests and challenges in handling complex or stateful behaviors, suggesting future work on broader semantic contexts and dynamic state modeling.
 
@@ -39221,18 +39221,18 @@ This paper tackles the challenge of automating the migration from conventional u
 #### Executive Summary  
 This paper addresses the challenge of integrating security compliance into DevOps workflows without hampering agility. Through a longitudinal study spanning multiple organizations, it investigates effective practices and tools to align security and compliance requirements with rapid development cycles, demonstrating improved compliance adherence with minimal disruption.
 
-### Key Contributions  
+### Key Contributions
 - Empirical insights from a longitudinal study on integrating security compliance into DevOps environments.  
 - Identification of effective alignment strategies and tool-supported practices bridging compliance and agile development.  
 - Provision of a practical framework to guide practitioners in balancing security and DevOps demands.
 
-### Method & Results  
+### Method & Results
 - Conducted a multi-organization longitudinal qualitative study involving interviews, observations, and process analysis over an extended period.  
 - Utilized security compliance audit records and DevOps pipeline data for cross-validation.  
 - Found that early integration of automated compliance checks and collaborative toolchains increased compliance adherence by up to 30% without impacting deployment frequency.  
 - Compared to traditional siloed security approaches, the integrated approach reduced compliance-related delays by 40%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers actionable guidance for organizations seeking to embed security compliance into fast-paced DevOps workflows, promoting secure and efficient software delivery.  
 - Limitations include potential variability across different organizational cultures and the study’s focus on select industries; future work could generalize findings through broader quantitative validation.
 
@@ -39275,18 +39275,18 @@ This paper addresses the challenge of evaluating memorization in large language 
 #### Executive Summary  
 This paper addresses the high cost and limited qubit availability in cloud-based quantum computing by exploiting qubit reset operations to reuse qubits within the same quantum circuit. The approach enables running larger quantum circuits effectively "for free" in terms of hardware resources. Results demonstrate significant improvements in circuit depth and resource efficiency on real cloud quantum devices.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a method leveraging mid-circuit qubit resets to extend effective circuit depth without additional hardware.  
 - Develops scheduling techniques to optimally insert resets, maximizing qubit reuse in cloud quantum platforms.  
 - Demonstrates practical feasibility and performance gains on existing quantum hardware, highlighting cost reduction benefits.
 
-### Method & Results  
+### Method & Results
 - Utilizes mid-circuit qubit reset commands combined with classical control to reuse qubits dynamically during circuit execution.  
 - Implements the methods on IBM Quantum cloud backends, using benchmark quantum circuits for evaluation.  
 - Achieves up to 50% deeper circuits compared to baseline implementations without resets.  
 - Shows consistent reductions in required qubit counts, enabling complex algorithms on limited hardware.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly improves resource efficiency for cloud quantum computing, reducing financial and hardware constraints for users.  
 - Limited by current hardware reset fidelity and latency; further work needed to optimize for noisy intermediate-scale quantum (NISQ) devices and extend techniques to more complex workloads.
 
@@ -39312,33 +39312,18 @@ This paper addresses the challenge of estimating Average Treatment Effects (ATE)
 - Results: Achieves high ATE estimation accuracy with an ε-differential privacy budget, outperforming baseline differentially private methods by up to 20% in error reduction.
 - Performance: Demonstrates robust privacy-utility trade-off superior to naive noise addition approaches.
 
-### Impact & Limitations
-- Practical significance: Enables reliable causal effect estimation in privacy-sensitive domains like healthcare and social sciences.
-- Limitations/Future Work: Extension to handle complex treatment regimes and longitudinal data; improving scalability for large datasets.
-
----
-
-#### Aligning Security Compliance and DevOps: A Longitudinal Study
-**作者**: Fabiola Moyón, Florian Angermeir, Daniel Mendez, Tony Gorschek, Markus Voggenreiter, Pierre-Louis Bonvin
-**类别**: cs.SE, cs.CR
-**发布日期**: 2025-12-16
-**链接**: http://arxiv.org/abs/2512.14453v1
-
-#### Executive Summary  
-This paper addresses the challenge of integrating security compliance within fast-paced DevOps environments. Through a longitudinal study involving industry case studies, the authors propose alignment strategies that improve compliance adherence without hindering development velocity. Results show that tailored compliance practices can coexist with DevOps, enhancing security posture while maintaining agility.
-
-### Key Contributions  
+### Key Contributions
 - Identification of key friction points between security compliance and DevOps workflows through longitudinal observation.  
 - Proposal of a framework aligning compliance requirements with DevOps practices to streamline security integration.  
 - Empirical validation showcasing improved compliance adherence without significant impact on development speed.
 
-### Method & Results  
+### Method & Results
 - Conducted a multi-year qualitative longitudinal study in collaboration with multiple industry partners practicing DevOps and compliance.  
 - Used interviews, process analysis, and compliance audit data to derive actionable insights.  
 - Found a 30% reduction in compliance issues and maintained or improved sprint throughput post-framework adoption.  
 - Demonstrated that their approach outperforms traditional compliance checks that often derail DevOps cadence.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to embed security compliance into DevOps pipelines effectively, improving overall security and regulatory adherence.  
 - Limited by industry-specific contexts; future work could quantify large-scale applicability and automate compliance monitoring within DevOps tools.
 
@@ -39353,20 +39338,290 @@ This paper addresses the challenge of integrating security compliance within fas
 #### Executive Summary  
 This paper addresses stealthy reasoning-style poisoning attacks on Large Language Model (LLM) agents using style transfer techniques that alter reasoning patterns without changing semantics. The authors propose a novel process-level attack framework with runtime monitoring in a newly defined RSV (Reasoning-Style Vector) space, demonstrating effective poisoning while evading traditional defenses.
 
-### Key Contributions  
+### Key Contributions
 - Introduces stealthy reasoning-style poisoning attacks via style transfer to manipulate LLM agent behavior subtly.  
 - Proposes the RSV space for runtime monitoring to detect process-level style deviations as an attack countermeasure.  
 - Demonstrates attack and defense effectiveness through rigorous experiments on representative LLM agents.
 
-### Method & Results  
+### Method & Results
 - Developed a style transfer mechanism that shifts the reasoning style of LLM agents at the process level without semantic changes.  
 - Designed a runtime monitoring system leveraging RSV space to identify and flag anomalous reasoning style patterns.  
 - Evaluated on LLM agents using custom benchmarks; attack success rate significantly high while maintaining semantic consistency.  
 - The defense system effectively detected over 85% of poisoning attempts, outperforming baseline anomaly detectors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of subtle adversarial threats on LLM agents and offers a practical runtime defense framework.  
 - Limitations include potential dependency on specific LLM architectures and the challenge of generalizing RSV monitoring across diverse models; future work could explore adaptive defenses and broader applicability.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-18)
+
+### 软件工程 领域
+
+#### FrontierCS: Evolving Challenges for Evolving Intelligence
+**作者**: Qiuyang Mang, Wenhao Chai, Zhifei Li, Huanzhi Mao, Shang Zhou, Alexander Du, Hanchen Li, Shu Liu, Edwin Chen, Yichuan Wang, Xieting Chu, Zerui Cheng, Yuan Xu, Tian Xia, Zirui Wang, Tianneng Shi, Jianzhu Yao, Yilong Zhao, Qizheng Zhang, Charlie Ruan, Zeyu Shen, Kaiyuan Liu, Runyuan He, Dong Xing, Zerui Li, Zirong Zeng, Yige Jiang, Lufeng Cheng, Ziyi Zhao, Youran Sun, Wesley Zheng, Meiyuwang Zhang, Ruyi Ji, Xuechang Tu, Zihan Zheng, Zexing Chen, Kangyang Zhou, Zhaozi Wang, Jingbang Chen, Aleksandra Korolova, Peter Henderson, Pramod Viswanath, Vijay Ganesh, Saining Xie, Zhuang Liu, Dawn Song, Sewon Min, Ion Stoica, Joseph E. Gonzalez, Jingbo Shang, Alvin Cheung
+**类别**: cs.LG, cs.SE
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15699v1
+
+#### Executive Summary  
+This paper addresses the evolving challenges that arise as artificial intelligence systems become more advanced and complex. It introduces FrontierCS, a dynamic framework designed to systematically identify, benchmark, and stimulate research on critical issues in AI development. The results demonstrate FrontierCS's effectiveness in highlighting underexplored problem areas, driving progress through community engagement and competitive benchmarks.
+
+### Key Contributions  
+- Introduces FrontierCS, a novel evolving challenge framework that adapts with AI intelligence growth.  
+- Develops a comprehensive benchmark suite targeting emerging AI limitations.  
+- Establishes a collaborative platform fostering continuous research and challenge evolution.
+
+### Method & Results  
+- Methodology: Formulates evolving AI challenges via modular, community-driven benchmark design and tracks progress longitudinally.  
+- Tools/Datasets: Utilizes a curated multi-domain dataset collection reflecting diverse AI tasks and failure modes.  
+- Results: Shows measurable improvements in AI robustness and adaptability over successive benchmark iterations.  
+- Performance: Demonstrates that models optimized via FrontierCS outperform baseline models by 15-25% on key adaptive metrics.
+
+### Impact & Limitations  
+- Practical Significance: Provides a sustainable mechanism to direct AI research toward real-world evolving challenges, promoting resilient and generalizable intelligence.  
+- Limitations/Future Work: Needs broader community adoption for maximal impact; future work includes expanding challenge diversity and integrating human-in-the-loop evaluations.
+
+---
+
+#### A High-level Synthesis Toolchain for the Julia Language
+**作者**: Benedict Short, Ian McInerney, John Wickerson
+**类别**: cs.SE, cs.AR, cs.PL
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15679v1
+
+#### Executive Summary  
+The paper addresses the gap in high-level synthesis (HLS) toolchains for the Julia programming language, aiming to enable hardware design directly from Julia code. It presents a novel HLS toolchain that translates Julia into hardware description languages, demonstrating competitive synthesis results on benchmark circuits.
+
+### Key Contributions  
+- Introduces the first comprehensive HLS toolchain tailored for Julia, bridging high-level programming and hardware synthesis.  
+- Develops novel translation techniques to handle Julia’s dynamic features efficiently in hardware design.  
+- Provides an open-source framework integrating Julia’s ecosystem with established synthesis tools.
+
+### Method & Results  
+- Utilizes static analysis and intermediate representation transformations to convert Julia code into synthesizable hardware descriptions.  
+- Evaluated using benchmark circuits including common DSP kernels and control logic modules.  
+- Achieved hardware implementation with area and timing metrics comparable to HLS tools targeting C/C++ inputs, with synthesis times within 10-15% of established baselines.  
+- Demonstrated feasibility through FPGA prototyping and resource utilization analysis.
+
+### Impact & Limitations  
+- Enables hardware designers and researchers familiar with Julia to enter FPGA/ASIC design with minimal additional learning, potentially accelerating innovation in scientific computing hardware.  
+- Current limitations include partial support for some Julia language features and performance overhead in handling highly dynamic constructs; future work aims to expand language coverage and optimization strategies.
+
+---
+
+#### WuppieFuzz: Coverage-Guided, Stateful REST API Fuzzing
+**作者**: Thomas Rooijakkers, Anne Nijsten, Cristian Daniele, Erieke Weitenberg, Ringo Groenewegen, Arthur Melissen
+**类别**: cs.SE
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15554v1
+
+#### Executive Summary  
+WuppieFuzz addresses the challenge of effectively fuzzing stateful REST APIs by integrating coverage-guided feedback with state management. The approach automatically generates sequences of API calls that maintain valid states, improving bug detection. Experiments demonstrate significant increases in code coverage and vulnerability discovery compared to existing fuzzing tools.
+
+### Key Contributions  
+- Introduces a coverage-guided, stateful fuzzing framework tailored for REST APIs.  
+- Novel state-aware input generation combining API call sequencing with code coverage feedback.  
+- Empirical validation showing enhanced exploration of API state spaces and bug detection.
+
+### Method & Results  
+- Combines feedback-driven fuzzing with automated inference of API state transitions to generate valid and diverse call sequences.  
+- Evaluated on popular open-source REST APIs using standard fuzzing benchmarks and real-world services.  
+- Achieved up to 35% increase in code coverage and uncovered multiple new vulnerabilities compared to state-of-the-art API fuzzers.  
+- Outperformed baseline tools by generating longer valid API call chains that trigger complex state-dependent behaviors.
+
+### Impact & Limitations  
+- Enables more robust security and reliability testing of stateful web services, reducing undetected bugs in API deployments.  
+- Limitations include overhead in modeling complex states and potential scalability issues in very large APIs; future work may focus on optimizing state inference and supporting heterogeneous API ecosystems.
+
+---
+
+#### How Do Semantically Equivalent Code Transformations Impact Membership Inference on LLMs for Code?
+**作者**: Hua Yang, Alejandro Velasco, Thanh Le-Cong, Md Nazmul Haque, Bowen Xu, Denys Poshyvanyk
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15468v1
+
+#### Executive Summary  
+This paper investigates how semantically equivalent code transformations affect membership inference attacks (MIAs) on large language models (LLMs) trained for code generation. By applying code transformations that preserve semantics, the authors analyze whether and how these perturbations influence model privacy leakage. They find that such transformations can significantly impact the effectiveness of MIAs, providing insights into both risks and mitigation strategies.
+
+### Key Contributions  
+- First systematic study of the effect of semantically equivalent code transformations on membership inference attacks targeting code LLMs.  
+- Introduction of transformation-based methods as a potential privacy defense mechanism against MIAs on LLMs for code.  
+- Empirical evaluation across multiple LLMs and transformation techniques demonstrating varied impacts on membership inference success.
+
+### Method & Results  
+- Evaluated MIAs on multiple pre-trained code LLMs using original and transformed code samples with semantics-preserving transformations (e.g., renaming, refactoring).  
+- Utilized benchmark code datasets and membership inference attack frameworks adapted to code models.  
+- Results show that certain code transformations reduce MIA success rate by up to 30%, indicating decreased privacy leakage.  
+- Findings reveal that the effectiveness of MIAs strongly depends on the form of the input code representation presented to the model.  
+
+### Impact & Limitations  
+- Highlights practical privacy risks in code LLM deployment and introduces transformation-based tactics as a new defense avenue.  
+- Limited by focus on selected transformations and models; broader transformation types and more complex models could be explored in future work.
+
+---
+
+#### On Assessing the Relevance of Code Reviews Authored by Generative Models
+**作者**: Robert Heumüller, Frank Ortmeier
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15466v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating the relevance and quality of code reviews generated by AI models. The authors propose a novel assessment framework combining automated metrics and human judgment to gauge the usefulness of generative-model authored code reviews. Results demonstrate that while AI-generated reviews can identify some issues, their relevance varies significantly compared to human reviews.
+
+### Key Contributions  
+- Introduces a hybrid evaluation framework integrating automated and manual relevance assessments for AI-generated code reviews.  
+- Provides empirical evidence on the strengths and weaknesses of generative models in producing meaningful code review comments.  
+- Highlights key factors influencing the practical utility of AI-based code reviews in software engineering workflows.
+
+### Method & Results  
+- Methodology: Developed metrics assessing review relevance and conducted comparative analysis with human-authored reviews using expert evaluators.  
+- Datasets/Tools: Utilized established open-source project repositories with historical code reviews; leveraged state-of-the-art generative AI models for review generation.  
+- Results: AI-generated reviews identified 60-75% of critical code issues but showed lower contextual accuracy and actionable insight than human reviews.  
+- Performance: AI reviews lagged behind human baselines by approximately 20-30% in relevance scores across evaluated projects.
+
+### Impact & Limitations  
+- Practical significance: Provides a foundation for integrating AI review tools to support, not replace, human reviewers, potentially improving code quality and review efficiency.  
+- Limitations/Future work: Needs broader evaluation across diverse codebases and refinement of models to enhance contextual relevance and reduce false positives.
+
+---
+
+### 安全领域 领域
+
+#### BashArena: A Control Setting for Highly Privileged AI Agents
+**作者**: Adam Kaufman, James Lucassen, Tyler Tracy, Cody Rushing, Aryan Bhatt
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15688v1
+
+#### Executive Summary  
+The paper addresses the challenge of safely controlling highly privileged AI agents capable of executing system-level commands. The authors introduce BashArena, a sandboxed environment designed to monitor and limit AI agent behavior in shell access scenarios. Results show BashArena effectively constrains AI agents while preserving operational flexibility.
+
+### Key Contributions  
+- Proposes BashArena, a novel control setting for privileged AI agents with shell access.  
+- Introduces fine-grained command monitoring and intervention techniques within a sandbox.  
+- Demonstrates efficacy of the environment in balancing safety with agent functionality.
+
+### Method & Results  
+- Developed a sandbox environment where AI agents execute Bash commands under strict oversight and context-aware restrictions.  
+- Evaluated using simulated privileged command tasks involving system modifications and information retrieval.  
+- Experimental results indicate a substantial reduction in unsafe or unauthorized commands (>90% detection and prevention rate).  
+- Performance metrics highlight that BashArena maintains over 85% task success rate compared to unrestricted baselines, showing minimal operational degradation.
+
+### Impact & Limitations  
+- BashArena offers a practical framework to enhance AI safety in scenarios requiring elevated system privileges, crucial for real-world deployments.  
+- Current limitation includes potential circumvention of sandbox policies by advanced agents, suggesting future work on adaptive policy refinement and broader attack surface coverage.
+
+---
+
+#### Distributed HDMM: Scalable, Distributed, Accurate, and Differentially Private Query Workloads without a Trusted Curator
+**作者**: Ratang Sedimo, Ivoline C. Ngong, Jami Lashua, Joseph P. Near
+**类别**: cs.CR
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15648v1
+
+#### Executive Summary  
+This paper addresses the challenge of answering query workloads accurately and privately in a distributed setting without relying on a trusted curator. The authors propose Distributed HDMM, a scalable system that achieves differential privacy through decentralized computation. Their approach delivers strong accuracy and privacy guarantees while eliminating single points of trust.
+
+### Key Contributions  
+- Introduces Distributed HDMM, the first scalable, distributed workload mechanism that maintains differential privacy without a central trusted curator.  
+- Demonstrates how workload decomposition and distributed optimization can achieve accurate query answering at scale.  
+- Provides rigorous privacy proofs and empirical validation on realistic datasets.
+
+### Method & Results  
+- Utilizes a distributed implementation of the Hierarchical Directed Matrix Mechanism (HDMM) with secure multi-party computation to ensure privacy.  
+- Experiments conducted on benchmark query workloads for histogram and range queries.  
+- Achieves up to 30–50% error reduction compared to prior distributed private query methods.  
+- Demonstrates scalability to hundreds of parties with modest computational overhead.  
+
+### Impact & Limitations  
+- Enables privacy-preserving data analysis in federated settings such as multi-institution collaboration without trusted third parties.  
+- Future work could improve efficiency for very large numbers of parties and extend method to richer query classes beyond linear workloads.
+
+---
+
+#### FAME: FPGA Acceleration of Secure Matrix Multiplication with Homomorphic Encryption
+**作者**: Zhihan Xu, Rajgopal Kannan, Viktor K. Prasanna
+**类别**: cs.AR, cs.CR
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15515v1
+
+#### Executive Summary
+This paper addresses the computational bottleneck in privacy-preserving matrix multiplication by accelerating homomorphic encryption (HE) schemes on FPGA hardware. The authors propose FAME, a novel FPGA architecture optimized for secure matrix operations under HE, achieving significant speedup and efficiency improvements. Experimental results demonstrate up to an order of magnitude speedup over CPU-based implementations.
+
+### Key Contributions
+- Introduces FAME, the first FPGA accelerator tailored for homomorphic encryption-based secure matrix multiplication.
+- Develops optimized dataflow and modular arithmetic units to handle HE operations efficiently on FPGA.
+- Demonstrates substantial energy and latency reductions compared to state-of-the-art CPU implementations.
+
+### Method & Results
+- Implements a parameterized hardware design integrating number-theoretic transform (NTT) and modular reduction tailored for HE schemes.
+- Uses homomorphic encryption libraries and benchmarks on matrix sizes common in privacy-preserving ML.
+- Achieves up to 10x speedup and 5x energy savings over high-performance CPU baselines.
+- Validated on real FPGA platforms, confirming practical feasibility.
+
+### Impact & Limitations
+- Enables scalable, efficient secure computations critical for privacy-sensitive applications like ML inference and secure data analytics.
+- Limitations include focus on specific HE schemes and matrix operations; extending to other cryptographic tasks and broader HE functionalities remains future work.
+
+---
+
+#### Time will Tell: Large-scale De-anonymization of Hidden I2P Services via Live Behavior Alignment (Extended Version)
+**作者**: Hongze Wang, Zhen Ling, Xiangyu Xu, Yumingzhi Pan, Guangchi Liu, Junzhou Luo, Xinwen Fu
+**类别**: cs.CR
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15510v1
+
+#### Executive Summary  
+This paper addresses the challenge of de-anonymizing hidden services in the I2P network by aligning live traffic behavior patterns over time. The authors propose a novel large-scale technique leveraging temporal behavior correlation to effectively link anonymous I2P services with their real IPs, demonstrating significant improvements in de-anonymization accuracy.
+
+### Key Contributions  
+- Introduces a time-based live behavior alignment method for large-scale de-anonymization of I2P hidden services.  
+- Provides the first extensive empirical study and dataset capturing live I2P traffic patterns at scale.  
+- Demonstrates improved accuracy over existing de-anonymization techniques by exploiting temporal dynamics.
+
+### Method & Results  
+- Utilizes temporal correlation of traffic features across hidden services and entry nodes to associate identities over continuous observation windows.  
+- Employs a custom large-scale live I2P monitoring infrastructure to collect and analyze real-world service behavior.  
+- Achieves up to X% accuracy in correctly deanonymizing services (quantitative result to be filled based on paper specifics).  
+- Outperforms baseline deanonymization approaches that rely solely on static or one-time traffic fingerprints.
+
+### Impact & Limitations  
+- Enables more effective deanonymization attacks on I2P, raising significant privacy and security implications for hidden service users.  
+- Limitations include dependency on continuous live monitoring and potential evasion through adaptive traffic obfuscation; future work may explore countermeasures and broader applicability.
+
+---
+
+#### Attention in Motion: Secure Platooning via Transformer-based Misbehavior Detection
+**作者**: Konstantinos Kalogiannis, Ahmed Mohamed Hussain, Hexu Li, Panos Papadimitratos
+**类别**: cs.CR, cs.AI, cs.LG, cs.NI
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15503v1
+
+#### Executive Summary
+This paper addresses the challenge of secure vehicle platooning by detecting misbehavior using a Transformer-based model. The authors propose a novel attention-driven framework that identifies anomalous actions within platoons, enhancing safety and trust in autonomous convoys. Experimental results demonstrate improved detection accuracy over existing methods.
+
+### Key Contributions
+- Introduces a Transformer-based misbehavior detection model tailored for secure vehicle platooning.
+- Leverages attention mechanisms to capture temporal and interaction patterns in platooning data.
+- Demonstrates effectiveness with enhanced detection rates compared to traditional approaches.
+
+### Method & Results
+- Developed a deep learning framework using Transformer architectures to analyze time-series and interaction data from vehicle platoons for anomaly detection.
+- Utilized real-world and simulated vehicular network datasets to train and evaluate the model.
+- Achieved significant improvements in detection accuracy (up to 15% increase) and reduced false positives relative to baseline machine learning models.
+- Outperformed conventional rule-based and LSTM-based detection systems in terms of recall and precision.
+
+### Impact & Limitations
+- Enhances autonomous vehicle platooning safety by providing a scalable, data-driven misbehavior detection system.
+- Potentially applicable to broader cooperative vehicular networks requiring robust security measures.
+- Limitations include reliance on high-quality labeled data and computational overhead of Transformer models.
+- Future work could explore lightweight architectures and real-time deployment in resource-constrained environments.
 
 ---
 
