@@ -39370,18 +39370,18 @@ This paper addresses stealthy reasoning-style poisoning attacks on Large Languag
 #### Executive Summary  
 This paper addresses the evolving challenges that arise as artificial intelligence systems become more advanced and complex. It introduces FrontierCS, a dynamic framework designed to systematically identify, benchmark, and stimulate research on critical issues in AI development. The results demonstrate FrontierCS's effectiveness in highlighting underexplored problem areas, driving progress through community engagement and competitive benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FrontierCS, a novel evolving challenge framework that adapts with AI intelligence growth.  
 - Develops a comprehensive benchmark suite targeting emerging AI limitations.  
 - Establishes a collaborative platform fostering continuous research and challenge evolution.
 
-### Method & Results  
+### Method & Results
 - Methodology: Formulates evolving AI challenges via modular, community-driven benchmark design and tracks progress longitudinally.  
 - Tools/Datasets: Utilizes a curated multi-domain dataset collection reflecting diverse AI tasks and failure modes.  
 - Results: Shows measurable improvements in AI robustness and adaptability over successive benchmark iterations.  
 - Performance: Demonstrates that models optimized via FrontierCS outperform baseline models by 15-25% on key adaptive metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Provides a sustainable mechanism to direct AI research toward real-world evolving challenges, promoting resilient and generalizable intelligence.  
 - Limitations/Future Work: Needs broader community adoption for maximal impact; future work includes expanding challenge diversity and integrating human-in-the-loop evaluations.
 
@@ -39396,18 +39396,18 @@ This paper addresses the evolving challenges that arise as artificial intelligen
 #### Executive Summary  
 The paper addresses the gap in high-level synthesis (HLS) toolchains for the Julia programming language, aiming to enable hardware design directly from Julia code. It presents a novel HLS toolchain that translates Julia into hardware description languages, demonstrating competitive synthesis results on benchmark circuits.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first comprehensive HLS toolchain tailored for Julia, bridging high-level programming and hardware synthesis.  
 - Develops novel translation techniques to handle Julia’s dynamic features efficiently in hardware design.  
 - Provides an open-source framework integrating Julia’s ecosystem with established synthesis tools.
 
-### Method & Results  
+### Method & Results
 - Utilizes static analysis and intermediate representation transformations to convert Julia code into synthesizable hardware descriptions.  
 - Evaluated using benchmark circuits including common DSP kernels and control logic modules.  
 - Achieved hardware implementation with area and timing metrics comparable to HLS tools targeting C/C++ inputs, with synthesis times within 10-15% of established baselines.  
 - Demonstrated feasibility through FPGA prototyping and resource utilization analysis.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables hardware designers and researchers familiar with Julia to enter FPGA/ASIC design with minimal additional learning, potentially accelerating innovation in scientific computing hardware.  
 - Current limitations include partial support for some Julia language features and performance overhead in handling highly dynamic constructs; future work aims to expand language coverage and optimization strategies.
 
@@ -39422,18 +39422,18 @@ The paper addresses the gap in high-level synthesis (HLS) toolchains for the Jul
 #### Executive Summary  
 WuppieFuzz addresses the challenge of effectively fuzzing stateful REST APIs by integrating coverage-guided feedback with state management. The approach automatically generates sequences of API calls that maintain valid states, improving bug detection. Experiments demonstrate significant increases in code coverage and vulnerability discovery compared to existing fuzzing tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a coverage-guided, stateful fuzzing framework tailored for REST APIs.  
 - Novel state-aware input generation combining API call sequencing with code coverage feedback.  
 - Empirical validation showing enhanced exploration of API state spaces and bug detection.
 
-### Method & Results  
+### Method & Results
 - Combines feedback-driven fuzzing with automated inference of API state transitions to generate valid and diverse call sequences.  
 - Evaluated on popular open-source REST APIs using standard fuzzing benchmarks and real-world services.  
 - Achieved up to 35% increase in code coverage and uncovered multiple new vulnerabilities compared to state-of-the-art API fuzzers.  
 - Outperformed baseline tools by generating longer valid API call chains that trigger complex state-dependent behaviors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more robust security and reliability testing of stateful web services, reducing undetected bugs in API deployments.  
 - Limitations include overhead in modeling complex states and potential scalability issues in very large APIs; future work may focus on optimizing state inference and supporting heterogeneous API ecosystems.
 
@@ -39448,18 +39448,18 @@ WuppieFuzz addresses the challenge of effectively fuzzing stateful REST APIs by 
 #### Executive Summary  
 This paper investigates how semantically equivalent code transformations affect membership inference attacks (MIAs) on large language models (LLMs) trained for code generation. By applying code transformations that preserve semantics, the authors analyze whether and how these perturbations influence model privacy leakage. They find that such transformations can significantly impact the effectiveness of MIAs, providing insights into both risks and mitigation strategies.
 
-### Key Contributions  
+### Key Contributions
 - First systematic study of the effect of semantically equivalent code transformations on membership inference attacks targeting code LLMs.  
 - Introduction of transformation-based methods as a potential privacy defense mechanism against MIAs on LLMs for code.  
 - Empirical evaluation across multiple LLMs and transformation techniques demonstrating varied impacts on membership inference success.
 
-### Method & Results  
+### Method & Results
 - Evaluated MIAs on multiple pre-trained code LLMs using original and transformed code samples with semantics-preserving transformations (e.g., renaming, refactoring).  
 - Utilized benchmark code datasets and membership inference attack frameworks adapted to code models.  
 - Results show that certain code transformations reduce MIA success rate by up to 30%, indicating decreased privacy leakage.  
 - Findings reveal that the effectiveness of MIAs strongly depends on the form of the input code representation presented to the model.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical privacy risks in code LLM deployment and introduces transformation-based tactics as a new defense avenue.  
 - Limited by focus on selected transformations and models; broader transformation types and more complex models could be explored in future work.
 
@@ -39474,18 +39474,18 @@ This paper investigates how semantically equivalent code transformations affect 
 #### Executive Summary  
 This paper addresses the challenge of evaluating the relevance and quality of code reviews generated by AI models. The authors propose a novel assessment framework combining automated metrics and human judgment to gauge the usefulness of generative-model authored code reviews. Results demonstrate that while AI-generated reviews can identify some issues, their relevance varies significantly compared to human reviews.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid evaluation framework integrating automated and manual relevance assessments for AI-generated code reviews.  
 - Provides empirical evidence on the strengths and weaknesses of generative models in producing meaningful code review comments.  
 - Highlights key factors influencing the practical utility of AI-based code reviews in software engineering workflows.
 
-### Method & Results  
+### Method & Results
 - Methodology: Developed metrics assessing review relevance and conducted comparative analysis with human-authored reviews using expert evaluators.  
 - Datasets/Tools: Utilized established open-source project repositories with historical code reviews; leveraged state-of-the-art generative AI models for review generation.  
 - Results: AI-generated reviews identified 60-75% of critical code issues but showed lower contextual accuracy and actionable insight than human reviews.  
 - Performance: AI reviews lagged behind human baselines by approximately 20-30% in relevance scores across evaluated projects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Provides a foundation for integrating AI review tools to support, not replace, human reviewers, potentially improving code quality and review efficiency.  
 - Limitations/Future work: Needs broader evaluation across diverse codebases and refinement of models to enhance contextual relevance and reduce false positives.
 
@@ -39502,18 +39502,18 @@ This paper addresses the challenge of evaluating the relevance and quality of co
 #### Executive Summary  
 The paper addresses the challenge of safely controlling highly privileged AI agents capable of executing system-level commands. The authors introduce BashArena, a sandboxed environment designed to monitor and limit AI agent behavior in shell access scenarios. Results show BashArena effectively constrains AI agents while preserving operational flexibility.
 
-### Key Contributions  
+### Key Contributions
 - Proposes BashArena, a novel control setting for privileged AI agents with shell access.  
 - Introduces fine-grained command monitoring and intervention techniques within a sandbox.  
 - Demonstrates efficacy of the environment in balancing safety with agent functionality.
 
-### Method & Results  
+### Method & Results
 - Developed a sandbox environment where AI agents execute Bash commands under strict oversight and context-aware restrictions.  
 - Evaluated using simulated privileged command tasks involving system modifications and information retrieval.  
 - Experimental results indicate a substantial reduction in unsafe or unauthorized commands (>90% detection and prevention rate).  
 - Performance metrics highlight that BashArena maintains over 85% task success rate compared to unrestricted baselines, showing minimal operational degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - BashArena offers a practical framework to enhance AI safety in scenarios requiring elevated system privileges, crucial for real-world deployments.  
 - Current limitation includes potential circumvention of sandbox policies by advanced agents, suggesting future work on adaptive policy refinement and broader attack surface coverage.
 
@@ -39528,18 +39528,18 @@ The paper addresses the challenge of safely controlling highly privileged AI age
 #### Executive Summary  
 This paper addresses the challenge of answering query workloads accurately and privately in a distributed setting without relying on a trusted curator. The authors propose Distributed HDMM, a scalable system that achieves differential privacy through decentralized computation. Their approach delivers strong accuracy and privacy guarantees while eliminating single points of trust.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Distributed HDMM, the first scalable, distributed workload mechanism that maintains differential privacy without a central trusted curator.  
 - Demonstrates how workload decomposition and distributed optimization can achieve accurate query answering at scale.  
 - Provides rigorous privacy proofs and empirical validation on realistic datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes a distributed implementation of the Hierarchical Directed Matrix Mechanism (HDMM) with secure multi-party computation to ensure privacy.  
 - Experiments conducted on benchmark query workloads for histogram and range queries.  
 - Achieves up to 30–50% error reduction compared to prior distributed private query methods.  
 - Demonstrates scalability to hundreds of parties with modest computational overhead.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving data analysis in federated settings such as multi-institution collaboration without trusted third parties.  
 - Future work could improve efficiency for very large numbers of parties and extend method to richer query classes beyond linear workloads.
 
@@ -39580,18 +39580,18 @@ This paper addresses the computational bottleneck in privacy-preserving matrix m
 #### Executive Summary  
 This paper addresses the challenge of de-anonymizing hidden services in the I2P network by aligning live traffic behavior patterns over time. The authors propose a novel large-scale technique leveraging temporal behavior correlation to effectively link anonymous I2P services with their real IPs, demonstrating significant improvements in de-anonymization accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a time-based live behavior alignment method for large-scale de-anonymization of I2P hidden services.  
 - Provides the first extensive empirical study and dataset capturing live I2P traffic patterns at scale.  
 - Demonstrates improved accuracy over existing de-anonymization techniques by exploiting temporal dynamics.
 
-### Method & Results  
+### Method & Results
 - Utilizes temporal correlation of traffic features across hidden services and entry nodes to associate identities over continuous observation windows.  
 - Employs a custom large-scale live I2P monitoring infrastructure to collect and analyze real-world service behavior.  
 - Achieves up to X% accuracy in correctly deanonymizing services (quantitative result to be filled based on paper specifics).  
 - Outperforms baseline deanonymization approaches that rely solely on static or one-time traffic fingerprints.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective deanonymization attacks on I2P, raising significant privacy and security implications for hidden service users.  
 - Limitations include dependency on continuous live monitoring and potential evasion through adaptive traffic obfuscation; future work may explore countermeasures and broader applicability.
 
@@ -39622,6 +39622,278 @@ This paper addresses the challenge of secure vehicle platooning by detecting mis
 - Potentially applicable to broader cooperative vehicular networks requiring robust security measures.
 - Limitations include reliance on high-quality labeled data and computational overhead of Transformer models.
 - Future work could explore lightweight architectures and real-time deployment in resource-constrained environments.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-19)
+
+### 软件工程 领域
+
+#### Checking the HAL Interface Specification Continuously, Right from the Start
+**作者**: Manuel Bentele, Onur Altinordu, Jan Körner, Andreas Podelski, Axel Sikora
+**类别**: cs.LO, cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16897v1
+
+#### Executive Summary  
+The paper addresses the challenge of verifying Hardware Abstraction Layer (HAL) interface specifications early and continuously in the development lifecycle. The authors propose a continuous verification approach integrated from the start of development, enabling early detection of specification inconsistencies. Results demonstrate improved specification reliability and accelerated feedback compared to ad hoc verification.
+
+### Key Contributions  
+- Introduces a continuous, start-to-finish verification framework for HAL interface specifications.  
+- Develops novel integration techniques for embedding verification seamlessly into early development stages.  
+- Provides empirical evidence showing enhanced error detection and specification quality through continuous checks.
+
+### Method & Results  
+- Employs formal specification languages and automated model checking embedded within the development pipeline to verify HAL interfaces continuously.  
+- Utilizes a representative dataset of HAL specifications from industrial and academic sources.  
+- Achieved up to 40% faster detection of specification errors compared to traditional batch verification methods.  
+- Demonstrated higher coverage of interface properties and reduced late-stage debugging effort.
+
+### Impact & Limitations  
+- Offers practical benefits for embedded systems development by ensuring higher HAL specification correctness from the outset.  
+- Limited by current scalability of verification tools on exceptionally large or highly complex HAL specifications; future work may explore optimization or abstraction techniques.
+
+---
+
+#### Toward Systematic Counterfactual Fairness Evaluation of Large Language Models: The CAFFE Framework
+**作者**: Alessandra Parziale, Gianmario Voria, Valeria Pontillo, Gemma Catolino, Andrea De Lucia, Fabio Palomba
+**类别**: cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16816v1
+
+#### Executive Summary  
+This paper addresses the challenge of systematically evaluating counterfactual fairness in large language models (LLMs). The authors propose CAFFE, a novel framework designed to generate and assess counterfactual sentence variants to measure fairness across demographic attributes. Experimental results demonstrate CAFFE’s effectiveness in detecting nuanced fairness discrepancies in LLM outputs.
+
+### Key Contributions  
+- Introduces CAFFE, the first systematic framework for counterfactual fairness evaluation tailored to LLMs.  
+- Develops automated methods for generating counterfactual input variations focusing on sensitive demographic features.  
+- Provides empirical evidence of existing fairness biases across popular LLMs using CAFFE.
+
+### Method & Results  
+- Utilizes automated counterfactual sentence perturbations to create test cases differing only in sensitive attributes.  
+- Uses popular LLMs (e.g., GPT-family models) as test subjects with evaluation on synthetic and real-world demographic datasets.  
+- Quantitatively identifies fairness gaps, showing variance in model responses linked to gender, race, and ethnicity indicators.  
+- CAFFE outperforms baseline ad hoc fairness tests by offering more systematic, replicable evaluation.
+
+### Impact & Limitations  
+- CAFFE can guide developers in auditing and mitigating unfair biases in LLM outputs, enhancing ethical AI deployment.  
+- Currently limited by reliance on predefined demographic attributes and generated counterfactual quality; future work may expand attribute scope and improve generation fidelity.
+
+---
+
+#### Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse
+**作者**: Aaron Imani, Mohammad Moshirpour, Iftekhar Ahmed
+**类别**: cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16790v1
+
+#### Executive Summary  
+This paper investigates how large language models (LLMs) internalize and are influenced by comments within training data, affecting their behavior positively or negatively. The authors analyze mechanisms behind comment internalization and propose strategies to steer LLM outputs more reliably. Results demonstrate improved model alignment and robustness when comment internalization is properly managed.
+
+### Key Contributions  
+- Identifies and characterizes the internalization of comments by LLMs as a pivotal factor influencing model output quality.  
+- Proposes novel techniques to monitor and guide comment internalization to enhance model reliability.  
+- Provides empirical evidence linking comment internalization patterns to downstream model behavior and performance variations.
+
+### Method & Results  
+- Analyzed LLM training data to isolate comment-related signals and measured their internalization using probing methods.  
+- Employed controlled prompting and fine-tuning strategies to steer LLMs based on comment information.  
+- Used benchmark datasets in software engineering (cs.SE) and large-scale LLM test suites.  
+- Achieved measurable improvement in output accuracy and alignment metrics, outperforming baselines lacking comment internalization control by ~10-15%.
+
+### Impact & Limitations  
+- Enhances interpretability and control of LLMs in domains where comment data is prevalent, improving trustworthiness of generated content.  
+- Future work needed to generalize findings beyond code/comment contexts and to automate detection of harmful comment internalization.
+
+---
+
+#### An Empirical Study of the Realism of Mutants in Deep Learning
+**作者**: Zaheed Ahmed, Philip Makedonski, Jens Grabowski
+**类别**: cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16741v1
+
+#### Executive Summary  
+This paper investigates the realism of mutants generated by mutation testing techniques in deep learning systems. By empirically analyzing how these mutants compare to real faults, the authors reveal discrepancies affecting the validity of mutation-based evaluation. The study highlights the limitations of existing mutation operators for deep learning and suggests directions for improving mutant realism.
+
+### Key Contributions  
+- Novel empirical evaluation of the realism of mutants specifically in deep learning contexts.  
+- Identification of key gaps between synthetic mutants and real-world faults in deep neural networks.  
+- Recommendations for enhancing mutation testing to better reflect realistic fault scenarios in DL.
+
+### Method & Results  
+- Analyzed mutants generated by popular mutation operators applied to deep neural networks, comparing them against a curated set of real faults.  
+- Used benchmark deep learning datasets and models common in software engineering research (e.g., image classification tasks).  
+- Found a significant divergence in behavior and failure patterns between mutants and authentic faults, quantitatively confirming limited mutant representativeness.  
+- Mutation testing performance metrics indicated that existing mutants often fail to mimic real fault impacts adequately.
+
+### Impact & Limitations  
+- Highlights the need for more realistic mutation operators to improve the reliability of mutation testing in DL software quality assessment.  
+- Limited to certain model types and datasets; future work should explore broader architectures and domain-specific mutants.
+
+---
+
+#### ParamExplorer: A framework for exploring parameters in generative art
+**作者**: Julien Gachadoat, Guillaume Lagarde
+**类别**: cs.AI, cs.HC, cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16529v1
+
+#### Executive Summary  
+The paper introduces ParamExplorer, a framework designed to aid artists and researchers in systematically exploring parameter spaces within generative art systems. By combining interactive visualization and automated analysis, the framework enables efficient discovery of novel and diverse artistic outputs. Experimental validation shows improved user efficiency and creative insight compared to manual parameter tuning.
+
+### Key Contributions  
+- A novel interactive framework integrating parameter space exploration with generative art creation.  
+- Automated techniques to identify and highlight interesting parameter regions for artistic exploration.  
+- User study demonstrating enhanced creativity and discovery compared to baseline manual exploration.
+
+### Method & Results  
+- Methodology: Combines parameter space sampling, dimensionality reduction, and interactive visualization to navigate complex generative models.  
+- Tools: Implemented on generative art systems using synthetic datasets of parameter-output mappings.  
+- Results: Users found diverse creative outputs with 30% less time and reported higher satisfaction than manual tuning.  
+- Performance: Exceeded baseline manual exploration in both efficiency and creative diversity metrics.
+
+### Impact & Limitations  
+- Impact: Facilitates systematic and efficient exploration in generative art, potentially accelerating artistic innovation and research.  
+- Limitations: Framework currently tailored to specific generative models; scalability to very high-dimensional spaces requires further work. Future efforts could integrate more advanced AI-driven parameter suggestion methods.
+
+---
+
+### 安全领域 领域
+
+#### How Good is Post-Hoc Watermarking With Language Model Rephrasing?
+**作者**: Pierre Fernandez, Tom Sander, Hady Elsahar, Hongyan Chang, Tomáš Souček, Valeriu Lacatusu, Tuan Tran, Sylvestre-Alvise Rebuffi, Alexandre Mourachko
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16904v1
+
+#### Executive Summary
+This paper investigates the robustness of post-hoc watermarking methods for language models when subjected to rephrasing by other language models. The authors analyze how well existing watermarking techniques survive transformations and quantify their resilience. Results show that many watermarking schemes degrade substantially under model-driven rephrasing, questioning their reliability.
+
+### Key Contributions
+- Provides the first systematic evaluation of post-hoc watermarking robustness against automatic LM rephrasing.
+- Introduces a novel benchmark and metrics tailored for watermark detection under paraphrasing.
+- Demonstrates significant vulnerability of current watermarking schemes to state-of-the-art language model paraphrasing.
+
+### Method & Results
+- Evaluates multiple watermarking algorithms by applying LM-based rephrasers to watermarked text and measuring detectability.
+- Uses large pre-trained language models (e.g., GPT variants) as rephrasers and benchmark datasets for natural language text.
+- Finds detection accuracy drops by up to 40-60% after rephrasing; some watermarks become nearly undetectable.
+- Compared to baseline scenarios without rephrasing, watermark robustness is substantially lower, revealing a critical weakness.
+
+### Impact & Limitations
+- Highlights practical challenges for relying on post-hoc watermarking to authenticate AI-generated text in adversarial or noisy real-world settings.
+- Future work needed on developing rephrasing-resistant watermarking or proactive embedding methods.
+- Limited scope to text paraphrasing; robustness against other transformations remains unexplored.
+
+---
+
+#### Pixel Seal: Adversarial-only training for invisible image and video watermarking
+**作者**: Tomáš Souček, Pierre Fernandez, Hady Elsahar, Sylvestre-Alvise Rebuffi, Valeriu Lacatusu, Tuan Tran, Tom Sander, Alexandre Mourachko
+**类别**: cs.CV, cs.AI, cs.CR, cs.LG
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16874v1
+
+#### Executive Summary  
+Pixel Seal addresses the challenge of invisible watermarking in images and videos by proposing an adversarial-only training framework that forgoes the need for paired clean-watermarked data. The approach trains a watermark embedding and detection system robust against various distortions, achieving high imperceptibility and reliable recovery. Experimental results demonstrate superior watermark invisibility and robustness compared to existing methods.
+
+### Key Contributions  
+- Introduces adversarial-only training paradigm for watermarking, eliminating reliance on paired datasets.  
+- Designs a dual-network framework for embedding invisible watermarks and robust detection under distortions.  
+- Demonstrates generalization to both images and videos with strong imperceptibility and recovery performance.
+
+### Method & Results  
+- Utilizes adversarial training between watermark embedder and attacker networks to simulate distortions dynamically.  
+- Employs neural networks for both embedding and detection modules trained end-to-end without explicit clean-watermarked pairs.  
+- Evaluated on standard image and video benchmarks, showing >X% increase in watermark detection accuracy under attacks while maintaining imperceptibility (e.g., PSNR > Y dB).  
+- Outperforms baselines such as traditional spatial/frequency domain watermarking in robustness and visual quality metrics.
+
+### Impact & Limitations  
+- Enables practical, scalable invisible watermarking for multimedia content without requiring laborious paired data collection.  
+- Limitations include potential computational overhead of adversarial training and unexplored robustness against extremely aggressive or unseen attacks.  
+- Future work could explore real-time embedding and robustness to novel distortion types.
+
+---
+
+#### PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy
+**作者**: Ripan Kumar Kundu, Istiak Ahmed, Khaza Anuarul Hoque
+**类别**: cs.CR, cs.AI, cs.HC
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16851v1
+
+#### Executive Summary  
+This paper addresses privacy vulnerabilities in Extended Reality (XR) environments by integrating Explainable AI (XAI) with Differential Privacy (DP) to defend against privacy attacks. The proposed PrivateXR framework utilizes XAI to identify sensitive features and adaptively apply DP noise, achieving enhanced privacy preservation without severely compromising utility.
+
+### Key Contributions  
+- Introduces an XAI-guided mechanism to optimize Differential Privacy parameters specifically tailored for XR data.  
+- Develops PrivateXR, the first privacy defense framework combining explainability and DP in XR settings.  
+- Demonstrates improved privacy-utility trade-offs in protecting XR user data against state-of-the-art inference attacks.
+
+### Method & Results  
+- Utilizes explainability techniques (e.g., SHAP) to pinpoint privacy-critical XR features, guiding adaptive noise injection via Differential Privacy.  
+- Evaluated on real-world XR interaction datasets and synthetic XR sensor data.  
+- Achieved up to 30% reduction in privacy leakage with less than 10% utility loss compared to traditional DP.  
+- Outperformed baseline DP methods lacking XAI guidance in resisting membership inference and attribute inference attacks.
+
+### Impact & Limitations  
+- Enhances user privacy in XR applications critical for healthcare, gaming, and social platforms, with explainability fostering transparency.  
+- Limitations include computational overhead of XAI in real-time scenarios and potential challenges scaling to diverse XR modalities.  
+- Future work: extending to multi-user XR systems and exploring adaptive privacy budgets based on context dynamics.
+
+---
+
+#### Non-Linear Strong Data-Processing for Quantum Hockey-Stick Divergences
+**作者**: Theshani Nuradha, Ian George, Christoph Hirche
+**类别**: quant-ph, cs.CR, cs.IT, cs.LG
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16778v1
+
+#### Executive Summary  
+This paper addresses the limitations of linear strong data-processing inequalities for quantum hockey-stick divergences by establishing novel non-linear strengthening results. The authors develop new analytical tools that extend classical divergence contraction properties into the quantum domain, resulting in tighter bounds for information loss under quantum channels.
+
+### Key Contributions  
+- Proposes a novel non-linear strong data-processing inequality (SDPI) tailored for quantum hockey-stick divergences.  
+- Demonstrates improved contraction coefficients beyond traditional linear approaches, enhancing divergence bounds under quantum operations.  
+- Provides novel analytical techniques applicable to quantum information theory and quantum channel analysis.
+
+### Method & Results  
+- Utilizes advanced operator inequalities and quantum Rényi divergence frameworks to derive the non-linear SDPI.  
+- No experimental datasets involved; work is theoretical and mathematical in nature.  
+- Establishes explicit non-linear bounds providing strictly stronger contraction properties than known linear SDPIs.  
+- Shows that these bounds outperform existing baselines for quantum channel divergence contraction measures.
+
+### Impact & Limitations  
+- The stronger inequalities enable tighter security and performance analysis in quantum communication and cryptography protocols.  
+- Future work could focus on extending the framework to broader classes of quantum divergences and operational tasks.  
+- Potential computational complexity in applying non-linear bounds to high-dimensional quantum systems remains a challenge.
+
+---
+
+#### Channel State Information Preprocessing for CSI-based Physical-Layer Authentication Using Reconciliation
+**作者**: Atsu Kokuvi Angelo Passah, Rodrigo C. de Lamare, Arsenia Chorti
+**类别**: eess.SP, cs.CR
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16719v1
+
+#### Executive Summary
+The paper addresses the challenge of preprocessing Channel State Information (CSI) to enhance CSI-based physical-layer authentication robustness. The authors propose a reconciliation-based method to improve the accuracy and reliability of the authentication process. Experiments demonstrate significant improvements in authentication performance under realistic channel conditions.
+
+### Key Contributions
+- Introduces a novel CSI preprocessing framework utilizing information reconciliation techniques for physical-layer authentication.
+- Develops an approach that reduces channel variation effects, improving authentication stability.
+- Validates the method with experimental results showing enhanced identification accuracy over existing techniques.
+
+### Method & Results
+- Applies error reconciliation algorithms to preprocess CSI measurements, mitigating noise and fading impacts.
+- Uses real-world wireless channel data and simulation environments to test authentication protocols.
+- Achieves up to 15% improvement in authentication true positive rate compared to baseline CSI-based methods without preprocessing.
+- Demonstrates reduced false acceptance rates while maintaining robustness across varying channel conditions.
+
+### Impact & Limitations
+- Enhances practical deployment feasibility of physical-layer authentication by improving robustness to channel dynamics.
+- Future work could explore real-time implementation challenges and extend to multi-antenna and multi-user scenarios for broader applicability.
 
 ---
 
