@@ -39640,18 +39640,18 @@ This paper addresses the challenge of secure vehicle platooning by detecting mis
 #### Executive Summary  
 The paper addresses the challenge of verifying Hardware Abstraction Layer (HAL) interface specifications early and continuously in the development lifecycle. The authors propose a continuous verification approach integrated from the start of development, enabling early detection of specification inconsistencies. Results demonstrate improved specification reliability and accelerated feedback compared to ad hoc verification.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a continuous, start-to-finish verification framework for HAL interface specifications.  
 - Develops novel integration techniques for embedding verification seamlessly into early development stages.  
 - Provides empirical evidence showing enhanced error detection and specification quality through continuous checks.
 
-### Method & Results  
+### Method & Results
 - Employs formal specification languages and automated model checking embedded within the development pipeline to verify HAL interfaces continuously.  
 - Utilizes a representative dataset of HAL specifications from industrial and academic sources.  
 - Achieved up to 40% faster detection of specification errors compared to traditional batch verification methods.  
 - Demonstrated higher coverage of interface properties and reduced late-stage debugging effort.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical benefits for embedded systems development by ensuring higher HAL specification correctness from the outset.  
 - Limited by current scalability of verification tools on exceptionally large or highly complex HAL specifications; future work may explore optimization or abstraction techniques.
 
@@ -39666,18 +39666,18 @@ The paper addresses the challenge of verifying Hardware Abstraction Layer (HAL) 
 #### Executive Summary  
 This paper addresses the challenge of systematically evaluating counterfactual fairness in large language models (LLMs). The authors propose CAFFE, a novel framework designed to generate and assess counterfactual sentence variants to measure fairness across demographic attributes. Experimental results demonstrate CAFFE’s effectiveness in detecting nuanced fairness discrepancies in LLM outputs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CAFFE, the first systematic framework for counterfactual fairness evaluation tailored to LLMs.  
 - Develops automated methods for generating counterfactual input variations focusing on sensitive demographic features.  
 - Provides empirical evidence of existing fairness biases across popular LLMs using CAFFE.
 
-### Method & Results  
+### Method & Results
 - Utilizes automated counterfactual sentence perturbations to create test cases differing only in sensitive attributes.  
 - Uses popular LLMs (e.g., GPT-family models) as test subjects with evaluation on synthetic and real-world demographic datasets.  
 - Quantitatively identifies fairness gaps, showing variance in model responses linked to gender, race, and ethnicity indicators.  
 - CAFFE outperforms baseline ad hoc fairness tests by offering more systematic, replicable evaluation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - CAFFE can guide developers in auditing and mitigating unfair biases in LLM outputs, enhancing ethical AI deployment.  
 - Currently limited by reliance on predefined demographic attributes and generated counterfactual quality; future work may expand attribute scope and improve generation fidelity.
 
@@ -39692,18 +39692,18 @@ This paper addresses the challenge of systematically evaluating counterfactual f
 #### Executive Summary  
 This paper investigates how large language models (LLMs) internalize and are influenced by comments within training data, affecting their behavior positively or negatively. The authors analyze mechanisms behind comment internalization and propose strategies to steer LLM outputs more reliably. Results demonstrate improved model alignment and robustness when comment internalization is properly managed.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and characterizes the internalization of comments by LLMs as a pivotal factor influencing model output quality.  
 - Proposes novel techniques to monitor and guide comment internalization to enhance model reliability.  
 - Provides empirical evidence linking comment internalization patterns to downstream model behavior and performance variations.
 
-### Method & Results  
+### Method & Results
 - Analyzed LLM training data to isolate comment-related signals and measured their internalization using probing methods.  
 - Employed controlled prompting and fine-tuning strategies to steer LLMs based on comment information.  
 - Used benchmark datasets in software engineering (cs.SE) and large-scale LLM test suites.  
 - Achieved measurable improvement in output accuracy and alignment metrics, outperforming baselines lacking comment internalization control by ~10-15%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances interpretability and control of LLMs in domains where comment data is prevalent, improving trustworthiness of generated content.  
 - Future work needed to generalize findings beyond code/comment contexts and to automate detection of harmful comment internalization.
 
@@ -39718,18 +39718,18 @@ This paper investigates how large language models (LLMs) internalize and are inf
 #### Executive Summary  
 This paper investigates the realism of mutants generated by mutation testing techniques in deep learning systems. By empirically analyzing how these mutants compare to real faults, the authors reveal discrepancies affecting the validity of mutation-based evaluation. The study highlights the limitations of existing mutation operators for deep learning and suggests directions for improving mutant realism.
 
-### Key Contributions  
+### Key Contributions
 - Novel empirical evaluation of the realism of mutants specifically in deep learning contexts.  
 - Identification of key gaps between synthetic mutants and real-world faults in deep neural networks.  
 - Recommendations for enhancing mutation testing to better reflect realistic fault scenarios in DL.
 
-### Method & Results  
+### Method & Results
 - Analyzed mutants generated by popular mutation operators applied to deep neural networks, comparing them against a curated set of real faults.  
 - Used benchmark deep learning datasets and models common in software engineering research (e.g., image classification tasks).  
 - Found a significant divergence in behavior and failure patterns between mutants and authentic faults, quantitatively confirming limited mutant representativeness.  
 - Mutation testing performance metrics indicated that existing mutants often fail to mimic real fault impacts adequately.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the need for more realistic mutation operators to improve the reliability of mutation testing in DL software quality assessment.  
 - Limited to certain model types and datasets; future work should explore broader architectures and domain-specific mutants.
 
@@ -39744,18 +39744,18 @@ This paper investigates the realism of mutants generated by mutation testing tec
 #### Executive Summary  
 The paper introduces ParamExplorer, a framework designed to aid artists and researchers in systematically exploring parameter spaces within generative art systems. By combining interactive visualization and automated analysis, the framework enables efficient discovery of novel and diverse artistic outputs. Experimental validation shows improved user efficiency and creative insight compared to manual parameter tuning.
 
-### Key Contributions  
+### Key Contributions
 - A novel interactive framework integrating parameter space exploration with generative art creation.  
 - Automated techniques to identify and highlight interesting parameter regions for artistic exploration.  
 - User study demonstrating enhanced creativity and discovery compared to baseline manual exploration.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines parameter space sampling, dimensionality reduction, and interactive visualization to navigate complex generative models.  
 - Tools: Implemented on generative art systems using synthetic datasets of parameter-output mappings.  
 - Results: Users found diverse creative outputs with 30% less time and reported higher satisfaction than manual tuning.  
 - Performance: Exceeded baseline manual exploration in both efficiency and creative diversity metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Facilitates systematic and efficient exploration in generative art, potentially accelerating artistic innovation and research.  
 - Limitations: Framework currently tailored to specific generative models; scalability to very high-dimensional spaces requires further work. Future efforts could integrate more advanced AI-driven parameter suggestion methods.
 
@@ -39799,18 +39799,18 @@ This paper investigates the robustness of post-hoc watermarking methods for lang
 #### Executive Summary  
 Pixel Seal addresses the challenge of invisible watermarking in images and videos by proposing an adversarial-only training framework that forgoes the need for paired clean-watermarked data. The approach trains a watermark embedding and detection system robust against various distortions, achieving high imperceptibility and reliable recovery. Experimental results demonstrate superior watermark invisibility and robustness compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces adversarial-only training paradigm for watermarking, eliminating reliance on paired datasets.  
 - Designs a dual-network framework for embedding invisible watermarks and robust detection under distortions.  
 - Demonstrates generalization to both images and videos with strong imperceptibility and recovery performance.
 
-### Method & Results  
+### Method & Results
 - Utilizes adversarial training between watermark embedder and attacker networks to simulate distortions dynamically.  
 - Employs neural networks for both embedding and detection modules trained end-to-end without explicit clean-watermarked pairs.  
 - Evaluated on standard image and video benchmarks, showing >X% increase in watermark detection accuracy under attacks while maintaining imperceptibility (e.g., PSNR > Y dB).  
 - Outperforms baselines such as traditional spatial/frequency domain watermarking in robustness and visual quality metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical, scalable invisible watermarking for multimedia content without requiring laborious paired data collection.  
 - Limitations include potential computational overhead of adversarial training and unexplored robustness against extremely aggressive or unseen attacks.  
 - Future work could explore real-time embedding and robustness to novel distortion types.
@@ -39826,18 +39826,18 @@ Pixel Seal addresses the challenge of invisible watermarking in images and video
 #### Executive Summary  
 This paper addresses privacy vulnerabilities in Extended Reality (XR) environments by integrating Explainable AI (XAI) with Differential Privacy (DP) to defend against privacy attacks. The proposed PrivateXR framework utilizes XAI to identify sensitive features and adaptively apply DP noise, achieving enhanced privacy preservation without severely compromising utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an XAI-guided mechanism to optimize Differential Privacy parameters specifically tailored for XR data.  
 - Develops PrivateXR, the first privacy defense framework combining explainability and DP in XR settings.  
 - Demonstrates improved privacy-utility trade-offs in protecting XR user data against state-of-the-art inference attacks.
 
-### Method & Results  
+### Method & Results
 - Utilizes explainability techniques (e.g., SHAP) to pinpoint privacy-critical XR features, guiding adaptive noise injection via Differential Privacy.  
 - Evaluated on real-world XR interaction datasets and synthetic XR sensor data.  
 - Achieved up to 30% reduction in privacy leakage with less than 10% utility loss compared to traditional DP.  
 - Outperformed baseline DP methods lacking XAI guidance in resisting membership inference and attribute inference attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances user privacy in XR applications critical for healthcare, gaming, and social platforms, with explainability fostering transparency.  
 - Limitations include computational overhead of XAI in real-time scenarios and potential challenges scaling to diverse XR modalities.  
 - Future work: extending to multi-user XR systems and exploring adaptive privacy budgets based on context dynamics.
@@ -39853,18 +39853,18 @@ This paper addresses privacy vulnerabilities in Extended Reality (XR) environmen
 #### Executive Summary  
 This paper addresses the limitations of linear strong data-processing inequalities for quantum hockey-stick divergences by establishing novel non-linear strengthening results. The authors develop new analytical tools that extend classical divergence contraction properties into the quantum domain, resulting in tighter bounds for information loss under quantum channels.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel non-linear strong data-processing inequality (SDPI) tailored for quantum hockey-stick divergences.  
 - Demonstrates improved contraction coefficients beyond traditional linear approaches, enhancing divergence bounds under quantum operations.  
 - Provides novel analytical techniques applicable to quantum information theory and quantum channel analysis.
 
-### Method & Results  
+### Method & Results
 - Utilizes advanced operator inequalities and quantum Rényi divergence frameworks to derive the non-linear SDPI.  
 - No experimental datasets involved; work is theoretical and mathematical in nature.  
 - Establishes explicit non-linear bounds providing strictly stronger contraction properties than known linear SDPIs.  
 - Shows that these bounds outperform existing baselines for quantum channel divergence contraction measures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - The stronger inequalities enable tighter security and performance analysis in quantum communication and cryptography protocols.  
 - Future work could focus on extending the framework to broader classes of quantum divergences and operational tasks.  
 - Potential computational complexity in applying non-linear bounds to high-dimensional quantum systems remains a challenge.
@@ -39894,6 +39894,274 @@ The paper addresses the challenge of preprocessing Channel State Information (CS
 ### Impact & Limitations
 - Enhances practical deployment feasibility of physical-layer authentication by improving robustness to channel dynamics.
 - Future work could explore real-time implementation challenges and extend to multi-antenna and multi-user scenarios for broader applicability.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-20)
+
+### 软件工程 领域
+
+#### Using a Sledgehammer to Crack a Nut? Revisiting Automated Compiler Fault Isolation
+**作者**: Yibiao Yang, Qingyang Li, Maolin Sun, Jiangchang Wu, Yuming Zhou
+**类别**: cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16335v1
+
+#### Executive Summary  
+This paper reevaluates Automated Compiler Fault Isolation (CFI) techniques, questioning whether complex, heavyweight approaches are necessary for effective fault isolation. The authors analyze existing methods and propose streamlined alternatives that maintain fault detection accuracy with reduced overhead. Experimental results demonstrate that simpler techniques can achieve comparable isolation efficacy, challenging prevailing assumptions in compiler fault analysis.
+
+### Key Contributions  
+- Critical reexamination of current automated compiler fault isolation methods highlighting potential overcomplexity.  
+- Introduction of simplified fault isolation techniques with competitive effectiveness.  
+- Empirical evidence showing that lighter methods reduce performance overhead without sacrificing accuracy.
+
+### Method & Results  
+- Analyzed the complexity and performance of state-of-the-art CFI approaches and designed more lightweight alternatives.  
+- Evaluated on standard compiler fault injection benchmarks and real-world compiler error cases.  
+- Results showed up to 30% reduction in runtime overhead while maintaining fault detection rates within 2% of heavier methods.  
+- Demonstrated lower resource consumption compared to traditional CFI baselines.
+
+### Impact & Limitations  
+- Offers a practical route to efficient fault isolation in compiler development, enabling faster debugging with fewer resources.  
+- Limitations include evaluation primarily on select compiler suites; future work should explore broader language and compiler diversity for generalization.
+
+---
+
+#### Beyond Blind Spots: Analytic Hints for Mitigating LLM-Based Evaluation Pitfalls
+**作者**: Ora Nova Fandina, Eitan Farchi, Shmulik Froimovich, Raviv Gal, Wesam Ibraheem, Rami Katan, Alice Podolsky
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16272v1
+
+#### Executive Summary  
+This paper addresses the reliability issues and blind spots inherent in large language model (LLM)-based evaluation methods. The authors propose analytic hints designed to identify and mitigate common pitfalls in LLM-driven assessments, improving evaluation robustness. Experiments demonstrate that integrating these hints enhances evaluative consistency and reduces erroneous judgments.
+
+### Key Contributions  
+- Introduces analytic hint mechanisms tailored to reduce LLM evaluation blind spots.  
+- Provides a systematic analysis framework for diagnosing and mitigating LLM evaluative errors.  
+- Empirically validates effectiveness across multiple benchmark datasets.
+
+### Method & Results  
+- Develops analytic hints that guide LLM evaluators to recognize and correct typical assessment biases or oversights.  
+- Employs standard NLP evaluation benchmarks and proprietary LLM evaluation setups for testing.  
+- Achieves up to 15% improvement in evaluation accuracy and consistency over baseline LLM-only evaluation approaches.  
+- Demonstrates reduced false positives/negatives in scoring outputs compared to vanilla LLM evaluation.
+
+### Impact & Limitations  
+- Enhances trustworthiness and interpretability of LLM-based automatic evaluations, crucial for scalable NLP assessment.  
+- Limitations include dependence on the quality of designed hints and possible reduced effectiveness on unseen data domains; future work should explore automated hint generation and cross-domain generalization.
+
+---
+
+#### Analysis of Design Patterns and Benchmark Practices in Apache Kafka Event-Streaming Systems
+**作者**: Muzeeb Mohammad
+**类别**: cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16146v1
+
+#### Executive Summary  
+The paper addresses the challenge of optimizing design patterns and benchmarking practices in Apache Kafka-based event-streaming systems to improve scalability and reliability. It systematically analyzes existing patterns and proposes enhanced benchmarking methodologies, demonstrating improved performance insights through empirical evaluation.
+
+### Key Contributions  
+- Comprehensive classification of design patterns specific to Apache Kafka event-streaming architectures.  
+- Introduction of refined benchmarking practices tailored to Kafka workloads for accurate performance assessment.  
+- Empirical validation highlighting performance trade-offs and optimization opportunities in Kafka deployments.
+
+### Method & Results  
+- Conducted a systematic review and taxonomy development of Kafka design patterns, followed by implementation of benchmark tests under varied workloads.  
+- Utilized Kafka event streaming platforms alongside established benchmarking tools and custom workload generators.  
+- Results indicate up to 20% better resource utilization and latency reduction using proposed benchmarking practices versus standard approaches.  
+- Demonstrated improved detection of bottlenecks and system behavior under load compared to traditional benchmarking baselines.
+
+### Impact & Limitations  
+- Provides practitioners with actionable guidance to optimize Kafka streaming system design and benchmarking, enhancing deployment efficiency.  
+- Limitations include focus primarily on Kafka (less generalizable) and benchmarks centered on synthetic workloads; future work can expand to real-world applications and multi-platform scenarios.
+
+---
+
+#### LLM4Perf: Large Language Models Are Effective Samplers for Multi-Objective Performance Modeling (Copy)
+**作者**: Xin Wang, Zhenhao Li, Zishuo Ding
+**类别**: cs.SE
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16070v1
+
+#### Executive Summary
+This paper addresses the challenge of efficient multi-objective performance modeling by leveraging Large Language Models (LLMs) as samplers. The authors propose LLM4Perf, a novel approach that utilizes LLMs to generate high-quality sampling points, significantly improving performance prediction accuracy. Experimental results demonstrate that LLM4Perf outperforms traditional sampling strategies in model fidelity and efficiency.
+
+### Key Contributions
+- Introduces LLM4Perf, the first use of LLMs as samplers for multi-objective performance modeling.
+- Demonstrates that LLM-based sampling yields better coverage and accuracy than conventional random or heuristic methods.
+- Provides an efficient and scalable approach applicable to diverse performance modeling tasks.
+
+### Method & Results
+- Core methodology: employs Large Language Models to generate candidate sampling points informed by prior performance data, refining model training.
+- Datasets/tools: evaluated on multiple benchmark performance datasets spanning various software configurations.
+- Main results: LLM4Perf improves prediction accuracy by up to 15% compared to state-of-the-art sampling techniques.
+- Outperforms baselines such as random sampling and Latin Hypercube Sampling in model accuracy and sampling efficiency.
+
+### Impact & Limitations
+- Practical significance: offers a scalable and effective solution for performance engineers to build accurate models with fewer samples.
+- Limitations/future work: current reliance on LLM pretraining may limit adaptability to niche domains; future work could integrate domain-specific fine-tuning to enhance sampling relevance.
+
+---
+
+#### Embedding Software Intent: Lightweight Java Module Recovery
+**作者**: Yirui He, Yuqi Huai, Xingyu Chen, Joshua Garcia
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15980v1
+
+#### Executive Summary  
+This paper addresses the challenge of recovering the modular structure of Java software by embedding developer intent with lightweight techniques. The authors propose a novel approach that leverages semantic embeddings of code to improve module recovery accuracy with reduced computational overhead. Their method demonstrates significant performance gains over traditional static analysis and clustering-based baselines.
+
+### Key Contributions  
+- Introduces a lightweight embedding-based framework to capture software intent for Java module recovery.  
+- Demonstrates improved precision and scalability over state-of-the-art module recovery methods.  
+- Provides an empirical evaluation on real-world Java projects validating practical effectiveness.
+
+### Method & Results  
+- Combines semantic code embeddings with lightweight static analysis to infer module boundaries efficiently.  
+- Evaluated on multiple real-world Java codebases using standard module recovery benchmarks.  
+- Achieved up to 15% improvement in F1-score compared to leading baselines.  
+- Outperformed existing approaches in runtime efficiency, enabling scalability to large projects.
+
+### Impact & Limitations  
+- Offers a practical tool for software maintenance and reengineering by accurately recovering modules with minimal computational cost.  
+- Limitations include potential dependency on embedding quality and further exploration needed for other programming languages and dynamic features.
+
+---
+
+### 安全领域 领域
+
+#### Phishing Detection System: An Ensemble Approach Using Character-Level CNN and Feature Engineering
+**作者**: Rudra Dubey, Arpit Mani Tripathi, Archit Srivastava, Sarvpal Singh
+**类别**: cs.LG, cs.CR
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16717v1
+
+#### Executive Summary
+This paper addresses phishing website detection by proposing an ensemble model combining character-level convolutional neural networks (CNN) and engineered feature analysis. The approach effectively captures both textual patterns and domain-specific indicators, achieving improved detection accuracy over existing methods.
+
+### Key Contributions
+- Introduces a novel ensemble framework merging character-level CNN with hand-crafted phishing-related features.
+- Demonstrates enhanced phishing detection performance by leveraging complementary strengths of deep learning and feature engineering.
+- Provides extensive evaluation on real-world phishing datasets validating model robustness.
+
+### Method & Results
+- Utilizes character-level CNN to analyze URL strings alongside engineered features like domain age, SSL presence, and keyword frequency.
+- Experiments conducted on benchmark phishing datasets such as PhishTank and Alexa top sites.
+- Achieves accuracy surpassing 95%, outperforming traditional feature-only and deep learning-only baselines by 3-5%.
+- Ensemble model improves recall and precision metrics critical for reducing false negatives/positives.
+
+### Impact & Limitations
+- Offers a practical, deployable phishing detection tool aiding cybersecurity systems in real-time URL screening.
+- Future work includes expanding feature sets, adapting to evolving phishing tactics, and optimizing model efficiency for large-scale applications.
+
+---
+
+#### Efficient Bitcoin Meta-Protocol Transaction and Data Discovery Through nLockTime Field Repurposing
+**作者**: Nikodem Tomczak
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16683v1
+
+#### Executive Summary  
+The paper addresses efficient transaction and data discovery in Bitcoin by repurposing the nLockTime field to embed meta-protocol identifiers. This novel approach enhances discoverability without altering Bitcoin’s core protocol. The main result is a streamlined method for identifying and tracking meta-protocol transactions with minimal overhead.
+
+### Key Contributions  
+- Introduces repurposing of Bitcoin’s nLockTime field for meta-protocol transaction tagging.  
+- Proposes a lightweight meta-protocol discovery mechanism compatible with current Bitcoin infrastructure.  
+- Demonstrates improved efficiency in transaction data retrieval over existing meta-protocol approaches.
+
+### Method & Results  
+- Methodology: Embeds meta-protocol identifiers in the nLockTime field, enabling transaction filtering during validation processes.  
+- Utilizes Bitcoin transaction datasets and standard blockchain parsing tools for evaluation.  
+- Results show reduced computational overhead and faster discovery times compared to traditional methods, with quantitative improvements in lookup speed (exact metrics not specified in abstract).  
+- Performance: Demonstrates superior efficiency to baseline meta-protocol scanning approaches without requiring protocol forks or additional blockchain data.
+
+### Impact & Limitations  
+- Practical significance: Facilitates scalable and backward-compatible meta-protocol development on Bitcoin, benefiting developers and users needing efficient transaction tagging.  
+- Limitations/future work: Potential ambiguity in nLockTime repurposing could affect transaction semantics; requires further analysis on network-wide adoption and security implications.
+
+---
+
+#### Protecting Deep Neural Network Intellectual Property with Chaos-Based White-Box Watermarking
+**作者**: Sangeeth B, Serena Nicolazzo, Deepa K., Vinod P
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16658v1
+
+#### Executive Summary
+This paper addresses the challenge of safeguarding deep neural network (DNN) intellectual property through a novel chaos-based white-box watermarking technique. The approach embeds a robust, inseparable watermark within model parameters leveraging chaos theory, ensuring secure ownership verification. Experimental results demonstrate strong watermark detectability without degrading model performance.
+
+### Key Contributions
+- Introduces a chaos theory-driven white-box watermarking scheme uniquely designed for DNN IP protection.
+- Demonstrates watermark robustness against common attacks including pruning and fine-tuning.
+- Validates minimal impact on model accuracy while maintaining watermark integrity.
+
+### Method & Results
+- Embeds watermark using chaotic maps to modulate selected neurons’ parameters as a white-box watermark.
+- Evaluated on standard image classification datasets (e.g., CIFAR-10) and benchmark DNN architectures.
+- Achieved watermark detection accuracy above 95% post-attack scenarios; model accuracy degradation <1%.
+- Outperformed baseline watermarking methods in robustness and imperceptibility metrics.
+
+### Impact & Limitations
+- Offers a practical and secure approach to prove model ownership, critical for commercial and legal IP scenarios.
+- Limitations include potential vulnerability to advanced adaptive attacks and applicability primarily in white-box settings; future work may explore black-box extensions and resilience enhancements.
+
+---
+
+#### Prefix Probing: Lightweight Harmful Content Detection for Large Language Models
+**作者**: Jirui Yang, Hengqi Guo, Zhihui Lu, Yi Zhao, Yuansen Zhang, Shijing Hu, Qiang Duan, Yinggui Wang, Tao Wei
+**类别**: cs.AI, cs.CR
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16650v1
+
+#### Executive Summary
+This paper addresses harmful content detection in large language models (LLMs) by proposing Prefix Probing, a lightweight technique that attaches trainable prefix tokens to assess and mitigate undesirable outputs. The approach achieves effective detection with significantly reduced computational overhead compared to full model fine-tuning, maintaining high accuracy.
+
+### Key Contributions
+- Introduces Prefix Probing, a novel prefix-based method for efficient harmful content detection in LLMs.
+- Demonstrates that lightweight prefix tuning can rival full-model methods in detection accuracy with lower resource consumption.
+- Provides empirical validation across multiple benchmarks tailored for content safety assessment.
+
+### Method & Results
+- Implements prefix tuning by adding trainable prefix tokens to frozen LLMs, enabling harmful content detection without retraining entire models.
+- Evaluations conducted on several harmful content datasets (exact datasets not specified) to measure detection accuracy.
+- Achieves comparable detection performance to full fine-tuning baselines while reducing training and inference costs significantly.
+- Shows robustness across different LLM architectures with expedited deployment potential.
+
+### Impact & Limitations
+- Enables scalable, cost-effective harmful content detection for large-scale LLM deployments, enhancing safety mechanisms with minimal resource demands.
+- Limitations include potential dependency on prefix size and representativeness of training data; future work may explore adaptive prefix design and broader content categories.
+
+---
+
+#### A Systematic Study of Code Obfuscation Against LLM-based Vulnerability Detection
+**作者**: Xiao Li, Yue Li, Hao Wu, Yue Zhang, Yechao Zhang, Fengyuan Xu, Sheng Zhong
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16538v1
+
+#### Executive Summary
+This paper investigates how code obfuscation techniques affect the performance of large language models (LLMs) in detecting software vulnerabilities. Using systematic experiments, the authors assess LLM robustness when analyzing obfuscated code, revealing notable degradation in vulnerability detection accuracy. Their findings highlight significant challenges for deploying LLM-based vulnerability detection in real-world, adversarial scenarios.
+
+### Key Contributions
+- Provides the first comprehensive evaluation of LLM vulnerability detection under various code obfuscation strategies.  
+- Introduces a benchmark dataset with obfuscated code samples for systematic testing.  
+- Identifies specific obfuscation methods that drastically reduce LLM detection effectiveness.
+
+### Method & Results
+- Applies multiple code obfuscation techniques to benchmark vulnerability datasets, then evaluates LLM detection performance.  
+- Uses state-of-the-art LLMs trained on standard vulnerability datasets, augmented with newly created obfuscated code corpus.  
+- Results show up to a 30% drop in detection accuracy against heavily obfuscated code.  
+- Demonstrates that standard LLMs significantly underperform compared to non-obfuscated baseline scenarios.
+
+### Impact & Limitations
+- Emphasizes the necessity for robust model design to handle adversarially modified code in security-critical applications.  
+- Limitations include focusing on specific obfuscation types and LLM variants; future work should explore adaptive defenses and broader obfuscation techniques.
 
 ---
 
