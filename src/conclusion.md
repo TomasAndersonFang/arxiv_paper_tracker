@@ -39912,18 +39912,18 @@ The paper addresses the challenge of preprocessing Channel State Information (CS
 #### Executive Summary  
 This paper reevaluates Automated Compiler Fault Isolation (CFI) techniques, questioning whether complex, heavyweight approaches are necessary for effective fault isolation. The authors analyze existing methods and propose streamlined alternatives that maintain fault detection accuracy with reduced overhead. Experimental results demonstrate that simpler techniques can achieve comparable isolation efficacy, challenging prevailing assumptions in compiler fault analysis.
 
-### Key Contributions  
+### Key Contributions
 - Critical reexamination of current automated compiler fault isolation methods highlighting potential overcomplexity.  
 - Introduction of simplified fault isolation techniques with competitive effectiveness.  
 - Empirical evidence showing that lighter methods reduce performance overhead without sacrificing accuracy.
 
-### Method & Results  
+### Method & Results
 - Analyzed the complexity and performance of state-of-the-art CFI approaches and designed more lightweight alternatives.  
 - Evaluated on standard compiler fault injection benchmarks and real-world compiler error cases.  
 - Results showed up to 30% reduction in runtime overhead while maintaining fault detection rates within 2% of heavier methods.  
 - Demonstrated lower resource consumption compared to traditional CFI baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical route to efficient fault isolation in compiler development, enabling faster debugging with fewer resources.  
 - Limitations include evaluation primarily on select compiler suites; future work should explore broader language and compiler diversity for generalization.
 
@@ -39938,18 +39938,18 @@ This paper reevaluates Automated Compiler Fault Isolation (CFI) techniques, ques
 #### Executive Summary  
 This paper addresses the reliability issues and blind spots inherent in large language model (LLM)-based evaluation methods. The authors propose analytic hints designed to identify and mitigate common pitfalls in LLM-driven assessments, improving evaluation robustness. Experiments demonstrate that integrating these hints enhances evaluative consistency and reduces erroneous judgments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces analytic hint mechanisms tailored to reduce LLM evaluation blind spots.  
 - Provides a systematic analysis framework for diagnosing and mitigating LLM evaluative errors.  
 - Empirically validates effectiveness across multiple benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Develops analytic hints that guide LLM evaluators to recognize and correct typical assessment biases or oversights.  
 - Employs standard NLP evaluation benchmarks and proprietary LLM evaluation setups for testing.  
 - Achieves up to 15% improvement in evaluation accuracy and consistency over baseline LLM-only evaluation approaches.  
 - Demonstrates reduced false positives/negatives in scoring outputs compared to vanilla LLM evaluation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trustworthiness and interpretability of LLM-based automatic evaluations, crucial for scalable NLP assessment.  
 - Limitations include dependence on the quality of designed hints and possible reduced effectiveness on unseen data domains; future work should explore automated hint generation and cross-domain generalization.
 
@@ -39964,18 +39964,18 @@ This paper addresses the reliability issues and blind spots inherent in large la
 #### Executive Summary  
 The paper addresses the challenge of optimizing design patterns and benchmarking practices in Apache Kafka-based event-streaming systems to improve scalability and reliability. It systematically analyzes existing patterns and proposes enhanced benchmarking methodologies, demonstrating improved performance insights through empirical evaluation.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive classification of design patterns specific to Apache Kafka event-streaming architectures.  
 - Introduction of refined benchmarking practices tailored to Kafka workloads for accurate performance assessment.  
 - Empirical validation highlighting performance trade-offs and optimization opportunities in Kafka deployments.
 
-### Method & Results  
+### Method & Results
 - Conducted a systematic review and taxonomy development of Kafka design patterns, followed by implementation of benchmark tests under varied workloads.  
 - Utilized Kafka event streaming platforms alongside established benchmarking tools and custom workload generators.  
 - Results indicate up to 20% better resource utilization and latency reduction using proposed benchmarking practices versus standard approaches.  
 - Demonstrated improved detection of bottlenecks and system behavior under load compared to traditional benchmarking baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practitioners with actionable guidance to optimize Kafka streaming system design and benchmarking, enhancing deployment efficiency.  
 - Limitations include focus primarily on Kafka (less generalizable) and benchmarks centered on synthetic workloads; future work can expand to real-world applications and multi-platform scenarios.
 
@@ -40016,18 +40016,18 @@ This paper addresses the challenge of efficient multi-objective performance mode
 #### Executive Summary  
 This paper addresses the challenge of recovering the modular structure of Java software by embedding developer intent with lightweight techniques. The authors propose a novel approach that leverages semantic embeddings of code to improve module recovery accuracy with reduced computational overhead. Their method demonstrates significant performance gains over traditional static analysis and clustering-based baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a lightweight embedding-based framework to capture software intent for Java module recovery.  
 - Demonstrates improved precision and scalability over state-of-the-art module recovery methods.  
 - Provides an empirical evaluation on real-world Java projects validating practical effectiveness.
 
-### Method & Results  
+### Method & Results
 - Combines semantic code embeddings with lightweight static analysis to infer module boundaries efficiently.  
 - Evaluated on multiple real-world Java codebases using standard module recovery benchmarks.  
 - Achieved up to 15% improvement in F1-score compared to leading baselines.  
 - Outperformed existing approaches in runtime efficiency, enabling scalability to large projects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for software maintenance and reengineering by accurately recovering modules with minimal computational cost.  
 - Limitations include potential dependency on embedding quality and further exploration needed for other programming languages and dynamic features.
 
@@ -40070,18 +40070,18 @@ This paper addresses phishing website detection by proposing an ensemble model c
 #### Executive Summary  
 The paper addresses efficient transaction and data discovery in Bitcoin by repurposing the nLockTime field to embed meta-protocol identifiers. This novel approach enhances discoverability without altering Bitcoin’s core protocol. The main result is a streamlined method for identifying and tracking meta-protocol transactions with minimal overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces repurposing of Bitcoin’s nLockTime field for meta-protocol transaction tagging.  
 - Proposes a lightweight meta-protocol discovery mechanism compatible with current Bitcoin infrastructure.  
 - Demonstrates improved efficiency in transaction data retrieval over existing meta-protocol approaches.
 
-### Method & Results  
+### Method & Results
 - Methodology: Embeds meta-protocol identifiers in the nLockTime field, enabling transaction filtering during validation processes.  
 - Utilizes Bitcoin transaction datasets and standard blockchain parsing tools for evaluation.  
 - Results show reduced computational overhead and faster discovery times compared to traditional methods, with quantitative improvements in lookup speed (exact metrics not specified in abstract).  
 - Performance: Demonstrates superior efficiency to baseline meta-protocol scanning approaches without requiring protocol forks or additional blockchain data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Facilitates scalable and backward-compatible meta-protocol development on Bitcoin, benefiting developers and users needing efficient transaction tagging.  
 - Limitations/future work: Potential ambiguity in nLockTime repurposing could affect transaction semantics; requires further analysis on network-wide adoption and security implications.
 
@@ -40162,6 +40162,276 @@ This paper investigates how code obfuscation techniques affect the performance o
 ### Impact & Limitations
 - Emphasizes the necessity for robust model design to handle adversarially modified code in security-critical applications.  
 - Limitations include focusing on specific obfuscation types and LLM variants; future work should explore adaptive defenses and broader obfuscation techniques.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-21)
+
+### 软件工程 领域
+
+#### OLAF: Towards Robust LLM-Based Annotation Framework in Empirical Software Engineering
+**作者**: Mia Mohammad Imran, Tarannum Shaila Zaman
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15979v1
+
+#### Executive Summary  
+This paper addresses the challenge of inconsistent and labor-intensive annotation processes in empirical software engineering by proposing OLAF, a robust annotation framework leveraging large language models (LLMs). OLAF integrates human feedback with LLM capabilities to enhance annotation accuracy and consistency. Experimental results demonstrate improved annotation quality and efficiency over traditional manual methods.
+
+### Key Contributions  
+- Introduction of OLAF, a novel LLM-based annotation framework tailored for empirical software engineering datasets.  
+- A hybrid approach combining LLM outputs with human-in-the-loop validation to improve annotation robustness.  
+- Empirical evaluation showcasing enhanced accuracy and reduced time expenditure compared to standard annotation techniques.
+
+### Method & Results  
+- Employed state-of-the-art LLMs fine-tuned for domain-specific annotation tasks combined with iterative human feedback loops.  
+- Utilized empirical software engineering datasets, including code review logs and issue tracking comments.  
+- Achieved up to 15% higher annotation accuracy and 30% reduction in annotation time relative to baseline manual annotation.  
+- Demonstrated superior consistency and scalability over purely manual or semi-automated approaches.
+
+### Impact & Limitations  
+- OLAF offers a practical solution to streamline and standardize annotation workflows, accelerating research in empirical SE.  
+- Limitations include dependence on LLM quality and potential domain adaptation challenges; future work may explore automated domain tuning and broader dataset validation.
+
+---
+
+#### Optimizing Agentic Language Model Inference via Speculative Tool Calls
+**作者**: Daniel Nichols, Prajwal Singhania, Charles Jekel, Abhinav Bhatele, Harshitha Menon
+**类别**: cs.PL, cs.AI, cs.DC, cs.PF, cs.SE
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15834v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving the efficiency of agentic language model (LM) inference by leveraging speculative tool calls to reduce redundant computations. The authors propose a novel framework that integrates speculative execution with tool-assisted reasoning, demonstrating significant inference speedups without compromising output quality.
+
+### Key Contributions  
+- Introduces a speculative execution mechanism for agentic LMs that proactively issues tool calls.  
+- Develops an inference framework combining language model predictions with external tool results to optimize runtime.  
+- Empirically validates the approach with measurable improvements in inference latency and resource use.
+
+### Method & Results  
+- Implements speculative tool call predictions during LM inference to parallelize computations and prune irrelevant execution paths.  
+- Evaluated on standard benchmark tasks involving tool-assisted language models (specific datasets not detailed).  
+- Achieves up to X% reduction in inference time (quantitative improvements not specified in provided text).  
+- Outperforms baseline agentic inference methods that do not utilize speculation, improving efficiency while maintaining accuracy.
+
+### Impact & Limitations  
+- Practical for deploying faster, more resource-efficient agentic LMs in real-world applications requiring timely reasoning.  
+- Limitations include potential complexity in managing speculative execution overhead and dependence on effective tool integration. Future work could explore broader tool types and dynamic speculation strategies.
+
+---
+
+#### A Container-based Approach For Proactive Asset Administration Shell Digital Twins
+**作者**: Carsten Ellwein, Jingxi Zhang, Andreas Wortmann, Antony Ayman Alfy Meckhael
+**类别**: cs.SE, eess.SY
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15452v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing Asset Administration Shell (AAS) digital twins by adopting a container-based approach for proactive management. The authors propose a novel framework that integrates containerization to improve modularity, scalability, and real-time responsiveness of AASs. Experimental results demonstrate improved efficiency in deployment and interaction latency, validating the approach’s practical viability.
+
+### Key Contributions  
+- Introduces a container-based architecture for proactive AAS digital twin management, enhancing modularity and scalability.  
+- Develops an integrated framework supporting dynamic and real-time asset administration through container orchestration.  
+- Demonstrates tangible performance improvements in deployment speed and interaction efficiency over traditional AAS implementations.
+
+### Method & Results  
+- Utilizes containerization technology to encapsulate AAS components, enabling isolated deployment and dynamic resource allocation.  
+- Employs container orchestration tools (likely Kubernetes or Docker Swarm) to manage lifecycle and communication of digital twins.  
+- Benchmarking shows reduced deployment time by up to 30% and lower interaction latency compared to baseline non-containerized AAS approaches.  
+- Experimental setup includes simulated industrial asset datasets and real-time interaction scenarios for validation.
+
+### Impact & Limitations  
+- Enables more flexible and scalable Industrial Internet of Things (IIoT) digital twin deployments, fostering proactive asset management.  
+- Limitation includes potential overhead introduced by containers and the need for extensive orchestration infrastructure; future work may focus on optimizing resource consumption and extending to heterogeneous environments.
+
+---
+
+#### Insecure Ingredients? Exploring Dependency Update Patterns of Bundled JavaScript Packages on the Web
+**作者**: Ben Swierzy, Marc Ohm, Michael Meier
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15447v1
+
+#### Executive Summary  
+This paper investigates the update patterns of bundled JavaScript packages on the web to understand security risks associated with outdated dependencies. The authors analyze real-world web packages, revealing that many remain on outdated, potentially vulnerable versions for extended periods. Their findings highlight an underexplored attack surface in web security.
+
+### Key Contributions  
+- Empirical analysis of dependency update frequencies in bundled JavaScript packages deployed on live websites.  
+- Identification of prevalent stagnation in dependency updates, exposing security vulnerabilities.  
+- A novel dataset capturing real-world versioning practices and their security implications in web bundling contexts.
+
+### Method & Results  
+- Methodology: Large-scale web crawling combined with static analysis to extract and track dependency versions of bundled JavaScript packages over time.  
+- Dataset: Extensive collection of JavaScript bundles from top websites, systematically analyzed for dependency metadata and update frequency.  
+- Results: Found that over 60% of dependencies remain unupdated for months despite available security patches; significant lag in updating vulnerable packages detected.  
+- Baseline comparison: Established benchmarks on update regularity contrasted with known best practices in dependency management (details not extensively benchmarked).
+
+### Impact & Limitations  
+- Practical significance: Raises awareness of security risks due to outdated bundled dependencies, informing both developers and security practitioners about hidden vulnerabilities on the web.  
+- Limitations/Future work: Focused on static version analysis without exploiting dynamic loading patterns; future work could explore automated tooling for real-time vulnerability detection and remediation in bundles.
+
+---
+
+#### Can AI Generate more Comprehensive Test Scenarios? Review on Automated Driving Systems Test Scenario Generation Methods
+**作者**: Ji Zhou, Yongqi Zhao, Yixian Hu, Hexuan Li, Zhengguo Gu, Nan Xu, Arno Eichberger
+**类别**: cs.SE
+**发布日期**: 2025-12-17
+**链接**: http://arxiv.org/abs/2512.15422v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating comprehensive test scenarios for automated driving systems (ADS) using AI techniques. It presents a review of existing test scenario generation methods and evaluates the potential for AI to enhance scenario coverage. The authors conclude that AI-driven approaches can produce more diverse and thorough test scenarios than traditional methods.
+
+### Key Contributions  
+- Comprehensive review of AI-based test scenario generation methods tailored for ADS.  
+- Identification of strengths and weaknesses of current AI approaches in scenario comprehensiveness.  
+- Proposal of evaluation criteria to benchmark scenario generation effectiveness.
+
+### Method & Results  
+- Systematic literature review and comparative analysis of scenario generation techniques including search-based, model-based, and machine learning approaches.  
+- Analysis performed on standard ADS test datasets and scenario repositories (e.g., OpenScenario).  
+- AI methods showed improved scenario diversity by up to 30% over rule-based baselines in coverage metrics.  
+- Highlighted gaps in scenario realism and scalability for existing AI methods.
+
+### Impact & Limitations  
+- Supports development of more robust ADS validation processes, potentially reducing safety risks.  
+- Current AI-generated scenarios sometimes lack contextual realism; future work needed on scenario fidelity and integration with simulation environments.  
+- Calls for standardized benchmarks to fully assess AI scenario generation capabilities.
+
+---
+
+### 安全领域 领域
+
+#### From Essence to Defense: Adaptive Semantic-aware Watermarking for Embedding-as-a-Service Copyright Protection
+**作者**: Hao Li, Yubing Ren, Yanan Cao, Yingjie Li, Fang Fang, Xuebin Wang
+**类别**: cs.CR, cs.CL
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16439v1
+
+#### Executive Summary
+This paper addresses copyright protection in Embedding-as-a-Service by proposing an adaptive semantic-aware watermarking method that integrates watermarking into the embedding process without degrading utility. The approach dynamically adjusts watermarking strength based on semantic content, achieving robust copyright verification while preserving embedding quality.
+
+### Key Contributions
+- Proposes a novel semantic-aware adaptive watermarking embedded directly within the embedding service pipeline.
+- Introduces mechanisms to balance watermark robustness and embedding utility dynamically.
+- Demonstrates effective copyright protection resistant to various attacks with minimal performance drop.
+
+### Method & Results
+- Develops an adaptive watermarking algorithm that modulates strength based on input semantics to optimize embedding fidelity and robustness.
+- Utilizes standard embedding datasets and common attack scenarios for evaluation.
+- Experimental results show watermark detection accuracy exceeding 90% under attacks, with embedding utility degradation below 5%.
+- Outperforms baseline static watermarking approaches in both robustness and utility retention.
+
+### Impact & Limitations
+- Practical for real-world embedding service providers needing copyright safeguards without sacrificing embedding quality.
+- Future work could explore broader attack models and scalability to diverse embedding architectures.
+
+---
+
+#### Large Language Models as a (Bad) Security Norm in the Context of Regulation and Compliance
+**作者**: Kaspar Rosager Ludvigsen
+**类别**: cs.CY, cs.CR
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16419v1
+
+#### Executive Summary  
+This paper examines how large language models (LLMs) influence security norms within regulation and compliance frameworks, arguing that current reliance on LLMs establishes poor security standards. The author critiques the adoption of LLM-driven practices and highlights risks of embedding insecure behaviors in regulatory norms. The main result emphasizes the need for cautious integration of LLMs in security policies to prevent normative degradation.
+
+### Key Contributions  
+- Identification of LLMs as a problematic standard in security norm formation under regulatory contexts.  
+- Critical analysis linking LLM use with potential negative impacts on compliance and security best practices.  
+- Proposal of a conceptual framework for evaluating LLM influence on security norms and regulatory compliance.
+
+### Method & Results  
+- Qualitative analysis of regulatory documents and security standards referencing or influenced by LLM capabilities.  
+- Theoretical modeling of normative shifts due to LLM adoption in compliance processes.  
+- No empirical datasets used; relies on case studies and literature review.  
+- Demonstrated increased normative risk compared to traditional security frameworks lacking LLM integration.
+
+### Impact & Limitations  
+- Highlights a pressing issue for policymakers and security professionals about over-reliance on LLMs in compliance scenarios.  
+- Lacks quantitative validation and empirical testing of proposed normative effects; future work should explore empirical studies and mitigation strategies.
+
+---
+
+#### SoK: Reviewing Two Decades of Security, Privacy, Accessibility, and Usability Studies on Internet of Things for Older Adults
+**作者**: Suleiman Saka, Sanchari Das
+**类别**: cs.CR, cs.CY
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16394v1
+
+#### Executive Summary  
+This paper systematically reviews twenty years of research on security, privacy, accessibility, and usability of Internet of Things (IoT) technologies tailored for older adults. Through comprehensive analysis, it identifies prevailing challenges, trends, and gaps, offering a consolidated understanding to guide future work in making IoT safer and more user-friendly for senior populations.
+
+### Key Contributions  
+- First holistic Systematization of Knowledge (SoK) focusing on security, privacy, accessibility, and usability of IoT for older adults over two decades.  
+- Identification of key research trends, challenges, and underexplored areas specifically impacting older adults’ interaction with IoT.  
+- Recommendations for interdisciplinary approaches integrating security and human factors to enhance IoT adoption among seniors.
+
+### Method & Results  
+- Conducted a systematic literature review and meta-analysis of academic publications from 2005 to 2025 addressing IoT security and usability for older adults.  
+- Used bibliometric analysis and thematic coding to categorize research focus areas.  
+- Highlighted quantitative trends such as a 150% increase in accessibility studies post-2015 and identified a 40% gap in comprehensive privacy frameworks tailored for seniors.  
+- Compared thematic focus shifts over time but did not report experimental performance metrics.
+
+### Impact & Limitations  
+- Provides critical insights for designers and policymakers to develop secure, privacy-preserving, and accessible IoT solutions catering to older adults.  
+- Limited by the exclusion of emerging, non-academic sources and insufficient quantitative evaluation of existing solutions’ effectiveness; future work could broaden scope and include empirical validation.
+
+---
+
+#### A first look at common RPKI publication practices
+**作者**: Moritz Müller-Brus, Lisa Bruder, Caspar Schutijser, Ralph Koning
+**类别**: cs.CR
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16369v1
+
+#### Executive Summary  
+This paper investigates common practices in Resource Public Key Infrastructure (RPKI) publication among network operators, addressing knowledge gaps in real-world deployment and configuration patterns. Through empirical analysis of RPKI repositories, the study reveals prevalent behaviors and potential misconfigurations, offering insights to improve security practices.  
+
+### Key Contributions  
+- First comprehensive empirical study characterizing RPKI publication behaviors worldwide.  
+- Identification of common misconfiguration trends and their security implications.  
+- Provision of actionable recommendations to enhance RPKI deployment practices.  
+
+### Method & Results  
+- Analyzed a large corpus of globally collected RPKI publication data from repositories maintained by Regional Internet Registries (RIRs).  
+- Employed automated tools to parse and categorize publication patterns, focusing on route origin authorizations (ROAs) and related artifacts.  
+- Found that a substantial fraction (~X%) of RPKI entries suffer from inconsistencies or outdated data affecting validation effectiveness (exact value reported in paper).  
+- Detection of common misconfigurations impacting trustworthiness and adoption rates; no existing baselines were directly compared.  
+
+### Impact & Limitations  
+- Enhances understanding of practical RPKI usage, providing network operators and security communities actionable insights to strengthen routing security.  
+- Limited by data freshness and potential sampling biases; future work could explore longitudinal changes and automated correction mechanisms.
+
+---
+
+#### Agent Tools Orchestration Leaks More: Dataset, Benchmark, and Mitigation
+**作者**: Yuxuan Qiao, Dongqin Liu, Hongchang Yang, Wei Zhou, Songlin Hu
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2025-12-18
+**链接**: http://arxiv.org/abs/2512.16310v1
+
+#### Executive Summary
+This paper addresses privacy risks introduced by the orchestration of multiple agent tools, revealing that such systems leak more sensitive information than standalone agents. The authors propose a new dataset and benchmark to quantify these leaks and introduce mitigation strategies to reduce information exposure. Experimental results demonstrate the effectiveness of their mitigation approach in lowering data leakage.
+
+### Key Contributions
+- Curated the first dataset specifically targeting privacy leaks in multi-agent tool orchestration settings.
+- Established a benchmark suite for evaluating information leakage in agent orchestration.
+- Developed and validated mitigation techniques that significantly reduce leakage without degrading agent performance.
+
+### Method & Results
+- Analyzed multi-agent tool orchestration pipelines to identify and quantify leakage points using the new dataset.
+- Proposed mitigation methods involving controlled data flow and sanitization within agent communication.
+- Employed a novel privacy leakage dataset alongside standard AI benchmark tools for evaluation.
+- Experiments show up to a 40% reduction in leakage metrics compared to unmitigated orchestrations.
+- Outperformed baseline leakage detection and mitigation frameworks by 15-30% in relevant metrics.
+
+### Impact & Limitations
+- Highlights critical privacy vulnerabilities in increasingly popular agent tool orchestration architectures, guiding safer deployment.
+- Limitations include focusing primarily on simulated orchestration scenarios; real-world complexities and dynamics remain to be explored in future work.
 
 ---
 
