@@ -40180,18 +40180,18 @@ This paper investigates how code obfuscation techniques affect the performance o
 #### Executive Summary  
 This paper addresses the challenge of inconsistent and labor-intensive annotation processes in empirical software engineering by proposing OLAF, a robust annotation framework leveraging large language models (LLMs). OLAF integrates human feedback with LLM capabilities to enhance annotation accuracy and consistency. Experimental results demonstrate improved annotation quality and efficiency over traditional manual methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of OLAF, a novel LLM-based annotation framework tailored for empirical software engineering datasets.  
 - A hybrid approach combining LLM outputs with human-in-the-loop validation to improve annotation robustness.  
 - Empirical evaluation showcasing enhanced accuracy and reduced time expenditure compared to standard annotation techniques.
 
-### Method & Results  
+### Method & Results
 - Employed state-of-the-art LLMs fine-tuned for domain-specific annotation tasks combined with iterative human feedback loops.  
 - Utilized empirical software engineering datasets, including code review logs and issue tracking comments.  
 - Achieved up to 15% higher annotation accuracy and 30% reduction in annotation time relative to baseline manual annotation.  
 - Demonstrated superior consistency and scalability over purely manual or semi-automated approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - OLAF offers a practical solution to streamline and standardize annotation workflows, accelerating research in empirical SE.  
 - Limitations include dependence on LLM quality and potential domain adaptation challenges; future work may explore automated domain tuning and broader dataset validation.
 
@@ -40206,18 +40206,18 @@ This paper addresses the challenge of inconsistent and labor-intensive annotatio
 #### Executive Summary  
 This paper addresses the challenge of improving the efficiency of agentic language model (LM) inference by leveraging speculative tool calls to reduce redundant computations. The authors propose a novel framework that integrates speculative execution with tool-assisted reasoning, demonstrating significant inference speedups without compromising output quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a speculative execution mechanism for agentic LMs that proactively issues tool calls.  
 - Develops an inference framework combining language model predictions with external tool results to optimize runtime.  
 - Empirically validates the approach with measurable improvements in inference latency and resource use.
 
-### Method & Results  
+### Method & Results
 - Implements speculative tool call predictions during LM inference to parallelize computations and prune irrelevant execution paths.  
 - Evaluated on standard benchmark tasks involving tool-assisted language models (specific datasets not detailed).  
 - Achieves up to X% reduction in inference time (quantitative improvements not specified in provided text).  
 - Outperforms baseline agentic inference methods that do not utilize speculation, improving efficiency while maintaining accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for deploying faster, more resource-efficient agentic LMs in real-world applications requiring timely reasoning.  
 - Limitations include potential complexity in managing speculative execution overhead and dependence on effective tool integration. Future work could explore broader tool types and dynamic speculation strategies.
 
@@ -40232,18 +40232,18 @@ This paper addresses the challenge of improving the efficiency of agentic langua
 #### Executive Summary  
 This paper addresses the challenge of enhancing Asset Administration Shell (AAS) digital twins by adopting a container-based approach for proactive management. The authors propose a novel framework that integrates containerization to improve modularity, scalability, and real-time responsiveness of AASs. Experimental results demonstrate improved efficiency in deployment and interaction latency, validating the approach’s practical viability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a container-based architecture for proactive AAS digital twin management, enhancing modularity and scalability.  
 - Develops an integrated framework supporting dynamic and real-time asset administration through container orchestration.  
 - Demonstrates tangible performance improvements in deployment speed and interaction efficiency over traditional AAS implementations.
 
-### Method & Results  
+### Method & Results
 - Utilizes containerization technology to encapsulate AAS components, enabling isolated deployment and dynamic resource allocation.  
 - Employs container orchestration tools (likely Kubernetes or Docker Swarm) to manage lifecycle and communication of digital twins.  
 - Benchmarking shows reduced deployment time by up to 30% and lower interaction latency compared to baseline non-containerized AAS approaches.  
 - Experimental setup includes simulated industrial asset datasets and real-time interaction scenarios for validation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more flexible and scalable Industrial Internet of Things (IIoT) digital twin deployments, fostering proactive asset management.  
 - Limitation includes potential overhead introduced by containers and the need for extensive orchestration infrastructure; future work may focus on optimizing resource consumption and extending to heterogeneous environments.
 
@@ -40258,18 +40258,18 @@ This paper addresses the challenge of enhancing Asset Administration Shell (AAS)
 #### Executive Summary  
 This paper investigates the update patterns of bundled JavaScript packages on the web to understand security risks associated with outdated dependencies. The authors analyze real-world web packages, revealing that many remain on outdated, potentially vulnerable versions for extended periods. Their findings highlight an underexplored attack surface in web security.
 
-### Key Contributions  
+### Key Contributions
 - Empirical analysis of dependency update frequencies in bundled JavaScript packages deployed on live websites.  
 - Identification of prevalent stagnation in dependency updates, exposing security vulnerabilities.  
 - A novel dataset capturing real-world versioning practices and their security implications in web bundling contexts.
 
-### Method & Results  
+### Method & Results
 - Methodology: Large-scale web crawling combined with static analysis to extract and track dependency versions of bundled JavaScript packages over time.  
 - Dataset: Extensive collection of JavaScript bundles from top websites, systematically analyzed for dependency metadata and update frequency.  
 - Results: Found that over 60% of dependencies remain unupdated for months despite available security patches; significant lag in updating vulnerable packages detected.  
 - Baseline comparison: Established benchmarks on update regularity contrasted with known best practices in dependency management (details not extensively benchmarked).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Raises awareness of security risks due to outdated bundled dependencies, informing both developers and security practitioners about hidden vulnerabilities on the web.  
 - Limitations/Future work: Focused on static version analysis without exploiting dynamic loading patterns; future work could explore automated tooling for real-time vulnerability detection and remediation in bundles.
 
@@ -40284,18 +40284,18 @@ This paper investigates the update patterns of bundled JavaScript packages on th
 #### Executive Summary  
 This paper addresses the challenge of generating comprehensive test scenarios for automated driving systems (ADS) using AI techniques. It presents a review of existing test scenario generation methods and evaluates the potential for AI to enhance scenario coverage. The authors conclude that AI-driven approaches can produce more diverse and thorough test scenarios than traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive review of AI-based test scenario generation methods tailored for ADS.  
 - Identification of strengths and weaknesses of current AI approaches in scenario comprehensiveness.  
 - Proposal of evaluation criteria to benchmark scenario generation effectiveness.
 
-### Method & Results  
+### Method & Results
 - Systematic literature review and comparative analysis of scenario generation techniques including search-based, model-based, and machine learning approaches.  
 - Analysis performed on standard ADS test datasets and scenario repositories (e.g., OpenScenario).  
 - AI methods showed improved scenario diversity by up to 30% over rule-based baselines in coverage metrics.  
 - Highlighted gaps in scenario realism and scalability for existing AI methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Supports development of more robust ADS validation processes, potentially reducing safety risks.  
 - Current AI-generated scenarios sometimes lack contextual realism; future work needed on scenario fidelity and integration with simulation environments.  
 - Calls for standardized benchmarks to fully assess AI scenario generation capabilities.
@@ -40339,18 +40339,18 @@ This paper addresses copyright protection in Embedding-as-a-Service by proposing
 #### Executive Summary  
 This paper examines how large language models (LLMs) influence security norms within regulation and compliance frameworks, arguing that current reliance on LLMs establishes poor security standards. The author critiques the adoption of LLM-driven practices and highlights risks of embedding insecure behaviors in regulatory norms. The main result emphasizes the need for cautious integration of LLMs in security policies to prevent normative degradation.
 
-### Key Contributions  
+### Key Contributions
 - Identification of LLMs as a problematic standard in security norm formation under regulatory contexts.  
 - Critical analysis linking LLM use with potential negative impacts on compliance and security best practices.  
 - Proposal of a conceptual framework for evaluating LLM influence on security norms and regulatory compliance.
 
-### Method & Results  
+### Method & Results
 - Qualitative analysis of regulatory documents and security standards referencing or influenced by LLM capabilities.  
 - Theoretical modeling of normative shifts due to LLM adoption in compliance processes.  
 - No empirical datasets used; relies on case studies and literature review.  
 - Demonstrated increased normative risk compared to traditional security frameworks lacking LLM integration.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a pressing issue for policymakers and security professionals about over-reliance on LLMs in compliance scenarios.  
 - Lacks quantitative validation and empirical testing of proposed normative effects; future work should explore empirical studies and mitigation strategies.
 
@@ -40365,18 +40365,18 @@ This paper examines how large language models (LLMs) influence security norms wi
 #### Executive Summary  
 This paper systematically reviews twenty years of research on security, privacy, accessibility, and usability of Internet of Things (IoT) technologies tailored for older adults. Through comprehensive analysis, it identifies prevailing challenges, trends, and gaps, offering a consolidated understanding to guide future work in making IoT safer and more user-friendly for senior populations.
 
-### Key Contributions  
+### Key Contributions
 - First holistic Systematization of Knowledge (SoK) focusing on security, privacy, accessibility, and usability of IoT for older adults over two decades.  
 - Identification of key research trends, challenges, and underexplored areas specifically impacting older adults’ interaction with IoT.  
 - Recommendations for interdisciplinary approaches integrating security and human factors to enhance IoT adoption among seniors.
 
-### Method & Results  
+### Method & Results
 - Conducted a systematic literature review and meta-analysis of academic publications from 2005 to 2025 addressing IoT security and usability for older adults.  
 - Used bibliometric analysis and thematic coding to categorize research focus areas.  
 - Highlighted quantitative trends such as a 150% increase in accessibility studies post-2015 and identified a 40% gap in comprehensive privacy frameworks tailored for seniors.  
 - Compared thematic focus shifts over time but did not report experimental performance metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides critical insights for designers and policymakers to develop secure, privacy-preserving, and accessible IoT solutions catering to older adults.  
 - Limited by the exclusion of emerging, non-academic sources and insufficient quantitative evaluation of existing solutions’ effectiveness; future work could broaden scope and include empirical validation.
 
@@ -40391,18 +40391,18 @@ This paper systematically reviews twenty years of research on security, privacy,
 #### Executive Summary  
 This paper investigates common practices in Resource Public Key Infrastructure (RPKI) publication among network operators, addressing knowledge gaps in real-world deployment and configuration patterns. Through empirical analysis of RPKI repositories, the study reveals prevalent behaviors and potential misconfigurations, offering insights to improve security practices.  
 
-### Key Contributions  
+### Key Contributions
 - First comprehensive empirical study characterizing RPKI publication behaviors worldwide.  
 - Identification of common misconfiguration trends and their security implications.  
 - Provision of actionable recommendations to enhance RPKI deployment practices.  
 
-### Method & Results  
+### Method & Results
 - Analyzed a large corpus of globally collected RPKI publication data from repositories maintained by Regional Internet Registries (RIRs).  
 - Employed automated tools to parse and categorize publication patterns, focusing on route origin authorizations (ROAs) and related artifacts.  
 - Found that a substantial fraction (~X%) of RPKI entries suffer from inconsistencies or outdated data affecting validation effectiveness (exact value reported in paper).  
 - Detection of common misconfigurations impacting trustworthiness and adoption rates; no existing baselines were directly compared.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of practical RPKI usage, providing network operators and security communities actionable insights to strengthen routing security.  
 - Limited by data freshness and potential sampling biases; future work could explore longitudinal changes and automated correction mechanisms.
 
@@ -40432,6 +40432,279 @@ This paper addresses privacy risks introduced by the orchestration of multiple a
 ### Impact & Limitations
 - Highlights critical privacy vulnerabilities in increasingly popular agent tool orchestration architectures, guiding safer deployment.
 - Limitations include focusing primarily on simulated orchestration scenarios; real-world complexities and dynamics remain to be explored in future work.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-22)
+
+### 软件工程 领域
+
+#### LLM-based Behaviour Driven Development for Hardware Design
+**作者**: Rolf Drechsler, Qian Liu
+**类别**: cs.SE, cs.AI, cs.AR
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17814v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating Behavior Driven Development (BDD) principles into hardware design workflows using Large Language Models (LLMs). The authors propose an LLM-based framework that interprets natural language specifications into hardware design artifacts, improving specification clarity and development efficiency. Results demonstrate enhanced alignment between behavioral requirements and hardware implementation, reducing design iteration cycles.
+
+### Key Contributions
+- Introduces a novel LLM-driven BDD framework tailored for hardware design processes.
+- Demonstrates effective translation of natural language behaviors into hardware description languages.
+- Bridges the gap between software BDD practices and hardware verification methodologies.
+
+### Method & Results
+- Utilizes state-of-the-art LLMs fine-tuned on hardware specification corpora to parse and generate hardware code from behavior descriptions.
+- Employs benchmarks from hardware verification suites and design specifications for evaluation.
+- Achieves up to 30% reduction in specification-to-design turnaround time and a 25% decrease in misinterpretation errors compared to traditional approaches.
+- Outperforms baseline rule-based parsers in accuracy and adaptability.
+
+### Impact & Limitations
+- Offers significant improvements in early-stage hardware design validation, promoting closer collaboration between designers and stakeholders.
+- Current limitations include dependency on LLM training quality and challenges in handling highly complex or novel hardware behaviors.
+- Future work may focus on expanding model robustness and integrating formal verification steps for end-to-end automated hardware development.
+
+---
+
+#### A Practical Solution to Systematically Monitor Inconsistencies in SBOM-based Vulnerability Scanners
+**作者**: Martin Rosso, Muhammad Asad Jahangir Jaffar, Alessandro Brighente, Mauro Conti
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17710v1
+
+#### Executive Summary  
+This paper addresses inconsistencies in Software Bill of Materials (SBOM)-based vulnerability scanners that undermine reliable security assessments. The authors propose a practical, systematic monitoring solution to detect and analyze these discrepancies across scanners. Their approach successfully identifies and quantifies inconsistencies, enabling improved trustworthiness in vulnerability detection.
+
+### Key Contributions  
+- Introduces a novel framework for systematic detection of inconsistencies among SBOM-based vulnerability scanners.  
+- Provides empirical analysis quantifying inconsistency sources and impacts on vulnerability reporting.  
+- Demonstrates practical applicability through a monitoring system that assists in scanner reliability improvement.
+
+### Method & Results  
+- Developed a monitoring methodology that aggregates and cross-checks SBOM scanner outputs against standardized benchmarks.  
+- Employed real-world SBOM datasets and multiple popular vulnerability scanners for evaluation.  
+- Found up to X% inconsistency rate in vulnerability reports across tested tools (exact figure given in paper).  
+- Showed their solution improves detection accuracy by Y% compared to unmonitored scanning workflows.
+
+### Impact & Limitations  
+- Enhances security operations by increasing confidence in SBOM-based vulnerability assessments, aiding proactive risk management.  
+- Future work: extend coverage to emerging SBOM formats and integrate automated remediation feedback loops.
+
+---
+
+#### SGCR: A Specification-Grounded Framework for Trustworthy LLM Code Review
+**作者**: Kai Wang, Bingcheng Mao, Shuai Jia, Yujie Ding, Dongming Han, Tianyi Ma, Bin Cao
+**类别**: cs.SE
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17540v1
+
+#### Executive Summary  
+This paper addresses the challenge of trustworthy code review using Large Language Models (LLMs) by grounding the review process explicitly in software specifications. The authors propose SGCR, a framework that aligns LLM-generated feedback with formal specifications to improve accuracy and reliability. Experimental results demonstrate enhanced review quality and trustworthiness compared to baseline methods.
+
+### Key Contributions  
+- Introduces SGCR, a specification-grounded framework integrating formal specs with LLM-based code review.  
+- Demonstrates improved trustworthiness and relevance of LLM feedback through specification alignment.  
+- Provides an evaluation protocol combining quantitative and qualitative metrics tailored for specification-driven review.
+
+### Method & Results  
+- Method: Combines formal software specifications with LLM analysis for generating and validating code review comments.  
+- Tools/Datasets: Utilizes benchmark code review datasets enhanced with formal specifications and developer-annotated reviews.  
+- Results: Achieves a significant increase in review accuracy (e.g., +15% specification compliance) and reduces false positives compared to standard LLM reviewers.  
+- Outperforms baseline LLM code review approaches in both precision and recall metrics.
+
+### Impact & Limitations  
+- Impact: Enables more trustworthy and practically useful LLM-augmented code reviews, reducing manual inspection effort and improving software quality assurance.  
+- Limitations/Future Work: Relies on availability and quality of formal specifications; future research could extend to less formally specified codebases and explore automated spec extraction.
+
+---
+
+#### PathBench-MIL: A Comprehensive AutoML and Benchmarking Framework for Multiple Instance Learning in Histopathology
+**作者**: Siemen Brussee, Pieter A. Valkema, Jurre A. J. Weijer, Thom Doeleman, Anne M. R. Schrader, Jesper Kers
+**类别**: cs.CV, cs.LG, cs.NE, cs.SE, q-bio.TO
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17517v1
+
+#### Executive Summary  
+This paper addresses the lack of standardized frameworks for Multiple Instance Learning (MIL) in histopathology by introducing PathBench-MIL, an AutoML and benchmarking platform tailored to this domain. The framework automates model selection and hyperparameter tuning, demonstrating improved performance and reproducibility on diverse histopathology datasets.
+
+### Key Contributions  
+- Development of PathBench-MIL, a comprehensive AutoML framework specialized for MIL in histopathology.  
+- Introduction of standardized benchmarking protocols and evaluation metrics for histopathological MIL tasks.  
+- Empirical validation showing enhanced model performance and robustness across multiple real-world datasets.
+
+### Method & Results  
+- Utilized automated machine learning techniques for dynamic model architecture and hyperparameter optimization within MIL frameworks.  
+- Benchmarked on several public and proprietary histopathology datasets, including whole-slide images annotated for various diagnostic tasks.  
+- Reported improvements in classification accuracy and F1 scores, with examples showing up to 5-10% gain over baseline MIL models.  
+- Demonstrated greater reproducibility and ease of deployment compared to manual MIL workflows.
+
+### Impact & Limitations  
+- Provides a practical tool that accelerates and standardizes MIL research in computational pathology, potentially improving diagnostic accuracy.  
+- Limitations include dependency on dataset quality and computational resources for AutoML; future work could extend support for multi-modal data and real-time clinical integration.
+
+---
+
+#### Why Is My Transaction Risky? Understanding Smart Contract Semantics and Interactions in the NFT Ecosystem
+**作者**: Yujing Chen, Xuanming Liu, Zhiyuan Wan, Zuobin Wang, David Lo, Difan Xie, Xiaohu Yang
+**类别**: cs.SE
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17500v1
+
+#### Executive Summary  
+This paper investigates transaction risks in the NFT ecosystem by analyzing smart contract semantics and their interactions. The authors propose a novel framework to identify and explain risky transactions, improving users’ understanding and security. Experiments demonstrate the approach's effectiveness in detecting risky behaviors with high accuracy.
+
+### Key Contributions  
+- Introduces a semantic analysis framework for interpreting smart contract behaviors specifically within NFT transactions.  
+- Develops a transaction risk assessment model that explains why specific NFT transactions are risky.  
+- Provides empirical insights on NFT transaction risks through large-scale analysis, filling a gap in NFT ecosystem security research.
+
+### Method & Results  
+- Utilizes static and dynamic analysis techniques to extract semantic features from smart contracts and transaction logs.  
+- Leverages a large dataset of NFT transactions from prominent blockchain platforms (e.g., Ethereum).  
+- Achieves over 85% accuracy in identifying risky NFT transactions, outperforming existing risk detection baselines by 10-15%.  
+- Demonstrates interpretable risk explanations that correlate strongly with real-world loss incidents.
+
+### Impact & Limitations  
+- Enhances user trust and platform security by enabling transparent understanding of NFT transaction risks.  
+- Limited to currently observed NFT contract patterns; future work could extend to evolving smart contract standards and broader blockchain ecosystems.  
+- Future directions include integrating real-time risk alerts and refining semantic models to capture emergent vulnerabilities.
+
+---
+
+### 安全领域 领域
+
+#### Adversarial Robustness of Vision in Open Foundation Models
+**作者**: Jonathon Fox, William J Buchanan, Pavlos Papadopoulos
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17902v1
+
+#### Executive Summary
+This paper investigates the adversarial robustness of open foundation vision models, addressing vulnerabilities to adversarial attacks that threaten reliability in safety-critical applications. The authors propose a novel evaluation framework assessing robustness across diverse attack types and demonstrate that current large-scale models exhibit notable susceptibility, despite their generalization strengths.
+
+### Key Contributions
+- Introduces a comprehensive adversarial robustness evaluation framework tailored for open foundation vision models.
+- Provides systematic analysis revealing specific robustness weaknesses across different architectures and training regimes.
+- Benchmarks multiple state-of-the-art foundation models under diverse adversarial scenarios, highlighting gaps in defense.
+
+### Method & Results
+- Employed adversarial attack algorithms (e.g., PGD, FGSM) on popular open foundation models to test robustness.
+- Utilized large-scale vision datasets such as ImageNet and COCO for evaluation.
+- Found accuracy drops up to 40% under strong attacks, with some models failing entirely on certain perturbations.
+- Demonstrated that none of the evaluated models consistently outperformed robust baselines, underscoring the need for improved defenses.
+
+### Impact & Limitations
+- Highlights urgent need for enhanced adversarial defenses in foundation models to ensure deployment safety in real-world vision applications.
+- Limitations include focus on standard attack types only; future work should explore robustness against adaptive and physical-world attacks.
+
+---
+
+#### Methods and Tools for Secure Quantum Clouds with a specific Case Study on Homomorphic Encryption
+**作者**: Aurelia Kusumastuti, Nikolay Tcholtchev, Philipp Lämmel, Sebastian Bock, Manfred Hauswirth
+**类别**: cs.CR, quant-ph
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17748v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing quantum cloud computing environments, proposing new methods and tools with a focus on integrating homomorphic encryption to enable secure quantum computations on encrypted data. The authors demonstrate the feasibility and performance benefits of their approach through a detailed case study, showing improved security without significant overhead.
+
+### Key Contributions  
+- Introduces a novel framework combining homomorphic encryption with quantum cloud protocols for enhanced data confidentiality.  
+- Develops a set of tools supporting secure quantum computation on encrypted inputs, addressing a key gap in quantum cloud security.  
+- Provides a comprehensive case study validating practical implementation and performance trade-offs.
+
+### Method & Results  
+- Method: Designed hybrid classical-quantum algorithms that utilize homomorphic encryption schemes aligned with quantum cloud architectures.  
+- Tools: Employed quantum simulators and classical homomorphic encryption libraries for experimental validation.  
+- Results: Demonstrated encrypted quantum computations with overhead under 20% relative to unsecured baseline, maintaining strong security guarantees.  
+- Compared to classical cloud encryption methods, showed improved compatibility with quantum processing without prohibitive cost.
+
+### Impact & Limitations  
+- Impact: Advances practical secure quantum cloud computing, critical for real-world quantum data privacy and commercial quantum services.  
+- Limitations: Current evaluation based on simulations; real quantum hardware tests pending. Future work needed to optimize encryption schemes for scalability and lower latency.
+
+---
+
+#### Digital and Web Forensics Model Cards, V1
+**作者**: Paola Di Maio
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17722v1
+
+#### Executive Summary
+This paper addresses the challenge of standardizing documentation in digital and web forensics AI models by proposing specialized model cards. The approach adapts and extends model card frameworks to capture forensic-specific attributes, enhancing transparency and trustworthiness. The main result is a prototype model card format tailored for digital and web forensics tools, demonstrated through case examples.
+
+### Key Contributions
+- Developed a novel model card framework customized for digital and web forensic AI applications.
+- Introduced forensic-specific documentation standards to improve interpretability and accountability.
+- Provided example model cards illustrating practical deployment scenarios in forensic investigations.
+
+### Method & Results
+- Adapted existing model card structures incorporating forensic domain requirements such as chain-of-custody and evidential validity.
+- Validated the approach using case studies from forensic tool outputs and datasets (unspecified publicly).
+- Demonstrated improved clarity and usability over generic AI model cards; no quantitative metrics reported.
+- Comparisons focus on qualitative improvements relative to baseline generic model cards.
+
+### Impact & Limitations
+- Enhances forensic AI tool transparency, supporting legal and investigative rigor.
+- Currently lacks comprehensive quantitative evaluation and broad community validation.
+- Future work should include extensive testing across multiple forensic AI systems and integration with legal standards.
+
+---
+
+#### A Practical Solution to Systematically Monitor Inconsistencies in SBOM-based Vulnerability Scanners
+**作者**: Martin Rosso, Muhammad Asad Jahangir Jaffar, Alessandro Brighente, Mauro Conti
+**类别**: cs.SE, cs.CR
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17710v1
+
+#### Executive Summary  
+The paper addresses inconsistencies among SBOM-based vulnerability scanners that hinder reliable software supply chain security. It proposes a systematic, practical monitoring framework to detect and analyze these discrepancies across scanners. Experimental evaluation demonstrates the framework’s effectiveness in identifying inconsistencies, promoting more trustworthy vulnerability assessments.
+
+### Key Contributions  
+- Introduces a novel systematic approach to monitor and compare inconsistencies in SBOM vulnerability scanner outputs.  
+- Provides empirical evidence quantifying the degree and nature of inconsistency across multiple popular scanners.  
+- Establishes a practical framework that can be integrated into continuous security assessments of software supply chains.
+
+### Method & Results  
+- Developed a monitoring methodology that collects and analyzes SBOM scanner reports for discrepancy patterns.  
+- Used a dataset of software packages processed by various SBOM-based vulnerability scanners.  
+- Found significant variation in vulnerability detection results, with up to X% inconsistency among scanners (exact quantitative results depend on paper specifics).  
+- Demonstrated improved transparency and error identification compared to using any single scanner baseline.
+
+### Impact & Limitations  
+- Enhances reliability of vulnerability tracking in software supply chains by enabling systematic inconsistency detection.  
+- Future work needed to extend framework scalability and incorporate automated resolution strategies for identified inconsistencies.
+
+---
+
+#### STAR: Semantic-Traffic Alignment and Retrieval for Zero-Shot HTTPS Website Fingerprinting
+**作者**: Yifei Cheng, Yujia Zhu, Baiyang Li, Xinhao Deng, Yitong Cai, Yaochen Ren, Qingyun Liu
+**类别**: cs.CR, cs.AI, cs.NI
+**发布日期**: 2025-12-19
+**链接**: http://arxiv.org/abs/2512.17667v1
+
+#### Executive Summary  
+This paper addresses zero-shot HTTPS website fingerprinting by proposing a novel semantic-traffic alignment and retrieval framework called STAR. The approach leverages semantic embeddings to align traffic features with website content descriptions, significantly improving identification accuracy without requiring direct training on target sites. STAR achieves superior performance in zero-shot scenarios compared to existing baselines.
+
+### Key Contributions  
+- Introduces a semantic-traffic alignment mechanism for zero-shot website fingerprinting.  
+- Develops a retrieval-based framework leveraging semantic embeddings to match encrypted traffic with site descriptions.  
+- Demonstrates substantial accuracy improvements on zero-shot fingerprinting benchmarks.
+
+### Method & Results  
+- Utilizes deep semantic embeddings of website content and encrypted traffic features to learn a shared representation space.  
+- Employs a retrieval model to identify websites by matching encrypted traffic embeddings with semantic site embeddings.  
+- Evaluated on multiple HTTPS website fingerprinting datasets with zero-shot splits.  
+- Achieves up to 20% higher top-1 accuracy compared to state-of-the-art zero-shot baselines.  
+- Significantly improves robustness in open-world and domain-shift scenarios.
+
+### Impact & Limitations  
+- Enhances the feasibility of zero-shot fingerprinting, benefitting both privacy analysis and defense development in encrypted web traffic.  
+- Requires accurate and up-to-date website semantic descriptions, which may limit applicability in rapidly changing web environments.  
+- Future work could explore adaptation mechanisms for dynamic content changes and scalability to large website corpora.
 
 ---
 
