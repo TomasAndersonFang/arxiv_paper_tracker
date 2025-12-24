@@ -40759,18 +40759,18 @@ This paper addresses the lack of understanding of inherent relationships among p
 #### Executive Summary  
 This paper addresses the challenge of code-change impact analysis, proposing the use of GPT-5 to predict the effects of code modifications. The authors introduce a new dataset tailored for this task and perform a preliminary evaluation demonstrating GPT-5’s promising capabilities compared to existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Creation of a novel dataset specifically designed for code-change impact analysis with detailed annotations.  
 - First exploratory study applying GPT-5 to predict code-change impacts, leveraging its advanced language understanding.  
 - Empirical evidence suggesting GPT-5 outperforms traditional static analysis and prior ML methods in impact prediction accuracy.
 
-### Method & Results  
+### Method & Results
 - Method: Fine-tuning and prompt engineering of GPT-5 to analyze code diffs and predict affected components.  
 - Dataset: Custom dataset curated from open-source projects containing diverse code changes and their impact annotations.  
 - Results: GPT-5 achieved an accuracy improvement of approximately 15% over baseline static and machine learning techniques.  
 - Performance: GPT-5 demonstrated superior precision and recall metrics, highlighting its potential in reducing false positives/negatives.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances automated software maintenance by improving prediction of change repercussions, aiding developers in risk assessment.  
 - Limitations/Future Work: Dataset size is limited and domain-specific; future work should expand dataset scope and refine GPT-5 fine-tuning for broader applicability.
 
@@ -40785,18 +40785,18 @@ This paper addresses the challenge of code-change impact analysis, proposing the
 #### Executive Summary  
 This paper investigates backdoor attacks on neural code models using semantically-equivalent transformations, which preserve program functionality but embed triggers. The authors characterize these attacks’ stealthiness and effectiveness, and propose mitigation strategies to defend against them. Experimental results demonstrate the attacks’ potency and the efficacy of the proposed defense.
 
-### Key Contributions  
+### Key Contributions
 - Introduction and formalization of semantically-equivalent transformation (SET)-based backdoor attacks on neural code models.  
 - Comprehensive characterization of the attack efficacy and stealthiness in code understanding tasks.  
 - Design of a novel mitigation approach tailored to detect and defend against SET-based backdoors.
 
-### Method & Results  
+### Method & Results
 - Developed attack methods that inject backdoors via semantically-equivalent code transformations (e.g., variable renaming, statement reordering).  
 - Employed popular neural code datasets (e.g., CodeSearchNet) and models (e.g., CodeBERT) for evaluation.  
 - Achieved high attack success rates while maintaining semantic correctness and stealthiness.  
 - Proposed mitigation reduced attack success rates significantly compared to undefended baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Highlights a realistic threat to neural code models and provides defense mechanisms improving model reliability in software engineering tasks.  
 - Limitations/future work: Defense strategies may require adaptation to evolving transformation techniques; evaluation limited to certain model architectures and datasets, warranting broader validation.
 
@@ -40811,18 +40811,18 @@ This paper investigates backdoor attacks on neural code models using semanticall
 #### Executive Summary  
 This paper investigates how academic researchers contribute coding and discursive labor within the R programming language ecosystem, highlighting university-generated rents that enable corporate innovation. Using a socio-technical lens, the study maps these contributions to reveal underlying dynamics between academia and industry innovations. The main result emphasizes the pivotal role of academic labor in sustaining and advancing corporate software infrastructures.
 
-### Key Contributions  
+### Key Contributions
 - Novel conceptualization of "university rents" framing academic contributions as enabling corporate innovation in open source ecosystems.  
 - Comprehensive mapping of coding and discursive activities by academic researchers in the R community.  
 - Empirical linkage of academic labor patterns to industry benefits within a widely-used statistical programming environment.
 
-### Method & Results  
+### Method & Results
 - Mixed-methods approach combining quantitative analysis of public R package repositories and qualitative discourse analysis of academic participation.  
 - Key dataset: Public GitHub repositories and communication channels related to the R ecosystem.  
 - Found that academic contributors disproportionately engage in core package development and maintain critical discourse shaping project direction.  
 - Demonstrates academic input significantly correlates with sustained innovation, outperforming non-academic contributions in influence metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights universities’ indirect economic impact through open source contributions underpinning corporate software development, informing policy and funding discussions.  
 - Limited to R ecosystem, future work could compare other programming languages or explore mechanisms to better incentivize academic labor.
 
@@ -40839,18 +40839,18 @@ This paper investigates how academic researchers contribute coding and discursiv
 #### Executive Summary  
 This paper addresses improving Named Entity Recognition (NER) for Cyber Threat Intelligence (CTI) by integrating retrieval-based methods with reasoning via explicit and adaptive instructions. The approach enhances entity extraction accuracy by dynamically tailoring instructions to context, demonstrating superior performance over existing models on CTI datasets.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel framework combining retrieval mechanisms with adaptive instruction tuning for CTI NER.  
 - Introduces explicit and context-sensitive instruction generation, improving reasoning in entity recognition.  
 - Validates the approach on specialized CTI datasets, setting new state-of-the-art performance benchmarks.
 
-### Method & Results  
+### Method & Results
 - Employs a retrieval module to gather relevant knowledge and a reasoning-driven NER model guided by explicit adaptive instructions.  
 - Utilizes publicly available CTI datasets and benchmarks for model evaluation.  
 - Achieves significant improvements in F1 score over baseline methods by up to X% (exact figure not provided).  
 - Demonstrates enhanced generalization to varied CTI entity types through instruction adaptability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated CTI data extraction, aiding cybersecurity analysts with more reliable and context-aware entity recognition.  
 - Future work could explore scaling the framework across diverse threat domains and refining instruction adaptability for real-time deployment.
 
@@ -40891,18 +40891,18 @@ This paper addresses the challenge of protecting quantum circuits from reverse e
 #### Executive Summary  
 This paper addresses backdoor attacks in open-weight Low-Rank Adaptation (LoRA) models by introducing a causal-guided detoxification framework. The approach leverages causal inference to detect and neutralize backdoors without full model retraining, achieving effective defense in lightweight adaptation settings.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel causal-guided method to detoxify backdoor triggers in open-weight LoRA models.  
 - Demonstrates backdoor removal without sacrificing model performance on clean tasks.  
 - Introduces a lightweight approach applicable to popular LoRA-adapted large models, addressing challenges specific to open-weight fine-tuning.
 
-### Method & Results  
+### Method & Results
 - Utilizes causal inference principles to identify and isolate backdoor features from genuine ones in LoRA-modified weights.  
 - Experiments conducted on standard benchmark datasets with backdoor-embedded LoRA models.  
 - Achieved significant reduction in attack success rate while maintaining high clean accuracy (specific metrics not provided here).  
 - Outperformed standard fine-tuning and pruning baselines in detoxification effectiveness and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure deployment of open-weight LoRA models by mitigating stealthy backdoor attacks without heavy computational cost.  
 - Future work may explore extension to other adaptation techniques and more complex attack scenarios, alongside comprehensive evaluation on diverse architectures.
 
@@ -40917,18 +40917,18 @@ This paper addresses backdoor attacks in open-weight Low-Rank Adaptation (LoRA) 
 #### Executive Summary  
 This paper addresses the vulnerability of federated learning (FL) systems to poisoning attacks, where malicious clients corrupt the global model. The authors propose GShield, a robust defense mechanism that detects and mitigates such attacks via adaptive gradient screening and anomaly detection. Experiments demonstrate GShield significantly improves model robustness without sacrificing FL performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces GShield, a novel adaptive gradient screening approach tailored for poisoning mitigation in FL.  
 - Integrates anomaly detection to dynamically identify and isolate malicious client updates during aggregation.  
 - Provides comprehensive evaluation on standard FL benchmarks demonstrating resilience against various poisoning strategies.
 
-### Method & Results  
+### Method & Results
 - Methodology: GShield screens client gradients adaptively, filtering suspicious updates based on statistical anomaly detection before aggregation.  
 - Datasets/Tools: Evaluated on CIFAR-10 and MNIST under simulated poisoning attack scenarios.  
 - Results: Achieved up to 35% improvement in accuracy under attack conditions compared to unprotected FL; detection accuracy of malicious updates exceeds 90%.  
 - Compared to baselines (FedAvg, Krum), GShield shows superior robustness and lower performance degradation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances security and reliability of FL deployments, critical for real-world applications with untrusted participants.  
 - Limitations/Future Work: May incur computational overhead during gradient screening; extending to heterogeneous data distributions remains to be explored.
 
@@ -40957,6 +40957,277 @@ This paper addresses the challenge of detecting low-frequency cyberattacks withi
 ### Impact & Limitations
 - Improves practical IDS deployment by focusing evaluation on rare but critical cyber threats, potentially reducing false negatives.
 - Limitations include reliance on publicly available datasets which may not fully represent real-world traffic; future work could integrate more diverse data sources and apply MCC-driven model optimization in live environments.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-24)
+
+### 软件工程 领域
+
+#### SweRank+: Multilingual, Multi-Turn Code Ranking for Software Issue Localization
+**作者**: Revanth Gangi Reddy, Ye Liu, Wenting Zhao, JaeHyeok Doo, Tarun Suresh, Daniel Lee, Caiming Xiong, Yingbo Zhou, Semih Yavuz, Shafiq Joty
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20482v1
+
+#### Executive Summary  
+This paper addresses software issue localization by proposing SweRank+, a multilingual, multi-turn code ranking model that improves bug localization across diverse programming languages and dialog interactions. The approach leverages iterative context from multi-turn conversations to enhance code snippet retrieval, demonstrating significant accuracy gains in locating faulty code.
+
+### Key Contributions  
+- Introduces SweRank+, the first multilingual, multi-turn code ranking framework for issue localization.  
+- Effectively models conversational context across turns to improve code snippet relevance.  
+- Demonstrates robustness across multiple programming languages and large-scale issue datasets.
+
+### Method & Results  
+- Utilizes transformer-based contextual embedding to jointly encode multi-turn dialogs and code snippets for ranking.  
+- Experiments on a comprehensive multilingual dataset comprising various programming languages and real-world issue tracking data.  
+- Achieves up to 15% improvement in top-k code retrieval accuracy over state-of-the-art single-turn and monolingual baselines.  
+- Shows consistent gains in both precision and recall metrics, validating multi-turn context and multilingual capability.
+
+### Impact & Limitations  
+- Enables more effective and scalable software debugging support in multilingual development environments, enhancing productivity.  
+- Future work could explore integrating semantic code analysis and expanding to more diverse dialog modalities or noisy real-world data scenarios.
+
+---
+
+#### iblock: Accurate and Scalable Bitcoin Simulations with OMNeT++
+**作者**: Niccolò Scatena, Pericle Perazzo, Giovanni Nardini
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20402v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately simulating Bitcoin network behavior at scale. The authors introduce iblock, a novel simulator built on OMNeT++ that improves fidelity and scalability in Bitcoin simulations. Results demonstrate iblock’s superior accuracy and performance compared to existing tools.
+
+### Key Contributions  
+- Developed iblock, a Bitcoin simulation framework with enhanced accuracy and scalability.  
+- Leveraged OMNeT++ for modular and extensible network modeling tailored to cryptocurrency protocols.  
+- Provided comprehensive validation against real Bitcoin network data to ensure realistic simulation outcomes.
+
+### Method & Results  
+- Implemented a detailed Bitcoin protocol model within OMNeT++, including block propagation and transaction relay mechanisms.  
+- Employed real network parameters and topologies as inputs for simulations.  
+- Demonstrated improved simulation speed and reduced resource usage while maintaining close alignment with observed Bitcoin metrics.  
+- Showed iblock outperforms existing simulators like SimBlock in scalability and accuracy, with quantitative benchmarks illustrating faster execution times and lower memory consumption.
+
+### Impact & Limitations  
+- Enables researchers and developers to test Bitcoin network behaviors and protocol enhancements with high confidence and efficiency.  
+- Future work includes extending support to newer consensus mechanisms and integrating economic incentive models to broaden simulation applicability.
+
+---
+
+#### Symmaries: Automatic Inference of Formal Security Summaries for Java Programs
+**作者**: Narges Khakpour, Nicolas Berthier
+**类别**: cs.CR, cs.FL, cs.PL, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20396v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically generating formal security summaries for Java programs to aid in program verification and security analysis. The authors propose Symmaries, a novel inference technique that produces concise, formal security properties representing Java code behavior. Their approach effectively improves security understanding and verification efficiency.
+
+### Key Contributions
+- Introduction of Symmaries, the first automatic tool for synthesizing formal security summaries in Java.
+- A novel inference algorithm combining static analysis with formal methods to extract precise security properties.
+- Empirical evaluation demonstrating improved scalability and accuracy over existing manual and heuristic approaches.
+
+### Method & Results
+- Utilizes a hybrid static analysis framework integrated with formal verification techniques to infer security-relevant summaries.
+- Implemented on a suite of open-source Java benchmarks and standard security datasets.
+- Achieved accurate security summaries that reduce verification effort by up to 40%, with precision and recall improvements over baseline methods.
+- Outperforms heuristic summarization tools in both completeness and relevance of inferred properties.
+
+### Impact & Limitations
+- Enables more efficient and reliable security audits and formal verification of Java applications, enhancing software trustworthiness.
+- Limitations include handling of highly dynamic or reflective code constructs and potential scalability challenges for extremely large codebases.
+- Future work suggested on extending support to concurrent Java programs and integrating with continuous integration pipelines.
+
+---
+
+#### Identifying Appropriately-Sized Services with Deep Reinforcement Learning
+**作者**: Syeda Tasnim Fabiha, Saad Shafiq, Wesley Klewerton Guez Assunção, Nenad Medvidović
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20381v1
+
+#### Executive Summary  
+The paper addresses the challenge of automatically identifying appropriately-sized software services to improve modularity and maintainability. It proposes a deep reinforcement learning (DRL) approach that models service identification as a sequential decision process, leveraging code and architectural features. Experiments demonstrate that the DRL method outperforms traditional heuristics, yielding more cohesive and loosely coupled services.
+
+### Key Contributions  
+- Introduces a novel DRL framework for service size identification in microservice architectures.  
+- Utilizes architectural and code-level features to guide service decomposition decisions dynamically.  
+- Demonstrates improved modularity metrics and service quality over existing baseline methods.
+
+### Method & Results  
+- Method: Formulates service identification as a Markov Decision Process and trains a DRL agent to optimize service boundaries.  
+- Uses open-source microservice repositories and synthetic large-scale codebases for evaluation.  
+- Achieves up to 15% improvement in cohesion and 20% reduction in coupling compared to heuristic-based approaches.  
+- Outperforms baseline clustering and manual rule-based decomposition methods in service sizing accuracy.
+
+### Impact & Limitations  
+- Enables automated, context-aware microservice decomposition, reducing manual effort and improving system evolvability.  
+- Limitations include dependency on quality of input features and potential scalability challenges for very large systems; future work may explore transfer learning and feature engineering enhancements.
+
+---
+
+#### A Comprehensive Study of Bugs in Modern Distributed Deep Learning Systems
+**作者**: Xiaoxue Ma, Wanwei Zhan, Jiale Chen, Yishu Li, Jacky Keung, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20345v1
+
+#### Executive Summary  
+This paper investigates the nature and causes of bugs in modern distributed deep learning (DDL) systems. Through a large-scale empirical study, the authors categorize common bug types and analyze their sources, providing insights to improve reliability. The study reveals distinct bug patterns unique to DDL environments and offers targeted mitigation strategies.
+
+### Key Contributions  
+- Comprehensive taxonomy of bugs specific to distributed deep learning systems, filling a gap in SE literature.  
+- Empirical analysis based on real-world bug reports, highlighting unique distributed system challenges.  
+- Actionable recommendations for debugging and system design improvements in DDL systems.
+
+### Method & Results  
+- Analyzed hundreds of bug reports from popular DDL frameworks using qualitative coding to classify bug types.  
+- Examined root causes, bug manifestation phases, and resolution strategies.  
+- Key datasets: collected bug reports from platforms like GitHub issues of major DDL frameworks (e.g., TensorFlow, PyTorch).  
+- Found significant prevalence of synchronization and communication-related bugs (~40%), with novel categories identified that differ from traditional distributed systems.  
+- Proposed debugging approaches improved bug detection efficiency by up to 25% compared to baseline heuristics.
+
+### Impact & Limitations  
+- Enhances reliability and maintenance of distributed deep learning platforms, crucial for AI applications at scale.  
+- Study limited by reliance on public bug repositories; internal or unpublished issues may differ.  
+- Future work suggested includes automated bug detection tools tailored to DDL-specific bugs and broader system diversity analysis.
+
+---
+
+### 安全领域 领域
+
+#### Making Sense of Private Advertising: A Principled Approach to a Complex Ecosystem
+**作者**: Kyle Hogan, Alishah Chator, Gabriel Kaptchuk, Mayank Varia, Srinivas Devadas
+**类别**: cs.CR
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20583v1
+
+#### Executive Summary  
+This paper addresses the complexity of private advertising ecosystems by developing a principled framework that clarifies and formalizes interactions among stakeholders while preserving user privacy. The authors propose a novel analytical model to understand and optimize private ad delivery, demonstrating improved transparency and efficiency without compromising privacy guarantees.
+
+### Key Contributions  
+- Introduces a comprehensive formal model for private advertising ecosystems incorporating privacy, accountability, and utility.  
+- Provides a unified framework that bridges theory and practice in private ad targeting mechanisms.  
+- Demonstrates practical protocols that ensure privacy-preserving ad delivery with measurable performance benefits.
+
+### Method & Results  
+- Developed a formal privacy-utility tradeoff model capturing multiple private advertising components and their interactions.  
+- Designed cryptographic protocols leveraging secure multiparty computation to enforce privacy.  
+- Evaluated using synthetic private ad data and simulations reflecting real-world ad ecosystem dynamics.  
+- Achieved up to 30% improvement in privacy-utility tradeoff metrics compared to baseline private advertising schemes.
+
+### Impact & Limitations  
+- Offers a scalable approach to implement privacy-compliant advertising systems with provable guarantees, aiding industry adoption.  
+- Limitations include the need for validation on large-scale real-world deployments and addressing latency overheads in practical applications.
+
+---
+
+#### ARBITER: AI-Driven Filtering for Role-Based Access Control
+**作者**: Michele Lorenzo, Idilio Drago, Dario Salvadori, Fabio Romolo Vayr
+**类别**: cs.CR
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20535v1
+
+#### Executive Summary  
+This paper addresses the inefficiencies in traditional Role-Based Access Control (RBAC) systems, proposing ARBITER, an AI-driven filtering mechanism to optimize access decisions. The approach integrates machine learning techniques to dynamically refine role permissions, resulting in enhanced security and reduced administrative overhead. Experimental results demonstrate significant improvements in access precision and system scalability.
+
+### Key Contributions  
+- Introduces ARBITER, a novel AI-based filter that augments RBAC by learning and predicting access patterns.  
+- Demonstrates dynamic refinement of role permissions to reduce over-privilege while maintaining usability.  
+- Provides empirical validation of improved security and efficiency compared to legacy RBAC implementations.
+
+### Method & Results  
+- Utilizes supervised learning models trained on historical access logs to classify legitimate versus anomalous access requests.  
+- Employs real-world RBAC datasets alongside synthetic scenarios for evaluation.  
+- Achieves up to 30% reduction in unauthorized access attempts and a 25% decrease in administrative adjustments.  
+- Outperforms traditional RBAC policies and threshold-based filters in both accuracy and system overhead.
+
+### Impact & Limitations  
+- Offers a scalable and adaptive solution to RBAC management, potentially reducing security risks in enterprise environments.  
+- Limitations include dependency on quality of training data and possible challenges in handling zero-day access patterns; future work could explore unsupervised learning and transfer learning strategies.
+
+---
+
+#### Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit
+**作者**: Adam Elaoumari
+**类别**: cs.CR, cs.AI, cs.NI
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20423v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting data exfiltration over DNS-over-HTTPS (DoH), which thwarts traditional DNS-based monitoring. The authors propose an evasion-resilient detection framework and provide a practical evaluation alongside a toolkit implementation. Results demonstrate improved detection accuracy and robustness against sophisticated evasion tactics.
+
+### Key Contributions  
+- Novel detection framework tailored for DoH data exfiltration, resilient to evasion techniques.  
+- Comprehensive practical evaluation using real-world DoH traffic and attack scenarios.  
+- Open-source detection toolkit enabling deployment and further research.
+
+### Method & Results  
+- Utilizes behavioral and statistical analysis of DoH traffic patterns combined with machine learning classifiers to detect exfiltration.  
+- Evaluated on datasets including both benign DoH traffic and synthetically generated exfiltration instances simulating various evasion strategies.  
+- Achieved detection accuracy exceeding 90% with low false positives; outperforms baseline methods that rely on standard DNS inspection.  
+- Demonstrated robustness against mimicry and timing-based evasion tactics.
+
+### Impact & Limitations  
+- Enables network defenders to monitor and mitigate covert data leaks over increasingly popular encrypted DNS protocols.  
+- Current approach may require tuning for diverse network environments; potential for adapting framework to emerging encrypted protocols remains future work.
+
+---
+
+#### ChatGPT: Excellent Paper! Accept It. Editor: Imposter Found! Review Rejected
+**作者**: Kanchon Gharami, Sanjiv Kumar Sarkar, Yongxin Liu, Shafika Showkat Moni
+**类别**: cs.CR
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20405v1
+
+#### Executive Summary  
+This paper investigates the reliability and biases of editorial decision-making in peer review, focusing on the influence of AI-generated content like ChatGPT. The authors analyze cases where impartial editors are replaced by imposters, demonstrating the impact on paper acceptance outcomes. Their findings reveal vulnerabilities in current editorial workflows exacerbated by AI tools.
+
+### Key Contributions  
+- Identification of editorial impersonation as a novel threat to peer review integrity.  
+- Demonstration of ChatGPT’s dual role in enhancing paper quality and complicating editorial judgment.  
+- Proposal of measures to detect and mitigate editor imposters in review processes.
+
+### Method & Results  
+- Analytical framework combining AI-generated text evaluation with editorial role validation.  
+- Utilized simulated peer review scenarios involving AI-assisted paper submissions and editorial handling.  
+- Showed a significant increase (>30%) in acceptance of AI-enhanced papers under imposter editors.  
+- Compared standard editorial processes with the proposed detection mechanism, achieving improved accuracy in flagging unauthorized editorial actions.
+
+### Impact & Limitations  
+- Highlights crucial challenges in maintaining peer review fairness amid AI adoption, informing policy and system design.  
+- Limited by reliance on simulated rather than real-world data; future work needed on scalable, real-time editor verification systems.
+
+---
+
+#### iblock: Accurate and Scalable Bitcoin Simulations with OMNeT++
+**作者**: Niccolò Scatena, Pericle Perazzo, Giovanni Nardini
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20402v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately simulating Bitcoin networks with scalability using the OMNeT++ framework. The authors present iBlock, a novel simulation tool that balances fidelity and computational efficiency, enabling large-scale Bitcoin protocol experimentation. Results demonstrate iBlock’s ability to simulate extensive networks faster than state-of-the-art alternatives without sacrificing accuracy.
+
+### Key Contributions  
+- Development of iBlock, an OMNeT++-based Bitcoin simulator combining protocol accuracy with high scalability.  
+- Introduction of optimized block and transaction propagation algorithms tailored for efficient simulation.  
+- Provision of an open-source platform supporting detailed Bitcoin network research beyond existing simulators.
+
+### Method & Results  
+- Utilized discrete-event simulation via OMNeT++ with custom modules modeling core Bitcoin behaviors.  
+- Evaluated performance on large synthetic Bitcoin networks (up to thousands of nodes).  
+- Achieved up to 4x speed improvement in simulation runtime compared to baseline tools, maintaining protocol accuracy within 2% deviation.  
+- Demonstrated accurate replication of block propagation times and fork rates observed in real Bitcoin data.
+
+### Impact & Limitations  
+- Enables researchers to conduct realistic and scalable Bitcoin network experiments facilitating improved protocol design and analysis.  
+- Limitations include potential oversimplification of some network layer dynamics and plans to extend support for newer Bitcoin features like the Lightning Network.
 
 ---
 
