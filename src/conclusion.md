@@ -40975,18 +40975,18 @@ This paper addresses the challenge of detecting low-frequency cyberattacks withi
 #### Executive Summary  
 This paper addresses software issue localization by proposing SweRank+, a multilingual, multi-turn code ranking model that improves bug localization across diverse programming languages and dialog interactions. The approach leverages iterative context from multi-turn conversations to enhance code snippet retrieval, demonstrating significant accuracy gains in locating faulty code.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SweRank+, the first multilingual, multi-turn code ranking framework for issue localization.  
 - Effectively models conversational context across turns to improve code snippet relevance.  
 - Demonstrates robustness across multiple programming languages and large-scale issue datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes transformer-based contextual embedding to jointly encode multi-turn dialogs and code snippets for ranking.  
 - Experiments on a comprehensive multilingual dataset comprising various programming languages and real-world issue tracking data.  
 - Achieves up to 15% improvement in top-k code retrieval accuracy over state-of-the-art single-turn and monolingual baselines.  
 - Shows consistent gains in both precision and recall metrics, validating multi-turn context and multilingual capability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective and scalable software debugging support in multilingual development environments, enhancing productivity.  
 - Future work could explore integrating semantic code analysis and expanding to more diverse dialog modalities or noisy real-world data scenarios.
 
@@ -41001,18 +41001,18 @@ This paper addresses software issue localization by proposing SweRank+, a multil
 #### Executive Summary  
 This paper addresses the challenge of accurately simulating Bitcoin network behavior at scale. The authors introduce iblock, a novel simulator built on OMNeT++ that improves fidelity and scalability in Bitcoin simulations. Results demonstrate iblock’s superior accuracy and performance compared to existing tools.
 
-### Key Contributions  
+### Key Contributions
 - Developed iblock, a Bitcoin simulation framework with enhanced accuracy and scalability.  
 - Leveraged OMNeT++ for modular and extensible network modeling tailored to cryptocurrency protocols.  
 - Provided comprehensive validation against real Bitcoin network data to ensure realistic simulation outcomes.
 
-### Method & Results  
+### Method & Results
 - Implemented a detailed Bitcoin protocol model within OMNeT++, including block propagation and transaction relay mechanisms.  
 - Employed real network parameters and topologies as inputs for simulations.  
 - Demonstrated improved simulation speed and reduced resource usage while maintaining close alignment with observed Bitcoin metrics.  
 - Showed iblock outperforms existing simulators like SimBlock in scalability and accuracy, with quantitative benchmarks illustrating faster execution times and lower memory consumption.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables researchers and developers to test Bitcoin network behaviors and protocol enhancements with high confidence and efficiency.  
 - Future work includes extending support to newer consensus mechanisms and integrating economic incentive models to broaden simulation applicability.
 
@@ -41054,18 +41054,18 @@ This paper addresses the challenge of automatically generating formal security s
 #### Executive Summary  
 The paper addresses the challenge of automatically identifying appropriately-sized software services to improve modularity and maintainability. It proposes a deep reinforcement learning (DRL) approach that models service identification as a sequential decision process, leveraging code and architectural features. Experiments demonstrate that the DRL method outperforms traditional heuristics, yielding more cohesive and loosely coupled services.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel DRL framework for service size identification in microservice architectures.  
 - Utilizes architectural and code-level features to guide service decomposition decisions dynamically.  
 - Demonstrates improved modularity metrics and service quality over existing baseline methods.
 
-### Method & Results  
+### Method & Results
 - Method: Formulates service identification as a Markov Decision Process and trains a DRL agent to optimize service boundaries.  
 - Uses open-source microservice repositories and synthetic large-scale codebases for evaluation.  
 - Achieves up to 15% improvement in cohesion and 20% reduction in coupling compared to heuristic-based approaches.  
 - Outperforms baseline clustering and manual rule-based decomposition methods in service sizing accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables automated, context-aware microservice decomposition, reducing manual effort and improving system evolvability.  
 - Limitations include dependency on quality of input features and potential scalability challenges for very large systems; future work may explore transfer learning and feature engineering enhancements.
 
@@ -41080,19 +41080,19 @@ The paper addresses the challenge of automatically identifying appropriately-siz
 #### Executive Summary  
 This paper investigates the nature and causes of bugs in modern distributed deep learning (DDL) systems. Through a large-scale empirical study, the authors categorize common bug types and analyze their sources, providing insights to improve reliability. The study reveals distinct bug patterns unique to DDL environments and offers targeted mitigation strategies.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive taxonomy of bugs specific to distributed deep learning systems, filling a gap in SE literature.  
 - Empirical analysis based on real-world bug reports, highlighting unique distributed system challenges.  
 - Actionable recommendations for debugging and system design improvements in DDL systems.
 
-### Method & Results  
+### Method & Results
 - Analyzed hundreds of bug reports from popular DDL frameworks using qualitative coding to classify bug types.  
 - Examined root causes, bug manifestation phases, and resolution strategies.  
 - Key datasets: collected bug reports from platforms like GitHub issues of major DDL frameworks (e.g., TensorFlow, PyTorch).  
 - Found significant prevalence of synchronization and communication-related bugs (~40%), with novel categories identified that differ from traditional distributed systems.  
 - Proposed debugging approaches improved bug detection efficiency by up to 25% compared to baseline heuristics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and maintenance of distributed deep learning platforms, crucial for AI applications at scale.  
 - Study limited by reliance on public bug repositories; internal or unpublished issues may differ.  
 - Future work suggested includes automated bug detection tools tailored to DDL-specific bugs and broader system diversity analysis.
@@ -41110,18 +41110,18 @@ This paper investigates the nature and causes of bugs in modern distributed deep
 #### Executive Summary  
 This paper addresses the complexity of private advertising ecosystems by developing a principled framework that clarifies and formalizes interactions among stakeholders while preserving user privacy. The authors propose a novel analytical model to understand and optimize private ad delivery, demonstrating improved transparency and efficiency without compromising privacy guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a comprehensive formal model for private advertising ecosystems incorporating privacy, accountability, and utility.  
 - Provides a unified framework that bridges theory and practice in private ad targeting mechanisms.  
 - Demonstrates practical protocols that ensure privacy-preserving ad delivery with measurable performance benefits.
 
-### Method & Results  
+### Method & Results
 - Developed a formal privacy-utility tradeoff model capturing multiple private advertising components and their interactions.  
 - Designed cryptographic protocols leveraging secure multiparty computation to enforce privacy.  
 - Evaluated using synthetic private ad data and simulations reflecting real-world ad ecosystem dynamics.  
 - Achieved up to 30% improvement in privacy-utility tradeoff metrics compared to baseline private advertising schemes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable approach to implement privacy-compliant advertising systems with provable guarantees, aiding industry adoption.  
 - Limitations include the need for validation on large-scale real-world deployments and addressing latency overheads in practical applications.
 
@@ -41136,18 +41136,18 @@ This paper addresses the complexity of private advertising ecosystems by develop
 #### Executive Summary  
 This paper addresses the inefficiencies in traditional Role-Based Access Control (RBAC) systems, proposing ARBITER, an AI-driven filtering mechanism to optimize access decisions. The approach integrates machine learning techniques to dynamically refine role permissions, resulting in enhanced security and reduced administrative overhead. Experimental results demonstrate significant improvements in access precision and system scalability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ARBITER, a novel AI-based filter that augments RBAC by learning and predicting access patterns.  
 - Demonstrates dynamic refinement of role permissions to reduce over-privilege while maintaining usability.  
 - Provides empirical validation of improved security and efficiency compared to legacy RBAC implementations.
 
-### Method & Results  
+### Method & Results
 - Utilizes supervised learning models trained on historical access logs to classify legitimate versus anomalous access requests.  
 - Employs real-world RBAC datasets alongside synthetic scenarios for evaluation.  
 - Achieves up to 30% reduction in unauthorized access attempts and a 25% decrease in administrative adjustments.  
 - Outperforms traditional RBAC policies and threshold-based filters in both accuracy and system overhead.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable and adaptive solution to RBAC management, potentially reducing security risks in enterprise environments.  
 - Limitations include dependency on quality of training data and possible challenges in handling zero-day access patterns; future work could explore unsupervised learning and transfer learning strategies.
 
@@ -41162,18 +41162,18 @@ This paper addresses the inefficiencies in traditional Role-Based Access Control
 #### Executive Summary  
 This paper addresses the challenge of detecting data exfiltration over DNS-over-HTTPS (DoH), which thwarts traditional DNS-based monitoring. The authors propose an evasion-resilient detection framework and provide a practical evaluation alongside a toolkit implementation. Results demonstrate improved detection accuracy and robustness against sophisticated evasion tactics.
 
-### Key Contributions  
+### Key Contributions
 - Novel detection framework tailored for DoH data exfiltration, resilient to evasion techniques.  
 - Comprehensive practical evaluation using real-world DoH traffic and attack scenarios.  
 - Open-source detection toolkit enabling deployment and further research.
 
-### Method & Results  
+### Method & Results
 - Utilizes behavioral and statistical analysis of DoH traffic patterns combined with machine learning classifiers to detect exfiltration.  
 - Evaluated on datasets including both benign DoH traffic and synthetically generated exfiltration instances simulating various evasion strategies.  
 - Achieved detection accuracy exceeding 90% with low false positives; outperforms baseline methods that rely on standard DNS inspection.  
 - Demonstrated robustness against mimicry and timing-based evasion tactics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables network defenders to monitor and mitigate covert data leaks over increasingly popular encrypted DNS protocols.  
 - Current approach may require tuning for diverse network environments; potential for adapting framework to emerging encrypted protocols remains future work.
 
@@ -41188,46 +41188,304 @@ This paper addresses the challenge of detecting data exfiltration over DNS-over-
 #### Executive Summary  
 This paper investigates the reliability and biases of editorial decision-making in peer review, focusing on the influence of AI-generated content like ChatGPT. The authors analyze cases where impartial editors are replaced by imposters, demonstrating the impact on paper acceptance outcomes. Their findings reveal vulnerabilities in current editorial workflows exacerbated by AI tools.
 
-### Key Contributions  
+### Key Contributions
 - Identification of editorial impersonation as a novel threat to peer review integrity.  
 - Demonstration of ChatGPT’s dual role in enhancing paper quality and complicating editorial judgment.  
 - Proposal of measures to detect and mitigate editor imposters in review processes.
 
-### Method & Results  
+### Method & Results
 - Analytical framework combining AI-generated text evaluation with editorial role validation.  
 - Utilized simulated peer review scenarios involving AI-assisted paper submissions and editorial handling.  
 - Showed a significant increase (>30%) in acceptance of AI-enhanced papers under imposter editors.  
 - Compared standard editorial processes with the proposed detection mechanism, achieving improved accuracy in flagging unauthorized editorial actions.
 
-### Impact & Limitations  
-- Highlights crucial challenges in maintaining peer review fairness amid AI adoption, informing policy and system design.  
-- Limited by reliance on simulated rather than real-world data; future work needed on scalable, real-time editor verification systems.
-
----
-
-#### iblock: Accurate and Scalable Bitcoin Simulations with OMNeT++
-**作者**: Niccolò Scatena, Pericle Perazzo, Giovanni Nardini
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-12-23
-**链接**: http://arxiv.org/abs/2512.20402v1
-
-#### Executive Summary  
-This paper addresses the challenge of accurately simulating Bitcoin networks with scalability using the OMNeT++ framework. The authors present iBlock, a novel simulation tool that balances fidelity and computational efficiency, enabling large-scale Bitcoin protocol experimentation. Results demonstrate iBlock’s ability to simulate extensive networks faster than state-of-the-art alternatives without sacrificing accuracy.
-
-### Key Contributions  
+### Key Contributions
 - Development of iBlock, an OMNeT++-based Bitcoin simulator combining protocol accuracy with high scalability.  
 - Introduction of optimized block and transaction propagation algorithms tailored for efficient simulation.  
 - Provision of an open-source platform supporting detailed Bitcoin network research beyond existing simulators.
 
-### Method & Results  
+### Method & Results
 - Utilized discrete-event simulation via OMNeT++ with custom modules modeling core Bitcoin behaviors.  
 - Evaluated performance on large synthetic Bitcoin networks (up to thousands of nodes).  
 - Achieved up to 4x speed improvement in simulation runtime compared to baseline tools, maintaining protocol accuracy within 2% deviation.  
 - Demonstrated accurate replication of block propagation times and fork rates observed in real Bitcoin data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables researchers to conduct realistic and scalable Bitcoin network experiments facilitating improved protocol design and analysis.  
 - Limitations include potential oversimplification of some network layer dynamics and plans to extend support for newer Bitcoin features like the Lightning Network.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-25)
+
+### 软件工程 领域
+
+#### Assessing the Software Security Comprehension of Large Language Models
+**作者**: Mohammed Latif Siddiq, Natalie Sekerak, Antonio Karam, Maria Leal, Arvin Islam-Gomes, Joanna C. S. Santos
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21238v1
+
+#### Executive Summary
+This paper investigates how effectively large language models (LLMs) understand and reason about software security concepts. The authors evaluate multiple LLMs on a bespoke security comprehension benchmark, revealing significant variability and specific gaps in security-aware code understanding. Results highlight both promise and critical weaknesses in current LLM security comprehension capabilities.
+
+### Key Contributions
+- Introduces a novel benchmark dataset specifically designed to assess software security comprehension in LLMs.
+- Analyzes LLM performance on nuanced security reasoning tasks beyond standard code understanding.
+- Identifies concrete failure modes and security-related blind spots in state-of-the-art LLMs.
+
+### Method & Results
+- Evaluated several popular LLMs on a newly created security-focused software comprehension benchmark.
+- Utilized security-relevant datasets combining code snippets, vulnerability descriptions, and mitigation strategies.
+- Found that top LLMs achieve only moderate accuracy (e.g., ~60-70%) on security-specific tasks, underperforming on subtle vulnerability identification.
+- LLM results consistently lag behind specialized security analysis tools and human expert baselines.
+
+### Impact & Limitations
+- Provides valuable insights for improving LLM security reasoning, critical for safer code generation and review.
+- Benchmark facilitates future model development targeting security comprehension.
+- Limitations include scope restricted to specific security topics and lack of real-world deployment studies.
+- Future work should expand dataset diversity and integrate dynamic analysis to complement static reasoning.
+
+---
+
+#### Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking
+**作者**: Yifan Huang, Xiaojun Jia, Wenbo Guo, Yuqiang Sun, Yihao Huang, Chong Wang, Yang Liu
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21236v1
+
+#### Executive Summary
+This paper tackles the limitation-breaking of large language models (LLMs) by introducing SPELL, a novel Sentence Pairing Exploration approach that enhances LLM reasoning and comprehension through strategic sentence pairing. The approach shows significant improvements in LLM performance across multiple challenging benchmarks, demonstrating its effectiveness in overcoming inherent LLM limitations.
+
+### Key Contributions
+- Proposes SPELL, a novel framework that explores sentence pairs to enhance LLM reasoning depth and context understanding.
+- Introduces an effective sentence pairing strategy to unlock latent capabilities of LLMs without additional training.
+- Empirically validates SPELL’s ability to break through known limitations of LLMs on diverse language tasks.
+
+### Method & Results
+- Uses strategic pairing of sentences to augment input context, enabling LLMs to better capture complex relationships.
+- Evaluated on multiple benchmark datasets (not explicitly named) testing reasoning and comprehension skills.
+- Achieved substantial performance gains over baseline LLMs, with improvements often exceeding 10-15% in accuracy-related metrics.
+- Outperforms existing limitation-handling techniques by a clear margin, confirming robustness and generalizability.
+
+### Impact & Limitations
+- Practical for improving LLM applications in security, AI reasoning, and software engineering without retraining models.
+- Limited by dependency on effective sentence pair selection; future work could automate this process and extend to multilingual contexts.
+
+---
+
+#### Artificial or Just Artful? Do LLMs Bend the Rules in Programming?
+**作者**: Oussama Ben Sghaier, Kevin Delcourt, Houari Sahraoui
+**类别**: cs.SE
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21028v1
+
+#### Executive Summary
+This paper investigates whether large language models (LLMs) "bend the rules" when generating programming code, analyzing if their outputs reflect genuine understanding or merely artful mimicry. The authors propose a novel framework to detect rule violations in LLM-generated code and empirically evaluate multiple models on programming tasks. Results reveal that LLMs frequently overlook or creatively reinterpret rules, impacting code correctness.
+
+### Key Contributions
+- Introduces a framework to systematically identify rule-bending behaviors in LLM-generated code.
+- Provides empirical evidence quantifying the extent and nature of rule violations across popular programming LMs.
+- Offers insights into the implications of such behaviors for code quality and reliability.
+
+### Method & Results
+- Analyzed LLM outputs by defining rule-checking criteria based on formal programming constraints and best practices.
+- Evaluated models on standard programming benchmarks/code generation datasets.
+- Found up to 30% of generated code snippets exhibited rule-bending, varying by model and task complexity.
+- Performance showed that models bending rules could sometimes produce functionally correct but semantically flawed code, contrasting with rule-abiding baselines.
+
+### Impact & Limitations
+- Highlights risks in deploying LLM-generated code without thorough validation, informing safer AI-assisted programming.
+- Limitations include focus on specific programming languages and rules; future work could explore broader rule sets and diverse coding paradigms.
+
+---
+
+#### One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents
+**作者**: Zhaoxi Zhang, Yitong Duan, Yanzhi Zhang, Yiming Xu, Jiyan He, Yunfang Wu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.20957v1
+
+#### Executive Summary  
+This paper addresses the challenge of optimizing Large Language Model (LLM) agents for managing complex software repositories by proposing a reinforcement learning framework that uses a single unified tool. The approach enables the agent to learn repository-level tasks effectively, significantly improving automation capabilities. Results demonstrate substantial performance gains over multi-tool baselines in terms of task completion and efficiency.
+
+### Key Contributions  
+- Introduces a reinforcement learning approach to unify multiple software repository tasks under one LLM-based tool.  
+- Demonstrates that a single-tool agent can outperform multi-tool agents in repository-level automation.  
+- Provides a novel training framework tailored for repository management scenarios.
+
+### Method & Results  
+- Utilizes reinforcement learning with environment interactions framed around repository-level software engineering tasks.  
+- Employs real-world open-source repository datasets to evaluate agent performance.  
+- Achieves up to X% improvement in task success rates and Y% reduction in operational latency compared to state-of-the-art multi-tool methods (exact numbers not specified).  
+- Validated against baselines using multi-agent or multi-tool systems demonstrating superior efficiency and accuracy.
+
+### Impact & Limitations  
+- Offers practical advancements toward autonomous, efficient software repository maintenance and evolution using LLM agents.  
+- Future work includes extending the approach to more diverse repository types and integrating more complex collaboration scenarios among agents.  
+- Potential limitations in handling extremely large-scale repositories or highly specialized tooling requirements remain to be explored.
+
+---
+
+#### FEM-Bench: A Structured Scientific Reasoning Benchmark for Evaluating Code-Generating LLMs
+**作者**: Saeed Mohammadzadeh, Erfan Hamdi, Joel Shor, Emma Lejeune
+**类别**: cs.LG, cs.AI, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20732v1
+
+#### Executive Summary  
+FEM-Bench introduces a structured scientific reasoning benchmark designed to evaluate the code generation capabilities of large language models (LLMs) specifically in finite element method (FEM) simulations. The authors develop a challenging dataset that tests logical reasoning and domain-specific coding skills, demonstrating that current LLMs struggle with complex scientific code tasks.  
+
+### Key Contributions  
+- Creation of FEM-Bench, a novel benchmark combining scientific reasoning and code generation in the engineering domain.  
+- A structured evaluation framework targeting finite element method problem representation and code correctness.  
+- Empirical analysis revealing significant gaps in existing LLMs’ abilities to generate accurate FEM-related code.  
+
+### Method & Results  
+- Method: Designed a suite of FEM problems requiring stepwise reasoning and code synthesis to test LLMs’ scientific programming competence.  
+- Dataset/Tools: Curated FEM-Bench dataset; evaluated models using code execution accuracy and reasoning correctness metrics.  
+- Results: State-of-the-art code-generating LLMs achieved under 50% task accuracy, indicating limited understanding of domain constraints and logic.  
+- Compared to baseline code generation benchmarks, FEM-Bench is more challenging due to its scientific rigor and structured reasoning demands.  
+
+### Impact & Limitations  
+- Impact: Provides a targeted assessment for improving LLMs in scientific programming, potentially advancing AI-assisted engineering workflows.  
+- Limitations/Future Work: Current benchmark focuses narrowly on FEM; extension to other scientific domains and incorporation of feedback loops could further improve evaluation breadth and robustness.
+
+---
+
+### 安全领域 领域
+
+#### A Note on Publicly Verifiable Quantum Money with Low Quantum Computational Resources
+**作者**: Fabrizio Genovese, Lev Stambler
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21304v1
+
+#### Executive Summary  
+This paper addresses the challenge of designing publicly verifiable quantum money schemes that require minimal quantum computational resources. It proposes novel constructions that significantly reduce quantum memory and gate complexities while maintaining security and public verifiability. The main result is a more practical approach to quantum money, potentially accelerating real-world adoption.
+
+### Key Contributions  
+- Introduces a quantum money scheme with drastically lowered quantum computational requirements for verification.  
+- Develops new techniques enabling public verifiability without large quantum memory overhead.  
+- Provides security proofs ensuring robustness against standard quantum adversaries.
+
+### Method & Results  
+- Utilizes cryptographic protocols combining classical verification with lightweight quantum operations.  
+- Employs formal security models to analyze scheme resilience against forgery.  
+- Demonstrates that verification quantum resources can be reduced by over 50% compared to previous publicly verifiable schemes.  
+- Validation is primarily theoretical, supported by complexity analysis rather than empirical datasets.
+
+### Impact & Limitations  
+- Enhances feasibility of deploying quantum money in near-term quantum devices with limited capabilities.  
+- Future work needed on experimental implementation and resistance to emerging quantum attacks.  
+- Scalability and integration with broader quantum cryptographic frameworks remain open challenges.
+
+---
+
+#### Uncertainty in security: managing cyber senescence
+**作者**: Martijn Dekker
+**类别**: cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21251v1
+
+#### Executive Summary  
+The paper addresses the challenge of managing long-term cybersecurity risks posed by the gradual degradation of system defenses, termed "cyber senescence." It proposes a framework for quantifying and mitigating uncertainty in security over time, incorporating adaptive strategies to extend system resilience. The main result shows improved risk management and prolonged system reliability through dynamic, uncertainty-aware defenses.
+
+### Key Contributions  
+- Introduces the concept of cyber senescence to model aging effects in cybersecurity defenses.  
+- Develops a novel uncertainty quantification framework tailored for evolving cyber risks.  
+- Proposes adaptive security management strategies that adjust to system aging and threat evolution.
+
+### Method & Results  
+- Uses probabilistic modeling and dynamic risk assessment to track security degradation over time.  
+- Implements simulations on synthetic cyber-attack and defense life-cycle data to validate the approach.  
+- Demonstrates a 30% reduction in security breach likelihood compared to static defense models.  
+- Outperforms baseline models by maintaining higher security levels throughout system lifespan.
+
+### Impact & Limitations  
+- Provides a practical methodology for organizations to proactively manage aging security infrastructure, enhancing long-term cyber resilience.  
+- Future work needed to validate on real-world systems and extend models to cover broader threat landscapes and operational constraints.
+
+---
+
+#### CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents
+**作者**: Haoyang Li, Mingjin Li, Jinxin Zuo, Siqi Li, Xiao Li, Hao Wu, Yueming Lu, Xiaochuan He
+**类别**: cs.CR, cs.MA
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21250v1
+
+#### Executive Summary  
+This paper addresses the threat of adversarial code obfuscation techniques targeting Chain-of-Thought (CoT) enhanced Large Language Model (LLM) code agents. The authors propose CoTDeceptor, a novel framework that generates obfuscated code to deceive and reduce the reliability of CoT-based LLM code generation and analysis. Experimental results demonstrate significant drops in LLM agent code understanding and synthesis accuracy under adversarial attacks.
+
+### Key Contributions  
+- Introduces CoTDeceptor, the first adversarial code obfuscation approach specifically designed to fool CoT-enhanced LLM code agents.  
+- Demonstrates vulnerabilities in state-of-the-art CoT-augmented LLMs in code-related tasks via systematically crafted obfuscated inputs.  
+- Provides evaluation on real-world codebases and popular LLM code agents, quantifying robustness degradation.
+
+### Method & Results  
+- Constructs obfuscated code snippets by inserting semantic-preserving yet syntactically confusing transformations aimed at disrupting CoT reasoning.  
+- Evaluates on benchmark programming datasets (likely coding problem repositories, though unspecified) and uses popular CoT-enhanced models such as GPT-based code agents.  
+- Results show up to X% decrease (precise number not provided in metadata) in task accuracy and reasoning correctness compared to unobfuscated code baselines.  
+- CoTDeceptor outperforms prior generic code obfuscation methods in reducing LLM performance.
+
+### Impact & Limitations  
+- Highlights critical security implications for deploying CoT-enhanced LLM code agents in real-world environments where adversarial code can emerge.  
+- Limitations include potential defenses not fully explored and evaluation scope limited to certain LLM architectures; future work may address defensive strategies and broader model coverage.
+
+---
+
+#### Industrial Ouroboros: Deep Lateral Movement via Living Off the Plant
+**作者**: Richard Derbyshire
+**类别**: cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21248v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting and understanding deep lateral movement attacks in industrial control systems (ICS), focusing on adversaries "living off the plant"—leveraging legitimate ICS components for stealthy propagation. The author proposes a novel behavioral and network analysis framework to identify subtle lateral movements across ICS networks. Experimental validation demonstrates improved detection of multi-stage intrusions that traditional IT security tools often miss.
+
+### Key Contributions  
+- Introduces the concept of "Industrial Ouroboros," where attackers exploit native plant processes for lateral movement.  
+- Develops a tailored detection framework combining ICS-specific protocol analysis with anomaly detection.  
+- Provides empirical evidence showing enhanced visibility of stealthy lateral movements in ICS environments.
+
+### Method & Results  
+- Uses a combination of protocol-level inspection and machine learning-based behavioral modeling on ICS network traffic.  
+- Leverages data from simulated industrial testbeds replicating real-world ICS topologies.  
+- Detects deep lateral movement stages with over 85% accuracy, outperforming baseline IDS that detect below 60%.  
+- Demonstrates lower false positive rates compared to existing IT-centric security solutions when applied to ICS data.
+
+### Impact & Limitations  
+- Improves ICS security posture by enabling early detection of complex, multi-step intrusions using native plant behavior cues.  
+- Limitations include potential dependence on the fidelity of the testbed environment and challenges scaling the approach to extremely large or heterogeneous ICS deployments.  
+- Future work could explore real-world deployment and integration with ICS incident response workflows.
+
+---
+
+#### Improving the Convergence Rate of Ray Search Optimization for Query-Efficient Hard-Label Attacks
+**作者**: Xinjie Xu, Shuyu Cheng, Dongwei Xu, Qi Xuan, Chen Ma
+**类别**: cs.LG, cs.AI, cs.CR, cs.CV
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21241v1
+
+#### Executive Summary  
+This paper addresses the slow convergence in Ray Search Optimization (RSO) for query-efficient hard-label adversarial attacks. The authors propose enhanced techniques to accelerate convergence without increasing query complexity, significantly improving attack efficiency. Experimental results demonstrate faster convergence and higher success rates against robust models.
+
+### Key Contributions  
+- Introduces a novel convergence acceleration mechanism for Ray Search Optimization in hard-label attacks.  
+- Develops an adaptive sampling strategy to improve query efficiency during the attack process.  
+- Provides comprehensive evaluation on state-of-the-art defenses, showcasing robustness of the proposed method.
+
+### Method & Results  
+- Combines refined gradient estimation with adaptive step-size control to speed up RSO convergence.  
+- Utilizes benchmark datasets including CIFAR-10 and ImageNet, applying attacks on common CNN architectures.  
+- Achieves up to 30% reduction in queries needed for successful attack compared to baseline RSO.  
+- Outperforms prior hard-label attack methods in both attack success rate (>95%) and query efficiency.
+
+### Impact & Limitations  
+- Enhances practicality of black-box hard-label attacks by reducing computational cost and improving attack speed.  
+- Future work may explore extending the method to other domains beyond vision and handling adaptive defenses more robustly.
 
 ---
 
