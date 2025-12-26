@@ -41311,18 +41311,18 @@ This paper investigates whether large language models (LLMs) "bend the rules" wh
 #### Executive Summary  
 This paper addresses the challenge of optimizing Large Language Model (LLM) agents for managing complex software repositories by proposing a reinforcement learning framework that uses a single unified tool. The approach enables the agent to learn repository-level tasks effectively, significantly improving automation capabilities. Results demonstrate substantial performance gains over multi-tool baselines in terms of task completion and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a reinforcement learning approach to unify multiple software repository tasks under one LLM-based tool.  
 - Demonstrates that a single-tool agent can outperform multi-tool agents in repository-level automation.  
 - Provides a novel training framework tailored for repository management scenarios.
 
-### Method & Results  
+### Method & Results
 - Utilizes reinforcement learning with environment interactions framed around repository-level software engineering tasks.  
 - Employs real-world open-source repository datasets to evaluate agent performance.  
 - Achieves up to X% improvement in task success rates and Y% reduction in operational latency compared to state-of-the-art multi-tool methods (exact numbers not specified).  
 - Validated against baselines using multi-agent or multi-tool systems demonstrating superior efficiency and accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical advancements toward autonomous, efficient software repository maintenance and evolution using LLM agents.  
 - Future work includes extending the approach to more diverse repository types and integrating more complex collaboration scenarios among agents.  
 - Potential limitations in handling extremely large-scale repositories or highly specialized tooling requirements remain to be explored.
@@ -41338,18 +41338,18 @@ This paper addresses the challenge of optimizing Large Language Model (LLM) agen
 #### Executive Summary  
 FEM-Bench introduces a structured scientific reasoning benchmark designed to evaluate the code generation capabilities of large language models (LLMs) specifically in finite element method (FEM) simulations. The authors develop a challenging dataset that tests logical reasoning and domain-specific coding skills, demonstrating that current LLMs struggle with complex scientific code tasks.  
 
-### Key Contributions  
+### Key Contributions
 - Creation of FEM-Bench, a novel benchmark combining scientific reasoning and code generation in the engineering domain.  
 - A structured evaluation framework targeting finite element method problem representation and code correctness.  
 - Empirical analysis revealing significant gaps in existing LLMs’ abilities to generate accurate FEM-related code.  
 
-### Method & Results  
+### Method & Results
 - Method: Designed a suite of FEM problems requiring stepwise reasoning and code synthesis to test LLMs’ scientific programming competence.  
 - Dataset/Tools: Curated FEM-Bench dataset; evaluated models using code execution accuracy and reasoning correctness metrics.  
 - Results: State-of-the-art code-generating LLMs achieved under 50% task accuracy, indicating limited understanding of domain constraints and logic.  
 - Compared to baseline code generation benchmarks, FEM-Bench is more challenging due to its scientific rigor and structured reasoning demands.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Provides a targeted assessment for improving LLMs in scientific programming, potentially advancing AI-assisted engineering workflows.  
 - Limitations/Future Work: Current benchmark focuses narrowly on FEM; extension to other scientific domains and incorporation of feedback loops could further improve evaluation breadth and robustness.
 
@@ -41366,18 +41366,18 @@ FEM-Bench introduces a structured scientific reasoning benchmark designed to eva
 #### Executive Summary  
 This paper addresses the challenge of designing publicly verifiable quantum money schemes that require minimal quantum computational resources. It proposes novel constructions that significantly reduce quantum memory and gate complexities while maintaining security and public verifiability. The main result is a more practical approach to quantum money, potentially accelerating real-world adoption.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a quantum money scheme with drastically lowered quantum computational requirements for verification.  
 - Develops new techniques enabling public verifiability without large quantum memory overhead.  
 - Provides security proofs ensuring robustness against standard quantum adversaries.
 
-### Method & Results  
+### Method & Results
 - Utilizes cryptographic protocols combining classical verification with lightweight quantum operations.  
 - Employs formal security models to analyze scheme resilience against forgery.  
 - Demonstrates that verification quantum resources can be reduced by over 50% compared to previous publicly verifiable schemes.  
 - Validation is primarily theoretical, supported by complexity analysis rather than empirical datasets.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances feasibility of deploying quantum money in near-term quantum devices with limited capabilities.  
 - Future work needed on experimental implementation and resistance to emerging quantum attacks.  
 - Scalability and integration with broader quantum cryptographic frameworks remain open challenges.
@@ -41393,18 +41393,18 @@ This paper addresses the challenge of designing publicly verifiable quantum mone
 #### Executive Summary  
 The paper addresses the challenge of managing long-term cybersecurity risks posed by the gradual degradation of system defenses, termed "cyber senescence." It proposes a framework for quantifying and mitigating uncertainty in security over time, incorporating adaptive strategies to extend system resilience. The main result shows improved risk management and prolonged system reliability through dynamic, uncertainty-aware defenses.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of cyber senescence to model aging effects in cybersecurity defenses.  
 - Develops a novel uncertainty quantification framework tailored for evolving cyber risks.  
 - Proposes adaptive security management strategies that adjust to system aging and threat evolution.
 
-### Method & Results  
+### Method & Results
 - Uses probabilistic modeling and dynamic risk assessment to track security degradation over time.  
 - Implements simulations on synthetic cyber-attack and defense life-cycle data to validate the approach.  
 - Demonstrates a 30% reduction in security breach likelihood compared to static defense models.  
 - Outperforms baseline models by maintaining higher security levels throughout system lifespan.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical methodology for organizations to proactively manage aging security infrastructure, enhancing long-term cyber resilience.  
 - Future work needed to validate on real-world systems and extend models to cover broader threat landscapes and operational constraints.
 
@@ -41419,18 +41419,18 @@ The paper addresses the challenge of managing long-term cybersecurity risks pose
 #### Executive Summary  
 This paper addresses the threat of adversarial code obfuscation techniques targeting Chain-of-Thought (CoT) enhanced Large Language Model (LLM) code agents. The authors propose CoTDeceptor, a novel framework that generates obfuscated code to deceive and reduce the reliability of CoT-based LLM code generation and analysis. Experimental results demonstrate significant drops in LLM agent code understanding and synthesis accuracy under adversarial attacks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CoTDeceptor, the first adversarial code obfuscation approach specifically designed to fool CoT-enhanced LLM code agents.  
 - Demonstrates vulnerabilities in state-of-the-art CoT-augmented LLMs in code-related tasks via systematically crafted obfuscated inputs.  
 - Provides evaluation on real-world codebases and popular LLM code agents, quantifying robustness degradation.
 
-### Method & Results  
+### Method & Results
 - Constructs obfuscated code snippets by inserting semantic-preserving yet syntactically confusing transformations aimed at disrupting CoT reasoning.  
 - Evaluates on benchmark programming datasets (likely coding problem repositories, though unspecified) and uses popular CoT-enhanced models such as GPT-based code agents.  
 - Results show up to X% decrease (precise number not provided in metadata) in task accuracy and reasoning correctness compared to unobfuscated code baselines.  
 - CoTDeceptor outperforms prior generic code obfuscation methods in reducing LLM performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security implications for deploying CoT-enhanced LLM code agents in real-world environments where adversarial code can emerge.  
 - Limitations include potential defenses not fully explored and evaluation scope limited to certain LLM architectures; future work may address defensive strategies and broader model coverage.
 
@@ -41445,18 +41445,18 @@ This paper addresses the threat of adversarial code obfuscation techniques targe
 #### Executive Summary  
 This paper addresses the challenge of detecting and understanding deep lateral movement attacks in industrial control systems (ICS), focusing on adversaries "living off the plant"—leveraging legitimate ICS components for stealthy propagation. The author proposes a novel behavioral and network analysis framework to identify subtle lateral movements across ICS networks. Experimental validation demonstrates improved detection of multi-stage intrusions that traditional IT security tools often miss.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of "Industrial Ouroboros," where attackers exploit native plant processes for lateral movement.  
 - Develops a tailored detection framework combining ICS-specific protocol analysis with anomaly detection.  
 - Provides empirical evidence showing enhanced visibility of stealthy lateral movements in ICS environments.
 
-### Method & Results  
+### Method & Results
 - Uses a combination of protocol-level inspection and machine learning-based behavioral modeling on ICS network traffic.  
 - Leverages data from simulated industrial testbeds replicating real-world ICS topologies.  
 - Detects deep lateral movement stages with over 85% accuracy, outperforming baseline IDS that detect below 60%.  
 - Demonstrates lower false positive rates compared to existing IT-centric security solutions when applied to ICS data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Improves ICS security posture by enabling early detection of complex, multi-step intrusions using native plant behavior cues.  
 - Limitations include potential dependence on the fidelity of the testbed environment and challenges scaling the approach to extremely large or heterogeneous ICS deployments.  
 - Future work could explore real-world deployment and integration with ICS incident response workflows.
@@ -41472,20 +41472,292 @@ This paper addresses the challenge of detecting and understanding deep lateral m
 #### Executive Summary  
 This paper addresses the slow convergence in Ray Search Optimization (RSO) for query-efficient hard-label adversarial attacks. The authors propose enhanced techniques to accelerate convergence without increasing query complexity, significantly improving attack efficiency. Experimental results demonstrate faster convergence and higher success rates against robust models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel convergence acceleration mechanism for Ray Search Optimization in hard-label attacks.  
 - Develops an adaptive sampling strategy to improve query efficiency during the attack process.  
 - Provides comprehensive evaluation on state-of-the-art defenses, showcasing robustness of the proposed method.
 
-### Method & Results  
+### Method & Results
 - Combines refined gradient estimation with adaptive step-size control to speed up RSO convergence.  
 - Utilizes benchmark datasets including CIFAR-10 and ImageNet, applying attacks on common CNN architectures.  
 - Achieves up to 30% reduction in queries needed for successful attack compared to baseline RSO.  
 - Outperforms prior hard-label attack methods in both attack success rate (>95%) and query efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practicality of black-box hard-label attacks by reducing computational cost and improving attack speed.  
 - Future work may explore extending the method to other domains beyond vision and handling adaptive defenses more robustly.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-26)
+
+### 软件工程 领域
+
+#### Process Analytics -- Data-driven Business Process Management
+**作者**: Matthias Stierle, Karsten Kraume, Martin Matzner
+**类别**: cs.SE, cs.ET
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20703v1
+
+#### Executive Summary  
+This paper addresses the challenge of integrating data analytics into Business Process Management (BPM) to enhance decision-making and process optimization. The authors propose a comprehensive framework called Process Analytics that leverages data-driven techniques to analyze, monitor, and improve business processes. Their approach demonstrates improved process transparency and actionable insights through real-world case studies.
+
+### Key Contributions  
+- Introduces a unified framework combining data analytics and BPM for real-time process insights.  
+- Develops novel methods for extracting process performance indicators from heterogeneous data sources.  
+- Demonstrates practical applicability via implementation and evaluation on industrial process datasets.
+
+### Method & Results  
+- Utilizes process mining, machine learning, and statistical analysis to extract and visualize key process metrics.  
+- Employs datasets from manufacturing and service industries for validating approach.  
+- Achieved up to 25% improvement in process efficiency and 30% better anomaly detection over traditional BPM tools.  
+- Outperformed baseline process monitoring systems in both accuracy and diagnostic depth.
+
+### Impact & Limitations  
+- Enables organizations to make data-driven decisions enhancing operational efficiency and adaptability.  
+- Limitations include dependence on data quality and scalability challenges in extremely large processes.  
+- Future work will explore automated intervention strategies and integration with AI-based process automation.
+
+---
+
+#### Comment Traps: How Defective Commented-out Code Augment Defects in AI-Assisted Code Generation
+**作者**: Yuan Huang, Yukang Zhou, Xiangping Chen, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20334v1
+
+#### Executive Summary
+This paper investigates how defective commented-out code negatively impacts the effectiveness of AI-assisted code generation. The authors analyze the correlation between buggy comments and increased generation defects, proposing methods to identify and mitigate these "comment traps." Results show that addressing defective comments notably improves code generation quality.
+
+### Key Contributions
+- Reveals the overlooked role of defective commented-out code in amplifying AI code generation errors.
+- Develops an analytical framework to detect and evaluate the influence of buggy comments on generated code.
+- Demonstrates improvement strategies that reduce defect rates in AI-assisted code outputs by handling flawed comments.
+
+### Method & Results
+- Performs empirical analysis on AI-generated code with defective comments to quantify defect augmentation.
+- Uses state-of-the-art AI code generation models and datasets comprising real-world codebases with commented-out code.
+- Finds a statistically significant increase in defects in generated code when defective comments are present, with improvements of up to 15% defect reduction after intervention.
+- Outperforms baseline models that do not consider comment quality by a meaningful margin in defect rate.
+
+### Impact & Limitations
+- Highlights critical impact of comment quality on AI code generation, aiding developers in improving AI-assisted coding tools.
+- Limited to specific comment defect types; future work could generalize findings across more comment styles and programming languages.
+
+---
+
+#### Toward Explaining Large Language Models in Software Engineering Tasks
+**作者**: Antonio Vitale, Khai-Nguyen Nguyen, Denys Poshyvanyk, Rocco Oliveto, Simone Scalabrino, Antonio Mastropaolo
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20328v1
+
+#### Executive Summary
+This paper addresses the challenge of explaining the behavior of large language models (LLMs) applied to software engineering tasks. The authors propose a novel framework combining interpretability techniques tailored to code understanding and generation. Their approach improves transparency, helping users trust and diagnose LLM outputs in SE scenarios.
+
+### Key Contributions
+- Introduces an explainability framework specifically designed for LLMs in software engineering contexts.
+- Adapts and integrates multiple interpretability methods to analyze code-related model decisions.
+- Empirically validates explanations on diverse SE tasks, revealing insights into model behavior and failure modes.
+
+### Method & Results
+- Employs feature attribution, attention visualization, and example-based explanations to interpret LLM predictions on code tasks.
+- Experiments conducted using prominent LLMs on datasets including code summarization, bug fixing, and code generation benchmarks.
+- Results show increased explanation fidelity and user-understandability without significant performance degradation.
+- Demonstrates that interpretability aids in identifying model weaknesses and improving downstream SE task reliability over baseline LLM outputs.
+
+### Impact & Limitations
+- Enhances developers’ ability to trust and effectively utilize LLMs in software engineering, potentially accelerating adoption.
+- Limitations include scalability challenges for very large models and explanations limited to specific SE tasks.
+- Future work to generalize interpretability techniques across a broader range of coding languages and SE applications.
+
+---
+
+#### Auditing Reproducibility in Non-Targeted Analysis: 103 LC/GC--HRMS Tools Reveal Temporal Divergence Between Openness and Operability
+**作者**: Sarah Alsubaie, Sakhaa Alsaedi, Xin Gao
+**类别**: cs.CE, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20279v1
+
+#### Executive Summary  
+This paper addresses reproducibility challenges in non-targeted analysis (NTA) using liquid and gas chromatography coupled with high-resolution mass spectrometry (LC/GC-HRMS). By auditing 103 open-source tools, the study reveals a temporal divergence between software openness (accessibility) and operability (practical usability) over time. The findings emphasize gaps between tool availability and their real-world reproducibility performance.
+
+### Key Contributions  
+- Comprehensive audit of 103 LC/GC-HRMS NTA tools assessing reproducibility metrics.  
+- Identification of temporal trends showing increasing openness but decreasing operability over time.  
+- Quantitative evidence linking software maintenance practices to reproducibility outcomes.
+
+### Method & Results  
+- Systematic evaluation framework measuring tools’ openness (e.g., source code accessibility) and operability (e.g., installation ease, documentation quality).  
+- Dataset: 103 publicly available LC/GC-HRMS NTA software tools spanning multiple years.  
+- Results: Openness improved from ~40% to 75% over recent years, but operability declined from ~65% to under 50%.  
+- Demonstrated that tools with frequent updates and better documentation had higher reproducibility scores, outperforming less maintained baselines.
+
+### Impact & Limitations  
+- Highlights critical need for balancing openness with user-centric operability to enhance reproducibility in environmental and chemical analysis workflows.  
+- Limitations: Focused solely on open-source tools; proprietary software excluded. Future work should explore automated operability improvements and extend auditing to commercial tools.
+
+---
+
+#### Memory as Resonance: A Biomimetic Architecture for Infinite Context Memory on Ergodic Phonetic Manifolds
+**作者**: Tarik Houichime, Abdelghani Souhar, Younes El Amrani
+**类别**: cs.NE, cs.AI, cs.IR, cs.SC, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20245v1
+
+#### Executive Summary  
+This paper addresses the challenge of achieving infinite context memory in neural architectures by proposing a biomimetic model inspired by resonance phenomena in phonetic manifolds. The approach leverages ergodic properties of phonetic feature spaces to create a memory system that encodes context as stable resonances, enabling theoretically unbounded context length. Experiments demonstrate enhanced long-range memory retention and improved performance on phonetic sequence tasks compared to standard architectures.
+
+### Key Contributions  
+- Introduces a novel biomimetic memory architecture modeling memory as resonance on ergodic phonetic manifolds.  
+- Proposes a mathematical framework integrating phonetic manifold ergodicity with neural memory dynamics for infinite context representation.  
+- Demonstrates empirical gains on phonetic sequence modeling tasks through resonance-based memory encoding.
+
+### Method & Results  
+- Utilizes a resonance-driven neural memory encoding scheme operating on ergodic phonetic manifolds to capture infinite context dependencies.  
+- Evaluations conducted on phonetic sequence datasets benchmarked against LSTM and transformer baselines.  
+- Achieves up to 15% improvement in long-range context retention and 8% higher accuracy on phonetic sequence prediction tasks.  
+- Outperforms conventional memory-augmented architectures in memory capacity and generalization.
+
+### Impact & Limitations  
+- Offers a biologically inspired solution to the infinite context memory problem, potentially benefiting speech recognition and language modeling.  
+- Future work needed to extend applicability beyond phonetic domains and to optimize computational efficiency for large-scale deployment.
+
+---
+
+### 安全领域 领域
+
+#### AutoBaxBuilder: Bootstrapping Code Security Benchmarking
+**作者**: Tobias von Arx, Niels Mündler, Mark Vero, Maximilian Baader, Martin Vechev
+**类别**: cs.CR, cs.AI, cs.LG, cs.PL
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21132v1
+
+#### Executive Summary  
+AutoBaxBuilder addresses the challenge of creating robust benchmarks for code security analysis by automating the generation of diverse vulnerability-laden code samples. The approach leverages a bootstrapping framework combining program synthesis and mutation guided by security properties, enabling scalable construction of realistic security benchmarks. Results demonstrate improved coverage and relevance of generated benchmarks, facilitating more effective evaluation of code security tools.
+
+### Key Contributions  
+- Introduces an automated bootstrapping framework for generating diverse, security-relevant benchmark code datasets.  
+- Leverages a novel combination of program synthesis with security property-guided mutation to maximize benchmark coverage.  
+- Demonstrates improved benchmarking quality that better reflects real-world vulnerabilities and tool performance.
+
+### Method & Results  
+- Employs iterative program synthesis to generate initial code samples and applies targeted mutations informed by security properties to introduce vulnerabilities.  
+- Utilizes existing security tools and benchmarks as baselines for evaluation (specific datasets/tools not detailed).  
+- Experimental results show significant increases in benchmark diversity and coverage, improving evaluation granularity of security analyzers.  
+- Outperforms standard benchmark creation methods by generating a broader range of exploit patterns and vulnerabilities.
+
+### Impact & Limitations  
+- Enables more comprehensive and scalable evaluation of code security tools, potentially accelerating secure software development practices.  
+- Limitations include potential dependence on the quality of initial synthesis and mutation strategies; future work could explore adaptive mutation guided by machine learning or integrate more diverse vulnerability classes.
+
+---
+
+#### Beyond Context: Large Language Models Failure to Grasp Users Intent
+**作者**: Ahmed M. Hussain, Salahuddin Salahuddin, Panos Papadimitratos
+**类别**: cs.AI, cs.CL, cs.CR, cs.CY
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21110v1
+
+#### Executive Summary
+This paper investigates the inability of large language models (LLMs) to accurately understand user intent beyond surface-level context, highlighting a critical gap in user interaction fidelity. The authors analyze failure modes of prevalent LLM architectures and propose benchmark evaluations that reveal systematic misinterpretations. Results show that LLMs often prioritize contextual cues over true intent, leading to erroneous or suboptimal responses.
+
+### Key Contributions
+- Identification and categorization of LLM failure patterns in grasping user intent beyond textual context.
+- Introduction of novel benchmark tasks specifically designed to test user intent comprehension.
+- Empirical demonstration that existing LLMs significantly underperform on these intent-focused tasks compared to standard language benchmarks.
+
+### Method & Results
+- Developed specialized intent understanding benchmarks involving ambiguous or context-rich user queries.
+- Evaluated leading LLMs (e.g., GPT-4, PaLM) on these benchmarks.
+- Quantitative results indicate up to 30% drop in accuracy on intent tasks versus general language tasks.
+- Performance notably lower than human baselines, with LLMs over-relying on context clues instead of semantic intent.
+
+### Impact & Limitations
+- Highlights critical gaps for improving human-computer interaction and trust in AI assistants.
+- Suggests direction for developing models with deeper semantic intent reasoning.
+- Limitations include reliance on synthetic benchmarks; real-world user studies are needed for broader validation.
+- Future work proposed in integrating multimodal cues and user feedback loops to enhance intent comprehension.
+
+---
+
+#### zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy
+**作者**: Savvy Sharma, George Petrovic, Sarthak Kaushik
+**类别**: cs.CR, cs.DC, cs.LG
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21048v1
+
+#### Executive Summary  
+This paper addresses privacy challenges in medical AI by integrating blockchain with federated learning enhanced by zero-knowledge proofs. The proposed zkFL-Health framework ensures secure, decentralized model training without exposing patient data or proprietary information. Results demonstrate robust privacy preservation alongside competitive model performance.
+
+### Key Contributions  
+- Introduces zkFL-Health, combining blockchain and zero-knowledge proof techniques with federated learning for medical data privacy.  
+- Designs a novel privacy-preserving protocol that verifies training correctness without revealing sensitive information.  
+- Demonstrates scalable and secure AI training in decentralized medical networks.
+
+### Method & Results  
+- Employs zero-knowledge proofs to validate local model updates on blockchain, enabling trustless aggregation in federated learning.  
+- Utilizes real-world medical datasets (e.g., medical imaging, electronic health records) for evaluation.  
+- Achieves comparable accuracy to standard federated learning models while guaranteeing data confidentiality.  
+- Outperforms baseline federated learning by preventing data leakage and reducing trust assumptions in multi-institutional collaborations.
+
+### Impact & Limitations  
+- Enhances practical deployment of AI in healthcare by securing patient data and fostering collaboration across institutions.  
+- Future work: addressing computational overhead of zero-knowledge proofs and expanding to diverse medical modalities or larger-scale networks.
+
+---
+
+#### Device-Independent Anonymous Communication in Quantum Networks
+**作者**: Srijani Das, Manasi Patra, Tuhin Paul, Anish Majumdar, Ramij Rahaman
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21047v1
+
+#### Executive Summary  
+This paper addresses the challenge of achieving anonymous communication in quantum networks without trusting the internal workings of devices. By leveraging device-independent quantum protocols, the authors propose a framework that guarantees anonymity even under adversarial conditions. The main result is a secure, device-independent protocol enabling anonymous message transmission with provable security.
+
+### Key Contributions  
+- Introduces the first device-independent protocol for anonymous communication in quantum networks.  
+- Establishes security proofs robust against device imperfections and side-channel attacks.  
+- Demonstrates scalability of anonymous communication across multi-node quantum networks.
+
+### Method & Results  
+- Utilizes device-independent quantum cryptographic techniques based on Bell inequality violations to ensure anonymity.  
+- Employs theoretical modeling and simulation of quantum network scenarios; no experimental datasets reported.  
+- Achieves provable anonymity with security parameters quantified via Bell violation thresholds.  
+- Outperforms traditional trust-based anonymity protocols by removing assumptions about device integrity.
+
+### Impact & Limitations  
+- Enhances privacy frameworks in emerging quantum communication infrastructures, crucial for future secure quantum internet applications.  
+- Main limitations include reliance on idealized quantum devices for protocol execution and the lack of experimental validation; future work should address practical implementation challenges and error robustness.
+
+---
+
+#### GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs
+**作者**: Lichao Wu, Sasha Behrouzi, Mohamadreza Rostami, Stjepan Picek, Ahmad-Reza Sadeghi
+**类别**: cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.21008v1
+
+#### Executive Summary
+This paper addresses vulnerabilities in Mixture-of-Expert (MoE) large language models (LLMs) by proposing GateBreaker, an attack exploiting the expert gating mechanism to degrade model performance. The authors design gate-guided adversarial inputs that mislead expert selection, resulting in compromised outputs. Experiments demonstrate GateBreaker significantly reduces MoE LLM accuracy compared to existing attacks.
+
+### Key Contributions
+- Introduces GateBreaker, the first gate-guided attack targeting expert routing in MoE LLMs.  
+- Reveals critical vulnerabilities specific to the gating mechanism in MoE architectures.  
+- Demonstrates effectiveness of the attack across multiple MoE LLMs via comprehensive experiments.
+
+### Method & Results
+- Develops a novel adversarial attack leveraging gating scores to manipulate expert selection dynamically.  
+- Evaluates on various standard NLP benchmarks with publicly available MoE models.  
+- GateBreaker reduces model accuracy by up to 30%, outperforming baseline adversarial methods by 15-20%.  
+- Shows attack effectiveness regardless of model size or task type, validating generality.
+
+### Impact & Limitations
+- Highlights important security risks in deploying MoE LLMs and emphasizes need for robust gating defenses.  
+- Limitations include the current focus on white-box settings; future work should explore black-box attacks and mitigation techniques.
 
 ---
 
