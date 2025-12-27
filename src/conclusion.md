@@ -41504,18 +41504,18 @@ This paper addresses the slow convergence in Ray Search Optimization (RSO) for q
 #### Executive Summary  
 This paper addresses the challenge of integrating data analytics into Business Process Management (BPM) to enhance decision-making and process optimization. The authors propose a comprehensive framework called Process Analytics that leverages data-driven techniques to analyze, monitor, and improve business processes. Their approach demonstrates improved process transparency and actionable insights through real-world case studies.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a unified framework combining data analytics and BPM for real-time process insights.  
 - Develops novel methods for extracting process performance indicators from heterogeneous data sources.  
 - Demonstrates practical applicability via implementation and evaluation on industrial process datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes process mining, machine learning, and statistical analysis to extract and visualize key process metrics.  
 - Employs datasets from manufacturing and service industries for validating approach.  
 - Achieved up to 25% improvement in process efficiency and 30% better anomaly detection over traditional BPM tools.  
 - Outperformed baseline process monitoring systems in both accuracy and diagnostic depth.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to make data-driven decisions enhancing operational efficiency and adaptability.  
 - Limitations include dependence on data quality and scalability challenges in extremely large processes.  
 - Future work will explore automated intervention strategies and integration with AI-based process automation.
@@ -41584,18 +41584,18 @@ This paper addresses the challenge of explaining the behavior of large language 
 #### Executive Summary  
 This paper addresses reproducibility challenges in non-targeted analysis (NTA) using liquid and gas chromatography coupled with high-resolution mass spectrometry (LC/GC-HRMS). By auditing 103 open-source tools, the study reveals a temporal divergence between software openness (accessibility) and operability (practical usability) over time. The findings emphasize gaps between tool availability and their real-world reproducibility performance.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive audit of 103 LC/GC-HRMS NTA tools assessing reproducibility metrics.  
 - Identification of temporal trends showing increasing openness but decreasing operability over time.  
 - Quantitative evidence linking software maintenance practices to reproducibility outcomes.
 
-### Method & Results  
+### Method & Results
 - Systematic evaluation framework measuring tools’ openness (e.g., source code accessibility) and operability (e.g., installation ease, documentation quality).  
 - Dataset: 103 publicly available LC/GC-HRMS NTA software tools spanning multiple years.  
 - Results: Openness improved from ~40% to 75% over recent years, but operability declined from ~65% to under 50%.  
 - Demonstrated that tools with frequent updates and better documentation had higher reproducibility scores, outperforming less maintained baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical need for balancing openness with user-centric operability to enhance reproducibility in environmental and chemical analysis workflows.  
 - Limitations: Focused solely on open-source tools; proprietary software excluded. Future work should explore automated operability improvements and extend auditing to commercial tools.
 
@@ -41610,18 +41610,18 @@ This paper addresses reproducibility challenges in non-targeted analysis (NTA) u
 #### Executive Summary  
 This paper addresses the challenge of achieving infinite context memory in neural architectures by proposing a biomimetic model inspired by resonance phenomena in phonetic manifolds. The approach leverages ergodic properties of phonetic feature spaces to create a memory system that encodes context as stable resonances, enabling theoretically unbounded context length. Experiments demonstrate enhanced long-range memory retention and improved performance on phonetic sequence tasks compared to standard architectures.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel biomimetic memory architecture modeling memory as resonance on ergodic phonetic manifolds.  
 - Proposes a mathematical framework integrating phonetic manifold ergodicity with neural memory dynamics for infinite context representation.  
 - Demonstrates empirical gains on phonetic sequence modeling tasks through resonance-based memory encoding.
 
-### Method & Results  
+### Method & Results
 - Utilizes a resonance-driven neural memory encoding scheme operating on ergodic phonetic manifolds to capture infinite context dependencies.  
 - Evaluations conducted on phonetic sequence datasets benchmarked against LSTM and transformer baselines.  
 - Achieves up to 15% improvement in long-range context retention and 8% higher accuracy on phonetic sequence prediction tasks.  
 - Outperforms conventional memory-augmented architectures in memory capacity and generalization.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a biologically inspired solution to the infinite context memory problem, potentially benefiting speech recognition and language modeling.  
 - Future work needed to extend applicability beyond phonetic domains and to optimize computational efficiency for large-scale deployment.
 
@@ -41638,18 +41638,18 @@ This paper addresses the challenge of achieving infinite context memory in neura
 #### Executive Summary  
 AutoBaxBuilder addresses the challenge of creating robust benchmarks for code security analysis by automating the generation of diverse vulnerability-laden code samples. The approach leverages a bootstrapping framework combining program synthesis and mutation guided by security properties, enabling scalable construction of realistic security benchmarks. Results demonstrate improved coverage and relevance of generated benchmarks, facilitating more effective evaluation of code security tools.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an automated bootstrapping framework for generating diverse, security-relevant benchmark code datasets.  
 - Leverages a novel combination of program synthesis with security property-guided mutation to maximize benchmark coverage.  
 - Demonstrates improved benchmarking quality that better reflects real-world vulnerabilities and tool performance.
 
-### Method & Results  
+### Method & Results
 - Employs iterative program synthesis to generate initial code samples and applies targeted mutations informed by security properties to introduce vulnerabilities.  
 - Utilizes existing security tools and benchmarks as baselines for evaluation (specific datasets/tools not detailed).  
 - Experimental results show significant increases in benchmark diversity and coverage, improving evaluation granularity of security analyzers.  
 - Outperforms standard benchmark creation methods by generating a broader range of exploit patterns and vulnerabilities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more comprehensive and scalable evaluation of code security tools, potentially accelerating secure software development practices.  
 - Limitations include potential dependence on the quality of initial synthesis and mutation strategies; future work could explore adaptive mutation guided by machine learning or integrate more diverse vulnerability classes.
 
@@ -41692,18 +41692,18 @@ This paper investigates the inability of large language models (LLMs) to accurat
 #### Executive Summary  
 This paper addresses privacy challenges in medical AI by integrating blockchain with federated learning enhanced by zero-knowledge proofs. The proposed zkFL-Health framework ensures secure, decentralized model training without exposing patient data or proprietary information. Results demonstrate robust privacy preservation alongside competitive model performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces zkFL-Health, combining blockchain and zero-knowledge proof techniques with federated learning for medical data privacy.  
 - Designs a novel privacy-preserving protocol that verifies training correctness without revealing sensitive information.  
 - Demonstrates scalable and secure AI training in decentralized medical networks.
 
-### Method & Results  
+### Method & Results
 - Employs zero-knowledge proofs to validate local model updates on blockchain, enabling trustless aggregation in federated learning.  
 - Utilizes real-world medical datasets (e.g., medical imaging, electronic health records) for evaluation.  
 - Achieves comparable accuracy to standard federated learning models while guaranteeing data confidentiality.  
 - Outperforms baseline federated learning by preventing data leakage and reducing trust assumptions in multi-institutional collaborations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical deployment of AI in healthcare by securing patient data and fostering collaboration across institutions.  
 - Future work: addressing computational overhead of zero-knowledge proofs and expanding to diverse medical modalities or larger-scale networks.
 
@@ -41718,18 +41718,18 @@ This paper addresses privacy challenges in medical AI by integrating blockchain 
 #### Executive Summary  
 This paper addresses the challenge of achieving anonymous communication in quantum networks without trusting the internal workings of devices. By leveraging device-independent quantum protocols, the authors propose a framework that guarantees anonymity even under adversarial conditions. The main result is a secure, device-independent protocol enabling anonymous message transmission with provable security.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first device-independent protocol for anonymous communication in quantum networks.  
 - Establishes security proofs robust against device imperfections and side-channel attacks.  
 - Demonstrates scalability of anonymous communication across multi-node quantum networks.
 
-### Method & Results  
+### Method & Results
 - Utilizes device-independent quantum cryptographic techniques based on Bell inequality violations to ensure anonymity.  
 - Employs theoretical modeling and simulation of quantum network scenarios; no experimental datasets reported.  
 - Achieves provable anonymity with security parameters quantified via Bell violation thresholds.  
 - Outperforms traditional trust-based anonymity protocols by removing assumptions about device integrity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances privacy frameworks in emerging quantum communication infrastructures, crucial for future secure quantum internet applications.  
 - Main limitations include reliance on idealized quantum devices for protocol execution and the lack of experimental validation; future work should address practical implementation challenges and error robustness.
 
@@ -41758,6 +41758,277 @@ This paper addresses vulnerabilities in Mixture-of-Expert (MoE) large language m
 ### Impact & Limitations
 - Highlights important security risks in deploying MoE LLMs and emphasizes need for robust gating defenses.  
 - Limitations include the current focus on white-box settings; future work should explore black-box attacks and mitigation techniques.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-27)
+
+### 软件工程 领域
+
+#### Well Begun is Half Done: Location-Aware and Trace-Guided Iterative Automated Vulnerability Repair
+**作者**: Zhenlei Ye, Xiaobing Sun, Sicong Cao, Lili Bo, Bin Li
+**类别**: cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20203v1
+
+#### Executive Summary  
+This paper addresses the challenge of automated vulnerability repair by leveraging location-aware and trace-guided iterative techniques to improve patch precision. The approach integrates dynamic execution traces with static fault localization to guide repair steps, demonstrating significant improvements in fixing software vulnerabilities. Experimental results validate enhanced repair accuracy and efficiency over existing methods.
+
+### Key Contributions  
+- Introduces a novel location-aware, trace-guided iterative framework for automated vulnerability repair.  
+- Combines dynamic execution trace information with static analysis to improve fault localization and patch generation.  
+- Demonstrates iterative refinement of patches to enhance correctness and reduce overfitting.
+
+### Method & Results  
+- Methodology: Integrates static fault localization with execution trace analysis; iteratively generates and validates patches to refine repair.  
+- Datasets/tools: Evaluated on real-world vulnerability benchmarks and test suites; leverages standard vulnerability datasets and execution tracing tools.  
+- Results: Achieves higher repair precision with up to XX% improvement in patch correctness compared to state-of-the-art baselines.  
+- Outperforms existing automated repair techniques in both accuracy and number of vulnerabilities fixed.
+
+### Impact & Limitations  
+- Significance: Enables more reliable and efficient automated vulnerability fixes, reducing manual debugging effort and improving software security.  
+- Limitations/Future Work: May face challenges with complex multi-location bugs; future work could explore scalability and broader language support.
+
+---
+
+#### AXIOM: Benchmarking LLM-as-a-Judge for Code via Rule-Based Perturbation and Multisource Quality Calibration
+**作者**: Ruiqi Wang, Xinchen Wang, Cuiyun Gao, Chun Yong Chong, Xin Xia, Qing Liao
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20159v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating code generation quality by Large Language Models (LLMs) acting as judges. It proposes AXIOM, a benchmark leveraging rule-based perturbations and multisource quality calibrations to systematically assess and calibrate LLMs’ judgment reliability. Results demonstrate improved robustness and alignment with human evaluation compared to prior approaches.
+
+### Key Contributions  
+- Introduces AXIOM, a novel benchmark framework combining rule-based perturbations with multisource quality calibration for LLM assessing code quality.  
+- Reveals weaknesses in existing LLM-as-judge methods and provides systematic calibration to enhance judgment accuracy.  
+- Establishes open-source datasets and protocols to foster standardized evaluation of LLM judges in code-related tasks.
+
+### Method & Results  
+- Method: Applies syntactic and semantic perturbations to code samples along with quality scores from diverse sources to calibrate LLM judgment consistency.  
+- Tools/Datasets: Curated multisource code quality annotations and crafted perturbation sets for robust evaluation.  
+- Results: Demonstrates that AXIOM-calibrated LLM judges outperform baselines in detecting nuanced code errors, improving correlation with human judgments by notable margins (e.g., correlation improvements of ~10-15%).  
+- Compared to standard benchmarks and uncalibrated LLM evaluations, AXIOM shows higher reliability and discriminative power.
+
+### Impact & Limitations  
+- Impact: Provides a practical and replicable framework to enhance automated LLM judging, potentially accelerating code generation evaluation and improving downstream model training.  
+- Limitations: Current perturbations might not cover all real-world code issues; future work can expand evaluation scenarios and incorporate more diverse programming languages and complex bugs.
+
+---
+
+#### Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorphic Testing
+**作者**: Wenzhao Wu, Yahui Tang, Mingfei Cheng, Wenbing Tang, Yuan Zhou, Yang Liu
+**类别**: cs.SE, cs.RO
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20083v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting non-optimal decisions made by embodied agents, which are crucial for applications in robotics and autonomous systems. The authors propose a novel diversity-guided metamorphic testing framework that systematically generates diverse test scenarios to reveal suboptimal behaviors. Experimental results demonstrate the framework’s effectiveness in identifying decision flaws that traditional methods miss.
+
+### Key Contributions  
+- Introduces a diversity-guided metamorphic testing approach tailored for embodied agents’ decision-making evaluation.  
+- Develops novel metamorphic relations to capture non-optimality in agent actions.  
+- Empirically validates the method with improved fault detection compared to existing testing techniques.  
+
+### Method & Results  
+- Methodology: Constructs diverse test cases guided by diversity metrics and applies metamorphic relations to detect deviations from optimal decision patterns.  
+- Tools/Datasets: Tested on multiple simulated embodied agent platforms with benchmark decision-making tasks (specific platforms not detailed).  
+- Results: Achieved significantly higher detection rate of suboptimal decisions, quantifiably outperforming baseline testing methods by an unspecified margin.  
+- Baseline Comparison: Demonstrated superior fault localization and coverage relative to standard metamorphic and random testing approaches.  
+
+### Impact & Limitations  
+- Impact: Enhances reliability and safety assurance in robotics by enabling systematic detection of decision inefficiencies before deployment.  
+- Limitations/Future Work: Requires evaluation on real-world robotic systems and extension to dynamic environments with continuous adaptation.
+
+---
+
+#### BacAlarm: Mining and Simulating Composite API Traffic to Prevent Broken Access Control Violations
+**作者**: Yanjing Yang, He Zhang, Bohan Liu, Jinwei Xu, Jinghao Hu, Liming Dong, Zhewen Mao, Dongxue Pan
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.19997v1
+
+#### Executive Summary  
+This paper addresses the challenge of Broken Access Control (BAC) violations in composite API traffic within modern web services. The authors propose BacAlarm, a system that mines and simulates composite API interactions to detect and prevent BAC violations before deployment. Their approach effectively identifies access control flaws with high accuracy and low false positives.
+
+### Key Contributions  
+- Introduces BacAlarm, the first system to mine and simulate composite API call sequences for BAC vulnerability detection.  
+- Proposes a novel traffic mining technique to reconstruct realistic composite API interactions from distributed logs.  
+- Demonstrates automated prevention of BAC violations through simulation-driven testing prior to production.
+
+### Method & Results  
+- Method: Mining composite API traffic patterns; simulating these patterns to detect unauthorized access attempts dynamically.  
+- Datasets/Tools: Real-world API logs from multiple large-scale web services applications.  
+- Results: Achieved over 90% detection accuracy and reduced false positives by 30% compared to state-of-the-art baselines.  
+- Outperformed existing access control testing tools in both detection precision and recall.
+
+### Impact & Limitations  
+- Practical Significance: Enables proactive BAC vulnerability mitigation in complex API ecosystems, improving overall service security.  
+- Limitations/Future Work:  
+  - Handling encrypted or obfuscated API traffic remains challenging.  
+  - Extending BacAlarm to support diverse API protocols and dynamic authorization models.
+
+---
+
+#### Neuron-Guided Interpretation of Code LLMs: Where, Why, and How?
+**作者**: Zhe Yin, Xiaodong Gu, Beijun Shen
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.19980v1
+
+#### Executive Summary
+This paper addresses the challenge of interpreting code-focused Large Language Models (LLMs) by identifying and analyzing individual neurons responsible for specific behaviors. The authors propose a neuron-guided interpretability framework that reveals where important code semantics are encoded, why certain decisions are made, and how these neurons contribute to model predictions. Their approach demonstrates improved insights into model internals and enhanced explainability over existing methods.
+
+### Key Contributions
+- Introduces a novel neuron-centric framework for interpreting code LLMs that links neuron activations to specific code semantics and decision-making processes.
+- Provides systematic analysis of where influential neurons reside within the model and quantifies their contribution to predictions.
+- Offers actionable insights for debugging and improving code LLMs through neuron-level interventions.
+
+### Method & Results
+- Methodology: Combines neuron attribution techniques with code-specific probing and ablation studies to identify key neurons related to code understanding.
+- Tools/Datasets: Evaluated on prominent code LLMs trained on large-scale code datasets (specific datasets not detailed).
+- Results: Identifies small subsets of neurons that disproportionately affect model output, improving interpretability metrics by a significant margin (exact quantitative gains not specified).
+- Performance: Demonstrates superiority over baseline interpretability methods that do not consider neuron-level information.
+
+### Impact & Limitations
+- Impact: Enhances transparency and trust in code LLMs, facilitating better model debugging and potential fine-tuning strategies targeting specific neurons.
+- Limitations/Future Work: Requires extension to diverse model architectures and code domains; scalability and real-time interpretability remain open challenges.
+
+---
+
+### 安全领域 领域
+
+#### AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs
+**作者**: Yihan Wang, Huanqi Yang, Shantanu Pal, Weitao Xu
+**类别**: cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.20986v1
+
+#### Executive Summary
+This paper addresses the challenge of prompt injection attacks targeting Large Language Model-based Human-Agent Referrals (LLM-HARs). It proposes AegisAgent, an autonomous defense agent that detects and mitigates malicious prompt injections to preserve system integrity. Experiments demonstrate that AegisAgent effectively reduces successful attacks without degrading service quality.
+
+### Key Contributions
+- Introduction of AegisAgent, the first autonomous defense mechanism tailored for prompt injection attacks in LLM-HAR systems.
+- Novel detection and mitigation strategies combining behavioral analysis with adaptive response techniques.
+- Comprehensive evaluation showing significant improvement over existing defense baselines.
+
+### Method & Results
+- Developed a proactive agent that monitors prompt integrity, detects injection patterns, and autonomously neutralizes threats.
+- Used custom LLM-HAR datasets simulating prompt injection scenarios for training and evaluation.
+- Achieved a detection accuracy of over 92% and reduced attack success rates by approximately 85%.
+- Outperformed baseline defenses by a margin of 20-30% in detection precision and robustness.
+
+### Impact & Limitations
+- Enhances security and reliability of LLM-HAR deployments in sensitive applications, enabling safer human-agent collaboration.
+- Limitations include dependency on training data representativeness and potential challenges adapting to evolving attack vectors; future work may explore continuous learning and broader threat coverage.
+
+---
+
+#### Neutralization of IMU-Based GPS Spoofing Detection using external IMU sensor and feedback methodology
+**作者**: Ji Hyuk Jung, Ji Won Yoon
+**类别**: cs.CR
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.20964v1
+
+#### Executive Summary
+This paper addresses the vulnerability of IMU-based GPS spoofing detection systems by proposing a neutralization technique that leverages an external IMU sensor combined with feedback methodology. The approach demonstrates that spoofing attacks can be effectively masked, challenging the robustness of current detection mechanisms.
+
+### Key Contributions
+- Introduces an external IMU sensor integration to bypass IMU-based GPS spoofing detection.
+- Proposes a feedback control method to align spoofed GPS signals with inertial measurements.
+- Demonstrates vulnerability exploitation in existing spoofing detection frameworks.
+
+### Method & Results
+- Utilizes an external IMU to feed spoofed positional data, harmonized through feedback loops to mimic legitimate IMU readings.
+- Experiments conducted using standard GPS spoofing simulation setups with IMU sensors.
+- Quantitatively shows significant reduction in detection rates of spoofing attacks, outperforming baseline detection systems by decreasing false alarms and missed detections.
+- Validates approach on datasets simulating real-world GPS spoofing scenarios.
+
+### Impact & Limitations
+- Highlights critical weaknesses in IMU-based GPS spoof detection, urging development of more resilient systems in navigation security.
+- Limitations include reliance on external IMU accuracy and potential complexity in real-time adaptive feedback; future work may explore more robust multi-sensor fusion defenses.
+
+---
+
+#### Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classification
+**作者**: Jakir Hossain, Gurvinder Singh, Lukasz Ziarek, Ahmet Erdem Sarıyüce
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.20872v1
+
+#### Executive Summary
+This paper addresses the challenge of improving malware classification using function call graphs (FCGs). The authors introduce "Better Call Graphs," a novel dataset of FCGs extracted from diverse malware samples, demonstrating improved classification performance using graph-based models. Their approach substantially outperforms existing benchmarks in malware detection accuracy.
+
+### Key Contributions
+- Creation of a large-scale, diverse dataset of function call graphs tailored for malware classification.
+- Demonstration that graph neural networks leveraging the new dataset outperform traditional malware classification methods.
+- Introduction of novel preprocessing techniques for enhanced feature extraction from binary executables’ call graphs.
+
+### Method & Results
+- Proposed method leverages graph neural networks (GNNs) trained on function call graphs representing malware behavior.
+- Dataset comprises thousands of malware binaries from multiple sources, curated and labeled for classification tasks.
+- Achieved classification accuracy improvement of up to 15% over baseline models using raw binary features or byte sequences.
+- Outperformed standard machine learning and deep learning baselines on common malware datasets in both accuracy and robustness.
+
+### Impact & Limitations
+- Provides a valuable resource and benchmark for the malware research community to develop more effective graph-based detection tools.
+- Future work includes extending datasets to cover more malware families and refining graph feature extraction for real-time detection scenarios.
+- Potential limitation: scalability challenges for extremely large graphs and evolving malware tactics requiring continual dataset updates.
+
+---
+
+#### pokiSEC: A Multi-Architecture, Containerized Ephemeral Malware Detonation Sandbox
+**作者**: Alejandro Avina, Yashas Hariprasad, Naveen Kumar Chaudhary
+**类别**: cs.CR, cs.OS
+**发布日期**: 2025-12-24
+**链接**: http://arxiv.org/abs/2512.20860v1
+
+#### Executive Summary  
+pokiSEC addresses the challenge of safely analyzing malware across diverse system architectures by introducing a multi-architecture, containerized ephemeral sandbox. The approach enables automated malware detonation within isolated container environments that self-destruct after use, ensuring security and scalability. Experimental evaluation demonstrates effective containment and cross-architecture compatibility with minimal overhead.
+
+### Key Contributions  
+- Developed a container-based ephemeral sandbox supporting multiple CPU architectures for malware analysis.  
+- Automated lifecycle management ensuring sandbox destruction post-detonation for security and resource efficiency.  
+- Demonstrated seamless integration and scalability in a modular, extensible framework.
+
+### Method & Results  
+- Utilizes container orchestration combined with multi-architecture virtualization to run malware samples in isolated environments.  
+- Employed real-world malware samples collected from open repositories for validation.  
+- Achieved consistent sandbox spin-up and teardown times under 30 seconds, with zero contamination across runs.  
+- Outperformed traditional VM-based sandboxes in deployment speed and resource utilization.
+
+### Impact & Limitations  
+- Enhances malware analysts’ capabilities by providing a secure, flexible, and scalable environment adaptable to emerging malware architectures.  
+- Limitations include dependence on container runtime security and incomplete emulation of all hardware features; future work aims to enhance fidelity and support wider architectures.
+
+---
+
+#### Sark: Oblivious Integrity Without Global State
+**作者**: Alex Lynham, David Alesch, Ziyi Li, Geoff Goodell
+**类别**: cs.CR, cs.CY
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20775v1
+
+#### Executive Summary
+This paper addresses the challenge of ensuring data integrity in systems without relying on a global state, which often compromises privacy and efficiency. Sark presents a novel oblivious integrity verification mechanism that decouples integrity checks from global state management. The approach achieves strong security guarantees while maintaining scalability and minimal performance overhead.
+
+### Key Contributions
+- Introduces Sark, the first oblivious integrity scheme eliminating the need for global state synchronization.
+- Develops cryptographic protocols enabling efficient, state-independent integrity verification.
+- Demonstrates practical feasibility through implementation and performance evaluation.
+
+### Method & Results
+- Utilizes cryptographic primitives and oblivious data structures to verify data integrity locally.
+- Evaluated using benchmark cryptography and secure system toolkits.
+- Achieves integrity assurance with overhead reduced by up to 40% compared to global state methods.
+- Outperforms baseline integrity verification techniques in scalability and resilience to state inconsistencies.
+
+### Impact & Limitations
+- Enables privacy-preserving, scalable integrity verification for distributed and blockchain-based systems.
+- Future work needed to optimize for dynamic data updates and to extend applicability to a broader range of distributed architectures.
 
 ---
 
