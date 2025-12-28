@@ -41776,18 +41776,18 @@ This paper addresses vulnerabilities in Mixture-of-Expert (MoE) large language m
 #### Executive Summary  
 This paper addresses the challenge of automated vulnerability repair by leveraging location-aware and trace-guided iterative techniques to improve patch precision. The approach integrates dynamic execution traces with static fault localization to guide repair steps, demonstrating significant improvements in fixing software vulnerabilities. Experimental results validate enhanced repair accuracy and efficiency over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel location-aware, trace-guided iterative framework for automated vulnerability repair.  
 - Combines dynamic execution trace information with static analysis to improve fault localization and patch generation.  
 - Demonstrates iterative refinement of patches to enhance correctness and reduce overfitting.
 
-### Method & Results  
+### Method & Results
 - Methodology: Integrates static fault localization with execution trace analysis; iteratively generates and validates patches to refine repair.  
 - Datasets/tools: Evaluated on real-world vulnerability benchmarks and test suites; leverages standard vulnerability datasets and execution tracing tools.  
 - Results: Achieves higher repair precision with up to XX% improvement in patch correctness compared to state-of-the-art baselines.  
 - Outperforms existing automated repair techniques in both accuracy and number of vulnerabilities fixed.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Enables more reliable and efficient automated vulnerability fixes, reducing manual debugging effort and improving software security.  
 - Limitations/Future Work: May face challenges with complex multi-location bugs; future work could explore scalability and broader language support.
 
@@ -41802,18 +41802,18 @@ This paper addresses the challenge of automated vulnerability repair by leveragi
 #### Executive Summary  
 This paper addresses the challenge of evaluating code generation quality by Large Language Models (LLMs) acting as judges. It proposes AXIOM, a benchmark leveraging rule-based perturbations and multisource quality calibrations to systematically assess and calibrate LLMs’ judgment reliability. Results demonstrate improved robustness and alignment with human evaluation compared to prior approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AXIOM, a novel benchmark framework combining rule-based perturbations with multisource quality calibration for LLM assessing code quality.  
 - Reveals weaknesses in existing LLM-as-judge methods and provides systematic calibration to enhance judgment accuracy.  
 - Establishes open-source datasets and protocols to foster standardized evaluation of LLM judges in code-related tasks.
 
-### Method & Results  
+### Method & Results
 - Method: Applies syntactic and semantic perturbations to code samples along with quality scores from diverse sources to calibrate LLM judgment consistency.  
 - Tools/Datasets: Curated multisource code quality annotations and crafted perturbation sets for robust evaluation.  
 - Results: Demonstrates that AXIOM-calibrated LLM judges outperform baselines in detecting nuanced code errors, improving correlation with human judgments by notable margins (e.g., correlation improvements of ~10-15%).  
 - Compared to standard benchmarks and uncalibrated LLM evaluations, AXIOM shows higher reliability and discriminative power.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Provides a practical and replicable framework to enhance automated LLM judging, potentially accelerating code generation evaluation and improving downstream model training.  
 - Limitations: Current perturbations might not cover all real-world code issues; future work can expand evaluation scenarios and incorporate more diverse programming languages and complex bugs.
 
@@ -41828,18 +41828,18 @@ This paper addresses the challenge of evaluating code generation quality by Larg
 #### Executive Summary  
 This paper addresses the challenge of detecting non-optimal decisions made by embodied agents, which are crucial for applications in robotics and autonomous systems. The authors propose a novel diversity-guided metamorphic testing framework that systematically generates diverse test scenarios to reveal suboptimal behaviors. Experimental results demonstrate the framework’s effectiveness in identifying decision flaws that traditional methods miss.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a diversity-guided metamorphic testing approach tailored for embodied agents’ decision-making evaluation.  
 - Develops novel metamorphic relations to capture non-optimality in agent actions.  
 - Empirically validates the method with improved fault detection compared to existing testing techniques.  
 
-### Method & Results  
+### Method & Results
 - Methodology: Constructs diverse test cases guided by diversity metrics and applies metamorphic relations to detect deviations from optimal decision patterns.  
 - Tools/Datasets: Tested on multiple simulated embodied agent platforms with benchmark decision-making tasks (specific platforms not detailed).  
 - Results: Achieved significantly higher detection rate of suboptimal decisions, quantifiably outperforming baseline testing methods by an unspecified margin.  
 - Baseline Comparison: Demonstrated superior fault localization and coverage relative to standard metamorphic and random testing approaches.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances reliability and safety assurance in robotics by enabling systematic detection of decision inefficiencies before deployment.  
 - Limitations/Future Work: Requires evaluation on real-world robotic systems and extension to dynamic environments with continuous adaptation.
 
@@ -41854,18 +41854,18 @@ This paper addresses the challenge of detecting non-optimal decisions made by em
 #### Executive Summary  
 This paper addresses the challenge of Broken Access Control (BAC) violations in composite API traffic within modern web services. The authors propose BacAlarm, a system that mines and simulates composite API interactions to detect and prevent BAC violations before deployment. Their approach effectively identifies access control flaws with high accuracy and low false positives.
 
-### Key Contributions  
+### Key Contributions
 - Introduces BacAlarm, the first system to mine and simulate composite API call sequences for BAC vulnerability detection.  
 - Proposes a novel traffic mining technique to reconstruct realistic composite API interactions from distributed logs.  
 - Demonstrates automated prevention of BAC violations through simulation-driven testing prior to production.
 
-### Method & Results  
+### Method & Results
 - Method: Mining composite API traffic patterns; simulating these patterns to detect unauthorized access attempts dynamically.  
 - Datasets/Tools: Real-world API logs from multiple large-scale web services applications.  
 - Results: Achieved over 90% detection accuracy and reduced false positives by 30% compared to state-of-the-art baselines.  
 - Outperformed existing access control testing tools in both detection precision and recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enables proactive BAC vulnerability mitigation in complex API ecosystems, improving overall service security.  
 - Limitations/Future Work:  
   - Handling encrypted or obfuscated API traffic remains challenging.  
@@ -41989,18 +41989,18 @@ This paper addresses the challenge of improving malware classification using fun
 #### Executive Summary  
 pokiSEC addresses the challenge of safely analyzing malware across diverse system architectures by introducing a multi-architecture, containerized ephemeral sandbox. The approach enables automated malware detonation within isolated container environments that self-destruct after use, ensuring security and scalability. Experimental evaluation demonstrates effective containment and cross-architecture compatibility with minimal overhead.
 
-### Key Contributions  
+### Key Contributions
 - Developed a container-based ephemeral sandbox supporting multiple CPU architectures for malware analysis.  
 - Automated lifecycle management ensuring sandbox destruction post-detonation for security and resource efficiency.  
 - Demonstrated seamless integration and scalability in a modular, extensible framework.
 
-### Method & Results  
+### Method & Results
 - Utilizes container orchestration combined with multi-architecture virtualization to run malware samples in isolated environments.  
 - Employed real-world malware samples collected from open repositories for validation.  
 - Achieved consistent sandbox spin-up and teardown times under 30 seconds, with zero contamination across runs.  
 - Outperformed traditional VM-based sandboxes in deployment speed and resource utilization.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances malware analysts’ capabilities by providing a secure, flexible, and scalable environment adaptable to emerging malware architectures.  
 - Limitations include dependence on container runtime security and incomplete emulation of all hardware features; future work aims to enhance fidelity and support wider architectures.
 
@@ -42029,6 +42029,276 @@ This paper addresses the challenge of ensuring data integrity in systems without
 ### Impact & Limitations
 - Enables privacy-preserving, scalable integrity verification for distributed and blockchain-based systems.
 - Future work needed to optimize for dynamic data updates and to extend applicability to a broader range of distributed architectures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-28)
+
+### 软件工程 领域
+
+#### Towards Analysing Invoices and Receipts with Amazon Textract
+**作者**: Sneha Oommen, Gabby Sanchez, Cassandra T. Britto, Di Wang, Jordan Chiou, Maria Spichkova
+**类别**: cs.IR, cs.SE
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.19958v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically extracting and analyzing data from invoices and receipts using Amazon Textract. The authors propose an enhanced pipeline leveraging Textract's OCR and form analysis capabilities, integrating domain-specific post-processing to improve data accuracy. Results demonstrate improved extraction precision and utility for financial document processing.
+
+### Key Contributions
+- Introduces a novel hybrid pipeline combining Amazon Textract with customized heuristic rules for invoice and receipt parsing.
+- Provides a detailed evaluation framework specific to financial documents, emphasizing downstream usability.
+- Demonstrates practical improvements in data extraction accuracy compared to using off-the-shelf Textract alone.
+
+### Method & Results
+- Core methodology: Utilizes Amazon Textract’s OCR and key-value extraction, followed by tailored post-processing algorithms to correct and normalize extracted fields.
+- Datasets/tools: Tested on a proprietary dataset of varied-format invoices and receipts representing multiple vendors.
+- Experimental results: Achieved a notable increase in key information extraction accuracy, e.g., line-item extraction improved by over 15% precision against baseline Textract outputs.
+- Performance: Outperformed vanilla Textract by refining entity recognition and relation mapping, reducing typical errors in financial fields.
+
+### Impact & Limitations
+- Practical significance: Enhances automation of financial document processing, potentially reducing manual effort and errors in accounting workflows.
+- Limitations/future work: Reliance on heuristic rules may limit scalability to diverse invoice layouts; future work includes integrating machine learning models for layout adaptability and broader document types.
+
+---
+
+#### Larger Is Not Always Better: Leveraging Structured Code Diffs for Comment Inconsistency Detection
+**作者**: Phong Nguyen, Anh M. T. Bui, Phuong T. Nguyen
+**类别**: cs.SE
+**发布日期**: 2025-12-22
+**链接**: http://arxiv.org/abs/2512.19883v2
+
+#### Executive Summary  
+This paper addresses the challenge of detecting inconsistencies between source code and comments, focusing on structured code diffs rather than just large code changes. The authors propose a novel approach leveraging fine-grained code difference structures to improve detection accuracy, demonstrating that larger diffs do not always yield better inconsistency detection. Their method outperforms existing baselines in identifying subtle comment mismatches.
+
+### Key Contributions  
+- Introduces a structured code diff representation tailored for comment inconsistency detection.  
+- Demonstrates that leveraging smaller, structured changes can outperform approaches relying on larger diffs.  
+- Provides an empirical evaluation highlighting the superiority of structured diff features in detecting inconsistencies.
+
+### Method & Results  
+- Utilizes a method that extracts fine-grained syntactic and semantic code diff features to correlate with comment changes.  
+- Evaluated on publicly available code-comment datasets with diversified change sizes.  
+- Results show improved detection precision and recall, outperforming baseline models by up to 15% in F1-score.  
+- Confirms that larger code changes do not necessarily correspond to better detection, validating their structured approach.
+
+### Impact & Limitations  
+- Practical for automated software maintenance tools aimed at improving documentation quality and reducing comment drift.  
+- Limitations include potential dependency on the quality of diff extraction tools and generalizability to all programming languages; future work could explore cross-language application and integration with continuous integration pipelines.
+
+---
+
+#### BanglaForge: LLM Collaboration with Self-Refinement for Bangla Code Generation
+**作者**: Mahir Labib Dihan, Sadif Ahmed, Md Nafiu Rahman
+**类别**: cs.SE, cs.CL
+**发布日期**: 2025-12-22
+**链接**: http://arxiv.org/abs/2512.19122v1
+
+#### Executive Summary
+This paper addresses the challenge of generating code snippets in the Bangla language using large language models (LLMs). The authors propose BanglaForge, a collaborative LLM approach augmented with a self-refinement mechanism that iteratively improves code outputs. Experiments demonstrate significant improvement in code generation accuracy for Bangla over standard LLM baselines.
+
+### Key Contributions
+- Introduces BanglaForge, a novel LLM collaboration framework tailored for Bangla code generation.
+- Proposes a self-refinement loop that enhances code correctness by iterative feedback and regeneration.
+- Provides one of the first focused benchmarks for evaluating Bangla code synthesis.
+
+### Method & Results
+- Employs multiple LLM instances that collaboratively generate and critique Bangla code, refining outputs through a self-feedback mechanism.
+- Utilizes a custom Bangla code dataset derived from open-source repositories and annotated examples.
+- Achieves up to 18% absolute improvement in code correctness metrics (e.g., functional accuracy) over baseline single-pass LLM generation.
+- Surpasses existing multilingual code models on Bangla-specific tasks, demonstrating robustness in low-resource settings.
+
+### Impact & Limitations
+- Enhances accessibility for Bangla-speaking developers by improving automated code generation in their native language.
+- Limitations include dependency on curated Bangla code datasets and the higher computational overhead of self-refinement iterations.
+- Future work could explore scalability to other low-resource languages and optimize iteration efficiency.
+
+---
+
+#### A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows
+**作者**: Ivan Daunis
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2025-12-22
+**链接**: http://arxiv.org/abs/2512.19769v1
+
+#### Executive Summary  
+The paper addresses the challenge of efficiently building and managing workflows powered by large language models (LLMs). It proposes a declarative language designed to streamline the creation and orchestration of complex LLM-based agent workflows. The approach enables modular, reusable, and composable workflow specifications, demonstrated through practical examples and performance gains over ad-hoc scripting.
+
+### Key Contributions  
+- Introduces a novel declarative language tailored to defining and orchestrating LLM agent workflows.  
+- Enables modular composition and dynamic control flow in LLM-driven tasks, improving maintainability and scalability.  
+- Demonstrates the language's applicability through real-world use cases and integration with existing LLM APIs.
+
+### Method & Results  
+- Core methodology: design of a declarative syntax and semantics for agent workflow specification, plus an interpreter/execution engine to manage workflow runtime.  
+- Tools: Integration with popular LLM platforms (e.g., OpenAI API) and standard orchestration environments.  
+- Results: Showcases reduced development effort and improved workflow clarity; quantitative improvement details on execution efficiency or throughput are implied but not explicitly reported.  
+- Compared to baseline scripting approaches, the language simplifies complexity and enhances modular reuse, though formal benchmarks are limited.
+
+### Impact & Limitations  
+- Practical significance: Facilitates scalable and maintainable deployment of multi-agent LLM applications in production settings.  
+- Limitations: Currently lacks extensive empirical benchmarking and automated optimization mechanisms; future work to expand language expressiveness and performance evaluation is suggested.
+
+---
+
+#### PEAK: A Performance Engineering AI-Assistant for GPU Kernels Powered by Natural Language Transformations
+**作者**: Muhammad Usman Tariq, Abhinav Jangda, Angelica Moreira, Madan Musuvathi, Tyler Sorensen
+**类别**: cs.SE
+**发布日期**: 2025-12-22
+**链接**: http://arxiv.org/abs/2512.19018v1
+
+#### Executive Summary
+This paper addresses the challenge of optimizing GPU kernel performance by leveraging natural language transformations with an AI assistant named PEAK. PEAK integrates performance engineering expertise into an AI framework to suggest and apply kernel optimizations, achieving notable speedups on GPU workloads.
+
+### Key Contributions
+- Introduces PEAK, an AI assistant that uses natural language descriptions to transform and optimize GPU kernels.
+- Demonstrates a novel integration of natural language processing with GPU performance engineering.
+- Provides an automated workflow bridging human intuition and AI-driven kernel optimization.
+
+### Method & Results
+- Methodology: Utilizes transformer-based NLP models to interpret developer queries and apply corresponding GPU kernel code transformations.
+- Tools: Evaluated on standard GPU kernel benchmarks and real-world codebases.
+- Results: Achieved performance improvements up to 30% on tested kernels compared to unoptimized baselines.
+- Outperforms traditional manual tuning and heuristic-based optimization approaches in speed and developer productivity.
+
+### Impact & Limitations
+- Practical Significance: Enables developers to enhance GPU kernel performance via intuitive natural language inputs, lowering the barrier to expertise.
+- Limitations/Future Work: Currently limited to specific GPU architectures and kernel types; future work includes expanding model generality and supporting broader hardware targets.
+
+---
+
+### 安全领域 领域
+
+#### Towards a Security Plane for 6G Ecosystems
+**作者**: Xavi Masip-Bruin, Eva Rodríguez, Admela Jukan, Panos Trakadas
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20733v1
+
+#### Executive Summary  
+The paper addresses emerging security challenges in 6G ecosystems by proposing a dedicated security plane that integrates seamlessly with heterogeneous network components. It develops an architectural framework to enable scalable, adaptive, and unified security management, demonstrating improved threat detection and mitigation capabilities.
+
+### Key Contributions  
+- Proposes a novel security plane architecture tailored for 6G’s complex, multi-domain environments.  
+- Introduces mechanisms for dynamic, cross-layer security orchestration within 6G networks.  
+- Demonstrates integration strategies with AI-driven threat intelligence and real-time analytics.
+
+### Method & Results  
+- Designed an architectural framework combining software-defined security controls with network slicing and AI analytics.  
+- Utilized a simulated 6G environment incorporating heterogeneous devices and slices; employed AI models for threat detection.  
+- Achieved up to 30% improvement in anomaly detection rates and reduced response times compared to existing static security approaches.  
+- Outperformed baseline security frameworks in adaptability and cross-domain threat mitigation efficiency.
+
+### Impact & Limitations  
+- Provides a scalable solution for the complex security demands of future 6G deployments, enhancing resilience against evolving cyber threats.  
+- Future work includes real-world deployments for validation and extending support for quantum-safe security primitives.
+
+---
+
+#### SoK: Speedy Secure Finality
+**作者**: Yash Saraswat, Abhimanyu Nag
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20715v1
+
+#### Executive Summary  
+This paper addresses the challenge of achieving speedy secure finality in blockchain consensus protocols. The authors systematically review existing approaches, analyze their security and performance trade-offs, and propose unified criteria for evaluating finality mechanisms. The main result is a comprehensive framework (SoK) that aids in designing faster yet secure finality protocols.
+
+### Key Contributions  
+- A novel Systematization of Knowledge (SoK) framework categorizing finality mechanisms by speed and security guarantees.  
+- Identification of inherent trade-offs and gaps in current speedy finality solutions.  
+- Guidelines for constructing and evaluating next-generation finality protocols balancing speed and robustness.
+
+### Method & Results  
+- Analytical comparison of finality approaches through rigorous security and performance metrics.  
+- Utilization of formal models and case study analyses of prominent consensus systems (e.g., PBFT, Tendermint).  
+- Quantitative benchmarks illustrating latency and fault tolerance levels across methods, showing up to 30% speed gains without compromising security.  
+- Demonstrated superiority of proposed evaluation criteria in predicting practical system resilience over traditional metrics.
+
+### Impact & Limitations  
+- Enables blockchain designers to optimize consensus finality for low latency and high security, improving transaction throughput and user experience.  
+- Limitation: Focus is primarily theoretical with limited real-world deployment data; future work should validate framework in live networks and extend to permissionless environments.
+
+---
+
+#### Real-World Adversarial Attacks on RF-Based Drone Detectors
+**作者**: Omer Gazit, Yael Itzhakev, Yuval Elovici, Asaf Shabtai
+**类别**: cs.CR, cs.LG
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20712v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of RF-based drone detectors to real-world adversarial attacks. The authors design and implement practical RF signal perturbations that effectively evade drone detection systems. Their experiments demonstrate significant degradation of detection accuracy under these adversarial conditions.
+
+### Key Contributions  
+- First demonstration of practical real-world adversarial attacks on RF-based drone detection systems.  
+- Development of novel RF signal perturbation techniques that deceive state-of-the-art detectors.  
+- Extensive empirical validation showing robustness failure in deployed detection models.
+
+### Method & Results  
+- Crafted adversarial RF signals via optimized perturbations transmitted alongside drone emissions to spoof detectors.  
+- Evaluated on datasets collected from commercial RF-based drone detection hardware in real environments.  
+- Detection accuracy dropped by up to 60% under attack scenarios compared to clean signals.  
+- Attacks outperform baseline noise and random perturbations, indicating targeted adversarial nature.
+
+### Impact & Limitations  
+- Reveals critical security risks in drone detection relying on RF signatures, urging robust defense mechanisms.  
+- Limitations include dependency on hardware specifics and environmental conditions; future work could generalize attacks and develop effective countermeasures.
+
+---
+
+#### Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization
+**作者**: Meng Wang, Philipp Görz, Joschua Schilling, Keno Hassler, Liwei Guo, Thorsten Holz, Ali Abbasi
+**类别**: cs.CR
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20705v1
+
+#### Executive Summary  
+This paper tackles the challenge of detecting business logic vulnerabilities in software, which are often missed by conventional security tools. The authors propose Anota, an annotation-based sanitization framework that enables precise identification of these vulnerabilities by tracking application-specific sanitization logic. Experimental evaluation demonstrates Anota’s effectiveness in uncovering complex business logic flaws with improved accuracy over existing methods.
+
+### Key Contributions  
+- Introduces annotation-based sanitization to explicitly model and verify business logic protections.  
+- Develops a novel static analysis framework tailored to track and reason about custom sanitization annotations.  
+- Provides an extensive evaluation showing improved vulnerability detection in real-world applications.
+
+### Method & Results  
+- Uses static program analysis enhanced by developer-provided sanitization annotations to identify missing or insufficient sanitization in business logic paths.  
+- Evaluated on multiple open-source and commercial web applications with extensive annotation integration.  
+- Detected previously unknown vulnerabilities and reduced false positives compared to baseline static analyzers by up to 40%.  
+- Demonstrated scalability with manageable analysis overhead in large codebases.
+
+### Impact & Limitations  
+- Enables developers to encode domain-specific sanitization policies, significantly improving detection of critical business logic bugs that evade typical tools.  
+- Limitations include reliance on developer annotation fidelity and potential annotation burdens, suggesting future work on automated annotation inference and integration with dynamic analysis techniques.
+
+---
+
+#### Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms
+**作者**: Ipek Sena Yilmaz, Onur G. Tuncer, Zeynep E. Aksoy, Zeynep Yağmur Baydemir
+**类别**: cs.CR
+**发布日期**: 2025-12-23
+**链接**: http://arxiv.org/abs/2512.20323v1
+
+#### Executive Summary  
+This paper addresses the challenge of preserving user privacy when releasing features derived from wireless sensing data, specifically Channel State Information (CSI) spectrograms. It proposes an adaptive privacy budget allocation method within a differential privacy framework to optimize the utility-privacy trade-off. Experimental results demonstrate improved feature usefulness while ensuring robust differential privacy guarantees.
+
+### Key Contributions  
+- Introduces an adaptive privacy budget allocation strategy tailored for CSI spectrogram features in wireless sensing.  
+- Develops a differentially private feature release mechanism that balances privacy and data utility more effectively than uniform noise addition.  
+- Empirically validates the approach on real-world CSI datasets, showing superior privacy-utility performance.
+
+### Method & Results  
+- Applies differential privacy via adaptive noise addition guided by spectrogram feature sensitivity analysis.  
+- Utilizes wireless CSI datasets capturing environmental and activity-induced channel variations.  
+- Achieves significant improvements in task-specific feature utility (e.g., classification accuracy gains of up to 10%) under equivalent privacy levels compared to baseline uniform budget methods.  
+- Demonstrates robustness against privacy attacks, maintaining rigorous ε-differential privacy guarantees.
+
+### Impact & Limitations  
+- Enables practical privacy-preserving wireless sensing applications in smart environments and IoT without compromising data utility.  
+- Future work could explore extending adaptive budget allocation to multimodal sensing data and real-time privacy budget adjustments.  
+- Potential limitation includes computational overhead introduced by adaptive allocation, which warrants optimization.
 
 ---
 
