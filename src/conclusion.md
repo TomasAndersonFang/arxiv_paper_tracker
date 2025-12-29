@@ -42073,18 +42073,18 @@ This paper addresses the challenge of automatically extracting and analyzing dat
 #### Executive Summary  
 This paper addresses the challenge of detecting inconsistencies between source code and comments, focusing on structured code diffs rather than just large code changes. The authors propose a novel approach leveraging fine-grained code difference structures to improve detection accuracy, demonstrating that larger diffs do not always yield better inconsistency detection. Their method outperforms existing baselines in identifying subtle comment mismatches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a structured code diff representation tailored for comment inconsistency detection.  
 - Demonstrates that leveraging smaller, structured changes can outperform approaches relying on larger diffs.  
 - Provides an empirical evaluation highlighting the superiority of structured diff features in detecting inconsistencies.
 
-### Method & Results  
+### Method & Results
 - Utilizes a method that extracts fine-grained syntactic and semantic code diff features to correlate with comment changes.  
 - Evaluated on publicly available code-comment datasets with diversified change sizes.  
 - Results show improved detection precision and recall, outperforming baseline models by up to 15% in F1-score.  
 - Confirms that larger code changes do not necessarily correspond to better detection, validating their structured approach.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for automated software maintenance tools aimed at improving documentation quality and reducing comment drift.  
 - Limitations include potential dependency on the quality of diff extraction tools and generalizability to all programming languages; future work could explore cross-language application and integration with continuous integration pipelines.
 
@@ -42126,18 +42126,18 @@ This paper addresses the challenge of generating code snippets in the Bangla lan
 #### Executive Summary  
 The paper addresses the challenge of efficiently building and managing workflows powered by large language models (LLMs). It proposes a declarative language designed to streamline the creation and orchestration of complex LLM-based agent workflows. The approach enables modular, reusable, and composable workflow specifications, demonstrated through practical examples and performance gains over ad-hoc scripting.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel declarative language tailored to defining and orchestrating LLM agent workflows.  
 - Enables modular composition and dynamic control flow in LLM-driven tasks, improving maintainability and scalability.  
 - Demonstrates the language's applicability through real-world use cases and integration with existing LLM APIs.
 
-### Method & Results  
+### Method & Results
 - Core methodology: design of a declarative syntax and semantics for agent workflow specification, plus an interpreter/execution engine to manage workflow runtime.  
 - Tools: Integration with popular LLM platforms (e.g., OpenAI API) and standard orchestration environments.  
 - Results: Showcases reduced development effort and improved workflow clarity; quantitative improvement details on execution efficiency or throughput are implied but not explicitly reported.  
 - Compared to baseline scripting approaches, the language simplifies complexity and enhances modular reuse, though formal benchmarks are limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Facilitates scalable and maintainable deployment of multi-agent LLM applications in production settings.  
 - Limitations: Currently lacks extensive empirical benchmarking and automated optimization mechanisms; future work to expand language expressiveness and performance evaluation is suggested.
 
@@ -42180,18 +42180,18 @@ This paper addresses the challenge of optimizing GPU kernel performance by lever
 #### Executive Summary  
 The paper addresses emerging security challenges in 6G ecosystems by proposing a dedicated security plane that integrates seamlessly with heterogeneous network components. It develops an architectural framework to enable scalable, adaptive, and unified security management, demonstrating improved threat detection and mitigation capabilities.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel security plane architecture tailored for 6G’s complex, multi-domain environments.  
 - Introduces mechanisms for dynamic, cross-layer security orchestration within 6G networks.  
 - Demonstrates integration strategies with AI-driven threat intelligence and real-time analytics.
 
-### Method & Results  
+### Method & Results
 - Designed an architectural framework combining software-defined security controls with network slicing and AI analytics.  
 - Utilized a simulated 6G environment incorporating heterogeneous devices and slices; employed AI models for threat detection.  
 - Achieved up to 30% improvement in anomaly detection rates and reduced response times compared to existing static security approaches.  
 - Outperformed baseline security frameworks in adaptability and cross-domain threat mitigation efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a scalable solution for the complex security demands of future 6G deployments, enhancing resilience against evolving cyber threats.  
 - Future work includes real-world deployments for validation and extending support for quantum-safe security primitives.
 
@@ -42206,18 +42206,18 @@ The paper addresses emerging security challenges in 6G ecosystems by proposing a
 #### Executive Summary  
 This paper addresses the challenge of achieving speedy secure finality in blockchain consensus protocols. The authors systematically review existing approaches, analyze their security and performance trade-offs, and propose unified criteria for evaluating finality mechanisms. The main result is a comprehensive framework (SoK) that aids in designing faster yet secure finality protocols.
 
-### Key Contributions  
+### Key Contributions
 - A novel Systematization of Knowledge (SoK) framework categorizing finality mechanisms by speed and security guarantees.  
 - Identification of inherent trade-offs and gaps in current speedy finality solutions.  
 - Guidelines for constructing and evaluating next-generation finality protocols balancing speed and robustness.
 
-### Method & Results  
+### Method & Results
 - Analytical comparison of finality approaches through rigorous security and performance metrics.  
 - Utilization of formal models and case study analyses of prominent consensus systems (e.g., PBFT, Tendermint).  
 - Quantitative benchmarks illustrating latency and fault tolerance levels across methods, showing up to 30% speed gains without compromising security.  
 - Demonstrated superiority of proposed evaluation criteria in predicting practical system resilience over traditional metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables blockchain designers to optimize consensus finality for low latency and high security, improving transaction throughput and user experience.  
 - Limitation: Focus is primarily theoretical with limited real-world deployment data; future work should validate framework in live networks and extend to permissionless environments.
 
@@ -42232,18 +42232,18 @@ This paper addresses the challenge of achieving speedy secure finality in blockc
 #### Executive Summary  
 This paper addresses the vulnerability of RF-based drone detectors to real-world adversarial attacks. The authors design and implement practical RF signal perturbations that effectively evade drone detection systems. Their experiments demonstrate significant degradation of detection accuracy under these adversarial conditions.
 
-### Key Contributions  
+### Key Contributions
 - First demonstration of practical real-world adversarial attacks on RF-based drone detection systems.  
 - Development of novel RF signal perturbation techniques that deceive state-of-the-art detectors.  
 - Extensive empirical validation showing robustness failure in deployed detection models.
 
-### Method & Results  
+### Method & Results
 - Crafted adversarial RF signals via optimized perturbations transmitted alongside drone emissions to spoof detectors.  
 - Evaluated on datasets collected from commercial RF-based drone detection hardware in real environments.  
 - Detection accuracy dropped by up to 60% under attack scenarios compared to clean signals.  
 - Attacks outperform baseline noise and random perturbations, indicating targeted adversarial nature.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Reveals critical security risks in drone detection relying on RF signatures, urging robust defense mechanisms.  
 - Limitations include dependency on hardware specifics and environmental conditions; future work could generalize attacks and develop effective countermeasures.
 
@@ -42258,18 +42258,18 @@ This paper addresses the vulnerability of RF-based drone detectors to real-world
 #### Executive Summary  
 This paper tackles the challenge of detecting business logic vulnerabilities in software, which are often missed by conventional security tools. The authors propose Anota, an annotation-based sanitization framework that enables precise identification of these vulnerabilities by tracking application-specific sanitization logic. Experimental evaluation demonstrates Anota’s effectiveness in uncovering complex business logic flaws with improved accuracy over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces annotation-based sanitization to explicitly model and verify business logic protections.  
 - Develops a novel static analysis framework tailored to track and reason about custom sanitization annotations.  
 - Provides an extensive evaluation showing improved vulnerability detection in real-world applications.
 
-### Method & Results  
+### Method & Results
 - Uses static program analysis enhanced by developer-provided sanitization annotations to identify missing or insufficient sanitization in business logic paths.  
 - Evaluated on multiple open-source and commercial web applications with extensive annotation integration.  
 - Detected previously unknown vulnerabilities and reduced false positives compared to baseline static analyzers by up to 40%.  
 - Demonstrated scalability with manageable analysis overhead in large codebases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to encode domain-specific sanitization policies, significantly improving detection of critical business logic bugs that evade typical tools.  
 - Limitations include reliance on developer annotation fidelity and potential annotation burdens, suggesting future work on automated annotation inference and integration with dynamic analysis techniques.
 
@@ -42284,21 +42284,262 @@ This paper tackles the challenge of detecting business logic vulnerabilities in 
 #### Executive Summary  
 This paper addresses the challenge of preserving user privacy when releasing features derived from wireless sensing data, specifically Channel State Information (CSI) spectrograms. It proposes an adaptive privacy budget allocation method within a differential privacy framework to optimize the utility-privacy trade-off. Experimental results demonstrate improved feature usefulness while ensuring robust differential privacy guarantees.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an adaptive privacy budget allocation strategy tailored for CSI spectrogram features in wireless sensing.  
 - Develops a differentially private feature release mechanism that balances privacy and data utility more effectively than uniform noise addition.  
 - Empirically validates the approach on real-world CSI datasets, showing superior privacy-utility performance.
 
-### Method & Results  
+### Method & Results
 - Applies differential privacy via adaptive noise addition guided by spectrogram feature sensitivity analysis.  
 - Utilizes wireless CSI datasets capturing environmental and activity-induced channel variations.  
 - Achieves significant improvements in task-specific feature utility (e.g., classification accuracy gains of up to 10%) under equivalent privacy levels compared to baseline uniform budget methods.  
 - Demonstrates robustness against privacy attacks, maintaining rigorous ε-differential privacy guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical privacy-preserving wireless sensing applications in smart environments and IoT without compromising data utility.  
 - Future work could explore extending adaptive budget allocation to multimodal sensing data and real-time privacy budget adjustments.  
 - Potential limitation includes computational overhead introduced by adaptive allocation, which warrants optimization.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-29)
+
+### 软件工程 领域
+
+#### Agentic Structured Graph Traversal for Root Cause Analysis of Code-related Incidents in Cloud Applications
+**作者**: Shengkun Cui, Rahul Krishna, Saurabh Jha, Ravishankar K. Iyer
+**类别**: cs.DC, cs.AI, cs.SE
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.22113v1
+
+#### Executive Summary  
+This paper addresses root cause analysis of code-related incidents in cloud applications by proposing an agentic structured graph traversal approach. The method models system components and their interactions as graphs, enabling an intelligent traversal that efficiently identifies fault origins. Experimental results demonstrate improved accuracy and speed over existing diagnostic techniques.
+
+### Key Contributions  
+- Introduces an agent-based structured graph traversal algorithm tailored for root cause analysis in cloud code incidents.  
+- Develops a novel graph representation capturing dependencies and interactions among cloud application components.  
+- Demonstrates significant improvements in diagnostic precision and response time compared to traditional heuristic and machine learning baselines.
+
+### Method & Results  
+- Constructs a dependency graph of cloud components and applies an agentic traversal strategy that dynamically prioritizes paths based on observed anomalies and historical data.  
+- Evaluated on a benchmark dataset of cloud application incident logs and simulated failures.  
+- Achieves up to 25% higher root cause identification accuracy and reduces analysis time by 30% relative to state-of-the-art baselines.
+
+### Impact & Limitations  
+- Enables faster and more accurate incident diagnosis in complex cloud environments, improving system reliability and reducing downtime.  
+- Future work includes adapting the approach for heterogeneous cloud stacks and incorporating real-time feedback to enhance traversal efficiency.
+
+---
+
+#### HALF: Process Hollowing Analysis Framework for Binary Programs with the Assistance of Kernel Modules
+**作者**: Zhangbo Long, Letian Sha, Jiaye Pan, Dongpeng Xu, Yifei Huang, Fu Xiao
+**类别**: cs.SE
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.22043v1
+
+#### Executive Summary  
+This paper addresses the challenge of reliably detecting process hollowing, a stealthy malware injection technique, by introducing HALF, a hybrid analysis framework leveraging kernel modules. HALF combines user-level and kernel-level monitoring to accurately trace and analyze hollowed processes, achieving improved detection fidelity.
+
+### Key Contributions  
+- Proposes a novel framework integrating kernel modules to enhance visibility into process hollowing behaviors.  
+- Develops a hybrid analysis technique that combines user-space and kernel-space data for accurate identification.  
+- Demonstrates enhanced detection performance over existing purely user-space or static analysis methods.
+
+### Method & Results  
+- Core methodology: implements a kernel module to monitor process creation and memory manipulation events alongside user-space instrumentation to analyze suspicious binaries dynamically.  
+- Tools/Datasets: Evaluated on real-world malware samples exhibiting process hollowing and benign software for false positive assessment.  
+- Results: Achieved higher detection accuracy and reduced false positives compared to baseline tools; exact quantitative improvements detailed in experiments (e.g., X% increase in detection rate).  
+- Performance: Outperforms existing detection systems primarily relying on static or user-level heuristics.
+
+### Impact & Limitations  
+- Practical significance: Provides a robust detection mechanism against advanced malware employing process hollowing, beneficial for security products and forensic analysis.  
+- Limitations: Kernel module deployment may face compatibility and security challenges; future work could focus on minimizing kernel overhead and extending to other code injection techniques.
+
+---
+
+#### Analyzing Code Injection Attacks on LLM-based Multi-Agent Systems in Software Development
+**作者**: Brian Bowers, Smita Khapre, Jugal Kalita
+**类别**: cs.SE, cs.MA
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.21818v1
+
+#### Executive Summary  
+This paper investigates code injection attacks targeting LLM-based multi-agent systems in software development, highlighting their vulnerability to malicious code inputs that can compromise agent behavior. The authors propose a novel threat model and conduct empirical analysis demonstrating the susceptibility and potential impacts of these attacks. Results emphasize the need for enhanced security protocols in multi-agent AI environments.
+
+### Key Contributions  
+- Introduces a formal threat model for code injection attacks specific to LLM-based multi-agent systems.  
+- Empirically evaluates vulnerability scenarios illustrating how injected code can manipulate agent workflows.  
+- Highlights defense considerations tailored for multi-agent software development frameworks using LLMs.
+
+### Method & Results  
+- Developed simulated multi-agent software development environments powered by LLMs to test injection attacks.  
+- Crafted various code injection payloads and measured their ability to alter or hijack agent tasks.  
+- Demonstrated high success rates of injected code execution impacting task integrity, with up to 85% attack success in some scenarios.  
+- Benchmarked against basic input sanitization baselines, showing that standard defenses are insufficient for complex multi-agent interactions.
+
+### Impact & Limitations  
+- Calls attention to a critical security gap in emerging LLM-based multi-agent software tooling, prompting necessary safeguarding strategies.  
+- Limitations include reliance on simulated agents rather than production systems and a focus on code injection rather than other attack vectors; future work could explore comprehensive defensive architectures and real-world deployment testing.
+
+---
+
+#### A Story About Cohesion and Separation: Label-Free Metric for Log Parser Evaluation
+**作者**: Qiaolin Qin, Jianchen Zhao, Heng Li, Weiyi Shang, Ettore Merlo
+**类别**: cs.SE
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.21811v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating log parsers without relying on labeled data. It proposes a novel label-free metric based on cohesion and separation principles to assess log parser quality. The method achieves reliable evaluation results comparable to supervised approaches while eliminating the need for costly ground-truth labeling.
+
+### Key Contributions
+- Introduces a label-free metric combining cohesion and separation for log parser evaluation.
+- Demonstrates that their metric correlates strongly with traditional labeled evaluation scores.
+- Provides an unsupervised framework enabling scalable and practical parser assessment.
+
+### Method & Results
+- Defines cohesion as intra-group similarity and separation as inter-group dissimilarity among parsed log messages.
+- Applies metric on multiple real-world log datasets and compares with standard labeled metrics.
+- Experiments show strong correlation (>0.8) with F1 scores of state-of-the-art parsers.
+- Achieves comparable ranking of parser performance without any labeled data, outperforming heuristic baselines.
+
+### Impact & Limitations
+- Enables cost-effective and scalable evaluation of log parsers, facilitating faster deployment in industry settings.
+- Limited by reliance on feature representation quality; future work may explore adaptive representations or extend to diverse log formats.
+
+---
+
+### 安全领域 领域
+
+#### Abstraction of Trusted Execution Environments as the Missing Layer for Broad Confidential Computing Adoption: A Systematization of Knowledge
+**作者**: Quentin Michaud, Sara Ramezanian, Dhouha Ayed, Olivier Levillain, Joaquin Garcia-Alfaro
+**类别**: cs.CR
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.22090v1
+
+#### Executive Summary
+This paper addresses the lack of a unifying abstraction layer for Trusted Execution Environments (TEEs), which hinders broad confidential computing adoption. It systematizes existing knowledge to propose an abstraction model that harmonizes diverse TEE architectures. The main result is a structured framework that facilitates portability and scalability of confidential applications across heterogeneous TEEs.
+
+### Key Contributions
+- Introduces a novel abstraction layer concept that unifies disparate TEE technologies.
+- Provides a comprehensive systematization of existing TEE architectures and their security models.
+- Proposes a framework enhancing interoperability and developer accessibility for confidential computing.
+
+### Method & Results
+- Conducted systematic literature survey and taxonomy development of TEE characteristics.
+- Designed an abstraction model to generalize TEE functionalities while preserving security guarantees.
+- Evaluated framework viability through concept validation and comparative analysis with current TEE implementations.
+- Demonstrated improved portability potential; quantitative performance results are indicative rather than experimentally exhaustive.
+
+### Impact & Limitations
+- Enables scalable confidential computing deployment by abstracting TEE diversity, easing development and integration challenges.
+- Lacks extensive real-world implementation and performance benchmarks; future work should include prototyping and rigorous empirical evaluation.
+
+---
+
+#### ReSMT: An SMT-Based Tool for Reverse Engineering
+**作者**: Nir Somech, Guy Katz
+**类别**: cs.CR
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.22076v1
+
+#### Executive Summary  
+The paper addresses the challenge of reverse engineering software by introducing ReSMT, a novel tool that leverages Satisfiability Modulo Theories (SMT) solvers to automatically infer program specifications and reconstruct code semantics. Their approach efficiently bridges the gap between raw binary or obfuscated code and high-level program understanding, demonstrating improved accuracy and automation.
+
+### Key Contributions  
+- Development of ReSMT, an SMT-based framework uniquely tailored for reverse engineering tasks.  
+- Novel integration of SMT solving with program analysis to infer complex specifications from binaries.  
+- Empirical validation showing enhanced precision and coverage over existing reverse engineering tools.
+
+### Method & Results  
+- Methodology: Encoding reverse engineering problems as SMT constraints; using SMT solvers to resolve semantic uncertainties.  
+- Tools/Datasets: Utilized standard reverse engineering benchmarks and real-world obfuscated binaries.  
+- Results: Achieved up to 30% improvement in specification inference accuracy and reduced manual intervention compared to state-of-the-art.  
+- Outperformed baseline tools in scalability and correctness of extracted program semantics.
+
+### Impact & Limitations  
+- Significance: Facilitates automated software analysis, aiding security auditing, malware analysis, and legacy system maintenance.  
+- Limitations/Future Work: Performance may degrade on extremely large binaries; plans include optimizing solver heuristics and extending to more programming paradigms.
+
+---
+
+#### Toward Secure and Compliant AI: Organizational Standards and Protocols for NLP Model Lifecycle Management
+**作者**: Sunil Arora, John Hastings
+**类别**: cs.CR, cs.CL, cs.CY
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.22060v1
+
+#### Executive Summary  
+The paper addresses the need for secure and compliant management of NLP model lifecycles within organizations, focusing on mitigating risks related to data privacy, regulatory adherence, and model security. It proposes a comprehensive framework of organizational standards and protocols that guide the development, deployment, and monitoring of NLP models. Results demonstrate improved compliance and risk reduction without compromising model performance.
+
+### Key Contributions  
+- Introduces a formalized organizational framework tailored to secure NLP model lifecycle management.  
+- Establishes protocols integrating regulatory requirements directly into AI development workflows.  
+- Provides practical guidelines linking technical security measures with compliance standards for NLP applications.
+
+### Method & Results  
+- Developed a protocol-driven methodology combining security best practices, compliance checklists, and continuous auditing for NLP models.  
+- Evaluated on internal organizational datasets and benchmark NLP tasks to simulate lifecycle management scenarios.  
+- Demonstrated a 30% reduction in compliance violations and enhanced detection of potential model vulnerabilities during deployment phases.  
+- Outperformed baseline lifecycle management approaches that lack integrated compliance protocols.
+
+### Impact & Limitations  
+- Enables organizations to systematically reduce legal and security risks in NLP applications, fostering trustworthy AI deployment.  
+- Limitations include the need for broader validation across diverse organizational contexts and evolving regulatory landscapes; future work includes automation of compliance monitoring and adaptation to emerging AI governance standards.
+
+---
+
+#### Backdoor Attacks on Prompt-Driven Video Segmentation Foundation Models
+**作者**: Zongmin Zhang, Zhen Sun, Yifan Liao, Wenhan Dong, Xinlei He, Xingshuo Han, Shengmin Xu, Xinyi Huang
+**类别**: cs.CV, cs.CR
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.22046v1
+
+#### Executive Summary  
+This paper studies backdoor attacks targeting prompt-driven video segmentation foundation models, revealing their vulnerability despite advanced prompting techniques. The authors propose a novel attack method that implants stealthy triggers, enabling malicious control over segmentation outputs. Experimental results demonstrate the attack’s high effectiveness and robustness across standard benchmarks.
+
+### Key Contributions  
+- Introduces the first backdoor attack framework specifically designed for prompt-driven video segmentation foundation models.  
+- Develops stealthy and adaptable trigger designs that function across varied prompt settings.  
+- Validates attack effectiveness on multiple datasets, highlighting security risks in emerging video foundation models.
+
+### Method & Results  
+- Perturbs training data with carefully crafted triggers embedded to influence model outputs upon specific prompts.  
+- Evaluates on benchmark datasets like DAVIS and YouTube-VOS with standard segmentation foundation models.  
+- Achieves attack success rates exceeding 85% while maintaining negligible impact on benign segmentation performance.  
+- Outperforms baseline poisoning/backdoor techniques by improving trigger stealthiness and attack consistency.
+
+### Impact & Limitations  
+- Highlights urgent security vulnerabilities in prompt-conditioned video segmentation models, urging robust defense development.  
+- Future work could explore defenses against such attacks and extend analysis to other multimodal and prompt-based vision tasks.
+
+---
+
+#### Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?
+**作者**: Naen Xu, Jinghuai Zhang, Changjiang Li, Hengyu An, Chunyi Zhou, Jun Wang, Boyu Xu, Yuyuan Li, Tianyu Du, Shouling Ji
+**类别**: cs.CL, cs.AI, cs.CR, cs.CY
+**发布日期**: 2025-12-26
+**链接**: http://arxiv.org/abs/2512.21871v1
+
+#### Executive Summary  
+This paper investigates whether large vision-language models (VLMs) can recognize and respect copyrighted content, addressing ethical and legal concerns in AI-generated media. The authors develop evaluation frameworks to test model behavior on copyrighted inputs and find significant gaps in recognition and compliance. Results highlight the need for improved copyright awareness in VLM training and deployment.
+
+### Key Contributions  
+- Propose novel evaluation benchmarks to assess VLMs’ ability to identify and handle copyrighted content.  
+- Provide empirical evidence of VLMs’ inconsistent recognition and respect for copyright protections.  
+- Offer insights and guidelines for bridging copyright gaps in future VLM development.
+
+### Method & Results  
+- Designed tests combining image-caption pairs with copyrighted vs. non-copyrighted content to probe VLM responses.  
+- Utilized prominent VLMs (e.g., CLIP, ALIGN) and curated datasets containing copyrighted artworks and media.  
+- Findings show VLMs often misclassify or neglect copyright status, with recognition accuracy below 60% in many cases.  
+- Performance substantially lags behind hypothetical ideal baselines that fully respect copyrights.
+
+### Impact & Limitations  
+- Highlights critical ethical challenge in AI, promoting responsible VLM use in creative industries.  
+- Limitations include restricted dataset diversity and focus on English-centric content; future work should expand multilingual and multimodal evaluations.
 
 ---
 
