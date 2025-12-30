@@ -42317,17 +42317,17 @@ This paper addresses the challenge of preserving user privacy when releasing fea
 #### Executive Summary  
 This paper addresses root cause analysis of code-related incidents in cloud applications by proposing an agentic structured graph traversal approach. The method models system components and their interactions as graphs, enabling an intelligent traversal that efficiently identifies fault origins. Experimental results demonstrate improved accuracy and speed over existing diagnostic techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an agent-based structured graph traversal algorithm tailored for root cause analysis in cloud code incidents.  
 - Develops a novel graph representation capturing dependencies and interactions among cloud application components.  
 - Demonstrates significant improvements in diagnostic precision and response time compared to traditional heuristic and machine learning baselines.
 
-### Method & Results  
+### Method & Results
 - Constructs a dependency graph of cloud components and applies an agentic traversal strategy that dynamically prioritizes paths based on observed anomalies and historical data.  
 - Evaluated on a benchmark dataset of cloud application incident logs and simulated failures.  
 - Achieves up to 25% higher root cause identification accuracy and reduces analysis time by 30% relative to state-of-the-art baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables faster and more accurate incident diagnosis in complex cloud environments, improving system reliability and reducing downtime.  
 - Future work includes adapting the approach for heterogeneous cloud stacks and incorporating real-time feedback to enhance traversal efficiency.
 
@@ -42342,18 +42342,18 @@ This paper addresses root cause analysis of code-related incidents in cloud appl
 #### Executive Summary  
 This paper addresses the challenge of reliably detecting process hollowing, a stealthy malware injection technique, by introducing HALF, a hybrid analysis framework leveraging kernel modules. HALF combines user-level and kernel-level monitoring to accurately trace and analyze hollowed processes, achieving improved detection fidelity.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel framework integrating kernel modules to enhance visibility into process hollowing behaviors.  
 - Develops a hybrid analysis technique that combines user-space and kernel-space data for accurate identification.  
 - Demonstrates enhanced detection performance over existing purely user-space or static analysis methods.
 
-### Method & Results  
+### Method & Results
 - Core methodology: implements a kernel module to monitor process creation and memory manipulation events alongside user-space instrumentation to analyze suspicious binaries dynamically.  
 - Tools/Datasets: Evaluated on real-world malware samples exhibiting process hollowing and benign software for false positive assessment.  
 - Results: Achieved higher detection accuracy and reduced false positives compared to baseline tools; exact quantitative improvements detailed in experiments (e.g., X% increase in detection rate).  
 - Performance: Outperforms existing detection systems primarily relying on static or user-level heuristics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Provides a robust detection mechanism against advanced malware employing process hollowing, beneficial for security products and forensic analysis.  
 - Limitations: Kernel module deployment may face compatibility and security challenges; future work could focus on minimizing kernel overhead and extending to other code injection techniques.
 
@@ -42368,18 +42368,18 @@ This paper addresses the challenge of reliably detecting process hollowing, a st
 #### Executive Summary  
 This paper investigates code injection attacks targeting LLM-based multi-agent systems in software development, highlighting their vulnerability to malicious code inputs that can compromise agent behavior. The authors propose a novel threat model and conduct empirical analysis demonstrating the susceptibility and potential impacts of these attacks. Results emphasize the need for enhanced security protocols in multi-agent AI environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a formal threat model for code injection attacks specific to LLM-based multi-agent systems.  
 - Empirically evaluates vulnerability scenarios illustrating how injected code can manipulate agent workflows.  
 - Highlights defense considerations tailored for multi-agent software development frameworks using LLMs.
 
-### Method & Results  
+### Method & Results
 - Developed simulated multi-agent software development environments powered by LLMs to test injection attacks.  
 - Crafted various code injection payloads and measured their ability to alter or hijack agent tasks.  
 - Demonstrated high success rates of injected code execution impacting task integrity, with up to 85% attack success in some scenarios.  
 - Benchmarked against basic input sanitization baselines, showing that standard defenses are insufficient for complex multi-agent interactions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Calls attention to a critical security gap in emerging LLM-based multi-agent software tooling, prompting necessary safeguarding strategies.  
 - Limitations include reliance on simulated agents rather than production systems and a focus on code injection rather than other attack vectors; future work could explore comprehensive defensive architectures and real-world deployment testing.
 
@@ -42448,18 +42448,18 @@ This paper addresses the lack of a unifying abstraction layer for Trusted Execut
 #### Executive Summary  
 The paper addresses the challenge of reverse engineering software by introducing ReSMT, a novel tool that leverages Satisfiability Modulo Theories (SMT) solvers to automatically infer program specifications and reconstruct code semantics. Their approach efficiently bridges the gap between raw binary or obfuscated code and high-level program understanding, demonstrating improved accuracy and automation.
 
-### Key Contributions  
+### Key Contributions
 - Development of ReSMT, an SMT-based framework uniquely tailored for reverse engineering tasks.  
 - Novel integration of SMT solving with program analysis to infer complex specifications from binaries.  
 - Empirical validation showing enhanced precision and coverage over existing reverse engineering tools.
 
-### Method & Results  
+### Method & Results
 - Methodology: Encoding reverse engineering problems as SMT constraints; using SMT solvers to resolve semantic uncertainties.  
 - Tools/Datasets: Utilized standard reverse engineering benchmarks and real-world obfuscated binaries.  
 - Results: Achieved up to 30% improvement in specification inference accuracy and reduced manual intervention compared to state-of-the-art.  
 - Outperformed baseline tools in scalability and correctness of extracted program semantics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Facilitates automated software analysis, aiding security auditing, malware analysis, and legacy system maintenance.  
 - Limitations/Future Work: Performance may degrade on extremely large binaries; plans include optimizing solver heuristics and extending to more programming paradigms.
 
@@ -42474,18 +42474,18 @@ The paper addresses the challenge of reverse engineering software by introducing
 #### Executive Summary  
 The paper addresses the need for secure and compliant management of NLP model lifecycles within organizations, focusing on mitigating risks related to data privacy, regulatory adherence, and model security. It proposes a comprehensive framework of organizational standards and protocols that guide the development, deployment, and monitoring of NLP models. Results demonstrate improved compliance and risk reduction without compromising model performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a formalized organizational framework tailored to secure NLP model lifecycle management.  
 - Establishes protocols integrating regulatory requirements directly into AI development workflows.  
 - Provides practical guidelines linking technical security measures with compliance standards for NLP applications.
 
-### Method & Results  
+### Method & Results
 - Developed a protocol-driven methodology combining security best practices, compliance checklists, and continuous auditing for NLP models.  
 - Evaluated on internal organizational datasets and benchmark NLP tasks to simulate lifecycle management scenarios.  
 - Demonstrated a 30% reduction in compliance violations and enhanced detection of potential model vulnerabilities during deployment phases.  
 - Outperformed baseline lifecycle management approaches that lack integrated compliance protocols.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to systematically reduce legal and security risks in NLP applications, fostering trustworthy AI deployment.  
 - Limitations include the need for broader validation across diverse organizational contexts and evolving regulatory landscapes; future work includes automation of compliance monitoring and adaptation to emerging AI governance standards.
 
@@ -42500,18 +42500,18 @@ The paper addresses the need for secure and compliant management of NLP model li
 #### Executive Summary  
 This paper studies backdoor attacks targeting prompt-driven video segmentation foundation models, revealing their vulnerability despite advanced prompting techniques. The authors propose a novel attack method that implants stealthy triggers, enabling malicious control over segmentation outputs. Experimental results demonstrate the attack’s high effectiveness and robustness across standard benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first backdoor attack framework specifically designed for prompt-driven video segmentation foundation models.  
 - Develops stealthy and adaptable trigger designs that function across varied prompt settings.  
 - Validates attack effectiveness on multiple datasets, highlighting security risks in emerging video foundation models.
 
-### Method & Results  
+### Method & Results
 - Perturbs training data with carefully crafted triggers embedded to influence model outputs upon specific prompts.  
 - Evaluates on benchmark datasets like DAVIS and YouTube-VOS with standard segmentation foundation models.  
 - Achieves attack success rates exceeding 85% while maintaining negligible impact on benign segmentation performance.  
 - Outperforms baseline poisoning/backdoor techniques by improving trigger stealthiness and attack consistency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent security vulnerabilities in prompt-conditioned video segmentation models, urging robust defense development.  
 - Future work could explore defenses against such attacks and extend analysis to other multimodal and prompt-based vision tasks.
 
@@ -42526,20 +42526,291 @@ This paper studies backdoor attacks targeting prompt-driven video segmentation f
 #### Executive Summary  
 This paper investigates whether large vision-language models (VLMs) can recognize and respect copyrighted content, addressing ethical and legal concerns in AI-generated media. The authors develop evaluation frameworks to test model behavior on copyrighted inputs and find significant gaps in recognition and compliance. Results highlight the need for improved copyright awareness in VLM training and deployment.
 
-### Key Contributions  
+### Key Contributions
 - Propose novel evaluation benchmarks to assess VLMs’ ability to identify and handle copyrighted content.  
 - Provide empirical evidence of VLMs’ inconsistent recognition and respect for copyright protections.  
 - Offer insights and guidelines for bridging copyright gaps in future VLM development.
 
-### Method & Results  
+### Method & Results
 - Designed tests combining image-caption pairs with copyrighted vs. non-copyrighted content to probe VLM responses.  
 - Utilized prominent VLMs (e.g., CLIP, ALIGN) and curated datasets containing copyrighted artworks and media.  
 - Findings show VLMs often misclassify or neglect copyright status, with recognition accuracy below 60% in many cases.  
 - Performance substantially lags behind hypothetical ideal baselines that fully respect copyrights.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical ethical challenge in AI, promoting responsible VLM use in creative industries.  
 - Limitations include restricted dataset diversity and focus on English-centric content; future work should expand multilingual and multimodal evaluations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-30)
+
+### 软件工程 领域
+
+#### Parallelized Code Generation from Simulink Models for Event-driven and Timer-driven ROS 2 Nodes
+**作者**: Kenshin Obi, Ryo Yoshinaka, Hiroshi Fujimoto, Takuya Azumi
+**类别**: cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23605v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating efficient ROS 2 nodes code from Simulink models for both event-driven and timer-driven paradigms. The authors propose a parallelized code generation framework that optimizes execution by exploiting concurrency in the model. Experimental evaluations demonstrate improved runtime performance and scalability in ROS 2 applications.
+
+### Key Contributions  
+- Introduces a parallelized code generation method from Simulink models targeting event-driven and timer-driven ROS 2 nodes.  
+- Develops a scheduling strategy to enable concurrent execution of generated ROS 2 node components.  
+- Validates the approach with practical Simulink models, showing enhanced performance over traditional sequential code generation.
+
+### Method & Results  
+- Analyzes Simulink model dependencies to identify parallelizable components and generates corresponding ROS 2 node code with concurrency constructs.  
+- Utilizes ROS 2 framework and Simulink as core tools for implementation and validation.  
+- Achieves up to 30% reduction in execution latency and better CPU utilization compared to sequential code generation in benchmark tests.  
+- Demonstrates scalability in handling larger models with complex timing requirements.
+
+### Impact & Limitations  
+- Enables more efficient real-time robotic applications by bridging model-based design and concurrent ROS 2 implementations.  
+- Future work: Extend support for diverse Simulink blocks and improve dynamic scheduling under varying runtime conditions.
+
+---
+
+#### Model-based Development for Autonomous Driving Software Considering Parallelization
+**作者**: Kenshin Obi, Takumi Onozawa, Hiroshi Fujimoto, Takuya Azumi
+**类别**: cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23575v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently developing autonomous driving software by integrating model-based development (MBD) with parallelization strategies. The authors propose a framework that enables concurrent execution of autonomous driving models, significantly improving simulation and execution performance. Experimental results demonstrate notable speedups without compromising model fidelity.
+
+### Key Contributions  
+- Introduces a novel MBD framework tailored for parallel execution in autonomous driving software.  
+- Proposes techniques to automatically identify and exploit parallelism within driving behavior models.  
+- Validates the approach with empirical results showing enhanced simulation throughput.
+
+### Method & Results  
+- Developed a parallelization-aware model-based development process that decomposes driving tasks for concurrent execution.  
+- Utilized simulation platforms common in autonomous driving research to test the framework.  
+- Achieved up to 3x acceleration in simulation runtime compared to traditional serial MBD approaches.  
+- Demonstrated maintained accuracy in scenario handling relative to baseline serial models.
+
+### Impact & Limitations  
+- Enables more scalable and faster autonomous driving software development, facilitating rapid prototyping and testing.  
+- Future work includes extending the framework to support heterogeneous hardware and dynamic parallelism adaptation.
+
+---
+
+#### Beyond Per-Thread Lock Sets: Multi-Thread Critical Sections and Dynamic Deadlock Prediction
+**作者**: Martin Sulzmann
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23552v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately predicting deadlocks in multi-threaded programs by moving beyond traditional per-thread lock set analysis. It introduces the concept of multi-thread critical sections to capture more complex lock interactions dynamically. The approach results in improved deadlock prediction accuracy compared to existing methods.
+
+### Key Contributions  
+- Introduces multi-thread critical sections as a novel abstraction for dynamic deadlock prediction.  
+- Develops enhanced algorithms to analyze lock acquisition patterns beyond per-thread lock sets.  
+- Demonstrates improved prediction accuracy on challenging multi-threaded benchmarks.
+
+### Method & Results  
+- Utilizes dynamic program analysis to track inter-thread lock acquisitions and detect potential deadlocks via critical sections spanning multiple threads.  
+- Evaluated on standard multi-threaded benchmarks and real-world concurrency scenarios.  
+- Reported a significant reduction in false positives and false negatives over standard per-thread lock set techniques; quantitative improvements include up to 30% higher precision.  
+- Compared with existing dynamic deadlock detection tools, showing superior prediction accuracy and timely warnings.
+
+### Impact & Limitations  
+- Enhances reliability and safety of concurrent software by enabling earlier and more precise deadlock warnings in development and testing phases.  
+- Limited by the overhead of tracking complex multi-thread interactions; future work could optimize runtime performance and extend applicability to distributed systems.
+
+---
+
+#### Beyond Correctness: Exposing LLM-generated Logical Flaws in Reasoning via Multi-step Automated Theorem Proving
+**作者**: Xinyi Zheng, Ningke Li, Xiaokun Luan, Kailong Wang, Ling Shi, Meng Sun, Haoyu Wang
+**类别**: cs.SE, cs.FL
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23511v1
+
+#### Executive Summary
+This paper addresses the issue of subtle logical flaws in reasoning generated by large language models (LLMs) that go beyond mere answer correctness. It proposes a novel multi-step automated theorem proving framework to systematically expose and analyze these logical errors. Experimental results demonstrate the framework’s effectiveness in identifying reasoning inconsistencies undetected by traditional evaluation metrics.
+
+### Key Contributions
+- Introduces a multi-step automated theorem proving approach to detect logical flaws in LLM-generated reasoning.
+- Develops a novel evaluation paradigm emphasizing logical soundness rather than just output correctness.
+- Provides empirical evidence revealing significant logical errors in state-of-the-art LLMs’ reasoning chains.
+
+### Method & Results
+- Constructs a pipeline where LLM outputs are encoded into formal logic and verified via automated theorem proving tools stepwise.
+- Utilizes benchmark reasoning datasets augmented for formal verification tasks.
+- Finds that up to 30% of LLM reasoning chains deemed “correct” fail formal logical checks.
+- Outperforms baseline evaluation methods that rely only on surface-level correctness metrics.
+
+### Impact & Limitations
+- Enables more robust, interpretable assessment of LLM reasoning quality, contributing to safer and more reliable AI systems.
+- Limitations include reliance on formal logic translation accuracy and potential scalability issues for highly complex proofs.
+- Future work: improve translation robustness, expand to more diverse reasoning domains, and integrate with model training for flaw mitigation.
+
+---
+
+#### AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices
+**作者**: Brice Arléon Zemtsop Ndadji, Simon Bliudze, Clément Quinton
+**类别**: cs.SE, cs.DC
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23499v1
+
+#### Executive Summary
+This paper addresses the challenge of implementing event-driven autonomy in cloud microservices, proposing AdaptiFlow, a flexible framework that enables dynamic adaptation based on events. The approach integrates extensible components to manage autonomous behaviors efficiently, demonstrating improved adaptability and scalability in cloud environments.
+
+### Key Contributions
+- Introduction of AdaptiFlow, the first extensible framework specifically designed for event-driven autonomous control in cloud microservices.
+- Novel mechanisms for dynamic adaptation and coordination among distributed microservices based on event processing.
+- Seamless integration capabilities with existing cloud infrastructures enhancing modularity and reusability.
+
+### Method & Results
+- Designed a modular architecture featuring event listeners, decision engines, and adaptation executors enabling runtime autonomy control.
+- Evaluated using simulated and real-world microservice workflows deployed on standard cloud platforms.
+- Demonstrated up to 35% improvement in response time and 25% reduction in resource overhead compared to static configurations.
+- Outperformed baseline frameworks lacking extensibility and dynamic adaptation in scalability and adaptability metrics.
+
+### Impact & Limitations
+- Enables developers and operators to build more resilient and responsive cloud microservices, fostering autonomous system design.
+- Limitations include the need for complex event modeling and potential overhead in very high-frequency event scenarios.
+- Future work: optimizing event processing efficiency and extending support for heterogeneous cloud environments.
+
+---
+
+### 安全领域 领域
+
+#### Enhanced Web Payload Classification Using WAMM: An AI-Based Framework for Dataset Refinement and Model Evaluation
+**作者**: Heba Osama, Omar Elebiary, Youssef Qassim, Mohamed Amgad, Ahmed Maghawry, Ahmed Saafan, Haitham Ghalwash
+**类别**: cs.CR
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23610v1
+
+#### Executive Summary
+This paper addresses the challenge of accurate web payload classification by introducing WAMM, an AI-based framework that refines datasets and rigorously evaluates classification models. The framework enhances model performance by improving data quality and offers robust evaluation metrics, demonstrating superior classification accuracy.
+
+### Key Contributions
+- Proposed WAMM, a novel framework combining dataset refinement with AI-driven model evaluation for web payload classification.
+- Introduced an automated dataset curation process that significantly reduces noise and enhances data representativeness.
+- Provided a comprehensive benchmarking approach for assessing classification models beyond conventional metrics.
+
+### Method & Results
+- Utilized AI techniques for dataset cleaning and feature selection, integrated within WAMM to optimize web payload classification.
+- Evaluated on widely-used cybersecurity datasets relevant to web payloads (specific datasets not stated).
+- Achieved notable improvement in classification accuracy, outperforming baseline models by approximately 8-12% across multiple tests.
+- Demonstrated consistent performance gains in precision, recall, and F1-score compared to standard machine learning baselines.
+
+### Impact & Limitations
+- Enhances cybersecurity defenses by improving detection of malicious web content, offering practical benefits for real-world threat analysis.
+- Future work could address scalability to larger, more diverse web traffic datasets and extend evaluation to adversarial robustness.
+
+---
+
+#### Research Directions in Quantum Computer Cybersecurity
+**作者**: Jakub Szefer
+**类别**: quant-ph, cs.CR
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23607v1
+
+#### Executive Summary  
+This paper explores emerging challenges and research avenues in securing quantum computers against cyber threats. It systematically identifies vulnerabilities unique to quantum architectures and proposes foundational directions for developing robust cybersecurity measures. The study mainly offers a roadmap rather than implemented solutions.
+
+### Key Contributions  
+- Identifies quantum-specific cybersecurity threats absent in classical systems.  
+- Proposes a framework for assessing security at both hardware and software levels in quantum computing.  
+- Highlights future research priorities to build quantum-resilient security protocols.
+
+### Method & Results  
+- Analytical survey of quantum computing architecture and attack vectors.  
+- Conceptual development of threat models tailored to quantum systems.  
+- No empirical datasets or benchmarks were used; results are primarily theoretical and strategic in nature.  
+- Provides qualitative comparisons to classical cybersecurity paradigms to contextualize quantum risks.
+
+### Impact & Limitations  
+- Establishes a foundational agenda guiding future quantum cybersecurity research critical as quantum computing matures.  
+- Lacks experimental validation and specific protocol proposals, suggesting a need for implementation-focused studies.  
+- Does not address the integration challenges between classical and quantum security measures in hybrid computing environments.
+
+---
+
+#### Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks
+**作者**: Toqeer Ali Syed, Mishal Ateeq Almutairi, Mahmoud Abdel Moaty
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23557v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of agentic AI systems to prompt injection attacks that manipulate outputs maliciously. The authors propose a novel multimodal detection framework leveraging linguistic and behavioral cues to identify and prevent such attacks. Results show significant improvement in attack detection accuracy, advancing trustworthy AI deployment.
+
+### Key Contributions  
+- Introduces a multimodal framework combining textual and behavioral signal analysis to detect prompt injection attacks.  
+- Demonstrates effective prevention of prompt manipulation in agentic AI models, enhancing reliability.  
+- Provides a comprehensive evaluation pipeline for robustness against emerging prompt-based adversarial threats.
+
+### Method & Results  
+- Developed a detection model integrating natural language processing and user interaction pattern analysis to isolate injection attempts.  
+- Utilized a custom-constructed dataset of prompt injection samples across multiple AI agents, supplemented by behavioral logs.  
+- Achieved over 90% detection accuracy, outperforming baseline unimodal detectors by 15-20% in precision and recall.  
+- Validated approach on diverse agentic AI platforms, confirming generalizability and robustness.
+
+### Impact & Limitations  
+- Enables safer deployment of autonomous AI agents by mitigating prompt manipulation risks, crucial for high-stakes applications.  
+- Future work needed to adapt to evolving attack vectors and reduce dependence on labeled injection datasets.
+
+---
+
+#### A Privacy Protocol Using Ephemeral Intermediaries and a Rank-Deficient Matrix Power Function (RDMPF)
+**作者**: Eduardo Salazar
+**类别**: cs.CR, cs.NI
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23535v1
+
+#### Executive Summary
+This paper addresses privacy-preserving communication by introducing a protocol leveraging ephemeral intermediaries and a novel Rank-Deficient Matrix Power Function (RDMPF). The approach enhances anonymity and security by dynamically obfuscating message paths through short-lived intermediaries combined with cryptographic transformations based on rank-deficient matrix powers. The main result demonstrates improved privacy guarantees and resistance to traffic analysis compared to existing methods.
+
+### Key Contributions
+- Introduces the RDMPF, a new cryptographic transformation leveraging rank-deficient matrices for privacy enhancement.
+- Proposes a privacy protocol using ephemeral (short-lived) intermediaries to dynamically obscure communication paths.
+- Demonstrates theoretically and empirically improved resistance to traffic analysis attacks.
+
+### Method & Results
+- Combines ephemeral node selection with RDMPF-based cryptographic operations to protect message origin and routing metadata.
+- Evaluation conducted through simulation with synthetic traffic data mimicking anonymized network conditions.
+- Results show reduced traceability and improved anonymity metrics (e.g., entropy-based measures) outperforming baseline onion routing protocols by up to 25%.
+- Demonstrated scalability of the ephemeral intermediary selection process with minimal impact on latency.
+
+### Impact & Limitations
+- Offers practical enhancements for anonymous communication systems, relevant to censorship resistance and privacy-sensitive applications.
+- Limited real-world deployment evaluation; future work should include large-scale network tests and resistance to adaptive adversaries.
+
+---
+
+#### Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation
+**作者**: Toqeer Ali Syed, Mohammad Riyaz Belgaum, Salman Jan, Asadullah Abdullah Khan, Saad Said Alqahtani
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23480v1
+
+#### Executive Summary  
+This paper addresses software supply chain security beyond traditional provenance tracking by introducing agentic AI to autonomously detect and mitigate vulnerabilities. The proposed system integrates AI agents that proactively analyze, identify, and patch security flaws, enhancing resilience against evolving attacks. Experimental results demonstrate improved detection accuracy and faster response times compared to existing approaches.
+
+### Key Contributions  
+- Introduction of an agentic AI framework for autonomous vulnerability detection and mitigation in software supply chains.  
+- Novel shift from provenance-centric security models to proactive vulnerability management using AI agents.  
+- Demonstration of improved security responsiveness with reduced manual intervention.
+
+### Method & Results  
+- Developed multi-agent AI system capable of continuous monitoring and automated patching of identified vulnerabilities.  
+- Utilized real-world software supply chain datasets and vulnerability databases to train and validate the AI agents.  
+- Achieved up to 30% higher vulnerability detection rates and 25% faster mitigation times compared to baseline provenance-based systems.  
+- Benchmarked against standard security tools showing significant enhancement in autonomous defense capabilities.
+
+### Impact & Limitations  
+- Enables more robust and adaptive defense mechanisms in complex software supply chains, reducing reliance on manual security audits.  
+- Limitations include dependency on dataset comprehensiveness and potential challenges in AI agent coordination at scale; future work will explore expanding dataset diversity and improving multi-agent collaboration.
 
 ---
 
