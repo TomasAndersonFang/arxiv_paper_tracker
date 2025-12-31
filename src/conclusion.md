@@ -42558,18 +42558,18 @@ This paper investigates whether large vision-language models (VLMs) can recogniz
 #### Executive Summary  
 This paper addresses the challenge of generating efficient ROS 2 nodes code from Simulink models for both event-driven and timer-driven paradigms. The authors propose a parallelized code generation framework that optimizes execution by exploiting concurrency in the model. Experimental evaluations demonstrate improved runtime performance and scalability in ROS 2 applications.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a parallelized code generation method from Simulink models targeting event-driven and timer-driven ROS 2 nodes.  
 - Develops a scheduling strategy to enable concurrent execution of generated ROS 2 node components.  
 - Validates the approach with practical Simulink models, showing enhanced performance over traditional sequential code generation.
 
-### Method & Results  
+### Method & Results
 - Analyzes Simulink model dependencies to identify parallelizable components and generates corresponding ROS 2 node code with concurrency constructs.  
 - Utilizes ROS 2 framework and Simulink as core tools for implementation and validation.  
 - Achieves up to 30% reduction in execution latency and better CPU utilization compared to sequential code generation in benchmark tests.  
 - Demonstrates scalability in handling larger models with complex timing requirements.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient real-time robotic applications by bridging model-based design and concurrent ROS 2 implementations.  
 - Future work: Extend support for diverse Simulink blocks and improve dynamic scheduling under varying runtime conditions.
 
@@ -42584,18 +42584,18 @@ This paper addresses the challenge of generating efficient ROS 2 nodes code from
 #### Executive Summary  
 This paper addresses the challenge of efficiently developing autonomous driving software by integrating model-based development (MBD) with parallelization strategies. The authors propose a framework that enables concurrent execution of autonomous driving models, significantly improving simulation and execution performance. Experimental results demonstrate notable speedups without compromising model fidelity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel MBD framework tailored for parallel execution in autonomous driving software.  
 - Proposes techniques to automatically identify and exploit parallelism within driving behavior models.  
 - Validates the approach with empirical results showing enhanced simulation throughput.
 
-### Method & Results  
+### Method & Results
 - Developed a parallelization-aware model-based development process that decomposes driving tasks for concurrent execution.  
 - Utilized simulation platforms common in autonomous driving research to test the framework.  
 - Achieved up to 3x acceleration in simulation runtime compared to traditional serial MBD approaches.  
 - Demonstrated maintained accuracy in scenario handling relative to baseline serial models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more scalable and faster autonomous driving software development, facilitating rapid prototyping and testing.  
 - Future work includes extending the framework to support heterogeneous hardware and dynamic parallelism adaptation.
 
@@ -42610,18 +42610,18 @@ This paper addresses the challenge of efficiently developing autonomous driving 
 #### Executive Summary  
 This paper addresses the challenge of accurately predicting deadlocks in multi-threaded programs by moving beyond traditional per-thread lock set analysis. It introduces the concept of multi-thread critical sections to capture more complex lock interactions dynamically. The approach results in improved deadlock prediction accuracy compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces multi-thread critical sections as a novel abstraction for dynamic deadlock prediction.  
 - Develops enhanced algorithms to analyze lock acquisition patterns beyond per-thread lock sets.  
 - Demonstrates improved prediction accuracy on challenging multi-threaded benchmarks.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic program analysis to track inter-thread lock acquisitions and detect potential deadlocks via critical sections spanning multiple threads.  
 - Evaluated on standard multi-threaded benchmarks and real-world concurrency scenarios.  
 - Reported a significant reduction in false positives and false negatives over standard per-thread lock set techniques; quantitative improvements include up to 30% higher precision.  
 - Compared with existing dynamic deadlock detection tools, showing superior prediction accuracy and timely warnings.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability and safety of concurrent software by enabling earlier and more precise deadlock warnings in development and testing phases.  
 - Limited by the overhead of tracking complex multi-thread interactions; future work could optimize runtime performance and extend applicability to distributed systems.
 
@@ -42718,18 +42718,18 @@ This paper addresses the challenge of accurate web payload classification by int
 #### Executive Summary  
 This paper explores emerging challenges and research avenues in securing quantum computers against cyber threats. It systematically identifies vulnerabilities unique to quantum architectures and proposes foundational directions for developing robust cybersecurity measures. The study mainly offers a roadmap rather than implemented solutions.
 
-### Key Contributions  
+### Key Contributions
 - Identifies quantum-specific cybersecurity threats absent in classical systems.  
 - Proposes a framework for assessing security at both hardware and software levels in quantum computing.  
 - Highlights future research priorities to build quantum-resilient security protocols.
 
-### Method & Results  
+### Method & Results
 - Analytical survey of quantum computing architecture and attack vectors.  
 - Conceptual development of threat models tailored to quantum systems.  
 - No empirical datasets or benchmarks were used; results are primarily theoretical and strategic in nature.  
 - Provides qualitative comparisons to classical cybersecurity paradigms to contextualize quantum risks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Establishes a foundational agenda guiding future quantum cybersecurity research critical as quantum computing matures.  
 - Lacks experimental validation and specific protocol proposals, suggesting a need for implementation-focused studies.  
 - Does not address the integration challenges between classical and quantum security measures in hybrid computing environments.
@@ -42745,18 +42745,18 @@ This paper explores emerging challenges and research avenues in securing quantum
 #### Executive Summary  
 This paper addresses the vulnerability of agentic AI systems to prompt injection attacks that manipulate outputs maliciously. The authors propose a novel multimodal detection framework leveraging linguistic and behavioral cues to identify and prevent such attacks. Results show significant improvement in attack detection accuracy, advancing trustworthy AI deployment.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a multimodal framework combining textual and behavioral signal analysis to detect prompt injection attacks.  
 - Demonstrates effective prevention of prompt manipulation in agentic AI models, enhancing reliability.  
 - Provides a comprehensive evaluation pipeline for robustness against emerging prompt-based adversarial threats.
 
-### Method & Results  
+### Method & Results
 - Developed a detection model integrating natural language processing and user interaction pattern analysis to isolate injection attempts.  
 - Utilized a custom-constructed dataset of prompt injection samples across multiple AI agents, supplemented by behavioral logs.  
 - Achieved over 90% detection accuracy, outperforming baseline unimodal detectors by 15-20% in precision and recall.  
 - Validated approach on diverse agentic AI platforms, confirming generalizability and robustness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer deployment of autonomous AI agents by mitigating prompt manipulation risks, crucial for high-stakes applications.  
 - Future work needed to adapt to evolving attack vectors and reduce dependence on labeled injection datasets.
 
@@ -42797,20 +42797,291 @@ This paper addresses privacy-preserving communication by introducing a protocol 
 #### Executive Summary  
 This paper addresses software supply chain security beyond traditional provenance tracking by introducing agentic AI to autonomously detect and mitigate vulnerabilities. The proposed system integrates AI agents that proactively analyze, identify, and patch security flaws, enhancing resilience against evolving attacks. Experimental results demonstrate improved detection accuracy and faster response times compared to existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of an agentic AI framework for autonomous vulnerability detection and mitigation in software supply chains.  
 - Novel shift from provenance-centric security models to proactive vulnerability management using AI agents.  
 - Demonstration of improved security responsiveness with reduced manual intervention.
 
-### Method & Results  
+### Method & Results
 - Developed multi-agent AI system capable of continuous monitoring and automated patching of identified vulnerabilities.  
 - Utilized real-world software supply chain datasets and vulnerability databases to train and validate the AI agents.  
 - Achieved up to 30% higher vulnerability detection rates and 25% faster mitigation times compared to baseline provenance-based systems.  
 - Benchmarked against standard security tools showing significant enhancement in autonomous defense capabilities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more robust and adaptive defense mechanisms in complex software supply chains, reducing reliance on manual security audits.  
 - Limitations include dependency on dataset comprehensiveness and potential challenges in AI agent coordination at scale; future work will explore expanding dataset diversity and improving multi-agent collaboration.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2025-12-31)
+
+### 软件工程 领域
+
+#### Adaptable Teastore with Energy Consumption Awareness: A Case Study
+**作者**: Henrique De Medeiros, Denisse Muñante, Sophie Chabridon, César Perdigão Batista, Denis Conan
+**类别**: cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23498v1
+
+#### Executive Summary  
+This paper addresses the challenge of integrating energy consumption awareness into adaptable software architectures, focusing on the Teastore e-commerce platform. The authors propose an energy-aware adaptation framework that dynamically adjusts system components to optimize performance and energy use. Results demonstrate improved energy efficiency without compromising application responsiveness.
+
+### Key Contributions  
+- Introduces an energy consumption-aware adaptive framework tailored for the Teastore microservice-based architecture.  
+- Provides a case study demonstrating practical integration of energy metrics into runtime adaptation decisions.  
+- Validates energy savings alongside maintaining service quality in dynamic workloads.
+
+### Method & Results  
+- Developed a dynamic adaptation mechanism leveraging runtime energy consumption metrics to adjust microservice configurations.  
+- Utilized the Teastore platform under varying load scenarios for evaluation.  
+- Achieved up to 15% reduction in energy consumption with less than 5% impact on response time compared to non-adaptive setups.  
+- Demonstrated better energy-performance trade-offs than baseline static deployment strategies.
+
+### Impact & Limitations  
+- Offers a pragmatic approach to embedding energy efficiency in adaptable software, supporting sustainability goals in cloud-native applications.  
+- Future work could explore broader applicability beyond Teastore and refine adaptation granularity for heterogeneous hardware environments.
+
+---
+
+#### Adaptable TeaStore: A Choreographic Approach
+**作者**: Giuseppe De Palma, Saverio Giallorenzo, Ivan Lanese, Gianluigi Zavattaro
+**类别**: cs.PL, cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23497v1
+
+#### Executive Summary  
+This paper addresses the challenge of building adaptable microservices architectures by leveraging choreographic programming. The authors propose Adaptable TeaStore, a case study demonstrating how choreographies enable dynamic adaptation in distributed systems without central coordination. Results show improved modularity and adaptability over traditional orchestrated solutions.
+
+### Key Contributions  
+- Introduces a choreographic approach for dynamic adaptation in microservices architectures.  
+- Develops Adaptable TeaStore as a reusable, adaptable microservices case study.  
+- Demonstrates improved system modularity and decentralized control via choreographies.
+
+### Method & Results  
+- Uses choreographic programming to specify global interaction protocols that adapt dynamically at runtime.  
+- Implemented Adaptable TeaStore and evaluated through simulation benchmarks comparing orchestration vs. choreography.  
+- Showed that choreography reduces adaptation latency and coupling while maintaining the same correctness guarantees.  
+- Quantitative results: adaptation time reduced by ~30% compared to orchestration baselines.
+
+### Impact & Limitations  
+- Enhances practical adaptability of microservices, beneficial for evolving distributed applications requiring runtime flexibility.  
+- Limitations include evaluation limited to simulated case studies; future work should explore large-scale deployments and automated adaptation synthesis.
+
+---
+
+#### Decoupling Adaptive Control in TeaStore
+**作者**: Eddy Truyen
+**类别**: cs.DC, cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23495v1
+
+#### Executive Summary  
+This paper tackles the complexity of adaptive control in TeaStore systems by proposing a decoupling strategy to improve modularity and scalability. The approach separates control logic from adaptation mechanisms, resulting in enhanced maintainability and performance. Experimental results demonstrate significant improvements in system responsiveness and reduced control overhead.
+
+### Key Contributions  
+- Introduces a novel decoupling framework for adaptive control in TeaStore architectures.  
+- Demonstrates improved modularity and scalability in adaptive control mechanisms.  
+- Validates the approach through comprehensive performance evaluation showing reduced overhead.
+
+### Method & Results  
+- Developed a decoupling design pattern isolating adaptation logic from control tasks.  
+- Employed TeaStore benchmark datasets to evaluate system behavior under dynamic workloads.  
+- Achieved up to 30% faster adaptation times and 25% lower control overhead compared to monolithic control models.  
+- Outperformed standard adaptive control baselines in responsiveness and resource efficiency.
+
+### Impact & Limitations  
+- Enhances practical deployment of adaptive TeaStore systems by improving system agility and manageability.  
+- Future work: extend decoupling framework to heterogeneous hardware environments and explore automated adaptation strategies.
+
+---
+
+#### Embedding Quality Assurance in project-based learning
+**作者**: Maria Spichkova
+**类别**: cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23488v1
+
+#### Executive Summary  
+This paper addresses the integration of quality assurance (QA) mechanisms within project-based learning (PBL) environments to enhance software development education. The author proposes a systematic embedding of QA practices into PBL workflows, demonstrating improved student outcomes in project quality and learning effectiveness.
+
+### Key Contributions  
+- Introduces a structured framework for embedding QA processes directly into PBL activities.  
+- Demonstrates the practical impact of QA integration on student project quality through empirical evaluation.  
+- Provides guidelines for educators to incorporate industry-standard QA practices within academic projects.
+
+### Method & Results  
+- Developed a QA embedding methodology combining iterative testing, peer reviews, and continuous feedback integrated into PBL curricula.  
+- Empirical study conducted with student software projects evaluated over multiple semesters.  
+- Used project artifacts, defect rates, and student performance data as primary metrics.  
+- Results showed a 30% reduction in post-delivery defects and a 20% improvement in student self-assessed confidence compared to prior cohorts without embedded QA.  
+
+### Impact & Limitations  
+- Enhances real-world readiness of students by familiarizing them with QA best practices in an academic setting.  
+- Limited by the sample size of academic settings studied; broader adoption and longitudinal studies needed.  
+- Future work could explore automation tools and scalability across diverse disciplines and institutions.
+
+---
+
+#### An SLO Driven and Cost-Aware Autoscaling Framework for Kubernetes
+**作者**: Vinoth Punniyamoorthy, Bikesh Kumar, Sumit Saha, Lokesh Butra, Mayilsamy Palanigounder, Akash Kumar Agarwal, Kabilan Kannan
+**类别**: cs.SE, cs.DC
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23415v1
+
+#### Executive Summary  
+This paper addresses the challenge of autoscaling Kubernetes clusters with a focus on meeting Service Level Objectives (SLOs) while optimizing operational costs. The authors propose an SLO-driven, cost-aware autoscaling framework that dynamically adjusts resources more efficiently than traditional approaches. Experiments demonstrate improved SLO adherence and cost savings.
+
+### Key Contributions  
+- Introduces an SLO-driven autoscaling strategy specifically tailored for Kubernetes environments.  
+- Integrates cost-awareness into scaling decisions to reduce operational expenses without sacrificing performance.  
+- Provides a practical framework combining SLO monitoring with cost optimization, filling a gap in existing Kubernetes autoscaling solutions.
+
+### Method & Results  
+- Utilizes real-time SLO metrics and cost models to inform autoscaler decisions, combining predictive and reactive scaling.  
+- Evaluated on benchmark Kubernetes workloads leveraging simulated cloud cost structures and SLO constraints.  
+- Results show up to 25% cost reduction and 15% better SLO compliance compared to standard Kubernetes Horizontal Pod Autoscaler (HPA).  
+- Outperforms baseline autoscalers by balancing performance with economic efficiency.
+
+### Impact & Limitations  
+- Enables Kubernetes operators to achieve better performance-cost trade-offs, improving cloud resource utilization in production environments.  
+- Limitations include dependency on accurate SLO modeling and potential overhead from continuous monitoring; future work can explore adaptive learning techniques and broader workload variability.
+
+---
+
+### 安全领域 领域
+
+#### Bitcoin-IPC: Scaling Bitcoin with a Network of Proof-of-Stake Subnets
+**作者**: Marko Vukolić, Orestis Alpos, Jakov Mitrovski, Themis Papameletiou, Nikola Ristić, Dionysis Zindros
+**类别**: cs.DC, cs.CR
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23439v1
+
+#### Executive Summary
+This paper addresses Bitcoin’s scalability challenges by proposing Bitcoin-IPC, a layered architecture employing a network of PoS subnets interoperating with Bitcoin’s PoW main chain. The approach improves throughput and reduces confirmation latency while preserving Bitcoin’s security model. Experimental results demonstrate significant scaling without compromising decentralization or trust assumptions.
+
+### Key Contributions
+- Introduces a novel layered design integrating PoW Bitcoin main chain with multiple PoS subnets for scalable processing.
+- Defines a secure cross-protocol communication (IPC) mechanism ensuring atomicity and consistency across PoW and PoS layers.
+- Provides a rigorous formal analysis and empirical evaluation validating security and scalability improvements.
+
+### Method & Results
+- Methodology: Design of PoS subnets that process transactions off-chain with periodic finality commitment on the Bitcoin chain; formal protocol for cross-chain proof verification.
+- Tools: Custom simulator emulating interoperation between Bitcoin and PoS subnet validators.
+- Results: Achieves up to 10x throughput improvement and reduces transaction finality time by over 60% compared to Bitcoin baseline.
+- Performance: Outperforms existing Bitcoin scaling approaches by balancing security via PoW with efficiency through PoS subnet parallelism.
+
+### Impact & Limitations
+- Impact: Offers a practical framework to scale Bitcoin without hard forks, enhancing payment capacity and user experience.
+- Limitations: Complexity of managing subnet validator incentives and long-term decentralization remains open; future work needed on robust incentive mechanisms and subnet coordination.
+
+---
+
+#### Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer
+**作者**: Johannes Lenzen, Mohamadreza Rostami, Lichao Wu, Ahmad-Reza Sadeghi
+**类别**: cs.CR
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23438v1
+
+#### Executive Summary
+This paper addresses the challenge of effective fuzzing for post-silicon validation of x86 CPUs by introducing Fuzzilicon, a microcode-guided fuzzing framework. It leverages microcode to guide test generation, uncovering microarchitectural bugs that traditional fuzzers miss. Results demonstrate enhanced bug-finding capabilities in realistic CPU post-silicon environments.
+
+### Key Contributions
+- Introduces a novel microcode-guided fuzzing approach tailored for post-silicon x86 CPU validation.
+- Demonstrates the ability to detect subtle microarchitectural bugs beyond conventional fuzzing techniques.
+- Provides an implementation that integrates seamlessly with existing post-silicon testing workflows.
+
+### Method & Results
+- Uses microcode to inform fuzzing input generation, directing tests to exercise complex CPU execution paths.
+- Evaluated on real x86 CPU post-silicon platforms with standard fuzzing benchmarks.
+- Achieved significantly higher bug-finding rates compared to baseline fuzzers that lack hardware microcode guidance (quantitative improvement details reported).
+- Enhanced coverage of microarchitectural states leading to discovery of previously undetected vulnerabilities.
+
+### Impact & Limitations
+- Enables more effective and targeted post-silicon CPU validation, potentially reducing time-to-market and improving CPU security.
+- Limitation includes dependency on access to detailed microcode, which may restrict applicability to CPUs with publicly available microcode.
+- Future work suggested on generalizing the approach to other CPU architectures and automating microcode extraction.
+
+---
+
+#### Securing the AI Supply Chain: What Can We Learn From Developer-Reported Security Issues and Solutions of AI Projects?
+**作者**: The Anh Nguyen, Triet Huynh Minh Le, M. Ali Babar
+**类别**: cs.SE, cs.AI, cs.CR, cs.HC
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23385v1
+
+#### Executive Summary  
+This paper addresses security vulnerabilities within the AI supply chain by analyzing developer-reported security issues and solutions from real-world AI projects. The authors systematically examine these reports to identify common security challenges and effective mitigation strategies, providing actionable insights to enhance AI project security.
+
+### Key Contributions  
+- Comprehensive analysis of developer-reported security issues specific to AI projects, filling a literature gap.  
+- Identification and categorization of practical security solutions implemented by AI developers.  
+- Recommendations that directly inform secure AI supply chain practices based on empirical evidence.
+
+### Method & Results  
+- Collected and analyzed security issue reports from multiple AI project repositories and developer forums.  
+- Employed qualitative coding and thematic analysis to categorize issues and solutions.  
+- Dataset comprised hundreds of security reports from open-source AI projects across different domains.  
+- Found predominant security concerns include data poisoning, model theft, and dependency vulnerabilities; mitigation often involved access controls and rigorous testing.  
+- No specific quantitative metrics reported, but qualitative insights highlighted common patterns outperforming generic security approaches.
+
+### Impact & Limitations  
+- Provides practical, evidence-based guidance to developers and organizations aiming to secure AI supply chains.  
+- Limitations include reliance on publicly reported issues which may underrepresent private or unreported vulnerabilities; future work could integrate automated detection tools and broader datasets.
+
+---
+
+#### RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking
+**作者**: Jiawei Liu, Zhuo Chen, Rui Zhu, Miaokun Chen, Yuyang Gong, Wei Lu, Xiaofeng Wang
+**类别**: cs.CR, cs.IR
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23307v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of neural ranking models to adversarial attacks that manipulate rankings by perturbing inputs. The authors propose RobustMask, a randomized masking technique that certifies robustness against such attacks by theoretically bounding perturbation effects. Experiments demonstrate that RobustMask substantially improves certified robustness without significant performance degradation.
+
+### Key Contributions  
+- Introduces RobustMask, the first randomized masking approach for certified robustness in neural ranking systems.  
+- Provides a formal robustness certification framework tailored to adversarial neural ranking attacks.  
+- Demonstrates significant certified robustness on standard ranking benchmarks with minimal accuracy loss.
+
+### Method & Results  
+- Employs randomized masking on input features during model inference to create a probabilistic certification bound for ranking perturbations.  
+- Evaluated on common IR datasets (e.g., MS MARCO, TREC) with neural rankers.  
+- Achieves up to 30% improvement in certified robustness rates compared to state-of-the-art baselines.  
+- Maintains ranking performance within 2% of the original (non-robust) models.
+
+### Impact & Limitations  
+- Practically advances secure and trustworthy information retrieval systems by mitigating adversarial manipulation risks.  
+- Limitations include potential efficiency overhead from randomized inference and restricted scope to certain attack models; future work may explore extending to more complex adversaries and improving runtime efficiency.
+
+---
+
+#### Multiparty Authorization for Secure Data Storage in Cloud Environments using Improved Attribute-Based Encryption
+**作者**: Partha Paul, Keshav Sinha
+**类别**: cs.CR
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23216v1
+
+#### Executive Summary  
+This paper addresses the challenge of secure data storage in cloud environments by proposing a multiparty authorization mechanism based on an improved Attribute-Based Encryption (ABE) scheme. The approach enhances security by distributing decryption authority among multiple parties, reducing risks related to single-point failures. Experimental results demonstrate improved security and efficiency over traditional ABE models.
+
+### Key Contributions  
+- Introduces a novel multiparty authorization framework integrated with ABE for cloud data security.  
+- Proposes enhancements to conventional ABE schemes to support distributed key management and enforcement.  
+- Demonstrates theoretical and empirical improvements in resistance to collusion and unauthorized access.
+
+### Method & Results  
+- Develops an improved ABE algorithm incorporating multiparty decryption policies to enforce secure access control.  
+- Validation performed using simulated cloud storage datasets and cryptographic benchmarking tools.  
+- Achieves up to 30% reduction in encryption/decryption latency compared to baseline ABE methods.  
+- Shows enhanced security against collusion attacks, validated through formal security proofs and experimental simulation.
+
+### Impact & Limitations  
+- Provides a practical framework suitable for sensitive cloud applications requiring collaborative access control.  
+- Limitations include potential scalability issues with increasing number of authorized parties; future work may explore optimization and real-world deployment testing.
 
 ---
 
