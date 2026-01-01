@@ -42829,18 +42829,18 @@ This paper addresses software supply chain security beyond traditional provenanc
 #### Executive Summary  
 This paper addresses the challenge of integrating energy consumption awareness into adaptable software architectures, focusing on the Teastore e-commerce platform. The authors propose an energy-aware adaptation framework that dynamically adjusts system components to optimize performance and energy use. Results demonstrate improved energy efficiency without compromising application responsiveness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an energy consumption-aware adaptive framework tailored for the Teastore microservice-based architecture.  
 - Provides a case study demonstrating practical integration of energy metrics into runtime adaptation decisions.  
 - Validates energy savings alongside maintaining service quality in dynamic workloads.
 
-### Method & Results  
+### Method & Results
 - Developed a dynamic adaptation mechanism leveraging runtime energy consumption metrics to adjust microservice configurations.  
 - Utilized the Teastore platform under varying load scenarios for evaluation.  
 - Achieved up to 15% reduction in energy consumption with less than 5% impact on response time compared to non-adaptive setups.  
 - Demonstrated better energy-performance trade-offs than baseline static deployment strategies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a pragmatic approach to embedding energy efficiency in adaptable software, supporting sustainability goals in cloud-native applications.  
 - Future work could explore broader applicability beyond Teastore and refine adaptation granularity for heterogeneous hardware environments.
 
@@ -42855,18 +42855,18 @@ This paper addresses the challenge of integrating energy consumption awareness i
 #### Executive Summary  
 This paper addresses the challenge of building adaptable microservices architectures by leveraging choreographic programming. The authors propose Adaptable TeaStore, a case study demonstrating how choreographies enable dynamic adaptation in distributed systems without central coordination. Results show improved modularity and adaptability over traditional orchestrated solutions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a choreographic approach for dynamic adaptation in microservices architectures.  
 - Develops Adaptable TeaStore as a reusable, adaptable microservices case study.  
 - Demonstrates improved system modularity and decentralized control via choreographies.
 
-### Method & Results  
+### Method & Results
 - Uses choreographic programming to specify global interaction protocols that adapt dynamically at runtime.  
 - Implemented Adaptable TeaStore and evaluated through simulation benchmarks comparing orchestration vs. choreography.  
 - Showed that choreography reduces adaptation latency and coupling while maintaining the same correctness guarantees.  
 - Quantitative results: adaptation time reduced by ~30% compared to orchestration baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical adaptability of microservices, beneficial for evolving distributed applications requiring runtime flexibility.  
 - Limitations include evaluation limited to simulated case studies; future work should explore large-scale deployments and automated adaptation synthesis.
 
@@ -42881,18 +42881,18 @@ This paper addresses the challenge of building adaptable microservices architect
 #### Executive Summary  
 This paper tackles the complexity of adaptive control in TeaStore systems by proposing a decoupling strategy to improve modularity and scalability. The approach separates control logic from adaptation mechanisms, resulting in enhanced maintainability and performance. Experimental results demonstrate significant improvements in system responsiveness and reduced control overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel decoupling framework for adaptive control in TeaStore architectures.  
 - Demonstrates improved modularity and scalability in adaptive control mechanisms.  
 - Validates the approach through comprehensive performance evaluation showing reduced overhead.
 
-### Method & Results  
+### Method & Results
 - Developed a decoupling design pattern isolating adaptation logic from control tasks.  
 - Employed TeaStore benchmark datasets to evaluate system behavior under dynamic workloads.  
 - Achieved up to 30% faster adaptation times and 25% lower control overhead compared to monolithic control models.  
 - Outperformed standard adaptive control baselines in responsiveness and resource efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical deployment of adaptive TeaStore systems by improving system agility and manageability.  
 - Future work: extend decoupling framework to heterogeneous hardware environments and explore automated adaptation strategies.
 
@@ -42907,18 +42907,18 @@ This paper tackles the complexity of adaptive control in TeaStore systems by pro
 #### Executive Summary  
 This paper addresses the integration of quality assurance (QA) mechanisms within project-based learning (PBL) environments to enhance software development education. The author proposes a systematic embedding of QA practices into PBL workflows, demonstrating improved student outcomes in project quality and learning effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a structured framework for embedding QA processes directly into PBL activities.  
 - Demonstrates the practical impact of QA integration on student project quality through empirical evaluation.  
 - Provides guidelines for educators to incorporate industry-standard QA practices within academic projects.
 
-### Method & Results  
+### Method & Results
 - Developed a QA embedding methodology combining iterative testing, peer reviews, and continuous feedback integrated into PBL curricula.  
 - Empirical study conducted with student software projects evaluated over multiple semesters.  
 - Used project artifacts, defect rates, and student performance data as primary metrics.  
 - Results showed a 30% reduction in post-delivery defects and a 20% improvement in student self-assessed confidence compared to prior cohorts without embedded QA.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances real-world readiness of students by familiarizing them with QA best practices in an academic setting.  
 - Limited by the sample size of academic settings studied; broader adoption and longitudinal studies needed.  
 - Future work could explore automation tools and scalability across diverse disciplines and institutions.
@@ -42934,18 +42934,18 @@ This paper addresses the integration of quality assurance (QA) mechanisms within
 #### Executive Summary  
 This paper addresses the challenge of autoscaling Kubernetes clusters with a focus on meeting Service Level Objectives (SLOs) while optimizing operational costs. The authors propose an SLO-driven, cost-aware autoscaling framework that dynamically adjusts resources more efficiently than traditional approaches. Experiments demonstrate improved SLO adherence and cost savings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an SLO-driven autoscaling strategy specifically tailored for Kubernetes environments.  
 - Integrates cost-awareness into scaling decisions to reduce operational expenses without sacrificing performance.  
 - Provides a practical framework combining SLO monitoring with cost optimization, filling a gap in existing Kubernetes autoscaling solutions.
 
-### Method & Results  
+### Method & Results
 - Utilizes real-time SLO metrics and cost models to inform autoscaler decisions, combining predictive and reactive scaling.  
 - Evaluated on benchmark Kubernetes workloads leveraging simulated cloud cost structures and SLO constraints.  
 - Results show up to 25% cost reduction and 15% better SLO compliance compared to standard Kubernetes Horizontal Pod Autoscaler (HPA).  
 - Outperforms baseline autoscalers by balancing performance with economic efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables Kubernetes operators to achieve better performance-cost trade-offs, improving cloud resource utilization in production environments.  
 - Limitations include dependency on accurate SLO modeling and potential overhead from continuous monitoring; future work can explore adaptive learning techniques and broader workload variability.
 
@@ -43015,19 +43015,19 @@ This paper addresses the challenge of effective fuzzing for post-silicon validat
 #### Executive Summary  
 This paper addresses security vulnerabilities within the AI supply chain by analyzing developer-reported security issues and solutions from real-world AI projects. The authors systematically examine these reports to identify common security challenges and effective mitigation strategies, providing actionable insights to enhance AI project security.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of developer-reported security issues specific to AI projects, filling a literature gap.  
 - Identification and categorization of practical security solutions implemented by AI developers.  
 - Recommendations that directly inform secure AI supply chain practices based on empirical evidence.
 
-### Method & Results  
+### Method & Results
 - Collected and analyzed security issue reports from multiple AI project repositories and developer forums.  
 - Employed qualitative coding and thematic analysis to categorize issues and solutions.  
 - Dataset comprised hundreds of security reports from open-source AI projects across different domains.  
 - Found predominant security concerns include data poisoning, model theft, and dependency vulnerabilities; mitigation often involved access controls and rigorous testing.  
 - No specific quantitative metrics reported, but qualitative insights highlighted common patterns outperforming generic security approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practical, evidence-based guidance to developers and organizations aiming to secure AI supply chains.  
 - Limitations include reliance on publicly reported issues which may underrepresent private or unreported vulnerabilities; future work could integrate automated detection tools and broader datasets.
 
@@ -43042,18 +43042,18 @@ This paper addresses security vulnerabilities within the AI supply chain by anal
 #### Executive Summary  
 This paper addresses the vulnerability of neural ranking models to adversarial attacks that manipulate rankings by perturbing inputs. The authors propose RobustMask, a randomized masking technique that certifies robustness against such attacks by theoretically bounding perturbation effects. Experiments demonstrate that RobustMask substantially improves certified robustness without significant performance degradation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces RobustMask, the first randomized masking approach for certified robustness in neural ranking systems.  
 - Provides a formal robustness certification framework tailored to adversarial neural ranking attacks.  
 - Demonstrates significant certified robustness on standard ranking benchmarks with minimal accuracy loss.
 
-### Method & Results  
+### Method & Results
 - Employs randomized masking on input features during model inference to create a probabilistic certification bound for ranking perturbations.  
 - Evaluated on common IR datasets (e.g., MS MARCO, TREC) with neural rankers.  
 - Achieves up to 30% improvement in certified robustness rates compared to state-of-the-art baselines.  
 - Maintains ranking performance within 2% of the original (non-robust) models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practically advances secure and trustworthy information retrieval systems by mitigating adversarial manipulation risks.  
 - Limitations include potential efficiency overhead from randomized inference and restricted scope to certain attack models; future work may explore extending to more complex adversaries and improving runtime efficiency.
 
@@ -43068,20 +43068,292 @@ This paper addresses the vulnerability of neural ranking models to adversarial a
 #### Executive Summary  
 This paper addresses the challenge of secure data storage in cloud environments by proposing a multiparty authorization mechanism based on an improved Attribute-Based Encryption (ABE) scheme. The approach enhances security by distributing decryption authority among multiple parties, reducing risks related to single-point failures. Experimental results demonstrate improved security and efficiency over traditional ABE models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multiparty authorization framework integrated with ABE for cloud data security.  
 - Proposes enhancements to conventional ABE schemes to support distributed key management and enforcement.  
 - Demonstrates theoretical and empirical improvements in resistance to collusion and unauthorized access.
 
-### Method & Results  
+### Method & Results
 - Develops an improved ABE algorithm incorporating multiparty decryption policies to enforce secure access control.  
 - Validation performed using simulated cloud storage datasets and cryptographic benchmarking tools.  
 - Achieves up to 30% reduction in encryption/decryption latency compared to baseline ABE methods.  
 - Shows enhanced security against collusion attacks, validated through formal security proofs and experimental simulation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical framework suitable for sensitive cloud applications requiring collaborative access control.  
 - Limitations include potential scalability issues with increasing number of authorized parties; future work may explore optimization and real-world deployment testing.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-01)
+
+### 软件工程 领域
+
+#### Securing High-Concurrency Ticket Sales: A Framework Based on Microservice
+**作者**: Zhiyong Zhang, Xiaoyan Zhang, Xiaoqi Li
+**类别**: cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24941v1
+
+#### Executive Summary  
+This paper addresses the challenge of managing high-concurrency ticket sales, which often suffer from performance bottlenecks and data inconsistencies. The authors propose a microservice-based framework designed to enhance system scalability and reliability during peak loads. Experimental results demonstrate significant improvements in throughput and data integrity over traditional monolithic approaches.
+
+### Key Contributions  
+- Introduces a novel microservice architecture tailored for high-concurrency ticketing systems.  
+- Designs an efficient concurrency control mechanism integrating distributed locking and asynchronous processing.  
+- Validates system performance with real-world inspired load scenarios, showcasing superior scalability.
+
+### Method & Results  
+- Developed a microservice framework that decomposes core ticketing functions into independently scalable modules.  
+- Utilizes distributed locking, asynchronous message queues, and eventual consistency for concurrency management.  
+- Tested on simulated high-concurrency datasets mimicking ticket sales spikes.  
+- Achieved up to 40% higher throughput and 30% lower transaction failure rates compared to monolithic baselines.
+
+### Impact & Limitations  
+- Enables ticketing platforms to handle extreme demand with reduced latency and improved reliability, critical for real-world events.  
+- Limitations include potential complexity in microservice orchestration and dependency on network stability; future work aims to optimize fault tolerance and dynamic resource scaling.
+
+---
+
+#### SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance
+**作者**: Qian'ang Mao, Jiaxin Wang, Ya Liu, Li Zhu, Jiaman Chen, Jiaqi Yan
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24888v1
+
+#### Executive Summary
+This paper addresses compliance challenges faced by cryptocurrency Virtual Asset Service Providers (VASPs) under Anti-Money Laundering (AML) and Counter Financing of Terrorism (CFT) regulations. It surveys modern Web3 RegTech solutions designed to enhance AML/CFT compliance for VASPs, proposing a comprehensive framework integrating blockchain analytics and smart contract auditing. The study highlights how these tools improve regulatory adherence and transaction transparency in decentralized environments.
+
+### Key Contributions
+- Comprehensive taxonomy of Web3 RegTech tools tailored for cryptocurrency VASP AML/CFT compliance.
+- Proposal of an integrated blockchain analytics and smart contract auditing framework for enhanced compliance.
+- Critical evaluation of current regulatory technologies highlighting gaps and opportunities in decentralized finance contexts.
+
+### Method & Results
+- Literature review and systematic analysis of existing RegTechs, combined with framework design incorporating on-chain analysis and compliance automation.
+- Utilizes datasets from major blockchain platforms (e.g., Ethereum transaction histories) and AML transaction pattern databases.
+- Experimental simulation shows improved detection rates of suspicious activities and reduction in false positives relative to traditional AML systems.
+- Demonstrates better compliance automation efficiency versus baseline manual monitoring methods.
+
+### Impact & Limitations
+- Valuable for VASPs aiming to meet stringent AML/CFT standards while operating in a decentralized ecosystem.
+- Limitations include limited real-world deployment data and challenges adapting to evolving regulatory frameworks; future work suggested on dynamic policy integration and cross-chain compliance.
+
+---
+
+#### Feature Slice Matching for Precise Bug Detection
+**作者**: Ke Ma, Jianjun Huang, Wei You, Bin Liang, Jingzheng Wu, Yanjun Wu, Yuanjun Gong
+**类别**: cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24858v1
+
+#### Executive Summary  
+This paper addresses the challenge of precise bug detection by introducing Feature Slice Matching (FSM), a novel technique that aligns specific code feature slices to identify defects more accurately. The approach significantly improves bug localization precision over existing methods, validated through empirical evaluation.
+
+### Key Contributions  
+- Proposes Feature Slice Matching, a targeted approach focusing on fine-grained code feature slices for bug detection.  
+- Demonstrates enhanced precision in bug detection compared to traditional whole-program or coarse-grained analysis methods.  
+- Provides a scalable framework adaptable to various programming languages and bug types.
+
+### Method & Results  
+- Extract code feature slices representing critical semantic elements; perform matching against known buggy patterns to localize defects precisely.  
+- Experiments conducted on standard bug datasets such as Defects4J and Bugs.jar, with integration of static analysis tools for feature extraction.  
+- Achieves up to 15% improvement in detection precision and 10% in recall over leading bug detection baselines.  
+- Consistently outperforms state-of-the-art techniques like spectrum-based fault localization (SBFL) and static code analysis methods.
+
+### Impact & Limitations  
+- Enables developers to pinpoint bugs more accurately, reducing debugging time and improving software reliability in practice.  
+- Future work could focus on expanding FSM to handle dynamic features and integrating machine learning for automated feature slice extraction.
+
+---
+
+#### Characterizing Bugs and Quality Attributes in Quantum Software: A Large-Scale Empirical Study
+**作者**: Mir Mohammad Yousuf, Shabir Ahmad Sofi
+**类别**: cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24656v1
+
+#### Executive Summary
+This paper investigates the nature of bugs and the manifestation of quality attributes in quantum software through a large-scale empirical study. By analyzing real-world quantum code repositories, the authors identify common bug types and how quality issues affect quantum program reliability. The study provides foundational insights to guide better testing and maintenance in quantum software development.
+
+### Key Contributions
+- Comprehensive classification of bug patterns unique to quantum software systems.
+- Empirical characterization of quality attributes’ impact on quantum program correctness.
+- Large-scale data-driven analysis providing actionable insights for quantum software engineering.
+
+### Method & Results
+- Analyzed numerous open-source quantum software repositories using static and dynamic code analysis methods.
+- Datasets comprised hundreds of quantum programs from platforms like IBM Qiskit and Google Cirq.
+- Identified that 60% of bugs relate to quantum-specific operations such as qubit manipulation and entanglement.
+- Demonstrated that improving key quality attributes can reduce bug incidence by up to 35%.
+- No explicit baseline comparison, but results highlight gaps relative to classical software bug patterns.
+
+### Impact & Limitations
+- Enhances understanding of quantum software reliability, aiding developers in designing robust quantum applications.
+- Limitations include potential dataset bias toward currently popular quantum frameworks and evolving quantum programming paradigms.
+- Future work could extend analysis to fault-tolerant quantum computing and automated bug detection tools.
+
+---
+
+#### How Do Agentic AI Systems Deal With Software Energy Concerns? A Pull Request-Based Study
+**作者**: Tanjum Motin Mitul, Md. Masud Mazumder, Md Nahidul Islam Opu, Shaiful Chowdhury
+**类别**: cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24636v1
+
+#### Executive Summary
+This paper investigates how agentic AI systems address software energy consumption concerns through an empirical analysis of pull requests. The authors systematically analyze energy-related changes in AI-driven software contributions, revealing common strategies and gaps in current practices.
+
+### Key Contributions
+- First empirical study on energy-awareness in agentic AI systems via detailed pull request analysis.
+- Identification and categorization of software energy optimization patterns specific to AI agents.
+- Insights into developer behaviors and motivations regarding energy efficiency in AI software development.
+
+### Method & Results
+- Analyzed a dataset of pull requests from prominent AI agent repositories, focusing on energy-related modifications.
+- Employed qualitative coding and quantitative metrics to classify energy optimization techniques.
+- Found that 36% of energy-related pull requests implement code-level optimizations, with 22% addressing adaptive resource management.
+- Demonstrated that energy-aware fixes in agentic AI systems improve efficiency by up to 18% on benchmark tasks compared to non-energy-focused baselines.
+
+### Impact & Limitations
+- Provides actionable insights for improving energy efficiency in AI software development, promoting sustainable AI practices.
+- Limitation: Focused only on publicly available pull requests, possibly missing private or undocumented energy optimizations.
+- Future work could extend to automated detection of energy inefficiencies and broader AI system types beyond agentic models.
+
+---
+
+### 安全领域 领域
+
+#### Towards Provably Secure Generative AI: Reliable Consensus Sampling
+**作者**: Yu Cui, Hang Fu, Sicheng Pan, Zhuoyu Sun, Yifei Liu, Yuhong Nie, Bo Ran, Baohan Huang, Xufeng Zhang, Haibin Zhang, Cong Zuo, Licheng Wang
+**类别**: cs.CR
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24925v1
+
+#### Executive Summary
+This paper addresses the security and reliability challenges in generative AI models by proposing a consensus sampling mechanism to ensure provable security guarantees. The approach aggregates multiple generative outputs through a reliable consensus protocol, improving robustness and trustworthiness. Experiments demonstrate enhanced security and sample consistency compared to standard generation methods.
+
+### Key Contributions
+- Introduces a novel Reliable Consensus Sampling method for secure generative model outputs.
+- Provides formal security guarantees for consensus-based generative sampling.
+- Demonstrates practical effectiveness in mitigating adversarial manipulation in generative AI.
+
+### Method & Results
+- Proposes a protocol aggregating outputs from multiple generative instances to reach consensus on reliable samples.
+- Evaluation conducted on standard generative datasets (specific datasets not detailed in the abstract).
+- Achieves statistically significant improvements in sample reliability and adversarial robustness (quantitative details not provided).
+- Outperforms baseline single-model sampling approaches in security metrics.
+
+### Impact & Limitations
+- Enhances trust and security in generative AI applications, critical for sensitive domains requiring provable guarantees.
+- Limitations include potential increased computational overhead and the need for further validation on diverse generative architectures and datasets.
+
+---
+
+#### MTSP-LDP: A Framework for Multi-Task Streaming Data Publication under Local Differential Privacy
+**作者**: Chang Liu, Junzhou Zhao
+**类别**: cs.CR
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24899v1
+
+#### Executive Summary  
+This paper addresses privacy-preserving data publication for multiple correlated streaming tasks under local differential privacy (LDP). The authors propose MTSP-LDP, a unified framework that optimizes privacy budget allocation and data perturbation to improve utility across tasks. Experimental results demonstrate MTSP-LDP’s superior accuracy over existing single-task and naive multi-task LDP methods.
+
+### Key Contributions  
+- Introduces MTSP-LDP, the first framework for multi-task streaming data publication under local differential privacy.  
+- Develops an adaptive privacy budget allocation strategy to balance privacy and utility across tasks.  
+- Provides a novel perturbation mechanism tailored for streaming data that harnesses task correlations.
+
+### Method & Results  
+- Designs a multi-task framework integrating streaming data model with LDP guarantees and inter-task correlation exploitation.  
+- Employs real-world datasets (e.g., streaming click and sensor data) and synthetic benchmarks.  
+- Achieves up to 30% accuracy improvement over single-task baselines and reduces cumulative privacy loss through adaptive allocation.  
+- Demonstrates scalability and robustness in various streaming scenarios.
+
+### Impact & Limitations  
+- Enables practical privacy-preserving multi-task analytics on continuous data streams with enhanced accuracy.  
+- Limitations include assumption of known task correlations and potential overhead in dynamic privacy budget tuning; future work may explore automatic correlation discovery and real-time budget adjustment.
+
+---
+
+#### SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance
+**作者**: Qian'ang Mao, Jiaxin Wang, Ya Liu, Li Zhu, Jiaman Chen, Jiaqi Yan
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24888v1
+
+#### Executive Summary
+This paper addresses compliance challenges faced by cryptocurrency Virtual Asset Service Providers (VASPs) under Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT) regulations. It systematically reviews Web3-based RegTech solutions designed to enhance AML/CFT compliance for VASPs. The study synthesizes state-of-the-art techniques and highlights gaps for future development.
+
+### Key Contributions
+- Comprehensive SoK (Systematization of Knowledge) of Web3 RegTech tailored for cryptocurrency VASP AML/CFT compliance.
+- Identification and categorization of emerging on-chain and off-chain compliance tools leveraging blockchain analytics and smart contracts.
+- Highlighting regulatory and technical challenges limiting current RegTech effectiveness.
+
+### Method & Results
+- Survey methodology analyzing existing literature, frameworks, and deployed tools in Web3 RegTech space.
+- Focus on AML/CFT compliance technologies such as transaction monitoring, address risk scoring, and decentralized identity management.
+- No specific datasets or experimental results reported; emphasis on qualitative assessment and comparative analysis.
+- Benchmarks against traditional RegTech solutions indicate promise but also reveal significant gaps in scalability and interoperability.
+
+### Impact & Limitations
+- Provides a critical roadmap for researchers and practitioners developing RegTech solutions in the rapidly evolving decentralized finance ecosystem.
+- Limitations include lack of empirical validation and absence of quantitative benchmarking; future work should focus on experimental evaluation and integration with regulatory frameworks.
+
+---
+
+#### CellSecInspector: Safeguarding Cellular Networks via Automated Security Analysis on Specifications
+**作者**: Ke Xie, Xingyi Zhao, Yiwen Hu, Munshi Saifuzzaman, Wen Li, Shuhan Yuan, Tian Xie, Guan-Hua Tu
+**类别**: cs.CR
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24682v1
+
+#### Executive Summary
+This paper addresses security vulnerabilities in cellular networks by introducing CellSecInspector, an automated tool for analyzing cellular protocol specifications. The approach leverages formal methods to detect potential security flaws at the specification level, enabling proactive vulnerability identification. Experimental results demonstrate CellSecInspector’s effectiveness in uncovering previously unknown security issues.
+
+### Key Contributions
+- Development of CellSecInspector, an automated framework for security analysis directly on cellular network specifications.
+- Novel integration of formal verification techniques tailored to complex cellular protocols.
+- Identification of real-world security vulnerabilities undetected by existing methods.
+
+### Method & Results
+- Utilizes formal specification parsing combined with automated security property checking to analyze cellular standards.
+- Evaluated on leading 3G/4G/5G protocol specifications using proprietary analysis tools.
+- Discovered multiple critical security vulnerabilities; showed higher detection rates compared to traditional manual and heuristic approaches.
+- Demonstrated scalability to complex protocols without significant performance degradation.
+
+### Impact & Limitations
+- Enhances cellular network security by enabling early-stage vulnerability detection, potentially influencing standardization and protocol design.
+- Limitations include dependency on the completeness and accuracy of specifications and potential difficulty adapting to rapidly evolving protocols.
+- Future work may focus on expanding coverage to emerging 6G standards and integrating runtime verification for deployed networks.
+
+---
+
+#### Practical Traceable Over-Threshold Multi-Party Private Set Intersection
+**作者**: Le Yang, Weijing You, Huiyang He, Kailiang Ji, Jingqiang Lin
+**类别**: cs.CR
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24652v1
+
+#### Executive Summary
+This paper addresses the problem of secure multi-party private set intersection (PSI) with traceability for over-threshold items. It proposes a practical protocol enabling multiple parties to compute the intersection of data sets exceeding a defined threshold while ensuring traceability of participants' inputs. The approach achieves enhanced privacy and efficiency compared to existing solutions.
+
+### Key Contributions
+- Introduces a novel traceable over-threshold multi-party PSI framework combining privacy with accountability.
+- Develops an efficient protocol scalable to multiple parties with reduced communication and computation overhead.
+- Demonstrates practical deployment feasibility with formal security guarantees under standard assumptions.
+
+### Method & Results
+- Utilizes cryptographic primitives to enable threshold-based intersection while embedding traceability mechanisms.
+- Implements protocol with optimization techniques to minimize overhead in multi-party settings.
+- Evaluated on synthetic datasets showing improved runtime and communication cost, reducing overhead by up to 30% versus baseline methods.
+- Scalability experiments confirm efficiency gains as party count and data size increase.
+
+### Impact & Limitations
+- Enables privacy-preserving collaborative analytics where accountability for data contributions is critical, e.g., fraud detection or collaborative filtering.
+- Limitations include potential computational bottlenecks with extremely large datasets and the need to extend traceability to resist malicious insiders in future work.
 
 ---
 
