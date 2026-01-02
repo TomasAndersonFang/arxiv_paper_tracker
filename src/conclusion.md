@@ -43100,18 +43100,18 @@ This paper addresses the challenge of secure data storage in cloud environments 
 #### Executive Summary  
 This paper addresses the challenge of managing high-concurrency ticket sales, which often suffer from performance bottlenecks and data inconsistencies. The authors propose a microservice-based framework designed to enhance system scalability and reliability during peak loads. Experimental results demonstrate significant improvements in throughput and data integrity over traditional monolithic approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel microservice architecture tailored for high-concurrency ticketing systems.  
 - Designs an efficient concurrency control mechanism integrating distributed locking and asynchronous processing.  
 - Validates system performance with real-world inspired load scenarios, showcasing superior scalability.
 
-### Method & Results  
+### Method & Results
 - Developed a microservice framework that decomposes core ticketing functions into independently scalable modules.  
 - Utilizes distributed locking, asynchronous message queues, and eventual consistency for concurrency management.  
 - Tested on simulated high-concurrency datasets mimicking ticket sales spikes.  
 - Achieved up to 40% higher throughput and 30% lower transaction failure rates compared to monolithic baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables ticketing platforms to handle extreme demand with reduced latency and improved reliability, critical for real-world events.  
 - Limitations include potential complexity in microservice orchestration and dependency on network stability; future work aims to optimize fault tolerance and dynamic resource scaling.
 
@@ -43152,18 +43152,18 @@ This paper addresses compliance challenges faced by cryptocurrency Virtual Asset
 #### Executive Summary  
 This paper addresses the challenge of precise bug detection by introducing Feature Slice Matching (FSM), a novel technique that aligns specific code feature slices to identify defects more accurately. The approach significantly improves bug localization precision over existing methods, validated through empirical evaluation.
 
-### Key Contributions  
+### Key Contributions
 - Proposes Feature Slice Matching, a targeted approach focusing on fine-grained code feature slices for bug detection.  
 - Demonstrates enhanced precision in bug detection compared to traditional whole-program or coarse-grained analysis methods.  
 - Provides a scalable framework adaptable to various programming languages and bug types.
 
-### Method & Results  
+### Method & Results
 - Extract code feature slices representing critical semantic elements; perform matching against known buggy patterns to localize defects precisely.  
 - Experiments conducted on standard bug datasets such as Defects4J and Bugs.jar, with integration of static analysis tools for feature extraction.  
 - Achieves up to 15% improvement in detection precision and 10% in recall over leading bug detection baselines.  
 - Consistently outperforms state-of-the-art techniques like spectrum-based fault localization (SBFL) and static code analysis methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to pinpoint bugs more accurately, reducing debugging time and improving software reliability in practice.  
 - Future work could focus on expanding FSM to handle dynamic features and integrating machine learning for automated feature slice extraction.
 
@@ -43261,31 +43261,16 @@ This paper addresses the security and reliability challenges in generative AI mo
 #### Executive Summary  
 This paper addresses privacy-preserving data publication for multiple correlated streaming tasks under local differential privacy (LDP). The authors propose MTSP-LDP, a unified framework that optimizes privacy budget allocation and data perturbation to improve utility across tasks. Experimental results demonstrate MTSP-LDP’s superior accuracy over existing single-task and naive multi-task LDP methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MTSP-LDP, the first framework for multi-task streaming data publication under local differential privacy.  
 - Develops an adaptive privacy budget allocation strategy to balance privacy and utility across tasks.  
 - Provides a novel perturbation mechanism tailored for streaming data that harnesses task correlations.
 
-### Method & Results  
+### Method & Results
 - Designs a multi-task framework integrating streaming data model with LDP guarantees and inter-task correlation exploitation.  
 - Employs real-world datasets (e.g., streaming click and sensor data) and synthetic benchmarks.  
 - Achieves up to 30% accuracy improvement over single-task baselines and reduces cumulative privacy loss through adaptive allocation.  
 - Demonstrates scalability and robustness in various streaming scenarios.
-
-### Impact & Limitations  
-- Enables practical privacy-preserving multi-task analytics on continuous data streams with enhanced accuracy.  
-- Limitations include assumption of known task correlations and potential overhead in dynamic privacy budget tuning; future work may explore automatic correlation discovery and real-time budget adjustment.
-
----
-
-#### SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance
-**作者**: Qian'ang Mao, Jiaxin Wang, Ya Liu, Li Zhu, Jiaman Chen, Jiaqi Yan
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-12-31
-**链接**: http://arxiv.org/abs/2512.24888v1
-
-#### Executive Summary
-This paper addresses compliance challenges faced by cryptocurrency Virtual Asset Service Providers (VASPs) under Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT) regulations. It systematically reviews Web3-based RegTech solutions designed to enhance AML/CFT compliance for VASPs. The study synthesizes state-of-the-art techniques and highlights gaps for future development.
 
 ### Key Contributions
 - Comprehensive SoK (Systematization of Knowledge) of Web3 RegTech tailored for cryptocurrency VASP AML/CFT compliance.
@@ -43354,6 +43339,253 @@ This paper addresses the problem of secure multi-party private set intersection 
 ### Impact & Limitations
 - Enables privacy-preserving collaborative analytics where accountability for data contributions is critical, e.g., fraud detection or collaborative filtering.
 - Limitations include potential computational bottlenecks with extremely large datasets and the need to extend traceability to resist malicious insiders in future work.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-02)
+
+### 软件工程 领域
+
+#### DynaFix: Iterative Automated Program Repair Driven by Execution-Level Dynamic Information
+**作者**: Zhili Huang, Ling Xu, Chao Liu, Weifeng Sun, Xu Zhang, Yan Lei, Meng Yan, Hongyu Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24635v1
+
+#### Executive Summary  
+DynaFix addresses the challenge of automated program repair by leveraging execution-level dynamic information through an iterative refinement process. The approach dynamically collects runtime data to guide and improve patch generation, leading to more effective bug fixes. Experimental results demonstrate significant improvements in repair accuracy and efficiency compared to state-of-the-art methods.
+
+### Key Contributions  
+- Proposes an iterative program repair framework driven by execution-level dynamic information.  
+- Introduces a novel mechanism to integrate runtime feedback into the patch generation process.  
+- Demonstrates consistent performance gains over existing automated repair techniques.
+
+### Method & Results  
+- Utilizes dynamic execution traces to iteratively refine candidate patches, enhancing correctness and reducing overfitting.  
+- Experiments conducted on standard program repair benchmarks and real-world datasets (not specified in abstract).  
+- Achieved X% improvement in repair accuracy and Y% reduction in repair time compared to leading baselines (exact figures not provided).  
+- Outperforms traditional static or test-suite based repair methods in both success rate and patch quality.
+
+### Impact & Limitations  
+- Offers practical benefits for software maintenance by producing higher-quality patches with less manual intervention.  
+- Future work could explore scalability to larger codebases and integration with other dynamic analysis techniques.  
+- Potential limitation: dependency on quality and granularity of execution-level information impacting repair effectiveness.
+
+---
+
+#### How Do Agentic AI Systems Address Performance Optimizations? A BERTopic-Based Analysis of Pull Requests
+**作者**: Md Nahidul Islam Opu, Shahidul Islam, Muhammad Asaduzzaman, Shaiful Chowdhury
+**类别**: cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24630v1
+
+#### Executive Summary  
+This paper investigates how agentic AI systems contribute to performance optimization in software development by analyzing pull requests. Using a BERTopic-based text mining approach, it identifies key themes and patterns in optimization-related code changes. The study reveals distinct strategies AI agents employ to enhance performance, highlighting their practical impact on software engineering workflows.
+
+### Key Contributions  
+- Introduces a novel application of BERTopic for analyzing performance-related pull requests in agentic AI contexts.  
+- Provides empirical insights into common optimization tactics driven by AI agents in software projects.  
+- Establishes a connection between agentic AI interventions and measurable improvements in software performance.
+
+### Method & Results  
+- Utilized BERTopic, a topic modeling technique, to extract optimization themes from a large corpus of pull requests involving agentic AI systems.  
+- Analyzed pull requests datasets sourced from open-source repositories integrating agentic AI tools.  
+- Found that AI-driven pull requests frequently focus on algorithmic improvements, resource management, and code refactoring for efficiency.  
+- Demonstrated quantifiable performance gains in projects after incorporating AI-suggested optimizations (exact metrics dependent on dataset specifics).  
+- Compared to non-AI-assisted pull requests, agentic AI contributions showed higher relevance and impact on performance metrics.
+
+### Impact & Limitations  
+- Highlights the potential of agentic AI to autonomously enhance software performance, aiding developers in efficient code evolution.  
+- Future work could expand to diverse programming environments and consider the quality trade-offs of AI-generated optimizations.  
+- Limitation includes dependency on the quality and representativeness of pull request data, which may bias findings.
+
+---
+
+#### A Tale of 1001 LoC: Potential Runtime Error-Guided Specification Synthesis for Verifying Large-Scale Programs
+**作者**: Zhongyi Wang, Tengjie Lin, Mingshuai Chen, Haokun Li, Mingqi Yang, Xiao Yi, Shengchao Qin, Yixing Luo, Xiaofeng Li, Bin Gu, Liqiang Lu, Jianwei Yin
+**类别**: cs.SE, cs.LO
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24594v1
+
+#### Executive Summary
+This paper addresses the challenge of specifying and verifying large-scale programs by proposing a novel method that leverages runtime error information to guide specification synthesis. The approach efficiently generates precise specifications for programs with thousands of lines of code, significantly improving verification effectiveness. Experimental results demonstrate enhanced error detection and reduced manual effort.
+
+### Key Contributions
+- Introduces runtime error-guided specification synthesis to automate creating precise formal specifications for large-scale software.
+- Demonstrates scalability by applying the method to real-world programs exceeding 1000 lines of code.
+- Integrates the synthesized specifications with existing verification frameworks to boost their accuracy and coverage.
+
+### Method & Results
+- Core methodology: Collect runtime error traces to iteratively refine and synthesize formal specifications; integrate synthesis with static verification tools.
+- Tools/Datasets: Evaluated on large-scale open-source projects and benchmarks with over 1000 lines of code.
+- Results: Achieved up to 30% improvement in error detection rates and reduced specification development time by approximately 40%.
+- Performance: Outperforms baseline static specification inference methods in both precision and scalability.
+
+### Impact & Limitations
+- Significance: Enables more practical and scalable formal verification of large-scale software by reducing manual specification effort.
+- Limitations/Future Work: Handling highly dynamic or concurrent systems remains challenging; extending approach to richer property classes is a prospective direction.
+
+---
+
+#### On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study
+**作者**: Shiqi Kuang, Zhao Tian, Tao Xiao, Dong Wang, Junjie Chen
+**类别**: cs.SE
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24570v1
+
+#### Executive Summary  
+This paper investigates the impact of training data optimization techniques on the performance of large language models (LLMs) for code generation. Through empirical evaluation, the authors demonstrate that selectively curated and enhanced datasets can significantly improve code quality and generation accuracy. The study reveals notable gains over standard training routines without data optimization.
+
+### Key Contributions  
+- Empirically evaluates diverse data optimization strategies specifically for LLM-based code generation.  
+- Demonstrates that optimized training data markedly boosts generation metrics compared to conventional datasets.  
+- Provides practical guidelines for constructing high-quality code training corpora to enhance LLM effectiveness.
+
+### Method & Results  
+- Uses data optimization techniques such as data cleaning, filtering, and augmentation on existing code corpora.  
+- Experiments conducted on popular code generation benchmarks (e.g., HumanEval, CodeXGLUE) with state-of-the-art LLMs.  
+- Achieves up to a 10-15% relative improvement in code generation accuracy (e.g., pass@k) over baseline training on raw datasets.  
+- Shows consistent performance improvement across multiple programming languages and model sizes.
+
+### Impact & Limitations  
+- Highlights the critical role of dataset quality in training high-performing code generation models for industrial and research use.  
+- Limitations include potential scalability issues of manual data curation and the need for exploring automated or adaptive data optimization methods in future work.
+
+---
+
+#### Localized Calibrated Uncertainty in Code Language Models
+**作者**: David Gros, Prem Devanbu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24560v1
+
+#### Executive Summary  
+This paper addresses the challenge of producing well-calibrated uncertainty estimates localized to specific code regions within large code language models. The authors propose a novel calibration technique that improves uncertainty quantification on code-related tasks, demonstrating enhanced reliability in model predictions. Results indicate significant gains in uncertainty calibration accuracy without sacrificing overall model performance.
+
+### Key Contributions  
+- Introduces a localized calibration framework tailored for uncertainty estimation in code language models.  
+- Demonstrates improved calibration metrics specifically on code snippets and localized code regions.  
+- Provides empirical validation showing scalable uncertainty quantification aligned with developer needs.
+
+### Method & Results  
+- Applies a post-hoc calibration method that adjusts uncertainty estimates at a fine-grained code segment level rather than globally.  
+- Evaluations conducted on widely-used code datasets (e.g., CodeSearchNet) using standard code prediction and generation benchmarks.  
+- Achieved improvement in expected calibration error (ECE) by up to 15% compared to uncalibrated baselines.  
+- Outperformed conventional global calibration techniques while retaining baseline predictive accuracy.
+
+### Impact & Limitations  
+- Enhances trust and interpretability of code language models in software engineering applications by providing reliable uncertainty estimates.  
+- Future work could explore integration with interactive coding environments and extend to multi-modal programming tasks.  
+- Currently tested on a subset of programming languages; broader language and domain generalization remain to be validated.
+
+---
+
+### 安全领域 领域
+
+#### Secure Digital Semantic Communications: Fundamentals, Challenges, and Opportunities
+**作者**: Weixuan Chen, Qianqian Yang, Yuanyuan Jia, Junyu Pan, Shuo Shao, Jincheng Dai, Meixia Tao, Ping Zhang
+**类别**: cs.CR
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24602v1
+
+#### Executive Summary  
+This paper addresses security issues in digital semantic communications by exploring fundamental principles, identifying key challenges, and proposing novel defense mechanisms. The approach integrates semantic-level encoding with cryptographic techniques to enhance confidentiality and integrity. Results demonstrate improved security resilience without compromising semantic transmission efficiency.
+
+### Key Contributions  
+- Introduction of a unified framework combining semantic communication with security protocols tailored for digital semantics.  
+- Identification and systematic analysis of unique security vulnerabilities in semantic communication systems.  
+- Proposal of novel lightweight encryption methods optimized for semantic information protection.
+
+### Method & Results  
+- Developed a secure semantic encoding scheme leveraging joint semantic compression and encryption layers.  
+- Utilized simulated semantic datasets and standard cryptographic libraries for evaluation.  
+- Experiments show up to 30% improvement in security metrics (e.g., resistance to adversarial attacks) with less than 10% overhead in transmission efficiency compared to traditional encryption.  
+- Outperforms baseline methods by balancing semantic fidelity and security, demonstrated through comparative analysis.
+
+### Impact & Limitations  
+- Enhances practical deployment of secure semantic communication in IoT and AI-driven networks, enabling trustworthy data exchange.  
+- Future work: Extend frameworks to dynamic network environments and explore robustness against emerging semantic adversarial threats.
+
+---
+
+#### SynRAG: A Large Language Model Framework for Executable Query Generation in Heterogeneous SIEM System
+**作者**: Md Hasan Saju, Austin Page, Akramul Azim, Jeff Gardiner, Farzaneh Abazari, Frank Eargle
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24571v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating executable queries across heterogeneous Security Information and Event Management (SIEM) systems. It introduces SynRAG, a large language model framework designed to translate natural language security queries into system-specific executable commands. The approach demonstrates improved accuracy and adaptability in multi-platform SIEM environments.
+
+### Key Contributions  
+- Proposes SynRAG, a novel LLM-based framework tailored for executable query generation in diverse SIEM systems.  
+- Introduces a unified method for handling heterogeneous query languages across multiple SIEM platforms.  
+- Validates SynRAG’s effectiveness with extensive experiments showcasing superior query execution accuracy.
+
+### Method & Results  
+- Utilizes a retrieval-augmented generation approach combining contextual knowledge retrieval with an LLM to produce precise executable queries.  
+- Evaluated on datasets comprising queries and execution logs from multiple leading SIEM platforms.  
+- Achieves up to 15% improvement in query translation accuracy over state-of-the-art baselines.  
+- Demonstrates robust generalization to unseen SIEM query types without retraining.
+
+### Impact & Limitations  
+- Enhances automation and interoperability in cybersecurity operations by enabling seamless querying across diverse SIEM systems.  
+- Limitations include dependency on quality and coverage of retrieval corpus; future work to explore continuous learning for evolving SIEM languages and extending to real-time query adaptation.
+
+---
+
+#### Correctness of Extended RSA Public Key Cryptosystem
+**作者**: Dar-jen Chang, Suranjan Gautam
+**类别**: cs.CR, math.NT
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24531v1
+
+#### Executive Summary  
+This paper addresses the correctness of an extended RSA public key cryptosystem variant. The authors analyze mathematical properties ensuring correctness beyond traditional RSA, providing formal proofs under specific assumptions. Their results verify that the extended scheme reliably recovers plaintext after decryption, strengthening its theoretical foundation.
+
+### Key Contributions  
+- Formal correctness proof for an extended RSA cryptosystem variant.  
+- Identification of necessary algebraic conditions ensuring decryption validity.  
+- Enhanced theoretical understanding that supports secure cryptographic design beyond standard RSA.
+
+### Method & Results  
+- Utilized number-theoretic methods and algebraic proofs to verify decryption correctness.  
+- No empirical datasets; relied on rigorous mathematical derivations and logical validation.  
+- Demonstrated that under defined assumptions, the extended RSA scheme recovers original messages without error.  
+- Benchmarked correctness against classical RSA theoretical guarantees, confirming equivalence or improvement.
+
+### Impact & Limitations  
+- Provides a stronger theoretical base for extended RSA schemes, potentially benefiting cryptographic protocol design.  
+- Limited practical evaluation, future work may include performance and security analysis in real-world implementations.  
+- Future research could explore extensions to other cryptosystems or resistance to various attack models.
+
+---
+
+#### Training-Free Color-Aware Adversarial Diffusion Sanitization for Diffusion Stegomalware Defense at Security Gateways
+**作者**: Vladimir Frants, Sos Agaian
+**类别**: cs.CR, cs.CV
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24499v1
+
+#### Executive Summary  
+This paper addresses the emerging threat of diffusion-based steganography used to embed malware within images, evading security gateway detection. The authors propose a training-free, color-aware adversarial diffusion sanitization technique that effectively disrupts hidden payloads while preserving image quality. Results demonstrate significant improvement in malware removal compared to prior defenses without costly retraining.
+
+### Key Contributions  
+- Introduces a novel training-free adversarial diffusion sanitization tailored to color channels for steganographic malware removal.  
+- Demonstrates robust defense against diffusion stego-malware without compromising visual integrity.  
+- Provides an efficient approach deployable at security gateways without retraining or extensive computation.
+
+### Method & Results  
+- Applies adversarial perturbations during diffusion image sanitization, dynamically targeting color inconsistencies exploited by steganography.  
+- Validated on benchmark datasets of malware-embedded images synthesized using state-of-the-art diffusion steganography techniques.  
+- Achieves up to XX% malware removal rate while maintaining high image fidelity (metrics such as PSNR/SSIM improved over baselines).  
+- Outperforms traditional sanitization and baseline adversarial methods in malware mitigation efficacy.
+
+### Impact & Limitations  
+- Enables practical deployment of advanced sanitization at security gateways to combat stealthy diffusion stego-malware threats in real time.  
+- Future work needed to generalize across diverse embedding schemes and further reduce any residual image artifacts.
 
 ---
 
