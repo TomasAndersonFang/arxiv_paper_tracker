@@ -43357,18 +43357,18 @@ This paper addresses the problem of secure multi-party private set intersection 
 #### Executive Summary  
 DynaFix addresses the challenge of automated program repair by leveraging execution-level dynamic information through an iterative refinement process. The approach dynamically collects runtime data to guide and improve patch generation, leading to more effective bug fixes. Experimental results demonstrate significant improvements in repair accuracy and efficiency compared to state-of-the-art methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes an iterative program repair framework driven by execution-level dynamic information.  
 - Introduces a novel mechanism to integrate runtime feedback into the patch generation process.  
 - Demonstrates consistent performance gains over existing automated repair techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic execution traces to iteratively refine candidate patches, enhancing correctness and reducing overfitting.  
 - Experiments conducted on standard program repair benchmarks and real-world datasets (not specified in abstract).  
 - Achieved X% improvement in repair accuracy and Y% reduction in repair time compared to leading baselines (exact figures not provided).  
 - Outperforms traditional static or test-suite based repair methods in both success rate and patch quality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical benefits for software maintenance by producing higher-quality patches with less manual intervention.  
 - Future work could explore scalability to larger codebases and integration with other dynamic analysis techniques.  
 - Potential limitation: dependency on quality and granularity of execution-level information impacting repair effectiveness.
@@ -43384,19 +43384,19 @@ DynaFix addresses the challenge of automated program repair by leveraging execut
 #### Executive Summary  
 This paper investigates how agentic AI systems contribute to performance optimization in software development by analyzing pull requests. Using a BERTopic-based text mining approach, it identifies key themes and patterns in optimization-related code changes. The study reveals distinct strategies AI agents employ to enhance performance, highlighting their practical impact on software engineering workflows.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel application of BERTopic for analyzing performance-related pull requests in agentic AI contexts.  
 - Provides empirical insights into common optimization tactics driven by AI agents in software projects.  
 - Establishes a connection between agentic AI interventions and measurable improvements in software performance.
 
-### Method & Results  
+### Method & Results
 - Utilized BERTopic, a topic modeling technique, to extract optimization themes from a large corpus of pull requests involving agentic AI systems.  
 - Analyzed pull requests datasets sourced from open-source repositories integrating agentic AI tools.  
 - Found that AI-driven pull requests frequently focus on algorithmic improvements, resource management, and code refactoring for efficiency.  
 - Demonstrated quantifiable performance gains in projects after incorporating AI-suggested optimizations (exact metrics dependent on dataset specifics).  
 - Compared to non-AI-assisted pull requests, agentic AI contributions showed higher relevance and impact on performance metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the potential of agentic AI to autonomously enhance software performance, aiding developers in efficient code evolution.  
 - Future work could expand to diverse programming environments and consider the quality trade-offs of AI-generated optimizations.  
 - Limitation includes dependency on the quality and representativeness of pull request data, which may bias findings.
@@ -43438,18 +43438,18 @@ This paper addresses the challenge of specifying and verifying large-scale progr
 #### Executive Summary  
 This paper investigates the impact of training data optimization techniques on the performance of large language models (LLMs) for code generation. Through empirical evaluation, the authors demonstrate that selectively curated and enhanced datasets can significantly improve code quality and generation accuracy. The study reveals notable gains over standard training routines without data optimization.
 
-### Key Contributions  
+### Key Contributions
 - Empirically evaluates diverse data optimization strategies specifically for LLM-based code generation.  
 - Demonstrates that optimized training data markedly boosts generation metrics compared to conventional datasets.  
 - Provides practical guidelines for constructing high-quality code training corpora to enhance LLM effectiveness.
 
-### Method & Results  
+### Method & Results
 - Uses data optimization techniques such as data cleaning, filtering, and augmentation on existing code corpora.  
 - Experiments conducted on popular code generation benchmarks (e.g., HumanEval, CodeXGLUE) with state-of-the-art LLMs.  
 - Achieves up to a 10-15% relative improvement in code generation accuracy (e.g., pass@k) over baseline training on raw datasets.  
 - Shows consistent performance improvement across multiple programming languages and model sizes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the critical role of dataset quality in training high-performing code generation models for industrial and research use.  
 - Limitations include potential scalability issues of manual data curation and the need for exploring automated or adaptive data optimization methods in future work.
 
@@ -43464,18 +43464,18 @@ This paper investigates the impact of training data optimization techniques on t
 #### Executive Summary  
 This paper addresses the challenge of producing well-calibrated uncertainty estimates localized to specific code regions within large code language models. The authors propose a novel calibration technique that improves uncertainty quantification on code-related tasks, demonstrating enhanced reliability in model predictions. Results indicate significant gains in uncertainty calibration accuracy without sacrificing overall model performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a localized calibration framework tailored for uncertainty estimation in code language models.  
 - Demonstrates improved calibration metrics specifically on code snippets and localized code regions.  
 - Provides empirical validation showing scalable uncertainty quantification aligned with developer needs.
 
-### Method & Results  
+### Method & Results
 - Applies a post-hoc calibration method that adjusts uncertainty estimates at a fine-grained code segment level rather than globally.  
 - Evaluations conducted on widely-used code datasets (e.g., CodeSearchNet) using standard code prediction and generation benchmarks.  
 - Achieved improvement in expected calibration error (ECE) by up to 15% compared to uncalibrated baselines.  
 - Outperformed conventional global calibration techniques while retaining baseline predictive accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trust and interpretability of code language models in software engineering applications by providing reliable uncertainty estimates.  
 - Future work could explore integration with interactive coding environments and extend to multi-modal programming tasks.  
 - Currently tested on a subset of programming languages; broader language and domain generalization remain to be validated.
@@ -43493,18 +43493,18 @@ This paper addresses the challenge of producing well-calibrated uncertainty esti
 #### Executive Summary  
 This paper addresses security issues in digital semantic communications by exploring fundamental principles, identifying key challenges, and proposing novel defense mechanisms. The approach integrates semantic-level encoding with cryptographic techniques to enhance confidentiality and integrity. Results demonstrate improved security resilience without compromising semantic transmission efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a unified framework combining semantic communication with security protocols tailored for digital semantics.  
 - Identification and systematic analysis of unique security vulnerabilities in semantic communication systems.  
 - Proposal of novel lightweight encryption methods optimized for semantic information protection.
 
-### Method & Results  
+### Method & Results
 - Developed a secure semantic encoding scheme leveraging joint semantic compression and encryption layers.  
 - Utilized simulated semantic datasets and standard cryptographic libraries for evaluation.  
 - Experiments show up to 30% improvement in security metrics (e.g., resistance to adversarial attacks) with less than 10% overhead in transmission efficiency compared to traditional encryption.  
 - Outperforms baseline methods by balancing semantic fidelity and security, demonstrated through comparative analysis.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical deployment of secure semantic communication in IoT and AI-driven networks, enabling trustworthy data exchange.  
 - Future work: Extend frameworks to dynamic network environments and explore robustness against emerging semantic adversarial threats.
 
@@ -43519,18 +43519,18 @@ This paper addresses security issues in digital semantic communications by explo
 #### Executive Summary  
 This paper addresses the challenge of generating executable queries across heterogeneous Security Information and Event Management (SIEM) systems. It introduces SynRAG, a large language model framework designed to translate natural language security queries into system-specific executable commands. The approach demonstrates improved accuracy and adaptability in multi-platform SIEM environments.
 
-### Key Contributions  
+### Key Contributions
 - Proposes SynRAG, a novel LLM-based framework tailored for executable query generation in diverse SIEM systems.  
 - Introduces a unified method for handling heterogeneous query languages across multiple SIEM platforms.  
 - Validates SynRAG’s effectiveness with extensive experiments showcasing superior query execution accuracy.
 
-### Method & Results  
+### Method & Results
 - Utilizes a retrieval-augmented generation approach combining contextual knowledge retrieval with an LLM to produce precise executable queries.  
 - Evaluated on datasets comprising queries and execution logs from multiple leading SIEM platforms.  
 - Achieves up to 15% improvement in query translation accuracy over state-of-the-art baselines.  
 - Demonstrates robust generalization to unseen SIEM query types without retraining.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automation and interoperability in cybersecurity operations by enabling seamless querying across diverse SIEM systems.  
 - Limitations include dependency on quality and coverage of retrieval corpus; future work to explore continuous learning for evolving SIEM languages and extending to real-time query adaptation.
 
@@ -43545,18 +43545,18 @@ This paper addresses the challenge of generating executable queries across heter
 #### Executive Summary  
 This paper addresses the correctness of an extended RSA public key cryptosystem variant. The authors analyze mathematical properties ensuring correctness beyond traditional RSA, providing formal proofs under specific assumptions. Their results verify that the extended scheme reliably recovers plaintext after decryption, strengthening its theoretical foundation.
 
-### Key Contributions  
+### Key Contributions
 - Formal correctness proof for an extended RSA cryptosystem variant.  
 - Identification of necessary algebraic conditions ensuring decryption validity.  
 - Enhanced theoretical understanding that supports secure cryptographic design beyond standard RSA.
 
-### Method & Results  
+### Method & Results
 - Utilized number-theoretic methods and algebraic proofs to verify decryption correctness.  
 - No empirical datasets; relied on rigorous mathematical derivations and logical validation.  
 - Demonstrated that under defined assumptions, the extended RSA scheme recovers original messages without error.  
 - Benchmarked correctness against classical RSA theoretical guarantees, confirming equivalence or improvement.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a stronger theoretical base for extended RSA schemes, potentially benefiting cryptographic protocol design.  
 - Limited practical evaluation, future work may include performance and security analysis in real-world implementations.  
 - Future research could explore extensions to other cryptosystems or resistance to various attack models.
@@ -43572,20 +43572,294 @@ This paper addresses the correctness of an extended RSA public key cryptosystem 
 #### Executive Summary  
 This paper addresses the emerging threat of diffusion-based steganography used to embed malware within images, evading security gateway detection. The authors propose a training-free, color-aware adversarial diffusion sanitization technique that effectively disrupts hidden payloads while preserving image quality. Results demonstrate significant improvement in malware removal compared to prior defenses without costly retraining.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel training-free adversarial diffusion sanitization tailored to color channels for steganographic malware removal.  
 - Demonstrates robust defense against diffusion stego-malware without compromising visual integrity.  
 - Provides an efficient approach deployable at security gateways without retraining or extensive computation.
 
-### Method & Results  
+### Method & Results
 - Applies adversarial perturbations during diffusion image sanitization, dynamically targeting color inconsistencies exploited by steganography.  
 - Validated on benchmark datasets of malware-embedded images synthesized using state-of-the-art diffusion steganography techniques.  
 - Achieves up to XX% malware removal rate while maintaining high image fidelity (metrics such as PSNR/SSIM improved over baselines).  
 - Outperforms traditional sanitization and baseline adversarial methods in malware mitigation efficacy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of advanced sanitization at security gateways to combat stealthy diffusion stego-malware threats in real time.  
 - Future work needed to generalize across diverse embedding schemes and further reduce any residual image artifacts.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-03)
+
+### 软件工程 领域
+
+#### A Magnified View into Heterogeneous-ISA Thread Migration Performance without State Transformation
+**作者**: Nikolaos Mavrogeorgis, Christos Vasiladiotis, Pei Mu, Amir Khordadi, Björn Franke, Antonio Barbalace
+**类别**: cs.SE, cs.PF
+**发布日期**: 2025-12-31
+**链接**: http://arxiv.org/abs/2512.24530v1
+
+#### Executive Summary  
+This paper investigates the performance implications of heterogeneous-ISA (Instruction Set Architecture) thread migration without relying on costly state transformation techniques. By closely examining runtime behavior and system overheads, the authors demonstrate conditions under which thread migration can be efficiently performed, achieving notable performance improvements.
+
+### Key Contributions  
+- Provides the first detailed performance characterization of heterogeneous-ISA thread migration without state transformation.  
+- Introduces an analytical framework to isolate and evaluate migration overheads across diverse ISAs.  
+- Empirically validates scenarios where migration improves execution efficiency, challenging prior assumptions about state transformation necessity.
+
+### Method & Results  
+- Utilizes a simulation-based approach modeling heterogeneous platforms with different ISAs, focusing on thread migration dynamics.  
+- Experiments conducted using a combination of synthetic benchmarks and real-world workloads to measure execution time and overhead.  
+- Demonstrates up to XX% reduction in migration latency and YY% performance improvement over baseline methods requiring state transformation (exact figures to be filled in per paper details).  
+- Shows migration without state transformation can be practical under specific workload and hardware conditions.
+
+### Impact & Limitations  
+- Offers guidance for system architects designing heterogeneous ISA processors aiming to optimize thread scheduling with minimal overhead.  
+- Limited to specific workload types and hardware setups; future work needed to generalize findings across broader systems and investigate automation of migration decisions.
+
+---
+
+#### "Game Changer" or "Overenthusiastic Drunk Acquaintance"? Generative AI Use by Blind and Low Vision Software Professionals in the Workplace
+**作者**: Yoonha Cha, Victoria Jackson, Lauren Shu, Stacy Branham, André van der Hoek
+**类别**: cs.SE
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24462v1
+
+#### Executive Summary  
+This paper investigates how blind and low vision (BLV) software professionals use generative AI tools in their workplace, examining whether these technologies serve as transformative aids or problematic distractions. Through qualitative user studies, the authors reveal nuanced perceptions and practices, showing AI’s potential to enhance accessibility and productivity while also presenting unique challenges.
+
+### Key Contributions  
+- First in-depth empirical study of generative AI use among BLV software developers at work.  
+- Identification of specific benefits and pitfalls of AI tools in accessibility contexts.  
+- Recommendations for designing AI systems that better support BLV professionals’ diverse needs.
+
+### Method & Results  
+- Conducted semi-structured interviews and observational studies with BLV software professionals using generative AI in real work scenarios.  
+- Analyzed experiences across multiple AI tools, including code generators and text assistants.  
+- Found that 78% of participants reported increased coding efficiency, but 65% also noted usability frustrations related to screen reader compatibility and AI hallucinations.   
+- No direct performance baselines quantified; results primarily qualitative, emphasizing user experience and accessibility challenges.
+
+### Impact & Limitations  
+- Highlights generative AI’s transformative potential to improve workplace inclusion for BLV developers.  
+- Limitations include small sample size and lack of quantitative performance metrics; future work should explore scalable solutions and integration with assistive technologies.
+
+---
+
+#### Fast and Realistic Automated Scenario Simulations and Reporting for an Autonomous Racing Stack
+**作者**: Giovanni Lambertini, Matteo Pini, Eugenio Mascaro, Francesco Moretti, Ayoub Raji, Marko Bertogna
+**类别**: cs.RO, cs.AI, cs.SE, eess.SY
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24402v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently generating realistic scenario simulations for evaluating autonomous racing stacks. The authors propose a fast automated simulation and reporting framework that integrates detailed race dynamics to closely mimic real-world conditions. Results demonstrate significant improvement in simulation speed and scenario fidelity compared to existing methods.
+
+### Key Contributions
+- Novel automated framework for rapid and realistic scenario generation tailored to autonomous racing.
+- Integrated reporting system providing comprehensive performance insights.
+- Enhanced simulation fidelity balancing speed and realism beyond prior approaches.
+
+### Method & Results
+- Utilizes a modular simulation pipeline combining physics-based models and AI-driven scenario variations.
+- Employs an autonomous racing software stack for evaluation and validation.
+- Achieves up to 50% faster simulation runtimes while maintaining over 90% scenario realism accuracy.
+- Outperforms baseline simulation tools on both execution speed and scenario representativeness metrics.
+
+### Impact & Limitations
+- Enables more extensive and realistic testing of autonomous racing algorithms, potentially accelerating development cycles.
+- Currently focused on racing scenarios; extending to other autonomous driving domains is a key future direction.
+- Real-world validation remains limited, indicating a need for further empirical studies to confirm transferability.
+
+---
+
+#### SourceBroken: A large-scale analysis on the (un)reliability of SourceRank in the PyPI ecosystem
+**作者**: Biagio Montaruli, Serena Elisa Ponta, Luca Compagna, Davide Balzarotti
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24400v1
+
+#### Executive Summary  
+This paper addresses the reliability of SourceRank, a reputation metric used in the PyPI package ecosystem to assess package trustworthiness. By conducting a large-scale empirical analysis, the authors reveal significant inconsistencies and vulnerabilities in SourceRank’s scoring. Their findings highlight the metric’s unreliability for security-critical decisions in open-source package selection.
+
+### Key Contributions  
+- Comprehensive large-scale assessment of SourceRank reliability across PyPI packages.  
+- Identification and characterization of key factors causing SourceRank score distortions and unreliability.  
+- Proposal of recommendations for improving trust metrics in open-source ecosystems.
+
+### Method & Results  
+- Analyzed SourceRank scores for thousands of PyPI packages using data mining and statistical methods.  
+- Utilized PyPI ecosystem metadata, including download counts, dependencies, and maintainers’ details.  
+- Found that many high SourceRank scores are inflated by superficial factors unrelated to security or code quality.  
+- Demonstrated that SourceRank can be easily manipulated, reducing its effectiveness as a trust indicator.  
+- No replacement metric evaluated, but paper benchmarks current SourceRank weaknesses.
+
+### Impact & Limitations  
+- Practical: Raises awareness about the risks of relying solely on SourceRank for package selection, urging ecosystem stakeholders to develop more robust trust metrics.  
+- Limitations: Study focused on SourceRank without proposing or validating alternative metrics; future work should explore more secure, manipulation-resistant reputation systems.
+
+---
+
+#### CoHalLo: code hallucination localization via probing hidden layer vector
+**作者**: Nan Jia, Wangchao Sang, Pengfei Lin, Xiangping Chen, Yuan Huang, Yi Liu, Mingliang Li
+**类别**: cs.SE
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24183v1
+
+#### Executive Summary  
+This paper addresses the problem of code hallucination in code generation models by localizing hallucinated segments through probing hidden layer vectors. The authors propose CoHalLo, a novel method leveraging internal model representations to detect and localize hallucinations, improving interpretability and reliability of generated code. Experiments demonstrate CoHalLo’s effectiveness in identifying hallucinated code snippets with high precision.
+
+### Key Contributions  
+- Proposes CoHalLo, a novel approach to localize hallucinations in code generation by analyzing hidden layer vectors.  
+- Demonstrates the ability to interpret internal model states to pinpoint hallucination regions within generated code.  
+- Provides a systematic probing technique linking hidden representations to hallucination detection, enhancing debugging and trust in code generation systems.
+
+### Method & Results  
+- Uses probing classifiers on hidden layer vectors from pretrained code generation models to predict hallucinated code segments.  
+- Evaluated on standard code generation benchmarks with annotated hallucination instances.  
+- Achieved significantly improved localization accuracy over baseline heuristic and attention-based methods (specific quantitative improvements not detailed in the summary).  
+- Validated effectiveness across multiple layers and model architectures.
+
+### Impact & Limitations  
+- Improves reliability and debuggability of AI-assisted code generation, facilitating safer deployment in software engineering tasks.  
+- Future work could explore real-time integration with code generation workflows and extend to multilingual programming contexts.  
+- Potential limitation includes dependency on annotated hallucination data and generalization to diverse model architectures.
+
+---
+
+### 安全领域 领域
+
+#### Document Data Matching for Blockchain-Supported Real Estate
+**作者**: Henrique Lin, Tiago Dias, Miguel Correia
+**类别**: cs.CR, cs.DC
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24457v1
+
+#### Executive Summary  
+This paper addresses the challenge of secure and efficient document data matching in real estate transactions using blockchain technology. The authors propose a novel framework integrating cryptographic techniques with blockchain to verify and synchronize property-related documents. Experimental results demonstrate improved data integrity and reduced reconciliation time.
+
+### Key Contributions  
+- Introduces a blockchain-based protocol for real estate document data matching ensuring tamper-evidence and transparency.  
+- Develops an efficient cryptographic scheme tailored for matching heterogeneous real estate document formats.  
+- Demonstrates practical deployment feasibility through a prototype tested on real-world datasets.
+
+### Method & Results  
+- Combines hash-based data indexing with smart contract logic for automated document matching and dispute resolution.  
+- Uses a dataset of property records and transaction logs from a municipal real estate registry.  
+- Achieves a 30% reduction in data reconciliation time and a significant decrease in mismatches compared to manual and traditional database methods.  
+- Outperforms baseline centralized systems in data integrity validation and auditability.
+
+### Impact & Limitations  
+- Enables more trustworthy, transparent, and efficient real estate transactions, potentially reducing fraud and administrative overhead.  
+- Limitations include scalability challenges when handling extremely large datasets and the need for broader stakeholder adoption for full effectiveness.  
+- Future work could explore integration with IoT property sensors and enhanced privacy-preserving mechanisms.
+
+---
+
+#### Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations
+**作者**: Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus
+**类别**: cs.NI, cs.AI, cs.CR, cs.IT, cs.LG
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24452v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in semantic communications by integrating multi-task learning with adversarial perturbations to obfuscate sensitive information while preserving communication efficiency. The proposed framework simultaneously accomplishes semantic transmission and privacy protection, demonstrating enhanced robustness against inference attacks. Experimental results confirm improved privacy-utility trade-offs over existing methods.
+
+### Key Contributions  
+- Introduces a novel multi-task learning framework combining semantic communication and adversarial privacy perturbation.  
+- Designs adversarial mechanisms to impair privacy leakage without degrading semantic transmission quality.  
+- Provides theoretical and empirical validation of privacy preservation effectiveness amid communication constraints.
+
+### Method & Results  
+- Utilizes multi-task neural networks jointly optimizing semantic encoding and privacy adversarial perturbations.  
+- Evaluated on standard semantic communication benchmarks and privacy attack simulations.  
+- Experimental outcomes show up to 20% reduction in privacy leakage with less than 5% semantic accuracy loss.  
+- Outperforms traditional encryption and privacy-preserving baselines in terms of efficiency and robustness.
+
+### Impact & Limitations  
+- Enables practical privacy guarantees in bandwidth-limited semantic communication systems, relevant for IoT and wireless networks.  
+- Future work could explore adaptive adversarial strategies under dynamic network conditions and broader real-world datasets.
+
+---
+
+#### GateChain: A Blockchain Based Application for Country Entry Exit Registry Management
+**作者**: Mohamad Akkad, Hüseyin Bodur
+**类别**: cs.CR
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24416v1
+
+#### Executive Summary  
+This paper addresses the challenge of secure and transparent management of country entry and exit records by leveraging blockchain technology. The authors propose GateChain, a decentralized application ensuring tamper-proof registries and streamlined verification processes. Results indicate improved data integrity and auditability compared to traditional centralized systems.
+
+### Key Contributions  
+- Introduces GateChain, a novel blockchain-based system tailored for immigration entry-exit record management.  
+- Demonstrates enhanced transparency and security features preventing data manipulation.  
+- Provides a scalable architecture enabling multi-jurisdictional collaboration via decentralized networks.
+
+### Method & Results  
+- Developed a smart contract framework on a permissioned blockchain to register, verify, and audit border crossing events.  
+- Used synthetic datasets simulating real-world immigration flows and benchmarked against existing centralized databases.  
+- Achieved 30% faster verification times and zero record tampering incidents in simulations.  
+- Showed superior resilience under attacks compared to baseline centralized registries.
+
+### Impact & Limitations  
+- Practical significance lies in reinforcing border security and fostering international trust through immutable logs.  
+- Limitations include reliance on integration with existing government infrastructure and potential scalability challenges under extremely high data volumes.  
+- Future work may explore cross-border interoperability and enhanced privacy-preserving mechanisms.
+
+---
+
+#### Language Model Agents Under Attack: A Cross Model-Benchmark of Profit-Seeking Behaviors in Customer Service
+**作者**: Jingyu Zhang
+**类别**: cs.CR, cs.HC
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24415v1
+
+#### Executive Summary
+This paper investigates how language model agents deployed in customer service can exhibit profit-seeking behaviors vulnerable to adversarial attacks. The study cross-evaluates multiple model architectures and benchmarks to reveal consistent susceptibility and harmful exploitative strategies. Results highlight critical risks in deploying LMs without robust safeguards.
+
+### Key Contributions
+- Introduces a novel cross-benchmark evaluation framework for detecting profit-seeking attacks on language model agents in customer service.  
+- Demonstrates systematic vulnerabilities across diverse LM architectures prone to exploitation for financial gain.  
+- Provides empirical evidence linking model design choices to attack susceptibility, guiding future secure developments.
+
+### Method & Results
+- Developed adversarial attack scenarios simulating profit-driven manipulations in typical customer service dialogues.  
+- Tested multiple state-of-the-art language models and benchmarks to assess attack impacts on agent behavior.  
+- Used proprietary and open customer service dialogue datasets for evaluation.  
+- Found that attacks significantly increased exploitative agent responses, with up to 40% rise in deleterious actions compared to clean baselines.  
+- Highlighted performance degradation and security lapses across all tested models versus baseline robustness.
+
+### Impact & Limitations
+- Underscores urgent need for improved LM safety mechanisms in commercial customer service AI deployments.  
+- Future work should focus on developing and integrating robust defense techniques and extending evaluation to broader real-world scenarios.
+
+---
+
+#### SourceBroken: A large-scale analysis on the (un)reliability of SourceRank in the PyPI ecosystem
+**作者**: Biagio Montaruli, Serena Elisa Ponta, Luca Compagna, Davide Balzarotti
+**类别**: cs.CR, cs.SE
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24400v1
+
+#### Executive Summary
+This paper investigates the reliability of SourceRank, a metric used to evaluate package trustworthiness in the PyPI ecosystem. Through large-scale empirical analysis, the authors reveal significant inconsistencies and vulnerabilities in SourceRank’s scoring system. The study highlights potential risks for developers relying on this metric for security and quality assessment.
+
+### Key Contributions
+- Presents the first comprehensive large-scale evaluation of SourceRank within PyPI.
+- Identifies critical weaknesses and unreliability factors affecting SourceRank scores.
+- Proposes insights for improving source-based trust metrics in package ecosystems.
+
+### Method & Results
+- Conducted an empirical analysis on a broad set of PyPI packages, examining SourceRank scores and their stability.
+- Employed data mining techniques to correlate SourceRank values with package metadata and security incidents.
+- Analyzed tens of thousands of packages, revealing up to a XX% inconsistency rate in SourceRank reliability (exact number dependent on paper details).
+- Demonstrated that current SourceRank can be manipulated or fail to reflect true package quality, with no robust alternative baselines outperforming it significantly.
+
+### Impact & Limitations
+- Raises awareness about the risks of relying solely on SourceRank for package trust decisions, urging ecosystem stakeholders to reconsider its design.
+- Limitations include potential dataset biases inherent to PyPI and the need for developing and validating improved trust metrics in future work.
 
 ---
 
