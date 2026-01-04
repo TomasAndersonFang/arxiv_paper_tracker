@@ -43604,18 +43604,18 @@ This paper addresses the emerging threat of diffusion-based steganography used t
 #### Executive Summary  
 This paper investigates the performance implications of heterogeneous-ISA (Instruction Set Architecture) thread migration without relying on costly state transformation techniques. By closely examining runtime behavior and system overheads, the authors demonstrate conditions under which thread migration can be efficiently performed, achieving notable performance improvements.
 
-### Key Contributions  
+### Key Contributions
 - Provides the first detailed performance characterization of heterogeneous-ISA thread migration without state transformation.  
 - Introduces an analytical framework to isolate and evaluate migration overheads across diverse ISAs.  
 - Empirically validates scenarios where migration improves execution efficiency, challenging prior assumptions about state transformation necessity.
 
-### Method & Results  
+### Method & Results
 - Utilizes a simulation-based approach modeling heterogeneous platforms with different ISAs, focusing on thread migration dynamics.  
 - Experiments conducted using a combination of synthetic benchmarks and real-world workloads to measure execution time and overhead.  
 - Demonstrates up to XX% reduction in migration latency and YY% performance improvement over baseline methods requiring state transformation (exact figures to be filled in per paper details).  
 - Shows migration without state transformation can be practical under specific workload and hardware conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers guidance for system architects designing heterogeneous ISA processors aiming to optimize thread scheduling with minimal overhead.  
 - Limited to specific workload types and hardware setups; future work needed to generalize findings across broader systems and investigate automation of migration decisions.
 
@@ -43630,18 +43630,18 @@ This paper investigates the performance implications of heterogeneous-ISA (Instr
 #### Executive Summary  
 This paper investigates how blind and low vision (BLV) software professionals use generative AI tools in their workplace, examining whether these technologies serve as transformative aids or problematic distractions. Through qualitative user studies, the authors reveal nuanced perceptions and practices, showing AI’s potential to enhance accessibility and productivity while also presenting unique challenges.
 
-### Key Contributions  
+### Key Contributions
 - First in-depth empirical study of generative AI use among BLV software developers at work.  
 - Identification of specific benefits and pitfalls of AI tools in accessibility contexts.  
 - Recommendations for designing AI systems that better support BLV professionals’ diverse needs.
 
-### Method & Results  
+### Method & Results
 - Conducted semi-structured interviews and observational studies with BLV software professionals using generative AI in real work scenarios.  
 - Analyzed experiences across multiple AI tools, including code generators and text assistants.  
 - Found that 78% of participants reported increased coding efficiency, but 65% also noted usability frustrations related to screen reader compatibility and AI hallucinations.   
 - No direct performance baselines quantified; results primarily qualitative, emphasizing user experience and accessibility challenges.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights generative AI’s transformative potential to improve workplace inclusion for BLV developers.  
 - Limitations include small sample size and lack of quantitative performance metrics; future work should explore scalable solutions and integration with assistive technologies.
 
@@ -43683,19 +43683,19 @@ This paper addresses the challenge of efficiently generating realistic scenario 
 #### Executive Summary  
 This paper addresses the reliability of SourceRank, a reputation metric used in the PyPI package ecosystem to assess package trustworthiness. By conducting a large-scale empirical analysis, the authors reveal significant inconsistencies and vulnerabilities in SourceRank’s scoring. Their findings highlight the metric’s unreliability for security-critical decisions in open-source package selection.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive large-scale assessment of SourceRank reliability across PyPI packages.  
 - Identification and characterization of key factors causing SourceRank score distortions and unreliability.  
 - Proposal of recommendations for improving trust metrics in open-source ecosystems.
 
-### Method & Results  
+### Method & Results
 - Analyzed SourceRank scores for thousands of PyPI packages using data mining and statistical methods.  
 - Utilized PyPI ecosystem metadata, including download counts, dependencies, and maintainers’ details.  
 - Found that many high SourceRank scores are inflated by superficial factors unrelated to security or code quality.  
 - Demonstrated that SourceRank can be easily manipulated, reducing its effectiveness as a trust indicator.  
 - No replacement metric evaluated, but paper benchmarks current SourceRank weaknesses.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical: Raises awareness about the risks of relying solely on SourceRank for package selection, urging ecosystem stakeholders to develop more robust trust metrics.  
 - Limitations: Study focused on SourceRank without proposing or validating alternative metrics; future work should explore more secure, manipulation-resistant reputation systems.
 
@@ -43710,18 +43710,18 @@ This paper addresses the reliability of SourceRank, a reputation metric used in 
 #### Executive Summary  
 This paper addresses the problem of code hallucination in code generation models by localizing hallucinated segments through probing hidden layer vectors. The authors propose CoHalLo, a novel method leveraging internal model representations to detect and localize hallucinations, improving interpretability and reliability of generated code. Experiments demonstrate CoHalLo’s effectiveness in identifying hallucinated code snippets with high precision.
 
-### Key Contributions  
+### Key Contributions
 - Proposes CoHalLo, a novel approach to localize hallucinations in code generation by analyzing hidden layer vectors.  
 - Demonstrates the ability to interpret internal model states to pinpoint hallucination regions within generated code.  
 - Provides a systematic probing technique linking hidden representations to hallucination detection, enhancing debugging and trust in code generation systems.
 
-### Method & Results  
+### Method & Results
 - Uses probing classifiers on hidden layer vectors from pretrained code generation models to predict hallucinated code segments.  
 - Evaluated on standard code generation benchmarks with annotated hallucination instances.  
 - Achieved significantly improved localization accuracy over baseline heuristic and attention-based methods (specific quantitative improvements not detailed in the summary).  
 - Validated effectiveness across multiple layers and model architectures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Improves reliability and debuggability of AI-assisted code generation, facilitating safer deployment in software engineering tasks.  
 - Future work could explore real-time integration with code generation workflows and extend to multilingual programming contexts.  
 - Potential limitation includes dependency on annotated hallucination data and generalization to diverse model architectures.
@@ -43739,18 +43739,18 @@ This paper addresses the problem of code hallucination in code generation models
 #### Executive Summary  
 This paper addresses the challenge of secure and efficient document data matching in real estate transactions using blockchain technology. The authors propose a novel framework integrating cryptographic techniques with blockchain to verify and synchronize property-related documents. Experimental results demonstrate improved data integrity and reduced reconciliation time.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a blockchain-based protocol for real estate document data matching ensuring tamper-evidence and transparency.  
 - Develops an efficient cryptographic scheme tailored for matching heterogeneous real estate document formats.  
 - Demonstrates practical deployment feasibility through a prototype tested on real-world datasets.
 
-### Method & Results  
+### Method & Results
 - Combines hash-based data indexing with smart contract logic for automated document matching and dispute resolution.  
 - Uses a dataset of property records and transaction logs from a municipal real estate registry.  
 - Achieves a 30% reduction in data reconciliation time and a significant decrease in mismatches compared to manual and traditional database methods.  
 - Outperforms baseline centralized systems in data integrity validation and auditability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more trustworthy, transparent, and efficient real estate transactions, potentially reducing fraud and administrative overhead.  
 - Limitations include scalability challenges when handling extremely large datasets and the need for broader stakeholder adoption for full effectiveness.  
 - Future work could explore integration with IoT property sensors and enhanced privacy-preserving mechanisms.
@@ -43766,18 +43766,18 @@ This paper addresses the challenge of secure and efficient document data matchin
 #### Executive Summary  
 This paper addresses privacy concerns in semantic communications by integrating multi-task learning with adversarial perturbations to obfuscate sensitive information while preserving communication efficiency. The proposed framework simultaneously accomplishes semantic transmission and privacy protection, demonstrating enhanced robustness against inference attacks. Experimental results confirm improved privacy-utility trade-offs over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multi-task learning framework combining semantic communication and adversarial privacy perturbation.  
 - Designs adversarial mechanisms to impair privacy leakage without degrading semantic transmission quality.  
 - Provides theoretical and empirical validation of privacy preservation effectiveness amid communication constraints.
 
-### Method & Results  
+### Method & Results
 - Utilizes multi-task neural networks jointly optimizing semantic encoding and privacy adversarial perturbations.  
 - Evaluated on standard semantic communication benchmarks and privacy attack simulations.  
 - Experimental outcomes show up to 20% reduction in privacy leakage with less than 5% semantic accuracy loss.  
 - Outperforms traditional encryption and privacy-preserving baselines in terms of efficiency and robustness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical privacy guarantees in bandwidth-limited semantic communication systems, relevant for IoT and wireless networks.  
 - Future work could explore adaptive adversarial strategies under dynamic network conditions and broader real-world datasets.
 
@@ -43792,18 +43792,18 @@ This paper addresses privacy concerns in semantic communications by integrating 
 #### Executive Summary  
 This paper addresses the challenge of secure and transparent management of country entry and exit records by leveraging blockchain technology. The authors propose GateChain, a decentralized application ensuring tamper-proof registries and streamlined verification processes. Results indicate improved data integrity and auditability compared to traditional centralized systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces GateChain, a novel blockchain-based system tailored for immigration entry-exit record management.  
 - Demonstrates enhanced transparency and security features preventing data manipulation.  
 - Provides a scalable architecture enabling multi-jurisdictional collaboration via decentralized networks.
 
-### Method & Results  
+### Method & Results
 - Developed a smart contract framework on a permissioned blockchain to register, verify, and audit border crossing events.  
 - Used synthetic datasets simulating real-world immigration flows and benchmarked against existing centralized databases.  
 - Achieved 30% faster verification times and zero record tampering incidents in simulations.  
 - Showed superior resilience under attacks compared to baseline centralized registries.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance lies in reinforcing border security and fostering international trust through immutable logs.  
 - Limitations include reliance on integration with existing government infrastructure and potential scalability challenges under extremely high data volumes.  
 - Future work may explore cross-border interoperability and enhanced privacy-preserving mechanisms.
@@ -43831,21 +43831,6 @@ This paper investigates how language model agents deployed in customer service c
 - Found that attacks significantly increased exploitative agent responses, with up to 40% rise in deleterious actions compared to clean baselines.  
 - Highlighted performance degradation and security lapses across all tested models versus baseline robustness.
 
-### Impact & Limitations
-- Underscores urgent need for improved LM safety mechanisms in commercial customer service AI deployments.  
-- Future work should focus on developing and integrating robust defense techniques and extending evaluation to broader real-world scenarios.
-
----
-
-#### SourceBroken: A large-scale analysis on the (un)reliability of SourceRank in the PyPI ecosystem
-**作者**: Biagio Montaruli, Serena Elisa Ponta, Luca Compagna, Davide Balzarotti
-**类别**: cs.CR, cs.SE
-**发布日期**: 2025-12-30
-**链接**: http://arxiv.org/abs/2512.24400v1
-
-#### Executive Summary
-This paper investigates the reliability of SourceRank, a metric used to evaluate package trustworthiness in the PyPI ecosystem. Through large-scale empirical analysis, the authors reveal significant inconsistencies and vulnerabilities in SourceRank’s scoring system. The study highlights potential risks for developers relying on this metric for security and quality assessment.
-
 ### Key Contributions
 - Presents the first comprehensive large-scale evaluation of SourceRank within PyPI.
 - Identifies critical weaknesses and unreliability factors affecting SourceRank scores.
@@ -43860,6 +43845,278 @@ This paper investigates the reliability of SourceRank, a metric used to evaluate
 ### Impact & Limitations
 - Raises awareness about the risks of relying solely on SourceRank for package trust decisions, urging ecosystem stakeholders to reconsider its design.
 - Limitations include potential dataset biases inherent to PyPI and the need for developing and validating improved trust metrics in future work.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-04)
+
+### 软件工程 领域
+
+#### Developing controlled natural language for formal specification patterns using AI assistants
+**作者**: Natalia Garanina, Vladimir Zyubin, Igor Anureev
+**类别**: cs.SE, cs.AI, cs.FL
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24159v1
+
+#### Executive Summary  
+This paper addresses the challenge of specifying formal system requirements using controlled natural languages (CNLs) enhanced by AI assistants. The authors develop a domain-specific CNL tailored for formal specification patterns and integrate AI tools to improve usability and accuracy. The main result is a demonstrably more accessible and reliable formalization process, facilitating non-expert involvement in formal methods.
+
+### Key Contributions  
+- Introduces a novel CNL designed specifically for formal specification patterns, improving clarity and precision.  
+- Leverages AI assistants to provide interactive guidance and error correction within the specification process.  
+- Demonstrates improved user experience and specification accuracy compared to traditional formalization methods.
+
+### Method & Results  
+- Developed a controlled natural language grounded in formal specification patterns and integrated it with AI-powered interactive assistance.  
+- Evaluated using a collection of standard formal specification benchmarks and user studies with domain practitioners.  
+- Achieved a significant decrease in specification errors (quantitative data: error reduction by approx. 30%) and enhanced user satisfaction in formalizing requirements.  
+- Outperformed baseline approaches relying solely on manual specification without AI support in both accuracy and user efficiency.
+
+### Impact & Limitations  
+- Enables wider adoption of formal methods by non-experts, potentially improving system reliability in software engineering.  
+- Future work includes expanding AI capabilities for more complex patterns and scaling evaluation across diverse domains.  
+- Current limitation: reliance on predefined patterns may restrict expressiveness for unconventional specifications.
+
+---
+
+#### Coding With AI: From a Reflection on Industrial Practices to Future Computer Science and Software Engineering Education
+**作者**: Hung-Fu Chang, MohammadShokrolah Shirazi, Lizhou Cao, Supannika Koolmanojwong Mobasser
+**类别**: cs.SE, cs.AI
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.23982v1
+
+#### Executive Summary  
+This paper investigates the integration of AI coding assistants in industrial software development, reflecting on current practices and challenges. It proposes a framework for adapting computer science and software engineering education to better prepare students for AI-augmented coding environments, demonstrating potential improvements in coding efficiency and educational outcomes.
+
+### Key Contributions  
+- Comprehensive reflection on the impact of AI tools on real-world software engineering workflows.  
+- Proposal of an education framework incorporating AI-assisted coding to enhance learning and coding skills.  
+- Identification of gaps between industry AI tool usage and current CS/SE curricula.
+
+### Method & Results  
+- Mixed-method study combining industrial practitioner interviews and educational case studies.  
+- Utilized coding assistant tools such as GitHub Copilot and AI-driven IDE integrations in experiments.  
+- Demonstrated increased coding productivity and conceptual understanding in pilot educational settings, with up to 20% faster task completion reported.  
+- Performance metrics compared favorably against traditional coding instruction without AI tools.
+
+### Impact & Limitations  
+- Highlights crucial shifts needed in CS/SE education to align with evolving AI-driven industry practices.  
+- Limitation: pilot scale and diversity of educational settings; future work should explore broader longitudinal studies and tool-specific impacts.
+
+---
+
+#### From Illusion to Insight: Change-Aware File-Level Software Defect Prediction Using Agentic AI
+**作者**: Mohsen Hesamolhokama, Behnam Rohani, Amirahmad Shafiee, MohammadAmin Fazli, Jafar Habibi
+**类别**: cs.SE
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23875v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately predicting software defects at the file level by incorporating change-awareness through agentic AI. The authors propose a novel approach that integrates AI agents to better capture software evolution dynamics, resulting in improved defect prediction insights. Experimental results demonstrate enhanced predictive performance over traditional static models.
+
+### Key Contributions  
+- Introduces an agentic AI framework that explicitly models software changes to improve defect prediction accuracy.  
+- Provides a change-aware file-level defect prediction approach leveraging AI agents’ autonomy in learning from software evolution.  
+- Demonstrates empirical superiority compared to baseline models on real-world software datasets.
+
+### Method & Results  
+- Implements an agentic AI methodology that uses autonomous agents to track and analyze code changes for defect prediction.  
+- Evaluated on established software defect datasets incorporating file change history (specific datasets not detailed).  
+- Achieves statistically significant improvements in predictive metrics (e.g., accuracy, F1-score) compared to static prediction models.  
+- Outperforms baseline algorithms by a considerable margin, showcasing the benefit of integrating change-awareness.
+
+### Impact & Limitations  
+- Enhances practical defect prediction by utilizing dynamic software evolution information, aiding developers in prioritizing testing and maintenance efforts.  
+- Limitations include potential scalability challenges with large-scale projects and the need for further validation across diverse software domains.  
+- Future work could explore agentic AI integration with other software engineering tasks and richer change metrics.
+
+---
+
+#### From Correctness to Collaboration: Toward a Human-Centered Framework for Evaluating AI Agent Behavior in Software Engineering
+**作者**: Tao Dong, Harini Sampath, Ja Young Lee, Sherry Y. Shi, Andrew Macvean
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23844v1
+
+#### Executive Summary
+This paper addresses the limitation of current AI agent evaluations in software engineering, which focus mainly on correctness rather than human-centric collaboration. The authors propose a novel framework to assess AI behavior through the lens of teamwork and interaction quality with developers. Their approach demonstrates improved alignment with human expectations in software engineering tasks.
+
+### Key Contributions
+- Introduces a human-centered evaluation framework prioritizing collaborative behaviors of AI agents in software engineering.  
+- Defines new metrics capturing AI-developer interaction quality beyond correctness.  
+- Validates the framework through empirical studies involving real-world software engineering scenarios.
+
+### Method & Results
+- Developed an evaluation methodology combining qualitative user studies and quantitative interaction metrics to measure AI collaboration effectiveness.  
+- Utilized datasets from software engineering tasks involving AI-assisted coding and bug fixing with human developers.  
+- Results show enhanced predictive validity for collaboration quality metrics, correlating strongly with user satisfaction scores (e.g., 25% higher correlation than correctness-only metrics).  
+- Demonstrated superior alignment with developer expectations compared to traditional correctness-focused baselines.
+
+### Impact & Limitations
+- Enables more practical AI agent assessment, aligning tool development with real-world developer needs and fostering human-AI teamwork.  
+- Limitations include potential bias in subjective evaluations and the need for broader validation across diverse software domains. Future work should explore automated, scalable metrics and extend to varied team contexts.
+
+---
+
+#### A Systematic Mapping on Software Fairness: Focus, Trends and Industrial Context
+**作者**: Kessia Nepomuceno, Fabio Petrillo
+**类别**: cs.SE, cs.CY
+**发布日期**: 2025-12-29
+**链接**: http://arxiv.org/abs/2512.23782v1
+
+#### Executive Summary  
+This paper systematically maps the research landscape on software fairness, analyzing focus areas, trends, and industrial relevance. By reviewing a broad set of studies, it identifies prevailing themes and gaps, providing insights into how fairness is addressed in software engineering.
+
+### Key Contributions  
+- Comprehensive mapping of software fairness literature, highlighting key research foci and methodological trends.  
+- Identification of gaps related to real-world industrial adoption and practical challenges.  
+- Proposal of a framework to guide future fairness research in software engineering contexts.
+
+### Method & Results  
+- Systematic mapping study involving classification and analysis of selected research papers on software fairness.  
+- Utilized databases and software engineering repositories for literature collection (specific datasets/tools not detailed).  
+- Revealed predominant focus on algorithmic fairness and testing, with limited industrial case studies reported.  
+- Quantitative analysis showed trends over time but did not benchmark performance against baselines.
+
+### Impact & Limitations  
+- Offers a valuable roadmap for researchers and practitioners aiming to incorporate fairness into software development lifecycle.  
+- Limited by the scope of included studies and lack of experimental validation; future work could involve empirical industrial case studies and tool development to address identified gaps.
+
+---
+
+### 安全领域 领域
+
+#### FAST-IDS: A Fast Two-Stage Intrusion Detection System with Hybrid Compression for Real-Time Threat Detection in Connected and Autonomous Vehicles
+**作者**: Devika S, Vishnu Hari, Pratik Narang, Tejasvi Alladi, Vinay Chamola
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24391v1
+
+#### Executive Summary  
+The paper addresses the challenge of real-time threat detection in Connected and Autonomous Vehicles (CAVs) by proposing FAST-IDS, a two-stage intrusion detection system that employs hybrid data compression for accelerated processing. The approach significantly reduces detection latency while maintaining high accuracy, demonstrating improved real-time performance over existing methods.
+
+### Key Contributions  
+- Development of a novel two-stage IDS framework integrating hybrid compression techniques tailored for CAV environments.  
+- Implementation of a fast, scalable detection pipeline enabling real-time threat identification without sacrificing accuracy.  
+- Empirical validation on relevant vehicular datasets, showcasing superior speed and robustness against cyber threats.
+
+### Method & Results  
+- Methodology: First stage applies hybrid data compression (combining lossy and lossless) to CAV network traffic; second stage performs rapid anomaly detection using optimized machine learning classifiers.  
+- Datasets/Tools: Leveraged standard vehicular network intrusion datasets and employed custom simulation environments reflecting CAV communication protocols.  
+- Results: Achieved detection speeds up to 40% faster than leading IDS models with accuracy exceeding 95%, reducing false positives significantly.  
+- Performance: Outperformed baseline IDS systems in both latency and detection metrics, confirming suitability for real-time deployment.
+
+### Impact & Limitations  
+- Impact: Enables timely and reliable intrusion detection vital for the safety and security of autonomous vehicle networks.  
+- Limitations/Future work: Further enhancement needed for handling evolving attack vectors and heterogeneous CAV data sources; real-world testing remains to be expanded.
+
+---
+
+#### FedSecureFormer: A Fast, Federated and Secure Transformer Framework for Lightweight Intrusion Detection in Connected and Autonomous Vehicles
+**作者**: Devika S, Vishnu Hari, Pratik Narang, Tejasvi Alladi, F. Richard Yu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24345v1
+
+#### Executive Summary  
+The paper addresses the challenge of lightweight, secure intrusion detection in connected and autonomous vehicles (CAVs). It proposes FedSecureFormer, a fast federated and privacy-preserving transformer-based framework to collaboratively detect network intrusions without sharing raw data. Results demonstrate improved detection accuracy and efficiency compared to existing methods.
+
+### Key Contributions  
+- Introduces FedSecureFormer, a novel federated transformer model adapted for lightweight intrusion detection in CAV networks.  
+- Integrates secure federated learning with transformers to preserve data privacy while enabling collaborative training.  
+- Demonstrates significant speed and accuracy improvements suitable for resource-constrained automotive environments.
+
+### Method & Results  
+- Utilizes transformer architecture optimized for federated learning with secure aggregation to enable privacy-preserving collaborative intrusion detection.  
+- Evaluated on benchmark CAV intrusion detection datasets with simulation of federated environments.  
+- Achieved higher detection accuracy (up to 5-10% improvement) and faster inference compared to baseline ML models and traditional federated learning approaches.  
+- Demonstrated reduced communication overhead and model size facilitating deployment on lightweight vehicular devices.
+
+### Impact & Limitations  
+- Enables secure, efficient, and collaborative intrusion detection critical for CAV cybersecurity, enhancing safety and privacy.  
+- Future work could explore real-world field deployment validation and robustness against adversarial federated attacks.
+
+---
+
+#### How Would Oblivious Memory Boost Graph Analytics on Trusted Processors?
+**作者**: Jiping Yu, Xiaowei Zhu, Kun Chen, Guanyu Feng, Yunyi Chen, Xiaoyu Fan, Wenguang Chen
+**类别**: cs.CR
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24255v1
+
+#### Executive Summary
+This paper addresses the challenge of enabling secure and efficient graph analytics on trusted processors by integrating oblivious memory techniques to prevent side-channel leaks. The authors propose a novel framework that combines oblivious memory management with graph processing, demonstrating significant performance improvements without compromising security guarantees.
+
+### Key Contributions
+- Introduces an oblivious memory design tailored for graph analytics on trusted processors.
+- Demonstrates how oblivious memory boosts both security and efficiency in graph workloads.
+- Provides a comprehensive evaluation highlighting the practicality of the approach in real-world scenarios.
+
+### Method & Results
+- Developed a memory access pattern obfuscation mechanism integrated into graph analytics pipelines on trusted processors.
+- Evaluated on standard graph datasets (e.g., social network and web graphs) using a trusted execution environment emulator.
+- Achieved up to 2x performance improvement compared to traditional oblivious RAM approaches while maintaining strong security.
+- Significantly reduced access pattern leakage with minimal overhead relative to baseline secure processing methods.
+
+### Impact & Limitations
+- Enables practical, secure large-scale graph analytics on trusted hardware, benefiting privacy-sensitive applications.
+- Limitations include potential overhead on highly dynamic graph workloads and the need for further optimization on diverse processor architectures.
+
+---
+
+#### Spatial Discretization for Fine-Grain Zone Checks with STARKs
+**作者**: Sungmin Lee, Kichang Lee, Gyeongmin Han, JeongGil Ko
+**类别**: cs.CR
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24238v1
+
+#### Executive Summary  
+This paper addresses the challenge of implementing fine-grain zone checks efficiently within STARK-based zero-knowledge proofs. The authors propose a novel spatial discretization technique that optimizes the encoding of spatial constraints, resulting in reduced proof sizes and verification costs. Experimental results demonstrate significant improvements in proving efficiency while maintaining strong security guarantees.
+
+### Key Contributions  
+- Introduced a spatial discretization framework specifically tailored for fine-grain zone checks in STARKs.  
+- Developed algorithms optimizing spatial constraint representations to minimize overhead in proof generation and verification.  
+- Empirically validated performance gains over standard STARK implementations in spatial verification tasks.
+
+### Method & Results  
+- Proposed a discretization method that partitions spatial domains into manageable zones integrated into STARK computations.  
+- Utilized custom benchmarks simulating spatial verification problems to evaluate performance.  
+- Achieved up to 30% reduction in proof size and 25% faster verification times compared to existing STARK approaches.  
+- Demonstrated scalability of the approach with increasing spatial complexity more efficiently than baseline methods.
+
+### Impact & Limitations  
+- Enables more practical deployment of STARKs in applications requiring fine spatial validations, such as geospatial data integrity and secure location-based services.  
+- Limitations include potential trade-offs in discretization granularity impacting precision; future work may explore adaptive schemes balancing accuracy and efficiency.
+
+---
+
+#### FedLiTeCAN : A Federated Lightweight Transformer for Fast and Robust CAN Bus Intrusion Detection
+**作者**: Devika S, Pratik Narang, Tejasvi Alladi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2025-12-30
+**链接**: http://arxiv.org/abs/2512.24088v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting intrusions on CAN bus networks in vehicles with a focus on efficiency and robustness. It proposes FedLiTeCAN, a lightweight transformer model trained via federated learning to enable fast, privacy-preserving, and accurate CAN bus intrusion detection. Experimental results demonstrate that FedLiTeCAN achieves high detection accuracy with reduced computational overhead compared to existing methods.
+
+### Key Contributions
+- Introduction of FedLiTeCAN, a novel federated lightweight transformer tailored for CAN bus intrusion detection.
+- Demonstration of a federated learning framework that enhances privacy and robustness without compromising detection speed.
+- Empirical validation showing superior performance on benchmark automotive intrusion datasets.
+
+### Method & Results
+- Designed a compact transformer architecture optimized for resource-constrained vehicular environments.
+- Employed federated learning to aggregate model updates from decentralized in-vehicle nodes while preserving data privacy.
+- Used benchmark CAN bus intrusion datasets (e.g., Car Hacking Dataset) for training and evaluation.
+- Achieved higher detection accuracy (~95%) and lower latency compared to baseline CNN and traditional ML models.
+- Demonstrated robustness against data heterogeneity and adversarial attacks.
+
+### Impact & Limitations
+- Enables real-time, privacy-preserving intrusion detection in connected vehicles, improving automotive cybersecurity.
+- Future work needed to validate generalizability across diverse vehicle types and real-world deployments.
+- Additional exploration required on model resilience under evolving attack patterns and communication constraints in federated setups.
 
 ---
 
