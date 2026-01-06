@@ -44162,18 +44162,18 @@ This paper addresses the challenge of predicting review effort for AI-generated 
 #### Executive Summary  
 This paper addresses the lack of validated datasets for software engineering modeling by introducing SEMODS, a curated collection of open-source software engineering models. The authors propose a rigorous validation approach to ensure dataset quality, resulting in a reliable benchmark for research and tool development in software design and analysis.
 
-### Key Contributions  
+### Key Contributions
 - Creation of SEMODS, the first validated dataset focused explicitly on open-source software engineering models.  
 - Development of a validation methodology combining expert reviews and automated consistency checks.  
 - Provision of a resource that supports empirical studies and tool evaluation in software engineering modeling.
 
-### Method & Results  
+### Method & Results
 - Collected open-source software models from diverse repositories and applied systematic filtering and validation involving experts and automated tools.  
 - Used software engineering platforms and modeling tools to extract and verify model correctness and relevance.  
 - Validated dataset encompasses over 150 models with 98% internal consistency confirmed by experts.  
 - Demonstrated improved reliability over existing unvalidated model collections, with up to 30% fewer errors detected during quality assessment.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables reproducible research and benchmarking in software engineering modeling, facilitating model-driven development and analysis.  
 - Limitations include potential bias towards popular open-source projects and the need for continuous updates to maintain dataset relevance.
 
@@ -44188,18 +44188,18 @@ This paper addresses the lack of validated datasets for software engineering mod
 #### Executive Summary  
 KELP addresses the challenge of robust and efficient online log parsing in dynamic system environments. It introduces evolutionary grouping trees to adaptively parse log streams with minimal supervision. Experiments demonstrate improved accuracy and stability over existing online parsers under evolving log patterns.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel evolutionary grouping tree structure for adaptive, real-time log parsing.  
 - Introduces an unsupervised mechanism to handle log format changes without retraining.  
 - Demonstrates robustness to noisy and evolving log data through online learning.
 
-### Method & Results  
+### Method & Results
 - Uses evolutionary algorithms to dynamically cluster log messages into templates via grouping trees.  
 - Evaluated on multiple real-world log datasets including distributed system and software logs.  
 - Achieved up to 15% higher parsing accuracy and 20% lower template drift than prominent baselines (e.g., Drain, MoLFI).  
 - Showed consistent performance under varied log message distributions and concept drifts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable log analytics and fault diagnosis in continuously changing system environments.  
 - Currently focused on single-source logs; extending to multi-source or multi-modal logs could be future work.  
 - Computational overhead of evolutionary updates may limit deployment on resource-constrained devices.
@@ -44241,18 +44241,18 @@ This paper addresses the critical vulnerabilities in Intelligent Connected Vehic
 #### Executive Summary  
 This paper addresses the cost-efficiency and performance trade-offs of cloud-based retail point-of-sale (POS) systems, comparing Google Cloud Platform (GCP) and Microsoft Azure. Through empirical evaluation, it demonstrates that while both platforms offer competitive reliability and scalability, GCP provides slightly better cost-performance ratios under typical retail workloads.
 
-### Key Contributions  
+### Key Contributions
 - Comparative cost-performance analysis tailored specifically to retail POS system workloads.  
 - Empirical evaluation framework balancing operational cost, latency, and scalability metrics on GCP vs. Azure.  
 - Insightful recommendations guiding cloud platform choice based on retail-specific needs.
 
-### Method & Results  
+### Method & Results
 - Benchmarking typical POS transactions and backend operations hosted on GCP and Azure using standardized load tests.  
 - Utilized retail workload simulators and native cloud monitoring tools for data collection.  
 - Results show GCP achieved up to 12% lower total cost of ownership with comparable latency (~95 ms avg) and higher throughput under scaling scenarios.  
 - Both platforms outperformed traditional on-premise baselines in scalability, but cost differences favored GCP.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable guidance for retailers optimizing cloud spend without sacrificing performance, promoting more informed platform selection.  
 - Limitations include focus on only two cloud providers and simulated workloads; real-world variability and other cloud features could be explored in future work.
 
@@ -44296,44 +44296,29 @@ This paper addresses the challenge of enhancing router security by leveraging BE
 #### Executive Summary  
 This paper investigates the algebraic structure of twisted $G$-codes and their skew counterparts, aiming to extend coding theory over non-commutative settings. By developing new theoretical results, the author characterizes properties and construction methods of these codes, contributing to the understanding of error-correcting codes within group and skew group algebra frameworks.
 
-### Key Contributions  
+### Key Contributions
 - Establishes three novel theorems on twisted $G$-codes and skew twisted $G$-codes, enriching their algebraic characterization.  
 - Introduces new construction techniques for skew twisted $G$-codes leveraging group actions and skew group algebras.  
 - Bridges gaps between classical group codes and non-commutative skew structures, linking algebraic geometry tools to coding theory.
 
-### Method & Results  
+### Method & Results
 - Employs algebraic and group-theoretic methods to derive structural properties and code equivalences.  
 - Utilizes skew group algebras and algebraic geometry constructs for code design.  
 - The results are primarily theoretical, with formal proofs and illustrative examples; no empirical datasets or numerical benchmarks reported.  
 - No direct performance comparison with existing code families, focusing on foundational theoretical expansion instead.
 
-### Impact & Limitations  
-- Advances the theoretical framework for constructing and analyzing codes over non-commutative rings, potentially impacting future code design in cryptography and communications.  
-- Lacks implementation or numerical simulation to validate practical performance; future work could explore efficient decoding algorithms and real-world applications.
-
----
-
-#### Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits
-**作者**: Yuelin Wang, Yuqiao Ning, Yanbang Sun, Xiaofei Xie, Zhihua Xie, Yang Chen, Zhen Guo, Shihao Xue, Junjie Wang, Sen Chen
-**类别**: cs.CR, cs.SE
-**发布日期**: 2026-01-02
-**链接**: http://arxiv.org/abs/2601.00627v1
-
-#### Executive Summary  
-This paper investigates vulnerabilities in Intelligent Connected Vehicles (ICVs) by analyzing real-world exploits. The authors systematically characterize security weaknesses, demonstrating practical attack feasibility and proposing strategies for improved vehicle cybersecurity.
-
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of real-world ICV exploits to identify prevalent vulnerabilities.  
 - Novel vulnerability characterization framework tailored for connected vehicle systems.  
 - Empirical evaluation showcasing attack impact on vehicle functionality and safety.
 
-### Method & Results  
+### Method & Results
 - Developed a threat modeling approach combined with experimental penetration testing on commercial ICV platforms.  
 - Leveraged real-world exploit datasets and vehicular communication logs for validation.  
 - Demonstrated multiple attack vectors causing critical disruptions (e.g., remote control, data tampering) with success rates exceeding 70%.  
 - Outperformed existing vulnerability analyses by providing practical exploit reproduction rather than theoretical assessment.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of ICV security risks, guiding manufacturers and policymakers to strengthen defenses.  
 - Limitations include focus on currently deployed systems, leaving emerging technologies less explored.  
 - Future work: broaden scope to autonomous driving modules and develop automated detection tools.
@@ -44349,18 +44334,18 @@ This paper investigates vulnerabilities in Intelligent Connected Vehicles (ICVs)
 #### Executive Summary  
 This paper addresses the challenge of protecting intellectual property (IP) dynamically within rapidly scaling small and medium-sized enterprises (SMEs). The authors propose a novel adaptive IP protection model that adjusts strategies based on growth stage and risk factors, demonstrating improved alignment between protection intensity and enterprise needs. Results indicate the model enhances IP resilience and cost-efficiency in high-growth SMEs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a dynamic IP protection framework tailored for fluctuating needs of high-growth SMEs.  
 - Develops adaptive mechanisms linking IP safeguards to real-time business metrics and growth indicators.  
 - Validates the model through both theoretical analysis and empirical case studies with SMEs.
 
-### Method & Results  
+### Method & Results
 - Utilizes a mixed-method approach combining quantitative modeling and qualitative case study evaluations.  
 - Employs real-world SME datasets on growth trajectories and IP incident reports for validation.  
 - Demonstrates a 25% increase in IP threat mitigation efficiency and a 15% reduction in protection-related costs versus static models.  
 - Outperforms traditional fixed IP protection strategies by dynamically scaling responses to emerging risks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides SMEs a practical, cost-effective tool to safeguard innovation while scaling rapidly.  
 - Future work could expand model generalizability to different industry sectors and integrate automated detection tools.
 
@@ -44375,21 +44360,290 @@ This paper addresses the challenge of protecting intellectual property (IP) dyna
 #### Executive Summary  
 This paper addresses the challenge of safeguarding intellectual property (IP) for entrepreneurial SMEs against evolving cyber threats. It proposes a threat intelligence-driven framework that dynamically protects IP assets by integrating real-time threat data with SME-specific security protocols. The approach demonstrates improved detection and mitigation of IP theft incidents in a SME context.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel threat intelligence framework tailored specifically for entrepreneurial SMEs’ IP protection.  
 - Develops an adaptive system that dynamically updates defense mechanisms based on real-time cyber threat intelligence.  
 - Validates the approach with practical case studies highlighting SME-specific vulnerabilities and responses.
 
-### Method & Results  
+### Method & Results
 - Combines automated threat intelligence feeds with SME security policies through a dynamic, rule-based engine.  
 - Utilizes datasets from global cyber threat intelligence platforms and SME incident logs.  
 - Achieves a 30% reduction in IP breach incidents over baseline SME security setups in controlled trials.  
 - Outperforms traditional static IP protection methods by enhancing detection speed and accuracy by approximately 25%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides SMEs a cost-effective, scalable solution for proactive IP protection aligned with their unique risk profile.  
 - Limits include dependence on the quality and timeliness of external threat intelligence sources.  
 - Future work should explore integration with broader SME cybersecurity frameworks and automated response systems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-06)
+
+### 软件工程 领域
+
+#### Question Answering for Multi-Release Systems: A Case Study at Ciena
+**作者**: Parham Khamsepour, Mark Cole, Ish Ashraf, Sandeep Puri, Mehrdad Sabetzadeh, Shiva Nejati
+**类别**: cs.SE
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02345v1
+
+#### Executive Summary  
+This paper addresses the challenge of automated question answering (QA) in multi-release software systems, focusing on the complexity of managing evolving requirements across releases. It proposes a domain-specific QA approach validated via a case study at Ciena, demonstrating improved accuracy in answering queries related to multi-release system evolution.
+
+### Key Contributions  
+- Introduces a novel QA framework tailored for multi-release software systems.  
+- Provides an in-depth industrial case study showcasing practical applicability at Ciena.  
+- Demonstrates improved handling of temporal and versioning aspects in requirements QA.
+
+### Method & Results  
+- Developed a QA approach leveraging system release metadata and temporal reasoning to correctly interpret multi-release contexts.  
+- Employed real-world datasets from Ciena’s multi-release system repositories.  
+- Achieved a significant accuracy improvement over baseline QA methods (exact quantitative metrics not reported).  
+- Showed enhanced capability in resolving questions involving requirement changes across multiple product releases.
+
+### Impact & Limitations  
+- Enables software engineers to more effectively query complex evolving system information, facilitating better decision-making in multi-release development.  
+- Limitations include dependency on high-quality release metadata and limited generalizability beyond the studied domain; future work may target broader applicability and integration with automated traceability tools.
+
+---
+
+#### Automatic Assertion Mining in Assertion-Based Verification: Techniques, Challenges, and Future Directions
+**作者**: Mohammad Reza Heidari Iman, Giorgio Di Natale, Katell Morin-Allory
+**类别**: cs.SE
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02248v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatically mining assertions to enhance Assertion-Based Verification (ABV), a critical step in formal hardware and software verification. The authors survey existing techniques, identify key challenges, and propose future research directions to improve assertion extraction accuracy and usability. Their analysis consolidates state-of-the-art methods and underscores gaps hindering broader adoption.
+
+### Key Contributions  
+- Comprehensive taxonomy and critical review of automatic assertion mining techniques in ABV.  
+- Identification of fundamental challenges limiting current assertion mining approaches.  
+- Proposal of future research avenues emphasizing scalability, precision, and integration with verification workflows.
+
+### Method & Results  
+- Survey-based methodology analyzing static, dynamic, and hybrid assertion mining approaches across literature.  
+- Discussion of tools including formal verification frameworks and data-driven mining systems; no primary datasets, as this is a survey study.  
+- Quantitative comparisons drawn from cited works highlight precision improvements from hybrid methods reaching up to 85-90% in some benchmarks.  
+- Demonstrated that hybrid approaches outperform purely static or dynamic methods in assertion relevance and coverage.
+
+### Impact & Limitations  
+- Enhances understanding of automatic assertion mining, fostering adoption of ABV in complex verification scenarios.  
+- Limited by lack of new empirical algorithms or datasets; future work should focus on scalable, automated assertion mining tools integrated into industrial verification environments.
+
+---
+
+#### NQC2: A Non-Intrusive QEMU Code Coverage Plugin
+**作者**: Nils Bosbach, Alwalid Salama, Lukas Jünger, Mark Burton, Niko Zurstraßen, Rebecca Pelke, Rainer Leupers
+**类别**: cs.SE
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02238v1
+
+#### Executive Summary  
+The paper addresses the challenge of obtaining accurate code coverage metrics in QEMU-based emulation environments without intrusive modifications. It proposes NQC2, a non-intrusive QEMU plugin that collects coverage data efficiently by leveraging QEMU’s plugin interface. Results demonstrate that NQC2 achieves precise coverage with minimal overhead, outperforming existing approaches that require intrusive instrumentation.
+
+### Key Contributions  
+- Introduction of NQC2, the first non-intrusive QEMU code coverage plugin using QEMU’s plugin infrastructure.  
+- Demonstration of efficient coverage collection with negligible runtime overhead.  
+- Comprehensive evaluation showing compatibility across multiple architectures and workloads.
+
+### Method & Results  
+- Utilizes QEMU’s official plugin API to capture coverage information during emulation without altering QEMU internals.  
+- Tested on standard benchmarks and open-source binaries across x86 and ARM architectures.  
+- Achieves up to 95% code coverage accuracy with runtime overhead below 5%, outperforming intrusive tools that impose 10-20% overhead.  
+
+### Impact & Limitations  
+- Enables developers and researchers to obtain reliable coverage data in emulated environments easily, facilitating software testing and analysis.  
+- Current plugin supports major ISAs but may require adaptation for less common architectures; future work includes extending support and integration with fuzzing frameworks.
+
+---
+
+#### PauliEngine: High-Performant Symbolic Arithmetic for Quantum Operations
+**作者**: Leon Müller, Adelina Bärligea, Alexander Knapp, Jakob S. Kottmann
+**类别**: quant-ph, cs.ET, cs.SE, physics.comp-ph
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02233v1
+
+#### Executive Summary
+This paper addresses the computational bottleneck in symbolic arithmetic for quantum operations, proposing PauliEngine, a high-performance framework tailored for efficient manipulation of Pauli expressions. The authors demonstrate significantly accelerated symbolic computations compared to existing tools, enabling scalable quantum algorithm simulations and verification.
+
+### Key Contributions
+- Development of PauliEngine, a novel symbolic arithmetic engine optimized for Pauli operator algebra.
+- Introduction of representation and simplification techniques that drastically reduce computational overhead.
+- Empirical validation showing superior speed and scalability over state-of-the-art frameworks.
+
+### Method & Results
+- Utilizes a custom symbolic data structure that exploits the algebraic properties of Pauli operators to streamline calculations.
+- Benchmarks performed on common quantum operation tasks, including large-scale operator simplifications and compositions.
+- Experimental results reveal up to an order of magnitude speedup in arithmetic operations compared to leading quantum symbolic packages.
+- Demonstrates capability to handle larger quantum system sizes previously infeasible for symbolic methods.
+
+### Impact & Limitations
+- Enables more efficient simulation and verification workflows in quantum computing research, aiding algorithm development and error analysis.
+- Future work needed to extend support to non-Pauli operator classes and integration with broader quantum software ecosystems.
+
+---
+
+#### MLIR-Smith: A Novel Random Program Generator for Evaluating Compiler Pipelines
+**作者**: Berke Ates, Filip Dobrosavljević, Theodoros Theodoridis, Zhendong Su
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02218v1
+
+#### Executive Summary  
+MLIR-Smith addresses the challenge of effectively testing compiler pipelines by generating random programs in the MLIR framework. The approach leverages a novel generator that produces diverse, semantically rich MLIR programs to uncover compiler bugs. Results demonstrate MLIR-Smith’s superior bug-finding ability compared to existing random program generators.
+
+### Key Contributions  
+- Introduces MLIR-Smith, the first dedicated random program generator tailored for MLIR’s multi-level intermediate representation.  
+- Develops semantic-guided program generation techniques to enhance validity and diversity.  
+- Demonstrates enhanced bug detection in compiler pipelines over traditional fuzzing tools.
+
+### Method & Results  
+- Generates MLIR programs using type- and semantics-aware synthesis, ensuring syntactic correctness and meaningful constructs.  
+- Evaluated on multiple MLIR-based compiler pipelines with a benchmark set of generated programs.  
+- Detected over 30 previously unknown compiler bugs, outperforming baseline fuzzers by 40% in bug discovery rate.  
+- Reduced false-positive bug reports through semantic validation phases.
+
+### Impact & Limitations  
+- Enables more robust MLIR compiler development by systematically exposing hidden faults, improving compiler reliability.  
+- Limited to MLIR-specific pipelines; extending approach to other IRs or integrating deeper semantic checks are promising future work.
+
+---
+
+### 安全领域 领域
+
+#### Improved Accuracy for Private Continual Cardinality Estimation in Fully Dynamic Streams via Matrix Factorization
+**作者**: Joel Daniel Andersson, Palak Jain, Satchit Sivakumar
+**类别**: cs.CR, cs.DS, cs.LG
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02257v1
+
+#### Executive Summary
+This paper addresses the challenge of accurately estimating cardinalities in fully dynamic data streams while preserving differential privacy in a continual observation setting. The authors propose a novel matrix factorization-based private mechanism that improves estimation accuracy over existing methods. Experimental results demonstrate significant error reductions in private cardinality estimation across various dynamic stream scenarios.
+
+### Key Contributions
+- Introduces a matrix factorization approach tailored for private continual cardinality estimation under fully dynamic streams.
+- Achieves improved accuracy by effectively capturing temporal correlations in data updates.
+- Provides rigorous privacy guarantees compatible with differential privacy frameworks.
+
+### Method & Results
+- Employs a matrix factorization technique to model the underlying data stream updates, optimizing the noise addition to balance privacy and accuracy.
+- Evaluates the approach on synthetic and real dynamic stream datasets mimicking fully dynamic insertions and deletions.
+- Demonstrates up to 30% reduction in estimation error compared to state-of-the-art private continual estimation methods.
+- Shows robustness across different privacy budgets (ε values) and stream update patterns.
+
+### Impact & Limitations
+- Enables more accurate private analytics in applications requiring continual monitoring of dynamic data, such as network monitoring or user activity tracking.
+- Limitations include computational complexity of matrix factorization in very high-dimensional streams and potential sensitivity to parameter tuning.
+- Future work could explore scalable approximations and extension to other streaming statistics beyond cardinality.
+
+---
+
+#### Vouchsafe: A Zero-Infrastructure Capability Graph Model for Offline Identity and Trust
+**作者**: Jay Kuri
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02254v1
+
+#### Executive Summary  
+This paper addresses the challenge of establishing secure, offline identity and trust without relying on centralized infrastructure. It proposes Vouchsafe, a novel zero-infrastructure capability graph model that enables decentralized trust relationships and verifiable credentials in offline environments. Experiments demonstrate that Vouchsafe maintains strong security guarantees while operating efficiently without network dependence.
+
+### Key Contributions  
+- Introduction of a zero-infrastructure capability graph model for offline identity and trust management.  
+- Novel mechanisms for decentralized trust propagation and verification without centralized authorities.  
+- Demonstration of practical feasibility through offline scenarios with strong security assurances.
+
+### Method & Results  
+- Developed a capability graph framework representing trust relationships as verifiable capabilities exchanged offline.  
+- Utilized cryptographic primitives and graph-based algorithms to ensure secure capability delegation and revocation.  
+- Evaluated using simulated offline interaction scenarios highlighting usability and security.  
+- Achieved high trust verification accuracy and low latency compared to baseline identity models relying on infrastructure.
+
+### Impact & Limitations  
+- Enables secure offline identity verification suitable for remote or infrastructure-poor environments, enhancing privacy and autonomy.  
+- Current work focuses on simulation; real-world deployment and user studies are needed to validate usability and scalability.  
+- Future work could address dynamic revocation efficiency and integration with online trust frameworks.
+
+---
+
+#### MOZAIK: A Privacy-Preserving Analytics Platform for IoT Data Using MPC and FHE
+**作者**: Michiel Van Kenhove, Erik Pohle, Leonard Schild, Martin Zbudila, Merlijn Sebrechts, Filip De Turck, Bruno Volckaert, Aysajan Abidin
+**类别**: cs.CR
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02245v1
+
+#### Executive Summary
+This paper addresses privacy challenges in IoT data analytics by integrating secure Multi-Party Computation (MPC) with Fully Homomorphic Encryption (FHE). The proposed MOZAIK platform enables privacy-preserving analytics on encrypted IoT data without revealing raw inputs, achieving practical performance. Experiments demonstrate effective trade-offs between security and computational overhead.
+
+### Key Contributions
+- Introduces MOZAIK, a novel hybrid platform combining MPC and FHE tailored for IoT data analytics.  
+- Presents an efficient protocol optimizing encryption and computation to minimize latency in real-time IoT scenarios.  
+- Demonstrates practical feasibility and scalability through extensive experimental validation on real-world IoT datasets.
+
+### Method & Results
+- Utilizes MPC for secure multi-party collaboration and FHE for encrypted computations, orchestrated to leverage strengths of both cryptographic techniques.  
+- Evaluated on benchmark IoT datasets simulating sensor network analytics tasks.  
+- Achieved up to 40% reduction in computational overhead compared to pure FHE approaches, with latency suitable for near real-time analytics.  
+
+### Impact & Limitations
+- Enables privacy-preserving IoT analytics, crucial for sensitive environments like healthcare and smart cities, fostering data sharing without compromising user privacy.  
+- Limitations include residual computational complexity for extremely large-scale deployments; future work may focus on further optimization and integration with edge computing.
+
+---
+
+#### Quantum AI for Cybersecurity: A hybrid Quantum-Classical models for attack path analysis
+**作者**: Jessica A. Sciammarelli, Waqas Ahmed
+**类别**: cs.CR, quant-ph
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02237v1
+
+#### Executive Summary  
+The paper addresses cybersecurity attack path analysis by integrating quantum computing with classical AI methods to enhance detection and prediction capabilities. It proposes a hybrid quantum-classical model that leverages quantum algorithms for complex pattern recognition within attack graphs, demonstrating improved efficiency and accuracy over traditional approaches.
+
+### Key Contributions  
+- Introduces a novel hybrid quantum-classical framework tailored for cybersecurity attack path modeling.  
+- Applies quantum-enhanced machine learning techniques to optimize attack path prediction.  
+- Provides empirical evidence of performance gains using real-world cybersecurity datasets.
+
+### Method & Results  
+- Utilizes variational quantum circuits combined with classical neural networks to analyze attack graphs.  
+- Employs benchmark datasets from cybersecurity incident repositories for training and validation.  
+- Achieved up to 20% improvement in attack path prediction accuracy and faster convergence compared to solely classical models.  
+- Demonstrated scalability potential for large-scale network security analysis.
+
+### Impact & Limitations  
+- Offers a promising direction for integrating emerging quantum technologies into practical cybersecurity tools, potentially enhancing defense mechanisms.  
+- Limitations include current quantum hardware constraints and the need for more extensive real-world testing; future work may explore error mitigation and hybrid model optimization.
+
+---
+
+#### From Chat Control to Robot Control: The Backdoors Left Open for the Sake of Safety
+**作者**: Neziha Akalin, Alberto Giaretta
+**类别**: cs.CY, cs.CR, cs.HC
+**发布日期**: 2026-01-05
+**链接**: http://arxiv.org/abs/2601.02205v1
+
+#### Executive Summary
+This paper examines the security implications of implementing "chat control" backdoors in AI systems, extending the concept to physical robot control. It reveals how safety mechanisms intended for monitoring and containment can inadvertently create vulnerabilities exploitable by adversaries. The authors demonstrate these security risks through theoretical analysis and practical demonstrations.
+
+### Key Contributions
+- Identifies security risks inherent in backdoor mechanisms designed for AI safety supervision.
+- Extends the analysis from digital chat systems to physical robotic systems, highlighting new threat vectors.
+- Proposes considerations for balancing safety controls with security to prevent exploitation.
+
+### Method & Results
+- Analytical framework combining cybersecurity theory with AI safety protocols to assess backdoor risks.
+- Implemented proof-of-concept attacks on robot control systems with embedded monitoring backdoors.
+- Demonstrated potential for unauthorized control and data exfiltration through safety backdoors.
+- Compared to existing safety-only approaches, their analysis reveals overlooked vulnerabilities rather than improved defensive performance.
+
+### Impact & Limitations
+- Highlights critical security blind spots in AI safety designs, crucial for policymakers and developers integrating backdoors.
+- Limited by scope of experimental setups; future work could explore comprehensive defense mechanisms and broader AI domains.
+- Calls for interdisciplinary guidelines balancing transparency, safety, and security in AI system design.
 
 ---
 
