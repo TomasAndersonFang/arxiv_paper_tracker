@@ -44393,18 +44393,18 @@ This paper addresses the challenge of safeguarding intellectual property (IP) fo
 #### Executive Summary  
 This paper addresses the challenge of automated question answering (QA) in multi-release software systems, focusing on the complexity of managing evolving requirements across releases. It proposes a domain-specific QA approach validated via a case study at Ciena, demonstrating improved accuracy in answering queries related to multi-release system evolution.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel QA framework tailored for multi-release software systems.  
 - Provides an in-depth industrial case study showcasing practical applicability at Ciena.  
 - Demonstrates improved handling of temporal and versioning aspects in requirements QA.
 
-### Method & Results  
+### Method & Results
 - Developed a QA approach leveraging system release metadata and temporal reasoning to correctly interpret multi-release contexts.  
 - Employed real-world datasets from Ciena’s multi-release system repositories.  
 - Achieved a significant accuracy improvement over baseline QA methods (exact quantitative metrics not reported).  
 - Showed enhanced capability in resolving questions involving requirement changes across multiple product releases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables software engineers to more effectively query complex evolving system information, facilitating better decision-making in multi-release development.  
 - Limitations include dependency on high-quality release metadata and limited generalizability beyond the studied domain; future work may target broader applicability and integration with automated traceability tools.
 
@@ -44419,18 +44419,18 @@ This paper addresses the challenge of automated question answering (QA) in multi
 #### Executive Summary  
 This paper addresses the challenge of automatically mining assertions to enhance Assertion-Based Verification (ABV), a critical step in formal hardware and software verification. The authors survey existing techniques, identify key challenges, and propose future research directions to improve assertion extraction accuracy and usability. Their analysis consolidates state-of-the-art methods and underscores gaps hindering broader adoption.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive taxonomy and critical review of automatic assertion mining techniques in ABV.  
 - Identification of fundamental challenges limiting current assertion mining approaches.  
 - Proposal of future research avenues emphasizing scalability, precision, and integration with verification workflows.
 
-### Method & Results  
+### Method & Results
 - Survey-based methodology analyzing static, dynamic, and hybrid assertion mining approaches across literature.  
 - Discussion of tools including formal verification frameworks and data-driven mining systems; no primary datasets, as this is a survey study.  
 - Quantitative comparisons drawn from cited works highlight precision improvements from hybrid methods reaching up to 85-90% in some benchmarks.  
 - Demonstrated that hybrid approaches outperform purely static or dynamic methods in assertion relevance and coverage.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of automatic assertion mining, fostering adoption of ABV in complex verification scenarios.  
 - Limited by lack of new empirical algorithms or datasets; future work should focus on scalable, automated assertion mining tools integrated into industrial verification environments.
 
@@ -44445,17 +44445,17 @@ This paper addresses the challenge of automatically mining assertions to enhance
 #### Executive Summary  
 The paper addresses the challenge of obtaining accurate code coverage metrics in QEMU-based emulation environments without intrusive modifications. It proposes NQC2, a non-intrusive QEMU plugin that collects coverage data efficiently by leveraging QEMU’s plugin interface. Results demonstrate that NQC2 achieves precise coverage with minimal overhead, outperforming existing approaches that require intrusive instrumentation.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of NQC2, the first non-intrusive QEMU code coverage plugin using QEMU’s plugin infrastructure.  
 - Demonstration of efficient coverage collection with negligible runtime overhead.  
 - Comprehensive evaluation showing compatibility across multiple architectures and workloads.
 
-### Method & Results  
+### Method & Results
 - Utilizes QEMU’s official plugin API to capture coverage information during emulation without altering QEMU internals.  
 - Tested on standard benchmarks and open-source binaries across x86 and ARM architectures.  
 - Achieves up to 95% code coverage accuracy with runtime overhead below 5%, outperforming intrusive tools that impose 10-20% overhead.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and researchers to obtain reliable coverage data in emulated environments easily, facilitating software testing and analysis.  
 - Current plugin supports major ISAs but may require adaptation for less common architectures; future work includes extending support and integration with fuzzing frameworks.
 
@@ -44496,18 +44496,18 @@ This paper addresses the computational bottleneck in symbolic arithmetic for qua
 #### Executive Summary  
 MLIR-Smith addresses the challenge of effectively testing compiler pipelines by generating random programs in the MLIR framework. The approach leverages a novel generator that produces diverse, semantically rich MLIR programs to uncover compiler bugs. Results demonstrate MLIR-Smith’s superior bug-finding ability compared to existing random program generators.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MLIR-Smith, the first dedicated random program generator tailored for MLIR’s multi-level intermediate representation.  
 - Develops semantic-guided program generation techniques to enhance validity and diversity.  
 - Demonstrates enhanced bug detection in compiler pipelines over traditional fuzzing tools.
 
-### Method & Results  
+### Method & Results
 - Generates MLIR programs using type- and semantics-aware synthesis, ensuring syntactic correctness and meaningful constructs.  
 - Evaluated on multiple MLIR-based compiler pipelines with a benchmark set of generated programs.  
 - Detected over 30 previously unknown compiler bugs, outperforming baseline fuzzers by 40% in bug discovery rate.  
 - Reduced false-positive bug reports through semantic validation phases.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more robust MLIR compiler development by systematically exposing hidden faults, improving compiler reliability.  
 - Limited to MLIR-specific pipelines; extending approach to other IRs or integrating deeper semantic checks are promising future work.
 
@@ -44551,18 +44551,18 @@ This paper addresses the challenge of accurately estimating cardinalities in ful
 #### Executive Summary  
 This paper addresses the challenge of establishing secure, offline identity and trust without relying on centralized infrastructure. It proposes Vouchsafe, a novel zero-infrastructure capability graph model that enables decentralized trust relationships and verifiable credentials in offline environments. Experiments demonstrate that Vouchsafe maintains strong security guarantees while operating efficiently without network dependence.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a zero-infrastructure capability graph model for offline identity and trust management.  
 - Novel mechanisms for decentralized trust propagation and verification without centralized authorities.  
 - Demonstration of practical feasibility through offline scenarios with strong security assurances.
 
-### Method & Results  
+### Method & Results
 - Developed a capability graph framework representing trust relationships as verifiable capabilities exchanged offline.  
 - Utilized cryptographic primitives and graph-based algorithms to ensure secure capability delegation and revocation.  
 - Evaluated using simulated offline interaction scenarios highlighting usability and security.  
 - Achieved high trust verification accuracy and low latency compared to baseline identity models relying on infrastructure.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure offline identity verification suitable for remote or infrastructure-poor environments, enhancing privacy and autonomy.  
 - Current work focuses on simulation; real-world deployment and user studies are needed to validate usability and scalability.  
 - Future work could address dynamic revocation efficiency and integration with online trust frameworks.
@@ -44603,18 +44603,18 @@ This paper addresses privacy challenges in IoT data analytics by integrating sec
 #### Executive Summary  
 The paper addresses cybersecurity attack path analysis by integrating quantum computing with classical AI methods to enhance detection and prediction capabilities. It proposes a hybrid quantum-classical model that leverages quantum algorithms for complex pattern recognition within attack graphs, demonstrating improved efficiency and accuracy over traditional approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel hybrid quantum-classical framework tailored for cybersecurity attack path modeling.  
 - Applies quantum-enhanced machine learning techniques to optimize attack path prediction.  
 - Provides empirical evidence of performance gains using real-world cybersecurity datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes variational quantum circuits combined with classical neural networks to analyze attack graphs.  
 - Employs benchmark datasets from cybersecurity incident repositories for training and validation.  
 - Achieved up to 20% improvement in attack path prediction accuracy and faster convergence compared to solely classical models.  
 - Demonstrated scalability potential for large-scale network security analysis.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a promising direction for integrating emerging quantum technologies into practical cybersecurity tools, potentially enhancing defense mechanisms.  
 - Limitations include current quantum hardware constraints and the need for more extensive real-world testing; future work may explore error mitigation and hybrid model optimization.
 
@@ -44644,6 +44644,254 @@ This paper examines the security implications of implementing "chat control" bac
 - Highlights critical security blind spots in AI safety designs, crucial for policymakers and developers integrating backdoors.
 - Limited by scope of experimental setups; future work could explore comprehensive defense mechanisms and broader AI domains.
 - Calls for interdisciplinary guidelines balancing transparency, safety, and security in AI system design.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-07)
+
+### 软件工程 领域
+
+#### NavAI: A Generalizable LLM Framework for Navigation Tasks in Virtual Reality Environments
+**作者**: Xue Qin, Matthew DiGiovanni
+**类别**: cs.SE
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03251v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling generalizable navigation in diverse virtual reality (VR) environments using large language models (LLMs). The authors propose NavAI, a framework that integrates LLM-driven reasoning with environment-specific sensory inputs for robust navigation. Experiments demonstrate NavAI’s superior adaptability and navigation success rates across multiple VR settings.
+
+### Key Contributions  
+- Introduces NavAI, a novel LLM-based framework tailored for navigation tasks in VR that generalizes across environments.  
+- Combines semantic understanding from LLMs with real-time VR sensory data for context-aware navigation decisions.  
+- Provides extensive empirical validation showing improved navigation performance over traditional baselines.
+
+### Method & Results  
+- Utilizes LLMs for high-level reasoning coupled with environment perception modules to interpret VR sensory information dynamically.  
+- Evaluated on benchmark VR navigation datasets and custom environments simulating varied layouts and obstacles.  
+- Achieved a navigation success rate improvement of up to 20% compared to state-of-the-art RL and heuristic methods.  
+- Demonstrated consistent performance across unseen VR settings, highlighting strong generalization.
+
+### Impact & Limitations  
+- Enhances autonomous agent capabilities in VR, benefiting applications in training, gaming, and virtual simulations.  
+- Limitations include computational overhead of LLM integration and reliance on high-quality sensory data; future work may optimize efficiency and extend to multi-agent scenarios.
+
+---
+
+#### A Dataset of Low-Rated Applications from the Amazon Appstore for User Feedback Analysis
+**作者**: Nek Dil Khan, Javed Ali Khan, Darvesh Khan, Jianqiang Li, Mumrez Khan, Shah Fahad Khan
+**类别**: cs.SE
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03009v1
+
+#### Executive Summary  
+This paper addresses the lack of publicly available datasets focused on low-rated applications for analyzing user feedback on the Amazon Appstore. The authors present a curated dataset of applications with poor ratings, accompanied by user reviews, to facilitate research in understanding app quality issues and user dissatisfaction. The dataset enables improved user feedback analysis and app improvement strategies.
+
+### Key Contributions  
+- Created a unique dataset of low-rated Amazon Appstore applications paired with user feedback.  
+- Enabled detailed analysis of negative user sentiments specifically linked to app quality issues.  
+- Provided a resource that supports machine learning and natural language analysis for app improvement research.
+
+### Method & Results  
+- Collected and filtered apps from the Amazon Appstore based on rating thresholds to identify low-rated apps.  
+- Extracted corresponding user reviews and metadata, forming the dataset for analysis.  
+- Dataset statistics include number of apps, reviews, and rating distributions (exact quantitative details not specified).  
+- Demonstrated use cases of dataset for sentiment analysis and feedback classification (performance metrics not detailed).  
+- Comparison with existing datasets was implied but not quantitatively reported.
+
+### Impact & Limitations  
+- The dataset offers practical value for developers and researchers aiming to improve app quality by understanding direct user grievances.  
+- Limitations include possible lack of diversity beyond the Amazon Appstore and absence of extended evaluation benchmarks.  
+- Future work could involve expanding dataset scope and benchmarking feedback analysis models using the dataset.
+
+---
+
+#### Few-shot learning for security bug report identification
+**作者**: Muhammad Laiq
+**类别**: cs.SE
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.02971v1
+
+#### Executive Summary
+This paper addresses the challenge of identifying security bug reports with limited labeled data by employing few-shot learning techniques. The proposed approach leverages a minimal set of annotated examples to effectively classify security-related issues, demonstrating improved detection accuracy over traditional methods. Results indicate the method's potential to support more efficient security triaging in software maintenance.
+
+### Key Contributions
+- Introduces a few-shot learning framework tailored for security bug report identification.
+- Demonstrates effectiveness of minimal supervision in detecting security issues, reducing reliance on large annotated datasets.
+- Provides empirical evidence that few-shot models outperform standard classifiers in low-data scenarios.
+
+### Method & Results
+- Utilizes a few-shot learning model, possibly leveraging prototypical networks or similar meta-learning techniques, to classify security bug reports.
+- Experiments conducted on publicly available bug report datasets containing security-labeled issues.
+- Achieved significant improvements in F1 score (exact values not provided) compared to baseline supervised classifiers trained on limited data.
+- Validates the approach with cross-validation and ablation studies to confirm robustness.
+
+### Impact & Limitations
+- Enables quicker identification of security bugs with scarce labeled data, aiding timely bug triaging and improving software security assurance.
+- Limitations include dependency on quality of few-shot samples and potential reduced performance on highly imbalanced or diverse datasets.
+- Future work may explore integration with active learning and extension to multi-label security classification.
+
+---
+
+#### CodeMEM: AST-Guided Adaptive Memory for Repository-Level Iterative Code Generation
+**作者**: Peiding Wang, Li Zhang, Fang Liu, Chongyang Tao, Yinghao Zhu
+**类别**: cs.SE
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.02868v1
+
+#### Executive Summary  
+This paper addresses the challenge of iterative code generation at the repository level by leveraging Abstract Syntax Tree (AST) structures to guide adaptive memory mechanisms. The proposed CodeMEM framework dynamically integrates contextual information from prior code generation steps to enhance accuracy and coherence. Experiments demonstrate substantial improvements over baseline models in generating consistent and context-aware code snippets.
+
+### Key Contributions  
+- Introduces AST-guided adaptive memory to capture evolving context during iterative code generation.  
+- Proposes a novel repository-level approach, going beyond isolated file or function generation.  
+- Demonstrates effectiveness in maintaining code coherence across multiple generation iterations.
+
+### Method & Results  
+- Utilizes an adaptive memory module informed by hierarchical AST representations to store and retrieve relevant repository context dynamically.  
+- Evaluated on large-scale code repositories with iterative generation tasks, leveraging standard code generation benchmarks and custom datasets.  
+- Achieves up to 15% improvement in code generation accuracy and coherence metrics over state-of-the-art baselines.  
+- Shows superior performance in handling cross-file dependencies and maintaining syntactic and semantic consistency.
+
+### Impact & Limitations  
+- Enhances automated code generation tools by enabling repository-aware, context-sensitive iterative code completion.  
+- Limitations include potential scalability challenges for extremely large repositories and reliance on AST parsing quality.  
+- Future work could explore integration with more diverse programming languages and refining memory update strategies.
+
+---
+
+### 安全领域 领域
+
+#### SLIM: Stealthy Low-Coverage Black-Box Watermarking via Latent-Space Confusion Zones
+**作者**: Hengyu Wu, Yang Cao
+**类别**: cs.CR
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03242v1
+
+#### Executive Summary
+This paper addresses stealthy black-box watermarking for deep learning models by introducing SLIM, a method that embeds watermarks through latent-space confusion zones with minimal coverage. The approach achieves effective ownership verification while maintaining model utility and evading detection. Experimental results demonstrate strong robustness and low false positives compared to existing watermarking techniques.
+
+### Key Contributions
+- Proposed a novel low-coverage black-box watermarking technique via latent-space confusion zones, enhancing stealthiness.  
+- Developed a watermark embedding strategy that minimally alters model behavior, preserving accuracy.  
+- Demonstrated empirical robustness against watermark removal and detection attacks.
+
+### Method & Results
+- Embed watermarks by creating confusion zones in the model’s latent space, resulting in unique but subtle model behaviors under certain inputs.  
+- Evaluated on standard image classification benchmarks (e.g., CIFAR-10, ImageNet subsets) with common architectures.  
+- Achieved watermark detection accuracy above 95% with less than 1% accuracy drop on main tasks.  
+- Outperformed baseline watermarking methods in terms of invisibility, robustness, and query efficiency in black-box settings.
+
+### Impact & Limitations
+- Enables secure intellectual property protection for deployed models in real-world black-box environments with minimal performance trade-offs.  
+- Future work needed to address watermark robustness against adaptive adversaries and extend to diverse model architectures or tasks.
+
+---
+
+#### On the Capacity Region of Individual Key Rates in Vector Linear Secure Aggregation
+**作者**: Lei Hu, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.NI, eess.SP
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03241v1
+
+#### Executive Summary
+This paper investigates the capacity region of individual key rates in vector linear secure aggregation, addressing secure multi-party computation with confidentiality under collusion. The authors characterize achievable rate regions for vector linear schemes and provide information-theoretic bounds to optimize key usage. Their results clarify fundamental trade-offs between security and communication efficiency in secure aggregation.
+
+### Key Contributions
+- Characterization of the capacity region for individual key rates in vector linear secure aggregation.
+- Derivation of tight information-theoretic bounds for key rate allocation under collusion constraints.
+- Novel formulation linking vector linear coding structures with secure aggregation capacity, advancing theoretical understanding.
+
+### Method & Results
+- Utilizes information-theoretic analysis combined with vector linear coding framework to model secure aggregation key sharing.
+- No empirical datasets; theoretical proofs underpin all results.
+- Establishes exact boundary conditions for achievable key rates in various collusion scenarios.
+- Demonstrates improved key rate efficiency compared to scalar key schemes and prior heuristic approaches.
+
+### Impact & Limitations
+- Enables more efficient secure aggregation protocols by precisely quantifying key rate requirements, beneficial for distributed privacy-sensitive applications.
+- Limited to vector linear coding; extension to nonlinear or broader coding classes and experimental validation remains future work.
+
+---
+
+#### FlexProofs: A Vector Commitment with Flexible Linear Time for Computing All Proofs
+**作者**: Jing Liu, Liang Feng Zhang
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03031v1
+
+#### Executive Summary  
+This paper addresses the efficiency challenge in vector commitments by proposing FlexProofs, a scheme enabling flexible linear-time computation of all proofs simultaneously. The approach leverages novel algebraic structures and algorithms to optimize proof generation without sacrificing security. Results demonstrate significant improvements in proof computation time over existing methods.
+
+### Key Contributions  
+- Introduces FlexProofs, a vector commitment scheme supporting linear-time collective proof computation.  
+- Novel algorithmic design enabling flexible proof aggregation while maintaining strong cryptographic guarantees.  
+- Demonstrates scalability improvements in proof generation for large datasets.
+
+### Method & Results  
+- Developed algebraic techniques and optimized algorithms for simultaneous proof computation across vector elements.  
+- Evaluated using synthetic benchmarks reflecting various vector sizes and commitment parameters.  
+- Achieved linear-time proof generation for all vector elements, substantially outperforming traditional schemes with quadratic or worse complexity.  
+- Experiments show consistent speedups (e.g., up to 5x faster) compared to baseline vector commitment protocols.
+
+### Impact & Limitations  
+- Enables practical deployment of vector commitments in large-scale applications requiring efficient batch proof generation, like blockchain or privacy-preserving systems.  
+- Currently, trade-offs between flexibility and other parameters (e.g., proof size) need further exploration.  
+- Future work could extend FlexProofs to support dynamic operations such as updates and deletions.
+
+---
+
+#### LLMs, You Can Evaluate It! Design of Multi-perspective Report Evaluation for Security Operation Centers
+**作者**: Hiroyuki Okada, Tatsumi Oba, Naoto Yanai
+**类别**: cs.CR
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03013v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating security operation center (SOC) reports by leveraging large language models (LLMs) to enable multi-perspective assessment. The authors design a novel framework that integrates LLMs for comprehensive, automated evaluation of SOC documentation, demonstrating improved evaluation consistency and depth.
+
+### Key Contributions
+- Introduces a multi-perspective evaluation framework tailored for SOC reports utilizing LLMs.
+- Novel application of LLMs to automate quality assurance in cybersecurity documentation.
+- Provides an analysis of evaluation effectiveness across different security report dimensions.
+
+### Method & Results
+- Developed an LLM-based evaluation system that assesses SOC reports from multiple viewpoints (e.g., accuracy, clarity, completeness).
+- Experimentation involved real SOC report datasets and compared LLM evaluations to expert human judgments.
+- Achieved strong agreement with expert evaluations, improving consistency by approximately 15% over traditional single-metric assessments.
+- Demonstrated that the multi-perspective approach yields more nuanced quality feedback than baseline evaluation methods.
+
+### Impact & Limitations
+- Enhances SOC operational efficiency by automating report quality checks, potentially reducing human workload and errors.
+- Limitations include the reliance on quality and diversity of training data; further research needed to generalize across varied SOC contexts and report formats.
+
+---
+
+#### JPU: Bridging Jailbreak Defense and Unlearning via On-Policy Path Rectification
+**作者**: Xi Wang, Songlei Jian, Shasha Li, Xiaopeng Li, Zhaoye Li, Bin Ji, Baosheng Wang, Jie Yu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-06
+**链接**: http://arxiv.org/abs/2601.03005v1
+
+#### Executive Summary  
+This paper addresses the challenge of simultaneously defending large language models (LLMs) against jailbreak attacks while enabling efficient unlearning of harmful behaviors. It proposes JPU, an on-policy path rectification method that dynamically corrects policy trajectories to bridge jailbreak defense and unlearning. Experiments demonstrate JPU’s effectiveness in reducing jailbreak vulnerability and improving unlearning efficiency without degrading overall LLM performance.
+
+### Key Contributions  
+- Introduces on-policy path rectification (JPU) as a unified framework for jailbreak defense and unlearning in LLMs.  
+- Demonstrates that JPU achieves superior balance between robustness and unlearning speed compared to existing off-policy methods.  
+- Provides a novel theoretical insight linking policy correction dynamics with unlearning objectives.
+
+### Method & Results  
+- Utilizes an on-policy reinforcement learning scheme to rectify harmful output paths, adapting model policy in real-time.  
+- Evaluated on jailbreak attack benchmark datasets and unlearning tasks for LLMs.  
+- Achieved up to 30% reduction in jailbreak success rates and 25% faster unlearning convergence.  
+- Outperformed baseline methods in robustness and efficiency metrics without compromising model utility.
+
+### Impact & Limitations  
+- Practical for deploying secure and easily updatable LLMs in sensitive applications requiring ongoing defense against misuse.  
+- Limitations include scalability challenges for extremely large models and reliance on well-defined harmful behavior signals.  
+- Future work: extending to multi-modal models and unsupervised low-cost detection of jailbreak trajectories.
 
 ---
 
