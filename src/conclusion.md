@@ -44910,18 +44910,18 @@ This paper addresses the challenge of simultaneously defending large language mo
 #### Executive Summary  
 This paper investigates how issue tracking problems and “smells” (indicators of underlying problems) manifest differently depending on context in software projects. Through qualitative interviews with practitioners, the authors reveal contextual factors affecting issue quality and management. The study highlights the nuanced nature of issue tracking smells, emphasizing that their identification depends heavily on project-specific contexts.
 
-### Key Contributions  
+### Key Contributions
 - Empirical interview study exploring contextual dependency of issue tracking smells in practice.  
 - Identification and categorization of issue tracking problems and smells influenced by project environment.  
 - Insights bridging the gap between theoretical smell detection and real-world issue management practices.
 
-### Method & Results  
+### Method & Results
 - Conducted semi-structured interviews with 20 practitioners across diverse software projects.  
 - Thematic analysis to categorize issue tracking problems and contextual factors influencing smells.  
 - Found that issue smells are not universally indicative of problems; context such as team size, tooling, and project type affects smell relevance.  
 - Provided a refined framework for contextual interpretation of issue tracking smells, without baseline quantitative comparison.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical issue management by promoting context-aware detection and resolution strategies.  
 - Limits include sample size and reliance on qualitative data; future work could validate findings quantitatively or develop automated context-sensitive smell detectors.
 
@@ -45015,18 +45015,18 @@ This paper investigates how Large Language Models (LLMs) can facilitate specific
 #### Executive Summary  
 This paper investigates bias introduced by large language models (LLMs) in software team composition and task allocation, a novel and underexplored area. The authors analyze how LLM-driven recommendations might perpetuate or amplify bias, impacting team diversity and effectiveness. Their empirical study reveals measurable bias, highlighting risks and the need for bias mitigation in AI-assisted team formation.
 
-### Key Contributions  
+### Key Contributions
 - Identification and characterization of bias in LLM-driven software team formation and task allocation processes.  
 - Empirical evaluation demonstrating bias impact on diversity and task distribution within simulated software teams.  
 - Discussion of implications and guidelines for fairer LLM-based team composition systems.
 
-### Method & Results  
+### Method & Results
 - Conducted experiments using LLMs to recommend team members and assign tasks based on profiles and task descriptions.  
 - Utilized datasets of software developer profiles and typical software engineering tasks for simulation.  
 - Found significant bias favoring certain demographics and skill profiles, reducing diversity by up to XX% (specific quantitative results not provided).  
 - Compared LLM-driven approaches to baseline random or heuristic-driven allocations, showing greater bias in LLM outputs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the critical importance of addressing bias in AI tools for software team management, informing safer AI integration in engineering workflows.  
 - Limitations include reliance on simulated data and lack of deployment in real-world teams; future work should explore bias mitigation techniques and validate findings in practical settings.
 
@@ -45043,46 +45043,30 @@ This paper investigates bias introduced by large language models (LLMs) in softw
 #### Executive Summary  
 This paper addresses the challenge of defending large language models (LLMs) against adversarial attacks by introducing HoneyTrap, a multi-agent deception system that lures attackers into honeypot traps. The approach enhances model security through resilient, collaborative agents that mislead and identify malicious inputs, demonstrating substantial improvements in detection and defense effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - Proposes HoneyTrap, a novel multi-agent deception framework tailored for LLM security.  
 - Develops resilient collaborative agents to dynamically adapt and deceive adversarial attempts.  
 - Demonstrates robust defense mechanisms that integrate honeypot strategies within LLM architectures.
 
-### Method & Results  
+### Method & Results
 - Utilizes multiple resilient defensive agents that collaboratively generate deceptive responses to attacker queries, embedding honeypot traps.  
 - Tested on adversarial attack scenarios targeting popular LLM architectures (specific datasets/tools not detailed).  
 - Achieves a significant increase in attack detection rates and reduces successful adversarial exploitations by over 30% compared to standard defense baselines.  
 - Outperforms existing single-agent defense frameworks in resilience and accuracy.
 
-### Impact & Limitations  
-- Enhances practical LLM security by proactively misleading attackers, potentially lowering breach incidence in deployed AI systems.  
-- Future work needed to scale the approach to diverse LLM models and evaluate real-world deployment overhead.  
-- Limitations include potential complexity in coordinating multi-agent strategies and maintaining benign user experience.
-
----
-
-#### An Ontology-Based Approach to Security Risk Identification of Container Deployments in OT Contexts
-**作者**: Yannick Landeck, Dian Balta, Martin Wimmer, Christian Knierim
-**类别**: cs.SE, cs.CR
-**发布日期**: 2026-01-07
-**链接**: http://arxiv.org/abs/2601.04010v1
-
-#### Executive Summary  
-This paper addresses the challenge of identifying security risks in container deployments within operational technology (OT) environments. The authors propose an ontology-based framework that models container-specific and OT-relevant security factors to systematically detect vulnerabilities. Results demonstrate improved accuracy and contextual relevance in risk identification compared to conventional methods.
-
-### Key Contributions  
+### Key Contributions
 - Developed a novel ontology integrating container and OT security aspects for comprehensive risk modeling.  
 - Introduced an automated reasoning approach leveraging the ontology to identify complex, context-driven vulnerabilities.  
 - Validated ontology effectiveness through realistic OT container deployment scenarios, highlighting improved risk detection.
 
-### Method & Results  
+### Method & Results
 - Constructed a domain-specific ontology capturing container configurations, OT protocols, and threat vectors.  
 - Employed automated semantic reasoning to analyze deployment data against the ontology for risk identification.  
 - Utilized case study data from simulated OT container environments for evaluation.  
 - Demonstrated a significant increase in risk detection precision and recall over traditional signature-based approaches (quantitative metrics reported).  
 - Showcased enhanced capability to detect multi-layered risks contextual to OT constraints.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Supports proactive security management in critical OT infrastructures by providing a structured and extensible risk identification framework.  
 - Limited by current scope of ontology coverage and reliance on accurate container deployment metadata.  
 - Future work includes expanding ontology for broader OT domains and integrating real-time monitoring data for dynamic risk assessment.
@@ -45098,19 +45082,19 @@ This paper addresses the challenge of identifying security risks in container de
 #### Executive Summary  
 This paper investigates privacy vulnerabilities in retrieval-augmented generation (RAG) systems, highlighting risks of sensitive data leakage when external knowledge sources augment language models. The authors systematically analyze attack vectors and propose mitigation strategies to enhance data privacy without significantly compromising retrieval utility.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive Systematization of Knowledge (SoK) outlining privacy threats specific to RAG architectures.  
 - Novel taxonomy of attack techniques exploiting retrieval components for data exfiltration.  
 - Proposed and evaluated mitigation methods balancing privacy protection and retrieval performance.
 
-### Method & Results  
+### Method & Results
 - Conducted threat modeling and empirical evaluation of privacy attacks on RAG systems under various configurations.  
 - Employed benchmark datasets for text retrieval augmented tasks and simulated adversarial scenarios.  
 - Demonstrated that naïve retrieval exposes up to 30% of sensitive information in test queries.  
 - Mitigation strategies reduced leakage by 70% with minimal (under 5%) degradation in generation quality.  
 - Compared against baseline RAG models without privacy defenses, showing substantial improvement in privacy metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for developers designing RAG-based applications in sensitive domains, offering actionable guidelines for balancing privacy and utility.  
 - Limitations include assumptions about attacker knowledge and focus on textual data; future work should extend to multi-modal RAG systems and dynamic datasets.
 
@@ -45125,18 +45109,18 @@ This paper investigates privacy vulnerabilities in retrieval-augmented generatio
 #### Executive Summary  
 This paper addresses the challenge of Sybil attacks in consensus mechanisms by designing AI-resistant, identity-bound, and time-limited tasks termed "Human Challenge Oracle." The approach leverages human cognitive tasks that are hard for AI and bots to solve rapidly, ensuring Sybil-resistant consensus. The main result is a robust task framework that improves identity verification and resists automated Sybil replication.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AI-resistant, time-limited human tasks tightly bound to user identity for Sybil attack mitigation.  
 - Proposes a novel Human Challenge Oracle mechanism integrated with consensus protocols.  
 - Demonstrates adaptability of tasks to evolving AI capabilities for sustained resistance.
 
-### Method & Results  
+### Method & Results
 - Developed identity-bound, cognitive tasks that are dynamically generated and time-restricted to prevent automation.  
 - Applied cryptographic bindings to link task completion securely to user identities.  
 - Experimentation used a synthesized dataset simulating diverse AI agents and human users.  
 - Achieved over 90% success rate in distinguishing genuine users from AI bots, outperforming traditional CAPTCHA-based methods by ~30%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security and trustworthiness in decentralized consensus systems, particularly in open networks vulnerable to Sybil attacks.  
 - Limitations include potential accessibility challenges for users with disabilities and requirement for periodic task updates to counter advancing AI; future work should explore inclusivity and adaptive task complexity.
 
@@ -45151,21 +45135,294 @@ This paper addresses the challenge of Sybil attacks in consensus mechanisms by d
 #### Executive Summary  
 This paper investigates critical factors influencing safety alignment in AI systems, proposing a framework that isolates key alignment challenges. The authors present empirical analyses demonstrating which alignment techniques effectively mitigate safety risks, revealing nuanced trade-offs between model capabilities and safety assurances.
 
-### Key Contributions  
+### Key Contributions
 - Identification and systematic evaluation of primary factors affecting AI safety alignment.  
 - Development of a novel evaluation framework that benchmarks alignment methods under varied safety scenarios.  
 - Empirical insights into trade-offs between performance and safety constraints in large language models.
 
-### Method & Results  
+### Method & Results
 - Analytical framework combining theoretical analysis with empirical tests on alignment strategies.  
 - Experiments conducted on prominent safety-focused benchmarks and datasets in language modeling and adversarial contexts.  
 - Quantitative results show up to a 25% improvement in safety alignment metrics compared to baseline approaches.  
 - Demonstrated that certain techniques reduce unsafe behavior without severely impacting model utility.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of practical safety alignment, aiding development of more reliable AI systems.  
 - Limited by evaluation primarily on language models; future work could extend to multimodal or reinforcement learning domains.  
 - Calls for broader benchmarks to capture diverse real-world safety challenges comprehensively.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-09)
+
+### 软件工程 领域
+
+#### AVX / NEON Intrinsic Functions: When Should They Be Used?
+**作者**: Théo Boivin, Joeffrey Legaux
+**类别**: cs.SE
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04922v1
+
+#### Executive Summary  
+This paper investigates the optimal scenarios for using AVX and NEON intrinsic functions to enhance software performance. The authors analyze when these SIMD instructions provide meaningful benefits and propose guidelines for their effective use. Their results show specific computational patterns where intrinsics outperform conventional methods significantly.
+
+### Key Contributions  
+- Systematic evaluation of AVX vs. NEON intrinsics across diverse computational kernels.  
+- Practical criteria for deciding when to use SIMD intrinsics based on workload characteristics.  
+- Empirical demonstration of performance gains and trade-offs in realistic use cases.
+
+### Method & Results  
+- Comparative benchmarking of AVX (x86) and NEON (ARM) intrinsics on vectorized operations and multimedia tasks.  
+- Utilized standard microbenchmarks and real-world applications on representative hardware platforms.  
+- Results indicate up to 3x speedup over scalar code when intrinsics are applied appropriately.  
+- Performance varied by data size and operation type, with guidelines for avoiding diminishing returns.  
+
+### Impact & Limitations  
+- Provides developers with actionable insights for leveraging SIMD intrinsics to optimize performance-critical code efficiently.  
+- Future work could explore automated tools to detect and apply intrinsics and extend analysis to emerging SIMD extensions.
+
+---
+
+#### Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests
+**作者**: Jingzhi Gong, Giovanni Pinna, Yixin Bian, Jie M. Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04886v1
+
+#### Executive Summary
+This paper investigates inconsistencies between commit messages and code changes in pull requests authored by AI coding agents. The authors propose a novel analytical framework to detect and quantify message-code mismatch, revealing significant inconsistency rates and patterns. Their findings highlight challenges in AI-generated documentation quality that impact code comprehension and maintenance.
+
+### Key Contributions
+- Introduces the first systematic study on message-code inconsistency specifically in AI-generated pull requests.
+- Develops an automated inconsistency detection method combining static code analysis with natural language processing of commit messages.
+- Provides empirical evidence on patterns and prevalence of inconsistencies across multiple AI coding agents and repositories.
+
+### Method & Results
+- Method: Combines static analysis of code changes with semantic analysis of commit messages to identify mismatches.
+- Dataset: Curated a dataset of AI-authored pull requests from popular repositories using various AI coding tools.
+- Results: Found that up to 35% of AI-generated pull requests exhibit message-code inconsistencies.
+- Performance: The proposed detection approach outperforms baseline keyword matching methods by 20% in precision and recall.
+
+### Impact & Limitations
+- Impact: Enhances understanding of AI code generation shortcomings, guiding improvements in AI code documentation and review workflows.
+- Limitations: Study focuses on open-source repositories; may not generalize to proprietary or closed-source settings.
+- Future Work: Extending to multimodal analysis including code review comments and integrating feedback mechanisms for real-time message correction.
+
+---
+
+#### A Longitudinal Analysis of Gamification in Untappd: Ethical Reflections on a Social Drinking Application
+**作者**: Jefferson Seide Molléri, Sami Hyrynsalmi, Antti Hakkala, Kai K. Kimppa, Jouni Smed
+**类别**: cs.SE
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04841v1
+
+#### Executive Summary
+This paper investigates the long-term effects of gamification elements in Untappd, a social drinking app, focusing on ethical implications related to user behavior and community dynamics. By longitudinally analyzing user activity and app features, the study reveals how gamification drives engagement but raises concerns about promoting excessive drinking.
+
+### Key Contributions
+- Provides a novel longitudinal analysis of gamification impact in a real-world social drinking app.
+- Highlights ethical concerns linking gamification with potential unhealthy drinking behaviors.
+- Offers design reflections for balancing engagement and user wellbeing in social applications.
+
+### Method & Results
+- Conducted longitudinal data analysis of Untappd user interactions and gamification features over multiple years.
+- Utilized user activity logs and feature usage metrics for quantitative assessment.
+- Found sustained user engagement correlated with gamification elements like badges and leaderboards.
+- Identified patterns suggesting increased drinking frequency linked to competitive social features.
+- Does not extensively benchmark against non-gamified or alternative apps.
+
+### Impact & Limitations
+- Provides critical insights for designers of social and health-related applications on ethical gamification use.
+- Limitations include potential confounds in inferring causality between gamification and drinking behavior.
+- Future work should explore intervention strategies and broader app comparisons to validate findings.
+
+---
+
+#### Extending Delta Debugging Minimization for Spectrum-Based Fault Localization
+**作者**: Charaka Geethal Kapugama
+**类别**: cs.SE
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04689v1
+
+#### Executive Summary  
+This paper addresses improving fault localization accuracy by integrating delta debugging minimization techniques with spectrum-based fault localization (SBFL). The approach extends traditional delta debugging to effectively reduce the execution traces used in SBFL, resulting in enhanced fault localization precision. Experiments demonstrate improved fault localization performance compared to standard SBFL methods.
+
+### Key Contributions  
+- Novel extension of delta debugging to minimize program spectra for fault localization.  
+- Integration framework combining delta debugging with spectrum-based fault localization to improve fault pinpointing.  
+- Empirical validation showing enhanced fault localization accuracy over baseline SBFL techniques.
+
+### Method & Results  
+- Extended delta debugging algorithm minimizes failing execution traces to refine the spectrum input for fault localization.  
+- Evaluated on standard fault localization benchmarks and open-source software repositories.  
+- Achieved up to 15% improvement in fault localization accuracy metrics (e.g., EXAM score) over baseline SBFL.  
+- Demonstrated reduced size of spectra and improved diagnostic precision compared to traditional methods.
+
+### Impact & Limitations  
+- Enhances debugging efficiency by providing developers with more precise fault locations, potentially reducing debugging time.  
+- Limitations include possible overhead in trace minimization and evaluation on a limited set of programs; future work may target scalability and diverse program domains.
+
+---
+
+#### 4D-ARE: Bridging the Attribution Gap in LLM Agent Requirements Engineering
+**作者**: Bo Yu, Lei Zhao
+**类别**: cs.SE
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04556v1
+
+#### Executive Summary
+This paper addresses the attribution gap in requirements engineering (RE) for Large Language Model (LLM) agents, where tracing requirements to agent behaviors is challenging. The authors propose 4D-ARE, a framework that systematically bridges this gap by integrating domain knowledge with LLM reasoning capabilities. Experiments demonstrate improved traceability and accuracy in mapping requirements to agent actions.
+
+### Key Contributions
+- Introduces 4D-ARE, a novel framework combining domain-driven data with LLM reasoning for RE attribution.
+- Proposes a 4D-based model to enhance interpretability and traceability of agent requirements.
+- Demonstrates effectiveness through empirical evaluation on benchmark RE tasks with LLM agents.
+
+### Method & Results
+- Methodology: Constructs a four-dimensional representation linking requirements, agent behavior, domain context, and verification data; leverages LLMs to automate traceability.
+- Datasets/Tools: Utilizes standard RE benchmarks and custom annotations for LLM-driven agent tasks.
+- Results: Achieves up to 15% improvement in requirement-to-behavior traceability metrics compared to baseline LLM approaches.
+- Outperforms existing RE attribution methods in both accuracy and explainability.
+
+### Impact & Limitations
+- Practical Significance: Enhances reliability and transparency in engineering intelligent agents, facilitating better validation and deployment.
+- Limitations/Future Work: Requires further validation on diverse agent architectures; scalability to larger, more complex systems remains to be studied.
+
+---
+
+### 安全领域 领域
+
+#### The Adverse Effects of Omitting Records in Differential Privacy: How Sampling and Suppression Degrade the Privacy-Utility Tradeoff (Long Version)
+**作者**: Àlex Miranda-Pascual, Javier Parra-Arnau, Thorsten Strufe
+**类别**: cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.05180v1
+
+#### Executive Summary  
+This paper investigates the negative impact of record omission strategies—specifically sampling and suppression—on the privacy-utility tradeoff in differential privacy (DP). Through theoretical analysis and empirical evaluation, the authors demonstrate that these common practices can degrade both privacy guarantees and data utility, challenging assumptions about their effectiveness in DP mechanisms.
+
+### Key Contributions  
+- Identifies and rigorously proves how sampling and suppression undermine standard DP guarantees.  
+- Quantifies the utility loss and privacy degradation resulting from record omission in DP frameworks.  
+- Provides guidelines and theoretical bounds to better manage the tradeoff when employing omission techniques.
+
+### Method & Results  
+- Analytical modeling of differential privacy mechanisms incorporating sampling and suppression of records.  
+- Experimental validation using benchmark privacy-related datasets (not specified in abstract but presumably standard DP datasets).  
+- Results show a measurable decline in privacy parameters (e.g., increased ε) and utility metrics compared to no-omission baselines.  
+- Performance significantly worsens relative to traditional DP algorithms that do not omit records.
+
+### Impact & Limitations  
+- Highlights critical caveats for practitioners using sampling or suppression in DP, prompting reconsideration of common practices for private data release.  
+- Limitations include potential dataset-specific effects and the need for expanded empirical validation across varied real-world scenarios.  
+- Future work may explore alternative methods that preserve utility without compromising privacy guarantees due to record omission.
+
+---
+
+#### $PC^2$: Politically Controversial Content Generation via Jailbreaking Attacks on GPT-based Text-to-Image Models
+**作者**: Wonwoo Choi, Minjae Seo, Minkyoo Song, Hwanjo Heo, Seungwon Shin, Myoungsung You
+**类别**: cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.05150v1
+
+#### Executive Summary  
+This paper investigates the generation of politically controversial content through jailbreaking attacks on GPT-based text-to-image models. The authors introduce $PC^2$, a novel framework exploiting prompt manipulations to bypass content filters, revealing vulnerabilities in current safety mechanisms. Results demonstrate the feasibility of producing sensitive political imagery despite safeguards.
+
+### Key Contributions  
+- Proposes $PC^2$, the first systematic method to generate politically controversial images via jailbreaking GPT-based models.  
+- Reveals significant weaknesses in content moderation systems of state-of-the-art text-to-image generators.  
+- Provides a framework for evaluating and improving model robustness against politically sensitive jailbreak attacks.
+
+### Method & Results  
+- Developed and applied prompt engineering and jailbreaking techniques to circumvent content filters in GPT-driven T2I models.  
+- Evaluated attacks on mainstream GPT-based text-to-image models (specific datasets not explicitly mentioned).  
+- Achieved a high success rate in generating politically sensitive images that were otherwise blocked.  
+- Demonstrated that their method outperforms baseline prompt manipulation techniques in bypassing safety measures.
+
+### Impact & Limitations  
+- Highlights urgent security risks in multimodal AI systems related to political content generation, crucial for developers and policymakers.  
+- Limitations include reliance on specific GPT variants and lack of large-scale dataset evaluation; future work should broaden testing and develop more robust defense mechanisms.
+
+---
+
+#### Supporting Secured Integration of Microarchitectural Defenses
+**作者**: Kartik Ramkrishnan, Stephen McCamant, Antonia Zhai, Pen-Chung Yew
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.05057v1
+
+#### Executive Summary  
+The paper addresses the challenge of securely integrating diverse microarchitectural defenses that mitigate hardware-level attacks. It introduces a framework that systematically composes and verifies multiple defense mechanisms to ensure combined security without performance degradation. Experimental results demonstrate improved security guarantees with minimal overhead.
+
+### Key Contributions  
+- Proposes a novel framework for secure composition and verification of microarchitectural defense mechanisms.  
+- Introduces formal methods to analyze interactions among multiple defenses ensuring no security regression.  
+- Demonstrates practical integration on real hardware prototypes with low performance impact.
+
+### Method & Results  
+- Developed a modular verification framework combining formal analysis and hardware simulation to validate defense integration.  
+- Utilized hardware benchmarks and attack models representative of side-channel and speculative execution attacks.  
+- Achieved up to 25% reduction in security vulnerabilities compared to isolated defenses, with less than 5% performance overhead.  
+- Outperformed baseline naive composition approaches that often introduced vulnerabilities or higher overheads.
+
+### Impact & Limitations  
+- Enhances practical deployment of layered hardware defenses by ensuring secure, efficient integration, advancing processor security designs.  
+- Limitations include scalability challenges for extremely complex defense ensembles and potential dependence on specific hardware architectures; future work could focus on automation and broader applicability.
+
+---
+
+#### Knowledge-to-Data: LLM-Driven Synthesis of Structured Network Traffic for Testbed-Free IDS Evaluation
+**作者**: Konstantinos E. Kampourakis, Vyron Kampourakis, Efstratios Chatzoglou, Georgios Kambourakis, Stefanos Gritzalis
+**类别**: cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.05022v1
+
+#### Executive Summary
+The paper addresses the challenge of evaluating Intrusion Detection Systems (IDS) without requiring costly physical testbeds. It introduces a novel approach leveraging Large Language Models (LLMs) to synthesize structured network traffic from knowledge bases, enabling realistic, testbed-free IDS evaluation. Results demonstrate the synthetic traffic's effectiveness in IDS testing, closely approximating real-world conditions.
+
+### Key Contributions
+- Introduces LLM-driven synthesis of structured network traffic from domain knowledge for IDS evaluation.
+- Proposes a testbed-free evaluation framework reducing reliance on costly physical setups.
+- Demonstrates fidelity of synthesized traffic in mimicking realistic network behaviors for IDS testing.
+
+### Method & Results
+- Utilizes LLMs to generate structured network traffic sequences based on knowledge extracted from threat intelligence and protocol specifications.
+- Evaluates generated traffic using standard IDS datasets and benchmarking tools.
+- Achieves comparable IDS detection metrics (e.g., accuracy, precision) to those obtained on real traffic datasets.
+- Outperforms baseline synthetic traffic generators in terms of realism and detection efficacy.
+
+### Impact & Limitations
+- Enables scalable, cost-effective IDS evaluation accessible without dedicated network infrastructures.
+- Limitations include dependence on LLM quality and potential gaps in modeling complex attack scenarios; future work could enhance synthesis diversity and cover emerging threats.
+
+---
+
+#### CurricuLLM: Designing Personalized and Workforce-Aligned Cybersecurity Curricula Using Fine-Tuned LLMs
+**作者**: Arthur Nijdam, Harri Kähkönen, Valtteri Niemi, Paul Stankovski Wagner, Sara Ramezanian
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04940v1
+
+#### Executive Summary  
+This paper addresses the challenge of designing personalized and workforce-aligned cybersecurity curricula. The authors propose CurricuLLM, a framework leveraging fine-tuned large language models (LLMs) to generate customized learning paths tailored to individual learner profiles and industry needs. Results demonstrate improved alignment with professional skill requirements and learner preferences compared to existing curriculum design methods.
+
+### Key Contributions  
+- Introduction of CurricuLLM, a novel fine-tuned LLM approach for personalized cybersecurity curriculum generation.  
+- Integration of workforce demand data to align educational content with real-world cybersecurity job market needs.  
+- Demonstration of enhanced learner satisfaction and skill relevance through experimental evaluation.
+
+### Method & Results  
+- Fine-tuning of LLMs on cybersecurity educational resources and labor market information to generate tailored curricula.  
+- Utilization of datasets including cybersecurity job postings and standardized curricula benchmarks.  
+- Experimental results show a 15-25% increase in alignment metrics between generated curricula and industry requirements versus traditional curriculum design.  
+- User studies indicate improved learner engagement and content relevance compared to baseline curriculum frameworks.
+
+### Impact & Limitations  
+- This framework supports adaptive, employment-focused cybersecurity education, addressing skill gaps in the cybersecurity workforce.  
+- Limitations include dependence on the quality of labor market data and the need for ongoing model updates to capture evolving cybersecurity trends.  
+- Future work includes expanding to multi-disciplinary curricula and enhancing model explainability for educators.
 
 ---
 
