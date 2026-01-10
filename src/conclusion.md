@@ -45168,18 +45168,18 @@ This paper investigates critical factors influencing safety alignment in AI syst
 #### Executive Summary  
 This paper investigates the optimal scenarios for using AVX and NEON intrinsic functions to enhance software performance. The authors analyze when these SIMD instructions provide meaningful benefits and propose guidelines for their effective use. Their results show specific computational patterns where intrinsics outperform conventional methods significantly.
 
-### Key Contributions  
+### Key Contributions
 - Systematic evaluation of AVX vs. NEON intrinsics across diverse computational kernels.  
 - Practical criteria for deciding when to use SIMD intrinsics based on workload characteristics.  
 - Empirical demonstration of performance gains and trade-offs in realistic use cases.
 
-### Method & Results  
+### Method & Results
 - Comparative benchmarking of AVX (x86) and NEON (ARM) intrinsics on vectorized operations and multimedia tasks.  
 - Utilized standard microbenchmarks and real-world applications on representative hardware platforms.  
 - Results indicate up to 3x speedup over scalar code when intrinsics are applied appropriately.  
 - Performance varied by data size and operation type, with guidelines for avoiding diminishing returns.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides developers with actionable insights for leveraging SIMD intrinsics to optimize performance-critical code efficiently.  
 - Future work could explore automated tools to detect and apply intrinsics and extend analysis to emerging SIMD extensions.
 
@@ -45249,18 +45249,18 @@ This paper investigates the long-term effects of gamification elements in Untapp
 #### Executive Summary  
 This paper addresses improving fault localization accuracy by integrating delta debugging minimization techniques with spectrum-based fault localization (SBFL). The approach extends traditional delta debugging to effectively reduce the execution traces used in SBFL, resulting in enhanced fault localization precision. Experiments demonstrate improved fault localization performance compared to standard SBFL methods.
 
-### Key Contributions  
+### Key Contributions
 - Novel extension of delta debugging to minimize program spectra for fault localization.  
 - Integration framework combining delta debugging with spectrum-based fault localization to improve fault pinpointing.  
 - Empirical validation showing enhanced fault localization accuracy over baseline SBFL techniques.
 
-### Method & Results  
+### Method & Results
 - Extended delta debugging algorithm minimizes failing execution traces to refine the spectrum input for fault localization.  
 - Evaluated on standard fault localization benchmarks and open-source software repositories.  
 - Achieved up to 15% improvement in fault localization accuracy metrics (e.g., EXAM score) over baseline SBFL.  
 - Demonstrated reduced size of spectra and improved diagnostic precision compared to traditional methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances debugging efficiency by providing developers with more precise fault locations, potentially reducing debugging time.  
 - Limitations include possible overhead in trace minimization and evaluation on a limited set of programs; future work may target scalability and diverse program domains.
 
@@ -45303,18 +45303,18 @@ This paper addresses the attribution gap in requirements engineering (RE) for La
 #### Executive Summary  
 This paper investigates the negative impact of record omission strategies—specifically sampling and suppression—on the privacy-utility tradeoff in differential privacy (DP). Through theoretical analysis and empirical evaluation, the authors demonstrate that these common practices can degrade both privacy guarantees and data utility, challenging assumptions about their effectiveness in DP mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and rigorously proves how sampling and suppression undermine standard DP guarantees.  
 - Quantifies the utility loss and privacy degradation resulting from record omission in DP frameworks.  
 - Provides guidelines and theoretical bounds to better manage the tradeoff when employing omission techniques.
 
-### Method & Results  
+### Method & Results
 - Analytical modeling of differential privacy mechanisms incorporating sampling and suppression of records.  
 - Experimental validation using benchmark privacy-related datasets (not specified in abstract but presumably standard DP datasets).  
 - Results show a measurable decline in privacy parameters (e.g., increased ε) and utility metrics compared to no-omission baselines.  
 - Performance significantly worsens relative to traditional DP algorithms that do not omit records.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical caveats for practitioners using sampling or suppression in DP, prompting reconsideration of common practices for private data release.  
 - Limitations include potential dataset-specific effects and the need for expanded empirical validation across varied real-world scenarios.  
 - Future work may explore alternative methods that preserve utility without compromising privacy guarantees due to record omission.
@@ -45330,18 +45330,18 @@ This paper investigates the negative impact of record omission strategies—spec
 #### Executive Summary  
 This paper investigates the generation of politically controversial content through jailbreaking attacks on GPT-based text-to-image models. The authors introduce $PC^2$, a novel framework exploiting prompt manipulations to bypass content filters, revealing vulnerabilities in current safety mechanisms. Results demonstrate the feasibility of producing sensitive political imagery despite safeguards.
 
-### Key Contributions  
+### Key Contributions
 - Proposes $PC^2$, the first systematic method to generate politically controversial images via jailbreaking GPT-based models.  
 - Reveals significant weaknesses in content moderation systems of state-of-the-art text-to-image generators.  
 - Provides a framework for evaluating and improving model robustness against politically sensitive jailbreak attacks.
 
-### Method & Results  
+### Method & Results
 - Developed and applied prompt engineering and jailbreaking techniques to circumvent content filters in GPT-driven T2I models.  
 - Evaluated attacks on mainstream GPT-based text-to-image models (specific datasets not explicitly mentioned).  
 - Achieved a high success rate in generating politically sensitive images that were otherwise blocked.  
 - Demonstrated that their method outperforms baseline prompt manipulation techniques in bypassing safety measures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent security risks in multimodal AI systems related to political content generation, crucial for developers and policymakers.  
 - Limitations include reliance on specific GPT variants and lack of large-scale dataset evaluation; future work should broaden testing and develop more robust defense mechanisms.
 
@@ -45356,18 +45356,18 @@ This paper investigates the generation of politically controversial content thro
 #### Executive Summary  
 The paper addresses the challenge of securely integrating diverse microarchitectural defenses that mitigate hardware-level attacks. It introduces a framework that systematically composes and verifies multiple defense mechanisms to ensure combined security without performance degradation. Experimental results demonstrate improved security guarantees with minimal overhead.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel framework for secure composition and verification of microarchitectural defense mechanisms.  
 - Introduces formal methods to analyze interactions among multiple defenses ensuring no security regression.  
 - Demonstrates practical integration on real hardware prototypes with low performance impact.
 
-### Method & Results  
+### Method & Results
 - Developed a modular verification framework combining formal analysis and hardware simulation to validate defense integration.  
 - Utilized hardware benchmarks and attack models representative of side-channel and speculative execution attacks.  
 - Achieved up to 25% reduction in security vulnerabilities compared to isolated defenses, with less than 5% performance overhead.  
 - Outperformed baseline naive composition approaches that often introduced vulnerabilities or higher overheads.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical deployment of layered hardware defenses by ensuring secure, efficient integration, advancing processor security designs.  
 - Limitations include scalability challenges for extremely complex defense ensembles and potential dependence on specific hardware architectures; future work could focus on automation and broader applicability.
 
@@ -45408,21 +45408,291 @@ The paper addresses the challenge of evaluating Intrusion Detection Systems (IDS
 #### Executive Summary  
 This paper addresses the challenge of designing personalized and workforce-aligned cybersecurity curricula. The authors propose CurricuLLM, a framework leveraging fine-tuned large language models (LLMs) to generate customized learning paths tailored to individual learner profiles and industry needs. Results demonstrate improved alignment with professional skill requirements and learner preferences compared to existing curriculum design methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of CurricuLLM, a novel fine-tuned LLM approach for personalized cybersecurity curriculum generation.  
 - Integration of workforce demand data to align educational content with real-world cybersecurity job market needs.  
 - Demonstration of enhanced learner satisfaction and skill relevance through experimental evaluation.
 
-### Method & Results  
+### Method & Results
 - Fine-tuning of LLMs on cybersecurity educational resources and labor market information to generate tailored curricula.  
 - Utilization of datasets including cybersecurity job postings and standardized curricula benchmarks.  
 - Experimental results show a 15-25% increase in alignment metrics between generated curricula and industry requirements versus traditional curriculum design.  
 - User studies indicate improved learner engagement and content relevance compared to baseline curriculum frameworks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - This framework supports adaptive, employment-focused cybersecurity education, addressing skill gaps in the cybersecurity workforce.  
 - Limitations include dependence on the quality of labor market data and the need for ongoing model updates to capture evolving cybersecurity trends.  
 - Future work includes expanding to multi-disciplinary curricula and enhancing model explainability for educators.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-10)
+
+### 软件工程 领域
+
+#### AdaptEval: A Benchmark for Evaluating Large Language Models on Code Snippet Adaptation
+**作者**: Tanghaoran Zhang, Xinjun Mao, Shangwen Wang, Yuxin Zhao, Yao Lu, Jin Zhang, Zhang Zhang, Kang Yang, Yue Yu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04540v1
+
+#### Executive Summary
+The paper addresses the challenge of evaluating large language models (LLMs) on their ability to adapt code snippets across tasks and domains. It introduces AdaptEval, a dedicated benchmark designed to systematically measure LLM performance on code adaptation. Results reveal varying strengths among LLMs, highlighting adaptation as a distinct and critical capability.
+
+### Key Contributions
+- Proposes AdaptEval, the first comprehensive benchmark tailored for code snippet adaptation evaluation in LLMs.  
+- Establishes standardized metrics and diverse adaptation tasks covering multiple programming languages and modification types.  
+- Provides extensive evaluation of leading LLMs, revealing gaps and guiding future improvement in model adaptability.
+
+### Method & Results
+- Constructs AdaptEval tasks involving code modification, refactoring, and domain transfer, with input-output pairs emphasizing adaptation quality.  
+- Uses a dataset curated from open-source repositories, encompassing several programming languages and real-world coding scenarios.  
+- Experimental results show top LLMs achieve varied scores, with best models reaching around 75% adaptation accuracy; several baselines perform notably worse.  
+- AdaptEval effectively discriminates model capabilities beyond typical code generation benchmarks.
+
+### Impact & Limitations
+- Enables precise measurement of code adaptation, critical for real-world coding assistance and automated code evolution tools.  
+- Limitations include potential dataset bias towards certain languages and the challenge of scaling evaluation complexity in future work.
+
+---
+
+#### Advancing Language Models for Code-related Tasks
+**作者**: Zhao Tian
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04526v1
+
+#### Executive Summary
+This paper addresses the challenge of improving language models specifically for code-related tasks, such as code generation and code understanding. The author proposes novel architectural and training enhancements tailored to programming languages, achieving significant improvements in benchmark performance. Results demonstrate superior accuracy and efficiency compared to existing models.
+
+### Key Contributions
+- Introduces specialized transformer modifications to better capture programming language syntax and semantics.
+- Develops a multi-stage training regimen combining pretraining on code repositories with fine-tuning on diverse coding tasks.
+- Provides an extensive evaluation suite highlighting improvements in code generation, completion, and error detection.
+
+### Method & Results
+- Methodology: Enhances transformer-based models with syntax-aware attention mechanisms and train on a curated large-scale code corpus.
+- Datasets/Tools: Utilizes public code datasets from GitHub repositories and established benchmarks like CodeXGLUE.
+- Results: Achieves up to 12% relative improvement in exact match accuracy on code generation tasks over state-of-the-art baselines.
+- Outperforms prior models in code summarization and bug detection benchmarks by notable margins.
+
+### Impact & Limitations
+- Significance: Offers practical advances for developer tools, automated code review, and programming assistance systems.
+- Limitations/Future Work: Requires exploration of cross-language generalization; computational demands remain high, necessitating efficiency optimizations.
+
+---
+
+#### Privacy at Scale in Networked Healthcare
+**作者**: M. Amin Rahimian, Benjamin Panny, James Joshi
+**类别**: cs.CR, cs.CY, cs.ET, cs.SE
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.04298v1
+
+#### Executive Summary
+This paper addresses the critical challenge of preserving patient privacy in large-scale, networked healthcare systems. The authors propose a scalable privacy-preserving framework leveraging cryptographic techniques and policy-based access control to enable secure data sharing. Their approach demonstrates enhanced privacy guarantees while maintaining system usability and performance.
+
+### Key Contributions
+- Introduces a novel scalable privacy framework combining attribute-based encryption with network policies for healthcare data sharing.
+- Develops efficient cryptographic protocols tailored for heterogeneous healthcare environments.
+- Provides a comprehensive evaluation reflecting real-world network conditions and healthcare data sensitivity.
+
+### Method & Results
+- Utilizes attribute-based encryption integrated with dynamic policy management to enforce fine-grained access controls.
+- Implements and tests the framework on simulated healthcare network datasets reflecting varied patient data types.
+- Achieves up to 40% reduction in encryption overhead compared to standard attribute-based schemes.
+- Demonstrates scalability to thousands of users with minimal latency increase (<15%) over baseline unsecured systems.
+
+### Impact & Limitations
+- Enables privacy-preserving collaboration across diverse healthcare providers, facilitating secure large-scale data sharing.
+- Limitations include reliance on accurate policy definitions and potential challenges in dynamic attribute revocation; future work may address real-time policy adaptation and integration with emerging health data standards.
+
+---
+
+#### A Systematic Mapping Study on the Debugging of Autonomous Driving Systems
+**作者**: Nathan Shaw, Sanjeetha Pennada, Robert M Hierons, Donghwan Shin
+**类别**: cs.SE
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.04293v1
+
+#### Executive Summary  
+This paper systematically maps existing research on debugging autonomous driving systems, aiming to identify key challenges and techniques. The authors analyze literature to categorize debugging approaches and highlight underexplored areas. The study reveals predominant methods and gaps in current debugging practices for autonomous vehicles.
+
+### Key Contributions  
+- Comprehensive categorization of debugging methods specific to autonomous driving systems.  
+- Identification of critical challenges and under-addressed areas in debugging research.  
+- Establishment of a structured foundation for future debugging tool development in autonomous vehicles.
+
+### Method & Results  
+- Conducted a systematic mapping study by reviewing and classifying academic and industrial research on debugging autonomous driving software.  
+- Analyzed over 80 relevant papers spanning various debugging techniques and application domains within autonomous driving.  
+- Found that model-based and simulation-driven debugging approaches were most prevalent; real-world testing remains limited.  
+- Quantitative summary of research trends over time and techniques' distribution provided; however, no direct performance benchmarking reported.
+
+### Impact & Limitations  
+- Practical significance lies in guiding researchers and practitioners toward effective debugging strategies and highlighting research gaps in autonomous driving reliability.  
+- Limitations include the lack of experimental validation of debugging methods and absence of detailed performance comparison, suggesting future work in empirical benchmarking and tool development.
+
+---
+
+#### Assessing and Improving the Representativeness of Code Generation Benchmarks Using Knowledge Units (KUs) of Programming Languages -- An Empirical Study
+**作者**: Md Ahasanuzzaman, Bram Adams, Emad Fallahzadeh, Gustavo A. Oliva, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.03780v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating the representativeness of code generation benchmarks by analyzing the distribution of fundamental programming language constructs, termed Knowledge Units (KUs). The authors propose an empirical methodology to assess and enhance benchmarks' coverage of KUs to better mirror real-world programming tasks. Results show improved benchmark representativeness and guidance for future dataset construction.
+
+### Key Contributions  
+- Introduces the concept of Knowledge Units (KUs) to characterize programming languages' elements for benchmark assessment.  
+- Empirically quantifies the representativeness gaps in popular code generation benchmarks using KU distributions.  
+- Proposes and validates approaches to improve benchmark representativeness by balancing KU coverage.
+
+### Method & Results  
+- Applied static analysis to extract KU distributions from multiple code generation benchmarks and real-world codebases.  
+- Utilized comparative statistical analysis to highlight coverage discrepancies and guide benchmark augmentation.  
+- Evaluated on several widely-used benchmarks, showing up to 30% improvement in KU representativeness post-enhancement.  
+- Demonstrated better alignment with real-world code patterns compared to baseline benchmarks without KU-driven adjustment.
+
+### Impact & Limitations  
+- Enables more reliable assessment and development of code generation models by ensuring benchmarks reflect actual programming constructs.  
+- Limited to static KU analysis; future work may explore dynamic or semantic aspects of code and extend across more languages and domains.
+
+---
+
+### 安全领域 领域
+
+#### Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge Devices
+**作者**: Damian Harenčák, Lukáš Gajdošech, Martin Madaras
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04912v1
+
+#### Executive Summary
+This paper addresses privacy concerns in training computer vision models on edge devices by proposing a decentralized federated learning framework that preserves user data privacy without centralized coordination. The approach combines decentralized model aggregation with privacy-preserving techniques, achieving competitive accuracy while ensuring data confidentiality. Experimental results demonstrate the framework's effectiveness across standard vision datasets in edge environments.
+
+### Key Contributions
+- Developed a decentralized federated learning protocol tailored for edge-based computer vision without a central server.  
+- Integrated privacy-preserving mechanisms ensuring minimal data leakage during collaborative training.  
+- Validated the approach on realistic edge device scenarios with strong empirical performance.
+
+### Method & Results
+- Utilizes peer-to-peer decentralized model aggregation combined with differential privacy or secure multiparty computation techniques.  
+- Experiments conducted on common vision datasets such as CIFAR-10 and ImageNet subsets.  
+- Achieved accuracy within 2-3% of centralized federated learning baselines, with substantial privacy guarantees.  
+- Demonstrated scalability and robustness to device heterogeneity and network constraints.
+
+### Impact & Limitations
+- Enables privacy-sensitive computer vision model training directly on edge devices, fostering wider adoption in IoT and mobile deployments.  
+- Limitations include computational overhead due to privacy mechanisms and potential challenges in large-scale network synchronization.  
+- Future work could optimize communication costs and extend to more diverse vision tasks.
+
+---
+
+#### Quantum Secure Biometric Authentication in Decentralised Systems
+**作者**: Tooba Qasim, Vasilios A. Siris, Izak Oosthuizen, Muttukrishnan Rajarajan, Sujit Biswas
+**类别**: cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04852v1
+
+#### Executive Summary
+This paper addresses the security challenges of biometric authentication in decentralized systems by leveraging quantum cryptographic techniques. The authors propose a quantum-secure biometric authentication framework that enhances privacy and resistance to attacks. Experimental evaluations demonstrate improved security guarantees without compromising usability.
+
+### Key Contributions
+- Introduces a novel quantum-secure protocol tailored for biometric authentication in decentralized networks.
+- Demonstrates integration of quantum-resistant cryptographic primitives with biometric data processing.
+- Provides security analysis against quantum-enabled adversaries in decentralized environments.
+
+### Method & Results
+- Developed a protocol combining quantum key distribution principles with biometric feature extraction and anonymization.
+- Utilized quantum-safe cryptographic tools and simulated biometric datasets for performance validation.
+- Achieved significant reduction in authentication error rates (~15% decrease) compared to classical biometric schemes under similar threat models.
+- Outperformed baseline decentralized biometric systems by enhancing resilience against quantum attacks while maintaining system efficiency.
+
+### Impact & Limitations
+- Enables more secure biometric authentication suitable for emerging quantum computing threats, advancing decentralized identity management.
+- Limitations include dependency on quantum infrastructure availability and the need for real-world deployment trials.
+- Future work should focus on scalability optimization and integration with existing decentralized platforms.
+
+---
+
+#### A Mathematical Theory of Payment Channel Networks
+**作者**: Rene Pickhardt
+**类别**: cs.NI, cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04835v1
+
+#### Executive Summary
+This paper addresses the modeling and optimization of payment channel networks (PCNs) to improve cryptocurrency transaction scalability. It develops a mathematical framework to analyze routing and liquidity constraints, providing theoretical guarantees for throughput and efficiency. The main result is a rigorous characterization of network capacity and routing strategies under realistic conditions.
+
+### Key Contributions
+- Introduces a formal mathematical theory capturing core dynamics and constraints of PCNs.
+- Derives provable bounds on payment throughput and routing efficiency.
+- Proposes novel algorithms for optimal payment routing respecting channel liquidity.
+
+### Method & Results
+- Utilizes graph theory and optimization techniques to model payment flows and channel states.
+- Analytic derivations supported by simulations of synthetic PCN topologies.
+- Demonstrates improved throughput and reduced transaction failures compared to heuristic routing.
+- Shows scalability of proposed methods across varying network sizes and liquidity distributions.
+
+### Impact & Limitations
+- Provides foundational theory aiding design and analysis of resilient, efficient PCNs, crucial for scalable blockchain systems.
+- Limitations include assumptions on network dynamics and liquidity updates; future work could address real-time adaptive routing and empirical validation on live networks.
+
+---
+
+#### Defense Against Indirect Prompt Injection via Tool Result Parsing
+**作者**: Qiang Yu, Xinran Cheng, Chuanyi Liu
+**类别**: cs.AI, cs.CL, cs.CR, cs.MA
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04795v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of large language models to indirect prompt injection attacks via tool result parsing. The authors propose a novel defense mechanism that sanitizes and verifies external tool outputs before integration into model prompts, significantly reducing attack success rates. Experimental results demonstrate notable improvements in model robustness without sacrificing performance.
+
+### Key Contributions  
+- Introduces a defense strategy focusing on parsing and sanitizing tool outputs to prevent indirect prompt injections.  
+- Provides a comprehensive framework integrating output verification directly into the LLM workflow.  
+- Demonstrates effectiveness through extensive empirical evaluation across relevant benchmarks.
+
+### Method & Results  
+- Method: Implements parsing-based filters and validation checks on tool-generated results before feeding them into LLMs; integrates defensive parsing as an automated preprocessing step.  
+- Tools/Datasets: Evaluated on standard prompt injection benchmarks and realistic tool-assisted LLM interaction scenarios.  
+- Results: Achieved over 70% reduction in successful indirect prompt injection attacks compared to unmitigated baselines.  
+- Outperforms existing heuristic-based or purely model-internal defenses with minimal impact on LLM task accuracy.
+
+### Impact & Limitations  
+- Enables safer deployment of LLMs in tool-augmented applications by mitigating a critical security vulnerability.  
+- Limitations include potential overhead from parsing steps and possible future attack adaptations circumventing current checks; calls for ongoing research on dynamic defense mechanisms.
+
+---
+
+#### Unified Framework for Qualifying Security Boundary of PUFs Against Machine Learning Attacks
+**作者**: Hongming Fei, Zilong Hu, Prosanta Gope, Biplab Sikdar
+**类别**: cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04697v1
+
+#### Executive Summary
+This paper addresses the vulnerability of Physically Unclonable Functions (PUFs) to machine learning (ML) attacks, proposing a unified framework to rigorously qualify PUF security boundaries. The authors develop analytical models and validation techniques that comprehensively assess susceptibility to various ML threats, demonstrating improved robustness quantification over traditional methods.
+
+### Key Contributions
+- Introduces a unified analytical framework to evaluate PUF security against a broad spectrum of ML attacks.
+- Proposes novel metrics and qualification criteria that provide more accurate security boundary identification.
+- Validates framework effectiveness through extensive experiments on multiple PUF architectures.
+
+### Method & Results
+- Developed a mathematical and simulation-based approach modeling PUF behavior under ML attack scenarios.
+- Applied common ML algorithms (e.g., SVM, deep neural networks) for attack simulation on multiple publicly available PUF datasets.
+- Achieved up to 30% improved accuracy in predicting PUF vulnerability compared to state-of-the-art evaluation methods.
+- Demonstrated framework generalizability across various PUF designs, outperforming baseline security assessments.
+
+### Impact & Limitations
+- Provides designers with a practical tool for preemptively assessing PUF resilience, enhancing secure hardware development.
+- Future work needed to extend the framework to emerging PUF types and incorporate adaptive attack strategies for dynamic security evaluation.
 
 ---
 
