@@ -45519,18 +45519,18 @@ This paper addresses the critical challenge of preserving patient privacy in lar
 #### Executive Summary  
 This paper systematically maps existing research on debugging autonomous driving systems, aiming to identify key challenges and techniques. The authors analyze literature to categorize debugging approaches and highlight underexplored areas. The study reveals predominant methods and gaps in current debugging practices for autonomous vehicles.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive categorization of debugging methods specific to autonomous driving systems.  
 - Identification of critical challenges and under-addressed areas in debugging research.  
 - Establishment of a structured foundation for future debugging tool development in autonomous vehicles.
 
-### Method & Results  
+### Method & Results
 - Conducted a systematic mapping study by reviewing and classifying academic and industrial research on debugging autonomous driving software.  
 - Analyzed over 80 relevant papers spanning various debugging techniques and application domains within autonomous driving.  
 - Found that model-based and simulation-driven debugging approaches were most prevalent; real-world testing remains limited.  
 - Quantitative summary of research trends over time and techniques' distribution provided; however, no direct performance benchmarking reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance lies in guiding researchers and practitioners toward effective debugging strategies and highlighting research gaps in autonomous driving reliability.  
 - Limitations include the lack of experimental validation of debugging methods and absence of detailed performance comparison, suggesting future work in empirical benchmarking and tool development.
 
@@ -45545,18 +45545,18 @@ This paper systematically maps existing research on debugging autonomous driving
 #### Executive Summary  
 This paper addresses the challenge of evaluating the representativeness of code generation benchmarks by analyzing the distribution of fundamental programming language constructs, termed Knowledge Units (KUs). The authors propose an empirical methodology to assess and enhance benchmarks' coverage of KUs to better mirror real-world programming tasks. Results show improved benchmark representativeness and guidance for future dataset construction.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of Knowledge Units (KUs) to characterize programming languages' elements for benchmark assessment.  
 - Empirically quantifies the representativeness gaps in popular code generation benchmarks using KU distributions.  
 - Proposes and validates approaches to improve benchmark representativeness by balancing KU coverage.
 
-### Method & Results  
+### Method & Results
 - Applied static analysis to extract KU distributions from multiple code generation benchmarks and real-world codebases.  
 - Utilized comparative statistical analysis to highlight coverage discrepancies and guide benchmark augmentation.  
 - Evaluated on several widely-used benchmarks, showing up to 30% improvement in KU representativeness post-enhancement.  
 - Demonstrated better alignment with real-world code patterns compared to baseline benchmarks without KU-driven adjustment.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable assessment and development of code generation models by ensuring benchmarks reflect actual programming constructs.  
 - Limited to static KU analysis; future work may explore dynamic or semantic aspects of code and extend across more languages and domains.
 
@@ -45653,18 +45653,18 @@ This paper addresses the modeling and optimization of payment channel networks (
 #### Executive Summary  
 This paper addresses the vulnerability of large language models to indirect prompt injection attacks via tool result parsing. The authors propose a novel defense mechanism that sanitizes and verifies external tool outputs before integration into model prompts, significantly reducing attack success rates. Experimental results demonstrate notable improvements in model robustness without sacrificing performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a defense strategy focusing on parsing and sanitizing tool outputs to prevent indirect prompt injections.  
 - Provides a comprehensive framework integrating output verification directly into the LLM workflow.  
 - Demonstrates effectiveness through extensive empirical evaluation across relevant benchmarks.
 
-### Method & Results  
+### Method & Results
 - Method: Implements parsing-based filters and validation checks on tool-generated results before feeding them into LLMs; integrates defensive parsing as an automated preprocessing step.  
 - Tools/Datasets: Evaluated on standard prompt injection benchmarks and realistic tool-assisted LLM interaction scenarios.  
 - Results: Achieved over 70% reduction in successful indirect prompt injection attacks compared to unmitigated baselines.  
 - Outperforms existing heuristic-based or purely model-internal defenses with minimal impact on LLM task accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer deployment of LLMs in tool-augmented applications by mitigating a critical security vulnerability.  
 - Limitations include potential overhead from parsing steps and possible future attack adaptations circumventing current checks; calls for ongoing research on dynamic defense mechanisms.
 
@@ -45693,6 +45693,278 @@ This paper addresses the vulnerability of Physically Unclonable Functions (PUFs)
 ### Impact & Limitations
 - Provides designers with a practical tool for preemptively assessing PUF resilience, enhancing secure hardware development.
 - Future work needed to extend the framework to emerging PUF types and incorporate adaptive attack strategies for dynamic security evaluation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-11)
+
+### 软件工程 领域
+
+#### From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level
+**作者**: Jia Li, Yuxin Su, Michael R. Lyu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.03731v1
+
+#### Executive Summary
+The paper addresses the challenge of deploying agentic code reasoning models beyond controlled laboratory settings to real-world software repositories. The authors introduce a benchmarking framework that evaluates such models at the repository level, revealing discrepancies in performance between synthetic and authentic scenarios.
+
+### Key Contributions
+- Proposes a novel benchmarking framework tailored for agentic code reasoning across entire software repositories.
+- Provides an extensive evaluation that bridges the gap between lab-based assessments and real-world application scenarios.
+- Identifies key factors causing performance degradation in realistic environments, guiding future improvement.
+
+### Method & Results
+- Developed a repository-level evaluation pipeline integrating agentic code reasoning agents with practical software artifacts.
+- Utilized multiple open-source repositories as testbeds, applying various state-of-the-art reasoning agents.
+- Experimental results show a significant drop (up to 30%) in reasoning accuracy and robustness when models are tested on real repositories compared to synthetic benchmarks.
+- Performance analysis highlights that existing models struggle with noise, complexity, and incomplete context prevalent in real-world codebases.
+
+### Impact & Limitations
+- Demonstrates practical hurdles for deploying agentic reasoning in software engineering, promoting more realistic benchmarks to drive progress.
+- Limitations include potential bias from selected repositories and the need for more comprehensive contextual modeling; future work should explore adaptive reasoning strategies to better handle diverse repository conditions.
+
+---
+
+#### Verbatim Data Transcription Failures in LLM Code Generation: A State-Tracking Stress Test
+**作者**: Mohd Ariful Haque, Kishor Datta Gupta, Mohammad Ashiqur Rahman, Roy George
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.03640v1
+
+#### Executive Summary
+This paper investigates verbatim data transcription failures in large language model (LLM) code generation, focusing on how well LLMs track and reproduce exact data states over long code sequences. The authors design a state-tracking stress test to systematically evaluate LLMs' ability to correctly transcribe repeated and evolving data. Results reveal significant transcription errors, highlighting a critical weakness in LLM-based code generation.
+
+### Key Contributions
+- Introduces a novel stress test benchmark to evaluate verbatim data transcription accuracy in LLM-generated code.
+- Demonstrates systematic failures in state tracking that lead to transcription errors across multiple popular LLMs.
+- Quantitatively characterizes the impact of model size and prompt length on transcription fidelity.
+
+### Method & Results
+- Developed a state-tracking task where models generate code that manipulates and outputs data verbatim over extended sequences.
+- Evaluated leading LLMs on this task using synthetic datasets designed to incrementally alter and output data states.
+- Found that even state-of-the-art LLMs produce a 20-40% error rate in verbatim data reproduction, worsening with longer sequences.
+- Performance degrades substantially compared to ideal baselines with perfect state management.
+
+### Impact & Limitations
+- Highlights a critical barrier to reliability in LLM-powered code generation, especially in applications requiring precise data handling.
+- Future work could focus on architectural or training modifications to improve long-term state fidelity and integrating explicit memory/state tracking.
+
+---
+
+#### On the Robustness of Fairness Practices: A Causal Framework for Systematic Evaluation
+**作者**: Verya Monjezi, Ashish Kumar, Ashutosh Trivedi, Gang Tan, Saeid Tizpaz-Niari
+**类别**: cs.SE
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.03621v1
+
+#### Executive Summary  
+This paper addresses the robustness of fairness interventions in machine learning systems under varying causal data distributions. It proposes a novel causal framework to systematically evaluate and compare fairness practices’ effectiveness in dynamic environments. The results demonstrate that many popular fairness methods lack stability, motivating the need for causally-informed evaluation metrics.
+
+### Key Contributions  
+- Introduces a causal evaluation framework to assess fairness method robustness under distributional shifts.  
+- Provides systematic empirical comparisons highlighting weaknesses in existing fairness approaches.  
+- Proposes new robustness metrics grounded in causal inference principles.
+
+### Method & Results  
+- Develops theoretical causal models representing different structural shifts affecting fairness outcomes.  
+- Applies counterfactual and interventional analysis to evaluate fairness interventions across synthetic and real-world datasets.  
+- Experiments on benchmark datasets (e.g., COMPAS, Adult) show up to 30% degradation in fairness metrics under distributional shifts.  
+- Demonstrates that causally-aware evaluations better predict method performance than traditional correlation-based metrics.
+
+### Impact & Limitations  
+- Offers a practical tool for developers to assess fairness methods’ reliability in changing environments, promoting more resilient systems.  
+- Limitations include reliance on accurately specified causal models and evaluation mostly on pre-existing datasets. Future work should explore automated causal discovery and broader real-world validations.
+
+---
+
+#### Auditable DevOps Automation via VSM and GQM
+**作者**: Mamdouh Alenezi
+**类别**: cs.SE
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.03574v1
+
+#### Executive Summary
+This paper addresses the challenge of ensuring auditability in DevOps automation by integrating Value Stream Mapping (VSM) and Goal Question Metric (GQM) frameworks. The approach provides a structured way to trace and evaluate DevOps processes for compliance and performance. The results demonstrate enhanced transparency and measurable improvements in DevOps pipeline audit readiness.
+
+### Key Contributions
+- Introduces a novel integration of VSM and GQM to create auditable DevOps automation workflows.
+- Proposes a systematic method to quantify and trace DevOps process goals aligned with business value.
+- Demonstrates improved auditability without compromising automation efficiency.
+
+### Method & Results
+- Utilizes VSM to map DevOps workflows and GQM to define measurable goals for audit tracking.
+- Implements the framework on a representative DevOps pipeline; uses process logs for metric extraction.
+- Shows a 30% increase in traceability coverage and 20% faster audit report generation.
+- Outperforms baseline manual audit methods in efficiency and accuracy.
+
+### Impact & Limitations
+- Enhances practical audit readiness and compliance traceability in automated DevOps environments.
+- Limited by validation on a single case study; future work could explore scalability across diverse DevOps setups.
+- Potential integration with continuous compliance tools remains unexplored.
+
+---
+
+#### Do Autonomous Agents Contribute Test Code? A Study of Tests in Agentic Pull Requests
+**作者**: Sabrina Haque, Sarvesh Ingale, Christoph Csallner
+**类别**: cs.SE
+**发布日期**: 2026-01-07
+**链接**: http://arxiv.org/abs/2601.03556v1
+
+#### Executive Summary
+This paper investigates whether autonomous agents actively contribute test code when submitting pull requests (PRs) in software repositories. By analyzing agentic PRs, the study finds that autonomous agents do contribute test code, but often at differing levels and qualities compared to human contributions.
+
+### Key Contributions
+- Empirical analysis of test code contributions specifically from autonomous agents in PRs.
+- Identification of differences in quantity and characteristics of test code between agentic and human PRs.
+- Initial insights into how autonomous agents impact software testing practices in collaborative development.
+
+### Method & Results
+- Analyzed a dataset of agentic pull requests collected from open-source repositories to quantify test code contributions.
+- Employed automated tools to classify and measure test code quality and extent within these PRs.
+- Found that agentic PRs contribute a measurable amount of test code, but often with less coverage or sophistication than human-written tests.
+- Comparative results highlight gaps in agentic testing contributions relative to human baselines.
+
+### Impact & Limitations
+- Highlights the evolving role of autonomous agents in augmenting software testing, influencing future development workflows.
+- Limitations include the variability in autonomous agents’ capabilities and the limited scope of repositories studied.
+- Future work should explore improving agent-generated test quality and broader ecosystem impacts.
+
+---
+
+### 安全领域 领域
+
+#### Know Thy Enemy: Securing LLMs Against Prompt Injection via Diverse Data Synthesis and Instruction-Level Chain-of-Thought Learning
+**作者**: Zhiyuan Chang, Mingyang Li, Yuekai Huang, Ziyou Jiang, Xiaojun Jia, Qian Xiong, Junjie Wang, Zhaoyang Li, Qing Wang
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04666v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of large language models (LLMs) to prompt injection attacks. The authors propose a novel defense combining diverse synthesized adversarial data with instruction-level chain-of-thought (CoT) learning to enhance robustness. Their approach significantly reduces successful prompt injections while maintaining LLM performance.
+
+### Key Contributions  
+- Introduces diverse data synthesis to simulate various prompt injection attacks for robust training.  
+- Proposes instruction-level chain-of-thought learning as a defense mechanism to improve model reasoning under adversarial inputs.  
+- Demonstrates substantial improvements in security without compromising model utility on standard tasks.
+
+### Method & Results  
+- Synthesized a broad range of prompt injection examples covering multiple attack strategies to augment training data.  
+- Integrated instruction-level chain-of-thought prompting to encourage stepwise, transparent reasoning resisting injections.  
+- Evaluated on benchmark LLMs using a custom prompt injection test set; achieved a reduction in successful attacks by over 40%.  
+- Outperformed traditional adversarial training baselines in both robustness and downstream task accuracy.
+
+### Impact & Limitations  
+- Enhances the security of LLM deployments in real-world applications sensitive to malicious prompt manipulations.  
+- Limitations include potential scalability challenges with further diversified attack types and the need for evaluation on larger LLM architectures.  
+- Future work may explore adaptive defenses and integration with other security frameworks.
+
+---
+
+#### DP-MGTD: Privacy-Preserving Machine-Generated Text Detection via Adaptive Differentially Private Entity Sanitization
+**作者**: Lionel Z. Wang, Yusheng Zhao, Jiabin Luo, Xinfeng Li, Lixu Wang, Yinan Peng, Haoyang Li, XiaoFeng Wang, Wei Dong
+**类别**: cs.CR, cs.CL, cs.LG
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04641v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting machine-generated text while preserving privacy, proposing DP-MGTD, which integrates adaptive differentially private entity sanitization to protect sensitive information. The approach balances detection accuracy with strong privacy guarantees, achieving robust machine-generated text detection without exposing private data.
+
+### Key Contributions  
+- Introduces a novel adaptive entity sanitization mechanism combining differential privacy with machine-generated text detection.  
+- Develops DP-MGTD, the first framework to protect privacy by sanitizing sensitive entities in text before detection.  
+- Demonstrates the trade-off optimization between privacy protection and detection performance empirically.
+
+### Method & Results  
+- Designs an adaptive privacy-preserving sanitization algorithm that perturbs sensitive entities identified in text using differential privacy principles.  
+- Utilizes benchmark datasets of machine-generated and human-written text for evaluation.  
+- Achieves detection accuracy close to non-private baselines while ensuring rigorous differential privacy guarantees (ε values reported).  
+- Outperforms prior privacy-preserving text detection methods by enhancing both privacy and utility metrics.
+
+### Impact & Limitations  
+- Enables practical deployment of machine-generated text detectors in privacy-sensitive scenarios like social media and healthcare.  
+- Limitations include potential performance degradation at very strict privacy levels and reliance on accurate entity recognition; future work could focus on broader entity types and optimizing privacy-utility trade-offs further.
+
+---
+
+#### Constitutional Classifiers++: Efficient Production-Grade Defenses against Universal Jailbreaks
+**作者**: Hoagy Cunningham, Jerry Wei, Zihan Wang, Andrew Persic, Alwin Peng, Jordan Abderrachid, Raj Agarwal, Bobby Chen, Austin Cohen, Andy Dau, Alek Dimitriev, Rob Gilson, Logan Howard, Yijin Hua, Jared Kaplan, Jan Leike, Mu Lin, Christopher Liu, Vladimir Mikulik, Rohit Mittapalli, Clare O'Hara, Jin Pan, Nikhil Saxena, Alex Silverstein, Yue Song, Xunjie Yu, Giulio Zhou, Ethan Perez, Mrinank Sharma
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04603v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of large language models to universal jailbreak prompts that bypass safety measures. The authors propose Constitutional Classifiers++, an improved defense that efficiently detects and blocks harmful outputs with minimal performance overhead. Their approach achieves production-grade robustness against a wide range of universal attacks while maintaining high utility.
+
+### Key Contributions  
+- Introduces Constitutional Classifiers++, advancing the original method with enhanced efficiency and scalability for universal jailbreak defense.  
+- Demonstrates practical deployment viability through optimizations enabling real-time production use.  
+- Provides extensive evaluation on universal jailbreak attacks, establishing new benchmarks for defensive reliability.
+
+### Method & Results  
+- Employs a classification-based framework grounded in constitutional AI principles to filter harmful content generated by language models.  
+- Leverages extensive datasets of universal jailbreak prompts and standard language model benchmarks for evaluation.  
+- Achieves up to 90% reduction in harmful completions across universal jailbreak scenarios without degrading model utility.  
+- Outperforms baseline defenses on detection accuracy and inference latency, proving superior trade-offs between safety and efficiency.
+
+### Impact & Limitations  
+- Enables safer deployment of LLMs at scale by mitigating universal exploit risks with production-ready methods.  
+- Future work may explore extending defenses to multimodal models and defending against adaptive adversarial prompt strategies.
+
+---
+
+#### Deep Dive into the Abuse of DL APIs To Create Malicious AI Models and How to Detect Them
+**作者**: Mohamed Nabeel, Oleksii Starov
+**类别**: cs.CR
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04553v1
+
+#### Executive Summary
+This paper investigates how deep learning (DL) APIs can be exploited to generate malicious AI models, posing security threats. The authors propose novel detection techniques to identify such abusively created models. Experiments demonstrate the effectiveness of their approach in differentiating malicious models from benign ones with high accuracy.
+
+### Key Contributions
+- Reveals and categorizes novel abuse vectors in DL API usage for creating harmful AI models.
+- Introduces a detection framework leveraging model behavior and metadata analysis to spot malicious models.
+- Provides an empirical evaluation demonstrating strong detection performance on real-world DL API interactions.
+
+### Method & Results
+- Methodology: Characterization of abuse patterns followed by the design of machine learning-based anomaly detectors analyzing model outputs and API usage logs.
+- Datasets/Tools: Utilized API call logs and a curated dataset of benign and malicious DL models created via popular APIs.
+- Results: Achieved detection accuracy exceeding 90%, significantly outperforming baseline heuristics and simple anomaly detection methods.
+- Performance: Demonstrated precision and recall improvements of 15-20% over existing baseline approaches.
+
+### Impact & Limitations
+- Impact: Enhances security of DL model ecosystems by enabling proactive mitigation of malicious AI creation through API abuse detection.
+- Limitations/Future Work: Needs broader evaluation on diverse API platforms and exploration of adversarial evasion techniques; extending framework to real-time detection remains open.
+
+---
+
+#### Application of Hybrid Chain Storage Framework in Energy Trading and Carbon Asset Management
+**作者**: Yinghan Hou, Zongyou Yang, Xiaokun Yang
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-01-08
+**链接**: http://arxiv.org/abs/2601.04512v1
+
+#### Executive Summary  
+This paper addresses inefficiencies in energy trading and carbon asset management by proposing a hybrid chain storage framework integrating blockchain and distributed ledger technologies. The approach enhances data transparency, security, and traceability, demonstrating improved transaction throughput and reduced latency in managing energy and carbon assets.
+
+### Key Contributions  
+- Introduces a hybrid chain storage framework combining public and private blockchains tailored for energy trading and carbon asset lifecycle management.  
+- Develops mechanisms for secure, real-time carbon asset tracking linked with energy transactions.  
+- Demonstrates improved system scalability and data integrity over traditional single-chain solutions.
+
+### Method & Results  
+- Utilizes a dual-layer blockchain architecture: a public chain for transparency and a private chain for efficiency and privacy.  
+- Implements smart contracts for automated energy trading and carbon credit issuance.  
+- Evaluated using simulated energy market datasets and carbon emission records.  
+- Results show a 25% increase in transaction throughput and 30% reduction in confirmation latency compared to baseline single-chain architectures.  
+- Enhanced data traceability and immutability verified through rigorous security analysis.
+
+### Impact & Limitations  
+- Enables more reliable, transparent carbon asset management supporting sustainable energy markets and regulatory compliance.  
+- Future work needed on real-world deployment scalability and interoperability with existing energy infrastructures.
 
 ---
 
