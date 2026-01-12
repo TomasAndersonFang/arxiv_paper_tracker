@@ -45763,18 +45763,18 @@ This paper investigates verbatim data transcription failures in large language m
 #### Executive Summary  
 This paper addresses the robustness of fairness interventions in machine learning systems under varying causal data distributions. It proposes a novel causal framework to systematically evaluate and compare fairness practices’ effectiveness in dynamic environments. The results demonstrate that many popular fairness methods lack stability, motivating the need for causally-informed evaluation metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a causal evaluation framework to assess fairness method robustness under distributional shifts.  
 - Provides systematic empirical comparisons highlighting weaknesses in existing fairness approaches.  
 - Proposes new robustness metrics grounded in causal inference principles.
 
-### Method & Results  
+### Method & Results
 - Develops theoretical causal models representing different structural shifts affecting fairness outcomes.  
 - Applies counterfactual and interventional analysis to evaluate fairness interventions across synthetic and real-world datasets.  
 - Experiments on benchmark datasets (e.g., COMPAS, Adult) show up to 30% degradation in fairness metrics under distributional shifts.  
 - Demonstrates that causally-aware evaluations better predict method performance than traditional correlation-based metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for developers to assess fairness methods’ reliability in changing environments, promoting more resilient systems.  
 - Limitations include reliance on accurately specified causal models and evaluation mostly on pre-existing datasets. Future work should explore automated causal discovery and broader real-world validations.
 
@@ -45845,18 +45845,18 @@ This paper investigates whether autonomous agents actively contribute test code 
 #### Executive Summary  
 This paper addresses the vulnerability of large language models (LLMs) to prompt injection attacks. The authors propose a novel defense combining diverse synthesized adversarial data with instruction-level chain-of-thought (CoT) learning to enhance robustness. Their approach significantly reduces successful prompt injections while maintaining LLM performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces diverse data synthesis to simulate various prompt injection attacks for robust training.  
 - Proposes instruction-level chain-of-thought learning as a defense mechanism to improve model reasoning under adversarial inputs.  
 - Demonstrates substantial improvements in security without compromising model utility on standard tasks.
 
-### Method & Results  
+### Method & Results
 - Synthesized a broad range of prompt injection examples covering multiple attack strategies to augment training data.  
 - Integrated instruction-level chain-of-thought prompting to encourage stepwise, transparent reasoning resisting injections.  
 - Evaluated on benchmark LLMs using a custom prompt injection test set; achieved a reduction in successful attacks by over 40%.  
 - Outperformed traditional adversarial training baselines in both robustness and downstream task accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the security of LLM deployments in real-world applications sensitive to malicious prompt manipulations.  
 - Limitations include potential scalability challenges with further diversified attack types and the need for evaluation on larger LLM architectures.  
 - Future work may explore adaptive defenses and integration with other security frameworks.
@@ -45872,18 +45872,18 @@ This paper addresses the vulnerability of large language models (LLMs) to prompt
 #### Executive Summary  
 This paper addresses the challenge of detecting machine-generated text while preserving privacy, proposing DP-MGTD, which integrates adaptive differentially private entity sanitization to protect sensitive information. The approach balances detection accuracy with strong privacy guarantees, achieving robust machine-generated text detection without exposing private data.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel adaptive entity sanitization mechanism combining differential privacy with machine-generated text detection.  
 - Develops DP-MGTD, the first framework to protect privacy by sanitizing sensitive entities in text before detection.  
 - Demonstrates the trade-off optimization between privacy protection and detection performance empirically.
 
-### Method & Results  
+### Method & Results
 - Designs an adaptive privacy-preserving sanitization algorithm that perturbs sensitive entities identified in text using differential privacy principles.  
 - Utilizes benchmark datasets of machine-generated and human-written text for evaluation.  
 - Achieves detection accuracy close to non-private baselines while ensuring rigorous differential privacy guarantees (ε values reported).  
 - Outperforms prior privacy-preserving text detection methods by enhancing both privacy and utility metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of machine-generated text detectors in privacy-sensitive scenarios like social media and healthcare.  
 - Limitations include potential performance degradation at very strict privacy levels and reliance on accurate entity recognition; future work could focus on broader entity types and optimizing privacy-utility trade-offs further.
 
@@ -45898,18 +45898,18 @@ This paper addresses the challenge of detecting machine-generated text while pre
 #### Executive Summary  
 This paper addresses the vulnerability of large language models to universal jailbreak prompts that bypass safety measures. The authors propose Constitutional Classifiers++, an improved defense that efficiently detects and blocks harmful outputs with minimal performance overhead. Their approach achieves production-grade robustness against a wide range of universal attacks while maintaining high utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Constitutional Classifiers++, advancing the original method with enhanced efficiency and scalability for universal jailbreak defense.  
 - Demonstrates practical deployment viability through optimizations enabling real-time production use.  
 - Provides extensive evaluation on universal jailbreak attacks, establishing new benchmarks for defensive reliability.
 
-### Method & Results  
+### Method & Results
 - Employs a classification-based framework grounded in constitutional AI principles to filter harmful content generated by language models.  
 - Leverages extensive datasets of universal jailbreak prompts and standard language model benchmarks for evaluation.  
 - Achieves up to 90% reduction in harmful completions across universal jailbreak scenarios without degrading model utility.  
 - Outperforms baseline defenses on detection accuracy and inference latency, proving superior trade-offs between safety and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer deployment of LLMs at scale by mitigating universal exploit risks with production-ready methods.  
 - Future work may explore extending defenses to multimodal models and defending against adaptive adversarial prompt strategies.
 
@@ -45950,21 +45950,290 @@ This paper investigates how deep learning (DL) APIs can be exploited to generate
 #### Executive Summary  
 This paper addresses inefficiencies in energy trading and carbon asset management by proposing a hybrid chain storage framework integrating blockchain and distributed ledger technologies. The approach enhances data transparency, security, and traceability, demonstrating improved transaction throughput and reduced latency in managing energy and carbon assets.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid chain storage framework combining public and private blockchains tailored for energy trading and carbon asset lifecycle management.  
 - Develops mechanisms for secure, real-time carbon asset tracking linked with energy transactions.  
 - Demonstrates improved system scalability and data integrity over traditional single-chain solutions.
 
-### Method & Results  
+### Method & Results
 - Utilizes a dual-layer blockchain architecture: a public chain for transparency and a private chain for efficiency and privacy.  
 - Implements smart contracts for automated energy trading and carbon credit issuance.  
 - Evaluated using simulated energy market datasets and carbon emission records.  
 - Results show a 25% increase in transaction throughput and 30% reduction in confirmation latency compared to baseline single-chain architectures.  
 - Enhanced data traceability and immutability verified through rigorous security analysis.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable, transparent carbon asset management supporting sustainable energy markets and regulatory compliance.  
 - Future work needed on real-world deployment scalability and interoperability with existing energy infrastructures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-12)
+
+### 软件工程 领域
+
+#### SSR: Safeguarding Staking Rewards by Defining and Detecting Logical Defects in DeFi Staking
+**作者**: Zewei Lin, Jiachi Chen, Jingwen Zhang, Zexu Wang, Yuming Feng, Weizhe Zhang, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05827v1
+
+#### Executive Summary  
+This paper addresses logical defects in DeFi staking protocols that lead to the loss or unfair distribution of staking rewards. The authors propose SSR, a formal framework to define, detect, and analyze these logical vulnerabilities systematically. SSR effectively identifies staking reward flaws, demonstrated by detecting 15 real-world defects across major DeFi platforms.
+
+### Key Contributions  
+- Introduces SSR, the first formal framework specifically designed to define and detect logical defects in DeFi staking reward mechanisms.  
+- Provides a comprehensive taxonomy and formal definitions of staking reward vulnerabilities for systematic analysis.  
+- Implements SSR to uncover 15 previously unknown logical defects in popular DeFi staking contracts.
+
+### Method & Results  
+- Developed a formal model of staking reward logic and designed automated detection algorithms using symbolic execution and logical validation.  
+- Applied SSR on real-world DeFi staking protocols sourced from Ethereum mainnet datasets and verified with on-chain data.  
+- Found 15 critical logical defects impacting reward correctness, some causing substantial financial loss; SSR outperformed baseline generic smart contract analyzers which failed to detect these domain-specific defects.
+
+### Impact & Limitations  
+- SSR enhances the security and reliability of DeFi staking, helping developers prevent costly logical errors and protect user assets.  
+- Limitations include potential scalability issues for extremely complex protocols and the need for adaptation to emerging staking models; future work will extend SSR to cross-chain staking and integrate real-time monitoring.
+
+---
+
+#### EET: Experience-Driven Early Termination for Cost-Efficient Software Engineering Agents
+**作者**: Yaoqi Guo, Ying Xiao, Jie M. Zhang, Mark Harman, Yiling Lou, Yang Liu, Zhenpeng Chen
+**类别**: cs.SE
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05777v1
+
+#### Executive Summary  
+This paper addresses the high computational cost of software engineering agents by proposing Experience-Driven Early Termination (EET), a method to terminate unpromising agent executions early based on learned experience. EET significantly reduces resource consumption while maintaining agent performance on software development tasks.
+
+### Key Contributions  
+- Introduces EET, a novel experience-driven mechanism to decide early stopping in software engineering agents.  
+- Demonstrates cost reduction without sacrificing task effectiveness, a first for practical software engineering AI workflows.  
+- Provides empirical evidence across multiple SE tasks showcasing the balance of efficiency and accuracy via EET.
+
+### Method & Results  
+- Method: Uses historical agent executions to train a predictive model that identifies when to terminate inefficient runs early.  
+- Datasets/Tools: Evaluated on diverse software engineering benchmarks including code generation, bug fixing, and testing scenarios.  
+- Results: Achieved up to 40% reduction in computational cost with less than 2% drop in task performance metrics.  
+- Performance: Outperformed fixed step early termination and naive timeout baselines on both cost and accuracy.
+
+### Impact & Limitations  
+- Practical Significance: Enables more sustainable and scalable deployment of AI-driven software engineering tools in real-world settings.  
+- Limitations/Future Work: Requires sufficient prior experience data for training; extending to adaptive online learning could enhance real-time applicability.
+
+---
+
+#### StriderSPD: Structure-Guided Joint Representation Learning for Binary Security Patch Detection
+**作者**: Qingyuan Li, Chenchen Yu, Chuanyi Li, Xin-Cheng Wen, Cheryl Lee, Cuiyun Gao, Bin Luo
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05772v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting security patches in binary software, a crucial task for vulnerability management. The authors propose StriderSPD, a structure-guided joint representation learning framework that leverages binary structural features to improve detection accuracy. Experiments demonstrate that StriderSPD significantly outperforms existing methods in binary security patch detection.
+
+### Key Contributions  
+- Introduces a novel structure-guided joint representation learning approach tailored for binary security patch detection.  
+- Combines multiple binary structural features (e.g., control flow, function call graphs) to enhance feature representation.  
+- Demonstrates effectiveness on real-world datasets with improved detection rates compared to state-of-the-art baselines.
+
+### Method & Results  
+- Leverages joint embedding of control flow graphs and function-call graphs using deep neural networks for robust patch representation.  
+- Utilizes publicly available binary patch datasets from open-source projects for evaluation.  
+- Achieves up to 15% improvement in detection accuracy over leading baseline models.  
+- Shows robustness across diverse software versions and compilers.
+
+### Impact & Limitations  
+- Offers practical utility for automated vulnerability patch auditing and binary analysis in cybersecurity workflows.  
+- Future work could address scalability to larger binaries and potential integration with dynamic analysis for richer feature sets.
+
+---
+
+#### AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor
+**作者**: Shu Yang, Jingyu Hu, Tong Li, Hanqi Yan, Wenxuan Wang, Di Wang
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05752v1
+
+#### Executive Summary  
+This paper addresses the challenge of reliably monitoring misbehavior in large language models (LLMs) using other LLMs as monitors. The authors propose AutoMonitor-Bench, a systematic evaluation benchmark designed to assess the effectiveness and reliability of LLM-based misbehavior detection. Results reveal significant gaps in current monitoring systems, highlighting areas for improvement.
+
+### Key Contributions  
+- Introduces AutoMonitor-Bench, the first comprehensive benchmark for evaluating LLM-based misbehavior monitors.  
+- Provides a standardized evaluation framework enabling the assessment of reliability and robustness of monitoring methods.  
+- Offers extensive analysis and insights into common failure modes of current LLM monitors.
+
+### Method & Results  
+- Constructs a diverse suite of misbehavior scenarios, systematically testing LLM monitors across multiple dimensions.  
+- Uses prominent LLMs (e.g., GPT variants) both as subjects and as monitoring agents in experiments.  
+- Quantitative results show existing monitors achieve at most moderate accuracy, often missing subtle or context-dependent misbehavior.  
+- Benchmarked approaches underperform compared to idealized baselines, indicating room for algorithmic improvements.
+
+### Impact & Limitations  
+- Provides a vital tool for advancing safer deployment of LLMs by enabling standardized reliability assessments of misbehavior detection.  
+- Limitation: Focuses primarily on text-based misbehavior; multimodal or real-world deployment scenarios remain to be explored.  
+- Future work includes extending the benchmark to encompass broader misbehavior types and improving monitor adaptiveness.
+
+---
+
+#### From Issues to Insights: RAG-based Explanation Generation from Software Engineering Artifacts
+**作者**: Daniel Pöttgen, Mersedeh Sadeghi, Max Unterbusch, Andreas Vogelsang
+**类别**: cs.SE
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05721v1
+
+#### Executive Summary
+This paper addresses the challenge of generating meaningful explanations from software engineering artifacts by leveraging Retrieval-Augmented Generation (RAG) techniques. The authors propose a novel framework that integrates issue tracking data with generative models to produce context-aware explanations. Experiments demonstrate improved explanation relevance and coherence over traditional baselines.
+
+### Key Contributions
+- Introduces a RAG-based framework specifically tailored for explanation generation from software engineering artifacts.
+- Demonstrates integration of heterogeneous data sources like issue reports and code comments for enriched context.
+- Provides an evaluation benchmark for explanation quality in the software engineering domain.
+
+### Method & Results
+- Combines a retrieval component that fetches relevant artifact snippets with a generative model to produce explanations.
+- Utilizes datasets comprising issue tracker logs and associated software artifacts from open-source projects.
+- Achieves higher relevance and informativeness scores in human and automated evaluation compared to standard generative approaches.
+- Outperforms baseline models by a notable margin in both precision and recall metrics related to explanation tasks.
+
+### Impact & Limitations
+- Enhances developer productivity by automating the generation of insightful explanations from complex software data.
+- Currently limited by dependency on the quality and completeness of input artifacts; future work could explore incorporation of dynamic runtime data and more diverse software sources.
+
+---
+
+### 安全领域 领域
+
+#### CyberGFM: Graph Foundation Models for Lateral Movement Detection in Enterprise Networks
+**作者**: Isaiah J. King, Bernardo Trindade, Benjamin Bowman, H. Howie Huang
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05988v1
+
+#### Executive Summary  
+This paper addresses detecting lateral movement attacks in enterprise networks by leveraging graph foundation models to capture complex network behaviors. The authors propose CyberGFM, a novel graph-based approach that models enterprise network interactions for improved detection. Experiments demonstrate CyberGFM’s superior accuracy and robustness compared to traditional methods.
+
+### Key Contributions  
+- Introduces CyberGFM, a graph foundation model tailored for lateral movement detection in enterprise networks.  
+- Demonstrates the effectiveness of graph-based modeling over standard feature-based or sequential methods for network cybersecurity.  
+- Provides extensive empirical validation on realistic enterprise network datasets.
+
+### Method & Results  
+- Utilizes graph neural networks (GNNs) trained on enterprise network graphs representing user, host, and connection relationships.  
+- Evaluation conducted on proprietary and public datasets simulating lateral movement attack scenarios.  
+- CyberGFM achieves significant improvements in detection accuracy (e.g., up to 15% higher F1-score) over baselines such as traditional ML classifiers and heuristic rules.  
+- Shows enhanced robustness to noise and adversarial tactics in network traffic.
+
+### Impact & Limitations  
+- Offers a scalable, interpretable approach for enterprise cybersecurity teams to detect sophisticated lateral movements efficiently.  
+- Limitations include dependency on quality and completeness of network graph data; future work could explore real-time deployment and adaptation to evolving attack strategies.
+
+---
+
+#### Deepfake detectors are DUMB: A benchmark to assess adversarial training robustness under transferability constraints
+**作者**: Adrian Serrano, Erwan Umlil, Ronan Thomas
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05986v1
+
+#### Executive Summary
+This paper addresses the robustness of deepfake detection models against adversarial attacks, highlighting vulnerabilities despite adversarial training. The authors introduce DUMB, a benchmark framework that evaluates detector resilience under transferability constraints, revealing significant performance degradation. Their findings emphasize the limitations of current adversarial defenses in realistic threat models.
+
+### Key Contributions
+- Propose DUMB, a novel benchmark specifically designed to assess adversarial training robustness with transferability constraints in deepfake detection.
+- Demonstrate that state-of-the-art deepfake detectors fail to maintain robustness when adversarial examples transfer across models.
+- Provide empirical insights into the shortcomings of existing adversarial training techniques in practical deployment scenarios.
+
+### Method & Results
+- Developed an evaluation protocol considering black-box attack scenarios where adversarial examples transfer between different deepfake detectors.
+- Tested multiple adversarial training strategies on prominent deepfake datasets including FaceForensics++.
+- Experimental results show up to a 40% drop in detection accuracy under transfer attacks despite adversarial defenses, confirming the fragility of current methods.
+- Performance notably worse than baseline accuracy in non-adversarial conditions, indicating limited real-world adversarial robustness.
+
+### Impact & Limitations
+- Highlights critical gaps in current defenses, encouraging the research community to revisit robustness assumptions for deployed deepfake detectors.
+- Future work should explore new defense paradigms beyond adversarial training and extend evaluations to other media manipulation modalities.
+- Study limited to transferability within image-based detectors; broader multimodal analysis remains an open challenge.
+
+---
+
+#### Agentic LLMs as Powerful Deanonymizers: Re-identification of Participants in the Anthropic Interviewer Dataset
+**作者**: Tianshi Li
+**类别**: cs.CR, cs.AI, cs.CY
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05918v1
+
+#### Executive Summary  
+This paper investigates the risk of participant re-identification in anonymized datasets using agentic large language models (LLMs). By leveraging advanced LLM capabilities, the author demonstrates effective deanonymization of individuals within the Anthropic Interviewer dataset, revealing substantial privacy vulnerabilities.  
+
+### Key Contributions  
+- Demonstrates the novel use of agentic LLMs as deanonymization tools on interview transcript data.  
+- Presents empirical evidence that anonymized interview datasets can be re-identified by leveraging LLMs’ contextual reasoning.  
+- Raises critical privacy and ethical concerns for dataset anonymization practices in AI research.  
+
+### Method & Results  
+- Used agentic LLM prompts to infer identifying details from anonymized text interviews via reasoning and external knowledge.  
+- Evaluated on the Anthropic Interviewer dataset composed of anonymized participant interviews.  
+- Achieved a significant re-identification rate (exact quantitative results not specified) surpassing random or heuristic baselines.  
+- Demonstrated robustness of deanonymization against standard anonymization techniques.  
+
+### Impact & Limitations  
+- Highlights urgent privacy risks with releasing textual datasets supposedly anonymized and the need for stronger protections.  
+- Limitations include lack of extensive quantitative metrics and generalization to other datasets—future work should explore automated defenses and broader dataset evaluations.
+
+---
+
+#### Cybersecurity AI: A Game-Theoretic AI for Guiding Attack and Defense
+**作者**: Víctor Mayoral-Vilches, María Sanz-Gómez, Francesco Balassone, Stefan Rass, Lidia Salas-Espejo, Benjamin Jablonski, Luis Javier Navarrete-Lozano, Maite del Mundo de Torres, Cristóbal R. J. Veas Chavez
+**类别**: cs.CR
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05887v1
+
+#### Executive Summary  
+This paper addresses strategic decision-making in cybersecurity through a game-theoretic AI framework that guides both attack and defense actions. By modeling interactions between attackers and defenders, it optimizes cybersecurity responses and anticipates adversarial moves, demonstrating improved security postures in simulations.
+
+### Key Contributions  
+- Introduces a novel game-theoretic AI model that dynamically guides cyber attack and defense strategies.  
+- Integrates attack-defense scenarios within a unified AI framework for proactive cybersecurity guidance.  
+- Validates the framework through comprehensive simulation experiments demonstrating strategic adaptiveness.
+
+### Method & Results  
+- Developed a game-theoretic AI leveraging adversarial modeling to simulate attacker-defender interactions.  
+- Utilized synthetic cybersecurity dataset simulations representing complex network attack scenarios.  
+- Experimental results show improved defense success rates with a 15-20% increase over traditional reactive defense methods.  
+- Demonstrated superior adaptability and anticipation of attacker strategies compared to baseline static defense approaches.
+
+### Impact & Limitations  
+- Provides a practical AI tool to enhance proactive cybersecurity decision-making, potentially reducing breach impact and response time.  
+- Limitations include reliance on simulated data and assumptions in attacker rationality; future work could extend to real-world deployment and more heterogeneous adversary models.
+
+---
+
+#### Secure Change-Point Detection for Time Series under Homomorphic Encryption
+**作者**: Federico Mazzone, Giorgio Micali, Massimiliano Pronesti
+**类别**: cs.CR
+**发布日期**: 2026-01-09
+**链接**: http://arxiv.org/abs/2601.05865v1
+
+#### Executive Summary
+This paper addresses the challenge of performing change-point detection on time series data while preserving data privacy through homomorphic encryption. The authors propose a novel secure algorithm that enables encrypted domain processing without revealing sensitive information. Their method achieves effective detection accuracy with computational feasibility demonstrated on encrypted datasets.
+
+### Key Contributions
+- Introduces a secure change-point detection algorithm fully operating under homomorphic encryption.
+- Demonstrates privacy-preserving analysis without significant accuracy loss compared to plaintext methods.
+- Provides an efficient solution balancing security and computational overhead in encrypted time series analytics.
+
+### Method & Results
+- Utilizes fully homomorphic encryption schemes to perform statistical tests on encrypted time series segments for change-point identification.
+- Evaluated on synthetic and real-world time series datasets commonly used in change detection benchmarks.
+- Achieves detection accuracy within 5% of plaintext methods while incurring manageable computational overhead.
+- Outperforms baseline naive encrypted implementations in both speed and accuracy.
+
+### Impact & Limitations
+- Enables secure time series monitoring in sensitive environments (e.g., healthcare, finance) without exposing raw data.
+- Currently limited by encryption-induced computational costs; future work could optimize efficiency and extend to multivariate time series.
 
 ---
 
