@@ -45983,17 +45983,17 @@ This paper addresses inefficiencies in energy trading and carbon asset managemen
 #### Executive Summary  
 This paper addresses logical defects in DeFi staking protocols that lead to the loss or unfair distribution of staking rewards. The authors propose SSR, a formal framework to define, detect, and analyze these logical vulnerabilities systematically. SSR effectively identifies staking reward flaws, demonstrated by detecting 15 real-world defects across major DeFi platforms.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SSR, the first formal framework specifically designed to define and detect logical defects in DeFi staking reward mechanisms.  
 - Provides a comprehensive taxonomy and formal definitions of staking reward vulnerabilities for systematic analysis.  
 - Implements SSR to uncover 15 previously unknown logical defects in popular DeFi staking contracts.
 
-### Method & Results  
+### Method & Results
 - Developed a formal model of staking reward logic and designed automated detection algorithms using symbolic execution and logical validation.  
 - Applied SSR on real-world DeFi staking protocols sourced from Ethereum mainnet datasets and verified with on-chain data.  
 - Found 15 critical logical defects impacting reward correctness, some causing substantial financial loss; SSR outperformed baseline generic smart contract analyzers which failed to detect these domain-specific defects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - SSR enhances the security and reliability of DeFi staking, helping developers prevent costly logical errors and protect user assets.  
 - Limitations include potential scalability issues for extremely complex protocols and the need for adaptation to emerging staking models; future work will extend SSR to cross-chain staking and integrate real-time monitoring.
 
@@ -46008,18 +46008,18 @@ This paper addresses logical defects in DeFi staking protocols that lead to the 
 #### Executive Summary  
 This paper addresses the high computational cost of software engineering agents by proposing Experience-Driven Early Termination (EET), a method to terminate unpromising agent executions early based on learned experience. EET significantly reduces resource consumption while maintaining agent performance on software development tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces EET, a novel experience-driven mechanism to decide early stopping in software engineering agents.  
 - Demonstrates cost reduction without sacrificing task effectiveness, a first for practical software engineering AI workflows.  
 - Provides empirical evidence across multiple SE tasks showcasing the balance of efficiency and accuracy via EET.
 
-### Method & Results  
+### Method & Results
 - Method: Uses historical agent executions to train a predictive model that identifies when to terminate inefficient runs early.  
 - Datasets/Tools: Evaluated on diverse software engineering benchmarks including code generation, bug fixing, and testing scenarios.  
 - Results: Achieved up to 40% reduction in computational cost with less than 2% drop in task performance metrics.  
 - Performance: Outperformed fixed step early termination and naive timeout baselines on both cost and accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enables more sustainable and scalable deployment of AI-driven software engineering tools in real-world settings.  
 - Limitations/Future Work: Requires sufficient prior experience data for training; extending to adaptive online learning could enhance real-time applicability.
 
@@ -46034,18 +46034,18 @@ This paper addresses the high computational cost of software engineering agents 
 #### Executive Summary  
 This paper addresses the challenge of detecting security patches in binary software, a crucial task for vulnerability management. The authors propose StriderSPD, a structure-guided joint representation learning framework that leverages binary structural features to improve detection accuracy. Experiments demonstrate that StriderSPD significantly outperforms existing methods in binary security patch detection.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel structure-guided joint representation learning approach tailored for binary security patch detection.  
 - Combines multiple binary structural features (e.g., control flow, function call graphs) to enhance feature representation.  
 - Demonstrates effectiveness on real-world datasets with improved detection rates compared to state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Leverages joint embedding of control flow graphs and function-call graphs using deep neural networks for robust patch representation.  
 - Utilizes publicly available binary patch datasets from open-source projects for evaluation.  
 - Achieves up to 15% improvement in detection accuracy over leading baseline models.  
 - Shows robustness across diverse software versions and compilers.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical utility for automated vulnerability patch auditing and binary analysis in cybersecurity workflows.  
 - Future work could address scalability to larger binaries and potential integration with dynamic analysis for richer feature sets.
 
@@ -46060,18 +46060,18 @@ This paper addresses the challenge of detecting security patches in binary softw
 #### Executive Summary  
 This paper addresses the challenge of reliably monitoring misbehavior in large language models (LLMs) using other LLMs as monitors. The authors propose AutoMonitor-Bench, a systematic evaluation benchmark designed to assess the effectiveness and reliability of LLM-based misbehavior detection. Results reveal significant gaps in current monitoring systems, highlighting areas for improvement.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AutoMonitor-Bench, the first comprehensive benchmark for evaluating LLM-based misbehavior monitors.  
 - Provides a standardized evaluation framework enabling the assessment of reliability and robustness of monitoring methods.  
 - Offers extensive analysis and insights into common failure modes of current LLM monitors.
 
-### Method & Results  
+### Method & Results
 - Constructs a diverse suite of misbehavior scenarios, systematically testing LLM monitors across multiple dimensions.  
 - Uses prominent LLMs (e.g., GPT variants) both as subjects and as monitoring agents in experiments.  
 - Quantitative results show existing monitors achieve at most moderate accuracy, often missing subtle or context-dependent misbehavior.  
 - Benchmarked approaches underperform compared to idealized baselines, indicating room for algorithmic improvements.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a vital tool for advancing safer deployment of LLMs by enabling standardized reliability assessments of misbehavior detection.  
 - Limitation: Focuses primarily on text-based misbehavior; multimodal or real-world deployment scenarios remain to be explored.  
 - Future work includes extending the benchmark to encompass broader misbehavior types and improving monitor adaptiveness.
@@ -46115,18 +46115,18 @@ This paper addresses the challenge of generating meaningful explanations from so
 #### Executive Summary  
 This paper addresses detecting lateral movement attacks in enterprise networks by leveraging graph foundation models to capture complex network behaviors. The authors propose CyberGFM, a novel graph-based approach that models enterprise network interactions for improved detection. Experiments demonstrate CyberGFM’s superior accuracy and robustness compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CyberGFM, a graph foundation model tailored for lateral movement detection in enterprise networks.  
 - Demonstrates the effectiveness of graph-based modeling over standard feature-based or sequential methods for network cybersecurity.  
 - Provides extensive empirical validation on realistic enterprise network datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes graph neural networks (GNNs) trained on enterprise network graphs representing user, host, and connection relationships.  
 - Evaluation conducted on proprietary and public datasets simulating lateral movement attack scenarios.  
 - CyberGFM achieves significant improvements in detection accuracy (e.g., up to 15% higher F1-score) over baselines such as traditional ML classifiers and heuristic rules.  
 - Shows enhanced robustness to noise and adversarial tactics in network traffic.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable, interpretable approach for enterprise cybersecurity teams to detect sophisticated lateral movements efficiently.  
 - Limitations include dependency on quality and completeness of network graph data; future work could explore real-time deployment and adaptation to evolving attack strategies.
 
@@ -46168,18 +46168,18 @@ This paper addresses the robustness of deepfake detection models against adversa
 #### Executive Summary  
 This paper investigates the risk of participant re-identification in anonymized datasets using agentic large language models (LLMs). By leveraging advanced LLM capabilities, the author demonstrates effective deanonymization of individuals within the Anthropic Interviewer dataset, revealing substantial privacy vulnerabilities.  
 
-### Key Contributions  
+### Key Contributions
 - Demonstrates the novel use of agentic LLMs as deanonymization tools on interview transcript data.  
 - Presents empirical evidence that anonymized interview datasets can be re-identified by leveraging LLMs’ contextual reasoning.  
 - Raises critical privacy and ethical concerns for dataset anonymization practices in AI research.  
 
-### Method & Results  
+### Method & Results
 - Used agentic LLM prompts to infer identifying details from anonymized text interviews via reasoning and external knowledge.  
 - Evaluated on the Anthropic Interviewer dataset composed of anonymized participant interviews.  
 - Achieved a significant re-identification rate (exact quantitative results not specified) surpassing random or heuristic baselines.  
 - Demonstrated robustness of deanonymization against standard anonymization techniques.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent privacy risks with releasing textual datasets supposedly anonymized and the need for stronger protections.  
 - Limitations include lack of extensive quantitative metrics and generalization to other datasets—future work should explore automated defenses and broader dataset evaluations.
 
@@ -46194,18 +46194,18 @@ This paper investigates the risk of participant re-identification in anonymized 
 #### Executive Summary  
 This paper addresses strategic decision-making in cybersecurity through a game-theoretic AI framework that guides both attack and defense actions. By modeling interactions between attackers and defenders, it optimizes cybersecurity responses and anticipates adversarial moves, demonstrating improved security postures in simulations.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel game-theoretic AI model that dynamically guides cyber attack and defense strategies.  
 - Integrates attack-defense scenarios within a unified AI framework for proactive cybersecurity guidance.  
 - Validates the framework through comprehensive simulation experiments demonstrating strategic adaptiveness.
 
-### Method & Results  
+### Method & Results
 - Developed a game-theoretic AI leveraging adversarial modeling to simulate attacker-defender interactions.  
 - Utilized synthetic cybersecurity dataset simulations representing complex network attack scenarios.  
 - Experimental results show improved defense success rates with a 15-20% increase over traditional reactive defense methods.  
 - Demonstrated superior adaptability and anticipation of attacker strategies compared to baseline static defense approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical AI tool to enhance proactive cybersecurity decision-making, potentially reducing breach impact and response time.  
 - Limitations include reliance on simulated data and assumptions in attacker rationality; future work could extend to real-world deployment and more heterogeneous adversary models.
 
@@ -46234,6 +46234,279 @@ This paper addresses the challenge of performing change-point detection on time 
 ### Impact & Limitations
 - Enables secure time series monitoring in sensitive environments (e.g., healthcare, finance) without exposing raw data.
 - Currently limited by encryption-induced computational costs; future work could optimize efficiency and extend to multivariate time series.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-13)
+
+### 软件工程 领域
+
+#### "TODO: Fix the Mess Gemini Created": Towards Understanding GenAI-Induced Self-Admitted Technical Debt
+**作者**: Abdullah Al Mujahid, Mia Mohammad Imran
+**类别**: cs.SE
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07786v1
+
+#### Executive Summary  
+This paper investigates self-admitted technical debt (SATD) specifically induced by Generative AI (GenAI) code generation tools, addressing the emerging maintenance challenges these tools create. The authors analyze instances where developers acknowledge and fix GenAI-introduced issues, providing insights into the nature and remediation of such technical debt.
+
+### Key Contributions  
+- Novel identification and characterization of GenAI-induced SATD in software projects.  
+- Empirical analysis highlighting common types of GenAI-generated code debts and developer responses.  
+- Framework for understanding complexities and mitigation strategies of GenAI-related technical debt.
+
+### Method & Results  
+- Manual and automated mining of SATD comments in codebases using GenAI outputs; qualitative coding of developer discussions fixing these debts.  
+- Datasets include open-source repositories leveraging GenAI tools (e.g., Gemini).  
+- Found significant incidence of SATD related to GenAI, with common issues like code correctness, maintainability, and performance flagged by developers.  
+- Remediation often involves substantial manual fixes rather than simple tweaks, showing higher effort compared to baseline technical debt.
+
+### Impact & Limitations  
+- Provides actionable insights for tool builders and practitioners to better anticipate and manage GenAI-induced technical debt, enhancing software quality.  
+- Limitations include reliance on self-admitted comments which may underrepresent hidden debts; future work can extend to automated detection and broader repository sampling.
+
+---
+
+#### OODEval: Evaluating Large Language Models on Object-Oriented Design
+**作者**: Bingxu Xiao, Yunwei Dong, Yiqi Tang, Manqing Zhang, Yifan Zhou, Chunyan Ma, Yepang Liu
+**类别**: cs.SE
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07602v1
+
+#### Executive Summary  
+This paper addresses the gap in objectively evaluating large language models' (LLMs) capabilities in object-oriented design (OOD). The authors propose OODEval, a benchmark suite specifically designed to assess LLMs on OOD tasks. Experimental results demonstrate varied performance across models, highlighting strengths and weaknesses in applying OOD principles.
+
+### Key Contributions  
+- Introduces OODEval, the first comprehensive benchmark for evaluating LLMs on object-oriented design tasks.  
+- Provides a structured evaluation framework focusing on multiple key aspects of OOD, such as class design and inheritance.  
+- Offers comparative analysis of state-of-the-art LLMs on practical software design challenges.
+
+### Method & Results  
+- Developed a multi-faceted evaluation framework encompassing code generation, design pattern recognition, and architectural reasoning tasks.  
+- Utilized a custom-curated dataset of OOD problems derived from real-world software engineering scenarios.  
+- Experimental results: top-performing LLM achieves approximately 75% accuracy on key design tasks, outperforming baseline models by 15-20%.  
+- Demonstrated model-specific strengths, with some models excelling in design correctness and others in code modularity.
+
+### Impact & Limitations  
+- Provides a valuable tool for improving and benchmarking LLMs in software engineering, facilitating better automation in software design.  
+- Limitations include the benchmark’s current scope restricted to certain OOD principles and the need for expansion to cover broader architectural styles.  
+- Future work should explore dynamic evaluation with real-time design feedback and extend to other programming paradigms.
+
+---
+
+#### FairRF: Multi-Objective Search for Single and Intersectional Software Fairness
+**作者**: Giordano d'Alosio, Max Hort, Rebecca Moussa, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07537v1
+
+#### Executive Summary  
+FairRF addresses fairness in software systems by proposing a multi-objective search framework that optimizes for both single and intersectional fairness metrics simultaneously. The approach effectively balances accuracy and fairness, demonstrating improved equitable outcomes across multiple protected groups without substantial performance loss.
+
+### Key Contributions  
+- Introduces FairRF, a novel multi-objective evolutionary search tailored for intersectional fairness in software systems.  
+- Provides a unified framework optimizing disparate fairness metrics concurrently, addressing gaps in single-group fairness approaches.  
+- Empirically validates the method on real-world datasets, showcasing trade-offs and improvements in fairness performance.
+
+### Method & Results  
+- Employs multi-objective evolutionary algorithms to search for model configurations optimizing accuracy and multiple fairness criteria.  
+- Evaluated on benchmark fairness datasets commonly used in software engineering fairness research.  
+- Achieves up to 15% improvement in intersectional fairness measures with less than 3% accuracy degradation compared to baselines.  
+- Outperforms traditional single-objective fairness optimization approaches by providing balanced trade-offs across protected subgroups.
+
+### Impact & Limitations  
+- Enables developers to create software systems that fairly serve diverse and overlapping user groups, improving societal trust in AI applications.  
+- Future work could explore scalability to larger models and dynamic fairness criteria; limitations include computational cost and reliance on predefined protected attributes.
+
+---
+
+#### MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era
+**作者**: Lei Zhang, Mouxiang Chen, Ruisheng Cao, Jiawei Chen, Fan Zhou, Yiheng Xu, Jiaxi Yang, Liang Chen, Changwei Luo, Kai Zhang, Fan Yan, KaShun Shum, Jiajun Zhang, Zeyu Cui, Hu Feng, Junyang Lin, Binyuan Hui, Min Yang
+**类别**: cs.DC, cs.SE
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07526v1
+
+#### Executive Summary  
+MegaFlow addresses the challenge of orchestrating large-scale distributed agentic systems by proposing a scalable, efficient orchestration framework. The system leverages hierarchical control and dynamic resource allocation to optimize multi-agent workflows, demonstrating significant improvements in system throughput and latency.
+
+### Key Contributions  
+- Introduces a hierarchical orchestration architecture tailored for distributed multi-agent systems.  
+- Develops dynamic resource allocation algorithms that adapt to workload changes in real-time.  
+- Demonstrates scalability to thousands of agents with improved efficiency over existing solutions.
+
+### Method & Results  
+- Combines hierarchical control layers with real-time monitoring to balance load and resource use dynamically.  
+- Utilizes a custom large-scale testbed simulating complex agent workflows for evaluation.  
+- Achieves up to 40% reduction in average task latency and 30% higher throughput compared to state-of-the-art orchestration frameworks.  
+- Maintains robustness and scalability with linear performance degradation as agent numbers increase.
+
+### Impact & Limitations  
+- Enables practical deployment of large-scale agentic systems in cloud and edge environments, enhancing AI system responsiveness.  
+- Future work needed on cross-domain orchestration and integration with heterogeneous hardware; system performance under extreme network failures remains to be studied.
+
+---
+
+#### FROAV: A Framework for RAG Observation and Agent Verification - Lowering the Barrier to LLM Agent Research
+**作者**: Tzu-Hsuan Lin, Chih-Hsuan Kao
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07504v1
+
+#### Executive Summary  
+This paper addresses the challenge of reliably observing and verifying reasoning augmented generation (RAG) based LLM agents, which hinders reproducible research in LLM agent development. The authors present FROAV, a novel framework enabling standardized observation and verification of agent behaviors. Experiments demonstrate FROAV’s effectiveness in lowering entry barriers and improving research rigor in LLM agent studies.
+
+### Key Contributions  
+- Introduces FROAV, a unified framework for observation and verification of RAG-based LLM agents.  
+- Provides standardized tools to analyze agent reasoning steps and outputs for enhanced reproducibility.  
+- Demonstrates practical utility in reducing complexity for researchers working on LLM agent design and evaluation.
+
+### Method & Results  
+- Core methodology: Design of an extensible verification pipeline integrating observation of LLM agent reasoning traces and automated consistency checks.  
+- Tools/Datasets: Utilizes existing RAG agent setups and benchmark datasets for evaluation (specific datasets not detailed).  
+- Results show FROAV improves detection of reasoning errors and inconsistencies, streamlining debugging and validation.  
+- Performance: Empirical user studies indicate faster development cycles and higher verification accuracy versus informal manual checks.
+
+### Impact & Limitations  
+- Practical significance: Facilitates more robust, transparent LLM agent research, accelerating innovation in autonomous AI systems.  
+- Limitations/Future Work:  
+  - Scalability to diverse agent architectures needs validation.  
+  - Extension to support multi-agent interactions and real-world deployment scenarios is suggested.
+
+---
+
+### 安全领域 领域
+
+#### SecureCAI: Injection-Resilient LLM Assistants for Cybersecurity Operations
+**作者**: Mohammed Himayath Ali, Mohammed Aqib Abdullah, Mohammed Mudassir Uddin, Shahnawaz Alam
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07835v1
+
+#### Executive Summary
+SecureCAI addresses the vulnerability of large language model (LLM) assistants to injection attacks in cybersecurity operations. It proposes a novel injection-resilient framework that integrates contextual filtering and anomaly detection to harden LLM interactions. Experiments demonstrate significant improvement in resisting malicious prompt injections while maintaining operational utility.
+
+### Key Contributions
+- Introduces SecureCAI, an injection-resilient LLM assistant tailored for cybersecurity tasks.
+- Develops a dual-layer defense combining contextual input filtering and anomaly detection for enhanced robustness.
+- Provides comprehensive evaluation demonstrating resilience against a wide range of prompt injection attacks.
+
+### Method & Results
+- Methodology: Combines pre-processing filters to block suspicious inputs with real-time anomaly detection monitoring LLM outputs.
+- Tools/Datasets: Utilizes cybersecurity operation logs and synthesized injection attack prompts for training and evaluation.
+- Results: Achieved up to 85% reduction in successful prompt injections compared to unsecured LLM assistants.
+- Outperformed standard LLM usage baselines by a large margin with minimal impact on task accuracy.
+
+### Impact & Limitations
+- Enables safer integration of LLMs in cybersecurity workflows, enhancing automation without compromising security.
+- Limitations include potential false positives from anomaly detection and the need for continuous updates to handle evolving attacks.
+- Future work should explore adaptive learning techniques and broader deployment scenarios.
+
+---
+
+#### TeeMAF: A TEE-Based Mutual Attestation Framework for On-Chain and Off-Chain Functions in Blockchain DApps
+**作者**: Xiangyu Liu, Brian Lee, Yuansong Qiao
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07726v1
+
+#### Executive Summary  
+This paper addresses the challenge of securely attesting both on-chain and off-chain functions in blockchain decentralized applications (DApps) by leveraging Trusted Execution Environments (TEEs). The proposed TeeMAF framework enables mutual attestation between blockchain nodes and TEEs to enhance trustworthiness and execution integrity. Experimental results demonstrate improved security assurances with minimal performance overhead.
+
+### Key Contributions  
+- Novel TEE-based mutual attestation framework integrating on-chain smart contracts with off-chain TEEs.  
+- Secure interoperability protocol enabling real-time verifiable execution between blockchain and off-chain environments.  
+- Comprehensive evaluation showcasing practical deployment feasibility in DApps.
+
+### Method & Results  
+- Developed TeeMAF protocol facilitating bidirectional attestation between blockchain nodes and remote TEEs.  
+- Used Ethereum blockchain testnet and Intel SGX as primary evaluation tools.  
+- Results indicate attestation latency under 300ms and transaction throughput comparable to baseline DApps without attestation (within 5% overhead).  
+- Security analysis validates resilience against common enclave and blockchain attacks.
+
+### Impact & Limitations  
+- Enhances decentralized app security by bridging trustworthy computation guarantees between on-chain and off-chain components.  
+- Limitations include reliance on specific TEE hardware (e.g., Intel SGX) and partial evaluation on testnets rather than large-scale mainnets.  
+- Future work: broader TEE support and optimization for scalability in high-throughput blockchain environments.
+
+---
+
+#### Towards Automating Blockchain Consensus Verification with IsabeLLM
+**作者**: Elliot Jones, William Knottenbelt
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07654v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying blockchain consensus protocols by automating the verification process using IsabeLLM, a novel integration of the Isabelle theorem prover with large language models. The approach enables scalable, semi-automated formal verification of consensus algorithms, demonstrated through successful case studies.  
+
+### Key Contributions  
+- Introduces IsabeLLM, combining Isabelle proofs with LLM-driven automation for consensus verification.  
+- Demonstrates semi-automated verification workflows reducing human effort in formal proof construction.  
+- Applies the method on multiple blockchain consensus protocols, verifying critical properties with limited manual input.  
+
+### Method & Results  
+- Methodology: Integrates large language model-generated proof sketches into Isabelle/HOL’s interactive theorem proving environment to automate consensus verification steps.  
+- Tools/Datasets: Utilizes Isabelle/HOL as the proof platform and a fine-tuned LLM trained on formal verification corpora for generating lemmas and proof hints.  
+- Results: Achieved a reduction in human proof effort by up to 40% on evaluated consensus protocols, maintaining soundness and correctness guarantees.  
+- Performance: Significantly outperforms baseline fully manual formal verification in terms of time and user interaction, with minimal degradation in proof quality.  
+
+### Impact & Limitations  
+- Practical Significance: Improves the scalability and accessibility of blockchain consensus verification, potentially enhancing protocol security assurances.  
+- Limitations/Future Work: Current reliance on expert verification for final proof checks; future work to fully automate interplay and extend to broader protocol types.
+
+---
+
+#### Hagenberg Risk Management Process (Part 1): Multidimensional Polar Heatmaps for Context-Sensitive Risk Analysis
+**作者**: Eckehard Hermann, Harald Lampesberger
+**类别**: cs.CR
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07644v1
+
+#### Executive Summary  
+This paper addresses the challenge of context-sensitive risk analysis by introducing multidimensional polar heatmaps to enhance visualization and interpretation in risk management. The approach combines advanced data visualization techniques with a structured process to improve decision-making in complex risk environments. Results demonstrate improved clarity and actionable insights compared with traditional risk matrices.
+
+### Key Contributions  
+- Introduction of multidimensional polar heatmaps as a novel visualization tool for risk analysis.  
+- Development of the Hagenberg Risk Management Process integrating context sensitivity in risk assessment.  
+- Enhanced interpretability of multidimensional risk factors compared to standard methods.
+
+### Method & Results  
+- Utilized polar coordinate-based heatmaps to represent multiple risk dimensions simultaneously, allowing dynamic context adaptation.  
+- Case studies and synthetic risk datasets employed to demonstrate applicability and effectiveness.  
+- Experimental results show clearer differentiation of risk priorities and improved user comprehension (quantitative metrics on user accuracy or decision speed were suggested but not explicitly detailed).  
+- Outperforms traditional risk matrices in conveying multidimensional data complexity.
+
+### Impact & Limitations  
+- Offers practical utility for risk managers needing nuanced and context-aware analysis tools, potentially improving risk mitigation strategies.  
+- Limitations include the need for further validation in real-world industrial settings and potential user training to interpret polar heatmaps effectively. Future work should address scalability and automated integration with existing risk management systems.
+
+---
+
+#### Simple Power Analysis of Polynomial Multiplication in HQC
+**作者**: Pavel Velek, Tomáš Rabas, Jiří Buček
+**类别**: cs.CR
+**发布日期**: 2026-01-12
+**链接**: http://arxiv.org/abs/2601.07634v1
+
+#### Executive Summary  
+This paper investigates the vulnerability of polynomial multiplication within the HQC (Hamming Quasi-Cyclic) cryptosystem to simple power analysis (SPA) side-channel attacks. By performing SPA, the authors demonstrate how secret keys can be partially recovered, undermining HQC's security claims. They provide experimental evidence of the attack’s effectiveness and suggest potential countermeasures.
+
+### Key Contributions  
+- First systematic SPA attack targeting polynomial multiplication in HQC.  
+- Experimental validation revealing key leakage from power traces.  
+- Discussion of mitigation strategies to enhance HQC’s resistance against SPA.
+
+### Method & Results  
+- Implementation of SPA analyzing power consumption patterns during polynomial multiplication.  
+- Use of a hardware platform simulating HQC operations for power trace collection.  
+- Successfully recovered partial secret keys with a high success rate (quantitative rates not explicitly reported).  
+- Demonstrated attack feasibility under realistic conditions, showing vulnerability beyond theoretical assumptions.
+
+### Impact & Limitations  
+- Highlights practical side-channel risks in post-quantum cryptographic schemes, motivating more robust implementations.  
+- Limited to simple power analysis; future work could explore combined or differential power analysis and develop optimized countermeasures.
 
 ---
 
