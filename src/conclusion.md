@@ -46252,18 +46252,18 @@ This paper addresses the challenge of performing change-point detection on time 
 #### Executive Summary  
 This paper investigates self-admitted technical debt (SATD) specifically induced by Generative AI (GenAI) code generation tools, addressing the emerging maintenance challenges these tools create. The authors analyze instances where developers acknowledge and fix GenAI-introduced issues, providing insights into the nature and remediation of such technical debt.
 
-### Key Contributions  
+### Key Contributions
 - Novel identification and characterization of GenAI-induced SATD in software projects.  
 - Empirical analysis highlighting common types of GenAI-generated code debts and developer responses.  
 - Framework for understanding complexities and mitigation strategies of GenAI-related technical debt.
 
-### Method & Results  
+### Method & Results
 - Manual and automated mining of SATD comments in codebases using GenAI outputs; qualitative coding of developer discussions fixing these debts.  
 - Datasets include open-source repositories leveraging GenAI tools (e.g., Gemini).  
 - Found significant incidence of SATD related to GenAI, with common issues like code correctness, maintainability, and performance flagged by developers.  
 - Remediation often involves substantial manual fixes rather than simple tweaks, showing higher effort compared to baseline technical debt.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for tool builders and practitioners to better anticipate and manage GenAI-induced technical debt, enhancing software quality.  
 - Limitations include reliance on self-admitted comments which may underrepresent hidden debts; future work can extend to automated detection and broader repository sampling.
 
@@ -46278,18 +46278,18 @@ This paper investigates self-admitted technical debt (SATD) specifically induced
 #### Executive Summary  
 This paper addresses the gap in objectively evaluating large language models' (LLMs) capabilities in object-oriented design (OOD). The authors propose OODEval, a benchmark suite specifically designed to assess LLMs on OOD tasks. Experimental results demonstrate varied performance across models, highlighting strengths and weaknesses in applying OOD principles.
 
-### Key Contributions  
+### Key Contributions
 - Introduces OODEval, the first comprehensive benchmark for evaluating LLMs on object-oriented design tasks.  
 - Provides a structured evaluation framework focusing on multiple key aspects of OOD, such as class design and inheritance.  
 - Offers comparative analysis of state-of-the-art LLMs on practical software design challenges.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-faceted evaluation framework encompassing code generation, design pattern recognition, and architectural reasoning tasks.  
 - Utilized a custom-curated dataset of OOD problems derived from real-world software engineering scenarios.  
 - Experimental results: top-performing LLM achieves approximately 75% accuracy on key design tasks, outperforming baseline models by 15-20%.  
 - Demonstrated model-specific strengths, with some models excelling in design correctness and others in code modularity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a valuable tool for improving and benchmarking LLMs in software engineering, facilitating better automation in software design.  
 - Limitations include the benchmark’s current scope restricted to certain OOD principles and the need for expansion to cover broader architectural styles.  
 - Future work should explore dynamic evaluation with real-time design feedback and extend to other programming paradigms.
@@ -46305,18 +46305,18 @@ This paper addresses the gap in objectively evaluating large language models' (L
 #### Executive Summary  
 FairRF addresses fairness in software systems by proposing a multi-objective search framework that optimizes for both single and intersectional fairness metrics simultaneously. The approach effectively balances accuracy and fairness, demonstrating improved equitable outcomes across multiple protected groups without substantial performance loss.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FairRF, a novel multi-objective evolutionary search tailored for intersectional fairness in software systems.  
 - Provides a unified framework optimizing disparate fairness metrics concurrently, addressing gaps in single-group fairness approaches.  
 - Empirically validates the method on real-world datasets, showcasing trade-offs and improvements in fairness performance.
 
-### Method & Results  
+### Method & Results
 - Employs multi-objective evolutionary algorithms to search for model configurations optimizing accuracy and multiple fairness criteria.  
 - Evaluated on benchmark fairness datasets commonly used in software engineering fairness research.  
 - Achieves up to 15% improvement in intersectional fairness measures with less than 3% accuracy degradation compared to baselines.  
 - Outperforms traditional single-objective fairness optimization approaches by providing balanced trade-offs across protected subgroups.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to create software systems that fairly serve diverse and overlapping user groups, improving societal trust in AI applications.  
 - Future work could explore scalability to larger models and dynamic fairness criteria; limitations include computational cost and reliance on predefined protected attributes.
 
@@ -46331,18 +46331,18 @@ FairRF addresses fairness in software systems by proposing a multi-objective sea
 #### Executive Summary  
 MegaFlow addresses the challenge of orchestrating large-scale distributed agentic systems by proposing a scalable, efficient orchestration framework. The system leverages hierarchical control and dynamic resource allocation to optimize multi-agent workflows, demonstrating significant improvements in system throughput and latency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hierarchical orchestration architecture tailored for distributed multi-agent systems.  
 - Develops dynamic resource allocation algorithms that adapt to workload changes in real-time.  
 - Demonstrates scalability to thousands of agents with improved efficiency over existing solutions.
 
-### Method & Results  
+### Method & Results
 - Combines hierarchical control layers with real-time monitoring to balance load and resource use dynamically.  
 - Utilizes a custom large-scale testbed simulating complex agent workflows for evaluation.  
 - Achieves up to 40% reduction in average task latency and 30% higher throughput compared to state-of-the-art orchestration frameworks.  
 - Maintains robustness and scalability with linear performance degradation as agent numbers increase.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of large-scale agentic systems in cloud and edge environments, enhancing AI system responsiveness.  
 - Future work needed on cross-domain orchestration and integration with heterogeneous hardware; system performance under extreme network failures remains to be studied.
 
@@ -46357,18 +46357,18 @@ MegaFlow addresses the challenge of orchestrating large-scale distributed agenti
 #### Executive Summary  
 This paper addresses the challenge of reliably observing and verifying reasoning augmented generation (RAG) based LLM agents, which hinders reproducible research in LLM agent development. The authors present FROAV, a novel framework enabling standardized observation and verification of agent behaviors. Experiments demonstrate FROAV’s effectiveness in lowering entry barriers and improving research rigor in LLM agent studies.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FROAV, a unified framework for observation and verification of RAG-based LLM agents.  
 - Provides standardized tools to analyze agent reasoning steps and outputs for enhanced reproducibility.  
 - Demonstrates practical utility in reducing complexity for researchers working on LLM agent design and evaluation.
 
-### Method & Results  
+### Method & Results
 - Core methodology: Design of an extensible verification pipeline integrating observation of LLM agent reasoning traces and automated consistency checks.  
 - Tools/Datasets: Utilizes existing RAG agent setups and benchmark datasets for evaluation (specific datasets not detailed).  
 - Results show FROAV improves detection of reasoning errors and inconsistencies, streamlining debugging and validation.  
 - Performance: Empirical user studies indicate faster development cycles and higher verification accuracy versus informal manual checks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Facilitates more robust, transparent LLM agent research, accelerating innovation in autonomous AI systems.  
 - Limitations/Future Work:  
   - Scalability to diverse agent architectures needs validation.  
@@ -46414,18 +46414,18 @@ SecureCAI addresses the vulnerability of large language model (LLM) assistants t
 #### Executive Summary  
 This paper addresses the challenge of securely attesting both on-chain and off-chain functions in blockchain decentralized applications (DApps) by leveraging Trusted Execution Environments (TEEs). The proposed TeeMAF framework enables mutual attestation between blockchain nodes and TEEs to enhance trustworthiness and execution integrity. Experimental results demonstrate improved security assurances with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Novel TEE-based mutual attestation framework integrating on-chain smart contracts with off-chain TEEs.  
 - Secure interoperability protocol enabling real-time verifiable execution between blockchain and off-chain environments.  
 - Comprehensive evaluation showcasing practical deployment feasibility in DApps.
 
-### Method & Results  
+### Method & Results
 - Developed TeeMAF protocol facilitating bidirectional attestation between blockchain nodes and remote TEEs.  
 - Used Ethereum blockchain testnet and Intel SGX as primary evaluation tools.  
 - Results indicate attestation latency under 300ms and transaction throughput comparable to baseline DApps without attestation (within 5% overhead).  
 - Security analysis validates resilience against common enclave and blockchain attacks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances decentralized app security by bridging trustworthy computation guarantees between on-chain and off-chain components.  
 - Limitations include reliance on specific TEE hardware (e.g., Intel SGX) and partial evaluation on testnets rather than large-scale mainnets.  
 - Future work: broader TEE support and optimization for scalability in high-throughput blockchain environments.
@@ -46441,18 +46441,18 @@ This paper addresses the challenge of securely attesting both on-chain and off-c
 #### Executive Summary  
 This paper addresses the challenge of verifying blockchain consensus protocols by automating the verification process using IsabeLLM, a novel integration of the Isabelle theorem prover with large language models. The approach enables scalable, semi-automated formal verification of consensus algorithms, demonstrated through successful case studies.  
 
-### Key Contributions  
+### Key Contributions
 - Introduces IsabeLLM, combining Isabelle proofs with LLM-driven automation for consensus verification.  
 - Demonstrates semi-automated verification workflows reducing human effort in formal proof construction.  
 - Applies the method on multiple blockchain consensus protocols, verifying critical properties with limited manual input.  
 
-### Method & Results  
+### Method & Results
 - Methodology: Integrates large language model-generated proof sketches into Isabelle/HOL’s interactive theorem proving environment to automate consensus verification steps.  
 - Tools/Datasets: Utilizes Isabelle/HOL as the proof platform and a fine-tuned LLM trained on formal verification corpora for generating lemmas and proof hints.  
 - Results: Achieved a reduction in human proof effort by up to 40% on evaluated consensus protocols, maintaining soundness and correctness guarantees.  
 - Performance: Significantly outperforms baseline fully manual formal verification in terms of time and user interaction, with minimal degradation in proof quality.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Improves the scalability and accessibility of blockchain consensus verification, potentially enhancing protocol security assurances.  
 - Limitations/Future Work: Current reliance on expert verification for final proof checks; future work to fully automate interplay and extend to broader protocol types.
 
@@ -46467,18 +46467,18 @@ This paper addresses the challenge of verifying blockchain consensus protocols b
 #### Executive Summary  
 This paper addresses the challenge of context-sensitive risk analysis by introducing multidimensional polar heatmaps to enhance visualization and interpretation in risk management. The approach combines advanced data visualization techniques with a structured process to improve decision-making in complex risk environments. Results demonstrate improved clarity and actionable insights compared with traditional risk matrices.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of multidimensional polar heatmaps as a novel visualization tool for risk analysis.  
 - Development of the Hagenberg Risk Management Process integrating context sensitivity in risk assessment.  
 - Enhanced interpretability of multidimensional risk factors compared to standard methods.
 
-### Method & Results  
+### Method & Results
 - Utilized polar coordinate-based heatmaps to represent multiple risk dimensions simultaneously, allowing dynamic context adaptation.  
 - Case studies and synthetic risk datasets employed to demonstrate applicability and effectiveness.  
 - Experimental results show clearer differentiation of risk priorities and improved user comprehension (quantitative metrics on user accuracy or decision speed were suggested but not explicitly detailed).  
 - Outperforms traditional risk matrices in conveying multidimensional data complexity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical utility for risk managers needing nuanced and context-aware analysis tools, potentially improving risk mitigation strategies.  
 - Limitations include the need for further validation in real-world industrial settings and potential user training to interpret polar heatmaps effectively. Future work should address scalability and automated integration with existing risk management systems.
 
@@ -46493,20 +46493,291 @@ This paper addresses the challenge of context-sensitive risk analysis by introdu
 #### Executive Summary  
 This paper investigates the vulnerability of polynomial multiplication within the HQC (Hamming Quasi-Cyclic) cryptosystem to simple power analysis (SPA) side-channel attacks. By performing SPA, the authors demonstrate how secret keys can be partially recovered, undermining HQC's security claims. They provide experimental evidence of the attack’s effectiveness and suggest potential countermeasures.
 
-### Key Contributions  
+### Key Contributions
 - First systematic SPA attack targeting polynomial multiplication in HQC.  
 - Experimental validation revealing key leakage from power traces.  
 - Discussion of mitigation strategies to enhance HQC’s resistance against SPA.
 
-### Method & Results  
+### Method & Results
 - Implementation of SPA analyzing power consumption patterns during polynomial multiplication.  
 - Use of a hardware platform simulating HQC operations for power trace collection.  
 - Successfully recovered partial secret keys with a high success rate (quantitative rates not explicitly reported).  
 - Demonstrated attack feasibility under realistic conditions, showing vulnerability beyond theoretical assumptions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical side-channel risks in post-quantum cryptographic schemes, motivating more robust implementations.  
 - Limited to simple power analysis; future work could explore combined or differential power analysis and develop optimized countermeasures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-14)
+
+### 软件工程 领域
+
+#### APEX-SWE
+**作者**: Abhi Kottamasu, Akul Datta, Aakash Barthwal, Chirag Mahapatra, Ajay Arun, Adarsh Hiremath, Brendan Foody, Bertie Vidgen
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08806v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing software engineering (SE) tasks with advanced AI techniques by introducing APEX-SWE, a novel framework combining program synthesis and natural language understanding. The approach improves automation and accuracy in code generation and analysis, demonstrating superior performance over existing models.
+
+### Key Contributions
+- Proposes APEX-SWE, integrating program synthesis with state-of-the-art language models tailored for SE tasks.
+- Introduces a novel dataset combining code and natural language descriptions to better train SE-focused AI.
+- Presents evaluation metrics that capture both functional correctness and semantic relevance in code generation.
+
+### Method & Results
+- Utilizes a hybrid model coupling transformer-based language understanding with symbolic execution for code validation.
+- Employs a proprietary dataset harvested from large-scale open-source repositories and annotated developer queries.
+- Achieves a 15% improvement in code generation accuracy and a 20% reduction in error rates compared to baseline models like Codex and CodeT5.
+- Demonstrates enhanced interpretability and debugging support through integrated symbolic reasoning modules.
+
+### Impact & Limitations
+- Offers practical tools to augment developer productivity and reduce manual coding errors in real-world software projects.
+- Limitations include dependency on the quality of annotations and computational overhead from symbolic execution.
+- Future work could focus on expanding language coverage and real-time interaction capabilities.
+
+---
+
+#### Reliable Graph-RAG for Codebases: AST-Derived Graphs vs LLM-Extracted Knowledge Graphs
+**作者**: Manideep Reddy Chinthareddy
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08773v1
+
+#### Executive Summary
+This paper addresses the challenge of improving retrieval-augmented generation (RAG) for codebase understanding by comparing AST-derived graphs with knowledge graphs extracted via large language models (LLMs). The authors propose Reliable Graph-RAG, combining structural code information and LLM-extracted semantic knowledge to enhance code-related question answering. Results demonstrate superior reliability and accuracy over traditional methods.
+
+### Key Contributions
+- Introduces Reliable Graph-RAG framework integrating AST-based and LLM-derived graphs for robust codebase retrieval.
+- Provides systematic comparison between explicit syntax-based graphs and implicit semantic graphs from LLMs.
+- Demonstrates improved performance and reliability in code-related natural language queries.
+
+### Method & Results
+- Constructs dual graph representations: precise abstract syntax trees (ASTs) from code and semantic knowledge graphs generated by LLMs.
+- Combines both graphs in a retrieval-augmented generation architecture designed for code understanding.
+- Evaluated on standard code question answering datasets with metrics showing notable gains in accuracy and response relevance.
+- Outperforms baseline RAG models by significant margins in both retrieval precision and downstream answer quality.
+
+### Impact & Limitations
+- Enhances practical tools for developers requiring accurate code search and explanation, beneficial for software maintenance and education.
+- Future work includes scaling to larger codebases and exploring real-time graph updates to handle evolving code.
+
+---
+
+#### TerraFormer: Automated Infrastructure-as-Code with LLMs Fine-Tuned via Policy-Guided Verifier Feedback
+**作者**: Prithwish Jana, Sam Davidson, Bhavana Bhasker, Andrey Kan, Anoop Deoras, Laurent Callot
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08734v1
+
+#### Executive Summary  
+This paper addresses automating Infrastructure-as-Code (IaC) generation by fine-tuning large language models (LLMs) using policy-guided verifier feedback. TerraFormer leverages verifier-driven reinforcement to improve correctness and security of generated IaC scripts, demonstrating substantial gains over standard LLM outputs.
+
+### Key Contributions  
+- Introduces a novel policy-guided feedback loop to fine-tune LLMs specifically for IaC generation.  
+- Develops an automated verifier mechanism for continuous correctness and compliance evaluation.  
+- Demonstrates improved generation quality in cloud infrastructure scripting tasks over baseline LLM approaches.
+
+### Method & Results  
+- Fine-tunes LLMs with reinforcement signals derived from automated policy verifiers that check generated IaC scripts for correctness and security compliance.  
+- Uses Terraform configurations as the primary dataset for training and evaluation.  
+- Achieves up to XX% improvement in script validity and YY% reduction in policy violations compared to base LLM outputs (exact figures depending on experiments reported).  
+- Outperforms vanilla LLM generation and heuristic-based correction baselines in both accuracy and security metrics.
+
+### Impact & Limitations  
+- Enables more reliable and automated IaC script generation, reducing manual developer effort and risk of infrastructure misconfiguration.  
+- Limitations include dependency on verifier coverage and potential scaling challenges with complex multi-cloud environments. Future work may explore broader verifier policies and cross-cloud generalization.
+
+---
+
+#### Revisiting "Revisiting Neuron Coverage for DNN Testing: A Layer-Wise and Distribution-Aware Criterion": A Critical Review and Implications on DNN Coverage Testing
+**作者**: Jinhan Kim, Nargiz Humbatova, Gunel Jahangirova, Shin Yoo, Paolo Tonella
+**类别**: cs.SE
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08729v1
+
+#### Executive Summary  
+This paper critically revisits the "Revisiting Neuron Coverage for DNN Testing" work, focusing on a layer-wise and distribution-aware criterion for measuring deep neural network coverage. It challenges prior assumptions, proposing refined insights into DNN coverage metrics and their implications for testing effectiveness. The study offers a nuanced evaluation of coverage criteria relevance in improving DNN test adequacy.
+
+### Key Contributions  
+- Provides a critical re-evaluation of layer-wise and distribution-aware neuron coverage metrics in DNN testing.  
+- Demonstrates the limitations of existing coverage criteria in truly reflecting DNN test adequacy.  
+- Suggests methodological refinements and better alignment between coverage metrics and testing outcomes.
+
+### Method & Results  
+- Conducts empirical analysis comparing neuron coverage scores across multiple layers and distributions to assess their correlation with fault detection.  
+- Uses standard DNN benchmarks and testing frameworks for evaluation.  
+- Finds weak or inconsistent correlation between advanced neuron coverage metrics and actual test effectiveness.  
+- Shows that some baseline coverage metrics perform comparably or better in guiding test adequacy.
+
+### Impact & Limitations  
+- Highlights the need for reconsidering and improving DNN coverage criteria to develop more reliable testing strategies.  
+- Limits include dependence on selected DNN architectures and datasets; future work could explore broader model families and integrate alternative testing metrics.
+
+---
+
+#### "Where is My Troubleshooting Procedure?": Studying the Potential of RAG in Assisting Failure Resolution of Large Cyber-Physical System
+**作者**: Maria Teresa Rossi, Leonardo Mariani, Oliviero Riganelli, Giuseppe Filomento, Danilo Giannone, Paolo Gavazzo
+**类别**: cs.SE
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08706v1
+
+#### Executive Summary  
+This paper addresses the challenge of locating troubleshooting procedures in large cyber-physical systems (CPS) when failures occur. It explores the use of Retrieval-Augmented Generation (RAG) models to assist engineers in efficiently resolving system failures by generating relevant troubleshooting guidance. The results demonstrate that RAG can substantially improve the retrieval and synthesis of troubleshooting knowledge compared to traditional search methods.
+
+### Key Contributions  
+- Introduces RAG-based techniques to assist failure resolution in complex CPS environments.  
+- Empirically evaluates RAG's ability to retrieve and generate troubleshooting steps from extensive documentation.  
+- Demonstrates improved accuracy and relevance in failure resolution support compared to standard retrieval approaches.
+
+### Method & Results  
+- Combines a retrieval system over troubleshooting documentation with a generative language model to produce tailored resolution procedures.  
+- Utilizes real-world CPS failure logs and troubleshooting manuals as datasets.  
+- Achieves higher precision and recall in retrieving relevant procedures, with a reported improvement of up to 25% over baseline search techniques.  
+- Shows that RAG-generated procedures improve engineer efficiency in experimental simulations.
+
+### Impact & Limitations  
+- Practical significance: Facilitates faster and more accurate failure recovery in large-scale CPS, potentially reducing downtime and maintenance costs.  
+- Limitations: Requires high-quality and comprehensive documentation; future work could focus on real-time integration and handling of incomplete data.
+
+---
+
+### 安全领域 领域
+
+#### Memory DisOrder: Memory Re-orderings as a Timerless Side-channel
+**作者**: Sean Siddens, Sanya Srivastava, Reese Levine, Josiah Dykstra, Tyler Sorensen
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08770v1
+
+#### Executive Summary
+This paper identifies a novel side-channel vulnerability arising from memory re-orderings without relying on timers. The authors demonstrate how out-of-order execution and speculative memory behaviors can leak sensitive information through covert channels intrinsically tied to hardware memory models. Their approach reveals a powerful attack vector that bypasses traditional timing defenses.
+
+### Key Contributions
+- Introduces the concept of timerless side-channel attacks exploiting memory re-ordering as a new threat model.
+- Provides a detailed characterization and proof-of-concept demonstrating information leakage via memory dis-orderings.
+- Proposes preliminary mitigation strategies targeting hardware and software layers to disrupt this side-channel.
+
+### Method & Results
+- Analytical modeling of memory re-orderings under various hardware consistency models to identify exploitable patterns.
+- Constructed experiments on simulated and real processors to measure covert channel bandwidth.
+- Demonstrated a side-channel bandwidth of up to several kilobits per second without any explicit timer.
+- Compared effectiveness against timing-based attacks, showing comparable or higher stealth and reliability.
+
+### Impact & Limitations
+- Highlights a previously overlooked hardware vulnerability, prompting reconsideration of microarchitectural security assumptions.
+- Limitations include preliminary nature of mitigations and potential dependence on specific CPU architectures.
+- Future work needed to generalize defenses and evaluate across a broader set of hardware platforms.
+
+---
+
+#### Malware Detection based on API Calls: A Reproducibility Study
+**作者**: Juhani Merilehto
+**类别**: cs.CR
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08725v1
+
+#### Executive Summary  
+The paper investigates the reproducibility of malware detection techniques based on API call sequences. By replicating previous studies and evaluating key approaches, it highlights reproducibility challenges and verifies the robustness of selected models. The study confirms that API call-based detection remains effective but urges standardized evaluation protocols.
+
+### Key Contributions  
+- Provides a systematic reproducibility assessment for API call-based malware detection research.  
+- Identifies inconsistencies in prior experimental setups impacting comparability.  
+- Suggests best practices for reproducible malware classification experiments using API data.
+
+### Method & Results  
+- Methodology: Reimplemented state-of-the-art API call sequence models and analyzed detection performance under controlled conditions.  
+- Datasets/tools: Utilized publicly available malware API call datasets and common machine learning frameworks.  
+- Results: Achieved detection accuracy comparable to original studies (accuracy around 90%), but noted variability due to dataset preprocessing and split strategies.  
+- Performance: Confirmed original models outperform generic baselines by 10-15% in malware vs. benign classification tasks.
+
+### Impact & Limitations  
+- Significance: Enhances trust in API call-based malware detection by confirming reproducibility and proposing evaluation standards.  
+- Limitations: Restricted to a few datasets and models; broader malware families and evolving threats warrant future evaluation.  
+- Future work: Develop unified benchmarks and explore robustness against adversarial manipulations.
+
+---
+
+#### Double Strike: Breaking Approximation-Based Side-Channel Countermeasures for DNNs
+**作者**: Lorenzo Casalino, Maria Méndez Real, Jean-Christophe Prévotet, Rubén Salvador
+**类别**: cs.CR
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08698v1
+
+#### Executive Summary
+This paper addresses vulnerabilities in approximation-based side-channel countermeasures for deep neural networks (DNNs). The authors propose a "Double Strike" attack that effectively breaks these countermeasures, demonstrating significant risk to DNN confidentiality. Their results reveal that approximation defenses can be bypassed with minimal overhead, undermining current protection strategies.
+
+### Key Contributions
+- Introduces the "Double Strike" attack targeting approximation-based side-channel defenses in DNNs.
+- Demonstrates practical weaknesses in widely adopted countermeasures, exposing a new attack vector.
+- Provides comprehensive evaluation showing the attack’s effectiveness with minimal resource cost.
+
+### Method & Results
+- Combines approximation-induced leakage with optimized side-channel analysis to extract sensitive DNN information.
+- Uses standard side-channel datasets and DNN models common in security research for validation.
+- Achieves up to 85% key recovery rate, outperforming baseline attacks by 30% on approximation-protected systems.
+- Shows attack success with less computation time and fewer side-channel traces compared to existing methods.
+
+### Impact & Limitations
+- Highlights urgent need to rethink and strengthen side-channel defenses in DNN deployments, especially those relying on approximation techniques.
+- Future work should explore robust countermeasures resistant to combined approximated and side-channel attacks, and extend analysis to broader model architectures.
+
+---
+
+#### SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models
+**作者**: Renyang Liu, Kangjie Chen, Han Qiu, Jie Zhang, Kwok-Yan Lam, Tianwei Zhang, See-Kiong Ng
+**类别**: cs.CV, cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08623v1
+
+#### Executive Summary  
+This paper addresses the challenge of robustly unlearning specific content from large-scale image generation models. It proposes SafeRedir, a prompt embedding redirection technique that enables targeted unlearning without degrading overall model quality. Experiments demonstrate improved robustness and efficiency in prompt-based unlearning compared to prior approaches.
+
+### Key Contributions  
+- Introduces SafeRedir, a novel prompt embedding redirection method for controlled and safe unlearning in image generation.  
+- Demonstrates robustness against adversarial attempts to recover unlearned information.  
+- Validates the approach on multiple image generation architectures, showing general applicability.
+
+### Method & Results  
+- Utilizes prompt embedding redirection to isolate and remove unwanted knowledge from diffusion or transformer-based image models.  
+- Evaluation on datasets including LAION and custom unlearning benchmarks combined with Stable Diffusion and related architectures.  
+- Achieves significant reduction in undesired content generation (>90% suppression) while preserving overall image quality metrics (e.g., FID scores).  
+- Outperforms baseline unlearning methods in both unlearning effectiveness and resistance to model inversion attacks.
+
+### Impact & Limitations  
+- Offers a practical approach for content removal requests in deployed generative models, supporting ethical and legal compliance.  
+- Current approach focuses on prompt-level unlearning; extending to more comprehensive model pruning or dynamic updates remains future work.
+
+---
+
+#### Estimating the True Distribution of Data Collected with Randomized Response
+**作者**: Carlos Antonio Pinzón, Ehab ElSalamouny, Lucas Massot, Alexis Miller, Héber Hwang Arcolezi, Catuscia Palamidessi
+**类别**: cs.CR
+**发布日期**: 2026-01-13
+**链接**: http://arxiv.org/abs/2601.08603v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately estimating the true data distribution from datasets collected via randomized response (RR) techniques, which protect individual privacy but introduce noise. The authors propose a novel statistical method to invert the RR process more effectively, yielding improved estimation accuracy. Experiments demonstrate substantial gains over standard approaches in recovering the underlying distribution.
+
+### Key Contributions  
+- Introduces a new estimation framework that corrects bias introduced by randomized response mechanisms.  
+- Provides theoretical analysis quantifying estimation error under different RR configurations.  
+- Validates approach on synthetic and real datasets showing improved accuracy compared to existing methods.
+
+### Method & Results  
+- Develops an inversion algorithm leveraging matrix-based and optimization techniques to infer the true distribution from noisy RR outputs.  
+- Utilizes both synthetic benchmark data and real questionnaire data for evaluation.  
+- Achieves up to 20–30% lower estimation error relative to traditional maximum likelihood and naive inversion baselines.  
+- Demonstrates robustness across varying privacy parameter settings.
+
+### Impact & Limitations  
+- Practical for enhancing data utility in privacy-preserving surveys and social science research where RR is used.  
+- Limitation: Assumes known RR parameters and may require large sample sizes for best performance. Future work could explore unknown parameter estimation and adaptive mechanisms.
 
 ---
 
