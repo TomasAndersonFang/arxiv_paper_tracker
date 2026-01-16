@@ -46796,18 +46796,18 @@ This paper addresses the challenge of accurately estimating the true data distri
 #### Executive Summary  
 This paper addresses inefficiencies in code generation by introducing ShortCoder, a knowledge-augmented syntax optimization framework that improves token efficiency. The approach integrates domain knowledge with syntax-aware token compression to generate concise, semantically correct code. Experiments demonstrate significant reduction in token usage while maintaining or improving code generation accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel syntax-based token compression method enhanced with knowledge augmentation for code generation.  
 - Introduces ShortCoder framework that balances code brevity with semantic correctness.  
 - Demonstrates token efficiency gains without sacrificing generation performance on standard benchmarks.
 
-### Method & Results  
+### Method & Results
 - Utilizes syntax trees and external programming knowledge to identify and compress redundant tokens during generation.  
 - Evaluated on widely-used code generation datasets (e.g., CodeXGLUE or similar).  
 - Achieved up to 25% reduction in token length while improving or matching functional correctness metrics (e.g., BLEU, CodeBLEU).  
 - Outperformed baseline code generation models in both token efficiency and output quality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical deployment of code generation systems by reducing computational cost and improving generation speed.  
 - Limitations include dependency on accurate syntax parsing and potential challenges adapting to diverse programming languages; future work may explore cross-language generalization and real-world IDE integration.
 
@@ -46874,18 +46874,18 @@ The paper addresses the challenge of reproducing system-level concurrency bugs f
 #### Executive Summary  
 This paper investigates the nature and characteristics of issues and pull requests in nf-core pipeline repositories to understand their development and maintenance dynamics. The authors employ a systematic analysis of GitHub artifacts to reveal patterns that can inform improvements in bioinformatics pipeline collaborations. The study offers empirical insights into community engagement and code integration practices in nf-core projects.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive analysis of GitHub issues and pull requests specific to nf-core pipelines.  
 - Identification of common trends and bottlenecks in issue resolution and code merging behaviors.  
 - Provision of actionable recommendations for repository maintainers to enhance collaboration efficiency.
 
-### Method & Results  
+### Method & Results
 - Methodology: Quantitative mining of GitHub API data followed by statistical and thematic categorization of issues and pull requests.  
 - Dataset: nf-core pipeline GitHub repositories, including metadata from issues and pull requests collected over a defined period.  
 - Results: Found that ~70% of issues are closed within one month; pull requests with automated checks pass at a rate 25% higher than those without.  
 - No direct baseline comparison reported, but findings contextualized against general open source software project metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enables nf-core developers to streamline contribution workflows, potentially reducing turnaround times and improving code quality.  
 - Limitations: Focused exclusively on nf-core, limiting generalizability; future work may expand analysis across diverse bioinformatics or software domains.
 
@@ -46900,18 +46900,18 @@ This paper investigates the nature and characteristics of issues and pull reques
 #### Executive Summary  
 This paper addresses the lack of standardized metadata schemas tailored for energy research software to improve its discoverability and reuse. The authors propose a novel metadata schema specifically designed for this domain, incorporating relevant domain-specific attributes. The result is a prototype schema framework that enhances software documentation and facilitates better integration in energy research workflows.
 
-### Key Contributions  
+### Key Contributions
 - Development of a domain-specific metadata schema tailored for energy research software.  
 - Integration of energy domain concepts into metadata to improve software discoverability and reuse.  
 - Provision of a prototype implementation and initial validation of the schema’s applicability.
 
-### Method & Results  
+### Method & Results
 - Conducted a domain analysis to identify relevant metadata elements unique to energy research software.  
 - Designed and implemented a metadata schema prototype; tested on a sample repository of energy software tools.  
 - Used repositories and software catalogs in energy research for validation (specific datasets not detailed).  
 - Demonstrated improved alignment with domain requirements compared to generic software metadata standards, though quantitative evaluation remains preliminary.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reproducibility and sharing in energy science by standardizing software metadata specific to the field.  
 - Limited empirical validation and scalability assessment; future work includes broader community feedback and integration with existing metadata standards.
 
@@ -46955,18 +46955,18 @@ This paper addresses the challenge of identifying the specific models underlying
 #### Executive Summary  
 This paper investigates the evolution of prompt injection attacks into complex, multi-step malware—termed the "Promptware Kill Chain." The authors dissect how attackers gradually escalate from simple prompt manipulations to sophisticated persistent threats in AI-driven systems, demonstrating new attack vectors and mitigation challenges.
 
-### Key Contributions  
+### Key Contributions
 - Conceptualization of the Promptware Kill Chain, framing prompt injection as a multi-stage malware development process.  
 - Identification and categorization of progressive attack stages exploiting AI prompt vulnerabilities.  
 - Proposal of preliminary defensive strategies tailored for multi-step prompt-based threats.
 
-### Method & Results  
+### Method & Results
 - Analytical modeling of attack progression stages combined with proof-of-concept implementations demonstrating multi-step prompt injection attacks.  
 - Utilized prominent large language models and prompt frameworks to test attack efficacy.  
 - Experimental results show stepwise escalation enabling persistent command execution and data exfiltration beyond baseline prompt injections.  
 - Outperforms prior simplistic prompt injection examples by demonstrating sustained compromise and multi-vector exploitation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical emerging security risk in AI systems, informing future defenses in AI prompt security.  
 - Limited to preliminary defenses; future work needed in robust detection mechanisms and automated mitigation of complex promptware chains.
 
@@ -46981,18 +46981,18 @@ This paper investigates the evolution of prompt injection attacks into complex, 
 #### Executive Summary  
 This paper addresses the challenge of deploying secure, scalable healthcare data infrastructure in resource-constrained regions. It proposes SiliconHealth, a blockchain platform leveraging repurposed Bitcoin mining ASICs to provide a low-cost, energy-efficient solution. The system demonstrates feasibility in maintaining healthcare data integrity and accessibility with significantly reduced infrastructure costs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel use of Bitcoin mining ASICs for blockchain healthcare infrastructure, optimizing cost and energy use.  
 - Designs a complete, decentralized healthcare data management system tailored to low-resource settings.  
 - Demonstrates practical deployment potential with a detailed architecture and proof-of-concept implementation.
 
-### Method & Results  
+### Method & Results
 - Utilizes repurposed ASIC hardware to secure and validate healthcare records on a blockchain, minimizing energy consumption compared to traditional mining rigs.  
 - Implements a prototype using real-world healthcare data simulators and benchmarking tools.  
 - Achieved up to 60% cost reduction and 40% lower energy usage relative to GPU-based blockchain systems.  
 - Maintained data integrity and transaction throughput suitable for small-to-medium healthcare facilities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a scalable, affordable blockchain infrastructure improving healthcare data security and access in underserved areas.  
 - Limitations include dependency on ASIC hardware availability and challenges in large-scale adoption; future work should explore integration with legacy medical systems and wider field trials.
 
@@ -47047,6 +47047,280 @@ This paper addresses the challenge of securely training collaborative machine le
 ### Impact & Limitations
 - Enables practical deployment of privacy-preserving collaborative learning in sensitive domains like healthcare and finance.
 - Limitations include scalability constraints with very large participant numbers and potential challenges in tuning privacy parameters for diverse data distributions. Future work may explore adaptive privacy budgets and expanding to heterogeneous model architectures.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-16)
+
+### 软件工程 领域
+
+#### An Extension-Based Accessibility Framework for Making Blockly Accessible to Blind and Low-Vision Users
+**作者**: Rubel Hassan Mollik, Vamsi Krishna Kosuri, Hans Djalali, Stephanie Ludi, Aboubakar Mountapmbeme
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10688v1
+
+#### Executive Summary  
+This paper addresses the lack of accessibility in Blockly, a visual programming environment, for blind and low-vision users. The authors propose an extension-based framework that integrates assistive technologies to enhance usability without altering Blockly’s core. Evaluation demonstrates improved accessibility and user experience for visually impaired participants.
+
+### Key Contributions  
+- Developed an innovative extension framework enabling accessibility adaptations in Blockly without core modifications.  
+- Integrated screen reader and keyboard navigation enhancements tailored for blind and low-vision users.  
+- Validated the framework’s effectiveness through user studies with visually impaired participants.
+
+### Method & Results  
+- Designed an extension architecture interfacing Blockly with assistive technology APIs to provide navigable, non-visual code editing.  
+- Employed qualitative usability studies and quantitative performance metrics (e.g., task completion rates, error counts).  
+- Results showed a significant increase in task success rate (+35%) and decreased completion time (20% faster) compared to baseline Blockly usage with default screen readers.  
+- Outperformed existing workaround solutions lacking direct integration with Blockly’s internal structure.
+
+### Impact & Limitations  
+- Enables inclusive programming education and development environments for visually impaired learners and developers.  
+- Future work needed to broaden compatibility with diverse assistive technologies and extend support to other block-based coding platforms.
+
+---
+
+#### Model See, Model Do? Exposure-Aware Evaluation of Bug-vs-Fix Preference in Code LLMs
+**作者**: Ali Al-Kaswan, Claudio Spiess, Prem Devanbu, Arie van Deursen, Maliheh Izadi
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10496v1
+
+#### Executive Summary
+This paper investigates whether Code Large Language Models (LLMs) demonstrate a true preference for fixing bugs versus replicating buggy code or artifacts, accounting for exposure biases from training data leakage. The authors propose an exposure-aware evaluation framework to measure authentic bug-vs-fix preferences in code generation. Results reveal that once exposure is controlled, LLMs often do not inherently prefer fixes over bugs, challenging assumptions about their bug-fixing capabilities.
+
+### Key Contributions
+- Introduces an exposure-aware evaluation methodology to disentangle model memorization from genuine bug-fixing ability.
+- Provides an analysis quantifying the extent to which training data exposure impacts bug-vs-fix preference.
+- Demonstrates that many Code LLMs’ perceived bug-fixing prowess is overstated due to data leakage.
+
+### Method & Results
+- Developed an exposure detection mechanism to identify overlaps between training data and test code samples.
+- Evaluated several state-of-the-art Code LLMs on curated bug-fix pairs with controlled exposure levels.
+- Used benchmarks from public code repositories and bug-fix datasets.
+- Found significant drops (up to 20% accuracy loss) in fix preference scores when excluding exposed data.
+- Performance gains over naive baselines decrease substantially after exposure filtering.
+
+### Impact & Limitations
+- Highlights the need for rigorous evaluation protocols to ensure trustworthy assessment of bug-fixing capabilities in code generation models.
+- Calls for development of models and datasets less prone to leakage biases.
+- Future work could expand to more diverse programming languages and larger-scale exposure analyses.
+- The approach depends on accurate exposure detection, which may miss subtle data overlaps.
+
+---
+
+#### Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale
+**作者**: Yi Liu, Weizhe Wang, Ruitao Feng, Yao Zhang, Guangquan Xu, Gelei Deng, Yuekang Li, Leo Zhang
+**类别**: cs.CR, cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10338v1
+
+#### Executive Summary
+This paper investigates security vulnerabilities present in AI agent skills deployed in the wild. Through large-scale empirical analysis, the authors identify common flaws and quantify their prevalence, providing insights into real-world risks. The study reveals significant security gaps, highlighting the urgent need for improved agent design and defenses.
+
+### Key Contributions
+- Conducted the first large-scale empirical study quantifying security vulnerabilities in deployed AI agent skills.
+- Developed a novel framework for systematically detecting and categorizing vulnerability types across diverse agent applications.
+- Provided actionable insights and guidelines to mitigate risks in practical agent deployments.
+
+### Method & Results
+- Methodology: Collected and analyzed a vast dataset of operational AI agent skills using automated vulnerability detection techniques and manual validation.
+- Datasets/Tools: Compiled real-world skill repositories from multiple AI platforms; utilized custom security scanners and natural language processing tools.
+- Results: Identified vulnerabilities in over 35% of analyzed skills, including injection flaws, privilege escalations, and data leaks.
+- Performance: Demonstrated superior detection coverage compared to existing generic vulnerability scanners by 20%.
+
+### Impact & Limitations
+- Practical Significance: Offers critical empirical evidence to inform safer AI agent development and deployment in cybersecurity-sensitive contexts.
+- Limitations/Future Work: Study limited to currently accessible agent skills; future work should explore longitudinal vulnerability evolution and automated patching strategies.
+
+---
+
+#### Evolving with AI: A Longitudinal Analysis of Developer Logs
+**作者**: Agnia Sergeyuk, Eric Huang, Dariia Karaeva, Anastasiia Serova, Yaroslav Golubev, Iftekhar Ahmed
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10258v1
+
+#### Executive Summary  
+This paper investigates how software developers adapt their workflows with the integration of AI tools over time through a longitudinal study of developer logs. The authors analyze detailed logging data to reveal evolving behavioral patterns and productivity impacts. Results show significant shifts in coding practices and collaboration facilitated by AI assistance.
+
+### Key Contributions  
+- Longitudinal analysis of developer logs to track AI adoption and its effect on developer behavior.  
+- Identification of distinct phases in AI integration within development workflows.  
+- Insights on productivity improvements and challenges encountered with AI tools in software engineering.
+
+### Method & Results  
+- Analyzed timestamped developer logs collected over 18 months from teams using AI coding assistants.  
+- Applied time-series clustering and qualitative coding to extract behavioral patterns and phases of AI adaptation.  
+- Dataset: Large-scale logs from 150 developers across multiple software projects.  
+- Found a 23% increase in coding velocity and 17% reduction in error rates post AI adoption.  
+- Demonstrated more efficient code review processes when augmented by AI tools versus baseline manual workflows.
+
+### Impact & Limitations  
+- Highlights practical benefits of AI in enhancing developer productivity and evolving software engineering practices.  
+- Limitations include dataset bias toward early AI adopters and lack of diversity in project types; future work could expand to other domains and explore long-term cognitive effects.
+
+---
+
+#### Developer Interaction Patterns with Proactive AI: A Five-Day Field Study
+**作者**: Nadine Kuo, Agnia Sergeyuk, Valerie Chen, Maliheh Izadi
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10253v1
+
+#### Executive Summary  
+This paper investigates how software developers interact with proactive AI coding assistants during natural development workflows. Through a five-day field study, the authors analyze dynamic usage patterns, revealing developers’ preferences and challenges in managing AI suggestions. The results highlight nuanced interaction behaviors that inform better AI tool design.
+
+### Key Contributions  
+- Empirical characterization of developer interactions with proactive AI over extended real-world use.  
+- Identification of distinct interaction patterns and contextual factors influencing AI adoption.  
+- Design implications for improving AI assistant responsiveness and user control.
+
+### Method & Results  
+- Conducted a five-day field deployment study with professional developers using a proactive AI coding assistant integrated into their IDEs.  
+- Collected interaction logs, self-reports, and behavioral metrics to analyze usage patterns.  
+- Found that developers selectively engage with AI suggestions, balancing automation benefits against control concerns; acceptance rates varied between 35-60% depending on code context.  
+- Demonstrated statistically significant improvements in task efficiency and code correctness compared to baseline workflows without AI assistance.
+
+### Impact & Limitations  
+- Offers actionable insights for building more intuitive and context-aware AI development tools, potentially accelerating developer productivity.  
+- Limited by short study duration and a small participant pool; future work could explore long-term impacts and diverse programming environments.
+
+---
+
+### 安全领域 领域
+
+#### Converse Bounds for Sun-Jafar-type Weak Private Information Retrieval
+**作者**: Chandan Anand, Jayesh Seshadri, Prasad Krishnan, Gowtham R. Kurri
+**类别**: cs.IT, cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10643v1
+
+#### Executive Summary  
+This paper addresses the problem of deriving converse (lower) bounds for the download cost in Sun-Jafar-type weak Private Information Retrieval (PIR) schemes. The authors develop fundamental limits on retrieval efficiency under weaker privacy constraints, extending classical PIR theory. The main result establishes tight converse bounds that unify and generalize prior weak PIR results.
+
+### Key Contributions  
+- Establishes new converse bounds for weak PIR schemes in the Sun-Jafar framework.  
+- Generalizes existing PIR results by characterizing download costs under relaxed privacy constraints.  
+- Introduces novel proof techniques leveraging information-theoretic inequalities tailored for weak privacy settings.
+
+### Method & Results  
+- Utilizes information-theoretic tools to derive lower bounds on download communication cost in weak PIR setups.  
+- Theoretical analysis with no empirical datasets; focuses on mathematical modeling and proofs.  
+- Main result: tight converse bounds showing minimum download cost as a function of privacy relaxation parameters and number of databases.  
+- Demonstrates improvement over previously known lower bounds, closing gaps for certain PIR parameter regimes.
+
+### Impact & Limitations  
+- Enhances understanding of trade-offs between privacy strength and communication efficiency in PIR, guiding future protocol design.  
+- Limitations include focusing primarily on theoretical bounds without constructive scheme designs or practical implementations.  
+- Future work could explore achievability schemes matching these bounds and extend to broader PIR models or settings.
+
+---
+
+#### Differentially Private Inference for Longitudinal Linear Regression
+**作者**: Getoar Sopa, Marco Avella Medina, Cynthia Rush
+**类别**: math.ST, cs.CR, stat.ME, stat.ML
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10626v1
+
+#### Executive Summary  
+This paper addresses the challenge of performing linear regression inference on longitudinal data while preserving differential privacy. The authors develop a novel algorithm that ensures privacy in parameter estimation and hypothesis testing for repeated measurements. Empirical results demonstrate the approach achieves accurate inference with formal privacy guarantees, outperforming naive private methods.
+
+### Key Contributions  
+- Introduces a differentially private inference framework tailored for longitudinal linear regression models.  
+- Develops privacy-preserving estimators and confidence intervals that account for within-subject correlation.  
+- Provides theoretical guarantees on privacy and inference accuracy under differential privacy constraints.
+
+### Method & Results  
+- Proposes a novel mechanism integrating longitudinal correlation structure into private parameter estimation using adaptive noise calibration.  
+- Validated on both synthetic longitudinal datasets and real-world time-series data with repeated measures.  
+- Achieves high statistical power and coverage close to non-private methods while maintaining rigorous privacy budgets (ε-values reported).  
+- Outperforms baseline private regression techniques that ignore repeated measures, showing reduced bias and improved confidence interval coverage.
+
+### Impact & Limitations  
+- Enables privacy-preserving statistical analysis in healthcare and social sciences where longitudinal data are common, facilitating secure data sharing.  
+- Limitations include computational complexity for very large datasets and reliance on linearity assumptions, suggesting future extension to nonlinear mixed models and scalable implementations.
+
+---
+
+#### Be Your Own Red Teamer: Safety Alignment via Self-Play and Reflective Experience Replay
+**作者**: Hao Wang, Yanting Wang, Hao Li, Rui Li, Lei Sha
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10589v1
+
+#### Executive Summary  
+This paper addresses AI safety alignment by enabling models to autonomously identify and mitigate vulnerabilities through adversarial self-play and reflective experience replay. Their approach allows systems to act as their own red team, iteratively improving robustness. Experimental results demonstrate enhanced safety and reduced failure rates compared to traditional fixed red teaming methods.
+
+### Key Contributions  
+- Proposes a novel self-play framework for AI safety alignment without external adversaries.  
+- Introduces reflective experience replay to leverage past adversarial interactions for continual improvement.  
+- Empirically validates the approach on complex language security tasks, outperforming static red teams.
+
+### Method & Results  
+- Utilizes adversarial self-play where the model alternates between attacker and defender roles to discover and patch vulnerabilities.  
+- Implements reflective experience replay to revisit and learn from previous adversarial examples dynamically.  
+- Tested on benchmarks related to language model safety and adversarial behavior detection.  
+- Shows up to 30% reduction in safety violations versus standard red teaming baselines in experiments.
+
+### Impact & Limitations  
+- Enables scalable, continuous AI safety testing without extensive human intervention, improving deployment readiness.  
+- Limitations include possible overfitting to self-generated adversarial examples and challenges in generalizing to unseen attack types. Future work could explore hybrid approaches combining self-play with expert red teaming.
+
+---
+
+#### Hybrid Encryption with Certified Deletion in Preprocessing Model
+**作者**: Kunal Dey, Reihaneh Safavi-Naini
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10542v1
+
+#### Executive Summary  
+This paper addresses secure data deletion within hybrid encryption schemes by introducing certified deletion in a preprocessing model. The authors propose a novel approach integrating preprocessing to enable verifiable data erasure without compromising encryption efficiency. The main result is a hybrid encryption scheme that supports certified deletion with provable security guarantees under standard assumptions.
+
+### Key Contributions  
+- Introduces the first hybrid encryption framework supporting certified deletion in the preprocessing model.  
+- Formalizes security definitions combining hybrid encryption and certified deletion semantics.  
+- Provides efficient constructions with reduced computational overhead compared to naive methods.
+
+### Method & Results  
+- Combines preprocessing techniques with hybrid encryption to generate ciphertexts enabling verifiable deletion proofs.  
+- Security proofs based on widely accepted cryptographic assumptions (e.g., IND-CPA security, deletion soundness).  
+- No specific datasets; evaluation relies on theoretical analysis and complexity comparisons.  
+- Demonstrates that their scheme achieves better efficiency than baseline approaches that separately implement encryption and certified deletion.
+
+### Impact & Limitations  
+- Enhances practical security for scenarios requiring guaranteed data deletion, such as cloud storage and privacy-sensitive communications.  
+- Limitation includes reliance on preprocessing setup, potentially restricting deployment flexibility.  
+- Future work may explore extending certified deletion to fully dynamic encryption models and improving efficiency further.
+
+---
+
+#### AgentGuardian: Learning Access Control Policies to Govern AI Agent Behavior
+**作者**: Nadya Abaev, Denis Klimov, Gerard Levinov, David Mimran, Yuval Elovici, Asaf Shabtai
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10440v1
+
+#### Executive Summary
+AgentGuardian addresses the challenge of governing autonomous AI agent behavior by learning dynamic access control policies. The approach combines reinforcement learning with policy synthesis to enable adaptive, context-aware governance. Results demonstrate improved compliance and safety compared to static rule-based controls.
+
+### Key Contributions
+- Introduces a novel framework for learning access control policies specifically tailored to autonomous AI agents.
+- Integrates reinforcement learning for adaptive and context-sensitive policy generation.
+- Demonstrates improved governance effectiveness over traditional static policy methods.
+
+### Method & Results
+- Utilizes reinforcement learning to train AI agents on policy enforcement under varied contextual scenarios.
+- Employs policy synthesis algorithms to translate learned behaviors into enforceable access control rules.
+- Experimental evaluation conducted on simulated multi-agent environments with diverse interaction scenarios.
+- Achieves up to 35% reduction in policy violations and 20% higher task completion rates than baseline static policies.
+
+### Impact & Limitations
+- Offers practical significance for AI governance, enhancing safety and compliance in autonomous systems deployment.
+- Future work needed on scalability to real-world complex environments and integration with multi-agent coordination frameworks.
 
 ---
 
