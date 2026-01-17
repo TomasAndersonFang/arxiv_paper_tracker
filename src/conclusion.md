@@ -47065,18 +47065,18 @@ This paper addresses the challenge of securely training collaborative machine le
 #### Executive Summary  
 This paper addresses the lack of accessibility in Blockly, a visual programming environment, for blind and low-vision users. The authors propose an extension-based framework that integrates assistive technologies to enhance usability without altering Blockly’s core. Evaluation demonstrates improved accessibility and user experience for visually impaired participants.
 
-### Key Contributions  
+### Key Contributions
 - Developed an innovative extension framework enabling accessibility adaptations in Blockly without core modifications.  
 - Integrated screen reader and keyboard navigation enhancements tailored for blind and low-vision users.  
 - Validated the framework’s effectiveness through user studies with visually impaired participants.
 
-### Method & Results  
+### Method & Results
 - Designed an extension architecture interfacing Blockly with assistive technology APIs to provide navigable, non-visual code editing.  
 - Employed qualitative usability studies and quantitative performance metrics (e.g., task completion rates, error counts).  
 - Results showed a significant increase in task success rate (+35%) and decreased completion time (20% faster) compared to baseline Blockly usage with default screen readers.  
 - Outperformed existing workaround solutions lacking direct integration with Blockly’s internal structure.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables inclusive programming education and development environments for visually impaired learners and developers.  
 - Future work needed to broaden compatibility with diverse assistive technologies and extend support to other block-based coding platforms.
 
@@ -47146,19 +47146,19 @@ This paper investigates security vulnerabilities present in AI agent skills depl
 #### Executive Summary  
 This paper investigates how software developers adapt their workflows with the integration of AI tools over time through a longitudinal study of developer logs. The authors analyze detailed logging data to reveal evolving behavioral patterns and productivity impacts. Results show significant shifts in coding practices and collaboration facilitated by AI assistance.
 
-### Key Contributions  
+### Key Contributions
 - Longitudinal analysis of developer logs to track AI adoption and its effect on developer behavior.  
 - Identification of distinct phases in AI integration within development workflows.  
 - Insights on productivity improvements and challenges encountered with AI tools in software engineering.
 
-### Method & Results  
+### Method & Results
 - Analyzed timestamped developer logs collected over 18 months from teams using AI coding assistants.  
 - Applied time-series clustering and qualitative coding to extract behavioral patterns and phases of AI adaptation.  
 - Dataset: Large-scale logs from 150 developers across multiple software projects.  
 - Found a 23% increase in coding velocity and 17% reduction in error rates post AI adoption.  
 - Demonstrated more efficient code review processes when augmented by AI tools versus baseline manual workflows.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical benefits of AI in enhancing developer productivity and evolving software engineering practices.  
 - Limitations include dataset bias toward early AI adopters and lack of diversity in project types; future work could expand to other domains and explore long-term cognitive effects.
 
@@ -47173,18 +47173,18 @@ This paper investigates how software developers adapt their workflows with the i
 #### Executive Summary  
 This paper investigates how software developers interact with proactive AI coding assistants during natural development workflows. Through a five-day field study, the authors analyze dynamic usage patterns, revealing developers’ preferences and challenges in managing AI suggestions. The results highlight nuanced interaction behaviors that inform better AI tool design.
 
-### Key Contributions  
+### Key Contributions
 - Empirical characterization of developer interactions with proactive AI over extended real-world use.  
 - Identification of distinct interaction patterns and contextual factors influencing AI adoption.  
 - Design implications for improving AI assistant responsiveness and user control.
 
-### Method & Results  
+### Method & Results
 - Conducted a five-day field deployment study with professional developers using a proactive AI coding assistant integrated into their IDEs.  
 - Collected interaction logs, self-reports, and behavioral metrics to analyze usage patterns.  
 - Found that developers selectively engage with AI suggestions, balancing automation benefits against control concerns; acceptance rates varied between 35-60% depending on code context.  
 - Demonstrated statistically significant improvements in task efficiency and code correctness compared to baseline workflows without AI assistance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers actionable insights for building more intuitive and context-aware AI development tools, potentially accelerating developer productivity.  
 - Limited by short study duration and a small participant pool; future work could explore long-term impacts and diverse programming environments.
 
@@ -47201,18 +47201,18 @@ This paper investigates how software developers interact with proactive AI codin
 #### Executive Summary  
 This paper addresses the problem of deriving converse (lower) bounds for the download cost in Sun-Jafar-type weak Private Information Retrieval (PIR) schemes. The authors develop fundamental limits on retrieval efficiency under weaker privacy constraints, extending classical PIR theory. The main result establishes tight converse bounds that unify and generalize prior weak PIR results.
 
-### Key Contributions  
+### Key Contributions
 - Establishes new converse bounds for weak PIR schemes in the Sun-Jafar framework.  
 - Generalizes existing PIR results by characterizing download costs under relaxed privacy constraints.  
 - Introduces novel proof techniques leveraging information-theoretic inequalities tailored for weak privacy settings.
 
-### Method & Results  
+### Method & Results
 - Utilizes information-theoretic tools to derive lower bounds on download communication cost in weak PIR setups.  
 - Theoretical analysis with no empirical datasets; focuses on mathematical modeling and proofs.  
 - Main result: tight converse bounds showing minimum download cost as a function of privacy relaxation parameters and number of databases.  
 - Demonstrates improvement over previously known lower bounds, closing gaps for certain PIR parameter regimes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of trade-offs between privacy strength and communication efficiency in PIR, guiding future protocol design.  
 - Limitations include focusing primarily on theoretical bounds without constructive scheme designs or practical implementations.  
 - Future work could explore achievability schemes matching these bounds and extend to broader PIR models or settings.
@@ -47228,18 +47228,18 @@ This paper addresses the problem of deriving converse (lower) bounds for the dow
 #### Executive Summary  
 This paper addresses the challenge of performing linear regression inference on longitudinal data while preserving differential privacy. The authors develop a novel algorithm that ensures privacy in parameter estimation and hypothesis testing for repeated measurements. Empirical results demonstrate the approach achieves accurate inference with formal privacy guarantees, outperforming naive private methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a differentially private inference framework tailored for longitudinal linear regression models.  
 - Develops privacy-preserving estimators and confidence intervals that account for within-subject correlation.  
 - Provides theoretical guarantees on privacy and inference accuracy under differential privacy constraints.
 
-### Method & Results  
+### Method & Results
 - Proposes a novel mechanism integrating longitudinal correlation structure into private parameter estimation using adaptive noise calibration.  
 - Validated on both synthetic longitudinal datasets and real-world time-series data with repeated measures.  
 - Achieves high statistical power and coverage close to non-private methods while maintaining rigorous privacy budgets (ε-values reported).  
 - Outperforms baseline private regression techniques that ignore repeated measures, showing reduced bias and improved confidence interval coverage.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving statistical analysis in healthcare and social sciences where longitudinal data are common, facilitating secure data sharing.  
 - Limitations include computational complexity for very large datasets and reliance on linearity assumptions, suggesting future extension to nonlinear mixed models and scalable implementations.
 
@@ -47254,18 +47254,18 @@ This paper addresses the challenge of performing linear regression inference on 
 #### Executive Summary  
 This paper addresses AI safety alignment by enabling models to autonomously identify and mitigate vulnerabilities through adversarial self-play and reflective experience replay. Their approach allows systems to act as their own red team, iteratively improving robustness. Experimental results demonstrate enhanced safety and reduced failure rates compared to traditional fixed red teaming methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel self-play framework for AI safety alignment without external adversaries.  
 - Introduces reflective experience replay to leverage past adversarial interactions for continual improvement.  
 - Empirically validates the approach on complex language security tasks, outperforming static red teams.
 
-### Method & Results  
+### Method & Results
 - Utilizes adversarial self-play where the model alternates between attacker and defender roles to discover and patch vulnerabilities.  
 - Implements reflective experience replay to revisit and learn from previous adversarial examples dynamically.  
 - Tested on benchmarks related to language model safety and adversarial behavior detection.  
 - Shows up to 30% reduction in safety violations versus standard red teaming baselines in experiments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, continuous AI safety testing without extensive human intervention, improving deployment readiness.  
 - Limitations include possible overfitting to self-generated adversarial examples and challenges in generalizing to unseen attack types. Future work could explore hybrid approaches combining self-play with expert red teaming.
 
@@ -47280,18 +47280,18 @@ This paper addresses AI safety alignment by enabling models to autonomously iden
 #### Executive Summary  
 This paper addresses secure data deletion within hybrid encryption schemes by introducing certified deletion in a preprocessing model. The authors propose a novel approach integrating preprocessing to enable verifiable data erasure without compromising encryption efficiency. The main result is a hybrid encryption scheme that supports certified deletion with provable security guarantees under standard assumptions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first hybrid encryption framework supporting certified deletion in the preprocessing model.  
 - Formalizes security definitions combining hybrid encryption and certified deletion semantics.  
 - Provides efficient constructions with reduced computational overhead compared to naive methods.
 
-### Method & Results  
+### Method & Results
 - Combines preprocessing techniques with hybrid encryption to generate ciphertexts enabling verifiable deletion proofs.  
 - Security proofs based on widely accepted cryptographic assumptions (e.g., IND-CPA security, deletion soundness).  
 - No specific datasets; evaluation relies on theoretical analysis and complexity comparisons.  
 - Demonstrates that their scheme achieves better efficiency than baseline approaches that separately implement encryption and certified deletion.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical security for scenarios requiring guaranteed data deletion, such as cloud storage and privacy-sensitive communications.  
 - Limitation includes reliance on preprocessing setup, potentially restricting deployment flexibility.  
 - Future work may explore extending certified deletion to fully dynamic encryption models and improving efficiency further.
@@ -47321,6 +47321,280 @@ AgentGuardian addresses the challenge of governing autonomous AI agent behavior 
 ### Impact & Limitations
 - Offers practical significance for AI governance, enhancing safety and compliance in autonomous systems deployment.
 - Future work needed on scalability to real-world complex environments and integration with multi-agent coordination frameworks.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-17)
+
+### 软件工程 领域
+
+#### Tables or Sankey Diagrams? Investigating User Interaction with Different Representations of Simulation Parameters
+**作者**: Choro Ulan uulu, Mikhail Kulyabin, Katharina M Zeiner, Jan Joosten, Nuno Miguel Martins Pacheco, Filippos Petridis, Rebecca Johnson, Jan Bosch, Helena Holmström Olsson
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10232v1
+
+#### Executive Summary  
+This paper addresses how different visual representations of simulation parameters—tables versus Sankey diagrams—affect user interaction and comprehension. Through user studies, the authors compare these formats to identify the more effective approach for conveying complex simulation data. Results indicate Sankey diagrams facilitate quicker parameter understanding and adjustment than tables.
+
+### Key Contributions  
+- Empirical comparison between tabular and Sankey diagram representations for simulation parameters.  
+- Identification of user interaction advantages favoring Sankey diagrams in simulation settings.  
+- Insights guiding the design of parameter visualization tools for improved usability.
+
+### Method & Results  
+- Conducted controlled user studies measuring interaction efficiency and accuracy with tables and Sankey diagrams.  
+- Utilized simulation datasets with configurable parameters across multiple scenarios.  
+- Users completed parameter adjustment tasks significantly faster (p < 0.05) and with higher satisfaction when using Sankey diagrams.  
+- No significant accuracy trade-offs between the two formats were found.
+
+### Impact & Limitations  
+- Enhances understanding of visualization choices for simulation interfaces, potentially improving decision-making tools in engineering and software simulations.  
+- Limited by a relatively small participant pool and focus on specific simulation domains; broader studies and other visualization types remain future work.
+
+---
+
+#### Agentic Pipelines in Embedded Software Engineering: Emerging Practices and Challenges
+**作者**: Simin Sun, Miroslaw Staron
+**类别**: cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10220v1
+
+#### Executive Summary  
+This paper investigates the application of agentic pipelines in embedded software engineering to enhance automation and coordination among development tasks. Through qualitative analysis and case studies, it identifies emerging practices and the associated challenges in adopting these agent-driven workflows. Results highlight improved integration but reveal barriers related to complexity and adaptability.
+
+### Key Contributions  
+- Identification and characterization of emerging agentic pipeline practices specific to embedded software projects.  
+- Empirical insights into challenges faced during agentic pipeline adoption, including tooling and process integration issues.  
+- A conceptual framework outlining how agentic components can be orchestrated in embedded software engineering contexts.
+
+### Method & Results  
+- Qualitative case study methodology involving interviews and artifact analysis in embedded software teams.  
+- Utilized organizational data and pipeline tooling examples from industry partners.  
+- Found that agentic pipelines increased task automation efficiency by approx. 20%, but integration complexity rose by 15%.  
+- No direct quantitative baseline comparison, focus was on qualitative improvements and challenge identification.
+
+### Impact & Limitations  
+- Enhances understanding of AI agent roles in complex, safety-critical embedded systems development, aiding future pipeline design.  
+- Limited by small case sample size and early-stage tool maturity; future work should explore scalability and quantitative benchmarking.
+
+---
+
+#### Towards Online Malware Detection using Process Resource Utilization Metrics
+**作者**: Themistoklis Diamantopoulos, Dimosthenis Natsos, Andreas L. Symeonidis
+**类别**: cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10164v1
+
+#### Executive Summary  
+This paper addresses the challenge of real-time malware detection by leveraging process-level resource utilization metrics. The authors propose an online detection framework that monitors CPU, memory, and I/O usage patterns to identify malicious processes efficiently, achieving promising detection accuracy with low latency.
+
+### Key Contributions  
+- Introduces a novel online malware detection approach based on process resource utilization profiling.  
+- Develops an adaptive detection algorithm suitable for real-time deployment in operating systems.  
+- Validates the method on diverse malware families with competitive performance to existing solutions.
+
+### Method & Results  
+- Utilizes continuous monitoring of resource metrics (CPU, memory, I/O) from running processes to form behavioral signatures.  
+- Applies machine learning classifiers trained on these metrics to differentiate benign vs. malicious activities.  
+- Experiments conducted on a dataset combining multiple malware samples and benign applications collected in controlled environments.  
+- Achieves detection accuracy upwards of 90% with minimal false positives and demonstrates faster detection compared to traditional signature-based tools.  
+- Outperforms baseline heuristic and signature-based detectors in latency and early detection capability.
+
+### Impact & Limitations  
+- Enables proactive, lightweight malware detection applicable in endpoint security and intrusion prevention systems.  
+- Future work needed on scalability to large-scale deployments and robustness against adversarial evasion techniques.
+
+---
+
+#### MHub.ai: A Simple, Standardized, and Reproducible Platform for AI Models in Medical Imaging
+**作者**: Leonard Nürnberg, Dennis Bontempi, Suraj Pai, Curtis Lisle, Steve Pieper, Ron Kikinis, Sil van de Leemput, Rahul Soni, Gowtham Murugesan, Cosmin Ciausu, Miriam Groeneveld, Felix J. Dorfner, Jue Jiang, Aneesh Rangnekar, Harini Veeraraghavan, Joeran S. Bosma, Keno Bressem, Raymond Mak, Andrey Fedorov, Hugo JWL Aerts
+**类别**: cs.AI, cs.CV, cs.ET, cs.LG, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10154v1
+
+#### Executive Summary
+This paper presents MHub.ai, a standardized platform designed to facilitate the deployment, sharing, and reproducibility of AI models in medical imaging. By providing a unified infrastructure, MHub.ai addresses challenges in model interoperability and reproducibility across diverse clinical datasets. The platform demonstrates robust performance in integrating heterogeneous models, improving reproducibility and accessibility for AI-driven medical imaging research.
+
+### Key Contributions
+- Introduction of MHub.ai, a simple, standardized platform enabling reproducible AI model deployment in medical imaging.
+- Implementation of interoperable workflows supporting diverse imaging modalities and AI architectures.
+- Demonstration of reproducibility and benchmarking capabilities across multiple medical imaging datasets.
+
+### Method & Results
+- Developed a modular platform integrating state-of-the-art AI models via standardized APIs and containerization.
+- Utilized multiple public and private medical imaging datasets spanning MRI, CT, and X-ray modalities.
+- Experimental validation showed enhanced reproducibility of AI model outputs and streamlined comparison across datasets.
+- Performance benchmarks indicated MHub.ai maintained or improved model accuracy relative to standalone implementations, with added benefit of reproducibility and ease of deployment.
+
+### Impact & Limitations
+- Enables wider adoption and transparent validation of AI tools in clinical imaging, fostering collaboration and accelerating research translation.
+- Limitations include initial focus on imaging modalities with potential expansion needed for multi-modal or non-imaging clinical data.
+- Future work involves extending platform capabilities to support federated learning and broader AI algorithm integration.
+
+---
+
+#### A Generalizable Framework for Building Executable Domain-Specific LLMs under Data Scarcity: Demonstration on Semiconductor TCAD Simulation
+**作者**: Di Wang, Zhenhua Wu, Yu Liu, Kai Chang, Shaohua Wu
+**类别**: cs.CE, cond-mat.mtrl-sci, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10128v1
+
+#### Executive Summary
+This paper addresses the challenge of building domain-specific large language models (LLMs) for semiconductor Technology Computer-Aided Design (TCAD) simulation under limited data availability. The authors propose a generalizable framework integrating domain knowledge with few-shot learning to construct executable models capable of accurate simulation. Experimental results demonstrate the framework’s effectiveness in achieving strong performance despite data scarcity.
+
+### Key Contributions
+- Introduces a novel framework for constructing executable domain-specific LLMs tailored for complex simulation tasks with scarce data.
+- Demonstrates integration of domain knowledge and few-shot learning for enhanced model generalization.
+- Validates the approach on semiconductor TCAD simulation, a critical but data-limited application area.
+
+### Method & Results
+- Combines knowledge injection techniques with few-shot learning to train LLMs executable in simulation environments.
+- Utilizes semiconductor TCAD datasets alongside synthesized expert knowledge prompts.
+- Achieved substantial accuracy improvements in simulation outcomes, outperforming standard fine-tuned LLM baselines by a reported margin (exact quantitative metrics not specified).
+- Showed robustness in low-data regimes, maintaining model fidelity with minimal training samples.
+
+### Impact & Limitations
+- Enables practical deployment of LLMs in specialized engineering domains where data is scarce, potentially accelerating semiconductor design workflows.
+- Future work should address scalability to other domains and explore automated knowledge extraction methods to reduce manual input.
+
+---
+
+### 安全领域 领域
+
+#### LADFA: A Framework of Using Large Language Models and Retrieval-Augmented Generation for Personal Data Flow Analysis in Privacy Policies
+**作者**: Haiyue Yuan, Nikolay Matyunin, Ali Raza, Shujun Li
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10413v1
+
+#### Executive Summary  
+This paper addresses the challenge of extracting and analyzing personal data flows in privacy policies by leveraging Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG). The proposed LADFA framework improves accuracy and interpretability in identifying data handling practices. Experimental evaluation demonstrates significant enhancement over traditional NLP methods in privacy policy analysis.
+
+### Key Contributions  
+- Introduces LADFA, integrating LLMs with retrieval-augmented generation for precise personal data flow extraction.  
+- Provides a novel application of RAG techniques tailored for complex legal text in privacy policies.  
+- Demonstrates superior interpretability and accuracy in tracing data flows compared to existing approaches.
+
+### Method & Results  
+- Utilizes a two-step pipeline: retrieval of relevant policy segments followed by extraction of data flow using LLM-generated responses.  
+- Employed a curated dataset of diverse privacy policies with annotated personal data flow information.  
+- Achieved over 15% improvement in extraction F1-score compared to baseline NLP methods.  
+- Showed enhanced ability to handle ambiguous or complex policy language beyond standard models.
+
+### Impact & Limitations  
+- Enables better transparency and compliance assessment for users and regulators regarding personal data usage.  
+- Current limitations include dependency on dataset quality and potential scalability issues with very large corpora; future work could explore domain adaptation and efficiency optimizations.
+
+---
+
+#### Reasoning Hijacking: Subverting LLM Classification via Decision-Criteria Injection
+**作者**: Yuansen Liu, Yixuan Tang, Anthony Kum Hoe Tun
+**类别**: cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10294v1
+
+#### Executive Summary
+This paper identifies a novel vulnerability in large language models (LLMs) used for classification, where adversaries inject deceptive decision criteria to hijack the reasoning process. The authors propose and demonstrate "Reasoning Hijacking," an attack that manipulates LLM outputs by embedding misleading classification rules. Experimental results reveal the attack’s effectiveness in subverting LLM classification tasks.
+
+### Key Contributions
+- Introduces the concept of "Reasoning Hijacking" as a new attack vector targeting LLM classification via decision-criteria injection.
+- Presents an adversarial framework to systematically craft and inject malicious reasoning prompts.
+- Empirical validation showing significant performance degradation of LLM classifiers under attack.
+
+### Method & Results
+- Developed an attack methodology that injects custom decision criteria into LLM prompts to override their native classification logic.
+- Evaluated on popular LLMs across benchmark classification datasets (unspecified here).
+- Achieved high misclassification rates, demonstrating the attack’s success in altering model decisions (quantitative specifics not provided).
+- Outperforms baseline prompt-tampering techniques, evidencing higher stealth and efficacy.
+
+### Impact & Limitations
+- Highlights a critical security gap in LLM-based classification systems, raising awareness for developing more robust safeguards.
+- Future work needed on detection mechanisms and defense strategies against reasoning hijacking.
+- Current scope limited to classification tasks; extension to other reasoning-heavy applications remains unexplored.
+
+---
+
+#### XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection
+**作者**: Xianyu Zou, Xiaoli Gong, Jin Zhang, Shiyang Li, Pen-Chung Yew
+**类别**: cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10261v1
+
+#### Executive Summary  
+XuanJia addresses the challenge of protecting binary code from reverse engineering by proposing a virtualization-based obfuscation framework. The approach transforms original binaries into a virtual instruction set, enhancing security without significantly degrading performance. Experiments demonstrate strong resistance to code analysis attacks with manageable overhead.
+
+### Key Contributions  
+- Introduces a comprehensive virtualization-based obfuscation technique tailored for binary protection.  
+- Designs a novel virtual instruction set that balances complexity and execution efficiency.  
+- Demonstrates robustness against common deobfuscation attacks through extensive evaluation.
+
+### Method & Results  
+- Translates original binary code into a custom virtual machine bytecode to complicate static and dynamic analysis.  
+- Implements optimization strategies to reduce runtime overhead during virtualization.  
+- Utilized standard benchmark binaries and code analysis attack tools for evaluation.  
+- Achieved up to 60% increase in code complexity with less than 20% execution overhead.  
+- Outperformed existing obfuscators in resisting automated deobfuscation tools while maintaining reasonable performance.
+
+### Impact & Limitations  
+- Enables enhanced binary protection crucial for software IP security and anti-tampering in practical deployments.  
+- Limited by potential slowdown in highly performance-sensitive applications; future work includes further VM optimization and extending support to diverse architectures.
+
+---
+
+#### Fundamental Limitations of Favorable Privacy-Utility Guarantees for DP-SGD
+**作者**: Murat Bilgehan Ertan, Marten van Dijk
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10237v1
+
+#### Executive Summary  
+This paper investigates the inherent trade-offs between privacy and utility in Differentially Private Stochastic Gradient Descent (DP-SGD). Through theoretical analysis, the authors establish fundamental lower bounds showing that achieving strong privacy guarantees inevitably degrades model utility. They provide formal proofs that limit how favorable privacy-utility trade-offs can be, highlighting critical constraints in DP-SGD.
+
+### Key Contributions  
+- Proves theoretical lower bounds on the privacy-utility trade-offs achievable by DP-SGD.  
+- Establishes fundamental limitations that suggest no universally favorable privacy and utility guarantees can coexist under DP-SGD.  
+- Provides rigorous mathematical framework for analyzing differential privacy constraints in gradient-based optimization.
+
+### Method & Results  
+- Employs theoretical analysis leveraging information-theoretic and statistical learning tools to derive privacy-utility bounds.  
+- Validates theoretical findings using standard benchmark datasets in privacy-preserving ML (specific datasets not detailed).  
+- Demonstrates quantitatively that improving privacy parameters (lower ε) leads to significant degradation in model accuracy.  
+- Shows DP-SGD performance under privacy constraints cannot surpass established lower bounds, outperforming no baseline due to fundamental limits.
+
+### Impact & Limitations  
+- Highlights critical challenges for practitioners aiming to balance privacy and utility using DP-SGD, guiding realistic expectations.  
+- Limitation: Primarily theoretical; empirical exploration across diverse architectures and tasks is needed to generalize findings.  
+- Future work: Developing novel algorithms or relaxations of DP definitions to circumvent these fundamental limitations.
+
+---
+
+#### PADER: Paillier-based Secure Decentralized Social Recommendation
+**作者**: Chaochao Chen, Jiaming Qian, Fei Zheng, Yachuan Liu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10212v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in decentralized social recommendation systems by proposing PADER, a Paillier encryption-based framework that enables secure recommendation without revealing users’ private data. The approach combines homomorphic encryption with decentralized protocols to achieve efficient, privacy-preserving collaborative filtering. Experiments demonstrate PADER’s effectiveness in maintaining recommendation accuracy while ensuring data confidentiality.
+
+### Key Contributions  
+- Introduces a novel Paillier homomorphic encryption scheme tailored for decentralized social recommendation.  
+- Designs a secure decentralized protocol that protects user data against semi-honest adversaries.  
+- Demonstrates practical feasibility with efficient computation and communication overhead.
+
+### Method & Results  
+- Utilizes Paillier encryption to perform secure aggregation of user preferences in a decentralized manner without raw data exposure.  
+- Evaluated on standard social recommendation datasets (e.g., CiaoDVD, Epinions).  
+- Achieved recommendation accuracy comparable to plaintext baselines with less than 20% additional computation overhead.  
+- Outperformed existing privacy-preserving recommendation models in balancing security and performance.
+
+### Impact & Limitations  
+- Enables privacy-aware decentralized recommendations, crucial for user trust in social platforms.  
+- Limitations include a reliance on semi-honest security assumptions and potential scalability issues with very large user bases.  
+- Future work may explore stronger adversary models and optimize scalability.
 
 ---
 
