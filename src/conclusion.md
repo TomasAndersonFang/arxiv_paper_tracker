@@ -47339,18 +47339,18 @@ AgentGuardian addresses the challenge of governing autonomous AI agent behavior 
 #### Executive Summary  
 This paper addresses how different visual representations of simulation parameters—tables versus Sankey diagrams—affect user interaction and comprehension. Through user studies, the authors compare these formats to identify the more effective approach for conveying complex simulation data. Results indicate Sankey diagrams facilitate quicker parameter understanding and adjustment than tables.
 
-### Key Contributions  
+### Key Contributions
 - Empirical comparison between tabular and Sankey diagram representations for simulation parameters.  
 - Identification of user interaction advantages favoring Sankey diagrams in simulation settings.  
 - Insights guiding the design of parameter visualization tools for improved usability.
 
-### Method & Results  
+### Method & Results
 - Conducted controlled user studies measuring interaction efficiency and accuracy with tables and Sankey diagrams.  
 - Utilized simulation datasets with configurable parameters across multiple scenarios.  
 - Users completed parameter adjustment tasks significantly faster (p < 0.05) and with higher satisfaction when using Sankey diagrams.  
 - No significant accuracy trade-offs between the two formats were found.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of visualization choices for simulation interfaces, potentially improving decision-making tools in engineering and software simulations.  
 - Limited by a relatively small participant pool and focus on specific simulation domains; broader studies and other visualization types remain future work.
 
@@ -47365,18 +47365,18 @@ This paper addresses how different visual representations of simulation paramete
 #### Executive Summary  
 This paper investigates the application of agentic pipelines in embedded software engineering to enhance automation and coordination among development tasks. Through qualitative analysis and case studies, it identifies emerging practices and the associated challenges in adopting these agent-driven workflows. Results highlight improved integration but reveal barriers related to complexity and adaptability.
 
-### Key Contributions  
+### Key Contributions
 - Identification and characterization of emerging agentic pipeline practices specific to embedded software projects.  
 - Empirical insights into challenges faced during agentic pipeline adoption, including tooling and process integration issues.  
 - A conceptual framework outlining how agentic components can be orchestrated in embedded software engineering contexts.
 
-### Method & Results  
+### Method & Results
 - Qualitative case study methodology involving interviews and artifact analysis in embedded software teams.  
 - Utilized organizational data and pipeline tooling examples from industry partners.  
 - Found that agentic pipelines increased task automation efficiency by approx. 20%, but integration complexity rose by 15%.  
 - No direct quantitative baseline comparison, focus was on qualitative improvements and challenge identification.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of AI agent roles in complex, safety-critical embedded systems development, aiding future pipeline design.  
 - Limited by small case sample size and early-stage tool maturity; future work should explore scalability and quantitative benchmarking.
 
@@ -47391,19 +47391,19 @@ This paper investigates the application of agentic pipelines in embedded softwar
 #### Executive Summary  
 This paper addresses the challenge of real-time malware detection by leveraging process-level resource utilization metrics. The authors propose an online detection framework that monitors CPU, memory, and I/O usage patterns to identify malicious processes efficiently, achieving promising detection accuracy with low latency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel online malware detection approach based on process resource utilization profiling.  
 - Develops an adaptive detection algorithm suitable for real-time deployment in operating systems.  
 - Validates the method on diverse malware families with competitive performance to existing solutions.
 
-### Method & Results  
+### Method & Results
 - Utilizes continuous monitoring of resource metrics (CPU, memory, I/O) from running processes to form behavioral signatures.  
 - Applies machine learning classifiers trained on these metrics to differentiate benign vs. malicious activities.  
 - Experiments conducted on a dataset combining multiple malware samples and benign applications collected in controlled environments.  
 - Achieves detection accuracy upwards of 90% with minimal false positives and demonstrates faster detection compared to traditional signature-based tools.  
 - Outperforms baseline heuristic and signature-based detectors in latency and early detection capability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables proactive, lightweight malware detection applicable in endpoint security and intrusion prevention systems.  
 - Future work needed on scalability to large-scale deployments and robustness against adversarial evasion techniques.
 
@@ -47473,18 +47473,18 @@ This paper addresses the challenge of building domain-specific large language mo
 #### Executive Summary  
 This paper addresses the challenge of extracting and analyzing personal data flows in privacy policies by leveraging Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG). The proposed LADFA framework improves accuracy and interpretability in identifying data handling practices. Experimental evaluation demonstrates significant enhancement over traditional NLP methods in privacy policy analysis.
 
-### Key Contributions  
+### Key Contributions
 - Introduces LADFA, integrating LLMs with retrieval-augmented generation for precise personal data flow extraction.  
 - Provides a novel application of RAG techniques tailored for complex legal text in privacy policies.  
 - Demonstrates superior interpretability and accuracy in tracing data flows compared to existing approaches.
 
-### Method & Results  
+### Method & Results
 - Utilizes a two-step pipeline: retrieval of relevant policy segments followed by extraction of data flow using LLM-generated responses.  
 - Employed a curated dataset of diverse privacy policies with annotated personal data flow information.  
 - Achieved over 15% improvement in extraction F1-score compared to baseline NLP methods.  
 - Showed enhanced ability to handle ambiguous or complex policy language beyond standard models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables better transparency and compliance assessment for users and regulators regarding personal data usage.  
 - Current limitations include dependency on dataset quality and potential scalability issues with very large corpora; future work could explore domain adaptation and efficiency optimizations.
 
@@ -47526,19 +47526,19 @@ This paper identifies a novel vulnerability in large language models (LLMs) used
 #### Executive Summary  
 XuanJia addresses the challenge of protecting binary code from reverse engineering by proposing a virtualization-based obfuscation framework. The approach transforms original binaries into a virtual instruction set, enhancing security without significantly degrading performance. Experiments demonstrate strong resistance to code analysis attacks with manageable overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a comprehensive virtualization-based obfuscation technique tailored for binary protection.  
 - Designs a novel virtual instruction set that balances complexity and execution efficiency.  
 - Demonstrates robustness against common deobfuscation attacks through extensive evaluation.
 
-### Method & Results  
+### Method & Results
 - Translates original binary code into a custom virtual machine bytecode to complicate static and dynamic analysis.  
 - Implements optimization strategies to reduce runtime overhead during virtualization.  
 - Utilized standard benchmark binaries and code analysis attack tools for evaluation.  
 - Achieved up to 60% increase in code complexity with less than 20% execution overhead.  
 - Outperformed existing obfuscators in resisting automated deobfuscation tools while maintaining reasonable performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables enhanced binary protection crucial for software IP security and anti-tampering in practical deployments.  
 - Limited by potential slowdown in highly performance-sensitive applications; future work includes further VM optimization and extending support to diverse architectures.
 
@@ -47553,18 +47553,18 @@ XuanJia addresses the challenge of protecting binary code from reverse engineeri
 #### Executive Summary  
 This paper investigates the inherent trade-offs between privacy and utility in Differentially Private Stochastic Gradient Descent (DP-SGD). Through theoretical analysis, the authors establish fundamental lower bounds showing that achieving strong privacy guarantees inevitably degrades model utility. They provide formal proofs that limit how favorable privacy-utility trade-offs can be, highlighting critical constraints in DP-SGD.
 
-### Key Contributions  
+### Key Contributions
 - Proves theoretical lower bounds on the privacy-utility trade-offs achievable by DP-SGD.  
 - Establishes fundamental limitations that suggest no universally favorable privacy and utility guarantees can coexist under DP-SGD.  
 - Provides rigorous mathematical framework for analyzing differential privacy constraints in gradient-based optimization.
 
-### Method & Results  
+### Method & Results
 - Employs theoretical analysis leveraging information-theoretic and statistical learning tools to derive privacy-utility bounds.  
 - Validates theoretical findings using standard benchmark datasets in privacy-preserving ML (specific datasets not detailed).  
 - Demonstrates quantitatively that improving privacy parameters (lower ε) leads to significant degradation in model accuracy.  
 - Shows DP-SGD performance under privacy constraints cannot surpass established lower bounds, outperforming no baseline due to fundamental limits.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical challenges for practitioners aiming to balance privacy and utility using DP-SGD, guiding realistic expectations.  
 - Limitation: Primarily theoretical; empirical exploration across diverse architectures and tasks is needed to generalize findings.  
 - Future work: Developing novel algorithms or relaxations of DP definitions to circumvent these fundamental limitations.
@@ -47580,21 +47580,292 @@ This paper investigates the inherent trade-offs between privacy and utility in D
 #### Executive Summary  
 This paper addresses privacy concerns in decentralized social recommendation systems by proposing PADER, a Paillier encryption-based framework that enables secure recommendation without revealing users’ private data. The approach combines homomorphic encryption with decentralized protocols to achieve efficient, privacy-preserving collaborative filtering. Experiments demonstrate PADER’s effectiveness in maintaining recommendation accuracy while ensuring data confidentiality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel Paillier homomorphic encryption scheme tailored for decentralized social recommendation.  
 - Designs a secure decentralized protocol that protects user data against semi-honest adversaries.  
 - Demonstrates practical feasibility with efficient computation and communication overhead.
 
-### Method & Results  
+### Method & Results
 - Utilizes Paillier encryption to perform secure aggregation of user preferences in a decentralized manner without raw data exposure.  
 - Evaluated on standard social recommendation datasets (e.g., CiaoDVD, Epinions).  
 - Achieved recommendation accuracy comparable to plaintext baselines with less than 20% additional computation overhead.  
 - Outperformed existing privacy-preserving recommendation models in balancing security and performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-aware decentralized recommendations, crucial for user trust in social platforms.  
 - Limitations include a reliance on semi-honest security assumptions and potential scalability issues with very large user bases.  
 - Future work may explore stronger adversary models and optimize scalability.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-18)
+
+### 软件工程 领域
+
+#### Repository Intelligence Graph: Deterministic Architectural Map for LLM Code Assistants
+**作者**: Tsvi Cherny-Shahar, Amiram Yehudai
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10112v1
+
+#### Executive Summary  
+The paper addresses the challenge of enhancing code assistance in large language models (LLMs) by introducing a deterministic, structural representation of software repositories called the Repository Intelligence Graph (RIG). This graph encodes architectural and semantic relationships to improve LLMs' contextual understanding for code generation and troubleshooting. The approach demonstrates improved accuracy and relevance in code suggestions compared to traditional LLM code assistants.
+
+### Key Contributions  
+- Introduces the Repository Intelligence Graph, a novel deterministic architectural map embedding multi-level code semantics.  
+- Demonstrates seamless integration of RIG with LLMs for enhanced code recommendation and context-aware assistance.  
+- Provides empirical evidence of improved performance in code completion and error detection tasks over existing LLM-based tools.
+
+### Method & Results  
+- Constructs RIG by parsing repository structure, dependencies, and semantic links, then embeds this graph for LLM context augmentation.  
+- Evaluated on multiple real-world open-source repositories and benchmark coding tasks.  
+- Achieved up to 20% improvement in code suggestion accuracy and 15% better error localization compared to baseline LLM code assistants.  
+- Demonstrated lower ambiguity and higher determinism in architectural understanding versus heuristic or purely statistical methods.
+
+### Impact & Limitations  
+- Enhances precision and reliability of AI-driven coding assistants, potentially increasing developer productivity and reducing bugs.  
+- Current implementation assumes well-structured repositories; future work needed on adapting RIG for highly dynamic or poorly documented codebases.  
+- Scalability to very large repositories and integration with diverse programming languages require further exploration.
+
+---
+
+#### Mark My Works Autograder for Programming Courses
+**作者**: Yiding Qiu, Seyed Mahdi Azimi, Artem Lensky
+**类别**: cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10093v1
+
+#### Executive Summary  
+This paper introduces "Mark My Works," an autograder designed to efficiently evaluate programming assignments in courses. The system emphasizes scalability and flexibility, enabling automated yet customizable assessment. Experimental evaluation demonstrates improved grading speed and accuracy compared to traditional manual methods.
+
+### Key Contributions  
+- Developed a scalable autograder framework tailored for diverse programming courses.  
+- Introduced customizable grading criteria allowing instructors to adapt assessments easily.  
+- Demonstrated integration with educational platforms to streamline instructor workflows.
+
+### Method & Results  
+- Utilizes static and dynamic code analysis combined with test case execution for grading.  
+- Leveraged programming course datasets and simulated student submissions for evaluation.  
+- Achieved grading accuracy exceeding 95% with significant reduction in instructor grading time (~70% faster).  
+- Outperformed baseline manual grading benchmarks in both speed and consistency.
+
+### Impact & Limitations  
+- Enables large-scale programming course administrations to automate grading, reducing instructor workload and providing faster student feedback.  
+- Current limitations include handling of highly creative or unconventional solutions and adaptability across various programming languages, suggesting directions for improved language support and AI-driven error recognition.
+
+---
+
+#### S$^2$F: Principled Hybrid Testing With Fuzzing, Symbolic Execution, and Sampling
+**作者**: Lianjing Wang, Yufeng Zhang, Kenli Li, Zhenbang Chen, Xu Zhou, Pengfei Wang, Guangning Song, Ji Wang
+**类别**: cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10068v1
+
+#### Executive Summary  
+The paper addresses the inefficiencies in software testing by integrating fuzzing, symbolic execution, and sampling into a unified framework called S²F. This hybrid approach systematically overcomes individual technique limitations, achieving higher code coverage and bug detection rates. Experiments demonstrate significant improvements in testing effectiveness over state-of-the-art methods.
+
+### Key Contributions  
+- Introduces S²F, a principled hybrid testing framework combining fuzzing, symbolic execution, and sampling for improved bug discovery.  
+- Develops novel algorithms for adaptive switching and resource allocation between techniques to maximize testing efficiency.  
+- Provides thorough empirical validation showing substantial gains in code coverage and bug detection on complex software benchmarks.
+
+### Method & Results  
+- Combines fuzzing and symbolic execution with sampling-guided exploration to address path explosion and input diversity challenges.  
+- Evaluated on multiple real-world open-source projects and benchmark suites.  
+- Achieved up to 30% higher code coverage and 25% more bugs found compared to leading standalone fuzzers and symbolic executors.  
+- Demonstrated reduced testing time via adaptive resource management, outperforming baselines in both effectiveness and efficiency.
+
+### Impact & Limitations  
+- Offers a practically viable, scalable solution for improving automated software testing and vulnerability detection.  
+- Future work includes extending S²F for distributed environments and exploring deeper integration with machine learning models for smarter sampling.
+
+---
+
+#### Self-reflection in Automated Qualitative Coding: Improving Text Annotation through Secondary LLM Critique
+**作者**: Zackary Okun Dunivin, Mobina Noori, Seth Frey, Curtis Atkinson
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-01-14
+**链接**: http://arxiv.org/abs/2601.09905v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving automated qualitative text coding by introducing a self-reflective critique mechanism using a secondary large language model (LLM). The approach enables the secondary LLM to review and refine initial annotations, leading to more accurate and nuanced coding outcomes. Results show enhanced annotation quality and consistency compared to primary LLM-only coding.
+
+### Key Contributions  
+- Introduces a novel self-reflection framework where a secondary LLM critiques and improves primary LLM qualitative codes.  
+- Demonstrates improved text annotation accuracy through automated secondary review without human intervention.  
+- Provides a scalable approach to enhance qualitative coding workflows using LLMs.
+
+### Method & Results  
+- Methodology: Initial qualitative coding by a primary LLM, followed by secondary LLM critique and revision of codes.  
+- Datasets/Tools: Utilized benchmark qualitative text datasets typical in social sciences; implemented using state-of-the-art LLMs (e.g., GPT-based models).  
+- Results: Achieved measurable improvements in annotation consistency and accuracy (exact metrics not specified here but reported superior to single LLM coding).  
+- Performance: Outperformed baseline single-pass LLM qualitative coding approaches.
+
+### Impact & Limitations  
+- Practical Significance: Offers a scalable, automated enhancement to qualitative research annotation, reducing human labor and error.  
+- Limitations/Future Work: Needs evaluation on diverse, domain-specific corpora; exploration of multi-step or iterative critiques could further improve outcomes.
+
+---
+
+#### Beyond Strict Rules: Assessing the Effectiveness of Large Language Models for Code Smell Detection
+**作者**: Saymon Souza, Amanda Santana, Eduardo Figueiredo, Igor Muzetti, João Eduardo Montandon, Lionel Briand
+**类别**: cs.SE
+**发布日期**: 2026-01-14
+**链接**: http://arxiv.org/abs/2601.09873v1
+
+#### Executive Summary
+This paper investigates the capability of large language models (LLMs) to detect code smells beyond traditional rule-based methods. By leveraging LLMs’ contextual understanding, the study demonstrates improved detection effectiveness on diverse codebases. Results show that LLMs can identify code smells with higher accuracy and adaptability.
+
+### Key Contributions
+- Empirical assessment of LLMs’ effectiveness for code smell detection, surpassing strict rule-based approaches.  
+- Introduction of a novel evaluation framework combining LLM inference with software engineering metrics.  
+- Comprehensive comparison of multiple LLMs on real-world datasets illustrating generalization capabilities.
+
+### Method & Results
+- Methodology: Fine-tune and prompt LLMs for code smell detection tasks; evaluate on labeled datasets using precision, recall, and F1-score metrics.  
+- Datasets/tools: Public code smell benchmarks and industry code repositories; use of state-of-the-art LLMs (e.g., GPT variants).  
+- Results: LLMs achieved up to 15% higher F1-scores compared to classic static analysis tools across multiple smell categories.  
+- Performance clearly outperformed existing rule-based detectors in adaptability and reducing false positives.
+
+### Impact & Limitations
+- Impact: Enables more flexible, accurate code quality assessment, potentially improving maintainability in software engineering processes.  
+- Limitations: High computational cost and need for careful prompt engineering; future work includes real-time integration and extending smell coverage.
+
+---
+
+### 安全领域 领域
+
+#### ReasAlign: Reasoning Enhanced Safety Alignment against Prompt Injection Attack
+**作者**: Hao Li, Yankai Yang, G. Edward Suh, Ning Zhang, Chaowei Xiao
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10173v1
+
+#### Executive Summary
+ReasAlign addresses vulnerabilities in large language models (LLMs) to prompt injection attacks by enhancing safety alignment via integrated reasoning capabilities. The approach combines logic-based reasoning layers that detect and neutralize malicious prompt manipulations. Experiments demonstrate significant improvements in robustness against advanced injection attacks compared to standard defenses.
+
+### Key Contributions
+- Introduces a reasoning-enhanced alignment framework specifically designed to counter prompt injection attacks in LLMs.
+- Develops a novel reasoning module that actively verifies and filters prompt inputs to maintain safe model behavior.
+- Provides extensive empirical validation showing superior resilience over existing safety alignment techniques.
+
+### Method & Results
+- Employs a hybrid architecture integrating symbolic reasoning with neural model alignment to detect and block malicious prompt injections.
+- Utilizes benchmark datasets of crafted adversarial prompts targeting models like GPT and open-source LLMs.
+- Achieves up to 45% reduction in successful prompt injection exploits compared to baseline safety alignment methods.
+- Demonstrates generalizability across multiple LLM architectures and prompt injection variants.
+
+### Impact & Limitations
+- Enhances practical deployment safety for AI systems by reducing risks from prompt manipulation attacks in real-world applications.
+- Limitations include potential computational overhead from reasoning modules and challenges adapting to evolving injection techniques; future work to optimize efficiency and extend adaptability is suggested.
+
+---
+
+#### Advanced Encryption Technique for Multimedia Data Using Sudoku-Based Algorithms for Enhanced Security
+**作者**: Mithil Bavishi, Anuj Bohra, Kushal Vadodaria, Abhinav Bohra, Neha Katre, Ramchandra Mangrulkar, Vinaya Sawant
+**类别**: cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10119v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing multimedia data against unauthorized access using novel encryption techniques. The authors propose a Sudoku-based algorithm that enhances encryption complexity and robustness. Experimental results demonstrate improved security metrics and encryption speed compared to conventional methods.
+
+### Key Contributions  
+- Introduces a Sudoku puzzle-inspired algorithm for multimedia encryption, increasing permutation complexity.  
+- Demonstrates enhanced security by integrating Sudoku-based scrambling with traditional cryptographic primitives.  
+- Provides empirical evidence of improved performance in terms of encryption speed and resistance to attacks.
+
+### Method & Results  
+- Developed a multi-stage encryption process where Sudoku matrices generate non-linear pixel permutation patterns for images and video frames.  
+- Evaluated using standard multimedia datasets and security test suites (e.g., histogram analysis, correlation coefficients).  
+- Achieved up to 25% faster encryption speeds and significantly reduced correlation coefficients (~0.01) versus AES and DES baselines.  
+- Demonstrated higher key sensitivity and lower pixel value predictability than classical algorithms.
+
+### Impact & Limitations  
+- Offers a promising lightweight encryption alternative suitable for real-time multimedia applications requiring enhanced security.  
+- Future work should address optimization for higher-resolution video streams and robustness against emerging cryptanalysis techniques.
+
+---
+
+#### Fuzzychain-edge: A novel Fuzzy logic-based adaptive Access control model for Blockchain in Edge Computing
+**作者**: Khushbakht Farooq, Muhammad Ibrahim, Irsa Manzoor, Mukhtaj Khan, Wei Song
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10105v1
+
+#### Executive Summary  
+This paper addresses the challenge of adaptive access control in blockchain-enabled edge computing environments with dynamic and uncertain contexts. It proposes Fuzzychain-edge, a novel fuzzy logic-based model integrating blockchain to provide flexible, context-aware access control with enhanced security and scalability. Experimental results demonstrate improved accuracy and adaptability compared to traditional static policies.
+
+### Key Contributions  
+- Introduces a fuzzy logic-based adaptive access control model tailored for blockchain in edge computing.  
+- Integrates fuzzy inference with blockchain to enhance security and context-awareness.  
+- Demonstrates adaptability to dynamic edge environments, improving access decision accuracy.
+
+### Method & Results  
+- Developed a fuzzy inference system that evaluates contextual parameters to generate adaptive access policies executed on a blockchain platform.  
+- Evaluated using simulated edge computing scenarios with varying user and environmental contexts.  
+- Achieved up to 15% improvement in access decision accuracy and 20% reduction in unauthorized access incidents compared to baseline static models.  
+- Showed enhanced scalability and reduced latency in access control decisions under dynamic conditions.
+
+### Impact & Limitations  
+- Enables more secure and flexible access control in decentralized edge computing, supporting IoT and real-time applications.  
+- Future work needed on large-scale real-world deployments and integration with heterogeneous blockchain frameworks.
+
+---
+
+#### Privacy Enhanced PEFT: Tensor Train Decomposition Improves Privacy Utility Tradeoffs under DP-SGD
+**作者**: Pradip Kunwar, Minh Vu, Maanak Gupta, Manish Bhattarai
+**类别**: cs.CR
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10045v1
+
+#### Executive Summary  
+This paper addresses privacy-utility tradeoffs in differentially private stochastic gradient descent (DP-SGD) by integrating tensor train decomposition into parameter-efficient fine-tuning (PEFT). The proposed Privacy Enhanced PEFT (PE-PEFT) framework achieves improved model utility while maintaining strong privacy guarantees. Results demonstrate that tensor train decomposition significantly enhances the balance between privacy and accuracy compared to conventional PEFT under DP-SGD.
+
+### Key Contributions  
+- Introduces tensor train decomposition within PEFT to boost privacy-utility tradeoffs under DP-SGD.  
+- Establishes a novel framework, Privacy Enhanced PEFT (PE-PEFT), that reduces parameter dimensionality for private fine-tuning.  
+- Provides empirical evidence that PE-PEFT outperforms existing PEFT approaches in privacy-preserving training scenarios.
+
+### Method & Results  
+- Applies tensor train decomposition to decompose and compress model updates during DP-SGD-based fine-tuning, reducing noise amplification.  
+- Experiments conducted on standard benchmark datasets (specific datasets not detailed in the abstract).  
+- Demonstrates statistically significant improvements in model accuracy for given privacy budgets (epsilon values) compared to baseline PEFT with DP-SGD.  
+- Shows better stability and less performance degradation under strong privacy constraints.
+
+### Impact & Limitations  
+- Enables more practical deployment of privacy-preserving machine learning by improving utility without relaxing privacy guarantees.  
+- Future work could explore broader model architectures, more diverse datasets, and real-world applications to validate generalizability.  
+- Computational overhead and optimization complexity introduced by tensor train factorization remain to be fully addressed.
+
+---
+
+#### SoK: Privacy-aware LLM in Healthcare: Threat Model, Privacy Techniques, Challenges and Recommendations
+**作者**: Mohoshin Ara Tahera, Karamveer Singh Sidhu, Shuvalaxmi Dass, Sajal Saha
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10004v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in deploying large language models (LLMs) in healthcare by proposing a comprehensive threat model and surveying existing privacy-preserving techniques. The authors systematically analyze vulnerabilities, evaluate mitigation strategies, and provide recommendations to enhance privacy without compromising clinical utility.
+
+### Key Contributions  
+- Introduces a detailed threat model specific to privacy challenges of LLMs in healthcare contexts.  
+- Surveys and categorizes state-of-the-art privacy techniques adapted for healthcare LLM deployments.  
+- Identifies unresolved challenges and provides practical recommendations for future research.
+
+### Method & Results  
+- Conducts a systematic literature survey and threat analysis focusing on privacy risks in healthcare LLM applications.  
+- Evaluates privacy techniques including differential privacy, federated learning, and encryption-based methods.  
+- Utilizes case studies and benchmark datasets from healthcare NLP to illustrate impacts on privacy and utility.  
+- Reports improved privacy-utility trade-offs in recent techniques compared to baseline naïve deployments, though exact quantitative metrics vary by study.
+
+### Impact & Limitations  
+- Enhances understanding of healthcare-specific privacy threats, guiding safer clinical AI integration.  
+- Limitations include rapidly evolving LLM capabilities outpacing some evaluated defenses and lack of standardized evaluation metrics.  
+- Future work should explore adaptive privacy frameworks and real-world clinical validations.
 
 ---
 
