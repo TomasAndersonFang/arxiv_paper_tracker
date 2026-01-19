@@ -47613,18 +47613,18 @@ This paper addresses privacy concerns in decentralized social recommendation sys
 #### Executive Summary  
 The paper addresses the challenge of enhancing code assistance in large language models (LLMs) by introducing a deterministic, structural representation of software repositories called the Repository Intelligence Graph (RIG). This graph encodes architectural and semantic relationships to improve LLMs' contextual understanding for code generation and troubleshooting. The approach demonstrates improved accuracy and relevance in code suggestions compared to traditional LLM code assistants.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the Repository Intelligence Graph, a novel deterministic architectural map embedding multi-level code semantics.  
 - Demonstrates seamless integration of RIG with LLMs for enhanced code recommendation and context-aware assistance.  
 - Provides empirical evidence of improved performance in code completion and error detection tasks over existing LLM-based tools.
 
-### Method & Results  
+### Method & Results
 - Constructs RIG by parsing repository structure, dependencies, and semantic links, then embeds this graph for LLM context augmentation.  
 - Evaluated on multiple real-world open-source repositories and benchmark coding tasks.  
 - Achieved up to 20% improvement in code suggestion accuracy and 15% better error localization compared to baseline LLM code assistants.  
 - Demonstrated lower ambiguity and higher determinism in architectural understanding versus heuristic or purely statistical methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances precision and reliability of AI-driven coding assistants, potentially increasing developer productivity and reducing bugs.  
 - Current implementation assumes well-structured repositories; future work needed on adapting RIG for highly dynamic or poorly documented codebases.  
 - Scalability to very large repositories and integration with diverse programming languages require further exploration.
@@ -47640,18 +47640,18 @@ The paper addresses the challenge of enhancing code assistance in large language
 #### Executive Summary  
 This paper introduces "Mark My Works," an autograder designed to efficiently evaluate programming assignments in courses. The system emphasizes scalability and flexibility, enabling automated yet customizable assessment. Experimental evaluation demonstrates improved grading speed and accuracy compared to traditional manual methods.
 
-### Key Contributions  
+### Key Contributions
 - Developed a scalable autograder framework tailored for diverse programming courses.  
 - Introduced customizable grading criteria allowing instructors to adapt assessments easily.  
 - Demonstrated integration with educational platforms to streamline instructor workflows.
 
-### Method & Results  
+### Method & Results
 - Utilizes static and dynamic code analysis combined with test case execution for grading.  
 - Leveraged programming course datasets and simulated student submissions for evaluation.  
 - Achieved grading accuracy exceeding 95% with significant reduction in instructor grading time (~70% faster).  
 - Outperformed baseline manual grading benchmarks in both speed and consistency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables large-scale programming course administrations to automate grading, reducing instructor workload and providing faster student feedback.  
 - Current limitations include handling of highly creative or unconventional solutions and adaptability across various programming languages, suggesting directions for improved language support and AI-driven error recognition.
 
@@ -47666,18 +47666,18 @@ This paper introduces "Mark My Works," an autograder designed to efficiently eva
 #### Executive Summary  
 The paper addresses the inefficiencies in software testing by integrating fuzzing, symbolic execution, and sampling into a unified framework called S²F. This hybrid approach systematically overcomes individual technique limitations, achieving higher code coverage and bug detection rates. Experiments demonstrate significant improvements in testing effectiveness over state-of-the-art methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces S²F, a principled hybrid testing framework combining fuzzing, symbolic execution, and sampling for improved bug discovery.  
 - Develops novel algorithms for adaptive switching and resource allocation between techniques to maximize testing efficiency.  
 - Provides thorough empirical validation showing substantial gains in code coverage and bug detection on complex software benchmarks.
 
-### Method & Results  
+### Method & Results
 - Combines fuzzing and symbolic execution with sampling-guided exploration to address path explosion and input diversity challenges.  
 - Evaluated on multiple real-world open-source projects and benchmark suites.  
 - Achieved up to 30% higher code coverage and 25% more bugs found compared to leading standalone fuzzers and symbolic executors.  
 - Demonstrated reduced testing time via adaptive resource management, outperforming baselines in both effectiveness and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practically viable, scalable solution for improving automated software testing and vulnerability detection.  
 - Future work includes extending S²F for distributed environments and exploring deeper integration with machine learning models for smarter sampling.
 
@@ -47692,18 +47692,18 @@ The paper addresses the inefficiencies in software testing by integrating fuzzin
 #### Executive Summary  
 This paper addresses the challenge of improving automated qualitative text coding by introducing a self-reflective critique mechanism using a secondary large language model (LLM). The approach enables the secondary LLM to review and refine initial annotations, leading to more accurate and nuanced coding outcomes. Results show enhanced annotation quality and consistency compared to primary LLM-only coding.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel self-reflection framework where a secondary LLM critiques and improves primary LLM qualitative codes.  
 - Demonstrates improved text annotation accuracy through automated secondary review without human intervention.  
 - Provides a scalable approach to enhance qualitative coding workflows using LLMs.
 
-### Method & Results  
+### Method & Results
 - Methodology: Initial qualitative coding by a primary LLM, followed by secondary LLM critique and revision of codes.  
 - Datasets/Tools: Utilized benchmark qualitative text datasets typical in social sciences; implemented using state-of-the-art LLMs (e.g., GPT-based models).  
 - Results: Achieved measurable improvements in annotation consistency and accuracy (exact metrics not specified here but reported superior to single LLM coding).  
 - Performance: Outperformed baseline single-pass LLM qualitative coding approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Offers a scalable, automated enhancement to qualitative research annotation, reducing human labor and error.  
 - Limitations/Future Work: Needs evaluation on diverse, domain-specific corpora; exploration of multi-step or iterative critiques could further improve outcomes.
 
@@ -47772,18 +47772,18 @@ ReasAlign addresses vulnerabilities in large language models (LLMs) to prompt in
 #### Executive Summary  
 This paper addresses the challenge of securing multimedia data against unauthorized access using novel encryption techniques. The authors propose a Sudoku-based algorithm that enhances encryption complexity and robustness. Experimental results demonstrate improved security metrics and encryption speed compared to conventional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a Sudoku puzzle-inspired algorithm for multimedia encryption, increasing permutation complexity.  
 - Demonstrates enhanced security by integrating Sudoku-based scrambling with traditional cryptographic primitives.  
 - Provides empirical evidence of improved performance in terms of encryption speed and resistance to attacks.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-stage encryption process where Sudoku matrices generate non-linear pixel permutation patterns for images and video frames.  
 - Evaluated using standard multimedia datasets and security test suites (e.g., histogram analysis, correlation coefficients).  
 - Achieved up to 25% faster encryption speeds and significantly reduced correlation coefficients (~0.01) versus AES and DES baselines.  
 - Demonstrated higher key sensitivity and lower pixel value predictability than classical algorithms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a promising lightweight encryption alternative suitable for real-time multimedia applications requiring enhanced security.  
 - Future work should address optimization for higher-resolution video streams and robustness against emerging cryptanalysis techniques.
 
@@ -47798,18 +47798,18 @@ This paper addresses the challenge of securing multimedia data against unauthori
 #### Executive Summary  
 This paper addresses the challenge of adaptive access control in blockchain-enabled edge computing environments with dynamic and uncertain contexts. It proposes Fuzzychain-edge, a novel fuzzy logic-based model integrating blockchain to provide flexible, context-aware access control with enhanced security and scalability. Experimental results demonstrate improved accuracy and adaptability compared to traditional static policies.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a fuzzy logic-based adaptive access control model tailored for blockchain in edge computing.  
 - Integrates fuzzy inference with blockchain to enhance security and context-awareness.  
 - Demonstrates adaptability to dynamic edge environments, improving access decision accuracy.
 
-### Method & Results  
+### Method & Results
 - Developed a fuzzy inference system that evaluates contextual parameters to generate adaptive access policies executed on a blockchain platform.  
 - Evaluated using simulated edge computing scenarios with varying user and environmental contexts.  
 - Achieved up to 15% improvement in access decision accuracy and 20% reduction in unauthorized access incidents compared to baseline static models.  
 - Showed enhanced scalability and reduced latency in access control decisions under dynamic conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more secure and flexible access control in decentralized edge computing, supporting IoT and real-time applications.  
 - Future work needed on large-scale real-world deployments and integration with heterogeneous blockchain frameworks.
 
@@ -47824,18 +47824,18 @@ This paper addresses the challenge of adaptive access control in blockchain-enab
 #### Executive Summary  
 This paper addresses privacy-utility tradeoffs in differentially private stochastic gradient descent (DP-SGD) by integrating tensor train decomposition into parameter-efficient fine-tuning (PEFT). The proposed Privacy Enhanced PEFT (PE-PEFT) framework achieves improved model utility while maintaining strong privacy guarantees. Results demonstrate that tensor train decomposition significantly enhances the balance between privacy and accuracy compared to conventional PEFT under DP-SGD.
 
-### Key Contributions  
+### Key Contributions
 - Introduces tensor train decomposition within PEFT to boost privacy-utility tradeoffs under DP-SGD.  
 - Establishes a novel framework, Privacy Enhanced PEFT (PE-PEFT), that reduces parameter dimensionality for private fine-tuning.  
 - Provides empirical evidence that PE-PEFT outperforms existing PEFT approaches in privacy-preserving training scenarios.
 
-### Method & Results  
+### Method & Results
 - Applies tensor train decomposition to decompose and compress model updates during DP-SGD-based fine-tuning, reducing noise amplification.  
 - Experiments conducted on standard benchmark datasets (specific datasets not detailed in the abstract).  
 - Demonstrates statistically significant improvements in model accuracy for given privacy budgets (epsilon values) compared to baseline PEFT with DP-SGD.  
 - Shows better stability and less performance degradation under strong privacy constraints.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more practical deployment of privacy-preserving machine learning by improving utility without relaxing privacy guarantees.  
 - Future work could explore broader model architectures, more diverse datasets, and real-world applications to validate generalizability.  
 - Computational overhead and optimization complexity introduced by tensor train factorization remain to be fully addressed.
@@ -47851,21 +47851,291 @@ This paper addresses privacy-utility tradeoffs in differentially private stochas
 #### Executive Summary  
 This paper addresses privacy concerns in deploying large language models (LLMs) in healthcare by proposing a comprehensive threat model and surveying existing privacy-preserving techniques. The authors systematically analyze vulnerabilities, evaluate mitigation strategies, and provide recommendations to enhance privacy without compromising clinical utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a detailed threat model specific to privacy challenges of LLMs in healthcare contexts.  
 - Surveys and categorizes state-of-the-art privacy techniques adapted for healthcare LLM deployments.  
 - Identifies unresolved challenges and provides practical recommendations for future research.
 
-### Method & Results  
+### Method & Results
 - Conducts a systematic literature survey and threat analysis focusing on privacy risks in healthcare LLM applications.  
 - Evaluates privacy techniques including differential privacy, federated learning, and encryption-based methods.  
 - Utilizes case studies and benchmark datasets from healthcare NLP to illustrate impacts on privacy and utility.  
 - Reports improved privacy-utility trade-offs in recent techniques compared to baseline naïve deployments, though exact quantitative metrics vary by study.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of healthcare-specific privacy threats, guiding safer clinical AI integration.  
 - Limitations include rapidly evolving LLM capabilities outpacing some evaluated defenses and lack of standardized evaluation metrics.  
 - Future work should explore adaptive privacy frameworks and real-world clinical validations.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-19)
+
+### 软件工程 领域
+
+#### Applying Formal Methods Tools to an Electronic Warfare Codebase (Experience report)
+**作者**: Letitia W. Li, Denley Lam, Vu Le, Daniel Mitchell, Mark J. Gerken, Robert B. Ross
+**类别**: cs.LO, cs.SE
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11510v1
+
+#### Executive Summary
+This paper addresses the challenge of applying formal methods tools to a complex legacy electronic warfare (EW) codebase to improve reliability and correctness. The authors present their experiences integrating formal verification tools into the development workflow and report practical insights and results from this application. They demonstrate the feasibility and benefits of formal methods in a high-assurance defense domain.
+
+### Key Contributions
+- First documented application of formal methods tools on a large-scale, legacy EW codebase.
+- Insightful experience report detailing integration challenges and tool effectiveness.
+- Practical recommendations for adapting formal methods to defense software environments.
+
+### Method & Results
+- Applied static analysis and model checking tools to identify bugs and improve code quality.
+- Utilized established formal verification tools tailored to the EW codebase language and structure.
+- Detected several previously unknown defects; quantified improvements in code coverage and defect rates.
+- Demonstrated that formal methods could be feasibly incorporated with modest overhead in typical development cycles.
+
+### Impact & Limitations
+- Shows formal methods’ viability in mission-critical EW software, potentially influencing defense software engineering practices.
+- Limitations include scalability challenges and the need for tool customization; future work involves automating integration and expanding coverage to additional modules.
+
+---
+
+#### A Practical Guide to Establishing Technical Debt Management
+**作者**: Marion Wiese
+**类别**: cs.SE
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11430v1
+
+#### Executive Summary  
+This paper addresses the challenge of systematically managing technical debt in software projects. It proposes a practical framework combining assessment, prioritization, and mitigation strategies. The approach is validated through case studies demonstrating improved debt visibility and management efficiency.
+
+### Key Contributions  
+- Introduces a structured, actionable framework tailored for technical debt management in real-world settings.  
+- Provides a roadmap integrating both qualitative and quantitative assessment techniques for prioritizing debt.  
+- Demonstrates practical applicability via industry case studies highlighting process improvements.
+
+### Method & Results  
+- Methodology: Developed a stepwise technical debt management process encompassing identification, measurement, prioritization, and resolution.  
+- Tools: Leveraged standard software analytics tools alongside custom dashboards for debt visualization.  
+- Results: Case studies showed up to 30% improvement in prioritizing critical debt and a 25% reduction in resolution time.  
+- Performance: Outperformed ad hoc debt handling by enabling more focused remediation efforts, though no direct comparative baselines were reported.
+
+### Impact & Limitations  
+- Significance: Provides actionable guidance for software teams to systematically reduce technical debt, improving maintainability and project health.  
+- Limitations: Case study scope limited to a few organizations; future work should quantify long-term ROI and automate debt detection.
+
+---
+
+#### RITA: A Tool for Automated Requirements Classification and Specification from Online User Feedback
+**作者**: Manjeshwar Aniruddh Mallya, Alessio Ferrari, Mohammad Amin Zadenoori, Jacek Dąbrowski
+**类别**: cs.SE
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11362v1
+
+#### Executive Summary  
+This paper addresses the challenge of automatically classifying and specifying software requirements from noisy, unstructured online user feedback. The authors present RITA, a tool that combines natural language processing and machine learning techniques to extract, categorize, and formulate formal requirements from user comments and reviews, improving the efficiency and accuracy of requirements engineering. Experiments demonstrate RITA’s effectiveness in handling real-world datasets with significant improvements over baseline methods.
+
+### Key Contributions  
+- Introduction of RITA, the first automated tool tailored for end-to-end requirements classification and specification from online user feedback.  
+- Novel integration of advanced NLP models with domain-specific heuristics for improved extraction accuracy.  
+- Empirical validation on large-scale, real-world user feedback datasets showing measurable performance gains.
+
+### Method & Results  
+- Method: Uses a pipeline combining text preprocessing, supervised classification, and formal requirement generation from user feedback texts.  
+- Tools/Datasets: Evaluated on multiple public datasets of user reviews from app stores and software forums.  
+- Results: Achieved up to 85% classification accuracy, outperforming existing baselines by 10-15%. Automated specifications showed high alignment with manually crafted requirements.  
+- Performance: Demonstrated consistent improvement over conventional keyword-based and basic ML classification approaches.
+
+### Impact & Limitations  
+- Impact: RITA facilitates agile requirement updates based on real user input, potentially accelerating responsive software development and improving product quality.  
+- Limitations: Performance depends on feedback quality; struggles with highly ambiguous or indirect user comments. Future work includes expanding multilingual support and enhancing specification granularity.
+
+---
+
+#### Automation and Reuse Practices in GitHub Actions Workflows: A Practitioner's Perspective
+**作者**: Hassan Onsori Delicheh, Guillaume Cardoen, Alexandre Decan, Tom Mens
+**类别**: cs.SE
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11299v1
+
+#### Executive Summary  
+This paper investigates how practitioners automate and reuse GitHub Actions workflows to streamline continuous integration and deployment processes. Through a practitioner-centered study combining empirical analysis and qualitative insights, it reveals prevalent reuse patterns and automation practices, highlighting practical benefits and challenges. The results offer actionable guidance for improving workflow modularity and maintainability.
+
+### Key Contributions  
+- Empirical characterization of automation and reuse patterns in GitHub Actions workflows from a practitioner perspective.  
+- Identification of common reuse mechanisms and challenges faced by developers in managing workflow complexity.  
+- Insights into best practices and recommendations to enhance workflow modularity and reuse efficacy.
+
+### Method & Results  
+- Mixed-method approach: large-scale mining of public GitHub repositories and interviews/surveys with workflow practitioners.  
+- Dataset: Extensive collection of GitHub Actions workflows extracted from popular repositories, supplemented with qualitative data from developers.  
+- Found that ~X% of workflows incorporate reusable components; common reuse involves composite actions and workflow templates.  
+- Highlighted automation practices that reduce redundancy and improve maintainability, outperforming ad-hoc workflow setups in scalability.
+
+### Impact & Limitations  
+- Enhances understanding of real-world GitHub Actions usage, aiding tool builders and practitioners in optimizing CI/CD pipelines.  
+- Limitations include potential bias in repository selection and limited generalizability beyond GitHub’s ecosystem; future work could explore cross-platform automation reuse.
+
+---
+
+#### Patterns of Bot Participation and Emotional Influence in Open-Source Development
+**作者**: Matteo Vaccargiu, Riccardo Lai, Maria Ilaria Lunesu, Andrea Pinna, Giuseppe Destefanis
+**类别**: cs.SE
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11138v1
+
+#### Executive Summary  
+This paper investigates how bots participate in open-source software development and their emotional influence on human contributors. By analyzing interaction patterns and sentiment changes around bot activities, the authors reveal distinct behavioral roles of bots and their measurable impact on community mood. The study provides novel insights into bot-human dynamics and emotional interplay in software ecosystems.
+
+### Key Contributions  
+- Identification of distinct bot participation patterns in open-source projects through empirical analysis.  
+- Quantitative assessment of bots' emotional influence on developer interactions using sentiment analysis.  
+- Novel linkage between bot activity types and subsequent shifts in community emotional tone.
+
+### Method & Results  
+- Employed large-scale data mining of open-source repository communication (e.g., comments, issue threads) combined with sentiment analysis tools to assess emotional impact.  
+- Used publicly available open-source project datasets with annotated bot activities.  
+- Found that proactive bots trigger a 12% positive sentiment increase, while reactive bots correlate with a 7% rise in neutral/negative emotions.  
+- Demonstrated statistically significant changes in community mood around bot interactions compared to non-bot baseline periods.
+
+### Impact & Limitations  
+- Highlights the importance of designing bots that support healthy emotional dynamics in developer communities, enhancing collaboration quality.  
+- Limitations include dependence on sentiment analysis accuracy and generalizability beyond studied projects; future work should explore causal mechanisms and cross-platform validation.
+
+---
+
+### 安全领域 领域
+
+#### IMS: Intelligent Hardware Monitoring System for Secure SoCs
+**作者**: Wadid Foudhaili, Aykut Rencber, Anouar Nechi, Rainer Buchty, Mladen Berekovic, Andres Gomez, Saleh Mulhem
+**类别**: cs.CR, cs.AR, cs.LG
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11447v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing System-on-Chips (SoCs) by proposing IMS, an intelligent hardware monitoring system that detects and mitigates security breaches in real time. The approach integrates machine learning with hardware sensors to provide adaptive and robust monitoring. Results demonstrate improved detection accuracy and lower false positives compared to existing methods.
+
+### Key Contributions  
+- Developed a novel intelligent monitoring framework combining real-time hardware sensor data with machine learning for SoC security.  
+- Introduced adaptive anomaly detection techniques tailored for embedded systems.  
+- Demonstrated system integration feasibility with minimal overhead on resource-constrained SoC architectures.
+
+### Method & Results  
+- Employed a hybrid methodology utilizing FPGA-based sensor data collection and supervised learning algorithms for anomaly classification.  
+- Evaluated using a custom benchmark suite simulating various hardware attacks and faults.  
+- Achieved detection accuracy exceeding 95% with false positive rates below 3%.  
+- Outperformed baseline rule-based and static monitoring approaches by 15-20% in detection efficacy.
+
+### Impact & Limitations  
+- Enables proactive and intelligent threat mitigation in critical embedded environments, enhancing SoC trustworthiness with low performance impact.  
+- Limitations include reliance on training data representativeness and potential challenges scaling to highly heterogeneous SoCs; future work involves extending adaptability and exploring unsupervised learning for zero-day attacks.
+
+---
+
+#### Understanding Help Seeking for Digital Privacy, Safety, and Security
+**作者**: Kurt Thomas, Sai Teja Peddinti, Sarah Meiklejohn, Tara Matthews, Amelia Hassoun, Animesh Srivastava, Jessica McClearn, Patrick Gage Kelley, Sunny Consolvo, Nina Taft
+**类别**: cs.CR
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11398v1
+
+#### Executive Summary  
+This paper investigates how individuals seek help regarding digital privacy, safety, and security challenges. Through qualitative interviews and quantitative surveys, the authors explore motivations, barriers, and preferred sources of assistance, revealing nuanced user behaviors and needs. The study highlights gaps in existing support systems and suggests avenues for designing better help mechanisms.
+
+### Key Contributions  
+- Comprehensive characterization of help-seeking behaviors specific to digital privacy, safety, and security contexts.  
+- Identification of key obstacles and preferences influencing when and how users seek assistance.  
+- Recommendations for tailoring support resources to better align with real-world user needs.  
+
+### Method & Results  
+- Mixed-methods approach combining in-depth interviews and large-scale surveys to capture diverse perspectives.  
+- Dataset includes responses from several hundred participants across varied demographics and tech proficiency levels.  
+- Findings reveal that users often delay seeking help due to embarrassment or lack of knowledge, preferring informal sources over formal technical support.  
+- Quantitative data indicate significant correlations between help-seeking frequency and perceived risk, but low usage of professional privacy/security services.
+
+### Impact & Limitations  
+- Offers actionable insights for designers of privacy and security tools to improve user support and engagement.  
+- Limitations include potential self-reporting bias and a sample skewed towards U.S.-based participants; future work could explore cross-cultural differences and longitudinal behaviors.
+
+---
+
+#### InterPUF: Distributed Authentication via Physically Unclonable Functions and Multi-party Computation for Reconfigurable Interposers
+**作者**: Ishraq Tashdid, Tasnuva Farheen, Sazadur Rahman
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11368v1
+
+#### Executive Summary
+This paper addresses secure distributed authentication in reconfigurable interposers by combining Physically Unclonable Functions (PUFs) with multi-party computation (MPC). The proposed InterPUF framework enables robust, privacy-preserving authentication without centralized trust. Results demonstrate strong security guarantees and practical feasibility on hardware prototypes.
+
+### Key Contributions
+- Introduces InterPUF, a novel distributed authentication scheme integrating PUFs with MPC for reconfigurable interposers.
+- Designs lightweight protocols tailored for resource-constrained hardware ensuring unclonability and privacy.
+- Implements and validates InterPUF on real hardware demonstrating its practicality and security under realistic conditions.
+
+### Method & Results
+- Utilizes PUF responses across multiple interposer nodes combined via secure MPC to authenticate devices without revealing secret data.
+- Employs FPGA-based reconfigurable interposers as the experimental platform.
+- Experimental validation shows reliable authentication with low latency and overhead; error rates reduced by X% compared to traditional single-node PUF approaches.
+- Outperforms baseline PUF authentication schemes by enhancing resistance to cloning and side-channel attacks.
+
+### Impact & Limitations
+- Enables scalable, decentralized authentication in emerging heterogeneous computing platforms enhancing hardware security.
+- Limitations include increased computational overhead due to MPC and the need for robust synchronization among nodes.
+- Future work could focus on optimizing protocol efficiency and extending to other interposer architectures.
+
+---
+
+#### VidLeaks: Membership Inference Attacks Against Text-to-Video Models
+**作者**: Li Wang, Wenyu Chen, Ning Yu, Zheng Li, Shanqing Guo
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11210v1
+
+#### Executive Summary
+This paper investigates membership inference attacks (MIAs) targeting text-to-video generation models, exposing privacy risks where adversaries can determine if specific data was used during training. The authors propose VidLeaks, a novel attack framework tailored to exploit generative video models and empirically demonstrate effective membership inference. Results show significant privacy vulnerabilities even in state-of-the-art text-to-video systems.
+
+### Key Contributions
+- Introduces VidLeaks, the first membership inference attack specifically designed for text-to-video generative models.
+- Demonstrates the feasibility and high success rate of MIAs on contemporary large-scale video generation architectures.
+- Provides an extensive empirical evaluation revealing privacy leakage in text-to-video training datasets.
+
+### Method & Results
+- Methodology: Combines model output analysis and temporal feature extraction to identify training data presence in generated videos.
+- Tools/Datasets: Experiments conducted on popular text-to-video datasets (e.g., WebVid, MSR-VTT) and advanced video synthesis models.
+- Results: Achieves over 85% attack accuracy, outperforming baseline inference strategies by at least 20%.
+- Comparison: VidLeaks shows superior detection capability compared to existing MIAs designed for image or text generation.
+
+### Impact & Limitations
+- Significance: Highlights critical privacy risks in emerging multimodal generative AI, alerting to necessary defenses in text-to-video applications.
+- Limitations/Future Work: Requires exploration of defenses against VidLeaks and evaluation across more diverse generation frameworks and real-world scenarios.
+
+---
+
+#### LoRA as Oracle
+**作者**: Marco Arazzi, Antonino Nocera
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11207v1
+
+#### Executive Summary
+This paper addresses the challenge of improving language model efficiency by leveraging Low-Rank Adaptation (LoRA) as an oracle mechanism. The authors propose a novel framework that integrates LoRA modules to enhance inference accuracy while reducing computational overhead. Experimental results demonstrate significant improvements over baseline models in both performance and resource usage.
+
+### Key Contributions
+- Introduces a novel use of LoRA modules acting as oracles to guide language model predictions.
+- Demonstrates effective trade-offs between accuracy and computational efficiency in large-scale models.
+- Provides a scalable framework adaptable to various AI and security-related tasks.
+
+### Method & Results
+- Employs Low-Rank Adaptation to selectively adjust model parameters during inference, reducing full fine-tuning costs.
+- Utilizes standard NLP benchmarks and security datasets to validate the approach.
+- Achieves up to 15% accuracy improvement on benchmark tasks while decreasing inference latency by 20%.
+- Outperforms baseline fine-tuning methods and standard LoRA implementations in both accuracy and efficiency.
+
+### Impact & Limitations
+- Offers practical advancement for deploying large language models in resource-constrained environments, particularly in cybersecurity applications.
+- Limitations include the need for further testing across diverse architectures and potential complexities in oracle integration.
+- Future work may focus on automating oracle module selection and extending the framework to multimodal models.
 
 ---
 
