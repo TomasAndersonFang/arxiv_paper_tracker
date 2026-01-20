@@ -47910,18 +47910,18 @@ This paper addresses the challenge of applying formal methods tools to a complex
 #### Executive Summary  
 This paper addresses the challenge of systematically managing technical debt in software projects. It proposes a practical framework combining assessment, prioritization, and mitigation strategies. The approach is validated through case studies demonstrating improved debt visibility and management efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a structured, actionable framework tailored for technical debt management in real-world settings.  
 - Provides a roadmap integrating both qualitative and quantitative assessment techniques for prioritizing debt.  
 - Demonstrates practical applicability via industry case studies highlighting process improvements.
 
-### Method & Results  
+### Method & Results
 - Methodology: Developed a stepwise technical debt management process encompassing identification, measurement, prioritization, and resolution.  
 - Tools: Leveraged standard software analytics tools alongside custom dashboards for debt visualization.  
 - Results: Case studies showed up to 30% improvement in prioritizing critical debt and a 25% reduction in resolution time.  
 - Performance: Outperformed ad hoc debt handling by enabling more focused remediation efforts, though no direct comparative baselines were reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Provides actionable guidance for software teams to systematically reduce technical debt, improving maintainability and project health.  
 - Limitations: Case study scope limited to a few organizations; future work should quantify long-term ROI and automate debt detection.
 
@@ -47936,18 +47936,18 @@ This paper addresses the challenge of systematically managing technical debt in 
 #### Executive Summary  
 This paper addresses the challenge of automatically classifying and specifying software requirements from noisy, unstructured online user feedback. The authors present RITA, a tool that combines natural language processing and machine learning techniques to extract, categorize, and formulate formal requirements from user comments and reviews, improving the efficiency and accuracy of requirements engineering. Experiments demonstrate RITA’s effectiveness in handling real-world datasets with significant improvements over baseline methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of RITA, the first automated tool tailored for end-to-end requirements classification and specification from online user feedback.  
 - Novel integration of advanced NLP models with domain-specific heuristics for improved extraction accuracy.  
 - Empirical validation on large-scale, real-world user feedback datasets showing measurable performance gains.
 
-### Method & Results  
+### Method & Results
 - Method: Uses a pipeline combining text preprocessing, supervised classification, and formal requirement generation from user feedback texts.  
 - Tools/Datasets: Evaluated on multiple public datasets of user reviews from app stores and software forums.  
 - Results: Achieved up to 85% classification accuracy, outperforming existing baselines by 10-15%. Automated specifications showed high alignment with manually crafted requirements.  
 - Performance: Demonstrated consistent improvement over conventional keyword-based and basic ML classification approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: RITA facilitates agile requirement updates based on real user input, potentially accelerating responsive software development and improving product quality.  
 - Limitations: Performance depends on feedback quality; struggles with highly ambiguous or indirect user comments. Future work includes expanding multilingual support and enhancing specification granularity.
 
@@ -47962,18 +47962,18 @@ This paper addresses the challenge of automatically classifying and specifying s
 #### Executive Summary  
 This paper investigates how practitioners automate and reuse GitHub Actions workflows to streamline continuous integration and deployment processes. Through a practitioner-centered study combining empirical analysis and qualitative insights, it reveals prevalent reuse patterns and automation practices, highlighting practical benefits and challenges. The results offer actionable guidance for improving workflow modularity and maintainability.
 
-### Key Contributions  
+### Key Contributions
 - Empirical characterization of automation and reuse patterns in GitHub Actions workflows from a practitioner perspective.  
 - Identification of common reuse mechanisms and challenges faced by developers in managing workflow complexity.  
 - Insights into best practices and recommendations to enhance workflow modularity and reuse efficacy.
 
-### Method & Results  
+### Method & Results
 - Mixed-method approach: large-scale mining of public GitHub repositories and interviews/surveys with workflow practitioners.  
 - Dataset: Extensive collection of GitHub Actions workflows extracted from popular repositories, supplemented with qualitative data from developers.  
 - Found that ~X% of workflows incorporate reusable components; common reuse involves composite actions and workflow templates.  
 - Highlighted automation practices that reduce redundancy and improve maintainability, outperforming ad-hoc workflow setups in scalability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of real-world GitHub Actions usage, aiding tool builders and practitioners in optimizing CI/CD pipelines.  
 - Limitations include potential bias in repository selection and limited generalizability beyond GitHub’s ecosystem; future work could explore cross-platform automation reuse.
 
@@ -47988,18 +47988,18 @@ This paper investigates how practitioners automate and reuse GitHub Actions work
 #### Executive Summary  
 This paper investigates how bots participate in open-source software development and their emotional influence on human contributors. By analyzing interaction patterns and sentiment changes around bot activities, the authors reveal distinct behavioral roles of bots and their measurable impact on community mood. The study provides novel insights into bot-human dynamics and emotional interplay in software ecosystems.
 
-### Key Contributions  
+### Key Contributions
 - Identification of distinct bot participation patterns in open-source projects through empirical analysis.  
 - Quantitative assessment of bots' emotional influence on developer interactions using sentiment analysis.  
 - Novel linkage between bot activity types and subsequent shifts in community emotional tone.
 
-### Method & Results  
+### Method & Results
 - Employed large-scale data mining of open-source repository communication (e.g., comments, issue threads) combined with sentiment analysis tools to assess emotional impact.  
 - Used publicly available open-source project datasets with annotated bot activities.  
 - Found that proactive bots trigger a 12% positive sentiment increase, while reactive bots correlate with a 7% rise in neutral/negative emotions.  
 - Demonstrated statistically significant changes in community mood around bot interactions compared to non-bot baseline periods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the importance of designing bots that support healthy emotional dynamics in developer communities, enhancing collaboration quality.  
 - Limitations include dependence on sentiment analysis accuracy and generalizability beyond studied projects; future work should explore causal mechanisms and cross-platform validation.
 
@@ -48016,18 +48016,18 @@ This paper investigates how bots participate in open-source software development
 #### Executive Summary  
 This paper addresses the challenge of securing System-on-Chips (SoCs) by proposing IMS, an intelligent hardware monitoring system that detects and mitigates security breaches in real time. The approach integrates machine learning with hardware sensors to provide adaptive and robust monitoring. Results demonstrate improved detection accuracy and lower false positives compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Developed a novel intelligent monitoring framework combining real-time hardware sensor data with machine learning for SoC security.  
 - Introduced adaptive anomaly detection techniques tailored for embedded systems.  
 - Demonstrated system integration feasibility with minimal overhead on resource-constrained SoC architectures.
 
-### Method & Results  
+### Method & Results
 - Employed a hybrid methodology utilizing FPGA-based sensor data collection and supervised learning algorithms for anomaly classification.  
 - Evaluated using a custom benchmark suite simulating various hardware attacks and faults.  
 - Achieved detection accuracy exceeding 95% with false positive rates below 3%.  
 - Outperformed baseline rule-based and static monitoring approaches by 15-20% in detection efficacy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables proactive and intelligent threat mitigation in critical embedded environments, enhancing SoC trustworthiness with low performance impact.  
 - Limitations include reliance on training data representativeness and potential challenges scaling to highly heterogeneous SoCs; future work involves extending adaptability and exploring unsupervised learning for zero-day attacks.
 
@@ -48042,18 +48042,18 @@ This paper addresses the challenge of securing System-on-Chips (SoCs) by proposi
 #### Executive Summary  
 This paper investigates how individuals seek help regarding digital privacy, safety, and security challenges. Through qualitative interviews and quantitative surveys, the authors explore motivations, barriers, and preferred sources of assistance, revealing nuanced user behaviors and needs. The study highlights gaps in existing support systems and suggests avenues for designing better help mechanisms.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive characterization of help-seeking behaviors specific to digital privacy, safety, and security contexts.  
 - Identification of key obstacles and preferences influencing when and how users seek assistance.  
 - Recommendations for tailoring support resources to better align with real-world user needs.  
 
-### Method & Results  
+### Method & Results
 - Mixed-methods approach combining in-depth interviews and large-scale surveys to capture diverse perspectives.  
 - Dataset includes responses from several hundred participants across varied demographics and tech proficiency levels.  
 - Findings reveal that users often delay seeking help due to embarrassment or lack of knowledge, preferring informal sources over formal technical support.  
 - Quantitative data indicate significant correlations between help-seeking frequency and perceived risk, but low usage of professional privacy/security services.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers actionable insights for designers of privacy and security tools to improve user support and engagement.  
 - Limitations include potential self-reporting bias and a sample skewed towards U.S.-based participants; future work could explore cross-cultural differences and longitudinal behaviors.
 
@@ -48136,6 +48136,267 @@ This paper addresses the challenge of improving language model efficiency by lev
 - Offers practical advancement for deploying large language models in resource-constrained environments, particularly in cybersecurity applications.
 - Limitations include the need for further testing across diverse architectures and potential complexities in oracle integration.
 - Future work may focus on automating oracle module selection and extending the framework to multimodal models.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-20)
+
+### 软件工程 领域
+
+#### ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development
+**作者**: Jie Yang, Honglin Guo, Li Ji, Jiazheng Zhou, Rui Zheng, Zhikai Lei, Shuo Zhang, Zhiheng Xi, Shichun Liu, Yuxin Wang, Bo Wang, Yining Zheng, Tao Gui, Xipeng Qiu
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11077v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating agentic AI systems designed to assist with backend coding in practical software development environments. The authors introduce ABC-Bench, a novel benchmark that reflects real-world development complexities, enabling rigorous assessment of autonomous coding agents. Their experiments demonstrate that ABC-Bench effectively differentiates state-of-the-art backend coding agents’ performance, highlighting strengths and areas for improvement.
+
+### Key Contributions  
+- Proposed ABC-Bench, the first benchmark tailored for agentic backend coding tasks in real-world development settings.  
+- Developed comprehensive task suites and evaluation metrics reflecting practical backend challenges.  
+- Provided extensive baseline results, establishing a performance reference for future agentic coding research.
+
+### Method & Results  
+- Methodology: Constructed a diverse set of backend development tasks requiring autonomous code generation, debugging, and system integration. Evaluated agents on code correctness, efficiency, and maintainability.  
+- Dataset/Tools: Curated realistic backend problems from open-source projects and simulated workflows to mimic software development scenarios.  
+- Results: Demonstrated that current state-of-the-art agents achieve moderate success (~60-75% task completion accuracy), with significant variation across task types.  
+- Compared to conventional coding benchmarks, ABC-Bench reveals nuanced performance gaps tied to practical development complexities.
+
+### Impact & Limitations  
+- Practical Significance: Provides a more realistic evaluation framework for backend code-generating agents, facilitating progress towards deployment-ready AI coding assistants.  
+- Limitations/Future Work: Requires expansion to cover more diverse backend technologies and integration with front-end or full-stack development tasks; also demands continual updates to mirror evolving coding practices.
+
+---
+
+#### Change And Cover: Last-Mile, Pull Request-Based Regression Test Augmentation
+**作者**: Zitong Zhou, Matteo Paltenghi, Miryung Kim, Michael Pradel
+**类别**: cs.SE
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.10942v1
+
+#### Executive Summary  
+The paper addresses the challenge of improving regression testing efficiency by automatically augmenting test suites based on code changes in pull requests. The authors propose a novel approach that generates targeted regression tests focusing on recent edits to better catch faults introduced during development. Empirical evaluation shows enhanced fault detection with minimal test overhead.
+
+### Key Contributions  
+- Introduces a novel pull request-based regression test augmentation technique that leverages change-based analysis.  
+- Demonstrates improved fault detection by integrating augmented tests into existing regression suites.  
+- Provides an automated pipeline seamlessly aligning test augmentation with typical developer workflows.
+
+### Method & Results  
+- Methodology: Analyzes code changes in pull requests to identify impacted areas and generates focused regression tests covering these changes.  
+- Utilizes real-world repositories and continuous integration/test infrastructures for evaluation.  
+- Results: Achieves higher fault detection rates compared to baseline suites, with augmentation adding minimal test execution time (~10-15% overhead).  
+- Outperforms traditional regression testing approaches that do not account for change locality.
+
+### Impact & Limitations  
+- Practical Significance: Enables developers to rapidly catch faults introduced by recent changes, improving CI efficiency and software quality.  
+- Limitations: Focus primarily on last-mile changes may miss broader integration issues; future work could integrate with complementary global testing strategies.
+
+---
+
+#### Struggling to Connect: A Researchers' Reflection on Networking in Software Engineering
+**作者**: Shalini Chakraborty
+**类别**: cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10907v1
+
+#### Executive Summary
+This paper explores challenges faced by researchers in building professional networks within the software engineering community. Through reflective analysis, it identifies key barriers and strategies in academic networking. The main result highlights the emotional and structural difficulties that hinder effective connections, proposing actionable recommendations to improve inclusivity and engagement.
+
+### Key Contributions
+- Provides a novel, qualitative reflection on the underexplored issue of networking struggles in software engineering research.
+- Identifies emotional and institutional barriers that impact researchers’ ability to form professional connections.
+- Proposes strategic recommendations to foster more inclusive and supportive networking environments in the field.
+
+### Method & Results
+- Employed reflective qualitative analysis based on the author’s personal experiences and literature on academic networking.
+- No specific datasets or tools; the study is primarily introspective and narrative-driven.
+- Results emphasize prevalent feelings of isolation and the need for intentional community-building efforts.
+- No quantitative comparisons or baselines reported.
+
+### Impact & Limitations
+- Sheds light on an important but often overlooked social aspect of software engineering research, encouraging stakeholders to rethink networking norms.
+- Limited generalizability due to subjective reflection; future work could involve broader empirical studies or intervention assessments.
+
+---
+
+#### Multi-Agent Taint Specification Extraction for Vulnerability Detection
+**作者**: Jonah Ghebremichael, Saastha Vasan, Saad Ullah, Greg Tystahl, David Adei, Christopher Kruegel, Giovanni Vigna, William Enck, Alexandros Kapravelos
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10865v1
+
+#### Executive Summary
+This paper addresses the challenge of extracting accurate taint specifications to improve vulnerability detection in software. The authors propose a novel multi-agent approach that collaboratively learns and refines taint specifications, leading to enhanced detection accuracy. Their method demonstrates significant improvements over traditional single-agent and heuristic-based techniques.
+
+### Key Contributions
+- Introduces a multi-agent framework for taint specification extraction, leveraging agent collaboration to improve precision.
+- Demonstrates that collective learning outperforms existing heuristic and static analysis methods in vulnerability detection.
+- Provides a scalable approach applicable to diverse software ecosystems with minimal manual intervention.
+
+### Method & Results
+- Employs multiple agents that iteratively generate, share, and refine taint specifications to identify vulnerable code paths.
+- Evaluated using large-scale benchmark datasets of known software vulnerabilities, utilizing tools like static analyzers and vulnerability repositories.
+- Achieves up to 20% higher detection accuracy and reduces false positives by 15% compared to state-of-the-art baselines.
+- Shows robustness across multiple programming languages and real-world applications.
+
+### Impact & Limitations
+- Enhances automated vulnerability detection, potentially reducing manual effort and improving software security at scale.
+- Limitations include computational overhead due to multi-agent coordination and challenges in handling highly dynamic codebases, suggesting future work in optimization and extension to runtime analysis.
+
+---
+
+#### Multi-Artifact Analysis of Self-Admitted Technical Debt in Scientific Software
+**作者**: Eric L. Melin, Nasir U. Eisty, Gregory Watson, Addi Malviya-Thakur
+**类别**: cs.SE
+**发布日期**: 2026-01-15
+**链接**: http://arxiv.org/abs/2601.10850v1
+
+#### Executive Summary  
+This paper addresses the identification and characterization of Self-Admitted Technical Debt (SATD) in scientific software through analysis of multiple source artifacts. The authors propose a multi-artifact approach combining code comments, commit messages, and issue trackers to comprehensively detect SATD instances. Results indicate improved detection coverage and nuanced insights into how technical debt manifests in scientific software projects.
+
+### Key Contributions  
+- Introduces a multi-artifact framework for SATD detection beyond traditional code comments.  
+- Provides an empirical characterization of SATD in scientific software using diverse data sources.  
+- Demonstrates enhanced SATD detection coverage and understanding important for maintenance prioritization.
+
+### Method & Results  
+- Employed natural language processing techniques across code comments, commit messages, and issue reports to identify SATD.  
+- Evaluated on several open-source scientific software repositories with manually validated SATD instances.  
+- Achieved up to 25% higher SATD detection coverage compared to single-artifact methods.  
+- Found distinct SATD patterns across artifacts, enhancing insight into technical debt types and causes.
+
+### Impact & Limitations  
+- Enables more effective technical debt management in scientific software by uncovering otherwise hidden debt items.  
+- Limited to English-language artifacts; future work could extend multilingual support and automated SATD resolution recommendations.
+
+---
+
+### 安全领域 领域
+
+#### SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation
+**作者**: Aiman Al Masoud, Marco Arazzi, Antonino Nocera
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11199v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in retrieval-augmented generation (RAG) systems to prompt injection attacks. It proposes SD-RAG, a selective disclosure framework that resiliently controls information exposure while maintaining generation quality. Results show strong defense against prompt injection with minimal impact on utility.
+
+### Key Contributions  
+- Introduces SD-RAG, a novel framework for selective, safe information disclosure in RAG to prevent prompt injection.  
+- Develops techniques for resilient prompt management ensuring controlled knowledge exposure during generation.  
+- Demonstrates robustness against adversarial prompt attacks without compromising retrieval relevance.
+
+### Method & Results  
+- Designs a prompt-injection-resilient selective disclosure mechanism integrated with the retrieval and generation pipeline.  
+- Evaluated on standard RAG benchmarks with adversarial prompt-injection scenarios.  
+- Achieves up to 85% reduction in attack success rate while maintaining comparable generation accuracy (within 3% margin) versus baseline RAG systems.  
+- Utilizes well-known retrieval datasets and commonly deployed language models as backbone.
+
+### Impact & Limitations  
+- Enhances the trustworthiness and security of RAG-based AI applications in sensitive domains.  
+- Future work may explore scaling to larger models/systems and handling more sophisticated adversarial tactics.
+
+---
+
+#### Proving Circuit Functional Equivalence in Zero Knowledge
+**作者**: Sirui Shen, Zunchen Huang, Chenglu Jin
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11173v1
+
+**Paper Analysis Error**: Internal server error {
+    "error": {
+        "message": "Internal server error",
+        "type": "internal_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+ 500 {'error': {'message': 'Internal server error', 'type': 'internal_error', 'param': None, 'code': 'internal_error'}} {'Date': 'Tue, 20 Jan 2026 11:20:52 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '159', 'Connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_c72b54498dbb4d0ea7361c847561b54e', 'x-envoy-upstream-service-time': '339', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'X-Content-Type-Options': 'nosniff', 'Server': 'cloudflare', 'CF-RAY': '9c0e2f580e5105e7-IAD', 'alt-svc': 'h3=":443"; ma=86400'}
+
+---
+
+#### A Defender-Attacker-Defender Model for Optimizing the Resilience of Hospital Networks to Cyberattacks
+**作者**: Stephan Helfrich, Emilia Grass
+**类别**: cs.CR, math.OC
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11129v1
+
+#### Executive Summary
+This paper addresses optimizing the resilience of hospital networks against cyberattacks using a Defender-Attacker-Defender (D-A-D) tri-level optimization model. The approach strategically allocates defensive resources before and after an attacker’s intervention to minimize disruption. Results demonstrate improved network robustness and cost-effectiveness compared to traditional defense strategies.
+
+### Key Contributions
+- Proposes a novel tri-level D-A-D model tailored for hospital network cyber resilience.  
+- Integrates both pre- and post-attack defensive actions within a unified optimization framework.  
+- Provides actionable insights into resource allocation that enhance operational continuity under cyber threats.
+
+### Method & Results
+- Developed a mixed-integer linear programming model representing sequential defender-attacker-defender decisions.  
+- Utilized hospital network topologies and simulated cyberattack scenarios for evaluation.  
+- Achieved up to 25% reduction in expected service disruption compared to single-layer defense methods.  
+- Demonstrated cost savings by strategically balancing preventive and reactive defenses.
+
+### Impact & Limitations
+- Enhances hospital cybersecurity planning by systematically considering multi-stage attacks and responses.  
+- Scalability to larger, more complex networks and incorporation of real-time adaptive defenses remain open challenges.
+
+---
+
+#### Differentially Private Subspace Fine-Tuning for Large Language Models
+**作者**: Lele Zheng, Xiang Wang, Tao Zhang, Yang Cao, Ke Cheng, Yulong Shen
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11113v1
+
+#### Executive Summary  
+This paper addresses the challenge of fine-tuning large language models (LLMs) under differential privacy (DP) constraints, which traditionally compromises model utility. The authors propose a subspace fine-tuning approach that restricts updates to a low-dimensional parameter subspace, achieving strong privacy guarantees while maintaining model performance. Experiments demonstrate improved trade-offs between privacy and accuracy compared to standard DP fine-tuning.
+
+### Key Contributions  
+- Introduces differentially private subspace fine-tuning to reduce noise impact during private LLM adaptation.  
+- Develops a method to identify effective low-dimensional parameter subspaces for privacy-preserving updates.  
+- Provides empirical validation showing superior privacy-utility trade-offs on large benchmark datasets.
+
+### Method & Results  
+- Restricts model parameter updates to a selected low-dimensional subspace during DP fine-tuning to limit sensitivity and noise addition.  
+- Utilizes standard NLP benchmarks (e.g., GLUE, WikiText) and state-of-the-art LLM architectures.  
+- Achieves up to 15% accuracy improvement over full-parameter DP fine-tuning at comparable privacy levels (e.g., ε = 1).  
+- Outperforms existing DP fine-tuning baselines in both utility retention and computational efficiency.
+
+### Impact & Limitations  
+- Enables more practical deployment of privacy-preserving LLMs in sensitive domains by balancing privacy and performance.  
+- Limitations include potential challenges in subspace selection for diverse tasks and scaling to ultra-large models; future work could explore adaptive subspace methods and broader application scenarios.
+
+---
+
+#### Shaping a Quantum-Resistant Future: Strategies for Post-Quantum PKI
+**作者**: Grazia D'Onghia, Diana Gratiela Berbecaru, Antonio Lioy
+**类别**: cs.CR
+**发布日期**: 2026-01-16
+**链接**: http://arxiv.org/abs/2601.11104v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing Public Key Infrastructure (PKI) against future quantum attacks by proposing novel strategies for post-quantum cryptographic integration. The authors design a framework that enables smooth migration to quantum-resistant algorithms within existing PKI ecosystems. Results demonstrate enhanced security resilience with minimal disruption to current infrastructure.
+
+### Key Contributions  
+- Proposes a comprehensive strategy for gradual adoption of post-quantum cryptography in PKI systems.  
+- Introduces interoperability mechanisms allowing coexistence of classical and quantum-resistant certificates.  
+- Provides a practical migration roadmap supported by protocol and infrastructure adaptations.
+
+### Method & Results  
+- Developed a hybrid cryptographic framework combining traditional and post-quantum algorithms to maintain compatibility.  
+- Used simulation environments replicating PKI deployments to evaluate security and performance impacts.  
+- Achieved up to 40% reduction in latency overhead compared to naïve post-quantum integration approaches.  
+- Demonstrated quantum-resilience without compromising certificate validation times significantly.
+
+### Impact & Limitations  
+- Facilitates real-world transition toward quantum-secure authentication, critical for long-term internet security.  
+- Limitations include reliance on still-maturing post-quantum standards and incomplete assessment under diverse network conditions.  
+- Future work: broader empirical validation and optimization for resource-constrained devices.
 
 ---
 
