@@ -48723,19 +48723,19 @@ This paper investigates the failure modes of AI coding agents by analyzing faile
 #### Executive Summary  
 This study benchmarks large language models (LLMs) on ABAP code generation, exploring iterative refinement using compiler feedback to improve code correctness. The approach integrates automated compiler diagnostics into the generation loop, leading to enhanced code quality over standard one-shot generation. Results show measurable gains in functional ABAP code production through iterative correction cycles.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an iterative ABAP code generation framework leveraging compiler feedback for refinement.  
 - Provides a comprehensive benchmark suite evaluating LLMs on ABAP code tasks with empirical analysis.  
 - Demonstrates that compiler-guided iterations substantially improve code correctness beyond initial outputs.
 
-### Method & Results  
+### Method & Results
 - Utilizes multiple state-of-the-art LLMs fine-tuned or prompted for ABAP code generation tasks.  
 - Employs an iterative correction loop where compiler error messages guide successive prompts to the model.  
 - Dataset: Custom benchmark composed of diverse ABAP coding challenges representative of enterprise scenarios.  
 - Results: Iterative approach increased error-free generated code rates by up to 35% compared to baseline single-pass generation.  
 - Performance notably surpasses vanilla generation approaches without feedback incorporation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable method to improve domain-specific code quality via compiler feedback integration, aiding real-world ABAP development automation.  
 - Limitations include reliance on compiler feedback quality and potential inefficiency from multiple generation passes; future work could optimize iteration strategies and extend to other programming languages.
 
@@ -48776,18 +48776,18 @@ The paper addresses the challenge of detecting security vulnerabilities in softw
 #### Executive Summary  
 This paper investigates why authors and maintainers of PyPI libraries choose to link—or not link—their packages to external code repositories and donation platforms. Using a mixed-methods approach combining quantitative analysis of PyPI metadata and qualitative surveys, the authors reveal motivations and barriers influencing these linking behaviors.
 
-### Key Contributions  
+### Key Contributions
 - Unveils nuanced reasons behind the presence or absence of repository and donation links in PyPI packages.  
 - Provides empirical evidence on the extent of linking practices across a broad set of Python libraries.  
 - Introduces a framework categorizing the motivations and deterrents related to linking decisions.
 
-### Method & Results  
+### Method & Results
 - Quantitative analysis of PyPI metadata for over 50,000 packages to assess prevalence of links to repositories and donation pages.  
 - Survey and interviews with 100+ package authors and maintainers to gather qualitative insights.  
 - Findings indicate less than 40% of packages link to donation platforms, while over 75% link to code repositories; key motivators include visibility, trust, and sustainability concerns.  
 - Identifies privacy concerns, maintenance overhead, and lack of awareness as principal barriers.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical guidance for package maintainers on improving project sustainability and user trust through linking practices.  
 - Limitations include potential self-selection bias in surveys and focus on Python ecosystem; future work could expand to other package managers and integrate automated tooling recommendations.
 
@@ -48804,18 +48804,18 @@ This paper investigates why authors and maintainers of PyPI libraries choose to 
 #### Executive Summary  
 This paper addresses the challenge of network attack detection within IoT environments by leveraging lightweight large language models (LLMs). The authors propose a resource-efficient LLM-based approach tailored for IoT network constraints, demonstrating effective detection capabilities with reduced computational overhead. Experimental results confirm enhanced detection accuracy while maintaining low latency suitable for IoT devices.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a novel lightweight LLM architecture customized for network attack detection in resource-constrained IoT networks.  
 - Demonstration of effective intrusion detection balancing detection accuracy and computational efficiency.  
 - Empirical validation of the approach on realistic IoT network traffic datasets highlighting practical deployment potential.
 
-### Method & Results  
+### Method & Results
 - Developed a compact LLM model architecture optimized for constrained IoT environments, utilizing specialized embedding and pruning techniques.  
 - Evaluated on standard IoT network security datasets, such as NSL-KDD and Bot-IoT, using classification metrics.  
 - Achieved detection accuracy improvements up to 5% over traditional machine learning baselines, with inference latency reduced by approximately 30%.  
 - Performance surpasses classical methods like SVM and Random Forests while maintaining a significantly smaller model size.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of advanced attack detection in IoT devices with limited memory and compute resources, enhancing network security at the edge.  
 - Future work needed to extend model robustness against evolving attack patterns and to evaluate scalability across diverse IoT architectures.
 
@@ -48830,31 +48830,16 @@ This paper addresses the challenge of network attack detection within IoT enviro
 #### Executive Summary  
 This paper addresses the challenge of maintaining robust anomaly detection in dynamic 5G network environments using deep learning. It proposes a dynamic management framework that adapts model parameters and data inputs in real-time to improve detection accuracy and system resilience. Experiments demonstrate enhanced anomaly detection performance and adaptability over static models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a dynamic management approach for adjusting deep learning models in evolving 5G network conditions.  
 - Develops a system that integrates continuous monitoring and adaptive retraining for anomaly detection.  
 - Validates the model's improved detection accuracy and robustness against real-world 5G network anomalies.
 
-### Method & Results  
+### Method & Results
 - Utilizes a deep learning-based anomaly detector with dynamic adaptation via feedback loops adjusting model parameters based on incoming data streams.  
 - Employs publicly available 5G network traffic datasets augmented with synthetic anomalies for training and evaluation.  
 - Achieves an increase of up to 12% in detection accuracy compared to static baselines, with reduced false positive rates.  
 - Demonstrates superior adaptability to network changes versus fixed-model approaches.
-
-### Impact & Limitations  
-- Provides a practical framework to enhance security and reliability in 5G network operations through real-time anomaly detection.  
-- Future work needed to extend evaluation to larger-scale deployments and incorporate multi-source data fusion for richer context.
-
----
-
-#### SAGA: Detecting Security Vulnerabilities Using Static Aspect Analysis
-**作者**: Yoann Marquer, Domenico Bianculli, Lionel C. Briand
-**类别**: cs.SE, cs.CR
-**发布日期**: 2026-01-21
-**链接**: http://arxiv.org/abs/2601.15154v1
-
-#### Executive Summary
-This paper addresses the challenge of detecting security vulnerabilities in software through static analysis. It introduces SAGA, a novel static aspect-oriented approach that improves vulnerability detection precision and scalability. Experimental evaluation demonstrates SAGA’s effectiveness in identifying a broader range of vulnerabilities compared to existing static analysis tools.
 
 ### Key Contributions
 - Proposes SAGA, the first framework integrating static aspect-oriented programming techniques for vulnerability detection.
@@ -48882,18 +48867,18 @@ This paper addresses the challenge of detecting security vulnerabilities in soft
 #### Executive Summary  
 This paper addresses security vulnerabilities in federated learning (FL) by introducing SpooFL, a novel attack framework that systematically spoofs client updates to subvert the global model. The authors design and evaluate attack strategies demonstrating significant degradation in model performance, revealing new risks in FL systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SpooFL, the first comprehensive spoofing attack framework targeting FL systems.  
 - Demonstrates effective manipulation of global model updates with minimal attacker knowledge.  
 - Provides a detailed empirical evaluation across multiple datasets and FL settings to quantify attack impact.
 
-### Method & Results  
+### Method & Results
 - Develops spoofing strategies that craft malicious client updates bypassing anomaly detection.  
 - Evaluates on standard FL image classification datasets (e.g., CIFAR-10) using commonly adopted FL algorithms.  
 - SpooFL reduces global model accuracy by up to 30% compared to benign training.  
 - Outperforms existing poisoning and backdoor attack baselines in stealthiness and damage inflicted.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks in FL, motivating improved defense mechanisms for real-world deployment.  
 - Limitations include focus on image classification; future work should explore other modalities and defenses against spoofing.
 
@@ -48908,20 +48893,128 @@ This paper addresses security vulnerabilities in federated learning (FL) by intr
 #### Executive Summary  
 This paper investigates the effectiveness of using mempool-based transaction auditing in blockchain systems to detect and prevent double-spending attacks and other frauds. The authors propose an analytical framework and perform rigorous experiments to evaluate auditing accuracy and timeliness. Results demonstrate that mempool auditing can significantly enhance transaction monitoring but depends heavily on network conditions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a formal framework for mempool-based transaction auditing to detect double-spending in real-time.  
 - Presents a comprehensive empirical evaluation of auditing effectiveness across multiple blockchain platforms.  
 - Identifies key factors influencing the reliability and latency of auditing mechanisms under various network scenarios.
 
-### Method & Results  
+### Method & Results
 - Analytical modeling combined with large-scale simulation of blockchain mempool behaviors.  
 - Dataset: Transaction mempool data collected from prominent blockchains (e.g., Bitcoin, Ethereum).  
 - Achieved detection rates above 85% for double-spending attempts with average latency under 200 milliseconds.  
 - Outperforms baseline heuristic methods by 20-30% in detection accuracy and reduces false positives.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more robust transaction verification for exchanges, payment processors, and wallets leveraging mempool data.  
 - Limited by network latency variability and incomplete mempool visibility; future work needed on adaptive auditing for heterogeneous networks.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-23)
+
+### 软件工程 领域
+
+#### Towards a Goal-Centric Assessment of Requirements Engineering Methods for Privacy by Design
+**作者**: Oleksandr Kosenkov, Ehsan Zabardast, Jannik Fischbach, Tony Gorschek, Daniel Mendez
+**类别**: cs.SE, cs.CY
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.16080v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Role of Cognitive Abilities in Requirements Inspection: Comparing UML and Textual Representations
+**作者**: Giovanna Broccia, Sira Vegas, Alessio Ferrari
+**类别**: cs.SE
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.16009v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating and Achieving Controllable Code Completion in Code LLM
+**作者**: Jiajun Zhang, Zeyu Cui, Lei Zhang, Jian Yang, Jiaxi Yang, Qiang Liu, Zilei Wang, Binyuan Hui, Liang Wang, Junyang Lin
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15879v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers
+**作者**: Mathew Duong, Michael Chesser, Guy Farrelly, Surya Nepal, Damith C. Ranasinghe
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15774v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Benchmarking Text-to-Python against Text-to-SQL: The Impact of Explicit Logic and Ambiguity
+**作者**: Hangle Hu, Chenyu Hou, Bin Cao, Ruizhe Li
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15728v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### PAL*M: Property Attestation for Large Generative Models
+**作者**: Prach Chantasantitam, Adam Ilyas Caulfield, Vasisht Duddu, Lachlan J. Gunn, N. Asokan
+**类别**: cs.CR
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.16199v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CONTEX-T: Contextual Privacy Exploitation via Transformer Spectral Analysis for IoT Device Fingerprinting
+**作者**: Nazmul Islam, Mohammad Zulkernine
+**类别**: cs.CR
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.16160v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Learning to Watermark in the Latent Space of Generative Models
+**作者**: Sylvestre-Alvise Rebuffi, Tuan Tran, Valeriu Lacatusu, Pierre Fernandez, Tomáš Souček, Nikola Jovanović, Tom Sander, Hady Elsahar, Alexandre Mourachko
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.16140v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Introducing the Generative Application Firewall (GAF)
+**作者**: Joan Vendrell Farreny, Martí Jordà Roca, Miquel Cornudella Gaya, Rodrigo Fernández Baón, Víctor García Martínez, Eduard Camacho Sucarrat, Alessandro Pignati
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15824v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers
+**作者**: Mathew Duong, Michael Chesser, Guy Farrelly, Surya Nepal, Damith C. Ranasinghe
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15774v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
