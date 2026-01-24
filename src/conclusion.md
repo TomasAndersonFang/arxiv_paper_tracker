@@ -49018,3 +49018,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-24)
+
+### 软件工程 领域
+
+#### FARM: Field-Aware Resolution Model for Intelligent Trigger-Action Automation
+**作者**: Khusrav Badalov, Young Yoon
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15687v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Testing Deep Learning Libraries via Neurosymbolic Constraint Learning
+**作者**: M M Abid Naziri, Shinhae Kim, Feiran Qin, Marcelo d'Amorim, Saikat Dutta
+**类别**: cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15493v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Parameter-Efficient Multi-Task Fine-Tuning in Code-Related Tasks
+**作者**: Md Zahidul Haque, Saima Afrin, Antonio Mastropaolo
+**类别**: cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15094v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DeLog: An Efficient Log Compression Framework with Pattern Signature Synthesis
+**作者**: Siyu Yu, Yifan Wu, Junjielong Xu, Ying Fu, Ning Wang, Maoyin Liu, Pancheng Jiang, Xiang Zhang, Tong Jia, Pinjia He, Ying Li
+**类别**: cs.SE, cs.OS
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15084v2
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SmartOracle -- An Agentic Approach to Mitigate Noise in Differential Oracles
+**作者**: Srinath Srinivasan, Tim Menzies, Marcelo D'Amorim
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15074v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### CAFE-GB: Scalable and Stable Feature Selection for Malware Detection via Chunk-wise Aggregated Gradient Boosting
+**作者**: Ajvad Haneef K, Karan Kuwar Singh, Madhu Kumar S D
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15754v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### zkFinGPT: Zero-Knowledge Proofs for Financial Generative Pre-trained Transformers
+**作者**: Xiao-Yang Liu, Ningjie Li, Keyi Wang, Xiaoli Zhi, Weiqin Tong
+**类别**: cs.CE, cs.CR
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15716v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Balancing Security and Privacy: The Pivotal Role of AI in Modern Healthcare Systems
+**作者**: Binu V P, Deepthy K Bhaskar, Minimol B
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15697v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems
+**作者**: Mengyu Yao, Ziqi Zhang, Ning Luo, Shaofei Li, Yifeng Cai, Xiangqun Chen, Yao Guo, Ding Li
+**类别**: cs.CR, cs.AI, cs.IR, cs.LG
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15678v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TempoNet: Learning Realistic Communication and Timing Patterns for Network Traffic Simulation
+**作者**: Kristen Moore, Diksha Goel, Cody James Christopher, Zhen Wang, Minjune Kim, Ahmed Ibrahim, Ahmad Mohsin, Seyit Camtepe
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15663v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
