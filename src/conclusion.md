@@ -49126,3 +49126,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-25)
+
+### 软件工程 领域
+
+#### HyperNet-Adaptation for Diffusion-Based Test Case Generation
+**作者**: Oliver Weißl, Vincenzo Riccio, Severin Kacianka, Andrea Stocco
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15041v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM-Based Repair of C++ Implicit Data Loss Compiler Warnings: An Industrial Case Study
+**作者**: Chansong You, Hyun Deok Choi, Jingun Hong
+**类别**: cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.14936v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AlertGuardian: Intelligent Alert Life-Cycle Management for Large-scale Cloud Systems
+**作者**: Guangba Yu, Genting Mai, Rui Wang, Ruipeng Li, Pengfei Chen, Long Pan, Ruijie Xu
+**类别**: cs.DC, cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.14912v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Understanding Usefulness in Developer Explanations on Stack Overflow
+**作者**: Martin Obaidi, Kushtrim Qengaj, Hannah Deters, Jakob Droste, Marc Herrmann, Kurt Schneider, Jil Klünder
+**类别**: cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.14865v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reclaiming Software Engineering as the Enabling Technology for the Digital Age
+**作者**: Tanja E. J. Vos, Tijs van der Storm, Alexander Serebrenik, Lionel Briand, Roberto Di Cosmo, J. -M Bruel, Benoît Combemale
+**类别**: cs.SE
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.14861v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Predictive Coding and Information Bottleneck for Hallucination Detection in Large Language Models
+**作者**: Manish Bhatt
+**类别**: cs.AI, cs.CR, cs.ET
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15652v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Side-Channel Attacks on Open vSwitch
+**作者**: Daewoo Kim, Sihang Liu
+**类别**: cs.CR
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15632v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Data-Free Privacy-Preserving for LLMs via Model Inversion and Selective Unlearning
+**作者**: Xinjie Zhou, Zhihui Yang, Lechao Cheng, Sai Wu, Gang Chen
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-01-22
+**链接**: http://arxiv.org/abs/2601.15595v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Securing LLM-as-a-Service for Small Businesses: An Industry Case Study of a Distributed Chatbot Deployment Platform
+**作者**: Jiazhu Xie, Bowen Li, Heyu Fu, Chong Gao, Ziqi Xu, Fengling Han
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15528v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DCeption: Real-world Wireless Man-in-the-Middle Attacks Against CCS EV Charging
+**作者**: Marcell Szakály, Martin Strohmeier, Ivan Martinovic, Sebastian Köhler
+**类别**: cs.CR
+**发布日期**: 2026-01-21
+**链接**: http://arxiv.org/abs/2601.15515v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
