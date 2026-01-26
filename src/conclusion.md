@@ -49234,3 +49234,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-26)
+
+### 软件工程 领域
+
+#### Assessing the Feasibility of Selective Instrumentation for Runtime Code Coverage in Large C++ Game Engines
+**作者**: Ian Gauk, Doriane Olewicki, Joshua Romoff, Cor-Paul Bezemer
+**类别**: cs.SE
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16881v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AI builds, We Analyze: An Empirical Study of AI-Generated Build Code Quality
+**作者**: Anwar Ghammam, Mohamed Almukhtar
+**类别**: cs.SE
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16839v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Will It Survive? Deciphering the Fate of AI-Generated Code in Open Source
+**作者**: Musfiqur Rahman, Emad Shihab
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16809v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Investigating Retargetability Claims for Quantum Compilers
+**作者**: Luke Southall, Joshua Ammermann, Rinor Kelmendi, Domenik Eichhorn, Ina Schaefer
+**类别**: quant-ph, cs.SE
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16779v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Variability-Aware Detection and Repair of Compilation Errors Using Foundation Models in Configurable Systems
+**作者**: Rohit Gheyi, Lucas Albuquerque, Márcio Ribeiro, Eduardo Almeida, Danyllo Albuquerque, Mirko Perkusich
+**类别**: cs.SE
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16755v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Network Security under Heterogeneous Cyber-Risk Profiles and Contagion
+**作者**: Elisa Botteghi, Martino S. Centonze, Davide Pastorello, Daniele Tantari
+**类别**: cs.CR, cs.GT, cs.SI, q-fin.RM
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16805v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Building a Robust Risk-Based Access Control System to Combat Ransomware's Capability to Encrypt: A Machine Learning Approach
+**作者**: Kenan Begovic, Abdulaziz Al-Ali, Qutaibah Malluhi
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16795v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### "What I Sign Is Not What I See": Towards Explainable and Trustworthy Cryptocurrency Wallet Signatures
+**作者**: Yuyang Qin, Haihan Duan
+**类别**: cs.HC, cs.CR
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16751v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Transactions to Exploits: Automated PoC Synthesis for Real-World DeFi Attacks
+**作者**: Xing Su, Hao Wu, Hanzhong Liang, Yunlin Jiang, Yuxi Cheng, Yating Liu, Fengyuan Xu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16681v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Emerging Threats and Countermeasures in Neuromorphic Systems: A Survey
+**作者**: Pablo Sorrentino, Stjepan Picek, Ihsen Alouani, Nikolaos Athanasios Anagnostopoulos, Francesco Regazzoni, Lejla Batina, Tamalika Banerjee, Fatih Turkmen
+**类别**: cs.CR, cs.AI, cs.ET
+**发布日期**: 2026-01-23
+**链接**: http://arxiv.org/abs/2601.16589v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
