@@ -49342,3 +49342,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-27)
+
+### 软件工程 领域
+
+#### Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests
+**作者**: Haruhiko Yoshioka, Takahiro Monno, Haruka Tokumasu, Taiki Wakamatsu, Yuki Ota, Nimmi Weeraddana, Kenichi Matsumoto
+**类别**: cs.SE
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18749v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How are MLOps Frameworks Used in Open Source Projects? An Empirical Characterization
+**作者**: Fiorella Zampetti, Federico Stocchetti, Federica Razzano, Damian Andrew Tamburri, Massimiliano Di Penta
+**类别**: cs.SE
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18591v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Abolition of the "ICSE Paper" and the Adoption of the "Registered Proposal" and the "Results Report"
+**作者**: Fabio Massacci, Winnie Mbaka
+**类别**: cs.SE
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18566v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Audit of Machine Learning Experiments on Software Defect Prediction
+**作者**: Giuseppe Destefanis, Leila Yousefi, Martin Shepperd, Allan Tucker, Stephen Swift, Steve Counsell, Mahir Arzoky
+**类别**: cs.SE
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18477v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### daVinci-Dev: Agent-native Mid-training for Software Engineering
+**作者**: Ji Zeng, Dayuan Fu, Tiantian Mi, Yumin Zhuang, Yaxing Huang, Xuefeng Li, Lyumanshan Ye, Muhang Xie, Qishuo Hua, Zhen Huang, Mohan Jiang, Hanning Wang, Jifan Lin, Yang Xiao, Jie Sun, Yunze Wu, Pengfei Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18418v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### $α^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks
+**作者**: Mohamed Amine Ferrag, Abderrahmane Lakas, Merouane Debbah
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18754v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multimodal Privacy-Preserving Entity Resolution with Fully Homomorphic Encryption
+**作者**: Susim Roy, Nalini Ratha
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18612v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Scaling up Privacy-Preserving ML: A CKKS Implementation of Llama-2-7B
+**作者**: Jaiyoung Park, Sejin Park, Jai Hyun Park, Jung Ho Ahn, Jung Hee Cheon, Guillaume Hanrot, Jung Woo Kim, Minje Park, Damien Stehlé
+**类别**: cs.CR
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18511v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### KeyMemRT Compiler and Runtime: Unlocking Memory-Scalable FHE
+**作者**: Eymen Ünay, Björn Franke, Jackson Woodruff
+**类别**: cs.CR, cs.PF
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18445v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Fundamentals, Recent Advances, and Challenges Regarding Cryptographic Algorithms for the Quantum Computing Era
+**作者**: Darlan Noetzold, Valderi Reis Quietinho Leithardt
+**类别**: cs.CR, quant-ph
+**发布日期**: 2026-01-26
+**链接**: http://arxiv.org/abs/2601.18413v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
