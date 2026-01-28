@@ -49450,3 +49450,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-28)
+
+### 软件工程 领域
+
+#### Assessing Task-based Chatbots: Snapshot and Curated Datasets for Dialogflow
+**作者**: Elena Masserini, Diego Clerissi, Daniela Micucci, Leonardo Mariani
+**类别**: cs.SE
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19787v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reimagining Peer Review Process Through Multi-Agent Mechanism Design
+**作者**: Ahmad Farooq, Kamran Iqbal
+**类别**: cs.MA, cs.AI, cs.CY, cs.GT, cs.SE
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19778v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation
+**作者**: Jiale Liu, Taiyu Zhou, Tianqi Jiang
+**类别**: cs.AR, cs.AI, cs.SE
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19747v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Future of Software Engineering Research: The SIGSOFT Perspective
+**作者**: Massimiliano Di Penta, Kelly Blincoe, Marsha Chechik, Claire Le Goues, David Lo, Emerson Murphy-Hill, Thomas Zimmermann
+**类别**: cs.SE
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19731v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion
+**作者**: Tianyue Jiang, Yanli Wang, Yanlin Wang, Daya Guo, Ensheng Shi, Yuchi Ma, Jiachi Chen, Zibin Zheng
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19697v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Self-Sovereign Identity and eIDAS 2.0: An Analysis of Control, Privacy, and Legal Implications
+**作者**: Nacereddine Sitouah, Marco Esposito, Francesco Bruschi
+**类别**: cs.CR, cs.CY, cs.DC, cs.ET
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19837v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GAVEL: Towards rule-based safety through activation monitoring
+**作者**: Shir Rozenfeld, Rahul Pankajakshan, Itay Zloczower, Eyal Lenga, Gilad Gressel, Yisroel Mirsky
+**类别**: cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19768v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RvB: Automating AI System Hardening via Iterative Red-Blue Games
+**作者**: Lige Huang, Zicheng Liu, Jie Zhang, Lewen Yan, Dongrui Liu, Jing Shao
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19726v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM-Assisted Authentication and Fraud Detection
+**作者**: Emunah S-S. Chan, Aldar C-F. Chan
+**类别**: cs.CR
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19684v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How to Serve Your Sandwich? MEV Attacks in Private L2 Mempools
+**作者**: Krzysztof Gogol, Manvir Schneider, Jan Gorzny, Claudio Tessone
+**类别**: cs.CR
+**发布日期**: 2026-01-27
+**链接**: http://arxiv.org/abs/2601.19570v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
