@@ -49558,3 +49558,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-29)
+
+### 软件工程 领域
+
+#### Context-Augmented Code Generation Using Programming Knowledge Graphs
+**作者**: Shahd Seddik, Fahd Seddik, Iman Saberi, Fatemeh Fard, Minh Hieu Huynh, Patanamon Thongtanunam
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20810v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SERA: Soft-Verified Efficient Repository Agents
+**作者**: Ethan Shen, Danny Tormoen, Saurabh Shah, Ali Farhadi, Tim Dettmers
+**类别**: cs.CL, cs.LG, cs.SE
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20789v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler
+**作者**: Bohua Zou, Debayan Roy, Dhimankumar Yogesh Airao, Weihao Xu, Binqi Sun, Yutao Liu, Haibo Chen
+**类别**: cs.SE
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20755v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Lila: Decentralized Build Reproducibility Monitoring for the Functional Package Management Model
+**作者**: Julien Malka, Arnout Engelen
+**类别**: cs.SE
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20662v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DRAINCODE: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning
+**作者**: Yanlin Wang, Jiadong Wu, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Chong Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20615v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Decentralized Identity in Practice: Benchmarking Latency, Cost, and Privacy
+**作者**: Abylay Satybaldy, Kamil Tylinski, Jiahua Xu
+**类别**: cs.CR, cs.ET
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20716v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Supply Chain Insecurity: Exposing Vulnerabilities in iOS Dependency Management Systems
+**作者**: David Schmidt, Sebastian Schrittwieser, Edgar Weippl
+**类别**: cs.CR
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20638v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### /dev/SDB: Software Defined Boot -- A novel standard for diskless booting anywhere and everywhere
+**作者**: Aditya Mitra, Hamza Haroon, Amaan Rais Shah, Mohammad Elham Rasooli, Bogdan Itsam Dorantes Nikolaev, Tuğçe Ballı
+**类别**: cs.CR, cs.ET, cs.OS
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20629v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### IoT Device Identification with Machine Learning: Common Pitfalls and Best Practices
+**作者**: Kahraman Kostas, Rabia Yasa Kostas
+**类别**: cs.CR, cs.AI, cs.NI
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20548v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TÄMU: Emulating Trusted Applications at the (GlobalPlatform)-API Layer
+**作者**: Philipp Mao, Li Shi, Marcel Busch, Mathias Payer
+**类别**: cs.CR
+**发布日期**: 2026-01-28
+**链接**: http://arxiv.org/abs/2601.20507v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
