@@ -49666,3 +49666,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-30)
+
+### 软件工程 领域
+
+#### StepShield: When, Not Whether to Intervene on Rogue Agents
+**作者**: Gloria Felicia, Michael Eniolade, Jinfeng He, Zitha Sasindran, Hemant Kumar, Milan Hussain Angati, Sandeep Bandarupalli
+**类别**: cs.LG, cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.22136v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems
+**作者**: Lakshya Gupta, Litao Li, Yizhe Liu, Sriram Ganapathi Subramanian, Kaheer Suleman, Zichen Zhang, Haoye Lu, Sumit Pasupalak
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.22130v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-Replay: Efficient Test-Time Scaling for Software Engineering Agents
+**作者**: Yifeng Ding, Lingming Zhang
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.22129v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When "Better" Prompts Hurt: Evaluation-Driven Iteration for LLM Applications
+**作者**: Daniel Commey
+**类别**: cs.CL, cs.AI, cs.IR, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.22025v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Liquid Interfaces: A Dynamic Ontology for the Interoperability of Autonomous Systems
+**作者**: Dhiogo de Sá, Carlos Schmiedel, Carlos Pereira Lopes
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21993v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### RedSage: A Cybersecurity Generalist LLM
+**作者**: Naufal Suryanto, Muzammal Naseer, Pengfei Li, Syed Talal Wasim, Jinhui Yi, Juergen Gall, Paolo Ceravolo, Ernesto Damiani
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.22159v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### StepShield: When, Not Whether to Intervene on Rogue Agents
+**作者**: Gloria Felicia, Michael Eniolade, Jinfeng He, Zitha Sasindran, Hemant Kumar, Milan Hussain Angati, Sandeep Bandarupalli
+**类别**: cs.LG, cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.22136v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Secure Group Key Agreement on Cyber-Physical System Buses
+**作者**: Sebastian N. Peters, Lukas Lautenschlager, David Emeis, Jason Lochert
+**类别**: cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21966v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond the Finite Variant Property: Extending Symbolic Diffie-Hellman Group Models (Extended Version)
+**作者**: Sofia Giampietro, Ralf Sasse, David Basin
+**类别**: cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21910v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Hardware-Triggered Backdoors
+**作者**: Jonas Möller, Erik Imgrund, Thorsten Eisenhofer, Konrad Rieck
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21902v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
