@@ -49774,3 +49774,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-01-31)
+
+### 软件工程 领域
+
+#### The Energy Impact of Domain Model Design in Classical Planning
+**作者**: Ilche Georgievski, Serhat Tekin, Marco Aiello
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21967v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Bridging Forecast Accuracy and Inventory KPIs: A Simulation-Based Software Framework
+**作者**: So Fukuhara, Abdallah Alabdallah, Nuwan Gunasekara, Slawomir Nowaczyk
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21844v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Folklore in Software Engineering: A Definition and Conceptual Foundations
+**作者**: Eduard Enoiu, Jean Malm, Gregory Gay
+**类别**: cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21814v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Assessing the Business Process Modeling Competences of Large Language Models
+**作者**: Chantale Lauer, Peter Pfeiffer, Alexander Rombach, Nijat Mehdiyev
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21787v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards A Sustainable Future for Peer Review in Software Engineering
+**作者**: Esteban Parra, Sonia Haiduc, Preetha Chatterjee, Ramtin Ehsani, Polina Iaremchuk
+**类别**: cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21761v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Making Models Unmergeable via Scaling-Sensitive Loss Landscape
+**作者**: Minwoo Jang, Hoyoung Kim, Jabin Koo, Jungseul Ok
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21898v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### WADBERT: Dual-channel Web Attack Detection Based on BERT Models
+**作者**: Kangqiang Luo, Yi Xie, Shiqian Zhao, Jing Pan
+**类别**: cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21893v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FIT: Defying Catastrophic Forgetting in Continual LLM Unlearning
+**作者**: Xiaoyu Xu, Minxin Du, Kun Fang, Zi Liang, Yaxin Xiao, Zhicong Huang, Cheng Hong, Qingqing Ye, Haibo Hu
+**类别**: cs.CL, cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21682v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Incremental Fingerprinting in an Open World
+**作者**: Loes Kruger, Paul Kobialka, Andrea Pferscher, Einar Broch Johnsen, Sebastian Junges, Jurriaan Rot
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21680v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Authenticated encryption for space telemetry
+**作者**: Andrew Savchenko
+**类别**: cs.CR, cs.NI, eess.SY
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21657v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
