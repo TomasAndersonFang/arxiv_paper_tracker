@@ -49882,3 +49882,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-01)
+
+### 软件工程 领域
+
+#### Migrating Esope to Fortran 2008 using model transformations
+**作者**: Younoussa Sow, Nicolas Anquetil, Léandre Brault, Stéphane Ducasse
+**类别**: cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21755v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A costing framework for fusion power plants
+**作者**: Simon Woodruff
+**类别**: physics.soc-ph, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21724v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AtPatch: Debugging Transformers via Hot-Fixing Over-Attention
+**作者**: Shihao Weng, Yang Feng, Jincheng Li, Yining Yin, Xiaofei Xie, Jia Liu
+**类别**: cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21695v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning
+**作者**: Jinjun Peng, Magnus Saebo, Tianjun Zhong, Yi-Jie Cheng, Junfeng Yang, Baishakhi Ray, Simin Chen, Yangruibo Ding
+**类别**: cs.LG, cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21649v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Age Matters: Analyzing Age-Related Discussions in App Reviews
+**作者**: Shashiwadana Nirmania, Garima Sharma, Hourieh Khalajzadeh, Mojtaba Shahin
+**类别**: cs.SE, cs.HC, cs.LG
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21605v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Sampling-Free Privacy Accounting for Matrix Mechanisms under Random Allocation
+**作者**: Jan Schuchardt, Nikita Kalinin
+**类别**: cs.LG, cs.CR, stat.ML
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21636v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Noise as a Probe: Membership Inference Attacks on Diffusion Models Leveraging Initial Noise
+**作者**: Puwei Lian, Yujun Cai, Songze Li, Bingkun Bao
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21628v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ICL-EVADER: Zero-Query Black-Box Evasion Attacks on In-Context Learning and Their Defenses
+**作者**: Ningyuan He, Ronghong Huang, Qianqian Tang, Hongyu Wang, Xianghang Mi, Shanqing Guo
+**类别**: cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21586v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression
+**作者**: Xinwei Zhang, Hangcheng Liu, Li Bai, Hao Wang, Qingqing Ye, Tianwei Zhang, Haibo Hu
+**类别**: cs.CR, cs.AI, cs.CV
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21531v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RerouteGuard: Understanding and Mitigating Adversarial Risks for LLM Routing
+**作者**: Wenhui Zhang, Huiyu Xu, Zhibo Wang, Zhichao Li, Zeqing He, Xuelin Wei, Kui Ren
+**类别**: cs.CR
+**发布日期**: 2026-01-29
+**链接**: http://arxiv.org/abs/2601.21380v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
