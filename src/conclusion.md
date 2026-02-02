@@ -49990,3 +49990,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-02)
+
+### 软件工程 领域
+
+#### Outcome-Conditioned Reasoning Distillation for Resolving Software Issues
+**作者**: Chenglin Li, Yisen Xu, Zehao Wang, Shin Hwei Tan, Tse-Hsun, Chen
+**类别**: cs.SE
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23257v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GrepRAG: An Empirical Study and Optimization of Grep-Like Retrieval for Code Completion
+**作者**: Baoyi Wang, Xingliang Wang, Guochang Li, Chen Zhi, Junxiao Han, Xinkui Zhao, Nan Wang, Shuiguang Deng, Jianwei Yin
+**类别**: cs.SE
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23254v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do Good, Stay Longer? Temporal Patterns and Predictors of Newcomer-to-Core Transitions in Conventional OSS and OSS4SG
+**作者**: Mohamed Ouf, Amr Mohamed, Mariam Guizani
+**类别**: cs.SE
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23142v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Monolith to Microservices: A Comparative Evaluation of Decomposition Frameworks
+**作者**: Mineth Weerasinghe, Himindu Kularathne, Methmini Madhushika, Danuka Lakshan, Nisansa de Silva, Adeesha Wijayasiri, Srinath Perera
+**类别**: cs.SE
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23141v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Testing of Prevalent 3D User Interactions in Virtual Reality Applications
+**作者**: Ruizhen Gu, José Miguel Rojas, Donghwan Shin
+**类别**: cs.SE
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23139v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Now You Hear Me: Audio Narrative Attacks Against Large Audio-Language Models
+**作者**: Ye Yu, Haibo Jin, Yaoning Yu, Jun Zhuang, Haohan Wang
+**类别**: cs.CL, cs.AI, cs.CR
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23255v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### No More, No Less: Least-Privilege Language Models
+**作者**: Paulius Rauba, Dominykas Seputis, Patrikas Vanagas, Mihaela van der Schaar
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23157v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Secure Tool Manifest and Digital Signing Solution for Verifiable MCP and LLM Pipelines
+**作者**: Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Foutse Khomh, Amin Nikanjam, Mohammad Adnan Hamdaqa
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23132v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### WiFiPenTester: Advancing Wireless Ethical Hacking with Governed GenAI
+**作者**: Haitham S. Al-Sinani, Chris J. Mitchell
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23092v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching
+**作者**: Zhixiang Zhang, Zesen Liu, Yuchong Xie, Quanfeng Huang, Dongdong She
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-01-30
+**链接**: http://arxiv.org/abs/2601.23088v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
