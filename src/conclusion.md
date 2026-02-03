@@ -50098,3 +50098,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-03)
+
+### 软件工程 领域
+
+#### Drift-Bench: Diagnosing Cooperative Breakdowns in LLM Agents under Input Faults via Multi-Turn Interaction
+**作者**: Han Bao, Zheyuan Zhang, Pengcheng Jing, Zhengqing Yuan, Kaiwen Shi, Yanfang Ye
+**类别**: cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02455v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration
+**作者**: Qingni Wang, Yue Fan, Xin Eric Wang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02419v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-Universe: Scale Real-World Verifiable Environments to Millions
+**作者**: Mouxiang Chen, Lei Zhang, Yunlong Feng, Xuwu Wang, Wenting Zhao, Ruisheng Cao, Jiaxi Yang, Jiawei Chen, Mingze Li, Zeyao Ma, Hao Ge, Zongmeng Zhang, Zeyu Cui, Dayiheng Liu, Jingren Zhou, Jianling Sun, Junyang Lin, Binyuan Hui
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02361v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Task-Level Evaluation of AI Agents in Open-Source Projects
+**作者**: Shojibur Rahman, Md Fazle Rabbi, Minhaz Zibran
+**类别**: cs.SE
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02345v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Understanding and Detecting Flaky Builds in GitHub Actions
+**作者**: Wenhao Ge, Chen Zhang
+**类别**: cs.SE
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02307v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Secure Multi-User Linearly-Separable Distributed Computing
+**作者**: Amir Masoud Jafarpisheh, Ali Khalesi, Petros Elia
+**类别**: cs.IT, cs.CR
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02489v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Provenance Verification of AI-Generated Images via a Perceptual Hash Registry Anchored on Blockchain
+**作者**: Apoorv Mohit, Bhavya Aggarwal, Chinmay Gondhalekar
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02412v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning
+**作者**: Samuel Nellessen, Tal Kachman
+**类别**: cs.LG, cs.AI, cs.CR, cs.MA
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02395v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Guaranteeing Privacy in Hybrid Quantum Learning through Theoretical Mechanisms
+**作者**: Hoang M. Ngo, Tre' R. Jeter, Incheol Shin, Wanli Xing, Tamer Kahveci, My T. Thai
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02364v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Decoupling Generalizability and Membership Privacy Risks in Neural Networks
+**作者**: Xingli Fang, Jung-Eun Kim
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-02-02
+**链接**: http://arxiv.org/abs/2602.02296v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
