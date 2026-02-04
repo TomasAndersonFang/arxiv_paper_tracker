@@ -50206,3 +50206,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-04)
+
+### 软件工程 领域
+
+#### Bridging Online and Offline RL: Contextual Bandit Learning for Multi-Turn Code Generation
+**作者**: Ziru Chen, Dongdong Chen, Ruinan Jin, Yingbin Liang, Yujia Xie, Huan Sun
+**类别**: cs.LG, cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03806v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FullStack-Agent: Enhancing Agentic Full-Stack Web Coding via Development-Oriented Testing and Repository Back-Translation
+**作者**: Zimu Lu, Houxing Ren, Yunqiao Yang, Ke Wang, Zhuofan Zong, Mingjie Zhan, Hongsheng Li
+**类别**: cs.SE, cs.CL, cs.CV
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03798v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Separate Compilation to Sound Language Composition
+**作者**: Federico Bruzzone, Walter Cazzola, Luca Favalli
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03777v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Improving Deep Learning Library Testing with Machine Learning
+**作者**: Facundo Molina, M M Abid Naziri, Feiran Qin, Alessandra Gorla, Marcelo d'Amorim
+**类别**: cs.SE
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03755v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-Refactor: A Repository-Level Benchmark for Real-World LLM-Based Code Refactoring
+**作者**: Yisen Xu, Jinqiu Yang, Tse-Hsun, Chen
+**类别**: cs.SE
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03712v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents
+**作者**: Xilong Wang, Yinuo Liu, Zhun Wang, Dawn Song, Neil Gong
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03792v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### mopri - An Analysis Framework for Unveiling Privacy Violations in Mobile Apps
+**作者**: Cornell Ziepel, Stephan Escher, Sebastian Rehms, Stefan Köpsell
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03671v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reference-Free EM Validation Flow for Detecting Triggered Hardware Trojans
+**作者**: Mahsa Tahghigh, Hassan Salmani
+**类别**: cs.CR
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03666v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can Developers rely on LLMs for Secure IaC Development?
+**作者**: Ehsan Firouzi, Shardul Bhatt, Mohammad Ghafari
+**类别**: cs.CR
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03648v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Don't believe everything you read: Understanding and Measuring MCP Behavior under Misleading Tool Descriptions
+**作者**: Zhihao Li, Boyang Ma, Xuelong Dai, Minghui Xu, Yue Zhang, Biwei Yan, Kun Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-03
+**链接**: http://arxiv.org/abs/2602.03580v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
