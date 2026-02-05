@@ -50314,3 +50314,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-05)
+
+### 软件工程 领域
+
+#### When Code Becomes Abundant: Redefining Software Engineering Around Orchestration and Verification
+**作者**: Karina Kohl, Luigi Carro
+**类别**: cs.SE
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04830v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do Developers Read Type Information? An Eye-Tracking Study on TypeScript
+**作者**: Samuel W. Flint, Robert Dyer, Bonita Sharif
+**类别**: cs.SE
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04824v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond the Control Equations: An Artifact Study of Implementation Quality in Robot Control Software
+**作者**: Nils Chur, Thorsten Berger, Einar Broch Johnsen, Andrzej Wąsowski
+**类别**: cs.SE, cs.RO
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04799v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Demonstrating ARG-V's Generation of Realistic Java Benchmarks for SV-COMP
+**作者**: Charles Moloney, Robert Dyer, Elena Sherman
+**类别**: cs.SE
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04786v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Supporting software engineering tasks with agentic AI: Demonstration on document retrieval and test scenario generation
+**作者**: Marian Kica, Lukas Radosky, David Slivka, Karin Kubinova, Daniel Dovhun, Tomas Uhercik, Erik Bircak, Ivan Polasek
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04726v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Digital signatures with classical shadows on near-term quantum computers
+**作者**: Pradeep Niroula, Minzhao Liu, Sivaprasad Omanakuttan, David Amaro, Shouvanik Chakrabarti, Soumik Ghosh, Zichang He, Yuwei Jin, Fatih Kaleoglu, Steven Kordonowy, Rohan Kumar, Michael A. Perlin, Akshay Seshadri, Matthew Steinberg, Joseph Sullivan, Jacob Watkins, Henry Yuen, Ruslan Shaydulin
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04859v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Comparative Insights on Adversarial Machine Learning from Industry and Academia: A User-Study Approach
+**作者**: Vishruti Kakkad, Paul Chung, Hanan Hibshi, Maverick Woo
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04753v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Needle is a Thread: Finding Planted Paths in Noisy Process Trees
+**作者**: Maya Le, Paweł Prałat, Aaron Smith, François Théberge
+**类别**: cs.SI, cs.CR, cs.DS
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04694v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates
+**作者**: Ariel Fogel, Omer Hofman, Eilon Cohen, Roman Vainshtein
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04653v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Human-Centered Privacy Approach (HCP) to AI
+**作者**: Luyi Sun, Wei Xu, Zaifeng Gao
+**类别**: cs.HC, cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-02-04
+**链接**: http://arxiv.org/abs/2602.04616v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
