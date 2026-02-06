@@ -50422,3 +50422,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-06)
+
+### 软件工程 领域
+
+#### Characterizing and Modeling the GitHub Security Advisories Review Pipeline
+**作者**: Claudio Segal, Paulo Segal, Carlos Eduardo de Schuller Banjar, Felipe Paixão, Hudson Silva Borges, Paulo Silveira Neto, Eduardo Santana de Almeida, Joanna C. S. Santos, Anton Kocheturov, Gaurav Kumar Srivastava, Daniel Sadoc Menasché
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.06009v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When Elo Lies: Hidden Biases in Codeforces-Based Evaluation of Large Language Models
+**作者**: Shenyu Zheng, Ximing Dong, Xiaoshuang Liu, Gustavo Oliva, Chong Chun Yong, Dayi Lin, Boyuan Chen, Shaowei Wang, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05891v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Customization of LLMs for Enterprise Code Repositories Using Semantic Scopes
+**作者**: Ulrich Finkler, Irene Manotas, Wei Zhang, Geert Janssen, Octavian Popescu, Shyam Ramji
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05780v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RocqSmith: Can Automatic Optimization Forge Better Proof Agents?
+**作者**: Andrei Kozyrev, Nikita Khramov, Denis Lochmelis, Valerio Morelli, Gleb Solovev, Anton Podkopaev
+**类别**: cs.AI, cs.LG, cs.LO, cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05762v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Toward Quantum-Safe Software Engineering: A Vision for Post-Quantum Cryptography Migration
+**作者**: Lei Zhang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05759v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Characterizing and Modeling the GitHub Security Advisories Review Pipeline
+**作者**: Claudio Segal, Paulo Segal, Carlos Eduardo de Schuller Banjar, Felipe Paixão, Hudson Silva Borges, Paulo Silveira Neto, Eduardo Santana de Almeida, Joanna C. S. Santos, Anton Kocheturov, Gaurav Kumar Srivastava, Daniel Sadoc Menasché
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.06009v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Persistent Human Feedback, LLMs, and Static Analyzers for Secure Code Generation and Vulnerability Detection
+**作者**: Ehsan Firouzi, Mohammad Ghafari
+**类别**: cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05868v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FHAIM: Fully Homomorphic AIM For Private Synthetic Data Generation
+**作者**: Mayank Kumar, Qian Lou, Paulo Barreto, Martine De Cock, Sikha Pentyala
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05838v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Interpreting Manifolds and Graph Neural Embeddings from Internet of Things Traffic Flows
+**作者**: Enrique Feito-Casares, Francisco M. Melgarejo-Meseguer, Elena Casiraghi, Giorgio Valentini, José-Luis Rojo-Álvarez
+**类别**: cs.CR, cs.LG, cs.NI
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05817v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Toward Quantum-Safe Software Engineering: A Vision for Post-Quantum Cryptography Migration
+**作者**: Lei Zhang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05759v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
