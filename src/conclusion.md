@@ -50478,17 +50478,62 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
-### 安全领域 领域
 
-#### Characterizing and Modeling the GitHub Security Advisories Review Pipeline
-**作者**: Claudio Segal, Paulo Segal, Carlos Eduardo de Schuller Banjar, Felipe Paixão, Hudson Silva Borges, Paulo Silveira Neto, Eduardo Santana de Almeida, Joanna C. S. Santos, Anton Kocheturov, Gaurav Kumar Srivastava, Daniel Sadoc Menasché
-**类别**: cs.CR, cs.SE
+## ArXiv论文 - 最近7天 (截至 2026-02-07)
+
+### 软件工程 领域
+
+#### A Bayesian Optimization-Based AutoML Framework for Non-Intrusive Load Monitoring
+**作者**: Nazanin Siavash, Armin Moin
+**类别**: cs.SE
 **发布日期**: 2026-02-05
-**链接**: http://arxiv.org/abs/2602.06009v1
+**链接**: http://arxiv.org/abs/2602.05739v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
+
+#### A Dual-Loop Agent Framework for Automated Vulnerability Reproduction
+**作者**: Bin Liu, Yanjie Zhao, Zhenpeng Chen, Guoai Xu, Haoyu Wang
+**类别**: cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05721v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Green AI: Decoding the Energy of LLM Inference in Software Development
+**作者**: Lola Solovyeva, Fernando Castor
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05712v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SEAL: Symbolic Execution with Separation Logic (Competition Contribution)
+**作者**: Tomáš Brablec, Tomáš Dacík, Tomáš Vojnar
+**类别**: cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05703v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval
+**作者**: Yulong He, Artem Ermakov, Sergey Kovalchuk, Artem Aliev, Dmitry Shalymov
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05550v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
 
 #### Persistent Human Feedback, LLMs, and Static Analyzers for Secure Code Generation and Vulnerability Detection
 **作者**: Ehsan Firouzi, Mohammad Ghafari
@@ -50520,11 +50565,21 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
-#### Toward Quantum-Safe Software Engineering: A Vision for Post-Quantum Cryptography Migration
-**作者**: Lei Zhang
-**类别**: cs.SE, cs.CR
+#### Fast Private Adaptive Query Answering for Large Data Domains
+**作者**: Miguel Fuentes, Brett Mullins, Yingtai Xiao, Daniel Kifer, Cameron Musco, Daniel Sheldon
+**类别**: cs.DB, cs.CR
 **发布日期**: 2026-02-05
-**链接**: http://arxiv.org/abs/2602.05759v1
+**链接**: http://arxiv.org/abs/2602.05674v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Time-Complexity Characterization of NIST Lightweight Cryptography Finalists
+**作者**: Najmul Hasan, Prashanth BusiReddyGari
+**类别**: cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05641v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
