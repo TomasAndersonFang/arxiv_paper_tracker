@@ -50585,3 +50585,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-08)
+
+### 软件工程 领域
+
+#### Capture the Flags: Family-Based Evaluation of Agentic LLMs via Semantics-Preserving Transformations
+**作者**: Shahin Honarvar, Amber Gorzynski, James Lee-Jones, Harry Coppock, Marek Rei, Joseph Ryan, Alastair F. Donaldson
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05523v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Sovereign-by-Design A Reference Architecture for AI and Blockchain Enabled Systems
+**作者**: Matteo Esposito, Lodovica Marchesi, Roberto Tonelli, Valentina Lenarduzzi
+**类别**: cs.SE, cs.AI, cs.CR, cs.DC
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05486v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can We Classify Flaky Tests Using Only Test Code? An LLM-Based Empirical Study
+**作者**: Alexander Berndt, Vekil Bekmyradov, Rainer Gemulla, Marcus Kessel, Thomas Bach, Sebastian Baltes
+**类别**: cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05465v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Emergence-as-Code for Self-Governing Reliable Systems
+**作者**: Anatoly A. Krasnovsky
+**类别**: cs.SE, cs.DC, cs.PF, eess.SY
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05458v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Does Programming Language Matter? An Empirical Study of Fuzzing Bug Detection
+**作者**: Tatsuya Shirai, Olivier Nourry, Yutaro Kashiwa, Kenji Fujiwara, Hajimu Iida
+**类别**: cs.SE
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05312v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### ADCA: Attention-Driven Multi-Party Collusion Attack in Federated Self-Supervised Learning
+**作者**: Jiayao Wang, Yiping Zhang, Jiale Zhang, Wenliang Yuan, Qilin Wu, Junwu Zhu, Dongfang Zhao
+**类别**: cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05612v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Deep Learning for Contextualized NetFlow-Based Network Intrusion Detection: Methods, Data, Evaluation and Deployment
+**作者**: Abdelkader El Mahdaouy, Issam Ait Yahia, Soufiane Oualil, Ismail Berrada
+**类别**: cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05594v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GNSS SpAmming: a spoofing-based GNSS denial-of-service attack
+**作者**: Sergio Angulo Cosín, Javier Junquera-Sánchez, Carlos Hernando-Ramiro, José-Antonio Gómez-Sánchez
+**类别**: cs.CR, eess.SP
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05517v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Sovereign-by-Design A Reference Architecture for AI and Blockchain Enabled Systems
+**作者**: Matteo Esposito, Lodovica Marchesi, Roberto Tonelli, Valentina Lenarduzzi
+**类别**: cs.SE, cs.AI, cs.CR, cs.DC
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05486v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Clouding the Mirror: Stealthy Prompt Injection Attacks Targeting LLM-based Phishing Detection
+**作者**: Takashi Koide, Hiroki Nakano, Daiki Chiba
+**类别**: cs.CR
+**发布日期**: 2026-02-05
+**链接**: http://arxiv.org/abs/2602.05484v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
