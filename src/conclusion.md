@@ -50693,3 +50693,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-09)
+
+### 软件工程 领域
+
+#### TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code
+**作者**: Jiangping Huang, Wenguang Ye, Weisong Sun, Jian Zhang, Mingyue Zhang, Yang Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06875v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Statistical-Based Metric Threshold Setting Method for Software Fault Prediction in Firmware Projects: An Industrial Experience
+**作者**: Marco De Luca, Domenico Amalfitano, Anna Rita Fasolino, Porfirio Tramontana
+**类别**: cs.SE
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06831v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Function-Level Analysis: Context-Aware Reasoning for Inter-Procedural Vulnerability Detection
+**作者**: Yikun Li, Ting Zhang, Jieke Shi, Chengran Yang, Junda He, Xin Zhou, Jinfeng Jiang, Huihui Huang, Wen Bin Leow, Yide Yin, Eng Lieh Ouh, Lwin Khin Shar, David Lo
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06751v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Using Large Language Models to Support Automation of Failure Management in CI/CD Pipelines: A Case Study in SAP HANA
+**作者**: Duong Bui, Stefan Grintz, Alexander Berndt, Thomas Bach
+**类别**: cs.SE
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06709v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Code vs Serialized AST Inputs for LLM-Based Code Summarization: An Empirical Study
+**作者**: Shijia Dong, Haoruo Zhao, Paul Harvey
+**类别**: cs.SE
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06671v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### TamperBench: Systematically Stress-Testing LLM Safety Under Fine-Tuning and Tampering
+**作者**: Saad Hossain, Tom Tseng, Punya Syon Pandey, Samanvay Vajpayee, Matthew Kowal, Nayeema Nonta, Samuel Simko, Stephen Casper, Zhijing Jin, Kellin Pelrine, Sirisha Rambhatla
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06911v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Plato's Form: Toward Backdoor Defense-as-a-Service for LLMs with Prototype Representations
+**作者**: Chen Chen, Yuchen Sun, Jiaxin Gao, Yanwen Jia, Xueluan Gong, Qian Wang, Kwok-Yan Lam
+**类别**: cs.CR
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06887v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Next-generation cyberattack detection with large language models: anomaly analysis across heterogeneous logs
+**作者**: Yassine Chagna, Antal Goldschmidt
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06777v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AEGIS: Adversarial Target-Guided Retention-Data-Free Robust Concept Erasure from Diffusion Models
+**作者**: Fengpeng Li, Kemou Li, Qizhou Wang, Bo Han, Jiantao Zhou
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06771v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### "Tab, Tab, Bug'': Security Pitfalls of Next Edit Suggestions in AI-Integrated IDEs
+**作者**: Yunlong Lyu, Yixuan Tang, Peng Chen, Tian Dong, Xinyu Wang, Zhiqiang Dong, Hao Chen
+**类别**: cs.CR, cs.HC
+**发布日期**: 2026-02-06
+**链接**: http://arxiv.org/abs/2602.06759v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
