@@ -50801,3 +50801,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-10)
+
+### 软件工程 领域
+
+#### Digital Twin and Agentic AI for Wild Fire Disaster Management: Intelligent Virtual Situation Room
+**作者**: Mohammad Morsali, Siavash H. Khajavi
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08949v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Comparing AI Coding Agents: A Task-Stratified Analysis of Pull Request Acceptance
+**作者**: Giovanni Pinna, Jingzhi Gong, David Williams, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08915v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DeepQuali: Initial results of a study on the use of large language models for assessing the quality of user stories
+**作者**: Adam Trendowicz, Daniel Seifert, Andreas Jedlitschka, Marcus Ciolkowski, Anton Strahilov
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08887v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ArkEval: Benchmarking and Evaluating Automated CodeRepair for ArkTS
+**作者**: Bang Xie, Senjian Zhang, Zhiyuan Peng, Wei Chen, Chenhao Ying, Yuan Luo
+**类别**: cs.SE
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08866v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Permissive-Washing in the Open AI Supply Chain: A Large-Scale Audit of License Integrity
+**作者**: James Jewitt, Gopi Krishnan Rajbahadur, Hao Li, Bram Adams, Ahmed E. Hassan
+**类别**: cs.LG, cs.AI, cs.CY, cs.SE
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08816v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### CIC-Trap4Phish: A Unified Multi-Format Dataset for Phishing and Quishing Attachment Detection
+**作者**: Fatemeh Nejati, Mahdi Rabbani, Mansur Mirani, Gunjan Piya, Igor Opushnyev, Ali A. Ghorbani, Sajjad Dadkhah
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.09015v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reverse Online Guessing Attacks on PAKE Protocols
+**作者**: Eloise Christian, Tejas Gadwalkar, Arthur Azevedo de Amorim, Edward V. Zieglar
+**类别**: cs.CR
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08993v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Zero Trust for Multi-RAT IoT: Trust Boundary Management in Heterogeneous Wireless Network Environments
+**作者**: Jonathan Shelby
+**类别**: cs.NI, cs.CR
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08989v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### StealthRL: Reinforcement Learning Paraphrase Attacks for Multi-Detector Evasion of AI-Text Detectors
+**作者**: Suraj Ranganath, Atharv Ramesh
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08934v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Is Reasoning Capability Enough for Safety in Long-Context Language Models?
+**作者**: Yu Fu, Haz Sameen Shahgir, Huanli Gong, Zhipeng Wei, N. Benjamin Erichson, Yue Dong
+**类别**: cs.CL, cs.CR
+**发布日期**: 2026-02-09
+**链接**: http://arxiv.org/abs/2602.08874v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
