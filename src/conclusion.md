@@ -50909,3 +50909,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-11)
+
+### 软件工程 领域
+
+#### Artisan: Agentic Artifact Evaluation
+**作者**: Doehyun Baek, Michael Pradel
+**类别**: cs.SE
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.10046v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents
+**作者**: Xiang Li, Zhiwei Fei, Ying Ma, Jerry Zhang, Sarro Federica, He Ye
+**类别**: cs.SE
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09944v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### QEMI: A Quantum Software Stacks Testing Framework via Equivalence Modulo Inputs
+**作者**: Junjie Luo, Shangzhou Xia, Fuyuan Zhang, Jianjun Zhao
+**类别**: cs.SE
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09942v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)
+**作者**: Nishil Amin, Zhiwei Fei, Xiang Li, Justyna Petke, He Ye
+**类别**: cs.SE
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09930v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Operationalizing Human Values in the Requirements Engineering Process of Ethics-Aware Autonomous Systems
+**作者**: Everaldo Silva Júnior, Lina Marsso, Ricardo Caldas, Marsha Chechik, Genaína Nunes Rodrigues
+**类别**: cs.SE
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09921v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Towards Explainable Federated Learning: Understanding the Impact of Differential Privacy
+**作者**: Júlio Oliveira, Rodrigo Ferreira, André Riker, Glaucio H. S. Carvalho, Eirini Eleni Tsilopoulou
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.10100v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CAPID: Context-Aware PII Detection for Question-Answering Systems
+**作者**: Mariia Ponomarenko, Sepideh Abedini, Masoumeh Shafieinejad, D. B. Emerson, Shubhankar Mohapatra, Xi He
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.10074v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Trustworthy Agentic AI Requires Deterministic Architectural Boundaries
+**作者**: Manish Bhattarai, Minh Vu
+**类别**: cs.CR
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09947v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Focus Session: LLM4PQC -- An Agentic Framework for Accurate and Efficient Synthesis of PQC Cores
+**作者**: Buddhi Perera, Zeng Wang, Weihua Xiao, Mohammed Nabeel, Ozgur Sinanoglu, Johann Knechtel, Ramesh Karri
+**类别**: cs.CR
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09919v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Need for Standardized Evidence Sampling in CMMC Assessments: A Survey-Based Analysis of Assessor Practices
+**作者**: Logan Therrien, John Hastings
+**类别**: cs.CR
+**发布日期**: 2026-02-10
+**链接**: http://arxiv.org/abs/2602.09905v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
