@@ -51017,3 +51017,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-12)
+
+### 软件工程 领域
+
+#### Learning to Compose for Cross-domain Agentic Workflow Generation
+**作者**: Jialiang Wang, Shengxiang Xu, Hanmo Liu, Jiachuan Wang, Yuyu Luo, Shimin Di, Min-Ling Zhang, Lei Chen
+**类别**: cs.MA, cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11114v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GameDevBench: Evaluating Agentic Capabilities Through Game Development
+**作者**: Wayne Chi, Yixiong Fang, Arnav Yayavaram, Siddharth Yayavaram, Seth Karten, Qiuhong Anna Wei, Runkun Chen, Alexander Wang, Valerie Chen, Ameet Talwalkar, Chris Donahue
+**类别**: cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11103v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FeatureBench: Benchmarking Agentic Coding for Complex Feature Development
+**作者**: Qixing Zhou, Jiacheng Zhang, Haiyang Wang, Rui Hao, Jiahe Wang, Minghao Han, Yuxue Yang, Shuzhe Wu, Feiyang Pan, Lue Fan, Dandan Tu, Zhaoxiang Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.10975v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Deriving and Validating Requirements Engineering Principles for Large-Scale Agile Development: An Industrial Longitudinal Study
+**作者**: Hina Saeeda, Mijin Kim, Eric Knauss, Jesper Thyssen, Jesper Ørting, Jesper Lysemose Korsgaard, Niels Jørgen Strøm
+**类别**: cs.SE
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.10972v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PELLI: Framework to effectively integrate LLMs for quality software generation
+**作者**: Rasmus Krebs, Somnath Mazumdar
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.10808v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Vulnerabilities in Partial TEE-Shielded LLM Inference with Precomputed Noise
+**作者**: Abhishek Saini, Haolin Jiang, Hang Liu
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11088v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Token-Efficient Change Detection in LLM APIs
+**作者**: Timothée Chauvin, Clément Lalanne, Erwan Le Merrer, Jean-Michel Loubes, François Taïani, Gilles Tredan
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11083v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### IU-GUARD: Privacy-Preserving Spectrum Coordination for Incumbent Users under Dynamic Spectrum Sharing
+**作者**: Shaoyu Li, Hexuan Yu, Shanghao Shi, Md Mohaimin Al Barat, Yang Xiao, Y. Thomas Hou, Wenjing Lou
+**类别**: cs.CR
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11023v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mask-Based Window-Level Insider Threat Detection for Campaign Discovery
+**作者**: Jericho Cain, Hayden Beadles
+**类别**: cs.CR
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11019v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CVPL: A Geometric Framework for Post-Hoc Linkage Risk Assessment in Protected Tabular Data
+**作者**: Valery Khvatov, Alexey Neyman
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-11
+**链接**: http://arxiv.org/abs/2602.11015v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
