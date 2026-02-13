@@ -51125,3 +51125,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-13)
+
+### 软件工程 领域
+
+#### Automated Test Suite Enhancement Using Large Language Models with Few-shot Prompting
+**作者**: Alex Chudic, Gül Çalıklı
+**类别**: cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12256v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Unknown Attack Detection in IoT Networks using Large Language Models: A Robust, Data-efficient Approach
+**作者**: Shan Ali, Feifei Niu, Paria Shirani, Lionel C. Briand
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12183v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Adoption of AI Coding Agents in Open-source Android and iOS Development
+**作者**: Muhammad Ahmad Khan, Hasnain Ali, Muneeb Rana, Muhammad Saqib Ilyas, Abdul Ali Bangash
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12144v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PPTAM$η$: Energy Aware CI/CD Pipeline for Container Based Applications
+**作者**: Alessandro Aneggi, Xiaozhou Li, Andrea Janes
+**类别**: cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12081v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Performance Antipatterns: Angel or Devil for Power Consumption?
+**作者**: Alessandro Aneggi, Vincenzo Stoico, Andrea Janes
+**类别**: cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12079v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Legitimate Overrides in Decentralized Protocols
+**作者**: Oghenekaro Elem, Nimrod Talmon
+**类别**: cs.CR, cs.CY, cs.DC
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12260v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Community Concealment from Unsupervised Graph Learning-Based Clustering
+**作者**: Dalyapraz Manatova, Pablo Moriano, L. Jean Camp
+**类别**: cs.LG, cs.CR, cs.SI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12250v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Keeping a Secret Requires a Good Memory: Space Lower-Bounds for Private Algorithms
+**作者**: Alessandro Epasto, Xin Lyu, Pasin Manurangsi
+**类别**: cs.CR, cs.CC, cs.DS
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12209v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MalTool: Malicious Tool Attacks on LLM Agents
+**作者**: Yuepeng Hu, Yuqi Jia, Mengyuan Li, Dawn Song, Neil Gong
+**类别**: cs.CR
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12194v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Unknown Attack Detection in IoT Networks using Large Language Models: A Robust, Data-efficient Approach
+**作者**: Shan Ali, Feifei Niu, Paria Shirani, Lionel C. Briand
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12183v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
