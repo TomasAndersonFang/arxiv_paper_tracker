@@ -51233,3 +51233,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-14)
+
+### 软件工程 领域
+
+#### ModelWisdom: An Integrated Toolkit for TLA+ Model Visualization, Digest and Repair
+**作者**: Zhiyong Chen, Jialun Cao, Chang Xu, Shing-Chi Cheung
+**类别**: cs.SE, cs.AI, cs.FL
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12058v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Empirical Study of the Imbalance Issue in Software Vulnerability Detection
+**作者**: Yuejun Guo, Qiang Hu, Qiang Tang, Yves Le Traon
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12038v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
+**作者**: Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, Martin Vechev
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11988v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Studying Quality Improvements Recommended via Manual and Automated Code Review
+**作者**: Giuseppe Crupi, Rosalia Tufano, Gabriele Bavota
+**类别**: cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11925v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Improving Code Generation via Small Language Model-as-a-judge
+**作者**: Giuseppe Crupi, Rosalia Tufano, Gabriele Bavota
+**类别**: cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11911v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### BlackCATT: Black-box Collusion Aware Traitor Tracing in Federated Learning
+**作者**: Elena Rodríguez-Lois, Fabio Brau, Maura Pintor, Battista Biggio, Fernando Pérez-González
+**类别**: cs.CR
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12138v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MedExChain: Enabling Secure and Efffcient PHR Sharing Across Heterogeneous Blockchains
+**作者**: Yongyang Lv, Xiaohong Li, Kui Chen, Zhe Hou, Guangdong Bai, Ruitao Feng
+**类别**: cs.CR
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12106v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DeepSight: An All-in-One LM Safety Toolkit
+**作者**: Bo Zhang, Jiaxuan Guo, Lijun Li, Dongrui Liu, Sujin Chen, Guanxu Chen, Zhijie Zheng, Qihao Lin, Lewen Yan, Chen Qian, Yijin Zhou, Yuyao Wu, Shaoxiong Guo, Tianyi Du, Jingyi Yang, Xuhao Hu, Ziqi Miao, Xiaoya Lu, Jing Shao, Xia Hu
+**类别**: cs.CL, cs.AI, cs.CR, cs.CV
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12092v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluation of Security-Induced Latency on 5G RAN Interfaces and User Plane Communication
+**作者**: Sotiris Michaelides, Jakub Lapawa, Daniel Eguiguren Chavez, Martin Henze
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.12059v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PAC to the Future: Zero-Knowledge Proofs of PAC Private Systems
+**作者**: Guilhem Repetto, Nojan Sheybani, Gabrielle De Micheli, Farinaz Koushanfar
+**类别**: cs.CR
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11954v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
