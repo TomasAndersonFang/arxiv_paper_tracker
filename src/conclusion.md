@@ -51341,3 +51341,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-15)
+
+### 软件工程 领域
+
+#### Leveraging LLMs to support co-evolution between definitions and instances of textual DSLs: A Systematic Evaluation
+**作者**: Weixing Zhang, Bowen Jiang, Yuhong Fu, Anne Koziolek, Regina Hebig, Daniel Strüber
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11904v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Verifiable Provenance of Software Artifacts with Zero-Knowledge Compilation
+**作者**: Javier Ron, Martin Monperrus
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11887v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FlowMind: Execute-Summarize for Structured Workflow Generation from LLM Reasoning
+**作者**: Yihao Liu, Ziyun Zhang, Zile He, Huaqian Cai
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11782v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### V-SHiNE: A Virtual Smart Home Framework for Explainability Evaluation
+**作者**: Mersedeh Sadeghi, Simon Scholz, Max Unterbusch, Andreas Vogelsang
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11775v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild
+**作者**: Jiazheng Sun, Mingxuan Li, Yingying Zhang, Jiayang Niu, Yachen Wu, Ruihan Jin, Shuyu Lei, Pengrongrui Tan, Zongyu Zhang, Ruoyi Wang, Jiachen Yang, Boyu Yang, Jiacheng Liu, Xin Peng
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11750v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy
+**作者**: Andrei Kojukhov, Arkady Bovshover
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11897v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Verifiable Provenance of Software Artifacts with Zero-Knowledge Compilation
+**作者**: Javier Ron, Martin Monperrus
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11887v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Resource-Aware Deployment Optimization for Collaborative Intrusion Detection in Layered Networks
+**作者**: André García Gómez, Ines Rieger, Wolfgang Hotwagner, Max Landauer, Markus Wurzenberger, Florian Skopik, Edgar Weippl
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11851v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Solving the Post-Quantum Control Plane Bottleneck: Energy-Aware Cryptographic Scheduling in Open RAN
+**作者**: Neha Gupta, Hamed Alimohammadi, Mohammad Shojafar, De Mi, Muhammad N. M. Bhutta
+**类别**: cs.CR, eess.SY
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11820v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles
+**作者**: Ruibo Chen, Yihan Wu, Xuehao Cui, Jingqi Zhang, Heng Huang
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-02-12
+**链接**: http://arxiv.org/abs/2602.11793v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
