@@ -51449,3 +51449,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-16)
+
+### 软件工程 领域
+
+#### Source Code Hotspots: A Diagnostic Method for Quality Issues
+**作者**: Saleha Muzammil, Mughees Ur Rehman, Zoe Kotti, Diomidis Spinellis
+**类别**: cs.SE
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13170v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Testing of Task-based Chatbots: How Far Are We?
+**作者**: Diego Clerissi, Elena Masserini, Daniela Micucci, Leonardo Mariani
+**类别**: cs.SE
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13072v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analysis of Asset Administration Shell-based Negotiation Processes for Scaling Applications
+**作者**: David Dietrich, Armin Lechler, Alexander Verl
+**类别**: cs.SE
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13029v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ProbeLLM: Automating Principled Diagnosis of LLM Failures
+**作者**: Yue Huang, Zhengzhe Jiang, Yuchen Ma, Yu Jiang, Xiangqi Wang, Yujun Zhou, Yuexing Hao, Kehan Guo, Pin-Yu Chen, Stefan Feuerriegel, Xiangliang Zhang
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.12966v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Influence of Code Smells in Efferent Neighbors on Class Stability
+**作者**: Zushuai Zhang, Elliott Wen, Ewan Tempero
+**类别**: cs.SE
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.12950v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Bloom Filter Look-Up Tables for Private and Secure Distributed Databases in Web3 (Revised Version)
+**作者**: Shlomi Dolev, Ehud Gudes, Daniel Shlomo
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13167v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### In-Context Autonomous Network Incident Response: An End-to-End Large Language Model Agent Approach
+**作者**: Yiran Gao, Kim Hammar, Tao Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13156v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TrustMee: Self-Verifying Remote Attestation Evidence
+**作者**: Parsa Sadri Sinaki, Zainab Ahmad, Wentao Xie, Merlijn Sebrechts, Jimmy Kjällman, Lachlan J. Gunn
+**类别**: cs.CR
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13148v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Backdoor Attacks on Contrastive Continual Learning for IoT Systems
+**作者**: Alfous Tim, Kuniyilh Simi D
+**类别**: cs.LG, cs.CR, cs.NI
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.13062v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cryptographic Choreographies
+**作者**: Sebastian Mödersheim, Simon Lund, Alessandro Bruni, Marco Carbone, Rosario Giustolisi
+**类别**: cs.CR
+**发布日期**: 2026-02-13
+**链接**: http://arxiv.org/abs/2602.12967v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
