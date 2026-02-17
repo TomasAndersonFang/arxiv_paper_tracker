@@ -51557,3 +51557,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-17)
+
+### 软件工程 领域
+
+#### Tool-Aware Planning in Contact Center AI: Evaluating LLMs through Lineage-Guided Query Decomposition
+**作者**: Varun Nathan, Shreyas Guha, Ayush Kumar
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14955v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ReusStdFlow: A Standardized Reusability Framework for Dynamic Workflow Construction in Agentic AI
+**作者**: Gaoyang Zhang, Shanghong Zou, Yafang Wang, He Zhang, Ruohua Xu, Feng Zhao
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14922v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions
+**作者**: Mohammed Mehedi Hasan, Hao Li, Gopi Krishnan Rajbahadur, Bram Adams, Ahmed E. Hassan
+**类别**: cs.SE, cs.ET
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14878v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EmbeWebAgent: Embedding Web Agents into Any Customized UI
+**作者**: Chenyang Ma, Clyde Fare, Matthew Wilson, Dave Braines
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14865v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Configuring Agentic AI Coding Tools: An Exploratory Study
+**作者**: Matthias Galster, Seyedmoein Mohsenimofidi, Jai Lal Lulla, Muhammad Auwal Abubakar, Christoph Treude, Sebastian Baltes
+**类别**: cs.SE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14690v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### interID -- An Ecosystem-agnostic Verifier-as-a-Service with OpenID Connect Bridge
+**作者**: Hakan Yildiz, Axel Küpper
+**类别**: cs.CR
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14871v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Overthinking Loops in Agents: A Structural Risk via MCP Tools
+**作者**: Yohan Lee, Jisoo Jang, Seoyeon Choi, Sangyeop Kim, Seungtaek Choi
+**类别**: cs.CL, cs.CR
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14798v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Systematic Review of Lightweight Cryptographic Algorithms
+**作者**: Mohsin Khan, Elisavet Kozyri, Håvard Dagenborg
+**类别**: cs.CR
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14731v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks
+**作者**: Lukas Struppek, Adam Gleave, Kellin Pelrine
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14689v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Before the Vicious Cycle Starts: Preventing Burnout Across SOC Roles Through Flow-Aligned Design
+**作者**: Kashyap Thimmaraju, Duc Anh Hoang, Souradip Nath, Jaron Mink, Gail-Joon Ahn
+**类别**: cs.CR, cs.CY, cs.HC
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14598v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
