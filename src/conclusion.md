@@ -51665,3 +51665,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-18)
+
+### 软件工程 领域
+
+#### A Differential Fuzzing-Based Evaluation of Functional Equivalence in LLM-Generated Code Refactorings
+**作者**: Simantika Bhattacharjee Dristi, Matthew B. Dwyer
+**类别**: cs.SE
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15761v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Meflex: A Multi-agent Scaffolding System for Entrepreneurial Ideation Iteration via Nonlinear Business Plan Writing
+**作者**: Lan Luo, Dongyijie Primo Pan, Junhua Zhu, Muzhi Zhou, Pan Hui
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15631v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution
+**作者**: Denesa Zyberaj, Lukasz Mazur, Pascal Hirmer, Nenad Petrovic, Marco Aiello, Alois Knoll
+**类别**: cs.SE
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15591v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Latent Regularization in Generative Test Input Generation
+**作者**: Giorgi Merabishvili, Oliver Weißl, Andrea Stocco
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15552v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MMPersistence: A mathematical morphology-oriented software library for computing persistent homology on cubical complexes
+**作者**: Chuan-Shen Hu
+**类别**: cs.SE, math.AT
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15502v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Natural Privacy Filters Are Not Always Free: A Characterization of Free Natural Filters
+**作者**: Matthew Regehr, Bingshan Hu, Ethan Leeman, Pasin Manurangsi, Pierre Tholoniat, Mathias Lécuyer
+**类别**: cs.CR, cs.DS
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15815v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Local Node Differential Privacy
+**作者**: Sofya Raskhodnikova, Adam Smith, Connor Wagaman, Anatoly Zavyalov
+**类别**: cs.DS, cs.CR
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15802v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Note on Non-Composability of Layerwise Approximate Verification for Neural Inference
+**作者**: Or Zamir
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15756v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Privacy-Preserving and Secure Spectrum Sharing for Database-Driven Cognitive Radio Networks
+**作者**: Saleh Darzia, Gökcan Cantalib, Attila Altay Yavuza, Gürkan Gür
+**类别**: cs.CR
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15705v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Content-Based Framework for Cybersecurity Refusal Decisions in Large Language Models
+**作者**: Meirav Segal, Noa Linder, Omer Antverg, Gil Gekker, Tomer Fichman, Omri Bodenheimer, Edan Maor, Omer Nevo
+**类别**: cs.CL, cs.AI, cs.CR
+**发布日期**: 2026-02-17
+**链接**: http://arxiv.org/abs/2602.15689v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
