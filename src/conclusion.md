@@ -51773,3 +51773,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-19)
+
+### 软件工程 领域
+
+#### SPARC: Scenario Planning and Reasoning for Automated C Unit Test Generation
+**作者**: Jaid Monwar Chowdhury, Chi-An Fu, Reyhaneh Jabbarvand
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16671v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Software-heavy Asset Administration Shells: Classification and Use Cases
+**作者**: Carsten Ellwein, David Dietrich, Jessica Roth, Rozana Cvitkovic, Andreas Wortmann
+**类别**: cs.SE
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16499v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mind the Gap: Evaluating LLMs for High-Level Malicious Package Detection vs. Fine-Grained Indicator Identification
+**作者**: Ahmed Ryan, Ibrahim Khalil, Abdullah Al Jahid, Md Erfan, Akond Ashfaque Ur Rahman, Md Rayhanur Rahman
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16304v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Calculus of Overlays
+**作者**: Bo Yang
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16291v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Algorithm-Based Pipeline for Reliable and Intent-Preserving Code Translation with LLMs
+**作者**: Shahriar Rumi Dipto, Saikat Mondal, Chanchal K. Roy
+**类别**: cs.SE
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16106v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Policy Compiler for Secure Agentic Systems
+**作者**: Nils Palumbo, Sarthak Choudhary, Jihye Choi, Prasad Chalasani, Mihai Christodorescu, Somesh Jha
+**类别**: cs.CR, cs.AI, cs.MA
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16708v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Role of Common Randomness Replication in Symmetric PIR on Graph-Based Replicated Systems
+**作者**: Shreya Meel, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.NI, eess.SP
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16700v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Sequential Membership Inference Attacks
+**作者**: Thomas Michel, Debabrota Basu, Emilie Kaufmann
+**类别**: cs.LG, cs.CR, math.ST, stat.ML
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16596v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Arc2Morph: Identity-Preserving Facial Morphing with Arc2Face
+**作者**: Nicolò Di Domenico, Annalisa Franco, Matteo Ferrara, Davide Maltoni
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16569v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Scalable Approach to Solving Simulation-Based Network Security Games
+**作者**: Michael Lanier, Yevgeniy Vorobeychik
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-02-18
+**链接**: http://arxiv.org/abs/2602.16564v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
