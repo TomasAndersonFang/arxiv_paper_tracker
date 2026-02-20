@@ -51881,3 +51881,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-20)
+
+### 软件工程 领域
+
+#### huff: A Python package for Market Area Analysis
+**作者**: Thomas Wieland
+**类别**: stat.AP, cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17640v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### What Makes a Good LLM Agent for Real-world Penetration Testing?
+**作者**: Gelei Deng, Yi Liu, Yuekang Li, Ruozhao Yang, Xiaofei Xie, Jie Zhang, Han Qiu, Tianwei Zhang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17622v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards a Software Reference Architecture for Natural Language Processing Tools in Requirements Engineering
+**作者**: Julian Frattini, Quim Motger
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17498v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Runtime Dimension of Ethics in Self-Adaptive Systems
+**作者**: Marco Autili, Gianluca Filippone, Mashal Afzal Memon, Patrizio Pelliccione
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17426v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Computer-Using World Model
+**作者**: Yiming Guan, Rui Yu, John Zhang, Lu Wang, Chaoyun Zhang, Liqun Li, Bo Qiao, Si Qin, He Huang, Fangkai Yang, Pu Zhao, Lukas Wutschitz, Samuel Kessler, Huseyin A Inan, Robert Sim, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17365v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Non-Trivial Zero-Knowledge Implies One-Way Functions
+**作者**: Suvradip Chakraborty, James Hulett, Dakshita Khurana, Kabir Tomer
+**类别**: cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17651v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### What Makes a Good LLM Agent for Real-world Penetration Testing?
+**作者**: Gelei Deng, Yi Liu, Yuekang Li, Ruozhao Yang, Xiaofei Xie, Jie Zhang, Han Qiu, Tianwei Zhang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17622v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BMC4TimeSec: Verification Of Timed Security Protocols
+**作者**: Agnieszka M. Zbrzezny
+**类别**: cs.CR, cs.MA
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17590v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Coin selection by Random Draw according to the Boltzmann distribution
+**作者**: Jan Lennart Bönsel, Michael Maurer, Silvio Petriconi, Andrea Tundis, Marc Winstel
+**类别**: cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17490v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Computational Hardness of Private Coreset
+**作者**: Badih Ghazi, Cristóbal Guzmán, Pritish Kamath, Alexander Knop, Ravi Kumar, Pasin Manurangsi
+**类别**: cs.CG, cs.CR, cs.DS
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17488v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
