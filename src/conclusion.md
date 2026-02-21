@@ -51989,3 +51989,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-21)
+
+### 软件工程 领域
+
+#### Socio-Technical Well-Being of Quantum Software Communities: An Overview on Community Smells
+**作者**: Stefano Lambiase, Manuel De Stefano, Fabio Palomba, Filomena Ferrucci, Andrea De Lucia
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17320v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Disjunction Composition of BDD Transition Systems for Model-Based Testing
+**作者**: Tannaz Zameni, Petra van den Bos, Arend Rensink
+**类别**: cs.SE, cs.FL
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17237v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Case for HTML First Web Development
+**作者**: Juho Vepsäläinen
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17193v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Robustness and Reasoning Fidelity of Large Language Models in Long-Context Code Question Answering
+**作者**: Kishan Maharaj, Nandakishore Menon, Ashita Saxena, Srikanth Tamilselvam
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17183v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Quantifying Competitive Relationships Among Open-Source Software Projects
+**作者**: Yuki Takei, Toshiaki Aoki, Chaiyong Ragkhitwetsagul
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17131v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### The CTI Echo Chamber: Fragmentation, Overlap, and Vendor Specificity in Twenty Years of Cyber Threat Reporting
+**作者**: Manuel Suarez-Roman, Francesco Marciori, Mauro Conti, Juan Tapiador
+**类别**: cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17458v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Privacy in Theory, Bugs in Practice: Grey-Box Auditing of Differential Privacy Libraries
+**作者**: Tudor Cebere, David Erb, Damien Desfontaines, Aurélien Bellet, Jack Fitzsimons
+**类别**: cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17454v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Jolt Atlas: Verifiable Inference via Lookup Arguments in Zero Knowledge
+**作者**: Wyatt Benno, Alberto Centelles, Antoine Douchet, Khalil Gibran
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17452v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DAVE: A Policy-Enforcing LLM Spokesperson for Secure Multi-Document Data Sharing
+**作者**: René Brinkhege, Prahlad Menon
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17413v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### What Breaks Embodied AI Security:LLM Vulnerabilities, CPS Flaws,or Something Else?
+**作者**: Boyang Ma, Hechuan Guo, Peizhuo Lv, Minghui Xu, Xuelong Dai, YeChao Zhang, Yijun Yang, Yue Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17345v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
