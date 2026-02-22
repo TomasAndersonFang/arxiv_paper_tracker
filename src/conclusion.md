@@ -52097,3 +52097,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-22)
+
+### 软件工程 领域
+
+#### Multi-Ecosystem Modeling of OSS Project Sustainability
+**作者**: Arjun Ashok, Nafiz Imtiaz Khan, Swati Singhvi, Stefan Stanciulescu, Zhouhao Wang, Vladimir Filkov
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17112v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### What to Cut? Predicting Unnecessary Methods in Agentic Code Generation
+**作者**: Kan Watanabe, Tatsuya Shirai, Yutaro Kashiwa, Hajimu Iida
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17091v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How AI Coding Agents Communicate: A Study of Pull Request Description Characteristics and Human Review Responses
+**作者**: Kan Watanabe, Rikuto Tsuchida, Takahiro Monno, Bin Huang, Kazuma Yamasaki, Youmei Fan, Kazumasa Shimari, Kenichi Matsumoto
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17084v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Wink: Recovering from Misbehaviors in Coding Agents
+**作者**: Rahul Nanda, Chandra Maddila, Smriti Jha, Euna Mehnaz Khan, Matteo Paltenghi, Satish Chandra
+**类别**: cs.SE, cs.AI, cs.HC, cs.PL
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17037v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities
+**作者**: Giovanni Rosa, David Moreno-Lumbreras, Raula Gaikovina Kula
+**类别**: cs.SE
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17018v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Security of the Fischlin Transform in Quantum Random Oracle Model
+**作者**: Christian Majenz, Jaya Sharma
+**类别**: cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17307v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Grothendieck Topologies and Sheaf-Theoretic Foundations of Cryptographic Security: Attacker Models and $Σ$-Protocols as the First Step
+**作者**: Takao Inoué
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17301v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Privacy-Preserving Mechanisms Enable Cheap Verifiable Inference of LLMs
+**作者**: Arka Pal, Louai Zahran, William Gvozdjak, Akilesh Potti, Micah Goldblum
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.17223v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Discovering Universal Activation Directions for PII Leakage in Language Models
+**作者**: Leo Marchyok, Zachary Coalson, Sungho Keum, Sooel Son, Sanghyun Hong
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.16980v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Fail-Closed Alignment for Large Language Models
+**作者**: Zachary Coalson, Beth Sohler, Aiden Gabriel, Sanghyun Hong
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-02-19
+**链接**: http://arxiv.org/abs/2602.16977v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
