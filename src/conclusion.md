@@ -52205,3 +52205,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-23)
+
+### 软件工程 领域
+
+#### Statistical Confidence in Functional Correctness: An Approach for AI Product Functional Correctness Evaluation
+**作者**: Wallace Albertini, Marina Condé Araújo, Júlia Condé Araújo, Antonio Pedro Santos Alves, Marcos Kalinowski
+**类别**: cs.SE
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18357v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Qualitative Coding Analysis through Open-Source Large Language Models: A User Study and Design Recommendations
+**作者**: Tung T. Ngo, Dai Nguyen Van, Anh-Minh Nguyen, Phuong-Anh Do, Anh Nguyen-Quoc
+**类别**: cs.HC, cs.CR, cs.SE
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18352v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean
+**作者**: Yutong Xin, Qiaochu Chen, Greg Durrett, Işil Dillig
+**类别**: cs.SE, cs.CL, cs.LG, cs.PL
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18307v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ReqElicitGym: An Evaluation Environment for Interview Competence in Conversational Requirements Elicitation
+**作者**: Dongming Jin, Zhi Jin, Zheng Fang, Linyu Li, XiaoTian Yang, Yuanpeng He, Xiaohong Chen
+**类别**: cs.SE
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18306v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Many Tools, Few Exploitable Vulnerabilities: A Survey of 246 Static Code Analyzers for Security
+**作者**: Kevin Hermann, Sven Peldszus, Thorsten Berger
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18270v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Drawing the LINE: Cryptographic Analysis and Security Improvements for the LINE E2EE Protocol
+**作者**: Benjamin Dowling, Prosanta Gope, Mehr U Nisa, Bhagya Wimalasiri
+**类别**: cs.CR
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18370v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Qualitative Coding Analysis through Open-Source Large Language Models: A User Study and Design Recommendations
+**作者**: Tung T. Ngo, Dai Nguyen Van, Anh-Minh Nguyen, Phuong-Anh Do, Anh Nguyen-Quoc
+**类别**: cs.HC, cs.CR, cs.SE
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18352v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FeatureBleed: Inferring Private Enriched Attributes From Sparsity-Optimized AI Accelerators
+**作者**: Darsh Asher, Farshad Dizani, Joshua Kalyanapu, Rosario Cammarota, Aydin Aysu, Samira Mirbagher Ajorpaz
+**类别**: cs.CR
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18304v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detecting PowerShell-based Fileless Cryptojacking Attacks Using Machine Learning
+**作者**: Said Varlioglu, Nelly Elsayed, Murat Ozer, Zag ElSayed, John M. Emmert
+**类别**: cs.CR
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18285v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Many Tools, Few Exploitable Vulnerabilities: A Survey of 246 Static Code Analyzers for Security
+**作者**: Kevin Hermann, Sven Peldszus, Thorsten Berger
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-02-20
+**链接**: http://arxiv.org/abs/2602.18270v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
