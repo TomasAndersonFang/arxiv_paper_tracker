@@ -52313,3 +52313,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-24)
+
+### 软件工程 领域
+
+#### CodeCompass: Navigating the Navigation Paradox in Agentic Code Intelligence
+**作者**: Tarakanath Paipuru
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.20048v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM-enabled Applications Require System-Level Threat Monitoring
+**作者**: Yedi Zhang, Haoyu Wang, Xianglin Yang, Jin Song Dong, Jun Sun
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.19844v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MAS-FIRE: Fault Injection and Reliability Evaluation for LLM-Based Multi-Agent Systems
+**作者**: Jin Jia, Zhiling Deng, Zhuangbin Chen, Yingqi Wang, Zibin Zheng
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.19843v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Carbon-Aware Governance Gates: An Architecture for Sustainable GenAI Development
+**作者**: Mateen A. Abbasi, Tommi J. Mikkonen, Petri J. Ihantola, Muhammad Waseem, Pekka Abrahamsson, Niko K. Mäkitalo
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.19718v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Git Takes Two: Split-View Awareness for Collaborative Learning of Distributed Workflows in Git
+**作者**: Joel Bucher, Lahari Goswami, Sverrir Thorgeirsson, April Yi Wang
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.19714v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks
+**作者**: David Schmotz, Luca Beurer-Kellner, Sahar Abdelnabi, Maksym Andriushchenko
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.20156v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The LLMbda Calculus: AI Agents, Conversations, and Information Flow
+**作者**: Zac Garby, Andrew D. Gordon, David Sands
+**类别**: cs.PL, cs.AI, cs.CR
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.20064v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can You Tell It's AI? Human Perception of Synthetic Voices in Vishing Scenarios
+**作者**: Zoha Hayat Bhatti, Bakhtawar Ahtisham, Seemal Tausif, Niklas George, Nida ul Habib Bajwa, Mobin Javed
+**类别**: cs.CR
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.20061v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Misquoted No More: Securely Extracting F* Programs with IO
+**作者**: Cezar-Constantin Andrici, Abigail Pribisova, Danel Ahman, Catalin Hritcu, Exequiel Rivas, Théo Winterhalter
+**类别**: cs.PL, cs.CR
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.19973v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RobPI: Robust Private Inference against Malicious Client
+**作者**: Jiaqi Xue, Mengxin Zheng, Qian Lou
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-02-23
+**链接**: http://arxiv.org/abs/2602.19918v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
