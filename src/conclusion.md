@@ -52421,3 +52421,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-25)
+
+### 软件工程 领域
+
+#### Validation of an analyzability model for quantum software: a family of experiments
+**作者**: Ana Díaz-Muñoz, José A. Cruz-Lemus, Moisés Rodríguez, Maria Teresa Baldassarre, Mario Piattini
+**类别**: cs.SE
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.21074v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Detection and Mitigation of Dependability Failures in Healthcare Scenarios through Digital Twins
+**作者**: Bruno Guindani, Matteo Camilli, Livia Lestingi, Marcello M. Bersani
+**类别**: cs.SE
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.21037v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MIP Candy: A Modular PyTorch Framework for Medical Image Processing
+**作者**: Tianhao Fu, Yucheng Chen
+**类别**: cs.CV, cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.21033v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Modular Multi-Document Framework for Scientific Visualization and Simulation in Java
+**作者**: David Heddle
+**类别**: cs.SE, physics.comp-ph
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.21026v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Toward an Agentic Infused Software Ecosystem
+**作者**: Mark Marron
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.20979v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### "Are You Sure?": An Empirical Study of Human Perception Vulnerability in LLM-Driven Agentic Systems
+**作者**: Xinfeng Li, Shenyu Dai, Kelong Zheng, Yue Xiao, Gelei Deng, Wei Dong, Xiaofeng Wang
+**类别**: cs.HC, cs.AI, cs.CR, cs.SI
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.21127v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SoK: Agentic Skills -- Beyond Tool Use in LLM Agents
+**作者**: Yanna Jiang, Delong Li, Haiyu Deng, Baihe Ma, Xu Wang, Qin Wang, Guangsheng Yu
+**类别**: cs.CR, cs.AI, cs.CE, cs.ET
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.20867v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Secure and Interoperable Architecture for Electronic Health Record Access Control and Sharing
+**作者**: Tayeb Kenaza, Islam Debicha, Youcef Fares, Mehdi Sehaki, Sami Messai
+**类别**: cs.CR
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.20830v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs
+**作者**: Che Wang, Jiaming Zhang, Ziqi Zhang, Zijie Wang, Yinghui Wang, Jianbo Gao, Tao Wei, Zhong Chen, Wei Yang Bryan Lim
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.20720v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PackMonitor: Enabling Zero Package Hallucinations Through Decoding-Time Monitoring
+**作者**: Xiting Liu, Yuetong Liu, Yitong Zhang, Jia Li, Shi-Min Hu
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-24
+**链接**: http://arxiv.org/abs/2602.20717v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
