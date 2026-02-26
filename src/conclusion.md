@@ -52529,3 +52529,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-26)
+
+### 软件工程 领域
+
+#### SWE-Protégé: Learning to Selectively Collaborate With an Expert Unlocks Small Language Models as Software Engineering Agents
+**作者**: Patrick Tser Jern Kon, Archana Pradeep, Ang Chen, Alexander P. Ellis, Warren Hunt, Zijian Wang, John Yang, Samuel Thompson
+**类别**: cs.SE, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22124v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Visual Milestone Planning in a Hybrid Development Context
+**作者**: Eduardo Miranda
+**类别**: cs.SE
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22076v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detecting UX smells in Visual Studio Code using LLMs
+**作者**: Andrés Rodriguez, Juan Cruz Gardey, Alejandra Garrido
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22020v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Enhancing LLM-Based Test Generation by Eliminating Covered Code
+**作者**: WeiZhe Xu, Mengyu Liu, Fanxin Kong
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.21997v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Restructuring to Stabilization: A Large-Scale Experiment on Iterative Code Readability Refactoring with Large Language Models
+**作者**: Norman Peitek, Julia Hess, Sven Apel
+**类别**: cs.SE
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.21833v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### UC-Secure Star DKG for Non-Exportable Key Shares with VSS-Free Enforcement
+**作者**: Vipin Singh Sehrawat
+**类别**: cs.CR
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22187v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Secure Semantic Communications via AI Defenses: Fundamentals, Solutions, and Future Directions
+**作者**: Lan Zhang, Chengsi Liang, Zeming Zhuang, Yao Sun, Fang Fang, Xiaoyong Yuan, Dusit Niyato
+**类别**: cs.CR, eess.SY
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22134v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Enabling End-to-End APT Emulation in Industrial Environments: Design and Implementation of the SIMPLE-ICS Testbed
+**作者**: Yogha Restu Pramadi, Theodoros Spyridopoulos, Vijay Kumar
+**类别**: cs.CR
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22082v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Critical Look into Threshold Homomorphic Encryption for Private Average Aggregation
+**作者**: Miguel Morona-Mínguez, Alberto Pedrouzo-Ulloa, Fernando Pérez-González
+**类别**: cs.CR
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22037v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### APFuzz: Towards Automatic Greybox Protocol Fuzzing
+**作者**: Yu Wang, Yang Xiang, Chandra Thapa, Hajime Suzuki
+**类别**: cs.CR
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.21892v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
