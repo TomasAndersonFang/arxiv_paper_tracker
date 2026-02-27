@@ -52637,3 +52637,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-27)
+
+### 软件工程 领域
+
+#### Utilizing LLMs for Industrial Process Automation
+**作者**: Salim Fares
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23331v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Array-Carrying Symbolic Execution for Function Contract Generation
+**作者**: Weijie Lu, Jingyu Ke, Hongfei Fu, Zhouyue Sun, Yi Zhou, Guoqiang Li, Haokun Li
+**类别**: cs.PL, cs.LO, cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23216v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM-Powered Silent Bug Fuzzing in Deep Learning Libraries via Versatile and Controlled Bug Transfer
+**作者**: Kunpeng Zhang, Dongwei Xiao, Daoyuan Wu, Jiali Zhao, Yuanyi Lin, Tongtong Xu, Shaohua Wang, Shuai Wang
+**类别**: cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23065v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CL4SE: A Context Learning Benchmark For Software Engineering Tasks
+**作者**: Haichuan Hu, Ye Shang, Guoqing Xie, Congqing He, Quanjun Zhang
+**类别**: cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23047v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Managing Uncertainty in LLM-based Multi-Agent System Operation
+**作者**: Man Zhang, Tao Yue, Yihua He
+**类别**: cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23005v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### LLM Novice Uplift on Dual-Use, In Silico Biology Tasks
+**作者**: Chen Bo Calvin Zhang, Christina Q. Knight, Nicholas Kruus, Jason Hausenloy, Pedro Medeiros, Nathaniel Li, Aiden Kim, Yury Orlovskiy, Coleman Breen, Bryce Cai, Jasper Götting, Andrew Bo Liu, Samira Nedungadi, Paula Rodriguez, Yannis Yiming He, Mohamed Shaaban, Zifan Wang, Seth Donoughe, Julian Michael
+**类别**: cs.AI, cs.CL, cs.CR, cs.CY, cs.HC
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23329v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Decomposing Private Image Generation via Coarse-to-Fine Wavelet Modeling
+**作者**: Jasmine Bayrooti, Weiwei Kong, Natalia Ponomareva, Carlos Esteves, Ameesh Makadia, Amanda Prorok
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23262v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Strengthening security and noise resistance in one-way quantum key distribution protocols through hypercube-based quantum walks
+**作者**: David Polzoni, Tommaso Bianchi, Mauro Conti
+**类别**: cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23261v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SettleFL: Trustless and Scalable Reward Settlement Protocol for Federated Learning on Permissionless Blockchains (Extended version)
+**作者**: Shuang Liang, Yang Hua, Linshan Jiang, Peishen Yan, Tao Song, Bin Yao, Haibing Guan
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23167v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Decision-Theoretic Formalisation of Steganography With Applications to LLM Monitoring
+**作者**: Usman Anwar, Julianna Piskorz, David D. Baek, David Africa, Jim Weatherall, Max Tegmark, Christian Schroeder de Witt, Mihaela van der Schaar, David Krueger
+**类别**: cs.AI, cs.CL, cs.CR, cs.IT, cs.MA
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23163v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
