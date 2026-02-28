@@ -52745,3 +52745,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-02-28)
+
+### 软件工程 领域
+
+#### Productivity and Collaboration in Hybrid Agile Teams: An Interview Study
+**作者**: Elisabeth Mo, Jefferson Seide Molléri, Asle Fagerstrøm
+**类别**: cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22835v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating and Improving Automated Repository-Level Rust Issue Resolution with LLM-based Agents
+**作者**: Jiahong Xiang, Wenxiao He, Xihua Wang, Hongliang Tian, Yuqun Zhang
+**类别**: cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22764v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling
+**作者**: Yuchong Xie, Kaikai Zhang, Yu Liu, Rundong Yang, Ping Chen, Shuai Wang, Dongdong She
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22729v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Metamorphic Testing of Vision-Language Action-Enabled Robots
+**作者**: Pablo Valle, Sergio Segura, Shaukat Ali, Aitor Arrieta
+**类别**: cs.RO, cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22579v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RepoMod-Bench: A Benchmark for Code Repository Modernization via Implementation-Agnostic Testing
+**作者**: Xuefeng Li, Nir Ben-Israel, Yotam Raz, Belal Ahmed, Doron Serebro, Antoine Raux
+**类别**: cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22518v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Automated Vulnerability Detection in Source Code Using Deep Representation Learning
+**作者**: C. Seas, G. Fitzpatrick, J. A. Hamilton, M. C. Carlisle
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23121v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Assessing Deanonymization Risks with Stylometry-Assisted LLM Agent
+**作者**: Boyang Zhang, Yang Zhang
+**类别**: cs.CL, cs.CR, cs.LG
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23079v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A High-Throughput AES-GCM Implementation on GPUs for Secure, Policy-Based Access to Massive Astronomical Catalogs
+**作者**: Samuel Lemes-Perera, Miguel R. Alarcon, Pino Caballero-Gil, Miquel Serra-Ricart
+**类别**: astro-ph.IM, cs.CR, cs.DC
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.23067v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search
+**作者**: Xun Huang, Simeng Qin, Xiaoshuang Jia, Ranjie Duan, Huanqian Yan, Zhitao Zeng, Fei Yang, Yang Liu, Xiaojun Jia
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22983v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling
+**作者**: Yuchong Xie, Kaikai Zhang, Yu Liu, Rundong Yang, Ping Chen, Shuai Wang, Dongdong She
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22729v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
