@@ -52853,3 +52853,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-01)
+
+### 软件工程 领域
+
+#### static_maps: consteval std::map and std::unordered_map Implementations in C++23
+**作者**: Isaac D. Myhal, Oliver Serang
+**类别**: cs.DS, cs.SE
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22506v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automating the Detection of Requirement Dependencies Using Large Language Models
+**作者**: Ikram Darif, Feifei Niu, Manel Abdellatif, Lionel C. Briand, Ramesh S., Arun Adiththan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22456v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### XMENTOR: A Rank-Aware Aggregation Approach for Human-Centered Explainable AI in Just-in-Time Software Defect Prediction
+**作者**: Saumendu Roy, Banani Roy, Chanchal Roy, Richard Bassey
+**类别**: cs.SE
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22403v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Contextual Memory Virtualisation: DAG-Based State Management and Structurally Lossless Trimming for LLM Agents
+**作者**: Cosmo Santoni
+**类别**: cs.SE, cs.AI, cs.HC, cs.OS
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22402v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EyeLayer: Integrating Human Attention Patterns into LLM-Based Code Summarization
+**作者**: Jiahao Zhang, Yifan Zhang, Kevin Leach, Yu Huang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-02-25
+**链接**: http://arxiv.org/abs/2602.22368v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification
+**作者**: Tian Zhang, Yiwei Xu, Juan Wang, Keyan Guo, Xiaoyang Xu, Bowen Xiao, Quanlong Guan, Jinlin Fan, Jiawei Liu, Zhiquan Liu, Hongxin Hu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22724v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### IMMACULATE: A Practical LLM Auditing Framework via Verifiable Computation
+**作者**: Yanpei Guo, Wenjie Qu, Linyu Wu, Shengfang Zhai, Lionel Z. Wang, Ming Xu, Yue Liu, Binhang Yuan, Dawn Song, Jiaheng Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22700v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DPSQL+: A Differentially Private SQL Library with a Minimum Frequency Rule
+**作者**: Tomoya Matsumoto, Shokichi Takakura, Shun Takagi, Satoshi Hasegawa
+**类别**: cs.CR, cs.DB, cs.LG
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22699v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### No Caption, No Problem: Caption-Free Membership Inference via Model-Fitted Embeddings
+**作者**: Joonsung Jeon, Woo Jae Kim, Suhyeon Ha, Sooel Son, Sung-Eui Yoon
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22689v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Layer-Targeted Multilingual Knowledge Erasure in Large Language Models
+**作者**: Taoran Li, Varun Chandrasekaran, Zhiyuan Yu
+**类别**: cs.CR
+**发布日期**: 2026-02-26
+**链接**: http://arxiv.org/abs/2602.22562v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
