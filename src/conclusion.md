@@ -52961,3 +52961,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-02)
+
+### 软件工程 领域
+
+#### Context-Aware Functional Test Generation via Business Logic Extraction and Adaptation
+**作者**: Yakun Zhang, Zihan Wang, Xinzhi Peng, Zihao Xie, Xiaodong Wang, Xutao Li, Dan Hao, Lu Zhang, Yunming Ye
+**类别**: cs.SE
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24108v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CIRCLE: A Framework for Evaluating AI from a Real-World Lens
+**作者**: Reva Schwartz, Carina Westling, Morgan Briggs, Marzieh Fadaee, Isar Nejadgholi, Matthew Holmes, Fariza Rashid, Maya Carlyle, Afaf Taïk, Kyra Wilson, Peter Douglas, Theodora Skeadas, Gabriella Waters, Rumman Chowdhury, Thiago Lacerda
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24055v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LeGend: A Data-Driven Framework for Lemma Generation in Hardware Model Checking
+**作者**: Mingkai Miao, Guangyu Hu, Wei Zhang, Hongce Zhang
+**类别**: cs.AR, cs.SE
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24010v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Vocabulary of Flaky Tests in the Context of SAP HANA
+**作者**: Alexander Berndt, Zoltán Nochta, Thomas Bach
+**类别**: cs.SE
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.23957v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mixed Choice in Asynchronous Multiparty Session Types
+**作者**: Laura Bocchi, Raymond Hu, Adriana Laura Voinea, Simon Thompson
+**类别**: cs.DC, cs.FL, cs.MA, cs.PL, cs.SE
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.23927v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### NSHEDB: Noise-Sensitive Homomorphic Encrypted Database Query Engine
+**作者**: Boram Jung, Yuliang Li, Hung-Wei Tseng
+**类别**: cs.DB, cs.CR
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24271v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Anansi: Scalable Characterization of Message-Based Job Scams
+**作者**: Abisheka Pitumpe, Amir Rahmati
+**类别**: cs.CR
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24223v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SAILOR: A Scalable and Energy-Efficient Ultra-Lightweight RISC-V for IoT Security
+**作者**: Christian Ewert, Tim Hardow, Melf Fritsch, Leon Dietrich, Henrik Strunck, Rainer Buchty, Mladen Berekovic, Saleh Mulhem
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24166v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Unsupervised Baseline Clustering and Incremental Adaptation for IoT Device Traffic Profiling
+**作者**: Sean M. Alderman, John D. Hastings
+**类别**: cs.NI, cs.CR, cs.LG
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24047v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking
+**作者**: Zhicheng Fang, Jingjie Zheng, Chenxu Fu, Wei Xu
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-02-27
+**链接**: http://arxiv.org/abs/2602.24009v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
