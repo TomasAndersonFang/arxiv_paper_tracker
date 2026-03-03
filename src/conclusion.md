@@ -53069,3 +53069,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-03)
+
+### 软件工程 领域
+
+#### From Leaderboard to Deployment: Code Quality Challenges in AV Perception Repositories
+**作者**: Mateus Karvat, Bram Adams, Sidney Givigi
+**类别**: cs.CV, cs.LG, cs.RO, cs.SE
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.02194v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Generative AI in Software Testing: Current Trends and Future Directions
+**作者**: Tanish Singla, Qusay H. Mahmoud
+**类别**: cs.SE
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.02141v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MetaRCA: A Generalizable Root Cause Analysis Framework for Cloud-Native Systems Powered by Meta Causal Knowledge
+**作者**: Shuai Liang, Pengfei Chen, Bozhe Tian, Gou Tan, Maohong Xu, Youjun Qu, Yahui Zhao, Yiduo Shang, Chongkang Tan
+**类别**: cs.SE
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.02032v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Real Money, Fake Models: Deceptive Model Claims in Shadow APIs
+**作者**: Yage Zhang, Yukun Jiang, Zeyuan Chen, Michael Backes, Xinyue Shen, Yang Zhang
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.01919v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Code Reasoning
+**作者**: Shubham Ugare, Satish Chandra
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.01896v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Boosting Device Utilization in Control Flow Auditing
+**作者**: Alexandra Lengert, Adam Ilyas Caulfield, Ivan De Oliveira Nunes
+**类别**: cs.CR
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.02161v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Subcubic Coin Tossing in Asynchrony without Setup
+**作者**: Mose Mizrahi, Roger Wattenhofer
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.02071v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Protection against Source Inference Attacks in Federated Learning
+**作者**: Andreas Athanasiou, Kangsoo Jung, Catuscia Palamidessi
+**类别**: cs.CR
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.02017v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Accurate, private, secure, federated U-statistics with higher degree
+**作者**: Quentin Sinh, Jan Ramon
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.01986v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SoK: Is Sustainable the New Usable? Debunking The Myth of Fundamental Incompatibility Between Security and Sustainability
+**作者**: Maxwell Keleher, David Barrera, Sonia Chiasson
+**类别**: cs.HC, cs.CR
+**发布日期**: 2026-03-02
+**链接**: http://arxiv.org/abs/2603.01958v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
