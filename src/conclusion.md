@@ -53177,3 +53177,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-04)
+
+### 软件工程 领域
+
+#### BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?
+**作者**: Guoxin Chen, Fanzhe Meng, Jiale Zhao, Minghao Li, Daixuan Cheng, Huatong Song, Jie Chen, Yuzhi Lin, Hui Chen, Xin Zhao, Ruihua Song, Chang Liu, Cheng Chen, Kai Jia, Ji-Rong Wen
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03194v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Type-Aware Retrieval-Augmented Generation with Dependency Closure for Solver-Executable Industrial Optimization Modeling
+**作者**: Y. Zhong, R. Huang, M. Wang, Z. Guo, YC. Li, M. Yu, Z. Jin
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03180v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RippleGUItester: Change-Aware Exploratory Testing
+**作者**: Yanqi Su, Michael Pradel, Chunyang Chen
+**类别**: cs.SE
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03121v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Practical Guide for Establishing a Technical Debt Management Process (Preprint)
+**作者**: Marion Wiese, Kamila Serwa, Eva Bittner
+**类别**: cs.SE
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03085v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry
+**作者**: Yuvraj Agrawal
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03018v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Gravity Falls: A Comparative Analysis of Domain-Generation Algorithm (DGA) Detection Methods for Mobile Device Spearphishing
+**作者**: Adam Dorian Wong, John D. Hastings
+**类别**: cs.CR, cs.LG, cs.NI
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03270v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective
+**作者**: Enea Monzio Compagnoni, Alessandro Stanghellini, Rustem Islamov, Aurelien Lucchi, Anastasiia Koloskova
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03226v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multiparty Quantum Key Agreement: Architectures, State-of-the-art, and Open Problems
+**作者**: Malik Mouaji, Saif Al-Kuwari
+**类别**: quant-ph, cs.CR, math-ph
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03225v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RAIN: Secure and Robust Aggregation under Shuffle Model of Differential Privacy
+**作者**: Yuhang Li, Yajie Wang, Xiangyun Tang, Peng Jiang, Yu-an Tan, Liehuang Zhu
+**类别**: cs.CR
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03108v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### IoUCert: Robustness Verification for Anchor-based Object Detectors
+**作者**: Benedikt Brückner, Alejandro Mercado, Yanghao Zhang, Panagiotis Kouvaros, Alessio Lomuscio
+**类别**: cs.LG, cs.AI, cs.CR, cs.CV
+**发布日期**: 2026-03-03
+**链接**: http://arxiv.org/abs/2603.03043v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
