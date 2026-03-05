@@ -53285,3 +53285,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-05)
+
+### 软件工程 领域
+
+#### A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development
+**作者**: Boyuan, Guan, Wencong Cui, Levente Juhasz
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04390v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LikeThis! Empowering App Users to Submit UI Improvement Suggestions Instead of Complaints
+**作者**: Jialiang Wei, Ali Ebrahimi Pourasad, Walid Maalej
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04245v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FeedAIde: Guiding App Users to Submit Rich Feedback Reports by Asking Context-Aware Follow-Up Questions
+**作者**: Ali Ebrahimi Pourasad, Meyssam Saghiri, Walid Maalej
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04244v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Code Fingerprints: Disentangled Attribution of LLM-Generated Code
+**作者**: Jiaxun Guo, Ziyuan Yang, Mengyu Sun, Hui Wang, Jingfeng Lu, Yi Zhang
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04212v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CodeTaste: Can LLMs Generate Human-Level Code Refactorings?
+**作者**: Alex Thillen, Niels Mündler, Veselin Raychev, Martin Vechev
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04177v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy
+**作者**: Chen Sun, Yash Vekaria, Zubair Shafiq, Rishab Nithyanand
+**类别**: cs.CY, cs.CR, cs.IR, cs.LG, cs.SI
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04383v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Robustness of Agentic AI Systems via Adversarially-Aligned Jacobian Regularization
+**作者**: Furkan Mumcu, Yasin Yilmaz
+**类别**: cs.LG, cs.AI, cs.CR, cs.MA
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04378v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Breaking Bad Email Habits: Bounding the Impact of Simulated Phishing Campaigns
+**作者**: Muhammad Zia Hydari, Idris Adjerid, Yingda Lu, Narayan Ramasubbu
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04324v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PTOPOFL: Privacy-Preserving Personalised Federated Learning via Persistent Homology
+**作者**: Kelly L Vomo-Donfack, Adryel Hoszu, Grégory Ginot, Ian Morilla
+**类别**: cs.LG, cs.CR, cs.DC, math.AT, stat.ML
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04323v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Statistical Effort Modelling of Game Resource Localisation Attacks
+**作者**: Alessandro Sanna, Waldo Verstraete, Leonardo Regano, Davide Maiorca, Bjorn De Sutter
+**类别**: cs.CR
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04261v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
