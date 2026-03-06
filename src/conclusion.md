@@ -53393,3 +53393,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-06)
+
+### 软件工程 领域
+
+#### A framework for assessing the capabilities of code generation of constraint domain-specific languages with large language models
+**作者**: David Delgado, Lola Burgueño, Robert Clarisó
+**类别**: cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05278v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Benchmarking Framework for Model Datasets
+**作者**: Philipp-Lorenz Glaser, Lola Burgueño, Dominik Bork
+**类别**: cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05250v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Why Do You Contribute to Stack Overflow? Understanding Cross-Cultural Motivations and Usage Patterns before the Age of LLMs
+**作者**: Sherlock A. Licorish, Elijah Zolduoarrati, Tony Savarimuthu, Rashina Hoda, Ronnie De Souza Santos, Pankajeshwara Sharma
+**类别**: cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05043v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RepoLaunch: Automating Build&Test Pipeline of Code Repositories on ANY Language and ANY Platform
+**作者**: Kenan Li, Rongzhi Li, Linghao Zhang, Qirui Jin, Liao Zhu, Xiaosong Huang, Geng Zhang, Yikai Zhang, Shilin He, Chengxing Xie, Xin Zhang, Zijian Jin, Bowen Li, Chaoyun Zhang, Yu Kang, Yufan Huang, Elsie Nallipogu, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
+**类别**: cs.SE, cs.LG, cs.MA
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05026v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Auto-Generating Personas from User Reviews in VR App Stores
+**作者**: Yi Wang, Kexin Cheng, Xiao Liu, Chetan Arora, John Grundy, Thuong Hoang, Henry Been-Lirn Duh
+**类别**: cs.HC, cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04985v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Lambda-randomization: multi-dimensional randomized response made easy
+**作者**: Nicolas Ruiz
+**类别**: cs.CR
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05261v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Robust Single-message Shuffle Differential Privacy Protocol for Accurate Distribution Estimation
+**作者**: Xiaoguang Li, Hanyi Wang, Yaowei Huang, Jungang Yang, Qingqing Ye, Haonan Yan, Ke Pan, Zhe Sun, Hui Li
+**类别**: cs.CR
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05073v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cyber Threat Intelligence for Artificial Intelligence Systems
+**作者**: Natalia Krawczyk, Mateusz Szczepkowski, Adrian Brodzik, Krzysztof Bocianiak
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05068v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Good-Enough LLM Obfuscation (GELO)
+**作者**: Anatoly Belikov, Ilya Fedotov
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05035v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Practical Post-Quantum Distributed Ledger Protocol for Financial Institutions
+**作者**: Yeoh Wei Zhu, Naresh Goud Boddu, Yao Ma, Shaltiel Eloul, Giulio Golinelli, Yash Satsangi, Rob Otter, Kaushik Chakraborty
+**类别**: cs.CR
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.05005v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
