@@ -53501,3 +53501,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-07)
+
+### 软件工程 领域
+
+#### Public Sector Open Source Program Offices - Archetypes for how to Grow (Common) Institutional Capabilities
+**作者**: Johan Linåker, Astor Nummelin Carlberg, Ciaran O'Riordan
+**类别**: cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04891v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FireBench: Evaluating Instruction Following in Enterprise and API-Driven LLM Applications
+**作者**: Yunfan Zhang, Yijie Bei, Jetashree Ravi, Pawel Garbacki
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04857v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MOOSEnger -- a Domain-Specific AI Agent for the MOOSE Ecosystem
+**作者**: Mengnan Li, Jason Miller, Zachary Prince, Alexander Lindsay, Cody Permann
+**类别**: cs.AI, cs.CE, cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04756v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Behaviour Driven Development Scenario Generation with Large Language Models
+**作者**: Amila Rathnayake, Mojtaba Shahin, Golnoush Abaei
+**类别**: cs.SE
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04729v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development
+**作者**: Hung Tran, Langston Nashold, Rayan Krishnan, Antoine Bigeard, Alex Gu
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04601v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Modification to Fully Homomorphic Modified Rivest Scheme
+**作者**: Sona Alex, Bian Yang
+**类别**: cs.CR
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04952v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EVMbench: Evaluating AI Agents on Smart Contract Security
+**作者**: Justin Wang, Andreas Bigger, Xiaohai Xu, Justin W. Lin, Andy Applebaum, Tejal Patwardhan, Alpin Yukseloglu, Olivia Watkins
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04915v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows
+**作者**: Ivoline C. Ngong, Keerthiram Murugesan, Swanand Kadhe, Justin D. Weisz, Amit Dhurandhar, Karthikeyan Natesan Ramamurthy
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04902v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Osmosis Distillation: Model Hijacking with the Fewest Samples
+**作者**: Yuchen Shi, Huajie Chen, Heng Xu, Zhiquan Liu, Jialiang Shen, Chi Liu, Shuai Zhou, Tianqing Zhu, Wanlei Zhou
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04859v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ShieldBypass: On the Persistence of Impedance Leakage Beyond EM Shielding
+**作者**: Md Sadik Awal, Md Tauhidur Rahman
+**类别**: cs.CR, cs.ET
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04801v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
