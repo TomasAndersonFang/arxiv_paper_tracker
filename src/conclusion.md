@@ -53609,3 +53609,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-08)
+
+### 软件工程 领域
+
+#### Industrial Survey on Robustness Testing In Cyber Physical Systems
+**作者**: Christophe Ponsard, Abiola Paterne Chokki, Jean-François Daune
+**类别**: cs.SE
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04587v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CLARC: C/C++ Benchmark for Robust Code Search
+**作者**: Kaicheng Wang, Liyan Huang, Weike Fang, Weihang Wang
+**类别**: cs.SE
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04484v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### iScript: A Domain-Adapted Large Language Model and Benchmark for Physical Design Tcl Script Generation
+**作者**: Ning Xu, Zhaoyang Zhang, Senlin Shu, Lei Qi, Jiaqi Lv, Wensuo Wang, Tianhao Zhao, Chao Zhang, Zhaoliang Yang, Xiangyu Li, Zhaorui Su, Jingshan Li, Xin Geng
+**类别**: cs.SE, cs.PL
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04476v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Core Calculus for Type-safe Product Lines of C Programs
+**作者**: Ferruccio Damiani, Daisuke Kimura, Luca Paolini, Makoto Tatsuta
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04013v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LoRA-MME: Multi-Model Ensemble of LoRA-Tuned Encoders for Code Comment Classification
+**作者**: Md Akib Haider, Ahsan Bulbul, Nafis Fuad Shahid, Aimaan Ahmed, Mohammad Ishrak Abedin
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.03959v2
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic Encryption
+**作者**: Yang Gao, Gang Quan, Wujie Wen, Scott Piersall, Qian Lou, Liqiang Wang
+**类别**: cs.CR
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04742v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When Denoising Becomes Unsigning: Theoretical and Empirical Analysis of Watermark Fragility Under Diffusion-Based Image Editing
+**作者**: Fai Gu, Qiyu Tang, Te Wen, Emily Davis, Finn Carter
+**类别**: cs.CR, cs.MM, eess.IV
+**发布日期**: 2026-03-05
+**链接**: http://arxiv.org/abs/2603.04696v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Impact of 5G SA Logical Vulnerabilities on UAV Communications: Threat Models and Testbed Evaluation
+**作者**: Wagner Comin Sonaglio, Ágney Lopes Roth Ferraz, Lourenço Alves Pereira Júnior
+**类别**: cs.CR
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04662v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Bayesian Adversarial Privacy
+**作者**: Cameron Bell, Timothy Johnston, Antoine Luciano, Christian P Robert
+**类别**: math.ST, cs.CR, cs.LG, stat.ME
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04199v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CAM-LDS: Cyber Attack Manifestations for Automatic Interpretation of System Logs and Security Alerts
+**作者**: Max Landauer, Wolfgang Hotwagner, Thorina Boenke, Florian Skopik, Markus Wurzenberger
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-04
+**链接**: http://arxiv.org/abs/2603.04186v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
