@@ -53717,3 +53717,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-09)
+
+### 软件工程 领域
+
+#### Understanding and Finding JIT Compiler Performance Bugs
+**作者**: Zijian Yi, Cheng Ding, August Shi, Milos Gligoric
+**类别**: cs.SE
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06551v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Reference Architecture of Reinforcement Learning Frameworks
+**作者**: Xiaoran Liu, Istvan David
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06413v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management
+**作者**: Yang Liu, Li Zhang, Fang Liu, Ping Lin, Xinyi Li
+**类别**: cs.SE
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06358v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Generalized Feature Model for Digital Twins
+**作者**: Philipp Zech, Yanis Mair, Michael Vierhauser, Pablo Oliveira Antonino, Frank Schnicke, Tony Clark
+**类别**: cs.SE
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06308v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Story Point Estimation Using Large Language Models
+**作者**: Pranam Prakash Shetty, Adarsh Balakrishnan, Mengqiao Xu, Xiaoyin Xi, Zhe Yu
+**类别**: cs.SE
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06276v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Radio-Frequency Side-Channel Analysis of a Trapped-Ion Quantum Computer
+**作者**: Giorgio Grigolo, Dorian Schiffer, Lukas Gerster, Martin Ringbauer, Paul Erker
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06562v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Proteus: A Practical Framework for Privacy-Preserving Device Logs
+**作者**: Sanket Goutam, Hunter Kippen, Mike Grace, Amir Rahmati
+**类别**: cs.CR
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06540v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Before You Hand Over the Wheel: Evaluating LLMs for Security Incident Analysis
+**作者**: Sourov Jajodia, Madeena Sultana, Suryadipta Majumdar, Adrian Taylor, Grant Vandenberghe
+**类别**: cs.CR
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06422v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Comparative Analysis of Cross-Chain Token Standards
+**作者**: Fatemeh Heidari Soureshjani, Jan Gorzny
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06388v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code
+**作者**: Elzo Brito dos Santos Filho
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-06
+**链接**: http://arxiv.org/abs/2603.06365v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
