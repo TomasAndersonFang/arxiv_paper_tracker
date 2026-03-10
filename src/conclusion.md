@@ -53825,3 +53825,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-10)
+
+### 软件工程 领域
+
+#### PostTrainBench: Can LLM Agents Automate LLM Post-Training?
+**作者**: Ben Rank, Hardik Bhatnagar, Ameya Prabhu, Shira Eisenberg, Karina Nguyen, Matthias Bethge, Maksym Andriushchenko
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08640v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing
+**作者**: Nils Loose, Nico Winkel, Kristoffer Hempel, Felix Mächtle, Julian Hans, Thomas Eisenbarth
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08616v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SCAFFOLD-CEGIS: Preventing Latent Security Degradation in LLM-Driven Iterative Code Refinement
+**作者**: Yi Chen, Yun Bian, Haiquan Wang, Shihao Li, Zhe Cui
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08520v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Designing Value-Based Platforms: Architectural Strategies Derived from the Digital Markets Act
+**作者**: Fabian Stiehle, Markus Funke, Patricia Lago, Ingo Weber
+**类别**: cs.SE
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08372v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Human-AI Collaboration for Scaling Agile Regression Testing: An Agentic-AI Teammate from Manual to Automated Testing
+**作者**: Moustapha El Outmani, Manthan Venkataramana Shenoy, Ahmad Hatahet, Andreas Rausch, Tim Niklas Kniep, Thomas Raddatz, Benjamin King
+**类别**: cs.SE
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08190v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Cybersecurity AI: Hacking Consumer Robots in the AI Era
+**作者**: Víctor Mayoral-Vilches, Unai Ayucar-Carbajo, Olivier Laflamme, Ruikai Peng, María Sanz-Gómez, Francesco Balassone, Lucas Apa, Endika Gil-Uriarte
+**类别**: cs.CR
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08665v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Why No Consensus on Consensus? A Deep Dive into Blockchain Consensus Protocols
+**作者**: Mohammad Pishdar, Jawad Manzoor
+**类别**: cs.CR
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08629v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing
+**作者**: Nils Loose, Nico Winkel, Kristoffer Hempel, Felix Mächtle, Julian Hans, Thomas Eisenbarth
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08616v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SmartGraphical: A Human-in-the-Loop Framework for Detecting Smart Contract Logical Vulnerabilities via Pattern-Driven Static Analysis and Visual Abstraction
+**作者**: Ali Fattahdizaji, Mohammad Pishdar, Zarina Shukur
+**类别**: cs.CR
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08580v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security
+**作者**: Andrew Chin, Dongkwan Kim, Yu-Fu Fu, Fabian Fleischer, Youngjoon Kim, HyungSeok Han, Cen Zhang, Brian Junekyu Lee, Hanqing Zhao, Taesoo Kim
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-09
+**链接**: http://arxiv.org/abs/2603.08566v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
