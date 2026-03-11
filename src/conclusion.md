@@ -53933,3 +53933,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-11)
+
+### 软件工程 领域
+
+#### Towards a Neural Debugger for Python
+**作者**: Maximilian Beck, Jonas Gehring, Jannik Kossen, Gabriel Synnaeve
+**类别**: cs.LG, cs.AI, cs.SE
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09951v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Empirical Study of Interaction Smells in Multi-Turn Human-LLM Collaborative Code Generation
+**作者**: Binquan Zhang, Li Zhang, Lin Shi, Song Wang, Yuwei Qian, Linhui Zhao, Fang Liu, An Fu, Yida Ye
+**类别**: cs.SE
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09701v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EsoLang-Bench: Evaluating Genuine Reasoning in Large Language Models via Esoteric Programming Languages
+**作者**: Aman Sharma, Paras Chopra
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09678v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Preparing Students for AI-Driven Agile Development: A Project-Based AI Engineering Curriculum
+**作者**: Andreas Rausch, Stefan Wittek, Tobias Geger, David Inkermann
+**类别**: cs.SE
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09599v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EmbC-Test: How to Speed Up Embedded Software Testing Using LLMs and RAG
+**作者**: Maximilian Harnot, Sebastian Komarnicki, Michal Polok, Timo Oksanen
+**类别**: cs.SE
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09497v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Role Classification of Hosts within Enterprise Networks Based on Connection Patterns
+**作者**: Godfrey Tan, Massimiliano Poletto, John Guttag, Frans Kaashoek
+**类别**: cs.NI, cs.CR
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09910v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The SQInstructor: a guide to SQIsign and the Deuring Correspondence with level structures
+**作者**: Giacomo Borin, Luca De Feo, Guido Maria Lido, Sina Schaeffler
+**类别**: math.NT, cs.CR
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09899v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Bureaucracy of Speed: Structural Equivalence Between Memory Consistency Models and Multi-Agent Authorization Revocation
+**作者**: Vladyslav Parakhin
+**类别**: cs.MA, cs.CR, cs.DC
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09875v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CLIOPATRA: Extracting Private Information from LLM Insights
+**作者**: Meenatchi Sundaram Muthu Selva Annamalai, Emiliano De Cristofaro, Peter Kairouz
+**类别**: cs.CR
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09781v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Removing the Trigger, Not the Backdoor: Alternative Triggers and Latent Backdoors
+**作者**: Gorka Abad, Ermes Franch, Stefanos Koffas, Stjepan Picek
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-03-10
+**链接**: http://arxiv.org/abs/2603.09772v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
