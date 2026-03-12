@@ -54041,3 +54041,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-12)
+
+### 软件工程 领域
+
+#### Artificial Intelligence as a Catalyst for Innovation in Software Engineering
+**作者**: Carlos Alberto Fernández-y-Fernández, Jorge R. Aguilar-Cisneros
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10994v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TOSSS: a CVE-based Software Security Benchmark for Large Language Models
+**作者**: Marc Damie, Murat Bilgehan Ertan, Domenico Essoussi, Angela Makhanu, Gaëtan Peter, Roos Wensveen
+**类别**: cs.LG, cs.CL, cs.CR, cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10969v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### STADA: Specification-based Testing for Autonomous Driving Agents
+**作者**: Joy Saha, Trey Woodlief, Sebastian Elbaum, Matthew B. Dwyer
+**类别**: cs.SE, cs.RO
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10940v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Exploring Indicators of Developers' Sentiment Perceptions in Student Software Projects
+**作者**: Martin Obaidi, Marc Herrmann, Jendrik Martensen, Jil Klünder, Kurt Schneider
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10864v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization
+**作者**: Linghao Zhang
+**类别**: cs.AI, cs.HC, cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10808v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Separating Oblivious and Adaptive Differential Privacy under Continual Observation
+**作者**: Mark Bun, Marco Gaboardi, Connor Wagaman
+**类别**: cs.CR, cs.DS
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11029v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Layered Performance Analysis of TLS 1.3 Handshakes: Classical, Hybrid, and Pure Post-Quantum Key Exchange
+**作者**: David Gómez-Cambronero, Daniel Munteanu, Ana Isabel González-Tablas
+**类别**: cs.CR
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11006v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TOSSS: a CVE-based Software Security Benchmark for Large Language Models
+**作者**: Marc Damie, Murat Bilgehan Ertan, Domenico Essoussi, Angela Makhanu, Gaëtan Peter, Roos Wensveen
+**类别**: cs.LG, cs.CL, cs.CR, cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10969v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MAD: Memory Allocation meets Software Diversity
+**作者**: Manuel Wiesinger, Daniel Dorfmeister, Stefan Brunthaler
+**类别**: cs.CR
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10840v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Backdoor Directions in Vision Transformers
+**作者**: Sengim Karayalcin, Marina Krcek, Pin-Yu Chen, Stjepan Picek
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10806v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
