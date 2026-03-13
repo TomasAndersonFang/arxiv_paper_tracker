@@ -54149,3 +54149,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-13)
+
+### 软件工程 领域
+
+#### Automatic Generation of High-Performance RL Environments
+**作者**: Seth Karten, Rahul Dev Appapogu, Chi Jin
+**类别**: cs.LG, cs.AI, cs.SE
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12145v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Collaborative and Pattern-Based Training Approach to Knowledge Acquisition and Decision-Making During the Design of Software Architectures Courses: A Case Study
+**作者**: Wilson Libardo Pantoja Yepez, Luis Mariano Bibbo, Julio Ariel Hurtado Alegría
+**类别**: cs.SE
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11904v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### QUARE: Multi-Agent Negotiation for Balancing Quality Attributes in Requirements Engineering
+**作者**: Haowei Cheng, Milhan Kim, Foutse Khomh, Teeradaj Racharak, Nobukazu Yoshioka, Naoyasu Ubayashi, Hironori Washizaki
+**类别**: cs.SE
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11890v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Social, Legal, Ethical, Empathetic and Cultural Norm Operationalisation for AI Agents
+**作者**: Radu Calinescu, Ana Cavalcanti, Marsha Chechik, Lina Marsso, Beverley Townsend
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11864v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automatic Attack Script Generation: a MDA Approach
+**作者**: Quentin Goux, Nadira Lammari
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11861v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### STAMP: Selective Task-Aware Mechanism for Text Privacy
+**作者**: Fengwei Tian, Payel Bhattacharjee, Heidi Hanson, Geoffrey D. Rubin, Joseph Y. Lo, Ravi Tandon
+**类别**: cs.LG, cs.CR, cs.IT
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12237v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security Considerations for Artificial Intelligence Agents
+**作者**: Ninghui Li, Kaiyuan Zhang, Kyle Polley, Jerry Ma
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12230v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Privacy in ERP Systems: Behavioral Models of Developers and Consultants
+**作者**: Alicia Pang, Katsiaryna Labunets, Olga Gadyatskaya
+**类别**: cs.CR
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12195v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Understanding Disclosure Risk in Differential Privacy with Applications to Noise Calibration and Auditing (Extended Version)
+**作者**: Patricia Guerra-Balboa, Annika Sauer, Héber H. Arcolezi, Thorsten Strufe
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12142v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EmbTracker: Traceable Black-box Watermarking for Federated Language Models
+**作者**: Haodong Zhao, Jinming Hu, Yijie Bai, Tian Dong, Wei Du, Zhuosheng Zhang, Yanjiao Chen, Haojin Zhu, Gongshen Liu
+**类别**: cs.CR
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12089v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
