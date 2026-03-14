@@ -54257,3 +54257,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-14)
+
+### 软件工程 领域
+
+#### Enhancing Requirements Traceability Link Recovery: A Novel Approach with T-SimCSE
+**作者**: Ye Wang, Wenqing Wang, Kun Hu, Qiao Huang, Liping Zhao
+**类别**: cs.SE
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11800v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Resolving Java Code Repository Issues with iSWE Agent
+**作者**: Jatin Ganhotra, Sami Serhan, Antonio Abu Nassar, Avraham Shinnar, Ziv Nevo, Martin Hirzel
+**类别**: cs.SE, cs.AI, cs.MA
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11356v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation: Quality, Reliability, and Failure Modes
+**作者**: Weimin Fu, Zeng Wang, Minghao Shao, Ramesh Karri, Muhammad Shafique, Johann Knechtel, Ozgur Sinanoglu, Xiaolong Guo
+**类别**: cs.AR, cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11287v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Unveiling Practical Shortcomings of Patch Overfitting Detection Techniques
+**作者**: David Williams, Ioakim Avraam, Aldeida Aleti, Matias Martinez, Justyna Petke, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11262v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ExecVerify: White-Box RL with Verifiable Stepwise Rewards for Code Execution Reasoning
+**作者**: Lingxiao Tang, He Ye, Zhaoyang Chu, Muyang Ye, Zhongxin Liu, Xiaoxue Ren, Lingfeng Bao
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11226v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Systematic Security Analysis of the Iridium Satellite Radio Link
+**作者**: Eric Jedermann, Piotr Kulpinski, Martin Strohmeier, Vincent Lenders, Jens Schmitt
+**类别**: cs.CR
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12062v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cascade: Composing Software-Hardware Attack Gadgets for Adversarial Threat Amplification in Compound AI Systems
+**作者**: Sarbartha Banerjee, Prateek Sahu, Anjo Vahldiek-Oberwagner, Jose Sanchez Vicarte, Mohit Tiwari
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12023v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Credibility Matters: Motivations, Characteristics, and Influence Mechanisms of Crypto Key Opinion Leaders
+**作者**: Alexander Kropiunig, Svetlana Kremer, Bernhard Haslhofer
+**类别**: cs.SI, cs.CR, cs.CY, cs.HC
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.12000v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios
+**作者**: Jiayue Pu, Zhongxiang Sun, Zilu Zhang, Xiao Zhang, Jun Xu
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11975v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Delayed Backdoor Attacks: Exploring the Temporal Dimension as a New Attack Surface in Pre-Trained Models
+**作者**: Zikang Ding, Haomiao Yang, Meng Hao, Wenbo Jiang, Kunlan Xiang, Runmeng Du, Yijing Liu, Ruichen Zhang, Dusit Niyato
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11949v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
