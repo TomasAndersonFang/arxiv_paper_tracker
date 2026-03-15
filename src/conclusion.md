@@ -54365,3 +54365,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-15)
+
+### 软件工程 领域
+
+#### Bridging Behavioral Biometrics and Source Code Stylometry: A Survey of Programmer Attribution
+**作者**: Marek Horvath, Emilia Pietrikova, Diomidis Spinellis
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.11150v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Packaging Jupyter notebooks as installable desktop apps using LabConstrictor
+**作者**: Iván Hidalgo-Cenalmor, Marcela Xiomara Rivera Pineda, Bruno M. Saraiva, Ricardo Henriques, Guillaume Jacquemet
+**类别**: cs.SE, q-bio.QM
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10704v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Education to Evidence: A Collaborative Practice Research Platform for AI-Integrated Agile Development
+**作者**: Tobias Geger, Andreas Rausch, Ina Schiering, Frauke Stenzel, Stefan Wittek
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10679v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ESG Reporting Lifecycle Management with Large Language Models and AI Agents
+**作者**: Thong Hoang, Mykhailo Klymenko, Xiwei Xu, Shidong Pan, Yi Ding, Xushuo Tang, Zhengyi Yang, Jieke Shi, David Lo
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10646v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### QuantumX: an experience for the consolidation of Quantum Computing and Quantum Software Engineering as an emerging discipline
+**作者**: Juan M. Murillo, Ignacio García Rodríguez de Guzmán, Enrique Moguel, Javier Romero-Álvarez, Jaime Alvarado-Valiente, Álvaro M. Aparicio-Morales, Jose Garcia-Alonso, Ana Díaz Muñoz, Eduardo Fernández-Medina, Francisco Chicano, Carlos Canal, José Daniel Viqueira, Sebastián Villarroya, Eduardo Gutiérrez, Adrián Romero-Flores, Alfonso E. Márquez-Chamorro, Antonio Ruiz-Cortes, Cyrille YetuYetu Kesiku, Pedro Sánchez, Diego Alonso Cáceres, Lidia Sánchez-González, Fernando Plou
+**类别**: cs.SE
+**发布日期**: 2026-03-11
+**链接**: http://arxiv.org/abs/2603.10621v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Understanding LLM Behavior When Encountering User-Supplied Harmful Content in Harmless Tasks
+**作者**: Junjie Chu, Yiting Qu, Ye Leng, Michael Backes, Yun Shen, Savvas Zannettou, Yang Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11914v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Possible Detectability of Image-in-Image Steganography
+**作者**: Antoine Mallet, Patrick Bas
+**类别**: cs.CR, cs.MM, eess.IV
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11876v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Mirror Design Pattern: Strict Data Geometry over Model Scale for Prompt Injection Detection
+**作者**: J Alex Corll
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11875v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents
+**作者**: Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou, Eric Hanchen Jiang, Philip Sperl
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11862v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents
+**作者**: Frank Li
+**类别**: cs.CR
+**发布日期**: 2026-03-12
+**链接**: http://arxiv.org/abs/2603.11853v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
