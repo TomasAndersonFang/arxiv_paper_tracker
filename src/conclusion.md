@@ -54473,3 +54473,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-16)
+
+### 软件工程 领域
+
+#### MoEKD: Mixture-of-Experts Knowledge Distillation for Robust and High-Performing Compressed Code Models
+**作者**: Md. Abdul Awal, Mrigank Rochan, Chanchal K. Roy
+**类别**: cs.SE
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13213v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### daVinci-Env: Open SWE Environment Synthesis at Scale
+**作者**: Dayuan Fu, Shenyu Wu, Yunze Wu, Zerui Peng, Yaxing Huang, Jie Sun, Ji Zeng, Mohan Jiang, Lin Zhang, Yukun Li, Jiarui Hu, Liming Liu, Jinlong Hou, Pengfei Liu
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13023v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Requirement-Based Framework for Engineering Adaptive Authentication
+**作者**: Alzubair Hassan, Alkabashi Alnour, Bashar Nuseibeh, Liliana Pasquale
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.12968v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Teaching Agile Requirements Engineering: A Stakeholder Simulation with Generative AI
+**作者**: Eva-Maria Schön, Michael Neumann, Tiago Silva da Silva
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.12925v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts
+**作者**: Chantale Lauer, Peter Pfeiffer, Nijat Mehdiyev
+**类别**: cs.HC, cs.AI, cs.SE
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.12895v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Learnability and Privacy Vulnerability are Entangled in a Few Critical Weights
+**作者**: Xingli Fang, Jung-Eun Kim
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13186v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Verification of Robust Properties for Access Control Policies
+**作者**: Alexander V. Gheorghiu
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13181v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Defensible Design for OpenClaw: Securing Autonomous Tool-Invoking Agents
+**作者**: Zongwei Li, Wenkai Li, Xiaoqi Li
+**类别**: cs.CR
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13151v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Purify Once, Edit Freely: Breaking Image Protections under Model Mismatch
+**作者**: Qichen Zhao, Shengfang Zhai, Xinjian Bai, Qingni Shen, Qiqi Lin, Yansong Gao, Zhonghai Wu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13028v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PISmith: Reinforcement Learning-based Red Teaming for Prompt Injection Defenses
+**作者**: Chenlong Yin, Runpeng Geng, Yanting Wang, Jinyuan Jia
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-03-13
+**链接**: http://arxiv.org/abs/2603.13026v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
