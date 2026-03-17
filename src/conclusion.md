@@ -54581,3 +54581,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-17)
+
+### 软件工程 领域
+
+#### Lore: Repurposing Git Commit Messages as a Structured Knowledge Protocol for AI Coding Agents
+**作者**: Ivan Stetsenko
+**类别**: cs.SE, cs.AI, eess.SY
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15566v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Probabilistic Model Checking Taken by Storm
+**作者**: Matthias Volk, Linus Heck, Sebastian Junges, Joost-Pieter Katoen, Tim Quatmann
+**类别**: cs.SE, cs.LO
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15559v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Formalisms for Robotic Mission Specification and Execution: A Comparative Analysis
+**作者**: Gianluca Filippone, Sara Pettinari, Patrizio Pelliccione
+**类别**: cs.SE, cs.RO
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15427v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-Skills-Bench: Do Agent Skills Actually Help in Real-World Software Engineering?
+**作者**: Tingxu Han, Yi Zhang, Wei Song, Chunrong Fang, Zhenyu Chen, Youcheng Sun, Lijie Hu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15401v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multi-Objective Load Balancing for Heterogeneous Edge-Based Object Detection Systems
+**作者**: Daghash K. Alqahtani, Maria A. Rodriguez, Muhammad Aamir Cheema, Adel N. Toosi
+**类别**: cs.DC, cs.SE
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15400v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Differential Privacy for Network Connectedness Indices
+**作者**: Tom A. Rutter, Yuxin Liu, M. Amin Rahimian
+**类别**: stat.AP, cs.CR, cs.CY, cs.SI, physics.soc-ph
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15609v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evasive Intelligence: Lessons from Malware Analysis for Evaluating AI Agents
+**作者**: Simone Aonzo, Merve Sahin, Aurélien Francillon, Daniele Perito
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15457v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Amplification Effects in Test-Time Reinforcement Learning: Safety and Reasoning Vulnerabilities
+**作者**: Vanshaj Khattar, Md Rafi ur Rashid, Moumita Choudhury, Jing Liu, Toshiaki Koike-Akino, Ming Jin, Ye Wang
+**类别**: cs.LG, cs.AI, cs.CL, cs.CR
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15417v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TrinityGuard: A Unified Framework for Safeguarding Multi-Agent Systems
+**作者**: Kai Wang, Biaojie Zeng, Zeming Wei, Chang Jin, Hefeng Zhou, Xiangtian Li, Chao Yang, Jingjing Qu, Xingcheng Xu, Xia Hu
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG, cs.MA
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15408v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SFCoT: Safer Chain-of-Thought via Active Safety Evaluation and Calibration
+**作者**: Yu Pan, Wenlong Yu, Tiejun Wu, Xiaohu Ye, Qiannan Si, Guangquan Xu, Bin Wu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-16
+**链接**: http://arxiv.org/abs/2603.15397v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
