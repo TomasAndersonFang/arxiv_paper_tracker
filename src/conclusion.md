@@ -54689,3 +54689,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-18)
+
+### 软件工程 领域
+
+#### ManiTwin: Scaling Data-Generation-Ready Digital Object Dataset to 100K
+**作者**: Kaixuan Wang, Tianxing Chen, Jiawei Liu, Honghao Su, Shaolong Zhu, Minxuan Wang, Zixuan Li, Yue Chen, Huan-ang Gao, Yusen Qin, Jiawei Wang, Qixuan Zhang, Lan Xu, Jingyi Yu, Yao Mu, Ping Luo
+**类别**: cs.RO, cs.AI, cs.GR, cs.LG, cs.SE
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16866v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Improving Code Comprehension through Cognitive-Load Aware Automated Refactoring for Novice Programmers
+**作者**: Subarna Saha, Alif Al Hasan, Fariha Tanjim Shifat, Mia Mohammad Imran
+**类别**: cs.SE
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16791v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### InCoder-32B: Code Foundation Model for Industrial Scenarios
+**作者**: Jian Yang, Wei Zhang, Jiajun Wu, Junhang Cheng, Shawn Guo, Haowen Wang, Weicheng Gu, Yaxin Du, Joseph Li, Fanglin Xu, Yizhi Li, Lin Jing, Yuanbo Wang, Yuhan Gao, Ruihao Gong, Chuan Hao, Ran Tao, Aishan Liu, Tuney Zheng, Ganqu Cui, Zhoujun Li, Mingjie Tang, Chenghua Lin, Wayne Xin Zhao, Xianglong Liu, Ming Zhou, Bryan Dai, Weifeng Lv
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16790v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### IQuest-Coder-V1 Technical Report
+**作者**: Jian Yang, Wei Zhang, Shawn Guo, Zhengmao Ye, Lin Jing, Shark Liu, Yizhi Li, Jiajun Wu, Cening Liu, X. Ma, Yuyang Song, Siwei Wu, Yuwen Li, L. Liao, T. Zheng, Ziling Huang, Zelong Huang, Che Liu, Yan Xing, Renyuan Li, Qingsong Cai, Hanxu Yan, Siyue Wang, Shikai Li, Jason Klein Liu, An Huang, Yongsheng Kang, Jinxing Zhang, Chuan Hao, Haowen Wang, Weicheng Gu, Ran Tao, Mingjie Tang, Peihao Wu, Jianzhou Wang, Xianglong Liu, Weifeng Lv, Bryan Dai
+**类别**: cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16733v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reasoning About Variability Models Through Network Analysis
+**作者**: Jose Manuel Sanchez, Miguel Angel Olivero, Ruben Heradio, Luis Cambelo, David Fernandez-Amoros
+**类别**: cs.SE
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16577v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Persistent Device Identity for Network Access Control in the Era of MAC Address Randomization: A RADIUS-Based Framework
+**作者**: Premanand Seralathan
+**类别**: cs.NI, cs.CR
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16745v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Ember: A Serverless Peer-to-Peer End-to-End Encrypted Messaging System over an IPv6 Mesh Network
+**作者**: Hamish Alsop, Leandros Maglaras, Naghmeh Moradpoor
+**类别**: cs.CR
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16735v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SynthChain: A Synthetic Benchmark and Forensic Analysis of Advanced and Stealthy Software Supply Chain Attacks
+**作者**: Zhuoran Tan, Wenbo Guo, Taylor Brierley, Jiewen Luo, Jeremy Singer, Christos Anagnostopoulos
+**类别**: cs.CR
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16694v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### REFORGE: Multi-modal Attacks Reveal Vulnerable Concept Unlearning in Image Generation Models
+**作者**: Yong Zou, Haoran Li, Fanxiao Li, Shenyang Wei, Yunyun Dong, Li Tang, Wei Zhou, Renyang Liu
+**类别**: cs.CV, cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16576v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Malicious Or Not: Adding Repository Context to Agent Skill Classification
+**作者**: Florian Holzbauer, David Schmidt, Gabriel Gegenhuber, Sebastian Schrittwieser, Johanna Ullrich
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-17
+**链接**: http://arxiv.org/abs/2603.16572v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
