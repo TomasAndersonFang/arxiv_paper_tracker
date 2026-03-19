@@ -54797,3 +54797,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-19)
+
+### 软件工程 领域
+
+#### Toward Scalable Automated Repository-Level Datasets for Software Vulnerability Detection
+**作者**: Amine Lbath
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17974v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TDAD: Test-Driven Agentic Development - Reducing Code Regressions in AI Coding Agents via Graph-Based Impact Analysis
+**作者**: Pepe Alonso
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17973v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CodeGreen: Towards Improving Precision and Portability in Software Energy Measurement
+**作者**: Saurabhsingh Rajput, Tushar Sharma
+**类别**: cs.SE
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17924v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### In Perfect Harmony: Orchestrating Causality in Actor-Based Systems
+**作者**: Vladyslav Mikytiv, Bernardo Toninho, Carla Ferreira
+**类别**: cs.SE, cs.LO
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17909v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### scicode-lint: Detecting Methodology Bugs in Scientific Python Code with LLM-Generated Patterns
+**作者**: Sergey V. Samsonau
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17893v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs
+**作者**: Ya-Ting Yang, Quanyan Zhu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17902v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SoK: From Silicon to Netlist and Beyond $-$ Two Decades of Hardware Reverse Engineering Research
+**作者**: Zehra Karadağ, Simon Klix, René Walendy, Felix Hahn, Kolja Dorschel, Julian Speith, Christof Paar, Steffen Becker
+**类别**: cs.CR
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17883v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On Securing the Software Development Lifecycle in IoT RISC-V Trusted Execution Environments
+**作者**: Annika Wilde, Samira Briongos, Claudio Soriente, Ghassan Karame
+**类别**: cs.CR
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17757v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Data Obfuscation for Secure Use of Classical Values in Quantum Computation
+**作者**: Amal Raj, Vivek Balachandran
+**类别**: cs.CR
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17725v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Machine Learning for Network Attacks Classification and Statistical Evaluation of Machine Learning for Network Attacks Classification and Adversarial Learning Methodologies for Synthetic Data Generation
+**作者**: Iakovos-Christos Zarkadis, Christos Douligeris
+**类别**: cs.CR, cs.AI, stat.AP, stat.ML
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17717v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
