@@ -54905,3 +54905,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-20)
+
+### 软件工程 领域
+
+#### Implicit Patterns in LLM-Based Binary Analysis
+**作者**: Qiang Li, XiangRui Zhang, Haining Wang
+**类别**: cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19138v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond the Code: A Multi-Modal Assessment Strategy for Fostering Professional Competencies via Introductory Programming Projects
+**作者**: Santiago Berrezueta-Guzman, Vanesa Metaj, Stefan Wagner
+**类别**: cs.CY, cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18741v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Measuring and Exploiting Confirmation Bias in LLM-Assisted Security Code Review
+**作者**: Dimitris Mitropoulos, Nikolaos Alexopoulos, Georgios Alexopoulos, Diomidis Spinellis
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18740v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SpaceTime Programming: Live and Omniscient Exploration of Code and Execution
+**作者**: Jean-Baptiste Döderlein, Djamel Eddine Khelladi, Mathieu Acher, Benoit Combemale
+**类别**: cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18735v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Green Architectural Tactics in ML-enabled Systems: An LLM-based Repository Mining Study
+**作者**: Vincenzo De Martino, Silverio Martínez-Fernández, Fabio Palomba
+**类别**: cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18734v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Performance Testing of ChaCha20-Poly1305 for Internet of Things and Industrial Control System devices
+**作者**: Kristján Orri Ragnarsson, Jacky Mallett
+**类别**: cs.CR
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19150v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Implicit Patterns in LLM-Based Binary Analysis
+**作者**: Qiang Li, XiangRui Zhang, Haining Wang
+**类别**: cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19138v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Post-Quantum Cryptography from Quantum Stabilizer Decoding
+**作者**: Jonathan Z. Lu, Alexander Poremba, Yihui Quek, Akshar Ramkumar
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19110v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FedTrident: Resilient Road Condition Classification Against Poisoning Attacks in Federated Learning
+**作者**: Sheng Liu, Panos Papadimitratos
+**类别**: cs.CR, cs.AI, cs.DC, cs.LG
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19101v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On The Effectiveness of the UK NIS Regulations as a Mandatory Cybersecurity Reporting Regime
+**作者**: Junade Ali, Chris Hicks
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19084v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
