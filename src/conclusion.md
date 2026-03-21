@@ -55013,3 +55013,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-21)
+
+### 软件工程 领域
+
+#### Cross-Ecosystem Vulnerability Analysis for Python Applications
+**作者**: Georgios Alexopoulos, Nikolaos Alexopoulos, Thodoris Sotiropoulos, Charalambos Mitropoulos, Zhendong Su, Dimitris Mitropoulos
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18693v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CNT: Safety-oriented Function Reuse across LLMs via Cross-Model Neuron Transfer
+**作者**: Yue Zhao, Yujia Gong, Ruigang Liang, Shenchen Zhu, Kai Chen, Xuejing Yuan, Wangjun Zhang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18449v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Where are the Hidden Gems? Applying Transformer Models for Design Discussion Detection
+**作者**: Lawrence Arkoh, Daniel Feitosa, Wesley K. G. Assunção
+**类别**: cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18393v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TENSURE: Fuzzing Sparse Tensor Compilers (Registered Report)
+**作者**: Kabilan Mahathevan, Yining Zhang, Muhammad Ali Gulzar, Kirshanthan Sundararajah
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18372v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference
+**作者**: Pranay Anchuri, Matteo Campanelli, Paul Cesaretti, Rosario Gennaro, Tushar M. Jois, Hasan S. Kayman, Tugce Ozdemir
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19025v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security awareness in LLM agents: the NDAI zone case
+**作者**: Enrico Bottazzi, Pia Park
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.19011v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Controller Datapath Aware Verification of Masked Hardware Generated via High Level Synthesis
+**作者**: Nilotpola Sarma, Vaishali Ghanshyam Chaudhuri, Chandan Karfa
+**类别**: cs.CR
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18939v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections
+**作者**: Shiliang Zhang, Sabita Maharjan
+**类别**: cs.CR, cs.AI, cs.CY
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18914v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Confidential Databases Without Cryptographic Mappings
+**作者**: Wenxuan Huang, Zhanbo Wang, Mingyu Li
+**类别**: cs.CR, cs.DB
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18836v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
