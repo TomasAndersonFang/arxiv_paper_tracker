@@ -55111,3 +55111,81 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-22)
+
+### 软件工程 领域
+
+#### SQL-Commenter: Aligning Large Language Models for SQL Comment Generation with Direct Preference Optimization
+**作者**: Lei Yu, Peng Wang, Jingyuan Zhang, Xin Wang, Jia Xu, Li Yang, Changzhi Deng, Jiajia Ma, Fengjun Zhang
+**类别**: cs.SE
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18606v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought
+**作者**: Zichen Xie, Wenxi Wang
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.18334v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents
+**作者**: Lintang Sutawika, Aditya Bharat Soni, Bharath Sriraam R R, Apurva Gandhi, Taha Yassine, Sanidhya Vijayvargiya, Yuchen Li, Xuhui Zhou, Yilin Zhang, Leander Melroy Maben, Graham Neubig
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-03-18
+**链接**: http://arxiv.org/abs/2603.17829v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Agent Control Protocol: Admission Control for Agent Actions
+**作者**: Marcelo Fernandez
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18829v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary
+**作者**: Lingming Zhang, Binbin Zhao, Puzhuo Liu, Qinge Xie, Peng Di, Jianhai Chen, Shouling Ji
+**类别**: cs.CR
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18789v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SoK: Practical Aspects of Releasing Differentially Private Graphs
+**作者**: Nicholas D'Silva, Surya Nepal, Salil S. Kanhere
+**类别**: cs.CR, cs.SI
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18779v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ClawTrap: A MITM-Based Red-Teaming Framework for Real-World OpenClaw Security Evaluation
+**作者**: Haochen Zhao, Shaoyang Cui
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-19
+**链接**: http://arxiv.org/abs/2603.18762v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
