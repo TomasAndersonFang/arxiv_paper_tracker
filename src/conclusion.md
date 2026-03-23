@@ -55189,3 +55189,59 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-23)
+
+### 安全领域 领域
+
+#### Improving Generalization on Cybersecurity Tasks with Multi-Modal Contrastive Learning
+**作者**: Jianan Huang, Rodolfo V. Valentim, Luca Vassio, Matteo Boffa, Marco Mellia, Idilio Drago, Dario Rossi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-20
+**链接**: http://arxiv.org/abs/2603.20181v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HQC Post-Quantum Cryptography Decryption with Generalized Minimum-Distance Reed-Solomon Decoder
+**作者**: Jiaxuan Cai, Xinmiao Zhang
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-03-20
+**链接**: http://arxiv.org/abs/2603.20156v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Agentic Multi-Agent Architecture for Cybersecurity Risk Management
+**作者**: Ravish Gupta, Saket Kumar, Shreeya Sharma, Maulik Dang, Abhishek Aggarwal
+**类别**: eess.SY, cs.AI, cs.CR
+**发布日期**: 2026-03-20
+**链接**: http://arxiv.org/abs/2603.20131v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evolving Jailbreaks: Automated Multi-Objective Long-Tail Attacks on Large Language Models
+**作者**: Wenjing Hong, Zhonghua Rong, Li Wang, Feng Chang, Jian Zhu, Ke Tang, Zexuan Zhu, Yew-Soon Ong
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-20
+**链接**: http://arxiv.org/abs/2603.20122v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Trojan horse hunt in deep forecasting models: Insights from the European Space Agency competition
+**作者**: Krzysztof Kotowski, Ramez Shendy, Jakub Nalepa, Agata Kaczmarek, Dawid Płudowski, Piotr Wilczyński, Artur Janicki, Przemysław Biecek, Ambros Marzetta, Atul Pande, Lalit Chandra Routhu, Swapnil Srivastava, Evridiki Ntagiou
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-03-20
+**链接**: http://arxiv.org/abs/2603.20108v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
