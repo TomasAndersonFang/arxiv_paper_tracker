@@ -55245,3 +55245,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-24)
+
+### 软件工程 领域
+
+#### Lemma Discovery in Agentic Program Verification
+**作者**: Huan Zhao, Haoxin Tu, Zhengyao Liu, Martin Rinard, Abhik Roychoudhury
+**类别**: cs.SE
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22114v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Technical Debt to Cognitive and Intent Debt: Rethinking Software Health in the Age of AI
+**作者**: Margaret-Anne Storey
+**类别**: cs.SE
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22106v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do Papers Match Code? A Benchmark and Framework for Paper-Code Consistency Detection in Bioinformatics Software
+**作者**: Tianxiang Xu, Xiaoyan Zhu, Xin Lai, Sizhe Dang, Xin Lian, Hangyu Cheng, Jiayin Wang
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22018v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### StreamSampling.jl: Efficient Sampling from Data Streams in Julia
+**作者**: Adriano Meligrana
+**类别**: cs.SE, stat.CO
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.21996v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Evaluating the Reliability and Fidelity of Automated Judgment Systems of Large Language Models
+**作者**: Tom Biskupski, Stephan Kleber
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22214v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Framework for Risk-Based IoT Cybersecurity Audit Engagements
+**作者**: Danielle Hanson, Jeremy Straub
+**类别**: cs.CR
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22191v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TALUS: Threshold ML-DSA with One-Round Online Signing via Boundary Clearance and Carry Elimination
+**作者**: Leo Kao
+**类别**: cs.CR
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22109v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Asymptotically Ideal Hierarchical Secret Sharing Based on CRT for Integer Ring
+**作者**: Jian Ding, Cheng Wang, Hongju Li, Cheng Shu, Haifeng Yu
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22011v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Asymptotically Ideal Conjunctive Hierarchical Secret Sharing Scheme Based on CRT for Polynomial Ring
+**作者**: Jian Ding, Cheng Wang, Hongju Li, Cheng Shu, Haifeng Yu
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-03-23
+**链接**: http://arxiv.org/abs/2603.22001v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
