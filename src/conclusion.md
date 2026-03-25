@@ -55343,3 +55343,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-25)
+
+### 软件工程 领域
+
+#### ReqFusion: A Multi-Provider Framework for Automated PEGS Analysis Across Software Domains
+**作者**: Muhammad Khalid, Manuel Oriol, Yilmaz Uygun
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23482v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ConceptCoder: Improve Code Reasoning via Concept Learning
+**作者**: Md Mahbubur Rahman, Hengbo Tong, Wei Le
+**类别**: cs.SE
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23470v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Code Review Agent Benchmark
+**作者**: Yuntong Zhang, Zhiyuan Pan, Imam Nur Bani Yusuf, Haifeng Ruan, Ridwan Shariffdeen, Abhik Roychoudhury
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23448v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating LLM-Based Test Generation Under Software Evolution
+**作者**: Sabaat Haroon, Mohammad Taha Khan, Muhammad Ali Gulzar
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23443v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MuSe: a Mutation Testing Plugin for the Remix IDE
+**作者**: Gerardo Iuliano, Daniele Carangelo, Carmine Calabrese, Dario Di Nucci
+**类别**: cs.SE
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23441v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Byzantine-Robust and Differentially Private Federated Optimization under Weaker Assumptions
+**作者**: Rustem Islamov, Grigory Malinovsky, Alexander Gaponov, Aurelien Lucchi, Peter Richtárik, Eduard Gorbunov
+**类别**: cs.LG, cs.CR, math.OC
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23472v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CSTS: A Canonical Security Telemetry Substrate for AI-Native Cyber Detection
+**作者**: Abdul Rahman
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23459v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Targeted Adversarial Traffic Generation : Black-box Approach to Evade Intrusion Detection Systems in IoT Networks
+**作者**: Islam Debicha, Tayeb Kenaza, Ishak Charfi, Salah Mosbah, Mehdi Sehaki, Jean-Michel Dricot
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23438v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Experimental Study of Machine Learning-Based Intrusion Detection for OPC UA over Industrial Private 5G Networks
+**作者**: Song Son Ha, Kunal Singh, Florian Foerster, Henry Beuster, Tim Kittel, Dominik Merli, Gerd Scholl
+**类别**: cs.CR
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23416v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Canonical Byte-String Encoding for Finite-Ring Cryptosystems
+**作者**: Kyrylo Riabov, Serhii Kryvyi
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-03-24
+**链接**: http://arxiv.org/abs/2603.23364v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
