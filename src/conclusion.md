@@ -55451,3 +55451,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-26)
+
+### 软件工程 领域
+
+#### Comparing Developer and LLM Biases in Code Evaluation
+**作者**: Aditya Mittal, Ryan Shar, Zichu Wu, Shyam Agarwal, Tongshuang Wu, Chris Donahue, Ameet Talwalkar, Wayne Chi, Valerie Chen
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24586v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Boosting LLMs for Mutation Generation
+**作者**: Bo Wang, Ming Deng, Mingda Chen, Chengran Yang, Youfang Lin, Mark Harman, Mike Papadakis, Jie M. Zhang
+**类别**: cs.SE
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24560v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Efficiency for Experts, Visibility for Newcomers: A Case Study of Label-Code Alignment in Kubernetes
+**作者**: Matteo Vaccargiu, Sabrina Aufiero, Silvia Bartolucci, Ronnie de Souza Santos, Roberto Tonelli, Giuseppe Destefanis
+**类别**: cs.SE
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24501v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Composer 2 Technical Report
+**作者**: Cursor Reseach, :, Aaron Chan, Ahmed Shalaby, Alexander Wettig, Aman Sanger, Andrew Zhai, Anurag Ajay, Ashvin Nair, Charlie Snell, Chen Lu, Chen Shen, Emily Jia, Federico Cassano, Hanpeng Liu, Haoyu Chen, Henry Wildermuth, Jacob Jackson, Janet Li, Jediah Katz, Jiajun Yao, Joey Hejna, Josh Warner, Julius Vering, Kevin Frans, Lee Danilek, Less Wright, Lujing Cen, Luke Melas-Kyriazi, Michael Truell, Michiel de Jong, Naman Jain, Nate Schmidt, Nathan Wang, Niklas Muennighoff, Oleg Rybkin, Paul Loh, Phillip Kravtsov, Rishabh Yadav, Sahil Shah, Sam Kottler, Alexander M Rush, Shengtong Zhang, Shomil Jain, Sriram Sankar, Stefan Heule, Stuart H. Sul, Sualeh Asif, Victor Rong, Wanqi Zhu, William Lin, Yuchen Wu, Yuri Volkov, Yury Zemlyanskiy, Zack Holbrook, Zhiyuan Zhang
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24477v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Gendered Prompting and LLM Code Review: How Gender Cues in the Prompt Shape Code Quality and Evaluation
+**作者**: Lynn Janzen, Üveys Eroglu, Dorothea Kolossa, Pia Knöferle, Sebastian Möller, Vera Schmitt, Veronika Solopova
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24359v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Infrastructure for Valuable, Tradable, and Verifiable Agent Memory
+**作者**: Mengyuan Li, Lei Gao, Haoxuan Xu, Jiate Li, Potung Yu, Lingke Cheng, Yue Zhao, Murali Annavaram
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24564v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analysing the Safety Pitfalls of Steering Vectors
+**作者**: Yuxiao Li, Alina Fastowski, Efstratios Zaradoukas, Bardh Prenkaj, Gjergji Kasneci
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24543v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs
+**作者**: Alexander Panfilov, Peter Romov, Igor Shilov, Yves-Alexandre de Montjoye, Jonas Geiping, Maksym Andriushchenko
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24511v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### IPsec based on Quantum Key Distribution: Adapting non-3GPP access to 5G Networks to the Quantum Era
+**作者**: Asier Atutxa, Ane Sanz, Eire Salegi, Gaizka González, Jasone Astorga, Eduardo Jacob
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24426v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watchers
+**作者**: Songyang Liu, Chaozhuo Li, Chenxu Wang, Jinyu Hou, Zejian Chen, Litian Zhang, Zheng Liu, Qiwei Ye, Yiming Hei, Xi Zhang, Zhongyuan Wang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24414v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
