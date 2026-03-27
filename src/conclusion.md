@@ -55559,3 +55559,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-27)
+
+### 软件工程 领域
+
+#### The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase
+**作者**: Yannick Roy
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25697v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Uncertainty-Guided Label Rebalancing for CPS Safety Monitoring
+**作者**: John Ayotunde, Qinghua Xu, Guancheng Wang, Lionel C. Briand
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25670v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SHAPR: Operationalising Human-AI Collaborative Research Through Structured Knowledge Generation
+**作者**: Ka Ching Chan
+**类别**: cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25660v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Quantum Circuit Repair by Gate Prioritisation
+**作者**: Eñaut Mendiluze Usandizaga, Thomas Laurent, Paolo Arcaini, Shaukat Ali
+**类别**: cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25587v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Missing-Aware Multimodal Fusion for Unified Microservice Incident Management
+**作者**: Wenzhuo Qian, Hailiang Zhao, Ziqi Wang, Zhipeng Gao, Jiayi Chen, Zhiwei Ling, Shuiguang Deng
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25538v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### TAAC: A gate into Trustable Audio Affective Computing
+**作者**: Xintao Hu, Feng-Qi Cui
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25570v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Unveiling the Resilience of LLM-Enhanced Search Engines against Black-Hat SEO Manipulation
+**作者**: Pei Chen, Geng Hong, Xinyi Wu, Mengying Wu, Zixuan Zhu, Mingxuan Liu, Baojun Liu, Mi Zhang, Min Yang
+**类别**: cs.CR, cs.IR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25500v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Content Safety: Real-Time Monitoring for Reasoning Vulnerabilities in Large Language Models
+**作者**: Xunguang Wang, Yuguang Zhou, Qingyue Wang, Zongjie Li, Ruixuan Huang, Zhenlan Ji, Pingchuan Ma, Shuai Wang
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25412v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Shape and Substance: Dual-Layer Side-Channel Attacks on Local Vision-Language Models
+**作者**: Eyal Hadad, Mordechai Guri
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25403v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ALPS: Automated Least-Privilege Enforcement for Securing Serverless Functions
+**作者**: Changhee Shin, Bom Kim, Seungsoo Lee
+**类别**: cs.CR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25393v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
