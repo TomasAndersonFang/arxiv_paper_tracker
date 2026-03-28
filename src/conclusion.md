@@ -55667,3 +55667,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-28)
+
+### 软件工程 领域
+
+#### LACY: Simulating Expert Mentoring for Software Onboarding with Code Tours
+**作者**: Zeynep Begüm Kara, Aytekin İsmail, Ece Ateş, İzgi Nur Tamcı, Zehra İyigün, Selin Şirin Aslangül, Ömercan Devran, Baykal Mehmet Uçar, Eray Tüzün
+**类别**: cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25391v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing
+**作者**: Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
+**类别**: cs.SE, cs.AI, cs.CL, cs.MA
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25226v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Competence Shadow: Theory and Bounds of AI Assistance in Safety Engineering
+**作者**: Umair Siddique
+**类别**: cs.AI, cs.ET, cs.HC, cs.RO, cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25197v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Factors Influencing the Quality of AI-Generated Code: A Synthesis of Empirical Evidence
+**作者**: Vehid Geruslu, Zulfiyya Aliyeva, Eray Tüzün
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25146v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SEVerA: Verified Synthesis of Self-Evolving Agents
+**作者**: Debangshu Banerjee, Changming Xu, Gagandeep Singh
+**类别**: cs.LG, cs.PL, cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25111v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Supercharging Federated Intelligence Retrieval
+**作者**: Dimitris Stripelis, Patrick Foley, Mohammad Naseri, William Lindskog-Münzing, Chong Shen Ng, Daniel Janes Beutel, Nicholas D. Lane
+**类别**: cs.IR, cs.CL, cs.CR, cs.LG
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25374v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multi-target Coverage-based Greybox Fuzzing
+**作者**: Masami Ichikawa
+**类别**: cs.CR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25354v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Second order Recurrences, quadratic number fields and cyclic codes
+**作者**: Minjia Shi, Xuan Wang, Bouazzaoui Zakariae, Jon-Lark Kim, Patrick Solé
+**类别**: math.NT, cs.CR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25343v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Vulnerability of Deep Automatic Modulation Classifiers to Explainable Backdoor Threats
+**作者**: Younes Salmi, Hanna Bogucka
+**类别**: cs.CR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25310v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Physical Backdoor Attack Against Deep Learning-Based Modulation Classification
+**作者**: Younes Salmi, Hanna Bogucka
+**类别**: cs.CR
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25304v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
