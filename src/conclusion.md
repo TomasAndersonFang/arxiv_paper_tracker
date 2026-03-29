@@ -55775,3 +55775,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-29)
+
+### 软件工程 领域
+
+#### Imperative Interference: Social Register Shapes Instruction Topology in Large Language Models
+**作者**: Tony Mason
+**类别**: cs.CL, cs.AI, cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25015v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Error Understanding in Program Code With LLM-DL for Multi-label Classification
+**作者**: Md Faizul Ibne Amin, Yutaka Watanobe, Md. Mostafizer Rahman, Daniel M. Muepu, Md. Shahajada Mia
+**类别**: cs.SE
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25005v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MobileDev-Bench: A Comprehensive Benchmark for Evaluating Language Models on Mobile Application Development
+**作者**: Moshood A. Fakorede, Krishna Upadhyay, A. B. Siddique, Umar Farooq
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.24946v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Governance in Practice: How Open Source Projects Define and Document Roles
+**作者**: Pedro Oliveira, Tayana Conte, Marco Gerosa, Igor Steinmacher
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24879v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Data-Oriented Modeling for Spacecraft Design
+**作者**: Nathan Strange
+**类别**: cs.SE
+**发布日期**: 2026-03-25
+**链接**: http://arxiv.org/abs/2603.24841v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Usability of Passwordless Authentication in Wi-Fi Networks: A Comparative Study of Passkeys and Passwords in Captive Portals
+**作者**: Martiño Rivera-Dourado, Rubén Pérez-Jove, Alejandro Pazos, Jose Vázquez-Naya
+**类别**: cs.CR, cs.HC
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25290v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mitigating Evasion Attacks in Fog Computing Resource Provisioning Through Proactive Hardening
+**作者**: Younes Salmi, Hanna Bogucka
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25257v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI via Zero-Knowledge Proofs
+**作者**: Yeongju Bak
+**类别**: cs.CR, cs.CY, cs.DC
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25190v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented Generation Systems
+**作者**: Haozhen Wang, Haoyue Liu, Jionghao Zhu, Zhichao Wang, Yongxin Guo, Xiaoying Tang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25164v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Logic Monopoly to Social Contract: Separation of Power and the Institutional Foundations for Autonomous Agent Economies
+**作者**: Anbang Ruan
+**类别**: cs.MA, cs.AI, cs.CR, cs.DC
+**发布日期**: 2026-03-26
+**链接**: http://arxiv.org/abs/2603.25100v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
