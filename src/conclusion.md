@@ -55883,3 +55883,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-30)
+
+### 软件工程 领域
+
+#### Learning to Commit: Generating Organic Pull Requests via Online Repository Memory
+**作者**: Mo Li, L. H. Xu, Qitai Tan, Ting Cao, Yunxin Liu
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26664v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification
+**作者**: Zehai He, Wenyi Hong, Zhen Yang, Ziyang Pan, Mingdao Liu, Xiaotao Gu, Jie Tang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26648v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Sustainability Is Not Linear: Quantifying Performance, Energy, and Privacy Trade-offs in On-Device Intelligence
+**作者**: Eziyo Ehsani, Luca Giamattei, Ivano Malavolta, Roberto Pietrantuono
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26603v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Code Snippets: Benchmarking LLMs on Repository-Level Question Answering
+**作者**: Yoseph Berhanu Alebachew, Hunter Leary, Swanand Vaishampayan, Chris Brown
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26567v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reentrancy Detection in the Age of LLMs
+**作者**: Dalila Ressi, Alvise Spanò, Matteo Rizzo, Lorenzo Benetollo, Sabina Rossi
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26497v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Machine Learning Transferability for Malware Detection
+**作者**: César Vieira, João Vitorino, Eva Maia, Isabel Praça
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26632v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evolution-Based Timed Opacity under a Universal Observation Model
+**作者**: Zhe Zhang, Martijn Goorden, Michel Reniers
+**类别**: cs.FL, cs.CR
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26573v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reentrancy Detection in the Age of LLMs
+**作者**: Dalila Ressi, Alvise Spanò, Matteo Rizzo, Lorenzo Benetollo, Sabina Rossi
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26497v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Privacy-Preserving Federated Learning using Hybrid Homomorphic Encryption
+**作者**: Ivan Costa, Pedro Correia, Ivone Amorim, Eva Maia, Isabel Praça
+**类别**: cs.CR
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26417v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cryptanalysis of a PIR Scheme based on Linear Codes over Rings
+**作者**: Luana Kurmann, Svenja Lage, Violetta Weger
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-03-27
+**链接**: http://arxiv.org/abs/2603.26409v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
