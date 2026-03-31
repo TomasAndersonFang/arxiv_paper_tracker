@@ -55991,3 +55991,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-03-31)
+
+### 软件工程 领域
+
+#### RAD-AI: Rethinking Architecture Documentation for AI-Augmented Ecosystems
+**作者**: Oliver Aleksander Larsen, Mahyar T. Moghaddam
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28735v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SAGAI-MID: A Generative AI-Driven Middleware for Dynamic Runtime Interoperability
+**作者**: Oliver Aleksander Larsen, Mahyar T. Moghaddam
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28731v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BitSov: A Composable Bitcoin-Native Architecture for Sovereign Internet Infrastructure
+**作者**: Oliver Aleksander Larsen, Rasmus Thorsen Larsen, Mahyar T. Moghaddam
+**类别**: cs.CR, cs.DC, cs.NI, cs.SE
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28727v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### C2RustXW: Program-Structure-Aware C-to-Rust Translation via Program Analysis and LLM
+**作者**: Yanyan Yan, Yang Feng, Jiangshan Liu, Di Liu, Zixi Liu, Hao Teng, Baowen Xu
+**类别**: cs.SE
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28686v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Enhancing User-Feedback Driven Requirements Prioritization
+**作者**: Aurek Chattopadhyay, Nan Niu, Hui Liu, Jianzhang Zhang
+**类别**: cs.SE
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28677v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### BitSov: A Composable Bitcoin-Native Architecture for Sovereign Internet Infrastructure
+**作者**: Oliver Aleksander Larsen, Rasmus Thorsen Larsen, Mahyar T. Moghaddam
+**类别**: cs.CR, cs.DC, cs.NI, cs.SE
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28727v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FL-PBM: Pre-Training Backdoor Mitigation for Federated Learning
+**作者**: Osama Wehbi, Sarhad Arisdakessian, Omar Abdel Wahab, Azzam Mourad, Hadi Otrok, Jamal Bentahar
+**类别**: cs.LG, cs.CR, cs.DC
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28673v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Interpretable Ensemble Learning for Network Traffic Anomaly Detection: A SHAP-based Explainable AI Framework for Embedded Systems Security
+**作者**: Wanru Shao
+**类别**: cs.CR
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28654v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mitigating Backdoor Attacks in Federated Learning Using PPA and MiniMax Game Theory
+**作者**: Osama Wehbi, Sarhad Arisdakessian, Omar Abdel Wahab, Anderson Avila, Azzam Mourad, Hadi Otrok
+**类别**: cs.LG, cs.CR, cs.DC, cs.GT
+**发布日期**: 2026-03-30
+**链接**: http://arxiv.org/abs/2603.28652v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
