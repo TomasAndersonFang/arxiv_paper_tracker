@@ -56089,3 +56089,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-01)
+
+### 软件工程 领域
+
+#### Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations
+**作者**: Izavan dos S. Correia, Henrique C. T. Santos, Tiago A. E. Ferreira
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.30040v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Lightweight Hybrid Publish/Subscribe Event Fabric for IPC and Modular Distributed Systems
+**作者**: Dimitris Gkoulis
+**类别**: cs.DC, cs.SE
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.30030v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Phyelds: A Pythonic Framework for Aggregate Computing
+**作者**: Gianluca Aguzzi, Davide Domini, Nicolas Farabegoli, Mirko Viroli
+**类别**: cs.SE, cs.AI, cs.PL
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.29999v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Think Anywhere in Code Generation
+**作者**: Xue Jiang, Tianyu Zhang, Ge Li, Mengyang Liu, Taozhi Chen, Zhenhua Xu, Binhua Li, Wenpin Jiao, Zhi Jin, Yongbin Li, Yihong Dong
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.29957v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BayesInsights: Modelling Software Delivery and Developer Experience with Bayesian Networks at Bloomberg
+**作者**: Serkan Kirbas, Federica Sarro, David Williams
+**类别**: cs.SE
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.29929v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### EnsembleSHAP: Faithful and Certifiably Robust Attribution for Random Subspace Method
+**作者**: Yanting Wang, Jinyuan Jia
+**类别**: cs.CR
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.30034v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Refined Detection for Gumbel Watermarking
+**作者**: Tor Lattimore
+**类别**: cs.LG, cs.CR, stat.ML
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.30017v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks
+**作者**: Chong Xiang, Drew Zagieboylo, Shaona Ghosh, Sanjay Kariyappa, Kai Greshake, Hanshen Xiao, Chaowei Xiao, G. Edward Suh
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.30016v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security and Privacy in Virtual and Robotic Assistive Systems: A Comparative Framework
+**作者**: Nelly Elsayed
+**类别**: cs.CR
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.29907v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detecting speculative leaks with compositional semantics
+**作者**: Xaver Fabian, Marco Guarnieri, Boris Köpf, Jose F. Morales, Marco Patrignani, Jan Reineke, Andres Sanchez
+**类别**: cs.CR
+**发布日期**: 2026-03-31
+**链接**: http://arxiv.org/abs/2603.29800v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
