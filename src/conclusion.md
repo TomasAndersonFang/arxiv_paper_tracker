@@ -56197,3 +56197,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-02)
+
+### 软件工程 领域
+
+#### Automated Generation of High-Quality Bug Reports for Android Applications
+**作者**: Antu Saha, Atish Kumar Dipongkor, Sam Bennett, Kevin Moran, Andrian Marcus, Oscar Chaparro
+**类别**: cs.SE
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01148v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SERSEM: Selective Entropy-Weighted Scoring for Membership Inference in Code Language Models
+**作者**: Kıvanç Kuzey Dikici, Serdar Kara, Semih Çağlar, Eray Tüzün, Sinem Sav
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01147v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Leveraging Commit Size Context and Hyper Co-Change Graph Centralities for Defect Prediction
+**作者**: Amit Kumar, Ethari Hrishikesh, Sonali Agarwal
+**类别**: cs.SE
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01132v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Harnessing Hype to Teach Empirical Thinking: An Experience With AI Coding Assistants
+**作者**: Marvin Wyrich, Norman Peitek, Kallistos Weis, Sven Apel
+**类别**: cs.SE
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01110v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Generation of Cybersecurity Exercise Scenarios
+**作者**: Charilaos Skandylas, Mikael Asplund
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01079v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### AgentWatcher: A Rule-based Prompt Injection Monitor
+**作者**: Yanting Wang, Wei Zou, Runpeng Geng, Jinyuan Jia
+**类别**: cs.CR
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01194v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SERSEM: Selective Entropy-Weighted Scoring for Membership Inference in Code Language Models
+**作者**: Kıvanç Kuzey Dikici, Serdar Kara, Semih Çağlar, Eray Tüzün, Sinem Sav
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01147v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Obfuscating Code Vulnerabilities against Static Analysis in JavaScript Code
+**作者**: Francesco Pagano, Lorenzo Pisu, Leonardo Regano, Davide Maiorca, Alessio Merlo, Giorgio Giacinto
+**类别**: cs.CR
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01131v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multi-Agent LLM Governance for Safe Two-Timescale Reinforcement Learning in SDN-IoT Defense
+**作者**: Saeid Jamshidi, Negar Shahabi, Foutse Khomh, Carol Fung, Mohammad Hamdaqa
+**类别**: cs.CR
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01127v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LightGuard: Transparent WiFi Security via Physical-Layer LiFi Key Bootstrapping
+**作者**: Shiqi Xu, Yuyang Du, Mingyue Zhang, Hongwei Cui, Soung Chang Liew
+**类别**: cs.CR, cs.AR, cs.NI
+**发布日期**: 2026-04-01
+**链接**: http://arxiv.org/abs/2604.01092v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
