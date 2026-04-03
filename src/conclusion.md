@@ -56305,3 +56305,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-03)
+
+### 软件工程 领域
+
+#### LLMs as Idiomatic Decompilers: Recovering High-Level Code from x86-64 Assembly for Dart
+**作者**: Raafat Abualazm, Ayman Abo Elhassan
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02278v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluation of gNB Monostatic Sensing for UAV Use Case
+**作者**: Steve Blandino, Neeraj Varshney, Jian Wang, Jack Chuang, Camillo Gentile, Nada Golmie
+**类别**: eess.SP, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02205v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Semantic Evolution over Populations for LLM-Guided Automated Program Repair
+**作者**: Cuong Chi Le, Minh Le-Anh, Cuong Duc Van, Tien N. Nguyen
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02134v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Case For Host Code Guided GPU Data Race Detector
+**作者**: Ajay Nayak, Anubhab Ghosh, Arkaprava Basu
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02106v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Functional Testing for Malleable Mobile Application Driven from User Intent
+**作者**: Yuying Wang, Kaifeng Huang, Hao Deng, Zhiyuan Sun, Jinxuan Zhou, Shengjie Zhao
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02079v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### PARD-SSM: Probabilistic Cyber-Attack Regime Detection via Variational Switching State-Space Models
+**作者**: Prakul Sunil Hiremath, PeerAhammad M Bagawan, Sahil Bhekane
+**类别**: cs.CR
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02299v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AEGIS: Adversarial Entropy-Guided Immune System -- Thermodynamic State Space Models for Zero-Day Network Evasion Detection
+**作者**: Vickson Ferrel
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02149v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### APEX: Agent Payment Execution with Policy for Autonomous Agent API Access
+**作者**: Mohd Safwan Uddin, Mohammed Mouzam, Mohammed Imran, Syed Badar Uddin Faizan
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02023v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RuleForge: Automated Generation and Validation for Web Vulnerability Detection at Scale
+**作者**: Ayush Garg, Sophia Hager, Jacob Montiel, Aditya Tiwari, Michael Gentile, Zach Reavis, David Magnotti, Wayne Fullen
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01977v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Architectural Implications of the UK Cyber Security and Resilience Bill
+**作者**: Jonathan Shelby
+**类别**: cs.CR, eess.SY
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01937v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
