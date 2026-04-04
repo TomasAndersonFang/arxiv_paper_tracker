@@ -56413,3 +56413,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-04)
+
+### 软件工程 领域
+
+#### A Model-Driven Digital Twin for the Systematic Improvement of DevOps Pipelines
+**作者**: Achref Samoud, Sara Aissat, Francis Bordeleau
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02077v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### APITestGenie: Generating Web API Tests from Requirements and API Specifications with LLMs
+**作者**: André Pereira, Bruno Lima, João Pascoal Faria
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.02039v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Component Manipulation to System Compromise: Understanding and Detecting Malicious MCP Servers
+**作者**: Yiheng Huang, Zhijia Zhao, Bihuan Chen, Susheng Wu, Zhuotong Zhou, Yiheng Cao, Xin Hu, Xin Peng
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01905v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can Large Language Models Model Programs Formally?
+**作者**: Zhiyong Chen, Jialun Cao, Jiarong Wu, Chang Xu, Shing-Chi Cheung
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01851v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TestDecision: Sequential Test Suite Generation via Greedy Optimization and Reinforcement Learning
+**作者**: Guoqing Wang, Chengran Yang, Xiaoxuan Zhou, Zeyu Sun, Bo Wang, David Lo, Dan Hao
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01799v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### From Component Manipulation to System Compromise: Understanding and Detecting Malicious MCP Servers
+**作者**: Yiheng Huang, Zhijia Zhao, Bihuan Chen, Susheng Wu, Zhuotong Zhou, Yiheng Cao, Xin Hu, Xin Peng
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01905v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Combating Data Laundering in LLM Training
+**作者**: Muxing Li, Zesheng Ye, Sharon Li, Feng Liu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01904v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Topology-Hiding Connectivity-Assurance for QKD Inter-Networking
+**作者**: Margherita Cozzolino, Stephan Krenn, Thomas Lorünser
+**类别**: cs.CR, quant-ph
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01876v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Topology-Hiding Path Validation for Large-Scale Quantum Key Distribution Networks
+**作者**: Stephan Krenn, Omid Mir, Thomas Lorünser, Sebastian Ramacher, Florian Wohner
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01831v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Spike-PTSD: A Bio-Plausible Adversarial Example Attack on Spiking Neural Networks via PTSD-Inspired Spike Scaling
+**作者**: Lingxin Jin, Wei Jiang, Maregu Assefa Habtie, Letian Chen, Jinyu Zhan, Xingzhi Zhou, Lin Zuo, Naoufel Werghi
+**类别**: cs.CR
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01750v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
