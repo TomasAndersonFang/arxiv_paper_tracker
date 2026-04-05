@@ -56521,3 +56521,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-05)
+
+### 软件工程 领域
+
+#### Fuzzing REST APIs in Industry: Necessary Features and Open Problems
+**作者**: Andrea Arcuri, Alexander Poth, Olsi Rrjolli, Philip Garrett, Juan P. Galeotti
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01759v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mitigating Implicit Inconsistencies in Patch Porting
+**作者**: Shengyi Pan, Zhongxin Liu, Jiayuan Zhou, Xing Hu, Xin Xia, Shanping Li
+**类别**: cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01680v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GPA: Learning GUI Process Automation from Demonstrations
+**作者**: Zirui Zhao, Jun Hao Liew, Yan Yang, Wenzhuo Yang, Ziyang Luo, Doyen Sahoo, Silvio Savarese, Junnan Li
+**类别**: cs.CV, cs.AI, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01676v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analysis of LLM Performance on AWS Bedrock: Receipt-item Categorisation Case Study
+**作者**: Gabby Sanchez, Sneha Oommen, Cassandra T. Britto, Di Wang, Jung-De Chiou, Maria Spichkova
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01615v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EXHIB: A Benchmark for Realistic and Diverse Evaluation of Function Similarity in the Wild
+**作者**: Yiming Fan, Jun Yeon Won, Ding Zhu, Melih Sirlanci, Mahdi Khalili, Carter Yagemann
+**类别**: cs.CR, cs.LG, cs.SE
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01554v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Contextualizing Sink Knowledge for Java Vulnerability Discovery
+**作者**: Fabian Fleischer, Cen Zhang, Joonun Jang, Jeongin Cho, Meng Xu, Taesoo Kim
+**类别**: cs.CR
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01645v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Seclens: Role-specific Evaluation of LLM's for security vulnerablity detection
+**作者**: Subho Halder, Siddharth Saxena, Kashinath Kadaba Shrish, Thiyagarajan M
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01637v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Diffusion-Guided Adversarial Perturbation Injection for Generalizable Defense Against Facial Manipulations
+**作者**: Yue Li, Linying Xue, Kaiqing Lin, Hanyu Quan, Dongdong Lin, Hui Tian, Hongxia Wang, Bin Wang
+**类别**: cs.CR
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01635v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RefinementEngine: Automating Intent-to-Device Filtering Policy Deployment under Network Constraints
+**作者**: Davide Colaiacomo, Chiara Bonfanti, Cataldo Basile
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01627v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Assertain: Automated Security Assertion Generation Using Large Language Models
+**作者**: Shams Tarek, Dipayan Saha, Khan Thamid Hasan, Sujan Kumar Saha, Mark Tehranipoor, Farimah Farahmandi
+**类别**: cs.CR
+**发布日期**: 2026-04-02
+**链接**: http://arxiv.org/abs/2604.01583v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
