@@ -56629,3 +56629,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-06)
+
+### 软件工程 领域
+
+#### From Industry Claims to Empirical Reality: An Empirical Study of Code Review Agents in Pull Requests
+**作者**: Kowshik Chowdhury, Dipayan Banik, K M Ferdous, Shazibul Islam Shamim
+**类别**: cs.SE
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03196v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AI-Assisted Unit Test Writing and Test-Driven Code Refactoring: A Case Study
+**作者**: Ema Smolic, Mario Brcic, Luka Hobor, Mihael Kovac
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03135v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PAFT: Preservation Aware Fine-Tuning for Minimal-Edit Program Repair
+**作者**: Boyang Yang, Zijian Cai, Shunfu Jin, Haoye Tain
+**类别**: cs.SE
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03113v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SkillRT: Compiling Skills for Efficient Execution Everywhere
+**作者**: Le Chen, Erhu Feng, Yubin Xia, Haibo Chen
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03088v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### A Tsetlin Machine-driven Intrusion Detection System for Next-Generation IoMT Security
+**作者**: Rahul Jaiswal, Per-Arne Andersen, Linga Reddy Cenkeramaddi, Lei Jiao, Ole-Christoffer Granmo
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03205v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Learning the Signature of Memorization in Autoregressive Language Models
+**作者**: David Ilić, Kostadin Cvejoski, David Stanojević, Evgeny Grigorenko
+**类别**: cs.CL, cs.CR, cs.LG
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03199v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Systematic Security Evaluation of OpenClaw and Its Variants
+**作者**: Yuhang Wang, Haichang Gao, Zhenxing Niu, Zhaoxiang Liu, Wenjing Zhang, Xiang Wang, Shiguo Lian
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03131v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Independent Safety Evaluation of Kimi K2.5
+**作者**: Zheng-Xin Yong, Parv Mahajan, Andy Wang, Ida Caspary, Yernat Yestekov, Zora Che, Mosh Levy, Elle Najt, Dennis Murphy, Prashant Kulkarni, Lev McKinney, Kei Nishimura-Gasparian, Ram Potham, Aengus Lynch, Michael L. Chen
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03121v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AlertStar: Path-Aware Alert Prediction on Hyper-Relational Knowledge Graphs
+**作者**: Zahra Makki Nayeri, Mohsen Rezvani
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-03
+**链接**: http://arxiv.org/abs/2604.03104v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
