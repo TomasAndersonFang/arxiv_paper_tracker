@@ -56727,3 +56727,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-07)
+
+### 软件工程 领域
+
+#### StatsClaw: An AI-Collaborative Workflow for Statistical Software Development
+**作者**: Tianzhu Qin, Yiqing Xu
+**类别**: cs.SE
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04871v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Assessing Large Language Models for Stabilizing Numerical Expression in Scientific Software
+**作者**: Tien Nguyen, Muhammad Ali Gulzar, Kirshanthan Sundararajah
+**类别**: cs.SE
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04854v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SysTradeBench: An Iterative Build-Test-Patch Benchmark for Strategy-to-Code Trading Systems with Drift-Aware Diagnostics
+**作者**: Yuchen Cao, Hanlin Zhang, Jacky Wai Keung, Yang Chen, Linqi Song
+**类别**: cs.SE
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04812v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Validated Taxonomy on Software Energy Smells
+**作者**: Mohammadjavad Mehditabar, Saurabhsingh Rajput, Tushar Sharma
+**类别**: cs.SE
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04809v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MIRAGE: Online LLM Simulation for Microservice Dependency Testing
+**作者**: XinRan Zhang
+**类别**: cs.SE
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04806v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Comprehensive List of User Deception Techniques in Emails
+**作者**: Maxime Veit, Mattia Mossano, Tobias Länge, Melanie Volkamer
+**类别**: cs.CR, cs.HC
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04926v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Strengthening Human-Centric Chain-of-Thought Reasoning Integrity in LLMs via a Structured Prompt Framework
+**作者**: Jiling Zhou, Aisvarya Adeseye, Seppo Virtanen, Antti Hakkala, Jouni Isoaho
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04852v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cryptanalysis of the Legendre Pseudorandom Function over Extension Fields
+**作者**: Daksh Pandey
+**类别**: cs.CR, math.NT
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04833v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Unpacking .zip: A First Look at Domain and File Name Confusion
+**作者**: Zane Ma, Predrag Despotovic, Pranab Mishra, Kevin Rossel, Athanasios Avgetidis, Zane Ma
+**类别**: cs.CR
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04805v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Forgetting to Witness: Efficient Federated Unlearning and Its Visible Evaluation
+**作者**: Houzhe Wang, Xiaojie Zhu, Chi Chen
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-04-06
+**链接**: http://arxiv.org/abs/2604.04800v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
