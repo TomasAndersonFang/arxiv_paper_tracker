@@ -56835,3 +56835,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-08)
+
+### 软件工程 领域
+
+#### QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization
+**作者**: Changxin Ke, Rui Zhang, Jiaming Guo, Yuanbo Wen, Li Ding, Shuo Wang, Xuyuan Zhu, Xiong Peng, Di Huang, Zidong Du, Xing Hu, Qi Guo, Yunji Chen
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.05963v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Does Pass Rate Tell the Whole Story? Evaluating Design Constraint Compliance in LLM-based Issue Resolution
+**作者**: Kai Yu, Zhenhao Zhou, Junhao Zeng, Ying Wang, Xueying Du, Zhiqiang Yuan, Junwei Liu, Ziyu Zhou, Yujia Wang, Chong Wang, Xin Peng
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.05955v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evolutionary Optimization of AI-Collapsed Software Development Stacks: Labor Tipping Points and Workforce Realignment
+**作者**: Matthew H. Kilbane
+**类别**: cs.SE
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.05948v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Proof of Concept as a First-Class Architectural Decision Instrument
+**作者**: Bruno Fernando Antognolli, Fabio Petrillo
+**类别**: cs.SE
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.05835v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reinforcement Learning with Negative Tests as Completeness Signal for Formal Specification Synthesis
+**作者**: Zhechong Huang, Zhao Zhang, Zeyu Sun, Huifeng Sun, Yingfei Xiong
+**类别**: cs.SE
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.05820v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries
+**作者**: Andrew Kurtz, Klaudia Krawiecka
+**类别**: cs.CR, cs.AI, cs.MA
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.06148v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Securing IIoT: An Innovative Privacy-Preserving Anomaly Detector Based on Federated Learning
+**作者**: Samira Kamali Poorazad, Chafika Benzaïd, Tarik Taleb
+**类别**: cs.CR
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.06101v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Signature Placement in Post-Quantum TLS Certificate Hierarchies: An Experimental Study of ML-DSA and SLH-DSA in TLS 1.3 Authentication
+**作者**: José Luis Delgado Jiménez
+**类别**: cs.CR
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.06100v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM4CodeRE: Generative AI for Code Decompilation Analysis and Reverse Engineering
+**作者**: Hamed Jelodar, Samita Bai, Tochukwu Emmanuel Nwankwo, Parisa Hamedi, Mohammad Meymani, Roozbeh Razavi-Far, Ali A. Ghorbani
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.06095v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Inertial Mining: Equilibrium Implementation of the Bitcoin Protocol
+**作者**: Manuel Mueller-Frank, Minghao Pan, Omer Tamuz
+**类别**: cs.CR, cs.GT, econ.TH
+**发布日期**: 2026-04-07
+**链接**: http://arxiv.org/abs/2604.06092v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
