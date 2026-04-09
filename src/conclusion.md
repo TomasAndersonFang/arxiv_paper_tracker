@@ -56943,3 +56943,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-09)
+
+### 软件工程 领域
+
+#### ReCodeAgent: A Multi-Agent Workflow for Language-agnostic Translation and Validation of Large-scale Repositories
+**作者**: Ali Reza Ibrahimzada, Brandon Paulsen, Daniel Kroening, Reyhaneh Jabbarvand
+**类别**: cs.SE
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07341v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Chatbot-Based Assessment of Code Understanding in Automated Programming Assessment Systems
+**作者**: Eduard Frankford, Erik Cikalleshi, Ruth Breu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07304v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories
+**作者**: Yen-Shan Chen, Sian-Yao Huang, Cheng-Lin Yang, Yun-Nung Chen
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG, cs.SE
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07223v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Compact Constraint Encoding for LLM Code Generation: An Empirical Study of Token Economics and Constraint Compliance
+**作者**: Hanzhang Tang
+**类别**: cs.SE
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07192v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Assessing REST API Test Generation Strategies with Log Coverage
+**作者**: Nana Reinikainen, Mika Mäntylä, Yuqing Wang
+**类别**: cs.SE
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07073v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Validated Intent Compilation for Constrained Routing in LEO Mega-Constellations
+**作者**: Yuanhang Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07264v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Price of Privacy for Language Identification and Generation
+**作者**: Xiaoyu Li, Andi Han, Jiaojiao Jiang, Junbin Gao
+**类别**: cs.LG, cs.CL, cs.CR, cs.DS
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07238v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories
+**作者**: Yen-Shan Chen, Sian-Yao Huang, Cheng-Lin Yang, Yun-Nung Chen
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG, cs.SE
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07223v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DDP-SA: Scalable Privacy-Preserving Federated Learning via Distributed Differential Privacy and Secure Aggregation
+**作者**: Wenjing Wei, Farid Nait-Abdesselam, Alla Jammine
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07125v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BioMoTouch: Touch-Based Behavioral Authentication via Biometric-Motion Interaction Modeling
+**作者**: Zijian Ling, Jianbang Chen, Hongwei Li, Hongda Zhai, Man Zhou, Jun Feng, Zhengxiong Li, Qi Li, Qian Wang
+**类别**: cs.HC, cs.CR
+**发布日期**: 2026-04-08
+**链接**: http://arxiv.org/abs/2604.07071v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
