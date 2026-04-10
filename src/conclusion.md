@@ -57051,3 +57051,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-10)
+
+### 软件工程 领域
+
+#### sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing
+**作者**: Sergey V Samsonau
+**类别**: cs.DL, cs.CL, cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08501v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Vulnerability Detection with Interprocedural Context in Multiple Languages: Assessing Effectiveness and Cost of Modern LLMs
+**作者**: Kevin Lira, Baldoino Fonseca, Davy Baía, Márcio Ribeiro, Wesley K. G. Assunção
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08417v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security Concerns in Generative AI Coding Assistants: Insights from Online Discussions on GitHub Copilot
+**作者**: Nicolás E. Díaz Ferreyra, Monika Swetha Gurupathi, Zadia Codabux, Nalin Arachchilage, Riccardo Scandariato
+**类别**: cs.SE, cs.CR, cs.HC
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08352v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CIAO - Code In Architecture Out - Automated Software Architecture Documentation with Large Language Models
+**作者**: Marco De Luca, Tiziano Santilli, Domenico Amalfitano, Anna Rita Fasolino, Patrizio Pelliccione
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08293v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Tokalator: A Context Engineering Toolkit for Artificial Intelligence Coding Assistants
+**作者**: Vahid Farajijobehdar, İlknur Köseoğlu Sarı, Nazım Kemal Üre, Engin Zeydan
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08290v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### PIArena: A Platform for Prompt Injection Evaluation
+**作者**: Runpeng Geng, Chenlong Yin, Yanting Wang, Ying Chen, Jinyuan Jia
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08499v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Post-Quantum Cryptographic Analysis of Message Transformations Across the Network Stack
+**作者**: Ashish Kundu, Vishal Chakraborty, Ramana Kompella
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08480v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Vulnerability Detection with Interprocedural Context in Multiple Languages: Assessing Effectiveness and Cost of Modern LLMs
+**作者**: Kevin Lira, Baldoino Fonseca, Davy Baía, Márcio Ribeiro, Wesley K. G. Assunção
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08417v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain
+**作者**: Hanzhi Liu, Chaofan Shou, Hongbo Wen, Yanju Chen, Ryan Jingyang Fang, Yu Feng
+**类别**: cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08407v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security Concerns in Generative AI Coding Assistants: Insights from Online Discussions on GitHub Copilot
+**作者**: Nicolás E. Díaz Ferreyra, Monika Swetha Gurupathi, Zadia Codabux, Nalin Arachchilage, Riccardo Scandariato
+**类别**: cs.SE, cs.CR, cs.HC
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08352v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
