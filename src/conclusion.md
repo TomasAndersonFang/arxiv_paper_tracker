@@ -57159,3 +57159,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-11)
+
+### 软件工程 领域
+
+#### Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering
+**作者**: Chenyu Zhou, Huacan Chai, Wenteng Chen, Zihan Guo, Rong Shan, Yuanyi Song, Tianyi Xu, Yingxuan Yang, Aofan Yu, Weiming Zhang, Congming Zheng, Jiachen Zhu, Zeyu Zheng, Zhuosheng Zhang, Xingyu Lou, Changwang Zhang, Zhihui Fu, Jun Wang, Weiwen Liu, Jianghao Lin, Weinan Zhang
+**类别**: cs.SE, cs.MA
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08224v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Empirical Evaluation of Taxonomic Trace Links: A Case Study
+**作者**: Waleed Abdeen, Michael Unterkalmsteiner, Peter Löwenadler, Parisa Yousefi, Krzysztof Wnuk
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08207v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Improving the External Validity of Software Engineering Experiments with Transportability Methods
+**作者**: Julian Frattini, Richard Torkar, Robert Feldt, Carlo Furia
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08200v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Test-Oriented Programming: rethinking coding for the GenAI era
+**作者**: Jorge Melegati
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08102v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GALA: Multimodal Graph Alignment for Bug Localization in Automated Program Repair
+**作者**: Zhuoyao Liu, Zhengran Zeng, Shu-Dong Huang, Yang Liu, Shikun Zhang, Wei Ye
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08089v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions
+**作者**: Yuming Xu, Mingtao Zhang, Zhuohan Ge, Haoyang Li, Nicole Hu, Jason Chen Zhang, Qing Li, Lei Chen
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08304v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models
+**作者**: Weiwei Qi, Zefeng Wu, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren
+**类别**: cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08297v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### VCAO: Verifier-Centered Agentic Orchestration for Strategic OS Vulnerability Discovery
+**作者**: Suyash Mishra
+**类别**: cs.GT, cs.CR, cs.OS
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08291v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ACF: A Collaborative Framework for Agent Covert Communication under Cognitive Asymmetry
+**作者**: Wansheng Wu, Kaibo Huang, Yukun Wei, Zhongliang Yang, Linna Zhou
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08276v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark
+**作者**: Longgang Zhang, Xiaowei Fu, Fuxiang Huang, Lei Zhang
+**类别**: cs.CR, cs.AI, cs.MM, cs.NI
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08140v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
