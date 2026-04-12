@@ -57267,3 +57267,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-12)
+
+### 软件工程 领域
+
+#### Can LLMs Deobfuscate Binary Code? A Systematic Analysis of Large Language Models into Pseudocode Deobfuscation
+**作者**: Li Hu, Xiuwei Shang, Jieke Shi, Shaoyin Cheng, Junqi Zhang, Gangyang Li, Zhou Yang, Weiming Zhang, David Lo
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08083v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Comparative Study of Semantic Log Representations for Software Log-based Anomaly Detection
+**作者**: Yuqing Wang, Ying Song, Xiaozhou Li, Nana Reinikainen, Mika V. Mäntylä
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08028v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Log-based, Business-aware REST API Testing
+**作者**: Ding Yang, Ruixiang Qian, Zhao Wei, Zhenyu Chen, Chunrong Fang
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08007v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Top Management Journal Portal: A Real-Source Search and Research Analytics Artifact for UTD-24 and FT50 Journals
+**作者**: Chuang Zhao, Hongke Zhao
+**类别**: cs.DL, cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.07934v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Investigating Code Reuse in Software Redesign: A Case Study
+**作者**: Xiaowen Zhang, Huaien Zhang, Shin Hwei Tan
+**类别**: cs.SE
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.07919v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### TADP-RME: A Trust-Adaptive Differential Privacy Framework for Enhancing Reliability of Data-Driven Systems
+**作者**: Labani Halder, Payel Sadhukhan, Sarbani Palit
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08113v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Efficient Provably Secure Linguistic Steganography via Range Coding
+**作者**: Ruiyi Yan, Yugo Murawaki
+**类别**: cs.CL, cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08052v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PrivFedTalk: Privacy-Aware Federated Diffusion with Identity-Stable Adapters for Personalized Talking-Head Generation
+**作者**: Soumya Mazumdar, Vineet Kumar Rakesh, Tapas Samanta
+**类别**: cs.CR, cs.AI, cs.CV, cs.LG
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08037v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using Fuzzy PSI
+**作者**: Tim Rausch, Sylvain Chatel, Wouter Lueks
+**类别**: cs.CR
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.08019v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Hardware-Anchored Privacy Middleware for PII Sharing Across Heterogeneous Embedded Consumer Devices
+**作者**: Aditya Sabbineni, Pravin Nagare, Devendra Dahiphale, Preetam Dedu, Willison Lopes
+**类别**: cs.CR, cs.HC, cs.OS
+**发布日期**: 2026-04-09
+**链接**: http://arxiv.org/abs/2604.07839v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
