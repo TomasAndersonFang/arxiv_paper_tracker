@@ -57375,3 +57375,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-14)
+
+### 软件工程 领域
+
+#### Enhancing Program Repair with Specification Guidance and Intermediate Behavioral Signals
+**作者**: Minh Le-Anh, Cuong Chi Le, Tien N. Nguyen
+**类别**: cs.SE
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11770v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### $λ_A$: A Typed Lambda Calculus for LLM Agent Composition
+**作者**: Qin Liu
+**类别**: cs.PL, cs.MA, cs.SE
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11767v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ACT: Automated CPS Testing for Open-Source Robotic Platforms
+**作者**: Aditya A. Krishnan, Donghoon Kim, Hokeun Kim
+**类别**: cs.RO, cs.SE, eess.SY
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11708v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AutonomyLens: A Self-Evolving Simulation-Based Testing Loop for Autonomous Systems
+**作者**: Ankit Agrawal, Jithin Garapati, Bohan Zhang
+**类别**: cs.SE
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11672v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CodeTracer: Towards Traceable Agent States
+**作者**: Han Li, Yifan Yao, Letian Zhu, Rili Feng, Hongyi Ye, Jiaming Wang, Yancheng He, Pengyu Zou, Lehan Zhang, Xinping Lei, Haoyang Huang, Ken Deng, Ming Sun, Zhaoxiang Zhang, He Ye, Jiaheng Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11641v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection
+**作者**: Wei Zhao, Zhe Li, Peixin Zhang, Jun Sun
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11790v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Automated Pentesting with Large Language Models
+**作者**: Ricardo Bessa, Rui Claro, João Trindade, João Lourenço
+**类别**: cs.CR
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11772v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Synthetic Conversational Smishing Dataset for Social Engineering Detection
+**作者**: Carl Lochstampfor, Ayan Roy
+**类别**: cs.CR
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11752v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Robustness of Watermarking for Autoregressive Image Generation
+**作者**: Andreas Müller, Denis Lukovnikov, Shingo Kodama, Minh Pham, Anubhav Jain, Jonathan Petit, Niv Cohen, Asja Fischer
+**类别**: cs.CV, cs.AI, cs.CR
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11720v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AmBox: Device-to-Blockchain Ambient Sensing for Food Traceability
+**作者**: João Miguel Guerreiro Fernandes, Samih Eisa, Miguel L. Pardal
+**类别**: cs.CR, cs.ET
+**发布日期**: 2026-04-13
+**链接**: http://arxiv.org/abs/2604.11681v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
