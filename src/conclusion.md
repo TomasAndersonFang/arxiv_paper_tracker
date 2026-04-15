@@ -57483,3 +57483,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-15)
+
+### 软件工程 领域
+
+#### Personalizing LLM-Based Conversational Programming Assistants
+**作者**: Jonan Richards
+**类别**: cs.SE
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12998v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CoDe-R: Refining Decompiler Output with LLMs via Rationale Guidance and Adaptive Inference
+**作者**: Qiang Zhang, Zhongnian Li
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12913v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating LLMs Code Reasoning Under Real-World Context
+**作者**: Changshu Liu
+**类别**: cs.SE
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12881v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Short Version of VERIFAI2026 Paper -- Learning Infused Formal Reasoning: Contract Synthesis, Artefact Reuse and Semantic Foundations
+**作者**: Arshad Beg, Diarmuid O'Donoghue, Rosemary Monahan
+**类别**: cs.SE
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12747v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Pricing-Driven Resource Allocation in the Computing Continuum
+**作者**: Alejandro García-Fernández, Boris Sedlak, José Antonio Parejo, Pantelis Frangoudis, Antonio Ruiz-Cortés, Schahram Dustdar
+**类别**: cs.SE
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12642v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### LogicEval: A Systematic Framework for Evaluating Automated Repair Techniques for Logical Vulnerabilities in Real-World Software
+**作者**: Syed Md Mukit Rashid, Abdullah Al Ishtiaq, Kai Tu, Yilu Dong, Tianwei Wu, Ali Ranjbar, Tianchang Yang, Najrin Sultana, Shagufta Mehnaz, Syed Rafiul Hussain
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12994v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Parallax: Why AI Agents That Think Must Never Act
+**作者**: Joel Fokou
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12986v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Distinguishers for Skew and Linearized Reed-Solomon Codes
+**作者**: Felicitas Hörmann, Anna-Lena Horlemann
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12954v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CoDe-R: Refining Decompiler Output with LLMs via Rationale Guidance and Adaptive Inference
+**作者**: Qiang Zhang, Zhongnian Li
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12913v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EXTree: Towards Supporting Explainability in Attribute-based Access Control
+**作者**: Shanampudi Pranaya Chowdary, Shamik Sural
+**类别**: cs.CR
+**发布日期**: 2026-04-14
+**链接**: http://arxiv.org/abs/2604.12850v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
