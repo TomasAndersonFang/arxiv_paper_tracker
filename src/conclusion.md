@@ -57591,3 +57591,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-16)
+
+### 软件工程 领域
+
+#### Large Language Models to Enhance Business Process Modeling: Past, Present, and Future Trends
+**作者**: João Bettencourt, Sérgio Guerreiro
+**类别**: cs.SE, cs.AI, cs.IR
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14034v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Log-based vs Graph-based Approaches to Fault Diagnosis
+**作者**: Mathis Nguyen, Mohamed Ali Lajnef
+**类别**: cs.SE
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14019v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analysis of Commit Signing on Github
+**作者**: Abubakar Sadiq Shittu, John Sadik, Farzin Gholamrezae, Scott Ruoti
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14014v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Learned or Memorized ? Quantifying Memorization Advantage in Code LLMs
+**作者**: Djiré Albérick Euraste, Kaboré Abdoul Kader, Jordan Samhi, Earl T. Barr, Jacques Klein, Tegawendé F. Bissyandé
+**类别**: cs.SE
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.13997v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Personalizing Secure Programming Education with LLM-Injected Vulnerabilities
+**作者**: Matthew Frazier, Kostadin Damevski
+**类别**: cs.CR, cs.CY, cs.SE
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.13955v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Temporary Power Adjusting Withholding Attack
+**作者**: Mustafa Doger, Sennur Ulukus
+**类别**: cs.CR, cs.DC, cs.IT, math.PR
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14135v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### KindHML: formal verification of smart contracts based on Hennessy-Milner logic
+**作者**: Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14038v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analysis of Commit Signing on Github
+**作者**: Abubakar Sadiq Shittu, John Sadik, Farzin Gholamrezae, Scott Ruoti
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14014v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Personalizing Secure Programming Education with LLM-Injected Vulnerabilities
+**作者**: Matthew Frazier, Kostadin Damevski
+**类别**: cs.CR, cs.CY, cs.SE
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.13955v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MCPThreatHive: Automated Threat Intelligence for Model Context Protocol Ecosystems
+**作者**: Yi Ting Shen, Kentaroh Toyoda, Alex Leung
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.13849v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
