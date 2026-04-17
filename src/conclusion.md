@@ -57699,3 +57699,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-17)
+
+### 软件工程 领域
+
+#### Enhancing Large Language Models with Retrieval Augmented Generation for Software Testing and Inspection Automation
+**作者**: Zoe Fingleton, Nazanin Siavash, Armin Moin
+**类别**: cs.SE
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15270v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AI-Assisted Requirements Engineering: An Empirical Evaluation Relative to Expert Judgment
+**作者**: Oz Levy, Ilya Dikman, Natan Levy, Michael Winokur
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15222v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Procedural Skills to Strategy Genes: Towards Experience-Driven Test-Time Evolution
+**作者**: Junjie Wang, Yiming Ren, Haoyang Zhang
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15097v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Atropos: Improving Cost-Benefit Trade-off of LLM-based Agents under Self-Consistency with Early Termination and Model Hotswap
+**作者**: Naryeong Kim, Shin Yoo
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15075v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HintPilot: LLM-based Compiler Hint Synthesis for Code Optimization
+**作者**: Hanyun Jiang, Peisen Yao, Kaiyue Li, Tingting Lin, Chengpeng Wang, Kui Ren
+**类别**: cs.SE
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15041v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Structural Dependency Analysis for Masked NTT Hardware: Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators
+**作者**: Ray Iskander, Khaled Kirah
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15249v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Feedback-Driven Execution for LLM-Based Binary Analysis
+**作者**: XiangRui Zhang, Qiang Li, Haining Wang
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15136v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### NFTDELTA: Detecting Permission Control Vulnerabilities in NFT Contracts through Multi-View Learning
+**作者**: Hailu Kuang, Xiaoqi Li, Wenkai Li, Zongwei Li
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15118v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FedIDM: Achieving Fast and Stable Convergence in Byzantine Federated Learning through Iterative Distribution Matching
+**作者**: He Yang, Dongyi Lv, Wei Xi, Song Ma, Hanlin Gu, Jizhong Zhao
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15115v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Emulation-based System-on-Chip Security Verification: Challenges and Opportunities
+**作者**: Tanvir Rahman, Shuvagata Saha, Ahmed Y. Alhurubi, Sujan Kumar Saha, Farimah Farahmandi, Mark Tehranipoor
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15073v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
