@@ -57807,3 +57807,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-18)
+
+### 软件工程 领域
+
+#### Applying SHAPR in AI-Assisted Research Software Development: Lessons Learnt from Building a Share Trading System
+**作者**: Ka Ching Chan
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15020v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Understanding Android APIs: Official Lists, Vendor Customizations, and Real-World Usage
+**作者**: Sinan Wang, Qi Zhang, Jiacheng Li, Lili Wei, Yida Tao, Yepang Liu
+**类别**: cs.SE
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14943v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Vibe-Coding: Feedback-Based Automated Verification with no Human Code Inspection, a Feasibility Study
+**作者**: Michal Töpfer, František Plášil, Tomáš Bureš, Petr Hnětynka
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14867v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Benchmarks for Trajectory Safety Evaluation and Diagnosis in OpenClaw and Codex: ATBench-Claw and ATBench-CodeX
+**作者**: Zhonghao Yang, Yu Li, Yanxu Zhu, Tianyi Zhou, Yuejin Xie, Haoyu Luo, Jing Shao, Xia Hu, Dongrui Liu
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14858v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling
+**作者**: Hao Han, Jin Xie, Xuehao Ma, Weiquan Zhu, Ziyao Zhang, ZhiLiang Long, Hongkai Chen, Qingwen Ye
+**类别**: cs.SE
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14820v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### No More Guessing: a Verifiable Gradient Inversion Attack in Federated Learning
+**作者**: Francesco Diana, Chuan Xu, André Nusser, Giovanni Neglia
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15063v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization
+**作者**: Haochun Tang, Yuliang Yan, Jiahua Lu, Huaxiao Liu, Enyan Dai
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.15022v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ConGISATA: A Framework for Continuous Gamified Information Security Awareness Training and Assessment
+**作者**: Ofir Cohen, Ron Bitton, Asaf Shabtai, Rami Puzis
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14996v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Robustness of Vision Foundation Models to Common Perturbations
+**作者**: Hongbin Liu, Zhengyuan Jiang, Cheng Hong, Neil Zhenqiang Gong
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14973v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MLDAS: Machine Learning Dynamic Algorithm Selection for Software-Defined Networking Security
+**作者**: Pablo Benlloch, Oscar Romero, Antonio Leon, Jaime Lloret
+**类别**: cs.NI, cs.CR, cs.LG
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14957v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
