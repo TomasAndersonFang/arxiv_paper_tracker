@@ -57915,3 +57915,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-19)
+
+### 软件工程 领域
+
+#### Bounded Autonomy for Enterprise AI: Typed Action Contracts and Consumer-Side Execution
+**作者**: Sarmad Sohail, Ghufran Haider
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14723v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AIPC: Agent-Based Automation for AI Model Deployment with Qualcomm AI Runtime
+**作者**: Jianhao Su, Zhanwei Wu, ShengTing Huang, Weidong Feng
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14661v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Asking What Matters: Reward-Driven Clarification for Software Engineering Tasks
+**作者**: Sanidhya Vijayvargiya, Vijay Viswanathan, Graham Neubig
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14624v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLMs taking shortcuts in test generation: A study with SAP HANA and LevelDB
+**作者**: Vekil Bekmyradov, Noah C. Pütz, Thomas Bartz-Beielstein
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14437v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AndroScanner: Automated Backend Vulnerability Detection for Android Applications
+**作者**: Harini Dandu
+**类别**: cs.CR, cs.NI, cs.SE
+**发布日期**: 2026-04-15
+**链接**: http://arxiv.org/abs/2604.14431v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Efficient Fuzzy Private Set Intersection from Secret-shared OPRF
+**作者**: Xinpeng Yang, Meng Hao, Chenkai Weng, Robert H. Deng, Yonggang Wen, Tianwei Zhang
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14909v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Segment-Level Coherence for Robust Harmful Intent Probing in LLMs
+**作者**: Xuanli He, Bilgehan Sel, Faizan Ali, Jenny Bao, Hoagy Cunningham, Jerry Wei
+**类别**: cs.CL, cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14865v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents
+**作者**: Krti Tallam
+**类别**: cs.AI, cs.CR, cs.CY, cs.LG
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14717v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Nodes vs. Edges: A Multi-View Fusion Framework for Provenance-Based Intrusion Detection
+**作者**: Fan Yang, Binyan Xu, Di Tang, Kehuan Zhang
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14685v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection
+**作者**: Noor Islam S. Mohammad
+**类别**: cs.CR
+**发布日期**: 2026-04-16
+**链接**: http://arxiv.org/abs/2604.14663v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
