@@ -58023,3 +58023,59 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-20)
+
+### 安全领域 领域
+
+#### PolicyGapper: Automated Detection of Inconsistencies Between Google Play Data Safety Sections and Privacy Policies Using LLMs
+**作者**: Luca Ferrari, Billel Habbati, Meriem Guerar, Mariano Ceccato, Luca Verderame
+**类别**: cs.CR
+**发布日期**: 2026-04-17
+**链接**: http://arxiv.org/abs/2604.16128v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Quantum-Resistant Quantum Teleportation
+**作者**: Xin Jin, Nitish Kumar Chandra, Mohadeseh Azari, Jinglei Cheng, Zilin Shen, Kaushik P. Seshadreesan, Junyu Liu
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-04-17
+**链接**: http://arxiv.org/abs/2604.16101v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ProcRoute: Process-Scoped Authorization of Split-Tunnel Routes
+**作者**: Arul Thileeban Sagayam
+**类别**: cs.CR
+**发布日期**: 2026-04-17
+**链接**: http://arxiv.org/abs/2604.16080v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Novel Framework for Transmitter Privacy in Integrated Sensing and Communication
+**作者**: Vaibhav Kumar, Ahmad Bazzi, Christina Pöpper, Marwa Chafii
+**类别**: eess.SP, cs.CR, cs.IT
+**发布日期**: 2026-04-17
+**链接**: http://arxiv.org/abs/2604.16068v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Modeling Sparse and Bursty Vulnerability Sightings: Forecasting Under Data Constraints
+**作者**: Cedric Bonhomme, Alexandre Dulaunoy
+**类别**: cs.CR
+**发布日期**: 2026-04-17
+**链接**: http://arxiv.org/abs/2604.16038v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
