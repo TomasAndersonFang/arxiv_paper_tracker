@@ -58079,3 +58079,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-21)
+
+### 软件工程 领域
+
+#### Do Privacy Policies Match with the Logs? An Empirical Study of Privacy Disclosure in Android Application Logs
+**作者**: Zhiyuan Chen, Love Jayesh Ahir, Ahmad Suleiman, Kundi Yao, Yiming Tang, Weiyi Shang, Daqing Hou
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18552v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Better Static Code Analysis Reports: Sentence Transformer-based Filtering of Non-Actionable Alerts
+**作者**: Tamás Aladics, Norbert Vándor, Rudolf Ferenc, Péter Hegedűs
+**类别**: cs.SE
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18525v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TypeScript Repository Indexing for Code Agent Retrieval
+**作者**: Junsong Pu, Yichen Li, Zhuangbin Chen
+**类别**: cs.SE
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18413v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OpenGame: Open Agentic Coding for Games
+**作者**: Yilei Jiang, Jinyuan Hu, Qianyin Xiao, Yaozhi Zheng, Ruize Ma, Kaituo Feng, Jiaming Han, Tianshuo Peng, Kaixuan Fan, Manyuan Zhang, Xiangyu Yue
+**类别**: cs.SE
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18394v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reliability of AI Bots Footprints in GitHub Actions CI/CD Workflows
+**作者**: Syed Muhammad Ashhar Shah, Sehrish Habib, Muizz Hussain, Maryam Abdul Ghafoor, Abdul Ali Bangash
+**类别**: cs.SE
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18334v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Do Privacy Policies Match with the Logs? An Empirical Study of Privacy Disclosure in Android Application Logs
+**作者**: Zhiyuan Chen, Love Jayesh Ahir, Ahmad Suleiman, Kundi Yao, Yiming Tang, Weiyi Shang, Daqing Hou
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18552v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Different Paths to Harmful Compliance: Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks
+**作者**: Md Rysul Kabir, Zoran Tiganj
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18510v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Capturing Monetarily Exploitable Vulnerability in Smart Contracts via Auditor Knowledge-Learning Fuzzing
+**作者**: Bowen Cai, Weiheng Bai, Hangyun Tang, Youshui Lu, Kangjie Lu
+**类别**: cs.CR
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18395v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Tight Auditing of Differential Privacy in MST and AIM
+**作者**: Georgi Ganev, Meenatchi Sundaram Muthu Selva Annamalai, Bogdan Kulynych
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18352v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Compositional security definitions for higher-order where declassification
+**作者**: Jan Menz, Andrew K. Hirsch, Peixuan Li, Deepak Garg
+**类别**: cs.PL, cs.CR
+**发布日期**: 2026-04-20
+**链接**: http://arxiv.org/abs/2604.18300v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
