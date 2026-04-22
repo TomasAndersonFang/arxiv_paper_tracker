@@ -58135,53 +58135,108 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+## ArXiv论文 - 最近7天 (截至 2026-04-22)
+
+### 软件工程 领域
+
+#### PlayCoder: Making LLM-Generated GUI Code Playable
+**作者**: Zhiyuan Peng, Wei Tao, Xin Yin, Chenhao Ying, Yuan Luo, Yiwen Guo
+**类别**: cs.SE
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19742v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### VLA Foundry: A Unified Framework for Training Vision-Language-Action Models
+**作者**: Jean Mercat, Sedrick Keh, Kushal Arora, Isabella Huang, Paarth Shah, Haruki Nishimura, Shun Iwase, Katherine Liu
+**类别**: cs.RO, cs.AI, cs.CV, cs.LG, cs.SE
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19728v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Predictive Autoscaling for Node.js on Kubernetes: Lower Latency, Right-Sized Capacity
+**作者**: Ivan Tymoshenko, Luca Maraschi, Matteo Collina
+**类别**: cs.SE, cs.DC
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19705v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On Reasoning-Centric LLM-based Automated Theorem Proving
+**作者**: Yican Sun, Chengwei Shi, Hangzhou Lyu, Yingfei Xiong
+**类别**: cs.SE
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19558v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating LLM-Generated Obfuscated XSS Payloads for Machine Learning-Based Detection
+**作者**: Divyesh Gabbireddy, Suman Saha
+**类别**: cs.CR, cs.LG, cs.SE
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19526v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
 ### 安全领域 领域
 
-#### Do Privacy Policies Match with the Logs? An Empirical Study of Privacy Disclosure in Android Application Logs
-**作者**: Zhiyuan Chen, Love Jayesh Ahir, Ahmad Suleiman, Kundi Yao, Yiming Tang, Weiyi Shang, Daqing Hou
-**类别**: cs.CR, cs.SE
-**发布日期**: 2026-04-20
-**链接**: http://arxiv.org/abs/2604.18552v1
+#### "We are currently clean on OPSEC": Why JD Can't Encrypt
+**作者**: Maurice Chiodo, Toni Erskine, Dennis Müller, James G. Wright
+**类别**: cs.CR, cs.CY, cs.HC
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19711v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### Different Paths to Harmful Compliance: Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks
-**作者**: Md Rysul Kabir, Zoran Tiganj
-**类别**: cs.CR, cs.AI, cs.CL
-**发布日期**: 2026-04-20
-**链接**: http://arxiv.org/abs/2604.18510v1
+#### An AI Agent Execution Environment to Safeguard User Data
+**作者**: Robert Stanley, Avi Verma, Lillian Tsai, Konstantinos Kallas, Sam Kumar
+**类别**: cs.CR, cs.AI, cs.OS
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19657v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### Capturing Monetarily Exploitable Vulnerability in Smart Contracts via Auditor Knowledge-Learning Fuzzing
-**作者**: Bowen Cai, Weiheng Bai, Hangyun Tang, Youshui Lu, Kangjie Lu
-**类别**: cs.CR
-**发布日期**: 2026-04-20
-**链接**: http://arxiv.org/abs/2604.18395v1
+#### Adding Compilation Metadata To Binaries To Make Disassembly Decidable
+**作者**: Daniel Engel, Freek Verbeek, Pranav Kumar, Binoy Ravindran
+**类别**: cs.CR, cs.PL
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19628v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### Tight Auditing of Differential Privacy in MST and AIM
-**作者**: Georgi Ganev, Meenatchi Sundaram Muthu Selva Annamalai, Bogdan Kulynych
-**类别**: cs.CR, cs.AI, cs.LG
-**发布日期**: 2026-04-20
-**链接**: http://arxiv.org/abs/2604.18352v1
+#### Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps
+**作者**: Alankrit Chona, Igor Kozlov, Ambuj Kumar
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19533v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### Compositional security definitions for higher-order where declassification
-**作者**: Jan Menz, Andrew K. Hirsch, Peixuan Li, Deepak Garg
-**类别**: cs.PL, cs.CR
-**发布日期**: 2026-04-20
-**链接**: http://arxiv.org/abs/2604.18300v1
+#### Evaluating LLM-Generated Obfuscated XSS Payloads for Machine Learning-Based Detection
+**作者**: Divyesh Gabbireddy, Suman Saha
+**类别**: cs.CR, cs.LG, cs.SE
+**发布日期**: 2026-04-21
+**链接**: http://arxiv.org/abs/2604.19526v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
