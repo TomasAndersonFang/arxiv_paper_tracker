@@ -58242,3 +58242,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-23)
+
+### 软件工程 领域
+
+#### Autonomous LLM-generated Feedback for Student Exercises in Introductory Software Engineering Courses
+**作者**: Andreas Metzger
+**类别**: cs.SE
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20803v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SWE-chat: Coding Agent Interactions From Real Users in the Wild
+**作者**: Joachim Baumann, Vishakh Padmakumar, Xiang Li, John Yang, Diyi Yang, Sanmi Koyejo
+**类别**: cs.AI, cs.CY, cs.SE
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20779v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Autark: A Serverless Toolkit for Prototyping Urban Visual Analytics Systems
+**作者**: Lucas Alexandre, João Rulff, Talisson Souza, Gustavo Moreira, Daniel de Oliveira, Claudio Silva, Fabio Miranda, Marcos Lage
+**类别**: cs.HC, cs.GR, cs.SE
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20759v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluating Software Defect Prediction Models via the Area Under the ROC Curve Can Be Misleading
+**作者**: Luigi Lavazza, Gabriele Rotoloni, Sandro Morasca
+**类别**: cs.SE
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20742v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### QuanForge: A Mutation Testing Framework for Quantum Neural Networks
+**作者**: Minqi Shao, Shangzhou Xia, Jianjun Zhao
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20706v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### AVISE: Framework for Evaluating the Security of AI Systems
+**作者**: Mikko Lempinen, Joni Kemppainen, Niklas Raesalmi
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20833v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Analysis of Attack Vectors Against FIDO2 Authentication
+**作者**: Alexander Berladskyy, Andreas Aßmuth
+**类别**: cs.CR
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20826v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Synthesizing Multi-Agent Harnesses for Vulnerability Discovery
+**作者**: Hanzhi Liu, Chaofan Shou, Xiaonan Liu, Hongbo Wen, Yanju Chen, Ryan Jingyang Fang, Yu Feng
+**类别**: cs.CR
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20801v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Fresh Masking Makes NTT Pipelines Composable: Machine-Checked Proofs for Arithmetic Masking in PQC Hardware
+**作者**: Ray Iskander, Khaled Kirah
+**类别**: cs.CR
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20793v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DAIRE: A lightweight AI model for real-time detection of Controller Area Network attacks in the Internet of Vehicles
+**作者**: Shahid Alam, Amina Jameel, Zahida Parveen, Ehab Alnfrawy, Adeela Ashraf, Raza Uddin, Jamal Aqib
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-22
+**链接**: http://arxiv.org/abs/2604.20771v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
