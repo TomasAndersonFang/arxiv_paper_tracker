@@ -58350,3 +58350,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-24)
+
+### 软件工程 领域
+
+#### CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis
+**作者**: Arunabh Majumdar
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21917v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MathDuels: Evaluating LLMs as Problem Posers and Solvers
+**作者**: Zhiqiu Xu, Shibo Jin, Shreya Arya, Mayur Naik
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21916v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Institutionalizing Best Practices in Research Computing: A Framework and Case Study for Improving User Onboarding
+**作者**: Ayush Chaturvedi, Rob Pokorney, Elyn Fritz-Waters, Charlotte Rouse, Gary Bax, Daryl Spencer, Craig Pohl
+**类别**: cs.OH, cs.CY, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21898v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Generalizing Test Cases for Comprehensive Test Scenario Coverage
+**作者**: Binhang Qi, Yun Lin, Xinyi Weng, Chenyan Liu, Hailong Sun, Gordon Fraser, Jin Song Dong
+**类别**: cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21771v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PrismaDV: Automated Task-Aware Data Unit Test Generation
+**作者**: Hao Chen, Arnab Phani, Sebastian Schelter
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21765v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis
+**作者**: Arunabh Majumdar
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21917v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Transient Turn Injection: Exposing Stateless Multi-Turn Vulnerabilities in Large Language Models
+**作者**: Naheed Rayhan, Sohely Jahan
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21860v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cross-Modal Phantom: Coordinated Camera-LiDAR Spoofing Against Multi-Sensor Fusion in Autonomous Vehicles
+**作者**: Shahriar Rahman Khan, Raiful Hasan
+**类别**: cs.CR
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21841v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TraceScope: Interactive URL Triage via Decoupled Checklist Adjudication
+**作者**: Haolin Zhang, William Reber, Yuxuan Zhang, Guofei Gu, Jeff Huang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21840v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Black-Box Skill Stealing Attack from Proprietary LLM Agents: An Empirical Study
+**作者**: Zihan Wang, Rui Zhang, Yu Liu, Chi Liu, Qingchuan Zhao, Hongwei Li, Guowen Xu
+**类别**: cs.CR
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21829v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
