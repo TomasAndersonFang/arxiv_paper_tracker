@@ -58406,17 +58406,62 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
-### 安全领域 领域
 
-#### CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis
-**作者**: Arunabh Majumdar
-**类别**: cs.CR, cs.SE
+## ArXiv论文 - 最近7天 (截至 2026-04-25)
+
+### 软件工程 领域
+
+#### Less Is More: Measuring How LLM Involvement affects Chatbot Accuracy in Static Analysis
+**作者**: Krishna Narasimhan
+**类别**: cs.SE
 **发布日期**: 2026-04-23
-**链接**: http://arxiv.org/abs/2604.21917v1
+**链接**: http://arxiv.org/abs/2604.21746v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
+
+#### Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development
+**作者**: Magnus Palmblad, Jared M. Ragland, Benjamin A. Neely
+**类别**: cs.SE, cs.AI, q-bio.BM
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21744v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation
+**作者**: Minh Duc Bui, Xenia Heilmann, Mattia Cerrato, Manuel Mager, Katharina von der Wense
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21716v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can Large Language Models Assist the Comprehension of ROS2 Software Architectures?
+**作者**: Laura Duits, Bouazza El Moutaouakil, Ivano Malavolta
+**类别**: cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21699v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Verifying Machine Learning Interpretability Requirements through Provenance
+**作者**: Lynn Vonderhaar, Juan Couder, Daryela Cisneros, Omar Ochoa
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21599v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
 
 #### Transient Turn Injection: Exposing Stateless Multi-Turn Vulnerabilities in Large Language Models
 **作者**: Naheed Rayhan, Sohely Jahan
@@ -58453,6 +58498,16 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 **类别**: cs.CR
 **发布日期**: 2026-04-23
 **链接**: http://arxiv.org/abs/2604.21829v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks
+**作者**: Lhamo Dorje, Jordan Madden, Soamar Homsi, Xiaohua Li
+**类别**: cs.CR
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21774v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
