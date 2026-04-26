@@ -58513,3 +58513,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-26)
+
+### 软件工程 领域
+
+#### DryRUN: On the Role of Public Tests in LLM-Driven Code Generation
+**作者**: Kaushitha Silva, Srinath Perera
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21598v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Metamorphic Testing Approach to Diagnosing Memorization in LLM-Based Program Repair
+**作者**: Milan De Koning, Ali Asgari, Pouria Derakhshanfar, Annibale Panichella
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21579v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SpecSyn: LLM-based Synthesis and Refinement of Formal Specifications for Real-world Program Verification
+**作者**: Lezhi Ma, Shangqing Liu, Yi Li, Qiong Wu, Han Wang, Lei Bu
+**类别**: cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21570v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Probabilistic Verification of Neural Networks via Efficient Probabilistic Hull Generation
+**作者**: Jingyang Li, Xin Chen, Hongfei Fu, Guoqiang Li
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21556v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Assessing the Impact of Requirement Ambiguity on LLM-based Function-Level Code Generation
+**作者**: Di Yang, Xinou Xie, Xiuwen Yang, Ming Hu, Yihao Huang, Yueling Zhang, Weikai Miao, Ting Su, Chengcheng Wan, Geguang Pu
+**类别**: cs.SE
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21505v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Stealthy Backdoor Attacks against LLMs Based on Natural Style Triggers
+**作者**: Jiali Wei, Ming Fan, Guoheng Sun, Xicheng Zhang, Haijun Wang, Ting Liu
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21700v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Sociotechnical, Practitioner-Centered Approach to Technology Adoption in Cybersecurity Operations: An LLM Case
+**作者**: Francis Hahn, Mohd Mamoon, Alexandru G. Bardas, Michael Collins, Daniel Lende, Xinming Ou, S. Raj Rajagopalan
+**类别**: cs.CR
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21679v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Challenges of Holistic Intrusion Detection in ICS
+**作者**: Stefan Lenz, Julia Raab, Benedikt Holzbach, Deniz Köller, Sotiris Michaelides, Martin Henze
+**类别**: cs.CR
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21626v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding and Network-Specific Augmentation
+**作者**: Ioannis Panopoulos, Maria Lamprini A. Bartsioka, Sokratis Nikolaidis, Stylianos I. Venieris, Dimitra I. Kaklamani, Iakovos S. Venieris
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21623v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Process-Mining of Hypertraces: Enabling Scalable Formal Security Verification of (Automotive) Network Architectures
+**作者**: Julius Figge, David Knuplesch, Andreas Maletti, Dragan Zuvic
+**类别**: cs.CR
+**发布日期**: 2026-04-23
+**链接**: http://arxiv.org/abs/2604.21606v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
