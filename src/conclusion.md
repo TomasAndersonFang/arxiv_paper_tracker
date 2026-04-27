@@ -58621,3 +58621,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-27)
+
+### 软件工程 领域
+
+#### How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks
+**作者**: Longju Bai, Zhemin Huang, Xingyao Wang, Jiao Sun, Rada Mihalcea, Erik Brynjolfsson, Alex Pentland, Jiaxin Pei
+**类别**: cs.CL, cs.CY, cs.HC, cs.SE
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22750v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Code for All: Educational Applications of the "Vibe Coding" Hackathon in Programming Education across All Skill Levels
+**作者**: Ashley J. Chen, Yijia Cao, Minghao Shao, Ramesh Karri, Muhammad Shafique
+**类别**: cs.SE
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22747v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Inferring Equivalence Classes from Legacy Undocumented Embedded Binaries for ISO 26262-Compliant Testing
+**作者**: Marco De Luca, Domenico Francesco De Angelis, Domenico Amalfitano, Pasquale Cimmino, Anna Rita Fasolino
+**类别**: cs.SE, cs.SC
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22673v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RealBench: A Repo-Level Code Generation Benchmark Aligned with Real-World Software Development Practices
+**作者**: Jia Li, Hongyi Deng, Yiran Zhang, Kechi Zhang, Tianqi Shao, Tiankuo Zhao, Weinan Wang, Zhi Jin, Ge Li, Yang Liu, Yingtao Fang, Yihong Dong
+**类别**: cs.SE
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22659v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Verifier Warnings Do Not Improve Comprehensibility Prediction
+**作者**: Nadeeshan De Silva, Martin Kellogg, Oscar Chaparro
+**类别**: cs.SE
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22653v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Adversarial Malware Generation in Linux ELF Binaries via Semantic-Preserving Transformations
+**作者**: Lukáš Hrdonka, Martin Jureček
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22639v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detecting Concept Drift in Evolving Malware Families Using Rule-Based Classifier Representations
+**作者**: Tomáš Kalný, Martin Jureček, Mark Stamp
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22629v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PASS: A Provenanced Access Subaccount System for Blockchain Wallets
+**作者**: Jay Yu, Shunfan Zhou, Hang Yin, Brian Seong
+**类别**: cs.CR
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22602v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Adversarial Co-Evolution of Malware and Detection Models: A Bilevel Optimization Perspective
+**作者**: Olha Jurečková, Martin Jureček, Matouš Kozák, Róbert Lórencz
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22569v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ArmSSL: Adversarial Robust Black-Box Watermarking for Self-Supervised Learning Pre-trained Encoders
+**作者**: Yongqi Jiang, Yansong Gao, Boyu Kuang, Chunyi Zhou, Anmin Fu, Liquan Chen
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-24
+**链接**: http://arxiv.org/abs/2604.22550v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
