@@ -58729,3 +58729,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-28)
+
+### 软件工程 领域
+
+#### When Prompt Under-Specification Improves Code Correctness: An Exploratory Study of Prompt Wording and Structure Effects on LLM-Based Code Generation
+**作者**: Amal AKLI, Mike PAPADAKIS, Maxime CORDY, Yves Le TRAON
+**类别**: cs.SE
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24712v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis
+**作者**: Amal Akli, Mike Papadakis, Maxime Cordy, Yves Le Traon
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24703v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Leveraging LLMs for Multi-File DSL Code Generation: An Industrial Case Study
+**作者**: Sivajeet Chand, Kevin Nguyen, Peter Kuntz, Alexander Pretschner
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24678v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application
+**作者**: William Oliveira
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24636v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Evaluation of LLM-Based Software Engineering Tools: Practices, Challenges, and Future Directions
+**作者**: Utku Boran Torun, Veli Karakaya, Ali Babar, Eray Tüzün
+**类别**: cs.SE
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24621v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Profiling Resilient to Change in Probe Position
+**作者**: Elie Bursztein, Michael Gruber, Karel Král, Jean-Michel Picod, Matthias Probst, Georg Sigl
+**类别**: cs.CR
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24701v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Machine-Checked Cardinality Bounds for Masked Barrett Reduction: A 1-Bit Side-Channel Leakage Barrier in Post-Quantum Cryptographic Hardware
+**作者**: Ray Iskander, Khaled Kirah
+**类别**: cs.CR
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24670v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents
+**作者**: Yixiang Zhang, Xinhao Deng, Jiaqing Wu, Yue Xiao, Ke Xu, Qi Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24657v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ARCANE: Cross-Campaign Attacker Re-identification via Passive Beacon Telemetry -- A Bayesian Network Framework for Longitudinal Cyber Attribution
+**作者**: Abraham Itzhak Weinberg
+**类别**: cs.CR
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24644v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DETOUR: A Practical Backdoor Attack against Object Detection
+**作者**: Dazhuang Liu, Yanqi Qiao, Rui Wang, Kaitai Liang, Georgios Smaragdakis
+**类别**: cs.CR
+**发布日期**: 2026-04-27
+**链接**: http://arxiv.org/abs/2604.24599v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
