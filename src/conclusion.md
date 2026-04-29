@@ -58837,3 +58837,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-29)
+
+### 软件工程 领域
+
+#### Carbon-Taxed Transformers: A Green Compression Pipeline for Overgrown Language Models
+**作者**: Ajmain Inqiad Alam, Palash Roy, Chanchal K. Roy, Banani Roy, Kevin A. Schneider
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25903v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions
+**作者**: Nazia Shehnaz Joynab, Soneya Binta Hossain
+**类别**: cs.SE
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25880v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RESTestBench: A Benchmark for Evaluating the Effectiveness of LLM-Generated REST API Test Cases from NL Requirements
+**作者**: Leon Kogler, Stefan Hangler, Maximilian Ehrhart, Benedikt Dornauer, Roland Wuersching, Peter Schrammel
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25862v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses
+**作者**: Jiahang Lin, Shichun Liu, Chengjun Pan, Lizhi Lin, Shihan Dou, Xuanjing Huang, Hang Yan, Zhenhua Han, Tao Gui
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25850v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Does social identity matter in software engineering? Assessing the case of research software engineers
+**作者**: Chukwudi Uwasomba, Tamara Lopez, Melanie Langer, Helen Sharp, Michel Wermelinger, Caroline Jay, Mark Levine, Bashar Nuseibeh
+**类别**: cs.SE
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25831v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Credit Limits beyond Full Collateralization in Decentralized Micropayments: Incentive Conditions
+**作者**: Chien-Chih Chen, Wojciech Golab
+**类别**: cs.GT, cs.CR
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25913v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers
+**作者**: Jan Dubiński, Jan Betley, Anna Sztyber-Betley, Daniel Tan, Owain Evans
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25891v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Prime-Field PINI: Machine-Checked Composition Theorems for Post-Quantum NTT Masking
+**作者**: Ray Iskander, Khaled Kirah
+**类别**: cs.CR
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25878v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards Agentic Investigation of Security Alerts
+**作者**: Even Eilertsen, Vasileios Mavroeidis, Gudmund Grov
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25846v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Threat-Oriented Digital Twinning for Security Evaluation of Autonomous Platforms
+**作者**: Thomas J. Neubert, Laxima Niure Kandel, Berker Peköz
+**类别**: cs.CR, cs.AI, cs.RO, eess.SY
+**发布日期**: 2026-04-28
+**链接**: http://arxiv.org/abs/2604.25757v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
