@@ -58945,3 +58945,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-04-30)
+
+### 软件工程 领域
+
+#### ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation
+**作者**: Yeheng Chen, Chaoxiang Xie, Yuling Shi, Wenhao Zeng, Yongpan Wang, Hongyu Zhang, Xiaodong Gu
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26923v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Hot Fixing in the Wild
+**作者**: Carol Hanna, Karine Even-Mendoza, W. B. Langdon, Mar Zamorano López, Justyna Petke, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26892v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cognitive Atrophy and Systemic Collapse in AI-Dependent Software Engineering
+**作者**: Frank Ginac
+**类别**: cs.SE, cs.CY
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26855v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Test Taxonomy and Continuous Integration Ecosystem for Dynamic Resource Management in HPC
+**作者**: Petter Sandås, Íñigo Aréjula-Aísa, Sergio Iserte, Antonio J. Peña
+**类别**: cs.DC, cs.SE
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26824v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### What Is the Cost of Energy Monitoring? An Empirical Study on the Overhead of RAPL-Based Tools
+**作者**: Jeremy Diamond, Vincenzo Stoico
+**类别**: cs.SE, cs.PF
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26815v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Catching the Fly: Practical Challenges in Making Blockchain FlyClient Real
+**作者**: Pericle Perazzo, Dario Capecchi
+**类别**: cs.CR
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26736v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Preventing Distinguishability between Multiplication and Squaring Operations
+**作者**: Alkistis Aikaterini Sigourou, Zoya Dyka, Peter Langendoerfer, Ievgen Kabin
+**类别**: cs.CR
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26536v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PRAG End-to-End Privacy-Preserving Retrieval-Augmented Generation
+**作者**: Zhijun Li, Minghui Xu, Huayi Qi, Wenxuan Yu, Tingchuang Zhang, Qiao Zhang, GuangYong Shang, Zhen Ma, Xiuzhen Cheng
+**类别**: cs.CR
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26525v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Tatemae: Detecting Alignment Faking via Tool Selection in LLMs
+**作者**: Matteo Leonesi, Francesco Belardinelli, Flavio Corradini, Marco Piangerelli
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-29
+**链接**: http://arxiv.org/abs/2604.26511v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
