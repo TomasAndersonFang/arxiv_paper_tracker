@@ -59043,3 +59043,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-01)
+
+### 软件工程 领域
+
+#### Unsafe and Unused? A History of Utility Code in Mature Open Source Projects
+**作者**: Brandon Keller, Kaitlin Yandik, Angela Ngo, Andy Meneely
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28146v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows
+**作者**: Chenxin Li, Zhengyang Tang, Huangxin Lin, Yunlong Lin, Shijue Huang, Shengyuan Liu, Bowen Ye, Rang Li, Lei Li, Benyou Wang, Yixuan Yuan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28139v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DEFault++: Automated Fault Detection, Categorization, and Diagnosis for Transformer Architectures
+**作者**: Sigma Jahan, Saurabh Singh Rajput, Tushar Sharma, Mohammad Masudur Rahman
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28118v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### I hope we don't do to trust what advertising has done to love
+**作者**: Jade Alglave
+**类别**: cs.CY, cs.AR, cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28113v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Code, We Are People: A Systematic Mapping of 25 Years of Literature on Soft Skills in Agile Development Teams
+**作者**: Israely Lima, Lucas Moura Lourenço, Márcio Ribeiro, Ivan Machado, Carla Ilane Bezerra
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28101v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption
+**作者**: Yanting Wang, Chenlong Yin, Ying Chen, Jinyuan Jia
+**类别**: cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28157v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection
+**作者**: Prashant Kulkarni
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28129v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TwinGate: Stateful Defense against Decompositional Jailbreaks in Untraceable Traffic via Asymmetric Contrastive Learning
+**作者**: Bowen Sun, Chaozhuo Li, Yaodong Yang, Yiwei Wang, Chaowei Xiao
+**类别**: cs.CR, cs.CL, cs.LG
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27861v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### WOOTdroid: Whole-system Online On-device Tracing for Android
+**作者**: Simon Althaus, Nikolaos Alexopoulos, Max Mühlhäuser, Christian Reuter, Ephraim Zimmer
+**类别**: cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27830v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks
+**作者**: Jona te Lintelo, Lichao Wu, Marina Krček, Sengim Karayalçin, Stjepan Picek
+**类别**: cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27818v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
