@@ -59151,3 +59151,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-02)
+
+### 软件工程 领域
+
+#### A Pattern Language for Resilient Visual Agents
+**作者**: Habtom Kahsay Gidey, Alexander Lenz, Alois Knoll
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.28001v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Mirage to Grounding: Towards Reliable Multimodal Circuit-to-Verilog Code Generation
+**作者**: Guang Yang, Xing Hu, Xiang Chen, Xin Xi
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27969v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Empirical Evaluation of Code Smell Detection in Angular Applications
+**作者**: Maykon Nunes, Emanuel Coutinho, Carla Bezerra, Ivan Machado
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27893v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Requirements Debt in AI-Enabled Perception Systems Development: An Industrial RE4AI Perspective
+**作者**: Hina Saeeda, Soniya Abraham
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27825v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Feature-Centric Methodology for Analyzing Cross-Chain NFT Migration Compatibility
+**作者**: Mohd Sameen Chishti, Damilare Peter Oyinloye, Jingyue Li
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27805v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Machine Unlearning for Class Removal through SISA-based Deep Neural Network Architectures
+**作者**: Ishrak Hamim Mahi, Siam Ferdous, Md Sakib Sadman Badhon, Nabid Hasan Omi, Md Habibun Nabi Hemel, Farig Yousuf Sadeque, Md. Tanzim Reza
+**类别**: cs.CV, cs.CR, cs.LG
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27804v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Variational and Majorization Principles in Lattice Reduction
+**作者**: Javier Blanco-Romero, Florina Almenares Mendoza
+**类别**: cs.CR, cs.DS
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27801v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Code Representation Shapes False-Positive Dynamics in Cross-Language LLM Vulnerability Detection
+**作者**: Maofei Chen, Laifu Wang, Yue Qin, Yuan Wang, Bo Wu, Dongxin Liu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27714v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Satoshi Overhang: Why the Bear Case is Bounded
+**作者**: Karl T. Ulrich
+**类别**: q-fin.GN, cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27694v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders via Hubness
+**作者**: Hiroyuki Deguchi, Katsuki Chousa, Yusuke Sakai
+**类别**: cs.CL, cs.AI, cs.CR, cs.IR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27674v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
