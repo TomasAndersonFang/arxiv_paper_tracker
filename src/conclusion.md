@@ -59259,3 +59259,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-03)
+
+### 软件工程 领域
+
+#### Test Before You Deploy: Governing Updates in the LLM Supply Chain
+**作者**: Mohd Sameen Chishti, Damilare Peter Oyinloye, Jingyue Li
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27789v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Grand Software Supply Chain of AI Systems
+**作者**: Carmine Cesarano, Martin Monperrus
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27781v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multifaceted Hero Developers and Bug-Fixing Outcomes Across Severity
+**作者**: Amit Kumar, Mahen Gandhi, Meher Bhardwaj, Hrishikesh Ethari, Sonali Agarwal
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27754v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM-as-a-Judge for Human-AI Co-Creation: A Reliability-Aware Evaluation Framework for Coding
+**作者**: Md Faizul Ibne Amin, Yutaka Watanobe, Daniel M. Muepu, Haruto Suzuki, Kenta Nanaumi, Md Mostafizer Rahman
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27727v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Understanding Bugs in Template Engine-Based Applications: Symptoms, Root Causes, and Fix Patterns
+**作者**: Kai Gao, Yu Sun, Chang-ai Sun
+**类别**: cs.SE
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27692v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### VOW: Verifiable and Oblivious Watermark Detection for Large Language Models
+**作者**: Xiaokun Luan, Yihao Zhang, Pengcheng Su, Feiran Lei, Meng Sun
+**类别**: cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27666v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SecGoal: A Benchmark for Security Goal Extraction and Formalization from Protocol Documents
+**作者**: Dawei Huang, Hui Li, Haonan Feng, Jingjing Guan, Yueshuang Jiao, Bo Jia
+**类别**: cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27601v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SBN Explorer: An Empirical Study of Cryptographic Boolean Networks
+**作者**: Arnaud Valence
+**类别**: cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27560v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SST-Guard: Detecting and Characterizing Server-Side Google Analytics in the Wild
+**作者**: Muhammad Jazlan, Alexander Gamero-Garrido, Zubair Shafiq, Yash Vekaria
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27497v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Low Rank Adaptation for Adversarial Perturbation
+**作者**: Han Liu, Shanghao Shi, Yevgeniy Vorobeychik, Chongjie Zhang, Ning Zhang
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-04-30
+**链接**: http://arxiv.org/abs/2604.27487v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
