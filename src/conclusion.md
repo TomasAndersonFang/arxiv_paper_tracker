@@ -59367,3 +59367,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-04)
+
+### 软件工程 领域
+
+#### Can Coding Agents Reproduce Findings in Computational Materials Science?
+**作者**: Ziyang Huang, Yi Cao, Ali K. Shargh, Jing Luo, Ruidong Mei, Mohd Zaki, Zhan Liu, Wyatt Bunstine, William Jurayj, Somdatta Goswami, Tyrel McQueen, Michael Shields, Jaafar El-Awady, Paulette Clancy, Benjamin Van Durme, Nicholas Andrews, William Walden, Daniel Khashabi
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00803v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair
+**作者**: Yinhao Xiao, Rongbo Xiao, Yihan Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00782v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring
+**作者**: Indraneil Paul, Glavaš Glavas, Iryna Gurevych
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00754v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Research to Practice: An Interactive Rapid Review of Autonomous Driving System Testing in Industry
+**作者**: Qunying Song, Ali Nouri, Håkan Sivencrona, Federica Sarro
+**类别**: cs.SE
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00531v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EnCoDe: Energy Estimation of Source Code At Design-Time
+**作者**: Shailender Goyal, Akhila Matathammal, Karthik Vaidhyanathan
+**类别**: cs.SE
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00504v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI
+**作者**: Alfredo Madrid-García, Miguel Rujas
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00796v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Repurposing Image Diffusion Models for Adversarial Synthetic Structured Data: A Case Study of Ground Truth Drift
+**作者**: Adam Arthur, Christopher Schwartz
+**类别**: cs.CR
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00788v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Self-Adaptive Multi-Agent LLM-Based Security Pattern Selection for IoT Systems
+**作者**: Saeid Jamshidi, Foutse Khomh, Carol Fung, Kawser Wazed Nafi
+**类别**: cs.CR
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00741v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### STARE: Step-wise Temporal Alignment and Red-teaming Engine for Multi-modal Toxicity Attack
+**作者**: Xutao Mao, Liangjie Zhao, Tao Liu, Xiang Zheng, Hongying Zan, Cong Wang
+**类别**: cs.CR
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00699v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models
+**作者**: Yunhan Zhao, Zhaorun Chen, Xingjun Ma, Yu-Gang Jiang, Bo Li
+**类别**: cs.CL, cs.CR
+**发布日期**: 2026-05-01
+**链接**: http://arxiv.org/abs/2605.00689v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
