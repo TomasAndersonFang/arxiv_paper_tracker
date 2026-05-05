@@ -59475,3 +59475,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-05)
+
+### 软件工程 领域
+
+#### EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs
+**作者**: Ruichao Liang, Jing Chen, Xianglong Li, Huangpeng Gu, Yebo Feng, Yue Xue, Cong Wu, Yang Liu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02868v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection
+**作者**: Mohamad Khajezade, Fatemeh H. Fard, Mohamed Sami Shehata
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02860v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications
+**作者**: Komal Thareja, Anirban Mandal, Ewa Deelman
+**类别**: cs.DC, cs.AI, cs.SE
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02859v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### (POSTER) From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications
+**作者**: Komal Thareja, Anirban Mandal, Ewa Deelman
+**类别**: cs.DC, cs.AI, cs.SE
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02844v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems
+**作者**: Vicente Pelechanoa, Antoni Mestre, Manoli Albert, Miriam Gil
+**类别**: cs.AI, cs.HC, cs.SE
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02832v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs
+**作者**: Ruichao Liang, Jing Chen, Xianglong Li, Huangpeng Gu, Yebo Feng, Yue Xue, Cong Wu, Yang Liu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02868v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The 1-Bit Barrier is Universal: k-Stage Pipeline Composition and Unified Leakage Bounds for Standard Modular Reductions in PQC Hardware
+**作者**: Ray Iskander, Khaled Kirah
+**类别**: cs.CR
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02856v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### InsureConnect: Blockchain and Digital Identity for the Property Insurance Market
+**作者**: João Eduardo Travassos, Miguel Correia
+**类别**: cs.CR
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02824v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Autonomous LLM Agent Worms: Cross-Platform Propagation, Automated Discovery and Temporal Re-Entry Defense
+**作者**: Mingming Zha, Xiaofeng Wang
+**类别**: cs.CR
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02812v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analyzing Unsolicited Internet Traffic: Measuring IoT Security Threats via Network Telescopes
+**作者**: Shereen Ismail, Taelyn Dyer, Raul Martinez, Garrett Gastman, Yozelyn Chavez, Asma Jodeiri Akbarfam
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-05-04
+**链接**: http://arxiv.org/abs/2605.02795v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
