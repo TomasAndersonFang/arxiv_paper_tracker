@@ -59531,53 +59531,108 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+## ArXiv论文 - 最近7天 (截至 2026-05-06)
+
+### 软件工程 领域
+
+#### Mitigating False Positives in Static Memory Safety Analysis of Rust Programs via Reinforcement Learning
+**作者**: P Akilesh, Leuson Da Silva, Foutse Khomh, Sridhar Chimalakonda
+**类别**: cs.SE
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.04000v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Randomized and Diverse Input State Generation for Quantum Program Testing
+**作者**: Maryse Ernzer, Seung Yeob Shin, Fabrizio Pastore, Domenico Bianculli
+**类别**: cs.SE
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03957v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Generating Proof-of-Vulnerability Tests to Help Enhance the Security of Complex Software
+**作者**: Shravya Kanchi, Xiaoyan Zang, Ying Zhang, Danfeng Yao, Na Meng
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03956v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MOSAIC-Bench: Measuring Compositional Vulnerability Induction in Coding Agents
+**作者**: Jonathan Steinberg, Oren Gal
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03952v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Rules: LLM-Powered Linting for Quantum Programs
+**作者**: Pietro Cassieri, Giuseppe Scanniello, Seung Yeob Shin, Fabrizio Pastore, Domenico Bianculli
+**类别**: cs.SE
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03943v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
 ### 安全领域 领域
 
-#### EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs
-**作者**: Ruichao Liang, Jing Chen, Xianglong Li, Huangpeng Gu, Yebo Feng, Yue Xue, Cong Wu, Yang Liu
+#### Probabilistic-bit Guided CDCL for SAT Solving using Ising Consensus Assumptions
+**作者**: Melki Bino
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.04033v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours
+**作者**: Raja Sekhar Rao Dheekonda, Will Pearce, Nick Landers
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.04019v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity
+**作者**: Erfan Iravani, Lalit Prasad Peri, Mohannad Ismail, Charitha Tumkur Siddalingaradhya, Changwoo Min, Elif Bilge Kavun, Wenjie Xiong
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03974v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Generating Proof-of-Vulnerability Tests to Help Enhance the Security of Complex Software
+**作者**: Shravya Kanchi, Xiaoyan Zang, Ying Zhang, Danfeng Yao, Na Meng
 **类别**: cs.CR, cs.SE
-**发布日期**: 2026-05-04
-**链接**: http://arxiv.org/abs/2605.02868v1
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03956v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### The 1-Bit Barrier is Universal: k-Stage Pipeline Composition and Unified Leakage Bounds for Standard Modular Reductions in PQC Hardware
-**作者**: Ray Iskander, Khaled Kirah
-**类别**: cs.CR
-**发布日期**: 2026-05-04
-**链接**: http://arxiv.org/abs/2605.02856v1
-
-**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-
----
-
-#### InsureConnect: Blockchain and Digital Identity for the Property Insurance Market
-**作者**: João Eduardo Travassos, Miguel Correia
-**类别**: cs.CR
-**发布日期**: 2026-05-04
-**链接**: http://arxiv.org/abs/2605.02824v1
-
-**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-
----
-
-#### Autonomous LLM Agent Worms: Cross-Platform Propagation, Automated Discovery and Temporal Re-Entry Defense
-**作者**: Mingming Zha, Xiaofeng Wang
-**类别**: cs.CR
-**发布日期**: 2026-05-04
-**链接**: http://arxiv.org/abs/2605.02812v1
-
-**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-
----
-
-#### Analyzing Unsolicited Internet Traffic: Measuring IoT Security Threats via Network Telescopes
-**作者**: Shereen Ismail, Taelyn Dyer, Raul Martinez, Garrett Gastman, Yozelyn Chavez, Asma Jodeiri Akbarfam
-**类别**: cs.CR, cs.NI
-**发布日期**: 2026-05-04
-**链接**: http://arxiv.org/abs/2605.02795v1
+#### MOSAIC-Bench: Measuring Compositional Vulnerability Induction in Coding Agents
+**作者**: Jonathan Steinberg, Oren Gal
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-05-05
+**链接**: http://arxiv.org/abs/2605.03952v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
