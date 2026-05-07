@@ -59638,3 +59638,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-07)
+
+### 软件工程 领域
+
+#### Toward a Risk Assessment Framework for Institutional DeFi: A Nine-Dimension Approach
+**作者**: Eva Oberholzer, Valeriy Zamaraiev
+**类别**: cs.DC, cs.CR, cs.CY, cs.SE
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.05145v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Architectural Constraints Alignment in AI-assisted, Platform-based Service Development
+**作者**: Julius Irion, Moritz Leugers, Paul Hartwig, Simon Kling, Tachmyrat Annayev, Alexander Schwind, Maria C. Borges, Sebastian Werner
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.04973v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Conflict Essences for Transformation Rules with Nested Application Conditions -- Long Version
+**作者**: Alexander Lauer, Jens Kosiol, Leen Lambers, Gabriele Taentzer
+**类别**: cs.SE
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.04947v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SynConfRoute: Syntax-Aware Routing for Efficient Code Completion with Small CodeLLMs
+**作者**: Kishanthan Thangarajah, Boyuan Chen, Ahmed E. Hassan
+**类别**: cs.SE
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.04894v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Repository Mining: A Multi-Task Evaluation
+**作者**: Johannes Härtel
+**类别**: cs.SE
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.04845v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Toward a Risk Assessment Framework for Institutional DeFi: A Nine-Dimension Approach
+**作者**: Eva Oberholzer, Valeriy Zamaraiev
+**类别**: cs.DC, cs.CR, cs.CY, cs.SE
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.05145v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SoK: Robustness in Large Language Models against Jailbreak Attacks
+**作者**: Feiyue Xu, Hongsheng Hu, Chaoxiang He, Sheng Hang, Hanqing Hu, Xiuming Liu, Yubo Zhao, Zhengyan Zhou, Bin Benjamin Zhu, Shi-Feng Sun, Dawu Gu, Shuo Wang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.05058v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Vulnerability Reasoning on Windows COM Binaries
+**作者**: Hwiwon Lee, Jongseong Kim, Lingming Zhang
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.05000v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### You Snooze, You Lose: Automatic Safety Alignment Restoration through Neural Weight Translation
+**作者**: Marco Arazzi, Vignesh Kumar Kembu, Antonino Nocera, Stjepan Picek, Saraga Sakthidharan
+**类别**: cs.CR
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.04992v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Probabilistic Atomic Swaps for Bitcoin and Friends
+**作者**: Paul Gerhart, Jay Taylor, Sri Aravinda Krishnan Thyagarajan
+**类别**: cs.CR
+**发布日期**: 2026-05-06
+**链接**: http://arxiv.org/abs/2605.04975v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
