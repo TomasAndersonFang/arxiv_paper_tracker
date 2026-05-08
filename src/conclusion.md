@@ -59694,53 +59694,98 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+## ArXiv论文 - 最近7天 (截至 2026-05-08)
+
+### 软件工程 领域
+
+#### To What Extent Does Agent-generated Code Require Maintenance? An Empirical Study
+**作者**: Shota Sawada, Tatsuya Shirai, Yutaro Kashiwa, Ken'ichi Yamaguchi, Hiroshi Iwata, Hajimu Iida
+**类别**: cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06464v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Constraint Decay: The Fragility of LLM Agents in Backend Code Generation
+**作者**: Francesco Dente, Dario Satriani, Paolo Papotti
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06445v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work
+**作者**: Josh Rosen, Seth Rosen
+**类别**: cs.AI, cs.MA, cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06365v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Correct Code, Vulnerable Dependencies: A Large Scale Measurement Study of LLM-Specified Library Versions
+**作者**: Chengjie Wang, Jingzheng Wu, Xiang Ling, Tianyue Luo, Chen Zhao
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06279v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
 ### 安全领域 领域
 
-#### Toward a Risk Assessment Framework for Institutional DeFi: A Nine-Dimension Approach
-**作者**: Eva Oberholzer, Valeriy Zamaraiev
-**类别**: cs.DC, cs.CR, cs.CY, cs.SE
-**发布日期**: 2026-05-06
-**链接**: http://arxiv.org/abs/2605.05145v1
-
-**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-
----
-
-#### SoK: Robustness in Large Language Models against Jailbreak Attacks
-**作者**: Feiyue Xu, Hongsheng Hu, Chaoxiang He, Sheng Hang, Hanqing Hu, Xiuming Liu, Yubo Zhao, Zhengyan Zhou, Bin Benjamin Zhu, Shi-Feng Sun, Dawu Gu, Shuo Wang
+#### Patch2Vuln: Agentic Reconstruction of Vulnerabilities from Linux Distribution Binary Patches
+**作者**: Isaac David, Arthur Gervais
 **类别**: cs.CR, cs.AI
-**发布日期**: 2026-05-06
-**链接**: http://arxiv.org/abs/2605.05058v1
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06601v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### Agentic Vulnerability Reasoning on Windows COM Binaries
-**作者**: Hwiwon Lee, Jongseong Kim, Lingming Zhang
+#### FedAttr: Towards Privacy-preserving Client-Level Attribution in Federated LLM Fine-tuning
+**作者**: Su Zhang, Junfeng Guo, Heng Huang
 **类别**: cs.CR, cs.LG
-**发布日期**: 2026-05-06
-**链接**: http://arxiv.org/abs/2605.05000v1
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06596v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### You Snooze, You Lose: Automatic Safety Alignment Restoration through Neural Weight Translation
-**作者**: Marco Arazzi, Vignesh Kumar Kembu, Antonino Nocera, Stjepan Picek, Saraga Sakthidharan
-**类别**: cs.CR
-**发布日期**: 2026-05-06
-**链接**: http://arxiv.org/abs/2605.04992v1
+#### CLAD: A Clustered Label-Agnostic Federated Learning Framework for Joint Anomaly Detection and Attack Classification
+**作者**: Iason Ofeidis, Nikos Papadis, Randeep Bhatia, Leandros Tassiulas, TV Lakshman
+**类别**: cs.LG, cs.CR, cs.DC, cs.NI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06571v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
 ---
 
-#### Probabilistic Atomic Swaps for Bitcoin and Friends
-**作者**: Paul Gerhart, Jay Taylor, Sri Aravinda Krishnan Thyagarajan
-**类别**: cs.CR
-**发布日期**: 2026-05-06
-**链接**: http://arxiv.org/abs/2605.04975v1
+#### On the Security of Research Artifacts
+**作者**: Nanda Rani, Christian Rossow
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06508v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PACZero: PAC-Private Fine-Tuning of Language Models via Sign Quantization
+**作者**: Murat Bilgehan Ertan, Xiaochen Zhu, Phuong Ha Nguyen, Marten van Dijk, Srinivas Devadas
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06505v1
 
 **Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
 
