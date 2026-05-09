@@ -59791,3 +59791,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-09)
+
+### 软件工程 领域
+
+#### SiblingRepair: Sibling-Based Multi-Hunk Repair with Large Language Models
+**作者**: Xinyu Liu, Jiayu Ren, Yusen Wang, Qi Xin, Xiaoyuan Xie, Jifeng Xuan
+**类别**: cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06209v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Teaching LLMs Program Semantics via Symbolic Execution Traces
+**作者**: Jonas Bayer, Stefan Zetzsche, Olivier Bouissou, Remi Delmas, Michael Tautschnig, Soonho Kong
+**类别**: cs.SE, cs.LG, cs.PL
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06184v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Modeling Dependency-Propagated Ecosystem Impact of Changes in Maintenance Activities: Evaluating Support Strategies in the PyPI Network
+**作者**: Alexandros Tsakpinis, Emil Schwenger, Alexander Pretschner
+**类别**: cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06164v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Accuracy: Policy Invariance as a Reliability Test for LLM Safety Judges
+**作者**: Shihao Weng, Yang Feng, Xiaofei Xie
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06161v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BUILD-AND-FIND: An Effort-Aware Protocol for Evaluating Agent-Managed Codebases
+**作者**: Jhen-Ke Lin
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06136v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Privacy by Postprocessing the Discrete Laplace Mechanism
+**作者**: Quentin Hillebrand, Jacob Imola, Rasmus Pagh, Sia Sejer
+**类别**: cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06502v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Autonomous Adversary: Red-Teaming in the age of LLM
+**作者**: Mohammad Mamun, Mohamed Gaber, Scott Buffett, Sherif Saad
+**类别**: cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06486v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Pop Quiz Attack: Black-box Membership Inference Attacks Against Large Language Models
+**作者**: Zeyuan Chen, Yihan Ma, Xinyue Shen, Michael Backes, Yang Zhang
+**类别**: cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06423v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Constraining Host-Level Abuse in Self-Hosted Computer-Use Agents via TEE-Backed Isolation
+**作者**: Di Lu, Bo Zhang, Xiyuan Li, Yongzhi Liao, Xuewen Dong, Yulong Shen, Zhiquan Liu, Jianfeng Ma
+**类别**: cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06393v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Fine-Tuning Small Language Models for Solution-Oriented Windows Event Log Analysis
+**作者**: Siraaj Akhtar, Saad Khan, Simon Parkinson
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06330v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
