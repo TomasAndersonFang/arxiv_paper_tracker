@@ -59899,3 +59899,91 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-10)
+
+### 软件工程 领域
+
+#### Breaking, Stale, or Missing? Benchmarking Coding Agents on Project-Level Test Evolution
+**作者**: Ye Shang, Quanjun Zhang, Haichuan Hu, Chunrong Fang, Liang Xiao, Zhenyu Chen
+**类别**: cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06125v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Schedule-and-Calibrate: Utility-Guided Multi-Task Reinforcement Learning for Code LLMs
+**作者**: Yujia Chen, Yang Ye, Xiao Chu, Yuchi Ma, Cuiyun Gao
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06111v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Exploring the Effectiveness of Abstract Syntax Tree Patterns for Algorithm Recognition
+**作者**: Denis Neumüller, Florian Sihler, Raphael Straub, Matthias Tichy
+**类别**: cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06098v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Heimdallr: Characterizing and Detecting LLM-Induced Security Risks in GitHub CI Workflows
+**作者**: Bonan Ruan, Yeqi Fu, Chuqi Zhang, Jiahao Liu, Jun Zeng, Zhenkai Liang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.05969v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MAS-Algorithm: A Workflow for Solving Algorithmic Programming Problems with a Multi-Agent System
+**作者**: Yuliang Xu, Xiang Xu, Yao Wan, Hu Wei, Tong Jia
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.05949v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Gaming the Metric, Not the Harm: Certifying Safety Audits against Strategic Platform Manipulation
+**作者**: Florian A. D. Burnat, Brittany I. Davidson
+**类别**: cs.CR, cs.CY, cs.LG
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06324v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Trade-off Functions for DP-SGD with Subsampling based on Random Shuffling: Tight Upper and Lower Bounds
+**作者**: Marten van Dijk, Murat Bilgehan Ertan
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06259v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Stateful Agent Backdoor
+**作者**: Zhengchunmin Dai, Jiaxiong Tang, Liantao Wu, Peng Sun, Honglong Chen
+**类别**: cs.CR
+**发布日期**: 2026-05-07
+**链接**: http://arxiv.org/abs/2605.06158v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
