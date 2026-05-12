@@ -60085,3 +60085,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-12)
+
+### 软件工程 领域
+
+#### Using Logs to support Programming Education
+**作者**: Gilmar Gomes do Nascimento, Maria Claudia F. P Emer, Adolfo Gustavo Serra Seca Neto, Laudelino Cordeiro Bastos
+**类别**: cs.SE
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10920v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace
+**作者**: Simon Yu, Derek Chong, Ananjan Nandi, Dilara Soylu, Jiuding Sun, Christopher D Manning, Weiyan Shi
+**类别**: cs.AI, cs.PL, cs.SE
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10913v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CppPerf: An Automated Pipeline and Dataset for Performance-Improving C++ Commits
+**作者**: Tommy Ho, Khashayar Etemadi, Zhendong Su
+**类别**: cs.SE
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10890v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD
+**作者**: Haozhe Zhang, Kaichen Liu, Miaomiao Chen, Lei Li, Shaojie Yang, Cheng Peng, Hanjie Chen
+**类别**: cs.AI, cs.CV, cs.SE
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10865v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Engineering Robustness into Personal Agents with the AI Workflow Store
+**作者**: Roxana Geambasu, Mariana Raykova, Pierre Tholoniat, Trishita Tiwari, Lillian Tsai, Wen Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10907v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Private Information Retrieval With Arbitrary Privacy Requirements for Graph-Based Storage
+**作者**: Mohamed Nomeir, Shreya Meel, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.NI, eess.SP
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10879v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Local Private Information Retrieval: A New Privacy Perspective for Graph-Based Replicated Systems
+**作者**: Shreya Meel, Mohamed Nomeir, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.NI, eess.SP
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10872v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BEACON: A Multimodal Dataset for Learning Behavioral Fingerprints from Gameplay Data
+**作者**: Ishpuneet Singh, Gursmeep Kaur, Uday Pratap Singh Atwal, Guramrit Singh, Gurjot Singh, Maninder Singh
+**类别**: cs.CR, cs.AI, cs.CV, cs.LG, cs.NI
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10867v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World
+**作者**: Pedro Conde, Henrique Branquinho, Valerio Mazzone, Bruno Mendes, André Baptista, Nuno Moniz
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-05-11
+**链接**: http://arxiv.org/abs/2605.10834v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
