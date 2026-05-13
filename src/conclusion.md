@@ -60183,3 +60183,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-13)
+
+### 软件工程 领域
+
+#### Basilisk and Docker for Reproducible GN&C Simulation: A Workflow Reference
+**作者**: Anubhav Gupta
+**类别**: eess.SY, astro-ph.IM, cs.MS, cs.SE
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12443v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Iterative Audit Convergence in LLM-Managed Multi-Agent Systems: A Case Study in Prompt Engineering Quality Assurance
+**作者**: Elias Calboreanu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12280v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Minimalistic Terminal Editor for Julia Programming -- MinTEJ: A Friendly Approach for a Scientific Programmer
+**作者**: Poornachandratejasvi Laxman Bhattar, Payal V. Dahiwale, Krishnarjunulu Thota, Anurag Sharma
+**类别**: cs.SE, cs.PL
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12275v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Characterizing the Failure Modes of LLMs in Resolving Real-World GitHub Issues
+**作者**: Yanjie Jiang, Yian Huang, Guancheng Wang, Junjie Chen, Hui Liu, Lionel Briand
+**类别**: cs.SE
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12270v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Uncertainty Quantification for LLM-based Code Generation
+**作者**: Senrong Xu, Yuhao Tan, Yanke Zhou, Guangyuan Wu, Zenan Li, Yuan Yao, Taolue Chen, Feng Xu, Xiaoxing Ma
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12201v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection
+**作者**: Tom Sander, Hongyan Chang, Tomáš Souček, Tuan Tran, Valeriu Lacatusu, Sylvestre-Alvise Rebuffi, Alexandre Mourachko, Surya Parimi, Christophe Ropers, Rashel Moritz, Vanessa Stark, Hady Elsahar, Pierre Fernandez
+**类别**: cs.CR, cs.CL, cs.LG
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12456v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Attacks and Mitigations for Distributed Governance of Agentic AI under Byzantine Adversaries
+**作者**: Matthew D. Laws, Alina Oprea, Cristina Nita-Rotaru
+**类别**: cs.CR, cs.LG, cs.MA
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12364v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reconstruction of Personally Identifiable Information from Supervised Finetuned Models
+**作者**: Sae Furukawa, Alina Oprea
+**类别**: cs.CR, cs.CL, cs.LG
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12264v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### No More, No Less: Task Alignment in Terminal Agents
+**作者**: Sina Mavali, David Pape, Jonathan Evertz, Samira Abedini, Devansh Srivastav, Thorsten Eisenhofer, Sahar Abdelnabi, Lea Schönherr
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12233v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ORCHID: Orchestrated Reduction Consensus for Hash-based Integrity in Distributed Ledgers
+**作者**: Abraham Itzhak Weinberg
+**类别**: cs.CR
+**发布日期**: 2026-05-12
+**链接**: http://arxiv.org/abs/2605.12211v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
