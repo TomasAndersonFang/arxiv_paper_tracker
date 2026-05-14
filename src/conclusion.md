@@ -60291,3 +60291,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-14)
+
+### 软件工程 领域
+
+#### Neurosymbolic Auditing of Natural-Language Software Requirements
+**作者**: Bethel Hall, William Eiers
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13817v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### (How) Do Large Language Models Understand High-Level Message Sequence Charts?
+**作者**: Mohammad Reza Mousavi
+**类别**: cs.SE, cs.AI, cs.LO
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13773v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles
+**作者**: Yizhuo Xiao, Haotian Yan, Ying Wang, Zhongpan Zhu, Yuxin Zhang, Xintao Yan, Mustafa Suphi Erden, Cheng Wang
+**类别**: cs.RO, cs.SE, eess.SY
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13751v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SkillOps: Managing LLM Agent Skill Libraries as Self-Maintaining Software Ecosystems
+**作者**: Hongji Pu, Xinyuan Song, Liang Zhao
+**类别**: cs.SE, cs.MA
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13716v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Scalable Deductive Verification of Data-Level Parallel Programs
+**作者**: Lars B. van den Haak, Anton Wijs, Marieke Huisman
+**类别**: cs.SE
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13616v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Backdoor Threats in Variational Quantum Circuits: Taxonomy, Attacks, and Defenses
+**作者**: Lei Jiang, Fan Chen
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13796v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### VectorSmuggle: Steganographic Exfiltration in Embedding Stores and a Cryptographic Provenance Defense
+**作者**: Jascha Wanger
+**类别**: cs.CR, cs.IR, cs.LG
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13764v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DisAgg: Distributed Aggregators for Efficient Secure Aggregation in Federated Learning
+**作者**: Haaris Mehmood, Giorgos Tatsis, Dimitrios Alexopoulos, Karthikeyan Saravanan, Jie Xu, Anastasios Drosou, Mete Ozay
+**类别**: cs.CR, cs.DC, cs.LG
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13708v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Identifying AI Web Scrapers Using Canary Tokens
+**作者**: Steven Seiden, Triss Ren, Caroline Zhang, Taein Kim, Enze Liu, Emily Wenger
+**类别**: cs.CR, cs.AI, cs.CY, cs.NI
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13706v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MQTT Across a Raspberry Pi 5 IoT Network Utilizing Quantum-resistant Signature Algorithms
+**作者**: Ray Feingold, Chansu Yu
+**类别**: cs.CR
+**发布日期**: 2026-05-13
+**链接**: http://arxiv.org/abs/2605.13698v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
