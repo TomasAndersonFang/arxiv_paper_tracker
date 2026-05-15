@@ -60399,3 +60399,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-15)
+
+### 软件工程 领域
+
+#### Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vulnerability Detection in Binaries
+**作者**: Xinran Zheng, Alfredo Pesoli, Marco Valleri, Suman Jana, Lorenzo Cavallaro
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15097v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Viverra: Text-to-Code with Guarantees
+**作者**: Haoze Wu, Rocky Klopfenstein, Keith Farkas, Nina Narodytska
+**类别**: cs.SE, cs.AI, cs.HC, cs.LO
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14972v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards In-Depth Root Cause Localization for Microservices with Multi-Agent Recursion-of-Thought
+**作者**: Lingzhe Zhang, Tong Jia, Kangjin Wang, Chiming Duan, Minghua He, Rongqian Wang, Xi Peng, Meiling Wang, Gong Zhang, Renhai Chen, Ying Li
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14866v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic AI in Industry: Adoption Level and Deployment Barriers
+**作者**: Spyridon Alvanakis Apostolou, Jan Bosch, Helena Holmström Olsson
+**类别**: cs.SE
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14675v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Documentation-Guided Agentic Codebase Migration from C to Rust
+**作者**: Minh Le-Anh, Anh Nguyen Hoang, Bach Le, Nghi D. Q. Bui
+**类别**: cs.SE
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14634v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs
+**作者**: Rui Wen, Mark Russinovich, Andrew Paverd, Jun Sakuma, Ahmed Salem
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15172v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Talk is (Not) Cheap: A Taxonomy and Benchmark Coverage Audit for LLM Attacks
+**作者**: Karthik Raghu Iyer, Yazdan Jamshidi, Nicholas Bray, Alexey A. Shvets
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15118v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vulnerability Detection in Binaries
+**作者**: Xinran Zheng, Alfredo Pesoli, Marco Valleri, Suman Jana, Lorenzo Cavallaro
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15097v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PickleFuzzer: A Case Study in Fuzzing for Discrepancies Between Python Pickle Implementations
+**作者**: Justin Applegate, Andreas Kellas
+**类别**: cs.CR
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15084v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Analyzing Codes of Conduct for Online Safety in Video Games at Scale
+**作者**: Jiuming Jiang, Shidong Pan, Daniel W Woods, Jingjie Li
+**类别**: cs.CR, cs.HC
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15047v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
