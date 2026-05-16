@@ -60507,3 +60507,61 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-16)
+
+### 软件工程 领域
+
+#### Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines
+**作者**: Ali Hassaan Mughal, Noor Fatima, Muhammad Bilal
+**类别**: cs.SE, cs.CL, cs.LG
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14568v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Not All RAGs Are Created Equal: A Component-Wise Empirical Study for Software Engineering Tasks
+**作者**: Qiang Ke, Yanjie Zhao, Hongjin Leng, Shengming Zhao, Haoyu Wang
+**类别**: cs.SE
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14503v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When Retrieval Hurts Code Completion: A Diagnostic Study of Stale Repository Context
+**作者**: Haojun Weng, Qianqian Yang, Hao Fu, Haobin Pan, Xinwei Lv
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14478v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Toward Securing AI Agents Like Operating Systems
+**作者**: Lukas Pirch, Micha Horlboge, Patrick Großmann, Syeda Mahnur Asif, Klim Kireev, Thorsten Holz, Konrad Rieck
+**类别**: cs.CR
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14932v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Known By Their Actions: Fingerprinting LLM Browser Agents via UI Traces
+**作者**: William Lugoloobi, Samuelle Marro, Jabez Magomere, Joss Wright, Chris Russell
+**类别**: cs.CR, cs.AI, cs.HC, cs.LG
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14786v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
