@@ -60565,3 +60565,59 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-17)
+
+### 安全领域 领域
+
+#### WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections
+**作者**: Tri Cao, Yulin Chen, Hieu Cao, Yibo Li, Khoi Le, Thong Nguyen, Yuexin Li, Yufei He, Yue Liu, Shuicheng Yan, Bryan Hooi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.15030v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do Coding Agents Understand Least-Privilege Authorization?
+**作者**: Zheng Yan, Jingxiang Weng, Charles Chen, Dengyun Peng, Ethan Qin, Jiannan Guan, Jinhao Liu, Qiming Yu, Yixin Yuan, Fanqing Meng, Carl Che, Mengkang Hu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14859v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can Visual Mamba Improve AI-Generated Image Detection? An In-Depth Investigation
+**作者**: Mamadou Keita, Wassim Hamidouche, Hessen Bougueffa Eutamene, Abdelmalik Taleb-Ahmed, Xianxun Zhu, Abdenour Hadid
+**类别**: cs.CV, cs.CR, cs.SI
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14799v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EVA: Editing for Versatile Alignment against Jailbreaks
+**作者**: Yi Wang, Hongye Qiu, Yue Xu, Sibei Yang, Zhan Qin, Minlie Huang, Wenjie Wang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14750v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Adapting AlphaEvolve to Optimize Fully Homomorphic Encryption on TPUs
+**作者**: Shruthi Gorantala, Jianming Tong, Asra Ali, Baiyu Li, Jonathan Katz, Jeremy Kun, Thomas Steinke, Abhradeep Thakurta, Julian Walker, Amir Yazdanbakhsh
+**类别**: cs.CR
+**发布日期**: 2026-05-14
+**链接**: http://arxiv.org/abs/2605.14718v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
