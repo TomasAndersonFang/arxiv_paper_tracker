@@ -60621,3 +60621,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-18)
+
+### 软件工程 领域
+
+#### From Backup Restoration to Minimum Viable Factory Recovery: A Systematization of Ransomware Recovery in Manufacturing Systems
+**作者**: Chun Yin Chiu
+**类别**: cs.CR, cs.CY, cs.DC, cs.SE
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16167v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Dangers of Non-Self-Fixed Architecture Technical Debt and Its Impact on Time-to-Fix
+**作者**: Edi Sutoyo, Paris Avgeriou, Andrea Capiluppi
+**类别**: cs.SE
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16133v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### XSearch: Explainable Code Search via Concept-to-Code Alignment
+**作者**: Yiming Liu, Ruofan Liu, Yun Lin, Zicong Zhang, Weiyu Kong, Pengnian Qi, Xiao Cheng, Weinan Zhang, Qianxiang Wang, Linpeng Huang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16046v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Text to DSL: Evaluating Grammar-Based Model Generation Using Open LLMs
+**作者**: Junaid Baber, Nicolas Hili, Didier Schwab, Léo Challier, Cécilia Satrin
+**类别**: cs.SE
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.15865v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades
+**作者**: Xinbo Xu, Ruihan Yang, Haiyang Shen, Wendong Xu, Bofei Gao, Ruoyu Wu, Kean Shi, Weichu Xie, Xuanzhong Chen, Ming Wu, Jason Zeng, Michael Heinrich, Elvis Zhang, Liang Chen, Kuan Li, Baobao Chang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.15846v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### LymphNode: A Plug-and-Play Access Control Method for Deep Neural Networks
+**作者**: Hanyu Pei, Shang Liu, Zeyan Liu
+**类别**: cs.CR
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16227v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Backup Restoration to Minimum Viable Factory Recovery: A Systematization of Ransomware Recovery in Manufacturing Systems
+**作者**: Chun Yin Chiu
+**类别**: cs.CR, cs.CY, cs.DC, cs.SE
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16167v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PCDM: A Diffusion-Based Data Poisoning Attack Against Federated Learning Systems
+**作者**: Wei Sun, Yijun Chen, Bo Gao, Ke Xiong, Yuwei Wang, Pingyi Fan, Khaled Ben Letaief
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16098v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Cross-Modal Prompt Injection Attack against Large Vision-Language Models with Image-Only Perturbation
+**作者**: Hao Yang, Zhuo Ma, Yang Liu, Yilong Yang, Guancheng Wang, JianFeng Ma
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16090v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Who Owns This Agent? Tracing AI Agents Back to Their Owners
+**作者**: Ruben Chocron, Doron Jonathan Ben Chayim, Eyal Lenga, Gilad Gressel, Alina Oprea, Yisroel Mirsky
+**类别**: cs.CR, cs.AI, cs.MA
+**发布日期**: 2026-05-15
+**链接**: http://arxiv.org/abs/2605.16035v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
