@@ -60729,3 +60729,91 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-19)
+
+### 软件工程 领域
+
+#### Reversa: A Reverse Documentation Engineering Framework for Converting Legacy Software into Operational Specifications for AI Agents
+**作者**: Sanderson Oliveira de Macedo, Ronaldo Martins da Costa
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18684v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Improving BM25 Code Retrieval Under Fixed Generic Tokenization: Adaptive q-Log Odds as a Drop-In BM25 Fix
+**作者**: Santosh Kumar Radha, Oktay Goktas
+**类别**: cs.IR, cs.AI, cs.SE
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18561v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### One Developer Is All You Need: A Case Study of an AI-Augmented One-Person Squad in a Brownfield Enterprise
+**作者**: Marcelo Vilas Boas, Gustavo Pinto, Edward Roberto Monteiro, Vinicius Fernandes Carida, Danilo Ribeiro
+**类别**: cs.SE
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18461v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Same Signal, Different Semantics: A Cross-Framework Behavioral Analysis of Software Engineering Agents
+**作者**: Wei Ma, Zhi Chen, Jingxu Gu, Tianling Li, Shangqing Liu, Lingxiao Jiang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18332v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Sublinear Risk-Limiting Audits from Direct Ballot Selection and Statistical Ballot Manifests
+**作者**: Benjamin Fuller, Abigail Harrison, Alexander Russell
+**类别**: cs.CR
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18670v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A No-Defense Defense Against Gradient-Based Adversarial Attacks on ML-NIDS: Is Less More?
+**作者**: Mohamed elShehaby, Ashraf Matrawy
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18666v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Federated Naive Bayes with Real Mixture of Gaussians and Institutional Governance Regularization for Network Intrusion Detection
+**作者**: Herrera Logroño, Edgar Oswaldo; López Rubio, Ezequiel, Ortiz de Lazcano Lobato, Juan Miguel
+**类别**: cs.CR
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18647v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Not What You Asked For: Typographic Attacks in Household Robot Manipulation
+**作者**: Ali Iranmanesh, Peng Liu
+**类别**: cs.CR, cs.AI, cs.RO
+**发布日期**: 2026-05-18
+**链接**: http://arxiv.org/abs/2605.18593v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
