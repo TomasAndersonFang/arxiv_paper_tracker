@@ -60817,3 +60817,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-20)
+
+### 软件工程 领域
+
+#### A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents
+**作者**: Vasundra Srinivasan
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.20173v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Towards LLM-Assisted Architecture Recovery for Real-World ROS~2 Systems: An Agent-Based Multi-Level Approach to Hierarchical Structural Architecture Reconstruction
+**作者**: Dominique Briechle, Raj Chanchad, Tobias Geger, Ruidi He, Dhruv Jajadiya, Dhruv Kapadiya, Andreas Rausch, Meng Zhang
+**类别**: cs.SE, cs.AI, cs.RO
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.20055v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Does Code Cleanliness Affect Coding Agents? A Controlled Minimal-Pair Study
+**作者**: Priyansh Trivedi, Olivier Schmitt
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.20049v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Case for Agentic Tuning: From Documentation to Action in PostgreSQL
+**作者**: Hongyu Lin, Mingyu Li, Weichen Zhang, Yihang Lou, Mingjie Xing, Yanjun Wu, Haibo Chen
+**类别**: cs.SE, cs.AI, cs.DB, cs.PF
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.19988v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OpenHealth Lake: Designing and testing a data lakehouse platform for health applications
+**作者**: Danilo Silva, Monika Moir, Cheryl Baxter, Tulio de Oliveira, Joicymara Xavier, Marcel Dunaiski
+**类别**: cs.SE, cs.DB
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.19922v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### SAGE: Scalable Automatic Gating Ensemble for Confident Negative Harvesting in Fraud Detection
+**作者**: Sudheer Tubati, Amit Goyal
+**类别**: cs.LG, cs.CR, cs.IR
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.20157v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Hunting Vulnerability Variants in AI Infra: Measurement and Reference-Driven Detection
+**作者**: Tian Dong, Yanjun Chen, Shoufeng Zhang, Huaien Zhang, Yunlong Lyu, Keke Lian, Dong Zhang, Shaofeng Li, Hao Chen
+**类别**: cs.CR
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.20051v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Taking Cryptography Out of the Data Path via Near-Memory Processing in DRAM
+**作者**: Nicola Barcarolo, Brahmaiah Gandham, Mohammad Sadrosadati, Roberto Passerone, Onur Mutlu, Flavio Vella
+**类别**: cs.CR, cs.AR, cs.DC
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.20047v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM Benchmark Datasets Should Be Contamination-Resistant
+**作者**: Ali Al-Lawati, Jason Lucas, Dongwon Lee, Suhang Wang
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-05-19
+**链接**: http://arxiv.org/abs/2605.19999v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
