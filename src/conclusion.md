@@ -60915,3 +60915,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-22)
+
+### 软件工程 领域
+
+#### FAME: Failure-Aware Mixture-of-Experts for Message-Level Log Anomaly Detection
+**作者**: Huanchi Wang, Zihang Huang, Yifang Tian, Kristina Dzeparoska, Hans-Arno Jacobsen, Alberto Leon-Garcia
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22779v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HarnessAPI: A Skill-First Framework for Unified Streaming APIs and MCP Tools
+**作者**: Edwin Jose
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22733v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Contractual Skills: A GovernSpec Design Framework for Enterprise AI Agents
+**作者**: Ting Liu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22634v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Innovations in Cardless Artificial Intelligence Banking: A Comprehensive Framework for Cyber Secure and Fraud Mitigation using Machine Learning Algorithms
+**作者**: Md Israfeel
+**类别**: cs.CR, cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22604v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SynAE: A Framework for Measuring the Quality of Synthetic Data for Tool-Calling Agent Evaluations
+**作者**: Shuaiqi Wang, Aadyaa Maddi, Zinan Lin, Giulia Fanti
+**类别**: cs.CL, cs.LG, cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22564v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### TriSweep: A Four-Drone Swarm Framework for Electromagnetic Side-Channel Analysis
+**作者**: Eric Yocam, Varghese Vaidyan
+**类别**: cs.CR, cs.ET, cs.RO, eess.SY
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22709v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Innovations in Cardless Artificial Intelligence Banking: A Comprehensive Framework for Cyber Secure and Fraud Mitigation using Machine Learning Algorithms
+**作者**: Md Israfeel
+**类别**: cs.CR, cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22604v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Building an Open Source Operational Technology Pentesting Platform: Lessons from LINICS
+**作者**: Awais Rashid, Joseph Gardiner, Louise Evans
+**类别**: cs.CR
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22590v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Formal Basis for Quantum Cryptographic Exposure Measurement under HNDL Threat
+**作者**: Matheus Rufino, Rafael Duarte Marcelino, Julio Smanioto Garcia
+**类别**: cs.CR, quant-ph
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22569v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
