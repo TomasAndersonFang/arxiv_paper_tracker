@@ -61013,3 +61013,91 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-23)
+
+### 软件工程 领域
+
+#### Why Are Agentic Pull Requests Merged or Rejected? An Empirical Study
+**作者**: Sien Reeve O. Peralta, Fumika Hoshi, Hironori Washizaki, Naoyasu Ubayashi, Inase Kondo, Yoshiki Higo, Hiroki Mukai, Norihiro Yoshida, Kazuki Kusama, Hidetake Tanaka, Youmei Fan
+**类别**: cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22534v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Neglected Baseline in Model Interpretation
+**作者**: Yongjin Cui, Xiaohui Fan
+**类别**: cs.CV, cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22417v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### VeriScale: Adversarial Test-Suite Scaling for Verifiable Code Generation
+**作者**: Yifan Bai, Xiaoyang Liu, Zihao Mou, Guihong Wang, Jian Yu, Shuhan Xie, Yantao Li, Yangyu Zhang, Jingwei Liang, Tao Luo
+**类别**: cs.LG, cs.AI, cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22368v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### At What Cost? Software Developers' Well-Being in the Age of GenAI
+**作者**: Mariam Guizani, Maduka Subasinghage, Sherlock A. Licorish, Sofia Ouhbi
+**类别**: cs.SE
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22349v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### UNAD+: An Explainable Hybrid Framework for Unknown Network Attack Detection
+**作者**: Saif Alzubi, Frederic Stahl
+**类别**: cs.CR, cs.LG, cs.NI
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22621v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Measuring Security Without Fooling Ourselves: Why Benchmarking Agents Is Hard
+**作者**: Sahar Abdelnabi, Chris Hicks, Konrad Rieck, Ahmad-Reza Sadeghi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22568v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EnCAgg: Enhanced Clustering Aggregation for Robust Federated Learning against Dynamic Model Poisoning
+**作者**: Tianyun Zhang, Zhen Yang, Haozhao Wang, Ru Zhang, Yongfeng Huang
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22506v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Exact Hidden Paths in Noisy High Dimensional Path Spaces
+**作者**: Victor Duarte Melo
+**类别**: cs.CR, math.CO
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22477v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
