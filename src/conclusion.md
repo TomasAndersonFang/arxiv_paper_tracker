@@ -61101,3 +61101,59 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-24)
+
+### 安全领域 领域
+
+#### A Constant-Time Implementation Methodology for Activation Functions on Microcontrollers
+**作者**: Andrii Tyvodar, Andreas Rechberger, Dirmanto Jap, Shivam Bhasin, Bernhard Jungk, Jakub Breier, Xiaolu Hou
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22441v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Characterizing the Fault Response of the Intel Neural Compute Stick 2 Under Single-Pulse Electromagnetic Fault Injection
+**作者**: Štefan Kučerák, Jakub Breier, Xiaolu Hou
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22437v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TimeGuard: Channel-wise Pool Training for Backdoor Defense in Time Series Forecasting
+**作者**: Quang Duc Nguyen, Siyuan Liang, Yiming Li, Fushuo Huo, Dacheng Tao
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22365v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A First Measurement Study on Authentication Security in Real-World Remote MCP Servers
+**作者**: Huijun Zhou, Xiaohan Zhang, Haozhe Zhang, Haoyang Zhang, Mi Zhang, Min Yang
+**类别**: cs.CR
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22333v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Building Europe's Quantum Shield: The Strategic view for a Continent-Wide Quantum Key Ditribution (QKD) Infrastructure
+**作者**: Leandros Maglaras, Ilias Papastamatiou, Alexios Aivaliotis, Evangelos Markatos, Konstantinos Karantzalos
+**类别**: cs.CR
+**发布日期**: 2026-05-21
+**链接**: http://arxiv.org/abs/2605.22332v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
