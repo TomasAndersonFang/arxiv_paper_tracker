@@ -61157,3 +61157,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-25)
+
+### 软件工程 领域
+
+#### Agentic Proving for Program Verification
+**作者**: Alessandro Sosso, Akhil Arora, Bas Spitters
+**类别**: cs.AI, cs.LO, cs.PL, cs.SE
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23772v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Push Your Agent: Measuring and Enforcing Quantitative Goal Persistence in Long-Horizon LLM Agents
+**作者**: Yuandao Cai, Yuzhang Zhu, Liyou Gao, Wensheng Tang, Shengchao Qin
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23574v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Misleading Microbenchmarks on the Java Virtual Machines
+**作者**: Filippo Schiavio, Lubomír Bulej, Walter Binder
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23570v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### JEDI: Java Evaluation of Declarative and Imperative Queries
+**作者**: Filippo Schiavio, Walter Binder
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23543v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MISRust: Mapping MISRA-C++ Coding Guidelines to the Rust Programming Language
+**作者**: Marius Molz, Niels Schneider, Sven Lechner, Stefan Kowalewski, Alexandru Kampmann
+**类别**: cs.SE
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23490v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces
+**作者**: Joydeep Chandra
+**类别**: cs.DB, cs.AI, cs.CR, cs.LG, cs.MA
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23887v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Stability of Spherical Hellinger-Kantorovich Flows and Their Implications for Differential Privacy
+**作者**: Aratrika Mustafi, Soumya Mukherjee
+**类别**: stat.ML, cs.CR, cs.LG, math.ST
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23879v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A blueprint for constructing 3-pass AKE protocols under commitment-based models
+**作者**: Rodrigo Martín Sánchez-Ledesma
+**类别**: cs.CR
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23843v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Validating Threat Modeling Results with the Help of Vulnerable Test Applications
+**作者**: Oleksandr Adamov, Davide Fucci, Felix Viktor Jedrzejewski, Ricardo Britto, Nishrith Saini
+**类别**: cs.CR
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23695v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Less Effort, Shorter Proofs: Reinforcement Learning for Security Protocol Analysis in Tamarin
+**作者**: Matthias Cosler, Cas Cremers, Bernd Finkbeiner, Mohamed Ghanem, Niklas Medinger
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-22
+**链接**: http://arxiv.org/abs/2605.23643v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
