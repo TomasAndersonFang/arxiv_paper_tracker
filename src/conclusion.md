@@ -61265,3 +61265,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-26)
+
+### 软件工程 领域
+
+#### Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models
+**作者**: Bar Weiss, Antonio Abu-Nassar, Adi Sosnovich, Karen Yorav
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.26100v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization for LLM Judges
+**作者**: Parth Darshan, Abhishek Divekar
+**类别**: cs.CL, cs.AI, cs.LG, cs.MA, cs.SE
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.26046v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Trustworthy Software Project Generation : a Case Study with an Interactive Theorem Prover
+**作者**: Jian Fang, Yingfei Xiong
+**类别**: cs.SE
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.26017v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Uncovering multi-channel magnetic hopfion annihilation via a single-node, billion-spin-scale atomistic framework
+**作者**: Qichen Xu, Anna Delin
+**类别**: physics.comp-ph, cond-mat.mtrl-sci, cs.SE, physics.atom-ph
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.26016v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CelerLog: Fast Log Parsing via Dynamic Routing
+**作者**: Shiwen Shan, Yintong Huo, Minxing Wang, Zhiying Wu, Yuxin Su, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.26005v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Shielded but Lightweight: Building Practical Confidential Containers with ARM CCA
+**作者**: Liantao Song, Yiming Zhang, Fengwei Zhang, Yan Ding, Bin Zhou, Jie Yu, Yusong Tan
+**类别**: cs.CR
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.26018v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Building an Adversarial Malware Dataset by Family and Type: Generation, Evasion, and Poisoning Evaluation
+**作者**: David Košťál, Martin Jureček
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.25937v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Semantic Validation of Packer Identification Tools: Characterization, Repair, and Downstream Impact
+**作者**: Fangtian Zhong, Zhuoyun Qian, Mengfei Ren, Yili Jiang, Jiaqi Huang, Yunming Pang, Xiuzhen Cheng
+**类别**: cs.CR
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.25923v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Capability and Robustness Cannot Both Be Free: An Information-Theoretic Bound for Vision-Language-Action Models
+**作者**: Jianwei Tai
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.25889v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Agentic AI Coding Assistants Become the Attacker's Shell
+**作者**: Yue Liu, Yanjie Zhao, Yunbo Lyu, Ting Zhang, Haoyu Wang, David Lo
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-05-25
+**链接**: http://arxiv.org/abs/2605.25871v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
