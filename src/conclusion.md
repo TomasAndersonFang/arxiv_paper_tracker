@@ -61373,3 +61373,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-28)
+
+### 软件工程 领域
+
+#### A Minimal Executable Proof for Multi-Language Contract Traceability
+**作者**: Werner Kasselman
+**类别**: cs.SE
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28546v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do LLMs Favor Their Providers? Measuring Vertical Integration Bias in Code Generation
+**作者**: Melih Catal, Alex Wolf, Tiago Ferreiro Matos, Pooja Rani, Harald Gall
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28515v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Efficient and Scalable Provenance Tracking for LLM-Generated Code Snippets
+**作者**: Andrea Gurioli, Davide D'Ascenzo, Federico Pennino, Maurizio Gabbrielli, Stefano Zacchiroli
+**类别**: cs.SE, cs.AI, cs.IR
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28510v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Rethinking Software Empirical Studies with Structural Causal Models
+**作者**: Daniel Rodriguez-Cardenas, Aya Garryyeva, David Nader Palacio, Antonio Mastropaolo, Denys Poshyvanyk
+**类别**: cs.SE
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28482v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From paper to benchmark: agentic, framework-based reproduction of under-specified methods in machine health intelligence
+**作者**: Raffael Theiler, Ludovico Comito, David Leko, Leandro Von Krannichfeldt, Lev Telyatnikov, Olga Fink
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28371v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Code as a Weapon: A Consensus-Labeled Prompt Bank for Measuring Coding-Model Compliance with Malicious-Code Requests
+**作者**: Richard J. Young, Gregory D. Moody
+**类别**: cs.CR, cs.CL, cs.LG
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28734v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Efficient and Quantum-safe Internet Key Exchange Protocols for Satellite Communications
+**作者**: Davide De Zuane, Marco Baldi, Paolo Santini, Grégoire Anchelergues, Daniele Romano, Alessandro Cammarano, Juan José Grosso
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28660v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution
+**作者**: Yanqiu Zhao, Dongying Zheng, Kaibo Huang, Yukun Wei, Zhongliang Yang, Linna Zhou
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28646v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GraphSteal: Structural Knowledge Stealing from Graph RAG via Traversal Reconstruction
+**作者**: Jinze Gu, Qinghua Mao, Xi Lin, Jun Wu
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28645v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Blind PRNG Hijacking: An Undetectable Integrity-Preserving Attack Against LLM Watermarking
+**作者**: Ziyang You, Huilong He, Xiaoke Yang, Xuxing Lu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-27
+**链接**: http://arxiv.org/abs/2605.28632v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
