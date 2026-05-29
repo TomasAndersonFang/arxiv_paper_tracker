@@ -61481,3 +61481,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-29)
+
+### 软件工程 领域
+
+#### Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software
+**作者**: Nhat-Minh Nguyen
+**类别**: cs.AI, astro-ph.CO, cs.HC, cs.SE
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30353v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency
+**作者**: Chris Adams, Arjun Singh Banga, Parveen Bansal, Souvik Bhattacharya, Rujin Cao, Pedro Canahuati, Nate Cook, Brian Ellis, Prabhakar Goyal, Gurinder Grewal, Tianyu He, Matt Labunka, Alex Manners, David Molnar, Ging Cee Ng, Vishal Parekh, Jiefu Pei, Frederic Sagnes, James Saindon, Will Shackleton, Sid Sidhu, Gursharan Singh, Karthik Chengayan Sridhar, Matt Steiner, Pratibha Udmalpet, Sean Xia, Stacey Yan, Audris Mockus, Peter Rigby, Nachiappan Nagappan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30208v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution
+**作者**: Haichuan Hu, Guoqing Xie, Quanjun Zhang, Jiawei Liu, Shengcheng Yu, Chunrong Fang, Zhenyu Chen, Liang Xiao
+**类别**: cs.SE
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30105v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Projectional Decoding: Towards Semantic-Aware LLM Generation
+**作者**: Boqi Chen, José Antonio Hernández López, Aren A. Babikian
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30054v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### REPOT: Recoverable Program-of-Thought via Checkpoint Repair
+**作者**: Parsa Mazaheri
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30052v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis
+**作者**: Chen Gong, Kecen Li, Zinan Lin, Tianhao Wang
+**类别**: cs.CR
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30312v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### bpK#: Delegatable Pseudonyms And Their Applications to National eID Systems
+**作者**: Stephan Krenn, Doryan Lesaignoux, Sebastian Ramacher
+**类别**: cs.CR
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30212v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Bayesian Approach to Membership Inference for Statistical Release
+**作者**: Lisa Oakley, Sam Stites, Cameron Moy, Steven Holtzen, Alina Oprea, Marco Gaboardi
+**类别**: cs.CR, cs.PL
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30203v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Token-Level Generalization in LoRA Adapter Backdoors: Attack Characterization and Behavioral Detection
+**作者**: Travis Lelle
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30189v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BioRefusalAudit: Auditing Biosecurity Refusal Depth Using General and Domain-Fine-Tuned Sparse Autoencoders
+**作者**: Caleb DeLeeuw
+**类别**: cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30162v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
