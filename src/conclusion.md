@@ -61589,3 +61589,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-05-31)
+
+### 软件工程 领域
+
+#### The Rise of the Software-Defined Vehicle: Architectures, Enabling Technologies, and Future Opportunities
+**作者**: Eirini Liotou, Dimitra Tzelalidou, Gerasimos Christodoulou
+**类别**: cs.ET, cs.SE
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30001v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agora: Toward Autonomous Bug Detection in Production-Level Consensus Protocols with LLM Agents
+**作者**: Xiang Liu, Sa Song, Zhaowei Zhang, Huiying Lan, Jason Zeng, Ming Wu, Michael Heinrich, Yong Sun, Ceyao Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.29910v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Claim against Measurement: Statistical Artefacts in Quantum Error Mitigation Benchmarks
+**作者**: Dominik Köster, Wolfgang Mauerer
+**类别**: quant-ph, cs.SE
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.29872v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TagDebt: A Bot to Support Technical Debt Management
+**作者**: João Paulo Biazotto, Daniel Feitosa, Paris Avgeriou, Elisa Yumi Nakagawa
+**类别**: cs.SE
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.29869v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Inferring Code Correctness from Specification
+**作者**: Tambon Florian, Papadakis Mike
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.29822v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels
+**作者**: Anthony Ayli, Khalil Harris, Jihad Fahs, Mohamad Assaad
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30123v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Reliable Are AI Attackers Against a Fixed Vulnerable Target? A 400-Run Empirical Study of LLM Penetration Testing Consistency
+**作者**: Galip Tolga Erdem
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30096v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Token Inflation: How Dishonest Providers Can Overcharge for Large Language Model Usage
+**作者**: Shahinul Hoque, Jinghuai Zhang, Jinyuan Sun, Fnu Suya
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.30040v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Fingerprinting Inference Systems of Large Language Models
+**作者**: Anna Wimbauer, Jonas Möller, Erik Imgrund, Konrad Rieck
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.29979v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Honeyval: A Comprehensive Evaluation Framework for LLM-powered HTTP Honeypots
+**作者**: Mark Vero, Fabian Kaczmarczyck, Ivan Petrov, Ilia Shumailov, Jamie Hayes, Niels Heinen, Tianqi Fan, Luca Invernizzi, Martin Vechev
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-05-28
+**链接**: http://arxiv.org/abs/2605.29963v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
