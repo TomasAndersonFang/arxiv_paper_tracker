@@ -61697,3 +61697,59 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-01)
+
+### 软件工程 领域
+
+#### Separating Secrets from Placeholders: A Hybrid CNN-CodeBERT Framework for Three-Class Credential Leakage Detection
+**作者**: Maksuda Bilkis Baby, Khushika Shah, Naiyue Liang, Lei Zhang
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-05-29
+**链接**: http://arxiv.org/abs/2605.31520v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Knowledge Boundary Probing and Demand-Guided Intervention for LLM-Based Power System Code Generation
+**作者**: Hui Wu, Xiaoyang Wang, Zhong Fan
+**类别**: cs.SE, cs.CL, eess.SY
+**发布日期**: 2026-05-29
+**链接**: http://arxiv.org/abs/2605.31478v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Ladder Logic Translation using Large Language Models in Industrial Automation
+**作者**: Oluwatosin Ogundare, Promise Ekpo, Nathanial Wiggins
+**类别**: cs.SE, eess.SY
+**发布日期**: 2026-05-29
+**链接**: http://arxiv.org/abs/2605.31458v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Governance-Aware Software Architecture for Multi-Stakeholder Platforms
+**作者**: Michael Nwankwo, Eric Umuhoza
+**类别**: cs.SE, cs.CY
+**发布日期**: 2026-05-29
+**链接**: http://arxiv.org/abs/2605.31316v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### R+R: Reassessing Java Security API Misuse in Current LLMs: A Replication on JCA and JSSE APIs with External Security Knowledge
+**作者**: Tianhe Lu, Eric Spero, Sakuna Harinda Jayasundara, Robert Biddle, Giovanni Russello
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-05-29
+**链接**: http://arxiv.org/abs/2605.31135v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
