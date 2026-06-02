@@ -61753,3 +61753,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-02)
+
+### 软件工程 领域
+
+#### Monitoring Agentic Systems Before They're Reliable
+**作者**: Marisa Ferrara Boston, Glen Hanson, Effi Georgala, JD Hudgens, Heather Frase
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02494v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Poking Around in the Dark: Why a Shared Understanding of Components Matters
+**作者**: Felix Reichmann, Wolfgang Krane, Alena Naiakshina, Martin Johns, Simon Koch
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02442v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Agentic Approach Towards Replication Package Quality Evaluation
+**作者**: Maximilian Alexander Amougou Mbida, Florian Angermeir
+**类别**: cs.SE
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02006v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Algorithmic algorithm development with LLMs: A Case Study on LLM-Usage for Contraction Order Optimization in Tensor Networks
+**作者**: Fabian Hoppe, Melven Röhrig-Zöllner, Philipp Knechtges
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.01975v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Trust-Calibrated Code Review: A Participatory Design Study of Review Workflows for LLM-Generated Multi-File Changes
+**作者**: Lo Gullstrand Heander, Agnia Sergeyuk, Ilya Zakharov, Emma Söderberg, Nikita Mukhortov
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.01969v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning
+**作者**: Farhin Farhad Riya, Olivera Kotevska, Jinyuan Stella Sun
+**类别**: cs.LG, cs.CR, cs.DC
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02563v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools
+**作者**: Bardia Mohammadi, Lars Klein, Akhil Arora, Laurent Bindschaedler
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02483v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Poking Around in the Dark: Why a Shared Understanding of Components Matters
+**作者**: Felix Reichmann, Wolfgang Krane, Alena Naiakshina, Martin Johns, Simon Koch
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02442v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Privacy-preserving Information Sharing in Oligopoly Competitions
+**作者**: Yuxin Liu, M. Amin Rahimian
+**类别**: econ.TH, cs.CR, cs.CY, cs.GT
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02348v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### I-(OT)^2: A Client-optimal Oblivious Transfer Protocol for IoT Devices
+**作者**: Elia Onofri, Andrea Ciccotelli, Roberto Di Pietro
+**类别**: cs.CR
+**发布日期**: 2026-06-01
+**链接**: http://arxiv.org/abs/2606.02344v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
