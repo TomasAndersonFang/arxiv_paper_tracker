@@ -61861,3 +61861,59 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-03)
+
+### 软件工程 领域
+
+#### The Impact of Configuring Agentic AI Coding Tools on Build-vs-Buy Decisions: A Study Protocol
+**作者**: Jai Lal Lulla, Matthias Galster, Jie M. Zhang, Sebastian Baltes, Christoph Treude
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2026-06-02
+**链接**: http://arxiv.org/abs/2606.03907v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Repair of Requirements for Cyber-Physical Systems in Simulink Requirements Tables
+**作者**: Aren A. Babikian, Alessio Di Sandro, Federico Formica, Claudio Menghi, Marsha Chechik
+**类别**: cs.SE
+**发布日期**: 2026-06-02
+**链接**: http://arxiv.org/abs/2606.03870v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FLARE: Fine-Grained Diagnostic Feedback for LLM Code Refinement
+**作者**: Yinsheng Yao, Hongxiang Zhang, Weixi Tong, Tianyi Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-02
+**链接**: http://arxiv.org/abs/2606.03852v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An AutomationML Domain Library for the Formalized Process Description
+**作者**: Hamied Nabizada, Rainer Drath, Felix Gehlhoff, Alexander Fay
+**类别**: cs.SE, cs.DB
+**发布日期**: 2026-06-02
+**链接**: http://arxiv.org/abs/2606.03691v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Generation and Evolution of Knowledge Models
+**作者**: Man Zhang, Tao Yue, Nazareno M. Aguirre, Diego Garbervetsky, Sebastian Uchitel
+**类别**: cs.SE
+**发布日期**: 2026-06-02
+**链接**: http://arxiv.org/abs/2606.03662v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
