@@ -61917,3 +61917,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-07)
+
+### 软件工程 领域
+
+#### Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution
+**作者**: Liliana Hotsko, Yinxi Li, Yuntian Deng, Pengyu Nie
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06492v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Scaffold, Not Vocabulary? A Controlled, Two-Tier, Pre-Registered Study of a Popperian Code-Generation Skill
+**作者**: Mehmet Iscan
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06454v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws
+**作者**: Mengzhuo Chen, Junjie Wang, Zhe Liu, Yawen Wang, Qing Wang
+**类别**: cs.SE, cs.MA
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06324v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Tangram: Unlocking Non-Uniform KV Cache for Efficient Multi-turn LLM Serving
+**作者**: Hyungmin Kim, Minsoo Kim, Hongseok Kim, Jungwook Choi
+**类别**: cs.LG, cs.SE
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06302v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### More than a Judge: An Empirical Study of Agent-Human Interaction in Crowdsourced Testing Assessment
+**作者**: Yue Wang, Yuan Zhao, Shengcheng Yu, Zhenyu Chen, Qing Gu
+**类别**: cs.SE
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06301v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Will the Agent Recuse Itself? Measuring LLM-Agent Compliance with In-Band Access-Deny Signals
+**作者**: Thamilvendhan Munirathinam
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06460v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### WebMCP Tool Surface Poisoning: Runtime Manipulation Attacks on LLM Agents
+**作者**: Lin-Fa Lee, Yi-Yu Chang, Chia-Mu Yu, Kuo-Hui Yeh
+**类别**: cs.CR
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06387v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Credential Disclosure in (EU) Digital Identity Wallets: Privacy Risks and Practical Mitigations
+**作者**: Sheila Zingg, Daniele Lain, Yoshimichi Nakatsuka, Kari Kostiainen, Stefan Bechtold, Srdjan Čapkun
+**类别**: cs.CR
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06354v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Robust Ensemble of Selectively Strengthened and Augmented Predictors
+**作者**: Parsa Memarzadehsaghezi, Zahra Hashemi, Pooria Madani, Mehran Ebrahimi
+**类别**: cs.CR
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06265v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SecRL-Prune: Structured Reinforcement Learning-Based Pruning of CodeLLMs for Preserving Adversarial Code Mutation
+**作者**: Parsa Memarzadehsaghezi, Pooria Madani, Khalil El-Khatib
+**类别**: cs.CR
+**发布日期**: 2026-06-04
+**链接**: http://arxiv.org/abs/2606.06254v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
