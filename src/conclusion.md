@@ -62025,3 +62025,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-08)
+
+### 软件工程 领域
+
+#### Twelve quick tips for designing AI-driven HPC workflows
+**作者**: Jamie J. Alnasir
+**类别**: cs.DC, cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07491v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Very Much! Adoption of Coding Agent in New GitHub Projects
+**作者**: Romain Robbes, Théo Matricon, Thomas Degueule, Andre Hora, Stefano Zacchiroli
+**类别**: cs.SE
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07448v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability
+**作者**: Chaitanya Shinde, Hadi Hajieghrary, Paul Schmitt, Adam Shoemaker, Bodo Seifert, Steve Kenner
+**类别**: cs.RO, cs.AI, cs.HC, cs.SE, eess.SY
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07437v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills
+**作者**: Chuan Xiao, Zhengbo Jiao, Shaobo Wang, Wei Wang, Bing Zhao, Hu Wei, Linfeng Zhang, Lin Qu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07412v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Verifiable and Confidential DNN Inference on Low-End Edge Devices
+**作者**: Mohamed Khalil Kiri, Ivan De Oliveira Nunes, Aurélien Francillon, Norrathep Rattanavipanon
+**类别**: cs.CR
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07470v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Sort, Partition, Randomize: Optimal Binary Hypothesis Testing under Local Differential Privacy
+**作者**: Elena Ghazi, Jawad Nasser, Flavio Calmon, Ibrahim Issa
+**类别**: cs.IT, cs.CR
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07443v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Lost in Migration: Exposing Android Framework Vulnerabilities in Parallel Java-Kotlin Implementations
+**作者**: Rui Li, Wenrui Diao, Debin Gao
+**类别**: cs.CR
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07420v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An End-to-End Encrypted Control Pipeline for Multi-Agent Coordination via CKKS Homomorphic Encryption
+**作者**: Sai Sandeep Damera, Maria Charitidou, Asim Zoulkarni, John S. Baras
+**类别**: eess.SY, cs.CR
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07375v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Shoulders of Giants: Empowering Automated Smart Contract Auditing via the GiAnt Corpus
+**作者**: Xiaoting Zhang, Zhipeng Gao, Yiran Lv, Xing Hu, Feifei Niu, Xin Xia
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-06-05
+**链接**: http://arxiv.org/abs/2606.07363v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
