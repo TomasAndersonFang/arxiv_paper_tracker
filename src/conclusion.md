@@ -62123,3 +62123,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-09)
+
+### 软件工程 领域
+
+#### FASE: Fast Adaptive Semantic Entropy for Code Quality
+**作者**: Shizhe Lin, Ladan Tahvildari
+**类别**: cs.SE, cs.AI, cs.MA
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09800v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Modeling Components and Connections in Cyber-Physical Systems
+**作者**: Kate Sanborn, Tanuj Kenchannavar, Vakul Nath, Jonathan Sprinkle
+**类别**: cs.RO, cs.PL, cs.SE
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09645v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Persona Generation with Critique-Refinement: An Industrial Evaluation
+**作者**: Mohammad Hossein Amini, David Dewar, Shiva Nejati, Mehrdad Sabetzadeh
+**类别**: cs.SE
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09637v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Code Is More Than Text: Uncertainty Estimation for Code Generation
+**作者**: Yuling Shi, Caiqi Zhang, Yuexian Li, Haopeng Wang, Yeheng Chen, Nigel Collier, Xiaodong Gu
+**类别**: cs.CL, cs.LG, cs.SE
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09577v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Relocate and Emulate: Re-Hosting Android's Application Layer
+**作者**: Thomas Sutter, Timo Kehrer, Bernhard Tellenbach, Marc Rennhard
+**类别**: cs.SE
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09528v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets
+**作者**: Antonio Scala
+**类别**: cs.CY, cs.CR, cs.SI
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09754v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Bell-State Extension of Loop-Back Quantum Key Distribution
+**作者**: Luis Adrián Lizama-Pérez
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09723v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks
+**作者**: Qin Yang, Lu Malloy, Joshua Lee, Xiaohan Chang, Meisam Mohammady, Doowon Kim, Yuan Hong
+**类别**: cs.CR, cs.HC, cs.LG
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09700v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Observability for Delegated Execution in Agentic AI Systems
+**作者**: Abhinav Mishra, Kumar Sharad
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09692v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries
+**作者**: Ian C. Moore, Fernando Paredes Garcia
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-06-08
+**链接**: http://arxiv.org/abs/2606.09593v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
