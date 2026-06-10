@@ -62231,3 +62231,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-10)
+
+### 软件工程 领域
+
+#### Operationalizing Property-Based Testing for Data-Intensive Scalable Computing Systems
+**作者**: Yaoxuan Wu, Ingrid Lee, Ahmad Humayun, Muhammad Ali Gulzar, Miryung Kim
+**类别**: cs.SE
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11132v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Making Software Meaningful
+**作者**: Eagon Meng, Abutalib Namazov, Carmel Schare, Alcino Cunha, Daniel Jackson
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11051v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GapFuzz: Cross-Plane Divergence Fuzzing for Distributed SDN Controllers
+**作者**: Moustapha Awwalou Diouf, Samuel Ouya, Jacques Klein, Tegawendé F. Bissyandé
+**类别**: cs.SE
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11035v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Understanding and mitigating the risks of OpenClaw for non-technical users: A practical guide with Skill
+**作者**: Junchang Zheng, Junfeng Tan, Jialiang Lin
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11007v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Context-Based Adversarial Attacks on AI Code Generators: Vulnerability Analysis and Implications
+**作者**: Walther A. Del Orbe, John D. Hastings, Varghese Vaidyan
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.10945v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Anchors that Don't Lift: Understanding Supply Chain Driven Kernel Lock-In and Governance-Mediated Mitigation Strategies in SOHO Devices
+**作者**: Ritwik Badola, Rajdeep Ghosh, Ashita Gupta, Chester Rebeiro, Mainack Mondal
+**类别**: cs.CR
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11175v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OpenPCC: Open and Confidential LLM Serving on Commodity TEEs
+**作者**: Haoling Zhou, Shixuan Zhao, Chao Wang, Zhiqiang Lin
+**类别**: cs.CR
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11145v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Longitudinal Study of Recently Observed Malicious Domains: Characteristics, Infrastructure, and Abuse Patterns
+**作者**: Fathima Mashood, Mohamed Nabeel
+**类别**: cs.CR
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11111v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do Transformers Actually Help Intrusion Detection? A Temporal Sequence Evaluation on CIC-IDS2017
+**作者**: Zach Moczkodan, Hany Ragab
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11098v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When Discovery Outpaces Remediation: Modeling AI-Accelerated Vulnerability Discovery in Interconnected Systems
+**作者**: Mohamamad Reza Faghani
+**类别**: cs.CR
+**发布日期**: 2026-06-09
+**链接**: http://arxiv.org/abs/2606.11022v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
