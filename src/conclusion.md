@@ -62339,3 +62339,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-11)
+
+### 软件工程 领域
+
+#### A Five-Plane Reference Architecture for Runtime Governance of Production AI Agents
+**作者**: Krti Tallam
+**类别**: cs.AI, cs.CC, cs.CR, cs.SE
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12320v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Rule Taxonomy and Evolution in AI IDEs: A Mining and Survey Study
+**作者**: Guangzong Cai, Ruiyin Li, Peng Liang, Zengyang Li, Mojtaba Shahin
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12231v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mind your key: An Empirical Study of LLM API Credential Leakage in iOS Apps
+**作者**: Pinran Gao, Lingxiang Wang, Ying Zhang, Fan Yang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12212v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Undefined Behavior in C and C++: An Experiment With Desktop Use Cases
+**作者**: Jukka Ruohonen, Krzysztof Sierszecki
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12064v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Exploration Structure in LLM Agents for Multi-File Change Localization
+**作者**: Akeela Darryl Fattha, Kia Ying Chua, Lingxiao Jiang, Laura Wynter
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.11976v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### ECYSAP EYE: From Cyber Situational Awareness to Mission-Centric Decision Support for Enhanced Cyberspace Operations
+**作者**: Pantaleone Nespoli, Daniel Díaz-López, Sergio Lopez Bernal, Francisco Oliva Bermejo, Pedro González Megías, Jorge Maestre Vidal, Víctor Sobrino García, Gregorio Martínez Pérez
+**类别**: cs.CR
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12354v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OCELOT: Inference-Leakage Budgets for Privacy-Preserving LLM Agents
+**作者**: Jin Xie, Songze Li
+**类别**: cs.CR
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12341v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Five-Plane Reference Architecture for Runtime Governance of Production AI Agents
+**作者**: Krti Tallam
+**类别**: cs.AI, cs.CC, cs.CR, cs.SE
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12320v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Selection Integrity for LLM Graph Memory: An Accumulability Criterion for Information-Flow-Blind Retrieval
+**作者**: Zeming Fei, Hongming Fei, Xiaoyang Wang, Yang yang, Prosanta Gope, Biplab Sikdar, Ying Zhang
+**类别**: cs.CR
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12290v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
