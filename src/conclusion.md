@@ -62525,3 +62525,91 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-13)
+
+### 软件工程 领域
+
+#### ComAct: Reframing Professional Software Manipulation via COM-as-Action Paradigm
+**作者**: Jiaxin Ai, Tao Hu, Xuemeng Yang, Shu Zou, Hairong Zhang, Daocheng Fu, Yu Yang, Hongbin Zhou, Nianchen Deng, Pinlong Cai, Zhongyuan Wang, Botian Shi, Kaipeng Zhang, Licheng Wen
+**类别**: cs.SE, cs.AI, cs.CL, cs.CV
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13239v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### DIG: Oracle-Guided Directed Input Generation for One-Day Vulnerabilities
+**作者**: Andrew Bao, Haochen Zeng, Peng Chen, Stephen McCamant, Pen-Chung Yew
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13037v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Rise of AI-Native Software Engineering: Implications for Practice, Education, and the Future Workforce
+**作者**: Mamdouh Alenezi
+**类别**: cs.SE
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.12986v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming
+**作者**: Tingqiang Xu, Hangrui Zhou, Tianle Cai, Alex Gu, Kaifeng Lyu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.12864v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### An Assessment Framework for Application-Level Cryptographic Agility
+**作者**: Navaneeth Rameshan, Gregoire Messmer
+**类别**: cs.CR
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13425v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents
+**作者**: Zihao Wang, Yiming Li, Yutong Wu, Zheyu Liu, Kangjie Chen, Fok Kar Wai, Pin-Yu Chen, Vrizlynn L. L. Thing, Bo Li, Dacheng Tao, Tianwei Zhang
+**类别**: cs.CR, cs.AI, cs.CY, cs.HC, cs.MM
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13385v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Split Tallies: A Discrete Certificate Calculus for Auditing Dynamic Ordered Sets in Constant Memory
+**作者**: Faruk Alpay, Levent Sarioglu
+**类别**: cs.DS, cs.CR
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13272v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems
+**作者**: Jiaqi Luo, Jiarun Dai, Zhile Chen, Jia Xu, Weibing Wang, Yawen Duan, Brian Tse, Geng Hong, Xudong Pan, Yuan Zhang, Min Yang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13079v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
