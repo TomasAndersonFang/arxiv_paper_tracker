@@ -62613,3 +62613,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-14)
+
+### 软件工程 领域
+
+#### HybridCodeAuthorship: A Benchmark Dataset for Line-Level Code Authorship Detection
+**作者**: Luke Patterson, Li Wang, Adam Faulkner
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12620v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Characterizing Tests in IoT Software: Practices, Challenges and Opportunities
+**作者**: Rufeng Chen, Hengcheng Zhu, Wuqi Zhang, Zixu Zhou, Lili Wei
+**类别**: cs.SE
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.12592v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Characterizing Software Aging in GPU-Based LLM Serving Systems
+**作者**: Domenico Cotroneo, Bojan Cukic
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.11916v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production
+**作者**: Marc Alier Forment, Juanan Pereira, Francisco José García-Peñalvo, María José Casañ Guerrero
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.11869v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Enhancing LLM-Based Code Translation with Verified Multi-Semantic Representations
+**作者**: Yufu Wang, He Jiang, Hao Lin, Peiyu Zou, Ang Jia, Xiaochen Li, Zhilei Ren
+**类别**: cs.SE
+**发布日期**: 2026-06-10
+**链接**: http://arxiv.org/abs/2606.11863v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### The Invisible Ink of the Android Malware World: A Longitudinal Study on the Usage of Covert Communication Channels
+**作者**: Zeya Umayya, Manan Aggarwal, Manan Chugh, Mann Nariya, Yogesh Kaushik, Sambuddho Chakravarty
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.13107v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models
+**作者**: Jianwei Fei, Yunshu Dai, Zhihua Xia, Xiaochun Cao, Jiantao Zhou, Alessandro Piva, Benedetta Tondi
+**类别**: cs.CV, cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.12977v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ViPER: Vision-based Packing-Aware Encoder for Robust Malware Detection
+**作者**: Fatima Qaiser, Bisma Tahir, Muhammad Abid Mughal, Nauman Shamim
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.12949v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems
+**作者**: Chejian Xu, Zhaorun Chen, Jingyang Zhang, Freddy Lecue, Avni Kothari, Sarah Tan, Wenbo Guo, Bo Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-11
+**链接**: http://arxiv.org/abs/2606.12918v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
