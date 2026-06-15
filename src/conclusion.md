@@ -62711,3 +62711,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-15)
+
+### 软件工程 领域
+
+#### Quasilinear Equivalence Checking for Detector Error Models
+**作者**: Mathys Rennela
+**类别**: quant-ph, cs.LO, cs.PL, cs.SE, math.CT
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14677v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Teaching Machine Learning to Software Engineers
+**作者**: Nafiseh Kahani, Jason Jaskolka
+**类别**: cs.SE
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14618v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GitHub Template Repositories: Served Domains, Maintenance, and Practitioner Guidelines
+**作者**: Leuson Da Silva, Altaf Allah Abbassi, Imen Trabelsi, Paulo Borba, Foutse Khomh
+**类别**: cs.SE
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14616v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Empowering Student Debugging in Parallel Programming with Execution Traces and Large Language Models
+**作者**: God'salvation F. Oguibe, Vinodh Kumaran Jayakumar, Tongping Liu, Andrew Lan, Wei Wang
+**类别**: cs.SE, cs.DC
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14607v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Regulating the Machine Contributor: Governance and Policy Alignment in Open Source
+**作者**: Jassem Manita, Aziz Amari
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14594v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### When Good Verifiers Go Bad: Self-Improving VLMs Can Regress on New Tasks
+**作者**: Jianzhe Lin
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14629v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Security Threats and Their Impact on Blockchain Interoperability: Identification and Countermeasures
+**作者**: Shawn M. Reynolds, Hassan Reza
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14554v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detecting Bot Detection: Prevalence, Techniques, and Implications for Web Measurement Research
+**作者**: Ralf Gundelach, Michael Mühlhauser, Dominik Herrmann
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14525v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails
+**作者**: Yuguang Zhou, Xunguang Wang, Pingchuan Ma, Zhantong Xue, Zhaoyu Wang, Shuai Wang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14517v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Securing the Future of IoMT in the Post-Quantum Era: An Edge-Native Federated Learning Approach
+**作者**: Taym Alshoghri, Deemah H. Tashman, Mohammad Reza Gerami, Soumaya Cherkaoui
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-12
+**链接**: http://arxiv.org/abs/2606.14515v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
