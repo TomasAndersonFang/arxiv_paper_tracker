@@ -62819,3 +62819,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-16)
+
+### 软件工程 领域
+
+#### Selection Without Signal, Recovery Through Expression: A Measurement Study of Post-Hoc Falsification Operators for Frozen Small Code Models
+**作者**: Mehmet Iscan
+**类别**: cs.SE, cs.CL, cs.LG
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16999v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agent trajectories as programs: fingerprinting and programming coding-agent behavior
+**作者**: Hamidah Oderinwale
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16988v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Many Shots Are Enough for a Quantum Circuit?
+**作者**: Giuseppe Bisicchia, Alessandro Bocci, Ernesto Pimentel, Antonio Brogi
+**类别**: quant-ph, cs.ET, cs.SE
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16965v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Neuro-Symbolic Software Verification: Hyper-charging Local Language Models with Symbolic Reasoning at Scale
+**作者**: Muhammad A. A. Pirzada, Julian Parsert, Weiqi Wang, Konstantin Korovin, Lucas C. Cordeiro
+**类别**: cs.SE
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16886v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Models: Reflections on Engineering AI-enabled Systems in a Project-Based Course
+**作者**: Amir Mashmool, Kishan Ravindra Sawant, Mojtaba Shahin, Nico Hochgeschwender, Rainer Koschke
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16842v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning
+**作者**: Xiaolin Li, Ning Wang, Ninghui Li, Wenhai Sun
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.17035v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Di5Guise: 5G Privacy with vSIM
+**作者**: Shirin Ebadi, Zach Moolman, Eric Keller, Tamara Lehman
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16943v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Ghosts of Polymarket: When Off-Chain Matches Meet On-Chain Reverts
+**作者**: Yiming Shen, Yuhan Jin, Shuohan Wu, Yanlin Wang, Jiachi Chen
+**类别**: cs.CR
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16852v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Much Can We Trust LLM Search Agents? Measuring Endorsement Vulnerability to Web Content Manipulation
+**作者**: Yimeng Chen, Zhe Ren, Firas Laakom, Yu Li, Dandan Guo, Jürgen Schmidhuber
+**类别**: cs.CL, cs.CR, cs.CY, cs.IR
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16821v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cross-Silo De-Anonymization Under Local Differential Privacy: Threat Model, Phase Transition, and Coordination Necessity
+**作者**: Ziniu Liu, Aiping Li
+**类别**: cs.CR, cs.IT, cs.LG
+**发布日期**: 2026-06-15
+**链接**: http://arxiv.org/abs/2606.16763v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
