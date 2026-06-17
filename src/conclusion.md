@@ -62927,3 +62927,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-17)
+
+### 软件工程 领域
+
+#### All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code
+**作者**: Dipayan Banik, Kowshik Chowdhury, Shazibul Islam Shamim
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.18168v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Planning to Hammer: Difficulty-Aware Decomposition for Automating Rocq Proofs
+**作者**: Ning Zhang, Nongyu Di, Zenan Li, Yuan Yao, Xiaoxing Ma
+**类别**: cs.SE
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.17981v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Trustworthy Self-Composable Big-Data-as-a-Service: An LLM-Orchestrated Multi-Agent Framework for Automated Data Engineering, AutoML, MLOps Deployment, and Drift-Aware Lifecycle Optimization
+**作者**: Aueaphum Aueawatthanaphisut, Badri Raj Lamichhane
+**类别**: cs.MA, cs.AI, cs.DB, cs.SE
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.17915v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Framework for Evaluating Agentic Skills at Scale
+**作者**: Maksim Shaposhnikov, Nicolas Fortuin, Simon Stipcich, Maria I. Gorinova, Amy Heineike, Rob Willoughby
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.17819v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Position: Coding Benchmarks Are Misaligned with Agentic Software Engineering
+**作者**: Maria I. Gorinova, Macey Baker, Amy Heineike, Maksim Shaposhnikov, Rob Willoughby, Dru Knox
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.17799v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Learning Red Agent Policy from Observations for Neurosymbolic Autonomous Cyber Agents
+**作者**: Ankita Samaddar, Sandeep Neema, Daniel Balasubramanian, Xenofon Koutsoukos
+**类别**: cs.CR, cs.AI, cs.LG, eess.SY
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.18223v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Gatling: Rapid-Fire Consensus from Parallel Composition
+**作者**: Giulia Scaffino, Max Resnick, Joachim Neu
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.18220v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Seeing Is Not Screening: Multimodal Hidden Instruction Attacks on Agent Skill Scanners
+**作者**: Xiaojun Jia, Jie Liao, Simeng Qin, Ke Ma, Wenbo Guo, Yebo Feng, Aishan Liu, Yang Liu
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.18198v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models
+**作者**: Nicola Franco
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.18193v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multi-Source Cybersecurity Logs: An ATT&CK-Labeled Dataset and SLM Evaluation
+**作者**: Abir Ashab Niloy, Ahmed Ryan, Imamul Hossain Rafi, Md Erfan, Md Rayhanur Rahman
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-06-16
+**链接**: http://arxiv.org/abs/2606.18190v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
