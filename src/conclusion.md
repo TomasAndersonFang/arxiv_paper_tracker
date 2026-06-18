@@ -63035,3 +63035,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-18)
+
+### 软件工程 领域
+
+#### Runtime Compliance Verification for AI Agents
+**作者**: Nafiseh Kahani, Masoud Barati, Diana Addae
+**类别**: cs.SE
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19242v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### No Two Developers Think Alike: How Problem-Solving Styles and Experience Shape Needs in Conversational Interaction with Copilot
+**作者**: Jonan Richards, Bruno Alves de Oliveira, Iury Oliveira, Igor Wiese, Mairieli Wessel
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19216v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Teaching Software Engineering with LLM and MCP Integration: From Classroom to Industry Practice
+**作者**: Kehui Chen, Jacky Keung, Weining Li, Xiangbing Shao, Yishu Li, Xiaoxue Ma
+**类别**: cs.SE
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19167v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Written by AI, Managed by AI: Semantic Space Control and Index Sickness Elimination Across 391 Consecutive Sessions
+**作者**: Hui Zhang, Shuren Song
+**类别**: cs.SE, cs.CL, cs.HC
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19121v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Where Did the Variability Go? From Vibe Coding to Product Lines by Regeneration
+**作者**: Xhevahire Tërnava
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19042v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### CodeSentinel: A Three-Layer Defense Against Indirect Prompt Injection in Code Contexts
+**作者**: Po-Han Cheng, Chia-Mu Yu, Ying-Dar Lin, Yu-Sung Wu, Wei-Bin Lee
+**类别**: cs.CR
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19235v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PhantomSkill: Malicious Code Injection in Agent Skill Ecosystems
+**作者**: Yu-Ting Lin, Chia-Mu Yu
+**类别**: cs.CR
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19191v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### OpenAnt: LLM-Powered Vulnerability Discovery Through Code Decomposition, Adversarial Verification, and Dynamic Testing
+**作者**: Nahum Korda, Gadi Evron
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19149v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Giskard : Byzantine Robust and Confidential Aggregation for Large-Scale Decentralized Learning
+**作者**: Ousmane Touat, César Sabater, Mohamed Maouche, Sonia Ben Mokhtar
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19129v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Quantifying Compromise Risk in Exceptional Access Architectures Under Sparse and Indirect Evidence
+**作者**: Alan Woodward
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-06-17
+**链接**: http://arxiv.org/abs/2606.19106v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
