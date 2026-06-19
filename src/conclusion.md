@@ -63143,3 +63143,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-19)
+
+### 软件工程 领域
+
+#### Probe-and-Refine Tuning of Repository Guidance for Coding Agents
+**作者**: Asa Shepard, Jeannie Albrecht
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20512v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Calibration Without Comprehension: Diagnosing the Limits of Fine-Tuning LLMs for Vulnerability Detection in Systems Software
+**作者**: Arastoo Zibaeirad, Marco Vieira
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20502v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Image Encryption Algorithm Based on Convolutional Neural Networks and Dynamic S-Box Generation
+**作者**: Ans Ibrahim, Fadhil Abbas Fadhil, Mahameed Reza Feizi Derakhshi, Maryam Mahdi Alhusseini, Nikolai Safiullin
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20444v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AutoPass: Evidence-Guided LLM Agents for Compiler Performance Tuning
+**作者**: Zepeng Li, Jie Ren, Zhanyong Tang, Jie Zheng, Zheng Wang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20373v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Model-Driven Approach for Developing Families of Reinforcement Learning Environments
+**作者**: Xiaoran Liu, Istvan David
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20324v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### From Efficiency to Leakage -- Privacy Backdoor in Federated Language Model Fine-Tuning
+**作者**: Shanghao Shi, Chaoyu Zhang, Heng Jin, Yang Xiao, Yevgeniy Vorobeychik, William Yeoh, Ning Zhang, Y. Thomas Hou, Wenjing Lou
+**类别**: cs.CR
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20553v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes
+**作者**: Jun He, Deying Yu
+**类别**: cs.CR, cs.AI, cs.DC, cs.LG
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20520v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Efficient and Sound Probabilistic Verification for AI Agents
+**作者**: Alaia Solko-Breslin, Pramod Kaushik Mudrakarta, Mihai Christodorescu, Somesh Jha, Krishnamurthy Dj Dvijotham
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20510v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Calibration Without Comprehension: Diagnosing the Limits of Fine-Tuning LLMs for Vulnerability Detection in Systems Software
+**作者**: Arastoo Zibaeirad, Marco Vieira
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20502v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A-COMPASS: Formal Foundations for Anonymity Analysis in Microdata
+**作者**: Tamara Tagliavia, Silvia Ghilezan
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20492v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
