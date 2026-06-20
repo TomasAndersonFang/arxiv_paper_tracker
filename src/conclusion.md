@@ -63251,3 +63251,61 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-20)
+
+### 软件工程 领域
+
+#### Phoenix: Safe GitHub Issue Resolution via Multi-Agent LLMs
+**作者**: Kipngeno Koech, Muhammad Adam, Baimam Boukar Jean Jacques, Joao Barros
+**类别**: cs.SE, cs.MA
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20243v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### SysML Modeling of Digital Twins for Renewable Energy Communities
+**作者**: Mohammad Samadi, Luís Miguel Pinho, Andrey Sadovykh, Gabriela Lucas
+**类别**: cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20230v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### QMFOL: Benchmarking Large Language Model Reasoning via Quantifiable Monadic First-Order Logic Test Case Generation
+**作者**: Xinyi Zheng, Ling Shi, Tianlong Yu, Yongxin Zhao, Lorenz Goette, Kailong Wang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20227v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems
+**作者**: Reza Soosahabi, Vivek Namsani
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20470v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Multi-View Decompilation for LLM-Based Malware Classification
+**作者**: Bercan Turkmen, Vyas Raina
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20436v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
