@@ -63309,3 +63309,51 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-21)
+
+### 软件工程 领域
+
+#### Token-Operations-Oriented Inference Optimization Techniques for Large Models
+**作者**: Shiguo Lian, Kai Wang, Zhaoxiang Liu, Wen Liu, Minjie Hua, Yutong Liu, Jiangze Yan, Xin Wang, Cong Wang, Yilin Zhang, Yi Shen, Jieyun Huang, Fang Zhao, Huanlin Gao, Ping Chen, Xinyu Yang, Kaikai Zhao, Yao Zhao, Xinggang Wang, Huishuai Zhang, Dongyan Zhao, Junping Du, Tao Chen, Xiang Gao, Qinghuai Ma
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20295v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### N-Version Programming with Coding Agents
+**作者**: Javier Ron, Benoit Baudry, Martin Monperrus
+**类别**: cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20158v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Correctness Illusion in LLM-Generated GPU Kernels
+**作者**: Dipankar Sarkar
+**类别**: cs.SE, cs.DC, cs.LG
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20128v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems
+**作者**: Hanwool Lee, Dasol Choi, Bokyeong Kim, Seung Geun Kim, Haon Park
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20408v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
