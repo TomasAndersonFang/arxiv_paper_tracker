@@ -63357,3 +63357,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-22)
+
+### 软件工程 领域
+
+#### Qiskit Code Migration with LLMs
+**作者**: Jose Manuel Suarez, Luis Mariano Bibbo, Joaquin Bogado, Alenandro Fernandez
+**类别**: cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20173v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### When Lower Privileges Suffice: Investigating Over-Privileged Tool Selection in LLM Agents
+**作者**: Kaiyue Yang, Yuyan Bu, Jingwei Yi, Yuchi Wang, Biyu Zhou, Juntao Dai, Songlin Hu, Yaodong Yang
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20023v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Beyond Static Endpoints: Tool Programs as an Interface for Flexible Agentic Web Services
+**作者**: Mugeng Liu, Shuoqi Li, Yixuan Zhang, Yun Ma
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.19992v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Repository-Level Solidity Code Generation with Large Language Models: From Prompting to Fine-Tuning
+**作者**: Shi Chen, Rongcun Wang, Yuan Tian, Xiaoyuan Xie, Wei Song, Rubing Huang
+**类别**: cs.SE
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.19988v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### bioETH-Beacon: A Confidential On-Chain Genomic Beacon with Encrypted Counts, Filters, and Bounded Noise over a Fully Homomorphic EVM
+**作者**: Christos Galanopoulos, Kimon Antonios Provatas, Ilias Georgakopoulos-Soares
+**类别**: q-bio.GN, cs.CR
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20315v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Quantization as a Malicious Task: Removing Quantization-Conditioned Backdoors via Task Arithmetic
+**作者**: Kaihsun Yang, Min-Yan Tsai, Chia-Mu Yu
+**类别**: cs.CR
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20254v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TrustMix: How to Mix Messages in a Mobile Ad-hoc Network
+**作者**: Yu Shen, Aiswarya Walter, Stefanie Roos
+**类别**: cs.CR
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20251v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GNSS Spoofing Threat for V2X communications
+**作者**: Adolfo P. Jimenez, Juan Arquero-Gallego, Mario P. Luna, Jose E. Naranjo, Felipe Jimenez Alonso
+**类别**: cs.CR
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20215v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Accelerating Trust Convergence in IIoT: A ML Approach for Dynamic Network Conditions
+**作者**: Aymen Bouferroum, Valeria Loscri, Abderrahim Benslimane
+**类别**: cs.CR
+**发布日期**: 2026-06-18
+**链接**: http://arxiv.org/abs/2606.20214v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
