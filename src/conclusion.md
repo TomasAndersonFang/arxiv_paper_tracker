@@ -63455,3 +63455,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-23)
+
+### 软件工程 领域
+
+#### EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions
+**作者**: Jincheng Zhong, Weizhi Wang, Che Jiang, Kai Tian, Zhenzhao Yuan, Junlin Yang, Dianqiao Lei, Kaiyan Zhang
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23654v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Causal Discovery in the Era of Agents
+**作者**: Yujia Zheng, Vishal Verma, Mantej Gill, Haoyue Dai, Peter Spirtes, Kun Zhang
+**类别**: cs.AI, cs.LG, cs.SE, stat.AP
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23608v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AwakeForest: An Interactive Geospatial Platform for Large-Scale Forest Imagery
+**作者**: Suraj Prasai, Kangning Cui, Rongkun Zhu, Sarra Alqahtani, Ying Zhang, Victor Paul Pauca, Miles R. Silman, Fan Yang
+**类别**: cs.CV, cs.SE
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23542v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Composition: Building Community with Arts, Math, and Code (Experience Report)
+**作者**: Isidore Mohr, Claire Wang
+**类别**: cs.MM, cs.SE
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23526v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Source-Free Detection and Impact Analysis of Compiler Optimization Problems in Mobile Applications
+**作者**: Han Hu, Xiaoheng Xie, Bo Sun, Jian Gu, Gang Fan, Li Li
+**类别**: cs.SE
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23512v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### A quantum algorithm for one-shot signatures
+**作者**: Gopikrishnan Muraleedharan, Minh Thuy Truc Pham, Vir Pathak, Thomas Gardner, Chuanqi Zhang, QPerfect, Gavin K. Brennen
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23612v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Optimal Small Set Expanders and Their Codes
+**作者**: Tristram Bogart, Marcelo Fiori, Pedro Raigorodsky, Mauricio Velasco
+**类别**: math.CO, cs.CR, cs.IT
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23579v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Watermark for Vision-Language-Action and World Action Models
+**作者**: Yule Liu, Shuai Liu, Jiaheng Wei, Xinlei He
+**类别**: cs.CR, cs.RO
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23574v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### TROPT: An Open Framework for Unifying and Advancing Discrete Text Optimization
+**作者**: Matan Ben-Tov, Mahmood Sharif
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23496v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### An Automated Framework for Input Alphabet Construction in Stateful Protocol Implementation Learning
+**作者**: JiongHan Wang, WenChao Huang
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-22
+**链接**: http://arxiv.org/abs/2606.23464v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
