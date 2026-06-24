@@ -63563,3 +63563,101 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-24)
+
+### 软件工程 领域
+
+#### Two-Level vs. Multi-Level Modelling: An Empirical Study of Cascading Maintenance Burden
+**作者**: Yuhong Fu, Weixing Zhang, Bowen Jiang, Haowei Cheng, Georg Grossmann, Karamjit Kaur, Matt Selway, Markus Stumptner
+**类别**: cs.SE
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24721v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Bit-Precise Conformance Testing of Simulink Model Checkers
+**作者**: Daisuke Ishii, Takashi Tomita, Toshiaki Aoki, Hideaki Takai
+**类别**: cs.SE
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24719v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach
+**作者**: Duc S. H. Nguyen, Minh T. Nguyen, Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio
+**类别**: cs.SE
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24689v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Agentic Generation of AST Transformation Rules for Fixing Breaking Updates
+**作者**: Frank Reyes, Benoit Baudry, Martin Monperrus
+**类别**: cs.SE
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24446v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### HelpBench: Assessing the Ability of LLMs to Provide Privacy, Safety, and Security Advice
+**作者**: Sarah Meiklejohn, Sunny Consolvo, Patrick Gage Kelley, Tara Matthews, Sai Teja Peddinti, Renee Shelby, Lenin Simicich, Kurt Thomas
+**类别**: cs.CR
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24819v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Burnyard: Future of Malware Analysis
+**作者**: Rama Ramana Sharma Parnandi, Carter Yagemann
+**类别**: cs.CR
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24778v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Limits of Stretching Quantum Pseudorandomness
+**作者**: Boyang Chen, Andrea Coladangelo, Yao-Ting Lin, Nikos Skoumios, Justin Tysdal, Yiming Wang
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24736v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PowerFuzz: Power-Based Black-Box Firmware Fuzzing
+**作者**: Dakshina Tharindu, Sahan Sanjaya, Philip Baptist, Prabhat Mishra
+**类别**: cs.CR
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24692v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### FirmCure:Towards Autonomous and Adaptive Rehosting of Linux-Based Firmware
+**作者**: Chuan Hong, Zheng Zhang, Lei Zhou, Laisong Li, Chenyifan Liu, Ze Huang, Xu Zhou, Peihong Lin
+**类别**: cs.CR
+**发布日期**: 2026-06-23
+**链接**: http://arxiv.org/abs/2606.24549v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
