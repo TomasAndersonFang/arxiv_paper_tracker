@@ -63661,3 +63661,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-25)
+
+### 软件工程 领域
+
+#### Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study
+**作者**: Giulian Biolo, Michael Tezza, Yuanjun Gong, Fabio Massacci
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.25973v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Dependency Black Hole
+**作者**: Ehsan Zabardast, Bhuwan Paudel, Javier Gonzalez-Huerta
+**类别**: cs.SE
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.25949v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Web4 Agent Economy: A Large-Scale Empirical Study of the Landscape, Challenges, and Opportunities
+**作者**: Yuhan Jin, Shuohan Wu, Chong Chen, Lingfeng Bao, Xiaohu Yang, Jiachi Chen
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.25876v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### LLM-Based Discovery of Latent Requirements from Stakeholder Conversations: Preliminary Results from Industry
+**作者**: Mithila Sivakumar, Martin Lochner, Shiva Nejati, Mehrdad Sabetzadeh
+**类别**: cs.SE
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.25867v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis
+**作者**: Felipe de Sant'Anna Paixão, Joanna C. S. Santos, Paulo Anselmo da Mota Silveira Neto, Daniel Sadoc Menasche, Gustavo Bittencourt Figueiredo, Eduardo Santana de Almeida
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.25863v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems
+**作者**: Seth Dobrin, Łukasz Chmiel
+**类别**: cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.26057v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detect, Unlearn, Restore: Defending Text Summarization Models Against Data Poisoning
+**作者**: Poojitha Thota, Shirin Nilizadeh
+**类别**: cs.CL, cs.CR
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.26036v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem
+**作者**: Xihan Xiong, Zelin Li, Wei Wei, Qin Wang, William Knottenbelt, Zhipeng Wang
+**类别**: cs.CR, cs.AI, cs.MA
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.26028v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries
+**作者**: Tânia Carvalho, Maxime Cordy
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.26021v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### BlowLive: Blow-Based Multi-Factor Biometrics with Liveness Detection and Revocability
+**作者**: Eyasu Getahun Chekole, Howard Halim, Daniël Reijsbergen, Jianying Zhou
+**类别**: cs.CR
+**发布日期**: 2026-06-24
+**链接**: http://arxiv.org/abs/2606.25998v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
