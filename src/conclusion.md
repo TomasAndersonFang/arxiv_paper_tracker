@@ -63769,3 +63769,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-26)
+
+### 软件工程 领域
+
+#### Beyond Objects
+**作者**: Daniel Jackson
+**类别**: cs.SE, cs.HC, cs.PL
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27258v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems
+**作者**: Shaohua Liu, Liang Fang, Yilong Sun, Shudong Huang, Qingsong Luo, Xiaoyang Chen, Dongqiang Liu, Chuangang Ma, Zhenzhen Chai, Henghuan Wang, Shijie Quan, Changyuan Cui, Zhangbin Zhu, Peng Chen, Wei Xu, Lei Xiao, Haijie Gu, Jie Jiang
+**类别**: cs.IR, cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27243v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Smaller Models, Unexpected Costs: Trade-offs in LLM Quantization for Automated Program Repair
+**作者**: Fernando Vallecillos-Ruiz, Giordano d'Aloisio, Max Hort, Luca Traini, Antinisca Di Marco, Leon Moonen
+**类别**: cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27205v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### On the Reproducibility of Quantum Software Defect Datasets: A Case Study of Bugs4Q
+**作者**: Haruto Ohto, Yuta Ishimoto, Shinsuke Matsumoto, Shinji Kusumoto
+**类别**: cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27124v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Mostly Automatic Translation of Language Interpreters from C to Safe Rust
+**作者**: Bo Wang, Brandon Paulsen, Joey Dodds, Daniel Kroening, Umang Mathur, Prateek Saxena
+**类别**: cs.PL, cs.MA, cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27122v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Tilikum: Transaction Fair Ordering on a DAG without Weak Edges
+**作者**: Giulio Segalini, Yigit Çolakoğlu, Marko Putnik, Jérémie Decouchant
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27250v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Observer World: A Cryptographic Extension of Impagliazzo's Five Worlds
+**作者**: Fabio F. G. Buono
+**类别**: cs.CR, cs.CC
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27139v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### PRISM: PE Relational Inter-Section Matrix. A 2D Section-Aware Dataset for Static PE Malware Detection
+**作者**: José M. Sacristán, Ana I. González-Tablas
+**类别**: cs.CR
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27109v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions
+**作者**: Gerhard Backfried, Christian Schmidt, Diego Pilutti, Michael Suker
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27106v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### zQR: A Verifiable QR-Driven zkSNARK Proof Verification Framework for Mobile Platforms
+**作者**: Goshgar Can Ismayilov
+**类别**: cs.CR
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27092v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
