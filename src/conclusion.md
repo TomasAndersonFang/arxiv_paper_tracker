@@ -63877,3 +63877,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-27)
+
+### 软件工程 领域
+
+#### ATGBuilder: Feature-Assisted Graph Learning for Activity Transition Graph Construction with Seed Supervision
+**作者**: Chenhui Cui, Zixiang Xian, Danyu Li, Tao Li, Rubing Huang, Dave Towey, Shikai Guo, Jiakun Liu
+**类别**: cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27080v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Solarsystem: A Validated Lightweight Python Package for Planetary Positions and Solar-Lunar Event Calculations
+**作者**: Ioannis Nasios
+**类别**: astro-ph.EP, astro-ph.IM, astro-ph.SR, cs.CG, cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27055v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development
+**作者**: Hartwig Grabowski
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27045v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cleaning Logs for Downstream Tasks (Registered Report)
+**作者**: Zahra G. Yazdi, Van-Hoang Le, Nyyti Saarimäki, Donghwan Shin, Domenico Bianculli, Lionel Briand
+**类别**: cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27000v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring
+**作者**: Zhihao Lin, Mingyi Zhou, Yizhuo Yang, Li Li
+**类别**: cs.SE
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.26979v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation
+**作者**: Ryan Fetterman
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27091v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Type-based information flow analysis for $π$-calculus with a dynamically extensible security lattice
+**作者**: Yukihiro Oda, Eijiro Sumii
+**类别**: cs.CR
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27059v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Physical Layer Authentication With Channel Knowledge Maps in Indoor Environments
+**作者**: Luca Bonaventura, Francesco Ardizzon, Stefano Tomasin
+**类别**: cs.CR, eess.SP
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27044v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Design and Performance Evaluation of Secure RF and WiFi-Based Communication in Drone Swarms via Testbed Implementation
+**作者**: Bhavya Dixit, Aayushi Rajgor, Subham Kumar, Rushikesh Patil, Ananthapadmanabhan A., Gaurav S. Kasbekar, Arnab Maity
+**类别**: cs.CR
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27028v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP
+**作者**: Liwei Liu, Tianzhu Han, Zijian Liu, Zishu Dong, Na Ruan
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-25
+**链接**: http://arxiv.org/abs/2606.27027v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
