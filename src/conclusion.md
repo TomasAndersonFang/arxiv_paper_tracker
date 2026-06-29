@@ -64083,3 +64083,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-29)
+
+### 软件工程 领域
+
+#### Govern the Repository, Not the Agent: Measuring Ecosystem-Level Risk in AI-Native Software
+**作者**: Daniel Russo
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28235v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Humanizing Automatically Generated Unit Test Suites with LLM-Based Refactoring
+**作者**: Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Paweł Borsukiewicz, Lingfeng Bao, Anil Koyuncu, Jacques Klein, David Lo, Tegawendé F. Bissyandé
+**类别**: cs.SE
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28229v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### CrossLangFuzzer: Differential Testing of Cross-Language JVM Compilers
+**作者**: Xiaotian Ma, Qiong Feng, Yongqiang Tian, Wei Song, Peng Liang
+**类别**: cs.SE
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28132v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Humans, Bots, and Agents Communicate About Vulnerabilities in Pull Requests
+**作者**: Pien Rooijendijk, Christoph Treude, Mairieli Wessel
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28125v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Reciprocal Impact of Science and Software: A Cross-Corpus Analysis of How Research Shapes Software and Software Enables Research
+**作者**: Audris Mockus
+**类别**: cs.DL, cs.SE, cs.SI
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28120v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models
+**作者**: Yanchen Yin, Dongqi Han, Linghui Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28153v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How Humans, Bots, and Agents Communicate About Vulnerabilities in Pull Requests
+**作者**: Pien Rooijendijk, Christoph Treude, Mairieli Wessel
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28125v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### GTI-mSEMP Framework : A Proposed Framework to Stimulate Malware Propagation with Inclusion of Attacker-Defender Strategy
+**作者**: Shadeeb Hossain, Kristopher Wilson
+**类别**: cs.CR, cs.GT, cs.NI
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28079v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents
+**作者**: Shijing Hu, Liang Liu, Zhu Meng, Zhicheng Zhao
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28061v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Ghost Without Shell: Measuring Non-Interactive SSH Attacks on Honeypots
+**作者**: Veronica Valeros, Muris Sladić, Sebastian Garcia
+**类别**: cs.CR
+**发布日期**: 2026-06-26
+**链接**: http://arxiv.org/abs/2606.28006v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
