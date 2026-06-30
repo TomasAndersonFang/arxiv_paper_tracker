@@ -64191,3 +64191,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-06-30)
+
+### 软件工程 领域
+
+#### PyMETA: A Benchmark Dataset for Hierarchical Student Code Error Classification with Python-Interpreter-Based Labels
+**作者**: Chuyue Li, Ziqi Tang, Jingyi Wang, Yu Wu, Kazuma Hashimoto, Lingyu Gao
+**类别**: cs.SE
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30610v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### To Tab or Not to Tab: Measuring Critical Engagement in AI Code Completion Tools Using Behavioral Signals and Attention Checks
+**作者**: Jessica Hutchison, Ian Tyler Applebaum, Kenneth Angelikas, Kush Rakesh Patel, Phuoc Nguyen, Antonio Lazaro, Nicholas Rucinski, Rahad Arman Nabid, Stephen MacNeil
+**类别**: cs.HC, cs.AI, cs.SE
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30549v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Illusion of Agentic Complexity in README.md Generation: Evaluating Single-Agent vs. Multi-Agent RAG Systems
+**作者**: Abu Saleh, Tesfay Welegebreal Tesfay, Phuong T. Nguyen, Juri Di Rocco, Muhammad Umar Zeshan, Davide Di Ruscio
+**类别**: cs.SE
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30524v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### How do Execution Features Improve Statistical Fault Localization? An Empirical Study
+**作者**: Marius Smytzek, Andreas Zeller
+**类别**: cs.SE
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30324v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MCP Server Architecture Patterns for LLM-Integrated Applications
+**作者**: Carson Rodrigues, Oysturn Vas
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30317v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Authentication in Quantum Networks
+**作者**: Christopher Battarbee, Suchetana Goswami, Elham Kashefi, Mina Doosti
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30636v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems
+**作者**: Kunyang Li, Kyle Domico, Jonathan Gregory, Patrick McDaniel
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30602v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Wireless Backdoor Attack and Defense for Semantic Communications over Multiple Access Channel
+**作者**: Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus
+**类别**: cs.NI, cs.CR, cs.IT, cs.LG, eess.SP
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30595v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection
+**作者**: Asif Shahriar, Hongyu Cai, Hadjer Benkraouda, Gang Wang, Z. Berkay Celik
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30587v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Hybrid Framework For Crypto-Ransomware Detection In Enterprise Shared Storage
+**作者**: Gervais Hatungimana, Abdun Naser Mahmood, Mohammad Jabed Morshed Chowdhury
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-06-29
+**链接**: http://arxiv.org/abs/2606.30586v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
