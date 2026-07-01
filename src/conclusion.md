@@ -64299,3 +64299,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-01)
+
+### 软件工程 领域
+
+#### CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation
+**作者**: Alessandro Botta, Shiven Garisa, Jaya Vardhini Akurathi, Ahsanul Ameen Sabit, Trey Woodlief, Soneya Binta Hossain
+**类别**: cs.SE
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31971v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Interface-Variant Dynamics in Software Ecosystems: Resolver-Induced Selection and Adoption in Package Graphs
+**作者**: Faruk Alpay, Baris Basaran
+**类别**: cs.SE, cs.DC
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31817v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### JETO-Bench: A Reproducible Benchmark for Execution Time Improvement Patches in Java
+**作者**: Khashayar Etemadi, Zhendong Su
+**类别**: cs.SE
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31767v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Do Machines Struggle Where Humans Do? LLM and Human Comprehension of Obfuscated Code
+**作者**: Jack Le, Anh H. N. Nguyen, Tien N. Nguyen
+**类别**: cs.SE
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31725v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### AdaTrans: Automated C to Rust Transformation via Error-Adaptive Repair
+**作者**: Xiaofan Liu, Zecan Li, Zhuang Zhao, Ziqi Shuai, Yanming Yang, Qi Xin, Jifeng Xuan
+**类别**: cs.SE
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31706v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### Semantic Leakage and Privacy Preservation in Relay-Assisted Semantic Communications
+**作者**: Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus
+**类别**: cs.NI, cs.CR, cs.IT, cs.LG, eess.SP
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31973v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Robocalls: A Worldwide or US-only Problem? Analyzing Spam and Fraud in International Phone Calls
+**作者**: Kemal Altwlkany, Andro Merćep, Tomislav Đuričić, Ante Kapetanović, Emanuel Lacic
+**类别**: cs.CR
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31790v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Exploring Side-Channel Protections in Hardware Implementations of PQC ML-KEM Verification
+**作者**: Davis Ranney, Yashaswini I Makaram, A. Adam Ding, Yunsi Fei
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31681v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities: Attacks, Risks, Defenses, and Open Problems
+**作者**: Seyed Bagher Hashemi Natanzi, Bo Tang
+**类别**: cs.CR, cs.AI, cs.GT, cs.LO
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31639v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Hybrid Topological Data Analysis and LSTM Networks for Enhanced Network Intrusion Detection Using CIC-IDS2017 Dataset
+**作者**: Amar Jeet, Bhaskar Ranjan Karn, Dinesh Kumar
+**类别**: cs.CR, math.DS
+**发布日期**: 2026-06-30
+**链接**: http://arxiv.org/abs/2606.31619v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
