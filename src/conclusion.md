@@ -64407,3 +64407,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-02)
+
+### 软件工程 领域
+
+#### Theoria: Rewrite-Acceptability Verification over Informal Reasoning States
+**作者**: Ben Slivinski, Michael Saldivar
+**类别**: cs.AI, cs.CL, cs.LG, cs.LO, cs.SE
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01223v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### RepoRescue: An Empirical Study of LLM Agents on Whole-Repository Compatibility Rescue
+**作者**: Zhihao Lin, Mingyi Zhou, Zhensu Sun, Yizhuo Yang, Renyu Yang, David Lo, Li Li
+**类别**: cs.SE
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01213v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?
+**作者**: Zhi Chen, Zhensu Sun, Yuling Shi, David Lo, Lingxiao Jiang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01211v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity
+**作者**: Brett Reynolds
+**类别**: cs.CL, cs.AI, cs.SE
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01153v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Skills Are Not Islands: Measuring Dependency and Risk in Agent Skill Supply Chains
+**作者**: Changguo Jia, Tianqi Zhao, Runzhi He, Minghui Zhou
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01136v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### All-out Attack: Optimal Block Withholding Under Pay-Per-Share Scheme
+**作者**: Mustafa Doger, Sennur Ulukus
+**类别**: cs.CR, cs.DC, cs.IT, math.PR
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01209v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Detecting Adversarial Evasion Attacks Against Autoencoder-Based Network Intrusion Detection Systems
+**作者**: Niklas Bunzel, Ashim Siwakoti
+**类别**: cs.CR
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01194v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Antaeus: Hunting Repository-Level Logic Vulnerabilities via Context-Grounded LLM Reasoning
+**作者**: Michele Armillotta, Nicolò Romandini, Rebecca Montanari, Lorenzo Cavallaro
+**类别**: cs.CR
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01138v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Toward a Unified Security and Privacy Framework for AI-Native 6G Networks
+**作者**: Bidushi Barua, Ahsan Khan, Kangfeng Ye, Panagiotis Papanastasiou, Yifan Liu, Mohit Bidikar, Anthony Moulds, Julie McCann, Poonam Yadav
+**类别**: cs.CR
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.01019v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### The Binary Tree Mechanism is Optimal for Approximate Differentially Private Continual Counting
+**作者**: Konstantina Bairaktari, Kasper Green Larsen
+**类别**: cs.DS, cs.CR, cs.LG
+**发布日期**: 2026-07-01
+**链接**: http://arxiv.org/abs/2607.00876v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
