@@ -64515,3 +64515,111 @@ This paper investigates the effectiveness of using mempool-based transaction aud
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-03)
+
+### 软件工程 领域
+
+#### TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution
+**作者**: Jiale Amber Wang, Kaiyuan Wang, Pengyu Nie
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02469v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HTTP REST API Structure Learning
+**作者**: Ran Dubin, Amit Dvir
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02442v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Reasoning effort, not tool access, buys first-try reliability in agentic code generation: an observational study
+**作者**: Achint Mehta
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02436v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Steerability via constraints: a substrate for scalable oversight of coding agents
+**作者**: Thomas Winninger
+**类别**: cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02389v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Understanding Agent-Based Patching of Compiler Missed Optimizations
+**作者**: Batu Guan, Zirui Wang, Shaohua Li
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02370v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+### 安全领域 领域
+
+#### SoK: A Taxonomy for Cybersecurity Incident Response Influence Factors
+**作者**: Thomas Biege, Marius Brockhoff, Jonas Kaspereit, Fabian Ising, Lea Gröber, Sebastian Schinzel
+**类别**: cs.CR
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02451v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### HTTP REST API Structure Learning
+**作者**: Ran Dubin, Amit Dvir
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02442v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Steerability via constraints: a substrate for scalable oversight of coding agents
+**作者**: Thomas Winninger
+**类别**: cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02389v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Cloak and Detonate: Scanner Evasion and Dynamic Detection of Agent Skill Malware
+**作者**: Zimo Ji, Congying Xu, Zongjie Li, Yudong Gao, Xin Wei, Shuai Wang, Shing-Chi Cheung
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02357v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
+#### Securing People and their Machines Against Major Faults
+**作者**: Ohad Eitan, Idit Keidar, Ehud Shapiro
+**类别**: cs.DC, cs.CR, cs.MA
+**发布日期**: 2026-07-02
+**链接**: http://arxiv.org/abs/2607.02304v1
+
+**Paper Analysis Error**: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+
+---
+
