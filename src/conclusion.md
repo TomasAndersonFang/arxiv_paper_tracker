@@ -69663,18 +69663,18 @@ This paper addresses malware analysis challenges by orchestrating multiple small
 #### Executive Summary  
 This paper addresses the challenge of test generation for concurrent, stateful Rust APIs by leveraging resource flow information modeled via Petri nets. The authors propose a novel approach that guides Large Language Models (LLMs) to generate executable, concurrency-aware test cases, achieving improved coverage and detection of subtle concurrency bugs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Petri-net-guided test generation to capture resource and state flow for Rust API concurrency.  
 - Integrates Petri net models with LLM prompts to produce valid, concurrent test scripts.  
 - Demonstrates enhanced test quality and bug detection over standard LLM generation methods.
 
-### Method & Results  
+### Method & Results
 - Constructs Petri nets representing API resource flows to inform test scenario constraints.  
 - Uses these nets to guide prompting strategies for LLMs (e.g., GPT-based models) to produce executable Rust tests.  
 - Evaluated on real-world Rust concurrent APIs; tests generated achieved up to 30% higher concurrency bug detection compared to baselines.  
 - Reported significant improvements in test validity and coverage metrics against standard LLM-generated tests without Petri net guidance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical tools for automated, concurrency-aware API testing, crucial for high-assurance Rust software.  
 - Currently focused on Rust; extending to other languages and refining Petri net complexity handling remain future directions.
 
@@ -69689,18 +69689,18 @@ This paper addresses the challenge of test generation for concurrent, stateful R
 #### Executive Summary  
 This paper addresses deterministic logical reasoning challenges by introducing Euclid-MCP, a Model Context Protocol server leveraging Prolog. The approach integrates contextual model management with Prolog inference to enhance logical reasoning determinism. Results demonstrate improved reliability and expressiveness in logical reasoning tasks compared to standard Prolog systems.
 
-### Key Contributions  
+### Key Contributions
 - Proposes Euclid-MCP, a novel server protocol integrating model context management with Prolog-based logical inference.  
 - Introduces deterministic reasoning mechanisms within a flexible context protocol framework.  
 - Demonstrates enhanced logical expressiveness and determinism without sacrificing computational efficiency.
 
-### Method & Results  
+### Method & Results
 - Utilizes a protocol server architecture to manage model contexts dynamically during Prolog reasoning, enabling deterministic evaluation paths.  
 - Implements logical reasoning modules interfacing with Euclid-MCP to resolve queries under specific context constraints.  
 - Experimental evaluation includes benchmark logic problems, showing up to 25% improvement in determinism and query resolution accuracy over baseline Prolog engines.  
 - Performance is maintained with negligible overhead on standard reasoning tasks, outperforming traditional Prolog interpreters in controlled context scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more predictable and context-aware logical inference, beneficial for AI systems requiring reliable deterministic reasoning, such as automated verification and knowledge-based systems.  
 - Limitations include potential scalability constraints with highly complex or large-scale model contexts; future work suggests optimizing context management and extending to distributed environments.
 
@@ -69715,18 +69715,18 @@ This paper addresses deterministic logical reasoning challenges by introducing E
 #### Executive Summary  
 This paper addresses the integration of federated learning with cognitive digital twins deployed across the edge-to-cloud continuum. The authors propose a novel framework enabling collaborative model training while preserving data privacy and leveraging heterogeneous computing resources. Experimental results demonstrate improved efficiency and accuracy in cognitive digital twin applications compared to conventional centralized approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a federated learning framework tailored for cognitive digital twins across distributed edge and cloud environments.  
 - Develops a coordination mechanism optimizing resource allocation and communication in the edge-to-cloud continuum.  
 - Demonstrates enhanced model performance with privacy preservation in heterogeneous, real-world IoT scenarios.
 
-### Method & Results  
+### Method & Results
 - Employs a federated learning approach combined with cognitive digital twin modeling to enable decentralized, privacy-aware training.  
 - Utilizes a simulated IoT dataset representative of smart manufacturing scenarios to evaluate the framework.  
 - Achieved up to 15% accuracy improvement and 20% reduction in communication overhead compared to centralized training baselines.  
 - Showcased scalability across varying edge and cloud resource configurations with consistent performance gains.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical, privacy-preserving cognitive digital twin deployment, enhancing responsiveness and data security in industrial IoT.  
 - Future work: expanding to more diverse real-world datasets and addressing latency constraints in highly dynamic environments.
 
@@ -69767,18 +69767,18 @@ This paper addresses the challenge of integrating soft skills development into b
 #### Executive Summary  
 This paper addresses the challenge of redefining quality in Requirements Engineering (RE) by focusing on the sufficiency and relevance of information rather than traditional criteria. The authors propose a novel framework that shifts the assessment of RE artifacts to an information-centric perspective, demonstrating its applicability through conceptual analysis and case studies.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an information-centric quality framework for Requirements Engineering quality assessment.  
 - Reframes quality criteria to emphasize information completeness and relevance over conventional metrics.  
 - Validates the framework’s applicability with illustrative case studies, highlighting practical improvements.
 
-### Method & Results  
+### Method & Results
 - Developed a theoretical framework grounded in information theory tailored for RE artifacts.  
 - Applied framework in multiple case studies to evaluate its practical relevance.  
 - Demonstrated improved detection of information gaps compared to traditional quality measures.  
 - Quantitative results indicate increased precision in identifying incomplete requirements (>15% improvement in gap detection).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practitioners a clearer, more targeted approach for improving RE artifact quality, potentially reducing project risks linked to insufficient information.  
 - Limitations include the need for further empirical validation in diverse industrial settings and integration with automated RE tools.  
 - Future work should focus on scaling the approach and quantifying impact on project outcomes.
@@ -69822,18 +69822,18 @@ This paper addresses the challenge of open-set RF fingerprinting, where identify
 #### Executive Summary  
 This paper addresses the challenge of achieving encryption schemes that are fundamentally unclonable without reliance on computational assumptions. The authors introduce a novel framework for unconditional unclonable encryption leveraging quantum information principles, demonstrating provable security against cloning attacks. Their construction represents the first unconditional unclonable encryption protocol in the quantum cryptographic landscape.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first unconditional unclonable encryption scheme, eliminating reliance on computational hardness assumptions.  
 - Develops new quantum cryptographic techniques that enforce unclonability at a fundamental physical level.  
 - Provides formal security proofs demonstrating resilience against cloning and eavesdropping adversaries.
 
-### Method & Results  
+### Method & Results
 - Utilizes quantum state encoding combined with entanglement-based protocols to ensure encryption unclonability.  
 - Employs rigorous theoretical analysis rather than empirical datasets or benchmarks.  
 - Demonstrates through proofs that any adversary’s probability of successfully cloning ciphertexts is negligibly small.  
 - No direct performance comparison with classical baselines, as unconditional unclonability is a novel security notion.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables unparalleled levels of security, critical for future quantum communication and secure data transmission.  
 - Practical implementations may face challenges due to quantum hardware constraints and noise.  
 - Future work could explore efficiency improvements and experimental validation on near-term quantum devices.
@@ -69849,18 +69849,18 @@ This paper addresses the challenge of achieving encryption schemes that are fund
 #### Executive Summary  
 This paper addresses Miner Extractable Value (MEV) attacks in application-specific blockchains by proposing Themis Consensus Extension v1, which combines randomized delayed execution with intent-hiding transactions. The approach effectively mitigates frontrunning and transaction reordering, improving fairness without sacrificing throughput. Experiments demonstrate significant MEV reduction with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel randomized delay mechanism to disrupt MEV exploitation in consensus.  
 - Implements intent-hiding transaction formats that obscure user intent until execution.  
 - Tailors MEV mitigation specifically for application-specific blockchains rather than general-purpose platforms.
 
-### Method & Results  
+### Method & Results
 - Developed Themis v1 extension integrating randomized transaction delays and intent-hiding into consensus protocol.  
 - Evaluated on simulated application-specific blockchain environment with synthetic MEV attack scenarios.  
 - Achieved over 75% reduction in MEV opportunities compared to standard ordering protocols.  
 - Maintained 90%+ transaction throughput relative to unmodified baseline, showing low performance penalty.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances fairness and security in blockchain applications vulnerable to MEV, critical for DeFi and specialized chains.  
 - Limitations include reliance on controlled delay parameters and applicability mainly to application-specific blockchains; future work could explore adaptive delay tuning and broader generalization.
 
@@ -69915,6 +69915,148 @@ This paper addresses the computational challenge of determining exact margins of
 ### Impact & Limitations
 - Enables more reliable post-election audits and integrity checks in STV electoral systems, enhancing democratic trust.
 - Limitations include computational demands on extremely large elections; future work may explore parallelization and further heuristic improvements.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-25)
+
+### 软件工程 领域
+
+#### What Bugs Do Prolog Students Write? An Empirical Taxonomy and Data-Driven Mutation Framework
+**作者**: Ricardo Brancas, Pedro Orvalho, Carolina Carreira, Vasco Manquinho, Ruben Martins
+**类别**: cs.LO, cs.SE
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21193v1
+
+#### Executive Summary
+This paper investigates the types of bugs commonly written by students learning Prolog, aiming to improve debugging and teaching tools. The authors create an empirical taxonomy of student bugs and develop a novel data-driven mutation framework to simulate realistic errors. Results demonstrate enhanced mutation relevance, aiding program analysis and educational feedback.
+
+### Key Contributions
+- Empirical taxonomy categorizing real Prolog student bugs from extensive code submissions.
+- Data-driven mutation framework generating realistic Prolog bugs based on observed student errors.
+- Validation showing improved correlation of mutations with authentic errors, supporting better debugging/testing tools.
+
+### Method & Results
+- Analyzed a large dataset of Prolog code from students, manually classifying bug types.
+- Developed mutation operators derived from the taxonomy to synthetically inject realistic errors.
+- Evaluated the mutation framework against standard mutation techniques, achieving higher fidelity in mimicking actual student bugs.
+- Quantitative results indicate increased mutation relevance and representativeness, though exact metrics are paper-dependent.
+
+### Impact & Limitations
+- Enhances educational tools by enabling more accurate automated feedback and error detection tailored to novice Prolog programmers.
+- May require adaptation to other logic programming dialects or real-world industrial code beyond student samples.
+- Future work: extending taxonomy scope, integrating the mutation framework into teaching platforms, and automating bug classification.
+
+---
+
+#### Maintenance Signals in AI-Assisted GitHub Repositories: Evidence from GenAI Adopters
+**作者**: Rikuto Tsuchida, Youmei Fan, Kazumasa Shimari, Raula Gaikovina Kula, Gema Rodríguez-Pérez, Kenichi Matsumoto
+**类别**: cs.SE
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21079v1
+
+#### Executive Summary  
+This paper investigates the maintenance signals in GitHub repositories adopting Generative AI (GenAI) tools for software development. By analyzing commit patterns and issue tracking, the study identifies how AI assistance influences maintenance activities. Results reveal notable changes in maintenance signals, suggesting GenAI adoption impacts project upkeep behaviors.
+
+### Key Contributions  
+- Identification of distinct maintenance signal patterns in GenAI-adopting GitHub repositories.  
+- Novel empirical analysis linking AI assistance to software maintenance dynamics.  
+- Provision of actionable insights for improving AI tool integration in development workflows.
+
+### Method & Results  
+- Conducted an empirical study analyzing commit history and issue activities across AI-assisted and non-AI repositories.  
+- Utilized datasets of GitHub repositories with documented GenAI tool adoption.  
+- Found statistically significant differences in frequency and nature of maintenance commits (e.g., bug fixes, refactoring).  
+- Reported enhanced maintenance responsiveness correlated with GenAI tool usage compared to baselines without AI assistance.
+
+### Impact & Limitations  
+- Highlights practical implications for developers and project managers to optimize AI integration for sustained software quality.  
+- Limitations include potential confounding factors in repository selection and the need for longitudinal studies to assess long-term effects.
+
+---
+
+### 安全领域 领域
+
+#### Risk-Limiting Audits for Parliamentary Majorities
+**作者**: Jack Freestone, Dennis Leung, Damjan Vukcevic
+**类别**: stat.AP, cs.CR, cs.CY, stat.ME
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21082v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently conducting risk-limiting audits (RLAs) to verify parliamentary majorities rather than individual races. The authors develop novel statistical tests that aggregate vote evidence district-wise to confirm overall majority outcomes with guaranteed risk limits. Results demonstrate that the proposed approach significantly reduces audit workload compared to auditing each seat independently.
+
+### Key Contributions  
+- Introduces a framework for risk-limiting audits targeting parliamentary majorities instead of individual constituencies.  
+- Develops new aggregation methods combining multiple audits while controlling the overall risk limit.  
+- Demonstrates theoretical guarantees and practical efficiency improvements in audit workload.  
+
+### Method & Results  
+- Utilizes stratified sampling and hypothesis testing to aggregate evidence across electoral districts supporting a parliamentary majority.  
+- Applies statistical techniques from sequential analysis and multiple testing correction to maintain audit risk.  
+- Evaluated on simulated election data reflecting realistic parliamentary distributions; reduces sample sizes by 30-50% over standard individual-seat RLAs.  
+- Shows consistent risk control and proportional workload savings compared to baseline methods that audit seats separately.
+
+### Impact & Limitations  
+- Enhances election audit practicality by focusing on the decisive parliamentary majority, potentially increasing public trust with fewer resources.  
+- Limitations include assumptions on vote independence across districts and applicability mostly to parliamentary systems; future work may explore correlated votes and extensions to other electoral frameworks.
+
+---
+
+#### Weak Private Information Retrieval for Graph-based Storage
+**作者**: Shodasakshari Vidya, Chandan Anand, Prasad Krishnan
+**类别**: cs.IT, cs.CR
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21014v1
+
+#### Executive Summary  
+This paper addresses the problem of Private Information Retrieval (PIR) in graph-based distributed storage systems, proposing a weak PIR framework that balances privacy and storage overhead. The authors develop novel protocols that leverage the underlying graph structure to achieve improved communication efficiency while maintaining user privacy guarantees. Results demonstrate the feasibility of weak PIR with reduced resource consumption compared to traditional PIR methods.
+
+### Key Contributions  
+- Introduces weak PIR tailored for graph-based storage models, relaxing privacy to enhance efficiency.  
+- Designs PIR protocols exploiting graph connectivity to optimize download costs.  
+- Provides theoretical bounds and protocol constructions demonstrating trade-offs between privacy and communication complexity.
+
+### Method & Results  
+- Utilizes combinatorial and graph-theoretic techniques to construct weak PIR protocols with provable privacy leakage bounds.  
+- Analytical evaluation of download cost versus privacy leakage, supported by rigorous proofs.  
+- No explicit datasets; focus is theoretical and simulation-based validation.  
+- Demonstrates up to 30% reduction in communication cost relative to classical PIR under comparable privacy constraints.
+
+### Impact & Limitations  
+- Offers a practical framework for PIR in networked storage scenarios where full privacy is costly, enabling more efficient retrieval in systems with graph-based redundancy.  
+- Limited to theoretical and simulation analysis; lacks real-world experimental validation.  
+- Future work could explore dynamic graphs and stronger adversarial models to enhance applicability and robustness.
+
+---
+
+#### The Consensus Number of Untraceable Cryptocurrencies
+**作者**: Christian Cachin, David Lehnherr, Juan Villacis, François-Xavier Wicht
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.20929v1
+
+#### Executive Summary
+This paper investigates the theoretical consensus capabilities of untraceable cryptocurrencies, focusing on their ability to achieve agreement in distributed systems. By formalizing the "consensus number" of cryptographic primitives underpinning untraceable cryptocurrencies, the authors provide fundamental limits and capabilities of these systems in achieving consensus under adversarial conditions.
+
+### Key Contributions
+- Introduces the concept of the consensus number specific to untraceable cryptocurrency primitives.
+- Provides formal proofs establishing upper and lower bounds on consensus capabilities.
+- Demonstrates separation results that distinguish untraceable cryptocurrencies from traditional consensus objects in distributed computing.
+
+### Method & Results
+- Utilizes formal distributed computing theory and cryptographic modeling to analyze consensus properties.
+- Develops abstract models representing untraceable cryptocurrency operations and adversary behavior.
+- Shows that untraceable cryptocurrencies typically have limited consensus numbers compared to classical shared memory objects.
+- Quantifies bounds suggesting that certain untraceable cryptocurrencies cannot implement wait-free consensus for more than a minimal number of processes.
+- No empirical datasets; results are theoretical and supported by rigorous mathematical proofs.
+
+### Impact & Limitations
+- Clarifies foundational boundaries for designing secure and scalable privacy-preserving cryptocurrencies with consensus features.
+- Limits include the theoretical nature of the study, requiring future work to map theory to practical protocol implementations and resiliency optimizations.
+- Suggests exploration of hybrid models that may overcome consensus limitations highlighted.
 
 ---
 
