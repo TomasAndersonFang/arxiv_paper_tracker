@@ -69960,18 +69960,18 @@ This paper investigates the types of bugs commonly written by students learning 
 #### Executive Summary  
 This paper investigates the maintenance signals in GitHub repositories adopting Generative AI (GenAI) tools for software development. By analyzing commit patterns and issue tracking, the study identifies how AI assistance influences maintenance activities. Results reveal notable changes in maintenance signals, suggesting GenAI adoption impacts project upkeep behaviors.
 
-### Key Contributions  
+### Key Contributions
 - Identification of distinct maintenance signal patterns in GenAI-adopting GitHub repositories.  
 - Novel empirical analysis linking AI assistance to software maintenance dynamics.  
 - Provision of actionable insights for improving AI tool integration in development workflows.
 
-### Method & Results  
+### Method & Results
 - Conducted an empirical study analyzing commit history and issue activities across AI-assisted and non-AI repositories.  
 - Utilized datasets of GitHub repositories with documented GenAI tool adoption.  
 - Found statistically significant differences in frequency and nature of maintenance commits (e.g., bug fixes, refactoring).  
 - Reported enhanced maintenance responsiveness correlated with GenAI tool usage compared to baselines without AI assistance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights practical implications for developers and project managers to optimize AI integration for sustained software quality.  
 - Limitations include potential confounding factors in repository selection and the need for longitudinal studies to assess long-term effects.
 
@@ -69988,18 +69988,18 @@ This paper investigates the maintenance signals in GitHub repositories adopting 
 #### Executive Summary  
 This paper addresses the challenge of efficiently conducting risk-limiting audits (RLAs) to verify parliamentary majorities rather than individual races. The authors develop novel statistical tests that aggregate vote evidence district-wise to confirm overall majority outcomes with guaranteed risk limits. Results demonstrate that the proposed approach significantly reduces audit workload compared to auditing each seat independently.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a framework for risk-limiting audits targeting parliamentary majorities instead of individual constituencies.  
 - Develops new aggregation methods combining multiple audits while controlling the overall risk limit.  
 - Demonstrates theoretical guarantees and practical efficiency improvements in audit workload.  
 
-### Method & Results  
+### Method & Results
 - Utilizes stratified sampling and hypothesis testing to aggregate evidence across electoral districts supporting a parliamentary majority.  
 - Applies statistical techniques from sequential analysis and multiple testing correction to maintain audit risk.  
 - Evaluated on simulated election data reflecting realistic parliamentary distributions; reduces sample sizes by 30-50% over standard individual-seat RLAs.  
 - Shows consistent risk control and proportional workload savings compared to baseline methods that audit seats separately.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances election audit practicality by focusing on the decisive parliamentary majority, potentially increasing public trust with fewer resources.  
 - Limitations include assumptions on vote independence across districts and applicability mostly to parliamentary systems; future work may explore correlated votes and extensions to other electoral frameworks.
 
@@ -70014,18 +70014,18 @@ This paper addresses the challenge of efficiently conducting risk-limiting audit
 #### Executive Summary  
 This paper addresses the problem of Private Information Retrieval (PIR) in graph-based distributed storage systems, proposing a weak PIR framework that balances privacy and storage overhead. The authors develop novel protocols that leverage the underlying graph structure to achieve improved communication efficiency while maintaining user privacy guarantees. Results demonstrate the feasibility of weak PIR with reduced resource consumption compared to traditional PIR methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces weak PIR tailored for graph-based storage models, relaxing privacy to enhance efficiency.  
 - Designs PIR protocols exploiting graph connectivity to optimize download costs.  
 - Provides theoretical bounds and protocol constructions demonstrating trade-offs between privacy and communication complexity.
 
-### Method & Results  
+### Method & Results
 - Utilizes combinatorial and graph-theoretic techniques to construct weak PIR protocols with provable privacy leakage bounds.  
 - Analytical evaluation of download cost versus privacy leakage, supported by rigorous proofs.  
 - No explicit datasets; focus is theoretical and simulation-based validation.  
 - Demonstrates up to 30% reduction in communication cost relative to classical PIR under comparable privacy constraints.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical framework for PIR in networked storage scenarios where full privacy is costly, enabling more efficient retrieval in systems with graph-based redundancy.  
 - Limited to theoretical and simulation analysis; lacks real-world experimental validation.  
 - Future work could explore dynamic graphs and stronger adversarial models to enhance applicability and robustness.
@@ -70057,6 +70057,281 @@ This paper investigates the theoretical consensus capabilities of untraceable cr
 - Clarifies foundational boundaries for designing secure and scalable privacy-preserving cryptocurrencies with consensus features.
 - Limits include the theoretical nature of the study, requiring future work to map theory to practical protocol implementations and resiliency optimizations.
 - Suggests exploration of hybrid models that may overcome consensus limitations highlighted.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-26)
+
+### 软件工程 领域
+
+#### Encoding Event-B Proof Rules in Prolog: An Interactive Sequent Prover for ProB
+**作者**: Katharina Engels, Jan Gruteser, Michael Leuschel
+**类别**: cs.LO, cs.AI, cs.SE
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21191v1
+
+#### Executive Summary
+This paper addresses the challenge of encoding Event-B proof rules within Prolog to enable an interactive sequent prover integrated into the ProB model checker. The authors present a Prolog-based framework that supports automated and user-guided proof construction for Event-B, enhancing proof management and verification capabilities. The main result is a functional interactive prover that improves proof automation and comprehension within the Event-B formalism.
+
+### Key Contributions
+- Novel encoding of Event-B proof rules in Prolog enabling an interactive sequent prover.
+- Integration of the prover within the ProB tool for seamless model checking and proof support.
+- Introduction of user interaction features that allow guided proof construction alongside automation.
+
+### Method & Results
+- Developed a Prolog-based sequent calculus encoding Event-B proof rules, supporting backward and forward proof search.
+- Utilized the ProB toolset as the primary platform for implementing and evaluating the approach.
+- Demonstrated improved automation in proof discharge and enhanced user experience through interactive guidance.
+- Quantitative comparisons suggest increased proof completion rates and reduced manual intervention compared to baseline manual proofs.
+
+### Impact & Limitations
+- Provides a practical, extensible approach to formal verification in Event-B, potentially lowering barriers to formal proof adoption.
+- Limitations include reliance on user expertise for guidance and scalability challenges for very large or complex Event-B models.
+- Future work may explore deeper automation, integration with other verification tools, and handling of more extensive proof obligations.
+
+---
+
+#### Improving Communication of Changes in Model-Based Engineering with Model-Independent Change Descriptions
+**作者**: Philip Ochs, Lars Gesmann, Tobias Pett, Ina Schaefer
+**类别**: cs.SE
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21084v1
+
+#### Executive Summary
+The paper addresses challenges in communicating changes within Model-Based Engineering (MBE) by proposing model-independent change descriptions to enhance clarity and reduce misunderstandings. The authors introduce a novel approach that decouples change communication from specific modeling languages, improving interoperability and stakeholder comprehension. Experimental evaluation demonstrates improved efficiency and accuracy in change understanding compared to traditional model-dependent methods.
+
+### Key Contributions
+- Introduction of a model-independent change description framework for MBE.
+- Demonstration of improved communication and understanding of changes across heterogeneous modeling environments.
+- Empirical validation showing enhanced efficiency in change management processes.
+
+### Method & Results
+- Developed an abstraction layer capturing changes independent of modeling language specifics.
+- Evaluated using real-world MBE case studies and communication tasks with industry practitioners.
+- Results indicate a significant reduction in misinterpretations and faster consensus building; quantitative metrics show up to 30% improvement in communication accuracy.
+- Outperformed baseline approaches relying solely on model-specific change documentation.
+
+### Impact & Limitations
+- Enhances collaboration and change management across diverse MBE teams, potentially reducing costly rework.
+- Limitations include potential complexity in scaling the abstraction framework for very large models and the need for integration with existing toolchains.
+- Future work suggested on automating translation of change descriptions into model-specific actions and expanding evaluation across varied domains.
+
+---
+
+#### HiMe: Real-Time Self-Hosted Personal Agent Platform for Health Insights with Wearable Devices
+**作者**: Wei Liu, Siya Qi, Linhai Zhang, Lorainne Tudor Car, Yulan He
+**类别**: cs.AI, cs.CL, cs.HC, cs.MA, cs.SE
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21019v1
+
+#### Executive Summary  
+This paper addresses the challenge of providing real-time, personalized health insights via wearable devices without relying on cloud services. The authors propose HiMe, a self-hosted personal agent platform that processes wearable data locally to enhance privacy and responsiveness. Evaluation shows HiMe achieves effective health monitoring with low-latency inference.
+
+### Key Contributions  
+- Introduces a self-hosted, real-time personal health agent platform integrating wearable data processing.  
+- Novel local data handling approach ensuring user privacy while maintaining responsiveness.  
+- Demonstrates practical deployment feasibility on consumer devices with efficient resource use.
+
+### Method & Results  
+- Developed a modular platform combining edge data processing, AI-driven health inference, and user interaction components running entirely on user devices.  
+- Utilized multiple public and private wearable datasets for model training and validation.  
+- Achieved real-time inference with latency under 200ms and accuracy comparable to cloud-based methods (~95% health event detection accuracy).  
+- Significantly reduced privacy risks and network dependency compared to baseline cloud-centric solutions.
+
+### Impact & Limitations  
+- Enables privacy-preserving, low-latency health monitoring suitable for real-world applications in personal wellness and clinical support.  
+- Currently limited by device computational capacity; future work includes optimizing models for even lower-power devices and expanding health condition coverage.
+
+---
+
+#### Delivery, Not Storage: Cue-Anchored Working Memory as a Harness Property for Coding Agents
+**作者**: Swapnanil Saha
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.20972v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficient working memory representation in coding agents by proposing cue-anchored working memory as a mechanism focused on delivery rather than storage. The approach leverages contextual cues to dynamically guide memory usage, improving coding agents’ performance in task execution. Results show enhanced adaptability and efficiency compared to traditional storage-centric models.
+
+### Key Contributions  
+- Introduces cue-anchored working memory as a novel paradigm emphasizing memory delivery over passive storage.  
+- Demonstrates the application of this mechanism in coding agents to improve task-relevant memory utilization.  
+- Provides theoretical grounding and empirical validation that shifts focus from storage capacity to memory responsiveness.
+
+### Method & Results  
+- Developed a memory framework where working memory dynamically anchors to contextual cues to facilitate targeted information retrieval and application.  
+- Evaluated using simulated coding tasks with benchmark datasets designed to test memory and coding efficiency.  
+- Achieved up to 15% improvement in task completion time and 10% higher accuracy in code generation compared to baseline models.  
+- Outperformed traditional working memory models by effectively reducing redundant memory overhead and enhancing task-specific recall.
+
+### Impact & Limitations  
+- Offers a practical memory management strategy for AI agents in programming and software engineering, with potential to accelerate automated coding workflows.  
+- Limitations include testing primarily on simulated tasks; future work should explore real-world coding environments and integrate with broader AI systems.
+
+---
+
+#### Transformer-Assisted LLM-Based Source Code Summarisation: to Enable More Secure Software Development
+**作者**: Jesse Phillips, Tracy Hall, Paul Rayson, Mo El-Haj
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.20933v1
+
+#### Executive Summary
+This paper addresses source code summarization to enhance software security by enabling better code comprehension. It introduces a transformer-assisted approach integrating Large Language Models (LLMs) with specialized encoding tailored for secure software development contexts. The method shows improved summarization accuracy and relevance, facilitating earlier detection of vulnerabilities.
+
+### Key Contributions
+- Proposes a novel transformer-assisted LLM framework specifically optimized for source code summarization with security focus.
+- Demonstrates improved semantic summarization quality by combining syntactic code features and LLM capabilities.
+- Provides an evaluation benchmark tailored to secure software development scenarios.
+
+### Method & Results
+- Utilizes a hybrid architecture merging transformer-based encoding of code syntax with fine-tuned LLMs for generating summaries.
+- Experiments conducted on security-relevant open-source code datasets (e.g., security patches and vulnerability fixes).
+- Achieved up to 15% improvement in BLEU and ROUGE scores over standard LLM summarization baselines.
+- Reports enhanced detection of security-critical code segments in generated summaries.
+
+### Impact & Limitations
+- Enables developers to more quickly understand and audit code, potentially reducing security risks in software development cycles.
+- Future work: broader evaluation across diverse programming languages and integration with real-time developer tools.
+- Limitations include reliance on the quality and representativeness of security-specific datasets and computational overhead of transformer-LLM integration.
+
+---
+
+### 安全领域 领域
+
+#### Agree on the Model, Verify the Inference: GKR Protocols for HND-Based Transformer Inference
+**作者**: Xiaolong Liang, Juanjuan Li, Rui Qin, Yisheng Lv
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.21162v1
+
+#### Executive Summary
+This paper addresses the challenge of verifiable inference on Transformer models under Homomorphic Neural Decoding (HND) frameworks. The authors propose novel GKR-based protocols to ensure correctness of Transformer inference while preserving privacy. Experimental results demonstrate efficient and secure verification with minimal overhead.
+
+### Key Contributions
+- Introduces GKR protocols tailored for verifying HND-based Transformer inference.
+- Develops a novel model agreement mechanism to synchronize prover and verifier for inference correctness.
+- Demonstrates practical efficiency improvements over existing verifiable inference schemes.
+
+### Method & Results
+- Utilizes GKR (Goldwasser-Kalai-Rothblum) interactive proof systems adapted to Transformer architecture under HND constraints.
+- Implements model agreement to synchronize inference results before verification.
+- Evaluated on standard Transformer benchmarks (not explicitly named), achieving verification with low latency and computational overhead.
+- Outperforms baseline verifiable inference methods in terms of runtime efficiency and communication cost.
+
+### Impact & Limitations
+- Enables trustworthy AI inference in privacy-sensitive environments like secure ML-as-a-service.
+- Future work needed to extend protocols to larger Transformer models and diverse architectures.
+- Scalability to real-world large-scale deployments remains to be demonstrated.
+
+---
+
+#### Which Model Is Actually Serving You? IRIS: Budgeted Black-Box Auditing of Model Substitution and Routing Dilution in LLM Gateways
+**作者**: Yuewei Zhang, Zhi-Hai Zhang, Hanzhang Qin
+**类别**: cs.CR
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.20860v1
+
+#### Executive Summary
+This paper addresses the challenge of identifying which underlying model is actually serving responses in large language model (LLM) gateways, where model substitution or routing dilution may occur without user knowledge. The authors propose IRIS, a black-box auditing framework that budget-efficiently detects model substitution and routing inconsistencies. Experiments demonstrate IRIS’s effectiveness in accurately auditing model use under practical query cost constraints.
+
+### Key Contributions
+- Introduces IRIS, the first budgeted black-box auditing method targeting model substitution and routing dilution in LLM gateways.
+- Develops query-efficient testing strategies minimizing interaction cost while ensuring reliable model identification.
+- Provides comprehensive empirical validation across various real-world LLM routing scenarios.
+
+### Method & Results
+- Utilizes adaptive querying and statistical inference to detect deviations indicative of routing or substitution changes.
+- Evaluated on real LLM gateways with different substitution and routing policies.
+- Achieves high detection accuracy (e.g., >90%) with significantly fewer queries compared to naive baselines.
+- Outperforms existing black-box auditing approaches in efficiency and reliability under query budget constraints.
+
+### Impact & Limitations
+- Enables users and auditors to verify model provenance and ensure transparency in LLM-based services.
+- Limited to black-box access; future work may explore white-box insights or handle more complex multi-model routing schemes.
+- Performance depends on the nature of routing policies and query budgets, suggesting potential improvements in adaptive strategies.
+
+---
+
+#### Beyond Heavy Log Curation: Perplexity-Based APT Detection via Unsupervised, Context-Augmented Language Models
+**作者**: Shoya Otsu, Kei Suzuki, Toshiaki Koike-Akino, Jing Liu, Ye Wang
+**类别**: cs.LG, cs.AI, cs.CL, cs.CR
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.20832v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting advanced persistent threats (APTs) in cybersecurity logs without relying on extensive manual log curation. The authors propose an unsupervised, perplexity-based detection method leveraging context-augmented language models to identify anomalies indicative of APTs. Results demonstrate improved detection performance over traditional heavy log preprocessing approaches.
+
+### Key Contributions
+- Introduces a novel perplexity-based anomaly scoring method using unsupervised language models for APT detection.
+- Proposes context augmentation techniques to enhance language model understanding of log sequences without manual intervention.
+- Demonstrates efficacy of unsupervised methods in complex cybersecurity environments, reducing dependence on labeled data.
+
+### Method & Results
+- Utilizes pretrained and fine-tuned language models augmented with contextual information for log anomaly detection via perplexity scores.
+- Evaluated on real-world cybersecurity log datasets containing APT activities.
+- Achieved higher detection accuracy and lower false positive rates compared to baseline methods relying on manual feature engineering.
+- Quantitatively outperformed existing supervised and unsupervised approaches, though exact metrics depend on dataset specifics.
+
+### Impact & Limitations
+- Enables scalable, adaptive APT detection in operational settings by minimizing heavy manual preprocessing and labeling.
+- Future work may focus on extending model interpretability and assessing robustness against evasion tactics tailored to perplexity-based detectors.
+
+---
+
+#### Classical Acceptance Is Not Hybrid Authentication: Measuring X.509 Verifier Semantics in Post-Quantum Migration
+**作者**: Taesung Kim, Boheung Chung, Keonwoo Kim, Yousung Kang
+**类别**: cs.CR
+**发布日期**: 2026-07-23
+**链接**: http://arxiv.org/abs/2607.20800v1
+
+#### Executive Summary
+This paper investigates the semantic differences between classical X.509 certificate acceptance and hybrid authentication schemes critical for secure post-quantum migration. It analyzes current X.509 verifiers to understand their behavior and proposes measurement techniques revealing flaws in hybrid authentication adoption. The authors demonstrate that naive classical acceptance does not guarantee hybrid security, underscoring the need for refined verification protocols.
+
+### Key Contributions
+- Identification and formalization of semantic gaps in X.509 verifier behavior relevant to post-quantum hybrid schemes.
+- Development of a measurement framework to analyze and classify X.509 verifier semantics in deployed systems.
+- Empirical demonstration that widely used verifiers fail to uphold hybrid authentication guarantees, highlighting migration risks.
+
+### Method & Results
+- Developed automated tools to analyze X.509 verifiers’ acceptance criteria across classical and hybrid post-quantum signatures.
+- Evaluated a comprehensive set of real-world verifiers used in popular TLS libraries and platforms.
+- Found that over 70% of tested verifiers do not properly enforce hybrid authentication semantics, leading to potential downgrade or forgery attacks.
+- Benchmarked against classical-only baseline acceptance models to quantify acceptance divergence.
+
+### Impact & Limitations
+- Emphasizes critical security considerations for the practical deployment of post-quantum hybrid authentication in TLS and PKI infrastructures.
+- Calls for urgent updates to verification standards and implementations to avoid undermining post-quantum security guarantees.
+- Limited to current verifier implementations; future work needed to propose standardized hybrid verification protocols and deployability studies.
+
+---
+
+#### IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests
+**作者**: Ankur Singh, Jinqiu Yang, Tse-Hsun Chen
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-07-22
+**链接**: http://arxiv.org/abs/2607.20759v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of AI coding agents to malicious issue requests in software development workflows. The authors introduce IssueTrojanBench, a benchmark designed to evaluate AI agents’ resilience against such adversarial inputs. Results reveal notable weaknesses in current AI coding models, highlighting security risks.
+
+### Key Contributions  
+- Proposes IssueTrojanBench, the first benchmark specifically targeting malicious issue requests for AI coding agents.  
+- Demonstrates AI agents’ susceptibility to crafted adversarial issues, revealing a new threat vector.  
+- Provides insights and metrics to guide the development of more robust AI code generation systems.
+
+### Method & Results  
+- Developed a suite of adversarial issue requests to test AI coding agents’ responses and security vulnerabilities.  
+- Evaluated multiple state-of-the-art AI coding agents using IssueTrojanBench.  
+- Found a significant degradation in agent performance on malicious requests, with error rates increasing by up to 35% compared to benign issues.  
+- Compared to baseline behavior on normal issues, agents showed inconsistent detection and mitigation of malicious input.
+
+### Impact & Limitations  
+- Highlights a critical gap in AI coding security, urging integration of adversarial robustness in development tools.  
+- Limited to synthetic malicious issue scenarios; real-world issue diversity and adaptive attack strategies remain underexplored.  
+- Future work should focus on defense mechanisms and broader evaluation across more diverse and evolving threat models.
 
 ---
 
