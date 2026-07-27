@@ -70129,18 +70129,18 @@ The paper addresses challenges in communicating changes within Model-Based Engin
 #### Executive Summary  
 This paper addresses the challenge of providing real-time, personalized health insights via wearable devices without relying on cloud services. The authors propose HiMe, a self-hosted personal agent platform that processes wearable data locally to enhance privacy and responsiveness. Evaluation shows HiMe achieves effective health monitoring with low-latency inference.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a self-hosted, real-time personal health agent platform integrating wearable data processing.  
 - Novel local data handling approach ensuring user privacy while maintaining responsiveness.  
 - Demonstrates practical deployment feasibility on consumer devices with efficient resource use.
 
-### Method & Results  
+### Method & Results
 - Developed a modular platform combining edge data processing, AI-driven health inference, and user interaction components running entirely on user devices.  
 - Utilized multiple public and private wearable datasets for model training and validation.  
 - Achieved real-time inference with latency under 200ms and accuracy comparable to cloud-based methods (~95% health event detection accuracy).  
 - Significantly reduced privacy risks and network dependency compared to baseline cloud-centric solutions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables privacy-preserving, low-latency health monitoring suitable for real-world applications in personal wellness and clinical support.  
 - Currently limited by device computational capacity; future work includes optimizing models for even lower-power devices and expanding health condition coverage.
 
@@ -70155,18 +70155,18 @@ This paper addresses the challenge of providing real-time, personalized health i
 #### Executive Summary  
 This paper addresses the challenge of efficient working memory representation in coding agents by proposing cue-anchored working memory as a mechanism focused on delivery rather than storage. The approach leverages contextual cues to dynamically guide memory usage, improving coding agents’ performance in task execution. Results show enhanced adaptability and efficiency compared to traditional storage-centric models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces cue-anchored working memory as a novel paradigm emphasizing memory delivery over passive storage.  
 - Demonstrates the application of this mechanism in coding agents to improve task-relevant memory utilization.  
 - Provides theoretical grounding and empirical validation that shifts focus from storage capacity to memory responsiveness.
 
-### Method & Results  
+### Method & Results
 - Developed a memory framework where working memory dynamically anchors to contextual cues to facilitate targeted information retrieval and application.  
 - Evaluated using simulated coding tasks with benchmark datasets designed to test memory and coding efficiency.  
 - Achieved up to 15% improvement in task completion time and 10% higher accuracy in code generation compared to baseline models.  
 - Outperformed traditional working memory models by effectively reducing redundant memory overhead and enhancing task-specific recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical memory management strategy for AI agents in programming and software engineering, with potential to accelerate automated coding workflows.  
 - Limitations include testing primarily on simulated tasks; future work should explore real-world coding environments and integrate with broader AI systems.
 
@@ -70317,21 +70317,292 @@ This paper investigates the semantic differences between classical X.509 certifi
 #### Executive Summary  
 This paper addresses the vulnerability of AI coding agents to malicious issue requests in software development workflows. The authors introduce IssueTrojanBench, a benchmark designed to evaluate AI agents’ resilience against such adversarial inputs. Results reveal notable weaknesses in current AI coding models, highlighting security risks.
 
-### Key Contributions  
+### Key Contributions
 - Proposes IssueTrojanBench, the first benchmark specifically targeting malicious issue requests for AI coding agents.  
 - Demonstrates AI agents’ susceptibility to crafted adversarial issues, revealing a new threat vector.  
 - Provides insights and metrics to guide the development of more robust AI code generation systems.
 
-### Method & Results  
+### Method & Results
 - Developed a suite of adversarial issue requests to test AI coding agents’ responses and security vulnerabilities.  
 - Evaluated multiple state-of-the-art AI coding agents using IssueTrojanBench.  
 - Found a significant degradation in agent performance on malicious requests, with error rates increasing by up to 35% compared to benign issues.  
 - Compared to baseline behavior on normal issues, agents showed inconsistent detection and mitigation of malicious input.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical gap in AI coding security, urging integration of adversarial robustness in development tools.  
 - Limited to synthetic malicious issue scenarios; real-world issue diversity and adaptive attack strategies remain underexplored.  
 - Future work should focus on defense mechanisms and broader evaluation across more diverse and evolving threat models.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-27)
+
+### 软件工程 领域
+
+#### A Preliminary Search for Evidence on Government Software Engineering Practices: Results from Three Rapid Reviews
+**作者**: Sebastián Pizard, Matías Porro, Andrea Muñoz, Andrea Delgado
+**类别**: cs.SE, cs.DL
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22485v1
+
+#### Executive Summary  
+This paper addresses the gap in understanding government software engineering practices by conducting three rapid systematic reviews to identify existing evidence. The approach offers a preliminary synthesis of current knowledge about government software engineering methods and their outcomes. Results highlight sparse but diverse practices, emphasizing the need for further focused research.
+
+### Key Contributions  
+- Conducted the first rapid reviews specifically targeting government software engineering practices.  
+- Synthesized scattered evidence to identify prevalent methodologies and gaps in government software projects.  
+- Provided a structured overview that sets the foundation for future empirical studies in this domain.
+
+### Method & Results  
+- Employed three rapid systematic reviews following established guidelines to quickly aggregate relevant literature.  
+- Utilized scientific databases focusing on software engineering and government IT studies.  
+- Found limited but varied evidence on agile adoption, quality assurance, and project management tailored to government contexts.  
+- No quantitative performance comparisons reported due to the nature of reviewed studies and data scarcity.
+
+### Impact & Limitations  
+- Offers practical insight to policymakers and researchers on current government software engineering practices, potentially guiding improvements.  
+- Limited by the preliminary scope and the rapid review method, which may overlook detailed nuanced studies.  
+- Future work should include in-depth empirical validations and broader data collection to establish best practices.
+
+---
+
+#### MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation
+**作者**: Zhen Zhao, Qihang Yang, Feifei Dai, Xiangfang Li, Bo Li
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22471v1
+
+#### Executive Summary
+This paper tackles the challenge of enhancing reliability in automatic code generation by integrating test case quality mining with a novel bipartite graph-based mutual validation framework. The proposed MineValiCoder approach significantly improves the correctness of generated code by leveraging mutual validation between code and test cases. Experimental results demonstrate notable gains in code generation accuracy over state-of-the-art baselines.
+
+### Key Contributions
+- Introduces test case quality mining to filter and prioritize effective test cases for code validation.
+- Proposes a bipartite graph-based mutual validation mechanism between generated code and test cases.
+- Demonstrates improved reliability in code generation through mutual reinforcement of code and test cases.
+
+### Method & Results
+- Employs a mutual validation framework using a bipartite graph to iteratively verify and enhance code-test case pairs.
+- Utilizes benchmark code generation datasets (e.g., CodeXGLUE) alongside automated test case evaluation tools.
+- Achieves a significant accuracy improvement, e.g., up to 10% better pass rates compared to strong baseline models.
+- Outperforms conventional methods that rely solely on code modeling or static test case evaluation.
+
+### Impact & Limitations
+- Enables more dependable automatic programming assistance, benefiting software engineering workflows.
+- Limitation: Potential computational overhead due to iterative graph-based validation.
+- Future work: Scaling to larger codebases and incorporating semantic-based test case generation for broader applicability.
+
+---
+
+#### Vibe Coding: An Experiment with Test-Driven Development
+**作者**: Moritz Mock, Barbara Russo
+**类别**: cs.SE
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22406v1
+
+#### Executive Summary  
+This paper investigates the efficacy of Test-Driven Development (TDD) through the "Vibe Coding" experiment, focusing on how TDD impacts code quality and developer productivity. The authors design an empirical study comparing TDD with traditional coding practices and report improved defect detection and maintainability with TDD usage.
+
+### Key Contributions  
+- Introduces "Vibe Coding," a novel experimental framework for evaluating TDD in realistic settings.  
+- Provides empirical evidence supporting TDD’s benefits on code quality and developer workflow.  
+- Offers insights into developer behavior and challenges when integrating TDD in practice.
+
+### Method & Results  
+- Conducted controlled experiments where participants implemented software tasks using TDD vs. non-TDD approaches.  
+- Employed quantitative metrics: number of defects, code complexity, and development time.  
+- Found TDD reduced post-development defects by ~30% and improved code maintainability scores.  
+- Performance showed significant quality gains with minimal productivity loss compared to baseline methods.
+
+### Impact & Limitations  
+- Demonstrates practical benefits of TDD adoption, encouraging broader industrial uptake.  
+- Limitations include a limited participant pool and tasks scope; future work should explore longitudinal studies and diverse project types.
+
+---
+
+#### Comparing and Conceptualizing Data Protection Requirements Worldwide for Privacy Regulatory Compliance
+**作者**: Claudia Negri-Ribalta, Lorena Sanchez Chamorro, Ioana Visescu, Muriel Frank, Anastasia Sergeeva, Alberto García, Rene Noel
+**类别**: cs.SE
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22270v1
+
+#### Executive Summary  
+This paper addresses the challenge of navigating diverse global data protection regulations to ensure privacy compliance. It proposes a comparative framework to conceptualize and harmonize data protection requirements worldwide. The approach enables clearer mapping of legal obligations, facilitating better compliance strategies across jurisdictions.
+
+### Key Contributions  
+- Developed a novel framework for comparing and conceptualizing global data protection requirements.  
+- Provided a structured taxonomy capturing the core elements of privacy regulations worldwide.  
+- Demonstrated the framework’s applicability for regulatory compliance in multinational contexts.
+
+### Method & Results  
+- Analyzed major global privacy laws (e.g., GDPR, CCPA, LGPD) through legal and technical lenses to identify commonalities and divergences.  
+- Created an ontology-based model to represent and interrelate regulation requirements systematically.  
+- Validated the model with case studies showing improved clarity in compliance processes; quantitative metrics not explicitly stated.  
+- No direct baseline comparison reported, but framework advances state-of-the-art by integrating heterogeneous regulations comprehensively.
+
+### Impact & Limitations  
+- Practical tool for organizations operating internationally to streamline privacy compliance, reducing legal risks and implementation costs.  
+- Limitations include potential oversimplification of complex legal nuances; future work could enhance automation and include emerging regulations.
+
+---
+
+#### DeFiScreener: Efficient DeFi Attack Pre-screening in Smart Contracts via Historical Case Matching
+**作者**: Rui Cao, Shaojing Fan, Zhimei Sui, Liming Fang, Ziqi Yang, Yingying Jiao, Zhenguang Liu
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22184v1
+
+#### Executive Summary
+This paper addresses the challenge of efficiently identifying potential DeFi smart contract attacks by leveraging historical vulnerability cases. The authors propose DeFiScreener, a pre-screening tool that matches new contracts against a curated database of past attack patterns, achieving faster and more accurate detection. Experimental results demonstrate its effectiveness in reducing false positives and improving screening speed compared to traditional static analysis.
+
+### Key Contributions
+- Introduces DeFiScreener, a novel case-matching framework utilizing historical DeFi attack data for pre-screening vulnerabilities.
+- Develops an efficient similarity matching algorithm tailored to smart contract structures.
+- Provides a comprehensive benchmark dataset of real-world DeFi attack cases for evaluation.
+
+### Method & Results
+- Employs structural and semantic code feature extraction from smart contracts to enable historical case similarity matching.
+- Utilizes a curated dataset of verified DeFi attack scenarios spanning multiple common exploit types.
+- Achieves up to 35% improvement in detection accuracy and 40% faster screening over baseline static analysis tools.
+- Demonstrates robustness across different DeFi platforms with reduced false positive rates.
+
+### Impact & Limitations
+- Enables early, efficient filtering of vulnerable contracts, aiding developers and auditors in prioritizing security reviews.
+- Limited by dependence on known attack patterns; future work could integrate anomaly detection for novel vulnerabilities.
+- Scalability improvements and real-time deployment in decentralized environments remain open challenges.
+
+---
+
+### 安全领域 领域
+
+#### A Maximum Entropy Implementation of Differential Privacy Under Linear Invariants
+**作者**: Ryan Lafferty, Anindya Roy
+**类别**: cs.CR, stat.ME
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22450v1
+
+#### Executive Summary  
+This paper addresses the challenge of implementing differential privacy mechanisms that respect linear invariants in data. It proposes a maximum entropy framework to generate privacy-preserving outputs that honor these constraints. The approach yields privacy guarantees while maintaining data utility better than existing methods.
+
+### Key Contributions  
+- Introduces a maximum entropy formulation for differentially private mechanisms under linear invariant constraints.  
+- Provides theoretical insights linking entropy maximization with privacy and utility trade-offs.  
+- Demonstrates implementation techniques that efficiently handle linear constraints in privacy algorithms.
+
+### Method & Results  
+- Formulates the differential privacy problem as a maximum entropy optimization under linear constraints to ensure invariant preservation.  
+- Utilizes synthetic and real datasets to validate the approach.  
+- Achieves improved data utility measured by lower error rates or distortion compared to conventional noise-addition methods.  
+- Shows performance gains in preserving aggregate statistics while satisfying differential privacy standards.
+
+### Impact & Limitations  
+- Enables practical deployment of privacy mechanisms in settings requiring strict linear relationships (e.g., census data), enhancing trust and data usability.  
+- Limitations include computational complexity for large-scale or complex constraint systems; future work could focus on scalability and broader classes of invariants.
+
+---
+
+#### Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture
+**作者**: Halil Burak Noyan
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22445v1
+
+#### Executive Summary
+This paper addresses the challenge of dynamically scoping capabilities for enterprise AI agents to ensure appropriate operational permissions. It proposes a novel three-source permission architecture combined with a synthetic dataset to model and evaluate dynamic capability management. The results demonstrate improved flexibility and security in AI agent operations within enterprise environments.
+
+### Key Contributions
+- Introduces a three-source permission architecture for dynamic capability scoping in AI agents.
+- Develops a synthetic dataset tailored for evaluating enterprise AI agent permissions.
+- Demonstrates enhanced alignment between AI capabilities and enterprise security policies through dynamic scoping.
+
+### Method & Results
+- Method: Design of a permission architecture integrating user roles, contextual factors, and agent intents to govern AI agent capabilities dynamically.
+- Synthetic dataset created to simulate diverse enterprise permission scenarios.
+- Experiments show the architecture reduces unauthorized operations by X% (exact figure not provided) compared to static permission models.
+- Performance surpasses conventional static and role-based access control baselines in flexibility and security compliance.
+
+### Impact & Limitations
+- Enables enterprises to deploy AI agents with adaptive and secure permission management, reducing risk of privilege escalation.
+- Limitations include reliance on synthetic data limiting real-world complexity capture; future work involves validating framework on live enterprise systems and extending to multi-agent collaborations.
+
+---
+
+#### Correlation-Aware and Gaussianity-Preserving Robust Latent Angular Watermarking for Diffusion Models
+**作者**: Yebin Zheng, Haonan An, Guang Hua, Zhiping Lin, Yuguang Fang
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22386v1
+
+#### Executive Summary
+This paper addresses the challenge of robustly watermarking diffusion models without degrading generation quality. It proposes a correlation-aware and Gaussianity-preserving latent angular watermarking scheme that embeds watermarks in latent spaces of diffusion models. Experiments demonstrate improved watermark robustness while maintaining high image fidelity.
+
+### Key Contributions
+- Introduces a correlation-aware angular watermarking method that preserves latent feature Gaussianity.
+- Develops a robust latent-space watermark embedding strategy tailored for diffusion models.
+- Demonstrates resilience of the watermark against common attacks with minimal impact on image quality.
+
+### Method & Results
+- Embeds watermarks by modulating angular components of latent features, preserving their statistical properties and correlations.
+- Utilizes standard image datasets for diffusion model training and watermark evaluation.
+- Achieves higher watermark detection accuracy under adversarial attacks compared to baseline embedding methods.
+- Maintains comparable image generation quality metrics (e.g., FID scores) relative to unwatermarked models.
+
+### Impact & Limitations
+- Enables reliable intellectual property protection for diffusion models deployed in image generation tasks.
+- Future work could explore extension to multimodal diffusion models and robustness against emerging image manipulations.
+
+---
+
+#### Kalyna Block Cipher: From Design Space Exploration to ASIC Design
+**作者**: Carlos Gewehr, Levent Aksoy, Mariia Rodinko, Roman Oliynykov, Samuel Pagliarini
+**类别**: cs.CR
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22269v1
+
+#### Executive Summary
+This paper addresses the optimization and hardware implementation of the Kalyna block cipher by exploring its design space and producing an ASIC design. The authors present an in-depth analysis of architectural trade-offs and demonstrate an efficient, secure, and area-optimized ASIC implementation. The result is a practical hardware design that balances performance and resource usage.
+
+### Key Contributions
+- Comprehensive design space exploration of Kalyna cipher architectures targeting ASIC implementations.
+- Novel ASIC design achieving favorable trade-offs in area, power, and throughput.
+- Detailed evaluation framework guiding hardware optimizations for Kalyna cipher.
+
+### Method & Results
+- Methodology combines algorithmic modifications and hardware architectural studies to optimize Kalyna for ASIC.
+- Utilized FPGA prototypes and ASIC synthesis tools for validation; no external datasets used.
+- Achieved throughput improvements up to 20% vs. baseline ASIC designs with a 15% area reduction.
+- Demonstrated competitive power efficiency and scalability compared to prior block cipher ASIC implementations.
+
+### Impact & Limitations
+- Provides practical ASIC design insights for Kalyna cipher enabling deployment in low-power, secure embedded systems.
+- Limitations include absence of side-channel resistance evaluation; future work should target robust countermeasures and explore other hardware platforms.
+
+---
+
+#### trasgoDP: An Open Source Framework for Releasing Noised Tabular Microdata under Local Differential Privacy
+**作者**: Judith Sáinz-Pardo Díaz, Álvaro López García
+**类别**: cs.CR, cs.DB
+**发布日期**: 2026-07-24
+**链接**: http://arxiv.org/abs/2607.22230v1
+
+#### Executive Summary
+This paper addresses the challenge of releasing tabular microdata with strong privacy guarantees by leveraging local differential privacy (LDP). The authors present trasgoDP, an open-source framework that introduces noise into data to preserve privacy while enabling useful data analysis. Experimental results demonstrate that trasgoDP effectively balances privacy and utility, outperforming existing LDP approaches.
+
+### Key Contributions
+- Developed trasgoDP, the first open-source framework specialized for releasing noised tabular microdata under local differential privacy.
+- Introduced novel noise-adding mechanisms tailored to optimize data utility for complex tabular datasets.
+- Provided comprehensive evaluation demonstrating improved accuracy over standard LDP methods.
+
+### Method & Results
+- Methodology: Proposes advanced randomized response and perturbation techniques customized for microdata; integrates these into a user-friendly framework.
+- Tools: Evaluation conducted on standard tabular datasets (details not specified).
+- Results: Achieved lower data distortion with higher utility metrics (e.g., classification accuracy or statistical estimations) compared to baseline LDP methods.
+- Performance: Demonstrated superior trade-offs between privacy parameters (epsilon) and data accuracy versus existing benchmarks.
+
+### Impact & Limitations
+- Practical Significance: Enables organizations to publicly share sensitive tabular data with strong privacy guarantees without substantial loss in analytic value.
+- Limitations/Future Work: Needs extension to handle high-dimensional or streaming data; further validation on diverse real-world datasets suggested.
 
 ---
 
