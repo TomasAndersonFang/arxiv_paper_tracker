@@ -70350,18 +70350,18 @@ This paper addresses the vulnerability of AI coding agents to malicious issue re
 #### Executive Summary  
 This paper addresses the gap in understanding government software engineering practices by conducting three rapid systematic reviews to identify existing evidence. The approach offers a preliminary synthesis of current knowledge about government software engineering methods and their outcomes. Results highlight sparse but diverse practices, emphasizing the need for further focused research.
 
-### Key Contributions  
+### Key Contributions
 - Conducted the first rapid reviews specifically targeting government software engineering practices.  
 - Synthesized scattered evidence to identify prevalent methodologies and gaps in government software projects.  
 - Provided a structured overview that sets the foundation for future empirical studies in this domain.
 
-### Method & Results  
+### Method & Results
 - Employed three rapid systematic reviews following established guidelines to quickly aggregate relevant literature.  
 - Utilized scientific databases focusing on software engineering and government IT studies.  
 - Found limited but varied evidence on agile adoption, quality assurance, and project management tailored to government contexts.  
 - No quantitative performance comparisons reported due to the nature of reviewed studies and data scarcity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers practical insight to policymakers and researchers on current government software engineering practices, potentially guiding improvements.  
 - Limited by the preliminary scope and the rapid review method, which may overlook detailed nuanced studies.  
 - Future work should include in-depth empirical validations and broader data collection to establish best practices.
@@ -70404,18 +70404,18 @@ This paper tackles the challenge of enhancing reliability in automatic code gene
 #### Executive Summary  
 This paper investigates the efficacy of Test-Driven Development (TDD) through the "Vibe Coding" experiment, focusing on how TDD impacts code quality and developer productivity. The authors design an empirical study comparing TDD with traditional coding practices and report improved defect detection and maintainability with TDD usage.
 
-### Key Contributions  
+### Key Contributions
 - Introduces "Vibe Coding," a novel experimental framework for evaluating TDD in realistic settings.  
 - Provides empirical evidence supporting TDD’s benefits on code quality and developer workflow.  
 - Offers insights into developer behavior and challenges when integrating TDD in practice.
 
-### Method & Results  
+### Method & Results
 - Conducted controlled experiments where participants implemented software tasks using TDD vs. non-TDD approaches.  
 - Employed quantitative metrics: number of defects, code complexity, and development time.  
 - Found TDD reduced post-development defects by ~30% and improved code maintainability scores.  
 - Performance showed significant quality gains with minimal productivity loss compared to baseline methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates practical benefits of TDD adoption, encouraging broader industrial uptake.  
 - Limitations include a limited participant pool and tasks scope; future work should explore longitudinal studies and diverse project types.
 
@@ -70430,18 +70430,18 @@ This paper investigates the efficacy of Test-Driven Development (TDD) through th
 #### Executive Summary  
 This paper addresses the challenge of navigating diverse global data protection regulations to ensure privacy compliance. It proposes a comparative framework to conceptualize and harmonize data protection requirements worldwide. The approach enables clearer mapping of legal obligations, facilitating better compliance strategies across jurisdictions.
 
-### Key Contributions  
+### Key Contributions
 - Developed a novel framework for comparing and conceptualizing global data protection requirements.  
 - Provided a structured taxonomy capturing the core elements of privacy regulations worldwide.  
 - Demonstrated the framework’s applicability for regulatory compliance in multinational contexts.
 
-### Method & Results  
+### Method & Results
 - Analyzed major global privacy laws (e.g., GDPR, CCPA, LGPD) through legal and technical lenses to identify commonalities and divergences.  
 - Created an ontology-based model to represent and interrelate regulation requirements systematically.  
 - Validated the model with case studies showing improved clarity in compliance processes; quantitative metrics not explicitly stated.  
 - No direct baseline comparison reported, but framework advances state-of-the-art by integrating heterogeneous regulations comprehensively.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical tool for organizations operating internationally to streamline privacy compliance, reducing legal risks and implementation costs.  
 - Limitations include potential oversimplification of complex legal nuances; future work could enhance automation and include emerging regulations.
 
@@ -70485,18 +70485,18 @@ This paper addresses the challenge of efficiently identifying potential DeFi sma
 #### Executive Summary  
 This paper addresses the challenge of implementing differential privacy mechanisms that respect linear invariants in data. It proposes a maximum entropy framework to generate privacy-preserving outputs that honor these constraints. The approach yields privacy guarantees while maintaining data utility better than existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a maximum entropy formulation for differentially private mechanisms under linear invariant constraints.  
 - Provides theoretical insights linking entropy maximization with privacy and utility trade-offs.  
 - Demonstrates implementation techniques that efficiently handle linear constraints in privacy algorithms.
 
-### Method & Results  
+### Method & Results
 - Formulates the differential privacy problem as a maximum entropy optimization under linear constraints to ensure invariant preservation.  
 - Utilizes synthetic and real datasets to validate the approach.  
 - Achieves improved data utility measured by lower error rates or distortion compared to conventional noise-addition methods.  
 - Shows performance gains in preserving aggregate statistics while satisfying differential privacy standards.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical deployment of privacy mechanisms in settings requiring strict linear relationships (e.g., census data), enhancing trust and data usability.  
 - Limitations include computational complexity for large-scale or complex constraint systems; future work could focus on scalability and broader classes of invariants.
 
