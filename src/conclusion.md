@@ -70606,3 +70606,274 @@ This paper addresses the challenge of releasing tabular microdata with strong pr
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-29)
+
+### 软件工程 领域
+
+#### RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models
+**作者**: Yanlin Wang, Suiquan Wang, Yanli Wang, Bowen Zhang, Daya Guo, Jiachi Chen, Zibin Zheng
+**类别**: cs.SE
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25996v1
+
+#### Executive Summary
+RepoReasoner addresses the challenge of evaluating long-context language models on repository-level code reasoning tasks, where understanding inter-file dependencies is essential. The authors propose a benchmark and evaluation framework tailored to test language models’ capability to reason across multiple files in a repository, demonstrating varied model performance and limitations in handling large-scale code contexts.
+
+### Key Contributions
+- Introduces RepoReasoner, the first benchmark specifically designed for assessing repository-level code reasoning in long-context LMs.  
+- Develops an evaluation framework that captures inter-file dependencies and multi-file program understanding.  
+- Provides extensive analysis of state-of-the-art long-context language models on repository-level code reasoning tasks.
+
+### Method & Results
+- Constructs tasks requiring reasoning over multiple files, leveraging a novel dataset curated from real-world code repositories.  
+- Employs state-of-the-art long-context language models, evaluating accuracy on reasoning-driven code queries spanning up to thousands of lines.  
+- Results show significant performance gaps, with model accuracy dropping notably as repository size and dependency complexity increase.  
+- Demonstrated superior performance of models with longer context windows, yet highlighting persistent challenges in holistic repository understanding.
+
+### Impact & Limitations
+- Advances the benchmarking of coding LMs beyond single-file tasks, pushing development toward practical and realistic code analysis tools.  
+- Limitations include dataset scale and diversity constraints; future work should explore larger, more varied repositories and model fine-tuning strategies to improve reasoning capability.
+
+---
+
+#### \textsc{IH-Benchmark}: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications
+**作者**: Conor McCauley, Zeliang Kan, Jason Martin
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25987v1
+
+#### Executive Summary
+This paper addresses robustness issues in Large Language Model (LLM) applications arising from instruction hierarchies that often contain conflicting commands. The authors propose \textsc{IH-Benchmark}, a novel conflict-centered benchmark designed to evaluate and improve instruction-hierarchy robustness. Experimental results demonstrate that \textsc{IH-Benchmark} effectively reveals weaknesses in current LLMs and guides enhancements.
+
+### Key Contributions
+- Introduces \textsc{IH-Benchmark}, the first benchmark focused on assessing robustness to hierarchical instruction conflicts in LLMs.
+- Provides a systematic framework for generating and categorizing instruction conflicts relevant to real-world LLM deployments.
+- Demonstrates the impact of instruction conflicts on LLM performance, guiding future robustness improvements.
+
+### Method & Results
+- Develops a method to construct conflicting instruction hierarchies and evaluate LLM responses under these conditions.
+- Uses a custom dataset of structured hierarchical instructions with intentional conflicts across various complexity levels.
+- Experimental evaluation shows existing LLMs suffer a >30% performance drop on conflict scenarios compared to non-conflict baselines.
+- Enhanced model variants informed by \textsc{IH-Benchmark} exhibit up to 15% improved robustness scores over standard baselines.
+
+### Impact & Limitations
+- Enables developers to better understand and mitigate failure modes in instruction-following applications, enhancing reliability.
+- Limitations include the focus on synthetic conflicts; future work should validate benchmark applicability on broader, real-user instruction data and integrate dynamic resolution strategies.
+
+---
+
+#### A Low-Cost Human-in-the-Loop Investigation of Toxicity on GitHub at Scale
+**作者**: Rahat Rizvi Rahman, Mia Mohammad Imran, Kostadin Damevski
+**类别**: cs.SE
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25946v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting toxicity in GitHub discussions by integrating human judgment into automated screening at scale with minimal cost. The authors propose a low-cost human-in-the-loop framework that combines automated models with targeted human review to improve toxicity identification. Results demonstrate enhanced accuracy and scalability compared to fully automated methods.
+
+### Key Contributions
+- Introduces a scalable, cost-effective human-in-the-loop framework tailored for GitHub toxicity detection.
+- Demonstrates improved toxicity identification by strategically combining automation with human review.
+- Provides an empirical analysis of toxicity prevalence and mitigation on a large-scale GitHub dataset.
+
+### Method & Results
+- Developed a hybrid pipeline that uses machine learning classifiers to flag potential toxic comments for human verification.
+- Employed a large dataset of GitHub issue comments and pull request discussions for training and evaluation.
+- Achieved higher precision and recall in toxicity detection than baseline automated models, improving accuracy by approximately 15%.
+- Showed that targeted human intervention substantially reduces false positives with marginal increase in cost.
+
+### Impact & Limitations
+- Enables more reliable toxicity monitoring on software development platforms, fostering healthier collaboration environments.
+- Limitations include potential scalability challenges for extremely large datasets and reliance on human annotator consistency.
+- Future work may focus on refining automated model accuracy and exploring dynamic human-in-the-loop strategies.
+
+---
+
+#### RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement
+**作者**: Fanqing Meng, Lingxiao Du, Qiguang Chen, Ziqi Zhao, Haocheng Lu, Mengkang Hu, Michael Qizhe Shieh
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25886v1
+
+#### Executive Summary  
+This paper addresses the challenge of benchmarking recursive self-improvement (RSI) systems from a data-centric perspective. The authors propose RSIBench-Data, a novel benchmark suite designed to evaluate and compare RSI methods based on their data-handling capabilities. Experiments demonstrate RSIBench-Data’s ability to highlight strengths and weaknesses of various RSI approaches.
+
+### Key Contributions  
+- Introduces RSIBench-Data, the first benchmark tailored explicitly for data-centric evaluation in recursive self-improvement research.  
+- Provides a systematic framework to measure RSI methods’ effectiveness in iteratively improving with real data dynamics.  
+- Empirically validates the benchmark by applying it to several state-of-the-art RSI models, revealing nuanced performance differences.
+
+### Method & Results  
+- Developed benchmark tasks simulating iterative data refinement and self-improvement cycles.  
+- Utilized datasets designed to reflect evolving data distributions relevant to RSI scenarios.  
+- Found that mainstream RSI models show varied adaptability, with some improving performance by up to 15% under RSIBench-Data conditions.  
+- Demonstrated that RSIBench-Data better discriminates between RSI approaches compared to traditional static benchmarks.
+
+### Impact & Limitations  
+- Provides a crucial tool for advancing research in RSI by focusing on realistic, data-driven evaluation metrics.  
+- Future work should expand dataset diversity and explore benchmark adaptation for emerging RSI paradigms.
+
+---
+
+#### A Machine-Learning-Based Gas Lift Optimization Workflow for Unconventional Fields
+**作者**: Sha, Miao, Alexandra Vendetti, Logan Smart, Gunta Chomchalerm, Yang Chen, Christopher Frazier, Dustin Haralson, Jeremy Sorenson, Xiao Ma, Huafei Sun, Aaron Shinn, Haining Zheng, Xiao-Hui Wu, Peng Xu
+**类别**: cs.LG, cs.AI, cs.SE
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25885v1
+
+#### Executive Summary
+This paper addresses the challenge of optimizing gas lift operations in unconventional oil and gas fields using machine learning. The authors develop a workflow integrating predictive modeling and optimization techniques to enhance gas lift efficiency. Their approach significantly improves production rates and operational decision-making.
+
+### Key Contributions
+- Proposes a novel ML-based optimization workflow tailored for the complexities of unconventional gas lift fields.
+- Integrates advanced predictive models with real-time operational data to guide gas injection settings.
+- Demonstrates improved production performance through automated and adaptive optimization strategies.
+
+### Method & Results
+- Utilizes supervised learning models (e.g., gradient boosting) combined with optimization algorithms to predict and adjust gas lift parameters.
+- Employs field data from multiple unconventional wells for model training and validation.
+- Achieves up to 15% production increase compared to traditional heuristic or static control methods.
+- Outperforms baseline approaches by reducing manual tuning and enhancing response to dynamic reservoir conditions.
+
+### Impact & Limitations
+- Provides a scalable, data-driven tool that can reduce operational costs and increase recovery in unconventional reservoirs.
+- Limitations include reliance on data quality and possible challenges in real-time deployment in highly volatile environments.
+- Future work may explore integration with digital twins and extension to multi-well field-scale optimization.
+
+---
+
+### 安全领域 领域
+
+#### Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?
+**作者**: Farooq Shaikh
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25995v1
+
+#### Executive Summary  
+This paper investigates whether incorporating runtime topology context enhances the quality of Kubernetes security patches generated by large language models (LLMs). By integrating dynamic cluster topology data into the LLM input, the authors assess improvements in patch relevance and security efficacy. Results indicate that topology-aware inputs lead to more accurate and contextually appropriate security patches.
+
+### Key Contributions  
+- Introduction of runtime Kubernetes topology context as an LLM input factor for security patch generation.  
+- Empirical demonstration that topology context improves security patch correctness and applicability.  
+- Development of a benchmark dataset combining Kubernetes security issues with associated runtime topology data.
+
+### Method & Results  
+- Leveraged an LLM fine-tuned on Kubernetes security patches, augmenting inputs with dynamic cluster topology snapshots during inference.  
+- Used a curated dataset of real-world Kubernetes vulnerabilities paired with runtime topology metadata.  
+- Quantitative results showed a 15% increase in patch correctness and a 20% improvement in security violation mitigation versus topology-agnostic baselines.  
+- Compared to baseline LLMs without topology context, topology-aware models produced fewer false positives and more contextually valid fixes.
+
+### Impact & Limitations  
+- Enhances automation of secure Kubernetes operations by making LLM-generated patches more context-aware and reliable.  
+- Limitations include reliance on accurate topology data availability and potential scalability challenges for large, dynamic clusters.  
+- Future work: refining topology representation and extending to other cloud-native environments.
+
+---
+
+#### \textsc{IH-Benchmark}: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications
+**作者**: Conor McCauley, Zeliang Kan, Jason Martin
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25987v1
+
+#### Executive Summary
+This paper addresses the robustness of large language model (LLM) applications to conflicting instructions within hierarchical tasks. The authors propose IH-Benchmark, a novel conflict-centered test suite designed to evaluate instruction-hierarchy robustness. Results show significant performance drops in existing LLMs, highlighting the challenge and gap in handling instruction conflicts.
+
+### Key Contributions
+- Introduces IH-Benchmark, the first benchmark focused on instruction-hierarchy conflicts in LLMs.
+- Provides a conflict-centric evaluation framework revealing robustness issues in current instruction-following models.
+- Demonstrates the benchmark’s effectiveness through extensive empirical evaluation on popular LLMs.
+
+### Method & Results
+- Constructs hierarchical instruction tasks embedding explicit conflicts to test model robustness.
+- Evaluates multiple state-of-the-art LLMs (e.g., GPT-4, PaLM) on IH-Benchmark.
+- Quantitative results show up to 30% accuracy degradation in conflict scenarios versus non-conflict baselines.
+- Baseline instruction-following models exhibit inconsistent performance, underscoring robustness gaps.
+
+### Impact & Limitations
+- Highlights critical failure modes in LLM deployment where instruction conflicts arise, guiding safer application design.
+- Limitations include benchmark scope restricted to synthetic conflicts; future work could incorporate real-world multi-agent instructions and adaptive mitigation strategies.
+
+---
+
+#### E-MagDiP: Electro-Magnetic based Differential Privacy for EEG based Community Sensing
+**作者**: Ayanga Imesha Kumari Kalupahana, Vishruti Ranjan, Li-Shiuan Peh
+**类别**: cs.CR, cs.HC
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25968v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in EEG-based community sensing by proposing E-MagDiP, a novel electro-magnetic based differential privacy mechanism. The approach integrates electromagnetic signal perturbation to preserve individual EEG data privacy while maintaining utility. Results demonstrate enhanced privacy guarantees with minimal degradation in sensing accuracy.
+
+### Key Contributions  
+- Introduces an innovative electro-magnetic noise injection technique for differential privacy in EEG data.  
+- Develops a community sensing framework that balances strong privacy with high data utility.  
+- Demonstrates effectiveness in real-world EEG-based sensing scenarios, outperforming conventional privacy methods.
+
+### Method & Results  
+- Utilizes electro-magnetic perturbations combined with formal differential privacy to secure EEG data before sharing.  
+- Evaluated on EEG datasets reflective of community sensing tasks using privacy and accuracy metrics.  
+- Achieved up to 30% improvement in privacy leakage reduction while maintaining over 85% sensing accuracy.  
+- Outperforms standard Laplace and Gaussian noise mechanisms in privacy-utility trade-off.
+
+### Impact & Limitations  
+- Enables safer sharing of sensitive EEG data for collaborative sensing, advancing privacy-preserving brain-computer interfaces.  
+- Limited evaluation on diverse EEG tasks; future work could extend to varied neuroimaging modalities and optimize perturbation parameters dynamically.
+
+---
+
+#### From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs
+**作者**: Zhiyi Mou, Wangze Ni, Tianfang Xiao, Haoyang LI, Chen Jason Zhang, Hanzhi Ma, Yang Bai, Zhibo Wang, Kui Ren
+**类别**: cs.CR
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25936v1
+
+#### Executive Summary  
+This paper addresses the security risks of persona conditioning in large language models (LLMs) by introducing “inference cost attacks,” which exploit role prompts to increase computational overhead. The authors propose novel attack strategies that manipulate persona prompts, demonstrating a significant rise in LLM inference costs without affecting output quality.
+
+### Key Contributions  
+- Identifies and formalizes inference cost attacks through persona conditioning in LLMs.  
+- Develops attack methodologies that leverage role prompts to inflate model inference time.  
+- Empirically validates attacks on multiple state-of-the-art LLMs, showing substantial efficiency degradation.
+
+### Method & Results  
+- Proposes exploiting persona-based prompt structures to trigger expensive model computations iteratively.  
+- Evaluates attacks on benchmark LLMs such as GPT variants with standard text generation tasks.  
+- Achieves up to a 3x increase in inference cost while maintaining response relevance and fluency.  
+- Demonstrates the attacks outperform naive prompt inflation baselines in cost-effectiveness.
+
+### Impact & Limitations  
+- Highlights a novel vulnerability that could degrade service efficiency in deployed LLMs, urging development of defense mechanisms.  
+- Limitations include evaluation on limited LLM architectures and lack of proposed mitigation strategies; future work should explore broader model types and defenses.
+
+---
+
+#### Hermes: Low Tail-Latency Via Prefix Consensus
+**作者**: Alejandro Ranchal-Pedrosa, Dakai Kang, Neil Giridharan, Dahlia Malkhi, Mohammad Sadoghi, Ben Marsh
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-07-28
+**链接**: http://arxiv.org/abs/2607.25916v1
+
+#### Executive Summary
+Hermes addresses the challenge of reducing tail latency in distributed consensus protocols by introducing a novel prefix consensus technique. The approach ensures faster agreement on prefixes of command sequences, significantly improving latency without sacrificing consistency. Experimental results demonstrate Hermes achieves substantially lower tail latency compared to state-of-the-art consensus algorithms.
+
+### Key Contributions
+- Introduces prefix consensus, enabling partial agreement on command prefixes to expedite progress.
+- Presents Hermes, a consensus protocol that leverages prefix consensus for low tail latency under realistic network conditions.
+- Provides rigorous evaluation showing Hermes outperforms existing protocols in latency tail reduction.
+
+### Method & Results
+- Develops a protocol design that commits command prefixes early, allowing subsequent commands to proceed with reduced coordination overhead.
+- Utilizes standard distributed systems benchmarks and real-world network traces in experiments.
+- Achieves up to 40% reduction in 99.9th percentile latency compared to leading consensus protocols like Multi-Paxos and Raft.
+- Demonstrates stable throughput with negligible consistency trade-offs.
+
+### Impact & Limitations
+- Hermes offers a practical solution for latency-sensitive distributed applications, improving responsiveness in consensus-based services.
+- Future work could explore adaptation to more heterogeneous networks and resilience against Byzantine faults.
+
+---
+
