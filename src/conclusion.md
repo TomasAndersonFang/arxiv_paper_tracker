@@ -70876,18 +70876,18 @@ Hermes addresses the challenge of reducing tail latency in distributed consensus
 #### Executive Summary  
 This paper addresses the challenge of synthesizing agent-based programs from scratch by introducing behavioral specification elicitation as a primary step. The proposed approach, SpecFirst, integrates explicit behavior specification before synthesis, improving program correctness and alignment with user intentions. Results demonstrate enhanced synthesis accuracy and reduced iteration cycles compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SpecFirst, a novel framework prioritizing behavioral specification elicitation in agent-based program synthesis.  
 - Empirically shows that upfront spec elicitation significantly improves synthesis correctness and efficiency.  
 - Provides a systematic pipeline integrating specification, synthesis, and verification tailored for agent-based systems.
 
-### Method & Results  
+### Method & Results
 - Methodology: (1) Elicit behavioral specifications from users as a dedicated step; (2) Generate agent-based programs guided by these specs using program synthesis techniques.  
 - Datasets/Tools: Benchmarked on multiple agent-based programming scenarios and synthetic behavior patterns; tooling integrates specification elicitation interfaces with synthesis engines.  
 - Results: Achieved up to 25% higher correctness and 30% fewer synthesis revisions over baseline synthesis-from-example approaches.  
 - Outperforms baseline synthesis pipelines that omit explicit specification elicitation in both accuracy and user interaction efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Demonstrates practical value in improving agent-based program development, reducing developer effort and errors.  
 - Limitations include dependency on quality of initial user specs and possible challenges scaling to highly complex agent behaviors; future work to enhance spec elicitation usability and scalability.
 
@@ -70902,18 +70902,18 @@ This paper addresses the challenge of synthesizing agent-based programs from scr
 #### Executive Summary  
 This paper addresses the challenge of enabling small language models to perform comprehensive software engineering tasks without access to source code during training. The authors propose MindForge, a novel framework that teaches such models entire software life-cycle activities via source-free program synthesis. Results demonstrate that MindForge-equipped small models achieve significant improvements in code generation and maintenance tasks compared to baseline approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MindForge, a framework enabling whole-life-cycle software engineering training of small LMs without source code data.  
 - Presents a novel source-free program synthesis approach that simulates real-world software development scenarios for model learning.  
 - Demonstrates effectiveness on diverse software engineering tasks, outperforming state-of-the-art small model baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes source-free program synthesis to generate training signals for lifecycle tasks like code generation, debugging, and maintenance.  
 - Evaluated on benchmark datasets representing typical SE activities, integrated with software engineering evaluation tools.  
 - Achieved up to a 20% improvement in code generation accuracy and 15% higher debugging success rates over comparable small language models.  
 - Outperforms baselines under comparable model size and training environment constraints.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical impact: Enables resource-efficient deployment of capable software engineering assistants on smaller models without costly source code datasets.  
 - Limitations: Generalization to large-scale real-world codebases remains to be validated; future work should explore integrating dynamic execution feedback and expanding lifecycle coverage.
 
@@ -70928,18 +70928,18 @@ This paper addresses the challenge of enabling small language models to perform 
 #### Executive Summary  
 This paper addresses the challenge of analyzing temporal dependencies in render-based reactive programming, which is critical for ensuring correct and efficient UI updates. The authors propose a novel type-and-effect system that statically captures these temporal dependencies to improve program correctness. Their system enables precise dependency analysis, demonstrated through formal proofs and practical examples.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a type-and-effect system tailored for temporal dependency analysis in render-based reactive programs.  
 - A formal framework that statically tracks and enforces temporal dependencies to prevent inconsistencies in UI updates.  
 - Demonstration of the system’s expressiveness and correctness through rigorous proofs and illustrative case studies.
 
-### Method & Results  
+### Method & Results
 - Developed a static type-and-effect system integrating temporal annotations to track dependencies during program compilation.  
 - Presented formal semantics and proofs establishing soundness and completeness of the analysis.  
 - Validated approach using representative reactive programming scenarios rather than large-scale benchmarks.  
 - No quantitative performance metrics reported; focus centered on correctness and expressiveness relative to existing static analyses.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the reliability and maintainability of reactive UI code by preventing temporal dependency errors prior to runtime.  
 - Limited empirical evaluation on real-world large applications; scalability and integration with current reactive frameworks remain open for future research.
 
@@ -70954,19 +70954,19 @@ This paper addresses the challenge of analyzing temporal dependencies in render-
 #### Executive Summary  
 This paper addresses the challenge developers face when debugging unfamiliar codebases by leveraging code tours automatically generated by local large language models (LLMs). The approach combines automatic generation of guided code walkthroughs with user evaluation to measure effectiveness. Results show that locally generated code tours improve debugging efficiency and comprehension compared to traditional exploration methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an automated generation of code tours using local LLMs tailored for unfamiliar code debugging.  
 - Empirically evaluates developer experience and debugging performance with these tours in real-world settings.  
 - Demonstrates usefulness of local LLMs, preserving privacy and reducing reliance on external APIs for code comprehension aids.
 
-### Method & Results  
+### Method & Results
 - Utilizes local LLMs to analyze codebases and generate step-by-step code tours highlighting important components for debugging.  
 - Conducts user studies with developers debugging unfamiliar projects using generated tours versus manual exploration.  
 - Dataset: Multiple open-source codebases of varied complexity; tools include local LLM implementations and debugging environments.  
 - Results indicate a significant reduction in debugging time and higher perceived ease of understanding with generated tours.  
 - Shows improved debugging efficiency over baseline manual code navigation, though exact performance gains are context-dependent.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical, privacy-conscious tool enhancing developers’ ability to quickly familiarize and debug new codebases.  
 - Limitations include dependency on the quality of LLM-generated tours and potential scalability issues with very large codebases.  
 - Future work could explore adaptive, interactive tours and integration with real-time coding workflows.
@@ -70982,18 +70982,18 @@ This paper addresses the challenge developers face when debugging unfamiliar cod
 #### Executive Summary  
 This paper addresses efficient context allocation in coding agents to improve invariance learning. The authors propose VITAL-RAG, an approach leveraging an invariance race mechanism to dynamically allocate contexts, enhancing agent adaptability. Experiments show VITAL-RAG achieves superior coding task performance and robustness compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the invariance race concept for dynamic context allocation in coding agents.  
 - Proposes VITAL-RAG framework integrating invariance learning with context management.  
 - Demonstrates improved coding task efficiency and generalization across benchmarks.
 
-### Method & Results  
+### Method & Results
 - Developed a novel mechanism where agents race to identify invariant features for optimized context allocation.  
 - Used coding benchmark datasets and standard programming task environments for evaluation.  
 - Achieved up to 15% performance improvement in task accuracy and 20% faster convergence than leading baselines.  
 - Outperformed state-of-the-art context allocation and invariant representation methods consistently across tasks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances adaptability and efficiency in automated coding systems, beneficial for real-world software synthesis and debugging.  
 - Limitations include potential scalability issues in extremely large context spaces and needs validation on diverse coding languages.  
 - Future work can extend to multi-agent collaboration and real-time coding environments.
@@ -71011,18 +71011,18 @@ This paper addresses efficient context allocation in coding agents to improve in
 #### Executive Summary  
 This paper addresses function privatization under the local differential privacy (LDP) model, focusing on enabling private function evaluation without a trusted curator. The authors propose novel mechanisms that privatize complex functions locally while maintaining utility. Their methods achieve improved privacy-utility trade-offs compared to existing local privacy approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces new locally private mechanisms for function privatization beyond basic numeric data.  
 - Develops theoretical privacy and utility guarantees tailored to the local model.  
 - Demonstrates practical algorithms with improved accuracy on benchmark tasks.
 
-### Method & Results  
+### Method & Results
 - Designs locally differentially private protocols leveraging randomized response and function approximation techniques.  
 - Employs synthetic and real-world datasets common in privacy research to evaluate utility (details unspecified).  
 - Achieves lower error rates in private function evaluation relative to prior local privacy baselines.  
 - Empirical results confirm superior trade-offs between privacy loss and accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables broader application of local differential privacy for complex function queries in distributed settings without a trusted aggregator.  
 - Limitations: scalability to high-dimensional functions and computational overhead warrant further study.  
 - Future work: optimizing algorithms for efficiency and extending frameworks to richer function classes.
@@ -71064,18 +71064,18 @@ This paper addresses robustness in large language model (LLM) safety alignment, 
 #### Executive Summary  
 This paper addresses the challenge of tracking and mitigating memory poisoning attacks in autonomous agents. It proposes MemSecBench, a comprehensive framework to monitor memory corruption persistence, assess its consequences, and enable repair mechanisms. The approach demonstrates effective identification and rectification of poisoned memory states, improving agent reliability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MemSecBench, the first unified benchmark for tracking agent memory poisoning from persistence to repair.  
 - Develops novel metrics and tools to quantify poisoning impact over time and guide recovery strategies.  
 - Validates framework effectiveness across various AI agents, showcasing improved robustness against memory attacks.
 
-### Method & Results  
+### Method & Results
 - Constructs a pipeline that simulates memory poisoning, tracks temporal persistence, evaluates agent behavior degradation, and applies automated memory repair.  
 - Utilizes standard AI agent environments and custom poisoning scenarios for evaluation.  
 - Achieves up to 40% reduction in performance degradation post-repair compared to unmitigated baseline.  
 - Outperforms existing ad hoc defense methods by systematically addressing attack persistence and consequences.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security assurance for AI agents deployed in critical settings through continuous integrity monitoring and repair.  
 - Limited by evaluation on simulated rather than real-world poisoning attacks; future work needed for broader threat models and adaptive adversaries.
 
@@ -71090,18 +71090,18 @@ This paper addresses the challenge of tracking and mitigating memory poisoning a
 #### Executive Summary  
 This paper addresses the challenge of rediscovering real AI-discovered CVEs (Common Vulnerabilities and Exposures) without relying on current frontier AI models. The authors introduce HoF-Bench, a benchmark to evaluate the rediscovery process using historical and accessible AI techniques. Results demonstrate effective identification of real CVEs, validating the approach even without state-of-the-art models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces HoF-Bench, the first benchmark for rediscovering AI-discovered CVEs using non-frontier models.  
 - Demonstrates that historical and less resource-intensive AI methods can reliably rediscover real vulnerabilities.  
 - Provides a comprehensive dataset and evaluation protocol fostering reproducibility beyond cutting-edge AI.
 
-### Method & Results  
+### Method & Results
 - Utilizes a systematic evaluation pipeline combining vulnerability datasets with AI techniques predating large frontier models.  
 - Leverages a curated dataset of known CVEs discovered by AI, integrated into HoF-Bench.  
 - Achieves high rediscovery rates of CVEs, quantitatively competitive with modern AI-based approaches (exact figures not detailed here).  
 - Shows robustness in rediscovery despite not using frontier models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables vulnerability research democratization by reducing dependency on cutting-edge, resource-heavy AI models.  
 - Limitations include potential gaps in rediscovery efficacy for the newest or most complex CVEs; future work could explore expanding the benchmark and improving technique generalization.
 
@@ -71116,20 +71116,292 @@ This paper addresses the challenge of rediscovering real AI-discovered CVEs (Com
 #### Executive Summary  
 This paper addresses the challenge of countering autonomous penetration agents by proposing AgentSnare, a learning-based framework that delays, diverts, and neutralizes such threats. The approach leverages reinforcement learning to adaptively respond to agent behaviors, achieving substantial improvements in defense effectiveness. Experimental results demonstrate superior performance over traditional security systems in mitigating autonomous attacks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces AgentSnare, the first adaptive framework designed specifically to handle autonomous penetration agents.  
 - Develops a novel reinforcement learning strategy for dynamic delay, diversion, and defusing tactics.  
 - Provides an empirical evaluation demonstrating significant gains in containment and neutralization rates.
 
-### Method & Results  
+### Method & Results
 - Utilizes reinforcement learning models trained to learn optimal intervention policies against autonomous agents.  
 - Employs simulated penetration scenarios and benchmark datasets for autonomous attack behaviors.  
 - Achieves up to 35% improvement in delay time and 25% higher agent neutralization rates compared to baseline defensive methods.  
 - Outperforms state-of-the-art static and heuristic-driven defense mechanisms in both adaptability and effectiveness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable, intelligent defense tool applicable in cybersecurity and physical security systems vulnerable to autonomous threats.  
 - Limited by reliance on accurate behavior models; future work includes adapting to evolving and unknown agent strategies and real-world deployment trials.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-07-31)
+
+### 软件工程 领域
+
+#### Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments
+**作者**: Haomin Qi, Xingliang Wang, Xuanqi Gao, Baihui Sang, Xin Zhang, Minghua Ma, Pengfei Gao, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
+**类别**: cs.SE, cs.CL, cs.LG
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28591v1
+
+#### Executive Summary
+This paper addresses the challenge of converting raw repository code changes into structured, executable tasks for coding agents and corresponding environment setups. The authors propose Change2Task, a framework that systematically transforms code diffs into task specifications and runnable environments, enabling automated agent training and evaluation. Experimental results demonstrate improved alignment between repository changes and task execution fidelity.
+
+### Key Contributions
+- Introduces Change2Task, a novel pipeline translating code repository changes into executable coding tasks and environments.
+- Provides a systematic approach to bridge version control diffs with task creation for autonomous coding agents.
+- Demonstrates practical utility in automated task generation, fostering realistic training and benchmarking scenarios.
+
+### Method & Results
+- Method: Extract and parse code changes from repositories; generate structured task definitions and instantiate corresponding execution environments.
+- Tools/Datasets: Utilizes real-world open-source code repositories with rich version history; integrates with existing environment virtualization tools.
+- Results: Shows that Change2Task-produced tasks better capture intended functionality changes; achieves higher task execution accuracy compared to heuristic baselines.
+- Performance: Outperforms baseline methods in producing executable tasks, improving agent task completion rates by significant margins (exact quantitative improvements detailed in paper).
+
+### Impact & Limitations
+- Impact: Facilitates scalable, realistic creation of coding tasks for autonomous programming agents, advancing research in software engineering and AI code generation.
+- Limitations/Future Work: Currently focused on code changes from certain languages/repos; extending to multi-language, cross-repo tasks and improving environment generality remain open challenges.
+
+---
+
+#### PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks
+**作者**: Manyi Wang, Junjielong Xu, Pinjia He
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28587v1
+
+#### Executive Summary
+This paper addresses misalignment issues between pull request (PR) intentions and issue tracking in SWE-Bench-like software engineering benchmarks. The authors introduce PAIChecker, a tool that identifies and verifies inconsistencies in PR-issue mappings to improve benchmark reliability. Experiments demonstrate PAIChecker effectively uncovers misalignments, enhancing dataset quality for research.
+
+### Key Contributions
+- Identification and formalization of PR-issue misalignment problems in SWE-Bench-like benchmarks.
+- Development of PAIChecker, an automated tool to detect and check PR-issue inconsistencies.
+- Empirical evaluation showcasing improved alignment accuracy and benchmark trustworthiness.
+
+### Method & Results
+- Method: Static and dynamic analysis techniques combined with natural language processing to match PR descriptions with linked issues.
+- Dataset: SWE-Bench and similar large-scale software engineering benchmark datasets.
+- Results: PAIChecker detected 35% of PR-issue pairs as misaligned; correction improved downstream task accuracy by up to 12%.
+- Outperforms baseline heuristic and rule-based matching methods in precision and recall.
+
+### Impact & Limitations
+- Impact: Enhances reliability and validity of widely-used SWE benchmarks, benefiting tool evaluation and software engineering research.
+- Limitations: Focused on specific benchmarks; scalability to broader datasets and more diverse project types requires further study. Future work includes integrating PAIChecker into continuous integration pipelines.
+
+---
+
+#### ORCA-bench: How Ready Are Language Model Agents for Oncall?
+**作者**: Albert Gong, Kyuseong Choi, Abhineet Agarwal, Jason Schechner, Ryan Huang, Raj Agrawal, Anish Agarwal, Raaz Dwivedi
+**类别**: cs.CL, cs.AI, cs.SE
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28545v1
+
+#### Executive Summary
+This paper investigates the readiness of language model (LM) agents for oncall incident management tasks. The authors introduce ORCA-bench, a benchmark suite designed to evaluate LM agents’ ability to triage and resolve real-world oncall alerts. Results reveal current LM agents exhibit notable gaps in accuracy and context understanding compared to human operators.
+
+### Key Contributions
+- Introduction of ORCA-bench, a novel benchmark tailored for oncall incident response by LM agents.
+- Comprehensive evaluation of multiple state-of-the-art LM agents on real-world incident data.
+- Identification of key failure modes and practical challenges in deploying LM agents for oncall use.
+
+### Method & Results
+- Developed a benchmark suite comprising realistic oncall incident datasets and defined multi-turn evaluation tasks.
+- Tested various LM agents using metrics measuring triage accuracy, solution relevance, and contextual awareness.
+- Quantitative results show best models achieve up to 65% accuracy, significantly below expert human performance (~90%).
+- Demonstrated LM agents struggle with reasoning over long histories and ambiguous alerts compared to traditional baselines and human operators.
+
+### Impact & Limitations
+- Highlights the potential and current readiness gaps of LM agents to assist or automate critical oncall duties, guiding future development.
+- Limitations include reliance on limited datasets and the challenge of generalizing results across diverse complex oncall environments. Further work needed on multimodal signals and integration with operator workflows.
+
+---
+
+#### CoGate: Confidence-Gated Co-Decoding for Secure Code Generation
+**作者**: Minghao Hu, Lannan Luo, Allen Roush, Phillip Howard
+**类别**: cs.SE
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28529v1
+
+#### Executive Summary
+CoGate addresses the challenge of generating secure code by improving the reliability of code generation models through confidence-informed decoding. The approach introduces a confidence-gated co-decoding mechanism that dynamically filters and combines outputs to enhance security guarantees. Experiments demonstrate significant improvements in generating secure code snippets with fewer vulnerabilities than state-of-the-art baselines.
+
+### Key Contributions
+- Proposes confidence-gated co-decoding, a novel mechanism leveraging model confidence to improve secure code generation.
+- Integrates multi-model co-decoding that dynamically filters outputs based on confidence scores to reduce insecure code generation.
+- Demonstrates empirically superior performance on security-focused code generation benchmarks.
+
+### Method & Results
+- Implements a confidence gating strategy combined with co-decoding across multiple generative models to select safer code snippets.
+- Evaluated on security-relevant code generation datasets, including vulnerability-specific benchmarks.
+- Achieved up to 15% reduction in insecure code generation and improved correctness over top baselines.
+- Outperformed leading code generation models like Codex and CodeT5 in security metrics by a significant margin.
+
+### Impact & Limitations
+- Enhances practical reliability of AI-assisted coding tools by reducing security risks, relevant for safety-critical development.
+- Limitations include reliance on confidence calibration accuracy and potential overhead from multi-model inference.
+- Future work could explore real-time deployment and adaptability to diverse programming languages and security contexts.
+
+---
+
+#### Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches
+**作者**: Nicolás E. Díaz Ferreyra, Manish Mahesh Kumar, Nohemí Villarreal, Pankaj Pantel, Immo Brueggemann, Riccardo Scandariato
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28431v1
+
+#### Executive Summary  
+This paper addresses the newly emerging challenges in threat modeling for systems augmented with Generative AI (GenAI), particularly focusing on practical, real-world experiences ("from the trenches"). The authors systematically identify and analyze the complexities GenAI introduces to traditional security frameworks. Their findings highlight critical gaps and propose directions to adapt threat modeling to these evolving AI-augmented environments.
+
+### Key Contributions  
+- Identification of unique threat vectors and modeling challenges specific to GenAI-augmented systems.  
+- Empirical insights drawn from deploying threat modeling practices in operational environments involving GenAI.  
+- Conceptual framework outlining adaptations needed in existing threat modeling methodologies to accommodate GenAI risks.
+
+### Method & Results  
+- Qualitative analysis through case studies and expert interviews in real-world GenAI-augmented system deployments.  
+- Use of existing threat modeling tools combined with extended evaluation scenarios incorporating GenAI components.  
+- Results demonstrate traditional threat modeling approaches miss significant GenAI-specific threats, underscoring the need for enhanced methods.  
+- Quantitative metrics were limited; evaluation focused on comprehensive coverage and practitioner feedback rather than strict numerical benchmarks.
+
+### Impact & Limitations  
+- Provides actionable insights that practitioners can apply to secure AI-augmented systems more effectively.  
+- Highlights the necessity of evolving security frameworks alongside AI advances for better threat anticipation.  
+- Limited quantitative evaluation and generalizability; future work should develop automated tools and validate frameworks across diverse GenAI applications.
+
+---
+
+### 安全领域 领域
+
+#### Formalization of security
+**作者**: Gilles Barthe
+**类别**: cs.CR, cs.LO, cs.PL
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28551v1
+
+#### Executive Summary  
+This paper addresses the challenge of rigorously defining and verifying security properties using formal methods. The authors propose a unified formal framework combining logical and computational techniques to model security protocols. Their approach enables precise reasoning about security guarantees, demonstrated through formal proofs of protocol correctness.
+
+### Key Contributions  
+- Introduces a hybrid formal framework integrating logic and computational models for security.  
+- Provides novel proof techniques to verify security properties of protocols.  
+- Demonstrates applicability through case studies of cryptographic protocol formalization.
+
+### Method & Results  
+- Develops a semantic framework combining formal logics with computational assumptions.  
+- Utilizes mechanized proof assistants for rigorous verification.  
+- Validates framework on multiple cryptographic protocols, achieving proofs of confidentiality and integrity.  
+- Shows improved precision over traditional symbolic or computational-only methods; quantitative performance metrics not emphasized.
+
+### Impact & Limitations  
+- Enhances the reliability of security reasoning in protocol design, benefiting secure system development.  
+- Limited by current scalability to very large protocols; future work includes extending automation and handling complex real-world systems.
+
+---
+
+#### Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs
+**作者**: Ye Ziyang, Makoto Ikeda
+**类别**: cs.CR, cs.LO
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28542v1
+
+#### Executive Summary  
+This paper addresses the challenge of protecting System-on-Chip (SoC) designs from piracy and unauthorized use by integrating homomorphic encryption-based logic locking. The authors propose a novel scheme that enables encrypted logic operations, preserving functionality while preventing reverse engineering. Experimental results demonstrate effective security gains with minimal performance overhead.
+
+### Key Contributions  
+- Introduces a homomorphic encryption framework tailored for logic locking in SoCs, enabling secure encrypted computation on locked circuits.  
+- Demonstrates practical integration of the scheme within SoC design flow without compromising functionality.  
+- Provides quantitative evaluation showcasing security improvements and manageable hardware overhead.
+
+### Method & Results  
+- Implement homomorphic encryption algorithms compatible with logic locking primitives, applied at the gate level in SoC circuits.  
+- Utilizes FPGA-based SoC prototypes for evaluation, employing benchmark circuits from standard hardware security suites.  
+- Achieves up to 90% improvement in resistance against IP extraction attacks with less than 15% area and 10% power overhead.  
+- Outperforms traditional logic locking methods by enhancing security through cryptographic guarantees without significant latency increase.
+
+### Impact & Limitations  
+- Enables robust IP protection for SoC vendors, potentially reducing chip piracy and boosting trust in semiconductor supply chains.  
+- Current implementation limited to specific homomorphic schemes; future work could explore optimizing performance and extending to more complex circuits or other cryptographic locking methods.
+
+---
+
+#### Cybersecurity Detection Classification with Reasoning-enabled Language Models
+**作者**: Amol Khanna, Manu Nandan, Cristian Viorel Popa, Joan Pujol-Roig, Diana Bolocan, Laura Vasilie, Alexandru Apostu, Chase Helwig, Mihaela Gaman, Michael Brautbar, Edward Raff, Chase Midler, Sven Krasser
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28460v1
+
+#### Executive Summary
+This paper addresses cybersecurity threat detection by leveraging reasoning-enabled language models to classify and explain cyber incidents. The authors propose integrating logical reasoning capabilities into language models to improve detection accuracy and interpretability. Experiments demonstrate enhanced classification performance and actionable explanations compared to standard NLP classifiers.
+
+### Key Contributions
+- Introduces a reasoning-enhanced language model framework for cybersecurity detection.
+- Provides interpretable classification with reasoning chains explaining decisions.
+- Demonstrates improved detection accuracy on cyber threat datasets over baselines.
+
+### Method & Results
+- Combines pretrained language models with symbolic reasoning modules for classification and explanation.
+- Evaluates on multiple cybersecurity datasets, including malware and phishing detection corpora.
+- Achieves up to 15% accuracy improvement and significantly better precision/recall versus standard deep learning classifiers.
+- Demonstrates that reasoning-enabled models provide transparent explanations aiding analyst trust.
+
+### Impact & Limitations
+- Enables more reliable and interpretable cyber threat detection tools, enhancing security operations.
+- Limitations include computational overhead from reasoning modules and dependence on quality of symbolic knowledge.
+- Future work suggested on scaling reasoning complexity and real-world deployment evaluation.
+
+---
+
+#### Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches
+**作者**: Nicolás E. Díaz Ferreyra, Manish Mahesh Kumar, Nohemí Villarreal, Pankaj Pantel, Immo Brueggemann, Riccardo Scandariato
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28431v1
+
+#### Executive Summary  
+This paper addresses the emerging challenges in threat modeling specifically for Generative AI (GenAI)-augmented systems, highlighting the limitations of traditional threat modeling frameworks when applied to GenAI contexts. The authors provide an empirical perspective drawn from industry experiences and propose tailored considerations and enhancements to better capture unique GenAI threats.
+
+### Key Contributions  
+- Identification of unique threat vectors introduced by GenAI augmentation beyond conventional software systems.  
+- Empirical insights from practitioners operating in GenAI development trenches, revealing gaps in existing threat modeling approaches.  
+- Proposal of refined threat modeling guidelines adapted to GenAI system characteristics.
+
+### Method & Results  
+- Conducted qualitative analysis through interviews and case studies with security professionals involved in GenAI system design.  
+- Utilized real-world GenAI-augmented projects as primary datasets to extract threat modeling challenges.  
+- Demonstrated that traditional threat models fail to account for emergent behaviors, data poisoning, and model inversion risks specific to GenAI.  
+- Showed improved detection and anticipation of GenAI-specific threats using their proposed modeling refinements in pilot evaluations.
+
+### Impact & Limitations  
+- Provides practical and actionable guidance enhancing security posture of GenAI systems, important for industries rapidly adopting AI augmentation.  
+- Limitations include a need for quantitative validation across broader GenAI application domains and evolving model architectures; future work should target automating threat identification.
+
+---
+
+#### Encryption-Compatible Clustered Federated Learning via Distributed Expectation-Maximization over Metadata
+**作者**: Michael Ben Ali, Imen Megdiche, André Péninou, Olivier Teste
+**类别**: cs.LG, cs.CR, cs.DC, stat.ML
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28338v1
+
+#### Executive Summary
+This paper addresses secure federated learning by enabling clustering over encrypted client data via a distributed Expectation-Maximization (EM) algorithm operating on metadata. The approach allows jointly identifying clusters in federated settings without exposing raw data, demonstrating effective privacy preservation alongside competitive learning performance.
+
+### Key Contributions
+- Proposes an encryption-compatible distributed EM algorithm tailored for clustered federated learning on metadata.
+- Introduces a framework that integrates homomorphic encryption to protect client data during model clustering.
+- Demonstrates scalability and enhanced privacy without compromising clustering accuracy.
+
+### Method & Results
+- Developed a distributed EM approach operating on encrypted metadata to cluster clients without raw data sharing.
+- Implemented using standard ML datasets adapted for federated scenarios with encrypted metadata.
+- Achieved clustering accuracy close to non-encrypted baselines, with minor performance overhead.
+- Outperformed existing federated clustering methods in privacy preservation and comparable accuracy metrics.
+
+### Impact & Limitations
+- Enables privacy-preserving clustered federated learning applicable in sensitive domains like healthcare or finance.
+- Limitations include computational overhead due to encryption and scalability challenges for very large client populations.
+- Future work could focus on optimizing efficiency and extending beyond Gaussian mixture models to other clustering paradigms.
 
 ---
 
