@@ -71253,18 +71253,18 @@ CoGate addresses the challenge of generating secure code by improving the reliab
 #### Executive Summary  
 This paper addresses the newly emerging challenges in threat modeling for systems augmented with Generative AI (GenAI), particularly focusing on practical, real-world experiences ("from the trenches"). The authors systematically identify and analyze the complexities GenAI introduces to traditional security frameworks. Their findings highlight critical gaps and propose directions to adapt threat modeling to these evolving AI-augmented environments.
 
-### Key Contributions  
+### Key Contributions
 - Identification of unique threat vectors and modeling challenges specific to GenAI-augmented systems.  
 - Empirical insights drawn from deploying threat modeling practices in operational environments involving GenAI.  
 - Conceptual framework outlining adaptations needed in existing threat modeling methodologies to accommodate GenAI risks.
 
-### Method & Results  
+### Method & Results
 - Qualitative analysis through case studies and expert interviews in real-world GenAI-augmented system deployments.  
 - Use of existing threat modeling tools combined with extended evaluation scenarios incorporating GenAI components.  
 - Results demonstrate traditional threat modeling approaches miss significant GenAI-specific threats, underscoring the need for enhanced methods.  
 - Quantitative metrics were limited; evaluation focused on comprehensive coverage and practitioner feedback rather than strict numerical benchmarks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights that practitioners can apply to secure AI-augmented systems more effectively.  
 - Highlights the necessity of evolving security frameworks alongside AI advances for better threat anticipation.  
 - Limited quantitative evaluation and generalizability; future work should develop automated tools and validate frameworks across diverse GenAI applications.
@@ -71282,18 +71282,18 @@ This paper addresses the newly emerging challenges in threat modeling for system
 #### Executive Summary  
 This paper addresses the challenge of rigorously defining and verifying security properties using formal methods. The authors propose a unified formal framework combining logical and computational techniques to model security protocols. Their approach enables precise reasoning about security guarantees, demonstrated through formal proofs of protocol correctness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid formal framework integrating logic and computational models for security.  
 - Provides novel proof techniques to verify security properties of protocols.  
 - Demonstrates applicability through case studies of cryptographic protocol formalization.
 
-### Method & Results  
+### Method & Results
 - Develops a semantic framework combining formal logics with computational assumptions.  
 - Utilizes mechanized proof assistants for rigorous verification.  
 - Validates framework on multiple cryptographic protocols, achieving proofs of confidentiality and integrity.  
 - Shows improved precision over traditional symbolic or computational-only methods; quantitative performance metrics not emphasized.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the reliability of security reasoning in protocol design, benefiting secure system development.  
 - Limited by current scalability to very large protocols; future work includes extending automation and handling complex real-world systems.
 
@@ -71308,18 +71308,18 @@ This paper addresses the challenge of rigorously defining and verifying security
 #### Executive Summary  
 This paper addresses the challenge of protecting System-on-Chip (SoC) designs from piracy and unauthorized use by integrating homomorphic encryption-based logic locking. The authors propose a novel scheme that enables encrypted logic operations, preserving functionality while preventing reverse engineering. Experimental results demonstrate effective security gains with minimal performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a homomorphic encryption framework tailored for logic locking in SoCs, enabling secure encrypted computation on locked circuits.  
 - Demonstrates practical integration of the scheme within SoC design flow without compromising functionality.  
 - Provides quantitative evaluation showcasing security improvements and manageable hardware overhead.
 
-### Method & Results  
+### Method & Results
 - Implement homomorphic encryption algorithms compatible with logic locking primitives, applied at the gate level in SoC circuits.  
 - Utilizes FPGA-based SoC prototypes for evaluation, employing benchmark circuits from standard hardware security suites.  
 - Achieves up to 90% improvement in resistance against IP extraction attacks with less than 15% area and 10% power overhead.  
 - Outperforms traditional logic locking methods by enhancing security through cryptographic guarantees without significant latency increase.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables robust IP protection for SoC vendors, potentially reducing chip piracy and boosting trust in semiconductor supply chains.  
 - Current implementation limited to specific homomorphic schemes; future work could explore optimizing performance and extending to more complex circuits or other cryptographic locking methods.
 
@@ -71345,34 +71345,18 @@ This paper addresses cybersecurity threat detection by leveraging reasoning-enab
 - Achieves up to 15% accuracy improvement and significantly better precision/recall versus standard deep learning classifiers.
 - Demonstrates that reasoning-enabled models provide transparent explanations aiding analyst trust.
 
-### Impact & Limitations
-- Enables more reliable and interpretable cyber threat detection tools, enhancing security operations.
-- Limitations include computational overhead from reasoning modules and dependence on quality of symbolic knowledge.
-- Future work suggested on scaling reasoning complexity and real-world deployment evaluation.
-
----
-
-#### Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches
-**作者**: Nicolás E. Díaz Ferreyra, Manish Mahesh Kumar, Nohemí Villarreal, Pankaj Pantel, Immo Brueggemann, Riccardo Scandariato
-**类别**: cs.SE, cs.CR
-**发布日期**: 2026-07-30
-**链接**: http://arxiv.org/abs/2607.28431v1
-
-#### Executive Summary  
-This paper addresses the emerging challenges in threat modeling specifically for Generative AI (GenAI)-augmented systems, highlighting the limitations of traditional threat modeling frameworks when applied to GenAI contexts. The authors provide an empirical perspective drawn from industry experiences and propose tailored considerations and enhancements to better capture unique GenAI threats.
-
-### Key Contributions  
+### Key Contributions
 - Identification of unique threat vectors introduced by GenAI augmentation beyond conventional software systems.  
 - Empirical insights from practitioners operating in GenAI development trenches, revealing gaps in existing threat modeling approaches.  
 - Proposal of refined threat modeling guidelines adapted to GenAI system characteristics.
 
-### Method & Results  
+### Method & Results
 - Conducted qualitative analysis through interviews and case studies with security professionals involved in GenAI system design.  
 - Utilized real-world GenAI-augmented projects as primary datasets to extract threat modeling challenges.  
 - Demonstrated that traditional threat models fail to account for emergent behaviors, data poisoning, and model inversion risks specific to GenAI.  
 - Showed improved detection and anticipation of GenAI-specific threats using their proposed modeling refinements in pilot evaluations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides practical and actionable guidance enhancing security posture of GenAI systems, important for industries rapidly adopting AI augmentation.  
 - Limitations include a need for quantitative validation across broader GenAI application domains and evolving model architectures; future work should target automating threat identification.
 
@@ -71402,6 +71386,280 @@ This paper addresses secure federated learning by enabling clustering over encry
 - Enables privacy-preserving clustered federated learning applicable in sensitive domains like healthcare or finance.
 - Limitations include computational overhead due to encryption and scalability challenges for very large client populations.
 - Future work could focus on optimizing efficiency and extending beyond Gaussian mixture models to other clustering paradigms.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-01)
+
+### 软件工程 领域
+
+#### Demystifying Solana Bots: From GitHub Blueprints to On-Chain Fingerprints
+**作者**: Xiaoye Zheng, Yujing Chen, Minghao Wu, David Lo, Difan Xie, Daoyuan Wu, Xiaohu Yang, Zhiyuan Wan
+**类别**: cs.SE
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28424v1
+
+#### Executive Summary  
+This paper investigates the landscape of Solana blockchain bots by analyzing publicly available bot blueprints on GitHub and developing methods to identify their on-chain activity. The authors link code artifacts with transaction patterns to reveal operational fingerprints, providing insights into bot behaviors and ecosystem threats.
+
+### Key Contributions  
+- Systematic mapping from open-source bot code to real on-chain transactions on Solana.  
+- Novel fingerprinting techniques to detect and classify bots based on transaction activity.  
+- Empirical analysis exposing trends and threats posed by bots in the Solana ecosystem.
+
+### Method & Results  
+- Extracted bot implementations from GitHub repositories and analyzed their strategies and transaction signatures.  
+- Developed on-chain fingerprinting algorithms matching known bot blueprints with live blockchain data.  
+- Used Solana mainnet data and GitHub-sourced bot codebases as primary datasets.  
+- Successfully identified a wide range of bots with high confidence, quantifying their activity and impact.  
+- Demonstrated improved bot detection compared to heuristic or manual identification baselines (performance metrics not explicitly stated).
+
+### Impact & Limitations  
+- Enhances transparency into Solana’s bot ecosystem, aiding developers and researchers in mitigating malicious or manipulative bot activities.  
+- Limitations include possible incomplete coverage due to reliance on public GitHub repositories and evolving bot tactics requiring continuous updates to fingerprints.  
+- Future work: extend detection methods to emerging bot types and other blockchain platforms.
+
+---
+
+#### Structural Validation of LLM-Generated Microservice Decompositions Using Source-Code Dependencies
+**作者**: Daniel Silva, Renan Alves, Emanuel Dantas Filho, Ademar Sousa Neto, Mirko Perkusich, Danyllo Wagner Albuquerque, Kyller Gorgônio, Angelo Perkusich
+**类别**: cs.SE
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28331v1
+
+#### Executive Summary  
+This paper addresses the challenge of validating microservice decompositions generated by large language models (LLMs) through structural analysis of source-code dependencies. The authors propose a method that cross-examines LLM-generated decompositions with actual code dependencies to assess their structural soundness, demonstrating improved confidence in automated microservice design suggestions.
+
+### Key Contributions  
+- Introduces a novel structural validation framework leveraging source-code dependencies to evaluate LLM-generated microservice decompositions.  
+- Provides empirical evidence linking code-level dependencies with microservice boundaries suggested by AI models.  
+- Proposes metrics and a validation pipeline to ensure decomposition quality before system implementation.
+
+### Method & Results  
+- Method: Extracts service boundaries suggested by LLMs and validates them through analysis of dependency graphs derived from source code.  
+- Tools/Datasets: Utilizes real-world software projects’ source-code repositories and LLM-based decomposition outputs for evaluation.  
+- Results: Achieved significant alignment between validated decompositions and code dependencies, quantifying validation accuracy (exact values not specified).  
+- Outperformed naive or non-validated LLM decomposition approaches by reducing structural coupling violations.
+
+### Impact & Limitations  
+- Practical significance: Enhances reliability of automated microservice design, enabling safer adoption of LLM-aided software architecture tools.  
+- Limitations/Future work: Scalability to large, complex systems and inclusion of runtime or dynamic dependency data remain open challenges.
+
+---
+
+#### From Textual Requirements to Microservice Architectures - A Comprehensive Evaluation of LLM-Based Design Synthesis
+**作者**: Danyllo Albuquerque, José Renan, Guillermo Rodríguez, Guillermo Rodríguez, Emanuel Dantas, Ademar França, Mirko Perkusich, Kyller Gorgônio, Angelo Perkusich
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28307v1
+
+#### Executive Summary
+This paper addresses the challenge of automating the synthesis of microservice architectures directly from textual software requirements using large language models (LLMs). The authors propose a novel design synthesis approach leveraging LLMs to generate architectural designs, and perform a comprehensive evaluation demonstrating significant improvements in quality and efficiency compared to traditional manual methods.
+
+### Key Contributions
+- Introduces an LLM-based framework for transforming textual requirements into microservice architectural designs.
+- Provides an extensive empirical evaluation comparing LLM-generated designs with expert-produced architectures.
+- Offers insights into the practical applicability and limitations of LLMs in software architecture synthesis.
+
+### Method & Results
+- Employed prompt engineering techniques with state-of-the-art LLMs to generate microservice architectures from given requirement texts.
+- Used benchmark software projects and datasets containing documented requirements and existing microservice architectures for evaluation.
+- Achieved up to 30% improvement in architectural coherence and design correctness metrics over baseline manual approaches.
+- Demonstrated faster design synthesis times while maintaining competitive or superior quality.
+
+### Impact & Limitations
+- Significantly advances automation in software architecture design, potentially reducing human effort and errors in early development phases.
+- Limitations include dependency on LLM training data and challenges in handling ambiguous or incomplete requirements.
+- Future work suggested on integrating domain-specific constraints and iterative refinement techniques to enhance design accuracy.
+
+---
+
+#### Agentic Method for Deterministic Validation of Legacy Code Migration
+**作者**: Andras Ferenczi, Jordan Docherty, Mariya Bessonov, Matthew Findlay, Krishna Lingamneni
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28271v1
+
+#### Executive Summary  
+This paper addresses the challenge of validating legacy code migrations in a deterministic and reliable manner. The authors propose an agentic methodology that leverages autonomous agents to systematically generate and validate test cases, ensuring correctness post-migration. Their approach demonstrates improved validation determinism and reduced human intervention.
+
+### Key Contributions  
+- Introduces an agentic framework for automated, deterministic validation of legacy code migrations.  
+- Novel integration of autonomous agent-driven test generation to cover migration-induced behaviors comprehensively.  
+- Demonstrates scalability and effectiveness across varied legacy codebases.
+
+### Method & Results  
+- Employs autonomous agents to generate test inputs and orchestrate validation workflows targeting migration correctness.  
+- Utilizes legacy code repositories spanning multiple languages and domains for evaluation.  
+- Achieved up to 40% higher detection of migration faults compared to traditional heuristic testing.  
+- Validation process exhibited reduced nondeterminism, improving reliability of migration verification.
+
+### Impact & Limitations  
+- Enhances confidence and efficiency in legacy code migration, potentially reducing costly post-migration failures in software maintenance.  
+- Current prototype may require domain-specific tuning; future work could explore broader automation and integration with CI/CD pipelines.
+
+---
+
+#### Agentic Metaverse Services: A New As-a-Service Paradigm
+**作者**: Xiaofei Xu, Quan Z. Sheng, Zhongjie Wang, Boualem Benatallah, Xiao Wang, Ruipeng Han
+**类别**: cs.SE, cs.AI, cs.MA
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28242v1
+
+#### Executive Summary
+This paper introduces the concept of Agentic Metaverse Services (AMS), a new "As-a-Service" paradigm that integrates intelligent, autonomous agents into metaverse environments to provide dynamic, adaptive services. The authors propose a framework combining multi-agent systems with service-oriented architecture to enable scalable, personalized metaverse experiences. Experimental validation shows improved service responsiveness and user engagement compared to static service models.
+
+### Key Contributions
+- Introduces Agentic Metaverse Services, blending autonomous agents with metaverse services as a novel service delivery paradigm.
+- Designs a scalable multi-agent system architecture supporting dynamic adaptation and user personalization.
+- Demonstrates enhanced interaction effectiveness and system responsiveness in metaverse scenarios.
+
+### Method & Results
+- Developed an AMS framework leveraging multi-agent collaboration and service orchestration in virtual environments.
+- Employed simulation platforms modeling user interactions within metaverse domains (no specific benchmark datasets noted).
+- Experiments reveal up to 35% improvement in service response times and a 20% increase in user engagement metrics compared to baseline non-agentic services.
+- Performance gains attributed to the autonomous agents’ ability to proactively adapt services based on context.
+
+### Impact & Limitations
+- Offers a foundation for more intelligent, user-centric metaverse applications benefiting immersive education, entertainment, and commerce.
+- Future work needed to address scalability under massive concurrent users and security/privacy concerns inherent to autonomous agents.
+
+---
+
+### 安全领域 领域
+
+#### Demystifying DRAM Read Disturbance: Bridging the Gap Between Experimental Characterization and Device-Level Modeling of RowHammer and RowPress Phenomena
+**作者**: Haocong Luo, Longda Zhou, Ataberk Olgun, İsmail Emir Yüksel, Nisa Bostanci, Zhigang Ji, Xing Wu, Onur Mutlu
+**类别**: cs.AR, cs.CR
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28233v1
+
+#### Executive Summary  
+This paper addresses the critical issue of DRAM read disturbance errors, specifically the RowHammer and RowPress phenomena, by bridging experimental characterization with device-level modeling. The authors develop an integrated framework that links observed disturbance behavior with physical DRAM mechanisms, enabling more accurate prediction and mitigation strategies.
+
+### Key Contributions  
+- Comprehensive experimental characterization connecting RowHammer and RowPress effects at the device physics level.  
+- Development of a novel device-level model that accurately replicates disturbance-induced bit flips and retention failures.  
+- Insights unifying two traditionally separate disturbance phenomena into a cohesive analytical framework.
+
+### Method & Results  
+- Employed detailed DRAM circuit-level experiments combined with physics-based device simulation to characterize disturbance mechanisms.  
+- Used custom hardware setups and analytically calibrated models derived from silicon measurements.  
+- Demonstrated model predictive accuracy within 5% error margin on disturbance-induced failure rates under various access patterns.  
+- Showed superior predictive power compared to existing empirical-only or simplistic models.
+
+### Impact & Limitations  
+- Enables more robust and efficient DRAM disturbance mitigation techniques, improving memory reliability in real-world systems.  
+- Limitations include reliance on specific DRAM technology nodes; future work could generalize modeling across newer memory architectures and explore mitigation integration.
+
+---
+
+#### Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation
+**作者**: Fazhong Liu, Zhuoyan Chen, Haozhen Tan, Yan Meng, Guoxing Chen, Haojin Zhu
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28226v1
+
+#### Executive Summary  
+This paper addresses the security vulnerabilities inherent in world-model-based embodied AI systems, which integrate perception, decision-making, and action through learned environment models. The authors propose a comprehensive lifecycle framework encompassing threats, defenses, and evaluation metrics, establishing a foundation for systematic security analysis. Their approach demonstrates improved robustness against adversarial interventions across various embodied AI tasks.
+
+### Key Contributions  
+- Introduces a unified lifecycle framework for threats, defense strategies, and evaluation specific to world-model-based embodied AI.  
+- Develops novel defense mechanisms targeting model manipulation and sensor spoofing attacks during environment interaction.  
+- Provides an extensive empirical evaluation showcasing enhanced robustness compared to existing security techniques.
+
+### Method & Results  
+- Methodology: lifecycle framework conceptualizing security stages; defense designs include adversarial training and sensor data validation integrated with world models.  
+- Datasets/Tools: Utilizes standard embodied AI benchmarks such as Habitat for 3D navigation and AI2-THOR for interactive tasks.  
+- Results: Achieves up to a 40% reduction in performance degradation under adversarial attacks versus baseline defenses.  
+- Outperforms state-of-the-art robust embodied AI models by 15-25% in task success rate under threat conditions.
+
+### Impact & Limitations  
+- Practical Significance: Provides a systematic approach to securing embodied AI, critical for deployment in real-world autonomous systems.  
+- Limitations/Future Work: Focuses primarily on navigation tasks; extending defense mechanisms to manipulation and coordination tasks remains open. Further, adaptation to evolving adversarial techniques warrants ongoing research.
+
+---
+
+#### Secure Aggregation for Privacy-Preserving Federated Learning on Clinical EEG Data
+**作者**: Pouya Rajabi, Mohsen Toorani
+**类别**: cs.CR, cs.DC, cs.LG
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28191v1
+
+#### Executive Summary  
+This paper addresses privacy concerns in federated learning (FL) using clinical EEG data by proposing a secure aggregation protocol that preserves patient confidentiality during model training. The approach combines cryptographic techniques with efficient communication strategies to ensure data privacy without compromising model accuracy. Experiments demonstrate robust privacy guarantees alongside competitive performance on EEG classification tasks.
+
+### Key Contributions  
+- Introduces a novel secure aggregation scheme tailored for clinical EEG federated datasets, enhancing privacy beyond standard FL.  
+- Designs communication-efficient protocols minimizing overhead while maintaining data confidentiality.  
+- Demonstrates integration with practical EEG analysis, bridging secure FL with real-world clinical needs.
+
+### Method & Results  
+- Employs homomorphic encryption and secret sharing to enable secure, privacy-preserving aggregation of model updates across clients.  
+- Utilizes publicly available EEG datasets (e.g., TUH EEG Corpus) for evaluating federated model training.  
+- Achieves comparable classification accuracy to baseline non-private FL methods with ≤5% performance degradation.  
+- Reduces communication cost by up to 30% relative to conventional secure aggregation frameworks.
+
+### Impact & Limitations  
+- Enables deployment of FL in sensitive clinical environments, facilitating collaborative learning without exposing raw patient data.  
+- Limitations include computational overhead on resource-constrained clients and potential scaling challenges with very large participant pools.  
+- Future work may explore optimizing cryptographic operations and extending to multi-modal medical data.
+
+---
+
+#### Old Tricks, New Models: How Simple Image Transformations Break Modern AI-based Content Moderation
+**作者**: Marco Alecci, Francesco Marchiori, Iyiola Emmanuel Olatunji, Tegawendé F. Bissyandé, Jacques Klein
+**类别**: cs.AI, cs.CR, cs.SE
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28187v1
+
+#### Executive Summary  
+This paper investigates how simple image transformations can circumvent state-of-the-art AI-based content moderation systems. By applying basic manipulations such as resizing, blurring, or color adjustments, the authors demonstrate that modern detectors fail to identify inappropriate content, revealing critical vulnerabilities. The study highlights the fragility of current moderation models and the need for more robust defenses.
+
+### Key Contributions  
+- Revealed that straightforward image transformations effectively evade multiple contemporary AI-based content moderation models.  
+- Provided a systematic evaluation framework for testing content moderation robustness against common image manipulations.  
+- Highlighted the gap between sophisticated model training and practical adversarial resilience in real-world content moderation.
+
+### Method & Results  
+- Employed a suite of simple image transformation techniques (e.g., cropping, color shifting) applied to images containing policy-violating content.  
+- Tested against several leading commercial and open-source content moderation AI systems.  
+- Used standard moderation benchmark datasets alongside real-world content samples.  
+- Results showed detection accuracy dropped by up to 40-60% post-transformation, significantly outperforming random baseline evasion rates.  
+- Demonstrated that no current model consistently withstands these low-cost adversarial attacks.
+
+### Impact & Limitations  
+- Emphasizes urgent need for developing more robust moderation AI to handle adversarially transformed content, impacting online safety and platform compliance.  
+- Limitation: Focused mainly on visual transformations; future work should explore multimodal inputs and adaptive defenses against evolving attack strategies.
+
+---
+
+#### Technology-Enhanced Tabletop Exercises for Cybersecurity Education: Lessons Learned
+**作者**: Jan Vykopal, Pavel Čeleda, Martin Horák, Valdemar Švábenský
+**类别**: cs.CY, cs.CR
+**发布日期**: 2026-07-30
+**链接**: http://arxiv.org/abs/2607.28179v1
+
+#### Executive Summary  
+This paper addresses challenges in cybersecurity education by integrating technology-enhanced tabletop exercises (TTXs) to improve learner engagement and practical skills. The authors develop and evaluate a novel framework combining interactive digital tools with traditional tabletop scenarios, demonstrating enhanced educational outcomes and participant feedback.
+
+### Key Contributions  
+- Developed a technology-augmented TTX framework that enriches cybersecurity education.  
+- Empirically evaluated the approach through multiple sessions, highlighting improved learner engagement and skill acquisition.  
+- Provided practical lessons and design recommendations for integrating tech tools into tabletop exercises.
+
+### Method & Results  
+- Conducted repeated cybersecurity TTX sessions incorporating digital dashboards, role-play tools, and scenario automation.  
+- Utilized datasets from real-world cybersecurity incidents to create realistic exercise scenarios.  
+- Reported increased participant engagement and better conceptual understanding, supported by post-exercise assessments and surveys.  
+- Demonstrated superior educational impact compared to traditional, non-augmented TTX baselines.
+
+### Impact & Limitations  
+- Enhances practical cybersecurity training by bridging theory and hands-on experience within a collaborative environment.  
+- Limitations include scalability challenges and the need for further evaluation on long-term skill retention.  
+- Future work suggested to integrate adaptive learning mechanisms and expand scenario complexity.
 
 ---
 
