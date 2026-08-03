@@ -71678,18 +71678,18 @@ This paper addresses challenges in cybersecurity education by integrating techno
 #### Executive Summary  
 This paper addresses the challenge of improving requirements quality learning in software engineering education by integrating AI through a TPACK (Technological Pedagogical Content Knowledge)-guided framework. The authors empirically validate an AI-enhanced instructional model that significantly improves students’ ability to learn and apply quality requirements concepts.  
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel TPACK-guided framework combining AI tools with pedagogical strategies for requirements quality education.  
 - Empirically demonstrates the effectiveness of AI integration on student learning outcomes in software requirements engineering.  
 - Provides practical insights for educators on leveraging AI to enhance conceptual understanding and skill acquisition in SE courses.  
 
-### Method & Results  
+### Method & Results
 - Conducted an empirical study involving SE students using an AI-supported learning environment guided by the TPACK framework.  
 - Utilized AI-based automated feedback and analytics tools to assist with evaluating and improving requirements quality artifacts.  
 - Experimental results show a statistically significant improvement in students’ requirements quality assessment skills (e.g., 15-20% higher accuracy) compared to traditional teaching methods.  
 - Performance measured against baseline groups using conventional instruction without AI support, demonstrating clear learning gains.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances software engineering education by providing an effective, scalable approach to teaching complex requirements quality concepts leveraging AI.  
 - Limitations include sample size and context specificity; future work should explore diverse educational settings and expand AI tool capabilities for broader application.
 
@@ -71704,18 +71704,18 @@ This paper addresses the challenge of improving requirements quality learning in
 #### Executive Summary  
 This paper addresses performance bottlenecks in processing complex data structures with Awkward Arrays on CPUs and GPUs. The authors present novel optimizations and parallelization techniques to enhance both CPU and GPU execution efficiency. Results demonstrate significant speedups in array manipulations, enabling more scalable high-performance computing workflows.
 
-### Key Contributions  
+### Key Contributions
 - Introduces advanced memory layout and kernel fusion strategies for Awkward Arrays to better exploit CPU/GPU architectures.  
 - Develops a unified optimization framework supporting both single-threaded and massively parallel GPU execution.  
 - Provides comprehensive benchmarking showing improved throughput over existing array libraries.
 
-### Method & Results  
+### Method & Results
 - Enhances Awkward Arrays by redesigning data representations and implementing parallel kernels adapted to hardware specifics.  
 - Evaluations performed using large-scale synthetic and real-world hierarchical datasets common in scientific computing.  
 - Achieves up to 4x speedup on CPUs and 6x on GPUs compared to prior versions and related libraries.  
 - Shows lower memory overhead and improved scalability on multi-core and GPU platforms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables high-performance processing of irregular, nested data which benefits domains like physics, bioinformatics, and data science.  
 - Current work focuses on batch processing; future work includes streaming data support and integration with distributed systems.
 
@@ -71730,18 +71730,18 @@ This paper addresses performance bottlenecks in processing complex data structur
 #### Executive Summary  
 This paper addresses the challenge of verifying information flow security in cloud-based IoT access control policies, ensuring data confidentiality and integrity across distributed systems. The authors propose a formal framework combining policy specification with model checking techniques to detect unauthorized information flows. Experimental evaluation demonstrates effective detection capabilities with manageable computational overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel formal framework for analyzing information flow within cloud-centric IoT access control policies.  
 - Develops a model checking approach tailored to complex policy configurations involving distributed cloud-IoT architectures.  
 - Provides an extended implementation supporting practical verification scenarios for real-world policy datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes a formal specification language to model access control policies and information flow constraints, alongside automated model checking for policy verification.  
 - Tested on benchmark IoT policy datasets derived from smart home and industrial control scenarios.  
 - Achieved significant detection of insecure information flows, reducing false negatives by over 30% compared to standard policy analysis tools.  
 - Demonstrated scalability with policy sizes up to thousands of rules, maintaining verification times within practical limits (~minutes).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances security assurance in IoT-cloud environments by proactively identifying policy-induced data leakage risks.  
 - Limitations include potential scalability challenges with extremely large-scale deployments and assumptions on policy modeling granularity.  
 - Future work to optimize verification algorithms and extend support for dynamic policy adaptations.
@@ -71784,18 +71784,18 @@ This paper tackles the challenge of refining communication protocols to be deadl
 #### Executive Summary  
 The paper addresses a critical gap in AI-driven trustworthy software development by proposing "vibe modeling," a novel step to capture and quantify contextual trust factors often overlooked. The authors develop a framework integrating vibe modeling with existing AI tools, demonstrating improved assessment of software reliability and stakeholder trust. Results indicate enhanced predictive accuracy for trustworthiness metrics compared to traditional approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces "vibe modeling," a previously unconsidered layer in AI-based software trust evaluation.  
 - Develops a formal framework combining vibe modeling with standard software engineering practices.  
 - Provides empirical evidence that incorporating vibe modeling improves trust prediction accuracy in software projects.
 
-### Method & Results  
+### Method & Results
 - Designed a vibe modeling framework that quantifies contextual trust factors from qualitative data sources.  
 - Applied the framework on datasets of AI-developed software projects, leveraging natural language processing and trust metric analysis tools.  
 - Achieved up to 15% improvement in trustworthiness prediction accuracy over baseline AI trust assessment methods.  
 - Validated approach on multiple case studies with diverse software types demonstrating generalizability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical enhancement for software teams and AI systems to better gauge and build stakeholder trust, critical for adoption.  
 - Future work needed to standardize vibe modeling metrics and extend validation across larger, more varied software environments.
 
@@ -71812,18 +71812,18 @@ The paper addresses a critical gap in AI-driven trustworthy software development
 #### Executive Summary  
 This paper addresses the vulnerability of multimodal large language model (LLM) agents to stealthy concurrent audio prompt injections that manipulate perception without detection. The authors propose a novel attack method called "piggybacking on perception," enabling covert, adversarial audio prompts embedded in normal sound inputs to influence LLM behavior. Experimental results demonstrate the attack’s effectiveness and stealth against state-of-the-art multimodal LLMs.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a new stealthy concurrent audio prompt injection attack targeting multimodal LLM agents.  
 - Develops a method to embed malicious audio prompts piggybacked onto benign audio signals, enabling covert manipulation.  
 - Provides empirical evaluation showing the attack’s success in misleading LLM outputs without perceptible audio perturbations.
 
-### Method & Results  
+### Method & Results
 - Designed an audio prompt injection framework that overlays adversarial prompts onto normal audio, exploiting multimodal perception pipelines.  
 - Evaluated on prominent multimodal LLMs with standard audio-visual datasets or in-house test scenarios.  
 - Achieved high attack success rates (>85%) while maintaining imperceptibility to human listeners and bypassing existing defenses.  
 - Outperformed baseline prompt injection techniques which are easier to detect or less effective in concurrent settings.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks for real-world multimodal AI agents reliant on audio-visual inputs, emphasizing the need for robust defense mechanisms.  
 - Limitations include potential dependency on audio environment conditions; future work could explore adaptive defenses and extension to other sensory modalities.
 
@@ -71838,30 +71838,15 @@ This paper addresses the vulnerability of multimodal large language model (LLM) 
 #### Executive Summary  
 This paper addresses the challenge of extracting and leveraging implicit coordination mechanisms ("harnesses") among agents in autonomous multi-agent systems during inference time. The authors propose Agent Harness Distillation, a novel method to identify and exploit these harnesses without retraining, improving system performance and robustness. Experiments demonstrate significant performance gains in cooperative tasks over standard multi-agent baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces inference-time harness extraction to capture implicit agent coordination without additional training.  
 - Proposes a distillation framework enabling exploitation of harnesses for improved decision-making efficiency.  
 - Demonstrates enhanced multi-agent cooperation and robustness in autonomous systems via empirical validation.
 
-### Method & Results  
+### Method & Results
 - Develops a distillation algorithm that extracts harness policies from agent interactions during inference and incorporates them in real-time decision processes.  
 - Evaluates on multi-agent cooperative benchmarks (specific datasets/tools not detailed) measuring task success rates and coordination metrics.  
 - Achieves up to 15% improvement in cooperative task success and reduced coordination failures compared to state-of-the-art multi-agent baselines.
-
-### Impact & Limitations  
-- Enables more efficient and adaptive multi-agent cooperation without costly retraining, applicable to autonomous vehicles, robotics, and distributed AI.  
-- Limitations include dependency on initial agent policy quality and potential scalability issues with increasing agent numbers; future work could explore generalization to heterogeneous agent teams and more complex environments.
-
----
-
-#### Checking Information Flow in Cloud-based IoT Access Control Policies (Extended Version)
-**作者**: Lorenzo Ceragioli, Letterio Galletta, Edoardo Lunati
-**类别**: cs.CR, cs.LO, cs.SE
-**发布日期**: 2026-07-30
-**链接**: http://arxiv.org/abs/2607.28088v1
-
-#### Executive Summary
-This paper addresses the challenge of verifying information flow security in cloud-based IoT access control policies. The authors propose a formal verification framework combining logic-based specification and automated checking to detect unauthorized data leaks. Their approach effectively identifies subtle policy flaws that traditional methods overlook.
 
 ### Key Contributions
 - Introduces a novel formal model integrating information flow control with cloud IoT access policies.
@@ -71889,18 +71874,18 @@ This paper addresses the challenge of verifying information flow security in clo
 #### Executive Summary  
 This paper addresses clean-label backdoor attacks in Spiking Neural Networks (SNNs) by proposing Temporal Poisoning, which redistributes event timings without altering labels or overall data integrity. The approach effectively implants backdoors that trigger on subtle temporal event shifts, demonstrating high stealth and attack success rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Temporal Poisoning, a novel clean-label backdoor attack via event redistribution in SNN data.  
 - Demonstrates the vulnerability of SNNs to timing-based manipulation distinct from traditional pixel-based triggers.  
 - Provides a new perspective on temporal dynamics exploitation for secure AI assessment.
 
-### Method & Results  
+### Method & Results
 - Develops a method to subtly shift event timestamps in neuromorphic datasets, preserving clean labels while enabling backdoor activation.  
 - Experiments conducted on standard neuromorphic datasets (e.g., DVS Gesture, N-MNIST).  
 - Achieves attack success rates exceeding 90% with negligible impact on clean accuracy.  
 - Outperforms baseline poisoning/backdoor attack methods which often rely on altered labels or visible triggers.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security issues in emerging SNN applications, especially in real-time sensory processing systems.  
 - Limitations include potential dependency on dataset characteristics and attack robustness against advanced defenses; future work should explore adaptive detection and mitigation strategies.
 
