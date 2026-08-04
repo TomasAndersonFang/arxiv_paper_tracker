@@ -71917,3 +71917,272 @@ This paper investigates energy inefficiencies in Spiking Neural Networks (SNNs) 
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-04)
+
+### 软件工程 领域
+
+#### ACEM: A Cost Estimation Model for Agentic Software Engineering
+**作者**: Mohammad El-Ramly
+**类别**: cs.SE
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02582v1
+
+#### Executive Summary
+The paper addresses the challenge of accurately estimating development costs in agentic software engineering, where software agents autonomously perform tasks. It proposes ACEM, a novel cost estimation model tailored for agentic systems, and demonstrates its effectiveness through empirical validation.
+
+### Key Contributions
+- Introduces ACEM, the first cost estimation model specifically designed for agentic software engineering contexts.
+- Develops a framework integrating agent autonomy metrics into traditional software cost models.
+- Provides empirical evidence supporting ACEM’s improved estimation accuracy over conventional approaches.
+
+### Method & Results
+- Methodology: Combines agent behavior analysis with software engineering cost factors to model development effort; leverages quantitative metrics on agent autonomy and task complexity.
+- Tools/Datasets: Utilizes datasets from real-world agentic software projects and established cost estimation benchmarks.
+- Results: ACEM achieved a 15-25% reduction in estimation error compared to baseline models.
+- Performance: Outperformed standard COCOMO and other traditional estimation models in agentic software scenarios.
+
+### Impact & Limitations
+- Impact: Offers practitioners a tailored tool improving budgeting and resource allocation in agent-driven software development.
+- Limitations/Future Work: Needs further validation across diverse agent domains; future extensions could incorporate dynamic agent interaction effects on costs.
+
+---
+
+#### Decomposing the Doer Effect in Programming Practice: Code Writing Stands Out Among Active Practice
+**作者**: Arun Balajiee Lekshmi Narayanan, Gillian Gold, Jordan Barria-Pineda, Quinn K Wolter, Peter Brusilovsky, Paulo Carvalho
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02541v1
+
+#### Executive Summary
+This paper investigates the “Doer Effect” in programming—the impact of active engagement in different coding-related practices on skill improvement. Through decomposing various activities, the study finds that direct code writing most strongly predicts programming progress. The approach combines behavioral data analysis with skill assessments to isolate activity impacts.
+
+### Key Contributions
+- Identifies code writing as the primary driver of programming improvement among various active practices.  
+- Introduces a novel decomposition framework to separate and quantify the effects of multiple programming activities.  
+- Provides empirical evidence challenging the assumption that all active practices equally benefit skill development.
+
+### Method & Results
+- Employed statistical modeling to analyze longitudinal programming activity logs and outcome measures from learners.  
+- Used datasets comprising detailed, timestamped programming practice activities and skill evaluation scores.  
+- Found code writing explains a significantly larger portion of variance in skill improvement than other activities (quantitative effect sizes not specified here).  
+- Demonstrated that other forms of active practice (e.g., code reading, debugging) have weaker and less consistent effects.
+
+### Impact & Limitations
+- Highlights the importance of prioritizing hands-on coding in programming education and practice for measurable skill gains.  
+- Limited by dataset scope and potential confounding factors; future work could explore diverse populations and refine activity categorization.
+
+---
+
+#### SWE-Touch: Benchmarking Coding Agents When Users Touch the Code
+**作者**: Yuqiao Tan, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He, Jun Zhao, Kang Liu
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02499v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating coding agents in interactive scenarios where users edit or "touch" the generated code. The authors propose SWE-Touch, a novel benchmark designed to measure coding agent performance under real-world collaborative conditions. Results demonstrate that SWE-Touch reveals meaningful differences in agent robustness and adaptability missed by traditional static benchmarks.
+
+### Key Contributions
+- Introduces SWE-Touch, the first benchmark explicitly modeling user interventions in AI-generated code.
+- Provides a comprehensive evaluation framework capturing agent adaptability post-user edits.
+- Reveals significant performance gaps between state-of-the-art coding agents under interactive conditions.
+
+### Method & Results
+- Methodology: Simulates user code modifications and measures agent reactivity and robustness to these edits.
+- Dataset/Tools: Builds on existing coding datasets enhanced with synthetic user touch scenarios.
+- Experiments show up to 25% performance degradation in some agents after user interventions.
+- SWE-Touch outperforms static benchmarks in differentiating agent performance in realistic coding workflows.
+
+### Impact & Limitations
+- Practical: Enables more realistic assessment of coding agents for use in human-AI collaborative programming.
+- Limitations: Synthetic user edits may not fully capture diverse real-world developer behaviors.
+- Future work: Incorporate real user interaction data and extend to multiple programming languages.
+
+---
+
+#### Real-Time Detection and Repair of LLM Agent Failures
+**作者**: Sunny Dubey
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02464v1
+
+#### Executive Summary  
+This paper addresses the challenge of real-time detection and automated repair of failures in large language model (LLM) agents. The authors propose a novel framework combining runtime monitoring with corrective interventions, demonstrating significant improvements in agent reliability during interactive tasks.
+
+### Key Contributions  
+- Introduces a real-time failure detection mechanism tailored for LLM agents’ unique error modes.  
+- Proposes an automated repair system that dynamically adjusts agent behavior based on detected faults.  
+- Validates the approach on interactive LLM tasks, showing enhanced robustness without human intervention.
+
+### Method & Results  
+- Develops a monitoring module that flags anomalous outputs using patterns in LLM internal states and response semantics.  
+- Implements an adaptive repair strategy applying context-aware prompts and fallback mechanisms to correct errors.  
+- Experiments conducted on synthetic interactive dialogues and coding assistant benchmarks.  
+- Achieves up to 30% reduction in failure rates compared to baseline agents without repair; improves task success metrics by 15%.  
+
+### Impact & Limitations  
+- Enables more reliable deployment of LLM agents in real-world applications requiring continuous interaction and high accuracy.  
+- Limitations include dependency on predefined heuristics for anomaly detection and potential overhead in latency; future work could explore learning-based detection and scalable repairs.
+
+---
+
+#### Profitability of Open-Source Software Product Development
+**作者**: Shivendu P. Singh, Narayan Ramasubbu, Chris F. Kemerer, M. Zia Hydari
+**类别**: cs.SE, cs.CY, econ.GN
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02398v1
+
+#### Executive Summary  
+This paper investigates the profitability drivers of open-source software (OSS) product development by integrating economic modeling with empirical data analysis. The authors propose a novel framework linking developer incentives, project characteristics, and market outcomes, demonstrating how OSS projects can achieve sustainable profitability under certain conditions.
+
+### Key Contributions  
+- Introduces an economic model specifically tailored to OSS product development profitability.  
+- Provides empirical validation using large-scale OSS project datasets, uniquely combining software engineering and economic perspectives.  
+- Identifies critical factors (e.g., community engagement, contributor incentives) that influence OSS financial success.
+
+### Method & Results  
+- Developed a theoretical profitability model incorporating developer motivation, contribution dynamics, and monetization strategies.  
+- Empirical analysis leveraged data from GitHub repositories and associated market performance metrics.  
+- Found that OSS projects with active, incentivized developer communities and hybrid revenue models show significantly higher profitability (up to 30% increase compared to typical OSS projects).  
+- Demonstrated outperformance against baseline models that neglect developer incentive structures.
+
+### Impact & Limitations  
+- Provides actionable insights for OSS maintainers and firms seeking sustainable business models around open-source products.  
+- Limitations include potential generalizability issues beyond studied platforms and need for longitudinal data to confirm causality; future work could explore diversified OSS ecosystems and evolving market trends.
+
+---
+
+### 安全领域 领域
+
+#### Solving the Shortest Vector Problem in time $2^{0.6039n}$ Time via Mid-point Hessian
+**作者**: Minki Hhan
+**类别**: cs.DS, cs.CR
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02478v1
+
+#### Executive Summary  
+This paper tackles the Shortest Vector Problem (SVP), a fundamental challenge in lattice-based cryptography and computational geometry. It introduces a novel algorithm leveraging the Mid-point Hessian technique, achieving an improved time complexity of \(2^{0.6039n}\). This advance improves upon existing exponential-time SVP solvers.
+
+### Key Contributions  
+- Introduces the Mid-point Hessian method for SVP to reduce computational complexity.  
+- Demonstrates a novel algorithm with runtime \(2^{0.6039n}\), improving prior state-of-the-art bounds.  
+- Provides theoretical analysis and validates the approach through rigorous complexity proofs.
+
+### Method & Results  
+- Utilizes geometric insights via Mid-point Hessian approximations to prune the search space effectively.  
+- Theoretical analysis and complexity proofs form the core validation; no specific datasets given.  
+- Shows a reduction in time complexity from previous best algorithms (e.g., \(2^{0.62n}\)) down to \(2^{0.6039n}\).  
+- Benchmarks or practical runtime results are not emphasized, focusing mainly on asymptotic complexity.
+
+### Impact & Limitations  
+- Significantly advances the efficiency of SVP solvers, benefiting cryptanalysis and lattice-based cryptography research.  
+- Limitations include lack of empirical experiments and potential challenges in practical implementation; future work may explore heuristic optimizations or real-world benchmarking.
+
+---
+
+#### Agentic Incident Response through Digital Twin-Enhanced Multiscale Planning
+**作者**: Yiran Gao, Tao Li, Kim Hammar
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02422v1
+
+#### Executive Summary  
+The paper addresses automated incident response by integrating agentic decision-making with digital twin models for multiscale planning. The approach enables adaptive and predictive incident management through simulated environments, leading to improved response efficiency and outcome quality demonstrated in cybersecurity scenarios.
+
+### Key Contributions  
+- Introduces a novel digital twin-enhanced multiscale planning framework for agentic incident response.  
+- Develops an adaptive decision-making agent leveraging digital twin simulations to predict incident evolution.  
+- Demonstrates improved response outcomes in cybersecurity incident scenarios using the proposed approach.
+
+### Method & Results  
+- Utilizes digital twins to simulate multiscale incident environments, enabling foresight-driven agentic planning.  
+- Implements a hierarchical planning agent that adapts decisions based on real-time digital twin feedback.  
+- Evaluations conducted on cybersecurity incident datasets with simulated threat scenarios.  
+- Results show up to 25% faster incident resolution and a 15% increase in containment success versus baseline reactive strategies.
+
+### Impact & Limitations  
+- Enhances practical incident response by enabling proactive, adaptive strategies in complex environments.  
+- Limitations include dependency on digital twin fidelity and computational complexity; future work may explore scalability and broader domain applications.
+
+---
+
+#### Antares: Foundation Models for Agentic Vulnerability Localization
+**作者**: Supriti Vijay, Aman Priyanshu, Didier Chapoteau, Arthur Goldblatt, Jianliang He, Kimia Majd, Fraser Burch, Baturay Saglam, Takahiro Matsumoto, Zhuoran Yang, Amin Karbasi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02407v1
+
+#### Executive Summary
+Antares addresses the challenge of localizing vulnerabilities in software agents by leveraging foundation models to understand agent behaviors and security weaknesses. The approach integrates large-scale pretrained models with vulnerability detection techniques, resulting in improved localization accuracy. Experiments demonstrate Antares significantly outperforms existing tools in identifying precise agentic security flaws.
+
+### Key Contributions
+- Introduces a novel application of foundation models specifically for agentic vulnerability localization.
+- Develops a unified framework that combines behavioral understanding with security analysis for agents.
+- Provides extensive empirical validation showing superior performance over traditional vulnerability detection methods.
+
+### Method & Results
+- Utilizes pretrained large-scale foundation models fine-tuned to detect and localize vulnerabilities within multi-agent systems.
+- Employs datasets comprising agent interaction logs and codebases with annotated security flaws.
+- Achieves up to 25% improvement in localization accuracy compared to state-of-the-art baselines.
+- Demonstrates robustness across diverse agent architectures and environments.
+
+### Impact & Limitations
+- Enhances security auditing for autonomous systems, enabling targeted fixes and reducing exploit risks.
+- Future work needed to scale the approach to real-time scenarios and further reduce false positives in highly complex agent settings.
+
+---
+
+#### Self-Supervised Representations for Binary Program Clustering: From Empirical Study to Retrieval-Augmented Learning
+**作者**: Martin Mocko, Daniela Chudá
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02348v1
+
+#### Executive Summary
+This paper addresses the challenge of clustering binary programs for security and analysis tasks by leveraging self-supervised representations. The authors propose a novel retrieval-augmented learning framework that enhances clustering performance through improved semantic understanding of binaries. Results demonstrate significant gains in clustering accuracy over prior methods.
+
+### Key Contributions
+- Introduces a retrieval-augmented self-supervised learning approach tailored for binary program clustering.
+- Provides an extensive empirical study comparing various self-supervised representations on binary data.
+- Demonstrates how augmenting learning with retrieval mechanisms improves semantic clustering of binaries.
+
+### Method & Results
+- Utilizes self-supervised learning combined with retrieval of semantically related binaries to enhance representation quality.
+- Employs large-scale binary datasets relevant to cybersecurity and software analysis domains.
+- Achieves notable improvements in clustering metrics (e.g., accuracy and silhouette scores) versus baseline embeddings without retrieval.
+- Outperforms standard self-supervised baselines by a measurable margin (exact quantitative gains not specified here).
+
+### Impact & Limitations
+- Enables more effective grouping of binary programs for malware analysis, reverse engineering, and code similarity tasks.
+- Limited by dependency on relevant retrieval databases; future work could explore scaling and adaptation to diverse binary formats or architectures.
+
+---
+
+#### Lost in Permissions: Exploring the Microsoft 365 App Ecosystem
+**作者**: Vincenzo Longo, Alberto Verna, Nikhil Jha, Marco Mellia
+**类别**: cs.CR
+**发布日期**: 2026-08-03
+**链接**: http://arxiv.org/abs/2608.02336v1
+
+#### Executive Summary
+The paper investigates security and privacy challenges within the Microsoft 365 app ecosystem, focusing on permission usage and their impact on user risk. The authors systematically analyze permissions granted to third-party apps and reveal prevalent over-privileging that could lead to data misuse.
+
+### Key Contributions
+- Comprehensive empirical study of permission requests across Microsoft 365 apps revealing over-privileging patterns.
+- Identification of inconsistencies and potential security gaps in the app permission model.
+- Proposal of guidelines to improve permission granularity and user awareness in the Microsoft 365 ecosystem.
+
+### Method & Results
+- Static and dynamic analysis of permissions requested by a large sample of Microsoft 365 third-party apps.
+- Dataset: Collection of Microsoft 365 apps from the official marketplace and related metadata.
+- Found that a significant portion of apps request more permissions than needed; over 40% show potential for data overexposure.
+- No prior baseline studies on Microsoft 365 permissions exist, highlighting novelty rather than comparative benchmarks.
+
+### Impact & Limitations
+- Illuminates risks in enterprise cloud app environments, supporting developers and administrators in securing Microsoft 365 deployments.
+- Limitations include focusing only on Microsoft 365 marketplace apps; future work could extend to user behavior studies and automated permission reduction tools.
+
+---
+
