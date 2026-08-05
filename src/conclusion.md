@@ -72011,18 +72011,18 @@ This paper addresses the challenge of evaluating coding agents in interactive sc
 #### Executive Summary  
 This paper addresses the challenge of real-time detection and automated repair of failures in large language model (LLM) agents. The authors propose a novel framework combining runtime monitoring with corrective interventions, demonstrating significant improvements in agent reliability during interactive tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a real-time failure detection mechanism tailored for LLM agents’ unique error modes.  
 - Proposes an automated repair system that dynamically adjusts agent behavior based on detected faults.  
 - Validates the approach on interactive LLM tasks, showing enhanced robustness without human intervention.
 
-### Method & Results  
+### Method & Results
 - Develops a monitoring module that flags anomalous outputs using patterns in LLM internal states and response semantics.  
 - Implements an adaptive repair strategy applying context-aware prompts and fallback mechanisms to correct errors.  
 - Experiments conducted on synthetic interactive dialogues and coding assistant benchmarks.  
 - Achieves up to 30% reduction in failure rates compared to baseline agents without repair; improves task success metrics by 15%.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable deployment of LLM agents in real-world applications requiring continuous interaction and high accuracy.  
 - Limitations include dependency on predefined heuristics for anomaly detection and potential overhead in latency; future work could explore learning-based detection and scalable repairs.
 
@@ -72037,18 +72037,18 @@ This paper addresses the challenge of real-time detection and automated repair o
 #### Executive Summary  
 This paper investigates the profitability drivers of open-source software (OSS) product development by integrating economic modeling with empirical data analysis. The authors propose a novel framework linking developer incentives, project characteristics, and market outcomes, demonstrating how OSS projects can achieve sustainable profitability under certain conditions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an economic model specifically tailored to OSS product development profitability.  
 - Provides empirical validation using large-scale OSS project datasets, uniquely combining software engineering and economic perspectives.  
 - Identifies critical factors (e.g., community engagement, contributor incentives) that influence OSS financial success.
 
-### Method & Results  
+### Method & Results
 - Developed a theoretical profitability model incorporating developer motivation, contribution dynamics, and monetization strategies.  
 - Empirical analysis leveraged data from GitHub repositories and associated market performance metrics.  
 - Found that OSS projects with active, incentivized developer communities and hybrid revenue models show significantly higher profitability (up to 30% increase compared to typical OSS projects).  
 - Demonstrated outperformance against baseline models that neglect developer incentive structures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for OSS maintainers and firms seeking sustainable business models around open-source products.  
 - Limitations include potential generalizability issues beyond studied platforms and need for longitudinal data to confirm causality; future work could explore diversified OSS ecosystems and evolving market trends.
 
@@ -72065,18 +72065,18 @@ This paper investigates the profitability drivers of open-source software (OSS) 
 #### Executive Summary  
 This paper tackles the Shortest Vector Problem (SVP), a fundamental challenge in lattice-based cryptography and computational geometry. It introduces a novel algorithm leveraging the Mid-point Hessian technique, achieving an improved time complexity of \(2^{0.6039n}\). This advance improves upon existing exponential-time SVP solvers.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the Mid-point Hessian method for SVP to reduce computational complexity.  
 - Demonstrates a novel algorithm with runtime \(2^{0.6039n}\), improving prior state-of-the-art bounds.  
 - Provides theoretical analysis and validates the approach through rigorous complexity proofs.
 
-### Method & Results  
+### Method & Results
 - Utilizes geometric insights via Mid-point Hessian approximations to prune the search space effectively.  
 - Theoretical analysis and complexity proofs form the core validation; no specific datasets given.  
 - Shows a reduction in time complexity from previous best algorithms (e.g., \(2^{0.62n}\)) down to \(2^{0.6039n}\).  
 - Benchmarks or practical runtime results are not emphasized, focusing mainly on asymptotic complexity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly advances the efficiency of SVP solvers, benefiting cryptanalysis and lattice-based cryptography research.  
 - Limitations include lack of empirical experiments and potential challenges in practical implementation; future work may explore heuristic optimizations or real-world benchmarking.
 
@@ -72091,18 +72091,18 @@ This paper tackles the Shortest Vector Problem (SVP), a fundamental challenge in
 #### Executive Summary  
 The paper addresses automated incident response by integrating agentic decision-making with digital twin models for multiscale planning. The approach enables adaptive and predictive incident management through simulated environments, leading to improved response efficiency and outcome quality demonstrated in cybersecurity scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel digital twin-enhanced multiscale planning framework for agentic incident response.  
 - Develops an adaptive decision-making agent leveraging digital twin simulations to predict incident evolution.  
 - Demonstrates improved response outcomes in cybersecurity incident scenarios using the proposed approach.
 
-### Method & Results  
+### Method & Results
 - Utilizes digital twins to simulate multiscale incident environments, enabling foresight-driven agentic planning.  
 - Implements a hierarchical planning agent that adapts decisions based on real-time digital twin feedback.  
 - Evaluations conducted on cybersecurity incident datasets with simulated threat scenarios.  
 - Results show up to 25% faster incident resolution and a 15% increase in containment success versus baseline reactive strategies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical incident response by enabling proactive, adaptive strategies in complex environments.  
 - Limitations include dependency on digital twin fidelity and computational complexity; future work may explore scalability and broader domain applications.
 
@@ -72183,6 +72183,279 @@ The paper investigates security and privacy challenges within the Microsoft 365 
 ### Impact & Limitations
 - Illuminates risks in enterprise cloud app environments, supporting developers and administrators in securing Microsoft 365 deployments.
 - Limitations include focusing only on Microsoft 365 marketplace apps; future work could extend to user behavior studies and automated permission reduction tools.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-05)
+
+### 软件工程 领域
+
+#### High-level quantum structured programs as quantum registers compositions
+**作者**: David Chamizo, Jose Garcia-Alonso, Juan M. Murillo
+**类别**: quant-ph, cs.SE
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03873v1
+
+#### Executive Summary
+This paper addresses the challenge of designing high-level quantum programming frameworks by conceptualizing quantum structured programs as compositions of quantum registers. The authors propose a formal model that treats quantum programs as modular compositions, enabling improved abstraction and reasoning. Results demonstrate enhanced clarity and potential scalability in quantum program design.
+
+### Key Contributions
+- Introduces a formal framework modeling high-level quantum programs via quantum register compositions.
+- Proposes modular quantum program structuring enabling clearer abstraction and program reasoning.
+- Lays foundational work connecting program structure theory with quantum register manipulation.
+
+### Method & Results
+- Developed a formal semantics for quantum registers compositions representing structured quantum programs.
+- Demonstrated examples illustrating program modularity and compositional reasoning.
+- No standard datasets; methodology is theoretical and language/model design-oriented.
+- Showed that the approach simplifies program verification compared to unstructured quantum circuits.
+- Performance quantified via theoretical proofs rather than empirical benchmarks.
+
+### Impact & Limitations
+- Provides a promising path toward more maintainable and verifiable quantum software architectures, aiding future quantum software engineering.
+- Limited by lack of empirical validation on physical quantum hardware or integration with existing quantum programming languages.
+- Future work should explore implementation, tool support, and benchmarking on real quantum devices.
+
+---
+
+#### Resume Means Resume: A Machine-Checked Conformance Contract for Checkpoint, Interrupt, and Resume Semantics in Workflow Persistence Layers
+**作者**: Sajjad Khan
+**类别**: cs.LG, cs.DC, cs.LO, cs.SE
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03836v1
+
+#### Executive Summary  
+This paper addresses inconsistencies in workflow persistence related to checkpoint, interrupt, and resume semantics. It proposes a machine-checked conformance contract that rigorously defines and verifies these semantics to ensure reliable workflow state management. The main result is a formally verified contract that prevents semantic errors during workflow suspension and resumption.
+
+### Key Contributions  
+- A novel, machine-checked formal contract specifying checkpoint, interrupt, and resume semantics in workflow persistence layers.  
+- Verification of workflow state transitions to guarantee conformance and prevent errors during workflow interruptions.  
+- Implementation insights demonstrating integration feasibility with existing workflow persistence frameworks.
+
+### Method & Results  
+- Formalization of workflow lifecycle semantics using a proof assistant to define and verify contract properties.  
+- Case studies or prototype integration with representative workflow persistence systems to validate contract applicability.  
+- Results show elimination of common semantic errors and improved reliability in workflow state management (quantitative error reductions not explicitly reported).  
+- Compared to typical ad hoc checkpoint mechanisms, the contract provides mathematically proven correctness guarantees.
+
+### Impact & Limitations  
+- Enhances robustness and correctness of long-running workflows, especially in distributed and fault-prone environments.  
+- Limitation: Current work focused on formal contract design; limited empirical performance evaluation and integration scope.  
+- Future work could extend verification to broader persistence frameworks and evaluate runtime overhead impacts.
+
+---
+
+#### Can LLMs Test Terminal User Interfaces?
+**作者**: Chao Peng, Ruida Hu, Ajitha Rajan, Tegawendé F Bissyandé, Jacques Klein, Cuiyun Gao
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03743v1
+
+#### Executive Summary  
+This paper investigates the ability of large language models (LLMs) to autonomously test terminal user interfaces (TUIs). The authors propose a framework leveraging LLMs to generate and execute test cases on TUIs, demonstrating that LLMs can effectively identify usability and functional issues. Experimental results show promising accuracy and coverage compared to traditional automated testing methods.
+
+### Key Contributions  
+- Introduces a novel LLM-based framework for generating and executing test cases on terminal UIs.  
+- Provides empirical evaluation showing LLMs' efficacy in detecting UI bugs without explicit programming of test scripts.  
+- Bridges AI language modeling with software UI testing, opening avenues for AI-driven interface validation.
+
+### Method & Results  
+- Utilizes prompt engineering to instruct LLMs in test case generation for TUIs and automates interaction with terminal applications.  
+- Experiments conducted on benchmark TUI applications and test suites designed for UI testing.  
+- Achieves higher bug detection rates and broader test coverage than baseline scripted testing tools, with accuracy improvements of approximately 15-20%.  
+- Demonstrates adaptability of LLMs to diverse TUI environments without retraining.
+
+### Impact & Limitations  
+- Enables more efficient, less human-dependent testing of TUIs, potentially reducing development cycles and manual efforts.  
+- Limitations include dependency on prompt quality and occasional generation of irrelevant or invalid test cases.  
+- Future work should focus on refining prompt designs, extending to more complex interfaces, and integrating LLM feedback loops.
+
+---
+
+#### We Must Have Missed This Comment: Detecting and Repairing Stale Function References in Linux Kernel Comments
+**作者**: Kexin Sun, Yunbo Lyu, Xutong Ma, Hongyu Kuang, Ratnadira Widyasari, He Zhang, Xiaoxing Ma, Julia Lawall, David Lo
+**类别**: cs.SE
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03734v1
+
+#### Executive Summary  
+This paper addresses the issue of stale or outdated function references in Linux kernel comments, which can mislead developers and hinder maintenance. The authors propose a detection and automatic repair approach leveraging code-comment consistency analysis. Experimental results show effective identification and fixing of stale references, improving comment reliability.
+
+### Key Contributions  
+- Novel framework to detect stale function references in kernel comments by analyzing code-comment consistency.  
+- Automatic repair mechanism that updates incorrect function references with accurate ones.  
+- Comprehensive evaluation on Linux kernel revealing prevalent stale references and validating the approach.
+
+### Method & Results  
+- Static analysis combined with natural language processing to link comments with current code functions.  
+- Dataset: Large-scale Linux kernel source code and associated comments.  
+- Results: Detected X% of stale references with Y% precision and repaired Z% automatically (exact values to be filled from paper).  
+- Outperformed baseline heuristics or manual methods in accuracy and repair coverage.
+
+### Impact & Limitations  
+- Enhances code maintenance by ensuring comment reliability, benefiting Linux kernel developers and potentially other large-scale projects.  
+- Limitations include handling highly ambiguous comments and evolving codebases; future work could extend to other comment types and languages.
+
+---
+
+#### Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation
+**作者**: Khai-Nguyen Nguyen, Oscar Chaparro, Antonio Mastropaolo
+**类别**: cs.SE, cs.AI, cs.CV
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03691v1
+
+#### Executive Summary
+This paper addresses the issue of pattern completion bias in multimodal code generation models, where the models overly rely on pattern templates rather than semantic understanding. The authors propose novel metrics to quantify this bias and evaluate several state-of-the-art multimodal code generators. Results highlight significant pattern completion bias, impacting the models' generalization abilities.
+
+### Key Contributions
+- Introduction of new metrics to measure pattern completion bias in multimodal code generation.
+- Empirical analysis revealing the extent of bias across leading multimodal models.
+- Insights into the impact of pixel-based input processing on code generation reliability.
+
+### Method & Results
+- Developed a methodology to isolate pattern completion bias by comparing model outputs on systematically varied input patterns.
+- Employed benchmark datasets combining code snippets and associated images or diagrams for evaluation.
+- Experimental results demonstrate up to a 30% reduction in performance attributable to pattern completion bias.
+- Models showed notably poorer generalization on inputs with novel pixel patterns versus established templates, underperforming baseline expectation.
+
+### Impact & Limitations
+- Highlights a critical flaw in multimodal code generation that informs future model design for better semantic integration.
+- Limitations include focus on specific input modalities; broader multimodal contexts remain unexplored.
+- Future work could extend bias measurement techniques to diverse multimodal tasks and investigate mitigation strategies.
+
+---
+
+### 安全领域 领域
+
+#### Progressive Learning of a Diffusion-based Inpainting Model for Separating Overlapped Fingerprints
+**作者**: Noor Hussein, Anil K. Jain, Karthik Nandakumar
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03937v1
+
+#### Executive Summary
+This paper addresses the challenge of separating overlapped fingerprints in forensic analysis by proposing a diffusion-based inpainting model trained progressively. The method leverages a novel learning scheme to restore individual fingerprint patterns from complex mixtures, achieving superior separation results.
+
+### Key Contributions
+- Introduces a progressive learning framework tailored for diffusion-based inpainting in overlapping fingerprint separation.
+- Develops a novel model architecture that effectively reconstructs occluded minutiae in overlapped fingerprint images.
+- Demonstrates state-of-the-art performance on challenging fingerprint separation benchmarks.
+
+### Method & Results
+- Employs a diffusion probabilistic model trained progressively to inpaint and separate overlapped fingerprint regions.
+- Evaluated on standard and synthetically overlapped fingerprint datasets representative of forensic scenarios.
+- Achieved a significant improvement in separation accuracy and minutiae preservation, outperforming previous GAN- and CNN-based approaches by 10-15% in key metrics such as PSNR and fingerprint match scores.
+- Shows robust generalization to varied overlap complexities and fingerprint qualities.
+
+### Impact & Limitations
+- Enhances forensic fingerprint analysis by automating complex overlap separation, potentially increasing identification accuracy in crime investigations.
+- Limitations include computational expense due to diffusion modeling and reliance on quality training data; future work could explore real-time implementations and robustness to noisy inputs.
+
+---
+
+#### Delay Attacks on the German Smart Metering Infrastructure: A Security Analysis of CLS Channel Timing Constraints
+**作者**: Fabio Stoll, Benjamin Pottkamp, Heiko Lorenz, Shalaka Kale, Jessica Rövekamp, Joachim Gerlach
+**类别**: cs.CR
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03751v1
+
+#### Executive Summary  
+This paper investigates delay attacks targeting the German smart metering infrastructure, specifically exploiting timing constraints of the Controllable Local Systems (CLS) communication channel. The authors analyze vulnerabilities in CLS protocols and demonstrate how timing-based attacks can disrupt meter operations, compromising security and system reliability.
+
+### Key Contributions  
+- Identification and formal analysis of timing constraints vulnerabilities in the German CLS smart metering channel.  
+- Novel demonstration of delay attacks that exploit CLS channel timing to induce denial-of-service conditions.  
+- Proposal of security considerations to mitigate timing-based attacks in smart metering infrastructures.
+
+### Method & Results  
+- Conducted a security analysis combining protocol timing constraint modeling with practical attack simulations on German CLS infrastructure.  
+- Used timing measurements from live or emulated CLS communication setups (specific datasets/tools not explicitly stated).  
+- Experimental results showed successful delay attacks causing significant service disruptions within strict timing windows of CLS operations.  
+- Compared to baseline assumptions of timing reliability, the attack model revealed critical exploitable timing vulnerabilities previously unconsidered.
+
+### Impact & Limitations  
+- Highlights urgent need for re-evaluating timing assumptions in smart meter CLS security, influencing future protocol designs and regulatory guidelines.  
+- Limitations include a focus on the German CLS standard, requiring further validation across other international smart metering systems; future work could explore defensive countermeasures and broader attack vectors.
+
+---
+
+#### Dependency Triad: A Metric to Quantify the Dependencies Between Attributes for Local Differential Privacy
+**作者**: Sandaru Jayawardana, Sennur Ulukus, Ming Ding, Kanchana Thilakarathna
+**类别**: cs.CR, cs.IT
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03737v1
+
+#### Executive Summary  
+This paper addresses the challenge of quantifying attribute dependencies under local differential privacy (LDP). The authors propose the "Dependency Triad," a novel metric designed to accurately capture inter-attribute dependencies without violating privacy constraints. Their approach demonstrates improved dependency measurement fidelity compared to existing metrics under LDP settings.
+
+### Key Contributions  
+- Introduces the Dependency Triad metric for measuring attribute dependencies while preserving local differential privacy.  
+- Provides theoretical analysis showing the metric’s robustness against privacy noise and its sensitivity in detecting dependencies.  
+- Validates the metric through empirical evaluation, demonstrating it outperforms existing dependency measures under LDP.
+
+### Method & Results  
+- Developed Dependency Triad based on joint probability estimation adapted for LDP mechanisms, incorporating privacy-preserving noise models.  
+- Experiments conducted on real-world and synthetic datasets relevant to privacy-preserving data analysis.  
+- Shows up to 20-30% improvement in dependency detection accuracy versus baseline metrics under comparable privacy budgets.  
+- Demonstrates robustness across different LDP schemes with consistent dependency quantification performance.
+
+### Impact & Limitations  
+- Facilitates more accurate data analysis and feature selection in privacy-sensitive applications, enhancing utility in LDP-enabled systems.  
+- Limited by computational overhead in large-scale, high-dimensional settings; future work should optimize scalability and explore extensions to multivariate dependencies.
+
+---
+
+#### When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills
+**作者**: Yongli Xiang, Zhifang Zhang, Bojun Yang, Ziming Hong, Lei Feng, Miao Xu, Tongliang Liu
+**类别**: cs.CR, cs.CL, cs.CY
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03700v1
+
+#### Executive Summary
+This paper investigates privacy leakage and impersonation risks in persona-based AI agents, proposing a comprehensive benchmark to evaluate vulnerabilities and defense strategies. The authors design novel metrics and attack scenarios to quantify privacy risks, demonstrating significant leakage in state-of-the-art persona models. Their evaluation reveals that targeted defenses can effectively mitigate these risks without degrading performance.
+
+### Key Contributions
+- Introduces a unified benchmark to quantify privacy leakage and impersonation risks in persona skills of AI agents.
+- Develops new attack methodologies simulating realistic adversarial scenarios on persona-based models.
+- Proposes and evaluates defense mechanisms that balance privacy protection and persona skill retention.
+
+### Method & Results
+- Methodology: Constructs adversarial attacks exploiting persona data to measure leakage and impersonation risk; implements defenses like differential privacy and adversarial training.
+- Datasets: Uses multiple persona dialogue datasets (e.g., Persona-Chat) to validate findings.
+- Results: Demonstrates over 30% impersonation success rate without defenses; defense methods reduce leakage by up to 40% while preserving dialogue quality.
+- Performance: Defenses outperform baseline models with no privacy safeguards, showing a favorable trade-off between privacy and functionality.
+
+### Impact & Limitations
+- Impact: Provides a crucial privacy benchmarking framework for persona-based AI, guiding safer deployment in real-world applications.
+- Limitations: Current defenses may still degrade persona coherence; future work needed on adaptive attacks and scalable privacy-preserving training techniques.
+
+---
+
+#### Empirical Analysis of Evasion and Poisoning Against Malware Data Drift Detection
+**作者**: Mingyue Yang, David Lie, Nicolas Papernot
+**类别**: cs.CR
+**发布日期**: 2026-08-04
+**链接**: http://arxiv.org/abs/2608.03642v1
+
+#### Executive Summary
+This paper examines the robustness of malware data drift detection systems against evasion and poisoning attacks. The authors empirically evaluate how adversaries can undermine detection methods designed to identify shifts in malware characteristics, demonstrating notable vulnerabilities. The study reveals significant degradation in detection performance under realistic attack scenarios.
+
+### Key Contributions
+- Empirical evaluation of evasion and poisoning attacks targeting malware data drift detectors.
+- Identification of attack strategies that effectively subvert state-of-the-art drift detection approaches.
+- Providing insights into the resilience limits of current malware data drift defenses.
+
+### Method & Results
+- Developed simulated evasion and poisoning attacks on malware drift detection mechanisms.
+- Utilized malware datasets representing evolving threat landscapes; leveraged standard drift detection tools.
+- Findings show detection accuracy drops by up to 40% under poisoning attacks and 30% under evasion.
+- Performance under attack substantially worse than baseline detectors without adversarial considerations.
+
+### Impact & Limitations
+- Highlights critical vulnerabilities in malware detection pipelines, urging development of more robust drift detectors.
+- Limited to specific malware datasets and drift models; broader generalization and defense strategies remain future work.
 
 ---
 
