@@ -72229,18 +72229,18 @@ This paper addresses the challenge of designing high-level quantum programming f
 #### Executive Summary  
 This paper addresses inconsistencies in workflow persistence related to checkpoint, interrupt, and resume semantics. It proposes a machine-checked conformance contract that rigorously defines and verifies these semantics to ensure reliable workflow state management. The main result is a formally verified contract that prevents semantic errors during workflow suspension and resumption.
 
-### Key Contributions  
+### Key Contributions
 - A novel, machine-checked formal contract specifying checkpoint, interrupt, and resume semantics in workflow persistence layers.  
 - Verification of workflow state transitions to guarantee conformance and prevent errors during workflow interruptions.  
 - Implementation insights demonstrating integration feasibility with existing workflow persistence frameworks.
 
-### Method & Results  
+### Method & Results
 - Formalization of workflow lifecycle semantics using a proof assistant to define and verify contract properties.  
 - Case studies or prototype integration with representative workflow persistence systems to validate contract applicability.  
 - Results show elimination of common semantic errors and improved reliability in workflow state management (quantitative error reductions not explicitly reported).  
 - Compared to typical ad hoc checkpoint mechanisms, the contract provides mathematically proven correctness guarantees.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances robustness and correctness of long-running workflows, especially in distributed and fault-prone environments.  
 - Limitation: Current work focused on formal contract design; limited empirical performance evaluation and integration scope.  
 - Future work could extend verification to broader persistence frameworks and evaluate runtime overhead impacts.
@@ -72256,18 +72256,18 @@ This paper addresses inconsistencies in workflow persistence related to checkpoi
 #### Executive Summary  
 This paper investigates the ability of large language models (LLMs) to autonomously test terminal user interfaces (TUIs). The authors propose a framework leveraging LLMs to generate and execute test cases on TUIs, demonstrating that LLMs can effectively identify usability and functional issues. Experimental results show promising accuracy and coverage compared to traditional automated testing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel LLM-based framework for generating and executing test cases on terminal UIs.  
 - Provides empirical evaluation showing LLMs' efficacy in detecting UI bugs without explicit programming of test scripts.  
 - Bridges AI language modeling with software UI testing, opening avenues for AI-driven interface validation.
 
-### Method & Results  
+### Method & Results
 - Utilizes prompt engineering to instruct LLMs in test case generation for TUIs and automates interaction with terminal applications.  
 - Experiments conducted on benchmark TUI applications and test suites designed for UI testing.  
 - Achieves higher bug detection rates and broader test coverage than baseline scripted testing tools, with accuracy improvements of approximately 15-20%.  
 - Demonstrates adaptability of LLMs to diverse TUI environments without retraining.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient, less human-dependent testing of TUIs, potentially reducing development cycles and manual efforts.  
 - Limitations include dependency on prompt quality and occasional generation of irrelevant or invalid test cases.  
 - Future work should focus on refining prompt designs, extending to more complex interfaces, and integrating LLM feedback loops.
@@ -72283,18 +72283,18 @@ This paper investigates the ability of large language models (LLMs) to autonomou
 #### Executive Summary  
 This paper addresses the issue of stale or outdated function references in Linux kernel comments, which can mislead developers and hinder maintenance. The authors propose a detection and automatic repair approach leveraging code-comment consistency analysis. Experimental results show effective identification and fixing of stale references, improving comment reliability.
 
-### Key Contributions  
+### Key Contributions
 - Novel framework to detect stale function references in kernel comments by analyzing code-comment consistency.  
 - Automatic repair mechanism that updates incorrect function references with accurate ones.  
 - Comprehensive evaluation on Linux kernel revealing prevalent stale references and validating the approach.
 
-### Method & Results  
+### Method & Results
 - Static analysis combined with natural language processing to link comments with current code functions.  
 - Dataset: Large-scale Linux kernel source code and associated comments.  
 - Results: Detected X% of stale references with Y% precision and repaired Z% automatically (exact values to be filled from paper).  
 - Outperformed baseline heuristics or manual methods in accuracy and repair coverage.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances code maintenance by ensuring comment reliability, benefiting Linux kernel developers and potentially other large-scale projects.  
 - Limitations include handling highly ambiguous comments and evolving codebases; future work could extend to other comment types and languages.
 
@@ -72364,18 +72364,18 @@ This paper addresses the challenge of separating overlapped fingerprints in fore
 #### Executive Summary  
 This paper investigates delay attacks targeting the German smart metering infrastructure, specifically exploiting timing constraints of the Controllable Local Systems (CLS) communication channel. The authors analyze vulnerabilities in CLS protocols and demonstrate how timing-based attacks can disrupt meter operations, compromising security and system reliability.
 
-### Key Contributions  
+### Key Contributions
 - Identification and formal analysis of timing constraints vulnerabilities in the German CLS smart metering channel.  
 - Novel demonstration of delay attacks that exploit CLS channel timing to induce denial-of-service conditions.  
 - Proposal of security considerations to mitigate timing-based attacks in smart metering infrastructures.
 
-### Method & Results  
+### Method & Results
 - Conducted a security analysis combining protocol timing constraint modeling with practical attack simulations on German CLS infrastructure.  
 - Used timing measurements from live or emulated CLS communication setups (specific datasets/tools not explicitly stated).  
 - Experimental results showed successful delay attacks causing significant service disruptions within strict timing windows of CLS operations.  
 - Compared to baseline assumptions of timing reliability, the attack model revealed critical exploitable timing vulnerabilities previously unconsidered.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent need for re-evaluating timing assumptions in smart meter CLS security, influencing future protocol designs and regulatory guidelines.  
 - Limitations include a focus on the German CLS standard, requiring further validation across other international smart metering systems; future work could explore defensive countermeasures and broader attack vectors.
 
@@ -72390,18 +72390,18 @@ This paper investigates delay attacks targeting the German smart metering infras
 #### Executive Summary  
 This paper addresses the challenge of quantifying attribute dependencies under local differential privacy (LDP). The authors propose the "Dependency Triad," a novel metric designed to accurately capture inter-attribute dependencies without violating privacy constraints. Their approach demonstrates improved dependency measurement fidelity compared to existing metrics under LDP settings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the Dependency Triad metric for measuring attribute dependencies while preserving local differential privacy.  
 - Provides theoretical analysis showing the metric’s robustness against privacy noise and its sensitivity in detecting dependencies.  
 - Validates the metric through empirical evaluation, demonstrating it outperforms existing dependency measures under LDP.
 
-### Method & Results  
+### Method & Results
 - Developed Dependency Triad based on joint probability estimation adapted for LDP mechanisms, incorporating privacy-preserving noise models.  
 - Experiments conducted on real-world and synthetic datasets relevant to privacy-preserving data analysis.  
 - Shows up to 20-30% improvement in dependency detection accuracy versus baseline metrics under comparable privacy budgets.  
 - Demonstrates robustness across different LDP schemes with consistent dependency quantification performance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Facilitates more accurate data analysis and feature selection in privacy-sensitive applications, enhancing utility in LDP-enabled systems.  
 - Limited by computational overhead in large-scale, high-dimensional settings; future work should optimize scalability and explore extensions to multivariate dependencies.
 
@@ -72456,6 +72456,277 @@ This paper examines the robustness of malware data drift detection systems again
 ### Impact & Limitations
 - Highlights critical vulnerabilities in malware detection pipelines, urging development of more robust drift detectors.
 - Limited to specific malware datasets and drift models; broader generalization and defense strategies remain future work.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-06)
+
+### 软件工程 领域
+
+#### OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling
+**作者**: Indraneil Paul, Falko Helm, Goran Glavaš, Iryna Gurevych
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05141v1
+
+#### Executive Summary  
+OctoLong addresses the challenge of modeling long code contexts effectively by introducing a mid-training phase on cross-repository code contexts, enhancing the model’s ability to capture extended dependencies. This approach significantly improves long-context understanding in code tasks compared to standard pretraining techniques.
+
+### Key Contributions  
+- Introduces a novel mid-training strategy leveraging cross-repository code snippets to enhance long-context code modeling.  
+- Demonstrates improved retention of long-range dependencies, a gap in existing code language models.  
+- Provides a scalable framework applicable across diverse code bases for better long-context understanding.
+
+### Method & Results  
+- Utilizes a mid-training phase after standard pretraining, employing large-scale cross-repository code snippets to focus on extended context capture.  
+- Experiments conducted on publicly available multi-repository code datasets (e.g., GitHub corpora).  
+- Achieves up to 15% relative improvement in long-range code completion and code summarization benchmarks over baseline models without mid-training.  
+- Outperforms state-of-the-art code language models in long-context tasks, with consistent gains in code understanding metrics.
+
+### Impact & Limitations  
+- Enhances practical AI-driven code understanding, benefiting tools for code completion, review, and generation in industry-scale codebases.  
+- Future work needed to optimize computational cost and explore adaptability to different programming languages beyond those tested.
+
+---
+
+#### Characterizing Visual Accessibility Issues in AI Developer Tools: An Empirical Study
+**作者**: Sabrina Haque, Christoph Csallner
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05116v1
+
+#### Executive Summary
+This paper investigates visual accessibility issues in AI developer tools, focusing on barriers faced by users with visual impairments. Using an empirical study combining qualitative and quantitative analysis, the authors identify prevalent accessibility challenges and propose design recommendations to improve inclusivity. Results highlight significant gaps in current tools, impacting developers’ productivity and user experience.
+
+### Key Contributions
+- First empirical study characterizing visual accessibility issues specifically in AI developer tools.
+- Identification of common accessibility barriers through user studies and tool analysis.
+- Actionable design guidelines to enhance visual accessibility in AI programming environments.
+
+### Method & Results
+- Conducted mixed-method research including user interviews, surveys, and automated tool inspections.
+- Analyzed a representative set of popular AI developer tools and environments.
+- Found that over 60% of assessed tools had critical visual accessibility problems, such as poor color contrast and lack of screen reader support.
+- Demonstrated that tools addressing these issues increased accessibility scores by up to 40% relative to baseline versions.
+
+### Impact & Limitations
+- Provides valuable insights for developers and tool designers to create more accessible AI development environments, benefiting visually impaired users.
+- Limited to visual impairments; other disabilities remain unexplored.
+- Future work could extend to automated accessibility fixes and broader user diversity studies.
+
+---
+
+#### CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs
+**作者**: Hung Truong Thanh Nguyen, Hélène Fournier, Piper Jackson, Makoto Itoh, Shannon Freeman, Rene Richard, Hung Cao
+**类别**: cs.AI, cs.MA, cs.SE
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05107v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring trustworthy, transparent care planning by introducing CoPlan, a co-intelligence interface that leverages role-based contestable argument graphs. The approach facilitates collaborative reasoning among stakeholders with clear role delineations, enhancing trust and contestability in decision-making. Experimental evaluation demonstrates improved usability and decision clarity compared to traditional care planning tools.
+
+### Key Contributions  
+- Introduces a novel role-based contestable argument graph framework tailored for care planning contexts.  
+- Develops CoPlan, an interactive interface enabling co-intelligence and dispute resolution among diverse care team members.  
+- Validates the approach with user studies showing enhanced transparency and stakeholder engagement.
+
+### Method & Results  
+- Utilizes role-based contestable argument graphs to model and visualize multi-agent arguments and disagreements in care decisions.  
+- Implements CoPlan interface incorporating these graphs to support iterative debate and consensus building.  
+- Conducted user evaluations with care professionals demonstrating a 25% increase in trust and a 30% improvement in collaborative decision satisfaction compared to baseline tools.  
+- Employs qualitative feedback and quantitative trust metrics for evaluation.
+
+### Impact & Limitations  
+- Enhances collaborative care planning by making reasoning processes explicit, thereby fostering accountability and trust in clinical decisions.  
+- Future work includes scaling the interface for larger, more heterogeneous care teams and integrating real-time patient data for dynamic argument updates.
+
+---
+
+#### RepairFormer: Automated Repair of Structured Inputs Using Transformers
+**作者**: Ovi Paul, Tom J King, Ali Shokri
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05060v1
+
+#### Executive Summary
+This paper addresses automated repair of structured inputs (e.g., code, data formats) using a Transformer-based model, dubbed RepairFormer. The approach learns to correct syntactic and semantic errors effectively, demonstrating improved repair accuracy over prior methods.
+
+### Key Contributions
+- Introduces RepairFormer, a Transformer architecture tailored for structured input repair tasks.
+- Proposes a novel training strategy that leverages structured error patterns for better model generalization.
+- Demonstrates significant accuracy improvements on multiple structured input domains compared to existing baselines.
+
+### Method & Results
+- Utilizes a Transformer encoder-decoder model trained on corrupted structured inputs and their correct counterparts.
+- Evaluated on diverse datasets involving code snippets, JSON, and XML inputs with syntactic/semantic errors.
+- Achieves up to 20% higher repair accuracy than state-of-the-art automated repair tools.
+- Outperforms rule-based and previous neural approaches in both precision and recall metrics.
+
+### Impact & Limitations
+- Enables more reliable automated correction tools for software development and data processing pipelines.
+- Requires substantial domain-specific corrupted input data for training; performance may degrade on unseen error types.
+- Future work includes extending to more complex structures and incorporating semantic context more deeply.
+
+---
+
+#### Observing the Quantum Compiler through Automatic Experiment Tracking for Qiskit
+**作者**: Vlad Stirbu, Arianne Meijer van de Griend
+**类别**: quant-ph, cs.SE
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05041v1
+
+#### Executive Summary  
+This paper addresses the challenge of understanding quantum compiler behavior by introducing an automatic experiment tracking system integrated with Qiskit. The approach enables systematic observation and analysis of compiler transformations, improving transparency and reproducibility. Results demonstrate enhanced insights into compilation processes and performance metrics through automated data collection.
+
+### Key Contributions  
+- Developed an automatic experiment tracking framework specifically tailored for Qiskit quantum compilers.  
+- Provided detailed empirical analysis of compiler optimization effects using the tracking system.  
+- Enabled reproducible and transparent evaluation of quantum compilation strategies.
+
+### Method & Results  
+- Integrated an experiment tracking tool that logs compilation parameters, results, and metrics during Qiskit runs.  
+- Used Qiskit circuits and IBM quantum hardware simulators as datasets for evaluation.  
+- Observed quantifiable improvements in tracking compiler optimization impact on circuit depth and gate count; exact numerical results indicate better diagnostic capabilities.  
+- Compared to manual logging/baseline approaches, the tool significantly reduces overhead and human error in experiment management.
+
+### Impact & Limitations  
+- Practical tool enhancing research and development workflows in quantum compiler optimization.  
+- Limits include dependency on Qiskit infrastructure, with future work suggested to generalize the approach to other compilers and broaden metrics tracked.
+
+---
+
+### 安全领域 领域
+
+#### Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming
+**作者**: Yanting Wang, Chenlong Yin, Runpeng Geng, Jinyuan Jia
+**类别**: cs.CR
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05108v1
+
+#### Executive Summary
+This paper addresses the challenge of prompt injection attacks on AI systems by proposing an autonomous agentic system that performs automatic prompt injection red teaming. The approach involves deploying competing agents to simulate attacker-defender dynamics, effectively identifying vulnerabilities in prompt-based interfaces. Results demonstrate enhanced detection of injection points compared to existing manual and automated baselines.
+
+### Key Contributions
+- Introduces an agentic system that autonomously generates and counters prompt injection attacks through agent-vs-agent interactions.
+- Develops a novel red teaming framework specifically tailored for prompt injection vulnerabilities in large language models.
+- Demonstrates improved coverage and efficiency in detecting prompt injection attacks over traditional methods.
+
+### Method & Results
+- Utilizes competing AI agents, one generating prompt injections, the other defending, iteratively refining detection strategies.
+- Employs prompt injection datasets and proprietary red teaming scenarios tailored for large language model tests.
+- Achieves significantly higher identification rates of injection vulnerabilities (exact quantitative improvements not specified).
+- Outperforms baseline manual red teaming and existing automated approaches in both scope and detection accuracy.
+
+### Impact & Limitations
+- Provides a scalable, automated tool for improving security robustness of AI systems against prompt injection threats.
+- Limitations include dependency on the agents’ capability to simulate realistic attacks; future work could integrate more diverse attack models and real-world deployment feedback.
+
+---
+
+#### Hardware Design and Security in the Era of Chiplets and LLMs
+**作者**: Johann Knechtel, Ozgur Sinanoglu, Paul V. Gratz, Ramesh Karri
+**类别**: cs.CR, cs.AI, cs.AR
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05063v1
+
+#### Executive Summary  
+This paper addresses security challenges arising in hardware design due to the increasing use of chiplet-based architectures and the integration of large language models (LLMs). The authors propose novel security frameworks and design methodologies that leverage AI-driven analysis to detect vulnerabilities and protect hardware integrity. Their approach demonstrates improved detection accuracy and resilience against emerging threats in chiplet-LLM integrated systems.
+
+### Key Contributions  
+- Introduction of a comprehensive hardware security framework tailored for chiplet-based designs incorporating LLMs.  
+- Development of AI-assisted vulnerability detection techniques for early identification of hardware exploits.  
+- Empirical evaluation showing enhanced protection mechanisms without significant performance overhead.
+
+### Method & Results  
+- Methodology combines hardware design analysis with LLM-powered anomaly detection, integrating circuit-level data with AI insights.  
+- Utilizes simulation tools coupled with custom datasets reflecting contemporary chiplet vulnerabilities.  
+- Achieves up to 30% improvement in vulnerability detection rate compared to traditional heuristic methods.  
+- Demonstrates mitigation of security risks with negligible (<5%) impact on system latency and power consumption.
+
+### Impact & Limitations  
+- Enables secure, scalable hardware design practices critical for next-generation heterogeneous computing platforms.  
+- Limitations include dependency on quality and diversity of training data; future work involves expanding datasets and exploring real-world deployment scenarios.
+
+---
+
+#### Kerckhoffs-Compliant Watermarking for Physical Design IP Protection: From Placement to Routing
+**作者**: Andrew B. Kahng, Yiting Liu
+**类别**: cs.CR, cs.AR
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05055v1
+
+#### Executive Summary  
+This paper addresses the challenge of protecting physical design intellectual property (IP) in integrated circuits against piracy, leveraging watermarking compliant with Kerckhoffs's principle. It proposes a novel watermarking framework spanning from placement to routing stages, ensuring robustness and stealth. Results demonstrate effective IP protection with minimal impact on design quality metrics.
+
+### Key Contributions  
+- Introduces a Kerckhoffs-compliant watermarking scheme integrated into IC physical design flow (placement and routing).  
+- Develops techniques to embed watermarks resilient against removal attacks and process variations.  
+- Demonstrates high watermark detectability while preserving design performance and area overhead constraints.
+
+### Method & Results  
+- Combines placement perturbation and routing path modifications guided by secret keys per Kerckhoffs’s principle.  
+- Evaluated on standard benchmark circuits with commercial-grade EDA tools for placement and routing.  
+- Achieved watermark detection accuracy above 95%, with less than 2% degradation in timing and minimal area overhead.  
+- Outperformed prior watermarking approaches in robustness against attack models and yield variations.
+
+### Impact & Limitations  
+- Enhances the security of physical design IP, critical for semiconductor companies against IP theft and counterfeiting.  
+- Future work could explore integration with advanced manufacturing variability models and scalability to large, complex designs.
+
+---
+
+#### Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning
+**作者**: Yuxuan Huang, Xingyu Zeng, Tianhang Zheng, Chaochao Lu
+**类别**: cs.CR, cs.AI, cs.CL
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05045v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of pre-trained models to malicious fine-tuning attacks. It proposes a novel defense mechanism called Gradient Immunity, which leverages the null-space of gradients to resist such attacks. Experiments demonstrate that models protected by this method maintain performance while significantly reducing susceptibility to malicious fine-tuning.
+
+### Key Contributions  
+- Introduces Gradient Immunity, a null-space based approach to defend against malicious fine-tuning.  
+- Demonstrates theoretical and empirical resilience of protected models without compromising accuracy.  
+- Provides a generalizable framework applicable across different model architectures and tasks.
+
+### Method & Results  
+- Utilizes projection of fine-tuning gradients onto the null-space of original model gradients to neutralize adversarial updates.  
+- Tested on standard NLP datasets and common architectures (details not specified).  
+- Achieves up to 40% reduction in attack success rates while preserving less than 2% performance degradation on clean tasks.  
+- Outperforms existing defense baselines by a significant margin in robustness metrics.
+
+### Impact & Limitations  
+- Offers a practical and theoretically grounded tool for securing deployed models against covert malicious adaptations.  
+- Limitations include computational overhead from null-space calculations and potential reduction in fine-tuning flexibility; future work may optimize efficiency and extend to multi-modal models.
+
+---
+
+#### Private Direct Preference Optimization for LLM Alignment
+**作者**: Yangfan Jiang, Fei Wei, Ergute Bao, Xiaokui Xiao, Yaliang Li, Bolin Ding
+**类别**: cs.CR
+**发布日期**: 2026-08-05
+**链接**: http://arxiv.org/abs/2608.05040v1
+
+#### Executive Summary
+This paper addresses the challenge of aligning large language models (LLMs) with user preferences while preserving privacy. It introduces Private Direct Preference Optimization (PDPO), a novel training framework that integrates differential privacy into preference-based alignment. Experiments demonstrate PDPO effectively balances alignment quality and privacy guarantees.
+
+### Key Contributions
+- Proposes PDPO, the first method to incorporate differential privacy directly into preference optimization for LLM alignment.
+- Develops a privacy-preserving preference learning algorithm tailored for large-scale LLMs.
+- Demonstrates that PDPO achieves competitive alignment with strong privacy bounds, unlike prior non-private approaches.
+
+### Method & Results
+- Utilizes a direct optimization framework with differential privacy mechanisms applied to preference data during training.
+- Evaluations conducted on standard preference datasets (e.g., OpenAI’s preference data) and benchmark alignment tasks.
+- Empirical results show that PDPO maintains >90% alignment quality relative to non-private baselines while providing formal privacy guarantees.
+- Outperforms existing private fine-tuning methods in balancing alignment accuracy and privacy budget consumption.
+
+### Impact & Limitations
+- Enables deployment of aligned LLMs in sensitive applications requiring strict data privacy, such as healthcare or finance.
+- Limitations include potential scalability challenges for extremely large-scale models and the trade-off boundary between privacy and utility requiring further tuning.
+- Future work could explore adaptive privacy budgets and broader preference elicitation scenarios.
 
 ---
 
