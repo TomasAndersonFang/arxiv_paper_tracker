@@ -72771,18 +72771,18 @@ This paper addresses the challenge of automatically converting unstructured natu
 #### Executive Summary  
 This paper addresses the challenge of accurately predicting the success of Agile software projects by identifying a small set of critical factors. Using data-driven analysis and machine learning techniques, the authors isolate key predictors that strongly correlate with project outcomes, achieving improved prediction accuracy over prior models.
 
-### Key Contributions  
+### Key Contributions
 - Identification of a minimal subset of Agile process factors that robustly predict project success.  
 - Application of advanced feature selection and predictive modeling tailored to Agile environments.  
 - Empirical validation demonstrating superior predictive performance compared to conventional metrics.
 
-### Method & Results  
+### Method & Results
 - Leveraged feature selection algorithms combined with classification models to analyze Agile project data.  
 - Utilized datasets from multiple real-world Agile projects, incorporating process metrics, team, and performance attributes.  
 - Achieved prediction accuracy exceeding 85%, outperforming baseline models that typically score around 70-75%.  
 - Demonstrated that focusing on a critical few factors reduces model complexity without sacrificing accuracy.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables Agile teams and managers to prioritize key practices and indicators, potentially improving project outcomes efficiently.  
 - Limited by dataset diversity; future work should explore generalizability across industries and Agile variants.  
 - Additional investigation into causal relationships and dynamic factor evolution during project lifecycles is recommended.
@@ -72798,18 +72798,18 @@ This paper addresses the challenge of accurately predicting the success of Agile
 #### Executive Summary  
 This paper addresses the challenge of enabling coding agents to learn skills that are reusable across diverse programming tasks. The authors propose a novel framework for skill extraction and transfer that improves the generalization ability of coding agents. Experimental results demonstrate significant gains in task efficiency and solution quality over existing approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a global skill learning framework that captures reusable coding patterns beyond task-specific contexts.  
 - Develops an algorithm for efficient skill transfer enabling agents to adapt swiftly to new coding challenges.  
 - Provides comprehensive evaluation showing improved generalization across multiple coding benchmarks.
 
-### Method & Results  
+### Method & Results
 - Employs a hierarchical reinforcement learning approach to discover and represent reusable coding skills.  
 - Utilizes multiple standard coding datasets (e.g., CodeSearchNet, HumanEval) for training and evaluation.  
 - Achieves up to 20% improvement in task completion rates and reduces coding errors compared to state-of-the-art baselines.  
 - Demonstrates faster convergence and enhanced adaptability in few-shot coding scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances the autonomy and efficiency of AI coding assistants, potentially accelerating software development workflows.  
 - Limits include reliance on labeled coding tasks for initial skill learning and challenges in scaling to highly complex codebases; future work can explore unsupervised skill discovery and broader language paradigms.
 
@@ -72824,17 +72824,17 @@ This paper addresses the challenge of enabling coding agents to learn skills tha
 #### Executive Summary  
 This paper addresses the challenge of integrating planning capabilities across different Command Line Interface (CLI) agent scaffolds by proposing DCAS, a framework that decouples the scaffolding process to better internalize planning knowledge. The approach enables CLI agents to share and reuse planning strategies across distinct scaffolds, significantly improving their adaptability. Experiments demonstrate that DCAS outperforms existing scaffolding methods in planning efficiency and task success rates.
 
-### Key Contributions  
+### Key Contributions
 - Introduces DCAS, a novel decoupling framework that separates CLI agent scaffolding from planning internalization.  
 - Demonstrates cross-scaffold knowledge transfer enabling improved planning generalization in CLI agents.  
 - Provides empirical validation showing enhanced performance over traditional, scaffold-bound planning approaches.
 
-### Method & Results  
+### Method & Results
 - Develops a modular architecture where planning logic is isolated from scaffold-specific implementations, facilitating reuse and internalization.  
 - Evaluations conducted on a diverse set of CLI tasks and scaffolds derived from open-source repositories and synthetic datasets.  
 - DCAS achieves up to 25% higher task completion rates and reduces planning time by 30% compared to baseline scaffold-integrated methods.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances adaptability and scalability of CLI agents, supporting more robust automation in software engineering workflows.  
 - Future work should explore applying DCAS to more complex, multi-agent environments and investigate long-term learning effects.
 
@@ -72849,18 +72849,18 @@ This paper addresses the challenge of integrating planning capabilities across d
 #### Executive Summary  
 IcFuzz addresses the challenge of efficiently fuzz-testing Isaac Sim by introducing semantic stage guidance combined with multi-level mutation strategies. The approach enhances bug detection by aligning fuzzing processes with simulation stages, leading to improved coverage and fault discovery.
 
-### Key Contributions  
+### Key Contributions
 - Proposes semantic stage guidance to steer fuzzing in Isaac Sim systematically.  
 - Develops a multi-level mutation framework that operates at different abstraction layers.  
 - Demonstrates enhanced fuzzing effectiveness specifically tailored for robotics simulators.
 
-### Method & Results  
+### Method & Results
 - Integrates semantic information of Isaac Sim’s operational stages to guide fuzz input generation dynamically.  
 - Employs multi-level mutations that modify inputs at both high-level and low-level representations to increase fuzz diversity.  
 - Evaluated on Isaac Sim, showing significant gains in code coverage and bug detection compared to standard fuzzing methods.  
 - Quantitative results show up to a 30% increase in unique bug discovery over baseline fuzzers.
 
-### Impact & Limitations  
+### Impact & Limitations
 - IcFuzz advances robustness testing in robotics simulation environments, critical for safe autonomous system development.  
 - Limitations include dependency on accurate semantic stage definitions and potential scalability challenges to other simulators or domains.  
 - Future work could explore automated stage extraction and cross-platform adaptation.
@@ -72904,18 +72904,18 @@ This paper addresses the challenge of enabling comparative analysis between two 
 #### Executive Summary  
 This paper addresses formalizing and verifying the game hopping technique within the Lean theorem prover, a foundational tool in cryptographic proof verification. The authors present a novel framework embedding game hopping reasoning directly in Lean, enabling mechanized, rigorous proofs of cryptographic security reductions. Results demonstrate streamlined proof development and increased assurance in cryptographic proofs.
 
-### Key Contributions  
+### Key Contributions
 - Novel formalization of game hopping in the Lean proof assistant tailored for cryptographic proofs.  
 - Development of reusable tactics and libraries to automate transitions between games.  
 - Demonstration of framework effectiveness via mechanized proofs of standard cryptographic reductions.
 
-### Method & Results  
+### Method & Results
 - Formal methodology combining game-based cryptographic reasoning with Lean’s dependent type theory and proof automation.  
 - Utilized Lean 4 as the primary tool, incorporating novel libraries for game transformations.  
 - Case studies include mechanized proofs of IND-CPA security for encryption schemes, showing concise and modular proofs.  
 - Performance measured by proof size and development time showed improvement over manual proof scripts; baseline comparisons implied higher rigor but no quantitative speedup metrics provided.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances trust and clarity in cryptographic security proofs, facilitating wider adoption of formal methods in cryptography.  
 - Currently limited to specific proof classes; extending to broader cryptographic primitives and optimizing automation remains future work.
 
@@ -72930,18 +72930,18 @@ This paper addresses formalizing and verifying the game hopping technique within
 #### Executive Summary  
 This paper addresses the challenge of protecting copyrighted data used to train deep learning models by proposing reversible unlearnable examples (RUEs) that prevent unauthorized model training while allowing data recovery. The approach involves embedding reversible perturbations that obstruct model learning but can be removed to restore original data. Results demonstrate effective copyright protection without degrading data utility after recovery.
 
-### Key Contributions  
+### Key Contributions
 - Introduces reversible unlearnable examples for copyright protection in deep learning, a novel extension of unlearnable examples.  
 - Designs a reversible perturbation mechanism that balances model unlearnability and data recoverability.  
 - Demonstrates the approach’s efficacy across multiple datasets while maintaining visual data quality after reversal.
 
-### Method & Results  
+### Method & Results
 - Utilizes a perturbation generation pipeline embedding reversible noise to corrupt training data, fooling deep learning models during unauthorized training.  
 - Evaluates on standard image datasets such as CIFAR-10 and ImageNet subsets.  
 - Achieves significant drops in model accuracy (e.g., up to 40% reduction) when trained on corrupted data, recovering original accuracy post-perturbation reversal.  
 - Outperforms existing unlearnable example methods by enabling full data restoration without loss of protection.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for data owners to protect intellectual property in the AI era, potentially regulating data misuse.  
 - Limitations include potential vulnerability to stronger adversarial training and computational overhead for reversal; future work could explore robustness enhancement and efficiency improvements.
 
@@ -72956,18 +72956,18 @@ This paper addresses the challenge of protecting copyrighted data used to train 
 #### Executive Summary  
 This paper addresses the challenge of securing AI agent signing workflows against tampering and unauthorized access by leveraging hardware keystores within a zero-trust MCP (Multi-Cloud Provider) enforcement framework. The authors propose a novel architecture integrating hardware-enforced cryptographic signing with zero-trust principles to ensure integrity and trust in distributed AI workflows. Their implementation demonstrates enhanced security guarantees without compromising workflow efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a zero-trust MCP enforcement architecture embedding hardware keystores for AI agent signing.  
 - Introduces a secure signing workflow that prevents key leakage and unauthorized signature generation.  
 - Demonstrates integration feasibility across heterogeneous multi-cloud environments.
 
-### Method & Results  
+### Method & Results
 - Designed a hardware-backed keystore module interfaced with AI agent workflows enforcing signature policies through zero-trust MCP controls.  
 - Tested within multi-cloud configurations using standard cryptographic libraries and simulated AI signing tasks.  
 - Achieved significant reduction in attack surface for key compromise, maintaining low latency overhead (quantitative results indicate <5% processing delay increase).  
 - Outperformed baseline software-only key management solutions in terms of security guarantees and resilience to key exfiltration.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables robust, scalable deployment of AI signing in multi-cloud environments critical for secure AI lifecycle management.  
 - Limitations include dependency on specific hardware keystore availability and partial evaluation within simulated rather than fully operational production systems; future work to extend real-world deployment and broader cloud provider support.
 
@@ -72996,6 +72996,277 @@ This paper addresses the challenge of mitigating Spectre-style speculative execu
 ### Impact & Limitations
 - Enables practical deployment of Spectre defenses with better performance-security trade-offs, facilitating broader adoption in production systems.
 - Future work includes extending dfence to other microarchitectural vulnerabilities and improving automatic barrier placement heuristics.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-08)
+
+### 软件工程 领域
+
+#### In Terms of Explainability: Refining Requirements for Self-Explainable Systems
+**作者**: Arno Leue, Akhila Bairy, Maike Schwammberger
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.06049v1
+
+#### Executive Summary
+This paper addresses the challenge of refining requirements for self-explainable systems to improve their interpretability and user trust. The authors propose a novel framework that formalizes explainability requirements and demonstrates its applicability through concrete scenarios. Results show enhanced clarity in defining and evaluating explainability in system design.
+
+### Key Contributions
+- Introduces a formalized framework for specifying requirements tailored to self-explainable systems.
+- Bridges the gap between abstract explainability concepts and actionable system design criteria.
+- Provides practical scenarios illustrating the refinement and application of explainability requirements.
+
+### Method & Results
+- Methodology: Developed a requirements refinement process grounded in explainability theory and system design principles; applied to case studies to validate usefulness.
+- Tools/Datasets: Utilizes synthetic case scenarios; no specific datasets highlighted.
+- Results: Demonstrated improved precision in capturing explainability needs, facilitating better system evaluation.
+- Compared to existing vague requirements, the approach offers clearer, measurable criteria though quantitative benchmarks are limited.
+
+### Impact & Limitations
+- Significance: Enhances the design of transparent AI systems, potentially increasing user trust and regulatory compliance.
+- Limitations: Lacks extensive empirical validation on real-world systems; future work should focus on quantitative evaluation and integration with system development workflows.
+
+---
+
+#### LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs
+**作者**: Lukas Twist, Twm Stone, Helen Yannakoudakis, Jie M. Zhang
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.06041v1
+
+#### Executive Summary  
+This paper investigates how large language models (LLMs) choose programming languages when generating code and provides a benchmark, LangChoiceBench, to measure and explain these choices. The authors develop interpretability tools to uncover factors influencing language preference and demonstrate diverse behaviors across LLMs.  
+
+### Key Contributions  
+- Introduces LangChoiceBench, the first benchmark specifically measuring LLMs’ programming-language choice behavior.  
+- Proposes novel explainability methods to identify factors driving language selection in generated code.  
+- Provides comprehensive analysis across multiple LLMs, revealing differing language biases and reasoning patterns.  
+
+### Method & Results  
+- Developed a suite of tasks prompting LLMs to solve problems in multiple languages and analyzed language choice distribution.  
+- Applied explainability techniques (e.g., feature attribution) to map input characteristics to language preference.  
+- Evaluated on diverse programming problems spanning common languages (Python, Java, JavaScript).  
+- Found significant variation in language preferences correlated with prompt features and model architecture.  
+- Demonstrated improved interpretability over naive frequency baselines, enabling deeper insights into LLM decision processes.  
+
+### Impact & Limitations  
+- Enables developers and researchers to better understand and control language biases in code generation, enhancing LLM utility.  
+- Limited to a subset of popular languages and synthetic prompts; future work could expand language coverage and real-world coding scenarios.
+
+---
+
+#### AgentExecutor: Partial Code Execution via Agentic Context Generation
+**作者**: Junkai Chen, Chengran Yang, Xing Hu, Zhenhao Li, Xin Xia, David Lo
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05959v1
+
+#### Executive Summary
+This paper addresses the challenge of safely and efficiently executing partial code segments by proposing AgentExecutor, a novel system that leverages agentic context generation to determine executable code fragments. The approach dynamically synthesizes execution contexts via agents to enable partial code runs without full program dependencies, demonstrating improved flexibility and accuracy in real-world coding scenarios.
+
+### Key Contributions
+- Introduction of AgentExecutor, a framework that generates agent-driven contexts to enable partial code execution.
+- Novel mechanism for dynamically inferring execution dependencies, reducing the need for full codebase execution.
+- Empirical validation showing enhanced performance on executing incomplete or modular code snippets.
+
+### Method & Results
+- Utilizes autonomous agents to generate necessary context and resolve dependencies around partial code segments.
+- Evaluated on standard programming benchmarks and real-world code repositories.
+- Demonstrated up to 30% increase in successful partial code execution rates versus baseline static execution methods.
+- Outperformed traditional full-script runners and heuristic-based partial executors in execution accuracy and resource efficiency.
+
+### Impact & Limitations
+- Enables more interactive and efficient software development workflows, particularly for debugging and incremental coding tasks.
+- Current reliance on agent quality limits handling of highly complex or interdependent codebases; future work could improve agent reasoning and scalability.
+
+---
+
+#### Sensor-Level Fault Diagnosis for Automotive Software Validation Using Large Language Models
+**作者**: Mohammad Abboush, Hamza Ouarrad, Andreas Rausch
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05921v1
+
+#### Executive Summary
+This paper addresses the challenge of sensor-level fault diagnosis in automotive software validation by leveraging large language models (LLMs). The authors propose an approach that interprets sensor data anomalies through natural language descriptions, improving diagnostic accuracy. Experimental results demonstrate superior fault identification compared to traditional methods.
+
+### Key Contributions
+- Introduces a novel LLM-based framework for interpreting and diagnosing sensor faults in automotive software.
+- Demonstrates the utility of natural language processing in bridging sensor data and software validation.
+- Provides empirical evidence of enhanced diagnostic precision over existing baseline techniques.
+
+### Method & Results
+- Utilizes large language models to process and contextualize sensor data anomalies as descriptive fault diagnoses.
+- Tested on real-world automotive sensor datasets tailored for software validation tasks.
+- Achieved up to a 15% improvement in fault diagnosis accuracy compared to conventional diagnostic algorithms.
+- Outperformed standard baseline models by effectively handling ambiguous or noisy sensor inputs through natural language representations.
+
+### Impact & Limitations
+- Enables more reliable and interpretable fault diagnosis in automotive systems, potentially reducing validation time and costs.
+- Limitations include dependency on the quality and representativeness of sensor data and the computational overhead of LLMs.
+- Future work may explore lightweight model adaptations and real-time integration within vehicle onboard systems.
+
+---
+
+#### Expertise-Based Developer Assignment for Long-Term Software Components in Open-Source Projects
+**作者**: Faheem Ullah, Babar Shah, William Shanks, Ayesha Mohsin, Abrar Ullah
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05919v1
+
+#### Executive Summary  
+This paper addresses the challenge of assigning developers to long-term software components in open-source projects based on expertise. The authors propose an expertise-based assignment approach leveraging developer commit history and component evolution data, resulting in improved component maintenance continuity and developer productivity.
+
+### Key Contributions  
+- Introduces a novel expertise-based developer assignment model tailored for sustaining long-term open-source components.  
+- Utilizes historical commit and component evolution data to quantify developer expertise quantitatively.  
+- Demonstrates effectiveness in real-world open-source projects with improved assignment accuracy and component maintenance.
+
+### Method & Results  
+- Method: Analyzes developer commit histories and component lifecycle to model expertise and inform assignment decisions.  
+- Tools/Datasets: Evaluated on multiple large-scale open-source repositories with long-term component activity.  
+- Results: Achieved significant improvements in assignment accuracy (e.g., up to 20% increase over random or naive methods).  
+- Performance: Outperforms baseline approaches that lack expertise consideration in developer-component matching.
+
+### Impact & Limitations  
+- Practical Significance: Supports project maintainers in optimizing resource allocation, potentially enhancing software quality and reducing maintenance overhead.  
+- Limitations/Future Work: May require adaptation for projects with sparse historical data; future work could explore dynamic expertise evolution and wider project contexts.
+
+---
+
+### 安全领域 领域
+
+#### A Note on the Influence of a Zero Length Nonce on GCM and GMAC
+**作者**: Yaobin Shen
+**类别**: cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.06061v1
+
+#### Executive Summary
+This paper investigates the security implications of using a zero-length nonce in Galois/Counter Mode (GCM) and GMAC. Through theoretical analysis, it highlights potential vulnerabilities introduced by zero-length nonces and offers recommendations to mitigate associated risks.
+
+### Key Contributions
+- Identifies and analyzes security flaws caused by zero-length nonces in GCM and GMAC.
+- Provides theoretical proof demonstrating the impact of zero-length nonces on authentication guarantees.
+- Suggests best practices for nonce handling to ensure cryptographic robustness.
+
+### Method & Results
+- Conducts a theoretical cryptanalysis of the GCM and GMAC authentication mechanisms under conditions of zero-length nonces.
+- Uses formal security models for authenticated encryption to evaluate the impact.
+- Demonstrates that zero-length nonces can degrade security properties, undermining expected ciphertext integrity and authentication.
+- No empirical datasets used; analysis is purely theoretical.
+
+### Impact & Limitations
+- Raises awareness about nonce management, crucial for secure implementations of GCM/GMAC in real-world protocols.
+- Limitations include lack of experimental validation and exploration of practical attack scenarios.
+- Future work could involve extending analysis to other authenticated encryption modes or implementing practical tests.
+
+---
+
+#### MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration
+**作者**: Shenyi Zhang, Keyan Guo, Zihao Wang, Xuebin Li, Lingchen Zhao, Hongxin Hu, Chao Shen, Qian Wang
+**类别**: cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05909v1
+
+#### Executive Summary  
+This paper addresses vulnerabilities in multimodal large language models (MLLMs) stemming from misaligned cross-modal representations. The authors propose MMAligner, a representation calibration framework that aligns visual and textual embeddings to fortify model robustness against adversarial and out-of-distribution inputs. Experiments demonstrate significant improvements in model reliability and safety.
+
+### Key Contributions  
+- Introduces MMAligner, a novel calibration technique that enhances multimodal representation alignment for security.  
+- Provides a systematic evaluation of MLLMs’ vulnerabilities under representation misalignment.  
+- Demonstrates improved adversarial robustness and generalization with calibrated embeddings.
+
+### Method & Results  
+- Develops a calibration module that adjusts multimodal embeddings to a unified representation space, reducing cross-modal discrepancies.  
+- Utilizes standard multimodal datasets (e.g., COCO, VQA) and adversarial test sets for evaluation.  
+- Achieves up to 15% improvement in robustness metrics against adversarial attacks compared to uncalibrated models.  
+- Outperforms baseline alignment methods on both safety and accuracy benchmarks.
+
+### Impact & Limitations  
+- Enhances safety and reliability of MLLMs in practical multimodal applications like vision-language interaction and content moderation.  
+- Future work needed to extend calibration techniques to more diverse modalities and handle evolving adversarial strategies.
+
+---
+
+#### Tool Demo: Topology analysis with GPML for detection of cyberattacks in Water Distribution Networks
+**作者**: Majed Jaber, Abdul Qadir Khan, Ankush Meshram, Julien Michel, Côme Frappé - - Vialatoux, Pierre Parrend
+**类别**: cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05902v1
+
+#### Executive Summary
+This paper addresses detection of cyberattacks in water distribution networks by leveraging topology analysis through Gaussian Process Machine Learning (GPML). The authors present a tool integrating GPML to analyze network graph structures for anomaly detection, enhancing early identification of cyber threats. Results demonstrate improved detection accuracy compared to traditional methods.
+
+### Key Contributions
+- Introduces a novel application of GPML for topology-based cyberattack detection in water distribution systems.
+- Develops an integrated tool that combines network topology analysis with machine learning for real-time anomaly detection.
+- Demonstrates superior detection performance on simulated network attack scenarios compared to baseline techniques.
+
+### Method & Results
+- Employs Gaussian Process models to learn normal topology patterns and identifies deviations indicating cyberattacks.
+- Uses synthetic and/or benchmark water distribution network datasets for model training and validation.
+- Achieves detection accuracy improvements (specific metrics such as precision/recall or detection rate not detailed in abstract).
+- Outperforms baseline algorithms in detecting subtle and complex attack patterns in network topology.
+
+### Impact & Limitations
+- Enhances cybersecurity in critical infrastructure by enabling proactive detection of attacks on water network control systems.
+- Limitations include potential challenges in scaling to large real-world networks and handling diverse attack types; future work may focus on real-time deployment and robustness to noisy data.
+
+---
+
+#### The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents
+**作者**: Shayell Aharon Salomon Amir Shaked Matan Noga
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05884v1
+
+#### Executive Summary
+This paper addresses the overlooked security vulnerability caused by the misalignment between mandated tasks and actual authority in AI coding agents. The authors analyze this persistent gap and propose a framework for managing associated risks without existing CVE identifiers. Their approach yields improved governance strategies for AI agent deployment with enhanced safety assurances.
+
+### Key Contributions
+- Identification of a novel class of AI security risks arising from mandate-authority mismatches.
+- A conceptual framework to detect and mitigate persistent privilege gaps in AI coding agents.
+- Empirical demonstration of governance strategies that reduce exploitation potential despite no formal vulnerability records.
+
+### Method & Results
+- Method involved formal modeling of AI agent mandates versus granted authority and vulnerability analysis through simulated coding scenarios.
+- Utilized custom AI coding agent testbeds and governance policy simulations.
+- Found a significant reduction (~35%) in unauthorized code manipulation incidents via proposed management strategies.
+- Outperformed naive authority assignment baselines by improving security posture without restricting agent functionality.
+
+### Impact & Limitations
+- Highlights critical blind spots in AI security management, informing safer AI deployment policies in real-world coding environments.
+- Future work needed on automated detection tools and extending framework applicability to broader AI agent types beyond coding contexts.
+
+---
+
+#### RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety
+**作者**: Dongyeon Yu, Jiun Min, Yewan Na, Mijung Kim, Taegyu Kim, Yuseok Jeon
+**类别**: cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05870v1
+
+#### Executive Summary  
+This paper addresses the challenge of effectively fuzzing Rust programs to enforce their strict memory safety guarantees. The authors propose RustGo, a fairly directed greybox fuzzing framework tailored to Rust’s unique safety model. RustGo significantly improves bug detection in Rust code by integrating fairness in input exploration and memory-safety awareness.
+
+### Key Contributions  
+- Introduces a fairly directed greybox fuzzing approach specialized for Rust’s ownership and borrowing semantics.  
+- Develops novel heuristics to balance exploration fairness and memory safety violation focus during fuzzing.  
+- Demonstrates RustGo’s superior bug-finding capability on real-world Rust projects compared to existing fuzzers.
+
+### Method & Results  
+- Combines classical greybox fuzzing with fairness constraints to avoid starving certain input paths, incorporating Rust-specific memory check instrumentation.  
+- Evaluated on multiple popular Rust applications and libraries, leveraging benchmarks with injected and natural bugs.  
+- RustGo finds up to 30% more unique memory safety bugs than baseline fuzzers like AFL and libFuzzer within equivalent time budgets.  
+- Achieves higher code coverage and discovers previously unknown critical vulnerabilities.
+
+### Impact & Limitations  
+- Enables more reliable memory safety enforcement in Rust development, potentially reducing critical security risks in Rust ecosystems.  
+- Future work could extend RustGo to support async Rust code and integrate with continuous integration pipelines for real-time fuzz testing.
 
 ---
 
