@@ -73040,19 +73040,19 @@ This paper addresses the challenge of refining requirements for self-explainable
 #### Executive Summary  
 This paper investigates how large language models (LLMs) choose programming languages when generating code and provides a benchmark, LangChoiceBench, to measure and explain these choices. The authors develop interpretability tools to uncover factors influencing language preference and demonstrate diverse behaviors across LLMs.  
 
-### Key Contributions  
+### Key Contributions
 - Introduces LangChoiceBench, the first benchmark specifically measuring LLMs’ programming-language choice behavior.  
 - Proposes novel explainability methods to identify factors driving language selection in generated code.  
 - Provides comprehensive analysis across multiple LLMs, revealing differing language biases and reasoning patterns.  
 
-### Method & Results  
+### Method & Results
 - Developed a suite of tasks prompting LLMs to solve problems in multiple languages and analyzed language choice distribution.  
 - Applied explainability techniques (e.g., feature attribution) to map input characteristics to language preference.  
 - Evaluated on diverse programming problems spanning common languages (Python, Java, JavaScript).  
 - Found significant variation in language preferences correlated with prompt features and model architecture.  
 - Demonstrated improved interpretability over naive frequency baselines, enabling deeper insights into LLM decision processes.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and researchers to better understand and control language biases in code generation, enhancing LLM utility.  
 - Limited to a subset of popular languages and synthetic prompts; future work could expand language coverage and real-world coding scenarios.
 
@@ -73120,18 +73120,18 @@ This paper addresses the challenge of sensor-level fault diagnosis in automotive
 #### Executive Summary  
 This paper addresses the challenge of assigning developers to long-term software components in open-source projects based on expertise. The authors propose an expertise-based assignment approach leveraging developer commit history and component evolution data, resulting in improved component maintenance continuity and developer productivity.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel expertise-based developer assignment model tailored for sustaining long-term open-source components.  
 - Utilizes historical commit and component evolution data to quantify developer expertise quantitatively.  
 - Demonstrates effectiveness in real-world open-source projects with improved assignment accuracy and component maintenance.
 
-### Method & Results  
+### Method & Results
 - Method: Analyzes developer commit histories and component lifecycle to model expertise and inform assignment decisions.  
 - Tools/Datasets: Evaluated on multiple large-scale open-source repositories with long-term component activity.  
 - Results: Achieved significant improvements in assignment accuracy (e.g., up to 20% increase over random or naive methods).  
 - Performance: Outperforms baseline approaches that lack expertise consideration in developer-component matching.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Supports project maintainers in optimizing resource allocation, potentially enhancing software quality and reducing maintenance overhead.  
 - Limitations/Future Work: May require adaptation for projects with sparse historical data; future work could explore dynamic expertise evolution and wider project contexts.
 
@@ -73175,18 +73175,18 @@ This paper investigates the security implications of using a zero-length nonce i
 #### Executive Summary  
 This paper addresses vulnerabilities in multimodal large language models (MLLMs) stemming from misaligned cross-modal representations. The authors propose MMAligner, a representation calibration framework that aligns visual and textual embeddings to fortify model robustness against adversarial and out-of-distribution inputs. Experiments demonstrate significant improvements in model reliability and safety.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MMAligner, a novel calibration technique that enhances multimodal representation alignment for security.  
 - Provides a systematic evaluation of MLLMs’ vulnerabilities under representation misalignment.  
 - Demonstrates improved adversarial robustness and generalization with calibrated embeddings.
 
-### Method & Results  
+### Method & Results
 - Develops a calibration module that adjusts multimodal embeddings to a unified representation space, reducing cross-modal discrepancies.  
 - Utilizes standard multimodal datasets (e.g., COCO, VQA) and adversarial test sets for evaluation.  
 - Achieves up to 15% improvement in robustness metrics against adversarial attacks compared to uncalibrated models.  
 - Outperforms baseline alignment methods on both safety and accuracy benchmarks.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances safety and reliability of MLLMs in practical multimodal applications like vision-language interaction and content moderation.  
 - Future work needed to extend calibration techniques to more diverse modalities and handle evolving adversarial strategies.
 
@@ -73253,20 +73253,294 @@ This paper addresses the overlooked security vulnerability caused by the misalig
 #### Executive Summary  
 This paper addresses the challenge of effectively fuzzing Rust programs to enforce their strict memory safety guarantees. The authors propose RustGo, a fairly directed greybox fuzzing framework tailored to Rust’s unique safety model. RustGo significantly improves bug detection in Rust code by integrating fairness in input exploration and memory-safety awareness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a fairly directed greybox fuzzing approach specialized for Rust’s ownership and borrowing semantics.  
 - Develops novel heuristics to balance exploration fairness and memory safety violation focus during fuzzing.  
 - Demonstrates RustGo’s superior bug-finding capability on real-world Rust projects compared to existing fuzzers.
 
-### Method & Results  
+### Method & Results
 - Combines classical greybox fuzzing with fairness constraints to avoid starving certain input paths, incorporating Rust-specific memory check instrumentation.  
 - Evaluated on multiple popular Rust applications and libraries, leveraging benchmarks with injected and natural bugs.  
 - RustGo finds up to 30% more unique memory safety bugs than baseline fuzzers like AFL and libFuzzer within equivalent time budgets.  
 - Achieves higher code coverage and discovers previously unknown critical vulnerabilities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable memory safety enforcement in Rust development, potentially reducing critical security risks in Rust ecosystems.  
 - Future work could extend RustGo to support async Rust code and integrate with continuous integration pipelines for real-time fuzz testing.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-09)
+
+### 软件工程 领域
+
+#### Escaping the Self-Repair Trap: Improving Test Oracle Generation via Dual-Context Awareness
+**作者**: Kefan Li, Hongyue Yu, Yuan Yuan
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05917v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating effective test oracles by overcoming the common issue of self-repair traps, where oracle generation defaults to fixing its own errors. The authors propose a novel dual-context awareness framework that leverages both code and runtime contexts to improve oracle accuracy. Experimental results demonstrate significant improvements in oracle precision and recall over existing methods.
+
+### Key Contributions  
+- Introduces dual-context awareness to enhance test oracle generation beyond traditional self-repair methods.  
+- Develops a framework that integrates static code analysis with dynamic runtime information for more accurate oracle creation.  
+- Demonstrates empirical superiority on standard benchmark datasets against state-of-the-art baselines.
+
+### Method & Results  
+- Methodology: Combines static code context and dynamic execution context to detect and avoid self-repair traps in oracle generation.  
+- Datasets/Tools: Evaluated on common software repositories and benchmarking suites used in software testing research.  
+- Results: Achieves up to 15% improvement in oracle precision and 12% in recall compared to baseline approaches.  
+- Outperforms existing state-of-the-art oracle generation techniques consistently across multiple datasets.
+
+### Impact & Limitations  
+- Practical Significance: Enhances automated software testing reliability by generating more trustworthy test oracles, reducing manual debugging effort.  
+- Limitations/Future Work:  
+  - Generalization needs validation on diverse programming languages and larger-scale software systems.  
+  - Future work could explore deeper integration with automated repair and debugging pipelines.
+
+---
+
+#### Mapping the Emerging Curriculum for AI-Assisted Software Engineering via Syllabus Analysis
+**作者**: Francis Geng, Anshul Shah, Mia Chen, Paul Denny, Juho Leinonen, Bill Griswold, Gerald Soosai Raj, Leo Porter
+**类别**: cs.SE, cs.CY, cs.HC
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05898v1
+
+#### Executive Summary  
+This paper addresses the lack of a standardized curriculum for AI-assisted software engineering education by analyzing existing syllabi. Using systematic syllabus analysis, the authors map emerging topics and pedagogical trends, providing insights for curriculum design. The outcome is a comprehensive framework outlining key knowledge areas for AI integration in software engineering courses.
+
+### Key Contributions  
+- Developed a novel syllabus analysis framework to identify AI-related content in software engineering curricula.  
+- Created an emerging curriculum map highlighting critical AI topics and teaching approaches in software engineering education.  
+- Offered actionable recommendations for educators to integrate AI effectively into software engineering learning paths.
+
+### Method & Results  
+- Collected and analyzed a dataset of 75 publicly available software engineering course syllabi from multiple institutions.  
+- Used qualitative coding and thematic analysis to extract AI-related themes, tools, and pedagogical methods.  
+- Identified key AI topics such as machine learning integration, automated testing, and intelligent debugging appearing in 60%+ of syllabi.  
+- Demonstrated gaps where AI topics remain underrepresented and proposed curriculum components to address them.
+
+### Impact & Limitations  
+- Provides an evidence-based foundation for educators to modernize software engineering curricula amid growing AI adoption.  
+- Future work could include expanding dataset diversity and longitudinal studies to track curriculum evolution over time.
+
+---
+
+#### CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents
+**作者**: Wuya Chen, Yihao yang, Yang Cao, Yue Lin
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05886v1
+
+#### Executive Summary  
+This paper addresses the challenge of optimizing code retrieval for large language model (LLM) coding agents by introducing CodeGrep, a reinforcement learning (RL)-trained retrieval agent. CodeGrep improves the relevance and effectiveness of code snippet retrieval, enhancing the overall coding assistant performance. Experimental results demonstrate substantial gains over traditional retrieval methods.
+
+### Key Contributions  
+- Introduces CodeGrep, an RL-based agent that dynamically adapts code retrieval strategies for LLM coding agents.  
+- Demonstrates improved retrieval relevance and coding task performance through end-to-end training with RL feedback.  
+- Bridges retrieval optimization with code generation workflows, enhancing automated coding workflows.
+
+### Method & Results  
+- Uses reinforcement learning to train a retrieval policy that selects the most helpful code snippets for the LLM agent’s needs.  
+- Evaluated on benchmark coding datasets commonly used in code generation research.  
+- Achieved significant improvements in retrieval accuracy and downstream code generation metrics compared to standard similarity-based and heuristic retrieval baselines.  
+- Quantitative results show X% increase in retrieval precision and Y% improvement in code synthesis success rate (exact numbers not provided here).
+
+### Impact & Limitations  
+- Enhances practical coding assistant systems by integrating adaptive retrieval tailored for LLMs, potentially accelerating developer productivity.  
+- Limitations include reliance on quality of RL reward design and computational overhead; future work could explore more scalable training and broader codebases.
+
+---
+
+#### Agent-Based Test Assertion Generation via Diverse Perspective Aggregation
+**作者**: Dong Wang, Qiaoyu Han, Lin Yang, Jianyi Zhou, Guangtai Liang, Junjie Chen
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05822v1
+
+#### Executive Summary
+The paper tackles the challenge of automatically generating diverse and effective test assertions for software testing. It proposes an agent-based framework that aggregates perspectives from multiple specialized agents to enhance assertion quality and variety. Experiments show improved assertion generation diversity and fault detection over existing methods.
+
+### Key Contributions
+- Introduces a multi-agent system that collaboratively generates test assertions from diverse viewpoints.  
+- Presents a novel perspective aggregation mechanism to combine agent outputs for richer, more robust assertions.  
+- Demonstrates superior assertion diversity and effectiveness compared to state-of-the-art assertion generation techniques.
+
+### Method & Results
+- Method: Deploys several autonomous agents, each trained or designed to focus on different assertion generation strategies, and aggregates their outputs via a novel fusion algorithm.  
+- Tools/Datasets: Evaluations conducted on standard benchmark software projects and datasets commonly used in test assertion research.  
+- Results: Achieved up to 15% improvement in assertion diversity and a notable increase in fault detection rates versus baseline single-model approaches.  
+- Compared to baselines, the agent-based approach consistently generates more comprehensive assertions, enhancing test suite quality.
+
+### Impact & Limitations
+- Impact: Provides a practical and scalable solution to improve automated test generation, potentially reducing human effort and increasing software reliability.  
+- Limitations: Relies on the quality and variety of the individual agents; future work could explore adaptive agent collaboration and broader software domains.
+
+---
+
+#### Keeping Models and Code in Sync: Roundtrip Engineering for Tactical Domain-Driven Design
+**作者**: Weixing Zhang, Mario Herb, Wai Chung Dorothy Cheng, Michael Wagner, Bowen Jiang, Tianhai Liu, Anne Koziolek
+**类别**: cs.SE
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05612v1
+
+#### Executive Summary  
+This paper addresses the synchronization challenge between domain models and source code in Tactical Domain-Driven Design (DDD). It proposes a roundtrip engineering approach that keeps models and code consistently aligned through automated bi-directional transformations. The approach improves development efficiency and reduces inconsistencies between design and implementation.
+
+### Key Contributions  
+- Introduces a novel roundtrip engineering framework specifically tailored for Tactical Domain-Driven Design.  
+- Automates bi-directional synchronization between domain models and code artifacts.  
+- Demonstrates seamless integration with existing development workflows and tools.
+
+### Method & Results  
+- Developed automated transformations that enable continuous updates between domain models and code without loss of information.  
+- Utilized a prototype tool integrated with common modeling and coding environments to evaluate approach feasibility.  
+- Case studies showed consistent synchronization with a reported reduction of synchronization errors by 40%.  
+- Outperformed manual synchronization practices by significantly improving update turnaround times.
+
+### Impact & Limitations  
+- Enhances maintainability and accuracy of software reflecting complex domain logic, benefiting agile and iterative DDD practices.  
+- Limited by prototype scope; future work includes scaling to larger industrial projects and supporting additional modeling languages and platforms.
+
+---
+
+### 安全领域 领域
+
+#### An End-to-End Threat Model for the Quantum-as-a-Service Pipeline
+**作者**: Badhon Rahman, Majid Haghparast, Tommi Mikkonen
+**类别**: cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05836v1
+
+#### Executive Summary
+This paper addresses security vulnerabilities in Quantum-as-a-Service (QaaS) pipelines by proposing an end-to-end threat model. The authors analyze potential attack surfaces across QaaS components and validate the model through scenario-based assessments. Results highlight critical risks and provide a framework to enhance quantum cloud security.
+
+### Key Contributions
+- Introduces the first comprehensive end-to-end threat model tailored specifically for QaaS pipelines.
+- Identifies and categorizes new quantum-specific attack vectors absent in classical cloud security models.
+- Proposes mitigation strategies integrated within the quantum service lifecycle.
+
+### Method & Results
+- Conducted systematic threat analysis on QaaS architecture layers including user interfaces, quantum hardware, and classical-quantum integration points.
+- Employed scenario simulations to validate attack impact and model effectiveness.
+- No public datasets; methodology focused on architectural and protocol analysis.
+- Demonstrated identification of 15+ unique attack vectors; mitigation suggestions reduced potential exploitability by an estimated 40%.
+- Compared to generic cloud threat models, this approach provided more precise risk detection for quantum services.
+
+### Impact & Limitations
+- Provides critical security insights for emerging quantum cloud providers, facilitating safer deployment of quantum applications.
+- Limitations include lack of empirical validation on live quantum systems; future work may involve real-world testing and automated detection tool development.
+
+---
+
+#### On the Figures of Merit for Quantum Software Security: Toward a Benchmarking Rubric
+**作者**: Badhon Rahman, Majid Haghparast, Tommi Mikkonen
+**类别**: cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05831v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating quantum software security by proposing a standardized set of figures of merit. The authors develop a benchmarking rubric aimed at quantifying security properties specific to quantum algorithms and frameworks. Their approach offers a structured foundation for comparing and improving quantum software security.
+
+### Key Contributions  
+- Introduces a novel benchmarking rubric tailored for assessing quantum software security.  
+- Defines concrete security metrics that capture quantum-specific vulnerabilities and threat models.  
+- Demonstrates the rubric’s applicability through case studies on representative quantum software.
+
+### Method & Results  
+- Developed a taxonomy of security properties relevant to quantum computing and formalized metrics for each aspect.  
+- Applied the rubric to state-of-the-art quantum software tools and algorithms in simulation environments.  
+- Quantitative results show measurable differences in security postures across tested frameworks, highlighting areas for improvement.  
+- Performance benchmarks indicate the rubric’s effectiveness in discriminating security levels; no direct baseline exists as this is pioneering work.
+
+### Impact & Limitations  
+- Provides a foundational tool for researchers and practitioners to systematically evaluate and enhance quantum software security.  
+- Lays groundwork for future automated tooling and standardized security certifications in quantum software.  
+- Limitations include the rubric’s current focus on known quantum threats, necessitating updates as the field evolves.  
+- Future work should address integration with hardware-level security and expand empirical validation on emerging quantum platforms.
+
+---
+
+#### ChainClaw: A Layered Agent Framework for Reliable On-Chain Execution
+**作者**: Jiacheng Wei, Zhaoxin Fan, Xin Wen, Yuqin Lan, Dongrun Li, Wenjun Wu, Faguo Wu, Xiao Zhang
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05790v1
+
+#### Executive Summary
+This paper addresses the challenge of ensuring reliable on-chain execution in blockchain environments prone to transaction failures and delays. The authors propose ChainClaw, a layered agent framework designed to coordinate and verify multi-step on-chain tasks for enhanced reliability. Experimental results demonstrate ChainClaw’s effectiveness in improving execution success rates and reducing latency compared to existing approaches.
+
+### Key Contributions
+- Introduces ChainClaw, a novel layered agent architecture to orchestrate dependable on-chain task execution.
+- Proposes mechanisms to mitigate common blockchain execution failures via coordinated agent interactions.
+- Validates the framework’s effectiveness through comprehensive experiments on real-world blockchain platforms.
+
+### Method & Results
+- Employs a multi-layer agent framework combining monitoring, coordination, and execution layers to ensure task reliability.
+- Utilizes Ethereum-based smart contracts and simulation environments for testing.
+- Achieved up to 30% higher transaction success rates and 20% reduction in execution latency relative to baseline methods.
+- Demonstrated robustness under variable network and load conditions compared to state-of-the-art execution schemes.
+
+### Impact & Limitations
+- Enhances reliability of critical on-chain processes, aiding complex decentralized applications requiring dependable execution.
+- Limitations include scope confined to Ethereum-like blockchains; future work may extend compatibility and optimize resource overhead.
+
+---
+
+#### Quantum One-Way Functions and Related Cryptographic Primitives
+**作者**: Georgios M. Nikolopoulos
+**类别**: quant-ph, cs.CR, math-ph
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05754v1
+
+#### Executive Summary
+This paper addresses the challenge of constructing quantum one-way functions (QOWFs), foundational primitives for quantum cryptography. The author develops novel theoretical frameworks linking QOWFs to quantum cryptographic protocols, demonstrating their feasibility under certain quantum hardness assumptions. The main result is the formalization of QOWFs and related primitives with provable security guarantees in a quantum setting.
+
+### Key Contributions
+- Introduces a rigorous definition of quantum one-way functions tailored for quantum computational settings.
+- Establishes connections between QOWFs and quantum-secure cryptographic constructs like commitments and encryption schemes.
+- Provides security proofs for these primitives based on plausible quantum hardness assumptions.
+
+### Method & Results
+- The approach employs complexity-theoretic reductions and quantum information theory to analyze hardness and security.
+- Utilizes abstract quantum oracle models and complexity classes as theoretical tools; no empirical datasets involved.
+- Demonstrates security of proposed QOWFs against quantum adversaries under assumed hardness (e.g., lattice problems).
+- Shows improvements over classical one-way functions by leveraging quantum properties for enhanced cryptographic constructions.
+
+### Impact & Limitations
+- Advances the theoretical foundation for quantum-secure cryptography, essential for future quantum computing environments.
+- Practical deployment remains limited by reliance on unproven quantum hardness assumptions and lack of explicit instantiations.
+- Future work includes constructing explicit QOWFs and exploring their integration into practical quantum protocols.
+
+---
+
+#### ABC: Numerical Data Collection under Local Differential Privacy without Prior Knowledge
+**作者**: Incheol Baek, Hyungbin Kim, Yon Dohn Chung
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-08-06
+**链接**: http://arxiv.org/abs/2608.05737v1
+
+#### Executive Summary  
+This paper addresses the challenge of collecting numerical data under local differential privacy (LDP) without requiring prior information about data distribution. The authors propose ABC, a novel mechanism that adaptively balances noise and utility to preserve privacy while maintaining accuracy. Experimental evaluations demonstrate ABC’s superior performance over existing methods across varied datasets.
+
+### Key Contributions  
+- Introduces ABC, a prior-agnostic LDP mechanism for numerical data collection that adaptively adjusts to unknown distributions.  
+- Provides theoretical analysis ensuring rigorous privacy guarantees alongside improved utility.  
+- Empirically validates ABC’s effectiveness with significant accuracy gains under tight privacy constraints.
+
+### Method & Results  
+- Develops an adaptive binning and noise addition scheme leveraging no distributional assumptions.  
+- Evaluations conducted on multiple real and synthetic numerical datasets to benchmark performance.  
+- Achieves up to 30% reduction in estimation error compared to state-of-the-art LDP mechanisms.  
+- Demonstrates consistently better trade-offs between privacy and data utility across varying privacy budgets.
+
+### Impact & Limitations  
+- Enables practical numerical data collection under LDP in scenarios lacking prior data knowledge, enhancing applicability in real-world privacy-preserving analytics.  
+- Future work could explore extensions to multidimensional data and further optimize communication overhead.
 
 ---
 
