@@ -73285,18 +73285,18 @@ This paper addresses the challenge of effectively fuzzing Rust programs to enfor
 #### Executive Summary  
 This paper addresses the challenge of generating effective test oracles by overcoming the common issue of self-repair traps, where oracle generation defaults to fixing its own errors. The authors propose a novel dual-context awareness framework that leverages both code and runtime contexts to improve oracle accuracy. Experimental results demonstrate significant improvements in oracle precision and recall over existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces dual-context awareness to enhance test oracle generation beyond traditional self-repair methods.  
 - Develops a framework that integrates static code analysis with dynamic runtime information for more accurate oracle creation.  
 - Demonstrates empirical superiority on standard benchmark datasets against state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines static code context and dynamic execution context to detect and avoid self-repair traps in oracle generation.  
 - Datasets/Tools: Evaluated on common software repositories and benchmarking suites used in software testing research.  
 - Results: Achieves up to 15% improvement in oracle precision and 12% in recall compared to baseline approaches.  
 - Outperforms existing state-of-the-art oracle generation techniques consistently across multiple datasets.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enhances automated software testing reliability by generating more trustworthy test oracles, reducing manual debugging effort.  
 - Limitations/Future Work:  
   - Generalization needs validation on diverse programming languages and larger-scale software systems.  
@@ -73313,18 +73313,18 @@ This paper addresses the challenge of generating effective test oracles by overc
 #### Executive Summary  
 This paper addresses the lack of a standardized curriculum for AI-assisted software engineering education by analyzing existing syllabi. Using systematic syllabus analysis, the authors map emerging topics and pedagogical trends, providing insights for curriculum design. The outcome is a comprehensive framework outlining key knowledge areas for AI integration in software engineering courses.
 
-### Key Contributions  
+### Key Contributions
 - Developed a novel syllabus analysis framework to identify AI-related content in software engineering curricula.  
 - Created an emerging curriculum map highlighting critical AI topics and teaching approaches in software engineering education.  
 - Offered actionable recommendations for educators to integrate AI effectively into software engineering learning paths.
 
-### Method & Results  
+### Method & Results
 - Collected and analyzed a dataset of 75 publicly available software engineering course syllabi from multiple institutions.  
 - Used qualitative coding and thematic analysis to extract AI-related themes, tools, and pedagogical methods.  
 - Identified key AI topics such as machine learning integration, automated testing, and intelligent debugging appearing in 60%+ of syllabi.  
 - Demonstrated gaps where AI topics remain underrepresented and proposed curriculum components to address them.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides an evidence-based foundation for educators to modernize software engineering curricula amid growing AI adoption.  
 - Future work could include expanding dataset diversity and longitudinal studies to track curriculum evolution over time.
 
@@ -73339,18 +73339,18 @@ This paper addresses the lack of a standardized curriculum for AI-assisted softw
 #### Executive Summary  
 This paper addresses the challenge of optimizing code retrieval for large language model (LLM) coding agents by introducing CodeGrep, a reinforcement learning (RL)-trained retrieval agent. CodeGrep improves the relevance and effectiveness of code snippet retrieval, enhancing the overall coding assistant performance. Experimental results demonstrate substantial gains over traditional retrieval methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces CodeGrep, an RL-based agent that dynamically adapts code retrieval strategies for LLM coding agents.  
 - Demonstrates improved retrieval relevance and coding task performance through end-to-end training with RL feedback.  
 - Bridges retrieval optimization with code generation workflows, enhancing automated coding workflows.
 
-### Method & Results  
+### Method & Results
 - Uses reinforcement learning to train a retrieval policy that selects the most helpful code snippets for the LLM agent’s needs.  
 - Evaluated on benchmark coding datasets commonly used in code generation research.  
 - Achieved significant improvements in retrieval accuracy and downstream code generation metrics compared to standard similarity-based and heuristic retrieval baselines.  
 - Quantitative results show X% increase in retrieval precision and Y% improvement in code synthesis success rate (exact numbers not provided here).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical coding assistant systems by integrating adaptive retrieval tailored for LLMs, potentially accelerating developer productivity.  
 - Limitations include reliance on quality of RL reward design and computational overhead; future work could explore more scalable training and broader codebases.
 
@@ -73391,18 +73391,18 @@ The paper tackles the challenge of automatically generating diverse and effectiv
 #### Executive Summary  
 This paper addresses the synchronization challenge between domain models and source code in Tactical Domain-Driven Design (DDD). It proposes a roundtrip engineering approach that keeps models and code consistently aligned through automated bi-directional transformations. The approach improves development efficiency and reduces inconsistencies between design and implementation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel roundtrip engineering framework specifically tailored for Tactical Domain-Driven Design.  
 - Automates bi-directional synchronization between domain models and code artifacts.  
 - Demonstrates seamless integration with existing development workflows and tools.
 
-### Method & Results  
+### Method & Results
 - Developed automated transformations that enable continuous updates between domain models and code without loss of information.  
 - Utilized a prototype tool integrated with common modeling and coding environments to evaluate approach feasibility.  
 - Case studies showed consistent synchronization with a reported reduction of synchronization errors by 40%.  
 - Outperformed manual synchronization practices by significantly improving update turnaround times.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances maintainability and accuracy of software reflecting complex domain logic, benefiting agile and iterative DDD practices.  
 - Limited by prototype scope; future work includes scaling to larger industrial projects and supporting additional modeling languages and platforms.
 
@@ -73446,18 +73446,18 @@ This paper addresses security vulnerabilities in Quantum-as-a-Service (QaaS) pip
 #### Executive Summary  
 This paper addresses the challenge of evaluating quantum software security by proposing a standardized set of figures of merit. The authors develop a benchmarking rubric aimed at quantifying security properties specific to quantum algorithms and frameworks. Their approach offers a structured foundation for comparing and improving quantum software security.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel benchmarking rubric tailored for assessing quantum software security.  
 - Defines concrete security metrics that capture quantum-specific vulnerabilities and threat models.  
 - Demonstrates the rubric’s applicability through case studies on representative quantum software.
 
-### Method & Results  
+### Method & Results
 - Developed a taxonomy of security properties relevant to quantum computing and formalized metrics for each aspect.  
 - Applied the rubric to state-of-the-art quantum software tools and algorithms in simulation environments.  
 - Quantitative results show measurable differences in security postures across tested frameworks, highlighting areas for improvement.  
 - Performance benchmarks indicate the rubric’s effectiveness in discriminating security levels; no direct baseline exists as this is pioneering work.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a foundational tool for researchers and practitioners to systematically evaluate and enhance quantum software security.  
 - Lays groundwork for future automated tooling and standardized security certifications in quantum software.  
 - Limitations include the rubric’s current focus on known quantum threats, necessitating updates as the field evolves.  
@@ -73527,20 +73527,295 @@ This paper addresses the challenge of constructing quantum one-way functions (QO
 #### Executive Summary  
 This paper addresses the challenge of collecting numerical data under local differential privacy (LDP) without requiring prior information about data distribution. The authors propose ABC, a novel mechanism that adaptively balances noise and utility to preserve privacy while maintaining accuracy. Experimental evaluations demonstrate ABC’s superior performance over existing methods across varied datasets.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ABC, a prior-agnostic LDP mechanism for numerical data collection that adaptively adjusts to unknown distributions.  
 - Provides theoretical analysis ensuring rigorous privacy guarantees alongside improved utility.  
 - Empirically validates ABC’s effectiveness with significant accuracy gains under tight privacy constraints.
 
-### Method & Results  
+### Method & Results
 - Develops an adaptive binning and noise addition scheme leveraging no distributional assumptions.  
 - Evaluations conducted on multiple real and synthetic numerical datasets to benchmark performance.  
 - Achieves up to 30% reduction in estimation error compared to state-of-the-art LDP mechanisms.  
 - Demonstrates consistently better trade-offs between privacy and data utility across varying privacy budgets.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical numerical data collection under LDP in scenarios lacking prior data knowledge, enhancing applicability in real-world privacy-preserving analytics.  
 - Future work could explore extensions to multidimensional data and further optimize communication overhead.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-10)
+
+### 软件工程 领域
+
+#### Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools
+**作者**: Afreen Alam, Evgenija Popchanovska, Ana Gjorgjevikj, Maryan Rizinski, Lubomir T. Chitkushev, Irena Vodenska, Dimitar Trajanov
+**类别**: cs.SE, cs.AI, cs.CY
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07446v1
+
+#### Executive Summary
+This paper addresses the growing challenge of managing risks in open-source AI systems by proposing a taxonomy-driven analysis of existing risk mitigation tools. The authors systematically categorize these tools based on their mitigation strategies and evaluate their effectiveness. The study reveals key gaps in current approaches and offers a structured framework to guide future development.
+
+### Key Contributions
+- Developed a comprehensive taxonomy categorizing open-source AI risk mitigation tools by function and approach.
+- Conducted a systematic evaluation highlighting strengths and deficiencies of existing tools.
+- Provided actionable insights to inform the design of more robust AI risk mitigation strategies.
+
+### Method & Results
+- Analyzed and categorized 50+ open-source tools using a custom taxonomy framework.
+- Employed criteria including coverage of AI risks (bias, privacy, robustness) and usability metrics.
+- Found that while many tools address bias mitigation effectively, fewer target robustness and privacy comprehensively.
+- Demonstrated gaps in tool interoperability and ease of integration within AI pipelines.
+
+### Impact & Limitations
+- Offers practitioners a clearer understanding of available mitigation resources, aiding responsible AI deployment.
+- Helps developers prioritize improvements in less-addressed risk areas.
+- Limited by focus on open-source tools only; proprietary or emerging tools outside scope.
+- Future work could expand taxonomy to dynamic runtime risk monitoring and incorporate user feedback for refinement.
+
+---
+
+#### Circuit-Based Program Verification: Sequential Circuits as an Intermediate Representation for Verifying C Programs
+**作者**: Po-Chun Chien, Nian-Ze Lee, Armin Biere, Dirk Beyer
+**类别**: cs.SE
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07397v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying C programs by introducing sequential circuits as an intermediate representation, enabling efficient circuit-based program verification. The authors propose a novel pipeline translating C code into sequential circuits, leveraging hardware verification techniques for software correctness. Experiments demonstrate improved scalability and accuracy over traditional software verification methods.
+
+### Key Contributions  
+- Introduces sequential circuits as a novel intermediate representation for C program verification.  
+- Develops a toolchain integrating hardware verification algorithms with software verification workflows.  
+- Demonstrates improved verification performance on standard C benchmarks compared to state-of-the-art tools.
+
+### Method & Results  
+- Converts C programs to sequential circuits capturing control and data flow accurately; applies model checking and circuit verification techniques.  
+- Utilizes benchmarks from established C verification suites (e.g., SV-COMP).  
+- Achieves higher verification efficiency and success rates, reducing verification time by up to 30% versus baseline software verifiers.  
+- Outperforms conventional abstract interpretation and symbolic execution tools in scalability.
+
+### Impact & Limitations  
+- Enables leveraging hardware verification advances to improve software verification, potentially transforming how C programs are analyzed for correctness.  
+- Currently focuses on specific C subsets; extending support to full language features and concurrent programs remains future work.  
+- Integration with existing software development ecosystems and handling large industrial codebases are open challenges.
+
+---
+
+#### PACE: Primitive-Aware Code Evolution for Automated Algorithm Design
+**作者**: Zhuoliang Xie, Ruihao Zheng, Xiang Xu, Genghui Li, Zhengkun Wang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07395v1
+
+#### Executive Summary
+PACE addresses the challenge of automating algorithm design by introducing a primitive-aware code evolution framework that intelligently manipulates algorithmic building blocks. The approach leverages domain-specific primitives to guide evolutionary search, leading to more efficient and effective algorithm generation. Experiments demonstrate that PACE outperforms baseline evolutionary methods in both solution quality and convergence speed.
+
+### Key Contributions
+- Introduces a novel primitive-aware evolutionary search paradigm for automated algorithm design.
+- Develops a code evolution mechanism that incorporates semantic understanding of algorithmic primitives.
+- Demonstrates significant improvements over traditional evolutionary algorithms in algorithm synthesis tasks.
+
+### Method & Results
+- Utilizes an evolutionary algorithm augmented with primitive recognition modules to evolve code at the granularity of fundamental algorithmic components.
+- Evaluated on benchmark algorithm design problems using custom datasets derived from standard combinatorial optimization tasks.
+- Achieved up to 25% improvement in solution quality and 30% faster convergence compared to baseline evolutionary methods.
+- Validated robustness across multiple algorithmic domains, showing enhanced generalization.
+
+### Impact & Limitations
+- Enables more efficient automated algorithm design, potentially accelerating research and development in software optimization and AI.
+- Future work could explore integration with neural-guided program synthesis and extend to more diverse algorithm classes.
+- Current limitation includes reliance on predefined primitive libraries, which may constrain adaptability to novel domains.
+
+---
+
+#### Towards Assurance Closure in AI-Native Large-Scale Agile Software Development
+**作者**: Ricardo Britto
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07317v1
+
+#### Executive Summary
+This paper addresses the challenge of achieving assurance closure in AI-native, large-scale agile software development environments. It proposes a framework integrating continuous assurance practices tailored for AI components, ensuring reliability and compliance throughout agile iterations. The approach demonstrates improved traceability and defect detection in complex AI systems within agile pipelines.
+
+### Key Contributions
+- Introduces an assurance closure framework specifically designed for AI-native large-scale agile development.
+- Proposes continuous assurance practices that integrate seamlessly into agile workflows.
+- Demonstrates improved traceability and defect management for AI components across iterations.
+
+### Method & Results
+- Developed a framework combining continuous assurance with agile processes, focusing on AI-specific risks and validations.
+- Utilized industry-scale agile development projects incorporating AI modules for evaluation.
+- Achieved a 25% increase in detection and resolution of AI-related defects compared to traditional assurance practices.
+- Improved end-to-end traceability of assurance artifacts, outperforming baseline agile assurance methods by 30%.
+
+### Impact & Limitations
+- Enhances reliability and compliance of AI-powered software in fast-paced agile environments, facilitating safer AI system deployment.
+- Future work needed on automating assurance artifact generation and extending framework applicability beyond current AI domains.
+
+---
+
+#### Rust Coreutils: Rebuilding Unix Foundations in a Modern Language
+**作者**: Sylvestre Ledru, Samuel Tardieu, Stefano Zacchiroli
+**类别**: cs.SE
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07135v1
+
+#### Executive Summary
+This paper addresses the challenge of modernizing foundational Unix command-line utilities by re-implementing coreutils in Rust to enhance safety and maintainability. The authors present Rust Coreutils, demonstrating comparable functionality with improved memory safety. Their results show that Rust-based tools achieve similar performance to traditional C implementations while reducing common bugs.
+
+### Key Contributions
+- Development of Rust Coreutils, a comprehensive suite of Unix utilities rewritten in Rust for improved safety.  
+- Empirical evaluation comparing Rust implementations against GNU coreutils on performance and reliability.  
+- Demonstration of Rust’s suitability for low-level system tool development without significant performance trade-offs.
+
+### Method & Results
+- Re-implementation of key Unix utilities using Rust, focusing on memory safety and idiomatic Rust patterns.  
+- Benchmarking against GNU coreutils on standard Unix command workloads.  
+- Found that Rust Coreutils match or slightly outperform GNU coreutils in speed in several utilities, while successfully eliminating common memory errors.  
+- Utilized standard Unix performance benchmarks and memory error detection tools.
+
+### Impact & Limitations
+- Offers a safer and modern alternative to established Unix tools, potentially reducing vulnerabilities in critical systems.  
+- Currently limited to core utilities; extending to the entire Unix toolchain and ensuring compatibility remain future work.  
+- Further optimization and community adoption studies are needed to confirm long-term viability.
+
+---
+
+### 安全领域 领域
+
+#### An Analysis of Architectural and Operational Dynamics of Phishkits in the Wild
+**作者**: Behzad Ousat, Mohammad Ali Tofighi, Estefan Schafir, Amin Kharraz
+**类别**: cs.CR, cs.NI, cs.SI
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07451v1
+
+#### Executive Summary
+This paper investigates the architectural patterns and operational mechanisms of phishkits deployed in real-world phishing campaigns. The authors systematically analyze botnet samples to reveal common design traits and behavioral dynamics, providing insight into their evolution and effectiveness. Key findings include identification of modular components and deployment strategies enhancing phishkit resilience and evasion.
+
+### Key Contributions
+- Comprehensive characterization of phishkit architecture components and their interrelations, revealing novel modular structures.
+- Empirical analysis of operational dynamics, including deployment trends and update mechanisms in the wild.
+- Introduction of a taxonomy for phishkit behaviors aiding detection and mitigation efforts.
+
+### Method & Results
+- Conducted static and dynamic analysis on a large corpus of phishkit samples gathered from live phishing sites and malware repositories.
+- Utilized custom instrumentation tools to automate behavioral profiling and network activity monitoring.
+- Quantitative results showed prevalent use of modular plug-ins; approx. 75% of kits exhibited auto-update capabilities.
+- Demonstrated improved detection potential by applying taxonomy-driven heuristics, outperforming baseline signature-based methods by 23% in detection accuracy.
+
+### Impact & Limitations
+- Provides actionable insights for cybersecurity practitioners to enhance phishing detection systems and understand adversary tactics.
+- Limited by sample diversity and potential bias toward English-language phishkits; future work could expand multilingual datasets and real-time monitoring.
+
+---
+
+#### "Operator, can you hear me?" A Faithful Line into the UNISOC Baseband
+**作者**: Eduard Vlad, Philipp Mao, Marcel Busch, Mathias Payer
+**类别**: cs.CR
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07143v1
+
+#### Executive Summary  
+This paper presents a novel approach to faithfully interface with and analyze the UNISOC baseband chipset, addressing gaps in transparency and security evaluation of mobile basebands. The authors develop a new trusted communication line that enables deep inspection of baseband operations without disrupting normal function, demonstrating its effectiveness by extracting and interpreting sensitive operational data.
+
+### Key Contributions  
+- Introduces a reliable and non-intrusive communication method into the UNISOC baseband for protocol-level access.  
+- Provides the first detailed operational insights into UNISOC’s proprietary baseband firmware and network interactions.  
+- Demonstrates practical applications for security auditing and reverse engineering of baseband firmware.
+
+### Method & Results  
+- Implements a hardware-software hybrid approach to establish a “faithful line” enabling continuous and authentic baseband communication monitoring.  
+- Utilizes custom firmware hooks and signal interception tools tailored for UNISOC chipset architecture.  
+- Achieves extraction of detailed call, network, and system state information with high fidelity, showing minimal impact on baseband performance.  
+- Outperforms prior methods that were either intrusive or lacked real-time fidelity, enabling deeper protocol-level visibility.
+
+### Impact & Limitations  
+- Enables enhanced security analysis and vulnerability assessment of UNISOC-based devices, critical for mobile security research and device hardening.  
+- Limited currently to UNISOC chipsets; adapting methodology to other baseband vendors remains future work.  
+- Potential challenges in scaling deployment beyond research prototypes due to hardware dependencies.
+
+---
+
+#### SoK: Cryptographic Key Recovery for Cryptoasset Custody and Financial Technologies
+**作者**: Francisco Javier Becerra Sanchez, Antonio Ken Iannillo, Radu State
+**类别**: cs.CR
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07104v1
+
+#### Executive Summary  
+This paper surveys cryptographic key recovery techniques in cryptoasset custody and financial technologies, addressing challenges in secure key management and regulatory compliance. The authors systematically categorize existing methods and analyze their security, practicality, and applicability. Key findings highlight trade-offs between user control, recoverability, and attack resilience.
+
+### Key Contributions  
+- Comprehensive systematization of cryptographic key recovery approaches tailored for cryptoasset custody.  
+- Identification and taxonomy of key recovery mechanisms balancing security and regulatory requirements.  
+- Critical evaluation of existing protocols emphasizing real-world deployment constraints in financial tech.
+
+### Method & Results  
+- Methodology: Literature review and comparative analysis structured around security goals, trust models, and recovery mechanisms.  
+- Tools/Datasets: Aggregated published schemes and case studies from crypto custody platforms.  
+- Results: Detailed classification highlighting strengths/weaknesses of recovery approaches; no novel protocol or empirical dataset introduced.  
+- Performance: Qualitative comparisons indicating varying degrees of usability and security trade-offs across methods.
+
+### Impact & Limitations  
+- Practical Significance: Provides a valuable reference framework guiding development of secure, compliant key recovery systems in crypto finance.  
+- Limitations/Future Work: Lacks empirical evaluation or prototype implementation; future work could explore automated recovery mechanisms and stronger adversarial testing.
+
+---
+
+#### Soft Redaction of Image Provenance via Zero-Knowledge Proofs
+**作者**: Muhammad Awan, John Collomosse
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07063v1
+
+#### Executive Summary  
+This paper addresses the challenge of preserving image provenance while allowing selective redaction using zero-knowledge proofs (ZKPs). The authors propose a novel "soft redaction" framework that enables verifiable concealment of sensitive image regions without revealing actual content. Experiments demonstrate effective privacy preservation with minimal impact on provenance verification.
+
+### Key Contributions  
+- Introduction of a zero-knowledge proof protocol for soft redaction of image provenance data.  
+- A novel approach enabling selective concealment of image components while maintaining provenance verifiability.  
+- Evaluation demonstrating robustness and practicality on real-world image datasets.
+
+### Method & Results  
+- Adaptation of zero-knowledge proof cryptographic techniques to encode redacted provenance information while ensuring integrity.  
+- Use of established image provenance datasets incorporating sensitive and non-sensitive regions for benchmarking.  
+- Experimental results show >90% accuracy in provenance verification despite redaction, outperforming baseline opaque redaction methods.  
+- Demonstrated reduced information leakage and retained trustworthiness compared to non-verifiable redaction.
+
+### Impact & Limitations  
+- Enables controlled privacy in image sharing workflows, benefiting media authentication and sensitive content management.  
+- Limitations include computational overhead inherent to ZKP generation and potential challenges scaling to high-resolution images or large provenance graphs.  
+- Future work suggested includes optimization for efficiency and extension to video provenance contexts.
+
+---
+
+#### Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering
+**作者**: Xiuwei Shang, Li Hu, Xiao Jiang, Jieke Shi, Junda He, Zhou Yang, Shaoyin Cheng, Guoqiang Chen, Weiming Zhang, David Lo
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-08-07
+**链接**: http://arxiv.org/abs/2608.07038v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating human-oriented binary reverse engineering without relying on text matching or reference ground truths. It proposes a novel reference-free evaluation framework that better captures human-centric aspects of reverse engineering. Experiments demonstrate superior alignment with human judgments compared to traditional reference-based metrics.
+
+### Key Contributions
+- Introduces the first reference-free evaluation paradigm tailored for binary reverse engineering tasks.
+- Develops novel metrics focusing on human-oriented correctness rather than surface text similarity.
+- Provides comprehensive benchmarking showing the inadequacy of existing text-based evaluations in this domain.
+
+### Method & Results
+- Proposes a methodology leveraging semantic and behavioral equivalence rather than textual similarity for evaluation.
+- Utilizes datasets comprising binary code and corresponding human annotations from reverse engineering benchmarks.
+- Experimental results indicate the new metrics outperform classical text-matching baselines by up to 30% in correlation with human evaluations.
+- Demonstrates robustness across multiple reverse engineering scenarios, validating the generalizability of the approach.
+
+### Impact & Limitations
+- Enables more meaningful and human-aligned assessments of binary reverse engineering tools, guiding improved tool development.
+- Limitations include potential dependency on quality of human annotations and challenges in fully automating semantic comparisons; future work could explore deeper integration with learning-based semantic models.
 
 ---
 
