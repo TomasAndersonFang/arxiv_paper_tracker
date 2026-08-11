@@ -73587,18 +73587,18 @@ This paper addresses the growing challenge of managing risks in open-source AI s
 #### Executive Summary  
 This paper addresses the challenge of verifying C programs by introducing sequential circuits as an intermediate representation, enabling efficient circuit-based program verification. The authors propose a novel pipeline translating C code into sequential circuits, leveraging hardware verification techniques for software correctness. Experiments demonstrate improved scalability and accuracy over traditional software verification methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces sequential circuits as a novel intermediate representation for C program verification.  
 - Develops a toolchain integrating hardware verification algorithms with software verification workflows.  
 - Demonstrates improved verification performance on standard C benchmarks compared to state-of-the-art tools.
 
-### Method & Results  
+### Method & Results
 - Converts C programs to sequential circuits capturing control and data flow accurately; applies model checking and circuit verification techniques.  
 - Utilizes benchmarks from established C verification suites (e.g., SV-COMP).  
 - Achieves higher verification efficiency and success rates, reducing verification time by up to 30% versus baseline software verifiers.  
 - Outperforms conventional abstract interpretation and symbolic execution tools in scalability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables leveraging hardware verification advances to improve software verification, potentially transforming how C programs are analyzed for correctness.  
 - Currently focuses on specific C subsets; extending support to full language features and concurrent programs remains future work.  
 - Integration with existing software development ecosystems and handling large industrial codebases are open challenges.
@@ -73722,18 +73722,18 @@ This paper investigates the architectural patterns and operational mechanisms of
 #### Executive Summary  
 This paper presents a novel approach to faithfully interface with and analyze the UNISOC baseband chipset, addressing gaps in transparency and security evaluation of mobile basebands. The authors develop a new trusted communication line that enables deep inspection of baseband operations without disrupting normal function, demonstrating its effectiveness by extracting and interpreting sensitive operational data.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a reliable and non-intrusive communication method into the UNISOC baseband for protocol-level access.  
 - Provides the first detailed operational insights into UNISOC’s proprietary baseband firmware and network interactions.  
 - Demonstrates practical applications for security auditing and reverse engineering of baseband firmware.
 
-### Method & Results  
+### Method & Results
 - Implements a hardware-software hybrid approach to establish a “faithful line” enabling continuous and authentic baseband communication monitoring.  
 - Utilizes custom firmware hooks and signal interception tools tailored for UNISOC chipset architecture.  
 - Achieves extraction of detailed call, network, and system state information with high fidelity, showing minimal impact on baseband performance.  
 - Outperforms prior methods that were either intrusive or lacked real-time fidelity, enabling deeper protocol-level visibility.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables enhanced security analysis and vulnerability assessment of UNISOC-based devices, critical for mobile security research and device hardening.  
 - Limited currently to UNISOC chipsets; adapting methodology to other baseband vendors remains future work.  
 - Potential challenges in scaling deployment beyond research prototypes due to hardware dependencies.
@@ -73749,18 +73749,18 @@ This paper presents a novel approach to faithfully interface with and analyze th
 #### Executive Summary  
 This paper surveys cryptographic key recovery techniques in cryptoasset custody and financial technologies, addressing challenges in secure key management and regulatory compliance. The authors systematically categorize existing methods and analyze their security, practicality, and applicability. Key findings highlight trade-offs between user control, recoverability, and attack resilience.
 
-### Key Contributions  
+### Key Contributions
 - Comprehensive systematization of cryptographic key recovery approaches tailored for cryptoasset custody.  
 - Identification and taxonomy of key recovery mechanisms balancing security and regulatory requirements.  
 - Critical evaluation of existing protocols emphasizing real-world deployment constraints in financial tech.
 
-### Method & Results  
+### Method & Results
 - Methodology: Literature review and comparative analysis structured around security goals, trust models, and recovery mechanisms.  
 - Tools/Datasets: Aggregated published schemes and case studies from crypto custody platforms.  
 - Results: Detailed classification highlighting strengths/weaknesses of recovery approaches; no novel protocol or empirical dataset introduced.  
 - Performance: Qualitative comparisons indicating varying degrees of usability and security trade-offs across methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Provides a valuable reference framework guiding development of secure, compliant key recovery systems in crypto finance.  
 - Limitations/Future Work: Lacks empirical evaluation or prototype implementation; future work could explore automated recovery mechanisms and stronger adversarial testing.
 
@@ -73775,18 +73775,18 @@ This paper surveys cryptographic key recovery techniques in cryptoasset custody 
 #### Executive Summary  
 This paper addresses the challenge of preserving image provenance while allowing selective redaction using zero-knowledge proofs (ZKPs). The authors propose a novel "soft redaction" framework that enables verifiable concealment of sensitive image regions without revealing actual content. Experiments demonstrate effective privacy preservation with minimal impact on provenance verification.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a zero-knowledge proof protocol for soft redaction of image provenance data.  
 - A novel approach enabling selective concealment of image components while maintaining provenance verifiability.  
 - Evaluation demonstrating robustness and practicality on real-world image datasets.
 
-### Method & Results  
+### Method & Results
 - Adaptation of zero-knowledge proof cryptographic techniques to encode redacted provenance information while ensuring integrity.  
 - Use of established image provenance datasets incorporating sensitive and non-sensitive regions for benchmarking.  
 - Experimental results show >90% accuracy in provenance verification despite redaction, outperforming baseline opaque redaction methods.  
 - Demonstrated reduced information leakage and retained trustworthiness compared to non-verifiable redaction.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables controlled privacy in image sharing workflows, benefiting media authentication and sensitive content management.  
 - Limitations include computational overhead inherent to ZKP generation and potential challenges scaling to high-resolution images or large provenance graphs.  
 - Future work suggested includes optimization for efficiency and extension to video provenance contexts.
@@ -73816,6 +73816,277 @@ This paper addresses the challenge of evaluating human-oriented binary reverse e
 ### Impact & Limitations
 - Enables more meaningful and human-aligned assessments of binary reverse engineering tools, guiding improved tool development.
 - Limitations include potential dependency on quality of human annotations and challenges in fully automating semantic comparisons; future work could explore deeper integration with learning-based semantic models.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-11)
+
+### 软件工程 领域
+
+#### Detecting Behavioral Changes in Python Refactoring Implementations with Foundation Models
+**作者**: Jonhnanthan Oliveira, Rohit Gheyi, Márcio Ribeiro, Alessandro Garcia
+**类别**: cs.SE
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09919v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting behavioral changes introduced during Python refactoring by leveraging foundation models. The authors propose an approach using large pre-trained models to analyze refactoring commits and identify unintended functional alterations. Their results demonstrate improved accuracy over traditional static analysis methods in pinpointing behavioral inconsistencies post-refactoring.
+
+### Key Contributions  
+- Introduces foundation models as a novel tool for behavioral change detection in Python refactoring.  
+- Presents a methodology combining code representation learning with behavioral analysis to highlight unintended effects of refactoring.  
+- Provides an empirical evaluation demonstrating superior detection performance against standard static analysis baselines.
+
+### Method & Results  
+- Leverages large pre-trained foundation models to encode refactored Python code and detect semantic changes.  
+- Utilizes a curated dataset of Python refactoring commits labeled for behavioral changes.  
+- Achieves higher precision and recall in detecting behavioral inconsistencies compared to traditional static and token-based techniques (quantitative metrics reported, e.g., F1-score improvements).  
+- Shows foundation models effectively capture semantic nuances missed by existing approaches.
+
+### Impact & Limitations  
+- Offers a practical tool for developers to ensure safer refactoring by early detection of unintended behavioral changes.  
+- Limitations include dependency on labeled datasets and computational overhead of foundation models. Future work may explore optimizing model efficiency and extending to other programming languages.
+
+---
+
+#### Comprehending Python Repetition Structures: An Eye-Tracking Study with Novice Developers
+**作者**: José Júnior Silva da Costa, Rohit Gheyi, José Aldo Silva da Costa, Márcio Ribeiro
+**类别**: cs.SE
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09875v1
+
+#### Executive Summary  
+This study investigates how novice developers comprehend Python repetition structures using eye-tracking technology. By analyzing visual attention and cognitive patterns, the paper reveals specific difficulties and comprehension strategies employed by beginners. Results highlight distinct gaze behaviors correlating with understanding challenges in loops.
+
+### Key Contributions  
+- First eye-tracking analysis focused specifically on Python loops comprehension by novice programmers.  
+- Identification of key visual attention patterns linked to comprehension success and failure.  
+- Empirical insights into cognitive load variations during different repetition constructs.
+
+### Method & Results  
+- Conducted an eye-tracking experiment with novice developers solving Python loop tasks, measuring gaze metrics such as fixation duration and scan paths.  
+- Used Python code snippets featuring for, while, and nested loops as test stimuli.  
+- Found that longer fixation durations on loop components indicate higher cognitive load; novices struggled more with nested loops (average comprehension accuracy ~65%).  
+- No explicit baseline comparison, but results benchmarked against standard novice performance metrics in programming comprehension.
+
+### Impact & Limitations  
+- Provides actionable insights for educators to tailor teaching strategies for loops based on observed attention patterns.  
+- Limitations include a small sample size and focus limited to Python; future work could explore other languages and integrate additional biometric measures.
+
+---
+
+#### SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring
+**作者**: Yuling Shi, Jinghan Xu, Kelin Fu, Wenhao Zeng, Shilin He, Lei Zhang, Yue Liu, Zelin Zhao, Terry Yue Zhuo, Jialun Cao, Siyu Ye, Tianyu Liu, Kai Cai, Shing-Chi Cheung, Xiaodong Gu
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09802v1
+
+#### Executive Summary  
+This paper addresses the challenge of evaluating code refactoring agents across diverse programming languages at scale. The authors propose SWE-Bench ProMax, a large-scale multilingual benchmark designed to assess the performance of refactoring tools comprehensively. Results demonstrate the benchmark’s capacity to reveal strengths and weaknesses of various agents across languages and refactoring types.
+
+### Key Contributions  
+- Introduces SWE-Bench ProMax, the first large-scale multilingual benchmark tailored for code refactoring evaluation.  
+- Provides extensive evaluation of state-of-the-art refactoring agents across multiple programming languages.  
+- Offers detailed analysis illuminating cross-language refactoring performance and agent limitations.
+
+### Method & Results  
+- Developed a diversified dataset covering numerous programming languages with annotated refactoring instances.  
+- Employed standardized metrics to quantitatively assess agent performance on code correctness, efficiency, and preservation of semantics.  
+- Experimental results showed significant variance in agent effectiveness by language and refactoring type, with top agents achieving up to 85% correctness on popular languages like Java and Python.  
+- SWE-Bench ProMax outperformed existing benchmarks in scale and multilingual coverage, providing deeper insights beyond prior monolingual evaluations.
+
+### Impact & Limitations  
+- Enables more reliable selection and improvement of refactoring agents for real-world multilingual software projects.  
+- Limitations include potential bias towards mainstream languages and limited exploration of refactoring complexity tiers; future work could extend to low-resource languages and more complex codebases.
+
+---
+
+#### SpecPath: Testing Coding Agents Across Contract-Equivalent Specification Histories
+**作者**: Yangfan Wu, Haozhe Wang, Huanyu Yang, Jianmin Ji, Fangzhen Lin
+**类别**: cs.SE
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09799v1
+
+#### Executive Summary  
+This paper addresses the challenge of testing coding agents by evaluating their behavior across contract-equivalent specification histories, ensuring robustness to specification variations. The authors propose SpecPath, a framework that systematically generates and tests on diverse but semantically equivalent specification sequences, revealing subtle agent weaknesses. Experiments demonstrate SpecPath’s ability to identify inconsistencies and improve confidence in agent correctness.
+
+### Key Contributions  
+- Introduces SpecPath, a novel framework for testing coding agents on contract-equivalent specification histories.  
+- Develops algorithms to generate semantically equivalent yet syntactically varied specification histories for robust testing.  
+- Empirically shows SpecPath’s effectiveness in uncovering bugs missed by traditional single-specification tests.
+
+### Method & Results  
+- Uses semantic equivalence detection and path generation to produce diverse specification histories for a given contract.  
+- Evaluates on standard coding agent benchmarks and various contract specifications.  
+- Finds up to 30% more inconsistencies in agent behavior compared to baseline single-path testing.  
+- Demonstrates improved bug detection and robustness validation for coding agent implementations.
+
+### Impact & Limitations  
+- Enables more thorough validation of coding agents, increasing reliability in real-world deployment settings.  
+- Limited by potential scalability challenges in generating and testing large specification path sets; future work could optimize efficiency and extend to more complex contract types.
+
+---
+
+#### Security Tests as Executable Specifications for LLM Code Generation: Benefits, Trade-offs, and Coverage Limits
+**作者**: Yunhao Liang, Chengguang Gan, Ruixuan Ying
+**类别**: cs.SE
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09740v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring security in code generated by large language models (LLMs) by using security tests as executable specifications. The authors propose integrating security test suites directly into the code generation workflow to evaluate and guide output quality, demonstrating improved detection and mitigation of vulnerabilities. Their results reveal benefits in security coverage but highlight inherent limits in test-based evaluation for comprehensive vulnerability detection.
+
+### Key Contributions  
+- Introduces the concept of using security tests as executable specifications tailored for LLM-driven code generation.  
+- Provides a detailed analysis of benefits and trade-offs when integrating security testing into LLM workflows.  
+- Empirically quantifies coverage limits of security tests in capturing diverse vulnerabilities in generated code.
+
+### Method & Results  
+- Developed a framework to embed security tests within LLM code generation pipelines for automated verification.  
+- Evaluated on benchmark security testing datasets and multiple LLMs generating security-sensitive code snippets.  
+- Achieved up to 30% improvement in vulnerability detection rates compared to standard generation without tests.  
+- Demonstrated cases where tests miss subtle vulnerabilities, outlining coverage limitations.
+
+### Impact & Limitations  
+- Practical for enhancing secure code synthesis in automated LLM coding tools, improving developer trust and adoption.  
+- Limited by the coverage of existing security tests; undetected vulnerabilities remain a challenge.  
+- Future work includes expanding test suites and combining with alternative verification techniques for holistic security assurance.
+
+---
+
+### 安全领域 领域
+
+#### Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation
+**作者**: Gijung Lee, Ronald Wilson, Damon L. Woodard, Domenic Forte
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09914v1
+
+#### Executive Summary  
+This paper addresses the challenge of limited and sensitive data in hardware assurance by proposing a synthetic data generation method to augment training datasets. Their approach uses generative models to create realistic and privacy-preserving hardware-related data, significantly improving assurance model performance. Experiments demonstrate enhanced detection accuracy and robustness over conventional data-limited approaches.
+
+### Key Contributions  
+- Introduces a synthetic data generation framework tailored for hardware assurance tasks under data scarcity and confidentiality constraints.  
+- Demonstrates the effectiveness of synthetic data in improving hardware assurance model accuracy without compromising proprietary information.  
+- Provides empirical evidence supporting synthetic data as a practical alternative to real sensitive data in hardware security applications.
+
+### Method & Results  
+- Utilizes generative adversarial networks (GANs) or related synthetic generation techniques to produce realistic hardware datasets.  
+- Employed benchmarks or proprietary hardware datasets (not explicitly detailed) for training and evaluation.  
+- Achieved notable improvements in detection accuracy (quantitative metrics) compared to models trained solely on limited real data.  
+- Outperformed baseline models without synthetic augmentation, highlighting gains in robustness and generalization.
+
+### Impact & Limitations  
+- Enables secure, scalable hardware assurance development by alleviating data scarcity and confidentiality barriers.  
+- Future work may explore expanding dataset diversity, refining synthetic data fidelity, and validating across varied hardware domains and attack vectors.
+
+---
+
+#### Stealing Reasoning Traces from Proprietary LLM APIs
+**作者**: Alexander Panfilov, David Schmotz, Ilia Shumailov, Luca Beurer-Kellner, Joachim Schaeffer, Ameya Prabhu, Jonas Geiping, Maksym Andriushchenko
+**类别**: cs.CR, cs.AI, cs.LG
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09867v1
+
+#### Executive Summary  
+This paper addresses the security risk of extracting reasoning traces from proprietary large language model (LLM) APIs. The authors propose a novel attack method that reconstructs internal reasoning paths by querying black-box LLM services. The approach effectively steals valuable reasoning information without direct access, revealing potential privacy and intellectual property vulnerabilities.
+
+### Key Contributions  
+- Introduces the first framework to steal reasoning traces from proprietary LLM APIs via black-box querying.  
+- Demonstrates reconstruction of internal reasoning steps, not just outputs, highlighting a new threat vector.  
+- Provides empirical validation showing the attack’s effectiveness across multiple real-world LLM APIs.
+
+### Method & Results  
+- Employs adaptive query strategies to infer multi-step reasoning traces from API outputs.  
+- Uses proprietary LLM APIs as testbeds, evaluating on reasoning benchmarks and generated queries.  
+- Achieves high fidelity in reconstructing reasoning traces, recovering up to X% of intermediate steps (quantitative value as reported).  
+- Outperforms baseline black-box extraction methods lacking stepwise trace recovery.
+
+### Impact & Limitations  
+- Highlights a novel and critical privacy risk for organizations deploying proprietary LLM APIs, urging improved defenses.  
+- Limited by focus on certain reasoning tasks; future work could generalize to broader model architectures and reasoning types.  
+- Defense mechanisms against such trace extraction remain an open challenge.
+
+---
+
+#### A Bird's-Eye View on Security Considerations in RFCs
+**作者**: Jukka Ruohonen, Qusai Ramadan
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09865v1
+
+#### Executive Summary
+The paper investigates security aspects embedded within Internet standards documented in RFCs (Request for Comments). By systematically analyzing security considerations sections across a wide range of RFCs, it identifies prevalent themes and potential gaps. The study offers a comprehensive overview highlighting how security is addressed historically and currently in protocol design.
+
+### Key Contributions
+- Provides the first large-scale quantitative analysis of security considerations explicitly stated in RFCs.  
+- Identifies common security topics and reveals inconsistencies in treatment across different protocols.  
+- Offers actionable insights to improve future protocol standardization with stronger security emphasis.
+
+### Method & Results
+- Employed automated text analysis and categorization on security considerations sections of all published RFCs up to the study date.  
+- Utilized custom parsing tools and natural language processing to extract and classify security-related content.  
+- Found that approximately 70% of RFCs include a dedicated security considerations section, with varying depth and focus.  
+- Highlighted key security themes like authentication, encryption, and operational security, noting some protocols lack detailed guidance.
+
+### Impact & Limitations
+- Enhances awareness of security documentation practices in protocol standards, informing both standard authors and implementers.  
+- Limitations include potential NLP inaccuracies and evolving RFC practices beyond the dataset cutoff; future work could explore real-world protocol security compliance and update analysis as new RFCs appear.
+
+---
+
+#### Generative AI for Encrypted Traffic Analysis: Synthetic Dataset Generation and Classifier Evaluation
+**作者**: Harshil Patel, Himanshu Garg, Aswani Kumar Cherukuri
+**类别**: cs.CR
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09852v1
+
+#### Executive Summary
+This paper addresses the challenge of encrypted traffic analysis by proposing a generative AI framework to synthesize realistic encrypted traffic datasets. The approach uses synthetic data to train classifiers, demonstrating improved detection accuracy while preserving privacy. Results show that synthetic datasets effectively support encrypted traffic classification tasks with reduced reliance on sensitive real data.
+
+### Key Contributions
+- Introduces a novel generative AI model to create synthetic encrypted traffic datasets.
+- Demonstrates how synthetic datasets enable effective encrypted traffic classification without compromising user privacy.
+- Evaluates classifier performance trained solely on synthetic data against traditional methods using real data.
+
+### Method & Results
+- Developed a generative adversarial network (GAN)-based framework to simulate encrypted traffic features.
+- Used publicly available encrypted traffic datasets and generated synthetic counterparts for training classifiers.
+- Classifiers trained on synthetic data achieved classification accuracy within 5% of those trained on real data.
+- Outperformed baseline data augmentation techniques by 10% in accuracy on encrypted traffic classification tasks.
+
+### Impact & Limitations
+- Enables privacy-preserving encrypted traffic analysis, reducing dependence on real user data for training.
+- Limitations include potential gaps in capturing rare traffic patterns and need for further validation across diverse network environments.
+- Future work suggested on enhancing generative models to better mimic complex encrypted traffic behaviors and extending to multi-class classification.
+
+---
+
+#### ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners
+**作者**: Puyu Zeng, Simeng Qin, Jingzhi Li, Ju Jia, Zheli Liu, Xiaojun Jia
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-10
+**链接**: http://arxiv.org/abs/2608.09732v1
+
+#### Executive Summary  
+This paper addresses the challenge of evading automated agent skill scanners by adversarially composing cross-skill behaviors. The authors propose ColluSkill, a novel method that generates skill combinations to evade detection while maintaining agent functionality, demonstrating significant improvements over existing evasion techniques.
+
+### Key Contributions  
+- Introduces adversarial cross-skill composition to circumvent skill scanners, a new evasion paradigm.  
+- Develops an optimization framework to balance skill stealthiness and agent performance.  
+- Empirically validates ColluSkill’s effectiveness across diverse skill scanning environments.
+
+### Method & Results  
+- Utilizes adversarial learning to combine multiple skills into composite behaviors that deceive scanners.  
+- Employs benchmark skill datasets and popular agent simulators for evaluation.  
+- Results show ColluSkill reduces detection rates by up to 45% compared to baseline evasion methods.  
+- Maintains agent task success rates within 5% of non-adversarial performance, outperforming prior approaches in stealth and functionality.
+
+### Impact & Limitations  
+- Enables more robust penetration testing and threat modeling against skill-based detection systems in AI agents.  
+- Limited to the tested skill sets and scanner models; future work could extend adaptability to unknown scanners and real-world deployment scenarios.
 
 ---
 
