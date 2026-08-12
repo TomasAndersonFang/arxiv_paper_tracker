@@ -73834,18 +73834,18 @@ This paper addresses the challenge of evaluating human-oriented binary reverse e
 #### Executive Summary  
 This paper addresses the challenge of detecting behavioral changes introduced during Python refactoring by leveraging foundation models. The authors propose an approach using large pre-trained models to analyze refactoring commits and identify unintended functional alterations. Their results demonstrate improved accuracy over traditional static analysis methods in pinpointing behavioral inconsistencies post-refactoring.
 
-### Key Contributions  
+### Key Contributions
 - Introduces foundation models as a novel tool for behavioral change detection in Python refactoring.  
 - Presents a methodology combining code representation learning with behavioral analysis to highlight unintended effects of refactoring.  
 - Provides an empirical evaluation demonstrating superior detection performance against standard static analysis baselines.
 
-### Method & Results  
+### Method & Results
 - Leverages large pre-trained foundation models to encode refactored Python code and detect semantic changes.  
 - Utilizes a curated dataset of Python refactoring commits labeled for behavioral changes.  
 - Achieves higher precision and recall in detecting behavioral inconsistencies compared to traditional static and token-based techniques (quantitative metrics reported, e.g., F1-score improvements).  
 - Shows foundation models effectively capture semantic nuances missed by existing approaches.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical tool for developers to ensure safer refactoring by early detection of unintended behavioral changes.  
 - Limitations include dependency on labeled datasets and computational overhead of foundation models. Future work may explore optimizing model efficiency and extending to other programming languages.
 
@@ -73860,18 +73860,18 @@ This paper addresses the challenge of detecting behavioral changes introduced du
 #### Executive Summary  
 This study investigates how novice developers comprehend Python repetition structures using eye-tracking technology. By analyzing visual attention and cognitive patterns, the paper reveals specific difficulties and comprehension strategies employed by beginners. Results highlight distinct gaze behaviors correlating with understanding challenges in loops.
 
-### Key Contributions  
+### Key Contributions
 - First eye-tracking analysis focused specifically on Python loops comprehension by novice programmers.  
 - Identification of key visual attention patterns linked to comprehension success and failure.  
 - Empirical insights into cognitive load variations during different repetition constructs.
 
-### Method & Results  
+### Method & Results
 - Conducted an eye-tracking experiment with novice developers solving Python loop tasks, measuring gaze metrics such as fixation duration and scan paths.  
 - Used Python code snippets featuring for, while, and nested loops as test stimuli.  
 - Found that longer fixation durations on loop components indicate higher cognitive load; novices struggled more with nested loops (average comprehension accuracy ~65%).  
 - No explicit baseline comparison, but results benchmarked against standard novice performance metrics in programming comprehension.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for educators to tailor teaching strategies for loops based on observed attention patterns.  
 - Limitations include a small sample size and focus limited to Python; future work could explore other languages and integrate additional biometric measures.
 
@@ -73886,18 +73886,18 @@ This study investigates how novice developers comprehend Python repetition struc
 #### Executive Summary  
 This paper addresses the challenge of evaluating code refactoring agents across diverse programming languages at scale. The authors propose SWE-Bench ProMax, a large-scale multilingual benchmark designed to assess the performance of refactoring tools comprehensively. Results demonstrate the benchmark’s capacity to reveal strengths and weaknesses of various agents across languages and refactoring types.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SWE-Bench ProMax, the first large-scale multilingual benchmark tailored for code refactoring evaluation.  
 - Provides extensive evaluation of state-of-the-art refactoring agents across multiple programming languages.  
 - Offers detailed analysis illuminating cross-language refactoring performance and agent limitations.
 
-### Method & Results  
+### Method & Results
 - Developed a diversified dataset covering numerous programming languages with annotated refactoring instances.  
 - Employed standardized metrics to quantitatively assess agent performance on code correctness, efficiency, and preservation of semantics.  
 - Experimental results showed significant variance in agent effectiveness by language and refactoring type, with top agents achieving up to 85% correctness on popular languages like Java and Python.  
 - SWE-Bench ProMax outperformed existing benchmarks in scale and multilingual coverage, providing deeper insights beyond prior monolingual evaluations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more reliable selection and improvement of refactoring agents for real-world multilingual software projects.  
 - Limitations include potential bias towards mainstream languages and limited exploration of refactoring complexity tiers; future work could extend to low-resource languages and more complex codebases.
 
@@ -73912,18 +73912,18 @@ This paper addresses the challenge of evaluating code refactoring agents across 
 #### Executive Summary  
 This paper addresses the challenge of testing coding agents by evaluating their behavior across contract-equivalent specification histories, ensuring robustness to specification variations. The authors propose SpecPath, a framework that systematically generates and tests on diverse but semantically equivalent specification sequences, revealing subtle agent weaknesses. Experiments demonstrate SpecPath’s ability to identify inconsistencies and improve confidence in agent correctness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SpecPath, a novel framework for testing coding agents on contract-equivalent specification histories.  
 - Develops algorithms to generate semantically equivalent yet syntactically varied specification histories for robust testing.  
 - Empirically shows SpecPath’s effectiveness in uncovering bugs missed by traditional single-specification tests.
 
-### Method & Results  
+### Method & Results
 - Uses semantic equivalence detection and path generation to produce diverse specification histories for a given contract.  
 - Evaluates on standard coding agent benchmarks and various contract specifications.  
 - Finds up to 30% more inconsistencies in agent behavior compared to baseline single-path testing.  
 - Demonstrates improved bug detection and robustness validation for coding agent implementations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more thorough validation of coding agents, increasing reliability in real-world deployment settings.  
 - Limited by potential scalability challenges in generating and testing large specification path sets; future work could optimize efficiency and extend to more complex contract types.
 
@@ -73938,18 +73938,18 @@ This paper addresses the challenge of testing coding agents by evaluating their 
 #### Executive Summary  
 This paper addresses the challenge of ensuring security in code generated by large language models (LLMs) by using security tests as executable specifications. The authors propose integrating security test suites directly into the code generation workflow to evaluate and guide output quality, demonstrating improved detection and mitigation of vulnerabilities. Their results reveal benefits in security coverage but highlight inherent limits in test-based evaluation for comprehensive vulnerability detection.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of using security tests as executable specifications tailored for LLM-driven code generation.  
 - Provides a detailed analysis of benefits and trade-offs when integrating security testing into LLM workflows.  
 - Empirically quantifies coverage limits of security tests in capturing diverse vulnerabilities in generated code.
 
-### Method & Results  
+### Method & Results
 - Developed a framework to embed security tests within LLM code generation pipelines for automated verification.  
 - Evaluated on benchmark security testing datasets and multiple LLMs generating security-sensitive code snippets.  
 - Achieved up to 30% improvement in vulnerability detection rates compared to standard generation without tests.  
 - Demonstrated cases where tests miss subtle vulnerabilities, outlining coverage limitations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for enhancing secure code synthesis in automated LLM coding tools, improving developer trust and adoption.  
 - Limited by the coverage of existing security tests; undetected vulnerabilities remain a challenge.  
 - Future work includes expanding test suites and combining with alternative verification techniques for holistic security assurance.
@@ -73967,18 +73967,18 @@ This paper addresses the challenge of ensuring security in code generated by lar
 #### Executive Summary  
 This paper addresses the challenge of limited and sensitive data in hardware assurance by proposing a synthetic data generation method to augment training datasets. Their approach uses generative models to create realistic and privacy-preserving hardware-related data, significantly improving assurance model performance. Experiments demonstrate enhanced detection accuracy and robustness over conventional data-limited approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a synthetic data generation framework tailored for hardware assurance tasks under data scarcity and confidentiality constraints.  
 - Demonstrates the effectiveness of synthetic data in improving hardware assurance model accuracy without compromising proprietary information.  
 - Provides empirical evidence supporting synthetic data as a practical alternative to real sensitive data in hardware security applications.
 
-### Method & Results  
+### Method & Results
 - Utilizes generative adversarial networks (GANs) or related synthetic generation techniques to produce realistic hardware datasets.  
 - Employed benchmarks or proprietary hardware datasets (not explicitly detailed) for training and evaluation.  
 - Achieved notable improvements in detection accuracy (quantitative metrics) compared to models trained solely on limited real data.  
 - Outperformed baseline models without synthetic augmentation, highlighting gains in robustness and generalization.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure, scalable hardware assurance development by alleviating data scarcity and confidentiality barriers.  
 - Future work may explore expanding dataset diversity, refining synthetic data fidelity, and validating across varied hardware domains and attack vectors.
 
@@ -73993,18 +73993,18 @@ This paper addresses the challenge of limited and sensitive data in hardware ass
 #### Executive Summary  
 This paper addresses the security risk of extracting reasoning traces from proprietary large language model (LLM) APIs. The authors propose a novel attack method that reconstructs internal reasoning paths by querying black-box LLM services. The approach effectively steals valuable reasoning information without direct access, revealing potential privacy and intellectual property vulnerabilities.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first framework to steal reasoning traces from proprietary LLM APIs via black-box querying.  
 - Demonstrates reconstruction of internal reasoning steps, not just outputs, highlighting a new threat vector.  
 - Provides empirical validation showing the attack’s effectiveness across multiple real-world LLM APIs.
 
-### Method & Results  
+### Method & Results
 - Employs adaptive query strategies to infer multi-step reasoning traces from API outputs.  
 - Uses proprietary LLM APIs as testbeds, evaluating on reasoning benchmarks and generated queries.  
 - Achieves high fidelity in reconstructing reasoning traces, recovering up to X% of intermediate steps (quantitative value as reported).  
 - Outperforms baseline black-box extraction methods lacking stepwise trace recovery.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a novel and critical privacy risk for organizations deploying proprietary LLM APIs, urging improved defenses.  
 - Limited by focus on certain reasoning tasks; future work could generalize to broader model architectures and reasoning types.  
 - Defense mechanisms against such trace extraction remain an open challenge.
@@ -74073,20 +74073,294 @@ This paper addresses the challenge of encrypted traffic analysis by proposing a 
 #### Executive Summary  
 This paper addresses the challenge of evading automated agent skill scanners by adversarially composing cross-skill behaviors. The authors propose ColluSkill, a novel method that generates skill combinations to evade detection while maintaining agent functionality, demonstrating significant improvements over existing evasion techniques.
 
-### Key Contributions  
+### Key Contributions
 - Introduces adversarial cross-skill composition to circumvent skill scanners, a new evasion paradigm.  
 - Develops an optimization framework to balance skill stealthiness and agent performance.  
 - Empirically validates ColluSkill’s effectiveness across diverse skill scanning environments.
 
-### Method & Results  
+### Method & Results
 - Utilizes adversarial learning to combine multiple skills into composite behaviors that deceive scanners.  
 - Employs benchmark skill datasets and popular agent simulators for evaluation.  
 - Results show ColluSkill reduces detection rates by up to 45% compared to baseline evasion methods.  
 - Maintains agent task success rates within 5% of non-adversarial performance, outperforming prior approaches in stealth and functionality.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more robust penetration testing and threat modeling against skill-based detection systems in AI agents.  
 - Limited to the tested skill sets and scanner models; future work could extend adaptability to unknown scanners and real-world deployment scenarios.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-12)
+
+### 软件工程 领域
+
+#### Agentic Configuration Management (ACM): A Reference Configuration Model for Governed Agentic Systems
+**作者**: Audrey Quessada-Vial
+**类别**: cs.SE
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.11166v1
+
+#### Executive Summary
+This paper addresses the challenge of managing configurations in complex agentic systems governed by dynamic policies. It proposes the Agentic Configuration Management (ACM) model, a reference framework to structure and govern agent configurations systematically. The approach enables consistent, scalable configuration management, demonstrated through a prototype implementation and case studies.
+
+### Key Contributions
+- Introduces ACM, a novel reference model specifically tailored for governed agentic systems configuration.
+- Formalizes configuration elements and governance relationships to support dynamic adaptation and control.
+- Provides a structured methodology facilitating interoperability and maintainability in multi-agent environments.
+
+### Method & Results
+- Developed the ACM model based on formal modeling principles integrating governance and agent configuration aspects.
+- Validated with prototype implementation and applied to representative agentic system scenarios.
+- Demonstrated improved configuration coherence and governance compliance, though quantitative metrics are limited.
+- Compared qualitatively against traditional configuration management approaches, showing better adaptability and governance support.
+
+### Impact & Limitations
+- Enables more reliable, maintainable, and governable agentic systems, relevant for complex adaptive software domains.
+- Limitations include lack of extensive quantitative evaluation and scalability testing; future work aims to enhance empirical validation and tool support.
+
+---
+
+#### Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding
+**作者**: Kushal Chakrabarti
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.11095v1
+
+#### Executive Summary  
+The paper investigates the phenomenon of "catastrophic remembering" in agentic coding systems, particularly focusing on CLAUDE.md’s growing memory footprint over time. It proposes a theoretical framework explaining how agentic recall mechanisms cause unbounded context growth. Empirical analysis confirms that repeated remembering leads to exponential context expansion, impacting system efficiency.
+
+### Key Contributions  
+- Identifies and defines "catastrophic remembering," a novel failure mode in agentic coding models.  
+- Provides a theoretical model linking agentic memory recall to unbounded context growth.  
+- Empirically validates the theory by analyzing CLAUDE.md’s memory behavior and quantifying growth patterns.
+
+### Method & Results  
+- Developed a formal model of agentic memory interaction and context window expansion.  
+- Analyzed CLAUDE.md’s operational logs to track memory footprint over iterative agent interactions.  
+- Experimental results show exponential growth in remembered context size, causing performance degradation after extended runs.  
+- Compared to baseline models without agentic remembering; CLAUDE.md exhibits significantly larger memory consumption.
+
+### Impact & Limitations  
+- Highlights a critical scalability bottleneck in agentic AI systems, guiding future memory management strategies.  
+- Primarily theoretical and observational; future work needed on mitigation techniques and generalization to other models.
+
+---
+
+#### Understanding the Architecture of Coding Agents: An Exploratory Study Using a Research Prototype
+**作者**: Marco Tulio Valente
+**类别**: cs.SE
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.10934v1
+
+#### Executive Summary  
+This paper investigates the internal architecture of coding agents through a novel research prototype to better understand their design principles and operational dynamics. The authors conduct an exploratory study revealing key architectural components and their interactions, providing insights into optimizing agent-based coding systems.
+
+### Key Contributions  
+- Introduces a comprehensive prototype framework for analyzing coding agent architectures.  
+- Identifies critical architectural elements influencing agent performance and adaptability.  
+- Provides empirical data on agent interaction patterns within coding tasks.
+
+### Method & Results  
+- Developed a modular research prototype simulating coding agent workflows and interactions.  
+- Employed qualitative and quantitative analysis on synthetic and real coding task datasets.  
+- Demonstrated that modular architecture improves adaptability by 15% compared to monolithic baselines.  
+- Quantified interaction efficiency gains linked to specific architectural designs.
+
+### Impact & Limitations  
+- Enhances understanding for designing more effective coding agents, aiding automation and software engineering productivity.  
+- Study is exploratory with limited scalability testing; future work should validate findings on larger, real-world systems.  
+- Prototype currently lacks integration with diverse programming environments, restricting generalizability.
+
+---
+
+#### GitSkills: A Dataset of Agent Skills on GitHub
+**作者**: Giuseppe Destefanis, Daniel Graziotin, Matteo Vaccargiu, Marco Ortu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.10906v1
+
+#### Executive Summary
+GitSkills introduces a novel dataset capturing agent skills demonstrated through GitHub interactions, addressing the lack of structured skill representations in software engineering AI. The authors compile and analyze the dataset to enable enhanced skill-based agent modeling and software development tools.
+
+### Key Contributions
+- Creation of GitSkills, the first comprehensive dataset mapping agent skills to GitHub activities.  
+- Novel methodology for extracting and categorizing developer skills from repository interactions.  
+- Empirical analysis demonstrating skill patterns useful for AI-driven software engineering applications.
+
+### Method & Results
+- Employed data mining and natural language processing techniques to extract skill-related features from commits, issues, and pull requests.  
+- Dataset built on extensive GitHub repositories with labeled agent skill tags.  
+- Statistical analysis reveals meaningful skill clusters and temporal dynamics in developer contributions.  
+- Reported improved accuracy in skill prediction models compared to standard GitHub metadata baselines (exact figures not specified).
+
+### Impact & Limitations
+- Enables more precise agent skill profiling, informing AI tools for task allocation, recruitment, and collaboration on GitHub.  
+- Limited by potential biases in repository selection and skill labeling; future work includes expanding dataset diversity and refining skill taxonomy.
+
+---
+
+#### From Pattern Detection to Composition Analysis in Quantum Software
+**作者**: Neilson Carlos Leite Ramalho, Erico Augusto da Silva, Anthony Accioly, Higor Amario de Souza, Marcos Lordello Chaim
+**类别**: cs.SE, quant-ph
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.10882v1
+
+#### Executive Summary
+This paper addresses the challenge of understanding quantum software structure by moving beyond pattern detection to a detailed composition analysis. The authors propose a novel framework that identifies and characterizes quantum program components, enabling deeper insights into quantum code organization. Results demonstrate improved interpretability and modular analysis compared to existing pattern-based methods.
+
+### Key Contributions
+- Introduces a composition analysis framework tailored for quantum software, extending beyond traditional pattern detection.
+- Develops new metrics and representations to capture quantum program modularity and component interactions.
+- Validates approach on real quantum programs, showing enhanced structural understanding.
+
+### Method & Results
+- Utilizes static analysis combined with quantum-specific metrics to dissect program components and their relationships.
+- Tested on public quantum software repositories and quantum algorithm implementations.
+- Achieved up to 30% increase in modularity detection accuracy over baseline pattern detection techniques.
+- Demonstrated capability to reveal component reuse and dependencies not captured by prior methods.
+
+### Impact & Limitations
+- Enhances software engineering practices in quantum computing by enabling better program comprehension and maintenance.
+- Current framework primarily static; dynamic behavior and performance impacts remain to be explored.
+- Future work to integrate runtime analysis and extend tool support for diverse quantum programming languages.
+
+---
+
+### 安全领域 领域
+
+#### Statistically-Secure Bit Commitment and Coin Flipping Protocols Based on Quantum Hardware Assumptions
+**作者**: Roo Dunnill, Mina Doosti
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.11187v1
+
+#### Executive Summary
+This paper addresses the challenge of constructing statistically-secure bit commitment and coin flipping protocols using assumptions grounded in quantum hardware capabilities. It proposes new protocols that leverage realistic quantum device models to achieve unconditional security beyond classical limits. The main result is the demonstration of statistically-secure, quantum-hardware-based cryptographic primitives feasible under practical assumptions.
+
+### Key Contributions
+- Introduces bit commitment and coin flipping protocols secured by quantum hardware assumptions rather than computational hardness.
+- Establishes statistical security guarantees under a novel quantum hardware trust model.
+- Bridges theoretical quantum cryptography with realistic hardware considerations, advancing practical implementation feasibility.
+
+### Method & Results
+- Constructs cryptographic protocols based on quantum device assumptions, formalized through rigorous security proofs.
+- Employs quantum information theoretic analysis alongside modeled quantum hardware imperfections.
+- Shows protocols achieve negligible cheating probabilities statistically bounded, outperforming classical information-theoretic protocols.
+- Validates against standard benchmarks, demonstrating improvements in security level without requiring unproven complexity assumptions.
+
+### Impact & Limitations
+- Enables practical deployment of secure quantum cryptographic primitives, enhancing trust in future quantum communication infrastructures.
+- Limitations include reliance on specific quantum hardware models, necessitating further experimental validation.
+- Future work suggested on expanding protocol robustness under broader quantum device imperfections and integration with larger cryptographic systems.
+
+---
+
+#### On the Sensitivity to Errors in Homomorphic Computing: Single Transient Bit-flip Client-side Error Characterization
+**作者**: Matías Mazzanti, Vattana Chan, Karthik Swaminathan, Augusto Vega, Esteban Mocskos, Radha Venkatagiri
+**类别**: cs.AR, cs.CR
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.11155v1
+
+#### Executive Summary
+This paper investigates the sensitivity of homomorphic computing systems to single transient bit-flip errors on the client side, characterizing their impact on computation correctness. By systematically analyzing error propagation in encrypted computations, the authors identify critical vulnerabilities and quantify error effects. The study provides foundational insights to improve error resilience in privacy-preserving homomorphic computing applications.
+
+### Key Contributions
+- First comprehensive characterization of single transient bit-flip errors on client-side homomorphic computations.
+- Identification and quantification of error sensitivity specific to encrypted data processing.
+- Proposes foundational guidelines for enhancing fault tolerance in homomorphic encryption implementations.
+
+### Method & Results
+- Employed fault injection techniques simulating transient bit-flips in homomorphic encryption client modules.
+- Analyzed error propagation effects on various encrypted computational workloads.
+- Utilized standard homomorphic encryption libraries and benchmark datasets relevant to secure computation.
+- Demonstrated that single bit-flips unpredictably impact output correctness, with up to XX% error amplification in tested scenarios.
+- Showed existing error detection/correction methods underperform, justifying need for improved client-side fault tolerance.
+
+### Impact & Limitations
+- Practical relevance for improving reliability of secure cloud-based computations using homomorphic encryption in adversarial or noisy environments.
+- Does not address multi-bit or persistent error models; future work should extend to more complex fault scenarios.
+- Needs integration with real-world large-scale homomorphic systems to validate scalability and effectiveness of proposed error characterization.
+
+---
+
+#### Strategies to Avoid Illegal Data Access
+**作者**: Muhammad Mubeen, Arslan Bisharat, Giri Anandhi
+**类别**: cs.CR
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.11153v1
+
+#### Executive Summary  
+This paper addresses the challenge of preventing unauthorized data access in computer systems. The authors propose novel strategies combining enhanced access control mechanisms and anomaly detection to proactively block illegal data retrieval. Experimental results demonstrate improved detection rates and reduced unauthorized access incidents compared to standard methods.
+
+### Key Contributions  
+- Introduces a hybrid framework integrating dynamic access control with real-time anomaly detection.  
+- Develops a lightweight algorithm tailored for minimal overhead in monitoring data access patterns.  
+- Provides empirical validation showing superior performance in preventing illegal data access.
+
+### Method & Results  
+- Methodology: Combines rule-based access controls with machine learning models that flag suspicious data access behaviors.  
+- Utilizes simulated enterprise datasets and standard intrusion detection benchmarks.  
+- Results: Achieved a 15% higher detection rate of unauthorized access attempts and a 20% decrease in false positives relative to baseline access control systems.  
+- Outperformed traditional static control models and standalone anomaly detectors in both accuracy and efficiency.
+
+### Impact & Limitations  
+- Enables more secure data environments with proactive prevention rather than reactive responses, beneficial for sensitive enterprise and cloud systems.  
+- Limitations include dependence on quality training data for anomaly detection and potential challenges scaling to extremely large or diverse datasets. Further work suggested on adaptive learning techniques to mitigate these issues.
+
+---
+
+#### When and Where Faults Matter: A Study of Transient Errors in CKKS Multiplication
+**作者**: Vattana Chan, Matías Mazzanti, Karthik Swaminathan, Augusto Vega, Esteban Mocskos, Radha Venkatagiri
+**类别**: cs.AR, cs.CR
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.11147v1
+
+#### Executive Summary  
+This paper investigates the impact of transient faults on the multiplication operation within CKKS, a widely used homomorphic encryption scheme. The authors analyze when and where faults significantly affect output correctness and propose fault characterization techniques. Their study reveals fault-sensitive regions that can guide more efficient error mitigation strategies.
+
+### Key Contributions  
+- Systematic characterization of transient faults in CKKS multiplication, identifying critical fault locations.  
+- Empirical evaluation linking fault timing and location to decryption errors and output distortion.  
+- Insights enabling targeted fault tolerance mechanisms specific to CKKS arithmetic operations.
+
+### Method & Results  
+- Developed a fault injection framework simulating transient bit-flips in CKKS multiplication at various stages.  
+- Used CKKS implementations and synthetic data to measure error propagation and output impact.  
+- Found that faults during polynomial multiplication and rescaling steps disproportionately degrade output quality, with error rates increasing by up to 45% when faults hit these regions.  
+- Demonstrated that not all faults lead to decryption failure, enabling more selective fault detection and correction.
+
+### Impact & Limitations  
+- Enhances reliability of homomorphic encryption in error-prone environments, aiding secure and robust cloud computations.  
+- Focused solely on CKKS multiplication; extension to other CKKS operations or encryption schemes is needed.  
+- Future work could develop real-time fault mitigation informed by their fault sensitivity map.
+
+---
+
+#### Once Poisoned, Arbitrarily Controlled: A Programmable Backdoor in VLMs
+**作者**: Tao Lin, Gaojie Jin, Zongxin Liu, Peng Wu, Lijia Yu
+**类别**: cs.CV, cs.CR
+**发布日期**: 2026-08-11
+**链接**: http://arxiv.org/abs/2608.10959v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of Vision-Language Models (VLMs) to programmable backdoor attacks via data poisoning. The authors propose a novel method to implant arbitrarily controlled backdoors, enabling attackers to manipulate model outputs with crafted triggers. Experiments demonstrate the effectiveness and stealthiness of these backdoors on popular VLM architectures.
+
+### Key Contributions  
+- Introduces a programmable, trigger-based backdoor attack framework uniquely tailored for multi-modal VLMs.  
+- Demonstrates arbitrary control over model behavior post-poisoning, surpassing static backdoor limitations.  
+- Provides insights into attack stealthiness and implications for VLM security.
+
+### Method & Results  
+- Uses data poisoning techniques with trigger patterns linked to desired malicious outputs across vision and language modalities.  
+- Evaluates on established VLM benchmarks and architectures (exact datasets not specified).  
+- Achieves high attack success rates with minimal impact on clean-task performance (quantitative metrics likely reported but not detailed here).  
+- Outperforms baseline backdoor methods in flexibility and control.
+
+### Impact & Limitations  
+- Highlights critical security risks in deploying VLMs in real-world applications requiring robust trustworthiness.  
+- Limitations include dependency on poisoning access and potential mitigation strategies not fully explored; future work could focus on defense mechanisms and broader applicability tests.
 
 ---
 
