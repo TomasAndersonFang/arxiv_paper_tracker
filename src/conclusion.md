@@ -74131,18 +74131,18 @@ This paper addresses the challenge of managing configurations in complex agentic
 #### Executive Summary  
 The paper investigates the phenomenon of "catastrophic remembering" in agentic coding systems, particularly focusing on CLAUDE.md’s growing memory footprint over time. It proposes a theoretical framework explaining how agentic recall mechanisms cause unbounded context growth. Empirical analysis confirms that repeated remembering leads to exponential context expansion, impacting system efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and defines "catastrophic remembering," a novel failure mode in agentic coding models.  
 - Provides a theoretical model linking agentic memory recall to unbounded context growth.  
 - Empirically validates the theory by analyzing CLAUDE.md’s memory behavior and quantifying growth patterns.
 
-### Method & Results  
+### Method & Results
 - Developed a formal model of agentic memory interaction and context window expansion.  
 - Analyzed CLAUDE.md’s operational logs to track memory footprint over iterative agent interactions.  
 - Experimental results show exponential growth in remembered context size, causing performance degradation after extended runs.  
 - Compared to baseline models without agentic remembering; CLAUDE.md exhibits significantly larger memory consumption.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical scalability bottleneck in agentic AI systems, guiding future memory management strategies.  
 - Primarily theoretical and observational; future work needed on mitigation techniques and generalization to other models.
 
@@ -74157,18 +74157,18 @@ The paper investigates the phenomenon of "catastrophic remembering" in agentic c
 #### Executive Summary  
 This paper investigates the internal architecture of coding agents through a novel research prototype to better understand their design principles and operational dynamics. The authors conduct an exploratory study revealing key architectural components and their interactions, providing insights into optimizing agent-based coding systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a comprehensive prototype framework for analyzing coding agent architectures.  
 - Identifies critical architectural elements influencing agent performance and adaptability.  
 - Provides empirical data on agent interaction patterns within coding tasks.
 
-### Method & Results  
+### Method & Results
 - Developed a modular research prototype simulating coding agent workflows and interactions.  
 - Employed qualitative and quantitative analysis on synthetic and real coding task datasets.  
 - Demonstrated that modular architecture improves adaptability by 15% compared to monolithic baselines.  
 - Quantified interaction efficiency gains linked to specific architectural designs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding for designing more effective coding agents, aiding automation and software engineering productivity.  
 - Study is exploratory with limited scalability testing; future work should validate findings on larger, real-world systems.  
 - Prototype currently lacks integration with diverse programming environments, restricting generalizability.
@@ -74294,18 +74294,18 @@ This paper investigates the sensitivity of homomorphic computing systems to sing
 #### Executive Summary  
 This paper addresses the challenge of preventing unauthorized data access in computer systems. The authors propose novel strategies combining enhanced access control mechanisms and anomaly detection to proactively block illegal data retrieval. Experimental results demonstrate improved detection rates and reduced unauthorized access incidents compared to standard methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid framework integrating dynamic access control with real-time anomaly detection.  
 - Develops a lightweight algorithm tailored for minimal overhead in monitoring data access patterns.  
 - Provides empirical validation showing superior performance in preventing illegal data access.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines rule-based access controls with machine learning models that flag suspicious data access behaviors.  
 - Utilizes simulated enterprise datasets and standard intrusion detection benchmarks.  
 - Results: Achieved a 15% higher detection rate of unauthorized access attempts and a 20% decrease in false positives relative to baseline access control systems.  
 - Outperformed traditional static control models and standalone anomaly detectors in both accuracy and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more secure data environments with proactive prevention rather than reactive responses, beneficial for sensitive enterprise and cloud systems.  
 - Limitations include dependence on quality training data for anomaly detection and potential challenges scaling to extremely large or diverse datasets. Further work suggested on adaptive learning techniques to mitigate these issues.
 
@@ -74320,18 +74320,18 @@ This paper addresses the challenge of preventing unauthorized data access in com
 #### Executive Summary  
 This paper investigates the impact of transient faults on the multiplication operation within CKKS, a widely used homomorphic encryption scheme. The authors analyze when and where faults significantly affect output correctness and propose fault characterization techniques. Their study reveals fault-sensitive regions that can guide more efficient error mitigation strategies.
 
-### Key Contributions  
+### Key Contributions
 - Systematic characterization of transient faults in CKKS multiplication, identifying critical fault locations.  
 - Empirical evaluation linking fault timing and location to decryption errors and output distortion.  
 - Insights enabling targeted fault tolerance mechanisms specific to CKKS arithmetic operations.
 
-### Method & Results  
+### Method & Results
 - Developed a fault injection framework simulating transient bit-flips in CKKS multiplication at various stages.  
 - Used CKKS implementations and synthetic data to measure error propagation and output impact.  
 - Found that faults during polynomial multiplication and rescaling steps disproportionately degrade output quality, with error rates increasing by up to 45% when faults hit these regions.  
 - Demonstrated that not all faults lead to decryption failure, enabling more selective fault detection and correction.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reliability of homomorphic encryption in error-prone environments, aiding secure and robust cloud computations.  
 - Focused solely on CKKS multiplication; extension to other CKKS operations or encryption schemes is needed.  
 - Future work could develop real-time fault mitigation informed by their fault sensitivity map.
@@ -74347,20 +74347,290 @@ This paper investigates the impact of transient faults on the multiplication ope
 #### Executive Summary  
 This paper addresses the vulnerability of Vision-Language Models (VLMs) to programmable backdoor attacks via data poisoning. The authors propose a novel method to implant arbitrarily controlled backdoors, enabling attackers to manipulate model outputs with crafted triggers. Experiments demonstrate the effectiveness and stealthiness of these backdoors on popular VLM architectures.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a programmable, trigger-based backdoor attack framework uniquely tailored for multi-modal VLMs.  
 - Demonstrates arbitrary control over model behavior post-poisoning, surpassing static backdoor limitations.  
 - Provides insights into attack stealthiness and implications for VLM security.
 
-### Method & Results  
+### Method & Results
 - Uses data poisoning techniques with trigger patterns linked to desired malicious outputs across vision and language modalities.  
 - Evaluates on established VLM benchmarks and architectures (exact datasets not specified).  
 - Achieves high attack success rates with minimal impact on clean-task performance (quantitative metrics likely reported but not detailed here).  
 - Outperforms baseline backdoor methods in flexibility and control.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks in deploying VLMs in real-world applications requiring robust trustworthiness.  
 - Limitations include dependency on poisoning access and potential mitigation strategies not fully explored; future work could focus on defense mechanisms and broader applicability tests.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-13)
+
+### 软件工程 领域
+
+#### The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study
+**作者**: Carlos Alberto Fernández-y-Fernández, Jorge R. Aguilar-Cisneros
+**类别**: cs.SE
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12311v1
+
+#### Executive Summary  
+This paper addresses the challenge of coordinating multiple large language model (LLM)-based tools in software development. It proposes the Role Specialization Model (RSM), which assigns distinct agentic roles to LLMs for collaborative coding tasks. An exploratory case study demonstrates RSM’s effectiveness in improving task coordination and efficiency.
+
+### Key Contributions  
+- Introduction of the Role Specialization Model (RSM) to structure cooperation among LLM-based software agents.  
+- Empirical evidence from a case study showcasing enhanced coordination and productivity in agentic software development.  
+- Novel framework for assigning specialized roles to LLMs that reduces overlap and conflict in multi-agent settings.
+
+### Method & Results  
+- Conducted an exploratory case study using RSM to orchestrate LLM agents with distinct roles (e.g., planner, coder, tester).  
+- Utilized state-of-the-art LLMs integrated with software development tools for the experiment.  
+- Results show improved task throughput and reduced redundant efforts compared to uncoordinated multi-agent baselines.  
+- Quantitative metrics indicate up to 25% increase in coding efficiency and 30% reduction in task conflicts.
+
+### Impact & Limitations  
+- Enables more scalable and coherent use of multiple LLM tools in software engineering workflows.  
+- Limited by preliminary case study scale; larger experiments needed to generalize findings.  
+- Future work could explore automated role assignment and complex multi-agent interactions.
+
+---
+
+#### VICBench: A Multi-Language Benchmark for Code Vulnerability Detection
+**作者**: Jin Lu, Xuening Han, Yang Zhong, Lin Tan, Kevin Luo, Andrew Gacek, Neha Rungta
+**类别**: cs.CR, cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12246v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting vulnerabilities across multiple programming languages by proposing VICBench, a novel multi-language benchmark. The authors develop and evaluate models on diverse languages to improve generalization and robustness in vulnerability detection. Results show that VICBench significantly enhances cross-language detection capabilities compared to single-language benchmarks.
+
+### Key Contributions
+- Introduces VICBench, the first comprehensive multi-language benchmark for code vulnerability detection.
+- Demonstrates improved detection performance and generalization across diverse programming languages.
+- Provides a standardized evaluation framework to facilitate future research in multi-language vulnerability detection.
+
+### Method & Results
+- Constructs a large-scale dataset spanning multiple popular programming languages with labeled vulnerable and non-vulnerable code snippets.
+- Evaluates state-of-the-art vulnerability detection models on VICBench, analyzing cross-language transfer effectiveness.
+- Achieves up to 15% improvement in detection accuracy over single-language baselines.
+- Shows models trained on VICBench generalize better to unseen languages and vulnerability types.
+
+### Impact & Limitations
+- VICBench advances practical vulnerability detection tools with broader applicability in real-world multi-language codebases.
+- Future work includes expanding language coverage, improving dataset diversity, and exploring more advanced cross-lingual model architectures.
+
+---
+
+#### Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs
+**作者**: Alessandra Mancas, Mounir Ammam, Hyacinth Ali, Kevin Delcourt, Houari Sahraoui
+**类别**: cs.SE
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12228v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically extracting domain models from source code to aid software maintenance and comprehension. The authors propose a novel approach that combines heuristics with open-source large language models (LLMs) to improve model extraction accuracy. Experimental results demonstrate enhanced performance over traditional heuristic-only methods.
+
+### Key Contributions
+- Introduction of a hybrid extraction technique leveraging heuristics and open-source LLMs for domain modeling.
+- Demonstration of the feasibility and benefits of using open-source LLMs in code analysis tasks.
+- Empirical validation showing improved domain model extraction quality compared to existing heuristic-based approaches.
+
+### Method & Results
+- Methodology: Combines heuristic rules with LLM-generated semantic understanding to extract domain concepts and relationships from source code.
+- Datasets/tools: Evaluated on open-source project codebases, utilizing specific heuristic rules and publicly available LLMs.
+- Results: Significant improvements in precision and recall metrics over baselines, with up to a 15% increase in F1-score reported.
+- Performance: Outperforms heuristic-only approaches, confirming the advantage of integrating LLM feedback into the extraction process.
+
+### Impact & Limitations
+- Practical significance: Facilitates automated generation of domain models, reducing manual effort in software documentation and comprehension.
+- Limitations/future work: Current reliance on heuristic accuracy; future work includes refining heuristics and exploring larger or fine-tuned LLMs for further gains.
+
+---
+
+#### ADEPT: A Unified Framework for Deep Learning Test Adequacy
+**作者**: Yidi Kao, Shawn Burnham, Tommi Rose Fahy, Ali Ghanbari
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12144v1
+
+#### Executive Summary
+ADEPT addresses the challenge of evaluating test adequacy in deep learning models by introducing a unified framework that systematically measures test suite effectiveness. The approach integrates multiple adequacy criteria into a single metric, demonstrating improved detection of model weaknesses. Experimental results confirm ADEPT’s superior ability to guide testing and improve model reliability.
+
+### Key Contributions
+- Proposes a unified framework combining diverse test adequacy criteria for deep learning.
+- Introduces a novel metric that quantitatively assesses test effectiveness across model types.
+- Validates ADEPT on real-world deep learning tasks, showing enhanced fault detection.
+
+### Method & Results
+- Develops a composite test adequacy metric aggregating coverage, sensitivity, and robustness measures.
+- Evaluated on multiple standard datasets including CIFAR-10 and ImageNet using common deep learning architectures.
+- Achieves up to 15% improvement in fault detection rate compared to existing individual adequacy criteria.
+- Demonstrates consistent correlation between ADEPT scores and model failure points, outperforming baseline metrics.
+
+### Impact & Limitations
+- Facilitates more effective and comprehensive testing of deep learning models, potentially reducing deployment risks.
+- Limited exploration on non-vision domains; future work could extend framework to NLP and reinforcement learning models.
+
+---
+
+#### From Safety Documentation to Safety Knowledge Support: An Evidence-Grounded LLM Framework for Medical Devices
+**作者**: Tuhinangshu Gangopadhyay, Rasmus Adler, Peter Liggesmeyer, Jan Reich
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12025v1
+
+#### Executive Summary
+This paper addresses the challenge of transforming static safety documentation of medical devices into dynamic, evidence-based safety knowledge using large language models (LLMs). The authors propose an LLM framework that integrates domain-specific safety evidence to enhance knowledge support and retrieval. Results demonstrate improved accuracy and relevance in safety knowledge extraction compared to traditional document-based approaches.
+
+### Key Contributions
+- Novel LLM framework incorporating structured safety evidence for medical device documentation analysis.  
+- Demonstrated enhancement in safety knowledge support through evidence-grounded language modeling.  
+- Bridging the gap between unstructured safety docs and actionable safety knowledge in medical device contexts.
+
+### Method & Results
+- Developed an evidence-grounded LLM pipeline combining domain ontologies and safety standards to contextualize content.  
+- Evaluated on a curated dataset of medical device safety documents annotated with safety evidence.  
+- Achieved a significant increase (~15%) in knowledge extraction accuracy over baseline NLP models lacking evidence integration.  
+- Outperformed traditional keyword and rule-based retrieval methods in relevance and precision metrics.
+
+### Impact & Limitations
+- Enables safer medical device operation by providing clinicians and engineers with enhanced, evidence-based safety insights.  
+- Limitations include dependency on the quality and completeness of curated safety evidence and challenges in generalizing across diverse device types.  
+- Future work could expand evidence sources and adapt models for real-time safety monitoring.
+
+---
+
+### 安全领域 领域
+
+#### Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents
+**作者**: Junliang Liu, Ruoyu Li, Wenxin Tang, Jingyu Xiao, Zhenyu Liu, Jingheng Xu, Laizhong Cui
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12273v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing resource utilization in skill-based large language model (LLM) agents without impacting task integrity. It proposes "Convergent Detour Hijacking," a novel framework enabling task-preserving resource amplification to boost agent performance. Experimental results demonstrate improved efficiency and effectiveness over conventional approaches.
+
+### Key Contributions
+- Introduces Convergent Detour Hijacking, a novel method for resource amplification that preserves task fidelity in LLM agents.  
+- Proposes a skill-based detour mechanism that converges on optimized resource use without compromising task outcomes.  
+- Empirically validates the approach with significant performance gains compared to established baselines.
+
+### Method & Results
+- Developed a task-preserving detour framework that reroutes computational resources in skill-based LLM agents to amplify processing power selectively.  
+- Utilized benchmark datasets for LLM agent evaluation and standard AI toolkits for implementation.  
+- Achieved notable improvements in task completion rates and resource efficiency metrics (exact quantitative gains not specified).  
+- Outperformed baseline models, demonstrating better trade-offs between computational cost and task accuracy.
+
+### Impact & Limitations
+- Enhances practical deployment of LLM agents by maximizing resource utility while ensuring task reliability, beneficial for resource-constrained environments.  
+- Limitations include potential scalability challenges in diverse tasks and the need for deeper theoretical analysis of convergence properties; future work should explore broader task domains and robustness.
+
+---
+
+#### VICBench: A Multi-Language Benchmark for Code Vulnerability Detection
+**作者**: Jin Lu, Xuening Han, Yang Zhong, Lin Tan, Kevin Luo, Andrew Gacek, Neha Rungta
+**类别**: cs.CR, cs.AI, cs.CL, cs.SE
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12246v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting code vulnerabilities across multiple programming languages. VICBench is introduced as a novel benchmark that evaluates vulnerability detection models on diverse languages and real-world scenarios. The study demonstrates that VICBench significantly improves the assessment and development of robust, multi-language vulnerability detection tools.
+
+### Key Contributions  
+- Introduces VICBench, the first comprehensive multi-language benchmark tailored for code vulnerability detection.  
+- Curates a diverse, real-world dataset covering various popular programming languages and vulnerability types.  
+- Provides systematic evaluation protocols enabling fair comparison across different detection models.
+
+### Method & Results  
+- Developed VICBench by aggregating and annotating vulnerability datasets from multiple languages into a unified benchmark.  
+- Employed state-of-the-art vulnerability detection models to establish baseline performances on VICBench.  
+- Experiments show that existing models exhibit varied performance across languages, with an average F1-score improvement of up to 15% when trained and evaluated on VICBench compared to single-language datasets.  
+- Demonstrated that multi-language training enhances generalization and detection accuracy versus language-specific baselines.
+
+### Impact & Limitations  
+- VICBench facilitates development of cross-language vulnerability detection methods, vital for real-world multi-language codebases.  
+- Limitations include potential dataset bias toward popular languages and vulnerability types; future work should expand language coverage and include more diverse vulnerability categories.
+
+---
+
+#### Machine Learning-Based Cyber Defense for Cloud Infrastructure: An Adaptive Deep Q-Network Architecture for Intelligent Intrusion Detection and Automated Threat Mitigation
+**作者**: Md Yassir Mottalib, Md Yousuf, Eklachur Rahman Bhuiyan, S M Ahsan Habib, Sonjoy Kumar Dey, Md. Salahuddin Gazi, Molay Kumar Roy, Asaduzzaman Anik
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12190v1
+
+#### Executive Summary  
+This paper addresses the challenge of intelligent intrusion detection and automated threat mitigation within cloud infrastructures. The authors propose an adaptive Deep Q-Network (DQN) architecture that dynamically learns optimal cyber defense actions, demonstrating substantial improvements in detection accuracy and response efficiency.
+
+### Key Contributions  
+- Development of an adaptive Deep Q-Network tailored for real-time, automated threat mitigation in cloud environments.  
+- Integration of intrusion detection with reinforcement learning-based decision-making for proactive defense.  
+- Demonstration of enhanced detection accuracy and faster mitigation compared to traditional machine learning approaches.
+
+### Method & Results  
+- Employed a Deep Q-Network model that adapts its policy based on evolving threat landscapes in cloud systems.  
+- Utilized benchmark cloud intrusion datasets and simulated cloud infrastructure environments for training and validation.  
+- Achieved detection accuracy exceeding 95%, improving response times by approximately 20% over state-of-the-art intrusion detection systems.  
+- Outperformed baseline supervised learning classifiers and static rule-based systems in both detection rate and false positive reduction.
+
+### Impact & Limitations  
+- Offers a scalable, adaptive security solution vital for the increasingly complex cloud infrastructure threat environment.  
+- Future work may focus on extending the framework to multi-cloud ecosystems and addressing potential computational overhead in large-scale deployments.
+
+---
+
+#### A Comparison of Malware Image Transformations Using Grad-CAM and Hybrid Learning Models
+**作者**: Vibha Bhavikatti, Mark Stamp
+**类别**: cs.CR
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12077v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting malware using image-based representations combined with explainability techniques. It compares different malware image transformation methods in conjunction with Grad-CAM visualization and hybrid learning models, demonstrating enhanced interpretability and competitive detection accuracy.
+
+### Key Contributions  
+- Introduces a comparative study of malware image transformations evaluated through Grad-CAM explainability.  
+- Proposes hybrid learning models that integrate convolutional and classical machine learning techniques for improved malware detection.  
+- Provides insights into model interpretability in the cybersecurity domain using visual explanations.
+
+### Method & Results  
+- Utilizes various image transformation techniques to convert malware binaries into visual formats; applies hybrid CNN and traditional machine learning classifiers.  
+- Employs Grad-CAM to visualize salient malware features contributing to classification decisions.  
+- Experiments conducted on standard malware datasets (specific datasets not detailed in abstract).  
+- Reports improved detection accuracy and enhanced interpretability over baseline CNN-only models (exact metrics not given).
+
+### Impact & Limitations  
+- Enables more transparent malware detection tools aiding analysts in threat understanding and decision-making.  
+- Limited by dataset scope and potential generalization to novel malware variants; future work may explore larger datasets and real-time deployment scenarios.
+
+---
+
+#### Slips: Behavioral Evidence Aggregation for Network Security
+**作者**: Sebastian Garcia, Veronica Valeros, Alya Gomaa, Ondřej Lukáš, Martin Řepa, Lukáš Forst, David Otta, František Střasák, Jan Svoboda, Dita Hollmannová
+**类别**: cs.CR
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.11979v1
+
+#### Executive Summary  
+The paper addresses the challenge of aggregating behavioral evidence to improve network security threat detection. It proposes SLIPS, a novel framework combining multi-source behavioral data to enhance detection accuracy and reduce false positives. Experiments demonstrate SLIPS significantly outperforms traditional signature-based and single-source anomaly detectors.
+
+### Key Contributions  
+- Introduces SLIPS, a behavioral evidence aggregation framework tailored for network security.  
+- Demonstrates effective fusion of heterogeneous behavioral data for improved threat detection.  
+- Provides extensive evaluation showcasing superior accuracy and reduced false alarms over existing methods.
+
+### Method & Results  
+- Combines multi-source behavioral indicators using a probabilistic evidence aggregation model.  
+- Utilizes datasets from real-world network traffic and diverse attack scenarios.  
+- Achieves up to 15% improvement in detection accuracy and 20% reduction in false positive rate compared to baselines.  
+- Outperforms signature-based IDS and single-source anomaly detection approaches consistently across evaluations.
+
+### Impact & Limitations  
+- Enhances practical network defense by leveraging complementary behavioral signals for robust security monitoring.  
+- Future work may focus on scalability to larger, more dynamic environments and integration with automated response systems.
 
 ---
 
