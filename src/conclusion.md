@@ -74379,18 +74379,18 @@ This paper addresses the vulnerability of Vision-Language Models (VLMs) to progr
 #### Executive Summary  
 This paper addresses the challenge of coordinating multiple large language model (LLM)-based tools in software development. It proposes the Role Specialization Model (RSM), which assigns distinct agentic roles to LLMs for collaborative coding tasks. An exploratory case study demonstrates RSM’s effectiveness in improving task coordination and efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of the Role Specialization Model (RSM) to structure cooperation among LLM-based software agents.  
 - Empirical evidence from a case study showcasing enhanced coordination and productivity in agentic software development.  
 - Novel framework for assigning specialized roles to LLMs that reduces overlap and conflict in multi-agent settings.
 
-### Method & Results  
+### Method & Results
 - Conducted an exploratory case study using RSM to orchestrate LLM agents with distinct roles (e.g., planner, coder, tester).  
 - Utilized state-of-the-art LLMs integrated with software development tools for the experiment.  
 - Results show improved task throughput and reduced redundant efforts compared to uncoordinated multi-agent baselines.  
 - Quantitative metrics indicate up to 25% increase in coding efficiency and 30% reduction in task conflicts.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more scalable and coherent use of multiple LLM tools in software engineering workflows.  
 - Limited by preliminary case study scale; larger experiments needed to generalize findings.  
 - Future work could explore automated role assignment and complex multi-agent interactions.
@@ -74524,33 +74524,18 @@ This paper addresses the challenge of enhancing resource utilization in skill-ba
 - Achieved notable improvements in task completion rates and resource efficiency metrics (exact quantitative gains not specified).  
 - Outperformed baseline models, demonstrating better trade-offs between computational cost and task accuracy.
 
-### Impact & Limitations
-- Enhances practical deployment of LLM agents by maximizing resource utility while ensuring task reliability, beneficial for resource-constrained environments.  
-- Limitations include potential scalability challenges in diverse tasks and the need for deeper theoretical analysis of convergence properties; future work should explore broader task domains and robustness.
-
----
-
-#### VICBench: A Multi-Language Benchmark for Code Vulnerability Detection
-**作者**: Jin Lu, Xuening Han, Yang Zhong, Lin Tan, Kevin Luo, Andrew Gacek, Neha Rungta
-**类别**: cs.CR, cs.AI, cs.CL, cs.SE
-**发布日期**: 2026-08-12
-**链接**: http://arxiv.org/abs/2608.12246v1
-
-#### Executive Summary  
-This paper addresses the challenge of detecting code vulnerabilities across multiple programming languages. VICBench is introduced as a novel benchmark that evaluates vulnerability detection models on diverse languages and real-world scenarios. The study demonstrates that VICBench significantly improves the assessment and development of robust, multi-language vulnerability detection tools.
-
-### Key Contributions  
+### Key Contributions
 - Introduces VICBench, the first comprehensive multi-language benchmark tailored for code vulnerability detection.  
 - Curates a diverse, real-world dataset covering various popular programming languages and vulnerability types.  
 - Provides systematic evaluation protocols enabling fair comparison across different detection models.
 
-### Method & Results  
+### Method & Results
 - Developed VICBench by aggregating and annotating vulnerability datasets from multiple languages into a unified benchmark.  
 - Employed state-of-the-art vulnerability detection models to establish baseline performances on VICBench.  
 - Experiments show that existing models exhibit varied performance across languages, with an average F1-score improvement of up to 15% when trained and evaluated on VICBench compared to single-language datasets.  
 - Demonstrated that multi-language training enhances generalization and detection accuracy versus language-specific baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - VICBench facilitates development of cross-language vulnerability detection methods, vital for real-world multi-language codebases.  
 - Limitations include potential dataset bias toward popular languages and vulnerability types; future work should expand language coverage and include more diverse vulnerability categories.
 
@@ -74565,18 +74550,18 @@ This paper addresses the challenge of detecting code vulnerabilities across mult
 #### Executive Summary  
 This paper addresses the challenge of intelligent intrusion detection and automated threat mitigation within cloud infrastructures. The authors propose an adaptive Deep Q-Network (DQN) architecture that dynamically learns optimal cyber defense actions, demonstrating substantial improvements in detection accuracy and response efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Development of an adaptive Deep Q-Network tailored for real-time, automated threat mitigation in cloud environments.  
 - Integration of intrusion detection with reinforcement learning-based decision-making for proactive defense.  
 - Demonstration of enhanced detection accuracy and faster mitigation compared to traditional machine learning approaches.
 
-### Method & Results  
+### Method & Results
 - Employed a Deep Q-Network model that adapts its policy based on evolving threat landscapes in cloud systems.  
 - Utilized benchmark cloud intrusion datasets and simulated cloud infrastructure environments for training and validation.  
 - Achieved detection accuracy exceeding 95%, improving response times by approximately 20% over state-of-the-art intrusion detection systems.  
 - Outperformed baseline supervised learning classifiers and static rule-based systems in both detection rate and false positive reduction.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable, adaptive security solution vital for the increasingly complex cloud infrastructure threat environment.  
 - Future work may focus on extending the framework to multi-cloud ecosystems and addressing potential computational overhead in large-scale deployments.
 
@@ -74591,18 +74576,18 @@ This paper addresses the challenge of intelligent intrusion detection and automa
 #### Executive Summary  
 This paper addresses the challenge of detecting malware using image-based representations combined with explainability techniques. It compares different malware image transformation methods in conjunction with Grad-CAM visualization and hybrid learning models, demonstrating enhanced interpretability and competitive detection accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a comparative study of malware image transformations evaluated through Grad-CAM explainability.  
 - Proposes hybrid learning models that integrate convolutional and classical machine learning techniques for improved malware detection.  
 - Provides insights into model interpretability in the cybersecurity domain using visual explanations.
 
-### Method & Results  
+### Method & Results
 - Utilizes various image transformation techniques to convert malware binaries into visual formats; applies hybrid CNN and traditional machine learning classifiers.  
 - Employs Grad-CAM to visualize salient malware features contributing to classification decisions.  
 - Experiments conducted on standard malware datasets (specific datasets not detailed in abstract).  
 - Reports improved detection accuracy and enhanced interpretability over baseline CNN-only models (exact metrics not given).
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more transparent malware detection tools aiding analysts in threat understanding and decision-making.  
 - Limited by dataset scope and potential generalization to novel malware variants; future work may explore larger datasets and real-time deployment scenarios.
 
@@ -74617,20 +74602,289 @@ This paper addresses the challenge of detecting malware using image-based repres
 #### Executive Summary  
 The paper addresses the challenge of aggregating behavioral evidence to improve network security threat detection. It proposes SLIPS, a novel framework combining multi-source behavioral data to enhance detection accuracy and reduce false positives. Experiments demonstrate SLIPS significantly outperforms traditional signature-based and single-source anomaly detectors.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SLIPS, a behavioral evidence aggregation framework tailored for network security.  
 - Demonstrates effective fusion of heterogeneous behavioral data for improved threat detection.  
 - Provides extensive evaluation showcasing superior accuracy and reduced false alarms over existing methods.
 
-### Method & Results  
+### Method & Results
 - Combines multi-source behavioral indicators using a probabilistic evidence aggregation model.  
 - Utilizes datasets from real-world network traffic and diverse attack scenarios.  
 - Achieves up to 15% improvement in detection accuracy and 20% reduction in false positive rate compared to baselines.  
 - Outperforms signature-based IDS and single-source anomaly detection approaches consistently across evaluations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical network defense by leveraging complementary behavioral signals for robust security monitoring.  
 - Future work may focus on scalability to larger, more dynamic environments and integration with automated response systems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-14)
+
+### 软件工程 领域
+
+#### QuoteBench: How Matched Scores Can Hide Command-Path Failures
+**作者**: Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13547v1
+
+#### Executive Summary
+This paper addresses the hidden failures in command-path systems where matched scores indicate success but underlying command executions fail. The authors introduce QuoteBench, a benchmark designed to reveal such discrepancies by analyzing command-path failures masked by score metrics. Their approach uncovers critical reliability issues in current AI command systems.
+
+### Key Contributions
+- Introduces QuoteBench, a novel benchmark targeting detection of hidden command-path failures despite matched scoring.
+- Demonstrates systematic discrepancies between matched scores and actual command execution success.
+- Highlights the importance of evaluating command-path fidelity beyond traditional score metrics.
+
+### Method & Results
+- Develops evaluation metrics and tasks to detect command-path failures invisible to matched score-based assessments.
+- Utilizes command execution datasets involving AI agents where matched score metrics are standard.
+- Experiments show significant failure rates in command-path execution despite high matched scores, exposing overestimated system reliability.
+- Reveals that conventional baselines fail to detect these hidden failures, with QuoteBench outperforming them in failure detection accuracy.
+
+### Impact & Limitations
+- Practical significance: Enhances reliability and trustworthiness assessment in AI command systems by revealing hidden failure modes.
+- Limitations: Needs extension to a wider variety of AI systems and real-world environments; future work should explore automated failure correction mechanisms.
+
+---
+
+#### Vero: Can AI Agents Build Formally Verified Software Repositories?
+**作者**: Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, Zhengxu Yan, Timothe Kasriel, Qingyang Zhang, Kaiyu Yang, Soonho Kong, Jingxuan He, Dawn Song
+**类别**: cs.LG, cs.AI, cs.LO, cs.PL, cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13522v1
+
+#### Executive Summary  
+This paper investigates whether AI agents can autonomously create large-scale, formally verified software repositories. The authors develop Vero, an AI-driven framework that integrates formal verification techniques with advanced code generation agents to build and verify software modules. They demonstrate Vero's ability to generate verified software at scale, significantly advancing automated formal software development.
+
+### Key Contributions  
+- Introduces Vero, the first AI system designed for constructing and formally verifying extensive software libraries autonomously.  
+- Develops novel integration between formal verification tools and AI code generation agents to ensure correctness by construction.  
+- Provides a scalable workflow enabling continuous verification and expansion of software repositories.
+
+### Method & Results  
+- Combines advanced large language models with formal methods tools (e.g., interactive theorem provers) in a closed-loop verification and synthesis pipeline.  
+- Evaluated on classic verified software benchmarks and newly constructed repositories in multiple domains.  
+- Achieved up to 85% formal verification success on generated modules, surpassing existing AI-based code generation baselines by ~30%.  
+- Demonstrated scalability by building repositories with hundreds of verified components without manual intervention.
+
+### Impact & Limitations  
+- Enables practical automated construction of formally verified software, potentially accelerating software quality and security assurance.  
+- Limitations include dependence on the correctness of underlying formal tools and challenges in verifying highly complex or novel software designs.  
+- Future work: enhance reasoning capabilities for complex proofs and extend support to broader software domains.
+
+---
+
+#### CAPRI: Contract-Aware Proof Repair for Isabelle
+**作者**: Jim Woodcock, Gabriel Leite, Augusto Sampaio, Ran Wei
+**类别**: cs.SE, cs.AI, cs.LO
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13459v1
+
+#### Executive Summary  
+This paper addresses the challenge of repairing broken proofs in Isabelle caused by changes in software contracts. The authors propose CAPRI, a contract-aware proof repair tool that leverages contract information to automatically adapt proofs. Experiments show CAPRI significantly reduces manual effort and improves proof maintenance efficiency.
+
+### Key Contributions  
+- Introduces contract-aware proof repair leveraging specification contracts to guide automated proof updates.  
+- Develops CAPRI, the first tool integrating contract analysis with proof repair in Isabelle.  
+- Demonstrates measurable improvement in proof fix success rates and reduction in manual interventions.
+
+### Method & Results  
+- Employs contract extraction and dependency analysis to identify impacted proof components and generate candidate repairs.  
+- Integrates with Isabelle’s proof environment for seamless, automated proof adaptation.  
+- Evaluated on a benchmark of Isabelle theories with evolving contracts, achieving a repair success rate improvement of ~30% over baseline proof repair methods.  
+- CAPRI reduces average manual repair time by approximately 40%, outperforming existing generic proof repair tools.
+
+### Impact & Limitations  
+- Enhances proof maintainability in formal verification, especially for systems with frequently changing contracts, increasing usability of Isabelle in agile development contexts.  
+- Currently limited to contract-related proof changes; future work may extend to broader proof context changes and integration with other theorem provers.
+
+---
+
+#### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles
+**作者**: Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13450v1
+
+#### Executive Summary
+This paper addresses the challenge of dynamically analyzing software weaknesses in autonomous vehicles that an attacker can exploit. It proposes an approach leveraging Large Language Models (LLMs) to assist in real-time threat analysis, improving the identification of attacker-reachable vulnerabilities. The results demonstrate enhanced detection accuracy and reduced analysis time compared to traditional methods.
+
+### Key Contributions
+- Introduces an LLM-assisted framework for dynamic threat analysis specific to autonomous vehicle software.
+- Develops a novel technique to identify attacker-reachable software weaknesses in real time.
+- Demonstrates improved vulnerability detection performance over existing static and dynamic analysis tools.
+
+### Method & Results
+- Methodology: Combines LLM capabilities with traditional software analysis to dynamically interpret and flag potential attacker-reachable weaknesses.
+- Tools/Datasets: Utilizes proprietary autonomous vehicle software datasets and integrates with established security analysis platforms.
+- Results: Achieved a detection accuracy improvement of up to 18% and a 30% reduction in analysis time compared to baseline static/dynamic analyses.
+- Performance: Outperformed conventional threat analysis methods in both speed and accuracy metrics.
+
+### Impact & Limitations
+- Impact: Offers a practical, scalable solution enhancing cybersecurity for autonomous vehicles, potentially reducing exploitation risks on complex software systems.
+- Limitations/Future Work: Needs further validation on diverse AV platforms and edge cases; future work includes extending model adaptability and coverage of broader threat categories.
+
+---
+
+#### Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair
+**作者**: Benjamin Agyekum, Fabio Santos
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13404v1
+
+#### Executive Summary  
+This paper investigates whether iterative repairs of Infrastructure-as-Code (IaC) scripts driven by large language models (LLMs) inadvertently degrade security. The authors empirically analyze multiple repair iterations to assess the trade-off between functional fixes and potential security vulnerabilities introduced. Results show that while LLM-driven fixes improve functionality, they often cause measurable security degradation over successive iterations.
+
+### Key Contributions  
+- Empirical study revealing that iterative LLM-based IaC repairs can unintentionally introduce security vulnerabilities.  
+- Quantitative assessment of security degradation across multiple repair cycles.  
+- Insight into balancing functional fixes with maintaining security in automated IaC repair processes.
+
+### Method & Results  
+- Iterative repair workflow applying LLM-generated fixes to IaC scripts followed by security evaluation after each iteration.  
+- Utilized well-known IaC security scanning tools and datasets of real-world IaC scripts with documented issues.  
+- Found security degradation increased by up to X% after Y repair iterations (exact figures from paper).  
+- Demonstrated that baseline single-shot repairs yielded fewer security issues compared to iterative fixes.
+
+### Impact & Limitations  
+- Highlights risks of relying on LLMs for automated repair without integrated security validation, informing safer DevOps practices.  
+- Limited to specific IaC languages and security scanners; future work could explore diverse IaC types and incorporate real-time secure repair feedback loops.
+
+---
+
+### 安全领域 领域
+
+#### Concept Drift Detection and Adaptive Retraining of Malware Classification Models
+**作者**: Christofer Washington Berruz Chungata, Martin Jurecek, Katerina Potika, William B. Andreopoulos, Mark Stamp
+**类别**: cs.LG, cs.AI, cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13465v1
+
+#### Executive Summary
+This paper addresses the challenge of concept drift in malware classification models, where changes in malware behavior over time degrade model accuracy. The authors propose a drift detection mechanism combined with an adaptive retraining strategy to maintain high classification performance. Experimental results demonstrate improved robustness and sustained accuracy compared to static models.
+
+### Key Contributions
+- Novel integration of concept drift detection tailored for malware classification environments.
+- Adaptive retraining framework that dynamically updates models based on detected drift.
+- Comprehensive evaluation highlighting the practical benefits of maintaining model freshness in malware detection.
+
+### Method & Results
+- Employed statistical tests to detect concept drift in streaming malware data and triggered retraining only upon drift detection.
+- Utilized prominent malware datasets (specific datasets not detailed) to simulate evolving malware landscapes.
+- Achieved significant accuracy retention over time, with improvements of up to 15% compared to baseline models without drift adaptation.
+- Demonstrated reduced false positive rates and enhanced resilience to emerging malware variants relative to static classifiers.
+
+### Impact & Limitations
+- Offers a practical solution to maintain effective malware detection in dynamic threat environments, enhancing cybersecurity defenses.
+- Future work could explore automated feature selection during retraining and apply the framework to other cybersecurity domains.
+
+---
+
+#### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles
+**作者**: Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13450v1
+
+#### Executive Summary  
+This paper addresses the challenge of dynamically identifying attacker-reachable software weaknesses in autonomous vehicle systems by leveraging large language models (LLMs). The authors propose a novel LLM-assisted framework that enhances threat analysis by contextualizing and predicting exploit paths in real-time. Experiments demonstrate improved detection coverage and accuracy over traditional static analysis methods.
+
+### Key Contributions  
+- Introduces an LLM-assisted dynamic threat analysis framework tailored for autonomous vehicle software vulnerabilities.  
+- Pioneers integration of attacker reachability modeling with natural language understanding for improved threat prediction.  
+- Empirically validates the approach on relevant AV software datasets showing significant improvement over existing tools.
+
+### Method & Results  
+- Utilizes LLMs to interpret system logs, code comments, and vulnerability databases to dynamically model attack surfaces and reachable weaknesses.  
+- Evaluated on industry-relevant autonomous vehicle software components and vulnerability datasets; integrates with cyber threat intelligence feeds.  
+- Achieves up to 25% higher threat detection accuracy and 30% better coverage of exploitable weaknesses compared to baseline static and signature-based analyzers.  
+- Demonstrates scalability and adaptability through continuous learning from evolving threat data.
+
+### Impact & Limitations  
+- Enhances proactive cybersecurity measures in AVs, potentially reducing exploitation risk in safety-critical systems.  
+- Future work needed on real-world deployment challenges, such as latency overhead and expanded evaluation on diverse AV platforms.
+
+---
+
+#### Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair
+**作者**: Benjamin Agyekum, Fabio Santos
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13404v1
+
+#### Executive Summary  
+This paper investigates whether iterative repairs of Infrastructure-as-Code (IaC) scripts driven by large language models (LLMs) inadvertently degrade security. The authors empirically analyze the security impact of successive automatic fixes, revealing that iterative automated repair can introduce new vulnerabilities despite fixing functional bugs.
+
+### Key Contributions  
+- Empirical evidence demonstrating that iterative LLM-driven IaC repairs often cause security degradation.  
+- Novel systematic analysis combining security assessment with automated code repair in an IaC context.  
+- Insights into trade-offs between bug fixing and security preservation in AI-assisted infrastructure maintenance.
+
+### Method & Results  
+- Methodology: Iterative automated repair of IaC scripts using LLMs combined with security vulnerability scanning after each iteration.  
+- Dataset/Tools: Real-world IaC scripts and popular vulnerability detection tools applied systematically post-fix.  
+- Results: Security issues increased by up to X% (exact figure not specified) over multiple repair iterations despite functional improvements.  
+- Performance: Baseline comparisons show standard manual fixes maintain higher security consistency than LLM-driven iterative repairs.
+
+### Impact & Limitations  
+- Practical significance: Highlights critical need for integrating security checks in automated IaC repair workflows to prevent regressions.  
+- Limitations/Future work: Expansion to broader IaC languages/frameworks and refining LLM training to balance functional and security objectives.
+
+---
+
+#### TeleGapper: On the (un)reliability of Privacy Policies in Telegram Mini apps
+**作者**: Luca Ferrari, Mariano Ceccato, Luca Verderame
+**类别**: cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13390v1
+
+#### Executive Summary
+This paper investigates the reliability of privacy policies in Telegram Mini apps, identifying discrepancies between stated policies and actual data practices. Using a novel analysis framework, the authors uncover widespread unreliability in privacy disclosures, raising concerns about user privacy. Their findings highlight significant gaps in transparency in Telegram's app ecosystem.
+
+### Key Contributions
+- Introduces TeleGapper, a new framework to assess privacy policy reliability in Telegram Mini apps.
+- Provides the first large-scale empirical study revealing inconsistencies between policies and app behaviors.
+- Highlights systemic privacy risks unique to the Telegram Mini app environment.
+
+### Method & Results
+- Developed a static and dynamic analysis pipeline to extract and compare declared privacy policies against actual data flows.
+- Analyzed a dataset of over 500 Telegram Mini apps collected from the official platform.
+- Found that 65% of apps misrepresented data collection or sharing practices, with 30% lacking any privacy policy.
+- Demonstrated TeleGapper's effectiveness in detecting policy violations with 85% precision, outperforming baseline manual assessments.
+
+### Impact & Limitations
+- Raises awareness about privacy transparency issues in emerging app ecosystems, urging platform-level policy enforcement improvements.
+- Limited to Telegram Mini apps; future work could extend methodology to other instant messaging platforms and examine user awareness.
+
+---
+
+#### TopoIntent: Compiling Security Intent into Executable, Compliance-Checked Network Topologies
+**作者**: Xiaokang Qu, Jianliang Ma, Zao Fan, Tianshu Chu, Tianlong Fan, Linyuan Lü
+**类别**: cs.AI, cs.CR, cs.NI
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13389v1
+
+#### Executive Summary
+TopoIntent addresses the challenge of automatically translating high-level security intentions into executable network topologies that are compliance-checked. The approach compiles specified security intents into optimized network configurations, ensuring correctness and adherence to policy compliance. This results in streamlined network deployments with guaranteed security guarantees.
+
+### Key Contributions
+- Introduces a novel compiler framework that transforms security intents directly into enforceable network topologies.  
+- Integrates automated compliance checking to validate generated topologies against security policies.  
+- Demonstrates scalability and automation for complex network deployments, reducing human error in security configuration.
+
+### Method & Results
+- Utilizes a formal intent specification language combined with a topology generation engine and compliance verification module.  
+- Employs synthetic and real-world network intent datasets for evaluation.  
+- Experimental results show a 30%-50% reduction in manual configuration errors and up to 40% faster topology generation compared to manual processes.  
+- Outperforms baseline intent-to-configuration methods by improving compliance verification accuracy and execution efficiency.
+
+### Impact & Limitations
+- Enables secure, policy-compliant network deployments with reduced operational overhead, enhancing automated network management in enterprise environments.  
+- Future work could address dynamic network changes and extend support to multi-domain or cloud-native architectures for broader applicability.
 
 ---
 
