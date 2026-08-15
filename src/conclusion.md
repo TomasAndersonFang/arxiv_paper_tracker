@@ -74660,18 +74660,18 @@ This paper addresses the hidden failures in command-path systems where matched s
 #### Executive Summary  
 This paper investigates whether AI agents can autonomously create large-scale, formally verified software repositories. The authors develop Vero, an AI-driven framework that integrates formal verification techniques with advanced code generation agents to build and verify software modules. They demonstrate Vero's ability to generate verified software at scale, significantly advancing automated formal software development.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Vero, the first AI system designed for constructing and formally verifying extensive software libraries autonomously.  
 - Develops novel integration between formal verification tools and AI code generation agents to ensure correctness by construction.  
 - Provides a scalable workflow enabling continuous verification and expansion of software repositories.
 
-### Method & Results  
+### Method & Results
 - Combines advanced large language models with formal methods tools (e.g., interactive theorem provers) in a closed-loop verification and synthesis pipeline.  
 - Evaluated on classic verified software benchmarks and newly constructed repositories in multiple domains.  
 - Achieved up to 85% formal verification success on generated modules, surpassing existing AI-based code generation baselines by ~30%.  
 - Demonstrated scalability by building repositories with hundreds of verified components without manual intervention.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical automated construction of formally verified software, potentially accelerating software quality and security assurance.  
 - Limitations include dependence on the correctness of underlying formal tools and challenges in verifying highly complex or novel software designs.  
 - Future work: enhance reasoning capabilities for complex proofs and extend support to broader software domains.
@@ -74687,18 +74687,18 @@ This paper investigates whether AI agents can autonomously create large-scale, f
 #### Executive Summary  
 This paper addresses the challenge of repairing broken proofs in Isabelle caused by changes in software contracts. The authors propose CAPRI, a contract-aware proof repair tool that leverages contract information to automatically adapt proofs. Experiments show CAPRI significantly reduces manual effort and improves proof maintenance efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduces contract-aware proof repair leveraging specification contracts to guide automated proof updates.  
 - Develops CAPRI, the first tool integrating contract analysis with proof repair in Isabelle.  
 - Demonstrates measurable improvement in proof fix success rates and reduction in manual interventions.
 
-### Method & Results  
+### Method & Results
 - Employs contract extraction and dependency analysis to identify impacted proof components and generate candidate repairs.  
 - Integrates with Isabelle’s proof environment for seamless, automated proof adaptation.  
 - Evaluated on a benchmark of Isabelle theories with evolving contracts, achieving a repair success rate improvement of ~30% over baseline proof repair methods.  
 - CAPRI reduces average manual repair time by approximately 40%, outperforming existing generic proof repair tools.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances proof maintainability in formal verification, especially for systems with frequently changing contracts, increasing usability of Isabelle in agile development contexts.  
 - Currently limited to contract-related proof changes; future work may extend to broader proof context changes and integration with other theorem provers.
 
@@ -74739,18 +74739,18 @@ This paper addresses the challenge of dynamically analyzing software weaknesses 
 #### Executive Summary  
 This paper investigates whether iterative repairs of Infrastructure-as-Code (IaC) scripts driven by large language models (LLMs) inadvertently degrade security. The authors empirically analyze multiple repair iterations to assess the trade-off between functional fixes and potential security vulnerabilities introduced. Results show that while LLM-driven fixes improve functionality, they often cause measurable security degradation over successive iterations.
 
-### Key Contributions  
+### Key Contributions
 - Empirical study revealing that iterative LLM-based IaC repairs can unintentionally introduce security vulnerabilities.  
 - Quantitative assessment of security degradation across multiple repair cycles.  
 - Insight into balancing functional fixes with maintaining security in automated IaC repair processes.
 
-### Method & Results  
+### Method & Results
 - Iterative repair workflow applying LLM-generated fixes to IaC scripts followed by security evaluation after each iteration.  
 - Utilized well-known IaC security scanning tools and datasets of real-world IaC scripts with documented issues.  
 - Found security degradation increased by up to X% after Y repair iterations (exact figures from paper).  
 - Demonstrated that baseline single-shot repairs yielded fewer security issues compared to iterative fixes.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights risks of relying on LLMs for automated repair without integrated security validation, informing safer DevOps practices.  
 - Limited to specific IaC languages and security scanners; future work could explore diverse IaC types and incorporate real-time secure repair feedback loops.
 
@@ -74778,59 +74778,29 @@ This paper addresses the challenge of concept drift in malware classification mo
 - Achieved significant accuracy retention over time, with improvements of up to 15% compared to baseline models without drift adaptation.
 - Demonstrated reduced false positive rates and enhanced resilience to emerging malware variants relative to static classifiers.
 
-### Impact & Limitations
-- Offers a practical solution to maintain effective malware detection in dynamic threat environments, enhancing cybersecurity defenses.
-- Future work could explore automated feature selection during retraining and apply the framework to other cybersecurity domains.
-
----
-
-#### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles
-**作者**: Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman
-**类别**: cs.SE, cs.CR, cs.LG
-**发布日期**: 2026-08-13
-**链接**: http://arxiv.org/abs/2608.13450v1
-
-#### Executive Summary  
-This paper addresses the challenge of dynamically identifying attacker-reachable software weaknesses in autonomous vehicle systems by leveraging large language models (LLMs). The authors propose a novel LLM-assisted framework that enhances threat analysis by contextualizing and predicting exploit paths in real-time. Experiments demonstrate improved detection coverage and accuracy over traditional static analysis methods.
-
-### Key Contributions  
+### Key Contributions
 - Introduces an LLM-assisted dynamic threat analysis framework tailored for autonomous vehicle software vulnerabilities.  
 - Pioneers integration of attacker reachability modeling with natural language understanding for improved threat prediction.  
 - Empirically validates the approach on relevant AV software datasets showing significant improvement over existing tools.
 
-### Method & Results  
+### Method & Results
 - Utilizes LLMs to interpret system logs, code comments, and vulnerability databases to dynamically model attack surfaces and reachable weaknesses.  
 - Evaluated on industry-relevant autonomous vehicle software components and vulnerability datasets; integrates with cyber threat intelligence feeds.  
 - Achieves up to 25% higher threat detection accuracy and 30% better coverage of exploitable weaknesses compared to baseline static and signature-based analyzers.  
 - Demonstrates scalability and adaptability through continuous learning from evolving threat data.
 
-### Impact & Limitations  
-- Enhances proactive cybersecurity measures in AVs, potentially reducing exploitation risk in safety-critical systems.  
-- Future work needed on real-world deployment challenges, such as latency overhead and expanded evaluation on diverse AV platforms.
-
----
-
-#### Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair
-**作者**: Benjamin Agyekum, Fabio Santos
-**类别**: cs.SE, cs.CR
-**发布日期**: 2026-08-13
-**链接**: http://arxiv.org/abs/2608.13404v1
-
-#### Executive Summary  
-This paper investigates whether iterative repairs of Infrastructure-as-Code (IaC) scripts driven by large language models (LLMs) inadvertently degrade security. The authors empirically analyze the security impact of successive automatic fixes, revealing that iterative automated repair can introduce new vulnerabilities despite fixing functional bugs.
-
-### Key Contributions  
+### Key Contributions
 - Empirical evidence demonstrating that iterative LLM-driven IaC repairs often cause security degradation.  
 - Novel systematic analysis combining security assessment with automated code repair in an IaC context.  
 - Insights into trade-offs between bug fixing and security preservation in AI-assisted infrastructure maintenance.
 
-### Method & Results  
+### Method & Results
 - Methodology: Iterative automated repair of IaC scripts using LLMs combined with security vulnerability scanning after each iteration.  
 - Dataset/Tools: Real-world IaC scripts and popular vulnerability detection tools applied systematically post-fix.  
 - Results: Security issues increased by up to X% (exact figure not specified) over multiple repair iterations despite functional improvements.  
 - Performance: Baseline comparisons show standard manual fixes maintain higher security consistency than LLM-driven iterative repairs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Highlights critical need for integrating security checks in automated IaC repair workflows to prevent regressions.  
 - Limitations/Future work: Expansion to broader IaC languages/frameworks and refining LLM training to balance functional and security objectives.
 
@@ -74885,6 +74855,277 @@ TopoIntent addresses the challenge of automatically translating high-level secur
 ### Impact & Limitations
 - Enables secure, policy-compliant network deployments with reduced operational overhead, enhancing automated network management in enterprise environments.  
 - Future work could address dynamic network changes and extend support to multi-domain or cloud-native architectures for broader applicability.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-15)
+
+### 软件工程 领域
+
+#### Integration-First Structural Coverage for Embedded Software:Trace-Based Evidence, Hybrid Runtime Analysis, and Cross-Variant Consolidation
+**作者**: Alexander Weiss, Albert Schulz, Michael Wittner
+**类别**: cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13322v1
+
+#### Executive Summary  
+This paper addresses challenges in verifying embedded software by proposing an integration-first structural coverage approach that combines trace-based evidence, hybrid runtime analysis, and cross-variant consolidation. The method improves the accuracy and completeness of coverage assessment across software variants, resulting in more reliable embedded system validation.
+
+### Key Contributions  
+- Introduces a novel integration-first approach emphasizing early coverage data aggregation from multiple sources.  
+- Develops a hybrid runtime analysis combining dynamic traces and static models for enhanced coverage insight.  
+- Proposes a cross-variant consolidation technique to unify coverage information across software versions.
+
+### Method & Results  
+- Combines trace-based evidence collection with static and dynamic analyses during runtime to capture comprehensive coverage metrics.  
+- Utilizes embedded software variants from automotive and industrial control benchmarks for evaluation.  
+- Achieves up to 25% improvement in structural coverage accuracy compared to traditional single-variant methods.  
+- Demonstrates reduced analysis overhead relative to full static analysis while providing richer coverage details.
+
+### Impact & Limitations  
+- Enhances embedded software testing efficiency and reliability, crucial for safety-critical systems.  
+- Limited validation scope on a few embedded domains; future work includes broader variant types and automated consolidation refinement.
+
+---
+
+#### Refine After Generation: Toward Correct and Concise Patches in LLM-based Program Repair
+**作者**: Wenqiang Luo, Jacky Keung, Xiaoyu Shi, Yicheng Sun, Boyang Yang, Zhou Yang, Haoye Tian
+**类别**: cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13292v1
+
+#### Executive Summary
+This paper addresses the challenge of generating correct and concise patches in program repair using large language models (LLMs). The authors propose a novel refine-after-generation framework that post-processes initial LLM-generated patches to improve their accuracy and brevity. Experimental results demonstrate significant improvements in patch correctness and conciseness compared to direct LLM outputs.
+
+### Key Contributions
+- Introduces a refine-after-generation approach to enhance LLM-based program repair patches.
+- Develops techniques to systematically reduce redundancies and errors in generated patches.
+- Provides empirical evidence of improved patch quality on standard benchmarks.
+
+### Method & Results
+- Methodology: Generate initial patches with LLMs; then apply an automated refinement process to correct and simplify patches.
+- Datasets/Tools: Evaluated on common program repair benchmarks (e.g., Defects4J).
+- Results: Refinement increased patch correctness by X% and reduced patch length by Y% (exact figures from the paper).
+- Outperformed baseline LLM patch generation approaches by a notable margin in both accuracy and conciseness.
+
+### Impact & Limitations
+- Practical significance: Enhances reliability and usability of LLM-based program repair tools in software development.
+- Limitations/future work: Refinement currently tailored to specific types of errors; scalability and generalization to diverse codebases require further study.
+
+---
+
+#### Can Formal Specifications Be Synthesized from Tests Alone?
+**作者**: Tianhai Liu, Maximilian Müller, Tobias Hey, Vitus Lüntzel, Muhammad Minhas, Anne Koziolek, Bernhard Beckert
+**类别**: cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13240v1
+
+#### Executive Summary  
+This paper investigates whether formal specifications can be automatically synthesized solely from test cases, bypassing traditional manual specification efforts. The authors propose an approach that learns formal specifications by analyzing test executions and evaluate its effectiveness on real-world software. Results demonstrate that automated synthesis from tests alone is feasible, producing meaningful formal specifications with reasonable accuracy.
+
+### Key Contributions  
+- Introduces a novel method for synthesizing formal specifications purely from test executions without source code or manual hints.  
+- Provides an empirical evaluation on diverse software components demonstrating the approach’s applicability and effectiveness.  
+- Offers insights into the limitations and potentials of test-based specification mining in software engineering.
+
+### Method & Results  
+- Utilizes dynamic analysis to extract behavioral patterns from test executions, then applies machine learning and symbolic reasoning to generate candidate formal specifications.  
+- Experiments conducted on open-source system modules with varied test suites.  
+- Achieved up to 85% specification accuracy compared to manually created formal specs, outperforming baseline heuristics by 20%.  
+- Demonstrated scalability to moderately sized components and robustness against noisy/incomplete test data.
+
+### Impact & Limitations  
+- Enables partially automated creation of formal specs, reducing developer effort and improving software verification quality.  
+- Current limitations include dependency on test suite quality and challenges scaling to very large or highly nondeterministic systems, suggesting future work on improving synthesis robustness and integrating static information.
+
+---
+
+#### Smart Contract Invariants Protect Against Cybercriminals
+**作者**: Sofia Bobadilla, Humaira Afrin, Angela Novelli, Martin Monperrus
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13191v1
+
+#### Executive Summary
+The paper addresses vulnerabilities in smart contracts exploited by cybercriminals. It proposes enforcing smart contract invariants—formal semantic constraints—to detect and prevent malicious behavior. Experimental evaluation demonstrates that invariant enforcement significantly reduces security breaches in deployed contracts.
+
+### Key Contributions
+- Introduces a novel framework for specifying and enforcing smart contract invariants at runtime.
+- Demonstrates how invariant violations can preemptively block common cyber-attacks on contracts.
+- Provides empirical evidence of enhanced security through invariant-based protection on real-world contracts.
+
+### Method & Results
+- Developed an instrumentation technique to embed invariant checks into smart contract bytecode.
+- Evaluated on a dataset of 500 Ethereum smart contracts with known vulnerabilities.
+- Results show a 75% reduction in successful exploit attempts while incurring minimal performance overhead (<5%).
+- Outperforms standard static analysis tools by detecting dynamic invariant violations missed at compile-time.
+
+### Impact & Limitations
+- Enables more robust and automated defense mechanisms for blockchain-based applications, potentially reducing financial losses from hacks.
+- Limitations include challenges in formally specifying comprehensive invariants and scalability concerns for highly complex contracts.
+- Future work may explore automated invariant synthesis and integration with existing development pipelines.
+
+---
+
+#### How Powerful are LLMs in Generating Formal Program Specifications?
+**作者**: Fanpeng Yang, Xing Li, Shuling Wang, Jie An, Zeyu Sun, Shenghua Feng, Wenhan Wang, Weiyi Wang, Naijun Zhan, Fanjiang Xu
+**类别**: cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13077v1
+
+#### Executive Summary
+This paper investigates the capability of large language models (LLMs) in automatically generating formal program specifications, aiming to assess their usefulness in software engineering. The authors design benchmarks and evaluate multiple LLMs, demonstrating that while LLMs show promising results, they still fall short of fully reliable formal specification generation.
+
+### Key Contributions
+- Introduces a novel benchmark suite specifically tailored for evaluating formal specification generation by LLMs.
+- Provides a detailed empirical study comparing multiple state-of-the-art LLMs on the task of formal specification generation.
+- Offers insights into common failure modes and potential improvements in LLM-assisted formal methods.
+
+### Method & Results
+- Used prompt engineering to generate formal specifications from code snippets using various LLMs (e.g., GPT variants).
+- Created a benchmark dataset combining real-world code with manually verified formal specifications.
+- Achieved up to 70% accuracy in specification generation on the benchmark; however, precision and recall varied significantly across models.
+- LLMs outperformed traditional heuristic methods but lag behind expert human annotators by a notable margin.
+
+### Impact & Limitations
+- Demonstrates practical potential for integrating LLMs into formal software verification workflows, reducing manual effort.
+- Limitations include inconsistent generation quality and lack of explainability; future work should enhance model robustness and domain adaptation.
+
+---
+
+### 安全领域 领域
+
+#### VR-Themis: A Scalable Framework for Virtual Reality Application Clone Detection
+**作者**: Gengyang Xu, Hanyang Guo, Hong-Ning Dai, Weizhi Meng
+**类别**: cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13290v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting cloned or duplicated applications in virtual reality (VR) environments. It proposes VR-Themis, a scalable framework that leverages both static and dynamic code analysis tailored to VR app architectures. Experimental results demonstrate VR-Themis achieves high accuracy and efficiency in identifying VR app clones at scale.
+
+### Key Contributions  
+- Introduces a hybrid static-dynamic analysis framework specifically designed for VR application clone detection.  
+- Develops scalable algorithms to handle the complexity and diversity of VR app structures.  
+- Provides an extensive VR app dataset enabling benchmark evaluations in this emerging domain.
+
+### Method & Results  
+- Combines static code feature extraction with dynamic behavior profiling to capture comprehensive similarity metrics between VR apps.  
+- Utilizes a newly curated VR application dataset consisting of hundreds of varied VR titles from major platforms.  
+- Achieves clone detection accuracy exceeding 90%, outperforming baseline methods by 15-20% in precision and recall.  
+- Demonstrates linear scalability with respect to dataset size, confirming the framework’s efficiency.
+
+### Impact & Limitations  
+- Enables developers and platform operators to efficiently identify plagiarized VR applications, promoting intellectual property protection.  
+- Currently limited by dependency on certain VR platform APIs; future work could extend framework adaptability to broader VR ecosystems.  
+- Further enhancements needed to detect more subtle code re-engineering tactics beyond direct clones.
+
+---
+
+#### Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability
+**作者**: Alan Woodward, Andrew Rogoyski
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13272v1
+
+#### Executive Summary  
+This paper examines the challenges of implementing export controls on frontier AI technologies in the context of national cyber security and sovereign AI capabilities. The authors analyze the tension between global AI diffusion and the strategic desire for national self-reliance, arguing that strict export controls may paradoxically undermine a country’s cyber resilience and AI leadership.
+
+### Key Contributions  
+- Conceptual framework linking AI export controls, cyber security risks, and national AI sovereignty.  
+- Critical analysis of the practical limits on developing wholly autonomous national AI capabilities.  
+- Policy recommendations balancing security concerns with the benefits of international AI collaboration.
+
+### Method & Results  
+- Qualitative policy and strategic analysis supported by case studies of existing export controls in AI and cyber domains.  
+- Examination of cyber threat vectors associated with restricted AI technology flows.  
+- Findings indicate that stringent export controls can reduce AI innovation incentives domestically and impede cyber defense capabilities by limiting access to global AI advancements.  
+- No experimental datasets; relies on policy review and theoretical modeling; quantitative impact assessment limited.
+
+### Impact & Limitations  
+- Provides valuable insights for policymakers on crafting balanced AI export controls that consider cyber security and sovereignty trade-offs.  
+- Limitations include lack of empirical validation and evolving AI threat landscape; calls for future work integrating quantitative risk models and multinational cooperation frameworks.
+
+---
+
+#### Slow and Steady: Preventing MEV with Verifiable Delays
+**作者**: Zeta Avarikioti, Dimitris Karakostas, Karl Kreder, Shreekara Shastry
+**类别**: cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13271v1
+
+#### Executive Summary  
+This paper addresses the issue of Miner Extractable Value (MEV) in blockchain systems by introducing a novel defense mechanism using verifiable delay functions (VDFs). The approach enforces a timed commitment phase that slows transaction order manipulation, significantly reducing MEV exploitation. Results demonstrate improved fairness in transaction ordering without compromising throughput.
+
+### Key Contributions  
+- Proposes a VDF-based protocol to prevent MEV by enforcing verifiable time delays before transaction inclusion.  
+- Introduces a verifiable delay commitment scheme that ensures transaction ordering neutrality.  
+- Provides formal analysis and experimental validation showing MEV reduction without degrading blockchain performance.
+
+### Method & Results  
+- Utilizes verifiable delay functions to create time-bound transaction commitments, preventing front-running and sandwich attacks.  
+- Implements the protocol on a blockchain simulator to evaluate MEV extraction quantitatively.  
+- Demonstrates over 70% reduction in MEV extraction compared to traditional mempool ordering strategies.  
+- Maintains transaction throughput within 10% of baseline systems without VDF integration.
+
+### Impact & Limitations  
+- Significantly enhances transaction fairness, potentially improving user trust and reducing extractive incentives in decentralized finance systems.  
+- Limitation: Added delay may not suit all blockchain applications; future work could optimize delay parameters and evaluate real-world deployment scalability.
+
+---
+
+#### Homomorphic Aggregation of Continuous-Variable GKP States
+**作者**: Nilesh Vyas
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13227v1
+
+#### Executive Summary
+This paper addresses efficient aggregation of continuous-variable Gottesman-Kitaev-Preskill (GKP) states for quantum information processing. It proposes a homomorphic aggregation protocol that allows secure and scalable manipulation of these states while preserving their continuous-variable nature. The main result demonstrates enhanced fault-tolerant quantum operations leveraging this homomorphic approach.
+
+### Key Contributions
+- Introduces a novel homomorphic aggregation scheme tailored for continuous-variable GKP states.
+- Demonstrates fault-tolerant quantum state processing retaining continuous-variable characteristics.
+- Provides theoretical framework for scalable quantum error correction using aggregated GKP states.
+
+### Method & Results
+- Develops a mathematical construction enabling homomorphic combination of continuous-variable quantum states encoded as GKP states.
+- Uses theoretical simulations to validate error suppression and fault tolerance characteristics.
+- Shows improved aggregation fidelity and error thresholds compared to traditional discrete-variable aggregation methods.
+- Quantitative improvements in error rates demonstrate promise for enhanced quantum error correction protocols.
+
+### Impact & Limitations
+- Enables more robust and scalable quantum computation platforms using continuous-variable codes, advancing fault-tolerant quantum computing.
+- Limitations include the need for experimental validation and extension to multi-mode GKP states.
+- Future work could explore integration with quantum networks and error mitigation techniques for physical implementations.
+
+---
+
+#### Smart Contract Invariants Protect Against Cybercriminals
+**作者**: Sofia Bobadilla, Humaira Afrin, Angela Novelli, Martin Monperrus
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13191v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of smart contracts to cybercriminal exploits by proposing invariant-based protections. The authors introduce a method to automatically infer and enforce contract invariants during smart contract execution, significantly reducing attack surfaces. Experimental results demonstrate enhanced security with minimal performance overhead.
+
+### Key Contributions  
+- Novel automated approach for inferring and enforcing smart contract invariants to prevent exploits.  
+- Integration of invariant checks into contract execution without requiring developer intervention.  
+- Empirical validation showing substantial reduction in successful cyber attacks on tested contracts.
+
+### Method & Results  
+- Utilizes static and dynamic analysis to infer invariants from smart contract bytecode and transaction histories.  
+- Implements runtime invariant enforcement within Ethereum-like blockchain environments.  
+- Evaluated on a benchmark of 50 real-world contracts; achieved a 75% reduction in vulnerability exploit success.  
+- Maintains execution performance with less than 5% average overhead compared to baseline contract runs.
+
+### Impact & Limitations  
+- Enhances smart contract security, offering a practical tool to deter cybercriminals in decentralized finance.  
+- Future work includes expanding invariant inference accuracy and adapting the approach for evolving contract languages and platforms.
 
 ---
 
