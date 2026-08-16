@@ -74873,18 +74873,18 @@ TopoIntent addresses the challenge of automatically translating high-level secur
 #### Executive Summary  
 This paper addresses challenges in verifying embedded software by proposing an integration-first structural coverage approach that combines trace-based evidence, hybrid runtime analysis, and cross-variant consolidation. The method improves the accuracy and completeness of coverage assessment across software variants, resulting in more reliable embedded system validation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel integration-first approach emphasizing early coverage data aggregation from multiple sources.  
 - Develops a hybrid runtime analysis combining dynamic traces and static models for enhanced coverage insight.  
 - Proposes a cross-variant consolidation technique to unify coverage information across software versions.
 
-### Method & Results  
+### Method & Results
 - Combines trace-based evidence collection with static and dynamic analyses during runtime to capture comprehensive coverage metrics.  
 - Utilizes embedded software variants from automotive and industrial control benchmarks for evaluation.  
 - Achieves up to 25% improvement in structural coverage accuracy compared to traditional single-variant methods.  
 - Demonstrates reduced analysis overhead relative to full static analysis while providing richer coverage details.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances embedded software testing efficiency and reliability, crucial for safety-critical systems.  
 - Limited validation scope on a few embedded domains; future work includes broader variant types and automated consolidation refinement.
 
@@ -74925,18 +74925,18 @@ This paper addresses the challenge of generating correct and concise patches in 
 #### Executive Summary  
 This paper investigates whether formal specifications can be automatically synthesized solely from test cases, bypassing traditional manual specification efforts. The authors propose an approach that learns formal specifications by analyzing test executions and evaluate its effectiveness on real-world software. Results demonstrate that automated synthesis from tests alone is feasible, producing meaningful formal specifications with reasonable accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel method for synthesizing formal specifications purely from test executions without source code or manual hints.  
 - Provides an empirical evaluation on diverse software components demonstrating the approach’s applicability and effectiveness.  
 - Offers insights into the limitations and potentials of test-based specification mining in software engineering.
 
-### Method & Results  
+### Method & Results
 - Utilizes dynamic analysis to extract behavioral patterns from test executions, then applies machine learning and symbolic reasoning to generate candidate formal specifications.  
 - Experiments conducted on open-source system modules with varied test suites.  
 - Achieved up to 85% specification accuracy compared to manually created formal specs, outperforming baseline heuristics by 20%.  
 - Demonstrated scalability to moderately sized components and robustness against noisy/incomplete test data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables partially automated creation of formal specs, reducing developer effort and improving software verification quality.  
 - Current limitations include dependency on test suite quality and challenges scaling to very large or highly nondeterministic systems, suggesting future work on improving synthesis robustness and integrating static information.
 
@@ -75006,18 +75006,18 @@ This paper investigates the capability of large language models (LLMs) in automa
 #### Executive Summary  
 This paper addresses the challenge of detecting cloned or duplicated applications in virtual reality (VR) environments. It proposes VR-Themis, a scalable framework that leverages both static and dynamic code analysis tailored to VR app architectures. Experimental results demonstrate VR-Themis achieves high accuracy and efficiency in identifying VR app clones at scale.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid static-dynamic analysis framework specifically designed for VR application clone detection.  
 - Develops scalable algorithms to handle the complexity and diversity of VR app structures.  
 - Provides an extensive VR app dataset enabling benchmark evaluations in this emerging domain.
 
-### Method & Results  
+### Method & Results
 - Combines static code feature extraction with dynamic behavior profiling to capture comprehensive similarity metrics between VR apps.  
 - Utilizes a newly curated VR application dataset consisting of hundreds of varied VR titles from major platforms.  
 - Achieves clone detection accuracy exceeding 90%, outperforming baseline methods by 15-20% in precision and recall.  
 - Demonstrates linear scalability with respect to dataset size, confirming the framework’s efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and platform operators to efficiently identify plagiarized VR applications, promoting intellectual property protection.  
 - Currently limited by dependency on certain VR platform APIs; future work could extend framework adaptability to broader VR ecosystems.  
 - Further enhancements needed to detect more subtle code re-engineering tactics beyond direct clones.
@@ -75033,18 +75033,18 @@ This paper addresses the challenge of detecting cloned or duplicated application
 #### Executive Summary  
 This paper examines the challenges of implementing export controls on frontier AI technologies in the context of national cyber security and sovereign AI capabilities. The authors analyze the tension between global AI diffusion and the strategic desire for national self-reliance, arguing that strict export controls may paradoxically undermine a country’s cyber resilience and AI leadership.
 
-### Key Contributions  
+### Key Contributions
 - Conceptual framework linking AI export controls, cyber security risks, and national AI sovereignty.  
 - Critical analysis of the practical limits on developing wholly autonomous national AI capabilities.  
 - Policy recommendations balancing security concerns with the benefits of international AI collaboration.
 
-### Method & Results  
+### Method & Results
 - Qualitative policy and strategic analysis supported by case studies of existing export controls in AI and cyber domains.  
 - Examination of cyber threat vectors associated with restricted AI technology flows.  
 - Findings indicate that stringent export controls can reduce AI innovation incentives domestically and impede cyber defense capabilities by limiting access to global AI advancements.  
 - No experimental datasets; relies on policy review and theoretical modeling; quantitative impact assessment limited.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides valuable insights for policymakers on crafting balanced AI export controls that consider cyber security and sovereignty trade-offs.  
 - Limitations include lack of empirical validation and evolving AI threat landscape; calls for future work integrating quantitative risk models and multinational cooperation frameworks.
 
@@ -75059,18 +75059,18 @@ This paper examines the challenges of implementing export controls on frontier A
 #### Executive Summary  
 This paper addresses the issue of Miner Extractable Value (MEV) in blockchain systems by introducing a novel defense mechanism using verifiable delay functions (VDFs). The approach enforces a timed commitment phase that slows transaction order manipulation, significantly reducing MEV exploitation. Results demonstrate improved fairness in transaction ordering without compromising throughput.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a VDF-based protocol to prevent MEV by enforcing verifiable time delays before transaction inclusion.  
 - Introduces a verifiable delay commitment scheme that ensures transaction ordering neutrality.  
 - Provides formal analysis and experimental validation showing MEV reduction without degrading blockchain performance.
 
-### Method & Results  
+### Method & Results
 - Utilizes verifiable delay functions to create time-bound transaction commitments, preventing front-running and sandwich attacks.  
 - Implements the protocol on a blockchain simulator to evaluate MEV extraction quantitatively.  
 - Demonstrates over 70% reduction in MEV extraction compared to traditional mempool ordering strategies.  
 - Maintains transaction throughput within 10% of baseline systems without VDF integration.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significantly enhances transaction fairness, potentially improving user trust and reducing extractive incentives in decentralized finance systems.  
 - Limitation: Added delay may not suit all blockchain applications; future work could optimize delay parameters and evaluate real-world deployment scalability.
 
@@ -75096,36 +75096,291 @@ This paper addresses efficient aggregation of continuous-variable Gottesman-Kita
 - Shows improved aggregation fidelity and error thresholds compared to traditional discrete-variable aggregation methods.
 - Quantitative improvements in error rates demonstrate promise for enhanced quantum error correction protocols.
 
-### Impact & Limitations
-- Enables more robust and scalable quantum computation platforms using continuous-variable codes, advancing fault-tolerant quantum computing.
-- Limitations include the need for experimental validation and extension to multi-mode GKP states.
-- Future work could explore integration with quantum networks and error mitigation techniques for physical implementations.
-
----
-
-#### Smart Contract Invariants Protect Against Cybercriminals
-**作者**: Sofia Bobadilla, Humaira Afrin, Angela Novelli, Martin Monperrus
-**类别**: cs.CR, cs.SE
-**发布日期**: 2026-08-13
-**链接**: http://arxiv.org/abs/2608.13191v1
-
-#### Executive Summary  
-This paper addresses the vulnerability of smart contracts to cybercriminal exploits by proposing invariant-based protections. The authors introduce a method to automatically infer and enforce contract invariants during smart contract execution, significantly reducing attack surfaces. Experimental results demonstrate enhanced security with minimal performance overhead.
-
-### Key Contributions  
+### Key Contributions
 - Novel automated approach for inferring and enforcing smart contract invariants to prevent exploits.  
 - Integration of invariant checks into contract execution without requiring developer intervention.  
 - Empirical validation showing substantial reduction in successful cyber attacks on tested contracts.
 
-### Method & Results  
+### Method & Results
 - Utilizes static and dynamic analysis to infer invariants from smart contract bytecode and transaction histories.  
 - Implements runtime invariant enforcement within Ethereum-like blockchain environments.  
 - Evaluated on a benchmark of 50 real-world contracts; achieved a 75% reduction in vulnerability exploit success.  
 - Maintains execution performance with less than 5% average overhead compared to baseline contract runs.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances smart contract security, offering a practical tool to deter cybercriminals in decentralized finance.  
 - Future work includes expanding invariant inference accuracy and adapting the approach for evolving contract languages and platforms.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-16)
+
+### 软件工程 领域
+
+#### Static analysis-guided agentic AI translation enables Rust as a full stack bioinformatics language
+**作者**: Johan Henriksson
+**类别**: q-bio.GN, cs.AI, cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13029v1
+
+#### Executive Summary
+This paper addresses the challenge of enabling Rust as a comprehensive language for bioinformatics by developing a static analysis-guided agentic AI translation framework. The approach leverages static code analysis combined with AI agents to translate legacy bioinformatics codebases into robust Rust implementations. The results demonstrate significantly improved translation accuracy and maintainability, positioning Rust as viable for full-stack bioinformatics workflows.
+
+### Key Contributions
+- Introduces a novel static analysis-guided AI agent framework for automated code translation into Rust.  
+- Demonstrates Rust applicability as a full-stack bioinformatics language through extensive codebase translation and validation.  
+- Provides tooling that preserves semantic integrity and enhances maintainability during language migration.
+
+### Method & Results
+- Utilizes static code analysis to guide AI agents in stepwise translation of legacy bioinformatics scripts into efficient Rust code.  
+- Applies the framework to multiple real-world bioinformatics repositories for validation.  
+- Achieves translation accuracy improvements exceeding 25% compared to baseline AI-only translations.  
+- Shows Rust implementations with comparable or better runtime performance and reliability against original codebases.
+
+### Impact & Limitations
+- Enables bioinformatics practitioners to leverage Rust’s safety and performance benefits across full stacks, improving software quality and reproducibility.  
+- Current limitations include scalability to highly heterogeneous or poorly documented codebases; future work will explore adaptive agent strategies and broader language support.
+
+---
+
+#### Requirements-Augmented Generation for Trustworthy Acceptance Testing of LLM-Based Software
+**作者**: Fanyu Wang, Chetan Arora, Zhenping Xie, Yonghui Liu, Kla Tantithamthavorn, Aldeida Aleti, Siwei Jiang
+**类别**: cs.SE
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.12970v1
+
+#### Executive Summary
+This paper addresses the challenge of trustworthy acceptance testing for software powered by large language models (LLMs). It proposes a requirements-augmented generation framework that integrates formal requirements into test generation, enhancing the reliability of acceptance tests. Experiments demonstrate improved test coverage and fault detection compared to standard LLM-based testing approaches.
+
+### Key Contributions
+- Introduces a novel requirements-augmented generation method to guide LLM-based acceptance test creation.
+- Empirically validates improved trustworthiness and fault detection of LLM-driven software testing.
+- Bridges formal requirements engineering with automated test generation leveraging LLM capabilities.
+
+### Method & Results
+- Method: Augments LLM prompts with structured formal requirements to generate targeted acceptance tests.
+- Uses datasets from real-world software projects with documented requirements and associated test suites.
+- Achieves up to 25% higher test coverage and 18% improved fault detection rates over baseline LLM-generated tests.
+- Outperforms baseline prompt-based test generation techniques by significant margins in both coverage and reliability measures.
+
+### Impact & Limitations
+- Enhances software quality assurance by making automated acceptance testing of LLM-based systems more reliable and aligned with requirements.
+- Limitations include dependency on the quality of formal requirements and potential challenges scaling to extremely large projects.
+- Future work could explore integration with continuous development pipelines and handling ambiguous or incomplete requirements.
+
+---
+
+#### Dissecting Software Graphs: Structural Insights for Driver-Guided Fuzzing
+**作者**: Baihong Chen, Hua Ming, Weifeng Pan, Tian Xie, Haipeng Cai, Wen Li
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.12859v1
+
+#### Executive Summary  
+This paper addresses the challenge of enhancing driver-guided fuzzing by analyzing the structural properties of software graphs. The authors propose a novel approach that dissects software graphs to extract structural insights, which guide more effective fuzzing strategies. Experiments demonstrate improved bug detection rates and coverage compared to existing fuzzing methods.
+
+### Key Contributions  
+- Introduced a novel framework for dissecting software graphs to inform driver-guided fuzzing.  
+- Demonstrated how structural graph insights can prioritize fuzzing inputs for better exploration.  
+- Validated the approach through extensive experiments showing superior performance over baseline fuzzers.
+
+### Method & Results  
+- Analyzed control flow and call graphs of software to extract key structural features influencing fuzzing efficiency.  
+- Integrated structural insights into a driver-guided fuzzing framework to steer input generation.  
+- Evaluated on multiple open-source software projects using standard fuzzing benchmarks.  
+- Achieved up to 30% higher code coverage and 25% more detected crashes than baseline fuzzers.  
+- Outperformed traditional fuzzers like AFL and libFuzzer in both speed and bug detection.
+
+### Impact & Limitations  
+- Enhances practical fuzzing effectiveness, aiding software reliability by focusing testing efforts on critical code areas.  
+- Limitations include potential overhead in graph analysis and applicability constrained to software with complex graph structures; future work could optimize analysis time and extend to other program representations.
+
+---
+
+#### Memorization Diagnostics for Code LLMs Should be Scale-Aware
+**作者**: Prateek Kumar Rajput, Abdoul Aziz Bonkoungou, Alberick Euraste Djiré, Xunzhu Tang, Yewei Song, Iyiola Emmanuel Olatunji, El Hacen Diallo, Jacques Klein, Tegawendé F. Bissyandé
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.12771v1
+
+#### Executive Summary  
+This paper addresses the challenge of reliably diagnosing memorization in code-focused large language models (LLMs) by emphasizing the importance of scale-awareness. The authors propose new diagnostics that account for model size and training data scale, revealing that existing memorization metrics can be misleading without considering these factors.
+
+### Key Contributions  
+- Introduces scale-aware memorization diagnostics tailored for code LLMs.  
+- Demonstrates that model size and training data scale significantly impact memorization measurement accuracy.  
+- Provides evidence that conventional memorization metrics may over- or under-estimate memorization depending on scale.
+
+### Method & Results  
+- Developed diagnostic methods that factor in model and dataset size to assess memorization more reliably.  
+- Evaluated using multiple large-scale code LLMs trained on diverse programming language datasets.  
+- Found that scale-aware diagnostics more accurately identify memorized code snippets compared to traditional static metrics.  
+- Showed variation in memorization patterns across different model scales, highlighting the need for adaptive metrics.
+
+### Impact & Limitations  
+- Offers a practical framework for better understanding and mitigating memorization risks in code LLM deployment, important for code reuse and licensing concerns.  
+- Limitations include potential generalization to non-code LLMs and the complexity of adapting diagnostics to evolving model architectures; future work could extend methodology to broader domains and dynamic contexts.
+
+---
+
+#### Does It Render Everywhere? A Study of Cross-Environment Compatibility in MLLM-Generated Webpages
+**作者**: Ziyun Guo, Jingyu Xiao, Yuqiang Sun, Yintong Huo
+**类别**: cs.SE
+**发布日期**: 2026-08-12
+**链接**: http://arxiv.org/abs/2608.12518v1
+
+#### Executive Summary
+This paper investigates the cross-environment rendering compatibility of webpages generated by Multimodal Large Language Models (MLLMs). The authors analyze discrepancies across different browsers and devices, revealing significant variability in output consistency. Their study highlights crucial challenges in deploying MLLM-generated web content in heterogeneous environments.
+
+### Key Contributions
+- First systematic evaluation of cross-environment rendering issues in MLLM-generated webpages.
+- Development of a benchmarking framework to quantify rendering discrepancies across platforms.
+- Identification of primary factors causing incompatibility, informing future MLLM design improvements.
+
+### Method & Results
+- Methodology: Generated webpages using state-of-the-art MLLMs, then tested rendering across multiple browsers (Chrome, Firefox, Safari) and devices (desktop, mobile).
+- Tools: Custom benchmarking suite measuring layout shifts, element visibility, and CSS interpretation differences.
+- Results: Up to 35% of generated webpages showed significant rendering inconsistencies; mobile environments exhibited 20% higher incompatibility than desktop.
+- Compared to rule-based generators, MLLM-generated content had 15% lower cross-environment consistency.
+
+### Impact & Limitations
+- Practical significance: Enables better understanding and improvement of robustness for AI-generated web content in real-world use.
+- Limitations: Current evaluation focuses on static webpage elements; dynamic and interactive content compatibility remains unexplored.
+- Future work: Extend benchmarking to cover dynamic content and optimize MLLM training for cross-platform resilience.
+
+---
+
+### 安全领域 领域
+
+#### A Commitment-Based Hybrid Post-Quantum Cryptographic Model for Multi-File Cloud Storage
+**作者**: Lemdi Frank Prikutse, Regina Esi Turkson, Alimatu-Saadia Yussiff, Abdul-Lateef Yussiff, Maame G. Asante-Mensah
+**类别**: cs.CR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13138v1
+
+#### Executive Summary  
+This paper addresses the security challenges of multi-file cloud storage in the post-quantum era. It proposes a novel commitment-based hybrid cryptographic model combining classical and post-quantum schemes to enhance data confidentiality and integrity. Experimental results demonstrate improved security robustness with practical performance overhead.
+
+### Key Contributions  
+- Introduces a hybrid post-quantum cryptographic model leveraging commitment schemes for multi-file cloud storage.  
+- Provides a novel integration of classical and lattice-based post-quantum cryptography tailored for cloud environments.  
+- Demonstrates enhanced security guarantees against quantum adversaries with efficient multi-file handling.
+
+### Method & Results  
+- Developed a cryptographic framework combining commitment protocols and lattice-based post-quantum algorithms for data encryption and verification.  
+- Employed simulation on a cloud storage testbed with multiple file uploads and retrieval scenarios.  
+- Achieved a 15-20% reduction in computational overhead compared to pure post-quantum methods while maintaining quantum-resistant security.  
+- Outperformed baseline classical encryption and standalone post-quantum schemes in terms of overall throughput and integrity assurance.
+
+### Impact & Limitations  
+- Provides a practical approach to securing multi-file cloud storage against emerging quantum threats, enhancing user trust and data resilience.  
+- Limitations include scalability for extremely large datasets and potential integration complexities with existing cloud infrastructures; future work suggested on optimizing these aspects.
+
+---
+
+#### Operationalizing Cyber Threat Intelligence with GraphRAG
+**作者**: Atul Kabra, Prakhar Paliwal, Manjesh K. Hanawal
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13050v1
+
+#### Executive Summary  
+This paper addresses the challenge of efficiently operationalizing Cyber Threat Intelligence (CTI) by integrating heterogeneous threat data. The authors propose GraphRAG, a novel framework combining graph-based representations with retrieval-augmented generation to enhance threat analysis. Experiments demonstrate improved accuracy and interpretability in threat detection and attribution tasks.
+
+### Key Contributions  
+- Introduces GraphRAG, a hybrid graph and retrieval-augmented generation model tailored for CTI operationalization.  
+- Develops a novel knowledge graph construction pipeline integrating diverse threat intelligence sources.  
+- Provides empirical evidence of improved performance over state-of-the-art CTI analysis methods.
+
+### Method & Results  
+- Constructs a dynamic CTI knowledge graph from multi-source data; applies retrieval-augmented generation using graph context for threat prediction.  
+- Utilizes public CTI datasets including MITRE ATT&CK and real-world threat reports for evaluation.  
+- Achieves a 12% increase in detection accuracy and 15% higher interpretability scores compared to baseline NLP and graph models.  
+- Outperforms standard retrieval-augmented and pure graph neural network baselines in precision and F1 metrics.
+
+### Impact & Limitations  
+- Enables security analysts to rapidly synthesize diverse threat data for actionable insights, aiding proactive defense strategies.  
+- Limitations include scalability concerns with very large graphs and reliance on quality of external CTI sources; future work could explore real-time updating and enhanced graph embeddings.
+
+---
+
+#### InSPECtor: Improving SLEIGH Processor Specification Veracity via Proxy
+**作者**: Michael Chesser, Paul Quirk, Douglas Cooke, Guy Farrelly, Surya Nepal, Damith C. Ranasinghe
+**类别**: cs.CR, cs.PL
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13042v1
+
+#### Executive Summary
+This paper addresses the challenge of inaccuracies in SLEIGH processor specifications that hinder reliable binary analysis. The authors propose InSPECtor, a proxy-based approach to systematically detect and rectify specification errors, significantly improving specification veracity. Experiments demonstrate enhanced correctness and reduced manual debugging effort in processor modeling.
+
+### Key Contributions
+- Introduces InSPECtor, a novel proxy mechanism to validate and improve SLEIGH specifications automatically.
+- Provides an integrated framework that detects inconsistencies between binary behavior and specifications.
+- Demonstrates measurable improvements in specification accuracy, reducing error rates in processor models.
+
+### Method & Results
+- Utilizes proxy-based symbolic execution to cross-validate SLEIGH specs with actual processor behavior.
+- Employs benchmark SLEIGH specifications and binary traces for validation.
+- Achieved up to 35% reduction in specification errors across tested processors.
+- Outperforms traditional manual verification approaches by accelerating error detection and correction.
+
+### Impact & Limitations
+- Enhances reliability and efficiency of processor modeling, benefiting tools relying on accurate binary analysis.
+- Limited to processors expressible in SLEIGH; future work may extend to other specification languages or automated correction mechanisms.
+
+---
+
+#### InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents
+**作者**: Zhenhua Zou, Sheng Guo, Qiuyang Zhan, Lepeng Zhao, Shuo Li, Zhuotao Liu
+**类别**: cs.CR, cs.MA, cs.NI
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13030v1
+
+#### Executive Summary  
+InterSAGE addresses secure and verifiable interoperability among heterogeneous agents in the Internet of Agents framework. The protocol integrates cryptographic verification and consensus mechanisms to ensure trust and data integrity across diverse agent networks. Experimental evaluations demonstrate improved security guarantees with minimal performance overhead compared to existing interoperability approaches.
+
+### Key Contributions  
+- Proposes InterSAGE, a novel protocol combining secure multi-agent interoperability with verifiable data exchange.  
+- Introduces a lightweight consensus mechanism tailored for heterogeneous agent environments.  
+- Demonstrates practical security and efficiency through rigorous formal analysis and empirical testing.
+
+### Method & Results  
+- Developed a cryptographic protocol enabling secure authentication, data integrity verification, and consensus among agents.  
+- Utilized simulation frameworks modeling realistic agent networks and adversarial scenarios.  
+- Achieved over 30% reduction in communication overhead and sub-second verification latency under typical workloads.  
+- Outperformed baseline protocols in security resilience with a 25% lower failure rate in attack simulations.
+
+### Impact & Limitations  
+- Offers a scalable, secure solution facilitating robust agent collaboration applicable in IoT, distributed AI, and autonomous systems.  
+- Limitations include dependency on network synchronization and challenges in dynamic agent joining/leaving, suggesting future work on adaptive mechanisms and scalability to larger networks.
+
+---
+
+#### RAGSieve: Self-Referenced Local Contrast for Knowledge-Poison Detection in Retrieval-Augmented Generation
+**作者**: Xinlong Xu, Yoshua Y. Li
+**类别**: cs.CL, cs.CR, cs.IR
+**发布日期**: 2026-08-13
+**链接**: http://arxiv.org/abs/2608.13010v1
+
+#### Executive Summary  
+This paper addresses knowledge-poisoning attacks in Retrieval-Augmented Generation (RAG) systems by proposing RAGSieve, a novel self-referenced local contrast approach for detecting poisoned knowledge. The method effectively identifies malicious information injections, improving the robustness of RAG models. Experiments demonstrate significant detection accuracy gains over existing baselines.
+
+### Key Contributions  
+- Introduces a self-referenced local contrast technique tailored for knowledge-poison detection in RAG frameworks.  
+- Proposes a lightweight, embedding-based detection scheme that leverages intrinsic contrast without requiring external labels.  
+- Demonstrates broad applicability and robustness across multiple datasets and attack scenarios.
+
+### Method & Results  
+- Core Methodology: Uses local contrast computation within retrieved knowledge embeddings to self-reference and flag suspicious content; integrates seamlessly with standard RAG pipelines.  
+- Datasets/Tools: Evaluated on established RAG benchmark datasets with simulated poisoning attacks, employing standard embedding models and retrieval mechanisms.  
+- Results: Achieves up to 15% improvement in detection accuracy over state-of-the-art poisoning detectors, with low computational overhead.  
+- Outperforms baselines consistently in precision, recall, and F1 metrics under multiple poisoning intensities.
+
+### Impact & Limitations  
+- Practical Significance: Enhances security and reliability of RAG applications in real-world environments prone to data poisoning.  
+- Limitations/Future Work: Current method focuses on retrieval-level poisoning and may need adaptation for evolving attack vectors; extending detection to wider generative model vulnerabilities remains open.
 
 ---
 
