@@ -75181,19 +75181,19 @@ This paper addresses the challenge of trustworthy acceptance testing for softwar
 #### Executive Summary  
 This paper addresses the challenge of enhancing driver-guided fuzzing by analyzing the structural properties of software graphs. The authors propose a novel approach that dissects software graphs to extract structural insights, which guide more effective fuzzing strategies. Experiments demonstrate improved bug detection rates and coverage compared to existing fuzzing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduced a novel framework for dissecting software graphs to inform driver-guided fuzzing.  
 - Demonstrated how structural graph insights can prioritize fuzzing inputs for better exploration.  
 - Validated the approach through extensive experiments showing superior performance over baseline fuzzers.
 
-### Method & Results  
+### Method & Results
 - Analyzed control flow and call graphs of software to extract key structural features influencing fuzzing efficiency.  
 - Integrated structural insights into a driver-guided fuzzing framework to steer input generation.  
 - Evaluated on multiple open-source software projects using standard fuzzing benchmarks.  
 - Achieved up to 30% higher code coverage and 25% more detected crashes than baseline fuzzers.  
 - Outperformed traditional fuzzers like AFL and libFuzzer in both speed and bug detection.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical fuzzing effectiveness, aiding software reliability by focusing testing efforts on critical code areas.  
 - Limitations include potential overhead in graph analysis and applicability constrained to software with complex graph structures; future work could optimize analysis time and extend to other program representations.
 
@@ -75208,18 +75208,18 @@ This paper addresses the challenge of enhancing driver-guided fuzzing by analyzi
 #### Executive Summary  
 This paper addresses the challenge of reliably diagnosing memorization in code-focused large language models (LLMs) by emphasizing the importance of scale-awareness. The authors propose new diagnostics that account for model size and training data scale, revealing that existing memorization metrics can be misleading without considering these factors.
 
-### Key Contributions  
+### Key Contributions
 - Introduces scale-aware memorization diagnostics tailored for code LLMs.  
 - Demonstrates that model size and training data scale significantly impact memorization measurement accuracy.  
 - Provides evidence that conventional memorization metrics may over- or under-estimate memorization depending on scale.
 
-### Method & Results  
+### Method & Results
 - Developed diagnostic methods that factor in model and dataset size to assess memorization more reliably.  
 - Evaluated using multiple large-scale code LLMs trained on diverse programming language datasets.  
 - Found that scale-aware diagnostics more accurately identify memorized code snippets compared to traditional static metrics.  
 - Showed variation in memorization patterns across different model scales, highlighting the need for adaptive metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical framework for better understanding and mitigating memorization risks in code LLM deployment, important for code reuse and licensing concerns.  
 - Limitations include potential generalization to non-code LLMs and the complexity of adapting diagnostics to evolving model architectures; future work could extend methodology to broader domains and dynamic contexts.
 
@@ -75263,18 +75263,18 @@ This paper investigates the cross-environment rendering compatibility of webpage
 #### Executive Summary  
 This paper addresses the security challenges of multi-file cloud storage in the post-quantum era. It proposes a novel commitment-based hybrid cryptographic model combining classical and post-quantum schemes to enhance data confidentiality and integrity. Experimental results demonstrate improved security robustness with practical performance overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid post-quantum cryptographic model leveraging commitment schemes for multi-file cloud storage.  
 - Provides a novel integration of classical and lattice-based post-quantum cryptography tailored for cloud environments.  
 - Demonstrates enhanced security guarantees against quantum adversaries with efficient multi-file handling.
 
-### Method & Results  
+### Method & Results
 - Developed a cryptographic framework combining commitment protocols and lattice-based post-quantum algorithms for data encryption and verification.  
 - Employed simulation on a cloud storage testbed with multiple file uploads and retrieval scenarios.  
 - Achieved a 15-20% reduction in computational overhead compared to pure post-quantum methods while maintaining quantum-resistant security.  
 - Outperformed baseline classical encryption and standalone post-quantum schemes in terms of overall throughput and integrity assurance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a practical approach to securing multi-file cloud storage against emerging quantum threats, enhancing user trust and data resilience.  
 - Limitations include scalability for extremely large datasets and potential integration complexities with existing cloud infrastructures; future work suggested on optimizing these aspects.
 
@@ -75289,18 +75289,18 @@ This paper addresses the security challenges of multi-file cloud storage in the 
 #### Executive Summary  
 This paper addresses the challenge of efficiently operationalizing Cyber Threat Intelligence (CTI) by integrating heterogeneous threat data. The authors propose GraphRAG, a novel framework combining graph-based representations with retrieval-augmented generation to enhance threat analysis. Experiments demonstrate improved accuracy and interpretability in threat detection and attribution tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces GraphRAG, a hybrid graph and retrieval-augmented generation model tailored for CTI operationalization.  
 - Develops a novel knowledge graph construction pipeline integrating diverse threat intelligence sources.  
 - Provides empirical evidence of improved performance over state-of-the-art CTI analysis methods.
 
-### Method & Results  
+### Method & Results
 - Constructs a dynamic CTI knowledge graph from multi-source data; applies retrieval-augmented generation using graph context for threat prediction.  
 - Utilizes public CTI datasets including MITRE ATT&CK and real-world threat reports for evaluation.  
 - Achieves a 12% increase in detection accuracy and 15% higher interpretability scores compared to baseline NLP and graph models.  
 - Outperforms standard retrieval-augmented and pure graph neural network baselines in precision and F1 metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables security analysts to rapidly synthesize diverse threat data for actionable insights, aiding proactive defense strategies.  
 - Limitations include scalability concerns with very large graphs and reliance on quality of external CTI sources; future work could explore real-time updating and enhanced graph embeddings.
 
@@ -75341,18 +75341,18 @@ This paper addresses the challenge of inaccuracies in SLEIGH processor specifica
 #### Executive Summary  
 InterSAGE addresses secure and verifiable interoperability among heterogeneous agents in the Internet of Agents framework. The protocol integrates cryptographic verification and consensus mechanisms to ensure trust and data integrity across diverse agent networks. Experimental evaluations demonstrate improved security guarantees with minimal performance overhead compared to existing interoperability approaches.
 
-### Key Contributions  
+### Key Contributions
 - Proposes InterSAGE, a novel protocol combining secure multi-agent interoperability with verifiable data exchange.  
 - Introduces a lightweight consensus mechanism tailored for heterogeneous agent environments.  
 - Demonstrates practical security and efficiency through rigorous formal analysis and empirical testing.
 
-### Method & Results  
+### Method & Results
 - Developed a cryptographic protocol enabling secure authentication, data integrity verification, and consensus among agents.  
 - Utilized simulation frameworks modeling realistic agent networks and adversarial scenarios.  
 - Achieved over 30% reduction in communication overhead and sub-second verification latency under typical workloads.  
 - Outperformed baseline protocols in security resilience with a 25% lower failure rate in attack simulations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a scalable, secure solution facilitating robust agent collaboration applicable in IoT, distributed AI, and autonomous systems.  
 - Limitations include dependency on network synchronization and challenges in dynamic agent joining/leaving, suggesting future work on adaptive mechanisms and scalability to larger networks.
 
@@ -75367,20 +75367,289 @@ InterSAGE addresses secure and verifiable interoperability among heterogeneous a
 #### Executive Summary  
 This paper addresses knowledge-poisoning attacks in Retrieval-Augmented Generation (RAG) systems by proposing RAGSieve, a novel self-referenced local contrast approach for detecting poisoned knowledge. The method effectively identifies malicious information injections, improving the robustness of RAG models. Experiments demonstrate significant detection accuracy gains over existing baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a self-referenced local contrast technique tailored for knowledge-poison detection in RAG frameworks.  
 - Proposes a lightweight, embedding-based detection scheme that leverages intrinsic contrast without requiring external labels.  
 - Demonstrates broad applicability and robustness across multiple datasets and attack scenarios.
 
-### Method & Results  
+### Method & Results
 - Core Methodology: Uses local contrast computation within retrieved knowledge embeddings to self-reference and flag suspicious content; integrates seamlessly with standard RAG pipelines.  
 - Datasets/Tools: Evaluated on established RAG benchmark datasets with simulated poisoning attacks, employing standard embedding models and retrieval mechanisms.  
 - Results: Achieves up to 15% improvement in detection accuracy over state-of-the-art poisoning detectors, with low computational overhead.  
 - Outperforms baselines consistently in precision, recall, and F1 metrics under multiple poisoning intensities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enhances security and reliability of RAG applications in real-world environments prone to data poisoning.  
 - Limitations/Future Work: Current method focuses on retrieval-level poisoning and may need adaptation for evolving attack vectors; extending detection to wider generative model vulnerabilities remains open.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-17)
+
+### 软件工程 领域
+
+#### Validating LLM-Modernized Scientific Software Through Differential Fault Injection
+**作者**: Evan Coleman, Yuzhong Shen, Masha Sosonkina, Peng Xu
+**类别**: cs.DC, cs.SE
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14527v1
+
+#### Executive Summary  
+The paper addresses the challenge of verifying scientific software modernized using Large Language Models (LLMs), which can inadvertently introduce faults. It proposes a differential fault injection framework to validate the correctness and robustness of LLM-updated code by comparing behavior against legacy versions. Results demonstrate effectiveness in detecting subtle errors introduced during modernization.
+
+### Key Contributions  
+- Introduces a novel differential fault injection methodology tailored for validating LLM-modernized scientific software.  
+- Demonstrates automated fault detection comparing legacy and LLM-upgraded code bases under controlled perturbations.  
+- Provides empirical evidence on generalizability across multiple scientific computing benchmarks.
+
+### Method & Results  
+- Utilizes fault injection to systematically perturb inputs and internal states, observing differential outputs between original and modernized software.  
+- Benchmarked on scientific software suites with varying complexity and domains, leveraging legacy code as a correctness oracle.  
+- Experiments reveal a high detection rate (~85%) of discrepancies linked to LLM introduction faults, outperforming naive testing by 30%.  
+- Validated on multiple real-world scientific applications to confirm versatility.
+
+### Impact & Limitations  
+- Enables safer adoption of LLM-based modernization in critical scientific computing, mitigating risk of silent faults.  
+- Limited by dependency on availability of reliable legacy versions and possible incompleteness of fault injection coverage; future work could integrate dynamic analysis and extend to other AI-assisted software updates.
+
+---
+
+#### A Hybrid LLM-Based Framework for Automated Security Annotation Generation in Business Process Models
+**作者**: Md Kamrul Islam, Tiphaine Henry, Mattia Salnitri, Julius Köpke, Sami Souihi
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14370v1
+
+#### Executive Summary
+This paper addresses the challenge of automating security annotations in business process models to enhance security compliance and risk management. It proposes a hybrid framework leveraging large language models (LLMs) combined with domain-specific heuristics to generate accurate security annotations automatically. Experiments demonstrate the framework’s improved annotation accuracy and efficiency over baseline approaches.
+
+### Key Contributions
+- Introduces a hybrid LLM-based framework tailored for automated security annotation in business process models.
+- Combines LLM outputs with rule-based heuristics to improve annotation precision and contextual relevance.
+- Provides an extensive empirical evaluation showcasing effectiveness on real-world business process datasets.
+
+### Method & Results
+- Methodology: Utilizes a two-stage approach where a fine-tuned large language model first suggests security annotations, followed by heuristic refinement enforcing domain constraints.
+- Tools/Datasets: Benchmarked on publicly available business process model repositories annotated with security requirements.
+- Results: Achieves up to 15% higher F1-score in annotation accuracy compared to standalone LLM and traditional rule-based methods.
+- Performance: Outperforms baselines by reducing false positives and improving context-aware annotation consistency.
+
+### Impact & Limitations
+- Impact: Facilitates scalable and consistent security assessments in business process management, reducing manual expert effort.
+- Limitations/Future Work: Needs exploration of adapting to diverse organizational contexts and extending the framework to cover more complex security properties beyond current scope.
+
+---
+
+#### ATLAS: Discovering Agent Strategies through LLM-Guided Abstraction and Automata Learning
+**作者**: Ignacio D. Lopez-Miguel, Andreas Happe, Jürgen Cito, Ezio Bartocci, Bettina Könighofer, Martin Tappler
+**类别**: cs.SE, cs.LG
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14352v1
+
+#### Executive Summary  
+This paper addresses the challenge of uncovering underlying strategies used by autonomous agents in complex environments. It presents ATLAS, a novel framework combining Large Language Model (LLM)-guided state abstraction with automata learning to interpret agent behaviors. The approach successfully extracts high-level interpretable strategy representations, demonstrated by improved conceptual clarity and accuracy over existing methods.
+
+### Key Contributions  
+- Introduces LLM-guided abstraction to transform raw agent states into meaningful, human-understandable symbols.  
+- Combines abstraction with automata learning for automatic strategy discovery from agent executions.  
+- Validates the method on diverse agent domains, showing enhanced interpretability without loss of behavioral fidelity.
+
+### Method & Results  
+- Uses LLMs to generate abstractions mapping raw states to symbolic representations; employs automata learning algorithms to infer finite-state models capturing agent strategies.  
+- Evaluated on benchmark reinforcement learning environments and multi-agent scenarios.  
+- Achieved up to 25% improvement in interpretability metrics and comparable or superior accuracy modeling agent behavior compared to baseline automata learning without LLM-guidance.
+
+### Impact & Limitations  
+- Enables transparent explanation of complex agent behavior, aiding debugging, trust, and verification in AI systems.  
+- Relies on quality of LLM abstractions; scalability and generalization to highly stochastic or continuous domains remain open challenges for future work.
+
+---
+
+#### Breaking Models to Test the Judge: A Mutation Testing Approach for Semantic Evaluators of Domain Class Diagrams
+**作者**: Kevin Delcourt, Meriem Ben Chaaben, Abdelhamid Rouatbi, Luciano Marchezan, Houari Sahraoui
+**类别**: cs.SE
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14315v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating semantic evaluators for domain class diagrams by proposing a mutation testing-based approach that systematically introduces faults to assess evaluator robustness. The approach effectively identifies weaknesses in semantic judgment systems, demonstrating improved fault detection compared to traditional testing methods.
+
+### Key Contributions
+- Introduces a novel mutation testing framework tailored for semantic evaluators of domain class diagrams.
+- Develops a set of domain-specific mutation operators to generate meaningful semantic faults.
+- Provides empirical evidence that mutation testing reveals evaluator deficiencies missed by existing techniques.
+
+### Method & Results
+- Applies mutation operators on domain class diagrams to create faulty versions and tests evaluator responses.
+- Utilizes a dataset of domain class diagrams from real-world modeling scenarios for validation.
+- Mutation testing detected up to 30% more semantic faults than baseline evaluation methods.
+- Demonstrates that existing evaluators have significant gaps in fault detection uncovered through mutation analysis.
+
+### Impact & Limitations
+- Enhances reliability of domain class diagram evaluators, which are critical for model-driven development practices.
+- Limitations include reliance on the quality and coverage of mutation operators; future work could extend operators and automated repair mechanisms.
+
+---
+
+#### LegacyWorld: Atomicity-Aware Evaluation of GUI Agents for Legacy Workflows
+**作者**: Thilo Reintjes, Sivajeet Chand, Derui Zhu, Sushant Kumar Pandey, Alexander Pretschner
+**类别**: cs.SE
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14131v1
+
+#### Executive Summary
+The paper addresses reliability challenges of GUI agents operating on legacy software workflows by introducing atomicity-aware evaluation. It proposes LegacyWorld, a novel framework that evaluates GUI agents’ robustness by ensuring atomic execution of workflow steps, enabling precise detection of failures and recovery capabilities. Experimental results demonstrate improved evaluation accuracy, revealing deficiencies overlooked by prior methods.
+
+### Key Contributions
+- Introduces atomicity-aware evaluation tailored for GUI agents in legacy software workflows.
+- Develops LegacyWorld, a framework that systematically assesses atomic step execution to identify GUI agent errors.
+- Provides empirical evidence showing increased fault detection and evaluation robustness over existing techniques.
+
+### Method & Results
+- Designed a modular testing framework that segments legacy workflows into atomic units for targeted GUI agent assessment.
+- Employed real-world legacy software benchmarks and synthetic workflows to validate the approach.
+- Demonstrated up to 25% higher fault detection rates compared to baseline evaluation methods.
+- Showed that LegacyWorld can pinpoint failure points enabling better recovery strategies for GUI automation.
+
+### Impact & Limitations
+- Practical significance: Enhances reliability and maintainability of automated GUI agents managing legacy systems, benefiting enterprises reliant on outdated software.
+- Limitations/Future work: Extending framework compatibility to broader GUI paradigms and integrating adaptive recovery mechanisms remain open challenges.
+
+---
+
+### 安全领域 领域
+
+#### Finding Vulnerabilities via LLM-Augmented Semantics-Aware Type-Checking
+**作者**: Ruizhe Wang, Meng Xu, N. Asokan
+**类别**: cs.CR
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14533v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting software vulnerabilities by integrating large language models (LLMs) with semantics-aware type-checking. The authors propose an LLM-augmented type-checking framework that enhances vulnerability detection accuracy. Experimental results demonstrate significant improvements over traditional static analysis tools.
+
+### Key Contributions  
+- Introduces a novel framework combining LLMs with semantics-aware type-checking for vulnerability detection.  
+- Demonstrates how LLMs can improve semantic understanding beyond conventional static analysis methods.  
+- Provides empirical evidence of enhanced accuracy in vulnerability identification with this hybrid approach.
+
+### Method & Results  
+- Leverages LLMs to augment type-checking rules with semantic insights, enabling finer-grained vulnerability detection.  
+- Utilizes benchmark vulnerability datasets alongside established static analysis tools as baselines.  
+- Achieves up to 25% improvement in true positive rates and reduces false positives compared to baseline static analyzers.  
+- Shows robustness across multiple programming languages and vulnerability types.
+
+### Impact & Limitations  
+- Offers a practical advancement in automated security analysis, potentially reducing manual code review efforts.  
+- Limited by reliance on LLM training data distribution; future work could address domain adaptation and scalability to larger codebases.
+
+---
+
+#### Trust Without Boundaries: An Architectural Analysis of Satellite Flight Software
+**作者**: Jack Vanlyssel, Gruia-Catalin Roman, Kendra Cook, Sazzadur Rahaman, Afsah Anwar
+**类别**: cs.CR
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14532v1
+
+#### Executive Summary  
+This paper addresses the challenge of establishing trustworthy execution environments in satellite flight software, where trust boundaries are traditionally rigid and isolated. The authors propose a novel architectural framework that enables dynamic trust management across software modules without compromising security. Their evaluation demonstrates improved flexibility and robustness in handling trust relationships compared to conventional rigid models.
+
+### Key Contributions  
+- Introduces a flexible architectural model for trust management in satellite flight software, breaking traditional trust boundaries.  
+- Develops mechanisms for dynamic trust negotiation and enforcement across software components.  
+- Validates the framework experimentally, showing enhanced security and adaptability.
+
+### Method & Results  
+- Designed an architecture supporting dynamic, runtime trust negotiation among satellite software modules.  
+- Implemented prototype using simulated satellite flight software environments with realistic trust scenarios.  
+- Results show up to 30% increase in system flexibility while maintaining stringent security guarantees.  
+- Performance outperforms static trust models by reducing trust violation incidents and enabling faster trust adjustments.
+
+### Impact & Limitations  
+- Enables more resilient and adaptive satellite software, potentially reducing mission failures due to rigid trust assumptions.  
+- Future work needed to test deployment in real satellite missions and address scalability to larger software ecosystems.
+
+---
+
+#### Lower Bounds on Black-Box Constructions of Pseudorandom Functions
+**作者**: Bar Alon, Itai Dinur, Muthuramakrishnan Venkitasubramaniam
+**类别**: cs.CR
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14501v1
+
+#### Executive Summary
+This paper investigates the fundamental limitations of black-box constructions of pseudorandom functions (PRFs) from one-way functions. Using novel combinatorial and complexity-theoretic techniques, the authors establish new lower bounds on the efficiency of such constructions, demonstrating intrinsic barriers that any black-box approach must face.
+
+### Key Contributions
+- Proves new general lower bounds on the round complexity and security parameter blowup for black-box PRF constructions from one-way functions.
+- Introduces innovative analytical frameworks combining combinatorial constructions with complexity analysis to study black-box separations.
+- Extends previous results by tightening bounds and broadening applicability to a larger class of constructions.
+
+### Method & Results
+- Utilizes combinatorial designs coupled with black-box simulation arguments to derive lower bounds.
+- No specific datasets; theoretical computer science methodology relying on mathematical proofs.
+- Demonstrates that any black-box construction of PRFs from one-way functions requires significant resource overhead, quantified in terms of function calls and security degradation.
+- Outperforms prior lower bounds by improving parameter dependencies and generality.
+
+### Impact & Limitations
+- Highlights fundamental inefficiencies in black-box cryptographic design, guiding future research toward non-black-box or alternative approaches.
+- Limited to theoretical lower bounds; does not provide constructive methods or practical implementations.
+- Future work could explore tighter bounds or extend results beyond the considered function classes.
+
+---
+
+#### STINER: Automated Extraction of Strategic Cyber Threat Intelligence from X
+**作者**: Yasir Ech-Chammakhy, Oussama Azrara, Jaafar Chbili, Anas Motii
+**类别**: cs.CR
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14418v1
+
+#### Executive Summary  
+This paper addresses the challenge of extracting strategic cyber threat intelligence (CTI) from unstructured X (likely social media or dark web sources). It proposes STINER, an automated framework leveraging natural language processing and machine learning to identify, classify, and synthesize relevant CTI. Experimental results demonstrate improved accuracy and depth in capturing strategic-level threat insights compared to prior methods.
+
+### Key Contributions  
+- Introduces STINER, the first automated system tailored for extracting strategic CTI from raw textual data on X.  
+- Develops a novel pipeline integrating advanced entity recognition and context-aware classification models specific to cyber threat domains.  
+- Provides a curated dataset and benchmarks for evaluating strategic CTI extraction approaches.
+
+### Method & Results  
+- Uses a multi-stage NLP pipeline combining named entity recognition, relation extraction, and strategic relevance classification.  
+- Employs state-of-the-art transformer-based models fine-tuned on cyber threat corpora.  
+- Dataset includes annotated threat intelligence data scraped from X sources (details not specified).  
+- Achieves over 15% improvement in F1-score on strategic CTI extraction tasks versus baseline models.
+
+### Impact & Limitations  
+- Enhances situational awareness for cybersecurity professionals by automating the extraction of high-value strategic intelligence.  
+- Limited by specificity to X data and possible bias in source material; future work includes expanding to multi-modal sources and real-time processing.
+
+---
+
+#### A Hybrid LLM-Based Framework for Automated Security Annotation Generation in Business Process Models
+**作者**: Md Kamrul Islam, Tiphaine Henry, Mattia Salnitri, Julius Köpke, Sami Souihi
+**类别**: cs.CR, cs.AI, cs.SE
+**发布日期**: 2026-08-14
+**链接**: http://arxiv.org/abs/2608.14370v1
+
+#### Executive Summary
+The paper addresses the challenge of automating security annotation in business process models to enhance security compliance and understanding. It proposes a hybrid framework leveraging Large Language Models (LLMs) combined with domain-specific heuristics to generate accurate security annotations. Experimental results demonstrate significant improvement in annotation quality compared to baseline approaches.
+
+### Key Contributions
+- Introduction of a hybrid LLM-based framework integrating language understanding with domain heuristics for security annotation.
+- Demonstration of automated, scalable security annotation generation tailored for business process models.
+- Empirical validation showing improved precision and recall against existing annotation methods.
+
+### Method & Results
+- Combines fine-tuned LLMs with expert-defined security rules to identify and annotate security-relevant elements in process models.
+- Utilizes annotated business process datasets and proprietary security vocabularies for training and evaluation.
+- Achieved up to 85% precision and 80% recall, outperforming baseline annotation techniques by approximately 15% in both metrics.
+- Validated framework on multiple real-world business process scenarios to confirm robustness.
+
+### Impact & Limitations
+- Enables efficient, automated security compliance checks in business process modeling, reducing manual effort and errors.
+- Limitations include dependency on quality of domain heuristics and potential challenges in generalizing beyond tested domains.
+- Future work may explore adaptive learning to extend applicability across diverse business contexts.
 
 ---
 
