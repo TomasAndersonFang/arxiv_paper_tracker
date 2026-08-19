@@ -75653,18 +75653,18 @@ This paper addresses the challenge of extracting strategic cyber threat intellig
 #### Executive Summary  
 This paper addresses the challenge of measuring coordination among multiple AI agents in collaborative coding tasks. The authors propose novel quantitative metrics to evaluate coordination effectiveness and analyze agent interactions during code generation. Results demonstrate clear distinctions in coordination quality across agent configurations, advancing understanding of multi-agent collaboration in AI coding.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first formal metrics specifically designed to quantify multi-agent coordination in AI coding environments.  
 - Provides empirical analyses revealing how agent coordination impacts code quality and task success.  
 - Offers insights into interactions between agents that improve collaborative coding performance.
 
-### Method & Results  
+### Method & Results
 - Developed coordination metrics based on interaction patterns, code coherence, and task progress synchronization.  
 - Tested on simulated multi-agent code synthesis tasks using benchmark coding problems and agent frameworks.  
 - Showed up to 25% improvement in code correctness and coherence when agents achieved higher coordination scores.  
 - Coordination metrics outperform generic performance metrics in predicting collaborative success.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances ability to design and evaluate multi-agent AI systems for software development, promoting more reliable and efficient collaborative coding.  
 - Limited evaluation on diverse real-world coding scenarios; future work could explore broader domains and dynamic agent teams.
 
@@ -75705,18 +75705,18 @@ This paper addresses the challenge of improving code generation by integrating t
 #### Executive Summary  
 The paper addresses the lack of standardized benchmark datasets for Modelica models by introducing ModBench, an automated pipeline that mines and curates benchmark datasets from existing Modelica library repositories. This facilitates reproducible evaluation and comparison of modeling and analysis tools. The resulting datasets cover diverse model types, enhancing research rigor in Modelica tool development.
 
-### Key Contributions  
+### Key Contributions
 - Developed ModBench, a novel automated pipeline for mining and building Modelica benchmark datasets from library repositories.  
 - Created the first extensive collection of curated Modelica benchmarks to support evaluation and comparison of Modelica tools.  
 - Demonstrated the utility of ModBench through dataset generation spanning various application domains.
 
-### Method & Results  
+### Method & Results
 - Automated extraction, filtering, and categorization of Modelica models from open-source library repositories using static and semantic analysis techniques.  
 - Tools leveraged include existing Modelica libraries and parsing frameworks integrated into the pipeline.  
 - Generated a diverse benchmark dataset spanning multiple libraries and model complexities; quantitative metrics show improved dataset coverage and representativeness compared to ad hoc selections.  
 - No direct performance baseline comparisons reported, as focus is on dataset creation rather than tool evaluation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables standardized, reproducible benchmarking for Modelica tool developers, promoting fair evaluation and accelerating advances in Modelica modeling and simulation.  
 - Limitations include dependency on the quality and completeness of source repositories; future work may include continuous integration of new libraries and extending coverage to dynamic simulation scenarios.
 
@@ -75759,18 +75759,18 @@ This paper addresses the challenge of coherence debt in large-scale coding tasks
 #### Executive Summary  
 This paper addresses the challenges of traditional requirements engineering (RE) in the context of AI-driven systems, where specification ambiguity and evolving models create conflicts. The authors propose a novel conceptual framework—the Specification Paradox—that rethinks RE practices to accommodate AI’s inherent uncertainty and adaptability. Their approach demonstrates improved alignment between stakeholder needs and system behavior in dynamic AI environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of the Specification Paradox concept highlighting tensions in AI system requirements.  
 - A new iterative framework for adaptive requirements engineering integrating AI model feedback.  
 - Empirical insights into how AI-driven development cycles challenge conventional specification methods.
 
-### Method & Results  
+### Method & Results
 - Developed a conceptual model reformulating RE processes for AI, emphasizing iteration and flexibility.  
 - Case studies using AI system development projects as empirical validation.  
 - Demonstrated a 30% reduction in requirement mismatches and improved stakeholder satisfaction over traditional RE approaches.  
 - Outperformed baseline static specification methods by enhancing specification accuracy and adaptability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Promotes pragmatic RE practices better suited for AI system complexity, supporting more reliable deployment and maintenance.  
 - Limitations include reliance on qualitative validation; future work should involve broader quantitative studies and tool support for automated specification adaptation.
 
@@ -75787,18 +75787,18 @@ This paper addresses the challenges of traditional requirements engineering (RE)
 #### Executive Summary  
 This paper addresses the challenge of secure, ultra-low latency identification in multi-user environments using an optical system paired with event-based cameras. The proposed ECO-ID framework leverages event-camera technology for fast, accurate user identification, achieving superior performance in latency and security compared to conventional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ECO-ID, a novel event-camera-based optical identification system tailored for multi-user scenarios.  
 - Demonstrates ultra-low latency identification using asynchronous event data, significantly reducing response time.  
 - Enhances security through unique optical encoding and event detection mechanisms, resisting common spoofing attacks.
 
-### Method & Results  
+### Method & Results
 - Utilizes asynchronous event camera data combined with specialized optical encoding for user identification.  
 - Experiments conducted on a custom multi-user identification dataset with diverse lighting and user motion patterns.  
 - Achieved identification latency under 10ms with accuracy exceeding 98%.  
 - Outperformed traditional frame-based optical ID systems by reducing latency by over 60% and improving robustness under dynamic conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables real-time, secure access control in scenarios requiring immediate user recognition (e.g., secure facilities, VR/AR interfaces).  
 - Limitations include reliance on controlled optical signaling conditions, with future work to explore robustness in highly cluttered or outdoor environments.  
 - Potential expansion towards integrating biometric data for multi-factor identification.
@@ -75814,18 +75814,18 @@ This paper addresses the challenge of secure, ultra-low latency identification i
 #### Executive Summary  
 This paper addresses the challenge of identifying and quantifying geographically optimized (GEO-Optimized) web content tailored to users’ locations. The authors propose GEO-Flag, a novel detection framework leveraging machine learning and web content analysis to accurately uncover GEO-based content variations. Experiments demonstrate GEO-Flag’s effectiveness in detecting GEO-optimization with high precision across diverse websites.
 
-### Key Contributions  
+### Key Contributions
 - Introduces GEO-Flag, the first automated system for detecting GEO-optimized web content at scale.  
 - Develops novel feature extraction techniques combining geolocation signals and content semantics.  
 - Provides comprehensive measurement study revealing prevalence and patterns of GEO-optimization on the web.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines location-aware crawling, feature-based content representation, and a supervised ML classifier to detect GEO-optimization.  
 - Datasets/Tools: Evaluated on a large-scale dataset of thousands of websites from multiple global locations.  
 - Results: Achieved over 90% accuracy and F1-score in GEO-optimization detection.  
 - Outperforms baseline heuristic methods by 15-25% in precision and recall.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical: Enables better understanding of location-based content delivery, with implications for fairness, privacy, and regulatory compliance.  
 - Limitations/Future Work:  
   - Current focus on desktop web content; mobile and app-based GEO-optimization remain unexplored.  
@@ -75842,18 +75842,18 @@ This paper addresses the challenge of identifying and quantifying geographically
 #### Executive Summary  
 This paper addresses the challenge of inverting face recognition models to recover input facial images from their embeddings. The authors propose a novel gradient-guided flow matching technique to steer the inversion process effectively. Results demonstrate enhanced reconstruction fidelity compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces gradient-guided flow matching as a new approach for model inversion in face recognition.  
 - Demonstrates improved inversion quality preserving identity features from embeddings.  
 - Provides a framework applicable to multiple face recognition architectures without retraining.
 
-### Method & Results  
+### Method & Results
 - Utilizes gradient-guided flow matching to iteratively reconstruct facial images from embeddings by aligning flow fields with model gradients.  
 - Experiments conducted on standard face recognition datasets such as CelebA and LFW.  
 - Achieves higher reconstruction accuracy, with significant improvements in identity similarity metrics over baseline inversion techniques.  
 - Outperforms prior gradient-based inversion and generative model methods in both qualitative and quantitative evaluations.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables deeper understanding and interpretability of face recognition systems, with implications for model security and privacy.  
 - Limitations include potential challenges in generalizing to occluded or low-quality images and computational complexity of flow matching; future work could explore efficiency improvements and broader biometric modalities.
 
@@ -75868,17 +75868,17 @@ This paper addresses the challenge of inverting face recognition models to recov
 #### Executive Summary  
 This paper addresses the challenge of understanding how retrieval-augmented generation (RAG) segments influence the output geometry of large language models (LLMs) in incident log analysis. The authors propose Topological Attribution Distance (TAD), a novel metric leveraging topological data analysis to quantify segment-level influence on LLM outputs. Results demonstrate TAD’s effectiveness in revealing nuanced RAG impacts that traditional methods overlook.
 
-### Key Contributions  
+### Key Contributions
 - Introduced Topological Attribution Distance (TAD) to measure segment-level RAG influence on LLM output geometry.  
 - Applied topological data analysis techniques innovatively within the context of incident log analysis for interpretability.  
 - Demonstrated improved explainability of LLM outputs in RAG settings over existing attribution approaches.
 
-### Method & Results  
+### Method & Results
 - Developed TAD by integrating persistent homology to capture changes in output embeddings caused by RAG segments.  
 - Evaluated on incident log datasets, analyzing the LLM’s response geometry to various segment perturbations.  
 - Quantitatively, TAD provided more granular attribution scores, correlating with known segment importance and outperforming baseline attribution metrics by notable margins (specific values not detailed).  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances interpretability and trust in RAG-powered LLMs for critical incident log analytics, aiding diagnostics and decision-making.  
 - Limitations include reliance on computational overhead of topological computations and potential challenges scaling to extremely large datasets; future work may optimize efficiency and extend to other LLM applications.
 
@@ -75893,18 +75893,18 @@ This paper addresses the challenge of understanding how retrieval-augmented gene
 #### Executive Summary  
 This paper addresses the challenge of detecting DDoS attacks in Operational Technology (OT) networks by proposing a deployment-oriented, resource-efficient neuro-symbolic framework that enhances explainability. The approach integrates symbolic reasoning with neural networks to deliver accurate and interpretable detection while minimizing computational overhead. Experiments demonstrate improved detection accuracy and explanation quality, suitable for real-world OT environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel neuro-symbolic framework tailored for resource-constrained OT network environments.  
 - Achieves explainable DDoS attack detection combining neural learning with symbolic inference.  
 - Demonstrates deployment feasibility with low resource consumption without sacrificing detection performance.
 
-### Method & Results  
+### Method & Results
 - Methodology: Combines lightweight neural models with symbolic rule-based reasoning to detect DDoS patterns and generate human-understandable alerts.  
 - Datasets/Tools: Evaluated on representative OT network traffic datasets simulating operational scenarios.  
 - Results: Achieves accuracy improvements over baseline ML models with up to X% higher detection rates (exact numbers not provided).  
 - Performance: Outperforms traditional black-box classifiers in both resource efficiency and interpretability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enables reliable, explainable, and efficient DDoS detection in OT networks, facilitating trust and real-time deployment.  
 - Limitations/Future Work: Scalability to diverse OT protocols and extended testing under varied attack types remain open challenges. Further optimization for very large-scale deployments is suggested.
 
