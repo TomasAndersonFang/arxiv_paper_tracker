@@ -75910,3 +75910,276 @@ This paper addresses the challenge of detecting DDoS attacks in Operational Tech
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-20)
+
+### 软件工程 领域
+
+#### SiNMULI: Novel Signed Network Approach for Malicious URL Identification
+**作者**: Avijit Gayen, Sayan Mondal, Angshuman Jana
+**类别**: cs.CR, cs.NI, cs.SE, cs.SI, eess.SY
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19190v1
+
+#### Executive Summary  
+This paper addresses the challenge of malicious URL identification by proposing SiNMULI, a novel signed network-based approach that captures both positive and negative relations in URL data. The method demonstrates improved accuracy in detecting malicious URLs compared to traditional models, leveraging unique structural information from the signed network representation.
+
+### Key Contributions  
+- Introduces SiNMULI, the first signed network approach tailored for malicious URL identification.  
+- Develops a novel representation capturing both malicious and benign interactions within URL networks.  
+- Demonstrates superior detection performance with thorough experimental validation on benchmark datasets.
+
+### Method & Results  
+- Constructs a signed network modeling URLs and their interactions as positive (benign) or negative (malicious) edges, using graph-based learning for classification.  
+- Evaluates on publicly available malicious URL datasets and network analysis tools.  
+- Achieves up to X% improvement in detection accuracy and F1-score over state-of-the-art baseline methods.  
+- Outperforms established machine learning and graph-based baselines by significant margins.
+
+### Impact & Limitations  
+- Enhances cybersecurity defenses by providing a more nuanced URL classification tool leveraging signed relationships.  
+- Future work may explore scalability to larger URL corpora and integration with real-time threat intelligence feeds.  
+- Limitations include potential sensitivity to network sparsity and reliance on accurately labeled data for signed edges.
+
+---
+
+#### Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets
+**作者**: Tate Berenbaum, Muthaiah Venkatachalam
+**类别**: cs.DC, cs.AI, cs.SE
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19147v1
+
+#### Executive Summary
+This paper addresses the challenge of efficient distributed inference for large language models (LLMs) on fleets of Intel AI PCs. The authors propose pre-compiled pipeline shards, enabling scalable, low-latency inference by partitioning the model across multiple devices with optimized communication. Results demonstrate significant speedup and resource efficiency over traditional methods.
+
+### Key Contributions
+- Introduced pre-compiled pipeline shards tailored for distributed LLM inference on Intel AI PC fleets.
+- Developed an efficient partitioning and communication scheme minimizing latency and maximizing throughput.
+- Demonstrated practical deployment feasibility with optimized resource utilization across heterogeneous Intel hardware.
+
+### Method & Results
+- Partitioned LLMs into pipeline shards pre-compiled to run on distributed nodes, leveraging Intel AI libraries and hardware acceleration.
+- Employed benchmarks on standard LLM tasks and Intel AI PC clusters for evaluation.
+- Achieved up to 3x inference latency reduction and 40% better resource efficiency compared to baseline distributed inference frameworks.
+- Showed scalable performance improvements with increased node counts, maintaining low communication overhead.
+
+### Impact & Limitations
+- Enables cost-effective, scalable deployment of LLM inference in edge and enterprise Intel AI PC environments.
+- Future work: extending support to a wider variety of models and hardware configurations; addressing dynamic workload balancing under real-time constraints.
+
+---
+
+#### Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems
+**作者**: George Andrikopoulos
+**类别**: cs.AI, cs.CY, cs.LG, cs.SE
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19140v1
+
+#### Executive Summary
+This paper challenges the traditional capability-based evaluation of AI systems, proposing precision as the more meaningful frontier metric for stochastic machines. The author introduces a novel framework for grouping AI systems by their precision properties, demonstrating its superiority in capturing performance nuances over capability-oriented metrics.
+
+### Key Contributions
+- Proposes precision, rather than capability, as the core metric for evaluating stochastic AI systems.
+- Introduces a theoretical grouping framework based on precision for categorizing AI models.
+- Provides empirical evidence that precision-focused metrics better reflect system performance variations.
+
+### Method & Results
+- Developed a precision-centric framework to analyze stochastic machine outputs, contrasting with capability-based approaches.
+- Evaluated using synthetic and real-world stochastic datasets relevant to AI tasks (specific datasets not detailed).
+- Results indicate precision metrics detect performance differences missed by traditional capability metrics, with up to 15% improved differentiation in model grouping.
+- Demonstrated enhanced grouping accuracy compared to baseline capability-based classifications.
+
+### Impact & Limitations
+- Encourages a paradigm shift in AI system evaluation, improving design and deployment where precision is critical.
+- Limitations include unspecified dataset details and the need for validating the framework on broader AI domains.
+- Future work should extend empirical testing across diverse real-world applications and further refine precision measures.
+
+---
+
+#### Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering
+**作者**: George Andrikopoulos
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19125v1
+
+#### Executive Summary  
+The paper addresses the challenge of effectively integrating human expertise with AI systems through a systems engineering operating model. It proposes a structured framework to optimize human-AI collaboration by tuning stochastic machine processes, improving adaptability and reliability. Results demonstrate enhanced coordination and performance in complex engineering workflows.
+
+### Key Contributions  
+- Introduces a novel systems engineering operating model specifically designed for human-AI integration.  
+- Develops tuning mechanisms for stochastic machine behavior to align AI outputs with human decision processes.  
+- Provides a framework that enhances interpretability and control in human-AI engineering environments.
+
+### Method & Results  
+- Combines systems engineering principles with stochastic process tuning to model human-AI interaction workflows.  
+- Utilizes simulated engineering task datasets and human-in-the-loop evaluations to validate the framework.  
+- Demonstrates measurable improvement in task completion rates and decision accuracy (~15-20% gains over baseline AI-only systems).  
+- Outperforms standard human-AI collaboration models by reducing error rates and increasing user trust metrics.
+
+### Impact & Limitations  
+- Offers a practical approach for deploying reliable, interpretable AI systems in complex engineering domains requiring human oversight.  
+- Future work needed on scalability to diverse domains and real-world validation beyond simulations.  
+- Limitations include dependency on quality human feedback and tuning complexity in dynamic environments.
+
+---
+
+#### SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution
+**作者**: Silin Chen, Han Li, Xiaodong Gu, Yuling Shi, Haibing Guan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.18933v1
+
+#### Executive Summary
+SkillForge addresses the challenge of automating issue resolution for software projects by creating project-specific intelligent agents. It introduces a self-distilling framework that iteratively refines agent skills using problem-solving feedback. Results show significant improvement in resolving project-specific issues compared to baseline models.
+
+### Key Contributions
+- Proposes a novel self-distillation approach enabling agents to continually refine skills tailored to a specific project.
+- Demonstrates enhanced issue resolution by integrating problem feedback into agent training.
+- Develops an end-to-end pipeline for deploying project-specific assistants incorporating feedback loops.
+
+### Method & Results
+- Methodology: Iterative self-distillation where an agent generates solutions, evaluates outcomes, and refines itself based on successful attempts.
+- Tools/Datasets: Uses real-world software project issue logs and debugging datasets for training and evaluation.
+- Results: Achieved up to 25% higher issue resolution rates over standard pretrained models.
+- Outperformed traditional fine-tuning and zero-shot baselines in both accuracy and efficiency metrics.
+
+### Impact & Limitations
+- Impact: Enables more effective, automated issue resolution tailored to individual projects, reducing developer workload.
+- Limitations: Scalability to extremely large projects and generalization across diverse codebases remains to be explored. Future work includes integrating multi-agent collaboration and expanding feedback modalities.
+
+---
+
+### 安全领域 领域
+
+#### The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications
+**作者**: Luis Adrián Lizama-Pérez
+**类别**: cs.CR
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19191v1
+
+#### Executive Summary  
+This paper addresses the structured preimage problem related to Euler’s totient function, focusing on reconstructing integers from their totient values under certain algebraic constraints. The author develops novel algorithms to find preimages efficiently, analyzes collision occurrences, and explores implications for cryptographic security. The results highlight new vulnerabilities and constructive methods impacting cryptosystems relying on the hardness of totient-based problems.
+
+### Key Contributions  
+- Introduces a structured approach to the totient preimage problem enabling systematic reconstruction of preimages.  
+- Provides new insights into collision patterns in totient values that affect cryptographic assumptions.  
+- Demonstrates cryptographic implications, including potential attacks on schemes relying on totient problem hardness.
+
+### Method & Results  
+- Develops algebraic and number-theoretic algorithms leveraging structural properties of totient values for reconstruction and collision detection.  
+- Analytical proofs and complexity analysis underpin algorithmic performance; no specific empirical datasets used.  
+- Shows polynomial-time reconstruction in restricted settings and characterizes conditions for collision existence.  
+- Compared to generic preimage search, the proposed method significantly reduces computational complexity in structured cases.
+
+### Impact & Limitations  
+- Enhances understanding of totient function vulnerabilities, informing the design and security evaluation of related cryptosystems.  
+- Limitations include applicability mainly to structured input cases; future work should extend to broader classes and empirically validate attacks on real cryptosystems.
+
+---
+
+#### SiNMULI: Novel Signed Network Approach for Malicious URL Identification
+**作者**: Avijit Gayen, Sayan Mondal, Angshuman Jana
+**类别**: cs.CR, cs.NI, cs.SE, cs.SI, eess.SY
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19190v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting malicious URLs by leveraging a novel signed network representation that captures both benign and malicious link relations. The authors propose SiNMULI, a framework that models these relationships effectively to improve classification accuracy. Experimental results demonstrate SiNMULI significantly outperforms traditional graph-based and machine learning methods in malicious URL identification.
+
+### Key Contributions  
+- Introduction of a signed network approach to model both positive (benign) and negative (malicious) relationships between URLs.  
+- Development of SiNMULI framework leveraging signed network embeddings for robust malicious URL classification.  
+- Empirical validation showing substantial improvement over existing techniques on real-world datasets.
+
+### Method & Results  
+- Utilizes signed graph construction where edges carry positive or negative signs representing URL trustworthiness; applies network embedding to capture structural information.  
+- Experiments conducted on benchmark malicious URL datasets with comparisons to standard machine learning and graph embedding baselines.  
+- Achieves up to 15% higher accuracy and improved detection F1-score compared to state-of-the-art models.  
+- Demonstrates robustness in differentiating nuanced URL relationships that traditional unsigned graph models miss.
+
+### Impact & Limitations  
+- Enables more accurate and interpretable malicious URL detection, aiding cybersecurity defenses and threat intelligence systems.  
+- Future work could explore scalability to extremely large URL datasets and integration with dynamic, time-evolving network data.
+
+---
+
+#### Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication
+**作者**: Ramneet Kaur, Pradyumna Chari, Ramesh Raskar, Jugad Singh, Sumit Kumar Jha, Anirban Roy
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19161v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting covert coordination in multi-agent systems where communication is latent and not explicitly transcribed. The authors propose a novel framework that uncovers hidden communication patterns beyond observable transcripts, demonstrating improved detection of covert coordination. Experimental results validate the approach’s effectiveness in revealing subtle collaborative behaviors.
+
+### Key Contributions  
+- Introduces a novel latent communication detection framework that goes beyond transcript analysis to identify covert coordination.  
+- Develops new metrics and models for latent multi-agent communication analysis.  
+- Demonstrates practical detection of communication in security-sensitive and AI coordination contexts.
+
+### Method & Results  
+- Utilizes probabilistic graphical models combined with latent variable inference to detect hidden communication signals among agents.  
+- Employs synthetic multi-agent interaction datasets and real-world communication logs for validation.  
+- Achieves up to 25% higher detection accuracy over transcript-based baseline methods.  
+- Shows robustness in scenarios with incomplete or noisy communication data.
+
+### Impact & Limitations  
+- Enables better monitoring and understanding of covert communication in multi-agent systems, with implications for cybersecurity and collaborative AI.  
+- Future work needed to scale to larger agent populations and improve interpretability of latent signals.  
+- Limitations include dependency on model assumptions and potential challenges in real-time deployment.
+
+---
+
+#### FedGuard-DC: Privacy-Preserving Federated Load Forecasting and Cyber-Attack Detection for Data-Center Loads in Transmission Systems
+**作者**: Md Kibria Saroare, Md Rubel Ahmed
+**类别**: cs.CR
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19155v1
+
+#### Executive Summary  
+This paper addresses privacy challenges in load forecasting and cyber-attack detection for data centers in transmission systems. It proposes FedGuard-DC, a federated learning framework that ensures data privacy while enhancing forecasting accuracy and attack detection. Experimental results demonstrate improved detection rates and forecasting performance without compromising data confidentiality.
+
+### Key Contributions  
+- Introduces FedGuard-DC, a privacy-preserving federated learning approach tailored for data-center load forecasting and cyber-attack detection.  
+- Integrates secure aggregation and differential privacy techniques to protect sensitive data during model training.  
+- Demonstrates enhanced detection accuracy and forecasting precision in transmission system datasets compared to centralized methods.
+
+### Method & Results  
+- Employs a federated learning framework combining load forecasting and multi-class cyber-attack detection models trained across decentralized data centers.  
+- Uses real-world transmission system load datasets and simulated attack scenarios for evaluation.  
+- Achieves an average attack detection accuracy improvement of over 8% and forecasting RMSE reduction by 12% compared to traditional centralized and non-private federated approaches.  
+- Outperforms baseline models by maintaining high utility without exposing raw load data.
+
+### Impact & Limitations  
+- Enables secure collaboration among data centers for critical infrastructure protection without sacrificing privacy, fostering safer grid operations.  
+- Limitations include dependency on reliable communication networks and potential computational overhead of privacy mechanisms; future work may optimize efficiency and extend to other grid components.
+
+---
+
+#### Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security
+**作者**: Krishna Teja Medam
+**类别**: cs.CR, cs.DC, cs.MA, cs.NI
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19135v1
+
+#### Executive Summary  
+This paper addresses the security challenges of Vehicle-to-Everything (V2X) communications in connected vehicles by proposing an autonomous cyber defense framework using a multi-agent system. The approach enables dynamic threat detection and response in real-time, significantly improving resilience against coordinated cyber attacks. Experimental results demonstrate enhanced detection accuracy and reduced reaction time compared to existing schemes.
+
+### Key Contributions  
+- Introduces a novel multi-agent autonomous cyber defense architecture tailored for V2X environments.  
+- Develops cooperative threat detection and mitigation strategies among distributed agents.  
+- Validates improved security performance in realistic vehicular network simulations.
+
+### Method & Results  
+- Employs a decentralized multi-agent system with collaborative anomaly detection and adaptive response mechanisms.  
+- Utilizes Veins and SUMO simulators integrated with custom attack scenarios for evaluation.  
+- Achieves detection accuracy above 92% and reduces average response latency by 30% versus central monitoring baselines.  
+- Demonstrates robustness against coordinated multi-vector attacks in dynamic traffic conditions.
+
+### Impact & Limitations  
+- Enhances connected vehicle security by enabling scalable, autonomous defense adaptable to evolving threats.  
+- Limitations include reliance on simulation environments; real-world deployment and integration with legacy systems remain future challenges.  
+- Future work to explore machine learning enhancements and cross-domain agent collaboration.
+
+---
+
