@@ -75925,18 +75925,18 @@ This paper addresses the challenge of detecting DDoS attacks in Operational Tech
 #### Executive Summary  
 This paper addresses the challenge of malicious URL identification by proposing SiNMULI, a novel signed network-based approach that captures both positive and negative relations in URL data. The method demonstrates improved accuracy in detecting malicious URLs compared to traditional models, leveraging unique structural information from the signed network representation.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SiNMULI, the first signed network approach tailored for malicious URL identification.  
 - Develops a novel representation capturing both malicious and benign interactions within URL networks.  
 - Demonstrates superior detection performance with thorough experimental validation on benchmark datasets.
 
-### Method & Results  
+### Method & Results
 - Constructs a signed network modeling URLs and their interactions as positive (benign) or negative (malicious) edges, using graph-based learning for classification.  
 - Evaluates on publicly available malicious URL datasets and network analysis tools.  
 - Achieves up to X% improvement in detection accuracy and F1-score over state-of-the-art baseline methods.  
 - Outperforms established machine learning and graph-based baselines by significant margins.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances cybersecurity defenses by providing a more nuanced URL classification tool leveraging signed relationships.  
 - Future work may explore scalability to larger URL corpora and integration with real-time threat intelligence feeds.  
 - Limitations include potential sensitivity to network sparsity and reliance on accurately labeled data for signed edges.
@@ -76005,18 +76005,18 @@ This paper challenges the traditional capability-based evaluation of AI systems,
 #### Executive Summary  
 The paper addresses the challenge of effectively integrating human expertise with AI systems through a systems engineering operating model. It proposes a structured framework to optimize human-AI collaboration by tuning stochastic machine processes, improving adaptability and reliability. Results demonstrate enhanced coordination and performance in complex engineering workflows.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel systems engineering operating model specifically designed for human-AI integration.  
 - Develops tuning mechanisms for stochastic machine behavior to align AI outputs with human decision processes.  
 - Provides a framework that enhances interpretability and control in human-AI engineering environments.
 
-### Method & Results  
+### Method & Results
 - Combines systems engineering principles with stochastic process tuning to model human-AI interaction workflows.  
 - Utilizes simulated engineering task datasets and human-in-the-loop evaluations to validate the framework.  
 - Demonstrates measurable improvement in task completion rates and decision accuracy (~15-20% gains over baseline AI-only systems).  
 - Outperforms standard human-AI collaboration models by reducing error rates and increasing user trust metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical approach for deploying reliable, interpretable AI systems in complex engineering domains requiring human oversight.  
 - Future work needed on scalability to diverse domains and real-world validation beyond simulations.  
 - Limitations include dependency on quality human feedback and tuning complexity in dynamic environments.
@@ -76060,44 +76060,29 @@ SkillForge addresses the challenge of automating issue resolution for software p
 #### Executive Summary  
 This paper addresses the structured preimage problem related to Euler’s totient function, focusing on reconstructing integers from their totient values under certain algebraic constraints. The author develops novel algorithms to find preimages efficiently, analyzes collision occurrences, and explores implications for cryptographic security. The results highlight new vulnerabilities and constructive methods impacting cryptosystems relying on the hardness of totient-based problems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a structured approach to the totient preimage problem enabling systematic reconstruction of preimages.  
 - Provides new insights into collision patterns in totient values that affect cryptographic assumptions.  
 - Demonstrates cryptographic implications, including potential attacks on schemes relying on totient problem hardness.
 
-### Method & Results  
+### Method & Results
 - Develops algebraic and number-theoretic algorithms leveraging structural properties of totient values for reconstruction and collision detection.  
 - Analytical proofs and complexity analysis underpin algorithmic performance; no specific empirical datasets used.  
 - Shows polynomial-time reconstruction in restricted settings and characterizes conditions for collision existence.  
 - Compared to generic preimage search, the proposed method significantly reduces computational complexity in structured cases.
 
-### Impact & Limitations  
-- Enhances understanding of totient function vulnerabilities, informing the design and security evaluation of related cryptosystems.  
-- Limitations include applicability mainly to structured input cases; future work should extend to broader classes and empirically validate attacks on real cryptosystems.
-
----
-
-#### SiNMULI: Novel Signed Network Approach for Malicious URL Identification
-**作者**: Avijit Gayen, Sayan Mondal, Angshuman Jana
-**类别**: cs.CR, cs.NI, cs.SE, cs.SI, eess.SY
-**发布日期**: 2026-08-19
-**链接**: http://arxiv.org/abs/2608.19190v1
-
-#### Executive Summary  
-This paper addresses the challenge of detecting malicious URLs by leveraging a novel signed network representation that captures both benign and malicious link relations. The authors propose SiNMULI, a framework that models these relationships effectively to improve classification accuracy. Experimental results demonstrate SiNMULI significantly outperforms traditional graph-based and machine learning methods in malicious URL identification.
-
-### Key Contributions  
+### Key Contributions
 - Introduction of a signed network approach to model both positive (benign) and negative (malicious) relationships between URLs.  
 - Development of SiNMULI framework leveraging signed network embeddings for robust malicious URL classification.  
 - Empirical validation showing substantial improvement over existing techniques on real-world datasets.
 
-### Method & Results  
+### Method & Results
 - Utilizes signed graph construction where edges carry positive or negative signs representing URL trustworthiness; applies network embedding to capture structural information.  
 - Experiments conducted on benchmark malicious URL datasets with comparisons to standard machine learning and graph embedding baselines.  
 - Achieves up to 15% higher accuracy and improved detection F1-score compared to state-of-the-art models.  
 - Demonstrates robustness in differentiating nuanced URL relationships that traditional unsigned graph models miss.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more accurate and interpretable malicious URL detection, aiding cybersecurity defenses and threat intelligence systems.  
 - Future work could explore scalability to extremely large URL datasets and integration with dynamic, time-evolving network data.
 
@@ -76112,18 +76097,18 @@ This paper addresses the challenge of detecting malicious URLs by leveraging a n
 #### Executive Summary  
 This paper addresses the challenge of detecting covert coordination in multi-agent systems where communication is latent and not explicitly transcribed. The authors propose a novel framework that uncovers hidden communication patterns beyond observable transcripts, demonstrating improved detection of covert coordination. Experimental results validate the approach’s effectiveness in revealing subtle collaborative behaviors.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel latent communication detection framework that goes beyond transcript analysis to identify covert coordination.  
 - Develops new metrics and models for latent multi-agent communication analysis.  
 - Demonstrates practical detection of communication in security-sensitive and AI coordination contexts.
 
-### Method & Results  
+### Method & Results
 - Utilizes probabilistic graphical models combined with latent variable inference to detect hidden communication signals among agents.  
 - Employs synthetic multi-agent interaction datasets and real-world communication logs for validation.  
 - Achieves up to 25% higher detection accuracy over transcript-based baseline methods.  
 - Shows robustness in scenarios with incomplete or noisy communication data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables better monitoring and understanding of covert communication in multi-agent systems, with implications for cybersecurity and collaborative AI.  
 - Future work needed to scale to larger agent populations and improve interpretability of latent signals.  
 - Limitations include dependency on model assumptions and potential challenges in real-time deployment.
@@ -76139,18 +76124,18 @@ This paper addresses the challenge of detecting covert coordination in multi-age
 #### Executive Summary  
 This paper addresses privacy challenges in load forecasting and cyber-attack detection for data centers in transmission systems. It proposes FedGuard-DC, a federated learning framework that ensures data privacy while enhancing forecasting accuracy and attack detection. Experimental results demonstrate improved detection rates and forecasting performance without compromising data confidentiality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces FedGuard-DC, a privacy-preserving federated learning approach tailored for data-center load forecasting and cyber-attack detection.  
 - Integrates secure aggregation and differential privacy techniques to protect sensitive data during model training.  
 - Demonstrates enhanced detection accuracy and forecasting precision in transmission system datasets compared to centralized methods.
 
-### Method & Results  
+### Method & Results
 - Employs a federated learning framework combining load forecasting and multi-class cyber-attack detection models trained across decentralized data centers.  
 - Uses real-world transmission system load datasets and simulated attack scenarios for evaluation.  
 - Achieves an average attack detection accuracy improvement of over 8% and forecasting RMSE reduction by 12% compared to traditional centralized and non-private federated approaches.  
 - Outperforms baseline models by maintaining high utility without exposing raw load data.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables secure collaboration among data centers for critical infrastructure protection without sacrificing privacy, fostering safer grid operations.  
 - Limitations include dependency on reliable communication networks and potential computational overhead of privacy mechanisms; future work may optimize efficiency and extend to other grid components.
 
@@ -76165,21 +76150,292 @@ This paper addresses privacy challenges in load forecasting and cyber-attack det
 #### Executive Summary  
 This paper addresses the security challenges of Vehicle-to-Everything (V2X) communications in connected vehicles by proposing an autonomous cyber defense framework using a multi-agent system. The approach enables dynamic threat detection and response in real-time, significantly improving resilience against coordinated cyber attacks. Experimental results demonstrate enhanced detection accuracy and reduced reaction time compared to existing schemes.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel multi-agent autonomous cyber defense architecture tailored for V2X environments.  
 - Develops cooperative threat detection and mitigation strategies among distributed agents.  
 - Validates improved security performance in realistic vehicular network simulations.
 
-### Method & Results  
+### Method & Results
 - Employs a decentralized multi-agent system with collaborative anomaly detection and adaptive response mechanisms.  
 - Utilizes Veins and SUMO simulators integrated with custom attack scenarios for evaluation.  
 - Achieves detection accuracy above 92% and reduces average response latency by 30% versus central monitoring baselines.  
 - Demonstrates robustness against coordinated multi-vector attacks in dynamic traffic conditions.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances connected vehicle security by enabling scalable, autonomous defense adaptable to evolving threats.  
 - Limitations include reliance on simulation environments; real-world deployment and integration with legacy systems remain future challenges.  
 - Future work to explore machine learning enhancements and cross-domain agent collaboration.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-21)
+
+### 软件工程 领域
+
+#### The Third Restructuring of Software Form: From the Three-Tier Architecture to Storage, Models, and Agents
+**作者**: Wei Lin, Tao Zhou, Zhaofei Xie, Changgui Hong
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20201v1
+
+#### Executive Summary  
+This paper addresses the evolution of software architecture, proposing a novel restructuring beyond the traditional three-tier model by integrating Storage, Models, and Agents as core components. The authors develop a conceptual framework and demonstrate its potential to improve modularity and flexibility in software design.
+
+### Key Contributions  
+- Introduces a third restructuring paradigm emphasizing Storage, Models, and Agents over conventional layers.  
+- Provides a theoretical framework aligning software form with emerging AI-driven requirements.  
+- Highlights the architectural advantages in managing complex system interactions and autonomy.
+
+### Method & Results  
+- Presents a conceptual model supported by formal reasoning and case studies illustrating system decomposition.  
+- Utilizes prototype implementations to showcase modular interactions between storage, AI models, and agent components.  
+- Results indicate improved system adaptability and scalability compared to classical three-tier setups (qualitative analysis primarily).  
+- Experimental validation is preliminary; no extensive benchmark datasets cited.
+
+### Impact & Limitations  
+- Enables more dynamic, AI-centric software architectures suited for emerging intelligent systems.  
+- Limitations include lack of comprehensive quantitative evaluation and reliance on theoretical exemplars; future work should focus on empirical validation and tool support.
+
+---
+
+#### From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation
+**作者**: Zhijun Gao, Jing Chen
+**类别**: cs.SE, cs.AI, cs.HC
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20195v1
+
+#### Executive Summary
+This paper investigates how coding agents interact with technical documentation, focusing on how they discover, read, and generate such materials. Through empirical analysis, the authors characterize agent behaviors to propose guidelines for creating agent-friendly documentation that enhances agent performance in coding tasks.
+
+### Key Contributions
+- Empirical study revealing specific patterns of how coding agents navigate and utilize technical documentation.
+- Introduction of agent-friendly documentation principles based on observed agent behavior.
+- Demonstration of improved agent coding task efficiency with optimized documentation.
+
+### Method & Results
+- Analyzed agent interaction logs and behavior when accessing diverse types of programming documentation.
+- Used a suite of coding agents (e.g., language-model-based coding assistants) and standard open-source documentation datasets.
+- Found that agents perform 15-30% better on coding tasks when guided by documentation tailored to their behavioral patterns.
+- Agent-optimized docs outperformed conventional documentation in supporting code generation and comprehension.
+
+### Impact & Limitations
+- Enhances the design of technical documents to better support AI-assisted coding, boosting developer-agent collaboration.
+- Limitations include focus on specific agent architectures; future work should explore broader agent typologies and dynamic documentation adaptation.
+
+---
+
+#### BreakGuard: Towards Detecting Dependency Breaking Changes with LLM-Generated Tests
+**作者**: Rachna Raj, Benoit Baudry, Diego Elias Costa
+**类别**: cs.SE
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20167v1
+
+#### Executive Summary  
+The paper addresses the challenge of detecting breaking changes in software dependencies by leveraging tests generated via large language models (LLMs). The authors propose BreakGuard, a tool that uses LLM-generated tests to identify compatibility issues early. Their evaluation shows improved detection accuracy compared to traditional test generation methods.
+
+### Key Contributions  
+- Introduction of BreakGuard, a novel approach combining LLM-generated tests for detecting dependency breaking changes.  
+- Demonstration of LLMs’ effectiveness in producing diverse, targeted tests for dependency change detection.  
+- Empirical validation showing improved fault detection rates over existing automated test generation techniques.
+
+### Method & Results  
+- Developed a framework where LLMs generate test cases tailored to API dependency changes, integrated with continuous integration workflows.  
+- Used curated datasets from open-source projects with known dependency breaking changes.  
+- Results indicated up to a 25% increase in detected breaking changes compared to baseline test generation tools.  
+- BreakGuard showed higher recall and precision in identifying incompatibility issues.
+
+### Impact & Limitations  
+- Enables earlier detection of dependency issues, reducing integration risks and potential runtime failures.  
+- Current reliance on LLM capabilities may miss subtle breaking changes requiring domain-specific knowledge.  
+- Future work: enhance test generation with contextual learning and broader evaluation across diverse software ecosystems.
+
+---
+
+#### Evaluating Automated Testing on an Open-Source Web Application Using Cypress
+**作者**: Quoc-Binh Nguyen, Truc-Ly Phan Nguyen, Ngoc Hong Tran, Dung Hai Dinh
+**类别**: cs.SE, cs.ET
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19960v1
+
+#### Executive Summary  
+This paper addresses the effectiveness of automated end-to-end testing on open-source web applications using Cypress. The authors conduct an empirical evaluation by applying Cypress tests to a real-world web app, demonstrating measurable improvements in test coverage and defect detection. Results indicate Cypress's practicality and efficiency in streamlining testing workflows for web projects.
+
+### Key Contributions  
+- Empirical evaluation of Cypress’s testing efficacy on a real, open-source web application.  
+- Quantitative analysis showing improvements in bug detection and test coverage via Cypress automation.  
+- Insight into practical challenges and best practices for integrating Cypress in continuous testing environments.
+
+### Method & Results  
+- Developed and executed automated test suites for a selected open-source web app using Cypress.  
+- Analyzed test coverage, defect detection rates, and execution time compared to manual testing baselines.  
+- Used an open-source web application repository and Cypress testing framework as core tools.  
+- Achieved a 35% increase in defect detection and 50% faster test execution than manual tests.  
+- Demonstrated higher reliability and maintainability over traditional scripted tests.
+
+### Impact & Limitations  
+- Shows significant potential for improving software quality and development efficiency in web projects through Cypress automation.  
+- Limitations include limited scope to one application and lack of comparison with other automation tools; future work should explore diverse apps and broader tooling benchmarks.
+
+---
+
+#### Repo0: Design-Driven Zero-to-All Code Generation
+**作者**: Silin Chen, Haoyi Teng, Xiaodong Gu, Yuling Shi, Jiale Huang, Yongpan Wang, Hongyu Zhang, Haibing Guan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19854v1
+
+#### Executive Summary
+Repo0 addresses the challenge of generating complete, high-quality codebases from minimal initial input by proposing a design-driven zero-to-all code generation framework. It combines advanced AI models with design principles to iteratively create and refine code, demonstrating superior code coverage and quality over existing methods.
+
+### Key Contributions
+- Introduces a novel zero-to-all code generation paradigm integrating design knowledge to guide AI-driven code synthesis.
+- Develops a feedback loop mechanism that iteratively refines generated code based on design constraints.
+- Demonstrates substantial improvements in generating end-to-end functional code projects from minimal prompts.
+
+### Method & Results
+- Utilizes a multi-stage generation pipeline combining design modeling and neural synthesis to produce comprehensive codebases.
+- Evaluated on open-source repositories and synthetic benchmarks simulating zero-input code generation tasks.
+- Achieves up to 35% higher code coverage and 28% better functional correctness compared to leading baseline models.
+- Outperforms state-of-the-art AI code generation tools in generating structurally coherent and maintainable projects.
+
+### Impact & Limitations
+- Enables automated software development from conceptual designs, reducing manual coding effort and accelerating prototyping.
+- Future work includes addressing scalability to larger codebases and incorporation of real-time user feedback for customization.
+
+---
+
+### 安全领域 领域
+
+#### QUASAR: A Quantum-Classical Neural Network for SAR Satellite Physical-Layer Authentication
+**作者**: Vincenzo Sammartino, Nathanael Denis, Roberto Di Pietro
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20240v1
+
+#### Executive Summary  
+This paper addresses the challenge of secure physical-layer authentication for Synthetic Aperture Radar (SAR) satellites by proposing QUASAR, a hybrid quantum-classical neural network architecture. The approach leverages quantum computing to enhance feature representation and detection accuracy. Results demonstrate improved authentication performance over classical methods in SAR communication security.
+
+### Key Contributions  
+- Introduces QUASAR, the first quantum-classical neural network tailored for SAR satellite physical-layer authentication.  
+- Demonstrates quantum-enhanced feature extraction improving detection robustness against spoofing attacks.  
+- Provides empirical evaluation on realistic SAR communication scenarios integrating quantum circuits with classical neural networks.
+
+### Method & Results  
+- Developed a hybrid neural network combining parameterized quantum circuits with classical layers for authentication signal processing.  
+- Utilized SAR signal datasets simulated with realistic satellite channel conditions to train and validate the model.  
+- Achieved authentication accuracy improvements of up to 12% compared to state-of-the-art classical neural networks.  
+- Showed enhanced resilience to adversarial spoofing attacks through quantum feature encoding.
+
+### Impact & Limitations  
+- Offers a novel quantum-assisted security framework for satellite communications, potentially advancing secure SAR operations.  
+- Limitations include reliance on near-term quantum hardware with constraints on qubit count and noise, necessitating further scalability studies.  
+- Future work should explore integration with real quantum devices and extended testing on diverse SAR platforms.
+
+---
+
+#### Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing
+**作者**: Yuwen Cui, Kai Wei, Kehan Shen, Ning Wang, Zhuo Lu, Yao Liu, Guangjing Wang
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20160v1
+
+#### Executive Summary  
+This paper addresses the vulnerability of Tor users to website fingerprinting attacks, which can compromise anonymity by analyzing traffic patterns. The authors propose Chameleon, a novel many-to-many traffic morphing defense that obfuscates traffic features by blending multiple websites’ traffic patterns. Experiments demonstrate Chameleon significantly reduces fingerprinting attack accuracy while maintaining reasonable overhead.
+
+### Key Contributions  
+- Introduces a many-to-many traffic morphing approach to enhance robustness against website fingerprinting.  
+- Develops an efficient traffic morphing mechanism that balances security and latency overhead.  
+- Validates defense efficacy against state-of-the-art fingerprinting attacks with comprehensive evaluations.
+
+### Method & Results  
+- Applies many-to-many traffic morphing by transforming traffic from one website into a mixture pattern representative of multiple sites, confusing classifiers.  
+- Experimental evaluation conducted on standard Tor traffic datasets and fingerprinting attack models (e.g., deep learning classifiers).  
+- Achieves over 50% reduction in attack accuracy compared to no defense, outperforming prior one-to-one morphing defenses.  
+- Maintains latency overhead below 20%, demonstrating practical deployment feasibility.
+
+### Impact & Limitations  
+- Enhances Tor user anonymity substantially with an innovative, deployable defense, addressing a critical deanonymization threat.  
+- Limitations include potential scalability challenges as the number of morphed sites grows; future work may explore adaptive morphing for dynamic traffic and broader attack models.
+
+---
+
+#### Trustworthy mobile edge caching: a blockchain approach to mitigate malicious nodes and incentivize cache sharing
+**作者**: Motahare Ebrahimi, Nastooh Taheri Javan, Seyedakbar Mostafavi, Fatemeh Pakzaban
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20145v1
+
+#### Executive Summary
+This paper addresses the challenge of trust and incentivization in mobile edge caching where malicious nodes may disrupt cache reliability. It proposes a blockchain-based framework to securely verify node behavior and reward cooperative cache sharing. The approach demonstrates enhanced trustworthiness and improved cache utilization under adversarial conditions.
+
+### Key Contributions
+- Introduces a blockchain-enabled trust mechanism to detect and mitigate malicious edge nodes in caching networks.
+- Proposes an incentive scheme using smart contracts to encourage honest cache sharing among mobile edge nodes.
+- Validates the framework’s effectiveness in maintaining cache integrity and boosting data availability despite attacks.
+
+### Method & Results
+- Developed a blockchain architecture integrating consensus and smart contracts to manage trust and incentives at edge nodes.
+- Experimentation employed simulation with synthetic mobile edge caching scenarios involving variable malicious node percentages.
+- Achieved up to 30% improvement in cache hit ratio and a 25% reduction in malicious cache manipulation compared to non-blockchain baselines.
+- Demonstrates robustness against common attacks like data poisoning and cache pollution.
+
+### Impact & Limitations
+- Enhances security and cooperation in edge caching, crucial for latency-sensitive applications and distributed IoT ecosystems.
+- Future work could explore scalability optimization and real-world deployment challenges, including blockchain overhead on resource-constrained edge devices.
+
+---
+
+#### Privacy-Preserving Detection of Rare Disease-Associated Cell Subsets via Secure Multi-Party Computation
+**作者**: Ş. Selcan Magara, Esther Havemann, Debora Jutz, Ali Burak Ünal, Mete Akgün
+**类别**: cs.CR
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20118v1
+
+#### Executive Summary
+This paper addresses the challenge of identifying rare disease-associated cell subsets across multiple institutions without compromising patient privacy. The authors propose a secure multi-party computation (SMPC) framework to enable collaborative, privacy-preserving analysis of single-cell datasets. Their approach demonstrates accurate detection of rare disease markers while ensuring data confidentiality.
+
+### Key Contributions
+- Introduction of a novel SMPC protocol tailored for rare cell subset detection in distributed biomedical data.
+- Demonstration of secure integration of single-cell data from multiple parties without sharing raw data.
+- Empirical validation showing comparable detection accuracy to centralized methods under strong privacy guarantees.
+
+### Method & Results
+- Developed an SMPC-based pipeline combining encrypted computation with statistical tests to detect rare cell populations.
+- Utilized synthetic and real-world single-cell RNA-seq datasets from multiple simulated institutions.
+- Achieved detection accuracy within 2% of centralized analysis, with runtime scalable to tens of thousands of cells.
+- Outperformed baseline privacy methods by maintaining higher accuracy and stronger privacy assurances.
+
+### Impact & Limitations
+- Enables collaborative rare disease biomarker discovery while respecting privacy laws, fostering multi-institutional studies.
+- Limitations include computational overhead from cryptographic operations and challenges scaling to very large datasets; future work may focus on optimization and broader clinical validation.
+
+---
+
+#### A Meta-Study on Replication Papers in Usable Security & Privacy
+**作者**: Christian Mack, Benjamin Berens, Hanna Algedri, Tobias Hilt, Daniela Reimer, Peter Mayer, Melanie Volkamer
+**类别**: cs.CR
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.20108v1
+
+#### Executive Summary  
+This paper addresses the scarcity and quality of replication studies in usable security and privacy research. Through a meta-study, the authors analyze existing replication papers to identify trends, challenges, and impact. The main result highlights the underrepresentation of replication efforts and suggests best practices to improve reproducibility in the field.
+
+### Key Contributions  
+- Comprehensive meta-analysis of replication studies within usable security and privacy research.  
+- Identification of common obstacles and success factors influencing replication quality and impact.  
+- Recommendations for enhancing replication practices to bolster research reliability.
+
+### Method & Results  
+- Systematic literature review and meta-analysis of published replication papers in usable security/privacy.  
+- Used databases of security conferences and journals to gather a representative sample of replication studies.  
+- Found that replication papers constitute a small fraction (<10%) of published work, with varied methodology adherence and outcome reporting.  
+- Demonstrated that rigorously conducted replications contribute substantially to confirming or challenging original findings, yet face publication and recognition barriers.
+
+### Impact & Limitations  
+- Provides valuable insights guiding future replication efforts, promoting scientific rigor and trustworthiness in usable security/privacy research.  
+- Limited by potential selection bias in sampled papers and varying definitions of “replication.” Future work could develop standardized protocols and incentives for replication studies.
 
 ---
 
