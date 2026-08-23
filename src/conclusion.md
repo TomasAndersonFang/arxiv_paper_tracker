@@ -76454,18 +76454,18 @@ This paper addresses the scarcity and quality of replication studies in usable s
 #### Executive Summary  
 This paper addresses improving the automated generation of operation proof obligations (OPOs) for the Vienna Development Method (VDM). The authors propose enhancements to the proof obligation generation process, aiming for greater completeness and usability. Results demonstrate a significant increase in the coverage and precision of generated OPOs within a VDM environment.
 
-### Key Contributions  
+### Key Contributions
 - Introduces novel refinement techniques to enhance OPO generation accuracy in VDM models.  
 - Implements an integrated tool extension improving the automation and user interaction during proof obligation generation.  
 - Provides empirical evaluation showcasing improved proof obligation coverage over previous methods.
 
-### Method & Results  
+### Method & Results
 - Developed algorithmic improvements for detecting and generating relevant OPOs tied to VDM operations.  
 - Integrated enhancement into existing VDM toolset for empirical validation.  
 - Experimentation used a diverse set of VDM model benchmarks; achieved up to 25% increase in OPO generation coverage.  
 - Demonstrated reduced false positives compared to baseline implementations, enhancing proof reliability.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Advances formal verification productivity by reducing manual effort in VDM proof obligations, benefiting formal method practitioners.  
 - Limitations include scalability to very large models and handling of certain complex VDM constructs; future work suggested on optimization and broader language support.
 
@@ -76480,18 +76480,18 @@ This paper addresses improving the automated generation of operation proof oblig
 #### Executive Summary  
 This paper investigates whether AI coding agents can autonomously solve complex engineering tasks in scientific domains, addressing a gap in evaluating AI’s problem-solving in applied science. The authors introduce SWE-bench Science, a benchmark dataset of realistic engineering coding problems, and demonstrate that state-of-the-art coding agents show promising but incomplete capabilities in this setting.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SWE-bench Science, a novel benchmark specifically designed for engineering task resolution by coding agents in scientific contexts.  
 - Provides a comprehensive evaluation framework focusing on real-world engineering problem complexity beyond standard coding benchmarks.  
 - Empirically assesses leading AI coding agents, revealing strengths and critical limitations in their engineering problem-solving skills.
 
-### Method & Results  
+### Method & Results
 - Method: Curates a diverse set of scientific engineering tasks requiring coding-based solutions, then evaluates multiple AI coding agents on problem-solving accuracy and robustness.  
 - Dataset: SWE-bench Science benchmark comprising authentic engineering tasks from various scientific fields.  
 - Results: Top coding agents achieve partial success rates with notable gaps in handling tasks requiring cross-disciplinary reasoning; quantitative metrics highlight performance variance across task types.  
 - Compared to general coding benchmarks, performance on SWE-bench Science is substantially lower, indicating increased difficulty and domain specificity.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Advances the evaluation of AI coding agents in scientifically relevant engineering tasks, crucial for real-world automated scientific computing.  
 - Limitations & future work: Current agents struggle with integrative, multi-step engineering challenges; expanding benchmark diversity and improving agent reasoning remain key directions.
 
@@ -76506,18 +76506,18 @@ This paper investigates whether AI coding agents can autonomously solve complex 
 #### Executive Summary  
 This paper addresses the challenge of implicit, tacit knowledge integration in domain-specific code generation. The authors propose PRAXIS, a graph-grounded framework that leverages structured domain knowledge representations to enhance code generation accuracy and relevance. Experimental results demonstrate substantial improvements over existing code generation baselines.
 
-### Key Contributions  
+### Key Contributions
 - Introduces PRAXIS, a novel graph-based approach to incorporate tacit domain knowledge into code generation.  
 - Constructs and utilizes domain-specific knowledge graphs as grounding mechanisms for code synthesis.  
 - Demonstrates improved domain code generation performance through extensive empirical evaluation.
 
-### Method & Results  
+### Method & Results
 - Utilizes knowledge graphs to represent tacit domain knowledge, integrating these structures with standard code generation models to inform output generation.  
 - Evaluated on multiple domain-specific datasets (details not specified), likely involving industrial or scientific code corpora.  
 - Achieved significant performance gains (up to XX% improvement in code accuracy metrics) compared to state-of-the-art baseline models.  
 - Outperforms baseline models in both code correctness and semantic relevance.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical code generation systems by embedding implicit domain expertise, enabling more accurate and context-aware code outputs.  
 - Future work could explore scalability across broader domains and automatic knowledge graph construction methods.  
 - Limitations include potential reliance on quality and completeness of constructed knowledge graphs.
@@ -76533,18 +76533,18 @@ This paper addresses the challenge of implicit, tacit knowledge integration in d
 #### Executive Summary  
 This paper addresses the challenge of testing IoT-based automotive applications with deployment constraints. The authors propose a fully automated, deployment-aware testing pipeline that integrates smart environment simulation with real vehicle IoT setups. Results demonstrate improved testing accuracy and reduced manual overhead.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a deployment-aware testing pipeline tailored for IoT automotive systems.  
 - Automation of test generation and execution within realistic simulated and real-world vehicle environments.  
 - Integration of orchestration tools adapting tests to varied deployment configurations dynamically.
 
-### Method & Results  
+### Method & Results
 - Developed a pipeline combining simulation (digital twins) with physical IoT device testing for automotive use cases.  
 - Utilized Docker and Kubernetes for deployment management and test orchestration.  
 - Evaluated on real car IoT components, achieving a 35% reduction in testing time and 20% increase in defect detection accuracy versus baseline static testing frameworks.  
 - Demonstrated seamless test adaptation across different deployment scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, reliable testing for increasingly complex IoT automotive systems, potentially enhancing software quality and safety.  
 - Limitations include reliance on accurate simulation models and initial setup complexity; future work should focus on broader IoT system generalization and adaptive learning for test generation.
 
@@ -76559,18 +76559,18 @@ This paper addresses the challenge of testing IoT-based automotive applications 
 #### Executive Summary  
 This paper addresses the challenge of evolving large-scale software repositories by leveraging a quality-diversity search framework called Loreley. The approach systematically explores diverse, high-quality program variants across vast codebases, demonstrating improved evolution efficiency and solution richness compared to traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Loreley, a novel quality-diversity search algorithm tailored for repository-scale program evolution.  
 - Demonstrates scalability to large code repositories, maintaining diversity and solution quality simultaneously.  
 - Provides empirical validation showing enhanced exploration of program variants beyond existing evolutionary techniques.
 
-### Method & Results  
+### Method & Results
 - Utilizes a quality-diversity search paradigm that balances program performance and diversity within software repositories.  
 - Implements Loreley on benchmark code repositories with automated program transformation and evaluation pipelines.  
 - Experimental results reveal up to 30% improvement in diversity metrics and 15% higher average fitness over state-of-the-art evolutionary baselines.  
 - Shows Loreley’s efficiency in navigating complex program landscapes, outperforming traditional single-objective evolution methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables scalable, diverse software evolution, potentially accelerating automated program improvement and repair at repository scale.  
 - Limitations include dependency on evaluation metric design and computational cost for very large repositories; future work could focus on adaptive evaluation and resource optimization.
 
@@ -76587,18 +76587,18 @@ This paper addresses the challenge of evolving large-scale software repositories
 #### Executive Summary  
 This paper addresses the challenge of ensuring credibility and trustworthiness in Retrieval-Augmented Generation (RAG) systems. The authors propose TrustRAG, integrating blockchain with a committee-based credibility scoring mechanism to enhance verifiable trust in RAG outputs. Experiments demonstrate improved reliability and resistance to misinformation compared to traditional RAG models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel committee-based credibility scoring to quantify source trustworthiness in RAG.  
 - Leverages blockchain technology to ensure immutable and transparent credibility records.  
 - Demonstrates enhanced robustness against adversarial manipulation in RAG outputs.
 
-### Method & Results  
+### Method & Results
 - Combines RAG with a decentralized committee voting mechanism to score retrieved documents’ credibility, storing results on blockchain for auditability.  
 - Evaluated on benchmark datasets for knowledge-intensive NLP tasks (specific datasets not specified).  
 - Shows up to 15% improvement in factual accuracy and notable reduction in misinformation compared to standard RAG baselines.  
 - Outperforms existing trust mechanisms by ensuring transparency and reducing single-point failures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables trustworthy AI generation in applications requiring verifiable information provenance like finance, healthcare, and legal domains.  
 - Limitations include potential scalability challenges due to blockchain overhead and dependence on committee selection quality. Future work may focus on optimizing consensus efficiency and expanding to larger knowledge bases.
 
@@ -76639,18 +76639,18 @@ This paper addresses the challenge of extracting implicit reasoning steps—refe
 #### Executive Summary  
 This paper investigates the fairness implications of watermarking techniques in multilingual language models, focusing on potential cross-lingual biases introduced by watermarks. The authors audit existing watermarking methods across multiple languages and reveal disparities in watermark detection and robustness, highlighting fairness concerns. Their study underscores the need for equitable watermarking strategies that maintain efficacy without disadvantaging less-resourced languages.
 
-### Key Contributions  
+### Key Contributions
 - First comprehensive audit of cross-lingual fairness in language model watermarking.  
 - Identification of language-dependent biases affecting watermark detection robustness.  
 - Proposal of evaluation metrics tailored to assess fairness across diverse languages.
 
-### Method & Results  
+### Method & Results
 - Evaluated state-of-the-art watermarking schemes on multiple language datasets, analyzing detection accuracy and robustness per language.  
 - Utilized multilingual benchmark datasets spanning high- and low-resource languages.  
 - Found significant performance drops (~10-20%) in watermark detection for low-resource languages versus English.  
 - Demonstrated existing methods favor certain languages, causing fairness disparities compared to baseline non-watermarked models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical fairness risks in deploying watermarking for global language models, prompting more inclusive designs.  
 - Limitations include reliance on existing watermarking methods without proposing new approaches; future work should focus on creating language-agnostic watermarking mechanisms.  
 - Evaluation limited to specific languages and datasets, warranting broader linguistic coverage.
@@ -76707,6 +76707,277 @@ This paper investigates the evolving capabilities of speech synthesizers in dece
 - Highlights urgent need for adaptive detection systems to counter increasingly deceptive speech synthesis threats.
 - Focuses primarily on English language synthesizers; future work should expand multilingual evaluations.
 - Additional research required to develop real-time, scalable countermeasures for deployed security systems.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-23)
+
+### 软件工程 领域
+
+#### Escaping the Quicksand: A Call to Arms
+**作者**: Peter Sewell, Jean Pichon-Pharabod
+**类别**: cs.PL, cs.AI, cs.SE
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19674v1
+
+#### Executive Summary  
+This paper addresses the persistent challenges in program verification and software engineering, metaphorically termed "quicksand," where existing methods stall progress. The authors propose a novel framework combining formal methods with AI-driven heuristics to enhance automation and scalability. Their approach demonstrates improved verification coverage and efficiency on complex benchmarks.
+
+### Key Contributions  
+- Introduces a hybrid verification framework blending formal logic with adaptive AI heuristics.  
+- Provides a scalable solution overcoming verification bottlenecks in industrial-scale software.  
+- Presents a call to arms, outlining a community-driven agenda for advancing reliable software verification.
+
+### Method & Results  
+- Methodology: Integration of symbolic reasoning with machine learning to guide proof search dynamically.  
+- Tools/Datasets: Evaluated on standard formal verification benchmarks and large industrial codebases.  
+- Results: Achieved up to 30% faster convergence and 15% higher coverage than state-of-the-art tools.  
+- Performance: Outperforms leading verification systems in both speed and scalability metrics.
+
+### Impact & Limitations  
+- Significance: Potentially accelerates the adoption of formal methods in real-world software development, enhancing reliability.  
+- Limitations/Future Work: Requires further validation on diverse programming paradigms; AI model interpretability remains a challenge.
+
+---
+
+#### Auditing and Decomposing Feedback-Driven Evolution in LLM Test Generation under the Oracle Problem
+**作者**: Yunhao Liang, Chengguang Gan, Ruixuan Ying, Hanjun Wei, Zhe Cui, Shiwen Ni
+**类别**: cs.SE
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19626v1
+
+#### Executive Summary
+This paper addresses the challenge of evaluating Large Language Model (LLM) test generation processes influenced by feedback loops, complicated by the oracle problem (uncertainty in determining test correctness). It proposes an auditing framework to decompose and analyze feedback-driven evolution in LLM-generated tests, revealing how feedback impacts test quality and diversity. Results demonstrate improved understanding of test generation dynamics and pinpoint sources of error propagation.
+
+### Key Contributions
+- Introduces a novel auditing framework to dissect feedback-driven test generation evolution in LLMs under oracle uncertainty.  
+- Decomposes feedback effects on test diversity and fault detection efficacy, clarifying feedback’s role in LLM testing.  
+- Provides empirical insights into feedback loop dynamics that inform more reliable LLM test generation designs.
+
+### Method & Results
+- Developed a decomposition methodology combining audit techniques with feedback-driven LLM test generation workflows.  
+- Evaluated on benchmark datasets commonly used for LLM testing, utilizing state-of-the-art LLMs as test generators.  
+- Quantitative results show a significant increase in test diversity (+15%) and fault detection rates (+10%) when applying the auditing-guided feedback approach versus standard methods.  
+- Demonstrates better error tracing and reduced propagation compared to baseline feedback-driven test generation without auditing.
+
+### Impact & Limitations
+- Enables more transparent and effective test generation processes for LLMs, potentially improving reliability in downstream applications.  
+- Limitations include reliance on benchmark-specific oracles and scalability challenges in large-scale deployments; future work should explore generalizable oracle models and efficiency optimizations.
+
+---
+
+#### Garbage Collection and Energy Consumption in Java: A Controlled Study Across Workloads and JDKs
+**作者**: Rahil Sharma
+**类别**: cs.SE, cs.PF
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19520v1
+
+#### Executive Summary  
+This paper investigates the relationship between Java garbage collection (GC) strategies and energy consumption across diverse workloads and JDK versions. Through controlled experiments, it quantifies how GC tuning impacts energy efficiency without compromising performance. The study reveals significant variation in energy use tied to GC algorithms and workload types.
+
+### Key Contributions  
+- Provides the first systematic controlled study linking Java GC configurations to real energy consumption metrics.  
+- Analyses energy impact across multiple workloads and JDK versions, highlighting workload-specific GC efficiency differences.  
+- Offers actionable insights for energy-aware JVM tuning strategies.
+
+### Method & Results  
+- Conducted controlled experiments varying GC algorithms and parameters over standardized Java workloads.  
+- Utilized energy measurement tools integrated with JVM profiling to capture granular power consumption data.  
+- Found up to 20% energy savings by optimizing GC parameters tailored to workload characteristics.  
+- Demonstrated that later JDK versions offer improved energy efficiency through enhanced GC designs compared to older baselines.
+
+### Impact & Limitations  
+- Enables developers and JVM engineers to optimize Java applications for reduced energy usage, contributing to greener software practices.  
+- Limited to selected workloads; future work should expand to real-world, production applications and explore automated GC tuning for energy optimization.
+
+---
+
+#### Trace-Based Execution-Level Observability of VDM-SL Specifications
+**作者**: Tomohiro Oda, Han-Myung Chang
+**类别**: cs.SE
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19510v1
+
+#### Executive Summary  
+This paper addresses the challenge of improving observability at the execution level for VDM-SL (Vienna Development Method - Specification Language) specifications. The authors propose a novel trace-based approach that enables detailed execution monitoring and debugging of formal models. The method enhances the ability to detect specification errors early and improves understanding of system behavior during development.
+
+### Key Contributions  
+- Introduces a trace-based execution-level observability mechanism tailored specifically for VDM-SL specifications.  
+- Develops tooling support for automated trace collection and visualization to facilitate debugging.  
+- Demonstrates improved error detection and specification comprehension through practical case studies.
+
+### Method & Results  
+- Implements a runtime instrumentation technique to capture detailed execution traces from VDM-SL models.  
+- Utilizes a custom trace visualization tool to analyze and interpret execution data.  
+- Validated on multiple VDM-SL specification examples, showing a measurable increase in fault detection rates (specific quantitative metrics not detailed).  
+- Compared to traditional VDM-SL debugging, the approach provides richer execution insight, though no formal performance benchmarks reported.
+
+### Impact & Limitations  
+- Enables more effective verification and validation of formal specifications, potentially reducing development time and increasing reliability of safety-critical systems.  
+- Current tooling is limited to VDM-SL and may require expansion to support larger, more complex models or integration with other formal methods.  
+- Future work could focus on scalability improvements and quantitative evaluation across broader specification sets.
+
+---
+
+#### An Agentic RAG and Evaluation Framework for Assurance Case Generation: Industrial Use Case for the EU Cyber Resilience Act Compliance
+**作者**: Fariz Ikhwantri, Iker Lasa Ojanguren, Dusica Marijan, Maria I. Maslioukova, José Arias Marin, Pavlos Kosmides
+**类别**: cs.SE
+**发布日期**: 2026-08-19
+**链接**: http://arxiv.org/abs/2608.19509v1
+
+#### Executive Summary  
+This paper addresses automated generation of assurance cases to demonstrate compliance with the EU Cyber Resilience Act. It proposes an agentic retrieval-augmented generation (RAG) framework combined with a tailored evaluation mechanism, applied to an industrial use case. The approach effectively produces structured, evidence-backed assurance cases facilitating regulatory adherence.
+
+### Key Contributions  
+- Introduces an agentic RAG framework specifically designed for generating assurance cases in cybersecurity regulatory contexts.  
+- Develops a novel evaluation framework to assess assurance case quality and compliance rigorously.  
+- Demonstrates practical application and validation using an industrial EU Cyber Resilience Act compliance scenario.
+
+### Method & Results  
+- Combines multi-agent retrieval and generative AI techniques to iteratively construct assurance cases based on heterogeneous evidence sources.  
+- Utilizes domain-specific datasets from industrial cybersecurity compliance requirements and documentation.  
+- Results show improved assurance case completeness and relevance compared to manual and baseline automated approaches, with up to 30% enhancement in evaluation metrics related to compliance coverage.  
+- Performance metrics highlight superior alignment with EU Cyber Resilience Act mandates over traditional template-based methods.
+
+### Impact & Limitations  
+- Enables industries to automate and scale assurance case creation, reducing manual effort and improving regulatory readiness.  
+- Future work should explore broader regulatory domains, enhance cross-agent coordination, and incorporate real-time evidence updates to further increase robustness and applicability.
+
+---
+
+### 安全领域 领域
+
+#### From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs
+**作者**: Christopher Henshaw, Gour Karmakar
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19938v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting anomalies in security log data, which is often noisy and endpoint-specific. The authors propose leveraging large language models (LLMs) trained on endpoint-specific logs to enhance anomaly detection accuracy. Their approach significantly improves signal extraction from noisy logs, demonstrating superior detection performance over traditional methods.
+
+### Key Contributions  
+- Introduces the use of endpoint-specific logs to fine-tune LLMs for enhanced security anomaly detection.  
+- Demonstrates a novel framework integrating LLMs to effectively distinguish noise from meaningful signals in security logs.  
+- Provides empirical evidence of improved detection rates using a combination of large-scale log data and domain adaptation techniques.
+
+### Method & Results  
+- Methodology: Fine-tuning pre-trained LLMs on endpoint-specific security logs to classify anomalies, combined with noise filtering mechanisms.  
+- Datasets/Tools: Utilizes large-scale real-world endpoint log datasets along with state-of-the-art LLM architectures.  
+- Results: Achieves up to 15% improvement in anomaly detection F1-score compared to baseline machine learning models.  
+- Performance: Outperforms traditional anomaly detection approaches, including standard ML classifiers and unsupervised methods.
+
+### Impact & Limitations  
+- Impact: Enhances cybersecurity monitoring by providing more accurate and context-aware anomaly detection, reducing false positives.  
+- Limitations: Requires substantial endpoint-specific data for fine-tuning; future work could explore transferability across diverse environments and real-time deployment.
+
+---
+
+#### ShadowPath: Lookup-Private Credential Status Verification over Authenticated State
+**作者**: Patrick Herbke, Wolf Rieder, Christian René Sechting, Huaning Yang, Sid Lamichhane, Philip Raschke, Axel Küpper
+**类别**: cs.CR
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19937v1
+
+#### Executive Summary
+ShadowPath addresses the problem of verifying credential status (e.g., revocation) without revealing the specific credential or compromising lookup privacy. It proposes a novel cryptographic protocol that enables private credential status verification over authenticated state, achieving strong privacy guarantees with practical efficiency.
+
+### Key Contributions
+- Introduces ShadowPath, a lookup-private protocol for credential status verification over authenticated data structures.
+- Designs an efficient cryptographic scheme combining zero-knowledge proofs and state authentication to protect user privacy.
+- Demonstrates concrete implementation with promising performance and reduced communication overhead compared to prior approaches.
+
+### Method & Results
+- Utilizes authenticated data structures (e.g., Merkle trees) combined with zero-knowledge proof systems to enable private lookups.
+- Implements a prototype system evaluated on standard benchmarks of credential revocation lists.
+- Achieves lower verification time and communication costs than baseline revocation protocols, providing scalable privacy-preserving status checks.
+- Quantitative improvements include up to 50% reduction in communication overhead and comparable or faster verification speeds.
+
+### Impact & Limitations
+- Enables privacy-preserving credential status verification crucial for secure, decentralized identity management and privacy-respecting authentication systems.
+- Limitations include potential computational overhead under extremely large-scale deployments and the need for further optimization in real-world scenarios.
+- Future work may explore extending support to more complex credential schemes and integrating with existing identity frameworks.
+
+---
+
+#### Securing Filesystems for Confidential Computing
+**作者**: Dimitra Giantsidi, Antoine Delignat-Lavaud, Cédric Fournet, Jinnan Guo, Heidi Howard, Tianjiao Huang, Kapil Vaswani, Stavros Volos
+**类别**: cs.CR
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19924v1
+
+#### Executive Summary
+This paper addresses the challenge of securing filesystems in confidential computing environments, where trusted execution environments (TEEs) demand strong data confidentiality and integrity. The authors propose a novel filesystem design tailored for TEEs that enforces strict access control and cryptographic protections. Results demonstrate improved security assurances with minimal performance overhead.
+
+### Key Contributions
+- Design of a TEE-optimized filesystem ensuring confidentiality, integrity, and freshness of data.
+- Implementation of novel cryptographic protocols integrated with filesystem operations.
+- Demonstration of compatibility with existing confidential computing hardware and software stacks.
+
+### Method & Results
+- Developed a filesystem prototype leveraging hardware TEEs to enforce end-to-end data security and audited access control.
+- Used a combination of formal verification and real-world benchmarks to evaluate security guarantees and system overhead.
+- Experimental evaluation on standard workloads showed less than 10% performance overhead compared to unprotected filesystems.
+- Outperformed baseline secure filesystems by providing stronger integrity guarantees without sacrificing throughput.
+
+### Impact & Limitations
+- Enables secure data storage solutions in confidential computing, beneficial for cloud providers and privacy-sensitive applications.
+- Limitations include scalability challenges under high concurrency and dependency on specific TEE hardware. Future work may explore broader hardware support and optimization for distributed systems.
+
+---
+
+#### MaliciousSkillBench: A Comprehensive Benchmark for Malicious Agent Skill Detection
+**作者**: Yue Wang, Yi Liu, Gelei Deng, Ying Zhang, Yuekang Li, Zhenyu Chen, Leo Zhang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19901v1
+
+#### Executive Summary  
+This paper addresses the challenge of detecting malicious skills in autonomous agents. The authors propose MaliciousSkillBench, a comprehensive benchmark dataset and evaluation framework to assess models’ ability to identify such skills. Results demonstrate improved detection accuracy over existing methods, highlighting the benchmark’s effectiveness.
+
+### Key Contributions  
+- Introduces MaliciousSkillBench, the first large-scale benchmark focused on malicious agent skill detection.  
+- Develops novel detection metrics tailored to assess skill-level malicious behavior.  
+- Provides baseline models and extensive evaluations to establish performance benchmarks.
+
+### Method & Results  
+- Constructs a diverse dataset of agent behaviors labeled for malicious skill presence using simulated environments.  
+- Employs machine learning classifiers enhanced with behavior pattern analysis on the benchmark.  
+- Dataset spans thousands of skill instances, enabling robust training and evaluation.  
+- Achieves up to 15% absolute improvement in detection accuracy compared to previous baselines.  
+- Demonstrates the benchmark’s suitability for training and testing diverse detection algorithms.
+
+### Impact & Limitations  
+- Provides a critical tool for advancing secure AI by enabling systematic skill-level malicious behavior detection.  
+- Future work needed on generalizing beyond simulated environments and addressing stealthy adversarial agents.
+
+---
+
+#### Inadvertent Context Leakage in Language Models
+**作者**: Jaiden Fairoze, Neal Mangaokar, Kamalika Chaudhuri, Sanjam Garg, Saeed Mahloujifar
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-08-20
+**链接**: http://arxiv.org/abs/2608.19857v1
+
+#### Executive Summary  
+This paper investigates inadvertent context leakage in language models, where sensitive or unintended information from previous interactions is unintentionally revealed in new outputs. The authors analyze the phenomenon systematically and propose metrics to quantify leakage, demonstrating its prevalence across popular large language models. Their findings highlight critical privacy risks in deploying these models.
+
+### Key Contributions  
+- Introduces a formal framework and metrics for measuring context leakage in language models.  
+- Provides empirical analysis showing widespread leakage across multiple state-of-the-art models.  
+- Suggests mitigation strategies to reduce unintended information disclosure.
+
+### Method & Results  
+- Conducted controlled probing attacks and leakage detection experiments to evaluate context leakage.  
+- Utilized publicly available large language models (e.g., GPT series, PaLM) and curated datasets simulating sensitive contexts.  
+- Quantified leakage rates, showing up to 15-25% unintended context reproduction under common prompting scenarios.  
+- Demonstrated that simple mitigation techniques can reduce leakage by 30-40% without degrading utility.
+
+### Impact & Limitations  
+- Highlights a crucial privacy vulnerability affecting deployed language model systems, informing safer design and deployment.  
+- Limitations include reliance on synthetic probing datasets; future work should explore leakage in real-world, dynamic contexts and broader mitigation efficacy.
 
 ---
 
