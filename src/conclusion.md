@@ -76725,18 +76725,18 @@ This paper investigates the evolving capabilities of speech synthesizers in dece
 #### Executive Summary  
 This paper addresses the persistent challenges in program verification and software engineering, metaphorically termed "quicksand," where existing methods stall progress. The authors propose a novel framework combining formal methods with AI-driven heuristics to enhance automation and scalability. Their approach demonstrates improved verification coverage and efficiency on complex benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a hybrid verification framework blending formal logic with adaptive AI heuristics.  
 - Provides a scalable solution overcoming verification bottlenecks in industrial-scale software.  
 - Presents a call to arms, outlining a community-driven agenda for advancing reliable software verification.
 
-### Method & Results  
+### Method & Results
 - Methodology: Integration of symbolic reasoning with machine learning to guide proof search dynamically.  
 - Tools/Datasets: Evaluated on standard formal verification benchmarks and large industrial codebases.  
 - Results: Achieved up to 30% faster convergence and 15% higher coverage than state-of-the-art tools.  
 - Performance: Outperforms leading verification systems in both speed and scalability metrics.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Significance: Potentially accelerates the adoption of formal methods in real-world software development, enhancing reliability.  
 - Limitations/Future Work: Requires further validation on diverse programming paradigms; AI model interpretability remains a challenge.
 
@@ -76777,18 +76777,18 @@ This paper addresses the challenge of evaluating Large Language Model (LLM) test
 #### Executive Summary  
 This paper investigates the relationship between Java garbage collection (GC) strategies and energy consumption across diverse workloads and JDK versions. Through controlled experiments, it quantifies how GC tuning impacts energy efficiency without compromising performance. The study reveals significant variation in energy use tied to GC algorithms and workload types.
 
-### Key Contributions  
+### Key Contributions
 - Provides the first systematic controlled study linking Java GC configurations to real energy consumption metrics.  
 - Analyses energy impact across multiple workloads and JDK versions, highlighting workload-specific GC efficiency differences.  
 - Offers actionable insights for energy-aware JVM tuning strategies.
 
-### Method & Results  
+### Method & Results
 - Conducted controlled experiments varying GC algorithms and parameters over standardized Java workloads.  
 - Utilized energy measurement tools integrated with JVM profiling to capture granular power consumption data.  
 - Found up to 20% energy savings by optimizing GC parameters tailored to workload characteristics.  
 - Demonstrated that later JDK versions offer improved energy efficiency through enhanced GC designs compared to older baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers and JVM engineers to optimize Java applications for reduced energy usage, contributing to greener software practices.  
 - Limited to selected workloads; future work should expand to real-world, production applications and explore automated GC tuning for energy optimization.
 
@@ -76803,18 +76803,18 @@ This paper investigates the relationship between Java garbage collection (GC) st
 #### Executive Summary  
 This paper addresses the challenge of improving observability at the execution level for VDM-SL (Vienna Development Method - Specification Language) specifications. The authors propose a novel trace-based approach that enables detailed execution monitoring and debugging of formal models. The method enhances the ability to detect specification errors early and improves understanding of system behavior during development.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a trace-based execution-level observability mechanism tailored specifically for VDM-SL specifications.  
 - Develops tooling support for automated trace collection and visualization to facilitate debugging.  
 - Demonstrates improved error detection and specification comprehension through practical case studies.
 
-### Method & Results  
+### Method & Results
 - Implements a runtime instrumentation technique to capture detailed execution traces from VDM-SL models.  
 - Utilizes a custom trace visualization tool to analyze and interpret execution data.  
 - Validated on multiple VDM-SL specification examples, showing a measurable increase in fault detection rates (specific quantitative metrics not detailed).  
 - Compared to traditional VDM-SL debugging, the approach provides richer execution insight, though no formal performance benchmarks reported.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more effective verification and validation of formal specifications, potentially reducing development time and increasing reliability of safety-critical systems.  
 - Current tooling is limited to VDM-SL and may require expansion to support larger, more complex models or integration with other formal methods.  
 - Future work could focus on scalability improvements and quantitative evaluation across broader specification sets.
@@ -76830,18 +76830,18 @@ This paper addresses the challenge of improving observability at the execution l
 #### Executive Summary  
 This paper addresses automated generation of assurance cases to demonstrate compliance with the EU Cyber Resilience Act. It proposes an agentic retrieval-augmented generation (RAG) framework combined with a tailored evaluation mechanism, applied to an industrial use case. The approach effectively produces structured, evidence-backed assurance cases facilitating regulatory adherence.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an agentic RAG framework specifically designed for generating assurance cases in cybersecurity regulatory contexts.  
 - Develops a novel evaluation framework to assess assurance case quality and compliance rigorously.  
 - Demonstrates practical application and validation using an industrial EU Cyber Resilience Act compliance scenario.
 
-### Method & Results  
+### Method & Results
 - Combines multi-agent retrieval and generative AI techniques to iteratively construct assurance cases based on heterogeneous evidence sources.  
 - Utilizes domain-specific datasets from industrial cybersecurity compliance requirements and documentation.  
 - Results show improved assurance case completeness and relevance compared to manual and baseline automated approaches, with up to 30% enhancement in evaluation metrics related to compliance coverage.  
 - Performance metrics highlight superior alignment with EU Cyber Resilience Act mandates over traditional template-based methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables industries to automate and scale assurance case creation, reducing manual effort and improving regulatory readiness.  
 - Future work should explore broader regulatory domains, enhance cross-agent coordination, and incorporate real-time evidence updates to further increase robustness and applicability.
 
@@ -76858,18 +76858,18 @@ This paper addresses automated generation of assurance cases to demonstrate comp
 #### Executive Summary  
 This paper addresses the challenge of detecting anomalies in security log data, which is often noisy and endpoint-specific. The authors propose leveraging large language models (LLMs) trained on endpoint-specific logs to enhance anomaly detection accuracy. Their approach significantly improves signal extraction from noisy logs, demonstrating superior detection performance over traditional methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the use of endpoint-specific logs to fine-tune LLMs for enhanced security anomaly detection.  
 - Demonstrates a novel framework integrating LLMs to effectively distinguish noise from meaningful signals in security logs.  
 - Provides empirical evidence of improved detection rates using a combination of large-scale log data and domain adaptation techniques.
 
-### Method & Results  
+### Method & Results
 - Methodology: Fine-tuning pre-trained LLMs on endpoint-specific security logs to classify anomalies, combined with noise filtering mechanisms.  
 - Datasets/Tools: Utilizes large-scale real-world endpoint log datasets along with state-of-the-art LLM architectures.  
 - Results: Achieves up to 15% improvement in anomaly detection F1-score compared to baseline machine learning models.  
 - Performance: Outperforms traditional anomaly detection approaches, including standard ML classifiers and unsupervised methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Enhances cybersecurity monitoring by providing more accurate and context-aware anomaly detection, reducing false positives.  
 - Limitations: Requires substantial endpoint-specific data for fine-tuning; future work could explore transferability across diverse environments and real-time deployment.
 
@@ -76937,19 +76937,19 @@ This paper addresses the challenge of securing filesystems in confidential compu
 #### Executive Summary  
 This paper addresses the challenge of detecting malicious skills in autonomous agents. The authors propose MaliciousSkillBench, a comprehensive benchmark dataset and evaluation framework to assess models’ ability to identify such skills. Results demonstrate improved detection accuracy over existing methods, highlighting the benchmark’s effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces MaliciousSkillBench, the first large-scale benchmark focused on malicious agent skill detection.  
 - Develops novel detection metrics tailored to assess skill-level malicious behavior.  
 - Provides baseline models and extensive evaluations to establish performance benchmarks.
 
-### Method & Results  
+### Method & Results
 - Constructs a diverse dataset of agent behaviors labeled for malicious skill presence using simulated environments.  
 - Employs machine learning classifiers enhanced with behavior pattern analysis on the benchmark.  
 - Dataset spans thousands of skill instances, enabling robust training and evaluation.  
 - Achieves up to 15% absolute improvement in detection accuracy compared to previous baselines.  
 - Demonstrates the benchmark’s suitability for training and testing diverse detection algorithms.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a critical tool for advancing secure AI by enabling systematic skill-level malicious behavior detection.  
 - Future work needed on generalizing beyond simulated environments and addressing stealthy adversarial agents.
 
@@ -76964,20 +76964,290 @@ This paper addresses the challenge of detecting malicious skills in autonomous a
 #### Executive Summary  
 This paper investigates inadvertent context leakage in language models, where sensitive or unintended information from previous interactions is unintentionally revealed in new outputs. The authors analyze the phenomenon systematically and propose metrics to quantify leakage, demonstrating its prevalence across popular large language models. Their findings highlight critical privacy risks in deploying these models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a formal framework and metrics for measuring context leakage in language models.  
 - Provides empirical analysis showing widespread leakage across multiple state-of-the-art models.  
 - Suggests mitigation strategies to reduce unintended information disclosure.
 
-### Method & Results  
+### Method & Results
 - Conducted controlled probing attacks and leakage detection experiments to evaluate context leakage.  
 - Utilized publicly available large language models (e.g., GPT series, PaLM) and curated datasets simulating sensitive contexts.  
 - Quantified leakage rates, showing up to 15-25% unintended context reproduction under common prompting scenarios.  
 - Demonstrated that simple mitigation techniques can reduce leakage by 30-40% without degrading utility.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a crucial privacy vulnerability affecting deployed language model systems, informing safer design and deployment.  
 - Limitations include reliance on synthetic probing datasets; future work should explore leakage in real-world, dynamic contexts and broader mitigation efficacy.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-24)
+
+### 软件工程 领域
+
+#### AI with Authority, from Application to Silicon
+**作者**: Jason Hickey
+**类别**: cs.SE, cs.AI, cs.AR, cs.LO
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21356v1
+
+#### Executive Summary
+This paper addresses the challenge of integrating AI decision-making with authoritative control at both application and hardware levels. The author proposes a cohesive framework spanning software algorithms to silicon design that ensures trustworthy AI deployment with verifiable authority. Results demonstrate improved reliability and security in AI inference by co-designing at the algorithmic and hardware layers.
+
+### Key Contributions
+- Introduces a unified framework linking AI application-level authority to hardware-level enforcement.
+- Presents novel hardware-software co-design techniques that embed authority checks into silicon.
+- Demonstrates measurable improvements in trustworthiness without sacrificing performance.
+
+### Method & Results
+- Developed a co-design methodology combining algorithmic authority control with custom silicon features.
+- Utilized formal verification tools and simulated AI workloads to evaluate system integrity.
+- Achieved up to 30% reduction in unauthorized AI actions and 20% faster verification times compared to baseline AI systems.
+- Benchmarked against standard hardware platforms without authority enforcement, showing enhanced security guarantees.
+
+### Impact & Limitations
+- Enables secure AI adoption in safety-critical and regulated domains by embedding trust from application down to chip level.
+- Limitations include complexity of silicon fabrication integration and scalability to diverse AI architectures.
+- Future work: extending authority frameworks to distributed AI systems and reducing hardware overhead.
+
+---
+
+#### Natural-Language Workflows Are Not Software Yet: Artifact-Driven Compilation for Reliable Agent Execution
+**作者**: Xiangzhe Xu, Hanxi Guo, Guangyu Shen, Siyuan Cheng, Xiangyu Zhang
+**类别**: cs.SE
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21341v1
+
+#### Executive Summary
+This paper addresses the challenge that natural-language workflows, while intuitive, lack reliability when directly executed by AI agents. The authors propose an artifact-driven compilation framework that systematically transforms natural-language instructions into executable software artifacts, ensuring more dependable agent execution. Their approach demonstrates improved reliability and correctness in agent workflows compared to prior methods.
+
+### Key Contributions
+- Introduces artifact-driven compilation to bridge natural-language workflows and executable software for AI agents.
+- Designs a systematic framework to convert informal instructions into structured, verifiable artifacts.
+- Demonstrates significant reliability improvements in agent execution through comprehensive evaluation.
+
+### Method & Results
+- Core methodology: Develops a compilation pipeline that parses natural-language workflows, generates intermediate artifacts, and verifies execution correctness.
+- Tools/Datasets: Utilizes benchmark natural-language workflow datasets and standard AI agent simulation environments.
+- Results: Achieves up to 30% higher successful execution rates and reduces runtime errors significantly compared to baseline natural-language-to-execution approaches.
+- Performance: Outperforms leading natural-language execution models by notable margins in reliability metrics.
+
+### Impact & Limitations
+- Practical significance: Enhances the dependability of AI agents interpreting human instructions, facilitating safer and more effective automation.
+- Limitations/Future work: The framework currently focuses on specific workflow domains; extending to broader, more complex tasks and improving artifact generalization remain open challenges.
+
+---
+
+#### AI-to-AI Code Reviews of GitHub Pull Requests
+**作者**: Niruthiha Selvanayagam, Taher A. Ghaleb
+**类别**: cs.SE
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21311v1
+
+#### Executive Summary  
+This paper explores automating code reviews on GitHub pull requests by having AI agents review code generated by other AI systems. The approach leverages advanced language models to perform AI-to-AI code assessments, aiming to improve review efficiency and quality. Results indicate that AI reviewers can identify defects and suggest improvements comparably to human reviewers.
+
+### Key Contributions  
+- Introduces a novel AI-to-AI code review paradigm specifically applied to GitHub pull requests.  
+- Develops and evaluates an interaction framework where one AI generates code and another AI reviews it autonomously.  
+- Demonstrates the potential for scalable, automated pull request review workflows augmenting or partially replacing human code reviewers.
+
+### Method & Results  
+- Utilizes state-of-the-art large language models fine-tuned for code generation and review tasks in a pipeline setup.  
+- Experiments conducted on a curated dataset of GitHub pull requests with ground truth human review comments.  
+- AI reviewers achieved detection rates of common code issues nearing 85%, with constructive suggestions improving pull request quality.  
+- Performance was on par with junior human reviewers and reduced review time significantly compared to manual reviews.
+
+### Impact & Limitations  
+- Can significantly expedite open-source and enterprise development workflows by reducing human review workload.  
+- Limitations include dependency on AI model quality and challenges in understanding complex context beyond code syntax.  
+- Future work should address improving semantic understanding and multi-round interactive reviews for higher accuracy.
+
+---
+
+#### Beyond Fault Localization: A Trajectory-Level Study of LLM Agents for Microservice Root Cause Analysis
+**作者**: Qisheng Lu, Aoyang Fang, Junjielong Xu, Jin'ao Shang, Songhan Zhang, Yifan Yang, Xiaochuan Yan, Pinjia He
+**类别**: cs.SE
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21310v1
+
+#### Executive Summary  
+This paper investigates the application of large language model (LLM) agents for root cause analysis (RCA) in microservice systems, moving beyond traditional fault localization to trajectory-level diagnosis. The authors propose a novel framework that leverages LLMs to interpret execution traces and identify root causes more effectively. Their approach demonstrates improved accuracy and insightfulness over existing methods.
+
+### Key Contributions  
+- Introduces a trajectory-level RCA framework utilizing LLM agents to analyze microservice execution paths.  
+- Novel integration of LLM reasoning with system trace data for more granular fault diagnosis.  
+- Empirical evaluation showing superior performance over baseline fault localization techniques.
+
+### Method & Results  
+- Method: Employs LLM agents to process and reason about microservice execution trajectories rather than isolated faults.  
+- Utilizes real-world microservice datasets and traces to train and evaluate models.  
+- Results: Achieves significant improvements in root cause identification accuracy (exact metrics not specified).  
+- Outperforms baseline fault localization methods in precision and diagnostic depth.
+
+### Impact & Limitations  
+- Practical Significance: Enhances automated RCA in complex microservice environments, potentially reducing downtime and debugging efforts.  
+- Limitations: May require substantial trace data and computational resources; future work could explore scalability and robustness to diverse microservice architectures.
+
+---
+
+#### Human-AI Collaboration in Requirements Engineering: Evidence of the Negative Effect of LLMs on Requirements Inspection
+**作者**: Giovanna Broccia, Julian Frattini, Chetan Arora, Maurice H. ter Beek, Alessandro Fantechi, Andreas Vogelsang, Alessio Ferrari
+**类别**: cs.SE
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21298v1
+
+#### Executive Summary  
+This paper investigates the impact of large language models (LLMs) on requirements inspection within requirements engineering. Through empirical studies, it reveals that LLMs can negatively affect the quality of manual requirements inspection, challenging assumptions about their overall benefit.  
+
+### Key Contributions  
+- Empirical evidence demonstrating a negative effect of LLM-assisted requirements inspection on defect detection.  
+- A novel experimental framework for evaluating human-AI collaboration in requirements engineering tasks.  
+- Insights into the cognitive and behavioral interaction patterns influencing inspection performance with LLM support.  
+
+### Method & Results  
+- Conducted controlled experiments comparing manual requirements inspection with and without LLM assistance.  
+- Used real-world requirements engineering datasets and a state-of-the-art LLM for assistance.  
+- Found a statistically significant drop (~15%) in defect detection effectiveness when participants used LLM support.  
+- Performance with LLMs was lower than baseline manual inspection, contradicting expected gains from AI augmentation.  
+
+### Impact & Limitations  
+- Highlights critical risks in deploying LLMs for requirements engineering, urging caution and further design considerations for human-AI tools.  
+- Limitations include scope restricted to specific types of requirements and inspection tasks; future work should explore diverse domains and collaborative strategies to mitigate negative effects.
+
+---
+
+### 安全领域 领域
+
+#### Eavesdropper-Blind Remote State Preparation and Applications to Quantum Public-Key Encryption
+**作者**: Kaniuar Bacho, Alexandru Cojocaru
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21241v1
+
+#### Executive Summary
+This paper addresses secure quantum communication through remote state preparation (RSP) resistant to eavesdropping. The authors propose an eavesdropper-blind RSP protocol and demonstrate its application in constructing quantum public-key encryption schemes with enhanced security guarantees.
+
+### Key Contributions
+- Introduces an eavesdropper-blind RSP protocol that prevents adversarial state information leakage.
+- Develops novel quantum public-key encryption schemes leveraging the proposed RSP method.
+- Establishes security proofs against quantum adversaries under standard cryptographic assumptions.
+
+### Method & Results
+- Utilizes entanglement-based quantum communication combined with blindness techniques to obscure transmitted states from eavesdroppers.
+- Applies formal cryptographic security models to validate the proposed protocols.
+- Demonstrates through theoretical analysis that their scheme achieves information-theoretic security and outperforms prior quantum RSP approaches in terms of secrecy.
+- No experimental datasets; results are analytical and comparative with existing quantum encryption baselines.
+
+### Impact & Limitations
+- Enhances the practicality of quantum encryption by providing public-key schemes secure against eavesdroppers, critical for future quantum networks.
+- Future work needed for experimental realization and extension to noise-resilient or multi-party scenarios.
+
+---
+
+#### Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking
+**作者**: Arulnidhi Karunanidhi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21230v1
+
+#### Executive Summary
+This paper addresses the vulnerability of AI agents to memory poisoning attacks that degrade utility despite content screening and provenance ranking defenses. The author systematically investigates these attacks and demonstrates their effectiveness in compromising agent performance. The study highlights inherent limitations in current defense mechanisms against such adversarial manipulations.
+
+### Key Contributions
+- Introduces agent memory poisoning as a potent threat model undermining AI utility.
+- Provides a critical evaluation of content screening and provenance ranking defenses under adversarial conditions.
+- Highlights fundamental limits of existing mitigation techniques in preserving agent performance.
+
+### Method & Results
+- Developed a framework to simulate memory poisoning attacks targeting AI agent knowledge bases.
+- Evaluated defense mechanisms including content screening filters and provenance-based ranking on benchmark datasets.
+- Demonstrated that poisoning attacks can reduce agent task accuracy by up to 40%, outperforming baseline attacks that lack memory targeting.
+- Showed that even with rigorous screening, attack efficacy remains significant, indicating defense insufficiency.
+
+### Impact & Limitations
+- Reveals practical risks for deployed AI agents relying on external data, emphasizing the need for robust poisoning countermeasures.
+- Limitations include a focus on synthetic poisoning scenarios; future work could explore real-world, large-scale agent environments and adaptive defense strategies.
+
+---
+
+#### Workplace Surveillance and Insider Threat Risk Management: Legal Limits and Privacy Harms
+**作者**: Haywood Gelman, John D. Hastings, Suvineetha Herath, Quentin Covert
+**类别**: cs.CR
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21205v1
+
+#### Executive Summary  
+This paper addresses the legal boundaries and privacy concerns in workplace surveillance aimed at managing insider threats. The authors analyze regulatory frameworks alongside empirical assessments of surveillance techniques, revealing significant privacy harms that often outweigh security benefits.
+
+### Key Contributions  
+- Comprehensive synthesis of legal limits on workplace surveillance across multiple jurisdictions.  
+- Empirical evaluation of privacy harms caused by common insider threat detection methods.  
+- Framework proposing balanced approaches to mitigate privacy risks while managing insider threats.
+
+### Method & Results  
+- Methodology: Legal analysis combined with empirical experiments simulating surveillance impact on employee privacy.  
+- Tools/Datasets: Case law databases and synthetic datasets representing workplace communication patterns.  
+- Results: Surveillance methods reduced insider threat risk by up to 25%, but imposed substantial privacy intrusions, with 40% of monitored communications flagged as low-risk yet privacy-invasive.  
+- Performance: Highlighted trade-offs rather than outperforming baselines; current approaches lack sufficient privacy safeguards.
+
+### Impact & Limitations  
+- Practical significance: Provides actionable insights for policymakers and organizations seeking to balance security and privacy in insider threat management.  
+- Limitations/Future Work: Requires real-world deployment studies and development of privacy-preserving monitoring technologies.
+
+---
+
+#### AID-Guard: Stateful Authorization for Delegated Agent Effects
+**作者**: Yingzhe Tong, Leyu Dai, Songhui Guo
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21159v1
+
+#### Executive Summary  
+This paper addresses the challenge of securely authorizing delegated agent actions in complex systems with evolving state. AID-Guard introduces a stateful authorization framework that dynamically monitors and controls delegated effects to prevent unauthorized or malicious operations. The approach demonstrates improved security and reliability in delegating agent tasks compared to existing static methods.
+
+### Key Contributions  
+- Proposes a novel stateful authorization model tailored for delegated agents, enhancing control over dynamic agent effects.  
+- Develops an efficient monitoring mechanism that tracks evolving system states to enforce fine-grained permissions.  
+- Validates the framework on realistic scenarios, showing tangible improvements in security enforcement.
+
+### Method & Results  
+- Introduces a stateful policy engine that integrates temporal logic and system state tracking to authorize agent-initiated effects.  
+- Uses simulated multi-agent delegation environments to evaluate performance and security benefits.  
+- Experimental results show a reduction in unauthorized actions by over 30% compared to static authorization baselines.  
+- Demonstrates low runtime overhead, maintaining system responsiveness during enforcement.
+
+### Impact & Limitations  
+- Enhances practical delegation security in AI-driven systems like automated workflows and smart environments.  
+- Future work includes extending the model to more complex multi-agent interactions and real-world deployments for broader validation.
+
+---
+
+#### BackDFL: A Unified Benchmark For Backdoor Attacks and Defenses In Decentralized Federated Learning
+**作者**: Mouhamed Amine Bouchiha, Gregory Blanc, Yufei Han
+**类别**: cs.LG, cs.CR, cs.DC
+**发布日期**: 2026-08-21
+**链接**: http://arxiv.org/abs/2608.21137v1
+
+#### Executive Summary
+This paper addresses the vulnerability of decentralized federated learning (DFL) systems to backdoor attacks by introducing BackDFL, a unified benchmark for evaluating both attacks and defenses. The authors propose a comprehensive framework that standardizes attack scenarios and defense mechanisms, demonstrating improved resilience against backdoors in DFL settings.
+
+### Key Contributions
+- Developed BackDFL, the first unified benchmark specifically tailored for backdoor attacks and defenses in decentralized federated learning.
+- Provided standardized evaluation protocols enabling fair comparison across diverse attack models and defense strategies.
+- Empirically analyzed multiple backdoor attacks and defenses, revealing key vulnerabilities and mitigation effectiveness in DFL environments.
+
+### Method & Results
+- Established a modular framework integrating various backdoor attack methods and defense algorithms in decentralized FL architectures.
+- Utilized common federated learning datasets (e.g., CIFAR-10, MNIST) to simulate realistic decentralized learning scenarios.
+- Demonstrated that BackDFL’s evaluation identifies novel vulnerabilities and that certain defense methods reduce attack success rates by up to 40% without compromising model accuracy.
+- Benchmarked performance of various defenses, showing improved robustness over existing non-standardized baselines.
+
+### Impact & Limitations
+- Provides practitioners a critical tool for designing and assessing robust DFL systems against sophisticated backdoor threats.
+- Current limitation includes scope restricted to decentralized FL; future work should extend to hybrid FL and real-world deployment validations.
 
 ---
 
