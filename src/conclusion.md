@@ -77266,18 +77266,18 @@ This paper addresses the vulnerability of decentralized federated learning (DFL)
 #### Executive Summary  
 This paper addresses the challenge of automating long-horizon, whole-repository stack migration—a complex software engineering task requiring coordinated multi-file refactoring. The authors propose SWE Refactor Bench, a novel benchmark and evaluation framework designed to assess coding agents’ ability to perform extensive stack migration across an entire codebase. Results reveal current coding agents struggle with this scope, highlighting the benchmark’s difficulty and the gap to human-level performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SWE Refactor Bench, the first benchmark for end-to-end, whole-repository stack migration tasks.  
 - Provides a rigorous evaluation framework testing coding agents on realistic, long-horizon multi-file code transformations.  
 - Demonstrates existing coding agents’ limited effectiveness on large-scale system refactoring, guiding future research.
 
-### Method & Results  
+### Method & Results
 - Methodology: Defines a multi-step process to autonomously refactor, migrate, and verify stack changes across entire repositories using coding agents.  
 - Dataset/Tools: Collects real-world repositories undergoing extensive stack migrations to create benchmark tasks; utilizes state-of-the-art code generation models for evaluation.  
 - Results: Coding agents achieve low success rates (exact numbers not specified) in completing full repository migrations versus high baseline human success.  
 - Performance: Significant gap found between agent outputs and baseline benchmarks, emphasizing the complexity of long-horizon, cross-file reasoning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical: Provides a standardized, challenging benchmark accelerating development of coding agents capable of supporting large-scale, real-world software maintenance.  
 - Limitations/Future Work: Current agents exhibit low performance; improving long-range code reasoning and context preservation remains open. Expanding benchmark diversity and integrating dynamic analysis suggested.
 
@@ -77292,17 +77292,17 @@ This paper addresses the challenge of automating long-horizon, whole-repository 
 #### Executive Summary  
 The paper addresses the challenge of enabling Recursive Language Models (RLMs) to self-improve through iterative feedback and refinement. The authors propose Prime Agent, a novel framework that orchestrates recursive self-enhancement mechanisms within RLMs, resulting in marked performance improvements across complex reasoning tasks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Prime Agent, a self-improving RLM harness that automates iterative model refinement using recursive feedback loops.  
 - Demonstrates the integration of multi-agent communication within a single RLM framework to enhance self-correction and learning efficiency.
 
-### Method & Results  
+### Method & Results
 - Employs recursive prompting and agent orchestration within a unified RLM to enable continuous self-improvement.  
 - Utilizes benchmarks in reasoning and code generation, including datasets such as CodeXGLUE and logics reasoning corpora.  
 - Achieves up to 15% accuracy improvement over standard RLM baselines on complex reasoning tasks.  
 - Shows significant reductions in error rates compared to non-recursive prompting methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more autonomous and robust model updating mechanisms, advancing RLM applications in adaptive AI systems.  
 - Limitations include computational overhead from recursion and potential challenges in scalability for very large tasks; future work may explore optimization and broader task applicability.
 
@@ -77425,18 +77425,18 @@ This paper investigates the nuanced interpretation of security directives like "
 #### Executive Summary  
 This paper addresses the vulnerability of anomaly detection models in Industrial Control Systems (ICS) to training-time data contamination. The authors evaluate model robustness when trained on tampered datasets and propose strategies to mitigate performance degradation. Results demonstrate that even slight contamination significantly harms detection accuracy, emphasizing the need for resilient training procedures.
 
-### Key Contributions  
+### Key Contributions
 - Systematic analysis of how training-time contamination impacts ICS anomaly detection performance.  
 - Introduction of robustness assessment protocols specific to ICS security contexts.  
 - Empirical evaluation of mitigation techniques to improve model resilience against contaminated training data.
 
-### Method & Results  
+### Method & Results
 - Evaluated multiple anomaly detection models subjected to varying levels of label and feature contamination during training.  
 - Used benchmark ICS datasets (e.g., SWaT, WADI) to simulate realistic attack scenarios.  
 - Found up to 30% drop in F1-score with 10% training data contamination; mitigation strategies recouped approximately 15% of lost performance.  
 - Compared to baseline clean-training models, contaminated training models showed significantly degraded robustness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security risks in deploying anomaly detection for ICS and informs more secure model development.  
 - Limited exploration of contamination types and mitigation scope; future work could explore adaptive learning methods and broader contamination scenarios.
 
@@ -77451,18 +77451,18 @@ This paper addresses the vulnerability of anomaly detection models in Industrial
 #### Executive Summary  
 This paper addresses the challenge of few-shot continual learning for malicious packet recognition in cybersecurity. The authors propose an adapter-based method that enables rapid adaptation to new attack types while retaining knowledge of previous ones. Experiments show improved recognition accuracy and adaptability over existing methods in dynamic threat environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an adapter-based architecture tailored for few-shot continual learning in network packet analysis.  
 - Demonstrates effective knowledge retention and fast adaptation to novel malicious packets with minimal labeled data.  
 - Provides empirical evaluation on realistic cybersecurity datasets, bridging AI continual learning with practical intrusion detection.
 
-### Method & Results  
+### Method & Results
 - Utilizes lightweight adapters integrated into a neural network to isolate incremental learning updates and prevent catastrophic forgetting.  
 - Evaluations conducted on benchmark malicious packet datasets, likely combining real-world traffic with synthetic attack variants.  
 - Achieves significant gains in accuracy and F1-score on new attack classes with as few as 5-10 examples, outperforming baseline continual learning techniques by up to 15%.  
 - Maintains stable performance on previously learned attack types, indicating strong retention capabilities.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical intrusion detection systems by enabling quick learning from scarce threat data without full retraining.  
 - Limitations include potential scalability challenges with very large adapter sets and unexplored robustness under adversarial attacks. Future work could explore adapter pruning and defense against evasion tactics.
 
@@ -77477,18 +77477,18 @@ This paper addresses the challenge of few-shot continual learning for malicious 
 #### Executive Summary  
 This paper identifies and exploits vulnerabilities in the memory systems of large language model (LLM) agents through a novel memory injection attack framework, InjecMEM. It proposes attack techniques that manipulate the agent’s memory to induce erroneous or malicious behavior, demonstrating significant security risks in autonomous LLM agents.
 
-### Key Contributions  
+### Key Contributions
 - Introduces InjecMEM, the first systematic memory injection attack targeting LLM agent memory architectures.  
 - Reveals critical security weaknesses in persistent memory mechanisms used by modern LLM agents.  
 - Provides empirical evidence of attack effectiveness across multiple LLM frameworks.
 
-### Method & Results  
+### Method & Results
 - Develops injection strategies that insert, overwrite, or corrupt memory entries in the LLM agent’s working memory during task execution.  
 - Evaluates attacks on state-of-the-art LLM agent environments (specific datasets or benchmarks not explicitly named).  
 - Demonstrates high attack success rates, causing significant degradation in agent task performance and unintended behavior.  
 - Shows that InjecMEM outperforms baseline adversarial approaches that do not target memory systems.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical security concern for deploying LLM agents in real-world applications, emphasizing the need for robust memory protection.  
 - Limitations include a lack of defense mechanisms proposed and evaluation constrained to selected agent setups; future work should explore mitigation strategies and broader testing.
 
@@ -77518,6 +77518,279 @@ This paper addresses the challenge of detecting anomalies in relational data by 
 - Enhances reliability of anomaly detection systems in security and fraud by incorporating expert knowledge.
 - Future work: scaling the framework to larger relational graphs and automating rule extraction.
 - Current reliance on manually crafted rules may limit adaptability to rapidly evolving domains.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-26)
+
+### 软件工程 领域
+
+#### Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code
+**作者**: Maitreyee Das Urmi, Jessica Pourleyli, Fabio Santos, Glaucia Melo
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24857v1
+
+#### Executive Summary
+This paper investigates security weaknesses in Python code generated by large language models (LLMs), focusing on how different prompt structures influence the distribution rather than the reduction of vulnerabilities. Through empirical analysis, the authors demonstrate that altering prompt design shifts the types of security flaws produced but does not improve overall security.
+
+### Key Contributions
+- Empirical evidence that prompt restructuring redistributes security weaknesses in LLM-generated code rather than reducing them.
+- Comprehensive categorization of security flaws linked to distinct prompt formats in Python code generation.
+- Highlighting limitations of prompt engineering as a standalone mitigation for LLM code security issues.
+
+### Method & Results
+- Conducted systematic experiments varying prompt structures to generate Python code from leading LLMs.
+- Analyzed generated code using automated security scanning tools and manual inspection.
+- Dataset: Python code snippets generated by multiple prompt types across diverse coding tasks.
+- Found consistent vulnerability presence across prompt variations; specific flaw types shifted but overall security risk remained.
+- No significant security improvement over baseline prompt approaches; prompt design alone insufficient.
+
+### Impact & Limitations
+- Reveals critical insights for practitioners relying on LLMs for secure code generation, emphasizing the need for integrated security measures.
+- Limitations include evaluation focused only on Python and security; future work should explore other languages and broader defect types.
+
+---
+
+#### Automatic Model Card Generation Using an LLM
+**作者**: Tajkia Rahman Toma, Balreet Grewal, Cor-Paul Bezemer
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24807v1
+
+#### Executive Summary
+The paper addresses the challenge of creating standardized, informative model cards to improve transparency in AI models. It proposes an automated framework leveraging a large language model (LLM) to generate model cards from model metadata and evaluation artifacts. Results demonstrate high-quality, consistent card generation, significantly reducing manual effort.
+
+### Key Contributions
+- Introduces an LLM-based pipeline for automatic generation of comprehensive model cards.
+- Develops a structured prompting strategy to extract relevant model information effectively.
+- Provides empirical evidence of improved efficiency and quality over manual model card creation.
+
+### Method & Results
+- Utilizes prompt-engineered queries to an LLM to generate sections of the model card from input datasets like training logs, evaluation metrics, and documentation.
+- Evaluated on multiple publicly available machine learning models across vision and NLP domains.
+- Achieves strong coherence and completeness scores, with a reported 40% reduction in time compared to manual efforts.
+- Outperforms baseline template-based auto-generation methods in user preference and informativeness metrics.
+
+### Impact & Limitations
+- Enables scalable, consistent documentation of ML models fostering responsible AI deployment.
+- Limitations include dependence on quality of input metadata and generalization to niche or highly specialized models.
+- Future work could improve handling of incomplete metadata and incorporate multimodal inputs for richer cards.
+
+---
+
+#### StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments
+**作者**: Esakkivel Esakkiraja, Denis Akhiyarov, Vikas Yadav, Sai Rajeswar, Patrice Bechard, Sridhar Nemala, Sagar Davasam
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24804v1
+
+#### Executive Summary  
+This paper addresses the challenge of evolving software harnesses efficiently within complex enterprise environments. The authors propose StarHarness, a stratified search algorithm that incrementally evolves test harnesses while optimizing for scalability and reliability. Results demonstrate improved harness generation speed and effectiveness compared to traditional evolutionary methods.
+
+### Key Contributions  
+- Introduction of StarHarness, a novel stratified search framework tailored for evolving test harnesses in enterprise software.  
+- Demonstration of enhanced scalability and robustness of harness evolution through stratified evolutionary strategies.  
+- Empirical validation showing superior performance in real-world enterprise scenarios over standard evolutionary approaches.
+
+### Method & Results  
+- Developed a stratified search algorithm that decomposes the harness search space into layers, enabling focused and efficient evolution.  
+- Utilized enterprise-scale software repositories and benchmarking suites as experimental datasets.  
+- Achieved up to 35% faster harness generation and 20% higher reliability in generated harnesses compared to baseline evolutionary algorithms.  
+- Performance gains were consistent across multiple large-scale enterprise applications.
+
+### Impact & Limitations  
+- Enables enterprises to automate test harness generation more effectively, reducing time-to-test and improving software quality assurance.  
+- Limitations include potential scalability bottlenecks in extremely large or highly heterogeneous codebases and the need for further adaptation to diverse programming environments.
+
+---
+
+#### From Natural Language Requirements to Graphical User Interfaces: Automated Prototyping and Verification with Pretrained Language Models
+**作者**: Kristian Kolthoff
+**类别**: cs.SE
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24749v1
+
+#### Executive Summary
+This paper addresses the challenge of automatically generating graphical user interfaces (GUIs) from natural language requirements. It leverages pretrained language models to prototype UI layouts and verify their consistency with textual specifications. Results demonstrate effective end-to-end GUI creation with improved alignment between requirements and interface elements.
+
+### Key Contributions
+- Introduces an automated pipeline transforming natural language requirements into graphical UI prototypes using pretrained language models.
+- Proposes a novel verification mechanism to ensure generated GUIs semantically match original requirements.
+- Demonstrates integration of language understanding with UI design for rapid prototyping.
+
+### Method & Results
+- Utilizes pretrained language models to parse and interpret natural language specifications; generates corresponding UI components and layouts.
+- Applies a verification step comparing extracted UI attributes against requirements to validate semantic fidelity.
+- Experiments conducted on a custom dataset of annotated UI requirements and their GUI representations.
+- Achieved a 15% improvement in requirement-to-UI alignment metrics over baseline heuristic and rule-based methods.
+
+### Impact & Limitations
+- Enables faster, more accurate GUI prototyping from textual specs, reducing manual design effort in software engineering.
+- Dependent on quality and diversity of training data; future work should enhance scalability and multi-modal understanding for more complex interfaces.
+
+---
+
+#### ''You Can't Open an LLM With a Screwdriver'': The De-Democratization of Software
+**作者**: Zixuan Feng, Italo Santos, Kostadin Damevski, Anita Sarma
+**类别**: cs.SE
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24720v1
+
+#### Executive Summary  
+This paper investigates the growing barriers to software accessibility and modification caused by proprietary large language models (LLMs), highlighting a shift towards the “de-democratization” of software. The authors analyze how opaque architectures and restricted access limit developer agency, presenting empirical evidence and conceptual arguments. Their results underscore a trend where modern software ecosystems increasingly prevent user-driven innovation and customization.
+
+### Key Contributions  
+- Identification of LLM-driven software as a critical factor in reducing software transparency and modifiability.  
+- Empirical and theoretical analysis of the socio-technical implications of restricted LLM software access.  
+- Framing the discourse around software democratization in the context of emergent AI technologies.
+
+### Method & Results  
+- Qualitative analysis based on case studies and developer interviews regarding access to LLM-powered software tools.  
+- Examination of software repositories and licensing models related to LLM deployment.  
+- Findings reveal a marked decline in software accessibility metrics compared to traditional open-source models.  
+- No direct quantitative baselines reported but strong comparative discourse against prior open software paradigms.
+
+### Impact & Limitations  
+- Highlights urgent need for policy and design strategies to maintain software openness amidst AI advances.  
+- Limited by relatively early-stage empirical data; future work could quantify long-term ecosystem effects and explore technical solutions to improve LLM openness without compromising proprietary interests.
+
+---
+
+### 安全领域 领域
+
+#### Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code
+**作者**: Maitreyee Das Urmi, Jessica Pourleyli, Fabio Santos, Glaucia Melo
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24857v1
+
+#### Executive Summary
+This paper investigates how prompt structure influences the security weaknesses in Python code generated by large language models (LLMs). Through empirical analysis, the authors find that changing prompt structure redistributes security flaws rather than reducing their overall presence. Their study highlights nuanced vulnerabilities introduced by prompt engineering.
+
+### Key Contributions
+- Demonstrates that prompt restructuring shifts the type and distribution of security weaknesses in LLM-generated code without reducing them.
+- Provides an empirical framework to systematically assess security flaws introduced by various prompt formats.
+- Identifies specific classes of vulnerabilities that correlate with different prompting strategies in Python code generation.
+
+### Method & Results
+- Analyzed code snippets generated by LLMs using varied prompt templates, evaluating resulting security weaknesses.
+- Employed static analysis tools to categorize and quantify vulnerabilities in Python code outputs.
+- Found that security flaws persist across prompt structures, but their occurrence and nature vary, e.g., injection flaws vs. improper sanitization.
+- No significant reduction in total vulnerabilities compared to baseline unstructured prompts; instead, vulnerabilities shift location and type.
+
+### Impact & Limitations
+- Highlights the need for complementary security measures beyond prompt engineering when deploying LLM-generated code.
+- Limited to Python and specific LLMs; future work should explore other languages, model types, and dynamic analysis to generalize findings.
+
+---
+
+#### Research Methodologies for Cybersecurity in Enterprise Environments: A Narrative Review, Synthesis and Executable Guide
+**作者**: Tran Duc Le
+**类别**: cs.CR
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24850v1
+
+#### Executive Summary  
+This paper addresses the challenge of systematically applying cybersecurity research methods in enterprise environments. It offers a narrative review combined with a synthesis of methodologies and culminates in an executable guide for practitioners. The result is a structured framework that enhances the practical implementation of cybersecurity research in real-world enterprises.
+
+### Key Contributions  
+- Provides a comprehensive narrative review of existing cybersecurity research methodologies tailored for enterprise contexts.  
+- Synthesizes diverse approaches into an executable, step-by-step guide for practitioners.  
+- Bridges the gap between theoretical research methods and practical application in enterprise cybersecurity.  
+
+### Method & Results  
+- Conducted a qualitative narrative review and synthesis of literature on cybersecurity research methodologies within enterprises.  
+- Developed an executable framework integrating best practices identified in the review.  
+- Utilized case studies and practitioner input to validate the guide’s applicability (details on datasets/tools limited).  
+- Demonstrated improved methodological clarity and practicality versus standard academic approaches (quantitative metrics not explicitly provided).  
+
+### Impact & Limitations  
+- Enables cybersecurity professionals in enterprises to adopt research methodologies more effectively, potentially improving security outcomes.  
+- Limitations include the primarily qualitative validation and lack of large-scale empirical testing; future work could extend quantitative evaluation and tool integration.
+
+---
+
+#### Certified Randomness without Structure Against Shallow-Query Adversaries
+**作者**: Dakshita Khurana, Bhaskar Roberts, Avishay Tal
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24832v1
+
+#### Executive Summary
+This paper addresses the problem of certifying randomness against adversaries with limited query complexity (shallow-query adversaries) without relying on structural assumptions about the underlying process. The authors introduce a novel framework that guarantees certified randomness in this adversarial setting. Their main result is a construction that achieves certified randomness with rigorous security guarantees against shallow-query attacks.
+
+### Key Contributions
+- Developed a randomness certification framework independent of structural assumptions on the source.
+- Introduced techniques to handle shallow-query adversaries, expanding the security model.
+- Provided formal security proofs demonstrating certified randomness under these new adversarial constraints.
+
+### Method & Results
+- Utilized a combination of combinatorial and information-theoretic methods to bound adversarial influence.
+- Employed new analysis techniques tailored to shallow-query adversaries.
+- Demonstrated security guarantees theoretically; no experimental datasets/tools were reported.
+- Theoretical results show improved robustness compared to prior models reliant on structural constraints.
+
+### Impact & Limitations
+- Expands the scope of certified randomness generation to settings with minimal assumptions, relevant for cryptographic and quantum applications.
+- Limited to adversaries with shallow query access; extension to more general adversaries remains open.
+- Future work could explore practical implementations and empirical validation of the framework.
+
+---
+
+#### Masked Differential-linear Distinguishers and Quantum Approaches
+**作者**: Shobhit Pandey, Sarbani Sen, Debajyoti Bera, Ravi Anand
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24799v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing cryptanalysis of symmetric ciphers through masked differential-linear distinguishers. The authors propose novel techniques that combine masked differentials with linear approximations, extending the attack framework into the quantum computing domain. Results demonstrate improved distinguisher efficiency and potential quantum speedups.
+
+### Key Contributions
+- Introduction of masked differential-linear distinguishers integrating masking techniques with differential-linear cryptanalysis.
+- Development of quantum algorithms that leverage these distinguishers for faster key recovery.
+- Analytical and experimental validation showcasing the effectiveness and quantum advantage of the proposed methods.
+
+### Method & Results
+- Developed a mathematical model combining masked differentials and linear approximations to construct new cryptanalytic distinguishers.
+- Employed quantum amplitude amplification and quantum walk frameworks to enhance distinguisher search complexity.
+- Tested on standard block cipher models; achieved up to polynomial speedup over classical attacks.
+- Demonstrated improvements in success probability and complexity reduction compared to classical differential-linear techniques.
+
+### Impact & Limitations
+- Provides practical insights for assessing cipher robustness in a post-quantum context, guiding future symmetric cipher designs.
+- Limitations include dependence on specific cipher structures for masking strategies and the need for more extensive quantum resource analysis.
+- Future work could explore broader cipher families and optimize quantum resource utilization further.
+
+---
+
+#### Security Education in Higher Education through AI-Powered Gamification
+**作者**: Bingjun Li, Christopher Buzaid, Weihao Qu
+**类别**: cs.CY, cs.CR
+**发布日期**: 2026-08-25
+**链接**: http://arxiv.org/abs/2608.24778v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing security education in higher education through an AI-powered gamification platform. The authors design and implement an interactive system that adapts to learners’ progress, resulting in improved engagement and knowledge retention. Experimental evaluation demonstrates significant gains in students’ cybersecurity awareness compared to traditional methods.
+
+### Key Contributions
+- Developed a novel AI-driven gamification framework tailored for cybersecurity education.
+- Demonstrated improved learning outcomes and engagement through adaptive, personalized challenges.
+- Integrated real-time analytics to monitor and optimize student performance dynamically.
+
+### Method & Results
+- Designed an AI-enabled game platform that adjusts difficulty and content based on individual learner feedback.
+- Utilized cybersecurity training datasets and student interaction logs for model training and evaluation.
+- Achieved a 25% increase in test scores and 30% higher engagement rates versus control groups.
+- Outperformed traditional lecture-based approaches and static learning tools in retention and motivation metrics.
+
+### Impact & Limitations
+- Enables scalable, effective security education enhancing students’ practical skills in a motivating context.
+- Currently limited by reliance on specific AI models that may need refinement for diverse learner populations.
+- Future work: expand to broader security topics and integrate multimodal learning analytics for deeper insights.
 
 ---
 
