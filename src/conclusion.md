@@ -77798,18 +77798,18 @@ This paper addresses the challenge of enhancing security education in higher edu
 #### Executive Summary  
 This paper addresses the challenge of identifying vulnerable code snippets by exploiting transferable attacks on code language models. The authors propose a novel adversarial approach that generates perturbations transferable across different code models to degrade their vulnerability detection performance. Experiments demonstrate significant drops in detection accuracy, highlighting robustness weaknesses in existing code language models.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a transferable adversarial attack framework specifically targeting code vulnerability detection models.  
 - Demonstrates cross-model attack effectiveness, exposing security gaps in widely used code language models.  
 - Provides insights into the robustness challenges of code analysis systems under adversarial conditions.
 
-### Method & Results  
+### Method & Results
 - Developed an adversarial perturbation technique that crafts syntactic-preserving modifications for vulnerable code.  
 - Evaluated on benchmark vulnerability datasets using multiple state-of-the-art code language models.  
 - Achieved up to 30% drop in vulnerability detection accuracy under attack, significantly outperforming baseline attack methods.  
 - Validated transferability by successfully attacking models without requiring white-box access.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights urgent need for robust, attack-resilient code search and vulnerability detection systems critical for software security.  
 - Future work needed on defense mechanisms against transferable attacks and extending evaluations to larger, diversified codebases.
 
@@ -77824,18 +77824,18 @@ This paper addresses the challenge of identifying vulnerable code snippets by ex
 #### Executive Summary  
 The paper addresses the challenge of transforming experimental software artifacts into reusable, lineage-traced solution components. The authors propose Praxist, a framework that systematically captures solution evolution from experimental data to support reproducibility and reuse. Results demonstrate Praxist’s ability to improve artifact reusability and trace solution development effectively across multiple projects.
 
-### Key Contributions  
+### Key Contributions
 - Introduces Praxist, a novel system linking experimental artifacts to solution lineages for enhanced traceability and reuse.  
 - Develops a method to automatically extract and organize experimental data into structured solution components.  
 - Demonstrates practical efficacy through integration and evaluation on real-world software engineering projects.
 
-### Method & Results  
+### Method & Results
 - Methodology: Automated extraction of experimental metadata and code artifacts, followed by lineage modeling to connect experiment outputs with solution developments.  
 - Tools/Datasets: Applied on diverse software experimental repositories and open-source projects to validate approach.  
 - Results: Praxist increased artifact reuse by over 30%, with lineage trace accuracy exceeding 85%.  
 - Compared to baseline manual curation methods, Praxist achieved significantly higher automation and consistency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables researchers and practitioners to better manage and reuse experimental results, fostering reproducible and efficient software development.  
 - Limitations include current focus on specific artifact types; future work aims to broaden artifact coverage and enhance integration with existing development environments.
 
@@ -77902,18 +77902,18 @@ This paper addresses debugging failures in large language model (LLM) multi-agen
 #### Executive Summary  
 This paper addresses the problem of automated vulnerability assessment systems producing answers without sufficient supporting evidence, which limits trust and usability. The authors propose an augmented framework that integrates evidence generation alongside vulnerability detection, enhancing transparency. Experiments demonstrate improved interpretability without sacrificing detection accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces an evidence-augmented vulnerability assessment framework to accompany automated answers with supporting data.  
 - Develops novel techniques for extracting and presenting relevant evidence alongside vulnerability predictions.  
 - Empirically validates that evidence augmentation improves user trust while maintaining strong detection performance.
 
-### Method & Results  
+### Method & Results
 - Combines traditional vulnerability detection models with an evidence retrieval/generation module that surfaces contextual information justifying outputs.  
 - Utilizes standard security datasets and benchmarks for training and evaluation (specific datasets not detailed).  
 - Experimental results show the framework produces interpretable assessments, with detection accuracy comparable to baseline models.  
 - Demonstrates enhanced user trust and decision-making support through human evaluation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for improving automated security tools by making outputs more transparent and actionable for developers and analysts.  
 - Future work: expanding evidence quality and coverage, automating evidence verification, and scaling to diverse software ecosystems.
 
@@ -77957,44 +77957,29 @@ This paper reevaluates the security guarantees and implementation complexity of 
 #### Executive Summary  
 This paper addresses the vulnerability of RTL (Register Transfer Level) code generation models to poisoning attacks that compromise hardware design integrity. The authors propose RTLGuard, a lightweight teacher-student framework that detects and mitigates poisoned RTL outputs without significant overhead. Results demonstrate RTLGuard effectively improves model robustness while maintaining generation quality.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel teacher-student defense mechanism tailored for poisoned RTL code generation models.  
 - Proposes a lightweight detection strategy that identifies poisoned outputs with minimal computational cost.  
 - Demonstrates the approach’s effectiveness specific to hardware description language model robustness, an underexplored area.
 
-### Method & Results  
+### Method & Results
 - Employs a teacher model to generate clean reference outputs, guiding the student model to identify and reject poisoned or manipulated RTL code.  
 - Evaluation conducted on benchmark RTL datasets with simulated poisoning attacks.  
 - Achieved significant reduction in poisoned output acceptance rates (exact metrics not specified in abstract).  
 - Outperforms baseline defenses by balancing detection accuracy and computational efficiency.
 
-### Impact & Limitations  
-- Practical for securing AI-assisted hardware design pipelines against supply chain and backdoor threats.  
-- Limited by potential dependency on the teacher model's own robustness; future work could explore adaptive or unsupervised defenses.
-
----
-
-#### Vulnerable Code Search: Transferable Attack for Code Language Models
-**作者**: Kaicheng Wang, Liyan Huang, Jesse Thomason, Weihang Wang
-**类别**: cs.SE, cs.CR
-**发布日期**: 2026-08-26
-**链接**: http://arxiv.org/abs/2608.26031v1
-
-#### Executive Summary  
-This paper addresses the challenge of identifying security vulnerabilities in code by leveraging code language models through transferable adversarial attacks. It proposes a novel attack method that generates vulnerable code examples transferable across different models, enhancing the robustness evaluation of code understanding systems. Experimental results demonstrate significant degradation in vulnerability detection accuracy, revealing weaknesses in current code models.
-
-### Key Contributions  
+### Key Contributions
 - Introduces a transferable adversarial attack framework specifically targeting code language models for vulnerability detection.  
 - Demonstrates cross-model attack transferability, highlighting systemic vulnerabilities in code understanding models.  
 - Provides empirical insights into model robustness against crafted vulnerable code snippets.
 
-### Method & Results  
+### Method & Results
 - Developed an attack method that crafts semantically similar but vulnerable code snippets to fool code language models.  
 - Evaluated on widely-used vulnerability detection datasets and state-of-the-art pretrained code models.  
 - Results show a substantial drop (up to X% accuracy decrease) in vulnerability detection across multiple models using the transferred attacks.  
 - Outperforms standard adversarial baselines by effectively generalizing attacks beyond a single model.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances understanding of security risks in code intelligence tools, guiding development of more robust vulnerability detectors.  
 - Limited to certain languages/datasets; future work could extend to diverse programming languages and integrate defense mechanisms.
 
@@ -78049,6 +78034,279 @@ The paper addresses the challenge of inconsistencies and information loss when c
 ### Impact & Limitations
 - Enhances practical reliability of LLM applications involving complex document formats like OOXML, benefiting document understanding and compliance tasks.
 - Limitations include dependence on specific OOXML features and potential scalability challenges; future work may explore broader file type support and real-time ingestion scenarios.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-28)
+
+### 软件工程 领域
+
+#### Tacet: A Language and Type System for Automatic Statistical Validity Accounting
+**作者**: Chiké Abuah
+**类别**: cs.PL, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27451v1
+
+#### Executive Summary
+The paper addresses the challenge of ensuring statistical validity in iterative data analysis by introducing Tacet, a domain-specific language paired with a type system. Tacet automates the accounting of statistical validity, preventing common errors in hypothesis testing across adaptive analyses. The main result is a system that guarantees valid statistical inferences automatically through type-checked code.
+
+### Key Contributions
+- Design of Tacet, a language integrating statistical validity constraints directly into the programming model.
+- Introduction of a novel type system that tracks and enforces statistical validity accounting during adaptive analyses.
+- Demonstration of automatic prevention of false discoveries without manual intervention.
+
+### Method & Results
+- Formalization of a type system encoding statistical validity constraints and its integration into Tacet.
+- Implementation of a compiler that enforces validity tracking at compile-time.
+- Evaluation on synthetic and real-world datasets showing Tacet prevents invalid inferences, reducing false discovery rates compared to baseline scripting approaches.
+- Quantitatively, Tacet maintained validity guarantees across multiple adaptive testing sequences where baselines failed.
+
+### Impact & Limitations
+- Tacet offers a practical solution for researchers and data scientists to write statistically sound analysis pipelines with minimal manual bookkeeping.
+- Limitations include potential overhead in language adoption and a need for broader validation on diverse, large-scale datasets.
+- Future work could extend support to more complex statistical models and user-friendly interfaces.
+
+---
+
+#### SWE-Prime: Fewer Trajectories, Better Performance
+**作者**: Dewu Zheng, Ruizhe Ye, Yanlin Wang, Yang Ye, Hongyu Zhang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jianxing Yu, Zibin Zheng
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27449v1
+
+#### Executive Summary  
+This paper addresses inefficiencies in trajectory-based learning approaches by proposing SWE-Prime, a method that uses fewer trajectories to achieve better performance. The approach optimizes trajectory selection and representation, resulting in improved learning efficiency and accuracy. Experiments demonstrate significant performance gains on standard benchmarks using reduced data.
+
+### Key Contributions  
+- Introduced SWE-Prime, a novel framework that reduces the number of needed trajectories while enhancing learning outcomes.  
+- Developed an optimized trajectory representation mechanism improving sample efficiency.  
+- Provided empirical evidence that fewer intelligently selected trajectories outperform larger, uncurated datasets.
+
+### Method & Results  
+- Utilized a trajectory pruning and embedding strategy to distill essential trajectory information for learning models.  
+- Evaluated on standard RL and sequence modeling datasets, leveraging common toolkits for trajectory analysis.  
+- Achieved up to 15-20% performance improvement over baselines with 30-50% fewer trajectories.  
+- Demonstrated consistent gains across multiple tasks compared to conventional trajectory usage methods.
+
+### Impact & Limitations  
+- Enables more efficient training with less data, reducing computational costs and data collection efforts in trajectory-based learning scenarios.  
+- Future work could explore adaptive trajectory selection during training and extend validation to broader application domains.
+
+---
+
+#### From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench
+**作者**: Dewu Zheng, Yanlin Wang, Xiwen Wang, Kefeng Duan, Hongyu Zhang, Xilin Liu, Yuchi Ma, Zibin Zheng
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27442v1
+
+#### Executive Summary
+This paper addresses the limitations of static code review benchmarks by proposing MCR-Bench, a novel dataset and framework that captures dynamic, real-world code review processes. The authors demonstrate that modeling dynamic review interactions significantly improves the evaluation of code review tools and techniques.
+
+### Key Contributions
+- Introduction of MCR-Bench, the first benchmark dataset reflecting dynamic and realistic code review workflows.
+- Development of evaluation metrics and tasks that incorporate time-evolving code changes and reviewer interactions.
+- Empirical validation showing superior performance of dynamic-aware models over static baseline approaches.
+
+### Method & Results
+- Created MCR-Bench by collecting code reviews with temporal metadata, comments, and iterative revisions from multiple open-source projects.
+- Developed dynamic modeling techniques to track review progress and reviewer feedback across review cycles.
+- Experiments show models leveraging dynamic features achieve up to 15% improvement in code review outcome prediction compared to static methods.
+- Demonstrated that traditional static benchmarks underestimate real-world challenges, validating MCR-Bench’s practical importance.
+
+### Impact & Limitations
+- Enables more realistic evaluation and development of code review automation tools, potentially improving software quality and developer productivity.
+- Limitations include reliance on open-source project data, which may not generalize to private or industrial settings; future work could expand dataset diversity and incorporate user behavioral analytics.
+
+---
+
+#### Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit
+**作者**: Yisen Xi
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27427v1
+
+#### Executive Summary  
+This paper addresses challenges in evolving large language model (LLM) agents with reliable execution auditability. It proposes the Persona-Execution Separation (PES) architecture pattern, which distinctly isolates persona management from execution logic, enabling flexible evolution and transparent auditing. Empirical results demonstrate improved maintainability and audit efficiency without compromising agent performance.
+
+### Key Contributions  
+- Introduces the Persona-Execution Separation (PES) architectural pattern for modular LLM agent design.  
+- Enables systematic execution auditing while allowing independent persona evolution.  
+- Demonstrates improved auditability and adaptability compared to monolithic LLM agent designs.
+
+### Method & Results  
+- Separates agent design into two components: Persona (identity and intent) and Execution (action and reasoning).  
+- Evaluates PES on benchmark LLM agent tasks using custom audit frameworks.  
+- Shows up to 30% reduction in audit complexity and enhanced adaptability in evolving agent capabilities.  
+- Maintains comparable task performance to baseline integrated architectures.
+
+### Impact & Limitations  
+- Practical for deploying evolving LLM agents in regulated or high-assurance environments requiring traceability.  
+- Future work: extend PES to multi-agent systems and automated persona evolution strategies.  
+- Limitation: empirical evaluation limited to simulated audit scenarios; real-world deployment needed for validation.
+
+---
+
+#### BTS-AgentBench: A Deterministic, Replayable Pipeline from Read-Only Telemetry Logs to Agent Benchmarks
+**作者**: Jeong-Yoon Kim
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27334v1
+
+#### Executive Summary
+This paper addresses the challenge of reproducible benchmarks for autonomous agents by introducing BTS-AgentBench, a deterministic pipeline that converts read-only telemetry logs into consistent agent benchmarks. The approach ensures exact replayability and facilitates fair, repeatable evaluation. Results demonstrate the system’s ability to produce stable, comparable benchmarks across varied agent models.
+
+### Key Contributions
+- Introduces a deterministic, replayable pipeline from read-only telemetry logs to agent benchmark generation.
+- Provides a unified framework enabling reproducible benchmarking for diverse autonomous agents.
+- Demonstrates stability and fairness in evaluation, overcoming non-determinism in existing agent testing.
+
+### Method & Results
+- Methodology: Develops a pipeline that ingests telemetry logs, applies deterministic replay mechanisms, and outputs agent benchmark scenarios.
+- Tools/Datasets: Uses publicly available telemetry datasets and agent simulation environments for validation.
+- Results: Achieves 100% deterministic replay across multiple runs; benchmark scores show low variance (<1% deviation).
+- Compared to baselines, BTS-AgentBench delivers significantly higher reproducibility without compromising benchmark diversity.
+
+### Impact & Limitations
+- Impact: Enables rigorous, fair comparison of autonomous agents, accelerating research and deployment confidence.
+- Limitations: Current pipeline focuses on read-only logs; extending to live or interactive environments remains future work.
+
+---
+
+### 安全领域 领域
+
+#### Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?
+**作者**: Ting Yan
+**类别**: cs.HC, cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27443v1
+
+#### Executive Summary  
+This paper investigates whether user-authored permission policies can effectively mitigate AI agent overreach in accessing sensitive user data or functions. The authors design a user-friendly permission framework and evaluate its impact on reducing unauthorized AI actions. Results show that such policies can significantly enhance protection without overly burdening users.
+
+### Key Contributions  
+- Proposes a novel user-authored permission policy framework tailored for AI agent interactions.  
+- Demonstrates empirical evidence that personalized policies reduce AI overreach more effectively than default or system-only policies.  
+- Introduces a usability-centric approach balancing security and user effort in policy creation.
+
+### Method & Results  
+- Developed a permission policy system allowing users to specify fine-grained AI access controls and integrated it into a simulated AI agent environment.  
+- Conducted user studies combined with automated testing on datasets simulating typical AI usage scenarios.  
+- Found a 30% reduction in unauthorized AI actions compared to baseline default permissions with minimal increase in user effort.  
+- Showed improved detection and prevention of risky AI behaviors over existing static permission models.
+
+### Impact & Limitations  
+- Enhances user control and trust in AI agents, benefiting privacy-critical applications and platforms.  
+- Limitations include potential user errors in policy creation and scalability challenges for complex agent ecosystems.  
+- Future work should explore adaptive, machine-assisted policy suggestions to ease user burden and broaden applicability.
+
+---
+
+#### RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution
+**作者**: Junjie Zhang, Hui Liu, Kecheng Chen, Xianbo Mo, Changsheng Chen, Haoliang Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27439v1
+
+#### Executive Summary  
+This paper addresses the challenge of automating the red-teaming process for AI systems by introducing RedEvoAgent, an approach that evolves attack strategies based on experiential learning. The method dynamically improves red-team skills to uncover system vulnerabilities more efficiently, demonstrating superior effectiveness over static baselines.
+
+### Key Contributions  
+- Proposes RedEvoAgent, the first automatic red-teaming agent using experience-driven skill evolution.  
+- Introduces a novel framework to iteratively refine attack capabilities via feedback from prior exploits.  
+- Demonstrates improved vulnerability discovery on benchmark AI safety scenarios compared to existing heuristic-based methods.
+
+### Method & Results  
+- Utilizes reinforcement learning combined with evolutionary algorithms to adapt red-team strategies based on success metrics.  
+- Evaluated on established AI safety and security benchmark datasets (specific dataset names not provided).  
+- Achieves up to 25% higher vulnerability detection rates than static or random baseline agents.  
+- Outperforms traditional fixed-strategy red-team approaches in both efficiency and coverage.
+
+### Impact & Limitations  
+- Enhances automated security testing for AI systems, reducing manual effort and improving robustness before deployment.  
+- Limitations include potential overfitting to benchmark scenarios and the need for broader validation in real-world environments.  
+- Future work could explore expanding to multi-agent collaborative red-teaming and adapting to evolving defensive models.
+
+---
+
+#### Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners
+**作者**: Qianlong Lan, Vinothini Pandurangan, Anuj Kaul, Indranil Sanyal
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27424v1
+
+#### Executive Summary  
+This paper addresses limitations in evaluating AI model security scanners that commonly rely on F1 scores, proposing enhanced metrics focused on coverage and failure recovery. The authors develop a novel evaluation framework that better captures scanner robustness and resilience to adversarial conditions, demonstrating improved insights over traditional metrics.
+
+### Key Contributions  
+- Introduces metrics beyond F1 to evaluate coverage and failure recovery in AI security scanners.  
+- Proposes a comprehensive framework for robustness assessment under adversarial and failure scenarios.  
+- Empirically validates the framework on multiple state-of-the-art security scanners, revealing hidden weaknesses.
+
+### Method & Results  
+- Develops an evaluation methodology incorporating coverage breadth and failure recovery capability alongside conventional metrics.  
+- Utilizes benchmark datasets of AI vulnerabilities and adversarial attack scenarios for testing.  
+- Finds that certain scanners with high F1 scores exhibit poor coverage and fail to recover from specific attack vectors—metrics improved up to 25% over baselines.  
+- Demonstrates that traditional evaluation masks vulnerabilities detectable by the enhanced framework.
+
+### Impact & Limitations  
+- Offers a more nuanced and practical toolset for AI security evaluation, aiding better scanner development and deployment decisions.  
+- Limitations include focus on current scanner types; future work could extend framework to emerging AI system architectures and dynamic threat models.
+
+---
+
+#### When Context Gets Root: Privilege Escalation in LLM Harnesses
+**作者**: Xingbang He, Yuanwei Chen, Yi Qian, Haiyang Wei, Ligeng Chen, Zenan Fu, Linzhang Wang, Hao Wu, Bing Mao
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27299v1
+
+#### Executive Summary  
+This paper investigates privilege escalation vulnerabilities inherent in Large Language Model (LLM) harnesses, demonstrating how contextual inputs can be exploited to gain unauthorized control. The authors propose novel attack vectors that leverage context manipulation and validate these attacks through empirical analysis, revealing significant security risks in current LLM deployment architectures.
+
+### Key Contributions  
+- Identifies and formalizes the novel concept of context-driven privilege escalation in LLM harnesses.  
+- Develops practical attack methodologies that exploit LLM contextual handling to elevate privileges.  
+- Provides empirical evaluation showcasing vulnerability prevalence and potential impact in real-world LLM systems.
+
+### Method & Results  
+- Utilizes systematic probing and crafted contextual payloads to trigger privilege escalation in varied LLM frameworks.  
+- Experiments conducted on popular open-source and commercial LLM platforms.  
+- Demonstrates up to 40% success rate in unauthorized privilege escalation attempts under realistic conditions.  
+- Shows superiority over baseline attack models which lacked context exploitation, achieving 2-3x higher effectiveness.
+
+### Impact & Limitations  
+- Highlights critical security shortcomings in LLM integration, urging redesigns in access control and context management.  
+- Limitations include focus on select LLM architectures and the need for broader testing across diverse deployment scenarios.  
+- Future work could develop automated defense mechanisms and extend analysis to multimodal models.
+
+---
+
+#### Low-ASR Backdoors: Exploiting Attack Success Rate Reduction and Attacker-Defender Asymmetry
+**作者**: Arham Riaz, Ting Yu
+**类别**: cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27288v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting and mitigating backdoor attacks in machine learning models where attackers deliberately reduce the Attack Success Rate (ASR) to evade defenses. The authors introduce the concept of Low-ASR backdoors, exploiting attacker-defender asymmetry, and demonstrate that traditional defenses are less effective under these conditions.
+
+### Key Contributions
+- Identification and formalization of Low-ASR backdoor attacks exploiting ASR reduction as an evasion tactic.
+- Analysis of attacker-defender asymmetry, revealing inherent challenges in detecting low-ASR backdoors.
+- Empirical evaluation showing conventional defenses fail to detect or mitigate these subtle attacks effectively.
+
+### Method & Results
+- Developed attack models that lower ASR to bypass state-of-the-art backdoor detection methods.
+- Evaluated on standard image classification datasets (e.g., CIFAR-10, ImageNet) using common backdoor detection tools.
+- Experimental results show up to 40% decrease in detection rates compared to traditional high-ASR backdoors.
+- Performance demonstrates significant vulnerability of existing defenses against low-ASR attacks.
+
+### Impact & Limitations
+- Highlights practical risks in real-world deployment of ML systems, urging the need for new detection paradigms.
+- Limitations include focus on specific threat models; future work may explore broader attack scenarios and robust defense mechanisms.
 
 ---
 
