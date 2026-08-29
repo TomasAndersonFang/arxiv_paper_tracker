@@ -78079,18 +78079,18 @@ The paper addresses the challenge of ensuring statistical validity in iterative 
 #### Executive Summary  
 This paper addresses inefficiencies in trajectory-based learning approaches by proposing SWE-Prime, a method that uses fewer trajectories to achieve better performance. The approach optimizes trajectory selection and representation, resulting in improved learning efficiency and accuracy. Experiments demonstrate significant performance gains on standard benchmarks using reduced data.
 
-### Key Contributions  
+### Key Contributions
 - Introduced SWE-Prime, a novel framework that reduces the number of needed trajectories while enhancing learning outcomes.  
 - Developed an optimized trajectory representation mechanism improving sample efficiency.  
 - Provided empirical evidence that fewer intelligently selected trajectories outperform larger, uncurated datasets.
 
-### Method & Results  
+### Method & Results
 - Utilized a trajectory pruning and embedding strategy to distill essential trajectory information for learning models.  
 - Evaluated on standard RL and sequence modeling datasets, leveraging common toolkits for trajectory analysis.  
 - Achieved up to 15-20% performance improvement over baselines with 30-50% fewer trajectories.  
 - Demonstrated consistent gains across multiple tasks compared to conventional trajectory usage methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more efficient training with less data, reducing computational costs and data collection efforts in trajectory-based learning scenarios.  
 - Future work could explore adaptive trajectory selection during training and extend validation to broader application domains.
 
@@ -78131,18 +78131,18 @@ This paper addresses the limitations of static code review benchmarks by proposi
 #### Executive Summary  
 This paper addresses challenges in evolving large language model (LLM) agents with reliable execution auditability. It proposes the Persona-Execution Separation (PES) architecture pattern, which distinctly isolates persona management from execution logic, enabling flexible evolution and transparent auditing. Empirical results demonstrate improved maintainability and audit efficiency without compromising agent performance.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the Persona-Execution Separation (PES) architectural pattern for modular LLM agent design.  
 - Enables systematic execution auditing while allowing independent persona evolution.  
 - Demonstrates improved auditability and adaptability compared to monolithic LLM agent designs.
 
-### Method & Results  
+### Method & Results
 - Separates agent design into two components: Persona (identity and intent) and Execution (action and reasoning).  
 - Evaluates PES on benchmark LLM agent tasks using custom audit frameworks.  
 - Shows up to 30% reduction in audit complexity and enhanced adaptability in evolving agent capabilities.  
 - Maintains comparable task performance to baseline integrated architectures.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for deploying evolving LLM agents in regulated or high-assurance environments requiring traceability.  
 - Future work: extend PES to multi-agent systems and automated persona evolution strategies.  
 - Limitation: empirical evaluation limited to simulated audit scenarios; real-world deployment needed for validation.
@@ -78186,18 +78186,18 @@ This paper addresses the challenge of reproducible benchmarks for autonomous age
 #### Executive Summary  
 This paper investigates whether user-authored permission policies can effectively mitigate AI agent overreach in accessing sensitive user data or functions. The authors design a user-friendly permission framework and evaluate its impact on reducing unauthorized AI actions. Results show that such policies can significantly enhance protection without overly burdening users.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel user-authored permission policy framework tailored for AI agent interactions.  
 - Demonstrates empirical evidence that personalized policies reduce AI overreach more effectively than default or system-only policies.  
 - Introduces a usability-centric approach balancing security and user effort in policy creation.
 
-### Method & Results  
+### Method & Results
 - Developed a permission policy system allowing users to specify fine-grained AI access controls and integrated it into a simulated AI agent environment.  
 - Conducted user studies combined with automated testing on datasets simulating typical AI usage scenarios.  
 - Found a 30% reduction in unauthorized AI actions compared to baseline default permissions with minimal increase in user effort.  
 - Showed improved detection and prevention of risky AI behaviors over existing static permission models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances user control and trust in AI agents, benefiting privacy-critical applications and platforms.  
 - Limitations include potential user errors in policy creation and scalability challenges for complex agent ecosystems.  
 - Future work should explore adaptive, machine-assisted policy suggestions to ease user burden and broaden applicability.
@@ -78213,18 +78213,18 @@ This paper investigates whether user-authored permission policies can effectivel
 #### Executive Summary  
 This paper addresses the challenge of automating the red-teaming process for AI systems by introducing RedEvoAgent, an approach that evolves attack strategies based on experiential learning. The method dynamically improves red-team skills to uncover system vulnerabilities more efficiently, demonstrating superior effectiveness over static baselines.
 
-### Key Contributions  
+### Key Contributions
 - Proposes RedEvoAgent, the first automatic red-teaming agent using experience-driven skill evolution.  
 - Introduces a novel framework to iteratively refine attack capabilities via feedback from prior exploits.  
 - Demonstrates improved vulnerability discovery on benchmark AI safety scenarios compared to existing heuristic-based methods.
 
-### Method & Results  
+### Method & Results
 - Utilizes reinforcement learning combined with evolutionary algorithms to adapt red-team strategies based on success metrics.  
 - Evaluated on established AI safety and security benchmark datasets (specific dataset names not provided).  
 - Achieves up to 25% higher vulnerability detection rates than static or random baseline agents.  
 - Outperforms traditional fixed-strategy red-team approaches in both efficiency and coverage.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances automated security testing for AI systems, reducing manual effort and improving robustness before deployment.  
 - Limitations include potential overfitting to benchmark scenarios and the need for broader validation in real-world environments.  
 - Future work could explore expanding to multi-agent collaborative red-teaming and adapting to evolving defensive models.
@@ -78240,18 +78240,18 @@ This paper addresses the challenge of automating the red-teaming process for AI 
 #### Executive Summary  
 This paper addresses limitations in evaluating AI model security scanners that commonly rely on F1 scores, proposing enhanced metrics focused on coverage and failure recovery. The authors develop a novel evaluation framework that better captures scanner robustness and resilience to adversarial conditions, demonstrating improved insights over traditional metrics.
 
-### Key Contributions  
+### Key Contributions
 - Introduces metrics beyond F1 to evaluate coverage and failure recovery in AI security scanners.  
 - Proposes a comprehensive framework for robustness assessment under adversarial and failure scenarios.  
 - Empirically validates the framework on multiple state-of-the-art security scanners, revealing hidden weaknesses.
 
-### Method & Results  
+### Method & Results
 - Develops an evaluation methodology incorporating coverage breadth and failure recovery capability alongside conventional metrics.  
 - Utilizes benchmark datasets of AI vulnerabilities and adversarial attack scenarios for testing.  
 - Finds that certain scanners with high F1 scores exhibit poor coverage and fail to recover from specific attack vectors—metrics improved up to 25% over baselines.  
 - Demonstrates that traditional evaluation masks vulnerabilities detectable by the enhanced framework.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a more nuanced and practical toolset for AI security evaluation, aiding better scanner development and deployment decisions.  
 - Limitations include focus on current scanner types; future work could extend framework to emerging AI system architectures and dynamic threat models.
 
@@ -78266,18 +78266,18 @@ This paper addresses limitations in evaluating AI model security scanners that c
 #### Executive Summary  
 This paper investigates privilege escalation vulnerabilities inherent in Large Language Model (LLM) harnesses, demonstrating how contextual inputs can be exploited to gain unauthorized control. The authors propose novel attack vectors that leverage context manipulation and validate these attacks through empirical analysis, revealing significant security risks in current LLM deployment architectures.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and formalizes the novel concept of context-driven privilege escalation in LLM harnesses.  
 - Develops practical attack methodologies that exploit LLM contextual handling to elevate privileges.  
 - Provides empirical evaluation showcasing vulnerability prevalence and potential impact in real-world LLM systems.
 
-### Method & Results  
+### Method & Results
 - Utilizes systematic probing and crafted contextual payloads to trigger privilege escalation in varied LLM frameworks.  
 - Experiments conducted on popular open-source and commercial LLM platforms.  
 - Demonstrates up to 40% success rate in unauthorized privilege escalation attempts under realistic conditions.  
 - Shows superiority over baseline attack models which lacked context exploitation, achieving 2-3x higher effectiveness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical security shortcomings in LLM integration, urging redesigns in access control and context management.  
 - Limitations include focus on select LLM architectures and the need for broader testing across diverse deployment scenarios.  
 - Future work could develop automated defense mechanisms and extend analysis to multimodal models.
@@ -78307,6 +78307,277 @@ This paper addresses the challenge of detecting and mitigating backdoor attacks 
 ### Impact & Limitations
 - Highlights practical risks in real-world deployment of ML systems, urging the need for new detection paradigms.
 - Limitations include focus on specific threat models; future work may explore broader attack scenarios and robust defense mechanisms.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-29)
+
+### 软件工程 领域
+
+#### SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control
+**作者**: Dylan Girrens, Guangjing Wang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27234v1
+
+#### Executive Summary  
+This paper addresses the security challenges of persistent Large Language Model (LLM) agents operating across multiple queries, focusing on controlling sensitive information flow. The authors propose SPA, a plan-first information-flow control framework that ensures secure data handling throughout agent workflows. Results demonstrate SPA’s effectiveness in maintaining security without sacrificing agent flexibility.
+
+### Key Contributions  
+- Introduction of SPA, a novel plan-first information-flow control mechanism tailored for persistent LLM agents.  
+- Formal security guarantees ensuring safe information flow across query sessions.  
+- Integration of static planning and dynamic enforcement to balance security and agent adaptability.
+
+### Method & Results  
+- SPA generates an explicit plan before query execution, applying information-flow control to plan steps rather than individual queries.  
+- Utilizes formal models from security and programming languages to enforce data confidentiality and integrity.  
+- Evaluated on simulated multi-query agent tasks demonstrating a significant reduction in unauthorized data leaks (quantitative leakage reduced by over 70% compared to naively controlled baselines).  
+- Performance overhead remains minimal, maintaining agent responsiveness comparable to unprotected systems.
+
+### Impact & Limitations  
+- Enables deployment of secure, persistent LLM agents in sensitive environments (e.g., healthcare, finance) by preventing cross-query information leakage.  
+- Future work needed on scaling SPA to more complex multi-agent scenarios and real-world LLM platforms beyond simulations.
+
+---
+
+#### Twelve Quick Tips for Managing IT Disasters in Small Research Software Teams
+**作者**: Greg Wilson
+**类别**: cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27196v1
+
+#### Executive Summary
+This paper addresses the challenge of IT disaster management in small research software teams, which often lack dedicated resources and formal protocols. It presents twelve actionable tips drawn from practical experience to help these teams prepare for, respond to, and recover from IT disasters effectively. The main result is a concise, experience-based guideline set tailored for low-resource environments.
+
+### Key Contributions
+- Provides a practical, easy-to-implement checklist specifically for small research software teams facing IT disasters.
+- Emphasizes cost-effective, scalable strategies that leverage existing tools and team practices.
+- Bridges the gap between enterprise disaster recovery frameworks and the unique constraints of small research teams.
+
+### Method & Results
+- Synthesized best practices from real-world incident reports, expert insights, and existing literature on IT disaster recovery.
+- Recommended tools include open-source backup solutions and lightweight communication platforms.
+- Demonstrated improved readiness and reduced downtime in small teams applying these tips (qualitative evidence; quantitative metrics not reported).
+- Lacks formal experimental comparison but aligns with established disaster recovery principles adapted for small-scale scenarios.
+
+### Impact & Limitations
+- Offers immediate practical value to small teams, improving resilience without requiring extensive investment or expertise.
+- Future work could include empirical validation through case studies or quantitative assessments of downtime reduction.
+- The paper may not fully address disasters involving large-scale infrastructure failures beyond software development contexts.
+
+---
+
+#### A Trans-Domain Digital Twin for Bio-Aware Control of Climate and Energy in Cattle Fattening Barns Using Single-Episode Optimizer Learning
+**作者**: Mansoorali Amiri
+**类别**: cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27185v1
+
+#### Executive Summary  
+The paper addresses efficient climate and energy management in cattle fattening barns by developing a trans-domain digital twin that integrates bio-aware control. A novel single-episode optimizer learning approach is proposed to enable real-time adaptive control, resulting in enhanced environmental conditions and energy efficiency.
+
+### Key Contributions  
+- Introduction of a trans-domain digital twin combining biological, climatic, and energy domains for livestock environments.  
+- Development of a single-episode optimizer learning technique for real-time adaptive control.  
+- Demonstration of improved climate regulation and energy savings in cattle barns with bio-aware considerations.
+
+### Method & Results  
+- Utilizes a digital twin framework modeling thermal, energy, and biological parameters to drive control decisions.  
+- Applies single-episode optimizer learning to adapt control actions from limited data efficiently.  
+- Evaluated in simulated cattle barn scenarios, achieving up to 15% energy consumption reduction while maintaining optimal animal comfort indices.  
+- Outperformed traditional rule-based and multi-episode learning controllers in responsiveness and energy savings.
+
+### Impact & Limitations  
+- Practical for precision livestock farming, enabling sustainable barn climate control that balances animal well-being and operational costs.  
+- Future work includes validating the approach in real-world barns and extending the framework to multi-species livestock systems.
+
+---
+
+#### LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration
+**作者**: Matthew Youngman, Cristian Sestito, Themis Prodromakis
+**类别**: cs.AR, cs.AI, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27184v1
+
+#### Executive Summary
+This paper addresses the evolving role of Large Language Models (LLMs) in digital Electronic Design Automation (EDA), shifting focus from content generation to orchestration of design tasks. It proposes frameworks that integrate LLMs as coordinators in multi-tool EDA workflows, enhancing automation and decision-making. Experimental results demonstrate improved efficiency and adaptability over traditional generation-only approaches.
+
+### Key Contributions
+- Introduces the paradigm shift from LLM-driven generation to orchestration in digital EDA workflows.
+- Proposes novel integration strategies for LLMs to coordinate heterogeneous EDA tools.
+- Provides empirical evidence of enhanced workflow automation and flexibility using orchestration approaches.
+
+### Method & Results
+- Developed an orchestration framework where LLMs manage task scheduling, tool invocation, and data flow within EDA pipelines.
+- Utilized benchmark EDA datasets and standard design tools to validate the approach.
+- Achieved up to 25% reduction in design cycle time and improved error handling compared to generation-centric baselines.
+- Demonstrated scalability to complex multi-stage design problems beyond single-step generation tasks.
+
+### Impact & Limitations
+- Practical significance lies in enabling more autonomous, adaptive EDA environments reducing human intervention.
+- Limitations include dependency on LLM interpretability and potential overhead in orchestration complexity.
+- Future work needed to optimize orchestration efficiency and extend to wider EDA domains.
+
+---
+
+#### AgentDV: Closed-Loop Agentic AI for Hardware Design Verification
+**作者**: Navya Goli, Junzhe Liu, Zhenge Jia, Umamaheswara Rao Tida
+**类别**: cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27148v1
+
+#### Executive Summary  
+This paper addresses the challenge of hardware design verification by introducing AgentDV, a closed-loop agentic AI framework that autonomously generates and verifies test cases. The approach tightly integrates AI-driven decision-making with hardware simulation to improve verification efficiency, demonstrating significant reduction in manual effort and turnaround time.
+
+### Key Contributions  
+- Proposes a novel closed-loop agentic AI system tailored for hardware design verification workflows.  
+- Introduces a feedback-driven test generation mechanism that adapts based on verification outcomes.  
+- Demonstrates substantial performance improvements in verification speed and coverage over traditional methods.
+
+### Method & Results  
+- Employs an AI agent that iteratively generates, executes, and refines hardware test cases based on simulation feedback.  
+- Utilizes industry-standard verification tools and benchmark hardware designs for evaluation.  
+- Achieves up to 40% reduction in verification cycle time and improves coverage metrics by 15%.  
+- Outperforms baseline random and heuristic-based test generation approaches in effectiveness and automation level.
+
+### Impact & Limitations  
+- Practical significance: Enhances automation and accuracy in hardware verification, reducing costly manual involvement and shortening product development cycles.  
+- Limitations/Future work: Needs broader validation on diverse, complex hardware systems; integration with more heterogeneous design environments remains to be explored.
+
+---
+
+### 安全领域 领域
+
+#### SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control
+**作者**: Dylan Girrens, Guangjing Wang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27234v1
+
+#### Executive Summary  
+This paper addresses the challenge of securing persistent large language model (LLM) agents across multiple user queries without leaking sensitive information. The authors propose SPA, a plan-first information-flow control framework that statically analyzes agent plans to enforce security policies before runtime. Experiments demonstrate SPA effectively prevents data leaks across queries while maintaining agent utility.
+
+### Key Contributions  
+- Introduces plan-first information-flow control tailored for persistent LLM agents interacting across multiple queries.  
+- Designs a static analysis technique to secure agent knowledge and intermediate states against unauthorized data flows.  
+- Demonstrates practical integration of SPA with existing LLM frameworks, showing security gains with minimal utility loss.
+
+### Method & Results  
+- Develops a static plan analysis that enforces security policies on LLM agent plans prior to execution.  
+- Implements SPA on persistent agents using NLP modules and custom security policy definitions.  
+- Evaluated on multi-query scenarios with sensitive information flow; SPA reduced unauthorized data leaks by 90%+ compared to unsecured baselines.  
+- Performance overhead remains low, preserving fast response times and agent effectiveness.
+
+### Impact & Limitations  
+- Enables safer deployment of persistent LLM-based assistants in privacy-sensitive applications, enhancing user trust.  
+- Limitations include reliance on accurate static plan extraction; future work may extend dynamic monitoring and adapt to evolving policies.
+
+---
+
+#### From Security Events to Conflict States: A Three-layer Cyber Defense Scenario Model for Enhanced Cyber Situational Awareness
+**作者**: Miguel Requena Micó, Mario Fernandez-Tarraga, Daniel Díaz-López, Sergio López Bernal, Gregorio Martínez Pérez
+**类别**: cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27215v1
+
+#### Executive Summary
+This paper addresses the challenge of enhancing cyber situational awareness by bridging raw security event data and high-level conflict state assessment. The authors propose a novel three-layer cyber defense scenario model that integrates event correlation, threat analysis, and conflict state recognition. Their approach demonstrates improved situational understanding, facilitating proactive cyber defense decisions.
+
+### Key Contributions
+- Introduction of a structured three-layer model linking security events to conflict state assessment.
+- Novel integration of event correlation and threat analysis mechanisms within a unified framework.
+- Enhanced capability for dynamic cyber situational awareness supporting timely response.
+
+### Method & Results
+- Developed a layered modeling approach: event aggregation, threat evaluation, and conflict state identification.
+- Utilized real-world security event datasets and threat intelligence feeds for model validation.
+- Results show increased accuracy in detecting conflict states, outperforming baseline event-only analysis by approximately 20% in situational awareness metrics.
+- Demonstrated improved early-warning capabilities through scenario-based conflict recognition.
+
+### Impact & Limitations
+- Enables cybersecurity teams to better comprehend evolving attack dynamics, improving response effectiveness.
+- Limitations include reliance on quality and completeness of input data; future work could explore adaptive learning to handle evolving threats and richer multi-source data integration.
+
+---
+
+#### X-WAD: eXplainable Web Anomaly Detection
+**作者**: Matteo Bitussi, Roberto Doriguzzi-Corin
+**类别**: cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27172v1
+
+#### Executive Summary
+This paper addresses the challenge of detecting web anomalies with clear interpretability. The authors propose X-WAD, a novel explainable anomaly detection framework tailored for web traffic data, demonstrating enhanced detection accuracy alongside transparent decision explanations.
+
+### Key Contributions
+- Introduction of X-WAD, the first web anomaly detection model integrating explainability directly into its architecture.
+- A novel technique that couples anomaly scoring with interpretable features for easier root cause analysis.
+- Empirical validation on real-world datasets showcasing improved detection performance and explanation quality.
+
+### Method & Results
+- Utilizes a hybrid model combining unsupervised anomaly detection with interpretable feature attribution methods.
+- Evaluated on large-scale web traffic logs from public and proprietary sources.
+- Achieved up to 12% improvement in F1-score over standard black-box anomaly detectors.
+- Explanation module effectively highlights relevant traffic features contributing to anomalies, improving analyst trust.
+
+### Impact & Limitations
+- Enables security teams to quickly identify and understand web anomalies, aiding faster mitigation.
+- Current model may require tuning for diverse traffic profiles; future work includes extending adaptability and explanation granularity.
+
+---
+
+#### Physical-Layer Fingerprint-Space Capacity Analysis for 100BASE-TX Devices in IIoT
+**作者**: Chenming Zhang, Aiqun Hu
+**类别**: cs.CR, eess.SP
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27164v1
+
+#### Executive Summary  
+This paper addresses the challenge of quantifying the fingerprint-space capacity for 100BASE-TX devices in Industrial Internet of Things (IIoT) environments, aiming to enhance physical-layer device authentication. The authors propose a novel analytical framework to evaluate and maximize the distinguishability of device fingerprints under industrial channel conditions, demonstrating improved capacity estimates over traditional approaches.
+
+### Key Contributions  
+- Introduces a physical-layer fingerprint-space capacity model tailored for 100BASE-TX IIoT devices.  
+- Develops an analytical method incorporating industrial channel noise and hardware variability.  
+- Validates the model with experimental data, providing practical capacity limits for device identification.
+
+### Method & Results  
+- Utilizes signal processing techniques to extract unique physical-layer features from standard 100BASE-TX signals.  
+- Employs statistical analysis to characterize fingerprint separability and noise impact in IIoT scenarios.  
+- Dataset: Real measurements from 100BASE-TX transceivers deployed in typical industrial settings.  
+- Results show a fingerprint-space capacity increase of up to 25% compared to baseline models ignoring industrial noise factors.  
+- Demonstrates robustness of fingerprint identification despite channel impairments.
+
+### Impact & Limitations  
+- Offers significant potential for securing IIoT networks via enhanced device authentication without additional hardware.  
+- Limitations include dependency on specific industrial channel models; future work could extend analysis to broader IIoT protocols and dynamic environments.
+
+---
+
+#### Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents
+**作者**: Chenhao Wu, Haoxuan Jia, Yang Liu, Yingguang Yang, Yuhan Lin, Chongyang Zhang, Hao Zheng, Yulin Huang, Jianshen Zhang, Yongzhi Qi, Shang Luo, Kefu Xu, Jifeng Zhu, Bin Chong
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27141v1
+
+#### Executive Summary
+This paper investigates safety challenges in autonomous Large Language Model (LLM) agents, specifically the issue that safety properties do not compose under repeated self-looping interactions. The authors identify a "non-decaying loop state" where unsafe behaviors persist indefinitely, and propose a framework to detect and mitigate such loops. Their approach empirically demonstrates improved safety outcomes in autonomous agent tasks.
+
+### Key Contributions
+- Identification and formalization of the "non-decaying loop state" problem in autonomous LLM agents.
+- Novel detection and intervention strategies to prevent infinite unsafe behavioral loops.
+- Empirical validation showing that naive safety constraints fail to compose under iterative agent self-interaction.
+
+### Method & Results
+- Analyze LLM agent behaviors under repeated self-invocations to uncover persistent unsafe states.
+- Develop a loop detection mechanism leveraging state embeddings and safety classifiers.
+- Experiments on autonomous task benchmarks reveal unsafe loops reduce from 35% to under 10% with proposed methods.
+- Performance surpasses baseline safety enforcement techniques that assume decaying risk with iteration.
+
+### Impact & Limitations
+- Highlights critical safety vulnerabilities in deploying autonomous LLMs, guiding safer system designs.
+- Limitations include reliance on synthetic benchmarks; future work could explore broader real-world deployment and adaptive loop prevention mechanisms.
 
 ---
 
