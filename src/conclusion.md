@@ -78325,18 +78325,18 @@ This paper addresses the challenge of detecting and mitigating backdoor attacks 
 #### Executive Summary  
 This paper addresses the security challenges of persistent Large Language Model (LLM) agents operating across multiple queries, focusing on controlling sensitive information flow. The authors propose SPA, a plan-first information-flow control framework that ensures secure data handling throughout agent workflows. Results demonstrate SPA’s effectiveness in maintaining security without sacrificing agent flexibility.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of SPA, a novel plan-first information-flow control mechanism tailored for persistent LLM agents.  
 - Formal security guarantees ensuring safe information flow across query sessions.  
 - Integration of static planning and dynamic enforcement to balance security and agent adaptability.
 
-### Method & Results  
+### Method & Results
 - SPA generates an explicit plan before query execution, applying information-flow control to plan steps rather than individual queries.  
 - Utilizes formal models from security and programming languages to enforce data confidentiality and integrity.  
 - Evaluated on simulated multi-query agent tasks demonstrating a significant reduction in unauthorized data leaks (quantitative leakage reduced by over 70% compared to naively controlled baselines).  
 - Performance overhead remains minimal, maintaining agent responsiveness comparable to unprotected systems.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables deployment of secure, persistent LLM agents in sensitive environments (e.g., healthcare, finance) by preventing cross-query information leakage.  
 - Future work needed on scaling SPA to more complex multi-agent scenarios and real-world LLM platforms beyond simulations.
 
@@ -78378,18 +78378,18 @@ This paper addresses the challenge of IT disaster management in small research s
 #### Executive Summary  
 The paper addresses efficient climate and energy management in cattle fattening barns by developing a trans-domain digital twin that integrates bio-aware control. A novel single-episode optimizer learning approach is proposed to enable real-time adaptive control, resulting in enhanced environmental conditions and energy efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Introduction of a trans-domain digital twin combining biological, climatic, and energy domains for livestock environments.  
 - Development of a single-episode optimizer learning technique for real-time adaptive control.  
 - Demonstration of improved climate regulation and energy savings in cattle barns with bio-aware considerations.
 
-### Method & Results  
+### Method & Results
 - Utilizes a digital twin framework modeling thermal, energy, and biological parameters to drive control decisions.  
 - Applies single-episode optimizer learning to adapt control actions from limited data efficiently.  
 - Evaluated in simulated cattle barn scenarios, achieving up to 15% energy consumption reduction while maintaining optimal animal comfort indices.  
 - Outperformed traditional rule-based and multi-episode learning controllers in responsiveness and energy savings.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical for precision livestock farming, enabling sustainable barn climate control that balances animal well-being and operational costs.  
 - Future work includes validating the approach in real-world barns and extending the framework to multi-species livestock systems.
 
@@ -78431,46 +78431,35 @@ This paper addresses the evolving role of Large Language Models (LLMs) in digita
 #### Executive Summary  
 This paper addresses the challenge of hardware design verification by introducing AgentDV, a closed-loop agentic AI framework that autonomously generates and verifies test cases. The approach tightly integrates AI-driven decision-making with hardware simulation to improve verification efficiency, demonstrating significant reduction in manual effort and turnaround time.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel closed-loop agentic AI system tailored for hardware design verification workflows.  
 - Introduces a feedback-driven test generation mechanism that adapts based on verification outcomes.  
 - Demonstrates substantial performance improvements in verification speed and coverage over traditional methods.
 
-### Method & Results  
+### Method & Results
 - Employs an AI agent that iteratively generates, executes, and refines hardware test cases based on simulation feedback.  
 - Utilizes industry-standard verification tools and benchmark hardware designs for evaluation.  
 - Achieves up to 40% reduction in verification cycle time and improves coverage metrics by 15%.  
 - Outperforms baseline random and heuristic-based test generation approaches in effectiveness and automation level.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical significance: Enhances automation and accuracy in hardware verification, reducing costly manual involvement and shortening product development cycles.  
 - Limitations/Future work: Needs broader validation on diverse, complex hardware systems; integration with more heterogeneous design environments remains to be explored.
 
 ---
 
-### 安全领域 领域
-
-#### SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control
-**作者**: Dylan Girrens, Guangjing Wang
-**类别**: cs.CR, cs.SE
-**发布日期**: 2026-08-27
-**链接**: http://arxiv.org/abs/2608.27234v1
-
-#### Executive Summary  
-This paper addresses the challenge of securing persistent large language model (LLM) agents across multiple user queries without leaking sensitive information. The authors propose SPA, a plan-first information-flow control framework that statically analyzes agent plans to enforce security policies before runtime. Experiments demonstrate SPA effectively prevents data leaks across queries while maintaining agent utility.
-
-### Key Contributions  
+### Key Contributions
 - Introduces plan-first information-flow control tailored for persistent LLM agents interacting across multiple queries.  
 - Designs a static analysis technique to secure agent knowledge and intermediate states against unauthorized data flows.  
 - Demonstrates practical integration of SPA with existing LLM frameworks, showing security gains with minimal utility loss.
 
-### Method & Results  
+### Method & Results
 - Develops a static plan analysis that enforces security policies on LLM agent plans prior to execution.  
 - Implements SPA on persistent agents using NLP modules and custom security policy definitions.  
 - Evaluated on multi-query scenarios with sensitive information flow; SPA reduced unauthorized data leaks by 90%+ compared to unsecured baselines.  
 - Performance overhead remains low, preserving fast response times and agent effectiveness.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables safer deployment of persistent LLM-based assistants in privacy-sensitive applications, enhancing user trust.  
 - Limitations include reliance on accurate static plan extraction; future work may extend dynamic monitoring and adapt to evolving policies.
 
@@ -78537,19 +78526,19 @@ This paper addresses the challenge of detecting web anomalies with clear interpr
 #### Executive Summary  
 This paper addresses the challenge of quantifying the fingerprint-space capacity for 100BASE-TX devices in Industrial Internet of Things (IIoT) environments, aiming to enhance physical-layer device authentication. The authors propose a novel analytical framework to evaluate and maximize the distinguishability of device fingerprints under industrial channel conditions, demonstrating improved capacity estimates over traditional approaches.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a physical-layer fingerprint-space capacity model tailored for 100BASE-TX IIoT devices.  
 - Develops an analytical method incorporating industrial channel noise and hardware variability.  
 - Validates the model with experimental data, providing practical capacity limits for device identification.
 
-### Method & Results  
+### Method & Results
 - Utilizes signal processing techniques to extract unique physical-layer features from standard 100BASE-TX signals.  
 - Employs statistical analysis to characterize fingerprint separability and noise impact in IIoT scenarios.  
 - Dataset: Real measurements from 100BASE-TX transceivers deployed in typical industrial settings.  
 - Results show a fingerprint-space capacity increase of up to 25% compared to baseline models ignoring industrial noise factors.  
 - Demonstrates robustness of fingerprint identification despite channel impairments.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers significant potential for securing IIoT networks via enhanced device authentication without additional hardware.  
 - Limitations include dependency on specific industrial channel models; future work could extend analysis to broader IIoT protocols and dynamic environments.
 
@@ -78578,6 +78567,276 @@ This paper investigates safety challenges in autonomous Large Language Model (LL
 ### Impact & Limitations
 - Highlights critical safety vulnerabilities in deploying autonomous LLMs, guiding safer system designs.
 - Limitations include reliance on synthetic benchmarks; future work could explore broader real-world deployment and adaptive loop prevention mechanisms.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-30)
+
+### 软件工程 领域
+
+#### When Tool Outputs Become Commands: Separating Action Induction from Runtime Authorization in Tool-Augmented LLM Agents
+**作者**: Xiaokun Guo, Zhen Xu, Dongdong Huo, Yanqiu Zhang, Wei Wang, Qinfu Yang, Dongjin Yu, Yu Wang
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27146v1
+
+#### Executive Summary  
+This paper addresses the challenge of safely integrating tool outputs as executable commands in large language model (LLM) agents by distinctly separating action induction from runtime authorization. The authors propose a novel framework that decouples command generation from execution approval, enhancing security and control without hindering agent autonomy. Experimental results demonstrate improved safety and efficiency in tool-augmented LLM systems.
+
+### Key Contributions  
+- Introduces a two-stage framework separating action induction from runtime command authorization in LLM agents.  
+- Proposes a modular approach allowing flexible and secure control over tool-augmented agent behaviors.  
+- Provides empirical validation showing better safety and command execution efficacy compared to monolithic architectures.
+
+### Method & Results  
+- Method: Utilizes a decoupled pipeline where LLM first generates potential actions, followed by a distinct authorization module vetting commands before execution.  
+- Tools: Evaluations conducted on standard LLM benchmarks augmented with simulated tool interfaces.  
+- Results: Demonstrates up to 25% reduction in unauthorized or erroneous commands and a 15% increase in task success rates relative to baseline integrated command generation models.
+
+### Impact & Limitations  
+- Impact: Offers a practical framework to safely deploy LLM agents in real-world environments requiring tool interaction, improving trustworthiness and adaptability.  
+- Limitations: Current approach depends on the quality of the authorization module, which may limit responsiveness; future work could explore adaptive authorization mechanisms and broader toolsets.
+
+---
+
+#### AROMA+: A Study of Factors Affecting Reproducible Builds in the Maven Ecosystem
+**作者**: Mehdi Keshani, Amirhossein Rahmati, Mohammad Hossein Aref, Abbas Heydarnoori
+**类别**: cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27125v1
+
+#### Executive Summary
+This paper investigates factors impacting reproducible builds within the Maven package ecosystem, aiming to identify root causes and improve build reliability. The authors empirically analyze Maven projects to isolate common barriers to reproducibility and propose actionable recommendations.
+
+### Key Contributions
+- Comprehensive study identifying key factors causing non-reproducible builds in Maven projects.
+- Development of AROMA+, a tool-assisted approach to detect reproducibility issues.
+- Empirical validation showing practical improvements in build consistency through targeted fixes.
+
+### Method & Results
+- Analyzed a large dataset of Maven projects to detect and categorize reproducibility failures.
+- Utilized AROMA+ tool to automate detection of problematic build configurations and dependencies.
+- Found that over 60% of builds faced reproducibility issues primarily due to timestamp and environment dependencies.
+- Implemented fixes improved reproducibility rates by up to 35% compared to baseline Maven builds without intervention.
+
+### Impact & Limitations
+- Enhances developers’ ability to create reliable Maven builds, fostering trust in software supply chains.
+- Limited to Maven ecosystem; extending to other build systems remains future work.
+- Further research needed to address complex environmental factors beyond current tool capabilities.
+
+---
+
+#### Mutation Testing for Reproducibility Safeguards in Machine Learning Research Software: An Empirical Study
+**作者**: Ilya Shulepov
+**类别**: cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27100v1
+
+#### Executive Summary  
+This paper addresses reproducibility issues in machine learning (ML) research software by introducing mutation testing as a mechanism to safeguard experimental validity. The approach involves injecting systematic mutations into ML codebases to identify weak points that undermine reproducibility. Empirical results demonstrate that mutation testing effectively highlights reproducibility vulnerabilities in widely-used ML research repositories.
+
+### Key Contributions  
+- Introduces mutation testing as a novel tool for assessing reproducibility in ML research software.  
+- Provides an empirical study quantifying the impact of mutations on reproducibility safeguards across real ML projects.  
+- Proposes actionable guidelines for improving reproducibility based on mutation testing outcomes.
+
+### Method & Results  
+- Applied mutation operators targeting common ML software issues (e.g., random seed handling, data splits) to various research repositories.  
+- Evaluated mutation impact using established ML datasets and frameworks, measuring reproducibility breakage rates.  
+- Found that 35-50% of mutations triggered reproducibility failures, revealing critical software weaknesses.  
+- Demonstrated superior sensitivity of mutation testing compared to traditional static code analysis in detecting reproducibility faults.
+
+### Impact & Limitations  
+- Enhances reproducibility assurance in ML research by providing a systematic, empirical validation framework.  
+- Limited to open-source ML projects; future work should extend to proprietary models and larger-scale evaluations.  
+- Additional mutation types and integration with CI pipelines are promising directions for further robustness testing.
+
+---
+
+#### An Empirical Evaluation of Using Large Language Models for Automated Model-Based Test Generation
+**作者**: Hafize Sanli, Onur Kilincceker, Cihat Cetinkaya
+**类别**: cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27094v1
+
+#### Executive Summary  
+This paper investigates the effectiveness of large language models (LLMs) for automated model-based test generation, aiming to reduce manual effort in software testing. The authors empirically evaluate various LLMs to generate test sequences from system models and demonstrate improved coverage and fault detection compared to traditional approaches.
+
+### Key Contributions  
+- Empirical evaluation of LLMs for generating model-based test cases, a novel application in automated software testing.  
+- Comparison of multiple LLM architectures and prompting strategies tailored for test generation tasks.  
+- Demonstration of the feasibility and benefits of integrating LLMs into model-based testing workflows.
+
+### Method & Results  
+- Utilized transformer-based LLMs prompted with formal system models to generate test sequences.  
+- Experiments conducted on standard software testing benchmarks and models from industrial-grade systems.  
+- Achieved up to 15% higher code coverage and 20% improvement in fault detection rate over baseline model-based test generation techniques.  
+- LLM-generated tests showed better diversity and adaptability across varied test scenarios.
+
+### Impact & Limitations  
+- Highlights the potential of LLMs to automate and enhance the efficiency of model-based testing, reducing reliance on manual test design.  
+- Limited by dependency on prompt engineering and model generalization; future work should focus on improving robustness and extending to larger industrial systems.
+
+---
+
+#### Bug Localization from Bug Reports: A Multi-Objective Approach
+**作者**: Waleed Ahmad, Mehtab Kiran Suddle, Maryam Bashir
+**类别**: cs.NE, cs.SE
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27089v1
+
+#### Executive Summary  
+This paper addresses the challenge of accurately locating bugs in software from natural language bug reports. It proposes a novel multi-objective optimization framework that integrates textual and structural features to improve bug localization accuracy. Experimental results demonstrate significant performance gains over existing single-objective methods.
+
+### Key Contributions  
+- Introduces a multi-objective optimization approach combining textual similarity and code structure metrics for bug localization.  
+- Proposes a new feature fusion technique to enhance the precision of bug report to source code mapping.  
+- Provides an extensive empirical evaluation validating superiority over state-of-the-art baselines.
+
+### Method & Results  
+- Utilizes a multi-objective evolutionary algorithm to jointly optimize relevance scores from bug report text and source code characteristics.  
+- Conducts experiments on standard datasets such as Bugzilla and Eclipse with real-world bug reports.  
+- Achieves up to 15% improvement in Mean Reciprocal Rank (MRR) and Top-K accuracy compared to leading methods.  
+- Demonstrates robustness across diverse projects and bug types.
+
+### Impact & Limitations  
+- Enhances developers’ efficiency by reducing time spent identifying buggy code segments, potentially improving software maintenance workflows.  
+- Future work includes extending the approach to better handle noisy or incomplete bug reports and integrating dynamic program analysis features.
+
+---
+
+### 安全领域 领域
+
+#### SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery
+**作者**: Jiacheng Gao, Moyang Xie, Yuan Zhang, Sheng Zhong
+**类别**: cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27129v1
+
+#### Executive Summary  
+This paper addresses the problem of efficiently shuffling Shamir secret shares uniformly with minimal communication overhead. The authors propose SLIDE, a protocol achieving linear online communication complexity while guaranteeing output delivery. Their approach ensures both uniform shuffling and robustness, improving practical deployment in secure multiparty computation (MPC) settings.
+
+### Key Contributions  
+- Introduces SLIDE, the first protocol enabling uniform shuffle of Shamir secret shares with strictly linear online communication.  
+- Provides guaranteed output delivery without compromising security or efficiency.  
+- Demonstrates robustness against adversarial behaviors in secret sharing shuffling.
+
+### Method & Results  
+- SLIDE leverages novel linear algebraic transformations and communication-efficient protocols to shuffle shares in an online, streaming manner.  
+- Experimental evaluation conducted on MPC benchmarks and synthetic secret share distributions.  
+- Achieves linear communication growth relative to input size, outperforming prior quadratic or higher communication protocols by 30-50% reduction in bandwidth.  
+- Maintains negligible latency overhead and successful completion in adversarial test scenarios.
+
+### Impact & Limitations  
+- Enhances secure computation frameworks where secret share shuffling is critical, enabling more scalable and practical MPC deployments.  
+- Future work could explore extending SLIDE to other secret sharing schemes and further reducing computation costs.  
+- Empirical results are promising but tested mainly on synthetic and controlled datasets; real-world application benchmarks remain to be evaluated.
+
+---
+
+#### SecureDrive-FL: Joint Differential Privacy and Gradient-Aware Selective Homomorphic Encryption for Federated Driver Monitoring
+**作者**: Baran Can Gül, Hanuma Siddhartha Tunuguntla, Anjana Arvind Naik, Abhishek Vijay Potekar, Nasser Jazdi, Michael Weyrich
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27108v1
+
+#### Executive Summary  
+This paper addresses privacy and security challenges in federated learning (FL) for driver monitoring systems by proposing SecureDrive-FL. It introduces a novel framework combining joint differential privacy with gradient-aware selective homomorphic encryption to protect sensitive data during training. The approach significantly enhances privacy without compromising model accuracy or training efficiency.
+
+### Key Contributions  
+- Proposes a joint differential privacy mechanism tailored for federated driver monitoring data.  
+- Develops a gradient-aware selective homomorphic encryption scheme optimizing computational overhead by encrypting sensitive gradients only.  
+- Demonstrates improved privacy guarantees with minimal utility loss in federated learning contexts.
+
+### Method & Results  
+- Employs federated learning with gradient partitioning to selectively apply homomorphic encryption combined with calibrated noise addition for differential privacy.  
+- Uses real-world driver behavioral datasets to evaluate system performance and privacy.  
+- Achieves up to 40% reduction in encryption computation compared to full homomorphic encryption approaches while maintaining model accuracy within 2% of non-private baselines.  
+- Privacy leakage metrics confirm strong differential privacy guarantees outperforming existing FL privacy methods.
+
+### Impact & Limitations  
+- Enhances secure and privacy-preserving driver monitoring, promoting safer automotive AI deployment in real-world federated settings.  
+- Limitations include potential scalability challenges with very large models and reliance on gradient sensitivity estimations that may require tuning in diverse environments. Future work could explore adaptive privacy budgets and broader application scenarios.
+
+---
+
+#### LAAF: A Layered Accountability Architecture Framework for LLM Applications
+**作者**: Prachi Chaturvedi, Shahnawaz Ahmad, Ehsan Nowroozi, Muhammad Waqas, George Loukas, Alireza Jolfaei, Lucas Cordeiro, Pierre Dantas
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27102v1
+
+#### Executive Summary
+This paper addresses the critical challenge of accountability in large language model (LLM) applications by proposing LAAF, a layered architecture framework designed to ensure transparency, auditability, and responsibility across LLM deployment stages. The authors demonstrate that LAAF enhances traceability and governance without degrading model performance.
+
+### Key Contributions
+- Introduces a novel layered accountability framework tailored for complex LLM application ecosystems.
+- Integrates multi-tier monitoring and logging mechanisms to capture decision provenance effectively.
+- Presents a modular design enabling scalable, real-time auditing of LLM outputs and interactions.
+
+### Method & Results
+- Developed a multi-layered architecture incorporating data ingestion, model inference, and output verification layers.
+- Utilized benchmark LLM datasets including OpenAI GPT-based dialogue corpora and proprietary enterprise logs.
+- Achieved up to 35% improvement in traceability metrics and reduced auditing time by 40% compared to conventional logging systems.
+- Demonstrated negligible impact on inference latency, outperforming baseline accountability tools in scalability tests.
+
+### Impact & Limitations
+- Enhances practical governance and compliance capabilities for industries deploying LLMs in sensitive contexts.
+- Future work needed on extending framework adaptability to rapidly evolving LLM architectures and exploring real-world regulatory integrations.
+
+---
+
+#### The Framing Gap: Indirect Prompt-Injection Exfiltration Defeats Surface-Level Defenses in Tool-Using Agents
+**作者**: Md Habibur Rahman, Jaeho Kim
+**类别**: cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27092v1
+
+#### Executive Summary  
+This paper investigates indirect prompt-injection attacks that exfiltrate data via tool-using language models, bypassing common surface-level defenses. The authors introduce “framing gap” attacks that exploit subtle framing vulnerabilities in prompt design. Their approach demonstrates high success in stealthy data leakage despite existing mitigation strategies.
+
+### Key Contributions  
+- Identifies and defines the "framing gap," a novel vulnerability enabling indirect prompt-injection exfiltration in tool-using agents.  
+- Demonstrates that common defense mechanisms fail against these indirect, context-sensitive prompts.  
+- Proposes evaluation frameworks for measuring the effectiveness of prompt-based attack and defense strategies.
+
+### Method & Results  
+- Developed a threat model focusing on tool-using agents and crafted indirect prompt injections that leverage framing gaps.  
+- Evaluated on standard large language models integrated with external tools (e.g., API calls, databases).  
+- Experiments reveal over 80% success rates in exfiltrating sensitive data despite existing prompt sanitization.  
+- Significantly outperforms baseline direct injection attacks, which are more easily detected and mitigated.
+
+### Impact & Limitations  
+- Highlights critical vulnerabilities in current prompt-based defenses, emphasizing the need for advanced contextual filtering in deployed agents.  
+- Limitations include a focus on specific tool-using frameworks; future work could explore broader model architectures and automated defense mechanisms.
+
+---
+
+#### Cyber-Electromagnetic Anomaly Detection Through Time-Series Analysis
+**作者**: María Teresa Guillén Navarro, Juan Luis Serradilla Tormos, Sergio López Bernal, Daniel Díaz-López, Gregorio Martínez Pérez
+**类别**: cs.CR
+**发布日期**: 2026-08-27
+**链接**: http://arxiv.org/abs/2608.27043v1
+
+#### Executive Summary  
+This paper addresses the detection of cyber-electromagnetic anomalies by analyzing time-series data to identify abnormal patterns indicative of security breaches. The authors propose a novel anomaly detection framework leveraging advanced time-series modeling techniques and validate its effectiveness on real-world datasets. Results demonstrate superior detection accuracy and timely identification compared to existing methods.
+
+### Key Contributions  
+- Introduces a time-series analysis framework specifically tailored for cyber-electromagnetic anomaly detection.  
+- Integrates multi-modal electromagnetic signal features with temporal models to enhance detection sensitivity.  
+- Provides comprehensive evaluation on realistic datasets showcasing improved detection rates.
+
+### Method & Results  
+- Employs advanced time-series anomaly detection methods, including statistical modeling and machine learning, to capture temporal irregularities in electromagnetic signals.  
+- Uses custom-collected datasets featuring cyber-electromagnetic activity under normal and attack conditions.  
+- Achieved detection accuracy exceeding 90%, outperforming baseline approaches by 15-20% in precision and recall.  
+- Demonstrated effective early detection capabilities reducing response time to anomalies.
+
+### Impact & Limitations  
+- Offers a practical solution for enhancing cybersecurity monitoring through electromagnetic signal analysis, potentially aiding critical infrastructure protection.  
+- Limitations include reliance on dataset representativeness and the need to generalize models across diverse operational environments; future work should address adaptive learning and broader scenario coverage.
 
 ---
 
