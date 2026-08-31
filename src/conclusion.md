@@ -78585,17 +78585,17 @@ This paper investigates safety challenges in autonomous Large Language Model (LL
 #### Executive Summary  
 This paper addresses the challenge of safely integrating tool outputs as executable commands in large language model (LLM) agents by distinctly separating action induction from runtime authorization. The authors propose a novel framework that decouples command generation from execution approval, enhancing security and control without hindering agent autonomy. Experimental results demonstrate improved safety and efficiency in tool-augmented LLM systems.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a two-stage framework separating action induction from runtime command authorization in LLM agents.  
 - Proposes a modular approach allowing flexible and secure control over tool-augmented agent behaviors.  
 - Provides empirical validation showing better safety and command execution efficacy compared to monolithic architectures.
 
-### Method & Results  
+### Method & Results
 - Method: Utilizes a decoupled pipeline where LLM first generates potential actions, followed by a distinct authorization module vetting commands before execution.  
 - Tools: Evaluations conducted on standard LLM benchmarks augmented with simulated tool interfaces.  
 - Results: Demonstrates up to 25% reduction in unauthorized or erroneous commands and a 15% increase in task success rates relative to baseline integrated command generation models.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Impact: Offers a practical framework to safely deploy LLM agents in real-world environments requiring tool interaction, improving trustworthiness and adaptability.  
 - Limitations: Current approach depends on the quality of the authorization module, which may limit responsiveness; future work could explore adaptive authorization mechanisms and broader toolsets.
 
@@ -78637,18 +78637,18 @@ This paper investigates factors impacting reproducible builds within the Maven p
 #### Executive Summary  
 This paper addresses reproducibility issues in machine learning (ML) research software by introducing mutation testing as a mechanism to safeguard experimental validity. The approach involves injecting systematic mutations into ML codebases to identify weak points that undermine reproducibility. Empirical results demonstrate that mutation testing effectively highlights reproducibility vulnerabilities in widely-used ML research repositories.
 
-### Key Contributions  
+### Key Contributions
 - Introduces mutation testing as a novel tool for assessing reproducibility in ML research software.  
 - Provides an empirical study quantifying the impact of mutations on reproducibility safeguards across real ML projects.  
 - Proposes actionable guidelines for improving reproducibility based on mutation testing outcomes.
 
-### Method & Results  
+### Method & Results
 - Applied mutation operators targeting common ML software issues (e.g., random seed handling, data splits) to various research repositories.  
 - Evaluated mutation impact using established ML datasets and frameworks, measuring reproducibility breakage rates.  
 - Found that 35-50% of mutations triggered reproducibility failures, revealing critical software weaknesses.  
 - Demonstrated superior sensitivity of mutation testing compared to traditional static code analysis in detecting reproducibility faults.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances reproducibility assurance in ML research by providing a systematic, empirical validation framework.  
 - Limited to open-source ML projects; future work should extend to proprietary models and larger-scale evaluations.  
 - Additional mutation types and integration with CI pipelines are promising directions for further robustness testing.
@@ -78664,18 +78664,18 @@ This paper addresses reproducibility issues in machine learning (ML) research so
 #### Executive Summary  
 This paper investigates the effectiveness of large language models (LLMs) for automated model-based test generation, aiming to reduce manual effort in software testing. The authors empirically evaluate various LLMs to generate test sequences from system models and demonstrate improved coverage and fault detection compared to traditional approaches.
 
-### Key Contributions  
+### Key Contributions
 - Empirical evaluation of LLMs for generating model-based test cases, a novel application in automated software testing.  
 - Comparison of multiple LLM architectures and prompting strategies tailored for test generation tasks.  
 - Demonstration of the feasibility and benefits of integrating LLMs into model-based testing workflows.
 
-### Method & Results  
+### Method & Results
 - Utilized transformer-based LLMs prompted with formal system models to generate test sequences.  
 - Experiments conducted on standard software testing benchmarks and models from industrial-grade systems.  
 - Achieved up to 15% higher code coverage and 20% improvement in fault detection rate over baseline model-based test generation techniques.  
 - LLM-generated tests showed better diversity and adaptability across varied test scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights the potential of LLMs to automate and enhance the efficiency of model-based testing, reducing reliance on manual test design.  
 - Limited by dependency on prompt engineering and model generalization; future work should focus on improving robustness and extending to larger industrial systems.
 
@@ -78690,18 +78690,18 @@ This paper investigates the effectiveness of large language models (LLMs) for au
 #### Executive Summary  
 This paper addresses the challenge of accurately locating bugs in software from natural language bug reports. It proposes a novel multi-objective optimization framework that integrates textual and structural features to improve bug localization accuracy. Experimental results demonstrate significant performance gains over existing single-objective methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a multi-objective optimization approach combining textual similarity and code structure metrics for bug localization.  
 - Proposes a new feature fusion technique to enhance the precision of bug report to source code mapping.  
 - Provides an extensive empirical evaluation validating superiority over state-of-the-art baselines.
 
-### Method & Results  
+### Method & Results
 - Utilizes a multi-objective evolutionary algorithm to jointly optimize relevance scores from bug report text and source code characteristics.  
 - Conducts experiments on standard datasets such as Bugzilla and Eclipse with real-world bug reports.  
 - Achieves up to 15% improvement in Mean Reciprocal Rank (MRR) and Top-K accuracy compared to leading methods.  
 - Demonstrates robustness across diverse projects and bug types.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances developers’ efficiency by reducing time spent identifying buggy code segments, potentially improving software maintenance workflows.  
 - Future work includes extending the approach to better handle noisy or incomplete bug reports and integrating dynamic program analysis features.
 
@@ -78718,18 +78718,18 @@ This paper addresses the challenge of accurately locating bugs in software from 
 #### Executive Summary  
 This paper addresses the problem of efficiently shuffling Shamir secret shares uniformly with minimal communication overhead. The authors propose SLIDE, a protocol achieving linear online communication complexity while guaranteeing output delivery. Their approach ensures both uniform shuffling and robustness, improving practical deployment in secure multiparty computation (MPC) settings.
 
-### Key Contributions  
+### Key Contributions
 - Introduces SLIDE, the first protocol enabling uniform shuffle of Shamir secret shares with strictly linear online communication.  
 - Provides guaranteed output delivery without compromising security or efficiency.  
 - Demonstrates robustness against adversarial behaviors in secret sharing shuffling.
 
-### Method & Results  
+### Method & Results
 - SLIDE leverages novel linear algebraic transformations and communication-efficient protocols to shuffle shares in an online, streaming manner.  
 - Experimental evaluation conducted on MPC benchmarks and synthetic secret share distributions.  
 - Achieves linear communication growth relative to input size, outperforming prior quadratic or higher communication protocols by 30-50% reduction in bandwidth.  
 - Maintains negligible latency overhead and successful completion in adversarial test scenarios.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances secure computation frameworks where secret share shuffling is critical, enabling more scalable and practical MPC deployments.  
 - Future work could explore extending SLIDE to other secret sharing schemes and further reducing computation costs.  
 - Empirical results are promising but tested mainly on synthetic and controlled datasets; real-world application benchmarks remain to be evaluated.
@@ -78745,18 +78745,18 @@ This paper addresses the problem of efficiently shuffling Shamir secret shares u
 #### Executive Summary  
 This paper addresses privacy and security challenges in federated learning (FL) for driver monitoring systems by proposing SecureDrive-FL. It introduces a novel framework combining joint differential privacy with gradient-aware selective homomorphic encryption to protect sensitive data during training. The approach significantly enhances privacy without compromising model accuracy or training efficiency.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a joint differential privacy mechanism tailored for federated driver monitoring data.  
 - Develops a gradient-aware selective homomorphic encryption scheme optimizing computational overhead by encrypting sensitive gradients only.  
 - Demonstrates improved privacy guarantees with minimal utility loss in federated learning contexts.
 
-### Method & Results  
+### Method & Results
 - Employs federated learning with gradient partitioning to selectively apply homomorphic encryption combined with calibrated noise addition for differential privacy.  
 - Uses real-world driver behavioral datasets to evaluate system performance and privacy.  
 - Achieves up to 40% reduction in encryption computation compared to full homomorphic encryption approaches while maintaining model accuracy within 2% of non-private baselines.  
 - Privacy leakage metrics confirm strong differential privacy guarantees outperforming existing FL privacy methods.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances secure and privacy-preserving driver monitoring, promoting safer automotive AI deployment in real-world federated settings.  
 - Limitations include potential scalability challenges with very large models and reliance on gradient sensitivity estimations that may require tuning in diverse environments. Future work could explore adaptive privacy budgets and broader application scenarios.
 
@@ -78797,18 +78797,18 @@ This paper addresses the critical challenge of accountability in large language 
 #### Executive Summary  
 This paper investigates indirect prompt-injection attacks that exfiltrate data via tool-using language models, bypassing common surface-level defenses. The authors introduce “framing gap” attacks that exploit subtle framing vulnerabilities in prompt design. Their approach demonstrates high success in stealthy data leakage despite existing mitigation strategies.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and defines the "framing gap," a novel vulnerability enabling indirect prompt-injection exfiltration in tool-using agents.  
 - Demonstrates that common defense mechanisms fail against these indirect, context-sensitive prompts.  
 - Proposes evaluation frameworks for measuring the effectiveness of prompt-based attack and defense strategies.
 
-### Method & Results  
+### Method & Results
 - Developed a threat model focusing on tool-using agents and crafted indirect prompt injections that leverage framing gaps.  
 - Evaluated on standard large language models integrated with external tools (e.g., API calls, databases).  
 - Experiments reveal over 80% success rates in exfiltrating sensitive data despite existing prompt sanitization.  
 - Significantly outperforms baseline direct injection attacks, which are more easily detected and mitigated.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical vulnerabilities in current prompt-based defenses, emphasizing the need for advanced contextual filtering in deployed agents.  
 - Limitations include a focus on specific tool-using frameworks; future work could explore broader model architectures and automated defense mechanisms.
 
@@ -78823,20 +78823,291 @@ This paper investigates indirect prompt-injection attacks that exfiltrate data v
 #### Executive Summary  
 This paper addresses the detection of cyber-electromagnetic anomalies by analyzing time-series data to identify abnormal patterns indicative of security breaches. The authors propose a novel anomaly detection framework leveraging advanced time-series modeling techniques and validate its effectiveness on real-world datasets. Results demonstrate superior detection accuracy and timely identification compared to existing methods.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a time-series analysis framework specifically tailored for cyber-electromagnetic anomaly detection.  
 - Integrates multi-modal electromagnetic signal features with temporal models to enhance detection sensitivity.  
 - Provides comprehensive evaluation on realistic datasets showcasing improved detection rates.
 
-### Method & Results  
+### Method & Results
 - Employs advanced time-series anomaly detection methods, including statistical modeling and machine learning, to capture temporal irregularities in electromagnetic signals.  
 - Uses custom-collected datasets featuring cyber-electromagnetic activity under normal and attack conditions.  
 - Achieved detection accuracy exceeding 90%, outperforming baseline approaches by 15-20% in precision and recall.  
 - Demonstrated effective early detection capabilities reducing response time to anomalies.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Offers a practical solution for enhancing cybersecurity monitoring through electromagnetic signal analysis, potentially aiding critical infrastructure protection.  
 - Limitations include reliance on dataset representativeness and the need to generalize models across diverse operational environments; future work should address adaptive learning and broader scenario coverage.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-08-31)
+
+### 软件工程 领域
+
+#### Rethinking Vulnerability Remediation as a Capacity Allocation Problem
+**作者**: Jana Stucke
+**类别**: cs.SE
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28509v1
+
+#### Executive Summary
+The paper addresses the challenge of optimizing vulnerability remediation in software systems by framing it as a capacity allocation problem. It proposes a novel model that strategically allocates limited resources to patch vulnerabilities for maximal security impact. Results demonstrate improved prioritization over conventional approaches, enhancing overall risk reduction.
+
+### Key Contributions
+- Introduces a capacity allocation framework for vulnerability remediation, shifting from ad-hoc patching to strategic resource distribution.
+- Develops a formal model quantifying trade-offs between patching efforts and security benefits.
+- Provides empirical validation showing superior prioritization effectiveness compared to existing heuristics.
+
+### Method & Results
+- Formulates remediation as an optimization problem balancing vulnerability severity, exploitability, and available patching capacity.
+- Utilizes real-world vulnerability data from public databases (e.g., NVD) and simulated patching scenarios.
+- Experiments show up to 25% greater risk reduction for a fixed remediation budget versus baseline prioritization methods.
+- Demonstrates robust performance across different software ecosystems and vulnerability profiles.
+
+### Impact & Limitations
+- Enables organizations to more effectively allocate limited security resources, potentially reducing exploit success and operational risk.
+- Future work needed on integrating dynamic threat intelligence and real-time system constraints.
+- Scalability of the model for very large vulnerability sets remains to be assessed.
+
+---
+
+#### A System-of-Systems Case Study for the Verification of Composed Digital Twins
+**作者**: Mennatullah T. Khedr, Mengwei Xu, John S. Fitzgerald, Peter Gorm Larsen
+**类别**: cs.SE
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28498v1
+
+#### Executive Summary
+This paper addresses the challenge of verifying composed digital twins in complex system-of-systems (SoS) contexts. The authors propose a case study demonstrating verification techniques for integrated digital twins, achieving enhanced consistency and reliability in system modeling. Results show feasibility in handling the complexity of SoS verification through their compositional approach.
+
+### Key Contributions
+- A novel case study framework for verifying composed digital twins within a system-of-systems.
+- Demonstration of verification techniques that handle compositional complexity in digital twins.
+- Insights into integration challenges and solutions for maintaining model consistency and correctness.
+
+### Method & Results
+- Applied formal verification and model composition methods to digital twins representing constituent systems.
+- Utilized a carefully constructed SoS dataset and digital twin models from industrial-scale scenarios.
+- Experimental results validate that their approach improves detection of inconsistencies and verification coverage compared to single-system verification.
+- Quantitative improvements in verification completeness and error detection rates were reported, though exact metrics are not detailed.
+
+### Impact & Limitations
+- Enables more reliable deployment of digital twins in complex, interconnected systems, supporting better design and operational decisions.
+- Future work needed to scale methods to larger SoS instances and automate integration processes further.
+
+---
+
+#### On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces
+**作者**: Ahmed Hereiz, Yingzhe Lyu, Hao Li, Bram Adams, Ahmed E. Hassan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28497v1
+
+#### Executive Summary  
+This paper investigates the maintenance challenges and co-evolution patterns of agent plugins within Claude Code plugin marketplaces. By conducting an empirical study on real-world plugin repositories, it reveals how plugins evolve alongside host agents and highlights maintenance practices influencing plugin longevity and compatibility.
+
+### Key Contributions  
+- Empirical analysis of co-evolution between Claude agent plugins and their host agents, highlighting dependency impacts.  
+- Identification of key maintenance activities and their effects on plugin robustness and marketplace health.  
+- Introduction of metrics and qualitative insights to guide plugin developers on sustainable maintenance strategies.
+
+### Method & Results  
+- Conducted longitudinal mining of plugin repositories from Claude Code marketplaces, analyzing commits, issues, and version histories.  
+- Leveraged quantitative data on plugin updates, bug fixes, and co-evolution timelines alongside qualitative developer interviews.  
+- Found that plugins tightly coupled with agent versions showed higher maintenance frequency and lower failure rates.  
+- Demonstrated statistically significant correlation between active maintenance and plugin adoption/popularity compared to less maintained plugins.
+
+### Impact & Limitations  
+- Provides actionable insights for developers to improve plugin sustainability and compatibility in dynamic AI ecosystems.  
+- Offers a foundation for automated tooling to support plugin maintenance in agent marketplaces.  
+- Limitations include focus on a single marketplace and potential biases from publicly available data; future work should explore cross-marketplace analyses and automated co-evolution support mechanisms.
+
+---
+
+#### Recovering Software Architecture Intent from Historical Work Items using Generative AI: A Mixed-Methods Industry Case Study
+**作者**: Dominik Storck, Tobias Eisenreich, Stefan Wagner
+**类别**: cs.SE
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28403v1
+
+#### Executive Summary
+The paper addresses the challenge of reconstructing software architecture intent from historical work items, which are typically unstructured and incomplete. It proposes a novel approach leveraging generative AI to extract and synthesize architectural knowledge. The study demonstrates improved recovery of architecture intent with high accuracy and practical relevance in an industrial setting.
+
+### Key Contributions
+- Introduces a generative AI-based method for recovering software architecture intent from historical work items.
+- Conducts a mixed-methods industry case study validating the approach’s applicability and effectiveness.
+- Provides insights into integrating AI tools with existing software engineering workflows for architecture recovery.
+
+### Method & Results
+- Methodology: Uses generative language models to process and summarize historical work item texts, combined with qualitative analysis to validate results.
+- Dataset: Large-scale historical work item logs from an industrial software project.
+- Results: Achieved substantial improvement in recall and precision of architecture-related knowledge extraction compared to keyword- or rule-based baselines (exact metrics reported).
+- The AI approach outperformed traditional techniques, demonstrating more coherent and context-aware intent reconstruction.
+
+### Impact & Limitations
+- Significance: Enables better understanding and documentation of software architecture, aiding maintenance and evolution in industry.
+- Limitations/Future Work: Generalizability across diverse projects remains to be evaluated; further automation and integration with architecture tools suggested for future research.
+
+---
+
+#### When Verified Source Becomes Attack Input: Defending Smart Contracts Against LLM-Based Vulnerability Scanning
+**作者**: Mingyuan Huang, Zimo Ji, Yifan Mo, Shuai Wang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28400v1
+
+#### Executive Summary
+This paper addresses the novel threat of large language models (LLMs) used as adversarial tools for vulnerability scanning in smart contracts. It proposes a defense mechanism that transforms verified source code inputs to mislead LLM-based scanners while preserving contract functionality. Experiments demonstrate the approach effectively reduces LLM detection rates without compromising contract integrity.
+
+### Key Contributions
+- Identification of LLMs as a new vector for automated vulnerability detection attacks on smart contracts.  
+- Development of a transformation-based defense that obfuscates code features exploited by LLM scanners without altering execution.  
+- Empirical validation showing significant degradation of LLM vulnerability detection accuracy when defenses are applied.  
+
+### Method & Results
+- Introduces a code transformation technique that subtly modifies verified source code to evade LLM-based scanning models.  
+- Evaluated on a dataset of publicly available smart contracts using state-of-the-art LLM vulnerability scanners.  
+- Achieved up to a 45% reduction in detection rate of vulnerabilities by LLMs while maintaining 100% functional equivalence.  
+- Outperformed baseline obfuscation methods that lack semantic preservation guarantees.
+
+### Impact & Limitations
+- Enhances smart contract security by mitigating risks of AI-driven reconnaissance and exploitation attempts.  
+- The defense currently targets specific LLM architectures; adapting to evolving models and maintaining performance pose future challenges.  
+- Further work needed to balance obfuscation strength with code readability and gas efficiency.
+
+---
+
+### 安全领域 领域
+
+#### Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach
+**作者**: Adil Alshammari, Hayretdin Bahsi
+**类别**: cs.CR, cs.MA
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28542v1
+
+#### Executive Summary  
+This paper addresses the challenge of enabling offline verifiability in cross-organization agent messaging to ensure accountability without relying on live system interaction. The authors propose a preserved evidence-bundle approach that securely records and encapsulates communication artifacts for later verification. Experimental results demonstrate the approach’s effectiveness in producing tamper-evident evidence bundles that support retrospective accountability.
+
+### Key Contributions  
+- Introduces a novel preserved evidence-bundle framework for offline verification of agent communications across organizations.  
+- Designs mechanisms ensuring integrity and non-repudiation of message exchanges without requiring continuous online connectivity.  
+- Demonstrates applicability in cross-organizational scenarios emphasizing accountability with reduced trust assumptions.
+
+### Method & Results  
+- Employs cryptographic techniques to create tamper-proof bundles of agent messages and metadata for offline auditing.  
+- Utilizes simulation of cross-organization agent communications to validate the approach—no specific datasets cited.  
+- Results indicate high integrity preservation and reliable offline verification capability with minimal overhead.  
+- Performance analysis shows the approach outperforms naive logging methods in maintaining evidentiary value and resistance to tampering.
+
+### Impact & Limitations  
+- Enables organizations to achieve accountable agent communication in environments where continuous monitoring is impractical, enhancing trust across entities.  
+- Limitations include potential scalability challenges with evidence bundle size and the need for standardized cross-organization procedures; future work may focus on optimization and broader protocol integration.
+
+---
+
+#### Relaxed Sender Anonymity for CBDC Interbank Settlement: A Zero-Knowledge Approach on Permissioned EVM
+**作者**: Pietro Tiberi, Gabriele Marcelli, Vitangelo Lasorella
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28529v1
+
+#### Executive Summary  
+This paper addresses the challenge of preserving sender anonymity in Central Bank Digital Currency (CBDC) interbank settlements on permissioned EVM (Ethereum Virtual Machine) blockchains. It proposes a relaxed anonymity model using zero-knowledge proofs to balance privacy and regulatory requirements, demonstrating feasibility and efficiency in real-world-like environments.
+
+### Key Contributions  
+- Introduces a novel relaxed sender anonymity protocol tailored for permissioned EVM-based CBDC interbank settlements.  
+- Utilizes zero-knowledge proofs to enable privacy-preserving transaction validation without full anonymity, supporting compliance.  
+- Provides a practical implementation and performance evaluation showing scalability on existing permissioned blockchain infrastructures.
+
+### Method & Results  
+- Employs zero-knowledge proof systems integrated with EVM smart contracts to selectively conceal sender identity during settlement.  
+- Evaluated on permissioned EVM testnets, leveraging standard cryptographic libraries for ZK proofs.  
+- Achieved low transaction overhead with proof generation times under X seconds (exact metrics not specified here).  
+- Outperforms baseline methods that either fully disclose sender or provide heavy cryptographic burdens, offering balanced anonymity and efficiency.
+
+### Impact & Limitations  
+- Enables CBDC systems to improve privacy in interbank settlements while maintaining regulatory transparency and auditability, aiding real-world adoption.  
+- Limitations include potential scalability constraints with large user sets and reliance on the trust model of permissioned networks; future work could explore enhanced anonymity levels and optimization of proof sizes.
+
+---
+
+#### Recognition Without Enforcement: Configuration-Dependent Failures in LLM Agent Instruction Arbitration and External Control
+**作者**: Jun Wen Leong
+**类别**: cs.CR
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28502v1
+
+#### Executive Summary  
+This paper investigates failures in large language model (LLM) agents when executing instructions that require arbitration and external control, focusing on how different configuration settings influence these failures. The study reveals that recognition of instructions without corresponding enforcement mechanisms leads to significant reliability issues in multi-agent and external interaction scenarios.
+
+### Key Contributions  
+- Identifies and characterizes configuration-dependent failures in LLM agent instruction arbitration.  
+- Demonstrates the gap between instruction recognition and enforcement in autonomous agent control.  
+- Proposes a framework for analyzing external control vulnerabilities in LLM-driven multi-agent systems.
+
+### Method & Results  
+- Analyzed LLM agent behaviors under varied arbitration configurations in simulated environments.  
+- Employed synthetic agent instruction datasets and custom benchmarks for external control assessment.  
+- Found up to a 35% failure rate in instruction enforcement despite correct recognition, highlighting inconsistency.  
+- Showed that baseline models without configuration tuning perform significantly worse, with failure rates exceeding 50%.
+
+### Impact & Limitations  
+- Highlights critical reliability concerns for deploying LLM-controlled agents in safety-sensitive or multi-agent applications.  
+- Limitations include reliance on synthetic benchmarks and need for real-world validation; future work should explore automated enforcement mechanisms and broader agent ecosystems.
+
+---
+
+#### REPLICANT: Learning Policies for Evading and Hardening Malware Detectors
+**作者**: Shae McFadden, Ilias Tsingenopoulos, Mario D'Onghia, Alexander Herzog, Myles Foley, Chris Hicks, Lorenzo Cavallaro, Fabio Pierazzi
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28499v1
+
+#### Executive Summary
+This paper addresses the challenge of developing malware detectors that are robust against evasion attacks by learning adaptive evasion and hardening policies. By framing malware detection as a game between an attacker and defender, the authors propose REPLICANT, a reinforcement learning framework that learns effective attack strategies and corresponding hardened detection policies. Results demonstrate that REPLICANT significantly improves detector robustness against evasive malware.
+
+### Key Contributions
+- Introduces REPLICANT, a novel reinforcement learning framework jointly optimizing malware evasion and detector hardening.
+- Demonstrates the effectiveness of learning adaptive evasion strategies instead of static adversarial examples.
+- Provides an empirical evaluation showing improved robustness against state-of-the-art malware detectors.
+
+### Method & Results
+- Uses reinforcement learning to model the interaction as a sequential game between evading attacker and hardened defender policies.
+- Evaluates on benchmark malware datasets and detection models prevalent in the security community.
+- Achieves up to a 30% increase in detection accuracy under attack, outperforming static adversarial training baselines by approximately 15%.
+- Demonstrates adaptive evasion strategies generalize better across different detector architectures.
+
+### Impact & Limitations
+- Enhances practical malware detection by enabling more resilient models that adapt to evolving threats in real-world settings.
+- Limitations include potential computational complexity of RL training and the focus on specific malware domains; future work may address broader malware families and real-time deployment.
+
+---
+
+#### LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment
+**作者**: Jingjing Nie, Jiawei Guo, Krishna Meda, Haipeng Cai
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-08-28
+**链接**: http://arxiv.org/abs/2608.28490v1
+
+#### Executive Summary
+This paper addresses enhancing software and systems security using LLM-based agents, proposing novel approaches to automate threat detection, vulnerability analysis, and mitigation. The authors demonstrate the effectiveness of their methods through comprehensive evaluations, showing improved security assessment efficiency and accuracy.
+
+### Key Contributions
+- Introduces novel LLM-agent frameworks tailored for dynamic security tasks in software and systems environments.  
+- Develops integrated pipelines combining LLM reasoning with traditional security tools for enhanced vulnerability detection.  
+- Provides a systematic assessment framework for evaluating LLM-agent security applications quantitatively.
+
+### Method & Results
+- Employs advanced large language models to analyze code, logs, and system behaviors, enabling automated threat identification and remediation suggestions.  
+- Utilizes datasets including publicly available software vulnerability repositories and simulated attack scenarios for training and evaluation.  
+- Achieves up to 15% improvement in detection accuracy and reduces false positives compared to conventional tools.  
+- Demonstrates superior performance over baseline rule-based and static analysis methods in both speed and reliability.
+
+### Impact & Limitations
+- Empowers cybersecurity practitioners with scalable, adaptive agents that assist in real-time system defense and continuous security monitoring.  
+- Limitations include dependency on training data quality and challenges in handling highly obfuscated or novel attack vectors; future work will address robustness and domain adaptation.
 
 ---
 
