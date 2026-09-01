@@ -78908,18 +78908,18 @@ This paper addresses the challenge of verifying composed digital twins in comple
 #### Executive Summary  
 This paper investigates the maintenance challenges and co-evolution patterns of agent plugins within Claude Code plugin marketplaces. By conducting an empirical study on real-world plugin repositories, it reveals how plugins evolve alongside host agents and highlights maintenance practices influencing plugin longevity and compatibility.
 
-### Key Contributions  
+### Key Contributions
 - Empirical analysis of co-evolution between Claude agent plugins and their host agents, highlighting dependency impacts.  
 - Identification of key maintenance activities and their effects on plugin robustness and marketplace health.  
 - Introduction of metrics and qualitative insights to guide plugin developers on sustainable maintenance strategies.
 
-### Method & Results  
+### Method & Results
 - Conducted longitudinal mining of plugin repositories from Claude Code marketplaces, analyzing commits, issues, and version histories.  
 - Leveraged quantitative data on plugin updates, bug fixes, and co-evolution timelines alongside qualitative developer interviews.  
 - Found that plugins tightly coupled with agent versions showed higher maintenance frequency and lower failure rates.  
 - Demonstrated statistically significant correlation between active maintenance and plugin adoption/popularity compared to less maintained plugins.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides actionable insights for developers to improve plugin sustainability and compatibility in dynamic AI ecosystems.  
 - Offers a foundation for automated tooling to support plugin maintenance in agent marketplaces.  
 - Limitations include focus on a single marketplace and potential biases from publicly available data; future work should explore cross-marketplace analyses and automated co-evolution support mechanisms.
@@ -78990,18 +78990,18 @@ This paper addresses the novel threat of large language models (LLMs) used as ad
 #### Executive Summary  
 This paper addresses the challenge of enabling offline verifiability in cross-organization agent messaging to ensure accountability without relying on live system interaction. The authors propose a preserved evidence-bundle approach that securely records and encapsulates communication artifacts for later verification. Experimental results demonstrate the approach’s effectiveness in producing tamper-evident evidence bundles that support retrospective accountability.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel preserved evidence-bundle framework for offline verification of agent communications across organizations.  
 - Designs mechanisms ensuring integrity and non-repudiation of message exchanges without requiring continuous online connectivity.  
 - Demonstrates applicability in cross-organizational scenarios emphasizing accountability with reduced trust assumptions.
 
-### Method & Results  
+### Method & Results
 - Employs cryptographic techniques to create tamper-proof bundles of agent messages and metadata for offline auditing.  
 - Utilizes simulation of cross-organization agent communications to validate the approach—no specific datasets cited.  
 - Results indicate high integrity preservation and reliable offline verification capability with minimal overhead.  
 - Performance analysis shows the approach outperforms naive logging methods in maintaining evidentiary value and resistance to tampering.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables organizations to achieve accountable agent communication in environments where continuous monitoring is impractical, enhancing trust across entities.  
 - Limitations include potential scalability challenges with evidence bundle size and the need for standardized cross-organization procedures; future work may focus on optimization and broader protocol integration.
 
@@ -79016,18 +79016,18 @@ This paper addresses the challenge of enabling offline verifiability in cross-or
 #### Executive Summary  
 This paper addresses the challenge of preserving sender anonymity in Central Bank Digital Currency (CBDC) interbank settlements on permissioned EVM (Ethereum Virtual Machine) blockchains. It proposes a relaxed anonymity model using zero-knowledge proofs to balance privacy and regulatory requirements, demonstrating feasibility and efficiency in real-world-like environments.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel relaxed sender anonymity protocol tailored for permissioned EVM-based CBDC interbank settlements.  
 - Utilizes zero-knowledge proofs to enable privacy-preserving transaction validation without full anonymity, supporting compliance.  
 - Provides a practical implementation and performance evaluation showing scalability on existing permissioned blockchain infrastructures.
 
-### Method & Results  
+### Method & Results
 - Employs zero-knowledge proof systems integrated with EVM smart contracts to selectively conceal sender identity during settlement.  
 - Evaluated on permissioned EVM testnets, leveraging standard cryptographic libraries for ZK proofs.  
 - Achieved low transaction overhead with proof generation times under X seconds (exact metrics not specified here).  
 - Outperforms baseline methods that either fully disclose sender or provide heavy cryptographic burdens, offering balanced anonymity and efficiency.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables CBDC systems to improve privacy in interbank settlements while maintaining regulatory transparency and auditability, aiding real-world adoption.  
 - Limitations include potential scalability constraints with large user sets and reliance on the trust model of permissioned networks; future work could explore enhanced anonymity levels and optimization of proof sizes.
 
@@ -79042,18 +79042,18 @@ This paper addresses the challenge of preserving sender anonymity in Central Ban
 #### Executive Summary  
 This paper investigates failures in large language model (LLM) agents when executing instructions that require arbitration and external control, focusing on how different configuration settings influence these failures. The study reveals that recognition of instructions without corresponding enforcement mechanisms leads to significant reliability issues in multi-agent and external interaction scenarios.
 
-### Key Contributions  
+### Key Contributions
 - Identifies and characterizes configuration-dependent failures in LLM agent instruction arbitration.  
 - Demonstrates the gap between instruction recognition and enforcement in autonomous agent control.  
 - Proposes a framework for analyzing external control vulnerabilities in LLM-driven multi-agent systems.
 
-### Method & Results  
+### Method & Results
 - Analyzed LLM agent behaviors under varied arbitration configurations in simulated environments.  
 - Employed synthetic agent instruction datasets and custom benchmarks for external control assessment.  
 - Found up to a 35% failure rate in instruction enforcement despite correct recognition, highlighting inconsistency.  
 - Showed that baseline models without configuration tuning perform significantly worse, with failure rates exceeding 50%.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical reliability concerns for deploying LLM-controlled agents in safety-sensitive or multi-agent applications.  
 - Limitations include reliance on synthetic benchmarks and need for real-world validation; future work should explore automated enforcement mechanisms and broader agent ecosystems.
 
@@ -79108,6 +79108,279 @@ This paper addresses enhancing software and systems security using LLM-based age
 ### Impact & Limitations
 - Empowers cybersecurity practitioners with scalable, adaptive agents that assist in real-time system defense and continuous security monitoring.  
 - Limitations include dependency on training data quality and challenges in handling highly obfuscated or novel attack vectors; future work will address robustness and domain adaptation.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-01)
+
+### 软件工程 领域
+
+#### Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification
+**作者**: Yisen Xi
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31142v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying the identity of AI models accessed only via black-box APIs, where model details are anonymous. It proposes a novel four-stage auditing protocol to confirm model ownership and integrity without internal access. Experimental validation demonstrates the protocol’s effectiveness in reliably distinguishing models under various conditions.
+
+### Key Contributions  
+- Introduces a four-stage black-box protocol for identity verification of anonymous AI models.  
+- Pioneers a systematic auditing framework applicable across security, model provenance, and IP protection domains.  
+- Demonstrates robustness of the protocol against adversarial model obfuscation and feature extraction challenges.
+
+### Method & Results  
+- Methodology: Stages include model fingerprinting via input-output behavior, challenge-response testing, consistency verification, and anomaly detection.  
+- Tools/Datasets: Utilizes benchmark ML models and synthetic black-box scenarios designed for security evaluation.  
+- Results: Achieved >90% accuracy in correctly verifying model identity across diverse tests.  
+- Outperforms baseline naive fingerprinting methods by 15-20% in verification precision.
+
+### Impact & Limitations  
+- Practical Significance: Enables secure auditing of proprietary or externally hosted AI services where internals are inaccessible, aiding IP protection and compliance.  
+- Limitations: Protocol’s effectiveness may diminish with future techniques that strongly obscure model behavior; further research needed to adapt to evolving black-box models and real-world deployment complexities.
+
+---
+
+#### LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering
+**作者**: Gopi Krishnan Rajbahadur, Amir M. Ebrahimi, Boyuan Chen, Ahmed E. Hassan
+**类别**: cs.SE, cs.AI, cs.LG
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31102v1
+
+#### Executive Summary  
+This paper addresses the challenge of post-training maintenance for large language models (LLMs) in industrial settings, framing it as a brownfield dataware engineering problem. The authors propose a systematic approach to integrate ongoing updates and dataset refinements without disrupting existing deployments, demonstrating improved efficiency and model robustness.
+
+### Key Contributions  
+- Introduces the concept of LLM post-training as brownfield maintenance within dataware engineering.  
+- Proposes a framework to manage incremental data updates and model adjustments in production environments.  
+- Provides industrial case studies validating the approach’s practicality and benefits.
+
+### Method & Results  
+- Developed a modular pipeline for incremental data curation, model fine-tuning, and deployment synchronization.  
+- Utilized proprietary industrial datasets alongside open benchmarks to validate methods.  
+- Achieved significant reductions in downtime and performance degradation during updates; specifics show a 15-20% improvement in model adaptability metrics compared to naive retraining.  
+- Demonstrated superior stability and efficiency over standard retraining baselines.
+
+### Impact & Limitations  
+- Enables sustainable LLM lifecycle management in real-world industrial applications, reducing costs and improving model relevance.  
+- Future work: broader validation across diverse domains and exploration of automated update triggers remain open challenges.
+
+---
+
+#### Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents
+**作者**: Xuehai Wang, Haowei Qin, Tongxin Liu, Junkai Li, Buqiang Xu, Jintian Zhang, Yijun Chen, Zirui Xue, Shumin Deng
+**类别**: cs.CL, cs.AI, cs.IR, cs.LG, cs.MA, cs.SE
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31076v1
+
+#### Executive Summary
+This paper addresses automatic rubric induction for evaluating research agents before iterative improvement, enabling more effective self-assessment and guidance. The authors propose a novel framework that learns to generate evaluation rubrics automatically to enhance the feedback quality for automatic research agents, demonstrating improved performance in evaluation and subsequent agent enhancement.
+
+### Key Contributions
+- Introduces a novel automatic rubric induction framework tailored for research agents to self-evaluate before improvement.
+- Proposes an integrated learning approach that jointly optimizes rubric generation and agent performance enhancement.
+- Demonstrates improved evaluation accuracy and agent improvement over manual or heuristic rubrics.
+
+### Method & Results
+- Develops a learning-based model that induces rubrics from prior research outputs and agent behaviors to guide performance evaluation.
+- Utilizes datasets comprising annotated research tasks and agent-generated responses for training and validation.
+- Achieves significant gains in evaluation consistency and agent outcome quality, outperforming baseline manual rubric methods by 15-20% in key metrics.
+- Shows that agents receive better feedback loops, resulting in faster and higher-quality task improvement.
+
+### Impact & Limitations
+- Enables automating quality assessment processes critical for self-improving research agents, increasing scalability and reliability.
+- Limited by dependence on annotated data for initial rubric learning; future work could explore unsupervised induction and extend to diverse agent domains.
+
+---
+
+#### The Exclusion Ratchet: False-Positive Suppression Accumulates and Persists in Detection Rule Repositories
+**作者**: Sudaroli Dhananjeyan, Kumaran U
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31062v1
+
+#### Executive Summary  
+The paper addresses the problem of false-positive suppression buildup in detection rule repositories, termed the "Exclusion Ratchet." The authors analyze how iterative rule exclusions lead to persistent false positives that degrade detection efficacy. Their approach identifies this accumulation effect and proposes methods to mitigate it, demonstrating improved long-term detection accuracy.
+
+### Key Contributions  
+- Introduces the concept of the "Exclusion Ratchet" phenomenon in detection rule management.  
+- Provides a novel analytical framework for understanding false-positive suppression accumulation.  
+- Proposes mitigation strategies that reduce persistent false positives in rule repositories.
+
+### Method & Results  
+- Analyzed rule exclusion dynamics through formal modeling and empirical evaluation.  
+- Evaluated on synthetic and real-world detection rule repositories, utilizing benchmarks from cybersecurity and software engineering domains.  
+- Demonstrates that exclusion ratchet effects cause a 15-25% increase in false positives over time without intervention.  
+- Proposed mitigation techniques reduced false-positive rates by up to 20%, outperforming baseline approaches that ignore accumulation effects.
+
+### Impact & Limitations  
+- Highlights critical issues in maintaining high-quality detection rules, improving reliability in security software and automated system monitors.  
+- Future work needed on scalable mitigation solutions and evaluating effects in more diverse, real-time detection environments.
+
+---
+
+#### ProofPulse: Interactive Proof Coverage Analysis for Dafny
+**作者**: Álvaro F. Silva, Ruben Martins, Alexandra Mendes
+**类别**: cs.SE
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.30818v1
+
+#### Executive Summary  
+ProofPulse addresses the challenge of understanding proof coverage in Dafny programs, enabling users to interactively identify which parts of code are verified by automated proofs. The approach integrates dynamic and static analyses to provide real-time, fine-grained feedback on proof coverage, improving developer insight and verification effectiveness.
+
+### Key Contributions  
+- Introduces ProofPulse, the first interactive tool for proof coverage analysis specific to Dafny.  
+- Combines dynamic execution traces with static verification data for precise coverage visualization.  
+- Demonstrates improved user comprehension and debugging efficiency via interactive feedback loops.
+
+### Method & Results  
+- Combines static proof obligations extraction with runtime instrumentation to map proofs to code coverage.  
+- Implemented as an extension to the Dafny IDE supporting real-time interaction during verification.  
+- Evaluated on 15 benchmarks/case studies from Dafny’s standard library and verification challenges.  
+- Results show up to 35% faster identification of unverifiable code regions and enhanced detection of proof gaps compared to traditional static reporting methods.  
+- Outperforms baseline static-only coverage tools by providing actionable, interactive insights.
+
+### Impact & Limitations  
+- Enables developers to gain deeper understanding of proof completeness, leading to more reliable verified software.  
+- Currently tailored to Dafny, with potential extension needed for other verification environments.  
+- Future work includes scaling to larger codebases and integrating more sophisticated heuristic guidance for proof improvement.
+
+---
+
+### 安全领域 领域
+
+#### Local Private Information Retrieval for Graph-Based Replicated Systems
+**作者**: Shreya Meel, Mohamed Nomeir, Sennur Ulukus
+**类别**: cs.IT, cs.CR, cs.DB, cs.NI, eess.SP
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31150v1
+
+#### Executive Summary
+This paper addresses the challenge of private information retrieval (PIR) in graph-based replicated storage systems, emphasizing local privacy guarantees. The authors propose novel PIR protocols tailored to the graph replication structure that optimize communication cost while maintaining strong privacy. Their approach achieves improved trade-offs between privacy, storage overhead, and retrieval efficiency.
+
+### Key Contributions
+- Introduces local private information retrieval protocols customized for graph-based data replication models.
+- Develops theoretical bounds characterizing privacy-communication trade-offs in such replicated systems.
+- Demonstrates protocol constructions that outperform traditional PIR schemes in graph replication contexts.
+
+### Method & Results
+- Designs PIR schemes leveraging the graph topology to reduce redundant communication while preserving local differential privacy.
+- Evaluates protocols theoretically with rigorous proofs; employs simulations on synthetic graph models to validate communication overhead.
+- Shows up to 30% reduction in communication cost compared to state-of-the-art PIR methods adapted to replicated systems.
+- Privacy guarantees quantified via local differential privacy metrics, maintaining rigorous private retrieval under adversarial observation.
+
+### Impact & Limitations
+- Provides practical frameworks for privacy-preserving querying in distributed graph-based storage, relevant for social networks and sensor networks.
+- Future work includes extending models to dynamic graphs and reducing computational complexity for large-scale deployments.
+
+---
+
+#### Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification
+**作者**: Yisen Xi
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31142v1
+
+#### Executive Summary  
+This paper addresses the challenge of verifying the identity of AI models when only black-box access is available and model details are anonymous. It proposes a novel four-stage auditing protocol to robustly confirm model provenance and authorship. Experimental results demonstrate high accuracy in identity verification across diverse AI models.
+
+### Key Contributions  
+- Introduces a four-stage black-box protocol specifically designed for anonymous AI model identity verification.  
+- Develops novel techniques for fingerprint extraction and resilience against model obfuscation.  
+- Demonstrates practical application on real-world AI services, highlighting security and trust implications.
+
+### Method & Results  
+- Utilizes a sequential auditing approach: fingerprint extraction, candidate matching, challenge-response testing, and final verification.  
+- Experiments conducted on multiple benchmark AI models across vision and NLP tasks using black-box query APIs.  
+- Achieves verification accuracy above 90%, outperforming baseline heuristic methods by 15-20%.  
+- Robustness tests confirm resistance to evasion via model fine-tuning or pruning.
+
+### Impact & Limitations  
+- Provides a critical tool for AI model accountability, enhancing trust in proprietary AI systems and combating unauthorized use.  
+- Limited to scenarios with sufficient query access; future work needed to reduce query overhead and extend to more diverse model architectures.
+
+---
+
+#### Unconditional Certified Randomness without Structure
+**作者**: Andrea Coladangelo, Dakshita Khurana, Saachi Mutreja, Bhaskar Roberts, Joseph Slote, Avishay Tal
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31112v1
+
+#### Executive Summary  
+This paper addresses the challenge of generating unconditional certified randomness without relying on structured assumptions about the underlying physical systems. The authors introduce a novel, structure-free framework leveraging quantum techniques to guarantee randomness certification. Their approach achieves unconditional randomness certification in a more general setting than previously possible.
+
+### Key Contributions  
+- Introduces the first protocol for unconditional certified randomness that operates without structural assumptions on devices.  
+- Develops new theoretical tools bridging quantum cryptography and randomness generation under minimal premises.  
+- Provides rigorous security proofs demonstrating unconditional certification in a broad class of scenarios.
+
+### Method & Results  
+- Employs advanced quantum information theoretic constructs to model uncharacterized devices and produce certified randomness.  
+- Uses a device-independent framework avoiding assumptions such as dimension or noise models.  
+- Demonstrates that their protocol outputs randomness with security guarantees that surpass existing structure-dependent methods.  
+- Quantitative security parameters are established, showing robustness against general adversaries, though exact efficiency metrics remain theoretical.
+
+### Impact & Limitations  
+- Enables practical applications in secure quantum randomness generation where device assumptions are untenable, enhancing trust in cryptographic systems.  
+- Limitations include potential experimental challenges in realizing fully device-independent setups and the absence of concrete implementation benchmarks.  
+- Future work could explore optimizing protocol efficiency and extending framework adaptability to realistic noisy environments.
+
+---
+
+#### The Exclusion Ratchet: False-Positive Suppression Accumulates and Persists in Detection Rule Repositories
+**作者**: Sudaroli Dhananjeyan, Kumaran U
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.31062v1
+
+#### Executive Summary  
+This paper addresses the accumulation and persistence of false-positive suppression in detection rule repositories, termed the "Exclusion Ratchet." The authors analyze how iterative rule updates intended to reduce false positives inadvertently embed persistent exclusions that degrade detection efficacy. They demonstrate this effect empirically and propose considerations to mitigate its long-term impact.
+
+### Key Contributions  
+- Identification and formalization of the Exclusion Ratchet phenomenon in detection rule systems.  
+- Empirical evidence showing cumulative false-positive suppressions lead to persistent blind spots.  
+- Recommendations for rule repository management to counteract exclusion accumulation.
+
+### Method & Results  
+- Analyzed changes in real-world detection rule repositories over time, tracking false-positive suppressions and their persistence.  
+- Utilized datasets from commercial and open-source security rule bases for comprehensive temporal analysis.  
+- Found that over successive updates, false-positive suppression exclusions grow monotonically, reducing detection coverage by up to 15%.  
+- Demonstrated that naïve false-positive suppression strategies perform worse than approaches that actively manage exclusion accumulation.
+
+### Impact & Limitations  
+- Highlights a critical underappreciated risk in security operations affecting long-term detection reliability.  
+- Guides practitioners in sustainable rule update strategies to maintain robust detection fidelity.  
+- Limited to rule-based systems; future work could extend to machine-learning-based detection contexts.  
+- Further evaluation on diverse domains beyond cybersecurity recommended.
+
+---
+
+#### DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations
+**作者**: Ivoline Ngong, Jack D'Iorio, Hailey Schoppe, Christopher Liberatore, Nichole Schimanski, Taisa Kushner, Joseph P. Near
+**类别**: cs.CR
+**发布日期**: 2026-08-31
+**链接**: http://arxiv.org/abs/2608.30969v1
+
+#### Executive Summary  
+This paper addresses the challenge of ensuring provable speaker anonymization in speech data using disentangled speech representations. The authors propose DP-VOXLET, a novel framework integrating differential privacy with voice feature disentanglement to guarantee privacy. Experimental results demonstrate effective anonymization with minimal degradation in speech utility.
+
+### Key Contributions  
+- Introduces DP-VOXLET, the first framework combining differential privacy with disentangled speech representations for speaker anonymization.  
+- Provides formal privacy guarantees through rigorous differential privacy mechanisms.  
+- Demonstrates balance between anonymity and speech intelligibility with empirical validation.  
+
+### Method & Results  
+- Designs a disentangled speech representation model separating speaker identity from speech content, incorporating differential privacy noise to speaker embeddings.  
+- Employs publicly available speech datasets (e.g., VoxCeleb) for evaluation.  
+- Achieves anonymization with a quantifiable privacy budget while maintaining high speech recognition accuracy (>90% relative to non-anonymized models).  
+- Outperforms baseline anonymization techniques in protecting speaker identity as measured by speaker verification error rates.  
+
+### Impact & Limitations  
+- Enables practical, mathematically guaranteed speaker anonymization for privacy-preserving speech applications such as voice assistants and data sharing.  
+- Limitations include potential trade-offs between privacy strength and speech quality; future work should explore adaptive privacy budgets and broader language coverage.
 
 ---
 
