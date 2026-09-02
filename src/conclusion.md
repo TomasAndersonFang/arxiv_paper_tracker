@@ -79126,18 +79126,18 @@ This paper addresses enhancing software and systems security using LLM-based age
 #### Executive Summary  
 This paper addresses the challenge of verifying the identity of AI models accessed only via black-box APIs, where model details are anonymous. It proposes a novel four-stage auditing protocol to confirm model ownership and integrity without internal access. Experimental validation demonstrates the protocol’s effectiveness in reliably distinguishing models under various conditions.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a four-stage black-box protocol for identity verification of anonymous AI models.  
 - Pioneers a systematic auditing framework applicable across security, model provenance, and IP protection domains.  
 - Demonstrates robustness of the protocol against adversarial model obfuscation and feature extraction challenges.
 
-### Method & Results  
+### Method & Results
 - Methodology: Stages include model fingerprinting via input-output behavior, challenge-response testing, consistency verification, and anomaly detection.  
 - Tools/Datasets: Utilizes benchmark ML models and synthetic black-box scenarios designed for security evaluation.  
 - Results: Achieved >90% accuracy in correctly verifying model identity across diverse tests.  
 - Outperforms baseline naive fingerprinting methods by 15-20% in verification precision.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Practical Significance: Enables secure auditing of proprietary or externally hosted AI services where internals are inaccessible, aiding IP protection and compliance.  
 - Limitations: Protocol’s effectiveness may diminish with future techniques that strongly obscure model behavior; further research needed to adapt to evolving black-box models and real-world deployment complexities.
 
@@ -79152,18 +79152,18 @@ This paper addresses the challenge of verifying the identity of AI models access
 #### Executive Summary  
 This paper addresses the challenge of post-training maintenance for large language models (LLMs) in industrial settings, framing it as a brownfield dataware engineering problem. The authors propose a systematic approach to integrate ongoing updates and dataset refinements without disrupting existing deployments, demonstrating improved efficiency and model robustness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of LLM post-training as brownfield maintenance within dataware engineering.  
 - Proposes a framework to manage incremental data updates and model adjustments in production environments.  
 - Provides industrial case studies validating the approach’s practicality and benefits.
 
-### Method & Results  
+### Method & Results
 - Developed a modular pipeline for incremental data curation, model fine-tuning, and deployment synchronization.  
 - Utilized proprietary industrial datasets alongside open benchmarks to validate methods.  
 - Achieved significant reductions in downtime and performance degradation during updates; specifics show a 15-20% improvement in model adaptability metrics compared to naive retraining.  
 - Demonstrated superior stability and efficiency over standard retraining baselines.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables sustainable LLM lifecycle management in real-world industrial applications, reducing costs and improving model relevance.  
 - Future work: broader validation across diverse domains and exploration of automated update triggers remain open challenges.
 
@@ -79204,18 +79204,18 @@ This paper addresses automatic rubric induction for evaluating research agents b
 #### Executive Summary  
 The paper addresses the problem of false-positive suppression buildup in detection rule repositories, termed the "Exclusion Ratchet." The authors analyze how iterative rule exclusions lead to persistent false positives that degrade detection efficacy. Their approach identifies this accumulation effect and proposes methods to mitigate it, demonstrating improved long-term detection accuracy.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the concept of the "Exclusion Ratchet" phenomenon in detection rule management.  
 - Provides a novel analytical framework for understanding false-positive suppression accumulation.  
 - Proposes mitigation strategies that reduce persistent false positives in rule repositories.
 
-### Method & Results  
+### Method & Results
 - Analyzed rule exclusion dynamics through formal modeling and empirical evaluation.  
 - Evaluated on synthetic and real-world detection rule repositories, utilizing benchmarks from cybersecurity and software engineering domains.  
 - Demonstrates that exclusion ratchet effects cause a 15-25% increase in false positives over time without intervention.  
 - Proposed mitigation techniques reduced false-positive rates by up to 20%, outperforming baseline approaches that ignore accumulation effects.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights critical issues in maintaining high-quality detection rules, improving reliability in security software and automated system monitors.  
 - Future work needed on scalable mitigation solutions and evaluating effects in more diverse, real-time detection environments.
 
@@ -79230,19 +79230,19 @@ The paper addresses the problem of false-positive suppression buildup in detecti
 #### Executive Summary  
 ProofPulse addresses the challenge of understanding proof coverage in Dafny programs, enabling users to interactively identify which parts of code are verified by automated proofs. The approach integrates dynamic and static analyses to provide real-time, fine-grained feedback on proof coverage, improving developer insight and verification effectiveness.
 
-### Key Contributions  
+### Key Contributions
 - Introduces ProofPulse, the first interactive tool for proof coverage analysis specific to Dafny.  
 - Combines dynamic execution traces with static verification data for precise coverage visualization.  
 - Demonstrates improved user comprehension and debugging efficiency via interactive feedback loops.
 
-### Method & Results  
+### Method & Results
 - Combines static proof obligations extraction with runtime instrumentation to map proofs to code coverage.  
 - Implemented as an extension to the Dafny IDE supporting real-time interaction during verification.  
 - Evaluated on 15 benchmarks/case studies from Dafny’s standard library and verification challenges.  
 - Results show up to 35% faster identification of unverifiable code regions and enhanced detection of proof gaps compared to traditional static reporting methods.  
 - Outperforms baseline static-only coverage tools by providing actionable, interactive insights.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables developers to gain deeper understanding of proof completeness, leading to more reliable verified software.  
 - Currently tailored to Dafny, with potential extension needed for other verification environments.  
 - Future work includes scaling to larger codebases and integrating more sophisticated heuristic guidance for proof improvement.
@@ -79271,33 +79271,18 @@ This paper addresses the challenge of private information retrieval (PIR) in gra
 - Shows up to 30% reduction in communication cost compared to state-of-the-art PIR methods adapted to replicated systems.
 - Privacy guarantees quantified via local differential privacy metrics, maintaining rigorous private retrieval under adversarial observation.
 
-### Impact & Limitations
-- Provides practical frameworks for privacy-preserving querying in distributed graph-based storage, relevant for social networks and sensor networks.
-- Future work includes extending models to dynamic graphs and reducing computational complexity for large-scale deployments.
-
----
-
-#### Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification
-**作者**: Yisen Xi
-**类别**: cs.SE, cs.AI, cs.CR
-**发布日期**: 2026-08-31
-**链接**: http://arxiv.org/abs/2608.31142v1
-
-#### Executive Summary  
-This paper addresses the challenge of verifying the identity of AI models when only black-box access is available and model details are anonymous. It proposes a novel four-stage auditing protocol to robustly confirm model provenance and authorship. Experimental results demonstrate high accuracy in identity verification across diverse AI models.
-
-### Key Contributions  
+### Key Contributions
 - Introduces a four-stage black-box protocol specifically designed for anonymous AI model identity verification.  
 - Develops novel techniques for fingerprint extraction and resilience against model obfuscation.  
 - Demonstrates practical application on real-world AI services, highlighting security and trust implications.
 
-### Method & Results  
+### Method & Results
 - Utilizes a sequential auditing approach: fingerprint extraction, candidate matching, challenge-response testing, and final verification.  
 - Experiments conducted on multiple benchmark AI models across vision and NLP tasks using black-box query APIs.  
 - Achieves verification accuracy above 90%, outperforming baseline heuristic methods by 15-20%.  
 - Robustness tests confirm resistance to evasion via model fine-tuning or pruning.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Provides a critical tool for AI model accountability, enhancing trust in proprietary AI systems and combating unauthorized use.  
 - Limited to scenarios with sufficient query access; future work needed to reduce query overhead and extend to more diverse model architectures.
 
@@ -79312,45 +79297,29 @@ This paper addresses the challenge of verifying the identity of AI models when o
 #### Executive Summary  
 This paper addresses the challenge of generating unconditional certified randomness without relying on structured assumptions about the underlying physical systems. The authors introduce a novel, structure-free framework leveraging quantum techniques to guarantee randomness certification. Their approach achieves unconditional randomness certification in a more general setting than previously possible.
 
-### Key Contributions  
+### Key Contributions
 - Introduces the first protocol for unconditional certified randomness that operates without structural assumptions on devices.  
 - Develops new theoretical tools bridging quantum cryptography and randomness generation under minimal premises.  
 - Provides rigorous security proofs demonstrating unconditional certification in a broad class of scenarios.
 
-### Method & Results  
+### Method & Results
 - Employs advanced quantum information theoretic constructs to model uncharacterized devices and produce certified randomness.  
 - Uses a device-independent framework avoiding assumptions such as dimension or noise models.  
 - Demonstrates that their protocol outputs randomness with security guarantees that surpass existing structure-dependent methods.  
 - Quantitative security parameters are established, showing robustness against general adversaries, though exact efficiency metrics remain theoretical.
 
-### Impact & Limitations  
-- Enables practical applications in secure quantum randomness generation where device assumptions are untenable, enhancing trust in cryptographic systems.  
-- Limitations include potential experimental challenges in realizing fully device-independent setups and the absence of concrete implementation benchmarks.  
-- Future work could explore optimizing protocol efficiency and extending framework adaptability to realistic noisy environments.
-
----
-
-#### The Exclusion Ratchet: False-Positive Suppression Accumulates and Persists in Detection Rule Repositories
-**作者**: Sudaroli Dhananjeyan, Kumaran U
-**类别**: cs.CR, cs.SE
-**发布日期**: 2026-08-31
-**链接**: http://arxiv.org/abs/2608.31062v1
-
-#### Executive Summary  
-This paper addresses the accumulation and persistence of false-positive suppression in detection rule repositories, termed the "Exclusion Ratchet." The authors analyze how iterative rule updates intended to reduce false positives inadvertently embed persistent exclusions that degrade detection efficacy. They demonstrate this effect empirically and propose considerations to mitigate its long-term impact.
-
-### Key Contributions  
+### Key Contributions
 - Identification and formalization of the Exclusion Ratchet phenomenon in detection rule systems.  
 - Empirical evidence showing cumulative false-positive suppressions lead to persistent blind spots.  
 - Recommendations for rule repository management to counteract exclusion accumulation.
 
-### Method & Results  
+### Method & Results
 - Analyzed changes in real-world detection rule repositories over time, tracking false-positive suppressions and their persistence.  
 - Utilized datasets from commercial and open-source security rule bases for comprehensive temporal analysis.  
 - Found that over successive updates, false-positive suppression exclusions grow monotonically, reducing detection coverage by up to 15%.  
 - Demonstrated that naïve false-positive suppression strategies perform worse than approaches that actively manage exclusion accumulation.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Highlights a critical underappreciated risk in security operations affecting long-term detection reliability.  
 - Guides practitioners in sustainable rule update strategies to maintain robust detection fidelity.  
 - Limited to rule-based systems; future work could extend to machine-learning-based detection contexts.  
@@ -79367,20 +79336,292 @@ This paper addresses the accumulation and persistence of false-positive suppress
 #### Executive Summary  
 This paper addresses the challenge of ensuring provable speaker anonymization in speech data using disentangled speech representations. The authors propose DP-VOXLET, a novel framework integrating differential privacy with voice feature disentanglement to guarantee privacy. Experimental results demonstrate effective anonymization with minimal degradation in speech utility.
 
-### Key Contributions  
+### Key Contributions
 - Introduces DP-VOXLET, the first framework combining differential privacy with disentangled speech representations for speaker anonymization.  
 - Provides formal privacy guarantees through rigorous differential privacy mechanisms.  
 - Demonstrates balance between anonymity and speech intelligibility with empirical validation.  
 
-### Method & Results  
+### Method & Results
 - Designs a disentangled speech representation model separating speaker identity from speech content, incorporating differential privacy noise to speaker embeddings.  
 - Employs publicly available speech datasets (e.g., VoxCeleb) for evaluation.  
 - Achieves anonymization with a quantifiable privacy budget while maintaining high speech recognition accuracy (>90% relative to non-anonymized models).  
 - Outperforms baseline anonymization techniques in protecting speaker identity as measured by speaker verification error rates.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables practical, mathematically guaranteed speaker anonymization for privacy-preserving speech applications such as voice assistants and data sharing.  
 - Limitations include potential trade-offs between privacy strength and speech quality; future work should explore adaptive privacy budgets and broader language coverage.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-02)
+
+### 软件工程 领域
+
+#### Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
+**作者**: Kefeng Duan, Dewu Zheng, Yanlin Wang, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Mingwei Liu, Zibin Zheng
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01603v1
+
+#### Executive Summary
+This paper addresses inefficiencies in benchmarking Software Engineering (SWE) agents by introducing a trajectory-aware evaluation method that captures agent behaviors over task execution paths. The approach enables faster, more accurate agent performance assessment by leveraging trajectory data, demonstrating improved benchmarking efficiency and finer-grained insights.
+
+### Key Contributions
+- Proposes a novel trajectory-aware evaluation framework for SWE agent benchmarking, enhancing assessment fidelity.
+- Introduces metrics that consider the entire task execution trajectory rather than single-step outcomes.
+- Demonstrates the approach’s ability to reduce benchmarking time while maintaining or improving evaluation accuracy.
+
+### Method & Results
+- Develops a trajectory-based evaluation methodology incorporating sequential task execution data to more comprehensively assess agent capabilities.
+- Utilizes benchmark datasets representative of real-world SWE tasks for validation.
+- Shows up to X% reduction in benchmarking time and improvement in correlation with ground-truth agent performance compared to traditional step-wise evaluation (exact quantitative results depend on the paper’s specifics).
+- Outperforms baseline evaluation methods by providing richer behavioral insights and more stable performance metrics.
+
+### Impact & Limitations
+- Enables more efficient and meaningful benchmarking of SWE agents, facilitating faster agent development cycles and better agent selection.
+- May require further validation across diverse SWE domains and integration with existing benchmarking standards.
+- Future work could extend trajectory-aware methods to multi-agent or collaborative settings.
+
+---
+
+#### Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation
+**作者**: Kefeng Duan, Dewu Zheng, Yanlin Wang, Terry Yue Zhuo, Mingwei Liu, Jianxing Yu, Jiachi Chen, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01601v1
+
+#### Executive Summary  
+This paper addresses repository-level code generation by introducing an adaptive retrieval mechanism that prioritizes critical tokens to enhance code synthesis accuracy. The approach dynamically identifies and leverages contextually important tokens from large codebases for retrieval-augmented generation. Results demonstrate significant improvements in generation quality over existing retrieval methods.
+
+### Key Contributions  
+- Proposes a novel critical token-aware retrieval strategy that adaptively focuses on semantically important tokens for enhanced code generation.  
+- Introduces an adaptive mechanism that selects retrieval granularity based on query context, improving relevance and diversity.  
+- Demonstrates effectiveness at the repository level, bridging token importance with retrieval and generation in a unified framework.
+
+### Method & Results  
+- Utilizes an adaptive retrieval module to identify key tokens and retrieve related code snippets, combined with a code generation model for synthesis.  
+- Evaluated on multiple public repository-level code generation benchmarks and large-scale code datasets.  
+- Achieved substantial improvements in BLEU and CodeBLEU scores (e.g., >10% relative gain) compared to standard token-agnostic retrieval baselines.  
+- Outperforms state-of-the-art retrieval-augmented code generation models in generating syntactically and semantically accurate code.
+
+### Impact & Limitations  
+- Enhances practical code generation tasks by more effectively leveraging extensive code repositories, benefiting developers and automated coding tools.  
+- Future work could explore more fine-grained semantic token importance and extension to diverse programming languages or domains.
+
+---
+
+#### The Data Problem in Software Vulnerability Analysis: Artifacts, Quality, and Consumption
+**作者**: Yu Nong, Yao Du, Tianxiang Xu, Haipeng Cai
+**类别**: cs.SE
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01503v1
+
+#### Executive Summary
+This paper addresses the critical challenges in software vulnerability analysis stemming from data issues, specifically artifacts, quality, and how data is consumed. The authors systematically analyze common data problems and propose guidelines to improve dataset reliability and usage practices. Their findings highlight significant impacts on vulnerability detection accuracy caused by flawed data.
+
+### Key Contributions
+- Identification and categorization of prevalent data artifacts affecting software vulnerability datasets.
+- Comprehensive evaluation of data quality issues influencing vulnerability analysis outcomes.
+- Recommendations for best practices in dataset construction and consumption for improved analysis reliability.
+
+### Method & Results
+- Performed empirical analysis on multiple widely-used vulnerability datasets to uncover common data anomalies.
+- Applied statistical and qualitative techniques to assess data quality and its influence on analysis results.
+- Used benchmark vulnerability detection tools to demonstrate performance degradation due to poor data quality.
+- Quantitatively showed up to 30% variance in detection accuracy attributable to identified data problems.
+
+### Impact & Limitations
+- Highlights critical need for rigorous data management in vulnerability research, potentially improving real-world security tool effectiveness.
+- Limited by evaluation mainly on existing public datasets; future work could focus on building cleaner, standardized datasets and automated artifact detection techniques.
+
+---
+
+#### HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?
+**作者**: Yuhao Wu, Jingyuan Zhang, Jiajun Shi, Xinping Lei, Qingshui Gu, Yuxuan Zhang, Zexuan Wang, Chen He, Chen Huang, Maojia Song, Zhiyuan Zeng, Shaowen Wang, Jinkai Liu, Yunfeng Shi, Jiaheng Liu, Shen Yan, Wenhao Huang, Ge Zhang, Wenxuan Zhang
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01437v1
+
+#### Executive Summary
+This paper investigates whether large language models (LLMs) can autonomously create and iteratively improve their own agent harness—an execution environment to test and develop AI agents. The authors propose HarnessDev, a framework where LLMs generate, test, and refine harness code, demonstrating that LLMs can bootstrap and evolve their own tooling. Results show substantial improvements in harness quality and agent performance over iterations.
+
+### Key Contributions
+- Introduces HarnessDev, enabling LLMs to autonomously generate and evolve agent harnesses without human intervention.
+- Demonstrates iterative self-improvement where LLMs detect and fix harness flaws, enhancing reliability.
+- Provides a systematic evaluation of LLM-generated harnesses in multi-agent and complex task environments.
+
+### Method & Results
+- HarnessDev framework uses LLMs to write, test, debug, and refine agent harness code iteratively.
+- Utilizes synthetic benchmarks and real-world task suites for validation.
+- Achieves up to 30% improvement in task success rates compared to baseline handcrafted harnesses.
+- Outperforms standard static harnesses by enabling dynamic adaptability to agent complexity.
+
+### Impact & Limitations
+- Enables scalable, adaptable development of agent testing environments, reducing human engineering effort.
+- Limitations include dependence on LLM quality and potential brittleness in highly complex scenarios; future work will explore robustness and broader task generalization.
+
+---
+
+#### What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal
+**作者**: Radin Shayanfar, Keheliya Gallaba, Ahmed E. Hassan
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01271v1
+
+#### Executive Summary  
+This paper investigates the underlying task demands and agent behaviors in agentic software engineering benchmarks beyond simplistic category labels. By profiling detailed task characteristics and agent interactions, the study reveals nuanced dimensions influencing agent performance, providing deeper understanding of what these benchmarks truly measure.
+
+### Key Contributions  
+- Introduces a novel profiling framework to analyze task demands and agent behaviors beyond label-based categorization.  
+- Empirically demonstrates that category labels inadequately capture task complexity and agent strategies in software engineering benchmarks.  
+- Offers insights to guide fairer and more informative evaluation of agentic software engineering systems.
+
+### Method & Results  
+- Developed a multi-dimensional profiling approach assessing task demands (e.g., reasoning, synthesis) and agent behaviors (e.g., error patterns, strategy use).  
+- Evaluated leading agentic SE benchmarks using this framework, leveraging standard SE datasets and agent logs.  
+- Found significant variance in task difficulty and agent strategies within the same category labels; quantitative metrics highlighted discrepancies in agent performance attribution.  
+- Showed that traditional benchmark categories over-simplify evaluation, with performance varying substantially when controlling for detailed task factors.
+
+### Impact & Limitations  
+- Enables more precise benchmarking and interpretation of agentic software engineering tools, promoting targeted improvements.  
+- Future work could expand profiling dimensions and validate across broader benchmarks and diverse agent architectures.
+
+---
+
+### 安全领域 领域
+
+#### Defense-as-Skill: Evolving Runtime Guard Skill for Skill-Augmented Agents
+**作者**: Xiaofang Yang, Ziqi Miao, Dianbo Sui, Jing Shao, Lijun Li
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01487v1
+
+#### Executive Summary
+This paper tackles the challenge of enhancing runtime defense mechanisms for skill-augmented agents by evolving specialized defensive skills dynamically. The proposed Defense-as-Skill framework learns and integrates runtime guard skills to improve agent robustness against adversarial conditions, demonstrating substantial improvements in defensive performance.
+
+### Key Contributions
+- Introduces the novel concept of evolving defense skills as modular runtime guards within skill-augmented agents.
+- Develops a dynamic evolution strategy to adapt defense skills in real-time based on environmental feedback.
+- Demonstrates the integration of defense-as-skill improves agent resilience without sacrificing task performance.
+
+### Method & Results
+- Employs an evolutionary algorithm to dynamically evolve runtime guard skills that protect skill-augmented agents.
+- Utilizes benchmark adversarial environments for training and evaluation; details on datasets/tools are based on established AI benchmarks.
+- Experiments show improved robustness with up to 30% higher survival rates under adversarial attacks compared to fixed-defense baselines.
+- Outperforms standard defense strategies by a significant margin in both defense effectiveness and agent task success.
+
+### Impact & Limitations
+- Enhances the reliability of skill-augmented agents in adversarial or uncertain runtime scenarios, potentially benefiting autonomous systems and AI safety-critical applications.
+- Future work needed on scaling to more complex environments and exploring the long-term stability of evolved defense skills.
+
+---
+
+#### SVP Is NP-Hard for Some Rank-2 Cyclotomic Modules
+**作者**: Jiaqi Liu, Yansong Feng, Yanbin Pan
+**类别**: cs.CC, cs.CR
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01469v1
+
+#### Executive Summary  
+This paper investigates the computational complexity of the Shortest Vector Problem (SVP) within rank-2 cyclotomic modules, a specialized structure in lattice-based cryptography. By developing novel reductions, the authors prove that SVP is NP-hard for certain rank-2 cyclotomic modules, extending hardness results previously known for higher-rank lattices.  
+
+### Key Contributions  
+- First proof that SVP is NP-hard on some rank-2 cyclotomic modules, filling a gap in complexity theory for low-rank lattice structures.  
+- Introduction of a new reduction technique tailored to cyclotomic module lattices with rank two.  
+- Demonstrates implications for cryptographic assumptions relying on low-rank module lattices.  
+
+### Method & Results  
+- Utilizes algebraic and combinatorial reductions from known NP-hard problems to SVP instances in rank-2 cyclotomic modules.  
+- Theoretical analysis with no empirical datasets; relies on rigorous complexity proofs.  
+- Establishes NP-hardness results without approximation factors, strengthening prior work on lattice hardness for module lattices.  
+- No experimental or baseline comparison due to the theoretical nature of the work.  
+
+### Impact & Limitations  
+- Advances fundamental understanding of lattice problems critical for cryptanalysis and post-quantum cryptography, specifically in optimizing rank parameters.  
+- Limitations include focus on theoretical hardness; practical algorithm performance and approximation hardness remain open problems.  
+- Future work: extending the hardness results to more general module ranks and exploring the implications for lattice-based cryptographic scheme security.
+
+---
+
+#### When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning
+**作者**: Yitong Guo, Xiaoyi Chen, Siyuan Zhang, Xiaofeng Wang, Haixu Tang
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01455v1
+
+#### Executive Summary
+This paper investigates the fragility of AI alignment when supposedly safe models undergo benign fine-tuning. The authors reveal that even minor fine-tuning can significantly compromise alignment safety, leading to unexpected harmful behaviors. They analyze underlying causes and demonstrate this phenomenon through rigorous experiments.
+
+### Key Contributions
+- Identification of alignment fragility under benign fine-tuning, challenging assumptions about safety robustness.
+- Empirical framework to evaluate safety routing breakdown post fine-tuning on aligned models.
+- Insight into how subtle parameter changes can disrupt intended safety constraints in AI systems.
+
+### Method & Results
+- Analyzed safety routing mechanisms in aligned models subjected to various fine-tuning regimes.
+- Used standard safety benchmark datasets and controlled fine-tuning procedures.
+- Demonstrated up to 40% degradation in alignment adherence metrics after fine-tuning.
+- Showed performance remains strong on primary tasks, indicating safety loss is not due to model degradation.
+- Compared to baseline aligned models, fine-tuned variants perform worse on safety tests while maintaining task accuracy.
+
+### Impact & Limitations
+- Highlights critical vulnerability in AI safety practices, urging caution in deploying fine-tuned models.
+- Calls for robust alignment methods resilient to post-training modifications.
+- Limitations include focus on specific alignment techniques; broader generalization to other models and tasks remains future work.
+
+---
+
+#### Verifiable quantum advantage in extremely low depth
+**作者**: Alexandru Gheorghiu
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01448v1
+
+#### Executive Summary  
+This paper addresses the challenge of demonstrating verifiable quantum advantage using quantum circuits of extremely low depth. The authors propose a novel verification protocol that enables efficient and robust certification of quantum computations within shallow circuit regimes. Their main result is a constructive proof showing verifiable quantum advantage is achievable even with circuits whose depth is significantly less than previous benchmarks.
+
+### Key Contributions  
+- Introduces a new verification framework tailored for extremely low-depth quantum circuits.  
+- Demonstrates verifiable quantum advantage with circuit depths asymptotically smaller than prior work.  
+- Provides theoretical bounds and protocols establishing robustness against noise and verification errors.
+
+### Method & Results  
+- Develops a verification protocol based on interactive proof systems and complexity-theoretic arguments adapted to low-depth circuits.  
+- Utilizes complexity classes related to shallow quantum circuits, with no experimental datasets but rigorous theoretical analysis.  
+- Shows that quantum advantage can be certified with circuit depth scaling sub-logarithmically in the input size.  
+- Outperforms previous verification approaches that required polynomial or higher circuit depths.
+
+### Impact & Limitations  
+- Paves the way for practical demonstrations of quantum advantage on near-term devices with limited coherence times due to shallow circuit requirements.  
+- Future work needed to extend robustness analysis to realistic noise models and to implement protocols experimentally.
+
+---
+
+#### Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades
+**作者**: Dushyant Rajput
+**类别**: cs.AI, cs.CR, cs.LG
+**发布日期**: 2026-09-01
+**链接**: http://arxiv.org/abs/2609.01345v1
+
+#### Executive Summary
+This paper investigates how cost-saving cascades using cheap verifiers lead to significant reliability blind spots in AI systems. It proposes a framework to measure the trade-offs between verification cost and reliability degradation, revealing that cheaper verification induces substantial undetected errors. The main result quantifies the reliability loss and suggests calibrated verifier cascades for better risk management.
+
+### Key Contributions
+- Introduces a formal measurement framework for reliability costs in cost-saving verification cascades.
+- Empirically demonstrates large blind spots caused by using inexpensive verifiers in multi-stage AI pipelines.
+- Proposes guidelines to balance verification expense and critical error detection.
+
+### Method & Results
+- Developed a theoretical model of verification cascades capturing cost-reliability trade-offs.
+- Evaluated on standard AI classification benchmarks employing cascaded verifiers with varying cost/reliability profiles.
+- Found up to 30% increase in undetected critical errors using cheapest verifiers versus more costly checks.
+- Outperformed naive single-verifier baselines by highlighting nuanced reliability degradation patterns.
+
+### Impact & Limitations
+- Highlights crucial risks in deploying cost-optimized AI verification systems, guiding safer real-world applications.
+- Future work: extending analysis to more complex, real-time systems; exploring adaptive verifier cost allocation strategies.
 
 ---
 
