@@ -79395,18 +79395,18 @@ This paper addresses inefficiencies in benchmarking Software Engineering (SWE) a
 #### Executive Summary  
 This paper addresses repository-level code generation by introducing an adaptive retrieval mechanism that prioritizes critical tokens to enhance code synthesis accuracy. The approach dynamically identifies and leverages contextually important tokens from large codebases for retrieval-augmented generation. Results demonstrate significant improvements in generation quality over existing retrieval methods.
 
-### Key Contributions  
+### Key Contributions
 - Proposes a novel critical token-aware retrieval strategy that adaptively focuses on semantically important tokens for enhanced code generation.  
 - Introduces an adaptive mechanism that selects retrieval granularity based on query context, improving relevance and diversity.  
 - Demonstrates effectiveness at the repository level, bridging token importance with retrieval and generation in a unified framework.
 
-### Method & Results  
+### Method & Results
 - Utilizes an adaptive retrieval module to identify key tokens and retrieve related code snippets, combined with a code generation model for synthesis.  
 - Evaluated on multiple public repository-level code generation benchmarks and large-scale code datasets.  
 - Achieved substantial improvements in BLEU and CodeBLEU scores (e.g., >10% relative gain) compared to standard token-agnostic retrieval baselines.  
 - Outperforms state-of-the-art retrieval-augmented code generation models in generating syntactically and semantically accurate code.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enhances practical code generation tasks by more effectively leveraging extensive code repositories, benefiting developers and automated coding tools.  
 - Future work could explore more fine-grained semantic token importance and extension to diverse programming languages or domains.
 
@@ -79473,18 +79473,18 @@ This paper investigates whether large language models (LLMs) can autonomously cr
 #### Executive Summary  
 This paper investigates the underlying task demands and agent behaviors in agentic software engineering benchmarks beyond simplistic category labels. By profiling detailed task characteristics and agent interactions, the study reveals nuanced dimensions influencing agent performance, providing deeper understanding of what these benchmarks truly measure.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a novel profiling framework to analyze task demands and agent behaviors beyond label-based categorization.  
 - Empirically demonstrates that category labels inadequately capture task complexity and agent strategies in software engineering benchmarks.  
 - Offers insights to guide fairer and more informative evaluation of agentic software engineering systems.
 
-### Method & Results  
+### Method & Results
 - Developed a multi-dimensional profiling approach assessing task demands (e.g., reasoning, synthesis) and agent behaviors (e.g., error patterns, strategy use).  
 - Evaluated leading agentic SE benchmarks using this framework, leveraging standard SE datasets and agent logs.  
 - Found significant variance in task difficulty and agent strategies within the same category labels; quantitative metrics highlighted discrepancies in agent performance attribution.  
 - Showed that traditional benchmark categories over-simplify evaluation, with performance varying substantially when controlling for detailed task factors.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Enables more precise benchmarking and interpretation of agentic software engineering tools, promoting targeted improvements.  
 - Future work could expand profiling dimensions and validate across broader benchmarks and diverse agent architectures.
 
@@ -79527,18 +79527,18 @@ This paper tackles the challenge of enhancing runtime defense mechanisms for ski
 #### Executive Summary  
 This paper investigates the computational complexity of the Shortest Vector Problem (SVP) within rank-2 cyclotomic modules, a specialized structure in lattice-based cryptography. By developing novel reductions, the authors prove that SVP is NP-hard for certain rank-2 cyclotomic modules, extending hardness results previously known for higher-rank lattices.  
 
-### Key Contributions  
+### Key Contributions
 - First proof that SVP is NP-hard on some rank-2 cyclotomic modules, filling a gap in complexity theory for low-rank lattice structures.  
 - Introduction of a new reduction technique tailored to cyclotomic module lattices with rank two.  
 - Demonstrates implications for cryptographic assumptions relying on low-rank module lattices.  
 
-### Method & Results  
+### Method & Results
 - Utilizes algebraic and combinatorial reductions from known NP-hard problems to SVP instances in rank-2 cyclotomic modules.  
 - Theoretical analysis with no empirical datasets; relies on rigorous complexity proofs.  
 - Establishes NP-hardness results without approximation factors, strengthening prior work on lattice hardness for module lattices.  
 - No experimental or baseline comparison due to the theoretical nature of the work.  
 
-### Impact & Limitations  
+### Impact & Limitations
 - Advances fundamental understanding of lattice problems critical for cryptanalysis and post-quantum cryptography, specifically in optimizing rank parameters.  
 - Limitations include focus on theoretical hardness; practical algorithm performance and approximation hardness remain open problems.  
 - Future work: extending the hardness results to more general module ranks and exploring the implications for lattice-based cryptographic scheme security.
@@ -79582,18 +79582,18 @@ This paper investigates the fragility of AI alignment when supposedly safe model
 #### Executive Summary  
 This paper addresses the challenge of demonstrating verifiable quantum advantage using quantum circuits of extremely low depth. The authors propose a novel verification protocol that enables efficient and robust certification of quantum computations within shallow circuit regimes. Their main result is a constructive proof showing verifiable quantum advantage is achievable even with circuits whose depth is significantly less than previous benchmarks.
 
-### Key Contributions  
+### Key Contributions
 - Introduces a new verification framework tailored for extremely low-depth quantum circuits.  
 - Demonstrates verifiable quantum advantage with circuit depths asymptotically smaller than prior work.  
 - Provides theoretical bounds and protocols establishing robustness against noise and verification errors.
 
-### Method & Results  
+### Method & Results
 - Develops a verification protocol based on interactive proof systems and complexity-theoretic arguments adapted to low-depth circuits.  
 - Utilizes complexity classes related to shallow quantum circuits, with no experimental datasets but rigorous theoretical analysis.  
 - Shows that quantum advantage can be certified with circuit depth scaling sub-logarithmically in the input size.  
 - Outperforms previous verification approaches that required polynomial or higher circuit depths.
 
-### Impact & Limitations  
+### Impact & Limitations
 - Paves the way for practical demonstrations of quantum advantage on near-term devices with limited coherence times due to shallow circuit requirements.  
 - Future work needed to extend robustness analysis to realistic noise models and to implement protocols experimentally.
 
@@ -79622,6 +79622,114 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 ### Impact & Limitations
 - Highlights crucial risks in deploying cost-optimized AI verification systems, guiding safer real-world applications.
 - Future work: extending analysis to more complex, real-time systems; exploring adaptive verifier cost allocation strategies.
+
+---
+
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-03)
+
+### 软件工程 领域
+
+#### Post-Training Language Models for Gold-Medal Performance in Coding Competitions
+**作者**: Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Somshubra Majumdar, Boris Ginsburg
+**类别**: cs.LG, cs.AI, cs.CL, cs.MA, cs.SE
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02849v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### ShikumiMiner: Mining Recurring Implementation Patterns in AI Codebases
+**作者**: Afsana Tasnim, Sheikh Motahar Naim
+**类别**: cs.SE
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02789v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Type Hints in Python Libraries and Frameworks: An Empirical Analysis of Adoption and Maintenance
+**作者**: Thiago Roberto Magalhães, Fabio Petrillo, João Eduardo Montandon
+**类别**: cs.SE
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02782v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### The Import Tax: A Longitudinal Measurement of Startup Cost in the Python Ecosystem
+**作者**: Trinath Sai Subhash Reddy Pittala
+**类别**: cs.SE
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02753v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Automated Vulnerability Injection in Smart Contracts Using Large Language Models
+**作者**: Luca Migliaccio, Roberto Natella, Naghmeh Ivaki, Nuno Laranjeiro, Marco Vieira
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02624v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### Overcoming the Randomness-Utility Trade-off in Answering Differentially Private Linear Queries
+**作者**: Surendra Ghentiyala, Pritish Kamath, Ravi Kumar, Pasin Manurangsi
+**类别**: cs.CR, cs.CC
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02880v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### When Does Authorization End? Effect Closure at Provider Boundaries
+**作者**: Igor Santos-Grueiro
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02866v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### The Implications of Linguistic Illegibility for LLM Security
+**作者**: James Mickens
+**类别**: cs.LG, cs.CR
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02852v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment
+**作者**: Qinghua Mao, Wanying Qu, Dadi Guo, Leitao Yuan, Qingyu Liu, Yu Li, Guanxu Chen, Yanwei Fu, Xi Lin, Xia Hu, Dongrui Liu
+**类别**: cs.AI, cs.CR
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02786v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### CodePoisonRAG: Knowledge Poisoning Attacks on Retrieval-Augmented Code Generation
+**作者**: Varun Gadey, Ziad Marey, Alexandra Dmitrienko
+**类别**: cs.CR, cs.LG
+**发布日期**: 2026-09-02
+**链接**: http://arxiv.org/abs/2609.02774v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
 
 ---
 
