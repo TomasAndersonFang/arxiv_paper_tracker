@@ -79949,3 +79949,111 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-06)
+
+### 软件工程 领域
+
+#### Can LLMs Extract Architectural Design Decisions from Source Code Commits? - A Preliminary Exploratory Study
+**作者**: Amey Karan, Rudra Dhar, Mohamed Soliman, Karthik Vaidhyanathan
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03721v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Code Transformation Rule Synthesis using LLMs: Potential and Limits
+**作者**: Axel Allain, Aymeric Blot, Djamel Eddine Khelladi, Mathieu Acher
+**类别**: cs.SE
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03592v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### The Psychological Costs of Artificial Intelligence Adoption in Software Engineering
+**作者**: Adam Alami, Elda Paja, Abhishek Tiwari
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03456v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### TIPCODER: Reinforcement Learning Boosted Test-time Instruction Proposer for Code Generation
+**作者**: Minyu Chen, Sihao Wu, Ling-I Wu, Song Qin, Jingyang Li, Lei Ning, Jianxin Xue, Guoqiang Li
+**类别**: cs.SE
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03309v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Refusing the Impossible: A Taxonomy and Benchmark for Code Hallucination in Large Language Models
+**作者**: Vishnu Asutosh Dasu, Ashish Kundu, Gang Tan
+**类别**: cs.SE
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03267v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### Supersingular Elliptic Curves Without Inseparable Small Degree Endomorphisms
+**作者**: Nicolas Swanson
+**类别**: math.NT, cs.CR
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03839v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Inferring Hidden User Models from the Behavior of Personalized LLM Agents
+**作者**: Haoyang Li, Yaxin Xiao, Qingqing Ye, Huadi Zheng, Haibo Hu
+**类别**: cs.CR
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03815v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Beyond the Trust Boundary: A Critical Reassessment of the FIDO2 Threat Model
+**作者**: Aditya Mitra, Kolluru Sai Abhiram, Sibi Chakkaravarthy Sethuraman, Anitha S
+**类别**: cs.CR, cs.ET
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03789v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG
+**作者**: Alexandr Goultiaev Tolstokorov, Kyriakos Mouratidis, Javad Dogani, Nikolaos Laoutaris
+**类别**: cs.CR, cs.CL
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03749v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### AlcaTRAz - Anchored Tree-Rule Defense Against Jailbreaks
+**作者**: Jakub Reš, Petr Kaška, Martin Perešíni, Martin Ukrop, Kamil Malinka
+**类别**: cs.CR
+**发布日期**: 2026-09-03
+**链接**: http://arxiv.org/abs/2609.03693v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
