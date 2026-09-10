@@ -80381,3 +80381,111 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-10)
+
+### 软件工程 领域
+
+#### Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software
+**作者**: Emma Sheppard, Zachary Wadhams, Dalton Arford, Clemente Izurieta, Ann Marie Reinhold
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10502v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### TrajMark: Ownership Attribution and Segment-Level Tamper Localization for Coding-Agent Trajectories
+**作者**: Bokang Zeng, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Jiaojiao Jiang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10416v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Towards Scalable and Cost-Efficient Vulnerability Detection: A Study on Automatic Query Generation
+**作者**: Ivana Clairine Irsan, Ratnadira Widyasari, Huihui Huang, Ting Zhang, Yue Liu, Ouh Eng Lieh, Shar Lwin Khin, Kang Hong Jin, David Lo
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10412v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### dexamine: A Python package for Uniswap event data on Ethereum
+**作者**: Magnus Hansson
+**类别**: q-fin.TR, cs.SE
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10407v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Retrofitting Code Using LLMs to Support Exceptional Behavior
+**作者**: Linghan Zhong, Jiyang Zhang, Jayanth Srinivasa, Junyi Jessy Li, Milos Gligoric
+**类别**: cs.SE, cs.CL
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10397v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning
+**作者**: Yiwei Fang, Yichen Liu, Ze Jin, Haoqiang Wang, Qixu Liu, Luyi Xing
+**类别**: cs.CR
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10537v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software
+**作者**: Emma Sheppard, Zachary Wadhams, Dalton Arford, Clemente Izurieta, Ann Marie Reinhold
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10502v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### TrajMark: Ownership Attribution and Segment-Level Tamper Localization for Coding-Agent Trajectories
+**作者**: Bokang Zeng, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Jiaojiao Jiang
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10416v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Towards Scalable and Cost-Efficient Vulnerability Detection: A Study on Automatic Query Generation
+**作者**: Ivana Clairine Irsan, Ratnadira Widyasari, Huihui Huang, Ting Zhang, Yue Liu, Ouh Eng Lieh, Shar Lwin Khin, Kang Hong Jin, David Lo
+**类别**: cs.SE, cs.CR
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10412v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### CertiFlash: A Formal Verification Framework for Flash Translation Layers in Computational Solid State Drives
+**作者**: Harshita Gupta, Mayank Kabra, Rakesh Nadig, Nika Mansouri Ghiasi, Sahand Divsalar, F. Nisa Bostanci, Ataberk Olgun, Konstantinos Kanellopoulos, Jisung Park, Haiyu Mao, Abdullah Giray Yaglikci, Mohammad Sadrosadati, Onur Mutlu
+**类别**: cs.AR, cs.CR, cs.LO
+**发布日期**: 2026-09-09
+**链接**: http://arxiv.org/abs/2609.10347v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
