@@ -80813,3 +80813,19 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-17)
+
+### 安全领域 领域
+
+#### When Agents Look Like Beacons: NIDS Evasion by Model Context Protocol Traffic
+**作者**: Muhammad Abdullah Sohail
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-09-16
+**链接**: http://arxiv.org/abs/2609.19091v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
