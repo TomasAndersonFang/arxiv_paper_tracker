@@ -81045,3 +81045,81 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-20)
+
+### 软件工程 领域
+
+#### A Closed-Loop Control Architecture for Reliable Constraint Satisfaction in LLM Text Generation
+**作者**: Quan Zhou, Shahbaz Siddeeq, Mika Saari, Pekka Abrahamsson
+**类别**: cs.SE
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.19710v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### BA-TRACE: Boundary-Aware Trace Reconstruction for Scenario-Based Evaluation of Mixed AUTOSAR Adaptive and ROS 2 Vehicular Embedded Systems
+**作者**: Shunsuke Ito, Ryudai Iwakami, Hiroyuki Hanyu, Tasuku Ishigooka, Takuya Azumi
+**类别**: cs.SE
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.19699v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### FINSKILLOPS: A Self-Evolving Multi-Agent System for SEC Filing QA
+**作者**: Yanzhang Ma, Zhenghan Tai, Hanwei Wu, Sizhe Guan, Jianliang Lei, Hailin He, Chaolong Jiang, Jijun Chi, Tung Sum Thomas Kwok, Bohuai Xiao, Jingrui Tian, Xinlu Wu, Xingao Zhan, Peng Lu, Muzhi Li, Yihong Wu, Liheng Ma, Sicheng Lyu, Tianshuo Yan, Junhao Zhu, Yaqian Xu, Lei Ding, Yufei Cui, Ziquan Liu, Boyu Han, Hengli Liu, Ling Zhou, Xinyu Wang
+**类别**: cs.AI, cs.IR, cs.MA, cs.SE
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.19680v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstraction
+**作者**: Yuanzhe Jia, Ali Anaissi
+**类别**: cs.CL, cs.AI, cs.IR, cs.SE
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.19615v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### Competition, Collusion, and Corruption: The Spectrum of MEV Attacks on DAG-Based BFT Consensus Protocols
+**作者**: Iliya Mirzaei, Heer Patel, Chenyuan Wu, Mohammad Javad Amiri
+**类别**: cs.CR, cs.DC
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.20069v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### JANUS: Denial-of-Service Attack Against Beam Hopping in LEO Satellite Networks
+**作者**: Yuval Aviv, Roee Idan, Roy Peled, Asaf Shabtai, Yuval Elovici
+**类别**: cs.CR
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.19977v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### On the Leakage of Massey Secret Sharing Schemes under Linear Computations
+**作者**: Nadja Aoutouf, Daniel Augot
+**类别**: cs.CR
+**发布日期**: 2026-09-17
+**链接**: http://arxiv.org/abs/2609.19929v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
