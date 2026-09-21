@@ -81123,3 +81123,71 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-21)
+
+### 软件工程 领域
+
+#### RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents
+**作者**: Shuai Bai, Jiayong Deng, Yikun Fu, Chang Gao, Xuhao Hu, Mianqiu Huang, Yizhen Jiang, Yuheng Jing, Dehui Kong, Keliang Li, Ning Li, Wanli Li, Dayiheng Liu, Dunjie Lu, Changwei Luo, Que Shen, Zheyuan Wang, Zijian Wang, Jie Wu, Gao Wu, Zhihui Xie, Rui Xie, Haiyang Xu, An Yang, Jiakang Yuan, Yanming Zhang, Jiajun Zhang, Xi Zhang, Zhenru Zhang, Zhuo Zhen, Mingkang Zhu, Bowen Zhou
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-09-18
+**链接**: http://arxiv.org/abs/2609.22000v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Supporting Industrial Test-Failure Analysis with LLM-Based Systems: An Experience Report
+**作者**: Eric Jansson, Per Strandberg, Thomas Sörensen, Eduard Paul Enoiu, Wasif Afzal
+**类别**: cs.SE
+**发布日期**: 2026-09-18
+**链接**: http://arxiv.org/abs/2609.21843v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### From Code Archival to Knowledge Graph: Bridging Software Heritage, COAR Notify and Wikidata
+**作者**: Camillo Carlo Pellizzari di San Girolamo, Francesco Tosoni
+**类别**: cs.DL, cs.AI, cs.SE
+**发布日期**: 2026-09-18
+**链接**: http://arxiv.org/abs/2609.21667v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### The Supersingular Isogeny Problem in Time and Memory $p^{1/3+o(1)}$, Unconditionally
+**作者**: José Luis Delgado
+**类别**: cs.CR
+**发布日期**: 2026-09-18
+**链接**: http://arxiv.org/abs/2609.22018v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Provisional Reachability: Containing Agents by Making Every Crossing Revocable
+**作者**: Yoshiaki Takashita
+**类别**: cs.CR, cs.NI
+**发布日期**: 2026-09-18
+**链接**: http://arxiv.org/abs/2609.21957v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SFPF: Spatio-Frequency Polarization Fingerprint for Anomalous Wireless Device Detection
+**作者**: Xiaoxuan Huang, Jinlong Xu, Daoyuan Shen, Meng Zhang, Dong Wei
+**类别**: cs.CR
+**发布日期**: 2026-09-18
+**链接**: http://arxiv.org/abs/2609.21873v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
