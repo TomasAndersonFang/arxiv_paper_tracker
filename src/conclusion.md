@@ -81299,3 +81299,101 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-09-23)
+
+### 软件工程 领域
+
+#### CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents
+**作者**: Trang Nguyen, Eulrang Cho, Bingqing Chen, Tim Dettmers
+**类别**: cs.AI, cs.LG, cs.SE
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26779v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving
+**作者**: Jennifer Williams, Dave Farris, Jeff Farris, Jiantao Jiao
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26777v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents
+**作者**: Laizhen Li, Jiarui Li, Juanjuan Zhao, Kejiang Ye, Ye Li, Cheng-zhong Xu, Xitong Gao
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26760v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen
+**作者**: Om Nepal, Sushant Aryal, Oluseyi Olukola, Nick Rahimi
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26749v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits
+**作者**: Fnu Tanish, Samiha Shimmi, Samikshya Chapagain, Hamed Okhravi, Mona Rahimi, Lei Zhang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26711v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen
+**作者**: Om Nepal, Sushant Aryal, Oluseyi Olukola, Nick Rahimi
+**类别**: cs.SE, cs.AI, cs.CR
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26749v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### From Alignment to Access Control: A Framework for GenAI Policy Enforcement
+**作者**: Nathalie Baracaldo
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26682v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Decoding the Legalese: A Scalable and Quantitative Framework for Analyzing Corporate Privacy Policies
+**作者**: Jiaming Tang, Chenlan Wang, Mingyan Liu, Armin Sarabi
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26680v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models
+**作者**: Xiaoyu Luo, Tao Ren, Wenrui Yu, Xiao Li, Qiongxiu Li, Johannes Bjerva
+**类别**: cs.CL, cs.AI, cs.CR
+**发布日期**: 2026-09-22
+**链接**: http://arxiv.org/abs/2609.26637v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
