@@ -83396,3 +83396,111 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-10-14)
+
+### 软件工程 领域
+
+#### PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards
+**作者**: Yunkai Zhan, Miaosen Chai, Shangshang Wang, Jike Zhong, Yuqing Yang, Deqing Fu, Serina Chang, Wang Bill Zhu
+**类别**: cs.SE, cs.AI, cs.CL
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18755v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SolBehave: Evaluating the Behavioural Correctness of LLM-Generated Smart Contracts
+**作者**: Giovanni Pio Delvecchio, Stefano Fantazzini, Giacomo Frisoni, Gianluca Moro, Lorenzo Bacchiani, Mario Bravetti, Thomas Troels Hildebrandt
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18745v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### DTScribe: Generating Models for Digital Twin Reporting using Local Large Language Models
+**作者**: Kérian Fiter, Angelica Portocarrero, Bentley Oakes
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18635v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities
+**作者**: José Afonso, João Madeira Pereira, Ronghao Ni, Limin Jia, José Fragoso Santos, Pedro Adão
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18585v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### APTree: Extended Behavior Trees for Adaptive and Scalable Automated Robotic Task Planning in Construction
+**作者**: Shermin Sherkat, Thomas Wortmann, Andreas Wortmann
+**类别**: cs.RO, cs.AI, cs.SE
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18523v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### AegisAsync: Symbolic Async-Event Simulation for Risks in Python Asynchronous Programs
+**作者**: Baihong Chen, Wen Li
+**类别**: cs.CR
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18831v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### $\mathsf{EFI}\Leftrightarrow\mathsf{1PRS}$
+**作者**: Rishabh Batra
+**类别**: quant-ph, cs.CR
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18799v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Bytes to Threats: Byte-Sequence Transformer For Malware Detection
+**作者**: Abdelrahman Yassin Eljamal, Abdeltawab Hendawi
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18787v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Dynamic Attack Surfaces: A Queue of Branching Processes
+**作者**: Ismail Cosandal, Abdullah Y. Etcibasi, C. Emre Koksal, Sennur Ulukus
+**类别**: cs.IT, cs.CR, eess.SY
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18721v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### ARACDE: Retrofitting Databases with ABAC using External Authorization Engines
+**作者**: Karthikeya S M Yelisetty, Shamik Sural, Santosh Nagarakatte
+**类别**: cs.CR, cs.DB
+**发布日期**: 2026-10-13
+**链接**: http://arxiv.org/abs/2610.18660v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
