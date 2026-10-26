@@ -84692,3 +84692,111 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-10-26)
+
+### 软件工程 领域
+
+#### Runtime BiDi Structural Verification Catches Right-to-Left Layout Defects that Accessibility, Actionability, and Logical-Property Linting Miss
+**作者**: Karan Yadav
+**类别**: cs.SE, cs.HC
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32934v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations
+**作者**: Sadra Emami, Benjamin Weigell, Mohammad Reza Mousavi, Gunel Jahangirova, Hugo Araujo, Bernhard Bauer
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32891v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Trusting the Tool: Asymmetric Deference of LLM Vulnerability Auditors to Static-Analysis Evidence
+**作者**: ZhiHong Liu, Shuyao Gao
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32876v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### OpenDraco: A Platform for Engineering and Experimenting with Configurable Multi-Agent Architectures for Software Engineering
+**作者**: Xiang Feng Ye Pan, Vincenzo De Martino, Matias Martinez
+**类别**: cs.SE
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32686v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### CC4Q Workbench: From Quantum Repositories to Analyzable Code Comments
+**作者**: Zenghui Zhou, Yuechen Li, Zheng Zheng
+**类别**: cs.SE
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32651v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### STROKE: Simple Sparse Structural Occlusions for Black-Box Adversarial Attacks
+**作者**: Ankit Gupta, Akshat Pandya, Paul Lin, Christoph Adami, Emily Dolson
+**类别**: cs.CV, cs.CR, cs.HC
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32932v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### EVSEFuzz : A Tool for Automated Testing of Protocol Implementations
+**作者**: Soham Gumaste, Michael Khan, Roland Varriale, Rigel Gjomemo
+**类别**: cs.CR
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32902v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Trusting the Tool: Asymmetric Deference of LLM Vulnerability Auditors to Static-Analysis Evidence
+**作者**: ZhiHong Liu, Shuyao Gao
+**类别**: cs.SE, cs.CR, cs.LG
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32876v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Quantum Cadence: Post-Quantum Consensus with Multiple Concurrent Proposers
+**作者**: Mohammad Mussadiq Jalalzai, Tobias Klenze, Jovan Komatovic
+**类别**: cs.DC, cs.CR
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32803v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Developing Security Metrics for Automated Compliance Checking
+**作者**: Immanuel Kunz, Nico Haas, Angelika Schneider, Christian Banse
+**类别**: cs.CR
+**发布日期**: 2026-10-23
+**链接**: http://arxiv.org/abs/2610.32690v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
