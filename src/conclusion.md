@@ -84908,3 +84908,111 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-10-28)
+
+### 软件工程 领域
+
+#### An EVM-Cosmos Bridge for Atomic, Semantic-Preserving Transfer of Environmental Tokens
+**作者**: Sebastian Pandolfi, Guzmán Llambías, Laura González
+**类别**: cs.SE
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37663v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### FeatureArc: Benchmarking Coding Agents on Evolving Features
+**作者**: Yunlong Wang, Alyssa Wu, Cuiyun Gao, Jia Feng, Songyuanyi Lu, Zhichao Hu
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37434v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### HIDE: Hierarchical Isolation via Documentation and Evidence for Rustc Bugs
+**作者**: Tianrong Zhang, Yakun Zhang, Dan Hao
+**类别**: cs.SE
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37343v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Mind the Intent Gap: A Methodology for Collaborative Agent-Driven Software Engineering
+**作者**: Nicolas Tacheny, Tom Mens, Saïd Mahmoudi
+**类别**: cs.SE
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37340v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents
+**作者**: Felipe de Sant'Anna Paixão, Dhyego Tavares, Eduardo Almeida, Iftekhar Ahmed
+**类别**: cs.SE
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37332v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness
+**作者**: Igor Shilov, Xiaoxue Yang, Alexander Panfilov, Evgenii Kortukov, Matthieu Meeus, Peter Romov, Wojciech Samek, Jonas Geiping, Yves-Alexandre de Montjoye
+**类别**: cs.LG, cs.CL, cs.CR
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37657v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy
+**作者**: Atul Mantri
+**类别**: quant-ph, cs.CC, cs.CR
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37635v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Revisiting Privacy Risks in Quantized Deep Neural Networks
+**作者**: Jie Fu, Ren Li, Wendy Hui Wang
+**类别**: cs.CR
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37488v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### When POST Becomes GET: Investigating HTTP Method Interchangeability and Its Security Implications
+**作者**: Matteo Golinelli, Seif Errahmane Hannachi, Bruno Crispo
+**类别**: cs.CR
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37474v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI Chat Platforms
+**作者**: Paschalis Bekos, Billy Tsouvalas, Nick Nikiforakis, Michalis Polychronakis
+**类别**: cs.CR, cs.CY
+**发布日期**: 2026-10-27
+**链接**: http://arxiv.org/abs/2610.37467v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
