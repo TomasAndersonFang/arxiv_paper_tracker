@@ -85880,3 +85880,111 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
+
+
+## ArXiv论文 - 最近7天 (截至 2026-11-19)
+
+### 软件工程 领域
+
+#### Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses
+**作者**: Jiahang Lin, Jiahao Chen, Yiding Wang, Shichun Liu, Chengjun Pan, Shihan Dou, Honglin Guo, Yuyang Hu, Changhao Jiang, Zhenhua Han, Hang Yan, Qi Zhang, Tao Gui, Xuanjing Huang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24924v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### MicroAssert: Microarchitecture-Aware Structured Assertion Generation for CPU Verification
+**作者**: Hongqin Lyu, Yonghao Wang, Zhiteng Chao, Wenxing Li, Tiancheng Wang, Evangeline F. Y. Young, Huawei Li
+**类别**: cs.AR, cs.SE
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24872v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### MLIR-MRacle: Memory-Model-Aware Metamorphic Fuzzing of Concurrent MLIR
+**作者**: Aaron Gabayoyo, Aidan Dakhama, Ajitha Rajan
+**类别**: cs.SE
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24804v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### The Limit Is in the Input, Not the Model: State-Dependent Command Safety in Natural-Language Interfaces to Industrial Controllers
+**作者**: Hemen Taukoor, Zhaoxia Wang, Venky Shankararaman
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24682v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### DrawScore: Evaluating Generated CAD Models against Engineering Drawings
+**作者**: Haorui Chen, Shiteng Lu, Zhanyu Guo, Zaixi Li, Yunhe Ni, Yaosong Du, Yichen Xiang, Xiande Huang, Rui Huang
+**类别**: cs.CV, cs.SE
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24681v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
+
+#### "I Don't Think It's a Scam": A First Look at Family Intervention Barriers in Elder Abuse Discussions on Reddit and Baidu Tieba
+**作者**: Yipeng Wang, Huy Gia Han Vu, Jiaming Liu, Mihika Mehta, Poojitha Thota, Shirin Nilizadeh, Mohit Singhal
+**类别**: cs.SI, cs.CR, cs.CY
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24899v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids
+**作者**: Amr Elshazly, Jesse Roberts, Rachad Atat, Muhammad Ismail
+**类别**: cs.CR, cs.AI
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24765v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Stealing Exact Training Data from Other Clients during Federated Learning
+**作者**: Omkar Shrikanth, Soham Dambalkar, Parag Jyoti Pal, Advik Raj Basani, Arnab K. Paul
+**类别**: cs.LG, cs.CR, cs.DC
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24689v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### The Limit Is in the Input, Not the Model: State-Dependent Command Safety in Natural-Language Interfaces to Industrial Controllers
+**作者**: Hemen Taukoor, Zhaoxia Wang, Venky Shankararaman
+**类别**: cs.CR, cs.SE
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24682v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Gradient-Based Defensive Poisoning Against System Identification Attacks on Cyber-Physical Systems
+**作者**: Gonçalo Fernandes, José Cecílio, Victor Mattos, Daniel S. Menasché, Amit Bhaya, Alan Oliveira de Sá
+**类别**: cs.CR, eess.SY
+**发布日期**: 2026-11-18
+**链接**: http://arxiv.org/abs/2611.24662v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
