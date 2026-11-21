@@ -86044,17 +86044,62 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 
 ---
 
-### 安全领域 领域
 
-#### SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research
-**作者**: Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini, Dinesh Manocha
-**类别**: cs.CR, cs.AI, cs.SE
+## ArXiv论文 - 最近7天 (截至 2026-11-21)
+
+### 软件工程 领域
+
+#### OceanCoder: A Verification-Guided Large Language Model for Automated Simulation Modelling in Ocean Engineering
+**作者**: Can Xue, Changhong He, Ziyi Sun, Anliang Ge, Shimin Yu, Bingchen Liang
+**类别**: cs.LG, cs.SE
 **发布日期**: 2026-11-19
-**链接**: http://arxiv.org/abs/2611.26601v1
+**链接**: http://arxiv.org/abs/2611.26333v1
 
 **Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
 
 ---
+
+#### Static Analysis Guidance for Secure LLM Code Generation
+**作者**: Daniele Lunghi, Alberick Euraste Djiré, Zacharie Chenail-Larcher, Mélissa Tessa, Quentin Stiévenart, Jacques Klein, Florent Avellaneda, Naouel Moha, Tegawendé'e F. Bissyandé
+**类别**: cs.SE
+**发布日期**: 2026-11-19
+**链接**: http://arxiv.org/abs/2611.26312v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SWE-Recreation: Benchmarking Coding Agents for Software Recreation
+**作者**: Zhiyao Xu, Zhanjie Ding, Hongyao Yu, Jingyu Xiao
+**类别**: cs.SE
+**发布日期**: 2026-11-19
+**链接**: http://arxiv.org/abs/2611.26311v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SkillBridge: Cost-Aware Diagnosis and Repair of Cross-OS Compatibility Defects in Agent Skills
+**作者**: Anjie Xu, Zixing Wang, Yifeng Cai, Leye Wang
+**类别**: cs.SE, cs.AI
+**发布日期**: 2026-11-19
+**链接**: http://arxiv.org/abs/2611.26256v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### SheetAlign: Grounded Interaction and Stage-Isolated Learning for Spreadsheet Agents
+**作者**: Yuxiang Wang, Junhao Gan, Jianzhong Qi
+**类别**: cs.CL, cs.SE
+**发布日期**: 2026-11-19
+**链接**: http://arxiv.org/abs/2611.26069v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+### 安全领域 领域
 
 #### Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA
 **作者**: Alper Cakan
@@ -86091,6 +86136,16 @@ This paper investigates how cost-saving cascades using cheap verifiers lead to s
 **类别**: cs.CR, cs.AI, cs.MA
 **发布日期**: 2026-11-19
 **链接**: http://arxiv.org/abs/2611.26553v1
+
+**Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
+
+---
+
+#### Visual Attribution Limits and Graded Provenance Auditing in Commercial Video-Generation APIs
+**作者**: Haocheng Mei, Yuchuan Tian, Yingte Shu, Chao Xu, Kai Han, Hanting Chen, Yunhe Wang
+**类别**: cs.CR, cs.CV
+**发布日期**: 2026-11-19
+**链接**: http://arxiv.org/abs/2611.26508v1
 
 **Paper Analysis Error**: Invalid response object from API: '{\n  "error": {\n    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************kSQA. You can find your API key at https://platform.openai.com/account/api-keys.",\n    "type": "invalid_request_error",\n    "code": "invalid_api_key",\n    "param": null\n  },\n  "status": 401\n}' (HTTP response code was 401)
 
